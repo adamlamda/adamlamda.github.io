@@ -1,0 +1,66 @@
+# This is a basic workflow to help you get started with Actions
+
+name: CI
+
+# Controls when the action will run. Triggers the workflow on push or pull request
+# events but only for the master branch
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "build"
+  build:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+    # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+    - uses: actions/checkout@v2
+
+    # Runs a single command using the runners shell
+    - name: Run a one-line script
+      run: echo Hello, world!
+    - name: "Textile Bucket - Deploy"
+      on:
+          push:
+            branches:
+            - master
+          pull_request:
+            branches:
+            - master
+      jobs:
+        bucket_push:
+          runs-on: ubuntu-latest
+          name: push textile bucket
+          steps:
+          - name: push action
+            id: push
+            uses: textileio/github-action-buckets@latest
+            with:
+              key: ${{ secrets.bcnmj25vk2ewnd6cnhptgdwpms4 }}
+              secret: ${{ secrets.biovjalwgfgex5eydcweiec2pyzmowbkbl2w7a5a }}
+              bucket: 'bafzbeiezu7zcqvxe53ouisscrkykfwlbyvxb7khnduwipmlgehxsvrgnxi'
+              thread: 'bafk7lg73o3ltzjdudn6puklqriho4ezluyrmbuhxryeb6rhv5ncaqxq'
+#              path: '<DIRECTORY_PATH>'
+#             pattern: '<FILE_PATTERN>'
+#              remove: '<REMOVE_BUCKET?>'
+          # Use the output from the `hello` step
+          - run: echo "bucket - ${{ steps.bucket.outputs.bucket }}"
+          - run: echo "ipfs - ${{ steps.bucket.outputs.ipfs }}"
+          - run: echo "ipfs link - ${{ steps.bucket.outputs.ipfsUrl }}"
+          - run: echo "ipns - ${{ steps.bucket.outputs.ipns }}"
+          - run: echo "ipns link - ${{ steps.bucket.outputs.ipnsUrl }}"
+          - run: echo "hub - ${{ steps.bucket.outputs.hub }}"
+          - run: echo "www - ${{ steps.bucket.outputs.www }}"      
+              
+
+    # Runs a set of commands using the runners shell
+    - name: Run a multi-line script
+      run: |
+        echo Add other actions to build,
+        echo test, and deploy your project.
