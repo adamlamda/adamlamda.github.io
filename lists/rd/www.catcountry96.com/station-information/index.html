@@ -1,0 +1,1002 @@
+<!DOCTYPE HTML><html lang="en-US" xmlns:og="http://ogp.me/ns#" xmlns:fb="http://ogp.me/ns/fb#">
+
+<head>
+<meta charset="UTF-8" />
+<link rel="profile" href="http://gmpg.org/xfn/11" />
+
+<!-- Title -->
+<title>Station Information | WCTO-FM</title><link rel='dns-prefetch' href='//www.catcountry96.com' />
+<link rel='dns-prefetch' href='//see-p-elb-01.tritondigital.net' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="canonical" href="http://www.catcountry96.com/station-information/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.3\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.3\/svg\/","svgExt":".svg","source":{"wpemoji":"http:\/\/www.catcountry96.com\/wp-includes\/js\/wp-emoji.js?ver=4.9.1","twemoji":"http:\/\/www.catcountry96.com\/wp-includes\/js\/twemoji.js?ver=4.9.1"}};
+			( function( window, document, settings ) {
+	var src, ready, ii, tests;
+
+	/*
+	 * Create a canvas element for testing native browser support
+	 * of emoji.
+	 */
+	var canvas = document.createElement( 'canvas' );
+	var context = canvas.getContext && canvas.getContext( '2d' );
+
+	/**
+	 * Check if two sets of Emoji characters render the same.
+	 *
+	 * @param set1 array Set of Emoji characters.
+	 * @param set2 array Set of Emoji characters.
+	 * @returns {boolean} True if the two sets render the same.
+	 */
+	function emojiSetsRenderIdentically( set1, set2 ) {
+		var stringFromCharCode = String.fromCharCode;
+
+		// Cleanup from previous test.
+		context.clearRect( 0, 0, canvas.width, canvas.height );
+		context.fillText( stringFromCharCode.apply( this, set1 ), 0, 0 );
+		var rendered1 = canvas.toDataURL();
+
+		// Cleanup from previous test.
+		context.clearRect( 0, 0, canvas.width, canvas.height );
+		context.fillText( stringFromCharCode.apply( this, set2 ), 0, 0 );
+		var rendered2 = canvas.toDataURL();
+
+		return rendered1 === rendered2;
+	}
+
+	/**
+	 * Detect if the browser supports rendering emoji or flag emoji. Flag emoji are a single glyph
+	 * made of two characters, so some browsers (notably, Firefox OS X) don't support them.
+	 *
+	 * @since 4.2.0
+	 *
+	 * @param type {String} Whether to test for support of "flag" or "emoji".
+	 * @return {Boolean} True if the browser can render emoji, false if it cannot.
+	 */
+	function browserSupportsEmoji( type ) {
+		var isIdentical;
+
+		if ( ! context || ! context.fillText ) {
+			return false;
+		}
+
+		/*
+		 * Chrome on OS X added native emoji rendering in M41. Unfortunately,
+		 * it doesn't work when the font is bolder than 500 weight. So, we
+		 * check for bold rendering support to avoid invisible emoji in Chrome.
+		 */
+		context.textBaseline = 'top';
+		context.font = '600 32px Arial';
+
+		switch ( type ) {
+			case 'flag':
+				/*
+				 * Test for UN flag compatibility. This is the least supported of the letter locale flags,
+				 * so gives us an easy test for full support.
+				 *
+				 * To test for support, we try to render it, and compare the rendering to how it would look if
+				 * the browser doesn't render it correctly ([U] + [N]).
+				 */
+				isIdentical = emojiSetsRenderIdentically(
+					[ 55356, 56826, 55356, 56819 ],
+					[ 55356, 56826, 8203, 55356, 56819 ]
+				);
+
+				if ( isIdentical ) {
+					return false;
+				}
+
+				/*
+				 * Test for English flag compatibility. England is a country in the United Kingdom, it
+				 * does not have a two letter locale code but rather an five letter sub-division code.
+				 *
+				 * To test for support, we try to render it, and compare the rendering to how it would look if
+				 * the browser doesn't render it correctly (black flag emoji + [G] + [B] + [E] + [N] + [G]).
+				 */
+				isIdentical = emojiSetsRenderIdentically(
+					[ 55356, 57332, 56128, 56423, 56128, 56418, 56128, 56421, 56128, 56430, 56128, 56423, 56128, 56447 ],
+					[ 55356, 57332, 8203, 56128, 56423, 8203, 56128, 56418, 8203, 56128, 56421, 8203, 56128, 56430, 8203, 56128, 56423, 8203, 56128, 56447 ]
+				);
+
+				return ! isIdentical;
+			case 'emoji':
+				/*
+				 * Emoji 5 has fairies of all genders.
+				 *
+				 * To test for support, try to render a new emoji (fairy, male), then compares
+				 * it to how it would look if the browser doesn't render it correctly
+				 * (fairy + male sign).
+				 */
+				isIdentical = emojiSetsRenderIdentically(
+					[ 55358, 56794, 8205, 9794, 65039 ],
+					[ 55358, 56794, 8203, 9794, 65039 ]
+				);
+				return ! isIdentical;
+		}
+
+		return false;
+	}
+
+	function addScript( src ) {
+		var script = document.createElement( 'script' );
+
+		script.src = src;
+		script.defer = script.type = 'text/javascript';
+		document.getElementsByTagName( 'head' )[0].appendChild( script );
+	}
+
+	tests = Array( 'flag', 'emoji' );
+
+	settings.supports = {
+		everything: true,
+		everythingExceptFlag: true
+	};
+
+	for( ii = 0; ii < tests.length; ii++ ) {
+		settings.supports[ tests[ ii ] ] = browserSupportsEmoji( tests[ ii ] );
+
+		settings.supports.everything = settings.supports.everything && settings.supports[ tests[ ii ] ];
+
+		if ( 'flag' !== tests[ ii ] ) {
+			settings.supports.everythingExceptFlag = settings.supports.everythingExceptFlag && settings.supports[ tests[ ii ] ];
+		}
+	}
+
+	settings.supports.everythingExceptFlag = settings.supports.everythingExceptFlag && ! settings.supports.flag;
+
+	settings.DOMReady = false;
+	settings.readyCallback = function() {
+		settings.DOMReady = true;
+	};
+
+	if ( ! settings.supports.everything ) {
+		ready = function() {
+			settings.readyCallback();
+		};
+
+		if ( document.addEventListener ) {
+			document.addEventListener( 'DOMContentLoaded', ready, false );
+			window.addEventListener( 'load', ready, false );
+		} else {
+			window.attachEvent( 'onload', ready );
+			document.attachEvent( 'onreadystatechange', function() {
+				if ( 'complete' === document.readyState ) {
+					settings.readyCallback();
+				}
+			} );
+		}
+
+		src = settings.source || {};
+
+		if ( src.concatemoji ) {
+			addScript( src.concatemoji );
+		} else if ( src.wpemoji && src.twemoji ) {
+			addScript( src.twemoji );
+			addScript( src.wpemoji );
+		}
+	}
+
+} )( window, document, window._wpemojiSettings );
+		</script>
+		
+
+<!-- Stylesheets -->
+<link rel='stylesheet' id='headway-google-fonts' href='//fonts.googleapis.com/css?family=Oswald' type='text/css' media='all' />
+<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='bxslider-style-css'  href='http://www.catcountry96.com/wp-content/plugins/shared/js/bxslider/jquery.bxslider.css?ver=4.9.1' type='text/css' media='all' />
+<link rel='stylesheet' id='amp-promo-reel-widget-style-css'  href='http://www.catcountry96.com/wp-content/plugins/amp-promo-reel/includes/../css/widget.css?ver=4.9.1' type='text/css' media='all' />
+<link rel='stylesheet' id='headway-general-css'  href='http://www.catcountry96.com/wp-content/uploads/sites/497/headway/cache/general-03db6a7.css?ver=4.9.1' type='text/css' media='all' />
+<link rel='stylesheet' id='headway-layout-single-css'  href='http://www.catcountry96.com/wp-content/uploads/sites/497/headway/cache/layout-single-cd00248.css?ver=4.9.1' type='text/css' media='all' />
+<link rel='stylesheet' id='headway-responsive-grid-css'  href='http://www.catcountry96.com/wp-content/uploads/sites/497/headway/cache/responsive-grid-d2119e4.css?ver=4.9.1' type='text/css' media='all' />
+<meta name="builder-styles-css" content="" id="builder-styles-css">
+<link rel='stylesheet' id='amp-breaking-news-css'  href='http://www.catcountry96.com/wp-content/plugins/amp-breaking-news/public/css/public.css?ver=0.2.3' type='text/css' media='all' />
+<link rel='stylesheet' id='animate-style-css'  href='http://www.catcountry96.com/wp-content/plugins/shared/css/animate.css?ver=0.2.3' type='text/css' media='all' />
+<link rel='stylesheet' id='amp-styles-plugin-styles-css'  href='http://www.catcountry96.com/wp-content/plugins/amp-styles/css/public.css?ver=1.4.1' type='text/css' media='all' />
+<link rel='stylesheet' id='amp-events-calendar-styles-css'  href='http://www.catcountry96.com/wp-content/plugins/amp-events/css/calendar.css?ver=1.1.4' type='text/css' media='all' />
+<link rel='stylesheet' id='amp-events-export-styles-css'  href='http://www.catcountry96.com/wp-content/plugins/amp-events/css/public.css?ver=1.1.4' type='text/css' media='all' />
+<link rel='stylesheet' id='amp_feed-plugin-styles-css'  href='http://www.catcountry96.com/wp-content/plugins/amp-feeds/css/public.css?ver=0.4.0' type='text/css' media='all' />
+<link rel='stylesheet' id='amp-image-rotator-plugin-styles-css'  href='http://www.catcountry96.com/wp-content/plugins/amp-image-rotator/public/assets/css/public.css?ver=1.0.0' type='text/css' media='all' />
+<link rel='stylesheet' id='amp-listen-live-plugin-styles-css'  href='http://www.catcountry96.com/wp-content/plugins/amp-listen-live/public/assets/css/public.css?ver=1.4.4' type='text/css' media='all' />
+<link rel='stylesheet' id='amp-onair-plugin-styles-css'  href='http://www.catcountry96.com/wp-content/plugins/amp-onair/public/assets/css/public.css?ver=1.7.1' type='text/css' media='all' />
+<link rel='stylesheet' id='AMPPromoReel-plugin-styles-css'  href='http://www.catcountry96.com/wp-content/plugins/amp-promo-reel/css/public.css?ver=1.4.0' type='text/css' media='all' />
+<link rel='stylesheet' id='mediaelement-css'  href='http://www.catcountry96.com/wp-includes/js/mediaelement/mediaelementplayer-legacy.min.css?ver=4.2.6-78496d1' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-mediaelement-css'  href='http://www.catcountry96.com/wp-includes/js/mediaelement/wp-mediaelement.css?ver=4.9.1' type='text/css' media='all' />
+<link rel='stylesheet' id='amp-tabs-plugin-styles-css'  href='http://www.catcountry96.com/wp-content/plugins/amp-tabs/public/assets/css/public.css?ver=1.0.0' type='text/css' media='all' />
+<link rel='stylesheet' id='amp-header-rotator-css'  href='http://www.catcountry96.com/wp-content/themes/Headway-AMP_CMS/css/amp-header-rotator.css?ver=1.1.5' type='text/css' media='all' />
+<link rel="stylesheet" type="text/css" media="all" href="http://www.catcountry96.com/wp-content/themes/Headway-AMP_CMS/style.css" />
+
+<!-- Scripts -->
+<script type='text/javascript' src='http://www.catcountry96.com/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='http://www.catcountry96.com/wp-includes/js/jquery/jquery-migrate.js?ver=1.4.1'></script>
+<script type='text/javascript' src='http://www.catcountry96.com/wp-content/themes/headway/library/blocks/navigation/js/selectnav.js?ver=1533183780'></script>
+<script type='text/javascript' src='http://www.catcountry96.com/wp-content/themes/headway/library/media/js/jquery.hoverintent.js?ver=4.9.1'></script>
+<script type='text/javascript' src='http://www.catcountry96.com/wp-content/themes/headway/library/blocks/navigation/js/jquery.superfish.js?ver=4.9.1'></script>
+<script type='text/javascript' src='http://www.catcountry96.com/wp-content/uploads/sites/497/headway/cache/block-dynamic-js-layout-single-769a883.js?ver=4.9.1'></script>
+<script type='text/javascript' src='http://www.catcountry96.com/wp-content/plugins/shared/js/bxslider/jquery.bxslider.min.js?ver=4.9.1'></script>
+<script type='text/javascript' src='http://www.catcountry96.com/wp-content/plugins/amp-promo-reel/includes/../js/widget.js?ver=1.4.0'></script>
+<script type='text/javascript' src='http://www.catcountry96.com/wp-content/themes/headway/library/media/js/jquery.fitvids.js?ver=4.9.1'></script>
+<script type='text/javascript' src='http://www.catcountry96.com/wp-content/uploads/sites/497/headway/cache/responsive-grid-js-e6e6939.js?ver=4.9.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var _ampconfig = {"site_url":"http:\/\/www.catcountry96.com","site_id":"497","tz":"America\/New_York","tz_offset":"-4","ts":"1533183780","blog_name":"WCTO-FM","client_name":"cumuluspro","user_ID":"","ts_offset":"1535350989","version":"2.47.0.3","env":"prod","settings":{"tenant_id":"see_10438","syn_site_name":"WCTO-FM","selector_logo":false,"selector_masthead":false,"selector_nav":false,"selector_rotator":false,"default_show_name":"Cat Country 96","default_show_img":"http:\/\/images.tritondigitalcms.com\/6616\/sites\/497\/2018\/08\/13153015\/421229_10150827050257837_1775396366_n.jpg","gtm_id":false,"vidible_company_key":"06125e55709b3c4ffdfe3c3f8a9ed8bd","client_name":false,"nielsen_provider":"cumulus","promoreel_priority":true}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.catcountry96.com/wp-content/plugins/shared/js/amp-common.js?ver=1533183780'></script>
+<script type='text/javascript' src='http://www.catcountry96.com/wp-content/plugins/amp-breaking-news/public/js/public.js?ver=0.2.3'></script>
+<script type='text/javascript' src='http://www.catcountry96.com/wp-content/plugins/amp-styles/js/public.js?ver=1.4.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var dates = {"start_of_week":"1","moment_date_format":"MMMM D, YYYY","moment_time_format":"h:mm a","calendar_date_format":"MMMM d, yyyy","calendar_time_format":"h:mm tt","date_format":"MM d, yy","time_format":"h:mm tt"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.catcountry96.com/wp-content/plugins/amp-events/js/calendar.js?ver=1.1.4'></script>
+<script type='text/javascript' src='http://www.catcountry96.com/wp-content/plugins/amp-events/js/public.js?ver=1.1.4'></script>
+<script type='text/javascript' src='http://www.catcountry96.com/wp-content/plugins/amp-feeds/js/jquery.totemticker.min.js?ver=0.4.0'></script>
+<script type='text/javascript' src='http://www.catcountry96.com/wp-includes/js/jquery/ui/core.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://www.catcountry96.com/wp-includes/js/jquery/ui/widget.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://www.catcountry96.com/wp-includes/js/jquery/ui/tabs.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://www.catcountry96.com/wp-content/plugins/amp-feeds/js/amp-feed.js?ver=0.4.0'></script>
+<script type='text/javascript' src='http://www.catcountry96.com/wp-content/plugins/amp-feeds/js/public.js?ver=0.4.0'></script>
+<script type='text/javascript' src='http://www.catcountry96.com/wp-content/plugins/amp-feeds/js/date.js?ver=0.4.0'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var _amplistenlive = {"blog_id":"497","callsign":"","mount_name":"WCTOFM","provider":"stream_the_world","gmt_offset":"-14400"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.catcountry96.com/wp-content/plugins/amp-listen-live/public/assets/js/public.js?ver=1.4.4'></script>
+<script type='text/javascript' src='http://www.catcountry96.com/wp-content/plugins/amp-onair/public/assets/js/public.js?ver=1.7.1'></script>
+<script type='text/javascript' src='//see-p-elb-01.tritondigital.net/widget/see_10438/see.js?ver=1.3.0'></script>
+<script type='text/javascript' src='http://www.catcountry96.com/wp-content/themes/Headway-AMP_CMS/js/amp-theme.js?ver=1.1.5'></script>
+
+<!--[if lt IE 9]>
+<script src="http://www.catcountry96.com/wp-content/themes/headway/library/media/js/html5shiv.js"></script>
+<![endif]-->
+
+<!--[if lt IE 8]>
+<script src="http://www.catcountry96.com/wp-content/themes/headway/library/media/js/ie8.js"></script>
+<![endif]-->
+
+<script type='text/javascript'>
+var googletag = googletag || {};
+googletag.cmd = googletag.cmd || [];
+(function() {
+var gads = document.createElement('script');
+gads.async = true;
+gads.type = 'text/javascript';
+var useSSL = 'https:' == document.location.protocol;
+gads.src = (useSSL ? 'https:' : 'http:') + 
+'//www.googletagservices.com/tag/js/gpt.js';
+var node = document.getElementsByTagName('script')[0];
+node.parentNode.insertBefore(gads, node);
+})();
+</script>
+<script type='text/javascript'>
+googletag.cmd.push(function() {
+
+var leaderboardSizeMap = googletag.sizeMapping()
+ .addSize([970, 0], [[728, 90], [970, 90]])
+ .addSize([750,0], [728,90])
+ .addSize([0, 0], [[320, 50], [320, 53]])
+ .build();
+
+googletag.defineSlot('/6717/cd.WCTO.FM', [[300, 250], [300, 600]], 'div-gpt-ad-1418849849333-0').addService(googletag.pubads())
+.setCollapseEmptyDiv(true).setTargeting("pos","mid");
+googletag.defineSlot('/6717/cd.WCTO.FM', [[728, 90], [970, 90]], 'div-gpt-ad-1418849849333-1').addService(googletag.pubads())
+.defineSizeMapping(leaderboardSizeMap).setCollapseEmptyDiv(true).setTargeting("pos","top");
+googletag.defineSlot('/6717/cd.WCTO.FM', [[728, 90], [970, 90]], 'div-gpt-ad-1418849849333-2').addService(googletag.pubads())
+.defineSizeMapping(leaderboardSizeMap).setCollapseEmptyDiv(true).setTargeting("pos","bot");
+googletag.defineSlot('/6717/cd.WCTO.FM', [[300, 250], [300, 600]], 'div-gpt-ad-1418849849333-3').addService(googletag.pubads())
+.setCollapseEmptyDiv(true).setTargeting("pos","mid2");
+googletag.defineSlot('/6717/cd.WCTO.FM', [[160, 600]], 'div-gpt-ad-1418849849333-4').addService(googletag.pubads())
+.setCollapseEmptyDiv(true).setTargeting("pos","left");
+googletag.defineSlot('/6717/cd.WCTO.FM', [[160, 600]], 'div-gpt-ad-1418849849333-5').addService(googletag.pubads())
+.setCollapseEmptyDiv(true).setTargeting("pos","right");
+googletag.defineSlot('/6717/cd.WCTO.FM', [[654, 70]], 'div-gpt-ad-1418849849333-6').addService(googletag.pubads())
+.setCollapseEmptyDiv(true).setTargeting("pos","rdioplayer");
+googletag.defineSlot('/6717/cd.WCTO.FM', [[300, 100]], 'div-gpt-ad-1418849849333-7').addService(googletag.pubads())
+.setCollapseEmptyDiv(true).setTargeting("pos","contest1");
+googletag.defineSlot('/6717/cd.WCTO.FM', [[300, 100]], 'div-gpt-ad-1418849849333-8').addService(googletag.pubads())
+.setCollapseEmptyDiv(true).setTargeting("pos","contest2");
+googletag.defineSlot('/6717/cd.WCTO.FM', [[300, 100]], 'div-gpt-ad-1418849849333-9').addService(googletag.pubads())
+.setCollapseEmptyDiv(true).setTargeting("pos","contest3");
+googletag.defineSlot('/6717/cd.WCTO.FM', [[100, 51]], 'div-gpt-ad-1418849849333-10').addService(googletag.pubads())
+.setCollapseEmptyDiv(true).setTargeting("pos","rdiobutton");
+googletag.defineSlot('/6717/cd.WCTO.FM', [[113, 23]], 'div-gpt-ad-1418849849333-11').addService(googletag.pubads())
+.setCollapseEmptyDiv(true).setTargeting("pos","feedsponsor1");
+googletag.defineSlot('/6717/cd.WCTO.FM', [[113, 23]], 'div-gpt-ad-1418849849333-12').addService(googletag.pubads())
+.setCollapseEmptyDiv(true).setTargeting("pos","feedsponsor2");
+googletag.defineSlot('/6717/cd.WCTO.FM', [[113, 23]], 'div-gpt-ad-1418849849333-13').addService(googletag.pubads())
+.setCollapseEmptyDiv(true).setTargeting("pos","feedsponsor3");
+googletag.defineSlot('/6717/cd.WCTO.FM', [[113, 23]], 'div-gpt-ad-1418849849333-14').addService(googletag.pubads())
+.setCollapseEmptyDiv(true).setTargeting("pos","feedsponsor4");
+googletag.defineSlot('/6717/cd.WCTO.fm', [[1, 1]],'div-gpt-ad-1418849849333-16').addService(googletag.pubads())
+.setTargeting("pos","wallpaper-ad");
+googletag.pubads().enableSingleRequest();
+googletag.enableServices();
+googletag.defineSlot('/6717/cd.WCTO.fm', [[300, 250], [300, 600]], 'div-gpt-ad-1418849849333-18').setCollapseEmptyDiv(true).addService(googletag.pubads())
+.setTargeting("pos","midresponsive");
+});
+</script>
+
+<!--ONESTAT SCRIPTCODE START Embed Player-->
+  <script type="text/javascript">
+  <!--
+  jQuery(document).ready(function(){
+    var d=document;
+    var sid="wcto-fm.cumulus";
+    var CONTENTSECTION="";
+    var osp_URL=d.URL;
+    var osp_Title=d.title;
+    var t=new Date();
+    var p="http"+(d.URL.indexOf('https:')==0?'s':'')+"://stat.onestat.com/stat.aspx?tagver=2&sid="+sid;
+    p+="&url="+escape(osp_URL);
+    p+="&ti="+escape(osp_Title);
+    p+="&section="+escape(CONTENTSECTION);
+    p+="&rf="+escape(parent==self?document.referrer:top.document.referrer);
+    p+="&tz="+escape(t.getTimezoneOffset());
+    p+="&ch="+escape(t.getHours());
+    p+="&js=1";
+    p+="&ul="+escape(navigator.appName=="Netscape"?navigator.language:navigator.userLanguage);
+    if(osp_URL!=d.URL) p+="&ol="+escape(d.URL);
+    if(typeof(screen)=="object"){
+       p+="&sr="+screen.width+"x"+screen.height;p+="&cd="+screen.colorDepth;
+       p+="&jo="+(navigator.javaEnabled()?"Yes":"No");
+    }
+
+    var imgTag = '<img border="0" height="0" width="0" id="ONESTAT_TAG" src="' + p + '">'
+    jQuery('body').append(imgTag);
+
+  })
+  //-->
+  </script> 
+<!--ONESTAT SCRIPTCODE END-->
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','corpDataLayer','GTM-M2NTFN');</script>
+<!-- End Google Tag Manager -->
+
+<!-- BEGIN INFINITE FACEBOOK PIXEL -->
+<script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '181461212508101');
+  fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=181461212508101&ev=PageView&noscript=1"
+/></noscript>
+<!-- END INFINITE FACEBOOK PIXEL -->
+<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
+<link rel="alternate" type="application/rss+xml" title="WCTO-FM &raquo; Feed" href="http://www.catcountry96.com/feed/" />
+<link rel='shortlink' href='http://www.catcountry96.com/?p=95' />
+<script type="text/javascript">var ajaxurl = "http://www.catcountry96.com/wp-admin/admin-ajax.php"</script><script type="text/javascript">var ajaxurl = "http://www.catcountry96.com/wp-admin/admin-ajax.php"</script>
+<!-- AMP CMS DFP custom tags -->
+<script type='text/javascript'>
+  googletag.cmd.push(function() {
+      googletag.pubads().setTargeting('cms-sname', 'WCTOFM');
+      googletag.pubads().setTargeting('cms-sgroup', ['All Sites', 'Format  Country', 'Market  AllentownBethlehem PA', 'Format Country New']);
+      googletag.pubads().setTargeting('cms-ptitle', 'Station Information');
+  });
+</script>
+
+<!-- START - Facebook Open Graph, Google+ and Twitter Card Tags 2.0.4 -->
+ <!-- Facebook Open Graph -->
+  <meta property="og:locale" content="en_US"/>
+  <meta property="og:site_name" content="WCTO-FM"/>
+  <meta property="og:title" content="Station Information"/>
+  <meta property="og:url" content="http://www.catcountry96.com/station-information/"/>
+  <meta property="og:type" content="article"/>
+  <meta property="og:description" content="It&#039;s easy to get in touch with the CAT! 
+
+CAT Email: studio@catcountry96.com
+
+CAT Facebook Page:  http://facebook.com/catcountry96fm
+
+CAT Phone:  610-720-9696
+
+CAT Office Phone:  610-266-7600
+
+CAT Snail Mail:  2158 Avenue C, Suite 100, Bethlehem, PA 18017
+
+CAT Advertising: Elizabeth Pemb"/>
+ <!-- Google+ / Schema.org -->
+  <meta itemprop="name" content="Station Information"/>
+  <meta itemprop="description" content="It&#039;s easy to get in touch with the CAT! 
+
+CAT Email: studio@catcountry96.com
+
+CAT Facebook Page:  http://facebook.com/catcountry96fm
+
+CAT Phone:  610-720-9696
+
+CAT Office Phone:  610-266-7600
+
+CAT Snail Mail:  2158 Avenue C, Suite 100, Bethlehem, PA 18017
+
+CAT Advertising: Elizabeth Pemb"/>
+ <!-- Twitter Cards -->
+  <meta name="twitter:title" content="Station Information"/>
+  <meta name="twitter:url" content="http://www.catcountry96.com/station-information/"/>
+  <meta name="twitter:description" content="It&#039;s easy to get in touch with the CAT! 
+
+CAT Email: studio@catcountry96.com
+
+CAT Facebook Page:  http://facebook.com/catcountry96fm
+
+CAT Phone:  610-720-9696
+
+CAT Office Phone:  610-266-7600
+
+CAT Snail Mail:  2158 Avenue C, Suite 100, Bethlehem, PA 18017
+
+CAT Advertising: Elizabeth Pemb"/>
+  <meta name="twitter:card" content="summary_large_image"/>
+ <!-- SEO -->
+ <!-- Misc. tags -->
+<!-- END - Facebook Open Graph, Google+ and Twitter Card Tags 2.0.4 -->
+
+
+</head><!-- End <head> -->
+
+<body class="page-template-default page page-id-95 custom responsive-grid-enabled responsive-grid-active pageid-95 page-slug-station-information layout-single-page-95 layout-using-single builder-parallax-scrolling-active" itemscope itemtype="http://schema.org/WebPage">
+
+
+<div id="whitewrap">
+
+
+<div id="wrapper-48" class="wrapper wrapper-fluid wrapper-fixed-grid grid-fluid-24-32-10 responsive-grid wrapper-mirroring-8 wrapper-first wrapper-header" data-alias="Wrapper Header">
+
+<div class="grid-container clearfix">
+
+<section class="row row-1">
+
+<section class="column column-1 grid-left-0 grid-width-24">
+<div id="block-27" class="block block-type-custom-code block-fluid-height" data-alias="728x90 Leaderboard Ad">
+<div class="block-content">
+<div align="center">
+<div id='div-gpt-ad-1418849849333-1'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1418849849333-1'); });
+</script>
+</div>    
+</div>
+</div><!-- .block-content -->
+
+</div><!-- #block-27 -->
+
+</section><!-- .column -->
+
+</section><!-- .row -->
+
+
+<section class="row row-2">
+
+<section class="column column-1 grid-left-0 grid-width-6">
+<figure id="block-31" class="logo block block-type-image block-fixed-height" data-alias="Logo" itemscope="" itemtype="http://schema.org/ImageObject">
+<div class="block-content">
+<a href="/" class="image" ><img src="http://cumulus.pro.poolb.tritondigitalcms.com/wcto-fm/wp-content/uploads/sites/497/2015/03/site-logo.png" alt="" title="" itemprop="contentURL"/></a>
+</div><!-- .block-content -->
+
+</figure><!-- #block-31 -->
+
+</section><!-- .column -->
+
+<section class="column column-2 grid-left-0 grid-width-15">
+
+<section class="sub-column sub-column-1 column column-1 grid-width-6 grid-left-0">
+<aside id="block-29" class="on-air block block-type-widget-area block-fluid-height" data-alias="Home - On Air Now" itemscope="" itemtype="http://schema.org/WPSideBar">
+<div class="block-content">
+<ul class="widget-area"><div class="amp-onair-widget" id="amp_onair_widget-2"
+	data-title-now=""
+	data-title-upcoming=""
+	data-title=""
+	data-type="nowplaying"
+	data-change-minutes="5"
+	data-change="0"
+	data-toggle-time="10"
+	data-fields="image,timeslot"
+	data-ajaxurl="http://www.catcountry96.com/wp-admin/admin-ajax.php"
+	data-updateurl="http://www.catcountry96.com/shows/feed/?type=json"
+	data-memcached="1"
+	data-expiration="1535364000">
+	
+<div class="amp-onair-show nowplaying" >
+
+    <div class="amp-onair-widget-title js-widget-title"></div>
+
+        <div class="amp-onair-show-image">
+                    <img class="js-image amp-onair-show-image-img" src="http://images.tritondigitalcms.com/6616/sites/497/2015/03/13153607/BM5use-40x40.jpg"  />
+            </div>
+        
+    <div class="amp-onair-show-title">
+            <span class="js-title">Becca &amp; Malone in the Morning</span>
+        </div>
+    
+        <div class="amp-onair-show-timeslot js-timeslot" >5:00 a.m. - 10:00 a.m.</div>
+        
+        
+    
+</div>
+</div></ul>
+</div><!-- .block-content -->
+
+</aside><!-- #block-29 -->
+
+</section><!-- .sub-column -->
+
+<section class="sub-column sub-column-2 column column-2 grid-width-9 grid-left-0">
+<section id="block-30" class="social-nav block block-type-social block-fixed-height" data-alias="Social Navigation">
+<div class="block-content">
+<div class="social-icons-container"><ul class="social-icons"><li><a href="#"><img src="http://www.catcountry96.com/wp-content/uploads/sites/497/2016/04/listen-live.png" title="Listen Live!!" class="img-1"  /></a></li><li><a href="/listen-live-with-alexa"><img src="http://images.tritondigitalcms.com/6616/sites/497/2018/01/02161402/Alexa-Social-Logo-MUSIC.png" alt="Alexa" class="img-2"  /></a></li><li><a href="https://www.facebook.com/catcountry96fm" target="_blank"><img src="http://cumulus.pro.poolb.tritondigitalcms.com/wcto-fm/wp-content/uploads/sites/497/2014/10/facebook.png" title="Like us on Facebook!" class="img-3"  /></a></li><li><a href="https://www.instagram.com/catcountry96/" target="_blank"><img src="http://www.catcountry96.com/wp-content/uploads/sites/497/2016/05/instagramicon.png" title="Instragram" class="img-4"  /></a></li><li><a href="https://twitter.com/CATCOUNTRY961" target="_blank"><img src="http://cumulus.pro.poolb.tritondigitalcms.com/wcto-fm/wp-content/uploads/sites/497/2014/10/twitter.png" title="Follow us on Twitter!" class="img-5"  /></a></li><li><a href="http://catcountry96fm.listenernetwork.com/" target="_blank"><img src="http://cumulus.pro.poolb.tritondigitalcms.com/wcto-fm/wp-content/uploads/sites/497/2015/01/cumulus-vip.png" title="VIP" class="img-6"  /></a></li></ul></div><!-- .social-icons-container -->
+</div><!-- .block-content -->
+
+</section><!-- #block-30 -->
+
+</section><!-- .sub-column -->
+<nav id="block-32" class="main-nav block block-type-navigation block-fluid-height" data-alias="Main Navigation" itemscope="" itemtype="http://schema.org/SiteNavigationElement">
+<div class="block-content">
+<div class="nav-horizontal nav-align-left"><ul id="menu-main-navigation" class="menu"><li id="menu-item-1028759" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1028759"><a href="http://www.catcountry96.com/on-air/">On-Air</a>
+<ul class="sub-menu">
+	<li id="menu-item-63683" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-63683"><a href="http://www.catcountry96.com/becca-malone-in-the-morning/">Becca &#038; Malone in the Morning</a></li>
+	<li id="menu-item-1028589" class="menu-item menu-item-type-post_type menu-item-object-amp-onair-show menu-item-1028589"><a href="http://www.catcountry96.com/shows/becca-lynn-2/">Becca Lynn</a></li>
+	<li id="menu-item-63692" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-63692"><a href="http://www.catcountry96.com/kristy-obrian/">Kristy O&#8217;Brian</a></li>
+	<li id="menu-item-63701" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-63701"><a href="http://www.catcountry96.com/jerry-padden/">Jerry Padden</a></li>
+	<li id="menu-item-685286" class="menu-item menu-item-type-post_type menu-item-object-amp-onair-show menu-item-685286"><a href="http://www.catcountry96.com/shows/nash-nights-live-2/">Nash Nights Live</a></li>
+	<li id="menu-item-685289" class="menu-item menu-item-type-post_type menu-item-object-amp-onair-show menu-item-685289"><a href="http://www.catcountry96.com/shows/kix-brooks/">Kix Brooks</a></li>
+	<li id="menu-item-63734" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-63734"><a href="http://www.catcountry96.com/country-top-40/">Country Top 40</a></li>
+</ul>
+</li>
+<li id="menu-item-121" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-121"><a href="http://www.catcountry96.com/features/">Features</a>
+<ul class="sub-menu">
+	<li id="menu-item-63797" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-63797"><a href="http://www.catcountry96.com/philadelphia-eagles-radio-network/">Philadelphia Eagles</a></li>
+	<li id="menu-item-987339" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-987339"><a href="http://www.catcountry96.com/2013/10/22/join-the-cat-country-text-club/">CAT Country 96 Text Club!</a></li>
+</ul>
+</li>
+<li id="menu-item-127" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-127"><a href="/amp-events/">Events</a>
+<ul class="sub-menu">
+	<li id="menu-item-66950" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-66950"><a href="http://www.catcountry96.com/cat-apperances/">CAT Appearances</a></li>
+	<li id="menu-item-66920" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-66920"><a href="http://www.catcountry96.com/cat-concerts/">CAT Concerts</a></li>
+	<li id="menu-item-892697" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-892697"><a href="http://www.catcountry96.com/cat-for-the-community/">CAT for the Community</a></li>
+	<li id="menu-item-531714" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-531714"><a href="http://www.catcountry96.com/work/">Lehigh Valley Job Fair</a></li>
+</ul>
+</li>
+<li id="menu-item-123" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-123"><a href="http://www.catcountry96.com/contests/">Contests</a>
+<ul class="sub-menu">
+	<li id="menu-item-63827" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-63827"><a href="http://www.catcountry96.com/winning-on-the-cat/">Winning on the CAT</a></li>
+	<li id="menu-item-63830" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-63830"><a href="http://www.catcountry96.com/cat-country-96-general-contest-rules/">Cat Country 96 General Contest Rules</a></li>
+</ul>
+</li>
+<li id="menu-item-125" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-125"><a href="http://www.catcountry96.com/news/">News</a>
+<ul class="sub-menu">
+	<li id="menu-item-662066" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-662066"><a href="http://www.catcountry96.com/nash-country-daily/">Nash Country Daily</a></li>
+	<li id="menu-item-64790" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-64790"><a href="http://www.catcountry96.com/category/cnn-us/">National News</a></li>
+	<li id="menu-item-64793" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-64793"><a href="http://www.catcountry96.com/category/cnn-sports/">Sports News</a></li>
+</ul>
+</li>
+<li id="menu-item-320013" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-320013"><a href="#">Videos</a>
+<ul class="sub-menu">
+	<li id="menu-item-320019" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-320019"><a href="http://www.catcountry96.com/1111/11/11/cnn-news/">CNN News</a></li>
+</ul>
+</li>
+<li id="menu-item-833028" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-833028"><a href="http://wcto-fm.mygameroom.com">Games</a></li>
+<li id="menu-item-117" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-117"><a href="http://allentown.sweetdealscumulus.com/">Sweet Deals</a></li>
+<li id="menu-item-757580" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-757580"><a href="http://www.catcountry96.com/advertise-with-us/">Advertise With Us</a>
+<ul class="sub-menu">
+	<li id="menu-item-981746" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-981746"><a href="http://www.catcountry96.com/2017/06/13/cmail/">CMAIL</a></li>
+</ul>
+</li>
+</ul></div><!-- .nav-horizontal nav-align-left -->
+</div><!-- .block-content -->
+
+</nav><!-- #block-32 -->
+
+</section><!-- .column -->
+
+<section class="column column-3 grid-left-0 grid-width-3">
+<div id="block-bv55a8dba3f2c0f3" class="gigya-actions block block-type-custom-code block-fluid-height" data-alias="Gigya Profile Actions">
+<div class="block-content">
+<div class="see-widget" data-see-type="regUi" data-see-loginbonus="false"></div>
+</div><!-- .block-content -->
+
+</div><!-- #block-bv55a8dba3f2c0f3 -->
+<nav id="block-33" class="nav-search block block-type-navigation block-fluid-height" data-alias="Navigation Search" itemscope="" itemtype="http://schema.org/SiteNavigationElement">
+<div class="block-content">
+<div class="nav-horizontal nav-align-left nav-search-active nav-search-position-left"><div class="nav-search">
+		<form method="get" id="searchform" action="http://www.catcountry96.com/">
+			<label for="s" class="assistive-text">Search</label>
+			<input type="text" class="field" name="s" id="s" value="Search" onclick="if(this.value=='Search')this.value='';" onblur="if(this.value=='')this.value='Search';" />
+			<input type="submit" class="submit" name="searchsubmit" id="searchsubmit" value="Search" />
+		</form>
+	</div></div><!-- .nav-horizontal nav-align-left nav-search-active nav-search-position-left -->
+</div><!-- .block-content -->
+
+</nav><!-- #block-33 -->
+
+</section><!-- .column -->
+
+</section><!-- .row -->
+
+
+<section class="row row-3">
+
+<section class="column column-1 grid-left-0 grid-width-5">
+<div id="block-b8z54a44441b0250" class="takeover-left block block-type-custom-code block-fluid-height" data-alias="Skyscraper - Left">
+<div class="block-content">
+<div id='div-gpt-ad-1418849849333-4'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1418849849333-4'); });
+</script>
+</div>
+</div><!-- .block-content -->
+
+</div><!-- #block-b8z54a44441b0250 -->
+
+</section><!-- .column -->
+
+<section class="column column-2 grid-left-0 grid-width-5">
+<div id="block-b0b54a44441b2caa" class="takeover-right block block-type-custom-code block-fluid-height" data-alias="Skyscraper - Right">
+<div class="block-content">
+<div id='div-gpt-ad-1418849849333-5'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1418849849333-5'); });
+</script>
+</div>
+</div><!-- .block-content -->
+
+</div><!-- #block-b0b54a44441b2caa -->
+
+</section><!-- .column -->
+
+</section><!-- .row -->
+
+
+</div><!-- .grid-container -->
+
+</div><!-- .wrapper -->
+
+<div id="wrapper-49" class="wrapper wrapper-fluid wrapper-fixed-grid grid-fluid-24-32-10 responsive-grid wrapper-content" data-alias="Wrapper Content">
+
+<div class="grid-container clearfix">
+
+<section class="row row-1">
+
+<section class="column column-1 grid-left-0 grid-width-16">
+<div id="block-130" class="block block-type-content block-fluid-height" data-alias="">
+<div class="block-content">
+<div class="loop"><article id="post-95" class="post-95 page type-page status-publish hentry author-tritonadmin " itemscope itemtype="http://schema.org/BlogPosting"><header><h1 class="entry-title" itemprop="headline">Station Information</h1></header><div class="entry-content" itemprop="text"><p><span style="font-family: Verdana; font-size: small;">It&#8217;s easy to get in touch with the CAT! </span></p>
+<p><span style="font-family: Verdana; font-size: small;"><strong>CAT Email: <a href="mailto:studio@catcountry96.com">studio@catcountry96.com</a></strong></span></p>
+<p><span style="font-family: Verdana; font-size: small;"><strong>CAT Facebook Page:  <a href="http://facebook.com/catcountry96fm1" target="new">http://facebook.com/catcountry96fm</a></strong></span></p>
+<p><span style="font-family: Verdana; font-size: small;"><strong>CAT Phone:  610-720-9696</strong></span></p>
+<p><span style="font-family: Verdana; font-size: small;"><strong>CAT Office Phone:  610-266-7600</strong></span></p>
+<p><span style="font-family: Verdana; font-size: small;"><strong>CAT Snail Mail:  </strong>2158 Avenue C, Suite 100, Bethlehem, PA 18017</span></p>
+<p><span style="font-family: Verdana; font-size: small;"><strong>CAT Advertising:</strong> Elizabeth Pembleton<a href="mailto:elizabeth.pembleton@cumulus.com">elizabeth.pembleton@cumulus.com</a></span></p>
+<p><strong><span style="font-family: Verdana; font-size: small;">CAT Programming: </span></strong><span style="font-family: Verdana; font-size: small;">Jerry Padden <a href="mailto:jerry.padden@cumulus.com">jerry.padden@cumulus.com</a></span></p>
+<p><strong><span style="font-family: Verdana; font-size: small;">CAT Promotions: </span></strong><span style="font-family: Verdana;">Barry Dawson <a href="mailto:barry.dawson@cumulus.com?subject=Station%20Website%20Inquiry">barry.dawson@cumulus.com</a></span></p>
+<p><span style="font-family: Verdana; font-size: small;"><strong>CAT Country 96 </strong>is part of Cumulus Allentown, and is located in an Industrial Park by Lehigh Valley International Airport in Bethlehem. We are open Monday through Friday from 8a-5p for prize pick-up.  If you have questions, please call our offices at 610-266-7600.</span></p>
+<p><strong><span style="font-family: Verdana; font-size: small;"><span style="text-decoration: underline; color: #000000;">Prize Pickup</span></span><span style="font-family: Verdana; font-size: small;">:</span></strong> Always bring a valid ID during normal business hours to claim prizes. Winner must pick up prizes in person. Prizes cannot be mailed to winner. Prizes must be claimed within 30 days of winning the prize. In the event your prize was not availble for pickup when you won, you will have 30 days to claim the prize once you recieve a phone call that your prize is available. If you have any questions, please contact 610-266-7600.</p>
+<p><strong><span style="font-family: Verdana; font-size: small;"><span style="text-decoration: underline; color: #000000;">DIRECTIONS</span>:</span></strong></p>
+<p><span style="font-family: Verdana; font-size: small;"><span style="color: #000000;">From 22 EASTBOUND</span><strong>:</strong> Take 22 Eastbound to Airport Road North. At the second red light, take a right on to City Line. Your first left is Avenue C. Citadel Broadcasting is at 2158 Avenue C, a white building on the Left-hand side. If you pass RCN, you&#8217;ve just passed us!</span></p>
+<p><span style="font-family: Verdana; font-size: small;"><span style="color: #000000;">From 22 WESTBOUND</span><strong>:</strong> Take Shoenersville Road. Turn left on Avenue C. We are up ahead on the Right, at 2158 Avenue C. We are the building after RCN.</span></p>
+<p><span style="font-family: Verdana; font-size: small;"><span style="color: #000000;"><strong><span style="text-decoration: underline;">HOLIDAY HOURS</span></strong></span>:</span></p>
+<div>
+<div>We are closed the following holidays and will not be open to for prize pick-up:</div>
+<div>• New Year&#8217;s Day</div>
+<div>• Martin Luther King Day</div>
+<div>• Presidents Day</div>
+<div>• Memorial Day</div>
+<div>• Independence Day</div>
+<div>• Labor Day</div>
+<div>• Thanksgiving Day</div>
+<div>• Black Friday</div>
+<div>• Christmas Day</div>
+<div></div>
+</div>
+<div>Additionally, we will be closing at 2:00 pm local time the day before each holiday or holiday weekend, as applicable.</div>
+<div></div>
+<p><span style="color: #000000;"><strong><span style="text-decoration: underline;"><a style="color: #000000;" href="http://www.cumulus.com/careers"><span style="font-family: Verdana; font-size: small;">CLICK HERE FOR JOB OPPORTUNITIES</span></a></span></strong></span></p>
+<p>&nbsp;</p>
+<p><span style="text-decoration: underline;"><span style="color: #000000;"><strong>INTERNSHIPS</strong></span></span>: All internships must be accredited from a recognized college or university. To apply, please send a cover letter and resume to:<a href="http://Barry.Dawson@cumulus.com/" target="_blank" rel="noopener">Barry.Dawson@cumulus.com </a></p>
+<p>&nbsp;</p>
+<div><a href="http://www.catcountry96.com/wp-content/uploads/sites/497/2018/03/Cumulus-Allentown-040116-033117-EEO-Report-v2-final.pdf" target="_blank" rel="noopener">Cumulus-Allentown 040116-033117 EEO Report</a></div>
+<div><a href="http://www.catcountry96.com/wp-content/uploads/sites/497/2018/03/Cumulus-Allentown-040117-033118-EEO-Report-v2-final.pdf" target="_blank" rel="noopener">Cumulus-Allentown 040117-033118 EEO Report</a></div>
+<div id="themify_builder_content-95" data-postid="95" class="themify_builder_content themify_builder_content-95 themify_builder">
+
+    </div>
+<!-- /themify_builder_content --></div><!-- .entry-content --></article><!-- #post-95 --></div>
+</div><!-- .block-content -->
+
+</div><!-- #block-130 -->
+
+</section><!-- .column -->
+
+<section class="column column-2 grid-left-0 grid-width-8">
+<div id="block-34" class="300x250-ad-1 block block-type-custom-code block-fluid-height responsive-block-hiding-device-smartphones block-mirrored block-mirroring-bgz5499e7ebd2120 block-original-65" data-alias="300x250 Ad 1">
+<div class="block-content">
+<div id='div-gpt-ad-1418849849333-0'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1418849849333-0'); });
+</script>
+</div>
+</div><!-- .block-content -->
+
+</div><!-- #block-34 -->
+<div id="block-38" class="sweet-deals-ad block block-type-custom-code block-fluid-height responsive-block-hiding-device-smartphones block-mirrored block-mirroring-bqk5499e7ebd6bb4 block-original-68" data-alias="Sweet Deals Ad">
+<div class="block-content">
+<a href="http://allentown.sweetdealscumulus.com/"><img src="/wp-content/uploads/sites/497/2014/10/sweetdeals.png"></a>
+</div><!-- .block-content -->
+
+</div><!-- #block-38 -->
+<div id="block-36" class="vip-club-ad block block-type-custom-code block-fluid-height block-mirrored block-mirroring-b6c5499e7ebd52a8 block-original-67" data-alias="VIP Club Ad">
+<div class="block-content">
+<div id='div-gpt-ad-1418849849333-7'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1418849849333-7'); });
+</script>
+</div>
+</div><!-- .block-content -->
+
+</div><!-- #block-36 -->
+<div id="block-42" class="facebook-ad block block-type-custom-code block-fluid-height block-mirrored block-mirroring-bxz5499e7ebdb200 block-original-71" data-alias="Facebook Ad">
+<div class="block-content">
+<div id='div-gpt-ad-1418849849333-8'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1418849849333-8'); });
+</script>
+</div>
+</div><!-- .block-content -->
+
+</div><!-- #block-42 -->
+<div id="block-43" class="headlines block block-type-content block-fluid-height block-mirrored block-mirroring-bch5499e7ebdc8c7 block-original-72" data-alias="Headlines">
+<div class="block-content">
+<h1 class="block-title"><span>Headlines</span></h1><div class="loop">
+
+<div class="entry-row">
+
+<article id="post-1030217" class="post-1030217 post type-post status-publish format-standard has-post-thumbnail hentry category-ncd-news tag-keith-urban tag-never-comin-down tag-video author-jcasey alt custom-query" itemscope itemtype="http://schema.org/BlogPosting"><header><h2 class="entry-title" itemprop="headline"><a href="http://www.catcountry96.com/2018/08/23/keith-urban-drops-dance-happy-new-video-for-never-comin-down-watch/" title="Keith Urban Drops Dance-Happy New Video for &#8220;Never Comin&#8217; Down&#8221; [Watch]" rel="bookmark">Keith Urban Drops Dance-Happy New Video for &#8220;Never Comin&#8217; Down&#8221; [Watch]</a></h2></header></article><!-- #post-1030217 --><article id="post-1030177" class="post-1030177 post type-post status-publish format-standard has-post-thumbnail hentry category-ncd-news tag-acm-honors tag-chris-stapleton tag-darius-rucker tag-dierks-bentley tag-jon-pardi tag-kelsea-ballerini tag-kip-moore tag-lindsay-ell tag-morgan-evans tag-sam-hunt author-jcasey custom-query" itemscope itemtype="http://schema.org/BlogPosting"><header><h2 class="entry-title" itemprop="headline"><a href="http://www.catcountry96.com/2018/08/23/highlights-from-the-acm-honors-ceremony-including-chris-stapleton-jon-pardi-lauren-alaina-sam-hunt-more-photo-gallery/" title="Highlights From the ACM Honors Ceremony, Including Chris Stapleton, Jon Pardi, Lauren Alaina, Sam Hunt &#038; More [Photo Gallery]" rel="bookmark">Highlights From the ACM Honors Ceremony, Including Chris Stapleton, Jon Pardi, Lauren Alaina, Sam Hunt &#038; More [Photo Gallery]</a></h2></header></article><!-- #post-1030177 -->
+
+</div><!-- .entry-row -->
+
+
+
+<div class="entry-row">
+
+<article id="post-1030090" class="post-1030090 post type-post status-publish format-standard has-post-thumbnail hentry category-ncd-news tag-acm-honors tag-cam tag-cassadee-pope tag-darius-rucker tag-dierks-bentley tag-dustin-lynch tag-jon-pardi tag-kelsea-ballerini tag-lindsal-ell tag-morgan-evans author-jcasey alt custom-query" itemscope itemtype="http://schema.org/BlogPosting"><header><h2 class="entry-title" itemprop="headline"><a href="http://www.catcountry96.com/2018/08/23/63-of-our-favorite-red-carpet-photos-from-the-acm-honors-including-dierks-darius-dustin-kelsea-kip-cam-more/" title="63 of Our Favorite Red Carpet Photos From the ACM Honors, Including Dierks, Darius, Dustin, Kelsea, Kip, Cam &#038; More" rel="bookmark">63 of Our Favorite Red Carpet Photos From the ACM Honors, Including Dierks, Darius, Dustin, Kelsea, Kip, Cam &#038; More</a></h2></header></article><!-- #post-1030090 --><article id="post-1029766" class="post-1029766 post type-post status-publish format-standard has-post-thumbnail hentry category-ncd-news tag-loretta-lynn tag-wouldnt-it-be-great author-jcasey custom-query" itemscope itemtype="http://schema.org/BlogPosting"><header><h2 class="entry-title" itemprop="headline"><a href="http://www.catcountry96.com/2018/08/22/loretta-lynn-announces-sept-28-release-date-of-new-album-wouldnt-it-be-great/" title="Loretta Lynn Announces Sept. 28 Release Date of New Album, &#8220;Wouldn&#8217;t It Be Great&#8221; [Listen to Title Track]" rel="bookmark">Loretta Lynn Announces Sept. 28 Release Date of New Album, &#8220;Wouldn&#8217;t It Be Great&#8221; [Listen to Title Track]</a></h2></header></article><!-- #post-1029766 -->
+
+</div><!-- .entry-row -->
+
+
+
+<div class="entry-row">
+
+<article id="post-1029731" class="post-1029731 post type-post status-publish format-standard has-post-thumbnail hentry category-ncd-news tag-ben-folds tag-brenda-lee tag-jeannie-seely tag-ray-stevens tag-walk-of-fame author-jcasey alt custom-query" itemscope itemtype="http://schema.org/BlogPosting"><header><h2 class="entry-title" itemprop="headline"><a href="http://www.catcountry96.com/2018/08/22/ray-stevens-jeannie-seely-brenda-lee-ben-folds-inducted-into-music-city-walk-of-fame-photo-gallery/" title="Ray Stevens, Jeannie Seely, Brenda Lee &#038; Ben Folds Inducted Into Music City Walk of Fame [Photo Gallery]" rel="bookmark">Ray Stevens, Jeannie Seely, Brenda Lee &#038; Ben Folds Inducted Into Music City Walk of Fame [Photo Gallery]</a></h2></header></article><!-- #post-1029731 --><article id="post-1029689" class="post-1029689 post type-post status-publish format-standard has-post-thumbnail hentry category-ncd-news tag-abby-anderson tag-criminal tag-kristian-bush tag-lindsay-ell author-jcasey custom-query" itemscope itemtype="http://schema.org/BlogPosting"><header><h2 class="entry-title" itemprop="headline"><a href="http://www.catcountry96.com/2018/08/22/watch-lindsay-ell-perform-criminal-with-kristian-bush-at-rooftop-concert/" title="Watch Lindsay Ell Perform &#8220;Criminal&#8221; With Kristian Bush at Rooftop Concert" rel="bookmark">Watch Lindsay Ell Perform &#8220;Criminal&#8221; With Kristian Bush at Rooftop Concert</a></h2></header></article><!-- #post-1029689 -->
+
+</div><!-- .entry-row -->
+
+</div>
+</div><!-- .block-content -->
+
+</div><!-- #block-43 -->
+<div id="block-44" class="twitter-ad block block-type-custom-code block-fluid-height block-mirrored block-mirroring-bm65499e7ebde2f1 block-original-73" data-alias="Twitter Ad">
+<div class="block-content">
+<div id='div-gpt-ad-1418849849333-9'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1418849849333-9'); });
+</script>
+</div>
+</div><!-- .block-content -->
+
+</div><!-- #block-44 -->
+<aside id="block-45" class="free-apps block block-type-widget-area block-fluid-height block-mirrored block-mirroring-bcg5499e7ebdfbb2 block-original-74" data-alias="Home - Free Apps" itemscope="" itemtype="http://schema.org/WPSideBar">
+<div class="block-content">
+<h1 class="block-title"><span>Free Apps</span></h1><ul class="widget-area"><li id="text-3" class="widget widget_text">
+			<div class="textwidget"><div align="center">
+<a href="#" target="_blank"><img src="/wp-content/uploads/sites/497/2014/10/appstore.png" border="0"></a>&nbsp;<a href="#" target="_blank"><img src="/wp-content/uploads/sites/497/2014/10/googleplay.png" border="0"></a>&nbsp;<a href="#" target="_blank"><img src="/wp-content/uploads/sites/497/2014/10/amazon.png" border="0"></a>
+</div></div>
+		</li><!-- .widget -->
+</ul>
+</div><!-- .block-content -->
+
+</aside><!-- #block-45 -->
+<div id="block-46" class="300x250-ad-2 block block-type-custom-code block-fluid-height block-mirrored block-mirroring-bll5499e7ebe1218 block-original-79" data-alias="300x250 Ad 2">
+<div class="block-content">
+<div id='div-gpt-ad-1418849849333-3'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1418849849333-3'); });
+</script>
+</div>
+</div><!-- .block-content -->
+
+</div><!-- #block-46 -->
+
+</section><!-- .column -->
+
+</section><!-- .row -->
+
+
+</div><!-- .grid-container -->
+
+</div><!-- .wrapper -->
+
+<div id="wrapper-50" class="wrapper wrapper-fluid wrapper-fixed-grid grid-fluid-24-32-10 responsive-grid wrapper-mirroring-10 wrapper-last wrapper-footer" data-alias="Wrapper Footer">
+
+<div class="grid-container clearfix">
+
+<section class="row row-1">
+
+<section class="column column-1 grid-left-0 grid-width-6">
+<nav id="block-50" class="footer-nav block block-type-navigation block-fluid-height" data-alias="Footer Navigation" itemscope="" itemtype="http://schema.org/SiteNavigationElement">
+<div class="block-content">
+<div class="nav-vertical nav-align-left"><ul id="menu-footer-navigation" class="menu"><li id="menu-item-350910" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-350910"><a href="/1111/11/11/privacy-policy">Privacy Policy</a></li>
+<li id="menu-item-350913" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-350913"><a href="/1111/11/11/terms-of-service">Terms of Service</a></li>
+<li id="menu-item-350916" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-350916"><a href="/1111/11/11/contest-rules">Contest Rules</a></li>
+<li id="menu-item-137" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-137"><a href="http://www.catcountry96.com/advertise-with-us/">Advertise With Us</a></li>
+<li id="menu-item-139" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-95 current_page_item menu-item-139"><a href="http://www.catcountry96.com/station-information/">Station Information</a></li>
+<li id="menu-item-141" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-141"><a href="http://www.cumulus.com/careers/">Employment Opportunities</a></li>
+<li id="menu-item-984684" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-984684"><a target="_blank" href="https://www.cumulus.com">Cumulus Media Corporate</a></li>
+<li id="menu-item-986780" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-986780"><a href="http://www.catcountry96.com/fcc-online-public-file/">FCC Online Public File</a></li>
+</ul></div><!-- .nav-vertical nav-align-left -->
+</div><!-- .block-content -->
+
+</nav><!-- #block-50 -->
+<div id="block-bmz55d228bbbe2b5" class="block block-type-custom-code block-fluid-height" data-alias="Wallpaper Ad">
+<div class="block-content">
+<div id='div-gpt-ad-1418849849333-16'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1418849849333-16'); });
+</script>
+</div>
+</div><!-- .block-content -->
+
+</div><!-- #block-bmz55d228bbbe2b5 -->
+
+</section><!-- .column -->
+
+<section class="column column-2 grid-left-0 grid-width-18">
+<div id="block-51" class="728x90-ad-2 block block-type-custom-code block-fluid-height" data-alias="728x90 Ad 2">
+<div class="block-content">
+<div class="footer-728x90-ad" align="right">
+<div id='div-gpt-ad-1418849849333-2'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1418849849333-2'); });
+</script>
+</div>
+</div>
+
+</div><!-- .block-content -->
+
+</div><!-- #block-51 -->
+<footer id="block-52" class="copyright block block-type-footer block-fluid-height" data-alias="Copyright" itemscope="" itemtype="http://schema.org/WPFooter">
+<div class="block-content">
+
+<div class="footer-container">
+
+<div class="footer">
+<p class="copyright footer-copyright">Copyright Cumulus Media / Cumulus Media is an equal opportunity employer / AA</p><p class="footer-responsive-grid-link-container footer-responsive-grid-link-disable-container"><a href="http://www.catcountry96.com/station-information/?full-site=true" rel="nofollow" class="footer-responsive-grid-link footer-responsive-grid-disable footer-link">View Full Site</a></p>
+</div><!-- .footer -->
+</div><!-- .footer-container -->
+</div><!-- .block-content -->
+
+</footer><!-- #block-52 -->
+
+</section><!-- .column -->
+
+</section><!-- .row -->
+
+
+</div><!-- .grid-container -->
+
+</div><!-- .wrapper -->
+
+
+
+<script>_AMP.theme.init();</script>
+<link rel='stylesheet' id='media_library_assistant-plugin-styles-css'  href='http://www.catcountry96.com/wp-content/plugins/media-library-assistant/includes/../css/prettyPhoto.css?ver=1.61' type='text/css' media='all' />
+<link rel='stylesheet' id='media_library_assistant-widget-styles-css'  href='http://www.catcountry96.com/wp-content/plugins/media-library-assistant/includes/../css/widget.css?ver=1.61' type='text/css' media='all' />
+<link rel='stylesheet' id='amp-polls-plugin-styles-css'  href='http://www.catcountry96.com/wp-content/plugins/amp-polls/css/widget.css?ver=4.9.1' type='text/css' media='all' />
+<script type='text/javascript'>
+/* <![CDATA[ */
+var themify_vars = {"version":"2.1.8","url":"http:\/\/www.catcountry96.com\/wp-content\/plugins\/themify-builder\/themify","map_key":null,"includesURL":"http:\/\/www.catcountry96.com\/wp-includes\/","isCached":null,"minify":{"css":{"themify-icons":false,"themify.framework":false,"lightbox":false,"themify-builder-style":false},"js":{"backstretch.themify-version":false,"bigvideo":false,"themify.dropdown":false,"themify.builder.script":false,"themify.scroll-highlight":false,"themify-youtube-bg":false,"themify.parallaxit":false,"themify.ticks":false}}};
+var tbLocalScript = {"isAnimationActive":"1","isParallaxActive":"1","isParallaxScrollActive":"1","animationInviewSelectors":[".module.wow",".module_row.wow",".builder-posts-wrap > .post.wow"],"backgroundSlider":{"autoplay":5000,"speed":2000},"animationOffset":"100","videoPoster":"http:\/\/www.catcountry96.com\/wp-content\/plugins\/themify-builder\/img\/blank.png","backgroundVideoLoop":"yes","builder_url":"http:\/\/www.catcountry96.com\/wp-content\/plugins\/themify-builder","framework_url":"http:\/\/www.catcountry96.com\/wp-content\/plugins\/themify-builder\/themify","version":"2.1.8","fullwidth_support":"","fullwidth_container":"body","loadScrollHighlight":"","addons":[],"breakpoints":{"tablet_landscape":[769,1024],"tablet":[681,768],"mobile":680},"ticks":{"tick":30,"ajaxurl":"http:\/\/www.catcountry96.com\/wp-admin\/admin-ajax.php","postID":95}};
+var themifyScript = {"lightbox":{"lightboxSelector":".themify_lightbox","lightboxOn":true,"lightboxContentImages":false,"lightboxContentImagesSelector":"","theme":"pp_default","social_tools":false,"allow_resize":true,"show_title":false,"overlay_gallery":false,"screenWidthNoLightbox":600,"deeplinking":false,"contentImagesAreas":"","gallerySelector":".gallery-icon > a","lightboxGalleryOn":true},"lightboxContext":"body"};
+var tbScrollHighlight = {"fixedHeaderSelector":"","speed":"900","navigation":"#main-nav","scrollOffset":"0"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.catcountry96.com/wp-content/plugins/themify-builder/themify/js/main.js?ver=2.1.8'></script>
+<script type='text/javascript'>
+var mejsL10n = {"language":"en","strings":{"mejs.install-flash":"You are using a browser that does not have Flash player enabled or installed. Please turn on your Flash player plugin or download the latest version from https:\/\/get.adobe.com\/flashplayer\/","mejs.fullscreen-off":"Turn off Fullscreen","mejs.fullscreen-on":"Go Fullscreen","mejs.download-video":"Download Video","mejs.fullscreen":"Fullscreen","mejs.time-jump-forward":["Jump forward 1 second","Jump forward %1 seconds"],"mejs.loop":"Toggle Loop","mejs.play":"Play","mejs.pause":"Pause","mejs.close":"Close","mejs.time-slider":"Time Slider","mejs.time-help-text":"Use Left\/Right Arrow keys to advance one second, Up\/Down arrows to advance ten seconds.","mejs.time-skip-back":["Skip back 1 second","Skip back %1 seconds"],"mejs.captions-subtitles":"Captions\/Subtitles","mejs.captions-chapters":"Chapters","mejs.none":"None","mejs.mute-toggle":"Mute Toggle","mejs.volume-help-text":"Use Up\/Down Arrow keys to increase or decrease volume.","mejs.unmute":"Unmute","mejs.mute":"Mute","mejs.volume-slider":"Volume Slider","mejs.video-player":"Video Player","mejs.audio-player":"Audio Player","mejs.ad-skip":"Skip ad","mejs.ad-skip-info":["Skip in 1 second","Skip in %1 seconds"],"mejs.source-chooser":"Source Chooser","mejs.stop":"Stop","mejs.speed-rate":"Speed Rate","mejs.live-broadcast":"Live Broadcast","mejs.afrikaans":"Afrikaans","mejs.albanian":"Albanian","mejs.arabic":"Arabic","mejs.belarusian":"Belarusian","mejs.bulgarian":"Bulgarian","mejs.catalan":"Catalan","mejs.chinese":"Chinese","mejs.chinese-simplified":"Chinese (Simplified)","mejs.chinese-traditional":"Chinese (Traditional)","mejs.croatian":"Croatian","mejs.czech":"Czech","mejs.danish":"Danish","mejs.dutch":"Dutch","mejs.english":"English","mejs.estonian":"Estonian","mejs.filipino":"Filipino","mejs.finnish":"Finnish","mejs.french":"French","mejs.galician":"Galician","mejs.german":"German","mejs.greek":"Greek","mejs.haitian-creole":"Haitian Creole","mejs.hebrew":"Hebrew","mejs.hindi":"Hindi","mejs.hungarian":"Hungarian","mejs.icelandic":"Icelandic","mejs.indonesian":"Indonesian","mejs.irish":"Irish","mejs.italian":"Italian","mejs.japanese":"Japanese","mejs.korean":"Korean","mejs.latvian":"Latvian","mejs.lithuanian":"Lithuanian","mejs.macedonian":"Macedonian","mejs.malay":"Malay","mejs.maltese":"Maltese","mejs.norwegian":"Norwegian","mejs.persian":"Persian","mejs.polish":"Polish","mejs.portuguese":"Portuguese","mejs.romanian":"Romanian","mejs.russian":"Russian","mejs.serbian":"Serbian","mejs.slovak":"Slovak","mejs.slovenian":"Slovenian","mejs.spanish":"Spanish","mejs.swahili":"Swahili","mejs.swedish":"Swedish","mejs.tagalog":"Tagalog","mejs.thai":"Thai","mejs.turkish":"Turkish","mejs.ukrainian":"Ukrainian","mejs.vietnamese":"Vietnamese","mejs.welsh":"Welsh","mejs.yiddish":"Yiddish"}};
+</script>
+<script type='text/javascript' src='http://www.catcountry96.com/wp-includes/js/mediaelement/mediaelement-and-player.js?ver=4.2.6-78496d1'></script>
+<script type='text/javascript' src='http://www.catcountry96.com/wp-includes/js/mediaelement/mediaelement-migrate.js?ver=4.9.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var _wpmejsSettings = {"pluginPath":"\/wp-includes\/js\/mediaelement\/","classPrefix":"mejs-","stretching":"responsive"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.catcountry96.com/wp-includes/js/mediaelement/wp-mediaelement.js?ver=4.9.1'></script>
+<script type='text/javascript' src='http://www.catcountry96.com/wp-content/plugins/media-library-assistant/includes/../js/jquery.prettyPhoto.js?ver=1.61'></script>
+<script type='text/javascript' src='http://www.catcountry96.com/wp-content/plugins/media-library-assistant/includes/../js/widget-front-end.js?ver=1533183780'></script>
+<script type='text/javascript' src='http://www.catcountry96.com/wp-content/plugins/amp-polls/js/widget-front-end.js?ver=4.9.1'></script>
+<script>
+window.tgmplibs="cumulus2,_append_www,_triton_see";
+</script>
+<script type="text/javascript" class="_tgmp_p">
+function onTuneGenieMediaPlayerLoaded() {
+    window.tgmp=new TuneGenieMediaPlayer('playerbar', {
+        brand: "wcto",
+        zindex: 50000,
+        theme: ["#000000"],
+        position: "bottom",
+        debug: true,
+        ios_frame: 3,
+        autostart: false,
+        infoTrayOnLoad: true,
+        useTritonPlayer: true,
+        promptZag: false,
+    });
+    tgmp.go();
+    window.tgmp_rc = new TuneGenieRC(tgmp);
+    tgmp_rc.recentSongWidget(document.getElementById('tgrecent'),{});
+    tgmp_rc.nowPlayingWidget(document.getElementById('tgnowplaying'),{});
+}
+</script>
+<script type="text/javascript"  class="_tgmp_p" async src="https://mpl.tunegenie.com/js/loader2.min.js"></script>
+
+
+</div><!-- #whitewrap -->
+
+<!-- TGMP PLUGIN ENABLED 2016-08-04T21:17:16.695Z -->
+
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.3";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<script type="text/javascript">
+//<![CDATA[
+(function() {
+var _analytics_scr = document.createElement('script');
+_analytics_scr.type = 'text/javascript'; _analytics_scr.async = true; _analytics_scr.src = '/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=2&cb=7184692';
+var _analytics_elem = document.getElementsByTagName('script')[0]; _analytics_elem.parentNode.insertBefore(_analytics_scr, _analytics_elem);
+})();
+// ]]>
+</script></body>
+
+
+</html>
+<!--
+Performance optimized by W3 Total Cache. Learn more: https://www.w3-edge.com/products/
+
+Object Caching 2778/2890 objects using memcache
+Page Caching using memcache
+Database Caching 325/336 queries in 0.437 seconds using memcache
+
+Served from: www.1460wrad.com @ 2018-08-27 06:23:10 by W3 Total Cache
+-->

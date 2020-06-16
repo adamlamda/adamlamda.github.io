@@ -1,0 +1,134 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <title>Berkman Mostly Anonymous Remailing Service</title>
+  </head>
+
+  <body color="#ffffff">
+    <h1>Berkman Mostly Anonymous Remailing Service</h1>
+
+    <p>
+      To register a new alias or remove an existing alias fill out the
+      form below and click on the respective button.  For a description
+      of the mostly anonymous remailing service, see the text below.
+      If you need help after reading everything on this page, mail the
+      <a href="mailto:postmaster@eon.law.harvard.edu">administrator</a>.
+    </p>
+
+    <form action="https://cyber.harvard.edu/anon_remail/register.pl" method="post">
+    
+      <table border="0">
+	<tr>
+	  <td>Alias</td>
+	  <td><input type="text" name="alias"/></td>
+	  <td>
+	    <font size="-1">
+	      <i>
+		(if your alias is 'foo', your anonymous email is 
+		'anon_foo@eon.law.harvard.edu')
+	      </i>
+	    </font>
+	  </td>
+	</tr>
+	<tr>
+	<tr>
+	  <td>Password</td>
+	  <td><input type="password" name="password"/></td>
+	</tr>
+	<tr>
+	  <td>Email</td>
+	  <td><input type="text" name="email"/></td>
+	  <td>
+	    <font size="-1">
+	      <i>
+		(your existing email address, for example
+		'linus@linux.com')
+	      </i>
+	    </font>
+	  </td>
+	</tr>
+	<tr>
+	  <td colspan="2" align="left">
+	    <input type="submit" name="submit" value="Register"/>
+	    <input type="submit" name="submit" value="Remove"/>
+	  </td>
+	</tr>
+      </table>
+      
+    </form>
+    
+    <p>
+      Once you have registered, just send email from your normal email
+      address (the address you put in the email box above) and the
+      system will take care of anonymizing your return address for
+      you.
+    </p>
+
+    <h2>Description</h2>
+
+    <p>
+      The Berkman mostly anonymous remailing service allows users
+      transparently to exchange emails with one another without
+      knowing each others' email addresses and without revealing real
+      email addresses in the process.  Instead of merely forwarding
+      the email to the anonymous recipient, the remailer replaces the
+      address of the sender with her own anonymous address before
+      remailing the message out to the real address of the recipient.
+      This process allows correspondants to communicate anonymously
+      with one another with their existing email accounts, removing
+      the burden on the user of having to configure her desktop client
+      to read and send email from a new account.
+    </p>
+    <p>
+      The system is <i>mostly</i> anonymous because the systems
+      maintains a list that associates real and anonymous addresses,
+      as well as a log of emails sent, making it possible for the
+      administrator of the system to determine the real address of a
+      given message.  You can trust the anonymity of the system as
+      much as you trust the administrator of the system (in this
+      case, the Berkman Center).
+    </p>
+
+    <p>
+      The best way to describe the remailer is to step through the
+      process the system goes through with each email:
+    </p>
+    
+    <ol>
+      <li>
+	When an email is received with an anonymous address
+	(anon_ms@eon.law.harvard.edu) as the <i>recipient</i>, the
+	system first tries to look up the anonymous address that
+	corresponds to the real address (stevejobs@apple.com) of
+	the <i>sender</i>.
+      </li>
+      <li>
+	If the system does not have an anonymous address that
+	corresponds to the real address of the sender, the email is
+	returned to the sender with a note informing the sender that
+	he must have an anonymous address registered with the system
+	to use the remailer.
+      </li>
+      <li>
+	If the system does have an anonymous address that corresponds
+	to the real address of the sender, the system replaces the
+	real address of the <i>sender</i> with the anonymous address
+	of the <i>sender</i> and remails the message to the real
+	recipient address.
+      </li>
+    </ol>
+
+    <p>
+      The end result of the above process is that Joe can send an
+      email from his normal email account to an anonymous address and
+      know that not only will the address be delivered to the intended
+      recipient, but the mail will look as if it has come from Joe's
+      anonymous address.  The recipient can likewise respond to Joe's
+      anonymous address from his normal account and know that Joe will
+      receive the email but will only see the anonymous sending
+      address.
+    </p>
+
+
+  </body>
+</html>

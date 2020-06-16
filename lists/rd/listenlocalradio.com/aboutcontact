@@ -1,0 +1,794 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+      <link href="/stylesheets/base.css?b45679e5b654b4781ad166975acfc5f7" rel="stylesheet" />
+      <link href="/stylesheets/ckeditor.css?28cc6239d90e5dd07a77e7bd324d6e38" rel="stylesheet" />
+      <link href="/ultraviolet/css/blackboard.css" rel="stylesheet" />
+      <link href="/stylesheets/prettyPhoto.css?1fc50a8d108ce33cd5319d9d789805e0" rel="stylesheet" />
+      <link href="/stylesheets/superfish.css?10951c7a8c7eb5012d0046bb148b26bb" rel="stylesheet" />
+      <link href="/stylesheets/video-js.css?f5a8217372ba459568c2c9fae3f22d47" rel="stylesheet" />
+      <link href="/stylesheets/slicebox.css?6fe8af2c24f3feb542bffd5f3f8697dc" rel="stylesheet" />
+      <link href="/stylesheets/nivo-slider.css?bcb472f748dbb4f2094b62652a130ee1" rel="stylesheet" />
+      <link href="/stylesheets/owl.carousel.css?50554d179681bd3e2f7fa5d7fde1c2f1" rel="stylesheet" />
+      <link href="/stylesheets/justifiedGallery.min.css?f93245cfff5ddf036220b54bf8f6f49b" rel="stylesheet" />
+      <link href="/stylesheets/animation.css?9a396e8e9d252781240f85dcb7fe013b" rel="stylesheet" />
+      <link href="/stylesheets/ui-dialog.css?3f0639ab90dc033fd39c0019d825cdb3" rel="stylesheet" />
+      <link href="/stylesheets/jquery-jvectormap-2.0.2.css?54b0af452ca7d4bd957350bda96ca4ca" rel="stylesheet" />
+      <link href="/stylesheets/lightbox.css?968e232545457e36df47c0116afd36fb" rel="stylesheet" />
+      <link href="/stylesheets/pure_css/base-min.css?1b9481ef60aaf7d4865d84283d6cd0c8" rel="stylesheet" />
+      <link href="/stylesheets/pure_css/grids-min.css?e33cea11c22ddb527f2d010c32fc4959" rel="stylesheet" />
+      <link href="/stylesheets/pure_css/grids-responsive.css?3f2300994630dbb42fa4bde6c7e08b04" rel="stylesheet" />
+      <link href="/stylesheets/pure_css/grids-custom.css?0ddd8fbe3ed21b4bd3f7d8949d329fc4" rel="stylesheet" />
+      <link href="/stylesheets/altgrid.css?4bd0a1f2d2e5175250d64ba4b83ed9ef" rel="stylesheet" />
+    <title>About/Contact | ListenLocalradio.com</title><link href="http://listenlocalradio.com/aboutcontact" rel="canonical" />
+
+<link type="text/css" href="/stylesheets/bootstrap3.css" rel="stylesheet" media="all" />
+<link type="text/css" href="/assets/css/style.css" rel="stylesheet" media="all" /><link href="//maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet" /><link href="https://cdnjs.cloudflare.com/ajax/libs/spectrum/1.8.0/spectrum.min.css" rel="stylesheet" />
+<meta content="width=device-width, initial-scale=1.0" name="viewport" />
+<style type="text/css">.component .component_heading{ color:#000000;letter-spacing:0px;font-style:normal;line-height:1.6;text-shadow:none;font-family:Cutive;font-weight:400;font-size:22px }</style><style type="text/css">body{ background-size:auto auto;color:#000000;background-attachment:fixed;background-repeat:repeat;background-position:0% 0%;line-height:1.6;background-image:none;background-color:#ffffff;font-family:'Lato';font-size:16px }</style><style type="text/css">#primary_navigation ul li a, #primary_navigation ul li a:visited{ letter-spacing:0px;font-style:normal;line-height:2.1;text-shadow:none;font-family:'Gloria Hallelujah';font-weight:400;font-size:20px }</style><style id="all_button_syles" type="text/css">.btn-style-2:hover{opacity:1;text-decoration:none;background-color:#5cb85c}
+.btn-style-4:visited{color:#ffffff}
+.btn-style-1{padding-top:5px;color:#ffffff;padding-right:15px;border-color:#000000;display:inline-block;padding-left:15px;padding-bottom:5px;border-radius:8px;font-family:Arial;background-color:#337ab7;font-size:20px;text-align:center}
+.btn-style-2{padding-top:5px;color:#ffffff;padding-right:15px;border-color:#000000;display:inline-block;padding-left:15px;padding-bottom:5px;border-radius:7px;font-family:Times New Roman;background-color:#5cb85c;font-size:20px;text-align:center}
+.btn-style-3{padding-top:5px;color:#ffffff;padding-right:15px;border-color:#000000;display:inline-block;padding-left:15px;padding-bottom:5px;border-radius:6px;font-family:Verdana;background-color:#5bc0de;font-size:20px;text-align:center}
+.btn-style-4{padding-top:5px;color:#ffffff;padding-right:15px;border-color:#000000;display:inline-block;padding-left:15px;padding-bottom:5px;border-radius:5px;font-family:Arial Black;background-color:#f0ad4e;font-size:20px;text-align:center}
+.btn-style-5{padding-top:5px;color:#ffffff;padding-right:15px;border-color:#000000;display:inline-block;padding-left:15px;padding-bottom:5px;border-radius:4px;font-family:Impact;background-color:#d9534f;font-size:20px;text-align:center}
+.btn-style-6{padding-top:5px;color:#ffffff;padding-right:15px;border-color:#000000;display:inline-block;padding-left:15px;padding-bottom:5px;border-radius:3px;font-family:Georgia;background-color:#616161;font-size:20px;text-align:center}
+.btn-style-6:visited{color:#ffffff}
+.btn-style-1:visited{color:#ffffff}
+.btn-style-3:visited{color:#ffffff}
+.btn-style-5:hover{opacity:1;text-decoration:none;background-color:#d9534f}
+.btn-style-6:hover{opacity:1;text-decoration:none;background-color:#616161}
+.btn-style-2:visited{color:#ffffff}
+.btn-style-4:hover{opacity:1;text-decoration:none;background-color:#f0ad4e}
+.btn-style-5:visited{color:#ffffff}
+.btn-style-1:hover{opacity:1;text-decoration:none;background-color:#337ab7}
+.btn-style-3:hover{opacity:1;text-decoration:none;background-color:#5bc0de}
+</style><script type="text/javascript" src="/javascripts/jquery_modified.js?bdc9c810a35eb265a1ad7d9e1ed202e9"></script><script type="text/javascript" src="/javascripts/plugins/jquery.ui.js?78b369977c72ff20551fd9d3221dd844"></script><script type="text/javascript" src="/javascripts/i18n.js?0b52d0374778bd4e03d8f36eb6b19278"></script><script src="/javascripts/plugins/imagesloaded.min.js?4ade89324937aaee2b832ddd1b2bc1d2"></script><script type="text/javascript" src="/javascripts/i18n/en.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/xregexp/3.2.0/xregexp-all.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/jplayer/2.9.2/jplayer/jquery.jplayer.js" crossorigin="anonymous" integrity="sha256-EsQt0SCHM3RAcO1Q5uCrCbIgNYpZYogprCuwZMOc5KE="></script><script src="https://cdnjs.cloudflare.com/ajax/libs/jplayer/2.9.2/add-on/jplayer.playlist.min.js" crossorigin="anonymous" integrity="sha256-UjXdMG9nbF2ZmDKNlSt8Y9WToEHCRNTZfp1g5XCiOxQ="></script><script src="/javascripts/plugins/jquery.asterion.utils.ui.js?d68b4aa762e9536f6f0af80a45b48a68"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/galleria/1.5.7/galleria.js"></script>
+      <script type="text/javascript">
+        I18n.defaultLocale = 'en';
+        I18n.locale = 'en';
+      </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/spectrum/1.8.0/spectrum.min.js"></script><script src="https://assets.bnidx.com/pixel/proMarket" async></script><script type="text/javascript" src="/javascripts/asterion.js?1534785660"></script><link type="image/x-icon" href="/files/favicon.ico?v=1535357041" rel="icon" /><meta content="302852376879370" property="fb:app_id" /><meta content="About/Contact" property="og:title" /><meta content="Listen Local was established in October of 2003 by singer/ songwriter and entertainment coordinator, Cathryn Beeks. The mission continues: introducing the amazing music, art, food, beer, wine and good stuff being created in San Diego. For the past decade Listen Local has worked to promote interest from the public, offer exposure and networking opportunities for artists and venues and to generally help perpetuate San Diego's thriving local music scene. We look forward to continuing our work. Thank you for your support, we'll see you at a show!" property="og:description" /><meta content="http://listenlocalradio.com/aboutcontact" property="og:url" /><meta content="http://listenlocalradio.com/files/packed/1wefik0plzsc607ur60u367vwz0j3uvcj6gitzetpsmja0y4fc5cut2ymrjaw5moei2hab13j0z139fru840yip83d85tlwo7qkry4qfrzxxdhb86vca52vrgg1py6cp3z6txd1m85gmk9rbnjxrnmbe6l3wsha5.jpg" property="og:image" /></head>
+
+<body itemscope="itemscope" itemtype="http://schema.org/WebPage" class="one page_aboutcontact">
+
+  <div id="mobile_wrapper">
+    <div id="mobnav-btn">
+      Menu
+      <div>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+
+    <div id="mobile_navigation">
+      <ul>
+        
+        
+          
+          
+          <li>
+            
+              <a href="/calendar" class=""><span>CALENDAR</span></a>
+              
+            
+          </li><li>
+            
+              <a href="/" class=""><span>HOME</span></a>
+              
+            
+          </li><li>
+            
+              <a href="/watch" class=""><span>WATCH</span></a>
+              
+            
+          </li><li>
+            
+              <a href="/PLAY" class=""><span>LISTEN</span></a>
+              
+            
+          </li><li>
+            
+              <a href="/THEGREENROOM" class=""><span>THE GREEN ROOM </span></a>
+              
+            
+          </li><li>
+            
+              <a href="/aboutcontact" class=""><span>ABOUT/CONTACT</span></a>
+              
+            
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+
+
+
+<script>
+  (function($) {
+    // hide/show main menu
+    $('#mobnav-btn').on('click', function() {
+      $('#mobile_navigation > ul').slideToggle();
+    });
+
+    // show/hide submenu
+    $('#mobile_navigation .mobile_subnav').on('click', function() {
+      $(this).toggleClass('expanded').closest('li').find('> .sub_navigation').slideToggle();
+      return false;
+    });
+
+    // when a navigation item is also a link add a secondary item
+    $('#mobile_navigation .mobile_subnav').each(function(i, item) {
+      var $item = $(item);
+      if ($item.attr('href').match(/^#|javascript/)) return;
+      $item.closest('li').find('> ul').prepend($('<li>').append($item.clone().removeClass('mobile_subnav').addClass('mobile_subnav_link')));
+    });
+
+    //add active to the navigation, this is so we dont have to clear the cache each time
+    $('#mobile_navigation ul li a').each(function(){
+
+      if($(this).attr('href') == window.location.pathname){
+        $(this).parent().addClass('active');
+        return false;
+      }
+    });
+  })($j);
+</script>
+
+
+
+<div id="body_wrapper">
+<div id="wrapper">    
+
+	<div id="header_wrapper" itemscope="itemscope" itemtype="http://schema.org/WPHeader">
+    <div class="container">
+    <div class="row">    
+        <div id="header_text">
+        	<img data-original="/assets/images/tree.png" src="/files/resized/339604/119;107;76ad68aef737916300089ad92c23d6e8980dfcb1.jpg" class="header_logo theme_image" style=" display:none;" />
+            <h1 id="site_heading"><a href="/"><img alt="ListenLocalradio.com" src="/files/images/calamity-banner_1.jpg" style="" /></a></h1>
+            <h2 id="site_subheading"><style>
+    #header_text h2#site_subheading a,  
+    #header_text h2#site_subheading{
+    color:#000000
+  }
+
+  @media (min-width: 650px) {
+    #header_text h2#site_subheading a,  
+    #header_text h2#site_subheading{
+      
+    } 
+}
+
+</style></h2>
+        </div> 
+        
+    </div>
+    </div>
+        
+        <div id="header_image">
+        <div id="navigation_wrapper" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement">
+            <div class="container"><div class="row"><div id="primary_navigation">
+
+  
+    <ul>
+      
+      <li class="first even item_0">
+          
+            <a href="/calendar" class="navigation_page_link"><span>CALENDAR</span></a>
+            
+          
+        </li><li class="odd item_1">
+          
+            <a href="/" class="navigation_page_link"><span>HOME</span></a>
+            
+          
+        </li><li class="even item_2">
+          
+            <a href="/watch" class="navigation_page_link"><span>WATCH</span></a>
+            
+          
+        </li><li class="odd item_3">
+          
+            <a href="/PLAY" class="navigation_page_link"><span>LISTEN</span></a>
+            
+          
+        </li><li class="even item_4">
+          
+            <a href="/THEGREENROOM" class="navigation_page_link"><span>THE GREEN ROOM </span></a>
+            
+          
+        </li><li class="last odd item_5">
+          
+            <a href="/aboutcontact" class="navigation_page_link"><span>ABOUT/CONTACT</span></a>
+            
+          
+        </li>
+    </ul>
+  
+
+  <script>
+    (function($) {
+      $('#primary_navigation ul li a').each(function(){
+        if($(this).attr('href') == window.location.pathname){
+          $(this).parent().addClass('active');
+          return false;
+        }
+      });
+    }($j));
+  </script>
+
+
+  
+
+
+</div></div></div>
+        </div>
+        </div> 
+	
+    </div>
+
+    <div id="content_wrapper"> 
+    <div class="container">  
+    
+        <div id="middle_wrapper" class="row">
+            <div id="main" class="col-md-12">
+                <div data-position="1" data-id="14648" class="row">
+  <div data-id="29258" data-width="4" class="column col-md-4 span4" data-location_id="1">
+  <div id="location_1" class="location">      <div class="asterion_components_container asterion_page_specific_components asterion_components_container_2">
+        <div data-id="297848" id="component_297848" data-proxy-id="" class="component custom_component unauthenticated ">
+    <div class="component_content_wrapper ">
+    
+
+<h2 class="component_heading">
+  
+    <span>Rocking San Diego since '03</span>
+  
+</h2>
+ 
+
+    <div class="component_content">
+      
+
+<div>
+  
+    
+  
+
+  <p><img alt="" src="/files/resized/80999/cropped/0;0;1200;1077;940;940;0dcf810887bf970c3d4927ddbd020edf403aa74c.jpg" style="float: left; height: 176px; margin: 0px 10px 10px 0px; width: 196px;" /><span style="font-family: verdana,geneva;">Listen Local was established in October of 2003 by singer/ songwriter and entertainment coordinator, <a href="http://cathrynbeeks.com" target="_blank">Cathryn Beeks</a>. The mission continues: introducing the amazing music, art, food, beer, wine and good stuff being created in San Diego. For the past decade Listen Local has worked to promote interest from the public, offer exposure and networking opportunities for artists and venues and to generally help perpetuate San Diego's thriving local music scene. We look forward to continuing our work. Thank you for your support, we'll see you at a show!</span></p>
+
+</div>
+
+    </div>
+  </div>
+</div>
+<div data-id="1473777" id="component_1473777" data-proxy-id="" class="component custom_component unauthenticated ">
+    <div class="component_content_wrapper ">
+    
+
+<h2 class="component_heading">
+  
+    <span>Contact Cathryn Beeks</span>
+  
+</h2>
+ 
+
+    <div class="component_content">
+      
+
+<div>
+  
+    
+  
+
+  <p><img alt="" src="/files/resized/295046/cropped/883;188;1943;2635;330;255;83715a1ebc68f64f68895b3e4f4ed74ec9cdb5f9.jpg" /></p>
+
+<p><a href="mailto:Cathryn@ListenLocalRadio.com" class="navigation_email_link">Email Cathryn</a></p>
+
+<p><a href="https://www.facebook.com/HalfFastFoto/?fref=ts" class="navigation_external_link" target="_blank">1/2 Fast Foto</a></p>
+
+<p><a href="https://www.facebook.com/Cathryns-Cardboard-1596705010602524/?fref=ts" class="navigation_external_link" target="_blank">1/2 Fast Art</a></p>
+
+<p>Thank you for your support!</p>
+</div>
+
+    </div>
+  </div>
+</div>
+<div data-id="2613354" id="component_2613354" data-proxy-id="" class="component custom_component unauthenticated ">
+    <div class="component_content_wrapper ">
+    
+
+<h2 class="component_heading">
+  
+    <span>OUR EVENTS</span>
+  
+</h2>
+ 
+
+    <div class="component_content">
+      
+
+<div>
+  
+    
+  
+
+  <p><a href="/the-acoustic-alliance">THE ACOUSTIC ALLIANCE</a></p>
+
+<p><a href="/band-camp" class="navigation_page_link">BAND CAMP MUSIC FEST retired</a></p>
+
+<p><a href="/chick-camp">CHICK CAMP</a></p>
+
+<p><a href="/the-game">THE GAME songwriting get together</a></p>
+
+<p><a href="/listenlocalpresents" class="navigation_page_link">RANDOM JAM</a></p>
+
+<p><a href="/songwriter-sleepover">THE SONGWRITER SLEEPOVER</a></p>
+
+<p><a href="/kid-show">THE KID SHOW on hold</a></p>
+
+<p><a href="/RockCanyonPrivate" class="navigation_page_link">WINE AND SONG retired</a></p>
+
+</div>
+
+    </div>
+  </div>
+</div>
+<div data-id="2613359" id="component_2613359" data-proxy-id="" class="component custom_component unauthenticated ">
+    <div class="component_content_wrapper ">
+     
+
+    <div class="component_content">
+      
+
+<div>
+  
+    
+  
+
+  <p style="text-align: center;"><strong>Testimonials</strong></p>
+
+<p>“Cathryn Beeks makes the impossible possible. No one combines business savvy, creative sensitivity, artistic vision and street-smart pragmatism the way she does. Creating something out of nothing is just another day at work for Cathryn. She is that rarest of combinations – a successful promoter and a brilliant creative artist/musician/performer in her own right. The flat out truth: no one does more for up-and-coming artists, established artists and local music venues than Cathryn does. She is a one-woman music machine. If you think it can’t be done, call Cathryn, stand back and watch the impossible become possible. From vision to manifestation, Cathryn makes things happen.” <strong>  Peter Bolland   Writer/Speaker, On-Air Television Host at KPBS, Chair of the Humanities Department, Professor of Philosophy and Humanities at Southwestern College</strong></p>
+
+<p>“We have had the pleasure of having Cathryn Beeks on our patio for five years at “Tower Two” in Ocean Beach.  Sometimes she and her musicians would play, which is a real treat… and other times she would host the entire three hours with a line up of different musicians which was always organized and emceed property.   When she started doing the hosting, many times we took the afternoon off, knowing that everything would be run smoothly and to our specifications.  Cathryn is a true professional, easy going and has an impeccable work ethic that impressed my husband and myself from the very start.  We even hired her for several of our private parties.  We highly recommend Cathryn Beeks for any music venue.  She is a true lover of music that reflects in each job she is appointed to.”<br />
+<strong>Tim and Debbie Nolan Tower Two Beach Cafe in Ocean Beach, CA   </strong></p>
+
+<p><img alt="" src="/files/resized/244130/676;380;914373629799e695f5fcef5af7ad5f4b096f7427.jpg" /></p>
+</div>
+
+    </div>
+  </div>
+</div>
+<div data-id="283419" id="component_283419" data-proxy-id="" class="component custom_component unauthenticated ">
+    <div class="component_content_wrapper ">
+    
+
+<h2 class="component_heading">
+  
+    <span>PRESS</span>
+  
+</h2>
+ 
+
+    <div class="component_content">
+      
+
+<div>
+  
+    
+  
+
+  <p>We stopped collecting press in 2012. For current press, please google Listen Local Radio. Thanks!</p>
+
+<p>August 2012</p>
+
+<p><a href="http://ezekieljay.wordpress.com/2012/08/15/musical-neighborhood-blog-series-entertainment-coordinator-cathryn-beeks/" target="_blank">Ezekiel Jay features Cathryn in his blog</a><br />
+<br />
+November 4, 2007<br />
+<a href="http://Ezekiel%20Jay%20features%20Cathryn%20in%20his%20blog" target="_blank">THE UNION TRIBUNE</a><br />
+<a href="http://Ezekiel%20Jay%20features%20Cathryn%20in%20his%20blog" target="_blank">George Varga interviews Cathryn</a><br />
+<br />
+April 5th, 2007<br />
+<a href="http://www.sandiegoreader.com/news/2007/apr/05/dont-ditch-choir/" target="_blank">THE SAN DIEGO READER</a><br />
+<a href="http://www.sandiegoreader.com/news/2007/apr/05/dont-ditch-choir/" target="_blank">Listen Local Feature</a><br />
+<br />
+December 2006<br />
+<a href="http://turbula.net/music/review-beeks.php" target="_blank">NORTH COUNTY TIMES</a><br />
+<a href="http://turbula.net/music/review-beeks.php" target="_blank">Jim Trageser writes about The Ordeal</a><br />
+<br />
+August 2006<br />
+<a href="http://sandiegomusicreview.blogspot.com/2006/08/listenlocalsd-showcases-great-music.html" target="_blank">SAN DIEGO MUSIC REVIEW</a><br />
+<a href="http://sandiegomusicreview.blogspot.com/2006/08/listenlocalsd-showcases-great-music.html" target="_blank">Adam Paul reviews AA</a><br />
+<br />
+March 2005<br />
+<a href="http://www.simeonflick.com/freelance/article.html" target="_blank">THE SAN DIEGO TROUBADOUR</a><br />
+<a href="http://www.simeonflick.com/freelance/article.html" target="_blank">Simeon Flick writes about The Alliance</a><br />
+<br />
+December 30, 2004<br />
+<a href="http://THE%20SAN%20DIEGO%20TROUBADOUR%20Simeon%20Flick%20writes%20about%20The%20Alliance" target="_blank">THE SAN DIEGO READER</a><br />
+<a href="http://THE%20SAN%20DIEGO%20TROUBADOUR%20Simeon%20Flick%20writes%20about%20The%20Alliance" target="_blank">Listen Local Feature</a></p>
+</div>
+
+    </div>
+  </div>
+</div>
+
+      </div>
+</div>
+</div>
+<div data-id="29259" data-width="4" class="column col-md-4 span4" data-location_id="0">
+  <div id="location_0" class="location">      <div class="asterion_components_container asterion_page_specific_components asterion_components_container_2">
+        <div data-id="735410" id="component_735410" data-proxy-id="" class="component custom_component unauthenticated ">
+    <div class="component_content_wrapper ">
+    
+
+<h2 class="component_heading">
+  
+    <span>PHOTOS!</span>
+  
+</h2>
+ 
+
+    <div class="component_content">
+      
+
+<div>
+  
+    
+  
+
+  <p><a href="http://stevecovault.com/ListenLocal.html" class="navigation_external_link" target="_blank"><img alt="" src="/files/resized/218322/156;174;5408d0b59cec1588c437d92ba4fa615878cb2a2f.jpg" /></a></p>
+
+<p>The amazing Steve Covault has been a friend of Listen Local Radio since the VERY beginning, documenting all the fun we're having. Words can not express our gratitude and joy when he's able to join us. <a href="http://stevecovault.com/ListenLocal.html" class="navigation_external_link" target="_blank">Please check out his Listen Local Photo Album for a walk down memory lane. </a></p>
+
+<p><a href="http://rockmusicphotos.smugmug.com/Music/Listen-Local" class="navigation_external_link" target="_blank">Here is our newest gallery.</a></p>
+</div>
+
+    </div>
+  </div>
+</div>
+<div data-id="2613355" id="component_2613355" data-proxy-id="" class="component custom_component unauthenticated ">
+    <div class="component_content_wrapper ">
+    
+
+<h2 class="component_heading">
+  
+    <span>PHOTOS FROM CAMPING EVENTS</span>
+  
+</h2>
+ 
+
+    <div class="component_content">
+      
+
+<div>
+  
+    
+  
+
+  <p><a href="https://www.facebook.com/cathryn.beeks/media_set?set=a.10152108943947063.1073741841.702262062&amp;type=3" class="navigation_external_link" target="_blank">2014 Wine and Song</a></p>
+
+<p><a href="https://www.facebook.com/cathryn.beeks/media_set?set=a.10152493539592063.1073741857.702262062&amp;type=3" class="navigation_external_link" target="_blank">2013 Chick Camp</a></p>
+
+<p><a href="https://www.facebook.com/cathryn.beeks/media_set?set=a.10151248804567063.456131.702262062&amp;type=3" class="navigation_external_link" target="_blank">2012 Wine and Song</a></p>
+
+<p><a href="https://www.facebook.com/cathryn.beeks/media_set?set=a.10150239932932063.326722.702262062&amp;type=3" class="navigation_external_link" target="_blank">2011 Songwriter SleepOver</a></p>
+
+<p><a href="https://www.facebook.com/cathryn.beeks/media_set?set=a.10150302522842063.342980.702262062&amp;type=3" class="navigation_external_link" target="_blank">2011 Chick Camp</a></p>
+
+<p><a href="http://stevecovault.com/Sleepover20100521/index.html" class="navigation_external_link" target="_blank">2010 Songwriter SleepOver</a></p>
+
+<p><a href="https://www.facebook.com/cathryn.beeks/media_set?set=a.161110007062.130418.702262062&amp;type=3" class="navigation_external_link" target="_blank">2009 Chick Camp Summer and Fall</a></p>
+
+<p><a href="http://stevecovault.com/Camp2007/index.html" class="navigation_external_link" target="_blank">2007 Band Camp</a></p>
+
+</div>
+
+    </div>
+  </div>
+</div>
+<div data-id="2613353" id="component_2613353" data-proxy-id="" class="component custom_component unauthenticated ">
+    <div class="component_content_wrapper ">
+    
+
+<h2 class="component_heading">
+  
+    <span>OUR SERVICES</span>
+  
+</h2>
+ 
+
+    <div class="component_content">
+      
+
+<div>
+  
+    
+  
+
+  <p><a href="/THEGREENROOM" class="navigation_page_link">Listen Local Motion - mobile stage, studio and store</a></p>
+
+<p><a href="/studio-sampler">Studio Sampler</a></p>
+
+<p><a href="/love-lab">The Love Lab</a></p>
+
+<p><a href="/cookbook">Listen Local Cooks Cookbook/CD compilation</a></p>
+
+<p><a href="/1-2-fast-photography" class="navigation_page_link">1/2 Fast Foto Photography</a></p>
+
+<p><a href="https://www.youtube.com/playlist?list=PLx-IGDRGrJM7T9DtezvQzT-vklEaB0rxU" target="_blank">1/2 Fast Films Stop Motion Video Production</a></p>
+
+<p><a href="https://www.facebook.com/pages/Live-Sound-Support/259694157392268" class="navigation_external_link" target="_blank">Live Sound Support by Jon Edwards</a></p>
+
+<p><a href="/service-directory">Musician Owned Businesses Service Directory</a></p>
+</div>
+
+    </div>
+  </div>
+</div>
+<div data-id="2613356" id="component_2613356" data-proxy-id="" class="component custom_component unauthenticated ">
+    <div class="component_content_wrapper ">
+    
+
+<h2 class="component_heading">
+  
+    <span>Check out our cookbook from 10 years ago, yours FREE for Listening Local! xo</span>
+  
+</h2>
+ 
+
+    <div class="component_content">
+      
+
+<div>
+  
+    
+  
+
+  <p><a href="https://www.facebook.com/media/set/?set=a.386904897062.175905.702262062&amp;type=1&amp;l=5858a4b087" class="navigation_external_link" target="_blank"><img alt="" src="/files/resized/327387/330;516;71ec1e06ea70f3122c4d77590fa38de2a5204286.jpg" /></a></p>
+</div>
+
+    </div>
+  </div>
+</div>
+<div data-id="2613357" id="component_2613357" data-proxy-id="" class="component custom_component unauthenticated ">
+    <div class="component_content_wrapper ">
+    
+
+<h2 class="component_heading">
+  
+    <span>Listen Local provided showcases in San Diego from 2003 to 2016</span>
+  
+</h2>
+ 
+
+    <div class="component_content">
+      
+
+<div>
+  
+    
+  
+
+  <p>The Coaster Saloon&nbsp; &nbsp;<br />
+710 Beach Club&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;<br />
+Winstons&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;<br />
+Hennessey's in PB<br />
+Canes Bar and Grill<br />
+The Firehouse<br />
+The Tiki<br />
+The Triple Crown<br />
+The Brick by Brick<br />
+O'Connell's<br />
+The Jumping Turtle<br />
+Tower Two Restaurant<br />
+The San Diego Mission Bay Boat and Ski Club<br />
+Joe and Andy's<br />
+Tio Leo's<br />
+Big Bertha's<br />
+Baja Bash<br />
+SDMAwards Industry Party<br />
+Cottonwood Golf Course<br />
+Little Italy Spaghetteria<br />
+Bare Back Bar and Grill<br />
+Bondi<br />
+Backstage, The Bitter End<br />
+Anthology<br />
+The Stage<br />
+House of Blues<br />
+Desi N Friends<br />
+Hotel Indigo<br />
+The Griffin<br />
+Myerz Pourhouse<br />
+Hotel Indigo<br />
+'Til Two Club</p>
+
+<p>The Belly UP</p>
+
+<p>98Bottles&nbsp;</p>
+
+<p>Frauds and Swindlers&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />
+The Bancroft&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />
+The Go Lounge&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+
+<p>The Parkway Bar<br />
+The Hard Rock Cafe&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />
+The Renegade&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+
+<p>House of Blues&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+
+<p>Music Box</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+</div>
+
+    </div>
+  </div>
+</div>
+
+      </div>
+</div>
+</div>
+<div data-id="29260" data-width="4" class="column col-md-4 span4" data-location_id="2">
+  <div id="location_2" class="location">      <div class="asterion_components_container asterion_page_specific_components asterion_components_container_2">
+        <div data-id="283388" id="component_283388" data-proxy-id="" class="component custom_component unauthenticated ">
+    <div class="component_content_wrapper ">
+    
+
+<h2 class="component_heading">
+  
+    <span>Listen Local Timeline</span>
+  
+</h2>
+ 
+
+    <div class="component_content">
+      
+
+<div>
+  
+    
+  
+
+  <p><strong>2018 - </strong>The Listen Local Show becomes a monthly web series hosted by CalAmity and broadcast from <a href="http://sdheritage.org" class="navigation_external_link" target="_blank">The Heritage Ranch</a>. <a href="http://listenlocalradio.com%20" class="navigation_external_link" target="">Watch it every month. </a>Hear San Diego here!</p>
+
+<p><strong>2017 - </strong>Cathryn and Jonny purchase an RV and accept the resident caretaker position at <a href="http://sdheritage.org" class="navigation_external_link" target="_blank">The San Dieguito Heritage Museum</a> in Encinitas helping with events and keeping an eye on the place.</p>
+
+<p><strong>2016 - </strong>Cathryn begins producing ALIVE in San Diego, a web series highlighting all things music in San Diego. <a href="https://www.youtube.com/playlist?list=PLx-IGDRGrJM4Y6Fhv8_1ZAySq0VeFz7Kz" class="navigation_external_link" target="_blank">Watch!</a></p>
+
+<p><strong>2015 - </strong><a href="http://listenlocalsd.typepad.com/listen-local-sd/2015/09/omg-no-more-hob.html" class="navigation_external_link" target="_blank">Listen Local and HOB break up</a> but we're going to <a href="https://www.gofundme.com/hhxp7t9k" class="navigation_external_link" target="_blank">keep on trucking!</a></p>
+
+<p><strong>2014 -</strong> In October <a href="http://listenlocalsd.typepad.com/listen-local-sd/2014/10/homegroan.html" class="navigation_external_link" target="">Cathryn left KPRi</a> and started her own "station" at ListenLocalRadio.com in order to pursue more opportunities for San Diego's music community.</p>
+
+<p><strong>2013 - </strong>October 12th Listen Local celebrates 10 years of hosting live music showcases.</p>
+
+<p><strong>2013 </strong>- Listen Local announces the opening of <a href="https://www.facebook.com/TheGreenRoomSD" target="_blank">THE GREEN ROOM</a> a vintage and secondhand clothing store geared towards musicians</p>
+
+<p><strong>2012</strong> - The Homegrown Hour begins recording live at <a href="http://berkleysound.com" target="_blank">Jeff Berkley's studio in Bay Park</a>.</p>
+
+<p><strong>2009</strong> - ListenLocalsd.com and HOB GM Matt Parsons form Local Brews Local Grooves and The All Access Fest. The Kid Show is born.</p>
+
+<p><strong>2009</strong> - Cathryn takes over <a href="https://soundcloud.com/listenlocalradio/sets/the-homegrown-hour-january-to" class="navigation_external_link" target="_blank">The Homegrown Hour, San Diego's longest running local music show</a> which had been recently resurrected thanks to Astra Kelly</p>
+
+<p><strong>2008</strong> - ListenLocalsd.com gets a permanent FOH guy with the marriage of Cathryn and sound engineer, Jon Edwards</p>
+
+<p><strong>2007</strong> - Tim Flack and Cathryn start a podcast featuring local music.</p>
+
+<p><strong>2006</strong> - ListenLocalsd.com expands their audition and showcase opportunities offering 5 shows a week from Pacific Beach to San Marcos&nbsp;</p>
+
+<p><strong>2005</strong> - ListenLocalsd.com wins San Diego Music Award for Best Local Promoter</p>
+
+<p><strong>2004</strong> - Band Camp Music Festival is started in Mission Beach and The Acoustic Alliance begins at The Brick by Brick</p>
+
+<p><strong>2004</strong> - ListenLocalsd.com domain is purchased and website built thanks to a grant from <a href="http://hotrodhelps.org" target="_blank">Hotrod Harris</a></p>
+
+<p><strong>2002</strong> - Cathryn Beeks begins hosting live music showcases at The Coaster Saloon in San Diego</p>
+
+<p><strong>2000</strong> - Cathryn moves back to California and settles in Pacific Beach, Ca. in her continued pursuit of rockstardom or, at least, a career in music</p>
+
+</div>
+
+    </div>
+  </div>
+</div>
+<div data-id="2759217" id="component_2759217" data-proxy-id="" class="component html_component unauthenticated ">
+    <div class="component_content_wrapper ">
+     
+
+    <div class="component_content">
+      
+<div>
+<iframe msallowfullscreen="" width="100%" scrolling="no" webkitallowfullscreen="webkitallowfullscreen" oallowfullscreen="oallowfullscreen" src="//html5-player.libsyn.com/embed/episode/id/6405775/height/340/theme/custom/autoplay/no/autonext/no/thumbnail/yes/preload/no/no_addthis/no/direction/backward/render-playlist/no/custom-color/df691a/" height="340" allowfullscreen="allowfullscreen" style="border: none" mozallowfullscreen="mozallowfullscreen"></iframe>
+</div>
+
+    </div>
+  </div>
+</div>
+<div data-id="833749" id="component_833749" data-proxy-id="" class="component custom_component unauthenticated ">
+    <div class="component_content_wrapper ">
+    
+
+<h2 class="component_heading">
+  
+    <span>Belly Up Podcast</span>
+  
+</h2>
+ 
+
+    <div class="component_content">
+      
+
+<div>
+  
+    
+  
+
+  <p><iframe width="100%" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/210782616&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true" height="450"></iframe></p>
+
+</div>
+
+    </div>
+  </div>
+</div>
+<div data-id="668999" id="component_668999" data-proxy-id="" class="component custom_component unauthenticated ">
+    <div class="component_content_wrapper ">
+    
+
+<h2 class="component_heading">
+  
+    <span>Coming someday...</span>
+  
+</h2>
+ 
+
+    <div class="component_content">
+      
+
+<div>
+  
+    
+  
+
+  <p style="text-align: center;"><span style="font-size: medium;"><strong>&nbsp;<a href="http://www.wishrockranch.bravesites.com/index" target="_blank">WISH ROCK RANCH</a></strong></span></p>
+<p style="text-align: center;"><strong><a href="http://www.wishrockranch.bravesites.com/index" class="navigation_external_link" target="_blank"><img alt="" src="/files/resized/95659/195;119;8ad7b280bc092bcb90367488fc310cd288b16818.jpg" /></a></strong></p>
+</div>
+
+    </div>
+  </div>
+</div>
+
+      </div>
+</div>
+</div>
+
+</div>
+
+            </div>
+        </div> 
+        
+    </div>
+	</div>
+
+    <div id="footer_wrapper" itemscope="itemscope" itemtype="http://schema.org/WPFooter">
+        <div class="container">
+            <div id="copyright">
+  
+    <p style="text-align: center;"><span style="color:#00FF00">ListenLocalRadio.com &copy; Cathryn Beeks 2003</span></p>
+
+  
+</div>
+              
+        </div>
+    </div>
+     
+</div>
+</div>
+
+<link id="google_font_cutive" type="text/css" href="https://fonts.googleapis.com/css?family=Cutive" rel="stylesheet" />
+<link id="google_font_lato" type="text/css" href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" /></body>
+</html>

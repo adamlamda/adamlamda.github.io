@@ -1,0 +1,1070 @@
+<!DOCTYPE HTML><html lang="en-US" xmlns:og="http://ogp.me/ns#" xmlns:fb="http://ogp.me/ns/fb#">
+
+<head>
+<meta charset="UTF-8" />
+<link rel="profile" href="http://gmpg.org/xfn/11" />
+
+<!-- Title -->
+<title>Cumulus | WHBT-AF</title><link rel='dns-prefetch' href='//www.heaven983.com' />
+<link rel='dns-prefetch' href='//see-p-elb-01.tritondigital.net' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="canonical" href="http://www.heaven983.com/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.3\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.3\/svg\/","svgExt":".svg","source":{"wpemoji":"http:\/\/www.heaven983.com\/wp-includes\/js\/wp-emoji.js?ver=4.9.1","twemoji":"http:\/\/www.heaven983.com\/wp-includes\/js\/twemoji.js?ver=4.9.1"}};
+			( function( window, document, settings ) {
+	var src, ready, ii, tests;
+
+	/*
+	 * Create a canvas element for testing native browser support
+	 * of emoji.
+	 */
+	var canvas = document.createElement( 'canvas' );
+	var context = canvas.getContext && canvas.getContext( '2d' );
+
+	/**
+	 * Check if two sets of Emoji characters render the same.
+	 *
+	 * @param set1 array Set of Emoji characters.
+	 * @param set2 array Set of Emoji characters.
+	 * @returns {boolean} True if the two sets render the same.
+	 */
+	function emojiSetsRenderIdentically( set1, set2 ) {
+		var stringFromCharCode = String.fromCharCode;
+
+		// Cleanup from previous test.
+		context.clearRect( 0, 0, canvas.width, canvas.height );
+		context.fillText( stringFromCharCode.apply( this, set1 ), 0, 0 );
+		var rendered1 = canvas.toDataURL();
+
+		// Cleanup from previous test.
+		context.clearRect( 0, 0, canvas.width, canvas.height );
+		context.fillText( stringFromCharCode.apply( this, set2 ), 0, 0 );
+		var rendered2 = canvas.toDataURL();
+
+		return rendered1 === rendered2;
+	}
+
+	/**
+	 * Detect if the browser supports rendering emoji or flag emoji. Flag emoji are a single glyph
+	 * made of two characters, so some browsers (notably, Firefox OS X) don't support them.
+	 *
+	 * @since 4.2.0
+	 *
+	 * @param type {String} Whether to test for support of "flag" or "emoji".
+	 * @return {Boolean} True if the browser can render emoji, false if it cannot.
+	 */
+	function browserSupportsEmoji( type ) {
+		var isIdentical;
+
+		if ( ! context || ! context.fillText ) {
+			return false;
+		}
+
+		/*
+		 * Chrome on OS X added native emoji rendering in M41. Unfortunately,
+		 * it doesn't work when the font is bolder than 500 weight. So, we
+		 * check for bold rendering support to avoid invisible emoji in Chrome.
+		 */
+		context.textBaseline = 'top';
+		context.font = '600 32px Arial';
+
+		switch ( type ) {
+			case 'flag':
+				/*
+				 * Test for UN flag compatibility. This is the least supported of the letter locale flags,
+				 * so gives us an easy test for full support.
+				 *
+				 * To test for support, we try to render it, and compare the rendering to how it would look if
+				 * the browser doesn't render it correctly ([U] + [N]).
+				 */
+				isIdentical = emojiSetsRenderIdentically(
+					[ 55356, 56826, 55356, 56819 ],
+					[ 55356, 56826, 8203, 55356, 56819 ]
+				);
+
+				if ( isIdentical ) {
+					return false;
+				}
+
+				/*
+				 * Test for English flag compatibility. England is a country in the United Kingdom, it
+				 * does not have a two letter locale code but rather an five letter sub-division code.
+				 *
+				 * To test for support, we try to render it, and compare the rendering to how it would look if
+				 * the browser doesn't render it correctly (black flag emoji + [G] + [B] + [E] + [N] + [G]).
+				 */
+				isIdentical = emojiSetsRenderIdentically(
+					[ 55356, 57332, 56128, 56423, 56128, 56418, 56128, 56421, 56128, 56430, 56128, 56423, 56128, 56447 ],
+					[ 55356, 57332, 8203, 56128, 56423, 8203, 56128, 56418, 8203, 56128, 56421, 8203, 56128, 56430, 8203, 56128, 56423, 8203, 56128, 56447 ]
+				);
+
+				return ! isIdentical;
+			case 'emoji':
+				/*
+				 * Emoji 5 has fairies of all genders.
+				 *
+				 * To test for support, try to render a new emoji (fairy, male), then compares
+				 * it to how it would look if the browser doesn't render it correctly
+				 * (fairy + male sign).
+				 */
+				isIdentical = emojiSetsRenderIdentically(
+					[ 55358, 56794, 8205, 9794, 65039 ],
+					[ 55358, 56794, 8203, 9794, 65039 ]
+				);
+				return ! isIdentical;
+		}
+
+		return false;
+	}
+
+	function addScript( src ) {
+		var script = document.createElement( 'script' );
+
+		script.src = src;
+		script.defer = script.type = 'text/javascript';
+		document.getElementsByTagName( 'head' )[0].appendChild( script );
+	}
+
+	tests = Array( 'flag', 'emoji' );
+
+	settings.supports = {
+		everything: true,
+		everythingExceptFlag: true
+	};
+
+	for( ii = 0; ii < tests.length; ii++ ) {
+		settings.supports[ tests[ ii ] ] = browserSupportsEmoji( tests[ ii ] );
+
+		settings.supports.everything = settings.supports.everything && settings.supports[ tests[ ii ] ];
+
+		if ( 'flag' !== tests[ ii ] ) {
+			settings.supports.everythingExceptFlag = settings.supports.everythingExceptFlag && settings.supports[ tests[ ii ] ];
+		}
+	}
+
+	settings.supports.everythingExceptFlag = settings.supports.everythingExceptFlag && ! settings.supports.flag;
+
+	settings.DOMReady = false;
+	settings.readyCallback = function() {
+		settings.DOMReady = true;
+	};
+
+	if ( ! settings.supports.everything ) {
+		ready = function() {
+			settings.readyCallback();
+		};
+
+		if ( document.addEventListener ) {
+			document.addEventListener( 'DOMContentLoaded', ready, false );
+			window.addEventListener( 'load', ready, false );
+		} else {
+			window.attachEvent( 'onload', ready );
+			document.attachEvent( 'onreadystatechange', function() {
+				if ( 'complete' === document.readyState ) {
+					settings.readyCallback();
+				}
+			} );
+		}
+
+		src = settings.source || {};
+
+		if ( src.concatemoji ) {
+			addScript( src.concatemoji );
+		} else if ( src.wpemoji && src.twemoji ) {
+			addScript( src.twemoji );
+			addScript( src.wpemoji );
+		}
+	}
+
+} )( window, document, window._wpemojiSettings );
+		</script>
+		
+
+<!-- Stylesheets -->
+<link rel='stylesheet' id='headway-google-fonts' href='//fonts.googleapis.com/css?family=Oswald' type='text/css' media='all' />
+<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='bxslider-style-css'  href='http://www.heaven983.com/wp-content/plugins/shared/js/bxslider/jquery.bxslider.css?ver=4.9.1' type='text/css' media='all' />
+<link rel='stylesheet' id='amp-promo-reel-widget-style-css'  href='http://www.heaven983.com/wp-content/plugins/amp-promo-reel/includes/../css/widget.css?ver=4.9.1' type='text/css' media='all' />
+<link rel='stylesheet' id='headway-general-css'  href='http://www.heaven983.com/wp-content/uploads/sites/1164/headway/cache/general-a8cfae7.css?ver=4.9.1' type='text/css' media='all' />
+<link rel='stylesheet' id='headway-layout-front_page-css'  href='http://www.heaven983.com/wp-content/uploads/sites/1164/headway/cache/layout-front_page-8b0250d.css?ver=4.9.1' type='text/css' media='all' />
+<link rel='stylesheet' id='headway-responsive-grid-css'  href='http://www.heaven983.com/wp-content/uploads/sites/1164/headway/cache/responsive-grid-d2119e4.css?ver=4.9.1' type='text/css' media='all' />
+<meta name="builder-styles-css" content="" id="builder-styles-css">
+<link rel='stylesheet' id='amp-breaking-news-css'  href='http://www.heaven983.com/wp-content/plugins/amp-breaking-news/public/css/public.css?ver=0.2.3' type='text/css' media='all' />
+<link rel='stylesheet' id='animate-style-css'  href='http://www.heaven983.com/wp-content/plugins/shared/css/animate.css?ver=0.2.3' type='text/css' media='all' />
+<link rel='stylesheet' id='amp-styles-plugin-styles-css'  href='http://www.heaven983.com/wp-content/plugins/amp-styles/css/public.css?ver=1.4.1' type='text/css' media='all' />
+<link rel='stylesheet' id='amp-events-calendar-styles-css'  href='http://www.heaven983.com/wp-content/plugins/amp-events/css/calendar.css?ver=1.1.4' type='text/css' media='all' />
+<link rel='stylesheet' id='amp-events-export-styles-css'  href='http://www.heaven983.com/wp-content/plugins/amp-events/css/public.css?ver=1.1.4' type='text/css' media='all' />
+<link rel='stylesheet' id='amp_feed-plugin-styles-css'  href='http://www.heaven983.com/wp-content/plugins/amp-feeds/css/public.css?ver=0.4.0' type='text/css' media='all' />
+<link rel='stylesheet' id='amp-image-rotator-plugin-styles-css'  href='http://www.heaven983.com/wp-content/plugins/amp-image-rotator/public/assets/css/public.css?ver=1.0.0' type='text/css' media='all' />
+<link rel='stylesheet' id='amp-listen-live-plugin-styles-css'  href='http://www.heaven983.com/wp-content/plugins/amp-listen-live/public/assets/css/public.css?ver=1.4.4' type='text/css' media='all' />
+<link rel='stylesheet' id='amp-onair-plugin-styles-css'  href='http://www.heaven983.com/wp-content/plugins/amp-onair/public/assets/css/public.css?ver=1.7.1' type='text/css' media='all' />
+<link rel='stylesheet' id='AMPPromoReel-plugin-styles-css'  href='http://www.heaven983.com/wp-content/plugins/amp-promo-reel/css/public.css?ver=1.4.0' type='text/css' media='all' />
+<link rel='stylesheet' id='mediaelement-css'  href='http://www.heaven983.com/wp-includes/js/mediaelement/mediaelementplayer-legacy.min.css?ver=4.2.6-78496d1' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-mediaelement-css'  href='http://www.heaven983.com/wp-includes/js/mediaelement/wp-mediaelement.css?ver=4.9.1' type='text/css' media='all' />
+<link rel='stylesheet' id='amp-tabs-plugin-styles-css'  href='http://www.heaven983.com/wp-content/plugins/amp-tabs/public/assets/css/public.css?ver=1.0.0' type='text/css' media='all' />
+<link rel='stylesheet' id='amp-header-rotator-css'  href='http://www.heaven983.com/wp-content/themes/Headway-AMP_CMS/css/amp-header-rotator.css?ver=1.1.5' type='text/css' media='all' />
+<link rel="stylesheet" type="text/css" media="all" href="http://www.heaven983.com/wp-content/themes/Headway-AMP_CMS/style.css" />
+
+<!-- Scripts -->
+<script type='text/javascript' src='http://www.heaven983.com/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='http://www.heaven983.com/wp-includes/js/jquery/jquery-migrate.js?ver=1.4.1'></script>
+<script type='text/javascript' src='http://www.heaven983.com/wp-content/themes/headway/library/blocks/navigation/js/selectnav.js?ver=1533183780'></script>
+<script type='text/javascript' src='http://www.heaven983.com/wp-content/themes/headway/library/media/js/jquery.hoverintent.js?ver=4.9.1'></script>
+<script type='text/javascript' src='http://www.heaven983.com/wp-content/themes/headway/library/blocks/navigation/js/jquery.superfish.js?ver=4.9.1'></script>
+<script type='text/javascript' src='http://www.heaven983.com/wp-content/uploads/sites/1164/headway/cache/block-dynamic-js-layout-front_page-769a883.js?ver=4.9.1'></script>
+<script type='text/javascript' src='http://www.heaven983.com/wp-content/plugins/shared/js/bxslider/jquery.bxslider.min.js?ver=4.9.1'></script>
+<script type='text/javascript' src='http://www.heaven983.com/wp-content/plugins/amp-promo-reel/includes/../js/widget.js?ver=1.4.0'></script>
+<script type='text/javascript' src='http://www.heaven983.com/wp-content/themes/headway/library/media/js/jquery.fitvids.js?ver=4.9.1'></script>
+<script type='text/javascript' src='http://www.heaven983.com/wp-content/uploads/sites/1164/headway/cache/responsive-grid-js-e6e6939.js?ver=4.9.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var _ampconfig = {"site_url":"http:\/\/www.heaven983.com","site_id":"1164","tz":"America\/New_York","tz_offset":"-4","ts":"1533183780","blog_name":"WHBT-AF","client_name":"cumuluspro","user_ID":"","ts_offset":"1535342821","version":"2.47.0.3","env":"prod","settings":{"tenant_id":"see_10362","vidible_company_key":"06125e55709b3c4ffdfe3c3f8a9ed8bd","client_name":false,"nielsen_provider":"cumulus","promoreel_priority":true}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.heaven983.com/wp-content/plugins/shared/js/amp-common.js?ver=1533183780'></script>
+<script type='text/javascript' src='http://www.heaven983.com/wp-content/plugins/amp-breaking-news/public/js/public.js?ver=0.2.3'></script>
+<script type='text/javascript' src='http://www.heaven983.com/wp-content/plugins/amp-styles/js/public.js?ver=1.4.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var dates = {"start_of_week":"1","moment_date_format":"MMMM D, YYYY","moment_time_format":"h:mm a","calendar_date_format":"MMMM d, yyyy","calendar_time_format":"h:mm tt","date_format":"MM d, yy","time_format":"h:mm tt"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.heaven983.com/wp-content/plugins/amp-events/js/calendar.js?ver=1.1.4'></script>
+<script type='text/javascript' src='http://www.heaven983.com/wp-content/plugins/amp-events/js/public.js?ver=1.1.4'></script>
+<script type='text/javascript' src='http://www.heaven983.com/wp-content/plugins/amp-feeds/js/jquery.totemticker.min.js?ver=0.4.0'></script>
+<script type='text/javascript' src='http://www.heaven983.com/wp-includes/js/jquery/ui/core.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://www.heaven983.com/wp-includes/js/jquery/ui/widget.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://www.heaven983.com/wp-includes/js/jquery/ui/tabs.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://www.heaven983.com/wp-content/plugins/amp-feeds/js/amp-feed.js?ver=0.4.0'></script>
+<script type='text/javascript' src='http://www.heaven983.com/wp-content/plugins/amp-feeds/js/public.js?ver=0.4.0'></script>
+<script type='text/javascript' src='http://www.heaven983.com/wp-content/plugins/amp-feeds/js/date.js?ver=0.4.0'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var _amplistenlive = {"blog_id":"1164","callsign":"","mount_name":"WHBTAM","provider":"stream_the_world","gmt_offset":"-14400"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.heaven983.com/wp-content/plugins/amp-listen-live/public/assets/js/public.js?ver=1.4.4'></script>
+<script type='text/javascript' src='http://www.heaven983.com/wp-content/plugins/amp-onair/public/assets/js/public.js?ver=1.7.1'></script>
+<script type='text/javascript' src='//see-p-elb-01.tritondigital.net/widget/see_10362/see.js?ver=1.3.0'></script>
+<script type='text/javascript' src='http://www.heaven983.com/wp-content/themes/Headway-AMP_CMS/js/amp-theme.js?ver=1.1.5'></script>
+
+<!--[if lt IE 9]>
+<script src="http://www.heaven983.com/wp-content/themes/headway/library/media/js/html5shiv.js"></script>
+<![endif]-->
+
+<!--[if lt IE 8]>
+<script src="http://www.heaven983.com/wp-content/themes/headway/library/media/js/ie8.js"></script>
+<![endif]-->
+
+<script type='text/javascript'>
+var googletag = googletag || {};
+googletag.cmd = googletag.cmd || [];
+(function() {
+var gads = document.createElement('script');
+gads.async = true;
+gads.type = 'text/javascript';
+var useSSL = 'https:' == document.location.protocol;
+gads.src = (useSSL ? 'https:' : 'http:') + 
+'//www.googletagservices.com/tag/js/gpt.js';
+var node = document.getElementsByTagName('script')[0];
+node.parentNode.insertBefore(gads, node);
+})();
+</script>
+<script type='text/javascript'>
+googletag.cmd.push(function() {
+
+var leaderboardSizeMap = googletag.sizeMapping()
+ .addSize([970, 0], [[728, 90], [970, 90]])
+ .addSize([750,0], [728,90])
+ .addSize([0, 0], [[320, 50], [320, 53]])
+ .build();
+
+googletag.defineSlot('/6717/cd.WHBT.AM', [[300, 250], [300, 600]], 'div-gpt-ad-1418849849333-0').addService(googletag.pubads())
+.setCollapseEmptyDiv(true).setTargeting("pos","mid");
+googletag.defineSlot('/6717/cd.WHBT.AM', [[728, 90], [970, 90]], 'div-gpt-ad-1418849849333-1').addService(googletag.pubads())
+.defineSizeMapping(leaderboardSizeMap).setCollapseEmptyDiv(true).setTargeting("pos","top");
+googletag.defineSlot('/6717/cd.WHBT.AM', [[728, 90], [970, 90]], 'div-gpt-ad-1418849849333-2').addService(googletag.pubads())
+.defineSizeMapping(leaderboardSizeMap).setCollapseEmptyDiv(true).setTargeting("pos","bot");
+googletag.defineSlot('/6717/cd.WHBT.AM', [[300, 250], [300, 600]], 'div-gpt-ad-1418849849333-3').addService(googletag.pubads())
+.setCollapseEmptyDiv(true).setTargeting("pos","mid2");
+googletag.defineSlot('/6717/cd.WHBT.AM', [[160, 600]], 'div-gpt-ad-1418849849333-4').addService(googletag.pubads())
+.setCollapseEmptyDiv(true).setTargeting("pos","left");
+googletag.defineSlot('/6717/cd.WHBT.AM', [[160, 600]], 'div-gpt-ad-1418849849333-5').addService(googletag.pubads())
+.setCollapseEmptyDiv(true).setTargeting("pos","right");
+googletag.defineSlot('/6717/cd.WHBT.AM', [[654, 70]], 'div-gpt-ad-1418849849333-6').addService(googletag.pubads())
+.setCollapseEmptyDiv(true).setTargeting("pos","rdioplayer");
+googletag.defineSlot('/6717/cd.WHBT.AM', [[300, 100]], 'div-gpt-ad-1418849849333-7').addService(googletag.pubads())
+.setCollapseEmptyDiv(true).setTargeting("pos","contest1");
+googletag.defineSlot('/6717/cd.WHBT.AM', [[300, 100]], 'div-gpt-ad-1418849849333-8').addService(googletag.pubads())
+.setCollapseEmptyDiv(true).setTargeting("pos","contest2");
+googletag.defineSlot('/6717/cd.WHBT.AM', [[300, 100]], 'div-gpt-ad-1418849849333-9').addService(googletag.pubads())
+.setCollapseEmptyDiv(true).setTargeting("pos","contest3");
+googletag.defineSlot('/6717/cd.WHBT.AM', [[100, 51]], 'div-gpt-ad-1418849849333-10').addService(googletag.pubads())
+.setCollapseEmptyDiv(true).setTargeting("pos","rdiobutton");
+googletag.defineSlot('/6717/cd.WHBT.AM', [[113, 23]], 'div-gpt-ad-1418849849333-11').addService(googletag.pubads())
+.setCollapseEmptyDiv(true).setTargeting("pos","feedsponsor1");
+googletag.defineSlot('/6717/cd.WHBT.AM', [[113, 23]], 'div-gpt-ad-1418849849333-12').addService(googletag.pubads())
+.setCollapseEmptyDiv(true).setTargeting("pos","feedsponsor2");
+googletag.defineSlot('/6717/cd.WHBT.AM', [[113, 23]], 'div-gpt-ad-1418849849333-13').addService(googletag.pubads())
+.setCollapseEmptyDiv(true).setTargeting("pos","feedsponsor3");
+googletag.defineSlot('/6717/cd.WHBT.AM', [[113, 23]], 'div-gpt-ad-1418849849333-14').addService(googletag.pubads())
+.setCollapseEmptyDiv(true).setTargeting("pos","feedsponsor4");
+googletag.defineSlot('/6717/cd.WHBT.AM', [[1, 1]],'div-gpt-ad-1418849849333-16').addService(googletag.pubads())
+.setTargeting("pos","wallpaper-ad");
+googletag.pubads().enableSingleRequest();
+googletag.enableServices();
+googletag.defineSlot('/6717/cd.WHBT.AM', [[300, 250], [300, 600]], 'div-gpt-ad-1418849849333-18').setCollapseEmptyDiv(true).addService(googletag.pubads())
+.setTargeting("pos","midresponsive");
+});
+</script>
+
+<!--ONESTAT SCRIPTCODE START Embed Player-->
+  <script type="text/javascript">
+  <!--
+  jQuery(document).ready(function(){
+    var d=document;
+    var sid="whbt-am.cumulus";
+    var CONTENTSECTION="";
+    var osp_URL=d.URL;
+    var osp_Title=d.title;
+    var t=new Date();
+    var p="http"+(d.URL.indexOf('https:')==0?'s':'')+"://stat.onestat.com/stat.aspx?tagver=2&sid="+sid;
+    p+="&url="+escape(osp_URL);
+    p+="&ti="+escape(osp_Title);
+    p+="&section="+escape(CONTENTSECTION);
+    p+="&rf="+escape(parent==self?document.referrer:top.document.referrer);
+    p+="&tz="+escape(t.getTimezoneOffset());
+    p+="&ch="+escape(t.getHours());
+    p+="&js=1";
+    p+="&ul="+escape(navigator.appName=="Netscape"?navigator.language:navigator.userLanguage);
+    if(osp_URL!=d.URL) p+="&ol="+escape(d.URL);
+    if(typeof(screen)=="object"){
+       p+="&sr="+screen.width+"x"+screen.height;p+="&cd="+screen.colorDepth;
+       p+="&jo="+(navigator.javaEnabled()?"Yes":"No");
+    }
+
+    var imgTag = '<img border="0" height="0" width="0" id="ONESTAT_TAG" src="' + p + '">'
+    jQuery('body').append(imgTag);
+
+  })
+  //-->
+  </script> 
+<!--ONESTAT SCRIPTCODE END-->
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','corpDataLayer','GTM-KFC9RH');</script>
+<!-- End Google Tag Manager -->
+
+<!-- BEGIN INFINITE FACEBOOK PIXEL -->
+<script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '181461212508101');
+  fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=181461212508101&ev=PageView&noscript=1"
+/></noscript>
+<!-- END INFINITE FACEBOOK PIXEL -->
+<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
+<link rel="alternate" type="application/rss+xml" title="WHBT-AF &raquo; Feed" href="http://www.heaven983.com/feed/" />
+<link rel='shortlink' href='http://www.heaven983.com/' />
+<script type="text/javascript">var ajaxurl = "http://www.heaven983.com/wp-admin/admin-ajax.php"</script><script type="text/javascript">var ajaxurl = "http://www.heaven983.com/wp-admin/admin-ajax.php"</script>
+<!-- AMP CMS DFP custom tags -->
+<script type='text/javascript'>
+  googletag.cmd.push(function() {
+      googletag.pubads().setTargeting('cms-sname', 'WHBTAF');
+      googletag.pubads().setTargeting('cms-sgroup', ['All Sites', 'Format  Gospel']);
+      googletag.pubads().setTargeting('cms-ptitle', 'Home');
+  });
+</script>
+
+<!-- START - Facebook Open Graph, Google+ and Twitter Card Tags 2.0.4 -->
+ <!-- Facebook Open Graph -->
+  <meta property="og:locale" content="en_US"/>
+  <meta property="og:site_name" content="WHBT-AF"/>
+  <meta property="og:title" content="WHBT-AF"/>
+  <meta property="og:url" content="http://www.heaven983.com"/>
+  <meta property="og:type" content="website"/>
+  <meta property="og:description" content="Cumulus"/>
+ <!-- Google+ / Schema.org -->
+  <meta itemprop="name" content="WHBT-AF"/>
+  <meta itemprop="description" content="Cumulus"/>
+ <!-- Twitter Cards -->
+  <meta name="twitter:title" content="WHBT-AF"/>
+  <meta name="twitter:url" content="http://www.heaven983.com"/>
+  <meta name="twitter:description" content="Cumulus"/>
+  <meta name="twitter:card" content="summary_large_image"/>
+ <!-- SEO -->
+ <!-- Misc. tags -->
+<!-- END - Facebook Open Graph, Google+ and Twitter Card Tags 2.0.4 -->
+
+
+</head><!-- End <head> -->
+
+<body class="home page-template-default page page-id-27 custom responsive-grid-enabled responsive-grid-active pageid-27 page-slug-home layout-front_page layout-using-front_page builder-parallax-scrolling-active" itemscope itemtype="http://schema.org/WebPage">
+
+
+<div id="whitewrap">
+
+
+<div id="wrapper-8" class="wrapper wrapper-fluid wrapper-fixed-grid grid-fluid-24-32-10 responsive-grid wrapper-first wrapper-header" data-alias="Wrapper Header">
+
+<div class="grid-container clearfix">
+
+<section class="row row-1">
+
+<section class="column column-1 grid-left-0 grid-width-24">
+<div id="block-27" class="block block-type-custom-code block-fluid-height" data-alias="728x90 Leaderboard Ad">
+<div class="block-content">
+<div align="center">
+<div id='div-gpt-ad-1418849849333-1'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1418849849333-1'); });
+</script>
+</div>    
+</div>
+</div><!-- .block-content -->
+
+</div><!-- #block-27 -->
+
+</section><!-- .column -->
+
+</section><!-- .row -->
+
+
+<section class="row row-2">
+
+<section class="column column-1 grid-left-0 grid-width-6">
+<figure id="block-31" class="logo block block-type-image block-fixed-height" data-alias="Logo" itemscope="" itemtype="http://schema.org/ImageObject">
+<div class="block-content">
+<a href="/" class="image" ><img src="http://cumulus.pro.poolb.tritondigitalcms.com/whbt-af/wp-content/uploads/sites/1164/2015/06/whbt-logo1.png" alt="" title="" itemprop="contentURL"/></a>
+</div><!-- .block-content -->
+
+</figure><!-- #block-31 -->
+
+</section><!-- .column -->
+
+<section class="column column-2 grid-left-0 grid-width-18">
+
+<section class="sub-column sub-column-1 column column-1 grid-width-5 grid-left-0">
+<aside id="block-29" class="on-air block block-type-widget-area block-fluid-height" data-alias="Home - On Air Now" itemscope="" itemtype="http://schema.org/WPSideBar">
+<div class="block-content">
+<ul class="widget-area"><div class="amp-onair-widget" id="amp_onair_widget-2"
+	data-title-now=""
+	data-title-upcoming=""
+	data-title=""
+	data-type="nowplaying"
+	data-change-minutes="5"
+	data-change="0"
+	data-toggle-time="10"
+	data-fields="image,timeslot"
+	data-ajaxurl="http://www.heaven983.com/wp-admin/admin-ajax.php"
+	data-updateurl="http://www.heaven983.com/shows/feed/?type=json"
+	data-memcached="1"
+	data-expiration="1535349600">
+	
+<div class="amp-onair-show nowplaying" >
+
+    <div class="amp-onair-widget-title js-widget-title"></div>
+
+        <div class="amp-onair-show-image">
+                    <img class="js-image amp-onair-show-image-img" src="http://www.heaven983.com/wp-content/uploads/sites/1164/2015/06/121-Heaven141040x40.jpg"  />
+            </div>
+        
+    <div class="amp-onair-show-title">
+            <span class="js-title">Tallahassee's Gospel Station</span>
+        </div>
+    
+        <div class="amp-onair-show-timeslot js-timeslot" >12:00 a.m. - 6:00 a.m.</div>
+        
+        
+    
+</div>
+</div></ul>
+</div><!-- .block-content -->
+
+</aside><!-- #block-29 -->
+
+</section><!-- .sub-column -->
+
+<section class="sub-column sub-column-2 column column-2 grid-width-3 grid-left-0">
+<nav id="block-33" class="nav-search block block-type-navigation block-fluid-height" data-alias="Navigation Search" itemscope="" itemtype="http://schema.org/SiteNavigationElement">
+<div class="block-content">
+<div class="nav-horizontal nav-align-left nav-search-active nav-search-position-left"><div class="nav-search">
+		<form method="get" id="searchform" action="http://www.heaven983.com/">
+			<label for="s" class="assistive-text">Search</label>
+			<input type="text" class="field" name="s" id="s" value="Search" onclick="if(this.value=='Search')this.value='';" onblur="if(this.value=='')this.value='Search';" />
+			<input type="submit" class="submit" name="searchsubmit" id="searchsubmit" value="Search" />
+		</form>
+	</div></div><!-- .nav-horizontal nav-align-left nav-search-active nav-search-position-left -->
+</div><!-- .block-content -->
+
+</nav><!-- #block-33 -->
+
+</section><!-- .sub-column -->
+
+<section class="sub-column sub-column-3 column column-3 grid-width-7 grid-left-0">
+<section id="block-30" class="social-nav block block-type-social block-fixed-height" data-alias="Social Navigation">
+<div class="block-content">
+<div class="social-icons-container"><ul class="social-icons"><li><a href="#"><img src="http://www.heaven983.com/wp-content/uploads/sites/1164/2016/05/listen-live.png" title="Listen Live!!" class="img-1"  /></a></li><li><a href="/listen-live-with-alexa"><img src="http://images.tritondigitalcms.com/6616/sites/1164/2018/01/02173716/Alexa-Social-Logo-MUSIC.png" alt="Alexa" class="img-2"  /></a></li><li><a href="https://www.facebook.com/newheaven1410/" target="_blank"><img src="http://www.heaven983.com/wp-content/uploads/sites/1164/2014/10/facebook.png" title="Facebook" class="img-3"  /></a></li><li><a href="http://heaven983.listenernetwork.com/" target="_blank"><img src="http://cumulus.pro.poolb.tritondigitalcms.com/whbt-am/wp-content/uploads/sites/1164/2015/01/cumulus-vip.png" title="VIP" class="img-4"  /></a></li></ul></div><!-- .social-icons-container -->
+</div><!-- .block-content -->
+
+</section><!-- #block-30 -->
+
+</section><!-- .sub-column -->
+
+<section class="sub-column sub-column-4 column column-4 grid-width-3 grid-left-0">
+<div id="block-bp75a7b19c42b9b0" class="gigya-actions block block-type-custom-code block-fluid-height" data-alias="Gigya Profile Actions">
+<div class="block-content">
+<div class="see-widget" data-see-type="regUi" data-see-loginbonus="false"></div>
+</div><!-- .block-content -->
+
+</div><!-- #block-bp75a7b19c42b9b0 -->
+
+</section><!-- .sub-column -->
+<nav id="block-32" class="main-nav block block-type-navigation block-fluid-height" data-alias="Main Navigation" itemscope="" itemtype="http://schema.org/SiteNavigationElement">
+<div class="block-content">
+<div class="nav-horizontal nav-align-left"><ul id="menu-main-navigation" class="menu"><li id="menu-item-119" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children menu-item-119"><a href="http://www.heaven983.com/shows/">Shows</a>
+<ul class="sub-menu">
+	<li id="menu-item-505709" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-505709"><a href="http://www.heaven983.com/2016/04/25/may-10th-get-up-mornings-with-erica-campbell-comes-to-heaven-98-3/">Get Up! Mornings with Erica Campbell 6A &#8211; 10A</a></li>
+	<li id="menu-item-735559" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-735559"><a href="http://www.heaven983.com/?p=735556">Jacquell The Apostle 10A &#8211; 12P</a></li>
+	<li id="menu-item-505715" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-505715"><a href="http://www.heaven983.com/?p=75378">Doc D &#038; Miss Monique 3P &#8211; 6P</a></li>
+	<li id="menu-item-741026" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-741026"><a href="http://www.heaven983.com">The Reverb Live Show Friday &#038; Saturday 6P &#8211; 8P</a></li>
+	<li id="menu-item-741025" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-741025"><a href="http://www.heaven983.com/?p=741018">Caribbean Praise Sundays 5P</a></li>
+</ul>
+</li>
+<li id="menu-item-121" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-121"><a href="http://www.heaven983.com/connect/">Connect</a>
+<ul class="sub-menu">
+	<li id="menu-item-505718" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-505718"><a href="https://www.facebook.com/groups/387378444648834/">Follow Heaven on Facebook</a></li>
+	<li id="menu-item-505721" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-505721"><a href="https://twitter.com/NewHeaven1410">Follow Heaven on Twitter</a></li>
+	<li id="menu-item-505724" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-505724"><a href="https://www.youtube.com/user/CumulusTallahassee">Follow Heaven on Youtube</a></li>
+	<li id="menu-item-505727" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-505727"><a href="https://play.google.com/store/apps/details?id=com.airkast.WHBTAM&#038;hl=en">Heaven App on Android</a></li>
+	<li id="menu-item-505730" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-505730"><a href="https://itunes.apple.com/us/app/heaven-1410/id804619224?mt=8">Heaven App on Iphone</a></li>
+	<li id="menu-item-505733" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-505733"><a href="http://www.amazon.com/AirKast-Inc-Heaven-1410/dp/B00IW2RA42/ref=sr_1_1?ie=UTF8&#038;qid=1464630657&#038;sr=8-1&#038;keywords=heaven+1410">Heaven App on Amazon</a></li>
+	<li id="menu-item-505736" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-505736"><a href="http://heaven983.listenernetwork.com">Join the Heaven VIP Club!</a></li>
+</ul>
+</li>
+<li id="menu-item-127" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-127"><a href="/amp-events/">Events</a>
+<ul class="sub-menu">
+	<li id="menu-item-764518" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-764518"><a href="http://www.heaven983.com/?p=764511">Bath Fitter Live Broadcast</a></li>
+	<li id="menu-item-764530" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-764530"><a href="http://EABB.ORG">EABB presents the Amazing Race &#038; Boat Poker Run</a></li>
+	<li id="menu-item-739045" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-739045"><a href="http://www.heaven983.com/?p=739040">Heaven 98.3 Cares</a></li>
+	<li id="menu-item-757291" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-757291"><a href="http://www.heaven983.com/?p=757273">St. Jude Walk/Run to End Childhood Cancer</a></li>
+	<li id="menu-item-764921" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-764921"><a href="http://tallahassee.moonevents.com/events/man-her-dreams">The Man of Her Dreams</a></li>
+	<li id="menu-item-762585" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-762585"><a href="https://www.etix.com/ticket/v/13406/gaylord-palms-resort-and-convention-center?cobrand=Reach">Tom Joyner Family Reunion Gospel Explosion</a></li>
+</ul>
+</li>
+<li id="menu-item-123" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-123"><a href="http://www.heaven983.com/contests/">Contests</a>
+<ul class="sub-menu">
+	<li id="menu-item-687785" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-687785"><a href="http://www.heaven983.com/?p=687749">Sam&#8217;s Cake Giveaway</a></li>
+	<li id="menu-item-762584" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-762584"><a href="http://www.heaven983.com/?p=762575">Tom Joyner Family Reunion Gospel Explosion</a></li>
+</ul>
+</li>
+<li id="menu-item-125" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-125"><a href="http://www.heaven983.com/news/">News</a>
+<ul class="sub-menu">
+	<li id="menu-item-505745" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-505745"><a href="http://www.heaven983.com/?p=19768">Heaven Entertainment News</a></li>
+	<li id="menu-item-505748" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-505748"><a href="http://www.heaven983.com/?p=19741">Heaven US News</a></li>
+	<li id="menu-item-505751" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-505751"><a href="http://www.heaven983.com/?p=19753">Heaven World News</a></li>
+	<li id="menu-item-505754" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-505754"><a href="http://www.heaven983.com/?p=19780">Heaven Sports News</a></li>
+</ul>
+</li>
+<li id="menu-item-117" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-117"><a href="http://tallahassee.sweetdealscumulus.com/">Sweet Deals</a></li>
+<li id="menu-item-739429" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-739429"><a href="https://fundraising.stjude.org/site/Donation2;jsessionid=00000000.app226a?4343.donation=form1&#038;idb=304785211&#038;df_id=4343&#038;FR_ID=89343&#038;mfc_pref=T&#038;PROXY_ID=89343&#038;PROXY_TYPE=21&#038;NONCE_TOKEN=5632561662FF858F5781ACF015E77D0A">St. Jude Radiothon Donation Link</a></li>
+</ul></div><!-- .nav-horizontal nav-align-left -->
+</div><!-- .block-content -->
+
+</nav><!-- #block-32 -->
+
+</section><!-- .column -->
+
+</section><!-- .row -->
+
+
+<section class="row row-3">
+
+<section class="column column-1 grid-left-0 grid-width-5">
+<div id="block-b8z54a44441b0250" class="takeover-left block block-type-custom-code block-fluid-height" data-alias="Skyscraper - Left">
+<div class="block-content">
+<div id='div-gpt-ad-1418849849333-4'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1418849849333-4'); });
+</script>
+</div>
+</div><!-- .block-content -->
+
+</div><!-- #block-b8z54a44441b0250 -->
+
+</section><!-- .column -->
+
+<section class="column column-2 grid-left-0 grid-width-5">
+<div id="block-b0b54a44441b2caa" class="takeover-right block block-type-custom-code block-fluid-height" data-alias="Skyscraper - Right">
+<div class="block-content">
+<div id='div-gpt-ad-1418849849333-5'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1418849849333-5'); });
+</script>
+</div>
+</div><!-- .block-content -->
+
+</div><!-- #block-b0b54a44441b2caa -->
+
+</section><!-- .column -->
+
+</section><!-- .row -->
+
+
+</div><!-- .grid-container -->
+
+</div><!-- .wrapper -->
+
+<div id="wrapper-9" class="wrapper wrapper-fluid wrapper-fixed-grid grid-fluid-24-32-10 responsive-grid wrapper-content" data-alias="Wrapper Content">
+
+<div class="grid-container clearfix">
+
+<section class="row row-1">
+
+<section class="column column-1 grid-left-0 grid-width-16">
+<aside id="block-35" class="promo-reel block block-type-widget-area block-fluid-height" data-alias="Home - Promo Reel" itemscope="" itemtype="http://schema.org/WPSideBar">
+<div class="block-content">
+<ul class="widget-area"><li id="amp_promo_reel-2" class="widget widget_amp_promo_reel sidebar_promo">
+<div class="sliderWrapper"><div class="sliderBody" style=""><div class="bxslider" data-navigation-arrows='1' data-rotation-time='6000' data-pager-type='thumbnails'><div class="sliderItem" style="background-image: url(http://images.tritondigitalcms.com/6616/sites/1164/2018/07/31130004/Gospel-Explosion-655x5151.png);background-color: #000;background-repeat: no-repeat;background-size: contain;background-position: 50% 50%;position: relative;height: 300px;cursor: pointer;" onclick="window.open('http://www.heaven983.com/?p=762575', '_blank')"><div class="promoCaption bottom"><div class="captionTitle">Tom Joyner Family Reunion The Gospel Explosion </div></div></div><div class="sliderItem" style="background-image: url(http://images.tritondigitalcms.com/6616/sites/1164/2018/08/15095731/Untitled-21.jpg);background-color: #000;background-repeat: no-repeat;background-size: contain;background-position: 50% 50%;position: relative;height: 300px;cursor: pointer;" onclick="window.open('http://www.heaven983.com/?p=757273', '_blank')"><div class="promoCaption bottom"><div class="captionTitle">St. Jude Walk/Run to End Childhood Cancer</div></div></div><div class="sliderItem" style="background-image: url(http://images.tritondigitalcms.com/6616/sites/1164/2018/08/21105230/Play-655x515.png);background-color: #000;background-repeat: no-repeat;background-size: contain;background-position: 50% 50%;position: relative;height: 300px;cursor: pointer;" onclick="window.open('http://tallahassee.moonevents.com/events/man-her-dreams', '_blank')"><div class="promoCaption bottom"><div class="captionTitle">The Man of Her Dreams</div></div></div><div class="sliderItem" style="background-image: url(http://images.tritondigitalcms.com/6616/sites/1164/2017/07/10140714/Doc-D-Mo-655x515.png);background-color: #000;background-repeat: no-repeat;background-size: contain;background-position: 50% 50%;position: relative;height: 300px;cursor: pointer;" onclick="window.open('http://www.heaven983.com/?p=75378', '_blank')"><div class="promoCaption bottom"><div class="captionTitle">Doc D & Miss Monique In The Afternoon </div></div></div><div class="sliderItem" style="background-image: url(http://www.heaven983.com/wp-content/uploads/sites/1164/2017/02/Erica-Campbell-655x515.png);background-color: #000;background-repeat: no-repeat;background-size: contain;background-position: 50% 50%;position: relative;height: 300px;cursor: pointer;" onclick="window.open('http://www.heaven983.com/?p=470670', '_blank')"><div class="promoCaption bottom"><div class="captionTitle">Get Up! Mornings With Erica Campbell 6AM - 10AM</div></div></div><div class="sliderItem" style="background-image: url(http://images.tritondigitalcms.com/6616/sites/1164/2018/06/22104206/Heaven-Shop-655x515.png);background-color: #000;background-repeat: no-repeat;background-size: contain;background-position: 50% 50%;position: relative;height: 300px;" ><div class="promoCaption bottom"><div class="captionTitle">Heaven's Barbershop Talk Coming Soon</div></div></div><div class="sliderItem" style="background-image: url(http://www.heaven983.com/wp-content/uploads/sites/1164/2017/02/Sams-Club-655x515-1.jpg);background-color: #000;background-repeat: no-repeat;background-size: contain;background-position: 50% 50%;position: relative;height: 300px;cursor: pointer;" onclick="window.open('http://www.heaven983.com/?p=687749 ', '_blank')"><div class="promoCaption bottom"><div class="captionTitle">Register To Win!</div></div></div><div class="sliderItem" style="background-image: url(http://images.tritondigitalcms.com/6616/sites/1164/2017/07/14165514/WHBT-Jackie-655x515.png);background-color: #000;background-repeat: no-repeat;background-size: contain;background-position: 50% 50%;position: relative;height: 300px;" ><div class="promoCaption bottom"><div class="captionTitle">Morning Praise Break with Jacquell</div></div></div><div class="sliderItem" style="background-image: url(http://images.tritondigitalcms.com/6616/sites/1164/2017/07/14170002/Dr-Rrain-655x515.png);background-color: #000;background-repeat: no-repeat;background-size: contain;background-position: 50% 50%;position: relative;height: 300px;" ><div class="promoCaption bottom"><div class="captionTitle">The Reverb Live show  Friday & Saturday  6-8pm  </div></div></div><div class="sliderItem" style="background-image: url(http://images.tritondigitalcms.com/6616/2018/07/18225509/1000-Summer-Fun-Payoff-Live-PromoReel.jpg);background-color: #000;background-repeat: no-repeat;background-size: cover;background-position: 50% 50%;position: relative;height: 300px;cursor: pointer;" onclick="window.location='http://www.heaven983.com/2018/07/13/4k-summer-fun-payoff'"><div class="promoCaption bottom"><div class="captionTitle">Enter to win $1k!</div></div></div><div class="sliderItem" style="background-image: url(http://images.tritondigitalcms.com/6616/sites/1164/2018/06/20100848/Carribean-Praise-655x515.png);background-color: #000;background-repeat: no-repeat;background-size: contain;background-position: 50% 50%;position: relative;height: 300px;cursor: pointer;" onclick="window.open('http://www.heaven983.com/?p=741018', '_blank')"><div class="promoCaption bottom"><div class="captionTitle">Caribbean Praise Sundays @ 5pm </div></div></div><div class="sliderItem" style="background-image: url(http://images.tritondigitalcms.com/6616/sites/1164/2018/02/03154043/Heaven-983-Cares-655x515.png);background-color: #000;background-repeat: no-repeat;background-size: contain;background-position: 50% 50%;position: relative;height: 300px;cursor: pointer;" onclick="window.open('http://www.heaven983.com/?p=739040', '_blank')"><div class="promoCaption bottom"><div class="captionTitle">Heaven 98.3 Cares</div><div class="captionTeaser">Request a Heaven 98.3 Street Team Appearance @ Your Next Non-Profit Event!</div></div></div><div class="sliderItem" style="background-image: url(http://images.tritondigitalcms.com/6616/2018/08/17193903/LaborDay-PromoReel.jpg);background-color: #000;background-repeat: no-repeat;background-size: cover;background-position: 50% 50%;position: relative;height: 300px;cursor: pointer;" onclick="window.location='http://www.heaven983.com/2018/08/20/ultimate-labor-day/'"><div class="promoCaption bottom"><div class="captionTitle">Enter to win $2k!</div></div></div></div></div><div class="sliderThumbBar"><div class="sliderThumbViewport"><div class="sliderThumb selected"><div class="sliderThumbImage" style="background-image: url(http://images.tritondigitalcms.com/6616/sites/1164/2018/07/31130004/Gospel-Explosion-655x5151-150x150.png);background-color: #000;background-size: contain;background-position: 50% 50%;background-repeat: no-repeat;position: relative;" data-slide-index="0"></div></div><div class="sliderThumb"><div class="sliderThumbImage" style="background-image: url(http://images.tritondigitalcms.com/6616/sites/1164/2018/08/15095731/Untitled-21-150x150.jpg);background-color: #000;background-size: contain;background-position: 50% 50%;background-repeat: no-repeat;position: relative;" data-slide-index="1"></div></div><div class="sliderThumb"><div class="sliderThumbImage" style="background-image: url(http://images.tritondigitalcms.com/6616/sites/1164/2018/08/21105230/Play-655x515-150x150.png);background-color: #000;background-size: contain;background-position: 50% 50%;background-repeat: no-repeat;position: relative;" data-slide-index="2"></div></div><div class="sliderThumb"><div class="sliderThumbImage" style="background-image: url(http://images.tritondigitalcms.com/6616/sites/1164/2017/07/10140714/Doc-D-Mo-655x515-150x150.png);background-color: #000;background-size: contain;background-position: 50% 50%;background-repeat: no-repeat;position: relative;" data-slide-index="3"></div></div><div class="sliderThumb"><div class="sliderThumbImage" style="background-image: url(http://www.heaven983.com/wp-content/uploads/sites/1164/2017/02/Erica-Campbell-655x515-150x150.png);background-color: #000;background-size: contain;background-position: 50% 50%;background-repeat: no-repeat;position: relative;" data-slide-index="4"></div></div><div class="sliderThumb"><div class="sliderThumbImage" style="background-image: url(http://images.tritondigitalcms.com/6616/sites/1164/2018/06/22104206/Heaven-Shop-655x515-150x150.png);background-color: #000;background-size: contain;background-position: 50% 50%;background-repeat: no-repeat;position: relative;" data-slide-index="5"></div></div><div class="sliderThumb"><div class="sliderThumbImage" style="background-image: url(http://www.heaven983.com/wp-content/uploads/sites/1164/2017/02/Sams-Club-655x515-1-150x150.jpg);background-color: #000;background-size: contain;background-position: 50% 50%;background-repeat: no-repeat;position: relative;" data-slide-index="6"></div></div><div class="sliderThumb"><div class="sliderThumbImage" style="background-image: url(http://images.tritondigitalcms.com/6616/sites/1164/2017/07/14165514/WHBT-Jackie-655x515-150x150.png);background-color: #000;background-size: contain;background-position: 50% 50%;background-repeat: no-repeat;position: relative;" data-slide-index="7"></div></div><div class="sliderThumb"><div class="sliderThumbImage" style="background-image: url(http://images.tritondigitalcms.com/6616/sites/1164/2017/07/14170002/Dr-Rrain-655x515-150x150.png);background-color: #000;background-size: contain;background-position: 50% 50%;background-repeat: no-repeat;position: relative;" data-slide-index="8"></div></div><div class="sliderThumb"><div class="sliderThumbImage" style="background-image: url(http://images.tritondigitalcms.com/6616/2018/07/18225509/1000-Summer-Fun-Payoff-Live-PromoReel-150x150.jpg);background-color: #000;background-size: cover;background-position: 50% 50%;background-repeat: no-repeat;position: relative;" data-slide-index="9"></div></div><div class="sliderThumb"><div class="sliderThumbImage" style="background-image: url(http://images.tritondigitalcms.com/6616/sites/1164/2018/06/20100848/Carribean-Praise-655x515-150x150.png);background-color: #000;background-size: contain;background-position: 50% 50%;background-repeat: no-repeat;position: relative;" data-slide-index="10"></div></div><div class="sliderThumb"><div class="sliderThumbImage" style="background-image: url(http://images.tritondigitalcms.com/6616/sites/1164/2018/02/03154043/Heaven-983-Cares-655x515-150x150.png);background-color: #000;background-size: contain;background-position: 50% 50%;background-repeat: no-repeat;position: relative;" data-slide-index="11"></div></div><div class="sliderThumb"><div class="sliderThumbImage" style="background-image: url(http://images.tritondigitalcms.com/6616/2018/08/17193903/LaborDay-PromoReel-150x150.jpg);background-color: #000;background-size: cover;background-position: 50% 50%;background-repeat: no-repeat;position: relative;" data-slide-index="12"></div></div></div></div></div></li><!-- .widget -->
+</ul>
+</div><!-- .block-content -->
+
+</aside><!-- #block-35 -->
+<div id="block-75" class="mobile-only block block-type-custom-code block-fluid-height" data-alias="Responsive Ad">
+<div class="block-content">
+<div id='div-gpt-ad-1418849849333-18'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1418849849333-18'); });
+</script>
+</div>
+</div><!-- .block-content -->
+
+</div><!-- #block-75 -->
+<div id="block-9" class="300x250-ad-1-r block block-type-custom-code block-fluid-height responsive-block-hiding-device-smartphones responsive-block-hiding-device-tablets-landscape responsive-block-hiding-device-tablets-portrait responsive-block-hiding-device-computers" data-alias="">
+<div class="block-content">
+<p>There is no custom code to display.</p>
+</div><!-- .block-content -->
+
+</div><!-- #block-9 -->
+<div id="block-11" class="sweet-deals-ad-r block block-type-custom-code block-fluid-height responsive-block-hiding-device-smartphones responsive-block-hiding-device-tablets-landscape responsive-block-hiding-device-tablets-portrait responsive-block-hiding-device-computers" data-alias="">
+<div class="block-content">
+<p>There is no custom code to display.</p>
+</div><!-- .block-content -->
+
+</div><!-- #block-11 -->
+<div id="block-39" class="top-stories block block-type-content block-fluid-height" data-alias="Top Stories">
+<div class="block-content">
+<h1 class="block-title"><span>Top Stories</span></h1><div class="loop">
+
+<div class="entry-row">
+
+<article id="post-762575" class="post-762575 post type-post status-publish format-standard has-post-thumbnail hentry category-contests category-homepage tag-concert tag-contest tag-erica-campbell tag-event tag-family tag-family-reunion tag-gospel-explosion tag-tom-joyner author-gteachman custom-query" itemscope itemtype="http://schema.org/BlogPosting">
+			<a href="http://www.heaven983.com/2018/07/31/win-tickets-to-the-tom-joyner-family-reunion-gospel-explosion/" class="post-thumbnail post-thumbnail-left">
+				<img src="http://images.tritondigitalcms.com/6616/sites/1164/2018/07/31125430/Gospel-Explosion-300x170.png" alt="Win Tickets To The Tom Joyner Family Reunion Gospel Explosion!" width="auto" height="auto" itemprop="image" />
+			</a>
+		<header><h2 class="entry-title" itemprop="headline"><a href="http://www.heaven983.com/2018/07/31/win-tickets-to-the-tom-joyner-family-reunion-gospel-explosion/" title="Win Tickets To The Tom Joyner Family Reunion Gospel Explosion!" rel="bookmark">Win Tickets To The Tom Joyner Family Reunion Gospel Explosion!</a></h2></header><div class="entry-summary entry-content" itemprop="text"><p>Heaven 98.3 “Tallahassee’s Gospel Station” is giving you the chance to WIN a family 4-pack of tickets to the “Allstate Tom Joyner Family Reunion Gospel Explosion featuring Erica Campbell” Labor Day Weekend!  For the chance to WIN 4 tickets to &#8220;The Gospel Explosion&#8221; featuring Erica Campbell on Sunday, listen to &#8220;Doc D &#038; Miss Monique in the Afternoon&#8221; weekdays&hellip;<span class="more-link-ellipsis">&#8230;  </span><a href="http://www.heaven983.com/2018/07/31/win-tickets-to-the-tom-joyner-family-reunion-gospel-explosion/" class="more-link">More</a></p>
+</div><!-- .entry-summary.entry-content --></article><!-- #post-762575 --><article id="post-687749" class="post-687749 post type-post status-publish format-standard has-post-thumbnail hentry category-contests category-homepage tag-cake tag-club tag-giveaway tag-sams author-gteachman alt custom-query" itemscope itemtype="http://schema.org/BlogPosting">
+			<a href="http://www.heaven983.com/2017/02/21/enter-to-win-a-complimentary-sams-club-cake/" class="post-thumbnail post-thumbnail-left">
+				<img src="http://www.heaven983.com/wp-content/uploads/sites/1164/2017/02/Sams-Club-300x170.jpg" alt="Enter To Win A Complimentary Sam&#8217;s Club Cake!" width="auto" height="auto" itemprop="image" />
+			</a>
+		<header><h2 class="entry-title" itemprop="headline"><a href="http://www.heaven983.com/2017/02/21/enter-to-win-a-complimentary-sams-club-cake/" title="Enter To Win A Complimentary Sam&#8217;s Club Cake!" rel="bookmark">Enter To Win A Complimentary Sam&#8217;s Club Cake!</a></h2></header><div class="entry-summary entry-content" itemprop="text"><p>Heaven 98.3, “Tallahassee’s Gospel Station” wants to help you celebrate your next special occasion! Is it a family member’s birthday? A friend’s anniversary party? We are teaming up with Sam’s Club and giving our loyal listeners a chance to WIN a complimentary 1/2 sheet cake! Fill out the registration form and we will choose one&hellip;<span class="more-link-ellipsis">&#8230;  </span><a href="http://www.heaven983.com/2017/02/21/enter-to-win-a-complimentary-sams-club-cake/" class="more-link">More</a></p>
+</div><!-- .entry-summary.entry-content --></article><!-- #post-687749 -->
+
+</div><!-- .entry-row -->
+
+
+
+<div class="entry-row">
+
+<article id="post-535217" class="post-535217 post type-post status-publish format-standard has-post-thumbnail hentry category-homepage author-gteachman custom-query" itemscope itemtype="http://schema.org/BlogPosting">
+			<a href="http://www.heaven983.com/2016/07/05/take-us-on-the-go-with-the-new-heaven-app/" class="post-thumbnail post-thumbnail-left">
+				<img src="http://www.heaven983.com/wp-content/uploads/sites/1164/2016/07/Heaven-App-300x1701.png" alt="Take us on the go with the NEW Heaven App!" width="auto" height="auto" itemprop="image" />
+			</a>
+		<header><h2 class="entry-title" itemprop="headline"><a href="http://www.heaven983.com/2016/07/05/take-us-on-the-go-with-the-new-heaven-app/" title="Take us on the go with the NEW Heaven App!" rel="bookmark">Take us on the go with the NEW Heaven App!</a></h2></header><div class="entry-summary entry-content" itemprop="text"><p>Take us with you everywhere you go by downloading the ALL-NEW Heaven App! Heaven 98.3, Tallahassee&#8217;s Gospel Station, is now available for both Android &amp; Iphone devices.  Take us with you on your next trip, family gathering, to the beach, to work or anywhere else you need to listen<span class="more-link-ellipsis">&#8230;  </span><a href="http://www.heaven983.com/2016/07/05/take-us-on-the-go-with-the-new-heaven-app/" class="more-link">More</a></p>
+</div><!-- .entry-summary.entry-content --></article><!-- #post-535217 --><article id="post-470670" class="post-470670 post type-post status-publish format-standard has-post-thumbnail hentry category-homepage tag-erica tag-erica-campbell tag-get-up tag-morning-show tag-on-air author-gteachman alt custom-query" itemscope itemtype="http://schema.org/BlogPosting">
+			<a href="http://www.heaven983.com/2016/04/25/may-10th-get-up-mornings-with-erica-campbell-comes-to-heaven-98-3/" class="post-thumbnail post-thumbnail-left">
+				<img src="http://www.heaven983.com/wp-content/uploads/sites/1164/2016/04/Erica-Campbell-300x170-1.png" alt="Get Up! Mornings with Erica Campbell" width="auto" height="auto" itemprop="image" />
+			</a>
+		<header><h2 class="entry-title" itemprop="headline"><a href="http://www.heaven983.com/2016/04/25/may-10th-get-up-mornings-with-erica-campbell-comes-to-heaven-98-3/" title="Get Up! Mornings with Erica Campbell" rel="bookmark">Get Up! Mornings with Erica Campbell</a></h2></header><div class="entry-summary entry-content" itemprop="text"><p>Your mornings are about to get a whole lot better!  &#8220;GET UP! Mornings with Erica Campbell&#8221; every morning on Heaven 98.3! Get Up! Mornings with Erica Campbell sets a new bar<span class="more-link-ellipsis">&#8230;  </span><a href="http://www.heaven983.com/2016/04/25/may-10th-get-up-mornings-with-erica-campbell-comes-to-heaven-98-3/" class="more-link">More</a></p>
+</div><!-- .entry-summary.entry-content --></article><!-- #post-470670 -->
+
+</div><!-- .entry-row -->
+
+</div>
+</div><!-- .block-content -->
+
+</div><!-- #block-39 -->
+<div id="block-bep55ddcee1f37e9" class="top-stories block block-type-content block-fluid-height" data-alias="Top Stories Copy">
+<div class="block-content">
+<h1 class="block-title"><span>U.S. News</span></h1><div class="loop">
+
+<div class="entry-row">
+
+<article id="post-766474" class="post-766474 feed_posts type-feed_posts status-publish has-post-thumbnail hentry category-cnn-us custom-query" itemscope itemtype="http://schema.org/BlogPosting">
+			<a href="http://www.heaven983.com/news/as-video-game-tournament-went-on-these-gunshots-were-real-and-deadly/" class="post-thumbnail post-thumbnail-left">
+				<img src="http://i2.cdn.turner.com/cnn/2014/images/12/05/usmedium.jpg" alt="As video game tournament went on, these gunshot sounds were real" width="auto" height="auto" itemprop="image" />
+			</a>
+		<header><h2 class="entry-title" itemprop="headline"><a href="http://www.heaven983.com/news/as-video-game-tournament-went-on-these-gunshots-were-real-and-deadly/" title="As video game tournament went on, these gunshot sounds were real" rel="bookmark">As video game tournament went on, these gunshot sounds were real</a></h2></header><div class="entry-summary entry-content" itemprop="text"><p>(CNN) &#8211; Ryen Aleman was engrossed in the virtual world, focused on the video game in front of him, when he realized the gunshots he was hearing were real. He ducked and bolted for a restroom to take<span class="more-link-ellipsis">&#8230;  </span><a href="http://www.heaven983.com/news/as-video-game-tournament-went-on-these-gunshots-were-real-and-deadly/" class="more-link">More</a></p>
+</div><!-- .entry-summary.entry-content --></article><!-- #post-766474 --><article id="post-766520" class="post-766520 feed_posts type-feed_posts status-publish has-post-thumbnail hentry category-cnn-us alt custom-query" itemscope itemtype="http://schema.org/BlogPosting">
+			<a href="http://www.heaven983.com/news/florida-grapples-with-another-shooting-this-time-at-a-jacksonville-game-tournament/" class="post-thumbnail post-thumbnail-left">
+				<img src="http://i2.cdn.turner.com/cnn/2014/images/12/05/usmedium.jpg" alt="Florida grapples with another shooting, this time at a Jacksonville game tournament" width="auto" height="auto" itemprop="image" />
+			</a>
+		<header><h2 class="entry-title" itemprop="headline"><a href="http://www.heaven983.com/news/florida-grapples-with-another-shooting-this-time-at-a-jacksonville-game-tournament/" title="Florida grapples with another shooting, this time at a Jacksonville game tournament" rel="bookmark">Florida grapples with another shooting, this time at a Jacksonville game tournament</a></h2></header><div class="entry-summary entry-content" itemprop="text"><p>(CNN) &#8211; A lone armed man opens fire in Florida. Bullets fly, killing and injuring people.It&#8217;s a pattern that has unfolded again in a public space in the same state that was the site of the Parklan<span class="more-link-ellipsis">&#8230;  </span><a href="http://www.heaven983.com/news/florida-grapples-with-another-shooting-this-time-at-a-jacksonville-game-tournament/" class="more-link">More</a></p>
+</div><!-- .entry-summary.entry-content --></article><!-- #post-766520 -->
+
+</div><!-- .entry-row -->
+
+
+
+<div class="entry-row">
+
+<article id="post-766475" class="post-766475 feed_posts type-feed_posts status-publish has-post-thumbnail hentry category-cnn-us custom-query" itemscope itemtype="http://schema.org/BlogPosting">
+			<a href="http://www.heaven983.com/news/3-8-billion-paid-in-lawsuits-and-claims-over-sex-abuse-allegations-in-catholic-church-since-1980s-group-says/" class="post-thumbnail post-thumbnail-left">
+				<img src="http://i2.cdn.turner.com/cnn/2014/images/12/05/usmedium.jpg" alt="$3.8 billion paid in lawsuits and claims over sex abuse allegations in Catholic Church since 1980s, group says" width="auto" height="auto" itemprop="image" />
+			</a>
+		<header><h2 class="entry-title" itemprop="headline"><a href="http://www.heaven983.com/news/3-8-billion-paid-in-lawsuits-and-claims-over-sex-abuse-allegations-in-catholic-church-since-1980s-group-says/" title="$3.8 billion paid in lawsuits and claims over sex abuse allegations in Catholic Church since 1980s, group says" rel="bookmark">$3.8 billion paid in lawsuits and claims over sex abuse allegations in Catholic Church since 1980s, group says</a></h2></header><div class="entry-summary entry-content" itemprop="text"><p>(CNN) &#8211; Since the 1980s, the Catholic Church in the United States and its insurance companies have paid out more than $3.8 billion in lawsuits and claims involving allegations of clerical sexual abus<span class="more-link-ellipsis">&#8230;  </span><a href="http://www.heaven983.com/news/3-8-billion-paid-in-lawsuits-and-claims-over-sex-abuse-allegations-in-catholic-church-since-1980s-group-says/" class="more-link">More</a></p>
+</div><!-- .entry-summary.entry-content --></article><!-- #post-766475 --><article id="post-766459" class="post-766459 feed_posts type-feed_posts status-publish has-post-thumbnail hentry category-cnn-us alt custom-query" itemscope itemtype="http://schema.org/BlogPosting">
+			<a href="http://www.heaven983.com/news/shooting-at-video-game-tournament-in-jacksonville-leaves-two-dead/" class="post-thumbnail post-thumbnail-left">
+				<img src="http://i.cdn.turner.com/cnn/wire/wire-scc/2018/08/26/s1535306649/lead_s097840281_3.jpg" alt="Two killed in shooting at Jacksonville video game tournament" width="auto" height="auto" itemprop="image" />
+			</a>
+		<header><h2 class="entry-title" itemprop="headline"><a href="http://www.heaven983.com/news/shooting-at-video-game-tournament-in-jacksonville-leaves-two-dead/" title="Two killed in shooting at Jacksonville video game tournament" rel="bookmark">Two killed in shooting at Jacksonville video game tournament</a></h2></header><div class="entry-summary entry-content" itemprop="text"><p>(CNN) &#8211; Ryen Aleman was engrossed in the virtual world, focused on the video game in front of him, when he realized the gun shots he was hearing were real. He ducked and bolted for a restroom to take<span class="more-link-ellipsis">&#8230;  </span><a href="http://www.heaven983.com/news/shooting-at-video-game-tournament-in-jacksonville-leaves-two-dead/" class="more-link">More</a></p>
+</div><!-- .entry-summary.entry-content --></article><!-- #post-766459 -->
+
+</div><!-- .entry-row -->
+
+</div>
+</div><!-- .block-content -->
+
+</div><!-- #block-bep55ddcee1f37e9 -->
+
+<section class="sub-column sub-column-1 column column-1 grid-width-8 grid-left-0">
+<div id="block-48" class="facebook block block-type-custom-code block-fluid-height" data-alias="Facebook Widget">
+<div class="block-content">
+<div class="fb-page" data-href="https://www.facebook.com/newheaven1410/" data-tabs="timeline" data-height="450" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/newheaven1410/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/newheaven1410/">Heaven 98.3FM &amp; 1410AM - Tallahassee&#039;s Gospel Station</a></blockquote></div>
+</div><!-- .block-content -->
+
+</div><!-- #block-48 -->
+
+</section><!-- .sub-column -->
+
+<section class="sub-column sub-column-2 column column-2 grid-width-8 grid-left-0">
+<div id="block-49" class="twitter block block-type-custom-code block-fluid-height" data-alias="Twitter Widget">
+<div class="block-content">
+&nbsp;
+</div><!-- .block-content -->
+
+</div><!-- #block-49 -->
+
+</section><!-- .sub-column -->
+
+</section><!-- .column -->
+
+<section class="column column-2 grid-left-0 grid-width-8">
+<div id="block-34" class="300x250-ad-1 block block-type-custom-code block-fluid-height" data-alias="300x250 Ad 1">
+<div class="block-content">
+<div id='div-gpt-ad-1418849849333-0'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1418849849333-0'); });
+</script>
+</div>
+</div><!-- .block-content -->
+
+</div><!-- #block-34 -->
+<div id="block-38" class="sweet-deals-ad block block-type-custom-code block-fluid-height" data-alias="Sweet Deals Ad">
+<div class="block-content">
+<a href="http://tallahassee.sweetdealscumulus.com/"><img src="/wp-content/uploads/sites/838/2014/10/sweetdeals.png"></a>
+</div><!-- .block-content -->
+
+</div><!-- #block-38 -->
+<div id="block-36" class="vip-club-ad block block-type-custom-code block-fluid-height" data-alias="VIP Club Ad">
+<div class="block-content">
+<div id='div-gpt-ad-1418849849333-7'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1418849849333-7'); });
+</script>
+</div>
+</div><!-- .block-content -->
+
+</div><!-- #block-36 -->
+<div id="block-b855589a37fe21a7" class="playlist block block-type-custom-code block-fluid-height" data-alias="Playlist">
+<div class="block-content">
+<h1 class="block-title"><span>Playlist</span></h1><iframe align="top,left" frameborder="0" height="480" id="tunegenie-onair" marginheight="0" marginwidth="0" name="onair" scrolling="no" src="http://whbtam.tunegenie.com/plugins/onair/?branding=no&amp;colorscheme=light&amp;bg=ffffff" width="310"></iframe>
+</div><!-- .block-content -->
+
+</div><!-- #block-b855589a37fe21a7 -->
+<div id="block-42" class="facebook-ad block block-type-custom-code block-fluid-height" data-alias="Facebook Ad">
+<div class="block-content">
+<div id='div-gpt-ad-1418849849333-8'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1418849849333-8'); });
+</script>
+</div>
+</div><!-- .block-content -->
+
+</div><!-- #block-42 -->
+<div id="block-43" class="headlines block block-type-content block-fluid-height" data-alias="Headlines">
+<div class="block-content">
+<h1 class="block-title"><span>Headlines</span></h1><div class="loop">
+
+<div class="entry-row">
+
+<article id="post-766471" class="post-766471 feed_posts type-feed_posts status-publish has-post-thumbnail hentry category-cnn-entertainment custom-query" itemscope itemtype="http://schema.org/BlogPosting"><header><h2 class="entry-title" itemprop="headline"><a href="http://www.heaven983.com/news/neil-simon-comedy-giant-who-straddled-the-worlds-of-theater-movies-tv/" title="Neil Simon: Comedy giant who straddled the worlds of theater, movies, TV" rel="bookmark">Neil Simon: Comedy giant who straddled the worlds of theater, movies, TV</a></h2></header></article><!-- #post-766471 --><article id="post-766472" class="post-766472 feed_posts type-feed_posts status-publish has-post-thumbnail hentry category-cnn-entertainment alt custom-query" itemscope itemtype="http://schema.org/BlogPosting"><header><h2 class="entry-title" itemprop="headline"><a href="http://www.heaven983.com/news/sharp-objects-twisty-finish-cant-redeem-flawed-run/" title="&#8216;Sharp Objects&#8217; twisty finish can&#8217;t redeem flawed run" rel="bookmark">&#8216;Sharp Objects&#8217; twisty finish can&#8217;t redeem flawed run</a></h2></header></article><!-- #post-766472 -->
+
+</div><!-- .entry-row -->
+
+
+
+<div class="entry-row">
+
+<article id="post-766322" class="post-766322 feed_posts type-feed_posts status-publish has-post-thumbnail hentry category-cnn-entertainment custom-query" itemscope itemtype="http://schema.org/BlogPosting"><header><h2 class="entry-title" itemprop="headline"><a href="http://www.heaven983.com/news/some-dude-bolted-toward-jay-z-and-beyonce-at-their-atlanta-show-he-didnt-get-far/" title="Some dude bolted toward Jay-Z and Beyoncé at their Atlanta show. (He didn&#8217;t get far)" rel="bookmark">Some dude bolted toward Jay-Z and Beyoncé at their Atlanta show. (He didn&#8217;t get far)</a></h2></header></article><!-- #post-766322 --><article id="post-766366" class="post-766366 feed_posts type-feed_posts status-publish has-post-thumbnail hentry category-cnn-entertainment alt custom-query" itemscope itemtype="http://schema.org/BlogPosting"><header><h2 class="entry-title" itemprop="headline"><a href="http://www.heaven983.com/news/neil-simon-pulitzer-prize-winning-playwright-dies-at-91/" title="Neil Simon, Pulitzer Prize-winning playwright, dies at 91" rel="bookmark">Neil Simon, Pulitzer Prize-winning playwright, dies at 91</a></h2></header></article><!-- #post-766366 -->
+
+</div><!-- .entry-row -->
+
+
+
+<div class="entry-row">
+
+<article id="post-766256" class="post-766256 feed_posts type-feed_posts status-publish has-post-thumbnail hentry category-cnn-entertainment custom-query" itemscope itemtype="http://schema.org/BlogPosting"><header><h2 class="entry-title" itemprop="headline"><a href="http://www.heaven983.com/news/kyle-pavone-vocalist-for-we-came-as-romans-dies-at-28/" title="Kyle Pavone, vocalist for We Came as Romans, dies at 28" rel="bookmark">Kyle Pavone, vocalist for We Came as Romans, dies at 28</a></h2></header></article><!-- #post-766256 --><article id="post-766478" class="post-766478 feed_posts type-feed_posts status-publish has-post-thumbnail hentry category-cnn-entertainment alt custom-query" itemscope itemtype="http://schema.org/BlogPosting"><header><h2 class="entry-title" itemprop="headline"><a href="http://www.heaven983.com/news/mario-batali-sued-by-woman-who-claims-he-groped-her/" title="Mario Batali sued by woman who claims he groped her" rel="bookmark">Mario Batali sued by woman who claims he groped her</a></h2></header></article><!-- #post-766478 -->
+
+</div><!-- .entry-row -->
+
+</div>
+</div><!-- .block-content -->
+
+</div><!-- #block-43 -->
+<div id="block-bzn5589a37fe807e" class="concert block block-type-custom-code block-fluid-height" data-alias="Concert Calendar">
+<div class="block-content">
+<h1 class="block-title"><span>Concert Calendar</span></h1><iframe align="top,left" frameborder="0" height="480" id="tunegenie-concerts" marginheight="0" marginwidth="0" name="concerts" scrolling="no" src="http://whbtam.tunegenie.com/plugins/concerts/?colorscheme=light&amp;bg=ffffff" width="310"></iframe>
+</div><!-- .block-content -->
+
+</div><!-- #block-bzn5589a37fe807e -->
+<div id="block-44" class="twitter-ad block block-type-custom-code block-fluid-height" data-alias="Twitter Ad">
+<div class="block-content">
+<div id='div-gpt-ad-1418849849333-9'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1418849849333-9'); });
+</script>
+</div>
+</div><!-- .block-content -->
+
+</div><!-- #block-44 -->
+<aside id="block-45" class="free-apps block block-type-widget-area block-fluid-height" data-alias="Home - Free Apps" itemscope="" itemtype="http://schema.org/WPSideBar">
+<div class="block-content">
+<h1 class="block-title"><span>Free Apps</span></h1><ul class="widget-area"><li id="text-3" class="widget widget_text">
+			<div class="textwidget"><div align="center">
+<a href="https://itunes.apple.com/us/app/heaven-1410/id804619224?mt=8&amp;ign-mpt=uo=4" target="_blank"><img src="/wp-content/uploads/sites/1164/2014/10/appstore.png" border="0"></a>&nbsp;<a href="https://play.google.com/store/apps/details?id=com.airkast.WHBTAM" target="_blank"><img src="/wp-content/uploads/sites/1164/2014/10/googleplay.png" border="0"></a>&nbsp;<a href="http://amazon.com/dp/B00IW2RA42" target="_blank"><img src="/wp-content/uploads/sites/1164/2014/10/amazon.png" border="0"></a>
+</div></div>
+		</li><!-- .widget -->
+</ul>
+</div><!-- .block-content -->
+
+</aside><!-- #block-45 -->
+<div id="block-46" class="300x250-ad-2 block block-type-custom-code block-fluid-height" data-alias="300x250 Ad 2">
+<div class="block-content">
+<div id='div-gpt-ad-1418849849333-3'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1418849849333-3'); });
+</script>
+</div>
+</div><!-- .block-content -->
+
+</div><!-- #block-46 -->
+
+</section><!-- .column -->
+
+</section><!-- .row -->
+
+
+</div><!-- .grid-container -->
+
+</div><!-- .wrapper -->
+
+<div id="wrapper-10" class="wrapper wrapper-fluid wrapper-fixed-grid grid-fluid-24-32-10 responsive-grid wrapper-last wrapper-footer" data-alias="Wrapper Footer">
+
+<div class="grid-container clearfix">
+
+<section class="row row-1">
+
+<section class="column column-1 grid-left-0 grid-width-6">
+<nav id="block-50" class="footer-nav block block-type-navigation block-fluid-height" data-alias="Footer Navigation" itemscope="" itemtype="http://schema.org/SiteNavigationElement">
+<div class="block-content">
+<div class="nav-vertical nav-align-left"><ul id="menu-footer-navigation" class="menu"><li id="menu-item-269613" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-269613"><a href="/1111/11/11/privacy-policy">Privacy Policy</a></li>
+<li id="menu-item-269616" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-269616"><a href="/1111/11/11/terms-of-service">Terms of Service</a></li>
+<li id="menu-item-269619" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-269619"><a href="/1111/11/11/contest-rules">Contest Rules</a></li>
+<li id="menu-item-137" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-137"><a href="http://www.heaven983.com/advertise-with-us/">Advertise With Us</a></li>
+<li id="menu-item-139" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-139"><a href="http://www.heaven983.com/station-information/">Station Information</a></li>
+<li id="menu-item-740236" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-740236"><a href="https://publicfiles.fcc.gov/am-profile/whbt/equal-employment-opportunity-records/additional-documents/eeo-public-file-reports/e204e0a8-a23a-3e54-5605-76ea4969d852/">EEO Report</a></li>
+<li id="menu-item-738603" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-738603"><a href="https://publicfiles.fcc.gov/am-profile/whbt">FCC Public File</a></li>
+<li id="menu-item-740243" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-740243"><a href="http://www.heaven983.com/?p=740240">FCC Public File Assistance</a></li>
+<li id="menu-item-141" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-141"><a href="http://www.cumulus.com/careers">Employment Opportunities</a></li>
+<li id="menu-item-737694" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-737694"><a target="_blank" href="https://www.cumulus.com">Cumulus Media Corporate</a></li>
+</ul></div><!-- .nav-vertical nav-align-left -->
+</div><!-- .block-content -->
+
+</nav><!-- #block-50 -->
+<div id="block-bie55ef2ccb6db25" class="block block-type-custom-code block-fluid-height" data-alias="Wallpaper Ad">
+<div class="block-content">
+<div id='div-gpt-ad-1418849849333-16'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1418849849333-16'); });
+</script>
+</div>
+</div><!-- .block-content -->
+
+</div><!-- #block-bie55ef2ccb6db25 -->
+
+</section><!-- .column -->
+
+<section class="column column-2 grid-left-0 grid-width-18">
+<div id="block-51" class="728x90-ad-2 block block-type-custom-code block-fluid-height" data-alias="728x90 Ad 2">
+<div class="block-content">
+<div class="footer-728x90-ad" align="right">
+<div id='div-gpt-ad-1418849849333-2'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1418849849333-2'); });
+</script>
+</div>
+</div>
+
+</div><!-- .block-content -->
+
+</div><!-- #block-51 -->
+<footer id="block-52" class="copyright block block-type-footer block-fluid-height" data-alias="Copyright" itemscope="" itemtype="http://schema.org/WPFooter">
+<div class="block-content">
+
+<div class="footer-container">
+
+<div class="footer">
+<p class="copyright footer-copyright">Copyright Cumulus Media / Cumulus Media is an equal opportunity employer / AA</p><p class="footer-responsive-grid-link-container footer-responsive-grid-link-disable-container"><a href="http://www.heaven983.com/?full-site=true" rel="nofollow" class="footer-responsive-grid-link footer-responsive-grid-disable footer-link">View Full Site</a></p>
+</div><!-- .footer -->
+</div><!-- .footer-container -->
+</div><!-- .block-content -->
+
+</footer><!-- #block-52 -->
+
+</section><!-- .column -->
+
+</section><!-- .row -->
+
+
+</div><!-- .grid-container -->
+
+</div><!-- .wrapper -->
+
+
+
+<script>_AMP.theme.init();</script>
+<link rel='stylesheet' id='media_library_assistant-plugin-styles-css'  href='http://www.heaven983.com/wp-content/plugins/media-library-assistant/includes/../css/prettyPhoto.css?ver=1.61' type='text/css' media='all' />
+<link rel='stylesheet' id='media_library_assistant-widget-styles-css'  href='http://www.heaven983.com/wp-content/plugins/media-library-assistant/includes/../css/widget.css?ver=1.61' type='text/css' media='all' />
+<link rel='stylesheet' id='amp-polls-plugin-styles-css'  href='http://www.heaven983.com/wp-content/plugins/amp-polls/css/widget.css?ver=4.9.1' type='text/css' media='all' />
+<link rel='stylesheet' id='themify-builder-762575-generated-css'  href='http://www.heaven983.com/wp-content/uploads/sites/1164/themify-css/themify-builder-762575-generated.css?ver=1533056672' type='text/css' media='all' />
+<script type='text/javascript'>
+/* <![CDATA[ */
+var themify_vars = {"version":"2.1.8","url":"http:\/\/www.heaven983.com\/wp-content\/plugins\/themify-builder\/themify","map_key":null,"includesURL":"http:\/\/www.heaven983.com\/wp-includes\/","isCached":null,"minify":{"css":{"themify-icons":false,"themify.framework":false,"lightbox":false,"themify-builder-style":false},"js":{"backstretch.themify-version":false,"bigvideo":false,"themify.dropdown":false,"themify.builder.script":false,"themify.scroll-highlight":false,"themify-youtube-bg":false,"themify.parallaxit":false,"themify.ticks":false}}};
+var tbLocalScript = {"isAnimationActive":"1","isParallaxActive":"1","isParallaxScrollActive":"1","animationInviewSelectors":[".module.wow",".module_row.wow",".builder-posts-wrap > .post.wow"],"backgroundSlider":{"autoplay":5000,"speed":2000},"animationOffset":"100","videoPoster":"http:\/\/www.heaven983.com\/wp-content\/plugins\/themify-builder\/img\/blank.png","backgroundVideoLoop":"yes","builder_url":"http:\/\/www.heaven983.com\/wp-content\/plugins\/themify-builder","framework_url":"http:\/\/www.heaven983.com\/wp-content\/plugins\/themify-builder\/themify","version":"2.1.8","fullwidth_support":"","fullwidth_container":"body","loadScrollHighlight":"","addons":[],"breakpoints":{"tablet_landscape":[769,1024],"tablet":[681,768],"mobile":680},"ticks":{"tick":30,"ajaxurl":"http:\/\/www.heaven983.com\/wp-admin\/admin-ajax.php","postID":27}};
+var themifyScript = {"lightbox":{"lightboxSelector":".themify_lightbox","lightboxOn":true,"lightboxContentImages":false,"lightboxContentImagesSelector":"","theme":"pp_default","social_tools":false,"allow_resize":true,"show_title":false,"overlay_gallery":false,"screenWidthNoLightbox":600,"deeplinking":false,"contentImagesAreas":"","gallerySelector":".gallery-icon > a","lightboxGalleryOn":true},"lightboxContext":"body"};
+var tbScrollHighlight = {"fixedHeaderSelector":"","speed":"900","navigation":"#main-nav","scrollOffset":"0"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.heaven983.com/wp-content/plugins/themify-builder/themify/js/main.js?ver=2.1.8'></script>
+<script type='text/javascript'>
+var mejsL10n = {"language":"en","strings":{"mejs.install-flash":"You are using a browser that does not have Flash player enabled or installed. Please turn on your Flash player plugin or download the latest version from https:\/\/get.adobe.com\/flashplayer\/","mejs.fullscreen-off":"Turn off Fullscreen","mejs.fullscreen-on":"Go Fullscreen","mejs.download-video":"Download Video","mejs.fullscreen":"Fullscreen","mejs.time-jump-forward":["Jump forward 1 second","Jump forward %1 seconds"],"mejs.loop":"Toggle Loop","mejs.play":"Play","mejs.pause":"Pause","mejs.close":"Close","mejs.time-slider":"Time Slider","mejs.time-help-text":"Use Left\/Right Arrow keys to advance one second, Up\/Down arrows to advance ten seconds.","mejs.time-skip-back":["Skip back 1 second","Skip back %1 seconds"],"mejs.captions-subtitles":"Captions\/Subtitles","mejs.captions-chapters":"Chapters","mejs.none":"None","mejs.mute-toggle":"Mute Toggle","mejs.volume-help-text":"Use Up\/Down Arrow keys to increase or decrease volume.","mejs.unmute":"Unmute","mejs.mute":"Mute","mejs.volume-slider":"Volume Slider","mejs.video-player":"Video Player","mejs.audio-player":"Audio Player","mejs.ad-skip":"Skip ad","mejs.ad-skip-info":["Skip in 1 second","Skip in %1 seconds"],"mejs.source-chooser":"Source Chooser","mejs.stop":"Stop","mejs.speed-rate":"Speed Rate","mejs.live-broadcast":"Live Broadcast","mejs.afrikaans":"Afrikaans","mejs.albanian":"Albanian","mejs.arabic":"Arabic","mejs.belarusian":"Belarusian","mejs.bulgarian":"Bulgarian","mejs.catalan":"Catalan","mejs.chinese":"Chinese","mejs.chinese-simplified":"Chinese (Simplified)","mejs.chinese-traditional":"Chinese (Traditional)","mejs.croatian":"Croatian","mejs.czech":"Czech","mejs.danish":"Danish","mejs.dutch":"Dutch","mejs.english":"English","mejs.estonian":"Estonian","mejs.filipino":"Filipino","mejs.finnish":"Finnish","mejs.french":"French","mejs.galician":"Galician","mejs.german":"German","mejs.greek":"Greek","mejs.haitian-creole":"Haitian Creole","mejs.hebrew":"Hebrew","mejs.hindi":"Hindi","mejs.hungarian":"Hungarian","mejs.icelandic":"Icelandic","mejs.indonesian":"Indonesian","mejs.irish":"Irish","mejs.italian":"Italian","mejs.japanese":"Japanese","mejs.korean":"Korean","mejs.latvian":"Latvian","mejs.lithuanian":"Lithuanian","mejs.macedonian":"Macedonian","mejs.malay":"Malay","mejs.maltese":"Maltese","mejs.norwegian":"Norwegian","mejs.persian":"Persian","mejs.polish":"Polish","mejs.portuguese":"Portuguese","mejs.romanian":"Romanian","mejs.russian":"Russian","mejs.serbian":"Serbian","mejs.slovak":"Slovak","mejs.slovenian":"Slovenian","mejs.spanish":"Spanish","mejs.swahili":"Swahili","mejs.swedish":"Swedish","mejs.tagalog":"Tagalog","mejs.thai":"Thai","mejs.turkish":"Turkish","mejs.ukrainian":"Ukrainian","mejs.vietnamese":"Vietnamese","mejs.welsh":"Welsh","mejs.yiddish":"Yiddish"}};
+</script>
+<script type='text/javascript' src='http://www.heaven983.com/wp-includes/js/mediaelement/mediaelement-and-player.js?ver=4.2.6-78496d1'></script>
+<script type='text/javascript' src='http://www.heaven983.com/wp-includes/js/mediaelement/mediaelement-migrate.js?ver=4.9.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var _wpmejsSettings = {"pluginPath":"\/wp-includes\/js\/mediaelement\/","classPrefix":"mejs-","stretching":"responsive"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.heaven983.com/wp-includes/js/mediaelement/wp-mediaelement.js?ver=4.9.1'></script>
+<script type='text/javascript' src='http://www.heaven983.com/wp-content/plugins/media-library-assistant/includes/../js/jquery.prettyPhoto.js?ver=1.61'></script>
+<script type='text/javascript' src='http://www.heaven983.com/wp-content/plugins/media-library-assistant/includes/../js/widget-front-end.js?ver=1533183780'></script>
+<script type='text/javascript' src='http://www.heaven983.com/wp-content/plugins/amp-polls/js/widget-front-end.js?ver=4.9.1'></script>
+<script>
+window.tgmplibs="cumulus2,_append_www,_triton_see";
+</script>
+<script type="text/javascript" class="_tgmp_p">
+function onTuneGenieMediaPlayerLoaded() {
+    window.tgmp=new TuneGenieMediaPlayer('playerbar', {
+        brand: "whbtam",
+        zindex: 50000,
+        theme: ["#000000"],
+        position: "bottom",
+        debug: true,
+        ios_frame: 3,
+        autostart: false,
+        infoTrayOnLoad: true,
+        useTritonPlayer: true,
+        promptZag: false,
+    });
+    tgmp.go();
+    window.tgmp_rc = new TuneGenieRC(tgmp);
+    tgmp_rc.recentSongWidget(document.getElementById('tgrecent'),{});
+    tgmp_rc.nowPlayingWidget(document.getElementById('tgnowplaying'),{});
+}
+</script>
+<script type="text/javascript"  class="_tgmp_p" async src="https://mpl.tunegenie.com/js/loader2.min.js"></script>
+
+
+</div><!-- #whitewrap -->
+
+<!-- TGMP PLUGIN ENABLED 2016-08-07T03:28:20.252Z -->
+
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.3";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<script type="text/javascript">
+//<![CDATA[
+(function() {
+var _analytics_scr = document.createElement('script');
+_analytics_scr.type = 'text/javascript'; _analytics_scr.async = true; _analytics_scr.src = '/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1070669056';
+var _analytics_elem = document.getElementsByTagName('script')[0]; _analytics_elem.parentNode.insertBefore(_analytics_scr, _analytics_elem);
+})();
+// ]]>
+</script></body>
+
+
+</html>
+<!--
+Performance optimized by W3 Total Cache. Learn more: https://www.w3-edge.com/products/
+
+Object Caching 4095/4640 objects using memcache
+Page Caching using memcache
+Database Caching 324/581 queries in 3.102 seconds using memcache
+
+Served from: www.1460wrad.com @ 2018-08-27 04:07:04 by W3 Total Cache
+-->

@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta property="fb:app_id" content="197769483626604"/>
+    <meta property="og:site_name" content="IOTM"/>
+    <meta property="og:image" content="https://www.indieonthemove.com/img/bus_128.png"/>
+    <meta property="og:title" content="  Submit Questions, Suggestions, Comments, Queries, and Contributions
+"/>
+    <meta property="og:url" content="https://www.indieonthemove.com/contact"/>
+    <meta property="og:type" content="website"/>
+
+    
+    
+    <!-- CSRF Token -->
+    <meta name="csrf-token" content="zJCV2NgifXh9xa0RhJ2HnKLsL3PcB7nt5A7bHp7w">
+
+    <title>  Submit Questions, Suggestions, Comments, Queries, and Contributions
+</title>
+    <meta name="description" content="  Contact Indie on the Move with your name, email address, and question/concern to receive website assistance and guidance from IOTM administrators.
+">
+    <meta name="keywords" content="">
+
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-MD79HJN');</script>
+    <!-- End Google Tag Manager -->
+
+    <!-- Styles -->
+    <link href="/css/app.css?id=43e70522c520fa74e355" rel="stylesheet">
+
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+      <style>
+    .nav-search {
+      margin-left: 0.5rem;
+      margin-right: 0.5rem;
+    }
+    .nav-search .btn, .nav-search .btn:active, .nav-search .btn:focus {
+      border: 1px solid rgba(255, 255, 255, 0.5);
+    }
+    .nav-search input, .nav-search input:active,
+    .nav-search input:hover, .nav-search input:focus {
+      border: 1px solid rgba(255, 255, 255, 0.5);
+    }
+  </style>
+
+          <script>
+var _rollbarConfig = {
+  accessToken: '123a6eaf206043a0b860be956a615433',
+  autoInstrument: true,
+  captureUncaught: true,
+  captureUnhandledRejections: true,
+  payload: {
+    environment: 'production',
+    client: {
+      javascript: {
+	source_map_enabled: true,
+	code_version: "1.0", //TODO Start tagging versions
+	// Optionally have Rollbar guess which frames the error was thrown from
+	// when the browser does not provide line and column numbers.
+	guess_uncaught_frames: true
+      }
+    }
+  }
+};
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/rollbar.js/2.4.2/rollbar.min.js"></script>
+
+    
+    <!-- Scripts -->
+    <script src="https://cdn.polyfill.io/v2/polyfill.min.js"></script>
+    <script>
+     window.Config = {"multiselect_search_result_count":30};
+      window.app = {"csrfToken":"zJCV2NgifXh9xa0RhJ2HnKLsL3PcB7nt5A7bHp7w"};
+      window.User = false;
+      window.google_maps_js_key = "AIzaSyBLAyrwAjhvA1qmMk40sxBmxn9FJRk8uYY";
+    </script>
+  </head>
+  <body class="mt-2">
+    <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MD79HJN"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+      <div class="app" id="app">
+    <div class="content-above-footer">
+      <nav class="py-0 navbar navbar-expand-lg bg-dark navbar-dark fixed-top" id="navTop">
+  <div class="container position-relative bg-dark">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <!-- Branding Image -->
+    <a class="d-lg-none center-nav-logo" href="https://www.indieonthemove.com">
+      <img class="navbar-logo" src="https://www.indieonthemove.com/img/bus_105.png">
+    </a>
+    <a class="d-none d-lg-inline" href="https://www.indieonthemove.com">
+      <img class="navbar-logo" src="https://www.indieonthemove.com/img/bus_105.png">
+    </a>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto text-center">
+
+        <li class="nav-item nav-search">
+          <master-search inline-template>
+            <div class="input-group">
+              <input type="text" @keydown.enter="search" v-model="q" class="form-control" placeholder="Search for...">
+              <span class="input-group-btn">
+                <button @click="search" class="btn btn-primary border-radius-0" type="button">
+                  <i class="fa fa-search"></i>
+                </button>
+              </span>
+            </div>
+          </master-search>
+        </li>
+
+        
+                          <li class="nav-item d-lg-none">
+            <a class="nav-link" href="https://www.indieonthemove.com/professional-services">
+              Pro Services
+            </a>
+          </li>
+                  <li class="nav-item d-lg-none">
+            <a class="nav-link" href="https://www.indieonthemove.com/venues">
+              Venues &amp; QuickPitch
+            </a>
+          </li>
+                  <li class="nav-item d-lg-none">
+            <a class="nav-link" href="https://www.indieonthemove.com/college-university-show-booking-directory">
+              Colleges &amp; Universities
+            </a>
+          </li>
+                  <li class="nav-item d-lg-none">
+            <a class="nav-link" href="https://www.indieonthemove.com/music-festivals-and-conferences">
+              Festivals &amp; Conferences
+            </a>
+          </li>
+                  <li class="nav-item d-lg-none">
+            <a class="nav-link" href="https://www.indieonthemove.com/users">
+              Members
+            </a>
+          </li>
+                  <li class="nav-item d-lg-none">
+            <a class="nav-link" href="https://www.indieonthemove.com/show-availabilities">
+              Show Availabilities
+            </a>
+          </li>
+                  <li class="nav-item d-lg-none">
+            <a class="nav-link" href="https://www.indieonthemove.com/band-availabilities">
+              Band Availabilities
+            </a>
+          </li>
+                  <li class="nav-item d-lg-none">
+            <a class="nav-link" href="https://www.indieonthemove.com/classifieds">
+              Classifieds
+            </a>
+          </li>
+                  <li class="nav-item d-lg-none">
+            <a class="nav-link" href="https://www.indieonthemove.com/press-radio-promotion-resources-for-musicians">
+              Promotion
+            </a>
+          </li>
+                  <li class="nav-item d-lg-none">
+            <a class="nav-link" href="https://www.indieonthemove.com/blog">
+              Blog
+            </a>
+          </li>
+                  <li class="nav-item d-lg-none">
+            <a class="nav-link" href="https://www.indieonthemove.com">
+              Home
+            </a>
+          </li>
+                
+        
+                                      <li class="nav-item dropdown d-none d-lg-inline">
+              <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                Features
+              </a>
+              <div class="dropdown-menu">
+                                  <a class="dropdown-item" href="https://www.indieonthemove.com/professional-services">Pro Services</a>
+                                  <a class="dropdown-item" href="https://www.indieonthemove.com/venues">Music Venues Database</a>
+                                  <a class="dropdown-item" href="https://www.indieonthemove.com/quickpitch-emailing">QuickPitch Emailing</a>
+                                  <a class="dropdown-item" href="https://www.indieonthemove.com/college-university-show-booking-directory">Colleges &amp; Universities</a>
+                                  <a class="dropdown-item" href="https://www.indieonthemove.com/music-festivals-and-conferences">Festivals &amp; Conferences</a>
+                                  <a class="dropdown-item" href="https://www.indieonthemove.com/show-availabilities">Show Availabilities</a>
+                                  <a class="dropdown-item" href="https://www.indieonthemove.com/band-availabilities">Band Availabilities</a>
+                                  <a class="dropdown-item" href="https://www.indieonthemove.com/classifieds">Classifieds</a>
+                              </div>
+            </li>
+                                        <li class="nav-item d-none d-lg-inline">
+              <a class="nav-link" href="https://www.indieonthemove.com/users">
+                Members
+              </a>
+            </li>
+                                        <li class="nav-item d-none d-lg-inline">
+              <a class="nav-link" href="https://www.indieonthemove.com/pricing">
+                Account Benefits
+              </a>
+            </li>
+                                        <li class="nav-item d-none d-lg-inline">
+              <a class="nav-link" href="https://www.indieonthemove.com/blog">
+                Blog
+              </a>
+            </li>
+                                        <li class="nav-item d-none d-lg-inline">
+              <a class="nav-link" href="https://www.indieonthemove.com">
+                Home
+              </a>
+            </li>
+                          
+        <li class="nav-item">
+          <button class="w-100 no-border navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="p-0 nav-link">
+              <i class="fa small fa-arrow-up"></i>
+            </span>
+          </button>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Right Side fixed. not in dropdown-->
+    <div class="navbar-fixed-right">
+              <div style="margin-top: 0.1rem">
+  <a class="btn btn-outline-secondary" href="https://www.indieonthemove.com/login?intended=contact">Login</a>
+  <a class="d-none d-sm-inline-block ml-2 btn btn-primary" href="https://www.indieonthemove.com/register">Sign Up</a>
+</div>
+          </div>
+
+  </div>
+</nav>
+
+
+      <div class="nav-spacing">
+          <contact></contact>
+  <div v-hide class="javascript-loading" style="height:60vh; margin-bottom:40vh;">
+    <div class="spinner">
+  <div class="rect1"></div>
+  <div class="rect2"></div>
+  <div class="rect3"></div>
+  <div class="rect4"></div>
+  <div class="rect5"></div>
+</div>
+  </div>
+      </div>
+
+    </div>
+    <div v-cloak>
+      <footer class="footer mt-3 p-3 bg-dark footer-bordered">
+  <div class="container">
+
+    <!-- small screens -->
+    <div class="d-sm-none text-secondary text-uppercase text-center">
+              <a  href="https://www.indieonthemove.com/about">
+          About
+        </a>
+                  |
+                      <a  href="https://www.indieonthemove.com/indie-on-the-move-101">
+          Features
+        </a>
+                  |
+                      <a  href="https://www.indieonthemove.com/pricing">
+          Pricing
+        </a>
+                  |
+                      <a  href="https://www.indieonthemove.com/testimonials">
+          Testimonials
+        </a>
+                  |
+                      <a  href="https://www.indieonthemove.com/contact">
+          Contact
+        </a>
+                  |
+                      <a  href="https://www.indieonthemove.com/newsletter/subscribe">
+          Newsletter
+        </a>
+                  |
+                      <a  href="https://www.indieonthemove.com/blog">
+          Blog
+        </a>
+                  |
+                      <a  href="https://www.indieonthemove.com/touring-tips-show-booking-advice-for-musicians">
+          Touring Tips
+        </a>
+                  |
+                      <a  href="https://www.indieonthemove.com/iotm-solutions-network">
+          Partners
+        </a>
+                  |
+                      <a  href="https://www.indieonthemove.com/terms-and-conditions">
+          Terms
+        </a>
+                  |
+                      <a  href="https://www.indieonthemove.com/privacy">
+          Privacy
+        </a>
+                  </div>
+
+    <!-- larger screens -->
+    <div class="justify-content-around d-none d-sm-flex text-secondary">
+      <ul>
+                  <li>
+            <a  href="https://www.indieonthemove.com/about">
+              About
+            </a>
+          </li>
+                  <li>
+            <a  href="https://www.indieonthemove.com/indie-on-the-move-101">
+              Features
+            </a>
+          </li>
+                  <li>
+            <a  href="https://www.indieonthemove.com/pricing">
+              Pricing
+            </a>
+          </li>
+                  <li>
+            <a  href="https://www.indieonthemove.com/testimonials">
+              Testimonials
+            </a>
+          </li>
+                  <li>
+            <a  href="https://www.indieonthemove.com/newsletter/subscribe">
+              Newsletter
+            </a>
+          </li>
+                  <li>
+            <a  href="https://www.indieonthemove.com/contact">
+              Contact IOTM
+            </a>
+          </li>
+              </ul>
+      <ul>
+                  <li>
+            <a  href="https://www.indieonthemove.com/users">
+              Members Directory
+            </a>
+          </li>
+                  <li>
+            <a  href="https://www.indieonthemove.com/blog">
+              Blog
+            </a>
+          </li>
+                  <li>
+            <a  href="https://www.indieonthemove.com/touring-tips-show-booking-advice-for-musicians">
+              Touring Tips
+            </a>
+          </li>
+                  <li>
+            <a  href="https://www.indieonthemove.com/iotm-solutions-network">
+              Strategic Partners
+            </a>
+          </li>
+                  <li>
+            <a  href="https://www.indieonthemove.com/terms-and-conditions">
+              Terms &amp; Conditions
+            </a>
+          </li>
+                  <li>
+            <a  href="https://www.indieonthemove.com/privacy">
+              Privacy Policy
+            </a>
+          </li>
+              </ul>
+      <ul>
+                  <li>
+            <a  href="https://www.indieonthemove.com/professional-services">
+              Professional Services
+            </a>
+          </li>
+                  <li>
+            <a  href="https://www.indieonthemove.com/venues">
+              Venues &amp; Quickpitch
+            </a>
+          </li>
+                  <li>
+            <a  href="https://www.indieonthemove.com/college-university-show-booking-directory">
+              Colleges &amp; Universities
+            </a>
+          </li>
+                  <li>
+            <a  href="https://www.indieonthemove.com/music-festivals-and-conferences">
+              Festivals &amp; Conferences
+            </a>
+          </li>
+                  <li>
+            <a  href="https://www.indieonthemove.com/show-availabilities">
+              Show Availabilities
+            </a>
+          </li>
+                  <li>
+            <a  href="https://www.indieonthemove.com/band-availabilities">
+              Band Availabilities
+            </a>
+          </li>
+                  <li>
+            <a  href="https://www.indieonthemove.com/classifieds">
+              Classifieds
+            </a>
+          </li>
+                  <li>
+            <a  href="https://www.indieonthemove.com/press">
+              Press Directory
+            </a>
+          </li>
+                  <li>
+            <a  href="https://www.indieonthemove.com/radio">
+              Radio Directory
+            </a>
+          </li>
+              </ul>
+    </div>
+
+    <!-- all screens -->
+    <div class="pt-3 text-center">
+      <div>
+        <a target="_blank" rel="noopener noreferrer" href="https://facebook.com/indieonthemovellc">
+          <i class="px-2 fa fa-2x fa-facebook"></i>
+        </a>
+        <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/indieonthemove">
+          <i class="px-2 fa fa-2x fa-twitter"></i>
+        </a>
+        <a target="_blank" rel="noopener noreferrer" href="https://plus.google.com/+indieonthemovellc">
+          <i class="px-2 fa fa-2x fa-google-plus"></i>
+        </a>
+
+      </div>
+
+      <a href="#" class="btn btn-link">
+        <i class="fa fa-arrow-circle-up"></i>
+        <span class="mb-1">Back To Top </span>
+      </a>
+
+      <p class="text-secondary">
+        © 2018 Indie on the Move. All rights reserved.
+      </p>
+    </div>
+
+  </div>
+</footer>
+
+    </div>
+  </div>
+
+    <!-- Scripts -->
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script src="https://js.stripe.com/v3/"></script>
+        <script src="/js/app.js?id=bb87c2c2608a0fee47c7"></script>
+      </body>
+</html>

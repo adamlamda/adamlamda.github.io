@@ -1,0 +1,364 @@
+<br />
+<b>Warning</b>:  Parameter 1 to wp_default_scripts() expected to be a reference, value given in <b>/var/www/html-wmcx/wp-includes/plugin.php</b> on line <b>600</b><br />
+<br />
+<b>Warning</b>:  Parameter 1 to wp_default_styles() expected to be a reference, value given in <b>/var/www/html-wmcx/wp-includes/plugin.php</b> on line <b>600</b><br />
+<br />
+<b>Warning</b>:  Parameter 2 to M_DataMapper::set_custom_wp_query_where() expected to be a reference, value given in <b>/var/www/html-wmcx/wp-includes/plugin.php</b> on line <b>291</b><br />
+<br />
+<b>Warning</b>:  Parameter 2 to M_DataMapper::set_custom_wp_query_groupby() expected to be a reference, value given in <b>/var/www/html-wmcx/wp-includes/plugin.php</b> on line <b>291</b><br />
+<br />
+<b>Warning</b>:  Parameter 2 to M_DataMapper::set_custom_wp_query_fields() expected to be a reference, value given in <b>/var/www/html-wmcx/wp-includes/plugin.php</b> on line <b>291</b><br />
+<br />
+<b>Warning</b>:  Parameter 2 to M_DataMapper::set_custom_wp_query() expected to be a reference, value given in <b>/var/www/html-wmcx/wp-includes/plugin.php</b> on line <b>291</b><br />
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="profile" href="http://gmpg.org/xfn/11" />
+<link rel="pingback" href="http://wmcx.monmouth.edu/xmlrpc.php" />
+<title>Who We Are &#8211; WMCX 88.9FM</title>
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="WMCX 88.9FM &raquo; Feed" href="http://wmcx.monmouth.edu/?feed=rss2" />
+<link rel="alternate" type="application/rss+xml" title="WMCX 88.9FM &raquo; Comments Feed" href="http://wmcx.monmouth.edu/?feed=comments-rss2" />
+<link rel="alternate" type="application/rss+xml" title="WMCX 88.9FM &raquo; Who We Are Comments Feed" href="http://wmcx.monmouth.edu/?feed=rss2&#038;page_id=4" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/wmcx.monmouth.edu\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.6.1"}};
+			!function(a,b,c){function d(a){var c,d,e,f,g,h=b.createElement("canvas"),i=h.getContext&&h.getContext("2d"),j=String.fromCharCode;if(!i||!i.fillText)return!1;switch(i.textBaseline="top",i.font="600 32px Arial",a){case"flag":return i.fillText(j(55356,56806,55356,56826),0,0),!(h.toDataURL().length<3e3)&&(i.clearRect(0,0,h.width,h.height),i.fillText(j(55356,57331,65039,8205,55356,57096),0,0),c=h.toDataURL(),i.clearRect(0,0,h.width,h.height),i.fillText(j(55356,57331,55356,57096),0,0),d=h.toDataURL(),c!==d);case"diversity":return i.fillText(j(55356,57221),0,0),e=i.getImageData(16,16,1,1).data,f=e[0]+","+e[1]+","+e[2]+","+e[3],i.fillText(j(55356,57221,55356,57343),0,0),e=i.getImageData(16,16,1,1).data,g=e[0]+","+e[1]+","+e[2]+","+e[3],f!==g;case"simple":return i.fillText(j(55357,56835),0,0),0!==i.getImageData(16,16,1,1).data[0];case"unicode8":return i.fillText(j(55356,57135),0,0),0!==i.getImageData(16,16,1,1).data[0];case"unicode9":return i.fillText(j(55358,56631),0,0),0!==i.getImageData(16,16,1,1).data[0]}return!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i;for(i=Array("simple","flag","unicode8","diversity","unicode9"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='mantras-css'  href='http://wmcx.monmouth.edu/wp-content/themes/mantra/style.css?ver=2.6.0' type='text/css' media='all' />
+<link rel='stylesheet' id='mantra_googlefont-css'  href='//fonts.googleapis.com/css?family=Open+Sans&#038;ver=4.6.1' type='text/css' media='all' />
+<link rel='stylesheet' id='mantra_googlefonttitle-css'  href='//fonts.googleapis.com/css?family=Open+Sans&#038;ver=4.6.1' type='text/css' media='all' />
+<link rel='stylesheet' id='mantra_googlefontside-css'  href='//fonts.googleapis.com/css?family=Open+Sans&#038;ver=4.6.1' type='text/css' media='all' />
+<script type='text/javascript' src='http://wmcx.monmouth.edu/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='http://wmcx.monmouth.edu/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript' src='http://wmcx.monmouth.edu/wp-content/themes/mantra/js/frontend.js?ver=2.6.0'></script>
+<link rel='https://api.w.org/' href='http://wmcx.monmouth.edu/?rest_route=/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://wmcx.monmouth.edu/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://wmcx.monmouth.edu/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.6.1" />
+<link rel="canonical" href="http://wmcx.monmouth.edu/?page_id=4" />
+<link rel='shortlink' href='http://wmcx.monmouth.edu/?p=4' />
+<link rel="alternate" type="application/json+oembed" href="http://wmcx.monmouth.edu/?rest_route=%2Foembed%2F1.0%2Fembed&#038;url=http%3A%2F%2Fwmcx.monmouth.edu%2F%3Fpage_id%3D4" />
+<link rel="alternate" type="text/xml+oembed" href="http://wmcx.monmouth.edu/?rest_route=%2Foembed%2F1.0%2Fembed&#038;url=http%3A%2F%2Fwmcx.monmouth.edu%2F%3Fpage_id%3D4&#038;format=xml" />
+<!-- <meta name="NextGEN" version="2.1.57" /> -->
+ <style type="text/css"> #wrapper, #access, #colophon, #branding, #main { width:1100px ;} #content { width:790px;} #primary,#secondary {width:250px;}#content, #content p, #content ul, #content ol, #content input, #content select, #content textarea{ font-size:14px; } #main, #access ul li.current_page_item, #access ul li.current-menu-item ,#access ul ul li { background-color:#F6f6f6} #access ul li { background-color:#f6f6f6} body, .widget-title {font-family:"Open Sans" ; } #content h1.entry-title a, #content h2.entry-title a, #content h1.entry-title , #content h2.entry-title {font-family:"Open Sans" ; } .widget-area * {font-family:"Open Sans" ; } .entry-content h1, .entry-content h2, .entry-content h3, .entry-content h4, .entry-content h5, .entry-content h6 {font-family:Georgia, Times New Roman, Times, serif ; } .nocomments, .nocomments2 {display:none;} #content h1, #content h2, #content h3, #content h4, #content h5, #content h6, #content .entry-title, #site-title a , #site-description { text-shadow:none; moz-text-shadow:none; -webkit-text-shadow:none ;} #header-container > div { margin-top:20px;} #header-container > div { margin-left:40px;} body { background-color:#f6f6f6 !important ;} #header { background-color:#000 ;} #footer { background-color:#f6f6f6 ;} #footer2 { background-color:#333333 ;} #site-title span a { color:#0D85CC ;} #site-description { color:#999999 ;} #content, #content p, #content ul, #content ol { color:#333333 ;} .widget-area a:link, .widget-area a:visited, a:link, a:visited ,#searchform #s:hover , #container #s:hover, #access a:hover, #wp-calendar tbody td a , #site-info a ,#site-copyright a, #access li:hover > a, #access ul ul :hover > a { color:#0D85CC;} a:hover, .entry-meta a:hover, .entry-utility a:hover , .widget-area a:hover { color:#66bff4 ;} #content .entry-title a, #content .entry-title, #content h1, #content h2, #content h3, #content h4, #content h5, #content h6{ color:#444444 ;} #content .entry-title a:hover { color:#000000 ;} .widget-title,#footer-widget-area .widget-title { background-color:#444444 ;} .widget-title { color:#ffffff ;} #footer-widget-area .widget-title { color:#0C85CD ; ;} #footer-widget-area a { color:#666666 ;} #footer-widget-area a:hover { color:#888888 ;} #content p, .entry-content ul, .entry-summary ul , .entry-content ol, .entry-summary ol { margin-bottom:1.5em;} .entry-meta .entry-time {display:none;} #branding { height:150px ;} </style> 
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0"><style>/* Mantra Custom CSS */ #wpadminbar * { box-sizing:content-box; color:#ffffff; font-family:sans-serif; font-size:13px; font-style:normal; font-variant:normal; font-weight:normal; height:auto; letter-spacing:normal; line-height:28px; margin:0; padding:0; position:static; text-shadow:#444444 0 -1px 0; text-transform:none; width:auto; }</style>
+
+<!--[if lte IE 8]>
+<style type="text/css" media="screen">
+ #access ul  li,
+.edit-link a ,
+ #footer-widget-area .widget-title, .entry-meta,.entry-meta .comments-link,
+.short-button-light, .short-button-dark ,.short-button-color ,blockquote  {
+     position:relative;
+     behavior: url(http://wmcx.monmouth.edu/wp-content/themes/mantra/js/PIE/PIE.php);
+   }
+
+#access ul ul {
+-pie-box-shadow:0px 5px 5px #999;
+}
+   
+#access  ul  li.current_page_item,  #access ul li.current-menu-item ,
+#access ul  li ,#access ul ul ,#access ul ul li, .commentlist li.comment	,.commentlist .avatar,
+ .nivo-caption, .theme-default .nivoSlider {
+     behavior: url(http://wmcx.monmouth.edu/wp-content/themes/mantra/js/PIE/PIE.php);
+   }
+</style>
+<![endif]-->
+<style type="text/css" id="custom-background-css">
+body.custom-background { background-color: #1a74ce; background-image: url('http://wmcx.monmouth.edu/wp-content/uploads/2015/09/backgroud.jpg'); background-repeat: repeat; background-position: top center; background-attachment: scroll; }
+</style>
+<!--[if lt IE 9]>
+<script>
+document.createElement('header');
+document.createElement('nav');
+document.createElement('section');
+document.createElement('article');
+document.createElement('aside');
+document.createElement('footer');
+document.createElement('hgroup');
+</script>
+<![endif]-->
+<script type="text/javascript">
+function makeDoubleDelegate(function1, function2) {
+// concatenate functions
+    return function() { if (function1) function1(); if (function2) function2(); }
+}
+
+function mantra_onload() {
+
+
+     // Add responsive videos
+     if (jQuery(window).width() < 800) jQuery(".entry-content").fitVids();
+}; // mantra_onload
+
+
+jQuery(document).ready(function(){
+     // Add custom borders to images
+     jQuery("img.alignnone, img.alignleft, img.aligncenter,  img.alignright").addClass("imageSeven");
+
+	// Add select navigation to small screens
+     jQuery("#access > .menu > ul").tinyNav({
+          	header: ' = Menu = '
+			});
+});
+
+// make sure not to lose previous onload events
+window.onload = makeDoubleDelegate(window.onload, mantra_onload );
+</script>
+<link rel='stylesheet' id='mantra-mobile-css'  href='http://wmcx.monmouth.edu/wp-content/themes/mantra/style-mobile.css?ver=2.6.0' type='text/css' media='all' />
+</head>
+<body class="page page-id-4 page-template-default custom-background">
+
+<div id="toTop"> </div>
+<div id="wrapper" class="hfeed">
+
+
+<header id="header">
+
+		<div id="masthead">
+
+			<div id="branding" role="banner" >
+
+				<img id="bg_image" alt="" title="" src="http://wmcx.monmouth.edu/wp-content/uploads/2015/12/wmcxamaheader.png"  />
+	<div id="header-container">
+
+
+<a href="http://wmcx.monmouth.edu/" id="linky"></a><div class="socials" id="sheader">
+			<a target="_blank" rel="nofollow" href="https://www.facebook.com/Wmcx889Fm" class="socialicons social-Facebook" title="Facebook"><img alt="Facebook" src="http://wmcx.monmouth.edu/wp-content/themes/mantra/images/socials/Facebook.png" /></a>
+			<a target="_blank" rel="nofollow" href="https://twitter.com/WMCX" class="socialicons social-Twitter" title="Twitter"><img alt="Twitter" src="http://wmcx.monmouth.edu/wp-content/themes/mantra/images/socials/Twitter.png" /></a>
+			<a target="_blank" rel="nofollow" href="http://www.flickr.com/photos/wmcx/" class="socialicons social-Flickr" title="Flickr"><img alt="Flickr" src="http://wmcx.monmouth.edu/wp-content/themes/mantra/images/socials/Flickr.png" /></a>
+			<a target="_blank" rel="nofollow" href="https://www.youtube.com/user/wmcx" class="socialicons social-YouTube" title="YouTube"><img alt="YouTube" src="http://wmcx.monmouth.edu/wp-content/themes/mantra/images/socials/YouTube.png" /></a>
+			<a target="_blank" rel="nofollow" href="http://followgram.me/tag/wmcx" class="socialicons social-Instagram" title="Instagram"><img alt="Instagram" src="http://wmcx.monmouth.edu/wp-content/themes/mantra/images/socials/Instagram.png" /></a></div></div>				<div style="clear:both;"></div>
+
+			</div><!-- #branding -->
+
+			<nav id="access" class="jssafe" role="navigation">
+
+				<div class="skip-link screen-reader-text"><a href="#content" title="Skip to content">Skip to content</a></div>
+<div class="menu"><ul id="prime_nav" class="menu"><li id="menu-item-318" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-318"><a href="http://wmcx.monmouth.edu/">Home</a></li>
+<li id="menu-item-150" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-150"><a href="http://wmcx.monmouth.edu/?page_id=7">Schedule</a></li>
+<li id="menu-item-143" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-143"><a href="http://wmcx.monmouth.edu/?page_id=141">DJ of the Month</a></li>
+<li id="menu-item-153" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-153"><a href="http://wmcx.monmouth.edu/?page_id=17">Alumni</a></li>
+<li id="menu-item-147" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-147"><a href="http://wmcx.monmouth.edu/?page_id=10">Gallery</a></li>
+<li id="menu-item-149" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-149"><a href="http://wmcx.monmouth.edu/?page_id=8">Sports</a></li>
+<li id="menu-item-145" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-145"><a href="http://wmcx.monmouth.edu/?page_id=12">Links</a></li>
+<li id="menu-item-333" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-4 current_page_item menu-item-333"><a href="http://wmcx.monmouth.edu/?page_id=4">Who We Are</a></li>
+<li id="menu-item-424" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-424"><a href="http://wmcx.monmouth.edu/?page_id=419">Social Media</a></li>
+<li id="menu-item-430" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-430"><a href="http://wmcx.monmouth.edu/?page_id=428">Specialty Shows</a></li>
+</ul></div>
+			</nav><!-- #access -->
+
+		</div><!-- #masthead -->
+
+	<div style="clear:both;"> </div>
+
+</header><!-- #header -->
+<div id="main">
+	<div  id="forbottom" >
+		
+		<div style="clear:both;"> </div>
+		
+											<section id="container">
+	
+			<div id="content" role="main">
+			
+	
+				<div id="post-4" class="post-4 page type-page status-publish hentry">
+											<h1 class="entry-title">Who We Are</h1>
+					
+					<div class="entry-content">
+						<p style="text-align: center;"><strong><span style="text-decoration: underline;">Executive Board</span><br />
+</strong></p>
+<p style="text-align: center;"><i>General Manager </i>| Hunter Farman | wmcxgm@monmouth.edu</p>
+<p style="text-align: center;"><em>Program Director </em>|<em> </em>Angela Ramos | wmcxpd@monmouth.edu</p>
+<p style="text-align: center;"><em>Music Director </em>|<em> </em>Ali Nugent | wmcxmusic@monmouth.edu</p>
+<p style="text-align: center;"><i>Production Director </i>|<i> </i>Kellan Brennan | wmcxproduction@monmouth.edu</p>
+<p style="text-align: center;"><em>Entertainment Director </em>|<em> </em>Nick Zacarrio | wmcxENTDIR@monmouth.edu</p>
+<p style="text-align: center;"><em>Public Relations Director </em>|<em> </em>Angela Zangari | wmcxPR@monmouth.edu</p>
+<p style="text-align: center;"><em>Sports Director </em>|<em> </em>Mike Trapasso, Nick Halper | wmcxsports@monmouth.edu</p>
+<p style="text-align: center;"><em>Social Media Director </em>|<em> </em>Linda Pluhar, Anthony Papetti, Jeylin Castaneda | wmcxSMD@monmouth.edu</p>
+<p style="text-align: center;"><em>Senior In Residence | </em>Steve Castellano | wmcxSIR@monmouth.edu</p>
+<hr />
+<p style="text-align: center;"><em>Office Coordinator | </em>Donna Mancini | dmancini@monmouth.edu</p>
+<p style="text-align: center;"><em>Advisor | </em>Aaron Furgason | afurgaso@monmouth.edu</p>
+																	</div><!-- .entry-content -->
+				</div><!-- #post-## -->
+
+				
+			<div id="comments">
+
+
+
+				<div id="respond" class="comment-respond">
+			<h3 id="reply-title" class="comment-reply-title">Leave a Reply <small><a rel="nofollow" id="cancel-comment-reply-link" href="/?page_id=4#respond" style="display:none;">Cancel reply</a></small></h3><p class="must-log-in">You must be <a href="http://wmcx.monmouth.edu/wp-login.php?redirect_to=http%3A%2F%2Fwmcx.monmouth.edu%2F%3Fpage_id%3D4">logged in</a> to post a comment.</p>		</div><!-- #respond -->
+		
+</div><!-- #comments -->
+
+						</div><!-- #content -->
+					<div id="primary" class="widget-area" role="complementary">
+		
+				
+				
+			<ul class="xoxo">
+				<li id="execphp-5" class="widget-container widget_execphp"><h3 class="widget-title">Now Playing</h3>			<div class="execphpwidget"><br />
+<b>Warning</b>:  file_get_contents(http://10.1.15.191:50123/nowplaying/nowplaying.xml): failed to open stream: Connection timed out in <b>/var/www/html-wmcx/wp-content/plugins/php-code-widget/execphp.php(27) : eval()'d code</b> on line <b>13</b><br />
+Artist: <br>Title:  </div>
+		</li><li id="execphp-4" class="widget-container widget_execphp"><h3 class="widget-title">RadioFlag</h3>			<div class="execphpwidget"><script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+    <script>
+        jq162 = jQuery.noConflict(true);
+    </script>
+	<script type="text/javascript" src="http://its.monmouth.edu/adasgupt/showcast/showcast.js"></script>
+    <!-- <script type="text/javascript" src="http://its.monmouth.edu/adasgupt/showcast/showcast.min.js"></script> -->
+	<link href="http://its.monmouth.edu/adasgupt/showcast/showcast.css" rel="stylesheet" type="text/css" media="screen">
+	<style>
+	body {
+		background: #000;
+	}
+	#mini-player-container {
+		margin: 0 24px;
+	}
+	</style>
+<div id="site-wrapper">
+		
+        <div class="showcastWidget" style="float: left;">     
+		<div class="showcastBody">   
+			<div class="showcastHeader">
+				<a href="http://www.radioflag.com">
+					<img id="rf_logo" src="http://its.monmouth.edu/adasgupt/showcast/UPDATEDASSET.png?v=1">
+				</a>
+				<div><a href="#" onclick="reloadFlags(); return false;" ><img id="reload" name="refresh button" src="http://its.monmouth.edu/adasgupt/showcast/refresh.png?v=1" alt="refresh button"></a></div>
+				<div id="stationTitle"></div>
+			</div>
+			<div class="scrollbar" id="rf_widget" style="height: 330px; overflow: auto;"></div>
+			<input id="loadmore" type="button" value="Load More Flags" onclick="nextP();">
+			<div><a href="http://www.radioflag.com/awards"><img id="banner" src="http://its.monmouth.edu/adasgupt/showcast/college_radio_banner.png?v=1"></a></div>
+		</div>
+	</div>
+	</div>
+<script type="text/javascript">
+    function LOG(oLog)
+    {
+        if(window.console)
+        {
+            console.log(oLog);
+        }
+    }
+    var RFW = jq162.RFWidget;
+    var myOpt = {
+        title: 'WMCX Showcast',
+        targetDivId: 'rf_widget',        
+        username: 'WMCX',
+        api_key: 'RM9GL6NfpPHyfCS9UJdJdBPmfw3e823VgzTyHZF10WU',
+        stationIDFlags: 631974,
+        wigetWidth: 240,
+        flagsCount: 20
+    };
+    jq162(function()
+    {
+        RFW.start(myOpt);
+        jq162("#"+myOpt.targetDivId).text(RFW);
+    });
+    function reloadFlags()
+    {
+        jq162("#"+myOpt.targetDivId).empty();
+        RFW.refresh();
+        jq162("#"+myOpt.targetDivId).text(RFW);
+    };
+    function nextP()
+    {
+        RFW.nextPage();
+        jq162("#"+myOpt.targetDivId).text(RFW);
+    };
+    </script></div>
+		</li><li id="meta-3" class="widget-container widget_meta"><h3 class="widget-title">Meta</h3>			<ul>
+						<li><a href="http://wmcx.monmouth.edu/wp-login.php">Log in</a></li>
+			<li><a href="http://wmcx.monmouth.edu/?feed=rss2">Entries <abbr title="Really Simple Syndication">RSS</abbr></a></li>
+			<li><a href="http://wmcx.monmouth.edu/?feed=comments-rss2">Comments <abbr title="Really Simple Syndication">RSS</abbr></a></li>
+			<li><a href="https://wordpress.org/" title="Powered by WordPress, state-of-the-art semantic personal publishing platform.">WordPress.org</a></li>			</ul>
+			</li><li id="search-2" class="widget-container widget_search"> 
+<form method="get" id="searchform"
+action="http://wmcx.monmouth.edu//">
+<input type="text" value="Search"
+name="s" id="s"
+onblur="if (this.value == '')
+{this.value = 'Search';}"
+onfocus="if (this.value == 'Search')
+{this.value = '';}" />
+<input type="submit" id="searchsubmit" value="OK" />
+</form></li><li id="pages-3" class="widget-container widget_pages"><h3 class="widget-title">Pages</h3>		<ul>
+			<li class="page_item page-item-17"><a href="http://wmcx.monmouth.edu/?page_id=17">Alumni</a></li>
+<li class="page_item page-item-141"><a href="http://wmcx.monmouth.edu/?page_id=141">DJ of the Month</a></li>
+<li class="page_item page-item-316"><a href="http://wmcx.monmouth.edu/">Home</a></li>
+<li class="page_item page-item-7"><a href="http://wmcx.monmouth.edu/?page_id=7">Schedule</a></li>
+<li class="page_item page-item-419"><a href="http://wmcx.monmouth.edu/?page_id=419">Social Media</a></li>
+<li class="page_item page-item-428"><a href="http://wmcx.monmouth.edu/?page_id=428">Specialty Shows</a></li>
+<li class="page_item page-item-8"><a href="http://wmcx.monmouth.edu/?page_id=8">Sports</a></li>
+<li class="page_item page-item-10"><a href="http://wmcx.monmouth.edu/?page_id=10">Gallery</a></li>
+<li class="page_item page-item-4 current_page_item"><a href="http://wmcx.monmouth.edu/?page_id=4">Who We Are</a></li>
+<li class="page_item page-item-12"><a href="http://wmcx.monmouth.edu/?page_id=12">Links</a></li>
+		</ul>
+		</li>			</ul>
+
+			<ul class="xoxo">
+							</ul>
+			
+			
+						
+		</div><!-- #primary .widget-area -->
+
+ <!-- 1c -->		</section><!-- #container -->
+
+
+	<div style="clear:both;"></div>
+
+	</div> <!-- #forbottom -->
+	</div><!-- #main -->
+
+
+	<footer id="footer" role="contentinfo">
+		<div id="colophon">
+		
+			
+			
+		</div><!-- #colophon -->
+
+		<div id="footer2">
+		
+				<div style="text-align:center;clear:both;padding-top:4px;" >
+		<a href="http://wmcx.monmouth.edu/" title="WMCX 88.9FM" rel="home">
+			WMCX 88.9FM</a> | Powered by <a target="_blank" href="http://www.cryoutcreations.eu" title="Mantra Theme by Cryout Creations">Mantra</a> &amp; <a target="_blank" href="http://wordpress.org/"
+			title="Semantic Personal Publishing Platform">  WordPress.		</a>
+	</div><!-- #site-info -->
+<div class="socials" id="sfooter">
+			<a target="_blank" rel="nofollow" href="https://www.facebook.com/Wmcx889Fm" class="socialicons social-Facebook" title="Facebook"><img alt="Facebook" src="http://wmcx.monmouth.edu/wp-content/themes/mantra/images/socials/Facebook.png" /></a>
+			<a target="_blank" rel="nofollow" href="https://twitter.com/WMCX" class="socialicons social-Twitter" title="Twitter"><img alt="Twitter" src="http://wmcx.monmouth.edu/wp-content/themes/mantra/images/socials/Twitter.png" /></a>
+			<a target="_blank" rel="nofollow" href="http://www.flickr.com/photos/wmcx/" class="socialicons social-Flickr" title="Flickr"><img alt="Flickr" src="http://wmcx.monmouth.edu/wp-content/themes/mantra/images/socials/Flickr.png" /></a>
+			<a target="_blank" rel="nofollow" href="https://www.youtube.com/user/wmcx" class="socialicons social-YouTube" title="YouTube"><img alt="YouTube" src="http://wmcx.monmouth.edu/wp-content/themes/mantra/images/socials/YouTube.png" /></a>
+			<a target="_blank" rel="nofollow" href="http://followgram.me/tag/wmcx" class="socialicons social-Instagram" title="Instagram"><img alt="Instagram" src="http://wmcx.monmouth.edu/wp-content/themes/mantra/images/socials/Instagram.png" /></a></div>			
+		</div><!-- #footer2 -->
+
+	</footer><!-- #footer -->
+
+</div><!-- #wrapper -->
+
+<!-- ngg_resource_manager_marker --><script type='text/javascript' src='http://wmcx.monmouth.edu/wp-includes/js/comment-reply.min.js?ver=4.6.1'></script>
+<script type='text/javascript' src='http://wmcx.monmouth.edu/wp-includes/js/wp-embed.min.js?ver=4.6.1'></script>
+
+</body>
+</html>

@@ -1,0 +1,519 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
+  "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="/staff" />
+<link rel="shortlink" href="/node/249928" />
+<script type="text/javascript">(function() {var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;ga.src = '//stream.publicbroadcasting.net/analytics/aazx.js';var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore.src = '//stream.publicbroadcasting.net/analytics/aazx.js';var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);})();</script><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<link rel="shortcut icon" href="https://wysu.org/sites/default/files/manually_managed/wysu.ico" type="image/vnd.microsoft.icon" />
+  <title>Staff | WYSU</title>
+  <style type="text/css" media="all">
+@import url("https://wysu.org/modules/system/system.base.css?pdtqsa");
+@import url("https://wysu.org/modules/system/system.menus.css?pdtqsa");
+@import url("https://wysu.org/modules/system/system.messages.css?pdtqsa");
+@import url("https://wysu.org/modules/system/system.theme.css?pdtqsa");
+</style>
+<style type="text/css" media="all">
+@import url("https://wysu.org/sites/all/modules/calendar/css/calendar_multiday.css?pdtqsa");
+@import url("https://wysu.org/sites/all/modules/date/date_api/date.css?pdtqsa");
+@import url("https://wysu.org/sites/all/modules/date/date_popup/themes/datepicker.1.7.css?pdtqsa");
+@import url("https://wysu.org/sites/all/modules/date/date_repeat_field/date_repeat_field.css?pdtqsa");
+@import url("https://wysu.org/modules/field/theme/field.css?pdtqsa");
+@import url("https://wysu.org/modules/node/node.css?pdtqsa");
+@import url("https://wysu.org/modules/search/search.css?pdtqsa");
+@import url("https://wysu.org/modules/user/user.css?pdtqsa");
+@import url("https://wysu.org/sites/all/modules/extlink/extlink.css?pdtqsa");
+@import url("https://wysu.org/sites/all/modules/views/css/views.css?pdtqsa");
+</style>
+<style type="text/css" media="all">
+@import url("https://wysu.org/sites/all/modules/colorbox/styles/default/colorbox_style.css?pdtqsa");
+@import url("https://wysu.org/sites/all/modules/ctools/css/ctools.css?pdtqsa");
+@import url("https://wysu.org/sites/all/modules/field_slideshow/field_slideshow.css?pdtqsa");
+@import url("https://wysu.org/sites/all/modules/custom_search/custom_search.css?pdtqsa");
+</style>
+<style type="text/css" media="all">
+@import url("https://wysu.org/sites/all/themes/wysu_skeleton/css/skeleton.css?pdtqsa");
+@import url("https://wysu.org/sites/all/themes/wysu_skeleton/css/buttons.css?pdtqsa");
+@import url("https://wysu.org/sites/all/themes/wysu_skeleton/css/layout.css?pdtqsa");
+@import url("https://wysu.org/sites/all/themes/wysu_skeleton/css/style.css?pdtqsa");
+</style>
+<style type="text/css" media="print">
+@import url("https://wysu.org/sites/all/themes/wysu_skeleton/css/print.css?pdtqsa");
+</style>
+  <script type="text/javascript" src="https://wysu.org/sites/default/files/js/js_vDrW3Ry_4gtSYaLsh77lWhWjIC6ml2QNkcfvfP5CVFs.js"></script>
+<script type="text/javascript" src="https://wysu.org/sites/default/files/js/js_Tik8PIaz_eQ5I4FMzmjkWoPEs9jKBgTSauo1jgsNa6g.js"></script>
+<script type="text/javascript" src="https://wysu.org/sites/default/files/js/js_XqGW2TvFVTL1ELjlG_nuV6W6ncRqLBsGKxtZb-jjG9k.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+
+    jQuery(document).ready(function($) {
+      $("#navigation .content > ul").mobileMenu({
+        prependTo: "#navigation",
+        combine: false,
+        switchWidth: 768,
+        topOptionText: "Select page"
+      });
+    });
+  
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"wysu_skeleton","theme_token":"8x6zWdxXBNNOB36s8YKw7va7vkw9Yb_Qvw7juUvh8m8","js":{"modules\/statistics\/statistics.js":1,"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/extlink\/extlink.js":1,"sites\/all\/libraries\/colorbox\/jquery.colorbox-min.js":1,"sites\/all\/modules\/colorbox\/js\/colorbox.js":1,"sites\/all\/modules\/colorbox\/styles\/default\/colorbox_style.js":1,"sites\/all\/modules\/colorbox\/js\/colorbox_load.js":1,"sites\/all\/modules\/custom_search\/js\/custom_search.js":1,"sites\/all\/modules\/wysutools\/eis\/js\/eis_embed.js":1,"sites\/all\/libraries\/jquery.cycle\/jquery.cycle.all.js":1,"sites\/all\/libraries\/jquery.imagesloaded\/jquery.imagesloaded.js":1,"sites\/all\/modules\/field_slideshow\/field_slideshow.js":1,"sites\/all\/modules\/wysu_custom\/wysu_now_playing\/js\/wysu_now_playing_hd1hd2.js":1,"sites\/all\/modules\/google_analytics\/googleanalytics.js":1,"sites\/all\/themes\/skeletontheme\/js\/jquery.mobilemenu.js":1,"0":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"sites\/all\/modules\/calendar\/css\/calendar_multiday.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"sites\/all\/modules\/date\/date_repeat_field\/date_repeat_field.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/extlink\/extlink.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/colorbox\/styles\/default\/colorbox_style.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/field_slideshow\/field_slideshow.css":1,"sites\/all\/modules\/custom_search\/custom_search.css":1,"sites\/all\/themes\/wysu_skeleton\/css\/skeleton.css":1,"sites\/all\/themes\/wysu_skeleton\/css\/buttons.css":1,"sites\/all\/themes\/wysu_skeleton\/css\/layout.css":1,"sites\/all\/themes\/wysu_skeleton\/css\/style.css":1,"sites\/all\/themes\/wysu_skeleton\/css\/print.css":1}},"colorbox":{"opacity":"0.85","current":"{current} of {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"Close","maxWidth":"98%","maxHeight":"98%","fixed":true,"mobiledetect":true,"mobiledevicewidth":"480px"},"custom_search":{"form_target":"_self","solr":0},"better_exposed_filters":{"views":{"staff":{"displays":{"default":{"filters":[]}}},"homepage_slider":{"displays":{"block":{"filters":[]}}},"frontpage_npr_national":{"displays":{"block":{"filters":[]}}},"frontpage_npr_national_2_5":{"displays":{"block":{"filters":[]}}},"frontpage_business_journal":{"displays":{"block":{"filters":[]}}},"frontpage_news_outlet":{"displays":{"block":{"filters":[]}}},"frontpage_vindicator_topstories":{"displays":{"block":{"filters":[]}}},"frontpage_vindicator_fracking":{"displays":{"block":{"filters":[]}}}}},"field_slideshow":{"field-slideshow-1":{"fx":"fade","speed":"1000","timeout":"4000","pause":0,"start_on_hover":0,"carousel_visible":"3","carousel_scroll":"1","carousel_speed":"500","carousel_vertical":0,"carousel_circular":0,"carousel_follow":0,"carousel_skin":"","pager":"","controls":[]}},"extlink":{"extTarget":"_blank","extClass":0,"extLabel":"(link is external)","extImgClass":0,"extIconPlacement":"append","extSubdomains":1,"extExclude":"(wysu\\.org)","extInclude":"","extCssExclude":"","extCssExplicit":"","extAlert":0,"extAlertText":"This link will take you to an external web site. We are not responsible for their content.","mailtoClass":0,"mailtoLabel":"(link sends e-mail)"},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip","trackColorbox":1,"trackCrossDomains":["wysu.org"]},"statistics":{"data":{"nid":"249928"},"url":"\/modules\/statistics\/statistics.php"},"urlIsAjaxTrusted":{"\/staff":true}});
+//--><!]]>
+</script>
+</head>
+<body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-249928 node-type-page" >
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+    <div id="wrap">
+    <div class="container">
+
+        <!-- #header -->
+        <div id="header" class="sixteen columns clearfix">
+
+            <!-- social icons in header and member button -->
+            <div id="socialheader" class = "seven columns offset-by-eight">
+                <a href = "https://www.facebook.com/wysufm" target="_blank"><img alt="Facebook logo" src = "/sites/all/themes/wysu_skeleton/img/header_facebook.png"></a>
+                <a href = "https://twitter.com/wysu" target="_blank"><img alt="Twitter logo" src = "/sites/all/themes/wysu_skeleton/img/header_twitter.png"></a>
+                <a href = "https://www.youtube.com/user/wysu885" target="_blank"><img alt="YouTube logo" src = "/sites/all/themes/wysu_skeleton/img/header_youtube.png"></a>
+                <a href = "/give" class="redbtn3"><img alt="Become a member image link" src = "/sites/all/themes/wysu_skeleton/img/top_become_member_text.png"></a>
+            </div>
+
+            <!-- rule in header -->
+            <div id = "header-rule" class="sixteen columns clearfix">
+                <img alt="" src ="/sites/all/themes/wysu_skeleton/img/header_rule.png"></div>
+
+
+            <div id = "header-logo" class="eleven columns">
+                <a href = "/"><img alt="WYSU Logo" src ="/sites/all/themes/wysu_skeleton/img/header_logo.png"></a></div>
+
+            <div id = "header-listen" class = "four columns">
+                <a href = "/listen" ><img alt="Large listen live button" src ="/sites/all/themes/wysu_skeleton/img/listenlive_btn_large_text.png" class="redbtn4"
+                        ></a>
+            </div>
+
+
+
+             <!-- #navigation -->
+
+        <nav id="navigation" role="navigation">
+            <div id="main-menu">
+            <label class="element-invisible" for="mobile-menu">Navigate this site on a mobile device</label>
+                <ul class="menu"><li class="first leaf"><a href="/">Home</a></li>
+<li class="leaf"><a href="/listen" title="Listen to WYSU online.">Listen</a></li>
+<li class="expanded"><a title="Support WYSU" class="nolink">Support</a><ul class="menu"><li class="first leaf"><a href="/membership" title="Become a WYSU member!">Become a Member</a></li>
+<li class="leaf"><a href="/give" title="Give to WYSU online.">Pledge</a></li>
+<li class="leaf"><a href="/store" title="Purchase promotional items like concert tickets.">Store</a></li>
+<li class="leaf"><a href="/amazon" title="Shop on Amazon and support WYSU.">Amazon</a></li>
+<li class="leaf"><a href="/payrolldeduction" title="Find out more about payroll deduction.">Payroll Deduction</a></li>
+<li class="leaf"><a href="/plannedgiving" title="Leave a legacy with WYSU.">Planned Giving</a></li>
+<li class="leaf"><a href="/daysponsor" title="Learn about becoming a day sponsor.">Day Sponsorship</a></li>
+<li class="leaf"><a href="/underwriting" title="Underwrite WYSU.">Corporate Underwriting</a></li>
+<li class="leaf"><a href="/volunteer" title="Learn how to volunteer for WYSU.">Volunteer</a></li>
+<li class="leaf"><a href="/vehicledonation" title="Donate your clunker and support WYSU.">Vehicle Donation</a></li>
+<li class="leaf"><a href="/needtoknow" title="Need to Know card vendors and benefits.">Need to Know Benefits</a></li>
+<li class="last leaf"><a href="/underwriters" title="A list of WYSU underwriters.">Underwriters</a></li>
+</ul></li>
+<li class="expanded active-trail"><a title="About WYSU" class="active-trail nolink">About</a><ul class="menu"><li class="first leaf"><a href="/mission" title="Read the WYSU mission statement.">Mission</a></li>
+<li class="leaf"><a href="/contact" title="Contact WYSU">Contact</a></li>
+<li class="leaf"><a href="/jobs" title="Look for a job at WYSU.">Jobs</a></li>
+<li class="leaf"><a href="/history" title="Read about WYSU&#039;s history.">History</a></li>
+<li class="leaf"><a href="/advisoryboard" title="Information on the latest advisory board meeting.">Advisory Board</a></li>
+<li class="leaf"><a href="/eeo" title="EEO Public File Report">EEO Information</a></li>
+<li class="leaf"><a href="/app" title="Download the WYSU App!">Mobile App</a></li>
+<li class="leaf"><a href="/cpb-compliance" title="CPB Compliance information">CPB Compliance</a></li>
+<li class="leaf"><a href="/codeofintegrity" title="WYSU-FM Endorses the Public Media Code of Ethics">Code of Integrity</a></li>
+<li class="leaf"><a href="/newsletter" title="An archive of the WYSU newsletter">Need to Know newsletter</a></li>
+<li class="last leaf active-trail"><a href="/staff" title="WYSU staff directory." class="active-trail active">Staff</a></li>
+</ul></li>
+<li class="expanded"><a href="/news" title="National and regional news.">News</a><ul class="menu"><li class="first leaf"><a href="/news/local" title="Read local news headlines and stories.">Local News</a></li>
+<li class="last leaf"><a href="/news/national">National News</a></li>
+</ul></li>
+<li class="expanded"><a title="Music on WYSU." class="nolink">Music</a><ul class="menu"><li class="first leaf"><a href="/schedule-main">Main Channel Schedule</a></li>
+<li class="leaf"><a href="/playlist-main">Main Channel Playlist Search</a></li>
+<li class="leaf"><a href="/schedule-classical">Classical Channel Schedule</a></li>
+<li class="last leaf"><a href="/playlist-classical">Classical Channel Playlist Search</a></li>
+</ul></li>
+<li class="expanded"><a title="WYSU programs." class="nolink">Programs</a><ul class="menu"><li class="first leaf"><a href="/doinggood" title="Archived recordings of Doing Good">Doing Good</a></li>
+<li class="leaf"><a href="/lincolnavenue" title="Lincoln Avenue archive">Lincoln Avenue</a></li>
+<li class="leaf"><a href="/lookingout" title="Looking Out archive">Looking Out</a></li>
+<li class="leaf"><a href="/lolt" title="Life on Life&#039;s Terms archive">Life on Life&#039;s Terms</a></li>
+<li class="leaf"><a href="/publicaffairs" title="Public Affairs broadcasts and recordings.">Public Affairs</a></li>
+<li class="leaf"><a href="/commentary">Commentaries</a></li>
+<li class="leaf"><a href="/presidentialinterviews" title="Archived recordings of the monthly interviews with the YSU president.">Presidential Interviews</a></li>
+<li class="leaf"><a href="/timfrancisco" title="Archived recordings of interviews by Tim Francisco">Tim Francisco</a></li>
+<li class="leaf"><a href="/folkfestival" title="Folk Festival">Folk Festival</a></li>
+<li class="last leaf"><a href="/nowsthetime" title="Program guide for Now&#039;s the Time with Martin Berger.">Now&#039;s the Time</a></li>
+</ul></li>
+<li class="last expanded"><a title="WYSU community information." class="nolink">Community</a><ul class="menu"><li class="first leaf"><a href="/cityclub" title="CIty Club of the Mahoning Valley archives">City Club</a></li>
+<li class="leaf"><a href="/calendar" title="View events on the Community Calendar">Community Calendar</a></li>
+<li class="leaf"><a href="https://publicfiles.fcc.gov/fm-profile/wysu" title="The WYSU Public File on the FCC website.">Public File</a></li>
+<li class="leaf"><a href="/contestrules" title="Read the contest rules for prize drawings.">Contest Rules</a></li>
+<li class="last expanded"><a href="/travel" title="Travel with WYSU!">Travel</a><ul class="menu"><li class="first leaf"><a href="/travel/awty" title="The WYSU travel blog.">Are We There Yet?</a></li>
+<li class="last leaf"><a href="/travel/documents" title="Useful documents about traveling with WYSU.">Travel Documents</a></li>
+</ul></li>
+</ul></li>
+</ul>            </div>
+        </nav>
+
+
+        <div class="clear"></div>
+           <div id = "mobilenav"><select id="mobile-menu" name = "mobile-menu"  onchange="document.location.href=this.value" style="width:100%;"><option  value = "/<front>">Home</option><option  value = "/node/30">Listen</option><option disabled value = "/<nolink>">Support</option><option  value = "/node/114092">---Become a Member</option><option  value = "/node/115694">---Pledge</option><option  value = "/node/115695">---Store</option><option  value = "/node/561">---Amazon</option><option  value = "/node/115696">---Payroll Deduction</option><option  value = "/node/560">---Planned Giving</option><option  value = "/node/229214">---Day Sponsorship</option><option  value = "/node/563">---Corporate Underwriting</option><option  value = "/node/558">---Volunteer</option><option  value = "/node/559">---Vehicle Donation</option><option  value = "/node/249927">---Need to Know Benefits</option><option  value = "/node/249925">---Underwriters</option><option disabled value = "/<nolink>">About</option><option  value = "/node/181">---Mission</option><option  value = "/node/115714">---Contact</option><option  value = "/node/180">---Jobs</option><option  value = "/node/155356">---History</option><option  value = "/node/204230">---Advisory Board</option><option  value = "/eeo">---EEO Information</option><option  value = "/node/182162">---Mobile App</option><option  value = "/node/317026">---CPB Compliance</option><option  value = "/node/338565">---Code of Integrity</option><option  value = "/node/260246">---Need to Know newsletter</option><option  value = "/node/249928">---Staff</option><option  value = "/news">News</option><option  value = "/news/local">---Local News</option><option  value = "/news/national">---National News</option><option disabled value = "/<nolink>">Music</option><option  value = "/node/65704">---Main Channel Schedule</option><option  value = "/node/65706">---Main Channel Playlist Search</option><option  value = "/node/65705">---Classical Channel Schedule</option><option  value = "/node/149505">---Classical Channel Playlist Search</option><option disabled value = "/<nolink>">Programs</option><option  value = "/doinggood">---Doing Good</option><option  value = "/lincolnavenue">---Lincoln Avenue</option><option  value = "/lookingout">---Looking Out</option><option  value = "/lolt">---Life on Life's Terms</option><option  value = "/publicaffairs">---Public Affairs</option><option  value = "/commentary">---Commentaries</option><option  value = "/presidentialinterviews">---Presidential Interviews</option><option  value = "/timfrancisco">---Tim Francisco</option><option  value = "/node/379382">---Folk Festival</option><option  value = "/node/485408">---Now's the Time</option><option disabled value = "/<nolink>">Community</option><option  value = "/cityclub">---City Club</option><option  value = "/calendar">---Community Calendar</option><option  value = "/https://publicfiles.fcc.gov/fm-profile/wysu">---Public File</option><option  value = "/node/119237">---Contest Rules</option><option  value = "/node/249931">---Travel</option>                </select>
+
+
+
+                </div>
+        </div><!-- /#navigation -->
+
+
+                    
+                            <div id="breadcrumb"><h2 class="element-invisible">You are here</h2><div class="breadcrumb"><span class="inline odd first"><a href="/">Home</a></span> <span class="delimiter">»</span> <span class="inline even last">About</span></div></div>
+                    </div>
+
+
+            <div class = "row sixteen columns clearfix">
+                
+                
+                                <h1 class="title" id="page-title">
+                  Staff                </h1>
+                                <span id="main-content"></span>
+
+                
+                                <div class="tabs">
+                                  </div>
+                
+                
+                                </div>
+
+<div class="container">
+            <div class = "row sixteen columns clearfix">
+         
+                    <div id="content" class="eleven columns">         
+                      <div class="region region-content">
+    <div id="block-system-main" class="block block-system">
+
+    
+  <div class="content">
+    <div id="node-249928" class="node node-page clearfix" about="/staff" typeof="foaf:Document">
+
+      <span property="dc:title" content="Staff" class="rdf-meta element-hidden"></span>
+  
+  <div class="content clearfix">
+    <div class="field field-name-field-image field-type-image field-label-hidden"><div class="field-items"><div class="field-item even"><img typeof="foaf:Image" src="https://wysu.org/sites/default/files/basic_page/staff_300x300.jpg" width="300" height="300" alt="Staff icon." title="Staff icon." /></div></div></div><div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><div class="view view-staff view-id-staff view-display-id-default view-dom-id-f089031589157c91d020ff835a403616">
+            <div class="view-header">
+      <p>Find out more about the WYSU staff! Additional staff contact information can be found in the <a href="http://www.ysu.edu/facultystaff/" target="_blank">staff directory on the YSU website.</a></p>    </div>
+  
+  
+  
+      <div class="view-content">
+        <h3><a href="https://wysu.org/content/biography/barbara-krauss">Barbara Krauss</a></h3>
+<table class="views-view-grid cols-4">
+  
+  <tbody>
+          <tr  class="row-1 row-first row-last">
+                  <td  class="col-1 col-first">
+              
+  <div class="views-field views-field-field-employee-title">    <span class="views-label views-label-field-employee-title">Title: </span>    <span class="field-content">Morning Edition / Classical Music Host</span>  </div>  
+  <div class="views-field views-field-field-email">    <span class="views-label views-label-field-email">Email: </span>    <span class="field-content">krauss@wysu.org</span>  </div>  
+  <div class="views-field views-field-nothing">        <span class="field-content"><br></span>  </div>  
+  <span class="views-field views-field-body">        <div class="field-content"><p><a href="http://wysu.org/sites/default/files/bio_pics/Barbara%20Krauss%202012.jpg" title="Barbara Krauss" class="colorbox colorbox-insert-image"><img src="https://wysu.org/sites/default/files/styles/medium-plus-padding/public/bio_pics/Barbara%20Krauss%202012.jpg?itok=-HNkhLSW" alt="Barbara Krauss" title="Barbara Krauss" style="float:left" /></a>Barbara Krauss has the distinction of being the WYSU employee with the longest tenure. She was born and raised in Youngstown and attended the Youngstown State University Dana School of Music. During her undergraduate years, she worked at WYSU as a board operator and announcer. After accepting her bachelor's degree in music education, she was employed by the Austintown School District. In 1975, she was hired full-time at WYSU.</p><p>Since 2000, she has led the annual WYSU group tours to many exciting and exotic locations around the world. Her leadership during these trips is astounding and she has made many friends from around the world. Others have noticed her dedication; Barbara was recently presented with the YSU <em>Distinguished Service Award</em> for 2013. WYSU listeners can hear Barbara's lovely voice each morning during <em>Morning Edition</em> and her classical music program.</p><p>Barbara's family outside of WYSU includes two sons and her husband, Ron Krauss. She is a great cook, often sharing her recipes for bread and limoncello with her friends and co-workers. She says that the best thing about working at WYSU is the people she meets and the great music she hears every day.</p></div>  </span>          </td>
+              </tr>
+      </tbody>
+</table>
+  <h3><a href="https://wysu.org/content/biography/chris-hartman">Chris Hartman</a></h3>
+<table class="views-view-grid cols-4">
+  
+  <tbody>
+          <tr  class="row-1 row-first row-last">
+                  <td  class="col-1 col-first">
+              
+  <div class="views-field views-field-field-employee-title">    <span class="views-label views-label-field-employee-title">Title: </span>    <span class="field-content">Associate Broadcast Engineer </span>  </div>  
+  <div class="views-field views-field-field-email">    <span class="views-label views-label-field-email">Email: </span>    <span class="field-content">webmaster@wysu.org</span>  </div>  
+  <div class="views-field views-field-nothing">        <span class="field-content"><br></span>  </div>  
+  <span class="views-field views-field-body">        <div class="field-content"><p><a href="https://wysu.org/sites/default/files/bio_pics/Chris%20Hartman%202012.jpg" title="Chris Hartman" class="colorbox colorbox-insert-image" rel="gallery-all"><img src="https://wysu.org/sites/default/files/styles/medium-plus-padding/public/bio_pics/Chris%20Hartman%202012.jpg?itok=JRjjckF8" alt="Chris Hartman" title="Chris Hartman" style="float: left;" class="image-medium-plus-padding" /></a>Chris grew up on the north side of Youngstown and studied Classical Guitar Performance at Youngstown State University. He earned his undergraduate degree <em>Summa Cum Laude</em> from the Dana School of Music in 2009. While an undergraduate, Chris was hired at WYSU 88.5 FM as a student assistant, becoming a part-time employee in 2009. In 2010, Chris accepted full-time employment at the station.</p>
+<p>Chris’s passion for music is rivaled only by his interest in technology. Outside of work, he enjoys exploring GNU/Linux and other free/open source software, and has recently received a certification in Computer Networking from YSU. He finds that his job at WYSU is a perfect fit, allowing him to address challenging problems in a relaxed atmosphere. Chris's favorite WYSU programs include <em>Exploring Music, Fresh Air, Car Talk, Only a Game,</em> and <em>Marketplace.</em></p>
+<p>In his free time, Chris plays in a folk/bluegrass band, teaches guitar, and occasionally runs long distances.</p></div>  </span>          </td>
+              </tr>
+      </tbody>
+</table>
+  <h3><a href="https://wysu.org/content/biography/cindy-bella">Cindy Bella</a></h3>
+<table class="views-view-grid cols-4">
+  
+  <tbody>
+          <tr  class="row-1 row-first row-last">
+                  <td  class="col-1 col-first">
+              
+  <div class="views-field views-field-field-employee-title">    <span class="views-label views-label-field-employee-title">Title: </span>    <span class="field-content">Administrative Assistant</span>  </div>  
+  <div class="views-field views-field-field-email">    <span class="views-label views-label-field-email">Email: </span>    <span class="field-content">bella@wysu.org</span>  </div>  
+  <div class="views-field views-field-nothing">        <span class="field-content"><br></span>  </div>  
+  <span class="views-field views-field-body">        <div class="field-content"><p>Cindy Bella is no stranger to Youngstown State University where she worked in the Office of the Bursar from 2000 to 2014. She is a new face at WYSU as of October 2014, taking the job of administrative assistant for the radio station.</p><p>A 1975 graduate of Austintown Fitch High School, Cindy grew up in Austintown. She received a BS in Business Administration from YSU in 1981, and later an MBA, also from YSU.</p><p>Tackling a new job has been a challenge, but Cindy says she is learning. "There is so much to learn, but the WYSU staff is great, and it has been a good move," she says. She loves listening to the news programming that WYSU airs.</p><p>Cindy has two grown children: her daughter, Elaina, followed her mom to YSU and graduated in 2014 with a bachelor’s degree in science. Elaina recently moved from Texas back to the Mahoning Valley. Cindy’s son, George, is currently in US Navy stationed in Louisiana. He is married to Paige and they have a son.</p><p>Since her children have been on their own, living far away for the most part, Cindy fills her time by going out with friends and doing some of her favorite things including listening to live music, going to movies, and of course, visiting her children and grandson when possible.</p></div>  </span>          </td>
+              </tr>
+      </tbody>
+</table>
+  <h3><a href="https://wysu.org/content/biography/david-luscher">David Luscher</a></h3>
+<table class="views-view-grid cols-4">
+  
+  <tbody>
+          <tr  class="row-1 row-first row-last">
+                  <td  class="col-1 col-first">
+              
+  <div class="views-field views-field-field-employee-title">    <span class="views-label views-label-field-employee-title">Title: </span>    <span class="field-content">Associate Director of Broadcasting</span>  </div>  
+  <div class="views-field views-field-field-email">    <span class="views-label views-label-field-email">Email: </span>    <span class="field-content">luscher@wysu.org</span>  </div>  
+  <div class="views-field views-field-nothing">        <span class="field-content"><br></span>  </div>  
+  <span class="views-field views-field-body">        <div class="field-content"><p><span><a href="http://wysu.org/sites/default/files/bio_pics/David%20Luscher%202012.jpg" title="David Luscher" class="colorbox colorbox-insert-image"><img src="https://wysu.org/sites/default/files/styles/medium-plus-padding/public/bio_pics/David%20Luscher%202012.jpg?itok=PLSgI3O8" alt="David Luscher" title="David Luscher" style="float:left" /></a>As WYSU listeners may already know, David has one of the most recognizable voices in the Mahoning Valley! In addition to WYSU, he has worked at several radio stations including WBBG and WSTV/WRKY.</span></p><p>In 1992, while earning his undergraduate degree in Music Education from Youngstown State University, David accepted his first position at WYSU. He graduated in 1997 and was employed by the Steubenville School District where he taught music and broadcast journalism for several years. In 2001, David returned to WYSU as the Associate Director, a position he maintains along with his on-air duties. His favorite programs are <em>Only A Game</em> and <em>Fresh Air</em>.</p><p>In his free time, David enjoys traveling, especially around the southwestern United States, and says that his favorite aspect of his job at the station is working with creative and colorful coworkers.</p></div>  </span>          </td>
+              </tr>
+      </tbody>
+</table>
+  <h3><a href="https://wysu.org/content/biography/gary-sexton">Gary Sexton</a></h3>
+<table class="views-view-grid cols-4">
+  
+  <tbody>
+          <tr  class="row-1 row-first row-last">
+                  <td  class="col-1 col-first">
+              
+  <div class="views-field views-field-field-employee-title">    <span class="views-label views-label-field-employee-title">Title: </span>    <span class="field-content">Director of Broadcasting</span>  </div>  
+  <div class="views-field views-field-field-email">    <span class="views-label views-label-field-email">Email: </span>    <span class="field-content">sexton@wysu.org</span>  </div>  
+  <div class="views-field views-field-nothing">        <span class="field-content"><br></span>  </div>  
+  <span class="views-field views-field-body">        <div class="field-content"><p><a href="https://wysu.org/sites/default/files/bio_pics/gary%20on%20the%20mic.jpg" title="Gary Sexton on the air." class="colorbox colorbox-insert-image" rel="gallery-all"><img src="https://wysu.org/sites/default/files/styles/medium-plus-padding/public/bio_pics/gary%20on%20the%20mic.jpg?itok=sK-5fptU" alt="Gary Sexton on the air." title="Gary Sexton on the air." style="float: left;" class="image-medium-plus-padding" /></a>Gary Sexton has worked at WYSU-FM for over 26 years, the last 16 years as director. Gary received his undergraduate degree in music at Western Michigan University in Kalamazoo, and his graduate degree, also in music, at Youngstown State University. He spends his free time seeking out the wild places in Pennsylvania and West Virginia, running the trails, and identifying the wild flora and fauna around him. He is married to Susan Sexton, happily living on the North Side of Youngstown, with too many pets in the house and too many weeds in the yard.</p></div>  </span>          </td>
+              </tr>
+      </tbody>
+</table>
+  <h3><a href="https://wysu.org/content/biography/gina-marinelli">Gina Marinelli</a></h3>
+<table class="views-view-grid cols-4">
+  
+  <tbody>
+          <tr  class="row-1 row-first row-last">
+                  <td  class="col-1 col-first">
+              
+  <div class="views-field views-field-field-employee-title">    <span class="views-label views-label-field-employee-title">Title: </span>    <span class="field-content">Host, Doing Good</span>  </div>  
+  <div class="views-field views-field-nothing">        <span class="field-content"><br></span>  </div>  
+  <span class="views-field views-field-body">        <div class="field-content"><p>Gina Marinelli is a native of the Mahoning Valley and a graduate of Youngstown State University. She is best known for her 23-year career as a broadcast journalist, starting in the radio newsroom of WKBN 570 and quickly making the short move to reporter for WKBN 27 First News. From there, Gina transitioned to the anchor desk at WKBN, which she shared for many years with the legendary Tom Holden.</p><p>Gina’s reporting skills broke many stories and earned numerous awards from the Associated Press. After Holden’s death in 2005, she moved to WYTV Channel 33, the local ABC affiliate, where she anchored and reported. She left broadcasting in 2007.</p><p>Gina works as a development officer for the Mercy Health Foundation. She has raised six million dollars for the creation of the Joanie Abdu Comprehensive Breast Care Center at St. Elizabeth Health Center, has been nominated twice for an Athena Award, and is a member of the YSU chapter of Phi Kappa Phi.</p><p>She lives in Boardman with her son, Jacob.</p></div>  </span>          </td>
+              </tr>
+      </tbody>
+</table>
+  <h3><a href="https://wysu.org/content/biography/martin-berger">Martin Berger</a></h3>
+<table class="views-view-grid cols-4">
+  
+  <tbody>
+          <tr  class="row-1 row-first row-last">
+                  <td  class="col-1 col-first">
+              
+  <div class="views-field views-field-field-employee-title">    <span class="views-label views-label-field-employee-title">Title: </span>    <span class="field-content">Now&#039;s the Time Host</span>  </div>  
+  <div class="views-field views-field-field-email">    <span class="views-label views-label-field-email">Email: </span>    <span class="field-content">meberger@ysu.edu</span>  </div>  
+  <div class="views-field views-field-nothing">        <span class="field-content"><br></span>  </div>  
+  <span class="views-field views-field-body">        <div class="field-content"><p><a href="https://wysu.org/sites/default/files/bio_pics/Martin%20Berger%20Pre-2013.jpg" title="Martin Berger" class="colorbox colorbox-insert-image" rel="gallery-all"><img src="https://wysu.org/sites/default/files/styles/medium-plus-padding/public/bio_pics/Martin%20Berger%20Pre-2013.jpg?itok=RghFIpRl" alt="Martin Berger" title="Martin Berger" style="float: left;" class="image-medium-plus-padding" /></a>Martin Berger is known to listeners as the host of the weekend jazz program <em>Now’s the Time</em>. Hundreds of Youngstown State University students also know him as Dr. Martin Berger, Professor Emeritus, in the Department of History at YSU.</p>
+<p>Martin is a Columbus native who came to YSU in the fall of 1969 to teach history. He retired in 2005 but continues to teach part time in the YSU Department of History.</p>
+<p>Martin remembers when WYSU first went on air with a jazz show from WRVR in New York. When that broadcast was no longer available, a YSU student filled the two-hour time slot. The student eventually graduated and moved on, so Martin took over <em>Now's the Time</em>. Largely inspired by colleague Charles Darling of WYSU's Folk Festival, Martin recorded his first show which aired on December 2nd, 1972. Not surprisingly, his favorite WYSU programs are the <em>Jazz Sofa</em>, <em>Wait, Wait... Don't Tell Me, Says You, Car Talk, NPR News</em>, and classical music.</p>
+<p>Outside of work, Martin says he "fights entropy by restoring old cars." He and his wife have three children, three grandchildren, and five cats.</p>
+<p>In his own words, Martin explains that he loves working at the station because it allows him "the opportunity to be a small part of public radio's all-important effort to preserve an outpost of civilization and sanity."</p></div>  </span>          </td>
+              </tr>
+      </tbody>
+</table>
+  <h3><a href="https://wysu.org/content/biography/rick-popovich">Rick Popovich</a></h3>
+<table class="views-view-grid cols-4">
+  
+  <tbody>
+          <tr  class="row-1 row-first row-last">
+                  <td  class="col-1 col-first">
+              
+  <div class="views-field views-field-field-employee-title">    <span class="views-label views-label-field-employee-title">Title: </span>    <span class="field-content">Jazz Sofa Host</span>  </div>  
+  <div class="views-field views-field-field-email">    <span class="views-label views-label-field-email">Email: </span>    <span class="field-content">popovich@wysu.org</span>  </div>  
+  <div class="views-field views-field-nothing">        <span class="field-content"><br></span>  </div>  
+  <span class="views-field views-field-body">        <div class="field-content"><p><a href="http://wysu.org/sites/default/files/bio_pics/Rick%20Popovich%202013.jpg" title="Rick Popovich" class="colorbox colorbox-insert-image" rel="gallery-all"><img src="https://wysu.org/sites/default/files/styles/medium-plus-padding/public/bio_pics/Rick%20Popovich%202013.jpg?itok=7vBF9pLa" alt="Rick Popovich" title="Rick Popovich" style="float: left;" class="image-medium-plus-padding" /></a>The popular host of WYSU's <em style="line-height: 1.538em;">Jazz Sofa</em> for nearly 20 years, Rick Popovich is a Youngstown native who graduated from Chaney High School and Youngstown State University. Rick's jazz background and musical qualifications landed him on board when the station expanded jazz programming in 1994. "Jazz is a natural extension of my fundamental interest in music," he explains.</p>
+<p>Rick's music degree at YSU was followed by a master's degree in film, telecommunications, and music at Ohio University in 1992. Beside his work at WYSU 88.5 FM, he gives private lessons to guitar students at his studio and is a substitute teacher at Canfield Middle School. His many musical talents include bass, vocals, and audio production. In his free time he gigs across the country with various groups.</p>
+<p>Rick and his long-time girlfriend live in rural Mahoning County with their three dogs. He enjoys many of WYSU's programs, especially the classical music programs with Barbara Krauss and Gary Sexton. The piano puzzlers are also a favorite! Rick says he has always been a fan of public radio and WYSU because "it goes much deeper than the superficial programming on commercial radio." He adds, "WYSU has always had a certain character that stands in stark contrast to what is found elsewhere on the radio dial."</p></div>  </span>          </td>
+              </tr>
+      </tbody>
+</table>
+  <h3><a href="https://wysu.org/content/biography/ron-krauss">Ron Krauss</a></h3>
+<table class="views-view-grid cols-4">
+  
+  <tbody>
+          <tr  class="row-1 row-first row-last">
+                  <td  class="col-1 col-first">
+              
+  <div class="views-field views-field-field-employee-title">    <span class="views-label views-label-field-employee-title">Title: </span>    <span class="field-content">Broadcast Engineer</span>  </div>  
+  <div class="views-field views-field-field-email">    <span class="views-label views-label-field-email">Email: </span>    <span class="field-content">engineering@wysu.org</span>  </div>  
+  <div class="views-field views-field-nothing">        <span class="field-content"><br></span>  </div>  
+  <span class="views-field views-field-body">        <div class="field-content"><p><a href="https://wysu.org/sites/default/files/bio_pics/Ron%20Krauss%202012.jpg" title="Ron Krauss" class="colorbox colorbox-insert-image" rel="gallery-all"><img src="https://wysu.org/sites/default/files/styles/medium-plus-padding/public/bio_pics/Ron%20Krauss%202012.jpg?itok=1cTw0qNz" alt="Ron Krauss" title="Ron Krauss" style="float: left;" class="image-medium-plus-padding" /></a>Ron Krauss grew up in Salem, Ohio and came to Youngstown in 1970 to attend Youngstown State University. He earned a Bachelor of Arts in music performance from Dana School of Music in 1992. Ron enjoyed a long career in electronics before coming to YSU's Electronics Maintenance Services in 1993. He was hired at WYSU in 2005. Ron sums it up like this: "I have worked in electronics for 50 years and in radio for over 25."</p>
+<p>Ron's professional interests spill into his life outside of work. He likes to collect and edit recorded music, comedy, and dramatic performances from all areas and styles - "a lifelong hobby," he says. Ron is married to Barbara Krauss, one of WYSU's classical music hosts. "She has been at WYSU longer than we have been together – many years. Don't ask!" Ron says. They have two grown children and four cats.</p>
+<p>As for his favorite programs at WYSU, Ron says they change all the time. Right now he likes the classical programming, including the weekly concerts on WYSU's classical service. He also is a fan of <em>A Prairie Home Companion</em> and <em>Says You</em>. He doesn't mind sharing the many reasons he loves working in radio. In his own words, he enjoys the chance to "exercise creativity on the technical side of things." He adds, "It's good to work in an environment where the sole objective is not to make money; rather to deliver alternative and meaningful content in a consistent and high quality fashion."</p></div>  </span>          </td>
+              </tr>
+      </tbody>
+</table>
+  <h3><a href="https://wysu.org/content/biography/susan-moorer">Susan Moorer</a></h3>
+<table class="views-view-grid cols-4">
+  
+  <tbody>
+          <tr  class="row-1 row-first row-last">
+                  <td  class="col-1 col-first">
+              
+  <div class="views-field views-field-field-employee-title">    <span class="views-label views-label-field-employee-title">Title: </span>    <span class="field-content">Development Director</span>  </div>  
+  <div class="views-field views-field-field-email">    <span class="views-label views-label-field-email">Email: </span>    <span class="field-content">moorer@wysu.org</span>  </div>  
+  <div class="views-field views-field-nothing">        <span class="field-content"><br></span>  </div>  
+  <span class="views-field views-field-body">        <div class="field-content"><p><a href="https://wysu.org/sites/default/files/bio_pics/Susan%20Moorer%202016%20cropped.jpg" title="Susan Moorer" class="colorbox colorbox-insert-image"><img src="/sites/default/files/styles/medium-plus-padding/public/bio_pics/Susan%20Moorer%202016%20cropped.jpg?itok=VSkwXhKN" alt="Susan Moorer" title="Susan Moorer" width="230" height="223" style="float:left" /></a>Susan Moorer was born in Youngstown and graduated from Woodrow Wilson High School. She earned her Bachelor of Arts degree from Youngstown State University in 1989 in the field of speech communication. She completed her Master of Science degree in organizational leadership from Geneva College in January 2008.</p><p>In between degrees, Susan has had an extensive career in the Mahoning Valley and at Youngstown State University. She served as Executive Director for Leadership Mahoning Valley and as Coordinator of Diversity Initiatives for Youngstown State University. Most recently she has served as the Coordinator of Outreach and College Access for the YSU Beeghly College of Education where she coordinated recruitment programs, YSU Crash Day, and student visits from area high schools. She has also been active on the Standard 4 (Diversity) Committee and is a member of the Youngstown City Schools Academic Distress Commission.</p><p>Susan’s community involvement includes a term as president of the YWCA of Youngstown and president of the Youngstown Area Urban League. She is currently President of the Junior Civic League. She has held office for the Ohio Association for Community Leadership and Youngstown Alumnae Chapter of Delta Sigma Theta Sorority, Inc. She also chaired the highly successful 300 Sisters in Red Program. She is a past member of the American Heart Association Board of Directors as well as a current board member for the Ronald McDonald House Charities. She has been an Athena Award nominee and a YWCA Woman of the Year nominee.</p><p>In her job as Development Director at WYSU, Susan oversees underwriting and fund drive initiatives. She finds the change a challenge but is excited about her new postion. "I love working with the WYSU staff," she says. "They have helped me make challenges into opportunities." Job change aside, Susan's involvement as a representative for the APAS union continues. She is currently a member of the APAS Executive Committee and has served as a member of the APAS 2012 Negotiations Team.</p><p>In the little free time she has, Susan likes to cook and listen to jazz- on WYSU of course! She also loves watching pro-football and hanging out with her son, Christopher, and her mother, Mable Brown, both of whom live in Youngstown.</p></div>  </span>          </td>
+              </tr>
+      </tbody>
+</table>
+  <h3><a href="https://wysu.org/content/biography/tricia-perry">Tricia Perry</a></h3>
+<table class="views-view-grid cols-4">
+  
+  <tbody>
+          <tr  class="row-1 row-first row-last">
+                  <td  class="col-1 col-first">
+              
+  <div class="views-field views-field-field-employee-title">    <span class="views-label views-label-field-employee-title">Title: </span>    <span class="field-content">Funding Officer</span>  </div>  
+  <div class="views-field views-field-field-email">    <span class="views-label views-label-field-email">Email: </span>    <span class="field-content">perry@wysu.org</span>  </div>  
+  <div class="views-field views-field-nothing">        <span class="field-content"><br></span>  </div>  
+  <span class="views-field views-field-body">        <div class="field-content"><p><a href="https://wysu.org/sites/default/files/bio_pics/2013%20Tricia%20Perry.jpg" title="Tricia Perry" class="colorbox colorbox-insert-image" rel="gallery-all"><img src="https://wysu.org/sites/default/files/styles/medium-plus-padding/public/bio_pics/2013%20Tricia%20Perry.jpg?itok=8f2PX_uw" alt="Tricia Perry" title="Tricia Perry" style="float: left;" class="image-medium-plus-padding" /></a>Tricia Perry has come full circle. Just out of college, in 1988, she began her professional broadcasting career at WHOT. After many years as a radio and TV reporter, she is now well into a new career as a fundraiser and back in radio at WYSU.</p>
+<p>Tricia is a native of the Mahoning Valley, graduating from Poland Seminary High School in 1984. She attended Bowling Green State University to earn a BA in Communications. She returned to the area to be near family and got her first job reporting for WHOT. "They had a pretty big news staff back then, and that’s where I learned how to how to report. Youngstown is a great town for news," Tricia says.</p>
+<p>From WHOT, she moved on to WKBN in 1991, reporting for radio and television. She stayed for 17 years, earning 10 Associated Press awards for broadcast reporting and writing, as well as a Woman of the Year award from the YWCA. During her WKBN years, she developed a love of history, which lead her to enroll at Youngstown State University. Ten years later, in 2008, she completed her Master's degree.</p>
+<p>At that time, Tricia decided to change careers and found that her knowledge of the Mahoning Valley community translated well to fundraising. For nearly five years she served as the Events Coordinator at the Rich Center for Autism at YSU, moving to WYSU in 2013.</p>
+<p>In her spare time, Tricia likes to have fun with her daughter, read, cook for family and friends, and travel when she can. When asked what her favorite WYSU programs are, she says the <em>Jazz Sofa</em> when it comes to music, but otherwise, she is an NPR news junkie, with a daily dose of <em>Fresh </em><span style="line-height: 1.538em;"><em>Air</em> to go.</span></p>
+<p>Tricia finds working at the station to be a good fit for her. "I am so happy to be here!" she says.</p></div>  </span>          </td>
+              </tr>
+      </tbody>
+</table>
+  <h3><a href="https://wysu.org/content/biography/willie-lofton">Willie Lofton</a></h3>
+<table class="views-view-grid cols-4">
+  
+  <tbody>
+          <tr  class="row-1 row-first row-last">
+                  <td  class="col-1 col-first">
+              
+  <div class="views-field views-field-field-employee-title">    <span class="views-label views-label-field-employee-title">Title: </span>    <span class="field-content">Late Night Jazz Host</span>  </div>  
+  <div class="views-field views-field-nothing">        <span class="field-content"><br></span>  </div>  
+  <span class="views-field views-field-body">        <div class="field-content"><p><a href="https://wysu.org/sites/default/files/bio_pics/2013%20Willie%20Lofton.jpg" title="Willie Lofton" class="colorbox colorbox-insert-image" rel="gallery-all"><img src="https://wysu.org/sites/default/files/styles/medium-plus-padding/public/bio_pics/2013%20Willie%20Lofton.jpg?itok=YkobgSLF" alt="Willie Lofton" title="Willie Lofton" style="float: left;" class="image-medium-plus-padding" /></a>Willie Lofton, otherwise know as Bill Lee, did not have his mind set on radio when he first considered a career. A graduate of Struthers High School, he first studied accounting when he enrolled at Youngstown State University in the 1970s. He also wanted to be a news reporter. "It didn’t turn out that way!" he says. His goals changed when he joined the <em>Black Broadcasting Coalition</em> and got part-time employment as a rock and roll disc jockey at WFMJ. He's been in the business ever since.</p>
+<p>In 1988, Willie re-enrolled at YSU to earn a communications degree. At that time he was working at WANR in Warren playing music and hosting talk and sports shows, a job that gave him experience in many musical genres excluding country western and classical. That changed, however, in 1993 when he became a volunteer production assistant at WYSU. Willie says that the interesting names of artists and pieces of classical music captured his attention. The classical hours are still his favorite programs on WYSU.</p>
+<p>Since 1995, Willie has produced the jazz show that airs late every Saturday night. His deep, smooth voice has been a staple of the program since it first aired.</p>
+<p>Outside of work, Willie likes to read, sing in his church choir, and visit with his brother. He is happy that he found and stuck with WYSU. "I just like broadcasting, period,” he says. “No matter what it is! And all the people here [at WYSU], they know their music!"</p></div>  </span>          </td>
+              </tr>
+      </tbody>
+</table>
+    </div>
+  
+  
+  
+  
+  
+  
+</div></div></div></div>  </div>
+
+  
+  
+</div>
+  </div>
+</div>
+  </div>
+                     
+                    </div>
+
+        <!-- #sidebar-first -->
+            <div id="sidebar" class="four columns">
+                
+            
+                                        <div id = "button_sidebar">
+                      <div class="region region-button-sidebar">
+    <div id="block-block-4" class="block block-block">
+
+    
+  <div class="content">
+    <a href = "/give" class="redbtn"><img alt="Become a member image link" src = "/sites/all/themes/wysu_skeleton/img/member_side_nobg.png"></a>
+
+<a href = "/app" class="redbtn2"><img alt="WYSU App download image link" src = "/sites/all/themes/wysu_skeleton/img/app_side_nobg.png"></a>
+
+<a href="/amazon-referral" target="_blank" class="blackbtn"><img alt="Shop on Amazon image link" src="/sites/all/themes/wysu_skeleton/img/amazon_side_nobg.png"></a>
+
+<a href = "/vehicledonation" class="blackbtn"><img alt="Vehicle Donation logo" src="/sites/default/files/manually_managed/carDonation.jpg"></a>  </div>
+</div>
+<div id="block-search-form" class="block block-search">
+
+    <h2>Search WYSU</h2>
+  
+  <div class="content">
+    <form class="search-form" role="search" action="/staff" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+    <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--2">Search this site </label>
+ <input title="Enter the terms you wish to search for." class="custom-search-box form-text" placeholder="" type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Search" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-Br6hBNtsBblBREef3pYkZCmI31E_pyMn3FBUyLeYiyk" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>  </div>
+</div>
+  </div>
+                    </div>
+                             
+            </div><!-- end sidebar -->
+</div>
+
+        <div class="clear"></div>
+        
+                
+        <div class="clear"></div>
+
+
+</div> <!-- /#wrap -->
+    <div class = "clear"></div>
+<div id = "footer-wrap" class="clearfix">
+    <div class="container">
+    <div id="footer" class="row sixteen columns clearfix">
+        <a href = "/listen" ><img alt="Small listen live button" src ="/sites/all/themes/wysu_skeleton/img/footer_listenlive_text.png"
+                                 id="footerlisten" class="footerlisten"></a></div>
+        <div class = "row clearfix">
+        <!--
+        <div id = "footer_first" class="one_fourth">
+                        <p>&nbsp;</p><p>&nbsp;</p>
+        </div>
+
+        <div id = "footer_second" class="one_fourth">
+                    </div>
+
+        <div id = "footer_third" class="one_fifth">
+                    </div>
+
+        <div id = "footer_fourth" class="one_fifth omega">
+                    </div>-->
+</div>
+
+        <div class="clear"></div>
+   <!--hr>-->
+  <div class = "row clearfix">
+    <div class = "five columns bottomlogos">
+    <a href="http://ysu.edu" target="_blank"><img alt="YSU logo" src = "/sites/all/themes/wysu_skeleton/img/ysu_logo.png"></a><br>
+    <a href="http://americanpublicmedia.publicradio.org/" target="_blank"><img alt="American Public Media logo" src = "/sites/all/themes/wysu_skeleton/img/apr_logo_footer.png"></a><br>
+    <a href="http://www.npr.org/" target="_blank"><img alt="National Public Radio logo" src = "/sites/all/themes/wysu_skeleton/img/npr_logo_footer.png"></a>
+    </div>
+    <div id="credits" class="eleven columns">
+      <a href="https://www.facebook.com/wysufm" target="_blank"><img alt="Facebook logo" src="/sites/all/themes/wysu_skeleton/img/header_facebook.png"></a>
+      <a href="https://twitter.com/wysu" target="_blank"><img alt="Twitter logo" src="/sites/all/themes/wysu_skeleton/img/header_twitter.png"></a>
+      <a href="https://www.youtube.com/user/wysu885" target="_blank"><img alt="YouTube logo" src="/sites/all/themes/wysu_skeleton/img/header_youtube.png"></a>
+      <div class="ada_compliance">
+        <a href="/user">User Login</a><br>        <a href="http://www.ysu.edu/ada-accessibility" target="_blank">ADA Compliance</a>
+      </div>
+      &copy; 2018  88.5 FM WYSU <!-- | Website designed by Keynote Media Group. LLC -->
+    </div>
+
+  </div> 
+</div>
+
+    </div>
+    </div>
+    </div>
+  <script type="text/javascript" src="https://wysu.org/sites/default/files/js/js_VU7P4CTgUZdF2SyFko5LLAg9ZK0OSVjXVaAFnTLgVt0.js"></script>
+</body>
+</html>

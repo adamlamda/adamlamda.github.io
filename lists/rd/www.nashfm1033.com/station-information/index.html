@@ -1,0 +1,1064 @@
+<!DOCTYPE HTML><html lang="en-US" xmlns:og="http://ogp.me/ns#" xmlns:fb="http://ogp.me/ns/fb#">
+
+<head>
+<meta charset="UTF-8" />
+<link rel="profile" href="http://gmpg.org/xfn/11" />
+
+<!-- Title -->
+<title>Station Information | WKDF-FM</title><link rel='dns-prefetch' href='//www.nashfm1033.com' />
+<link rel='dns-prefetch' href='//see-p-elb-01.tritondigital.net' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="canonical" href="http://www.nashfm1033.com/station-information/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.3\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.3\/svg\/","svgExt":".svg","source":{"wpemoji":"http:\/\/www.nashfm1033.com\/wp-includes\/js\/wp-emoji.js?ver=4.9.1","twemoji":"http:\/\/www.nashfm1033.com\/wp-includes\/js\/twemoji.js?ver=4.9.1"}};
+			( function( window, document, settings ) {
+	var src, ready, ii, tests;
+
+	/*
+	 * Create a canvas element for testing native browser support
+	 * of emoji.
+	 */
+	var canvas = document.createElement( 'canvas' );
+	var context = canvas.getContext && canvas.getContext( '2d' );
+
+	/**
+	 * Check if two sets of Emoji characters render the same.
+	 *
+	 * @param set1 array Set of Emoji characters.
+	 * @param set2 array Set of Emoji characters.
+	 * @returns {boolean} True if the two sets render the same.
+	 */
+	function emojiSetsRenderIdentically( set1, set2 ) {
+		var stringFromCharCode = String.fromCharCode;
+
+		// Cleanup from previous test.
+		context.clearRect( 0, 0, canvas.width, canvas.height );
+		context.fillText( stringFromCharCode.apply( this, set1 ), 0, 0 );
+		var rendered1 = canvas.toDataURL();
+
+		// Cleanup from previous test.
+		context.clearRect( 0, 0, canvas.width, canvas.height );
+		context.fillText( stringFromCharCode.apply( this, set2 ), 0, 0 );
+		var rendered2 = canvas.toDataURL();
+
+		return rendered1 === rendered2;
+	}
+
+	/**
+	 * Detect if the browser supports rendering emoji or flag emoji. Flag emoji are a single glyph
+	 * made of two characters, so some browsers (notably, Firefox OS X) don't support them.
+	 *
+	 * @since 4.2.0
+	 *
+	 * @param type {String} Whether to test for support of "flag" or "emoji".
+	 * @return {Boolean} True if the browser can render emoji, false if it cannot.
+	 */
+	function browserSupportsEmoji( type ) {
+		var isIdentical;
+
+		if ( ! context || ! context.fillText ) {
+			return false;
+		}
+
+		/*
+		 * Chrome on OS X added native emoji rendering in M41. Unfortunately,
+		 * it doesn't work when the font is bolder than 500 weight. So, we
+		 * check for bold rendering support to avoid invisible emoji in Chrome.
+		 */
+		context.textBaseline = 'top';
+		context.font = '600 32px Arial';
+
+		switch ( type ) {
+			case 'flag':
+				/*
+				 * Test for UN flag compatibility. This is the least supported of the letter locale flags,
+				 * so gives us an easy test for full support.
+				 *
+				 * To test for support, we try to render it, and compare the rendering to how it would look if
+				 * the browser doesn't render it correctly ([U] + [N]).
+				 */
+				isIdentical = emojiSetsRenderIdentically(
+					[ 55356, 56826, 55356, 56819 ],
+					[ 55356, 56826, 8203, 55356, 56819 ]
+				);
+
+				if ( isIdentical ) {
+					return false;
+				}
+
+				/*
+				 * Test for English flag compatibility. England is a country in the United Kingdom, it
+				 * does not have a two letter locale code but rather an five letter sub-division code.
+				 *
+				 * To test for support, we try to render it, and compare the rendering to how it would look if
+				 * the browser doesn't render it correctly (black flag emoji + [G] + [B] + [E] + [N] + [G]).
+				 */
+				isIdentical = emojiSetsRenderIdentically(
+					[ 55356, 57332, 56128, 56423, 56128, 56418, 56128, 56421, 56128, 56430, 56128, 56423, 56128, 56447 ],
+					[ 55356, 57332, 8203, 56128, 56423, 8203, 56128, 56418, 8203, 56128, 56421, 8203, 56128, 56430, 8203, 56128, 56423, 8203, 56128, 56447 ]
+				);
+
+				return ! isIdentical;
+			case 'emoji':
+				/*
+				 * Emoji 5 has fairies of all genders.
+				 *
+				 * To test for support, try to render a new emoji (fairy, male), then compares
+				 * it to how it would look if the browser doesn't render it correctly
+				 * (fairy + male sign).
+				 */
+				isIdentical = emojiSetsRenderIdentically(
+					[ 55358, 56794, 8205, 9794, 65039 ],
+					[ 55358, 56794, 8203, 9794, 65039 ]
+				);
+				return ! isIdentical;
+		}
+
+		return false;
+	}
+
+	function addScript( src ) {
+		var script = document.createElement( 'script' );
+
+		script.src = src;
+		script.defer = script.type = 'text/javascript';
+		document.getElementsByTagName( 'head' )[0].appendChild( script );
+	}
+
+	tests = Array( 'flag', 'emoji' );
+
+	settings.supports = {
+		everything: true,
+		everythingExceptFlag: true
+	};
+
+	for( ii = 0; ii < tests.length; ii++ ) {
+		settings.supports[ tests[ ii ] ] = browserSupportsEmoji( tests[ ii ] );
+
+		settings.supports.everything = settings.supports.everything && settings.supports[ tests[ ii ] ];
+
+		if ( 'flag' !== tests[ ii ] ) {
+			settings.supports.everythingExceptFlag = settings.supports.everythingExceptFlag && settings.supports[ tests[ ii ] ];
+		}
+	}
+
+	settings.supports.everythingExceptFlag = settings.supports.everythingExceptFlag && ! settings.supports.flag;
+
+	settings.DOMReady = false;
+	settings.readyCallback = function() {
+		settings.DOMReady = true;
+	};
+
+	if ( ! settings.supports.everything ) {
+		ready = function() {
+			settings.readyCallback();
+		};
+
+		if ( document.addEventListener ) {
+			document.addEventListener( 'DOMContentLoaded', ready, false );
+			window.addEventListener( 'load', ready, false );
+		} else {
+			window.attachEvent( 'onload', ready );
+			document.attachEvent( 'onreadystatechange', function() {
+				if ( 'complete' === document.readyState ) {
+					settings.readyCallback();
+				}
+			} );
+		}
+
+		src = settings.source || {};
+
+		if ( src.concatemoji ) {
+			addScript( src.concatemoji );
+		} else if ( src.wpemoji && src.twemoji ) {
+			addScript( src.twemoji );
+			addScript( src.wpemoji );
+		}
+	}
+
+} )( window, document, window._wpemojiSettings );
+		</script>
+		
+
+<!-- Stylesheets -->
+<link rel='stylesheet' id='headway-google-fonts' href='//fonts.googleapis.com/css?family=Oswald' type='text/css' media='all' />
+<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='bxslider-style-css'  href='http://www.nashfm1033.com/wp-content/plugins/shared/js/bxslider/jquery.bxslider.css?ver=4.9.1' type='text/css' media='all' />
+<link rel='stylesheet' id='amp-promo-reel-widget-style-css'  href='http://www.nashfm1033.com/wp-content/plugins/amp-promo-reel/includes/../css/widget.css?ver=4.9.1' type='text/css' media='all' />
+<link rel='stylesheet' id='headway-general-css'  href='http://www.nashfm1033.com/wp-content/uploads/sites/41/headway/cache/general-dd4853c.css?ver=4.9.1' type='text/css' media='all' />
+<link rel='stylesheet' id='headway-layout-single-css'  href='http://www.nashfm1033.com/wp-content/uploads/sites/41/headway/cache/layout-single-26d141f.css?ver=4.9.1' type='text/css' media='all' />
+<link rel='stylesheet' id='headway-responsive-grid-css'  href='http://www.nashfm1033.com/wp-content/uploads/sites/41/headway/cache/responsive-grid-d2119e4.css?ver=4.9.1' type='text/css' media='all' />
+<meta name="builder-styles-css" content="" id="builder-styles-css">
+<link rel='stylesheet' id='amp-breaking-news-css'  href='http://www.nashfm1033.com/wp-content/plugins/amp-breaking-news/public/css/public.css?ver=0.2.3' type='text/css' media='all' />
+<link rel='stylesheet' id='animate-style-css'  href='http://www.nashfm1033.com/wp-content/plugins/shared/css/animate.css?ver=0.2.3' type='text/css' media='all' />
+<link rel='stylesheet' id='amp-styles-plugin-styles-css'  href='http://www.nashfm1033.com/wp-content/plugins/amp-styles/css/public.css?ver=1.4.1' type='text/css' media='all' />
+<link rel='stylesheet' id='amp-events-calendar-styles-css'  href='http://www.nashfm1033.com/wp-content/plugins/amp-events/css/calendar.css?ver=1.1.4' type='text/css' media='all' />
+<link rel='stylesheet' id='amp-events-export-styles-css'  href='http://www.nashfm1033.com/wp-content/plugins/amp-events/css/public.css?ver=1.1.4' type='text/css' media='all' />
+<link rel='stylesheet' id='amp_feed-plugin-styles-css'  href='http://www.nashfm1033.com/wp-content/plugins/amp-feeds/css/public.css?ver=0.4.0' type='text/css' media='all' />
+<link rel='stylesheet' id='amp-image-rotator-plugin-styles-css'  href='http://www.nashfm1033.com/wp-content/plugins/amp-image-rotator/public/assets/css/public.css?ver=1.0.0' type='text/css' media='all' />
+<link rel='stylesheet' id='amp-listen-live-plugin-styles-css'  href='http://www.nashfm1033.com/wp-content/plugins/amp-listen-live/public/assets/css/public.css?ver=1.4.4' type='text/css' media='all' />
+<link rel='stylesheet' id='amp-onair-plugin-styles-css'  href='http://www.nashfm1033.com/wp-content/plugins/amp-onair/public/assets/css/public.css?ver=1.7.1' type='text/css' media='all' />
+<link rel='stylesheet' id='AMPPromoReel-plugin-styles-css'  href='http://www.nashfm1033.com/wp-content/plugins/amp-promo-reel/css/public.css?ver=1.4.0' type='text/css' media='all' />
+<link rel='stylesheet' id='mediaelement-css'  href='http://www.nashfm1033.com/wp-includes/js/mediaelement/mediaelementplayer-legacy.min.css?ver=4.2.6-78496d1' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-mediaelement-css'  href='http://www.nashfm1033.com/wp-includes/js/mediaelement/wp-mediaelement.css?ver=4.9.1' type='text/css' media='all' />
+<link rel='stylesheet' id='amp-tabs-plugin-styles-css'  href='http://www.nashfm1033.com/wp-content/plugins/amp-tabs/public/assets/css/public.css?ver=1.0.0' type='text/css' media='all' />
+<link rel='stylesheet' id='amp-header-rotator-css'  href='http://www.nashfm1033.com/wp-content/themes/Headway-AMP_CMS/css/amp-header-rotator.css?ver=1.1.5' type='text/css' media='all' />
+<link rel="stylesheet" type="text/css" media="all" href="http://www.nashfm1033.com/wp-content/themes/Headway-AMP_CMS/style.css" />
+
+<!-- Scripts -->
+<script type='text/javascript' src='http://www.nashfm1033.com/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='http://www.nashfm1033.com/wp-includes/js/jquery/jquery-migrate.js?ver=1.4.1'></script>
+<script type='text/javascript' src='http://www.nashfm1033.com/wp-content/themes/headway/library/media/js/jquery.hoverintent.js?ver=4.9.1'></script>
+<script type='text/javascript' src='http://www.nashfm1033.com/wp-content/themes/headway/library/blocks/navigation/js/jquery.superfish.js?ver=4.9.1'></script>
+<script type='text/javascript' src='http://www.nashfm1033.com/wp-content/themes/headway/library/blocks/navigation/js/selectnav.js?ver=1533183780'></script>
+<script type='text/javascript' src='http://www.nashfm1033.com/wp-content/uploads/sites/41/headway/cache/block-dynamic-js-layout-single-3f428ce.js?ver=4.9.1'></script>
+<script type='text/javascript' src='http://www.nashfm1033.com/wp-content/plugins/shared/js/bxslider/jquery.bxslider.min.js?ver=4.9.1'></script>
+<script type='text/javascript' src='http://www.nashfm1033.com/wp-content/plugins/amp-promo-reel/includes/../js/widget.js?ver=1.4.0'></script>
+<script type='text/javascript' src='http://www.nashfm1033.com/wp-content/themes/headway/library/media/js/jquery.fitvids.js?ver=4.9.1'></script>
+<script type='text/javascript' src='http://www.nashfm1033.com/wp-content/uploads/sites/41/headway/cache/responsive-grid-js-e6e6939.js?ver=4.9.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var _ampconfig = {"site_url":"http:\/\/www.nashfm1033.com","site_id":"41","tz":"America\/Chicago","tz_offset":"-5","ts":"1533183780","blog_name":"WKDF-FM","client_name":"cumuluspro","user_ID":"","ts_offset":"1535345140","version":"2.47.0.3","env":"prod","settings":{"tenant_id":"see_10576","syn_site_name":"WKDF-FM","selector_logo":false,"selector_masthead":false,"selector_nav":false,"selector_rotator":false,"default_show_name":false,"default_show_img":false,"gtm_id":false,"vidible_company_key":"06125e55709b3c4ffdfe3c3f8a9ed8bd","client_name":false,"nielsen_provider":"cumulus","promoreel_priority":true}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.nashfm1033.com/wp-content/plugins/shared/js/amp-common.js?ver=1533183780'></script>
+<script type='text/javascript' src='http://www.nashfm1033.com/wp-content/plugins/amp-breaking-news/public/js/public.js?ver=0.2.3'></script>
+<script type='text/javascript' src='http://www.nashfm1033.com/wp-content/plugins/amp-styles/js/public.js?ver=1.4.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var dates = {"start_of_week":"1","moment_date_format":"MMMM D, YYYY","moment_time_format":"h:mm a","calendar_date_format":"MMMM d, yyyy","calendar_time_format":"h:mm tt","date_format":"MM d, yy","time_format":"h:mm tt"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.nashfm1033.com/wp-content/plugins/amp-events/js/calendar.js?ver=1.1.4'></script>
+<script type='text/javascript' src='http://www.nashfm1033.com/wp-content/plugins/amp-events/js/public.js?ver=1.1.4'></script>
+<script type='text/javascript' src='http://www.nashfm1033.com/wp-content/plugins/amp-feeds/js/jquery.totemticker.min.js?ver=0.4.0'></script>
+<script type='text/javascript' src='http://www.nashfm1033.com/wp-includes/js/jquery/ui/core.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://www.nashfm1033.com/wp-includes/js/jquery/ui/widget.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://www.nashfm1033.com/wp-includes/js/jquery/ui/tabs.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://www.nashfm1033.com/wp-content/plugins/amp-feeds/js/amp-feed.js?ver=0.4.0'></script>
+<script type='text/javascript' src='http://www.nashfm1033.com/wp-content/plugins/amp-feeds/js/public.js?ver=0.4.0'></script>
+<script type='text/javascript' src='http://www.nashfm1033.com/wp-content/plugins/amp-feeds/js/date.js?ver=0.4.0'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var _amplistenlive = {"blog_id":"41","callsign":"","mount_name":"WKDFFM","provider":"stream_the_world","gmt_offset":"-18000"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.nashfm1033.com/wp-content/plugins/amp-listen-live/public/assets/js/public.js?ver=1.4.4'></script>
+<script type='text/javascript' src='http://www.nashfm1033.com/wp-content/plugins/amp-onair/public/assets/js/public.js?ver=1.7.1'></script>
+<script type='text/javascript' src='//see-p-elb-01.tritondigital.net/widget/see_10576/see.js?ver=1.3.0'></script>
+<script type='text/javascript' src='http://www.nashfm1033.com/wp-content/themes/Headway-AMP_CMS/js/amp-theme.js?ver=1.1.5'></script>
+
+<!--[if lt IE 9]>
+<script src="http://www.nashfm1033.com/wp-content/themes/headway/library/media/js/html5shiv.js"></script>
+<![endif]-->
+
+<!--[if lt IE 8]>
+<script src="http://www.nashfm1033.com/wp-content/themes/headway/library/media/js/ie8.js"></script>
+<![endif]-->
+
+<script type="text/javascript" src="http://see-p-elb-01.tritondigital.net/widget/10576/see.js"></script>
+
+<script type='text/javascript'>
+var googletag = googletag || {};
+googletag.cmd = googletag.cmd || [];
+(function() {
+var gads = document.createElement('script');
+gads.async = true;
+gads.type = 'text/javascript';
+var useSSL = 'https:' == document.location.protocol;
+gads.src = (useSSL ? 'https:' : 'http:') + 
+'//www.googletagservices.com/tag/js/gpt.js';
+var node = document.getElementsByTagName('script')[0];
+node.parentNode.insertBefore(gads, node);
+})();
+</script>
+<script type='text/javascript'>
+googletag.cmd.push(function() {
+
+var leaderboardSizeMap = googletag.sizeMapping()
+ .addSize([970, 0], [[728, 90], [970, 90]])
+ .addSize([750,0], [728,90])
+ .addSize([0, 0], [[320, 50], [320, 53]])
+ .build();
+
+googletag.defineSlot('/6717/cd.WKDF.FM', [[300, 250], [300, 600]], 'div-gpt-ad-1418849849333-0').addService(googletag.pubads())
+.setCollapseEmptyDiv(true).setTargeting("pos","mid");
+googletag.defineSlot('/6717/cd.WKDF.FM', [[728, 90], [970, 90]], 'div-gpt-ad-1418849849333-1').addService(googletag.pubads())
+.defineSizeMapping(leaderboardSizeMap).setCollapseEmptyDiv(true).setTargeting("pos","top");
+googletag.defineSlot('/6717/cd.WKDF.FM', [[728, 90], [970, 90]], 'div-gpt-ad-1418849849333-2').addService(googletag.pubads())
+.defineSizeMapping(leaderboardSizeMap).setCollapseEmptyDiv(true).setTargeting("pos","bot");
+googletag.defineSlot('/6717/cd.WKDF.FM', [[300, 250], [300, 600]], 'div-gpt-ad-1418849849333-3').addService(googletag.pubads())
+.setCollapseEmptyDiv(true).setTargeting("pos","mid2");
+googletag.defineSlot('/6717/cd.WKDF.FM', [[160, 600]], 'div-gpt-ad-1418849849333-4').addService(googletag.pubads())
+.setCollapseEmptyDiv(true).setTargeting("pos","left");
+googletag.defineSlot('/6717/cd.WKDF.FM', [[160, 600]], 'div-gpt-ad-1418849849333-5').addService(googletag.pubads())
+.setCollapseEmptyDiv(true).setTargeting("pos","right");
+googletag.defineSlot('/6717/cd.WKDF.FM', [[654, 70]], 'div-gpt-ad-1418849849333-6').addService(googletag.pubads())
+.setCollapseEmptyDiv(true).setTargeting("pos","rdioplayer");
+googletag.defineSlot('/6717/cd.WKDF.FM', [[300, 100]], 'div-gpt-ad-1418849849333-7').addService(googletag.pubads())
+.setCollapseEmptyDiv(true).setTargeting("pos","contest1");
+googletag.defineSlot('/6717/cd.WKDF.FM', [[300, 100]], 'div-gpt-ad-1418849849333-8').addService(googletag.pubads())
+.setCollapseEmptyDiv(true).setTargeting("pos","contest2");
+googletag.defineSlot('/6717/cd.WKDF.FM', [[300, 100]], 'div-gpt-ad-1418849849333-9').addService(googletag.pubads())
+.setCollapseEmptyDiv(true).setTargeting("pos","contest3");
+googletag.defineSlot('/6717/cd.WKDF.FM', [[100, 51]], 'div-gpt-ad-1418849849333-10').addService(googletag.pubads())
+.setCollapseEmptyDiv(true).setTargeting("pos","rdiobutton");
+googletag.defineSlot('/6717/cd.WKDF.FM', [[113, 23]], 'div-gpt-ad-1418849849333-11').addService(googletag.pubads())
+.setCollapseEmptyDiv(true).setTargeting("pos","feedsponsor1");
+googletag.defineSlot('/6717/cd.WKDF.FM', [[113, 23]], 'div-gpt-ad-1418849849333-12').addService(googletag.pubads())
+.setCollapseEmptyDiv(true).setTargeting("pos","feedsponsor2");
+googletag.defineSlot('/6717/cd.WKDF.FM', [[113, 23]], 'div-gpt-ad-1418849849333-13').addService(googletag.pubads())
+.setCollapseEmptyDiv(true).setTargeting("pos","feedsponsor3");
+googletag.defineSlot('/6717/cd.WKDF.FM', [[113, 23]], 'div-gpt-ad-1418849849333-14').addService(googletag.pubads())
+.setCollapseEmptyDiv(true).setTargeting("pos","feedsponsor4");
+googletag.defineSlot('/6717/cd.WKDF.FM', [[1, 1]],'div-gpt-ad-1418849849333-16').addService(googletag.pubads())
+.setTargeting("pos","wallpaper-ad");
+googletag.pubads().enableSingleRequest();
+googletag.enableServices();
+googletag.defineSlot('/6717/cd.WKDF.fm', [[300, 250], [300, 600]], 'div-gpt-ad-1418849849333-18').setCollapseEmptyDiv(true).addService(googletag.pubads())
+.setTargeting("pos","midresponsive");
+
+});
+</script>
+
+<!--ONESTAT SCRIPTCODE START Embed Player-->
+  <script type="text/javascript">
+  <!--
+  jQuery(document).ready(function(){
+    var d=document;
+    var sid="wkdf-fm.cumulus";
+    var CONTENTSECTION="";
+    var osp_URL=d.URL;
+    var osp_Title=d.title;
+    var t=new Date();
+    var p="http"+(d.URL.indexOf('https:')==0?'s':'')+"://stat.onestat.com/stat.aspx?tagver=2&sid="+sid;
+    p+="&url="+escape(osp_URL);
+    p+="&ti="+escape(osp_Title);
+    p+="&section="+escape(CONTENTSECTION);
+    p+="&rf="+escape(parent==self?document.referrer:top.document.referrer);
+    p+="&tz="+escape(t.getTimezoneOffset());
+    p+="&ch="+escape(t.getHours());
+    p+="&js=1";
+    p+="&ul="+escape(navigator.appName=="Netscape"?navigator.language:navigator.userLanguage);
+    if(osp_URL!=d.URL) p+="&ol="+escape(d.URL);
+    if(typeof(screen)=="object"){
+       p+="&sr="+screen.width+"x"+screen.height;p+="&cd="+screen.colorDepth;
+       p+="&jo="+(navigator.javaEnabled()?"Yes":"No");
+    }
+
+    var imgTag = '<img border="0" height="0" width="0" id="ONESTAT_TAG" src="' + p + '">'
+    jQuery('body').append(imgTag);
+
+  })
+  //-->
+  </script> 
+<!--ONESTAT SCRIPTCODE END-->
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','corpDataLayer','GTM-WLTHTX');</script>
+<!-- End Google Tag Manager -->
+
+<!-- BEGIN INFINITE FACEBOOK PIXEL -->
+<script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '181461212508101');
+  fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=181461212508101&ev=PageView&noscript=1"
+/></noscript>
+<!-- END INFINITE FACEBOOK PIXEL -->
+<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
+<link rel="alternate" type="application/rss+xml" title="WKDF-FM &raquo; Feed" href="http://www.nashfm1033.com/feed/" />
+<link rel='shortlink' href='http://www.nashfm1033.com/?p=95' />
+			<script type="text/javascript">
+				var _gaq = _gaq || [];
+
+				
+									_gaq.push(['b._setAccount', 'UA-37926949-6']);
+					_gaq.push(['b._trackPageview']);
+				
+				(function() {
+				var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                				    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                				var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+				})();
+			</script>
+
+        <script type="text/javascript">var ajaxurl = "http://www.nashfm1033.com/wp-admin/admin-ajax.php"</script><script type="text/javascript">var ajaxurl = "http://www.nashfm1033.com/wp-admin/admin-ajax.php"</script>
+<!-- AMP CMS DFP custom tags -->
+<script type='text/javascript'>
+  googletag.cmd.push(function() {
+      googletag.pubads().setTargeting('cms-sname', 'WKDFFM');
+      googletag.pubads().setTargeting('cms-sgroup', ['All Sites', 'Format  NASH', 'Format  Country', 'Market  Nashville TN', 'Temporary Live Sites', 'Format Country New']);
+      googletag.pubads().setTargeting('cms-ptitle', 'Station Information');
+  });
+</script>
+
+<!-- START - Facebook Open Graph, Google+ and Twitter Card Tags 2.0.4 -->
+ <!-- Facebook Open Graph -->
+  <meta property="og:locale" content="en_US"/>
+  <meta property="og:site_name" content="WKDF-FM"/>
+  <meta property="og:title" content="Station Information"/>
+  <meta property="og:url" content="http://www.nashfm1033.com/station-information/"/>
+  <meta property="og:type" content="article"/>
+  <meta property="og:description" content="NASH FM 103.3 - Country For Life. We are a proud part of Cumulus Media with our sister properties.
+
+104-5 The Zone - The Sports Station
+Titans Radio - The NFL&#039;s Largest &amp; Strongest Radio Network
+99.7 WTN - Nashville&#039;s Super Talk
+92Q - The Best Mix of R&amp;B
+95.5 NASH ICON - Country Music"/>
+ <!-- Google+ / Schema.org -->
+  <meta itemprop="name" content="Station Information"/>
+  <meta itemprop="description" content="NASH FM 103.3 - Country For Life. We are a proud part of Cumulus Media with our sister properties.
+
+104-5 The Zone - The Sports Station
+Titans Radio - The NFL&#039;s Largest &amp; Strongest Radio Network
+99.7 WTN - Nashville&#039;s Super Talk
+92Q - The Best Mix of R&amp;B
+95.5 NASH ICON - Country Music"/>
+ <!-- Twitter Cards -->
+  <meta name="twitter:title" content="Station Information"/>
+  <meta name="twitter:url" content="http://www.nashfm1033.com/station-information/"/>
+  <meta name="twitter:description" content="NASH FM 103.3 - Country For Life. We are a proud part of Cumulus Media with our sister properties.
+
+104-5 The Zone - The Sports Station
+Titans Radio - The NFL&#039;s Largest &amp; Strongest Radio Network
+99.7 WTN - Nashville&#039;s Super Talk
+92Q - The Best Mix of R&amp;B
+95.5 NASH ICON - Country Music"/>
+  <meta name="twitter:card" content="summary_large_image"/>
+ <!-- SEO -->
+ <!-- Misc. tags -->
+<!-- END - Facebook Open Graph, Google+ and Twitter Card Tags 2.0.4 -->
+
+
+</head><!-- End <head> -->
+
+<body class="page-template-default page page-id-95 custom responsive-grid-enabled responsive-grid-active pageid-95 page-slug-station-information layout-single-page-95 layout-using-single builder-parallax-scrolling-active" itemscope itemtype="http://schema.org/WebPage">
+
+
+<div id="whitewrap">
+
+
+<div id="wrapper-48" class="wrapper wrapper-fluid wrapper-fixed-grid grid-fluid-24-32-10 responsive-grid wrapper-mirroring-8 wrapper-first wrapper-header" data-alias="Wrapper Header">
+
+<div class="grid-container clearfix">
+
+<section class="row row-1">
+
+<section class="column column-1 grid-left-0 grid-width-24">
+<div id="block-27" class="block block-type-custom-code block-fluid-height" data-alias="">
+<div class="block-content">
+<div align="center">
+<div id='div-gpt-ad-1418849849333-1'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1418849849333-1'); });
+</script>
+</div>
+</div>
+</div><!-- .block-content -->
+
+</div><!-- #block-27 -->
+
+</section><!-- .column -->
+
+</section><!-- .row -->
+
+
+<section class="row row-2">
+
+<section class="column column-1 grid-left-0 grid-width-3">
+<figure id="block-31" class="logo block block-type-image block-fixed-height" data-alias="Logo" itemscope="" itemtype="http://schema.org/ImageObject">
+<div class="block-content">
+<a href="/" class="image" ><img src="http://images.tritondigitalcms.com/6616/sites/41/2017/08/03122854/WKDF-FM-sitelogo-REG.png" alt="" title="" itemprop="contentURL"/></a>
+</div><!-- .block-content -->
+
+</figure><!-- #block-31 -->
+
+</section><!-- .column -->
+
+<section class="column column-2 grid-left-0 grid-width-21">
+<div id="block-bca5a8f2c4c5e0ac" class="block block-type-custom-code block-fluid-height" data-alias="Empty Spacer">
+<div class="block-content">
+<span></span>
+</div><!-- .block-content -->
+
+</div><!-- #block-bca5a8f2c4c5e0ac -->
+
+<section class="sub-column sub-column-1 column column-1 grid-width-8 grid-left-0">
+<aside id="block-29" class="on-air block block-type-widget-area block-fluid-height" data-alias="Home - On Air Now" itemscope="" itemtype="http://schema.org/WPSideBar">
+<div class="block-content">
+<ul class="widget-area"><div class="amp-onair-widget" id="amp_onair_widget-2"
+	data-title-now=""
+	data-title-upcoming=""
+	data-title=""
+	data-type="nowplaying"
+	data-change-minutes="5"
+	data-change="0"
+	data-toggle-time="10"
+	data-fields="image,timeslot"
+	data-ajaxurl="http://www.nashfm1033.com/wp-admin/admin-ajax.php"
+	data-updateurl="http://www.nashfm1033.com/shows/feed/?type=json"
+	data-memcached="1"
+	data-expiration="1535346000">
+	
+<div class="amp-onair-show nowplaying" >
+
+    <div class="amp-onair-widget-title js-widget-title"></div>
+
+        <div class="amp-onair-show-image">
+                    <img class="js-image amp-onair-show-image-img" src="http://images.tritondigitalcms.com/6616/sites/41/2016/10/20124246/BG-Show-Square-40.png"  />
+            </div>
+        
+    <div class="amp-onair-show-title">
+            <span class="js-title">The Blair Garner Show</span>
+        </div>
+    
+        <div class="amp-onair-show-timeslot js-timeslot" >12:00 a.m. - 5:00 a.m.</div>
+        
+        
+    
+</div>
+</div></ul>
+</div><!-- .block-content -->
+
+</aside><!-- #block-29 -->
+
+</section><!-- .sub-column -->
+
+<section class="sub-column sub-column-2 column column-2 grid-width-10 grid-left-0">
+<section id="block-30" class="social-nav block block-type-social block-fixed-height" data-alias="Social Navigation">
+<div class="block-content">
+<div class="social-icons-container"><ul class="social-icons"><li><a href="#"><img src="http://www.nashfm1033.com/wp-content/uploads/sites/41/2016/04/ListenLive.png" title="Listen Live!!" class="img-1"  /></a></li><li><a href="/listen-live-with-alexa"><img src="http://images.tritondigitalcms.com/6616/sites/41/2018/01/08114317/Alexa-Social-Logo-MUSIC.png" alt="Alexa" class="img-2"  /></a></li><li><a href="https://www.facebook.com/103.3WKDF" target="_blank"><img src="http://cumulus.pro.poolb.tritondigitalcms.com/wkdf-fm/wp-content/uploads/sites/41/2014/10/facebook.png" title="Like us on Facebook!" class="img-3"  /></a></li><li><a href="http://www.twitter.com/NASHFM1033" target="_blank"><img src="http://cumulus.pro.poolb.tritondigitalcms.com/wkdf-fm/wp-content/uploads/sites/41/2014/10/twitter.png" title="Follow us on Twitter!" class="img-4"  /></a></li><li><a href="http://www.nashfm1033.com/nashnation/" target="_blank"><img src="http://cumulus.pro.poolb.tritondigitalcms.com/wkdf-fm/wp-content/uploads/sites/41/2015/01/cumulus-vip.png" title="VIP" class="img-5"  /></a></li></ul></div><!-- .social-icons-container -->
+</div><!-- .block-content -->
+
+</section><!-- #block-30 -->
+
+</section><!-- .sub-column -->
+
+<section class="sub-column sub-column-3 column column-3 grid-width-3 grid-left-0">
+<div id="block-by45a8f2c334a0d9" class="gigya-actions block block-type-custom-code block-fluid-height" data-alias="Gigya Profile Actions">
+<div class="block-content">
+<div class="see-widget" data-see-type="regUi" data-see-loginbonus="false"></div>
+</div><!-- .block-content -->
+
+</div><!-- #block-by45a8f2c334a0d9 -->
+
+</section><!-- .sub-column -->
+<div id="block-bca5a8f2c4c5e0ac" class="block block-type-custom-code block-fluid-height block-mirrored block-mirroring-bca5a8f2c4c5e0ac block-original-b4u5a8f2c4c61631" data-alias="Empty Spacer">
+<div class="block-content">
+<span></span>
+</div><!-- .block-content -->
+
+</div><!-- #block-bca5a8f2c4c5e0ac -->
+
+<section class="sub-column sub-column-1 column column-1 grid-width-18 grid-left-0">
+<nav id="block-32" class="main-nav block block-type-navigation block-fluid-height" data-alias="Main Navigation" itemscope="" itemtype="http://schema.org/SiteNavigationElement">
+<div class="block-content">
+<div class="nav-horizontal nav-align-left"><ul id="menu-main-navigation" class="menu"><li id="menu-item-33151" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-33151"><a href="http://www.nashfm1033.com/program-schedule/">On Air</a>
+<ul class="sub-menu">
+	<li id="menu-item-555993" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-555993"><a href="http://www.nashfm1033.com/the-blair-garner-show/">The Blair Garner Show</a></li>
+	<li id="menu-item-33586" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-33586"><a href="http://www.nashfm1033.com/tykellychuck/">Ty, Kelly &#038; Chuck</a></li>
+	<li id="menu-item-437399" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-437399"><a href="http://www.nashfm1033.com/heather-davis/">Heather Davis</a></li>
+	<li id="menu-item-33460" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-33460"><a href="http://www.nashfm1033.com/paul-stone/">Paul Stone</a></li>
+	<li id="menu-item-33583" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-33583"><a href="http://www.nashfm1033.com/nash-nights-live/">NASH Nights Live</a></li>
+	<li id="menu-item-438014" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-438014"><a href="http://powersourcemusic.com/?page_id=1020">Power Source</a></li>
+	<li id="menu-item-442946" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-442946"><a href="http://www.nashfm1033.com/country-countdown-usa/">Country Countdown USA</a></li>
+	<li id="menu-item-33580" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-33580"><a href="http://www.nashfm1033.com/american-country-countdown/">American Country Countdown with Kix Brooks</a></li>
+	<li id="menu-item-33601" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-33601"><a href="http://www.nashfm1033.com/stew-james/">Stew James</a></li>
+</ul>
+</li>
+<li id="menu-item-121" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-121"><a href="http://www.nashfm1033.com/features/">Connect</a>
+<ul class="sub-menu">
+	<li id="menu-item-804651" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-804651"><a href="http://www.nashfm1033.com/nash-fm-103-3-blogs/">NASH FM 103.3 Blogs</a></li>
+	<li id="menu-item-33163" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-33163"><a href="https://www.facebook.com/103.3WKDF">Like Us on Facebook</a></li>
+	<li id="menu-item-33160" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-33160"><a href="https://twitter.com/NASHFM1033">Follow Us on Twitter</a></li>
+	<li id="menu-item-636821" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-636821"><a href="http://www.nashfm1033.com/2015/02/13/nash-fm-103-3-app/">Download Our App</a></li>
+	<li id="menu-item-803995" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-803995"><a href="http://www.nashfm1033.com/listen-live-with-alexa/">Listen Live with Alexa</a></li>
+</ul>
+</li>
+<li id="menu-item-127" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-127"><a href="/events-calendar/">Events</a>
+<ul class="sub-menu">
+	<li id="menu-item-34975" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-34975"><a href="http://www.nashfm1033.com/events-calendar/">Events Calendar</a></li>
+	<li id="menu-item-34972" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-34972"><a href="http://www.nashfm1033.com/concert-calendar/">Concert Calendar</a></li>
+	<li id="menu-item-34969" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-34969"><a href="http://www.nashfm1033.com/community-calendar/">Community Calendar</a></li>
+	<li id="menu-item-798761" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-798761"><a href="http://www.nashfm1033.com/category/photos/">Photos</a></li>
+</ul>
+</li>
+<li id="menu-item-37142" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-37142"><a href="http://nashfm1033.listenernetwork.com/Contest/Home/ContestList/WKDF-FM#/">Contests</a>
+<ul class="sub-menu">
+	<li id="menu-item-752971" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-752971"><a href="http://www.nashfm1033.com/contests/">Win from NASH FM 103.3!</a></li>
+	<li id="menu-item-807406" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-807406"><a href="http://www.nashfm1033.com/2018/03/02/opening-doors-award/">Opening Doors Award!</a></li>
+	<li id="menu-item-801858" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-801858"><a href="http://www.nashfm1033.com/2017/11/22/win-tickets-to-upcoming-opry-shows/">Win Tickets to Upcoming Opry Shows!</a></li>
+</ul>
+</li>
+<li id="menu-item-125" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-125"><a href="http://www.nashfm1033.com/news/">News</a>
+<ul class="sub-menu">
+	<li id="menu-item-416753" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-416753"><a href="http://www.nashfm1033.com/nash-country-daily/">NASH Country Daily</a></li>
+	<li id="menu-item-269092" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-269092"><a href="http://www.nashfm1033.com/news/">News</a></li>
+	<li id="menu-item-269089" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-269089"><a href="http://www.nashfm1033.com/ars-weather-center/">ARS Rescue Rooter Weather Center</a></li>
+</ul>
+</li>
+<li id="menu-item-139959" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-139959"><a href="#">Videos</a>
+<ul class="sub-menu">
+	<li id="menu-item-139965" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-139965"><a href="http://www.nashfm1033.com/1111/11/11/cnn-news/">CNN News</a></li>
+</ul>
+</li>
+<li id="menu-item-117" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-117"><a href="http://nashville.sweetdealscumulus.com/">Sweet Deals</a></li>
+<li id="menu-item-552996" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-552996"><a href="http://wkdf-fm.mygameroom.com">Games</a></li>
+</ul></div><!-- .nav-horizontal nav-align-left -->
+</div><!-- .block-content -->
+
+</nav><!-- #block-32 -->
+
+</section><!-- .sub-column -->
+
+<section class="sub-column sub-column-2 column column-2 grid-width-3 grid-left-0">
+<nav id="block-33" class="nav-search block block-type-navigation block-fluid-height" data-alias="Navigation Search" itemscope="" itemtype="http://schema.org/SiteNavigationElement">
+<div class="block-content">
+<div class="nav-horizontal nav-align-left nav-search-active nav-search-position-left"><div class="nav-search">
+		<form method="get" id="searchform" action="http://www.nashfm1033.com/">
+			<label for="s" class="assistive-text">Search</label>
+			<input type="text" class="field" name="s" id="s" value="Search" onclick="if(this.value=='Search')this.value='';" onblur="if(this.value=='')this.value='Search';" />
+			<input type="submit" class="submit" name="searchsubmit" id="searchsubmit" value="Search" />
+		</form>
+	</div></div><!-- .nav-horizontal nav-align-left nav-search-active nav-search-position-left -->
+</div><!-- .block-content -->
+
+</nav><!-- #block-33 -->
+
+</section><!-- .sub-column -->
+
+</section><!-- .column -->
+
+</section><!-- .row -->
+
+
+<section class="row row-3">
+
+<section class="column column-1 grid-left-0 grid-width-5">
+<div id="block-bk354a30265ed0b4" class="takeover-left block block-type-custom-code block-fluid-height" data-alias="Takeover - Left">
+<div class="block-content">
+<div id='div-gpt-ad-1418849849333-4'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1418849849333-4'); });
+</script>
+</div>
+
+</div><!-- .block-content -->
+
+</div><!-- #block-bk354a30265ed0b4 -->
+
+</section><!-- .column -->
+
+<section class="column column-2 grid-left-0 grid-width-5">
+<div id="block-bou54a30265efd6e" class="takeover-right block block-type-custom-code block-fluid-height" data-alias="Takeover - Right">
+<div class="block-content">
+<div id='div-gpt-ad-1418849849333-5'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1418849849333-5'); });
+</script>
+</div>
+</div><!-- .block-content -->
+
+</div><!-- #block-bou54a30265efd6e -->
+
+</section><!-- .column -->
+
+</section><!-- .row -->
+
+
+</div><!-- .grid-container -->
+
+</div><!-- .wrapper -->
+
+<div id="wrapper-49" class="wrapper wrapper-fluid wrapper-fixed-grid grid-fluid-24-32-10 responsive-grid wrapper-content" data-alias="Wrapper Content">
+
+<div class="grid-container clearfix">
+
+<section class="row row-1">
+
+<section class="column column-1 grid-left-0 grid-width-16">
+<div id="block-132" class="block block-type-content block-fluid-height" data-alias="">
+<div class="block-content">
+<div class="loop"><article id="post-95" class="post-95 page type-page status-publish hentry author-tritonadmin " itemscope itemtype="http://schema.org/BlogPosting"><header><h1 class="entry-title" itemprop="headline">Station Information</h1></header><div class="entry-content" itemprop="text"><p>NASH FM 103.3 &#8211; Country For Life. We are a proud part of Cumulus Media with our sister properties.</p>
+<p><a href="http://www.1045thezone.com">104-5 The Zone</a> &#8211; The Sports Station<br />
+<a href="http://www.titansradio.com">Titans Radio</a> &#8211; The NFL&#8217;s Largest &amp; Strongest Radio Network<br />
+<a href="http://www.997wtn.com/">99.7 WTN</a> &#8211; Nashville&#8217;s Super Talk<br />
+<a href="http://www.92qnashville.com/">92Q</a> &#8211; The Best Mix of R&amp;B<br />
+<a href="http://www.955nashicon.com/">95.5 NASH ICON</a> &#8211; Country Music from the 90&#8217;s to Today!</p>
+<hr />
+<p>Our studios are located at 10 Music Circle East in Nashville with office hours:</p>
+<p>Monday-Friday 8:00a-5:00p. Our business office number is (615) 321-1067.</p>
+<hr />
+<h4><strong>To play any of our contests or be a part of any of our programs, call 615-737-1033.</strong></h4>
+<hr />
+<p>NASH FM 103.3 Management Team:</p>
+<p>Program Director: <a href="mailto:John.Shomby@cumulus.com">John Shomby</a><br />
+Promotions Director: Marie Miscia<br />
+Sales Manager: Lori Liggett<br />
+General Manager: Allison Warren</p>
+<hr />
+<p>Advertise on NASH FM 103.3:</p>
+<p>Contact Lori Liggett at 615-312-3456 or <a href="mailto:Lori.Liggett@cumulus.com">Lori.Liggett@cumulus.com</a> if you would like more information on advertising on-air or online.</p>
+<hr />
+<p>Current Job Openings at Cumulus Media:</p>
+<p>&nbsp;</p>
+<p><a href="//cumulus.pro.poolb.tritondigitalcms.com/wkdf-fm/wp-content/uploads/sites/41/2014/10/Cumulus-JobPosting-AccountExecutive.pdf">Account Executive</a></p>
+<p>&nbsp;</p>
+<p>If your organization distributes information about employment opportunities to job seekers, or refers job seekers to employers, and you would like to receive job vacancy notices from Cumulus Media Nashville, please provide Cumulus Media Nashville with the name, mailing address, e-mail address (if applicable), telephone number, fax number, and contact person and identify the category or categories of vacancies for which you would like information specified above to the following person at Cumulus Media Nashville:</p>
+<p>Cumulus Media Nashville<br />
+10 Music Circle East<br />
+Nashville, TN 37203<br />
+<a href="mailto:NashvilleRadio.Jobs@cumulus.com">NashvilleRadio.Jobs@cumulus.com</a></p>
+<p>It is the policy of Cumulus Media Nashville to provide equal employment opportunity to all qualified individuals without regard to their race, color, religion, national origin, sex, age, disability, or any other characteristic protected by law, in all personnel actions.</p>
+<hr />
+<p><a href="http://www.nashfm1033.com/wp-content/uploads/sites/41/2014/10/nashville-2017-eeo-public-file-report-04-01-2016-03-31-2017-20180222-154950823-doc.pdf">Cumulus Nashville &#8211; 2017 &#8211; EEO &#8211; Public File Report</a></p>
+<div id="themify_builder_content-95" data-postid="95" class="themify_builder_content themify_builder_content-95 themify_builder">
+
+    </div>
+<!-- /themify_builder_content --></div><!-- .entry-content --></article><!-- #post-95 --></div>
+</div><!-- .block-content -->
+
+</div><!-- #block-132 -->
+
+</section><!-- .column -->
+
+<section class="column column-2 grid-left-0 grid-width-8">
+<div id="block-34" class="300x250-ad-1 block block-type-custom-code block-fluid-height responsive-block-hiding-device-smartphones block-mirrored block-mirroring-bt05499e57b24713 block-original-66" data-alias="300x250 Ad 1">
+<div class="block-content">
+<div id='div-gpt-ad-1418849849333-0'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1418849849333-0'); });
+</script>
+</div>
+
+</div><!-- .block-content -->
+
+</div><!-- #block-34 -->
+<div id="block-38" class="sweet-deals-ad block block-type-custom-code block-fluid-height responsive-block-hiding-device-smartphones block-mirrored block-mirroring-b3n5499e57b2985e block-original-69" data-alias="Sweet Deals Ad">
+<div class="block-content">
+<a href=" http://nashville.sweetdealscumulus.com/"><img src="/wp-content/uploads/sites/41/2014/10/sweetdeals.png"></a>
+</div><!-- .block-content -->
+
+</div><!-- #block-38 -->
+<div id="block-36" class="vip-club-ad block block-type-custom-code block-fluid-height block-mirrored block-mirroring-bo75499e57b28172 block-original-68" data-alias="VIP Club Ad">
+<div class="block-content">
+<div id='div-gpt-ad-1418849849333-7'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1418849849333-7'); });
+</script>
+</div>
+
+</div><!-- .block-content -->
+
+</div><!-- #block-36 -->
+<div id="block-40" class="blogs block block-type-content block-fluid-height block-mirrored block-mirroring-bfn5499e57b2bf26 block-original-71" data-alias="Blogs">
+<div class="block-content">
+<h1 class="block-title"><span>Blogs</span></h1><div class="loop">
+
+<div class="entry-row">
+
+<article id="post-844317" class="post-844317 post type-post status-publish format-standard has-post-thumbnail hentry category-blogs author-mmiscia alt custom-query" itemscope itemtype="http://schema.org/BlogPosting">
+			<a href="http://www.nashfm1033.com/2018/08/08/carrie-underwood-the-cry-pretty-tour-360/" class="post-thumbnail post-thumbnail-left">
+				<img src="http://images.tritondigitalcms.com/6616/sites/41/2018/08/08185801/CARRIEUNDERWOOD_-Nashville_TN_1080x10801-150x150.jpg" alt="Carrie Underwood &#8211; The Cry Pretty Tour 360" width="auto" height="auto" itemprop="image" />
+			</a>
+		<header><h2 class="entry-title" itemprop="headline"><a href="http://www.nashfm1033.com/2018/08/08/carrie-underwood-the-cry-pretty-tour-360/" title="Carrie Underwood &#8211; The Cry Pretty Tour 360" rel="bookmark">Carrie Underwood &#8211; The Cry Pretty Tour 360</a></h2></header><div class="entry-summary entry-content" itemprop="text"><p>Carrie Underwood&#8217;s &#8220;The Cry Pretty Tour 360&#8221; stops in Nashville on September 27, 2019!</p>
+</div><!-- .entry-summary.entry-content --></article><!-- #post-844317 --><article id="post-834510" class="post-834510 post type-post status-publish format-standard has-post-thumbnail hentry category-blogs author-afilipic custom-query" itemscope itemtype="http://schema.org/BlogPosting">
+			<a href="http://www.nashfm1033.com/2018/07/20/kip-moores-after-the-sunburn-tour-coming-to-nashville/" class="post-thumbnail post-thumbnail-left">
+				<img src="http://images.tritondigitalcms.com/6616/sites/41/2018/07/19155558/Kip-2018-promo-pic-150x100.jpg" alt="Kip Moore&#8217;s &#8216;After The Sunburn&#8217; Tour Coming To Nashville!" width="auto" height="auto" itemprop="image" />
+			</a>
+		<header><h2 class="entry-title" itemprop="headline"><a href="http://www.nashfm1033.com/2018/07/20/kip-moores-after-the-sunburn-tour-coming-to-nashville/" title="Kip Moore&#8217;s &#8216;After The Sunburn&#8217; Tour Coming To Nashville!" rel="bookmark">Kip Moore&#8217;s &#8216;After The Sunburn&#8217; Tour Coming To Nashville!</a></h2></header><div class="entry-summary entry-content" itemprop="text"><p>Kip Moore is heading out for his &#8216;After The Sunburn&#8217; tour and is making a stop in Nashville. On Saturday, November 17th, Kip will bring special guests Jordan Davis and Jillian Jacqueline to the War Memorial Auditorium. Tickets to see the Multi-Platinum Singer/Songwriter go on-sale on Friday, July 27th at livenation.com. Kip&#8217;s third studio album,&hellip;</p>
+</div><!-- .entry-summary.entry-content --></article><!-- #post-834510 -->
+
+</div><!-- .entry-row -->
+
+
+
+<div class="entry-row">
+
+<article id="post-817343" class="post-817343 post type-post status-publish format-standard has-post-thumbnail hentry category-blogs category-nash-nine tag-nash-nine tag-tips tag-wellness author-afilipic alt custom-query" itemscope itemtype="http://schema.org/BlogPosting">
+			<a href="http://www.nashfm1033.com/2018/05/07/nash-nine-wellness-tips/" class="post-thumbnail post-thumbnail-left">
+				<img src="http://images.tritondigitalcms.com/6616/sites/41/2018/05/04144300/achievement-activity-adolescent-347135-150x100.jpg" alt="NASH Nine: Wellness Tips" width="auto" height="auto" itemprop="image" />
+			</a>
+		<header><h2 class="entry-title" itemprop="headline"><a href="http://www.nashfm1033.com/2018/05/07/nash-nine-wellness-tips/" title="NASH Nine: Wellness Tips" rel="bookmark">NASH Nine: Wellness Tips</a></h2></header><div class="entry-summary entry-content" itemprop="text"><p>It seems like a popular trend these days is being healthy, which I think is great! Here are nine of my favorite wellness habits you should try! Tip #1: Replace your desk chair I have seen a lot of people do this lately. Replace your desk chair with an exercise ball, and this will improve&hellip;</p>
+</div><!-- .entry-summary.entry-content --></article><!-- #post-817343 --><article id="post-817013" class="post-817013 post type-post status-publish format-standard has-post-thumbnail hentry category-blogs category-nash-nine tag-blogs tag-nash-nine tag-stress-reliver author-afilipic custom-query" itemscope itemtype="http://schema.org/BlogPosting">
+			<a href="http://www.nashfm1033.com/2018/04/30/nash-nine-how-to-de-stress-for-the-summer/" class="post-thumbnail post-thumbnail-left">
+				<img src="http://images.tritondigitalcms.com/6616/sites/41/2018/04/26123749/design-desk-display-313690-150x113.jpg" alt="NASH Nine: How to de-stress for the Summer" width="auto" height="auto" itemprop="image" />
+			</a>
+		<header><h2 class="entry-title" itemprop="headline"><a href="http://www.nashfm1033.com/2018/04/30/nash-nine-how-to-de-stress-for-the-summer/" title="NASH Nine: How to de-stress for the Summer" rel="bookmark">NASH Nine: How to de-stress for the Summer</a></h2></header><div class="entry-summary entry-content" itemprop="text"><p>Summer is right around the corner. So that means your kids will be out of school and at home more, so they will probably be nagging you more than usual. Maybe summer is your busy season at work. Whatever the case may be, summer is supposed to be a happy time, so don&#8217;t let life&hellip;</p>
+</div><!-- .entry-summary.entry-content --></article><!-- #post-817013 -->
+
+</div><!-- .entry-row -->
+
+</div>
+</div><!-- .block-content -->
+
+</div><!-- #block-40 -->
+<div id="block-42" class="facebook-ad block block-type-custom-code block-fluid-height block-mirrored block-mirroring-bgt5499e57b47942 block-original-73" data-alias="Facebook Ad">
+<div class="block-content">
+<div id='div-gpt-ad-1418849849333-8'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1418849849333-8'); });
+</script>
+</div>
+
+</div><!-- .block-content -->
+
+</div><!-- #block-42 -->
+<div id="block-43" class="headlines block block-type-content block-fluid-height block-mirrored block-mirroring-btl5499e57b49465 block-original-74" data-alias="Headlines">
+<div class="block-content">
+<h1 class="block-title"><span>Headlines</span></h1><div class="loop">
+
+<div class="entry-row">
+
+<article id="post-844497" class="post-844497 post type-post status-publish format-standard has-post-thumbnail hentry category-ncd-interviews category-ncd-news tag-elaina-smith tag-sarah-darling tag-women-want-to-hear-women author-esmith alt custom-query" itemscope itemtype="http://schema.org/BlogPosting"><header><h2 class="entry-title" itemprop="headline"><a href="http://www.nashfm1033.com/2018/08/20/women-want-to-hear-women-with-elaina-featuring-sarah-darling/" title="&#8220;Women Want to Hear Women With Elaina&#8221; Featuring Sarah Darling" rel="bookmark">&#8220;Women Want to Hear Women With Elaina&#8221; Featuring Sarah Darling</a></h2></header></article><!-- #post-844497 --><article id="post-844436" class="post-844436 post type-post status-publish format-standard has-post-thumbnail hentry category-ncd-news category-ncd-podcasts tag-all-of-it tag-cole-swindell tag-dustin-lynch tag-lauren-alaina tag-reason-to-drink-another-tour author-jcasey custom-query" itemscope itemtype="http://schema.org/BlogPosting"><header><h2 class="entry-title" itemprop="headline"><a href="http://www.nashfm1033.com/2018/08/17/cole-swindell-talks-releasing-his-new-album-all-of-it-getting-back-to-his-songwriting-roots-touring-with-dustin-lynch-more/" title="Cole Swindell Talks Releasing His New Album &#8220;All of It,&#8221; Getting Back to His Songwriting Roots, Touring With Dustin Lynch &#038; More" rel="bookmark">Cole Swindell Talks Releasing His New Album &#8220;All of It,&#8221; Getting Back to His Songwriting Roots, Touring With Dustin Lynch &#038; More</a></h2></header></article><!-- #post-844436 -->
+
+</div><!-- .entry-row -->
+
+
+
+<div class="entry-row">
+
+<article id="post-844413" class="post-844413 post type-post status-publish format-standard has-post-thumbnail hentry category-ncd-news category-ncd-podcasts tag-chris-young tag-kiss-somebody tag-losing-sleep-world-tour tag-morgan-evans author-jcasey alt custom-query" itemscope itemtype="http://schema.org/BlogPosting"><header><h2 class="entry-title" itemprop="headline"><a href="http://www.nashfm1033.com/2018/08/15/morgan-evans-talks-aussie-roots-upcoming-album-top-5-single-touring-with-chris-young-more/" title="Morgan Evans Talks Aussie Roots, Upcoming Album, Top 5 Single, Touring With Chris Young &#038; More" rel="bookmark">Morgan Evans Talks Aussie Roots, Upcoming Album, Top 5 Single, Touring With Chris Young &#038; More</a></h2></header></article><!-- #post-844413 --><article id="post-844339" class="post-844339 post type-post status-publish format-standard has-post-thumbnail hentry category-ncd-interviews category-ncd-news tag-selfish tag-stephanie-quayle tag-women-want-to-hear-women author-esmith custom-query" itemscope itemtype="http://schema.org/BlogPosting"><header><h2 class="entry-title" itemprop="headline"><a href="http://www.nashfm1033.com/2018/08/10/women-want-to-hear-women-with-elaina-featuring-stephanie-quayle/" title="&#8220;Women Want to Hear Women With Elaina&#8221; Featuring Stephanie Quayle" rel="bookmark">&#8220;Women Want to Hear Women With Elaina&#8221; Featuring Stephanie Quayle</a></h2></header></article><!-- #post-844339 -->
+
+</div><!-- .entry-row -->
+
+
+
+<div class="entry-row">
+
+<article id="post-843680" class="post-843680 post type-post status-publish format-standard has-post-thumbnail hentry category-ncd-interviews category-ncd-news tag-clare-dunn tag-make-you-feel-my-love tag-more author-esmith alt custom-query" itemscope itemtype="http://schema.org/BlogPosting"><header><h2 class="entry-title" itemprop="headline"><a href="http://www.nashfm1033.com/2018/08/03/women-want-to-hear-women-with-elaina-smith-featuring-clare-dunn/" title="&#8220;Women Want to Hear Women With Elaina Smith&#8221; Featuring Clare Dunn" rel="bookmark">&#8220;Women Want to Hear Women With Elaina Smith&#8221; Featuring Clare Dunn</a></h2></header></article><!-- #post-843680 --><article id="post-840133" class="post-840133 post type-post status-publish format-standard has-post-thumbnail hentry category-ncd-interviews category-ncd-news tag-elaina-smith tag-i-know-how-to-make-a-boy-cry tag-tegan-marie tag-women-want-to-hear-women author-esmith custom-query" itemscope itemtype="http://schema.org/BlogPosting"><header><h2 class="entry-title" itemprop="headline"><a href="http://www.nashfm1033.com/2018/07/27/women-want-to-hear-women-with-elaina-smith-featuring-tegan-marie/" title="&#8220;Women Want to Hear Women With Elaina Smith&#8221; Featuring Tegan Marie" rel="bookmark">&#8220;Women Want to Hear Women With Elaina Smith&#8221; Featuring Tegan Marie</a></h2></header></article><!-- #post-840133 -->
+
+</div><!-- .entry-row -->
+
+</div>
+</div><!-- .block-content -->
+
+</div><!-- #block-43 -->
+<div id="block-44" class="twitter-ad block block-type-custom-code block-fluid-height block-mirrored block-mirroring-bdv5499e57b4af88 block-original-79" data-alias="Twitter Ad">
+<div class="block-content">
+<div id='div-gpt-ad-1418849849333-9'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1418849849333-9'); });
+</script>
+</div>
+
+</div><!-- .block-content -->
+
+</div><!-- #block-44 -->
+<aside id="block-45" class="free-apps block block-type-widget-area block-fluid-height block-mirrored block-mirroring-b7r5499e57b4c781 block-original-81" data-alias="Home - Free Apps" itemscope="" itemtype="http://schema.org/WPSideBar">
+<div class="block-content">
+<h1 class="block-title"><span>Free Apps</span></h1><ul class="widget-area"><li id="text-3" class="widget widget_text">
+			<div class="textwidget">	<a href="https://itunes.apple.com/us/app/103-wkdf/id383062078?mt=8" target="_blank"><img src="/wp-content/uploads/sites/41/2014/10/appstore.png" border="0"></a>&nbsp;<a href="https://play.google.com/store/apps/details?id=com.airkast.WKDFFM" target="_blank"><img src="/wp-content/uploads/sites/41/2014/10/googleplay.png" border="0"></a>&nbsp;<a href="http://amazon.com/dp/B00FJWXP8I" target="_blank"><img src="/wp-content/uploads/sites/41/2014/10/amazon.png" border="0"></a></div>
+		</li><!-- .widget -->
+</ul>
+</div><!-- .block-content -->
+
+</aside><!-- #block-45 -->
+<div id="block-46" class="300x250-ad-2 block block-type-custom-code block-fluid-height block-mirrored block-mirroring-buq5499e57b58efb block-original-124" data-alias="300x250 Ad 2">
+<div class="block-content">
+<div id='div-gpt-ad-1418849849333-3'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1418849849333-3'); });
+</script>
+</div>
+</div><!-- .block-content -->
+
+</div><!-- #block-46 -->
+
+</section><!-- .column -->
+
+</section><!-- .row -->
+
+
+</div><!-- .grid-container -->
+
+</div><!-- .wrapper -->
+
+<div id="wrapper-50" class="wrapper wrapper-fluid wrapper-fixed-grid grid-fluid-24-32-10 responsive-grid wrapper-mirroring-10 wrapper-last wrapper-footer" data-alias="Wrapper Footer">
+
+<div class="grid-container clearfix">
+
+<section class="row row-1">
+
+<section class="column column-1 grid-left-0 grid-width-6">
+<nav id="block-50" class="footer-nav block block-type-navigation block-fluid-height" data-alias="Footer Navigation" itemscope="" itemtype="http://schema.org/SiteNavigationElement">
+<div class="block-content">
+<div class="nav-vertical nav-align-left"><ul id="menu-footer-navigation" class="menu"><li id="menu-item-35968" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-35968"><a href="/privacy-policy/">Privacy Policy</a></li>
+<li id="menu-item-221094" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-221094"><a href="/1111/11/11/terms-of-service">Terms of Service</a></li>
+<li id="menu-item-221097" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-221097"><a href="/1111/11/11/contest-rules">Contest Rules</a></li>
+<li id="menu-item-35971" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-35971"><a href="http://www.nashfm1033.com/2015/01/05/21897/">Terms of Use</a></li>
+<li id="menu-item-137" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-137"><a href="http://www.nashfm1033.com/advertise-with-us/">Advertise With Us</a></li>
+<li id="menu-item-139" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-95 current_page_item menu-item-139"><a href="http://www.nashfm1033.com/station-information/">Station Information</a></li>
+<li id="menu-item-141" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-141"><a href="http://www.cumulus.com/careers/">Employment Opportunities</a></li>
+<li id="menu-item-603600" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-603600"><a target="_blank" href="https://publicfiles.fcc.gov/fm-profile/wkdf">FCC Public File</a></li>
+<li id="menu-item-801268" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-801268"><a target="_blank" href="https://www.cumulus.com">Cumulus Media Corporate</a></li>
+</ul></div><!-- .nav-vertical nav-align-left -->
+</div><!-- .block-content -->
+
+</nav><!-- #block-50 -->
+<div id="block-bxk55c4d458c1c58" class="block block-type-custom-code block-fluid-height" data-alias="Wallpaper Ad">
+<div class="block-content">
+<div id='div-gpt-ad-1418849849333-16'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1418849849333-16'); });
+</script>
+</div>
+</div><!-- .block-content -->
+
+</div><!-- #block-bxk55c4d458c1c58 -->
+
+</section><!-- .column -->
+
+<section class="column column-2 grid-left-0 grid-width-18">
+<div id="block-51" class="728x90-ad-2 block block-type-custom-code block-fluid-height" data-alias="728x90 Ad 2">
+<div class="block-content">
+<div align="center">
+<div id='div-gpt-ad-1418849849333-2'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1418849849333-2'); });
+</script>
+</div>
+</div>
+</div><!-- .block-content -->
+
+</div><!-- #block-51 -->
+<footer id="block-52" class="copyright block block-type-footer block-fluid-height" data-alias="Copyright" itemscope="" itemtype="http://schema.org/WPFooter">
+<div class="block-content">
+
+<div class="footer-container">
+
+<div class="footer">
+<p class="copyright footer-copyright">Copyright Cumulus Media / Cumulus Media is an equal opportunity employer / AA</p><p class="footer-responsive-grid-link-container footer-responsive-grid-link-disable-container"><a href="http://www.nashfm1033.com/station-information/?full-site=true" rel="nofollow" class="footer-responsive-grid-link footer-responsive-grid-disable footer-link">View Full Site</a></p>
+</div><!-- .footer -->
+</div><!-- .footer-container -->
+</div><!-- .block-content -->
+
+</footer><!-- #block-52 -->
+
+</section><!-- .column -->
+
+</section><!-- .row -->
+
+
+</div><!-- .grid-container -->
+
+</div><!-- .wrapper -->
+
+
+
+<script>_AMP.theme.init();</script>
+<link rel='stylesheet' id='media_library_assistant-plugin-styles-css'  href='http://www.nashfm1033.com/wp-content/plugins/media-library-assistant/includes/../css/prettyPhoto.css?ver=1.61' type='text/css' media='all' />
+<link rel='stylesheet' id='media_library_assistant-widget-styles-css'  href='http://www.nashfm1033.com/wp-content/plugins/media-library-assistant/includes/../css/widget.css?ver=1.61' type='text/css' media='all' />
+<link rel='stylesheet' id='amp-polls-plugin-styles-css'  href='http://www.nashfm1033.com/wp-content/plugins/amp-polls/css/widget.css?ver=4.9.1' type='text/css' media='all' />
+<script type='text/javascript'>
+/* <![CDATA[ */
+var themify_vars = {"version":"2.1.8","url":"http:\/\/www.nashfm1033.com\/wp-content\/plugins\/themify-builder\/themify","map_key":null,"includesURL":"http:\/\/www.nashfm1033.com\/wp-includes\/","isCached":null,"minify":{"css":{"themify-icons":false,"themify.framework":false,"lightbox":false,"themify-builder-style":false},"js":{"backstretch.themify-version":false,"bigvideo":false,"themify.dropdown":false,"themify.builder.script":false,"themify.scroll-highlight":false,"themify-youtube-bg":false,"themify.parallaxit":false,"themify.ticks":false}}};
+var tbLocalScript = {"isAnimationActive":"1","isParallaxActive":"1","isParallaxScrollActive":"1","animationInviewSelectors":[".module.wow",".module_row.wow",".builder-posts-wrap > .post.wow"],"backgroundSlider":{"autoplay":5000,"speed":2000},"animationOffset":"100","videoPoster":"http:\/\/www.nashfm1033.com\/wp-content\/plugins\/themify-builder\/img\/blank.png","backgroundVideoLoop":"yes","builder_url":"http:\/\/www.nashfm1033.com\/wp-content\/plugins\/themify-builder","framework_url":"http:\/\/www.nashfm1033.com\/wp-content\/plugins\/themify-builder\/themify","version":"2.1.8","fullwidth_support":"","fullwidth_container":"body","loadScrollHighlight":"","addons":[],"breakpoints":{"tablet_landscape":[769,1024],"tablet":[681,768],"mobile":680},"ticks":{"tick":30,"ajaxurl":"http:\/\/www.nashfm1033.com\/wp-admin\/admin-ajax.php","postID":95}};
+var themifyScript = {"lightbox":{"lightboxSelector":".themify_lightbox","lightboxOn":true,"lightboxContentImages":false,"lightboxContentImagesSelector":"","theme":"pp_default","social_tools":false,"allow_resize":true,"show_title":false,"overlay_gallery":false,"screenWidthNoLightbox":600,"deeplinking":false,"contentImagesAreas":"","gallerySelector":".gallery-icon > a","lightboxGalleryOn":true},"lightboxContext":"body"};
+var tbScrollHighlight = {"fixedHeaderSelector":"","speed":"900","navigation":"#main-nav","scrollOffset":"0"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.nashfm1033.com/wp-content/plugins/themify-builder/themify/js/main.js?ver=2.1.8'></script>
+<script type='text/javascript'>
+var mejsL10n = {"language":"en","strings":{"mejs.install-flash":"You are using a browser that does not have Flash player enabled or installed. Please turn on your Flash player plugin or download the latest version from https:\/\/get.adobe.com\/flashplayer\/","mejs.fullscreen-off":"Turn off Fullscreen","mejs.fullscreen-on":"Go Fullscreen","mejs.download-video":"Download Video","mejs.fullscreen":"Fullscreen","mejs.time-jump-forward":["Jump forward 1 second","Jump forward %1 seconds"],"mejs.loop":"Toggle Loop","mejs.play":"Play","mejs.pause":"Pause","mejs.close":"Close","mejs.time-slider":"Time Slider","mejs.time-help-text":"Use Left\/Right Arrow keys to advance one second, Up\/Down arrows to advance ten seconds.","mejs.time-skip-back":["Skip back 1 second","Skip back %1 seconds"],"mejs.captions-subtitles":"Captions\/Subtitles","mejs.captions-chapters":"Chapters","mejs.none":"None","mejs.mute-toggle":"Mute Toggle","mejs.volume-help-text":"Use Up\/Down Arrow keys to increase or decrease volume.","mejs.unmute":"Unmute","mejs.mute":"Mute","mejs.volume-slider":"Volume Slider","mejs.video-player":"Video Player","mejs.audio-player":"Audio Player","mejs.ad-skip":"Skip ad","mejs.ad-skip-info":["Skip in 1 second","Skip in %1 seconds"],"mejs.source-chooser":"Source Chooser","mejs.stop":"Stop","mejs.speed-rate":"Speed Rate","mejs.live-broadcast":"Live Broadcast","mejs.afrikaans":"Afrikaans","mejs.albanian":"Albanian","mejs.arabic":"Arabic","mejs.belarusian":"Belarusian","mejs.bulgarian":"Bulgarian","mejs.catalan":"Catalan","mejs.chinese":"Chinese","mejs.chinese-simplified":"Chinese (Simplified)","mejs.chinese-traditional":"Chinese (Traditional)","mejs.croatian":"Croatian","mejs.czech":"Czech","mejs.danish":"Danish","mejs.dutch":"Dutch","mejs.english":"English","mejs.estonian":"Estonian","mejs.filipino":"Filipino","mejs.finnish":"Finnish","mejs.french":"French","mejs.galician":"Galician","mejs.german":"German","mejs.greek":"Greek","mejs.haitian-creole":"Haitian Creole","mejs.hebrew":"Hebrew","mejs.hindi":"Hindi","mejs.hungarian":"Hungarian","mejs.icelandic":"Icelandic","mejs.indonesian":"Indonesian","mejs.irish":"Irish","mejs.italian":"Italian","mejs.japanese":"Japanese","mejs.korean":"Korean","mejs.latvian":"Latvian","mejs.lithuanian":"Lithuanian","mejs.macedonian":"Macedonian","mejs.malay":"Malay","mejs.maltese":"Maltese","mejs.norwegian":"Norwegian","mejs.persian":"Persian","mejs.polish":"Polish","mejs.portuguese":"Portuguese","mejs.romanian":"Romanian","mejs.russian":"Russian","mejs.serbian":"Serbian","mejs.slovak":"Slovak","mejs.slovenian":"Slovenian","mejs.spanish":"Spanish","mejs.swahili":"Swahili","mejs.swedish":"Swedish","mejs.tagalog":"Tagalog","mejs.thai":"Thai","mejs.turkish":"Turkish","mejs.ukrainian":"Ukrainian","mejs.vietnamese":"Vietnamese","mejs.welsh":"Welsh","mejs.yiddish":"Yiddish"}};
+</script>
+<script type='text/javascript' src='http://www.nashfm1033.com/wp-includes/js/mediaelement/mediaelement-and-player.js?ver=4.2.6-78496d1'></script>
+<script type='text/javascript' src='http://www.nashfm1033.com/wp-includes/js/mediaelement/mediaelement-migrate.js?ver=4.9.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var _wpmejsSettings = {"pluginPath":"\/wp-includes\/js\/mediaelement\/","classPrefix":"mejs-","stretching":"responsive"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.nashfm1033.com/wp-includes/js/mediaelement/wp-mediaelement.js?ver=4.9.1'></script>
+<script type='text/javascript' src='http://www.nashfm1033.com/wp-content/plugins/media-library-assistant/includes/../js/jquery.prettyPhoto.js?ver=1.61'></script>
+<script type='text/javascript' src='http://www.nashfm1033.com/wp-content/plugins/media-library-assistant/includes/../js/widget-front-end.js?ver=1533183780'></script>
+<script type='text/javascript' src='http://www.nashfm1033.com/wp-content/plugins/amp-polls/js/widget-front-end.js?ver=4.9.1'></script>
+<script>
+window.tgmplibs="cumulus2,_append_www,_triton_see";
+</script>
+<script type="text/javascript" class="_tgmp_p">
+function onTuneGenieMediaPlayerLoaded() {
+    window.tgmp=new TuneGenieMediaPlayer('playerbar', {
+        brand: "wkdf",
+        zindex: 50000,
+        theme: ["#000000"],
+        position: "bottom",
+        debug: true,
+        ios_frame: 3,
+        autostart: false,
+        infoTrayOnLoad: true,
+        useTritonPlayer: true,
+        promptZag: false,
+    });
+    tgmp.go();
+    window.tgmp_rc = new TuneGenieRC(tgmp);
+    tgmp_rc.recentSongWidget(document.getElementById('tgrecent'),{});
+    tgmp_rc.nowPlayingWidget(document.getElementById('tgnowplaying'),{});
+}
+</script>
+<script type="text/javascript"  class="_tgmp_p" async src="https://mpl.tunegenie.com/js/loader2.min.js"></script>
+
+
+</div><!-- #whitewrap -->
+
+<!-- TGMP PLUGIN ENABLED 2016-08-05T18:07:15.685Z -->
+
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.3";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<script type="text/javascript">
+//<![CDATA[
+(function() {
+var _analytics_scr = document.createElement('script');
+_analytics_scr.type = 'text/javascript'; _analytics_scr.async = true; _analytics_scr.src = '/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=2&cb=510305296';
+var _analytics_elem = document.getElementsByTagName('script')[0]; _analytics_elem.parentNode.insertBefore(_analytics_scr, _analytics_elem);
+})();
+// ]]>
+</script></body>
+
+
+</html>
+<!--
+Performance optimized by W3 Total Cache. Learn more: https://www.w3-edge.com/products/
+
+Object Caching 3285/3450 objects using memcache
+Page Caching using memcache
+Database Caching 286/313 queries in 0.403 seconds using memcache
+
+Served from: www.1460wrad.com @ 2018-08-27 04:45:41 by W3 Total Cache
+-->

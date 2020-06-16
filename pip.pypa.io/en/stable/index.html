@@ -1,0 +1,196 @@
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>pip - The Python Package Installer &#8212; pip 20.1.1 documentation</title>
+    <link rel="stylesheet" href="https://pip.pypa.io/en/stable/_static/pypa.css" type="text/css" />
+    <link rel="stylesheet" href="https://pip.pypa.io/en/stable/_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="https://assets.readthedocs.org/static/css/badge_only.css" />
+    
+    <script id="documentation_options" data-url_root="#" src="https://pip.pypa.io/en/stable/_static/documentation_options.js"></script>
+    <script src="https://pip.pypa.io/en/stable/_static/jquery.js"></script>
+    <script src="https://pip.pypa.io/en/stable/_static/underscore.js"></script>
+    <script src="https://pip.pypa.io/en/stable/_static/doctools.js"></script>
+    <script src="https://pip.pypa.io/en/stable/_static/language_data.js"></script>
+    <script async="async" src="https://assets.readthedocs.org/static/javascript/readthedocs-doc-embed.js"></script>
+    
+    <script src="https://pip.pypa.io/en/stable/_static/sidebar.js"></script>
+    
+    <link rel="search" title="Search" href="https://pip.pypa.io/en/stable/search/" />
+    <link rel="copyright" title="Copyright" href="https://pip.pypa.io/en/stable/copyright/" />
+    <link rel="next" title="Quickstart" href="https://pip.pypa.io/en/stable/quickstart/" />
+    <link rel="shortcut icon" type="image/png" href="https://pip.pypa.io/en/stable/_static/py.png" />
+    
+    <script type="text/javascript" src="https://pip.pypa.io/en/stable/_static/copybutton.js"></script>
+    
+     
+
+  
+<!-- RTD Extra Head -->
+
+<!-- 
+Always link to the latest version, as canonical.
+http://docs.readthedocs.org/en/latest/canonical.html
+-->
+<link rel="canonical" href="http://pip.pypa.io/en/stable/" />
+
+<link rel="stylesheet" href="https://assets.readthedocs.org/static/css/readthedocs-doc-embed.css" type="text/css" />
+
+<script type="text/javascript" src="https://pip.pypa.io/en/stable/_static/readthedocs-data.js"></script>
+
+<!-- Add page-specific data, which must exist in the page js, not global -->
+<script type="text/javascript">
+READTHEDOCS_DATA['page'] = "index"
+READTHEDOCS_DATA['source_suffix'] = ".rst"
+</script>
+
+<script type="text/javascript" src="https://assets.readthedocs.org/static/javascript/readthedocs-analytics.js" async="async"></script>
+
+<!-- end RTD <extrahead> -->
+</head><body>  
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="https://pip.pypa.io/en/stable/quickstart/" title="Quickstart"
+             accesskey="N">next</a></li>
+    <li><img src="https://pip.pypa.io/en/stable/_static/py.png" alt=""
+             style="vertical-align: middle; margin-top: -1px"/></li>
+    <li><a href="https://pypa.io">PyPA</a> &#187;</li>
+    
+    <a href="index.html#">pip 20.1.1 documentation</a> &#187;
+    
+
+    <li class="right">
+        
+
+    <div class="inline-search" style="display: none" role="search">
+        <form class="inline-search" action="https://pip.pypa.io/en/stable/search/" method="get">
+          <input placeholder="Quick search" type="text" name="q" />
+          <input type="submit" value="Go" />
+          <input type="hidden" name="check_keywords" value="yes" />
+          <input type="hidden" name="area" value="default" />
+        </form>
+    </div>
+    <script type="text/javascript">$('.inline-search').show(0);</script>
+         |
+    </li>
+
+      </ul>
+    </div>    
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="pip-the-python-package-installer">
+<h1>pip - The Python Package Installer<a class="headerlink" href="index.html#pip-the-python-package-installer" title="Permalink to this headline">¶</a></h1>
+<p>pip is the <a class="reference external" href="https://packaging.python.org/guides/tool-recommendations/">package installer</a> for Python. You can use pip to install packages from the <a class="reference external" href="https://pypi.org">Python Package Index</a> and other indexes.</p>
+<p>Please take a look at our documentation for how to install and use pip:</p>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="https://pip.pypa.io/en/stable/quickstart/">Quickstart</a></li>
+<li class="toctree-l1"><a class="reference internal" href="https://pip.pypa.io/en/stable/installing/">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="https://pip.pypa.io/en/stable/user_guide/">User Guide</a></li>
+<li class="toctree-l1"><a class="reference internal" href="https://pip.pypa.io/en/stable/reference/">Reference Guide</a></li>
+<li class="toctree-l1"><a class="reference internal" href="https://pip.pypa.io/en/stable/development/">Development</a></li>
+<li class="toctree-l1"><a class="reference internal" href="https://pip.pypa.io/en/stable/news/">Changelog</a></li>
+</ul>
+</div>
+<p>In 2020, we’re working on improvements to the heart of pip. Please <a class="reference external" href="https://pyfound.blogspot.com/2020/03/new-pip-resolver-to-roll-out-this-year.html">learn more and take our survey</a> to help us do it right.</p>
+<p>If you find bugs, need help, or want to talk to the developers, please use our mailing lists or chat rooms:</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://github.com/pypa/pip/issues">Issue tracking</a></p></li>
+<li><p><a class="reference external" href="https://discuss.python.org/c/packaging">Discourse channel</a></p></li>
+<li><p><a class="reference external" href="https://webchat.freenode.net/?channels=%23pypa">User IRC</a></p></li>
+</ul>
+<p>If you want to get involved, head over to GitHub to get the source code, and feel free to jump on the developer mailing lists and chat rooms:</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://github.com/pypa/pip">GitHub page</a></p></li>
+<li><p><a class="reference external" href="https://groups.google.com/forum/#!forum/pypa-dev">Development mailing list</a></p></li>
+<li><p><a class="reference external" href="https://webchat.freenode.net/?channels=%23pypa-dev">Development IRC</a></p></li>
+</ul>
+<div class="section" id="code-of-conduct">
+<h2>Code of Conduct<a class="headerlink" href="index.html#code-of-conduct" title="Permalink to this headline">¶</a></h2>
+<p>Everyone interacting in the pip project’s codebases, issue trackers, chat
+rooms, and mailing lists is expected to follow the <a class="reference external" href="https://www.pypa.io/en/latest/code-of-conduct/">PyPA Code of Conduct</a>.</p>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h3><a href="index.html#">Table Of Contents</a></h3>
+
+
+  
+
+
+  <ul>
+<li class="toctree-l1"><a class="reference internal" href="https://pip.pypa.io/en/stable/quickstart/">Quickstart</a></li>
+<li class="toctree-l1"><a class="reference internal" href="https://pip.pypa.io/en/stable/installing/">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="https://pip.pypa.io/en/stable/user_guide/">User Guide</a></li>
+<li class="toctree-l1"><a class="reference internal" href="https://pip.pypa.io/en/stable/reference/">Reference Guide</a></li>
+<li class="toctree-l1"><a class="reference internal" href="https://pip.pypa.io/en/stable/development/">Development</a></li>
+<li class="toctree-l1"><a class="reference internal" href="https://pip.pypa.io/en/stable/news/">Changelog</a></li>
+</ul>
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>  
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="https://pip.pypa.io/en/stable/quickstart/" title="Quickstart"
+             >next</a></li>
+    <li><img src="https://pip.pypa.io/en/stable/_static/py.png" alt=""
+             style="vertical-align: middle; margin-top: -1px"/></li>
+    <li><a href="https://pypa.io">PyPA</a> &#187;</li>
+    
+    <a href="index.html#">pip 20.1.1 documentation</a> &#187;
+    
+
+    <li class="right">
+        
+
+    <div class="inline-search" style="display: none" role="search">
+        <form class="inline-search" action="https://pip.pypa.io/en/stable/search/" method="get">
+          <input placeholder="Quick search" type="text" name="q" />
+          <input type="submit" value="Go" />
+          <input type="hidden" name="check_keywords" value="yes" />
+          <input type="hidden" name="area" value="default" />
+        </form>
+    </div>
+    <script type="text/javascript">$('.inline-search').show(0);</script>
+         |
+    </li>
+
+      </ul>
+    </div>  
+    <div class="footer">
+    &copy; <a href="https://pip.pypa.io/en/stable/copyright/">Copyright</a> 2008-2020, PyPA.
+    <br />
+
+    The Python Software Foundation is a non-profit corporation.
+<a href="https://www.python.org/psf/donations/">Please donate.</a>
+<br />
+    <br />
+
+    Last updated on May 19, 2020.
+    <a href="https://github.com/pypa/pip/issues">Found a bug</a>?
+    <br />
+
+    Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 2.4.3.
+    </div>
+
+  </body>
+</html>

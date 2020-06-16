@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" class="no-js" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="ie=edge" http-equiv="x-ua-compatible"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>WFWM</title>
+<link href="https://www.frostburg.edu/_files/css/app.css" rel="stylesheet"/>
+
+<link href="https://www.frostburg.edu/_files/images/icons/apple-touch-icon-57x57.png?v=GvvdojGO75" rel="apple-touch-icon" sizes="57x57"/>
+<link href="https://www.frostburg.edu/_files/images/icons/apple-touch-icon-60x60.png?v=GvvdojGO75" rel="apple-touch-icon" sizes="60x60"/>
+<link href="https://www.frostburg.edu/_files/images/icons/apple-touch-icon-72x72.png?v=GvvdojGO75" rel="apple-touch-icon" sizes="72x72"/>
+<link href="https://www.frostburg.edu/_files/images/icons/apple-touch-icon-76x76.png?v=GvvdojGO75" rel="apple-touch-icon" sizes="76x76"/>
+<link href="https://www.frostburg.edu/_files/images/icons/apple-touch-icon-114x114.png?v=GvvdojGO75" rel="apple-touch-icon" sizes="114x114"/>
+<link href="https://www.frostburg.edu/_files/images/icons/apple-touch-icon-120x120.png?v=GvvdojGO75" rel="apple-touch-icon" sizes="120x120"/>
+<link href="https://www.frostburg.edu/_files/images/icons/apple-touch-icon-144x144.png?v=GvvdojGO75" rel="apple-touch-icon" sizes="144x144"/>
+<link href="https://www.frostburg.edu/_files/images/icons/apple-touch-icon-152x152.png?v=GvvdojGO75" rel="apple-touch-icon" sizes="152x152"/>
+<link href="https://www.frostburg.edu/_files/images/icons/apple-touch-icon-180x180.png?v=GvvdojGO75" rel="apple-touch-icon" sizes="180x180"/>
+<link href="https://www.frostburg.edu/_files/images/icons/favicon-32x32.png?v=GvvdojGO75" rel="icon" sizes="32x32" type="image/png"/>
+<link href="https://www.frostburg.edu/_files/images/icons/android-chrome-192x192.png?v=GvvdojGO75" rel="icon" sizes="192x192" type="image/png"/>
+<link href="https://www.frostburg.edu/_files/images/icons/favicon-96x96.png?v=GvvdojGO75" rel="icon" sizes="96x96" type="image/png"/>
+<link href="https://www.frostburg.edu/_files/images/icons/favicon-16x16.png?v=GvvdojGO75" rel="icon" sizes="16x16" type="image/png"/>
+<link href="https://www.frostburg.edu/_files/images/icons/manifest.json?v=GvvdojGO75" rel="manifest"/>
+<link href="https://www.frostburg.edu/_files/images/icons/safari-pinned-tab.svg?v=GvvdojGO75" rel="mask-icon"/>
+<link href="https://www.frostburg.edu/_files/images/icons/favicon.ico?v=GvvdojGO75" rel="shortcut icon"/>
+<meta content="Frostburg State University" name="apple-mobile-web-app-title"/>
+<meta content="Frostburg State University" name="application-name"/>
+<meta content="#da532c" name="msapplication-TileColor"/>
+<meta content="/_files/images/icons/mstile-144x144.png?v=GvvdojGO75" name="msapplication-TileImage"/>
+<meta content="/_files/images/icons/browserconfig.xml?v=GvvdojGO75" name="msapplication-config"/>
+<meta content="#ffffff" name="theme-color"/>
+</head>
+<body>
+<div class="skip"><a href="#maincontent">Skip to Main Content</a></div>
+<div class="skip"><a href="#mainnav">Skip to Main Navigation</a></div>
+<div class="off-canvas-wrapper">
+<div class="off-canvas-wrapper-inner" data-off-canvas-wrapper=""><nav class="tab-bar">
+    <div class="off-canvas position-left" data-off-canvas="" data-position="left" id="offCanvas">
+        <aside class="left-off-canvas-menu">
+            <button aria-label="Close menu" class="close-button" data-close="" type="button">
+                <span aria-hidden="true">
+                    <i aria-hidden="true" class="fi-x"></i> 
+                </span>
+            </button>
+            <ul class="off-canvas-list">
+                <li class="menu-head">
+                    <label>
+                        <a href="https://www.frostburg.edu/why-fsu">Why FSU?</a>
+                    </label>
+                </li>
+                <li class="menu-head">
+                    <label>
+                        <a href="https://www.frostburg.edu/academics/index.php">Academic Programs</a>
+                    </label>
+                </li>
+                <li class="menu-head">
+                    <label>
+                        <a href="https://www.frostburg.edu/admissions-and-cost/index.php">Admission &amp; Cost</a>
+                    </label>
+                </li>
+                <li class="menu-head">
+                    <label>
+                        <a href="https://www.frostburg.edu/student-life/">Student Life</a>
+                    </label>
+                </li>
+                <li class="menu-head">
+                    <label>
+                        <a href="http://www.frostburgsports.com/">Athletics</a>
+                    </label>
+                </li>
+                <li class="menu-head">
+                    <label>
+                        <a href="https://www.frostburg.edu/about-frostburg/index.php">About FSU</a>
+                    </label>
+                </li>
+                <li class="menu-head secondary">
+                    <label>Information for:</label>
+                </li>
+                <li>
+                    <a href="http://www.frostburg.edu/students/">Current Students</a>
+                </li>
+                <li>
+                    <a href="http://www.frostburg.edu/admin/alumni/">Alumni</a>
+                </li>
+                <li>
+                    <a href="http://www.frostburg.edu/parents/">Parents</a>
+                </li>
+                <li>
+                    <a href="http://www.frostburg.edu/facultystaff/">Faculty &amp; Staff</a>
+                </li>
+                <li class="menu-head">
+                    <label>Resources/Contact</label>
+                </li>
+                <li>
+                    <a href="http://paws.frostburg.edu">PAWS</a>
+                </li>
+                <li>
+                    <a href="http://www.frostburg.edu/mail/">E-mail</a>
+                </li>
+                <li><a href="https://frostburg.instructure.com">Canvas</a></li>
+                <li>
+                    <a href="https://password.frostburg.edu">Password</a>
+                </li>
+            </ul>
+        </aside>
+    </div>
+</nav> 
+<div class="off-canvas-content" data-off-canvas-content="">
+ 
+<header id="top">
+<div class="top-bar">
+<nav class="show-for-small-only mobile-icon"><button aria-label="Main menu icon" class="menu-icon" data-toggle="offCanvas" type="button"></button> <a data-toggle="offCanvas" href="#"><span class="title-bar-title">Menu</span></a></nav>
+<div class="top-bar-left logo"><a href="https://www.frostburg.edu/">
+    <img alt="Frostburg State University" src="https://www.frostburg.edu/_files/images/FSU-logo.png"/>
+</a></div>
+<div>
+<div class="top-bar-right audience show-for-medium"><nav>
+    <ul class="menu">
+        <li>
+             <a href="https://www.frostburg.edu/vte/?data-platform=v&data-inst=61397">Virtual Tour</a> 
+        </li>
+        <li>
+            <a href="http://www.frostburg.edu/students/">Current Students</a>
+        </li>
+        <li>
+            <a href="http://www.frostburg.edu/admin/alumni/">Alumni</a>
+        </li>
+        <li>
+            <a href="https://www.frostburg.edu/foundation/ways-to-give/">Foundation</a>
+        </li>
+        <li>
+            <a href="http://www.frostburg.edu/parents/">Parents</a>
+        </li>
+        <li>
+            <a href="http://www.frostburg.edu/facultystaff/">Faculty &amp; Staff</a>
+        </li>
+    </ul>
+</nav></div>
+<div class="top-bar-right search">
+    <form _lpchecked="1" action="/search/search-result" class="search-container">
+        <label class="hidden" for="search">Search the site:</label>
+        <input class="search-bar" id="q" name="q" placeholder="Search" title="Custom Google Search of the FSU site!" type="text"/>
+        <input name="cx" type="hidden" value="006935997441754803655:dyli3hfrmf0"/>
+        <input name="cof" type="hidden" value="FORID:10"/>
+        <input name="ie" type="hidden" value="UTF-8"/>
+        <input name="siteurl" type="hidden" value="www.frostburg.edu/"/>
+		<input name="ref" type="hidden" value=""/>
+        <input name="ss" type="hidden" value=""/>
+        <button name="button" type="submit">
+            <span class="hidden">Submit</span>
+             <i class="fi-magnifying-glass" aria-hidden="true"></i> 
+        </button>
+    </form>
+</div>
+<div class="top-bar-right utility show-for-medium"><nav>
+<ul class="dropdown menu" data-dropdown-menu="">
+    <li>
+        <a class="button" href="http://www.frostburg.edu/foundation/ways-to-give/">Give to FSU</a>
+    </li>
+    <li>
+        <a href="/university-directories.php">Contact/Directories</a>
+    </li>
+    <li>
+        <a href="#">Logins</a>
+        <ul class="menu">
+            <li>
+                <a href="http://paws.frostburg.edu">PAWS</a>
+            </li>
+            <li>
+                <a href="https://outlook.com/frostburg.edu">E-mail</a>
+            </li>
+            <li>
+                <a href="https://frostburg.instructure.com">Canvas</a>
+            </li>
+            <li>
+                <a href="https://password.frostburg.edu">Password</a>
+            </li>
+            <li>
+                <a href="https://frostburg.campuslabs.com/beacon">Beacon</a>
+            </li>
+        </ul>
+    </li>
+</ul>
+</nav></div>
+<div class="clearfix"></div>
+</div>
+</div>
+<div class="top-bar global-nav show-for-medium" id="mainnav">
+	<nav>
+		<ul class="dropdown menu expanded" data-dropdown-menu="">
+			<li>
+				<a href="/why-fsu">Why FSU?</a>
+				<ul class="menu">
+					<li>
+						<a href="https://www.frostburg.edu/why-fsu/fsu-facts.php" title="Ranking and Facts">Ranking &#38; Facts</a>
+					</li>
+					<li>
+						<a href="https://www.frostburg.edu/why-fsu/accreditation.php" title="Accreditation">Accreditation</a>
+					</li>
+					<li>
+						<a href="https://www.frostburg.edu/why-fsu/success-stories.php" title="Success Stories">Success Stories</a>
+					</li>
+					<li>
+						<a href="https://www.frostburg.edu/why-fsu/history/index.php" title="History">History</a>
+					</li>
+					<li>
+						<a href="https://www.frostburg.edu/why-fsu/campus-and-surroundings.php" title="Campus and the Region">Campus &#38; the Region</a>
+					</li>
+					<li>
+						<a href="https://www.frostburg.edu/why-fsu/affordability/index.php" title="Affordability">Affordability</a>
+					</li>
+				</ul>
+			</li>
+			<li>
+				<a href="https://www.frostburg.edu/academics/index.php">Academic Programs</a>
+				<ul class="menu">
+					<li>
+						<a href="https://www.frostburg.edu/academics/index.php" title="Majors and Programs">Majors &#38; Programs</a>
+					</li>
+					<li>
+						<a href="https://www.frostburg.edu/academics/index1.php" title="Colleges and Departments">Colleges &#38; Departments</a>
+					</li>
+					<li>
+						<a href="https://www.frostburg.edu/academics/graduate-study-at-fsu.php" title="Graduate Programs">Graduate Programs</a>
+					</li>
+					<li>
+						<a href="http://www.frostburg.edu/academic/calendar/" title="Academic Calendar">Academic Calendar</a>
+					</li>
+					<li>
+						<a href="https://www.frostburg.edu/academics/academic-success-network/index.php" title="Academic Success Network">Academic Success Network</a>
+					</li>
+					<li>
+						<a href="http://www.frostburg.edu/lewis-ort-library/" title="Lewis J Ort Library">Library</a>
+					</li>
+					<li>
+						<a href="https://www.frostburg.edu/academics/honors-program.php" title="Honors Program">Honors Program</a>
+					</li>
+					<li>
+						<a href="https://www.frostburg.edu/academics/study-abroad.php" title="Study Abroad">Study Abroad</a>
+					</li>
+					<li>
+						<a href="https://www.frostburg.edu/academics/other-instructional-sites.php" title="Other Instruction Sites">Other Instructional Sites</a>
+					</li>
+				</ul>
+			</li>
+			<li>
+				<a href="https://www.frostburg.edu/admissions-and-cost/index.php">Admission &#38; Cost</a>
+				<ul class="menu">
+					<li>
+						<a href="https://www.frostburg.edu/admissions-and-cost/undergraduate//index.php" title="Undergraduate">Undergraduate</a>
+					</li>
+					<li>
+						<a href="/admissions-and-cost/tuition-and-fees/" title="Tuition and Fees">Tuition &#38; Fees</a>
+					</li>
+					<li>
+						<a href="https://www.frostburg.edu/admissions-and-cost/graduate/index.php" title="Graduate">Graduate</a>
+					</li>
+					<li>
+						<a href="https://www.frostburg.edu/admissions-and-cost/international.php" title="International">International</a>
+					</li>
+					<li>
+						<a href="https://www.frostburg.edu/admissions-and-cost/undergraduate//apply/transfer-applicants.php" title="Transfer">Transfer</a>
+					</li>
+					<li>
+						<a href="https://www.frostburg.edu/admissions-and-cost/undergraduate//re-entry-applicants.php" title="Re-Entry">Re-Entry</a>
+					</li>
+					<li>
+						<a href="/student-life/campus-services/veterans-benefits/index.php" title="Veterans Services">Veterans Services</a>
+					</li>
+					<li>
+						<a href="/admissions-and-cost/financial-aid/" title="Financial Aid">Financial Aid</a>
+					</li>
+					<li>
+						<a href="/admissions-and-cost/intersession1.php" title="Intersession">Intersession</a>
+					</li>
+					<li>
+						<a href="https://www.frostburg.edu/admissions-and-cost/summer-session/index.php" title="Summer session">Summer Session</a>
+					</li>
+                    <li>
+						<a href="/admissions-and-cost/undergraduate/apply/meet-your-representative/after-admission/visit-campus/index.php" title="Virtual Tour">Virtual Tour</a>
+					</li>
+				</ul>
+			</li>
+			<li>
+				<a href="/student-life/">Student Life</a>
+				<ul class="menu">
+					<li>
+						<a href="http://www.frostburg.edu/student-life/residence-life//index.php" title="Residence Life">Residence Life</a>
+					</li>
+					<li>
+						<a href="http://involvement.frostburg.edu/sci/" title="Campus ACTIVITIES">Campus ACTIVITIES</a>
+					</li>
+					<li>
+						<a href="https://www.frostburg.edu/student-life/dining-services.php" title="Dining Services">Dining Services</a>
+					</li>
+					<li>
+						<a href="https://www.frostburg.edu/student-life/campus-services/index.php" title="Campus Services">Campus Services</a>
+					</li>
+					<li>
+						<a href="/student-life/leadership-and-experiential-learning/index.php" title="Leadership and Experiential Learning">Leadership &#38; Experiential Learning</a>
+					</li>
+					<li>
+						<a href="https://www.frostburg.edu/student-life/life-in-frostburg.php" title="Life in Frostburg">Life in Frostburg</a>
+					</li>
+					<li>
+						<a href="http://events.frostburg.edu/" title="Calendar of Events">Calendar of Events</a>
+					</li>
+					<li>
+						<a href="http://frostburg.collegestoreonline.com/" title="University Store">University Store</a>
+					</li>
+				</ul>
+			</li>
+			<li>
+				<a href="http://www.frostburgsports.com/">Athletics</a>
+			</li>
+			<li>
+				<a href="https://www.frostburg.edu/about-frostburg/index.php">About FSU</a>
+				<ul class="menu">
+					<li>
+						<a href="https://www.frostburg.edu/about-frostburg/visit-fsu.php" title="Visit FSU">Visit FSU</a>
+					</li>
+					<li>
+						<a href="https://www.frostburg.edu/about-frostburg/administration.php" title="Administration">Administration</a>
+					</li>
+					<li>
+						<a href="/about-frostburg/office-of-the-president" title="Office of the President">Office of the President</a>
+					</li>
+					<li>
+						<a href="https://www.frostburg.edu/about-frostburg/campus-and-community/index.php" title="Campus and Community">Campus &#38; Community</a>
+					</li>
+					<li>
+						<a href="https://frostburg.peopleadmin.com/" title="Employment">Employment</a>
+					</li>
+					<li>
+						<a href="https://www.frostburg.edu/strategic-planning/frostburg-state-university-strategic-planning-home-page.php" title="Strategic Planning">Strategic Planning</a>
+					</li>
+				</ul>
+			</li>
+		</ul>
+	</nav>
+</div>
+<article id="breadcrumbs">  
+
+   
+   <h2 class="hidden">Breadcrumb Navigation</h2>
+    <div class="row">
+        <div class="large-12 columns">
+            <nav aria-label="You are here:">
+                <ul class="breadcrumbs">
+                    <li><a href="https://www.frostburg.edu/index.php">Home</a></li>
+                                            <li><a href="index.php">WFWM</a></li> 
+                                        
+                </ul>
+            </nav>
+        </div>
+    </div>
+    
+</article>
+</header>
+<section class="main-section" id="maincontent">
+<div class="row banner">    <div class="small-12 columns">
+		<img alt="WFWM's main studio" src="https://www.frostburg.edu/_cms/blocks/static/student-life/wfwm.png"/>
+	</div>
+	<div class="small-4 columns border"> </div>
+	<div class="small-4 columns border"> </div>
+	<div class="small-4 columns border"> </div>
+</div>
+<div class="row">
+<div class="medium-3 columns subnav">
+
+
+
+
+
+
+                                                                            
+                
+                <nav>
+            <div class="title-bar show-for-small-only" data-hide-for="medium" data-responsive-toggle="submenu">
+                                <div class="small-7 columns no-margin">
+                    <div class="title-bar-page">            WFWM
+    </div>
+                </div>
+                                <div class="small-5 columns section-menu no-margin">
+                    <a data-toggle="">
+                        <div class="title-bar-title">Section
+                            <br/>Menu
+                        </div>
+                    </a>
+                    <button aria-label="Second menu icon" class="menu-icon" data-toggle="" type="button"></button>
+                </div>
+            </div>
+         
+            <div class="side-nav" id="submenu">
+                                <div class="section-title hide-for-small-only">            WFWM
+    </div>    
+                                <ul class="vertical menu" data-accordion-menu="" data-options="multiOpen:true">
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    <li><a class="menu-heading" href="index.php">            WFWM
+    </a></li>
+                                                                                                                                                                                                                                                                                                                                                            <li><a class="menu-heading" href="program-schedule.php">            Program Schedule
+    </a></li>
+                                                                                            <li><a class="menu-heading" href="underwriters.php">            Underwriters
+    </a></li>
+                                                                                            <li><a class="menu-heading" href="advisory-council.php">            Advisory Council
+    </a></li>
+                                                                                            <li><a class="menu-heading" href="programming-survey.php">            Programming Survey
+    </a></li>
+                                                                                            <li><a class="menu-heading" href="public-radio-links.php">            Public Radio Links
+    </a></li>
+                                                                                                                                                                            <li><a class="menu-heading" href="special-events.php">            Special Events
+    </a></li>
+                                                                                            <li><a class="menu-heading" href="contact-wfwm.php">            Contact WFWM
+    </a></li>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
+                </ul>
+            </div>
+        </nav>  
+
+          
+        </div>
+
+
+
+
+
+        
+
+<div class="large-6 medium-9 columns main-content">
+    
+    <h1>WFWM</h1>
+            <h2>FSU's NPR Affiliate Radio Station&#160;</h2>
+<p>WFWM Radio is a public service of Frostburg State University in Frostburg, Maryland. It broadcasts informational, educational, and cultural programming 24 hours a day to the westernmost counties of Maryland and adjacent areas in Pennsylvania and West Virginia.<br/><br/><span size="-1">Programming on WFWM includes locally-originated and acquired news and features from National Public Radio (NPR), the Associated Press, and National Weather Service. WFWM's formats include Classical, Jazz, Big Band, Blues, Celtic, Bluegrass, and Alternative.</span></p>
+<p><span size="-1">WFWM strives to provide programming that our listeners enjoy. Check out our programming schedule <a href="program-schedule.php">here</a>. Your input on our programming is also appreciated. Please take a minute to complete our <a href="http://www.wfwm.org/wfwm/programming-survey/">programming survey</a>.</span></p>
+<p><span size="-1">WFWM operates at an assigned frequency of 91.9 MHz, with studios located in the Gira Center on the campus of Frostburg State University. It also operates a translator station, W242AD (96.3 MHz), in Oakland, Maryland. Main transmission facilities are located on Dan's Mountain in Midland, Maryland. WFWM also maintains and assists XFSR, the FSU student intranet radio station.</span></p>
+<p>WFWM Public Radio is a part of the Communications &amp; Media Relations department of the Office of University Advancement.</p>
+<h4 align="center" style="text-align: left;">THE MISSION OF WFWM</h4>
+<p>The mission of WFWM Public Radio is to assist Frostburg State University by providing a radio broadcasting service that is a positive reflection of the University&#8217;s quality, diversity and value by providing programming of the highest standards to residents of the western Maryland area, by providing experiential learning opportunities to the University&#8217;s students, faculty and staff and by helping to define Frostburg State University and the region in a positive manner.</p>
+<h4 align="center" style="text-align: left;">WFWM&#8217;s PRINCIPLES AND VALUES</h4>
+<ul>
+<li><span>WFWM is committed to maintain the highest standards of radio broadcasting and those of Frostburg State University.</span></li>
+<li>WFWM is committed to programming, both on- and off-air, that positively impacts the quality of life of residents of the western Maryland region.</li>
+<li><span>WFWM is committed to providing experiential learning opportunities for students, faculty and staff through collaborations with various University departments and local organizations.</span></li>
+</ul>
+<h4>WFWM&#8217;s VISION</h4>
+<p><span>To be a primary and indispensable radio service for Frostburg State University and the residents of western Maryland and surrounding regions.</span></p>
+<h4>WFWM's FCC Public File&#160;</h4>
+<span>WFWM's Public File is located online <a href="https://publicfiles.fcc.gov/fm-profile/wfwm">here.</a>&#160; Anyone with a disability&#160;requiring assistance with access to WFWM&#8217;s FCC public inspection file may call 301.687.4143 or email&#160;</span><a href="mailto:wfwm@frostburg.edu">wfwm@frostburg.edu</a><span><span>&#160;</span>with inquiries.</span>
+    </div>
+
+
+<div class="large-3 medium-9 columns subright">
+                                        <div class="text-block">
+                    	<img alt="WFWM logo" height="300" src="https://www.frostburg.edu/_cms/blocks/static/wfwmlogoforwebsite.png" width="300"/>
+        </div>
+                                            <div class="text-block">
+                    	<p style="text-align: center;"><img alt="Facebook Logo" height="100" src="facebook_with-air.png" width="100"/></p>
+<h6 style="text-align: center;">Keep up with&#160;the latest WFWM news and happenings on our <a href="https://www.facebook.com/wfwmradio/">Facebook page</a></h6>
+        </div>
+                                            <div class="text-block">
+                    	<p style="text-align: center;"><img alt="NPR logo" height="100" src="npr_logo_clr1.png" width="326"/></p>
+<h5 style="text-align: center;"><a href="https://www.npr.org/">Online here</a></h5>
+        </div>
+                                            <div class="text-block">
+                    	<h3><a href="https://www.givecampus.com/schools/FrostburgStateUniversity/support-wfwm">SUPPORT WFWM! &#187;</a></h3>
+        </div>
+                                            <div class="text-block">
+                    	<h3><a href="https://publicfiles.fcc.gov/fm-profile/wfwm">WFWM's Public File&#187;</a></h3>
+        </div>
+                                            <div class="text-block">
+                    	<h3>Contact WFWM</h3>
+General Inquiries: 301.687.4143<br/>Requests: 301.687.4144<br/>Email: WFWM@frostburg.edu
+        </div>
+                                            <div class="text-block">
+                    	<h3><a href="mms://192.168.254.206:8080">Stream WFWM</a></h3>
+<p>On-campus only</p>
+        </div>
+                                            <div class="text-block">
+                    	<p><a href="mms://192.168.254.230:8080"><img alt="XFSR logo" height="172" src="xfsr-logo-185.png" width="227"/></a></p>
+<h3><a href="mms://192.168.254.230:8080">Stream XFSR</a></h3>
+<p>&#65279;On-campus only</p>
+<p>Broadcasting Monday-Friday, 8 pm - Midnight during Spring &amp; Fall semesters<br/><span><br/></span></p>
+        </div>
+        </div>
+</div>
+<div class="row">
+
+
+
+
+
+
+
+
+
+
+<div class="large-offset-3 large-9 medium-offset-3 medium-9 columns main-content">
+    </div>
+
+</div>
+<div class="row">
+    <div class="small-12" id="custom-html-and-javascript">
+        
+    
+    </div>
+</div>
+</section>
+<footer>
+    <article class="cta-row">
+    <h2 class="hidden">Admissions Next Steps</h2>
+    <div class="row">
+        <div class="medium-4 columns">
+            <a class="cta" href="https://www.frostburg.edu/admissions-and-cost/index.php">Apply Online</a>
+        </div>
+        <div class="medium-4 columns">
+            <a class="cta" href="http://www.frostburg.edu/ungrad/admiss/info/">Request Info</a>
+        </div>
+        <div class="medium-4 columns">
+            <a class="cta" href="https://www.frostburg.edu/admissions-and-cost/undergraduate//apply/meet-your-representative/after-admission/visit-campus/index.php">Schedule a Visit</a>
+        </div>
+    </div>
+</article>
+    
+	<article id="main-footer">
+		<div class="row">
+			<div class="small-12 columns footer-social">
+				<h3 class="hidden">FSU Social Media Links</h3>
+				<a class="icon facebook" href="http://www.facebook.com/FrostburgStateUniversity/">
+					<span class="hidden">FSU Facebook</span>
+				</a>
+				<a class="icon twitter" href="http://twitter.com/frostburgstate">
+					<span class="hidden">FSU Twitter</span>
+				</a>
+				<a class="icon youtube" href="http://www.youtube.com/frostburgstateuniversitymd">
+					<span class="hidden">FSU YouTube</span>
+				</a>
+				<a class="icon instagram" href="https://www.instagram.com/meetabobcat/">
+					<span class="hidden">FSU Instagram</span>
+				</a>
+				 <a href="https://www.linkedin.com/edu/school?id=18547&trk=hb_ntf_POSTED_ON_YOUR_SCHOOL_PAGE#conversation-wall" class="icon linkedin"><span class="hidden">FSU LinkedIn</span></a> 
+				<a class="icon mobile" href="http://www.frostburg.edu/computing/services/mobile/">
+					<span class="hidden">FSU FSU Mobile App</span>
+				</a>
+			</div>
+			<div class="medium-3 columns footer-contact">
+				<h3 class="hidden">FSU Location</h3>
+				<p>Frostburg State University
+                    
+					<br/>
+										101 Braddock Road
+                    
+					<br/>
+										Frostburg, MD 21532-2303
+                
+				</p>
+			</div>
+			<div class="medium-6 columns footer-links">
+				<h3 class="hidden">FSU Resource Links</h3>
+				<div class="row">
+					<div class="small-4 columns">
+						<ul>
+							<li>
+								<a href="/about-frostburg/emergency-information.php">Emergency</a>
+							</li>
+							<li>
+								<a href=" https://www.frostburg.edu/about-frostburg/visitor-resources.php">VISITOR RESOURCES</a>
+							</li>
+							<li>
+								 <a href="https://www.frostburg.edu/vte/?data-platform=v&data-inst=61397">Virtual Tour</a>   
+							</li>
+							<li>
+								<a href="/web-accessibility.php">Web Accessibility</a>
+							</li>
+						</ul>
+					</div>
+					<div class="small-4 columns">
+						<ul>
+							<li>
+								<a href="https://www.frostburg.edu/hea-student-consumer-information.php">Student Consumer Info</a>
+							</li>
+							<li>
+								<a href=" https://frostburg.peopleadmin.com/">Employment</a>
+							</li>
+							<li>
+								<a href="https://www.frostburg.edu/news/news-contact.php">Media Inquiries</a>
+							</li>
+							<li>
+								<a href="http://www.frostburg.edu/news/">News</a>
+							</li>
+						</ul>
+					</div>
+					<div class="small-4 columns">
+						<ul>
+							<li>
+								<a href="/university-directories.php">Directories and Maps</a>
+							</li>
+							<li>
+								<a href="https://www.frostburg.edu/site-feedback.php">Feedback</a>
+							</li>
+							<li>
+								<a href="HTTP://WWW.FROSTBURG.EDU/COMPUTING/PRIVACY/">Privacy</a>
+							</li>
+							<li>
+								<a href="/copyright-complaints.php">Copyright</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="medium-3 columns footer-last">
+				<h3 class="hidden">FSU Athletics Website</h3>
+				<a href="http://www.frostburgsports.com/">
+					<img alt="FSU paw logo" src="https://www.frostburg.edu/_files/images/FSU-logo-paw.png"/>
+				</a>
+			</div>
+		</div>
+	</article>
+
+</footer>    <div class="top-anchor">
+        <a href="#top">Top 
+            <i aria-hidden="true" class="fi-arrow-up"></i> 
+        </a>
+    </div> </div>
+</div>
+</div>
+
+<script src="https://www.frostburg.edu/_files/js/vendor/jquery.min.js"></script>
+<script src="https://www.frostburg.edu/_files/js/vendor/what-input.min.js"></script>
+<script src="https://www.frostburg.edu/_files/js/foundation.min.js"></script>
+<script src="https://www.frostburg.edu/_files/js/app.js"></script>
+<script src="https://www.frostburg.edu/_files/js/fsu-scripts.js"></script>
+<script type="text/javascript">
+var parts = location.hostname.split('.');
+if(parts[0] == 'beta' || parts[0] == 'www') {
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-94039965-1', 'auto');
+    ga('send', 'pageview');
+}
+</script>
+  <script type="text/javascript"> 
+    var _monsido = _monsido || []; 
+    _monsido.push(['_setDomainToken', 'xxbUpi_zjPwun46IxXttug']); 
+    _monsido.push(['_withStatistics', 'true']); 
+  </script> 
+  <script src="//cdn.monsido.com/tool/javascripts/monsido.js"></script>
+  <script async="async" defer="defer" src="https://www.youvisit.com/tour/Embed/js2"></script>
+
+<!-- Bottom Scripts -->
+
+</body>
+</html>

@@ -1,0 +1,866 @@
+<!DOCTYPE html>
+<html  lang="en-US">
+<head id="Head"><meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+<meta name="REVISIT-AFTER" content="1 DAYS" />
+<meta name="RATING" content="GENERAL" />
+<meta name="RESOURCE-TYPE" content="DOCUMENT" />
+<meta content="text/javascript" http-equiv="Content-Script-Type" />
+<meta content="text/css" http-equiv="Content-Style-Type" />
+<title>
+	ARPANET and the Origins of the Internet
+</title><meta id="MetaRobots" name="ROBOTS" content="INDEX, FOLLOW" /><link href="https://www.darpa.mil/Resources/Shared/stylesheets/dnndefault/7.0.0/default.css?cdv=195" type="text/css" rel="stylesheet"/><link href="https://www.darpa.mil/Portals/_default/Skins/DDM/skin.css?cdv=195" type="text/css" rel="stylesheet"/><link href="https://www.darpa.mil/Portals/0/portal.css?cdv=195" type="text/css" rel="stylesheet"/><script src="https://www.darpa.mil/Resources/libraries/jQuery/03_02_01/jquery.js?cdv=195" type="text/javascript"></script><script src="https://www.darpa.mil/Resources/libraries/jQuery-Migrate/03_00_00/jquery-migrate.js?cdv=195" type="text/javascript"></script><script src="https://www.darpa.mil/Resources/libraries/jQuery-UI/01_12_01/jquery-ui.js?cdv=195" type="text/javascript"></script><script type='text/javascript'>
+//<![CDATA[
+    var analytics_page_startTime = (new Date()).getTime();
+//]]>
+</script>
+<link rel="alternate" type="application/rss+xml" title="DARPA RSS Feed" href="https://www.darpa.mil/rss" /><meta name="ContentType" content="Other" /><meta name="image" content="/DDM_Gallery/1969a_ARPANET_619x316_thumb.jpg" /><meta name="Topic" content="Communications" /><meta name="Topic" content="Cyber" /><meta name="Topic" content="History" /><meta name="Topic" content="Networking" /><meta name="Topic" content="Tech-Foundations" /><meta name="image" content="/DDM_Gallery/1969a_ARPANET_full_thumb.jpg" /></head>
+<body id="Body">
+    
+    <form method="post" action="arpanet" id="Form" enctype="multipart/form-data">
+<div class="aspNetHidden">
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['Form'];
+if (!theForm) {
+    theForm = document.Form;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="https://www.darpa.mil/WebResource.axd?d=pynGkmcFUV3t68n3v3qYqvlACpXidVJwSR2g9mQaLcFxKKYvJho5s4vLWercxsNJ3BCVDAOKhX41&amp;t=636768332402700171" type="text/javascript"></script>
+
+<script> $( document ).ready(function() {   $("#content__wrapper").removeClass("sidebar-second") ;  });  </script>
+<script src="https://www.darpa.mil/ScriptResource.axd?d=NJmAwtEo3Iq7sN45EmeXiqfZ0keQws3XYwgN1IYfA8CcGqcQ-4BmSCkeXuDmcwmE0JZYeKAJ0TlQYN4Xq-ZKKwrmRw3e1liFSq0wwN0w-zo7b22Bcj2e25pTV5cgRl0NQ8juDCao68eUyEC-5iZG6A2&amp;t=2b48f70a" type="text/javascript"></script>
+<script src="https://www.darpa.mil/ScriptResource.axd?d=dwY9oWetJoKyPilIONACX5q3AVHMGJHKwtn3taNDXfgMEhjySLCn4ap3bPunmu__vy5o0LMIDFgQBoismhqVTEF-SfKI0bmYGel807wQw1vRW8qqsqf5kgzPTQv1xiN6EzbTGcKR7fg_j3Pm5wWvfVA6p7Hhy1vc0&amp;t=2b48f70a" type="text/javascript"></script>
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="CA0B0334" />
+	<input type="hidden" name="__VIEWSTATEENCRYPTED" id="__VIEWSTATEENCRYPTED" value="" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="qGTn+MMlfsoPfHj4piYTEgM6rxZu0H79n7N2jo7N1Qhy/h6e62z0qaa7W5ID/VVOSPUzH1pLnltMx+RAB6guOEotm9oUmyAhXtfawqaUdn5QxRjJXWO4CWXlHwQogVaq" />
+</div><script src="https://www.darpa.mil/js/dnn.js?cdv=195" type="text/javascript"></script><script src="https://www.darpa.mil/js/dnn.modalpopup.js?cdv=195" type="text/javascript"></script><script src="https://www.darpa.mil/Portals/_default/Skins/DDM/js/jquery.mobile.custom.min.js?cdv=195" type="text/javascript"></script><script src="https://www.darpa.mil/Portals/_default/Skins/DDM/js/jquery.sidr.min.js?cdv=195" type="text/javascript"></script><script src="https://www.darpa.mil/Portals/_default/Skins/DDM/js/jquery.flexslider-min.js?cdv=195" type="text/javascript"></script><script src="https://www.darpa.mil/Portals/_default/Skins/DDM/js/sticky-nav.js?cdv=195" type="text/javascript"></script><script src="https://www.darpa.mil/Portals/_default/Skins/DDM/js/picturefill.min.js?cdv=195" type="text/javascript"></script><script src="https://www.darpa.mil/Portals/_default/Skins/DDM/js/html5.js?cdv=195" type="text/javascript"></script><script src="https://www.darpa.mil/Portals/_default/Skins/DDM/js/html5-respond.js?cdv=195" type="text/javascript"></script><script src="https://www.darpa.mil/Portals/_default/Skins/DDM/js/skiplinks.js?cdv=195" type="text/javascript"></script><script src="https://www.darpa.mil/Portals/_default/Skins/DDM/js/scripts.js?cdv=195" type="text/javascript"></script><script src="https://www.darpa.mil/js/dnncore.js?cdv=195" type="text/javascript"></script><script src="https://www.darpa.mil/DesktopModules/DNNCorp/EvoqContentLibrary/ClientScripts/dnn.analytics.Injected.js?cdv=195" type="text/javascript"></script><script src="https://www.darpa.mil/js/dnn.servicesframework.js?cdv=195" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('ScriptManager', 'Form', [], [], [], 90, '');
+//]]>
+</script>
+
+        
+        
+        
+
+<!--Innerpage type two  -->
+<!-- Mislocated meta tags  -->
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<!--googleoff: index--><!--stopindex--> 
+<div style="clear:both;"></div>
+<!-- HeaderPane  -->
+<div id="dnn_HeaderPane">
+<div class="DnnModule DnnModule-DDMFrontEndPageHeader DnnModule-431"><a name="431"></a>
+<div class="DNNContainer_Title_h2 SpacingBottom">
+    <h2><span id="dnn_ctr431_dnnTITLE_titleLabel" class="TitleH2"> </span>
+
+
+</h2>
+    <div id="dnn_ctr431_ContentPane"><!-- Start_Module_431 --><div id="dnn_ctr431_ModuleContent" class="DNNModuleContent ModDDMFrontEndPageHeaderC">
+	
+
+<!-- my javascripts -->
+
+
+
+
+
+  
+
+
+
+
+
+
+
+<div class="header__wrapper" >
+
+
+<header id="header">
+<div  role="navigation">
+<div class="block--explore-topics">
+<div>
+    <div id="sidr__trigger" role="button">
+        <span class="sidr__trigger__burger"></span>
+        Explore by Tag
+    </div>
+</div>
+<div id="sidr">
+<div class="sidr__header">
+<div class="sidr__title">Explore by Tag</div>
+<div id="sidr__close"><a href="https://www.darpa.mil/#">X</a></div>
+</div>
+
+<ul><li><a href="https://www.darpa.mil/tag-list?tt=1">A2/AD</a></li><li><a href="https://www.darpa.mil/tag-list?tt=85">Adaptability</a></li><li><a href="https://www.darpa.mil/tag-list?tt=2">Administration</a></li><li><a href="https://www.darpa.mil/tag-list?tt=86">Agency</a></li><li><a href="https://www.darpa.mil/tag-list?tt=3">Air</a></li><li><a href="https://www.darpa.mil/tag-list?tt=4">Algorithms</a></li><li><a href="https://www.darpa.mil/tag-list?tt=104">Alternative Computing</a></li><li><a href="https://www.darpa.mil/tag-list?tt=74">Analytics</a></li><li><a href="https://www.darpa.mil/tag-list?tt=73">Artificial Intelligence</a></li><li><a href="https://www.darpa.mil/tag-list?tt=75">Automation</a></li><li><a href="https://www.darpa.mil/tag-list?tt=5">Autonomy</a></li><li><a href="https://www.darpa.mil/tag-list?tt=6">Bio-complexity</a></li><li><a href="https://www.darpa.mil/tag-list?tt=7">Bio-systems</a></li><li><a href="https://www.darpa.mil/tag-list?tt=8">BMC2</a></li><li><a href="https://www.darpa.mil/tag-list?tt=9">CBRN</a></li><li><a href="https://www.darpa.mil/tag-list?tt=10">Chemistry</a></li><li><a href="https://www.darpa.mil/tag-list?tt=98">Cognitive Science</a></li><li><a href="https://www.darpa.mil/tag-list?tt=11">Communications</a></li><li><a href="https://www.darpa.mil/tag-list?tt=12">Complexity</a></li><li><a href="https://www.darpa.mil/tag-list?tt=76">Contracts</a></li><li><a href="https://www.darpa.mil/tag-list?tt=13">Cost</a></li><li><a href="https://www.darpa.mil/tag-list?tt=14">Countermeasures</a></li><li><a href="https://www.darpa.mil/tag-list?tt=105">COVID-19</a></li><li><a href="https://www.darpa.mil/tag-list?tt=15">Cyber</a></li><li><a href="https://www.darpa.mil/tag-list?tt=16">Data</a></li><li><a href="https://www.darpa.mil/tag-list?tt=17">Decentralization</a></li><li><a href="https://www.darpa.mil/tag-list?tt=99">Design</a></li><li><a href="https://www.darpa.mil/tag-list?tt=18">Disease</a></li><li><a href="https://www.darpa.mil/tag-list?tt=19">Electronics</a></li><li><a href="https://www.darpa.mil/tag-list?tt=100">EM Waves</a></li><li><a href="https://www.darpa.mil/tag-list?tt=20">Energy</a></li><li><a href="https://www.darpa.mil/tag-list?tt=91">Events</a></li><li><a href="https://www.darpa.mil/tag-list?tt=21">EW</a></li><li><a href="https://www.darpa.mil/tag-list?tt=77">Finance</a></li><li><a href="https://www.darpa.mil/tag-list?tt=22">Forecasting</a></li><li><a href="https://www.darpa.mil/tag-list?tt=78">Formal</a></li><li><a href="https://www.darpa.mil/tag-list?tt=58">Fundamentals</a></li><li><a href="https://www.darpa.mil/tag-list?tt=92">Games</a></li><li><a href="https://www.darpa.mil/tag-list?tt=24">Globalization</a></li><li><a href="https://www.darpa.mil/tag-list?tt=25">Ground</a></li><li><a href="https://www.darpa.mil/tag-list?tt=26">Health</a></li><li><a href="https://www.darpa.mil/tag-list?tt=97">High Performance Computing</a></li><li><a href="https://www.darpa.mil/tag-list?tt=27">History</a></li><li><a href="https://www.darpa.mil/tag-list?tt=28">Imagery</a></li><li><a href="https://www.darpa.mil/tag-list?tt=29">Injury</a></li><li><a href="https://www.darpa.mil/tag-list?tt=30">Integration</a></li><li><a href="https://www.darpa.mil/tag-list?tt=89">Interface</a></li><li><a href="https://www.darpa.mil/tag-list?tt=31">ISR</a></li><li><a href="https://www.darpa.mil/tag-list?tt=32">Language</a></li><li><a href="https://www.darpa.mil/tag-list?tt=33">Launch</a></li><li><a href="https://www.darpa.mil/tag-list?tt=34">Leadership</a></li><li><a href="https://www.darpa.mil/tag-list?tt=35">Logistics</a></li><li><a href="https://www.darpa.mil/tag-list?tt=36">Manufacturing</a></li><li><a href="https://www.darpa.mil/tag-list?tt=37">Maritime</a></li><li><a href="https://www.darpa.mil/tag-list?tt=38">Materials</a></li><li><a href="https://www.darpa.mil/tag-list?tt=39">Math</a></li><li><a href="https://www.darpa.mil/tag-list?tt=40">Med-Devices</a></li><li><a href="https://www.darpa.mil/tag-list?tt=101">Metamaterials</a></li><li><a href="https://www.darpa.mil/tag-list?tt=41">Microchips</a></li><li><a href="https://www.darpa.mil/tag-list?tt=42">Microstructures</a></li><li><a href="https://www.darpa.mil/tag-list?tt=43">Microsystems</a></li><li><a href="https://www.darpa.mil/tag-list?tt=102">ML</a></li><li><a href="https://www.darpa.mil/tag-list?tt=44">Mobile</a></li><li><a href="https://www.darpa.mil/tag-list?tt=45">Munitions</a></li><li><a href="https://www.darpa.mil/tag-list?tt=46">Networking</a></li><li><a href="https://www.darpa.mil/tag-list?tt=47">Neuroscience</a></li><li><a href="https://www.darpa.mil/tag-list?tt=87">Opportunities</a></li><li><a href="https://www.darpa.mil/tag-list?tt=49">Photonics</a></li><li><a href="https://www.darpa.mil/tag-list?tt=50">PNT</a></li><li><a href="https://www.darpa.mil/tag-list?tt=90">Policy</a></li><li><a href="https://www.darpa.mil/tag-list?tt=79">Privacy</a></li><li><a href="https://www.darpa.mil/tag-list?tt=51">Processing</a></li><li><a href="https://www.darpa.mil/tag-list?tt=52">Programming</a></li><li><a href="https://www.darpa.mil/tag-list?tt=53">Quantum</a></li><li><a href="https://www.darpa.mil/tag-list?tt=54">Resilience</a></li><li><a href="https://www.darpa.mil/tag-list?tt=55">Restoration</a></li><li><a href="https://www.darpa.mil/tag-list?tt=56">Robotics</a></li><li><a href="https://www.darpa.mil/tag-list?tt=57">Satellites</a></li><li><a href="https://www.darpa.mil/tag-list?tt=80">SBIR</a></li><li><a href="https://www.darpa.mil/tag-list?tt=81">Security</a></li><li><a href="https://www.darpa.mil/tag-list?tt=59">Sensors</a></li><li><a href="https://www.darpa.mil/tag-list?tt=60">Space</a></li><li><a href="https://www.darpa.mil/tag-list?tt=82">Spectroscopy</a></li><li><a href="https://www.darpa.mil/tag-list?tt=61">Spectrum</a></li><li><a href="https://www.darpa.mil/tag-list?tt=62">SWAP</a></li><li><a href="https://www.darpa.mil/tag-list?tt=63">Syn-Bio</a></li><li><a href="https://www.darpa.mil/tag-list?tt=64">Systems</a></li><li><a href="https://www.darpa.mil/tag-list?tt=65">Targeting</a></li><li><a href="https://www.darpa.mil/tag-list?tt=67">Tech-Foundations</a></li><li><a href="https://www.darpa.mil/tag-list?tt=88">Testimony</a></li><li><a href="https://www.darpa.mil/tag-list?tt=66">Therapy</a></li><li><a href="https://www.darpa.mil/tag-list?tt=68">Thermal </a></li><li><a href="https://www.darpa.mil/tag-list?tt=69">Training</a></li><li><a href="https://www.darpa.mil/tag-list?tt=70">Transition</a></li><li><a href="https://www.darpa.mil/tag-list?tt=83">Trust</a></li><li><a href="https://www.darpa.mil/tag-list?tt=103">Uncertainty</a></li><li><a href="https://www.darpa.mil/tag-list?tt=71">Unmanned</a></li><li><a href="https://www.darpa.mil/tag-list?tt=84">Visualization</a></li></ul>
+
+
+</div>
+</div>
+<div class="logo"><a href="https://www.darpa.mil/" title="Defense Advanced Research Projects Agency" id="logo" rel="home"><span class="logo__image"></span><span class="logo__text element-invisible">Defense Advanced<br />
+Research Projects Agency</span></a></div>
+<div class="menu--main-menu" id="menu--main-menu">
+<div class="sidr__header">
+<div class="sidr__title">Main Menu</div>
+<div id="sidr--main-menu__close"><a href="https://www.darpa.mil/#">X</a></div>
+</div>
+
+<div class="search__box" id="search__box" > 
+    <input name="search" id="menusearchinput" type="text" />
+    <input type="submit" id="menusearchbtn" value="search" />
+</div>
+
+<script>
+
+    $('#menusearchbtn, #sidr-id-menusearchbtn').click(function () {
+        var search_text = $('#menusearchinput').val();
+        var search_text2 = $('#sidr-id-menusearchinput').val();
+        if (search_text2.length > 0) search_text = search_text2;
+        window.location = "https://search.darpa.mil/?query=" + search_text + "&facet.field=ContentType&facet.field=Topic&facet.field=FileType&facet.field=Offices&page=1&pagesize=10";
+    
+    return false;
+}
+)
+</script>
+
+
+
+
+<ul>
+    <li class="first"><a>About Us</a>
+    <ul>
+        <li class="first"><a href="https://www.darpa.mil/about-us/about-darpa">About DARPA</a></li>
+        <li><a href="https://www.darpa.mil/about-us/people">People</a></li>
+        <li><a href="https://www.darpa.mil/about-us/offices">Offices</a></li>
+        <li><a href="https://www.darpa.mil/Timeline/index.html" >Innovation Timeline</a></li>
+        <li><a href="https://www.darpa.mil/about-us/testimony">Testimony</a></li>
+        <li><a href="https://www.darpa.mil/about-us/budget">Budget</a></li>
+        <li class="last"><a href="https://www.darpa.mil/about-us/image-gallery">Image Gallery</a></li>
+    </ul>
+    </li>
+    <li class="menu--main-menu-seperator" role="separator">/</li>
+    <li><a href="https://www.darpa.mil/our-research">Our Research</a></li>
+    <li class="menu--main-menu-seperator" role="separator">/</li>
+    <li><a href="https://www.darpa.mil/news">News</a></li>
+    <li class="menu--main-menu-seperator" role="separator">/</li>
+    <li><a href="https://www.darpa.mil/events">Events</a></li>
+    <li class="menu--main-menu-seperator" role="separator">/</li>
+    <li><a>Work With Us</a>
+    <ul>
+        <li class="first"><a href="https://www.darpa.mil/work-with-us/opportunities">Opportunities</a></li>
+        <li><a href="https://www.darpa.mil/work-with-us/new-program-managers">New Program Managers</a></li> 
+        <li><a href="https://www.darpa.mil/work-with-us/contract-management">Contract Management</a></li>
+        <li><a href="https://www.darpa.mil/work-with-us/for-industry">For Industry</a></li>
+        <li><a href="https://www.darpa.mil/work-with-us/for-small-businesses">For Small Businesses</a></li>
+        <li><a href="https://www.darpa.mil/work-with-us/for-universities">For Universities</a></li>
+        <li><a href="https://www.darpa.mil/work-with-us/for-government-and-Military">For Government and Military</a></li>
+        <li><a href="https://www.darpa.mil/work-with-us/employment-at-darpa">Employment at DARPA</a></li>
+        <li class="last"><a href="https://www.darpa.mil/policy/visitor-information">Visitor Information</a></li>
+    </ul>
+    </li>
+    <li class="menu--main-menu-seperator">/</li>
+    <li class="last menu--main-menu__search"><a  id="search-toggle">Search</a></li>
+</ul>
+</div>
+</div>
+</header>
+
+</div>
+
+<!-- ------------------ Mobile Toggles ------------------------------------  -->  	
+<DIV class="mobile-toggles nav" role="complementary" aria-label="toggles" >
+	<A id="mobile-toggles__main-menu-trigger" href="https://www.darpa.mil/#">
+		<SPAN class="mobile-toggles__icon"></SPAN>Main Menu</A>       
+	<A id="mobile-toggles__explore-topics-trigger" href="https://www.darpa.mil/#">
+		<SPAN class="mobile-toggles__icon"></SPAN>Explore by Tag</A>
+</DIV>
+</div><!-- End_Module_431 --></div>
+	<div class="clear"></div>
+</div>
+</div></div>
+
+<!-- MobileTogglesPane  -->
+<div id="dnn_MobileTogglesPane" class="DNNEmptyPane">
+</div>
+
+<div style="clear:both;"></div>
+<div id="content__wrapper" class="not-front sidebar-second" role="main">
+
+    <span id="dnn_dnnBREADCRUMB_lblBreadCrumb" itemprop="breadcrumb" itemscope="" itemtype="https://schema.org/breadcrumb"><span itemscope itemtype="http://schema.org/BreadcrumbList"><span itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a href="https://www.darpa.mil/" class="breadcrumb__item breadcrumb__link" itemprop="item"><span itemprop="name">Defense Advanced Research Projects Agency</span></a><meta itemprop="position" content="1" /></span><span class='breadcrumb__item breadcrumb__seperator' ></span><span itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a href="https://www.darpa.mil/about-us" class="breadcrumb__item breadcrumb__link" itemprop="item"><span itemprop="name">About Us</span></a><meta itemprop="position" content="2" /></span></span></span>
+
+    <div style="clear:both;"></div>
+    <!-- ContentPane  -->
+    <!--googleon: index--><!--startindex--> 
+    <div id="dnn_ContentPane"> <div class="DnnModule DnnModule-DDMFrontEndDispItemDetail DnnModule-561"><a name="561"></a>
+<div class="DNNContainer_Title_h2 SpacingBottom">
+    <h2><span id="dnn_ctr561_dnnTITLE_titleLabel" class="TitleH2"> </span>
+
+
+</h2>
+    <div id="dnn_ctr561_ContentPane"><!-- Start_Module_561 --><div id="dnn_ctr561_ModuleContent" class="DNNModuleContent ModDDMFrontEndDispItemDetailC">
+	
+
+
+<section id="prefix">
+    
+  </section>
+
+  <section id="content">
+
+    <div class="region--content">
+      <div class="region--content__inner">
+
+        <div id="dnn_ctr561_DispItemDetail_divDetail" class="detail">
+
+          <div class="detail__header has-thumbnail" >
+
+            <div class="detail__header__left" >
+                <div id="dnn_ctr561_DispItemDetail_div_detail_header__thumbnail" class="detail__header__thumbnail">  <!--  -->
+                    
+                </div>
+            </div>
+
+            <div class="detail__header__right" >
+
+                <h1 id="dnn_ctr561_DispItemDetail_h1_detail__header" class="detail__title">ARPANET</h1>               <!--  -->
+
+                <span id="dnn_ctr561_DispItemDetail_myOfficeRoles_myRolesGoHere"></span>
+
+                                
+
+
+
+
+
+                <h2 id="dnn_ctr561_DispItemDetail_h2_detail__subtitle" class="detail__subtitle"></h2>          <!--   -->
+                <div id="dnn_ctr561_DispItemDetail_div_detail__positionOffice" class="detail__position-office"> <!--  -->
+                </div>
+
+                <div id="dnn_ctr561_DispItemDetail_div_detail__date" class="detail__date"></div>               <!--  -->
+                <div id="dnn_ctr561_DispItemDetail_div_detail_time" class="detail_time"></div>                 <!--  -->
+                <div id="dnn_ctr561_DispItemDetail_div_detail__location" class="detail__location"></div>       <!--  -->
+                <div id="dnn_ctr561_DispItemDetail_div_detail__address" class="detail__address"></div>         <!--  -->
+                                  <!--  -->
+           </div>
+           
+
+            
+
+
+
+          </div>
+
+          <div class="detail__content">
+            <div class="detail__image-caption-container">
+              <div id="dnn_ctr561_DispItemDetail_div_detail__image" class="detail__image">
+                  <img src="https://www.darpa.mil/DDM_Gallery/1969a_ARPANET_619x316.jpg" id="dnn_ctr561_DispItemDetail_img_detail__image" alt="ARPANET and the Origins of the Internet" />
+              </div>         <!--  -->
+              <div id="dnn_ctr561_DispItemDetail_div_detail__caption" class="detail__caption"></div>                                <!--  -->
+            </div>
+
+            <div id="dnn_ctr561_DispItemDetail_div_detail__body" class="detail__body">ARPA research played a central role in launching the &ldquo;Information Revolution,&rdquo; including developing or furthering much of the conceptual basis for ARPANET, a pioneering network for sharing digital resources among geographically separated computers. Its initial demonstration in 1969 led to the Internet, whose world-changing consequences unfold on a daily basis today. A seminal step in this sequence took place in 1968 when ARPA contracted BBN Technologies to build the first routers, which one year later enabled ARPANET to become operational.</div>
+
+          </div>
+
+        </div>
+          
+
+         
+        <div class="listing__header listing__header--bluebox ">
+        <a name="Tags" ></a>
+        <h2 class="listing__title--bluebox">Tags</h2>  
+        </div>
+        
+
+
+<!-- need a horizontal datalist control so that tag values can be bound to the anchor tag with the id of the tag -->
+
+<div class="listing__tags detail__tags"><span class="listing__tag-item listing__tag-seperator">|</span>
+    <a href="https://www.darpa.mil/tag-list?tt=11" 
+        title="Communications and Networks"" 
+        class="listing__tag-item listing__tag-link">Communications</a>        
+    <span class="listing__tag-item listing__tag-seperator">|</span>
+    
+    <a href="https://www.darpa.mil/tag-list?tt=15" 
+        title="Cyber"" 
+        class="listing__tag-item listing__tag-link">Cyber</a>        
+    <span class="listing__tag-item listing__tag-seperator">|</span>
+    
+    <a href="https://www.darpa.mil/tag-list?tt=27" 
+        title="DARPA History"" 
+        class="listing__tag-item listing__tag-link">History</a>        
+    <span class="listing__tag-item listing__tag-seperator">|</span>
+    
+    <a href="https://www.darpa.mil/tag-list?tt=46" 
+        title="Network Technology"" 
+        class="listing__tag-item listing__tag-link">Networking</a>        
+    <span class="listing__tag-item listing__tag-seperator">|</span>
+    
+    <a href="https://www.darpa.mil/tag-list?tt=67" 
+        title="Foundational Strategic Technologies and Systems"" 
+        class="listing__tag-item listing__tag-link">Tech-Foundations</a>        
+    <span class="listing__tag-item listing__tag-seperator">|</span>
+    </div>                                  
+
+            
+        <p>&nbsp;</p>
+  
+        
+          
+          
+        
+                  
+
+        <a name="OfficeProgramsList" ></a>
+        
+  
+        <a name="OfficesList" ></a>
+        
+                 
+
+        <a name="RelatedItems" ></a>
+        <div>
+            
+            <div id="dnn_ctr561_DispItemDetail_myRelatedContent_dRelated" class="related-content  listing__header--bluebox">
+          <h2 class="listing__title--bluebox">Similarly&nbsp;&nbsp;&nbsp;&nbsp;Tagged&nbsp;&nbsp;&nbsp;&nbsp;Content</h2>
+          <table id="dnn_ctr561_DispItemDetail_myRelatedContent_dlItems" cellspacing="0" style="border-collapse:collapse;">
+		<tr>
+			<td>
+                  <a href="https://www.darpa.mil/about-us/timeline/the-mother-of-all-demos" id="dnn_ctr561_DispItemDetail_myRelatedContent_dlItems_itemLink_0">Mother of all Demos</a>
+              </td>
+		</tr><tr>
+			<td>
+                  <a href="https://www.darpa.mil/about-us/timeline/nls" id="dnn_ctr561_DispItemDetail_myRelatedContent_dlItems_itemLink_1">oN-Line System</a>
+              </td>
+		</tr><tr>
+			<td>
+                  <a href="https://www.darpa.mil/about-us/timeline/modern-internet" id="dnn_ctr561_DispItemDetail_myRelatedContent_dlItems_itemLink_2">Paving the Way to the Modern Internet</a>
+              </td>
+		</tr><tr>
+			<td>
+                  <a href="https://www.darpa.mil/about-us/timeline/mouse" id="dnn_ctr561_DispItemDetail_myRelatedContent_dlItems_itemLink_3">First Computer Mouse</a>
+              </td>
+		</tr><tr>
+			<td>
+                  <a href="https://www.darpa.mil/about-us/timeline/ipto" id="dnn_ctr561_DispItemDetail_myRelatedContent_dlItems_itemLink_4">Information Processing Techniques Office </a>
+              </td>
+		</tr>
+	</table>
+        </div>
+          
+        </div>
+
+       <div id="dnn_ctr561_DispItemDetail_divMedia" class="grid--images grid">
+           <a name="Images" ></a>
+           <div class="listing__header listing__header--bluebox">
+               <h2 class="listing__title--bluebox">Images</h2>
+           </div>
+             
+       <ul class="grid__list">
+   
+
+           <li class="grid__item" style="height:325px">
+              <div class="grid__link">
+                <a href="https://www.darpa.mil/ddm_gallery/1969a_ARPANET_full.jpg" target="_blank">
+                  <div class="grid__thumbnail">
+                    <img alt="ARPANET and the Origins of the Internet" src="https://www.darpa.mil/ddm_gallery/1969a_ARPANET_full_thumb.jpg"/>
+                  </div>
+                </a>
+                <a href="arpanet">
+                  <div class="grid__headline">ARPANET and the Origins of the Internet</div>
+                </a>
+              </div>
+              <div class="grid__credit"></div>
+              <div class="grid__tags">
+                
+              </div>
+            </li>
+
+        
+        </ul>
+    
+
+
+
+
+
+
+          
+       </div>
+
+        
+
+      </div>
+    </div>
+
+  </section>
+
+
+  <aside class="region-sidebar-second">
+
+    <div>
+        
+    </div>
+
+    
+      
+      
+
+    <div>
+        
+    </div>
+
+    <div>
+        
+    </div>
+
+    <div>
+        
+    </div>
+
+   <div>
+        
+    </div>
+
+
+  </aside>
+
+
+
+
+
+
+</div><!-- End_Module_561 --></div>
+	<div class="clear"></div>
+</div>
+</div></div>
+    <!--googleoff: index--><!--stopindex--> 
+</div>
+
+
+<!--  Back to top for narrow screens    -->
+<div class="region--back-to-top" role="complementary" aria-label="backtotop">
+    <div class="region--back-to-top__inner">
+        <a href="arpanet#"><span>Back To Top</span></a>
+    </div>
+</div>
+
+<div style="clear:both;"> </div>
+<!-- FooterPane  -->
+<div id="dnn_FooterPane">
+<div class="DnnModule DnnModule-DDMFrontEndPageFooter DnnModule-430"><a name="430"></a>
+<div class="DNNContainer_Title_h2 SpacingBottom">
+    <h2><span id="dnn_ctr430_dnnTITLE_titleLabel" class="TitleH2"> </span>
+
+
+</h2>
+    <div id="dnn_ctr430_ContentPane"><!-- Start_Module_430 --><div id="dnn_ctr430_ModuleContent" class="DNNModuleContent ModDDMFrontEndPageFooterC">
+	<div id="dnn_ctr430_PageFoot_divPrintMe" class="footer__inner">
+<div id="divPrintBtn" role="complementary" aria-label="print">
+    <ul>
+    <li class="sharing__item first"><a  href="javascript:window.print()">
+        <span class="sharing__print-icon"></span>Print</a></li>
+    </ul>
+    <p>&nbsp;</p>
+</div></div>
+
+
+
+<!-- ------------------ Achievements  ------------------------------------  -->	
+<div style="clear: both;" ></div>
+
+<div id="dnn_ctr430_PageFoot_ucAccomplishments_divAchevements" class="region--below-bottom" role="complementary" aria-label="history">
+  <div class="region--below-bottom__inner">
+
+    <div class="achievements" id="divAchievments">
+      <h2 class="block__title">Selected DARPA Achievements</h2>
+
+
+
+
+        <div class="achievements__item">
+        <div class="achievements__link">
+        <a href="https://www.darpa.mil/about-us/timeline/darpas-stealth-revolution">
+        <div id="dnn_ctr430_PageFoot_ucAccomplishments_rptAchevements_divAchThumb_0" class="achievements__thumbnail"><img alt="DARPA collaborated with industry on stealth technology."
+                                                src="https://www.darpa.mil/DDM_Gallery/Rise&#32;of&#32;Stealth&#32;Technology.png"/>
+        </div>
+        DARPA’s Stealth Revolution
+        </a>
+        </div>
+        <div class="achievements__copy">
+        <!--Under a code-word program, &ldquo;HAVE BLUE,&rdquo; two aircraft of unprecedented design were built and then, in April 1977, flown successfully.-->
+In the early days of DARPA&rsquo;s work on stealth technology, Have Blue, a prototype of what would become the F-117A, first flew successfully in 1977. The success of the F-117A program marked the beginning of the stealth revolution, which has had enormous benefits for national security.
+        </div>
+        </div>
+
+        
+        <div class="achievements__item">
+        <div class="achievements__link">
+        <a href="https://www.darpa.mil/about-us/timeline/navigation">
+        <div id="dnn_ctr430_PageFoot_ucAccomplishments_rptAchevements_divAchThumb_1" class="achievements__thumbnail"><img alt="DARPA microelectronics gave rise to today's GPS devices. "
+                                                src="https://www.darpa.mil/DDM_Gallery/GPS&#32;in&#32;Your&#32;Hand.png"/>
+        </div>
+        Navigation in the Palm of Your Hand
+        </a>
+        </div>
+        <div class="achievements__copy">
+        Early GPS receivers were bulky, heavy devices. In 1983, DARPA set out to miniaturize them, leading to a much broader adoption of GPS capability.
+        </div>
+        </div>
+
+        
+        <div class="achievements__item">
+        <div class="achievements__link">
+        <a href="https://www.darpa.mil/about-us/timeline/modern-internet">
+        <div id="dnn_ctr430_PageFoot_ucAccomplishments_rptAchevements_divAchThumb_2" class="achievements__thumbnail"><img alt="First rough conceptual design of the ARPANET."
+                                                src="https://www.darpa.mil/DDM_Gallery/(8G)&#32;Origins&#32;of&#32;the&#32;ARPANETa.png"/>
+        </div>
+        Paving the Way to the Modern Internet
+        </a>
+        </div>
+        <div class="achievements__copy">
+        ARPA research played a central role in launching the Information Revolution. The agency developed and furthered much of the conceptual basis for the ARPANET&mdash;prototypical communications network launched nearly half a century ago&mdash;and invented the digital protocols that gave birth to the Internet.
+        </div>
+        </div>
+
+        
+
+
+    </div>
+  </div>
+</div>
+
+<!-- ------------------ footer  ------------------------------------  -->	
+
+
+<div style="clear: both;" ></div>
+
+<FOOTER id="footer">
+
+<div class="footer__inner">
+	
+<div class="menu--sitemap--news-events menu--sitemap">
+    <UL>
+      <LI class="first last"><a href="https://www.darpa.mil/work-with-us/covid-19-guidance">COVID-19 Guidance USD(R&E)</a></LI></UL>    
+</div>
+</div>
+<div style="clear: both;" ></div>
+
+<div class="footer__inner">
+
+<div class="menu--sitemap--about menu--sitemap">
+<UL>
+    <li class="first"> About Us </li>
+    <li ><a href="https://www.darpa.mil/about-us/about-darpa">About DARPA</a></li>
+    <li><a href="https://www.darpa.mil/about-us/people">People</a></li>
+    <li><a href="https://www.darpa.mil/about-us/offices">Offices</a></li>
+    <li><a href="https://www.darpa.mil/Timeline/index.html" >Innovation Timeline</a></li>
+    <li><a href="https://www.darpa.mil/about-us/testimony">Testimony</a></li>
+    <li><a href="https://www.darpa.mil/about-us/budget">Budget</a></li>
+    <li><a href="https://www.darpa.mil/about-us/darpa-history-and-timeline">History list page</a></li>
+    <li class="last"><a href="https://www.darpa.mil/about-us/image-gallery">Image Gallery</a></li>
+</UL>
+</div>
+
+<div class="menu--sitemap--news-events menu--sitemap">
+    <UL>
+      <LI class="first last"><a href="https://www.darpa.mil/our-research">Our Research</a></LI></UL>    
+    <UL>
+      <LI class="first last"><a href="https://www.darpa.mil/opencatalog">Open Catalog</a></LI></UL>
+    <UL>
+      <LI class="first last"><a href="https://www.darpa.mil/news">News</a></LI>
+    </UL>
+    <UL>
+      <LI class="first last"><a href="https://www.darpa.mil/events">Events</a></LI>
+    </UL>
+</div>
+
+<div class="menu--sitemap--work menu--sitemap">
+    <UL>
+      <LI class="first">Work With Us</LI>
+      <LI><a href="https://www.darpa.mil/work-with-us/opportunities">Opportunities</a></LI>
+      <LI><a href="https://www.darpa.mil/work-with-us/new-program-managers">New Program Managers</a></LI>
+      <LI><a href="https://www.darpa.mil/work-with-us/contract-management">Contract Management</a></LI>
+      <LI><a href="https://www.darpa.mil/work-with-us/for-industry">For Industry</a></LI>
+      <LI><a href="https://www.darpa.mil/work-with-us/for-small-businesses">For Small Businesses</a></LI>
+      <LI><a href="https://www.darpa.mil/work-with-us/for-universities">For Universities</a></LI>
+      <LI><a href="https://www.darpa.mil/work-with-us/for-government-and-military">For Government and Military</a></LI>
+      <LI class="last"><a href="https://www.darpa.mil/work-with-us/employment-at-darpa">Employment at DARPA</a></LI>
+    </UL>
+</div>
+
+<div class="menu--sitemap--info menu--sitemap">
+    <UL>
+      <LI class="first">Site Info</LI>
+      <LI><A href="https://www.darpa.mil/sitemap">Sitemap</A></LI>
+      <LI class="last"><A href="https://www.darpa.mil/policy/cookie-disclaimer">Cookie Disclaimer</A></LI>
+    </UL>
+</div>
+
+<div class="menu--sitemap--policy menu--sitemap">
+    <UL>
+      <LI class="first">Web Policy</LI>
+      <LI><a href="https://www.darpa.mil/policy/privacy-policy">Privacy Policy</a></LI>
+      <LI><a  href="http://dodcio.defense.gov/DoDSection508/Std_Stmt.aspx" target="_blank">Accessibility/Section   508</a></LI>
+      <LI><a href="https://www.darpa.mil/policy/no-fear-act">No Fear Act</a></LI>
+      <LI><a href="https://www.darpa.mil/work-with-us/whistleblower-protection">Whistleblower Protection Act</a></LI>
+      <LI><a href="https://www.darpa.mil/policy/usage-policy">Usage Policy</a></LI>
+      <LI class="last"><a href="http://www.dodig.mil/Components/Administrative-Investigations/DoD-Hotline/">DoD Hotline</a></LI>
+    </UL>
+</div>
+
+<div class="menu--footer-utility">
+    <UL>
+      <LI class="first"><a href="http://usa.gov">USA.gov</a></LI>
+      <LI>/</LI>
+      <LI><a href="https://www.darpa.mil/policy/foia">Freedom of Information Act</a></LI>
+      <LI>/</LI>
+      <LI><a href="https://www.darpa.mil/policy/privacy-and-civil-liberties">Privacy and Civil Liberties</a></LI>
+      <LI>/</LI>
+      <LI><a href="https://www.darpa.mil/policy/visitor-information">Visitor Information</a></LI>
+      <LI>/</LI>
+      <LI class="last"><a href="https://contact.darpa.mil/contact">Contact Us</a></LI>
+    </UL>
+</div>
+
+<div class="block--social-media">
+    <UL>
+      <LI class="twitter"><A href="https://twitter.com/darpa" class="external" rel='noopener'><span class="element-invisible">Twitter</span></A></LI>
+      <LI class="facebook"><A href="https://www.facebook.com/darpa" class="external" rel='noopener'><span class="element-invisible">Facebook</span></A></LI>
+      <LI class="youtube"><A href="https://www.youtube.com/DARPAtv" class="external" rel='noopener'><span class="element-invisible">YouTube</span></A></LI>
+      <LI class="instagram"><A href="https://www.instagram.com/darpa/" class="external" rel='noopener'><span class="element-invisible">Instagram</span></A></LI>
+      <LI class="linkedin"><A href="https://www.linkedin.com/company/darpa" class="external" rel='noopener'><span class="element-invisible">Linked In</span></A></LI>
+      <LI class="rss"><A href="https://www.darpa.mil/rss"><span class="element-invisible">RSS</span></A></LI>
+    </UL>
+</div>
+
+<div class="block--address">
+    <ADDRESS><STRONG>Defense Advanced Research Projects Agency</STRONG> 675 North Randolph Street<BR> Arlington, VA 22203-2114<BR>
+        <A href="tel:+17035266630">703.526.6630</A> 
+    </ADDRESS>
+</div>
+    
+        <!--
+<div class="block--email-signup">
+
+<H2 class="block__title">Sign Up For Email Alerts</H2>
+    <!-- FORM action="#" -->   <!-- Multipule form tags in a page are an issue - ->
+        <LABEL for="email-signup-email">Email Address</LABEL><INPUT id="email-signup-email" type="text"> 
+            <INPUT type="submit" value="SUBMIT">
+
+    <!-- /FORM - ->
+</div> -->
+<div class="block--byline">
+    <P>This is an official U.S. Department of Defense website sponsored by the 
+    Defense Advanced Research Projects 
+    Agency.</P>
+</div>
+
+</div>
+</FOOTER>
+
+
+<style>
+#overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #FFF;
+  color: #000;
+  /*filter: alpha(opacity=80);
+  -moz-opacity: 0.80;
+  -khtml-opacity: 0.80;
+  opacity: .80;*/
+
+  background: rgba(0, 0, 0, .4);
+
+  padding:15px;
+  z-index: 1000;
+  display: none;
+}
+
+
+.leavingbox {
+
+    padding: 20px;
+    margin-top:20px; 
+    margin-right:auto; 
+    margin-bottom:0; 
+    margin-left:auto;
+
+    width: 95%;
+    max-width: 700px;
+
+    max-height: 400px;
+
+    overflow: auto;
+
+    border: 1px solid #000000;
+    background-color: #ffffff;
+    color: #000;
+ 
+    z-index: 1001;
+}
+
+.leavingbox p {
+    font-size: 1.2em;
+  /*line-height: 24px;    */
+
+}
+
+</style>
+
+
+<div id="overlay">
+
+<div class="leavingbox">
+
+<p>You are now leaving the DARPA.mil website that is under the control and 
+	management of DARPA. The appearance of hyperlinks does not constitute 
+	endorsement by DARPA of non-U.S. Government sites or the information, 
+	products, or services contained therein. Although DARPA may or may not 
+	use these sites as additional distribution channels for Department of 
+	Defense information, it does not exercise editorial control over all of 
+	the information that you may find at these locations. Such links are 
+	provided consistent with the stated purpose of this website.
+</p>
+<br/>
+
+<p>After reading this message, click <span id=goto_link></span> &nbsp;to continue 
+immediately.
+</p>
+
+<p>
+    <a id="back" href="arpanet#">Go Back</a>
+</p>
+</div>
+</div>
+
+<script  type="text/javascript" >
+    var leaving_timeout;
+
+
+    $(document).ready(function () {
+
+        //set the click action for the back button on the leaving window.
+        $('#back').click(function () {
+            cancelLeaving(); //cancel leaving, user clicks 'back'
+            return false; //don't actually follow the link
+        });
+
+        //for any links with the 'external' class, set the click event
+        $('a.external').click(function (ev) {
+            //prevent the default action of the event, this will stop the href in the anchor being followed
+            //before the animation has started, u can also use return false;
+            ev.preventDefault();
+            //stop any actions if a new link is clicked.
+            cancelLeaving();
+            //store a reference to the anchor tag
+            var $self = $(this);
+            showLeavingMessage($self);
+
+            leaving_timeout = setTimeout(function () { leave($self); }, 15000); //leave in 15 seconds
+        });
+
+
+    });//end $(document).ready(function () {
+
+
+    function leave(leavingLink) {
+        //open an external link
+        window.open(leavingLink.attr('href'));
+        cancelLeaving(); //cancel leaving, user has left.
+    }
+
+    function showLeavingMessage(leavingLink) {
+        //show the leaving message
+        $('#goto_link').html("<a href='https://www.darpa.mil/about-us/timeline/&quot;&#32;+&#32;leavingLink.attr('href') + "' target='_bl' rel='noopener' onclick='cancelLeaving();'>" + leavingLink.attr('href') + "</a>");
+        //$("body").css("background-color", "grey");
+        $('#overlay').show();
+
+    }
+
+    function cancelLeaving() {
+        //cancel leaving.  hide the leaving box
+        clearTimeout(leaving_timeout); //if the timer is set to leave in 15 seconds, this will cancel it.
+        $('#overlay').hide();
+      }
+
+</script>
+</div><!-- End_Module_430 --></div>
+	<div class="clear"></div>
+</div>
+</div></div>
+
+ <script>
+        $(document).ready(function() {
+            $('body').addClass('not-front');
+        });
+</script>
+<!--googleon: index--><!--startindex--> 
+
+        <input name="ScrollTop" type="hidden" id="ScrollTop" />
+        <input name="__dnnVariable" type="hidden" id="__dnnVariable" autocomplete="off" value="`{`__scdoff`:`1`,`sf_siteRoot`:`/`,`sf_tabId`:`108`,`evoq_TabId`:`108`,`evoq_PageLanguage`:`en-US`,`evoq_ContentItemId`:`-1`,`evoq_UrlReferrer`:``,`evoq_UrlPath`:`https%3a%2f%2fwww.darpa.mil%2fabout-us%2ftimeline%2farpanet`,`evoq_UrlQuery`:`%3fTabId%3d108%26timeline%3darpanet%26language%3den-US`,`evoq_ContentItemReferrer`:`-1`,`evoq_PersonalizedUrlReferrer`:`-1`,`evoq_DisableAnalytics`:`False`}" />
+        <input name="__RequestVerificationToken" type="hidden" value="UHtB3hZGNmI75nzl4LcMFG5kDUQXlMzh4jnSuS5xCRWB5CP6ZLFQwpigN0in2q0wQpR5W3ST8qNwJkqlWkOz-w2" />
+    
+<script type='text/javascript'>
+//<![CDATA[
+(function() {
+
+  var analyticsSettings;
+  var initAnalyticsSettings = function (e) {
+    analyticsSettings = {
+      pageStart: analytics_page_startTime,
+      servicesFramework: $.ServicesFramework(-1)
+    };
+  };
+  if(window.addEventListener) {
+    window.addEventListener('load', initAnalyticsSettings, false);
+  } else {
+    window.attachEvent('onload', initAnalyticsSettings);
+  };
+
+  var eventName = (window.onpagehide || window.onpagehide === null) ? 'pagehide' : 'unload';
+  if (window.addEventListener) {
+    window.addEventListener(eventName, function (e) {
+      if (analyticsSettings) {
+        analyticsSettings.eventSource = 'pagehide';
+        if(dnn && dnn.analytics) { dnn.analytics.clientUnloading(e,analyticsSettings); }
+      }
+    }, false);
+  } else {
+    window.attachEvent('on' + eventName, function (e) {
+      if (analyticsSettings) {
+        analyticsSettings.eventSource = 'pagehide';
+        if(dnn && dnn.analytics) { dnn.analytics.clientUnloading(e,analyticsSettings); }
+      }
+    });
+  }
+
+})();
+//]]>
+</script>
+</form>
+    <!--CDF(Javascript|/js/dnncore.js?cdv=195|DnnBodyProvider|100)--><!--CDF(Javascript|/js/dnn.modalpopup.js?cdv=195|DnnBodyProvider|50)--><!--CDF(Css|/Resources/Shared/stylesheets/dnndefault/7.0.0/default.css?cdv=195|DnnPageHeaderProvider|5)--><!--CDF(Css|/Portals/_default/Skins/DDM/skin.css?cdv=195|DnnPageHeaderProvider|15)--><!--CDF(Css|/Portals/0/portal.css?cdv=195|DnnPageHeaderProvider|35)--><!--CDF(Javascript|/DesktopModules/DNNCorp/EvoqContentLibrary/ClientScripts/dnn.analytics.Injected.js?cdv=195|DnnBodyProvider|100)--><!--CDF(Javascript|/js/dnn.js?cdv=195|DnnBodyProvider|12)--><!--CDF(Javascript|/js/dnn.servicesframework.js?cdv=195|DnnBodyProvider|100)--><!--CDF(Javascript|/Resources/libraries/jQuery/03_02_01/jquery.js?cdv=195|DnnPageHeaderProvider|5)--><!--CDF(Javascript|/Resources/libraries/jQuery-UI/01_12_01/jquery-ui.js?cdv=195|DnnPageHeaderProvider|10)--><!--CDF(Javascript|/Resources/libraries/jQuery-Migrate/03_00_00/jquery-migrate.js?cdv=195|DnnPageHeaderProvider|6)-->
+    
+</body>
+</html>

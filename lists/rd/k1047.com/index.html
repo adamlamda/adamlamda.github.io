@@ -1,0 +1,1102 @@
+<!DOCTYPE html>
+ <!--[if lt IE 7]>
+<html class="no-js lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if (IE 7)&!(IEMobile)]>
+<html class="no-js lt-ie9 lt-ie8"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]>
+<html class="no-js lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js"><!--<![endif]-->
+	<!--
+	generated 552 seconds ago
+	generated in 0.815 seconds
+	served from batcache in 0.008 seconds
+	expires in 48 seconds
+-->
+<head>
+		<meta charset="utf-8">
+
+				<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(){}function o(e,t,n){return function(){return i(e,[f.now()].concat(u(arguments)),t?null:this,n),t?void 0:this}}var i=e("handle"),a=e(2),u=e(3),c=e("ee").get("tracer"),f=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,t){s[t]=o(d+t,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),t.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,t){var n={},r=this,o="function"==typeof t;return i(l+"tracer",[f.now(),e,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],n),o)try{return t.apply(this,arguments)}catch(e){throw c.emit("fn-err",[arguments,this,e],n),e}finally{c.emit("fn-end",[f.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){m[t]=o(l+t)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,f.now()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(o<0?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],4:[function(e,t,n){t.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?c(e,u,i):i()}function n(n,r,o,i){if(!d.aborted||i){e&&e(n,r,o);for(var a=t(o),u=m(n),c=u.length,f=0;f<c;f++)u[f].apply(a,r);var p=s[y[n]];return p&&p.push([b,n,r,a]),a}}function l(e,t){v[e]=m(e).concat(t)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(n)}function g(e,t){f(e,function(e,n){t=t||"feature",y[n]=t,t in s||(s[t]=[])})}var v={},y={},b={on:l,emit:n,get:w,listeners:m,context:t,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",c=e("gos"),f=e(2),s={},p={},d=t.exports=o();d.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!x++){var e=h.info=NREUM.info,t=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return s.abort();f(y,function(t,n){e[t]||(e[t]=n)}),c("mark",["onload",a()+h.offset],null,"api");var n=d.createElement("script");n.src="https://"+e.agent,t.parentNode.insertBefore(n,t)}}function o(){"complete"===d.readyState&&i()}function i(){c("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),c=e("handle"),f=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,SI:p.setImmediate,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1071.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=t.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),c("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+
+		<title>K 104.7 - More Music, Better Variety</title>
+
+				<meta name="HandheldFriendly" content="True">
+		<meta name="MobileOptimized" content="320">
+		<meta name="viewport" content="width=device-width,height=device-height,user-scalable=no,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0">
+
+		<link rel="pingback" href="https://k1047.com/xmlrpc.php">
+
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+
+				<script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');var googleUidDimension = '1';ga('create', 'UA-57247911-2', 'auto');ga('require', 'displayfeatures');document.addEventListener("DOMContentLoaded", function() {
+	jQuery( document ).on( 'pjax:end', function () {
+		ga( 'set', 'location', window.location.href );
+		ga( 'send', 'pageview' );
+	} );
+
+	var $body = jQuery( 'body' );
+
+	$body.on( 'inlineAudioPlaying.gmr', function () {
+		ga( 'send', 'event', 'audio', 'Inline audio playing' );
+	} );
+
+	$body.on( 'liveStreamPlaying.gmr', function () {
+		ga( 'send', 'event', 'audio', 'Live stream playing' );
+	} );
+});ga('send', 'pageview');</script>
+<!-- This site is optimized with the Yoast SEO plugin v5.6.1 - https://yoast.com/wordpress/plugins/seo/ -->
+<meta name="description" content="More Music, Better Variety"/>
+<link rel="canonical" href="https://k1047.com/" />
+<link rel="next" href="https://k1047.com/page/2/" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="K 104.7 - More Music, Better Variety" />
+<meta property="og:description" content="More Music, Better Variety" />
+<meta property="og:url" content="https://k1047.com/" />
+<meta property="og:site_name" content="K 104.7" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:description" content="More Music, Better Variety" />
+<meta name="twitter:title" content="K 104.7 - More Music, Better Variety" />
+<script type='application/ld+json'>{"@context":"http:\/\/schema.org","@type":"WebSite","@id":"#website","url":"https:\/\/k1047.com\/","name":"K 104.7","potentialAction":{"@type":"SearchAction","target":"https:\/\/k1047.com\/?s={search_term_string}","query-input":"required name=search_term_string"}}</script>
+<!-- / Yoast SEO plugin. -->
+
+<link rel='dns-prefetch' href='//cdn.embed.ly' />
+<link rel='dns-prefetch' href='//tag.simpli.fi' />
+<link rel='dns-prefetch' href='//sdk.listenlive.co' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.4\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.4\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/k1047.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.9.7"}};
+			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55357,56692,8205,9792,65039],[55357,56692,8203,9792,65039]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<script async="async" src="https://www.googletagservices.com/tag/js/gpt.js"></script>
+	<script>
+		var googletag = googletag || {};
+		googletag.cmd = googletag.cmd || [];
+
+		googletag.beasley = googletag.beasley || {};
+		googletag.beasley.targeting = googletag.beasley.targeting || [];
+
+		googletag.cmd.push(function() {
+						var sizeMapping = googletag.sizeMapping()
+				.addSize([1024, 200], [[1, 1]])
+				.addSize([0, 0], [])
+				.build();
+			
+						googletag.defineOutOfPageSlot('/26918149/WKQC_FM_Wallpaper', 'div-gpt-ad-1487289548015-0').defineSizeMapping(sizeMapping).addService(googletag.pubads());
+			
+						googletag.defineOutOfPageSlot('/26918149/WKQC_FM_Interstitial', 'div-gpt-ad-1484200509775-3').defineSizeMapping(sizeMapping).addService(googletag.pubads());
+			
+						googletag.defineSlot('/26918149/WKQC_FM_PlayerSponsorship', ['fluid'], 'div-gpt-ad-1487117572008-0').addService(googletag.pubads());
+			
+			
+			googletag.pubads().enableSingleRequest();
+			googletag.pubads().collapseEmptyDivs(true);
+
+							googletag.pubads().setTargeting("cdomain", "k1047.com");
+							googletag.pubads().setTargeting("cpage", "home");
+							googletag.pubads().setTargeting("ctest", "");
+							googletag.pubads().setTargeting("genre", "");
+							googletag.pubads().setTargeting("market", "charlotte");
+			
+			googletag.enableServices();
+		});
+	</script><style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='gmr-gallery-css'  href='https://k1047.com/wp-content/plugins/greatermedia-galleries/assets/css/gmr_gallery.min.css?ver=2.2.3' type='text/css' media='all' />
+<link rel='stylesheet' id='google-fonts-css'  href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,800italic,400,300,700,800' type='text/css' media='all' />
+<link rel='stylesheet' id='tribe-events-custom-jquery-styles-css'  href='https://k1047.com/wp-content/plugins/the-events-calendar/vendor/jquery/smoothness/jquery-ui-1.8.23.custom.css?ver=4.9.7' type='text/css' media='all' />
+<link rel='stylesheet' id='tribe-events-full-calendar-style-css'  href='https://k1047.com/wp-content/plugins/the-events-calendar/src/resources/css/tribe-events-full.min.css?ver=4.6.2' type='text/css' media='all' />
+<link rel='stylesheet' id='tribe-events-calendar-style-css'  href='https://k1047.com/wp-content/plugins/the-events-calendar/src/resources/css/tribe-events-theme.min.css?ver=4.6.2' type='text/css' media='all' />
+<link rel='stylesheet' id='tribe-events-calendar-full-mobile-style-css'  href='https://k1047.com/wp-content/plugins/the-events-calendar/src/resources/css/tribe-events-full-mobile.min.css?ver=4.6.2' type='text/css' media='only screen and (max-width: 768px)' />
+<link rel='stylesheet' id='tribe-events-calendar-mobile-style-css'  href='https://k1047.com/wp-content/plugins/the-events-calendar/src/resources/css/tribe-events-theme-mobile.min.css?ver=4.6.2' type='text/css' media='only screen and (max-width: 768px)' />
+<link rel='stylesheet' id='wkqc-css'  href='https://k1047.com/wp-content/themes/wkqc/assets/css/wkqc.min.css?ver=1535049815' type='text/css' media='all' />
+<link rel='stylesheet' id='greatermedia-countdown-clock-css'  href='https://k1047.com/wp-content/plugins/gmr-homepage-countdown-clock/css/greatermedia-countdown-clock.css?ver=1.0.3.6' type='text/css' media='all' />
+	<!--[if lte IE 8]>
+	<script src="https://k1047.com/wp-content/themes/greatermedia/assets/js/vendor/respond.min.js?ver=1.4.2"></script>
+	<![endif]-->
+	<script type='text/javascript' src='https://k1047.com/wp-content/mu-plugins/dependencies/modernizr/modernizr.min.js?ver=2.8.3.1'></script>
+<script type='text/javascript' src='https://k1047.com/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='https://k1047.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript' src='https://k1047.com/wp-includes/js/underscore.min.js?ver=1.8.3'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var GMRKeywords = [{"keyword":"Pets","id":13907,"title":"Pet Month","url":"https:\/\/k1047.com\/shows\/pet-month\/"},{"keyword":"Hellmanns","id":24054,"title":"Best Ever Juicy Burger Recipe Using Hellmann's Mayonnaise","url":"https:\/\/k1047.com\/2017\/05\/22\/best-ever-juicy-burger-recipe-using-hellmanns-mayonnaise\/"},{"keyword":"Giftcard","id":27165,"title":"Ruth's Chris Is Celebrating Their Anniversary By Giving You A Gift","url":"https:\/\/k1047.com\/2017\/05\/30\/27165\/"},{"keyword":"community","id":80642,"title":"Beasley Best Community of Caring","url":"https:\/\/k1047.com\/shows\/beasley-best-community-caring\/"}];
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://k1047.com/wp-content/plugins/greatermedia-keywords/assets/js/greatermedia_keywords_autocomplete.min.js?ver=0.0.1'></script>
+<script type='text/javascript' src='//www.gstatic.com/firebasejs/3.6.9/firebase.js'></script>
+<script type='text/javascript' src='https://k1047.com/wp-content/plugins/the-events-calendar/vendor/jquery-resize/jquery.ba-resize.min.js?ver=1.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var tribe_js_config = {"permalink_settings":"\/%year%\/%monthnum%\/%day%\/%postname%\/","events_post_type":"tribe_events","events_base":"https:\/\/k1047.com\/events\/"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://k1047.com/wp-content/plugins/the-events-calendar/src/resources/js/tribe-events.min.js?ver=4.6.2'></script>
+<script type='text/javascript' src='https://k1047.com/wp-content/mu-plugins/dependencies/pjax/jquery.pjax.js?ver=1.9.2'></script>
+<link rel='https://api.w.org/' href='https://k1047.com/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://k1047.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://k1047.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.9.7" />
+		<style>
+		.getty.alignleft {
+			margin-right: 5px;
+		}
+		.getty.alignright {
+			margin-left: 5px;
+		}
+		</style>
+		<meta name="tec-api-version" content="v1"><meta name="tec-api-origin" content="https://k1047.com"><link rel="https://theeventscalendar.com/" href="https://k1047.com/wp-json/tribe/events/v1/" />
+
+		<link rel="apple-touch-icon" sizes="57x57" href="https://k1047.com/wp-content/themes/wkqc/images/apple-icon-57x57.png">
+		<link rel="apple-touch-icon" sizes="60x60" href="https://k1047.com/wp-content/themes/wkqc/images/apple-icon-60x60.png">
+		<link rel="apple-touch-icon" sizes="72x72" href="https://k1047.com/wp-content/themes/wkqc/images/apple-icon-72x72.png">
+		<link rel="apple-touch-icon" sizes="76x76" href="https://k1047.com/wp-content/themes/wkqc/images/apple-icon-76x76.png">
+		<link rel="apple-touch-icon" sizes="114x114" href="https://k1047.com/wp-content/themes/wkqc/images/apple-icon-114x114.png">
+		<link rel="apple-touch-icon" sizes="120x120" href="https://k1047.com/wp-content/themes/wkqc/images/apple-icon-120x120.png">
+		<link rel="apple-touch-icon" sizes="144x144" href="https://k1047.com/wp-content/themes/wkqc/images/apple-icon-144x144.png">
+		<link rel="apple-touch-icon" sizes="152x152" href="https://k1047.com/wp-content/themes/wkqc/images/apple-icon-152x152.png">
+		<link rel="apple-touch-icon" sizes="180x180" href="https://k1047.com/wp-content/themes/wkqc/images/apple-icon-180x180.png">
+		<link rel="icon" type="image/png" sizes="192x192"  href="https://k1047.com/wp-content/themes/wkqc/images/android-icon-192x192.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="https://k1047.com/wp-content/themes/wkqc/images/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="96x96" href="https://k1047.com/wp-content/themes/wkqc/images/favicon-96x96.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="https://k1047.com/wp-content/themes/wkqc/images/favicon-16x16.png">
+		<!--[if IE]>
+		<link rel="shortcut icon" href="https://k1047.com/wp-content/themes/wkqc/images/favicon.ico" />
+		<![endif]-->
+		<meta name="msapplication-TileImage" content="https://k1047.com/wp-content/themes/wkqc/images/ms-icon-144x144.png">
+
+	
+		<script>
+		  (function(w, d){
+		   var id='embedly-platform', n = 'script';
+		   if (!d.getElementById(id)){
+		     w.embedly = w.embedly || function() {(w.embedly.q = w.embedly.q || []).push(arguments);};
+		     var e = d.createElement(n); e.id = id; e.async=1;
+		     e.src = ('https:' === document.location.protocol ? 'https' : 'http') + '://cdn.embedly.com/widgets/platform.js';
+		     var s = d.getElementsByTagName(n)[0];
+		     s.parentNode.insertBefore(e, s);
+		   }
+		  })(window, document);
+		</script>
+
+			<!--[if lt IE 10]>
+	<link rel="stylesheet" href="https://k1047.com/wp-content/themes/greatermedia/assets/css/ie9.css"/>
+	<![endif]-->
+	<!--[if lt IE 9]>
+	<link rel="stylesheet" href="https://k1047.com/wp-content/themes/greatermedia/assets/css/ie8.css"/>
+	<![endif]-->
+			
+					</head>
+
+	<body class="home blog tribe-no-js">
+		
+		<div id="site-wrap" class="site-wrap">
+			<div id="page-wrap" class="page-wrap">
+
+				<div class="ad__wallpaper">
+			<!-- /26918149/WKQC_FM_Wallpaper -->
+			<div id='div-gpt-ad-1487289548015-0'>
+				<script type="text/javascript">
+					googletag.cmd.push(function() { googletag.display('div-gpt-ad-1487289548015-0'); });
+				</script>
+			</div>
+		</div>
+				
+					<header id="header" class="header" role="banner">
+	
+	<div class="header__main">
+		<div class="container">
+			<a href="https://k1047.com/" class="header__logo"><img src="https://files.greatermedia.com/uploads/sites/49/2017/03/K1047_Logo-site.png" alt="K 104.7 | More Music, Better Variety" class="header__logo--img"></a>
+
+			<div class="header__main--navwrap">
+				<div id="header__search" class="header__search">
+					<label for="s" class="header__search--label"><span class="header__search--span">Search</span>
+						<i class="header__search--btn"></i>
+					</label>
+				</div><nav class="header__nav"><ul id="header__nav--list" class="header__nav--list"><li id="menu-item-487" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-487"><a href="https://k1047.com/">Home</a></li>
+<li id="menu-item-402" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-402 format-sp"><a href="#">On Air</a>
+<ul class="sub-menu">
+	<li id="menu-item-863" class="menu-item menu-item-type-post_type menu-item-object-show menu-item-863"><a href="https://k1047.com/shows/phil-and-mel-in-the-morning/"><img width="74" height="74" src="https://files.greatermedia.com/uploads/sites/49/2017/03/philandmel-2.jpg" class="attachment-thumbnail size-thumbnail" alt="" /><div class="group">Phil &#038; Mel In The Morning<div class="meta-text"><span class="days">Weekdays</span><span class="times">6:00am-10:00am</span></div></div></a></li>
+	<li id="menu-item-58219" class="menu-item menu-item-type-post_type menu-item-object-show menu-item-58219"><a href="https://k1047.com/shows/melany-myers/"><img width="150" height="150" src="https://files.greatermedia.com/uploads/sites/49/2017/08/Melany-Myers-2-150x150.png" class="attachment-thumbnail size-thumbnail" alt="" /><div class="group">Melany Myers<div class="meta-text"><span class="days">Weekdays</span><span class="times">10:00am-12:00pm</span></div></div></a></li>
+	<li id="menu-item-861" class="menu-item menu-item-type-post_type menu-item-object-show menu-item-861"><a href="https://k1047.com/shows/brandon-chase/"><img width="150" height="150" src="https://files.greatermedia.com/uploads/sites/49/2017/03/Brandon_feature_image-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="Brandon Chase" /><div class="group">Brandon Chase<div class="meta-text"><span class="days">Weekdays</span><span class="times">12:00pm - 3:00pm</span></div></div></a></li>
+	<li id="menu-item-129429" class="menu-item menu-item-type-post_type menu-item-object-show menu-item-129429"><a href="https://k1047.com/shows/jack-daniel/"><img width="150" height="150" src="https://files.greatermedia.com/uploads/sites/49/2018/03/IMG_0044_bw-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" /><div class="group">Jack Daniel<div class="meta-text"><span class="days">Weekdays</span><span class="times">3:00pm-7:00pm</span></div></div></a></li>
+	<li id="menu-item-93648" class="menu-item menu-item-type-post_type menu-item-object-show menu-item-93648"><a href="https://k1047.com/shows/francene-marie-show/"><img width="150" height="150" src="https://files.greatermedia.com/uploads/sites/49/2017/10/Francene-Bracelet-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" /><div class="group">The Francene Marie Show<div class="meta-text"><span class="days">Sundays</span><span class="times">6:00am-7:00am</span></div></div></a></li>
+</ul>
+</li>
+<li id="menu-item-137387" class="menu-item menu-item-type-post_type menu-item-object-podcast menu-item-137387"><a href="https://k1047.com/podcasts/relationship-icu/">Podcast</a></li>
+<li id="menu-item-2234" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2234"><a href="/contests/">Contests</a></li>
+<li id="menu-item-35809" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-35809"><a href="/events/">Events</a>
+<ul class="sub-menu">
+	<li id="menu-item-407" class="menu-item menu-item-type-taxonomy menu-item-object-tribe_events_cat menu-item-407"><a href="https://k1047.com/events/category/all-events/">All Events</a></li>
+	<li id="menu-item-408" class="menu-item menu-item-type-taxonomy menu-item-object-tribe_events_cat menu-item-408"><a href="https://k1047.com/events/category/concerts/">Concerts</a></li>
+</ul>
+</li>
+<li id="menu-item-3300" class="menu-item menu-item-type-post_type_archive menu-item-object-gmr_gallery menu-item-3300"><a href="https://k1047.com/galleries/">Photos</a></li>
+<li id="menu-item-412" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-412"><a href="#">FEATURES</a>
+<ul class="sub-menu">
+	<li id="menu-item-144128" class="menu-item menu-item-type-post_type menu-item-object-show menu-item-144128"><a href="https://k1047.com/shows/beasley-best-community-caring-mental-health-awareness/">Beasley Best Community of Caring – Mental Health Awareness</a></li>
+	<li id="menu-item-833" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-833"><a href="/shows/entertainment-news/">Entertainment News</a></li>
+	<li id="menu-item-831" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-831"><a href="/shows/lifestyle/">Lifestyle</a></li>
+	<li id="menu-item-832" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-832"><a href="/shows/music-news/">Music News</a></li>
+	<li id="menu-item-834" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-834"><a href="/shows/tech-buzz/">Tech Buzz</a></li>
+	<li id="menu-item-926" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-926"><a href="https://k1047.com/922-2/">Stand Up Speak Out</a></li>
+</ul>
+</li>
+<li id="menu-item-411" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-411"><a href="#">Connect</a>
+<ul class="sub-menu">
+	<li id="menu-item-433" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-433"><a href="https://k1047.com/download-our-app/">Download Our Free App</a></li>
+	<li id="menu-item-106514" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-106514"><a href="https://k1047.com/join-k-vip-club/">Sign Up for Our K104.7 Newsletter</a></li>
+	<li id="menu-item-442" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-442"><a href="https://k1047.com/contact-us/">Contact Us</a></li>
+	<li id="menu-item-441" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-441"><a href="https://k1047.com/advertise-with-us/">Advertise With Us</a></li>
+	<li id="menu-item-443" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-443"><a href="https://bbgi.com/job-board/">Jobs</a></li>
+</ul>
+</li>
+<li id="menu-item-410" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-410"><a href="#">About</a>
+<ul class="sub-menu">
+	<li id="menu-item-11925" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-11925"><a target="_blank" href="https://bbgi.com/wp-content/uploads/2017/04/Beasley-Privacy-Policy-As-Of-April-19-2017.pdf">Privacy Policy</a></li>
+	<li id="menu-item-419" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-419"><a target="_blank" href="https://bbgi.com/wp-content/uploads/2017/05/Beasley-TOS-May-23-2017.pdf">Terms Of Service</a></li>
+	<li id="menu-item-420" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-420"><a href="https://bbgi.com/dmca.pdf">DMCA</a></li>
+	<li id="menu-item-422" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-422"><a target="_blank" href="https://files.greatermedia.com/uploads/sites/49/2018/08/LSL2-23360212-v5-Beasley_Charlotte_-_EEO_Public_File_Report_-_2018_doc.pdf">EEO</a></li>
+	<li id="menu-item-426" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-426"><a href="https://publicfiles.fcc.gov/fm-profile/wkqc">FCC Public File</a></li>
+	<li id="menu-item-4906" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4906"><a href="https://files.greatermedia.com/uploads/sites/49/2017/03/General-Contest-Rules.pdf">General Contest Rules</a></li>
+</ul>
+</li>
+</ul></nav></div>
+
+			<div class="mobile-nav__toggle">
+				<div class="mobile-nav__toggle--span"></div>
+			</div>
+		</div>
+
+		<div id="live-player" class="audio-interface">
+
+		<div id="js-audio-ad-aboveplayer" class="audio-ad audio-ad--aboveplayer">
+	</div>
+
+	<div class="audio-interface__container">
+				<nav class="audio-stream">
+			<ul class="audio-stream__list">
+				<li class="audio-stream__current">
+										<button class="audio-stream__title" data-callsign="WKQCFM" data-station-id="2261">
+						K 104.7 More Music, Better Variety					</button>
+					<ul class="audio-stream__available">
+													<li class="audio-stream__item">
+								<button class="audio-stream__link" data-callsign="WKQCFM" data-station-id="2261">
+									<span class="audio-stream__name">WKQCFM</span>
+									<span class="audio-stream__desc">K 104.7 More Music, Better Variety</span>
+								</button>
+							</li>
+											</ul>
+				</li>
+			</ul><!-- .audio-stream__list -->
+
+			<div class="audio-sponsor -open">
+				<!-- /26918149/WKQC_FM_PlayerSponsorship -->
+		<div id='div-gpt-ad-1487117572008-0'>
+			<script type="text/javascript">
+				googletag.cmd.push(function() { googletag.display('div-gpt-ad-1487117572008-0'); });
+			</script>
+		</div>			</div>
+		</nav><!-- .audio-stream -->
+
+		<div id="js-audio-player" class="audio-player">
+
+						<div id="js-audio-volume" class="audio-volume">
+				<button id="audio-volume-mute" class="audio-volume__mute"><span class="audio-volume__text">Mute Volume</span></button>
+				<input type="range" min="0" max="1" step="0.01" value="1" title="Volume Slider">
+				<button id="js-audio-volume-button" class="audio-volume__btn"><span class="audio-volume__text">Volume</span></button>
+			</div><!-- .audio-volume -->
+
+						<div id="js-audio-controls" class="audio-controls">
+				<button id="playButton" class="audio-controls__play" data-action="play-live">
+					<span class="audio-controls__text">Play</span>
+				</button>
+				<div id="loadButton" class="audio-controls__loading"><i class="gmr-icon icon-spin icon-loading">
+					<span class="audio-controls__text">Loading</span></i>
+				</div>
+				<button id="pauseButton" class="audio-controls__pause">
+					<span class="audio-controls__text">Pause</span>
+				</button>
+				<button id="resumeButton" class="audio-controls__resume">
+					<span class="audio-controls__text">Resume</span>
+				</button>
+			</div><!-- .audio-controls -->
+
+			<div id="js-audio-readout" class="audio-readout">
+
+								<div id="js-audio-ad-inplayer" class="audio-ad audio-ad--inplayer">
+				</div>
+
+								<div id="live-stream__listen-now" class="audio-readout__notification audio-readout__notification--listen -show">Listen Live</div>
+				<!--<div id="js-notification-preroll" class="audio-readout__notification audio-readout__notification--preroll">Live stream will be available after this brief ad from our sponsors</div>-->
+
+								<div id="live-stream__now-playing" class="audio-playing">
+					<div id="js-track-info" class="audio-playing__track"></div>
+					<div id="js-artist-info" class="audio-playing__artist"></div>
+
+										<div id="js-audio-podcast" class="audio-podcast">
+						<span class="audio-podcast__text">00:00</span>
+						<input type="range" name="audio-podcast" id="audio-podcast-slider" min="0" max="1" step="0.001" value="0">
+						<span class="audio-podcast__text">00:00</span>
+					</div><!-- .audio-podcast -->
+				</div><!-- .audio-playing -->
+
+								<div id="js-audio-status" class="audio-status">
+					<button id="js-audio-status-listen" class="audio-status__btn">Listen Live</button>
+				</div>
+
+				<div id="js-audio-more" class="audio-more">
+					<a href="https://k1047.com/stream/WKQCFM/" data-tmpl="https://k1047.com/stream/%s/" title="Play History"><span class="icon-clock"></span></a>
+				</div>
+
+				<div id="js-audio-time" class="audio-time">
+					<div id="js-audio-time__progressbar" class="audio-time__progressbar">
+						<span id="js-audio-time__progress" class="audio-time__progress"></span>
+					</div>
+					<div id="js-audio-time__elapsed" class="audio-time__elapsed"></div>
+					<div id="js-audio-time__remaining" class="audio-time__remaining"></div>
+				</div><!-- .audio-time -->
+
+			</div><!-- .audio-readout -->
+
+						<button id="js-audio-expand" class="audio-expand">
+				<span class="audio-expand__text">View Audio Streams</span>
+			</button>
+
+		</div><!-- .audio-player -->
+
+	</div>
+</div><!-- .audio-interface -->
+	</div>
+</header>
+
+<div id="live-stream__container" class="live-stream__container">
+	<div id="td_container" class="live-stream__container--player"></div>
+	<div class="pre-roll__notification">Live stream will be available after this brief ad from our sponsors</div>
+</div>					<div id="header__search--form" class="header__search--form">
+	<form role="search" method="get" id="searchform" class="searchform" action="https://k1047.com/">
+		<label class="screen-reader-text" for="s">Search for:</label>
+		<input type="text" value="" name="s" id="header-search" class="header__search--input" placeholder="Search K 104.7" autocomplete="off">
+		<button type="submit" id="searchsubmit" class="header__search--submit">
+		<button class="header__search--cancel"></button>
+	</form>
+
+	<div class="header-search-body">
+		<div id="keyword-search-container"></div>
+	
+		<button class='header-search__search-all-btn' href='#'>Search All Content</button>
+	</div>
+
+	<script type='text/template' id="keyword-search-body-template">
+		<div class='keyword-search'>
+			<div class='keyword-search__header'></div>
+			<div class='keyword-search__items'></div>
+		</div>
+	</script>
+
+	<script type="text/template" id="keyword-search-item-template">
+		<a href='<%= url %>'>
+			<div class='keyword-search-item'>
+				<div class='keyword-search-item__keyword'>Keyword: <strong><%= keyword %></strong></div>
+				<div class='keyword-search-item__article'><%= title %></div>
+			</div>
+		</a>
+	</script>
+</div>
+					<nav id="mobile-nav" class="mobile-nav">
+						<ul id="menu-main-navigation" class="mobile-nav__list js-mobile-sub-menus"><li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-487"><a href="https://k1047.com/">Home</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-402 format-sp"><a href="#">On Air</a><a href="#" class="show-subnavigation icon-arrow-next"><span class="screen-reader-text">Expand Sub-Navigation</span></a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-show menu-item-863"><a href="https://k1047.com/shows/phil-and-mel-in-the-morning/"><img width="74" height="74" src="https://files.greatermedia.com/uploads/sites/49/2017/03/philandmel-2.jpg" class="attachment-thumbnail size-thumbnail" alt="" /><div class="group">Phil &#038; Mel In The Morning<div class="meta-text"><span class="days">Weekdays</span><span class="times">6:00am-10:00am</span></div></div></a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-show menu-item-58219"><a href="https://k1047.com/shows/melany-myers/"><img width="150" height="150" src="https://files.greatermedia.com/uploads/sites/49/2017/08/Melany-Myers-2-150x150.png" class="attachment-thumbnail size-thumbnail" alt="" /><div class="group">Melany Myers<div class="meta-text"><span class="days">Weekdays</span><span class="times">10:00am-12:00pm</span></div></div></a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-show menu-item-861"><a href="https://k1047.com/shows/brandon-chase/"><img width="150" height="150" src="https://files.greatermedia.com/uploads/sites/49/2017/03/Brandon_feature_image-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="Brandon Chase" /><div class="group">Brandon Chase<div class="meta-text"><span class="days">Weekdays</span><span class="times">12:00pm - 3:00pm</span></div></div></a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-show menu-item-129429"><a href="https://k1047.com/shows/jack-daniel/"><img width="150" height="150" src="https://files.greatermedia.com/uploads/sites/49/2018/03/IMG_0044_bw-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" /><div class="group">Jack Daniel<div class="meta-text"><span class="days">Weekdays</span><span class="times">3:00pm-7:00pm</span></div></div></a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-show menu-item-93648"><a href="https://k1047.com/shows/francene-marie-show/"><img width="150" height="150" src="https://files.greatermedia.com/uploads/sites/49/2017/10/Francene-Bracelet-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" /><div class="group">The Francene Marie Show<div class="meta-text"><span class="days">Sundays</span><span class="times">6:00am-7:00am</span></div></div></a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-podcast menu-item-137387"><a href="https://k1047.com/podcasts/relationship-icu/">Podcast</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2234"><a href="/contests/">Contests</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-35809"><a href="/events/">Events</a><a href="#" class="show-subnavigation icon-arrow-next"><span class="screen-reader-text">Expand Sub-Navigation</span></a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-tribe_events_cat menu-item-407"><a href="https://k1047.com/events/category/all-events/">All Events</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-tribe_events_cat menu-item-408"><a href="https://k1047.com/events/category/concerts/">Concerts</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type_archive menu-item-object-gmr_gallery menu-item-3300"><a href="https://k1047.com/galleries/">Photos</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-412"><a href="#">FEATURES</a><a href="#" class="show-subnavigation icon-arrow-next"><span class="screen-reader-text">Expand Sub-Navigation</span></a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-show menu-item-144128"><a href="https://k1047.com/shows/beasley-best-community-caring-mental-health-awareness/">Beasley Best Community of Caring – Mental Health Awareness</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-833"><a href="/shows/entertainment-news/">Entertainment News</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-831"><a href="/shows/lifestyle/">Lifestyle</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-832"><a href="/shows/music-news/">Music News</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-834"><a href="/shows/tech-buzz/">Tech Buzz</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-926"><a href="https://k1047.com/922-2/">Stand Up Speak Out</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-411"><a href="#">Connect</a><a href="#" class="show-subnavigation icon-arrow-next"><span class="screen-reader-text">Expand Sub-Navigation</span></a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-433"><a href="https://k1047.com/download-our-app/">Download Our Free App</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-106514"><a href="https://k1047.com/join-k-vip-club/">Sign Up for Our K104.7 Newsletter</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-442"><a href="https://k1047.com/contact-us/">Contact Us</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-441"><a href="https://k1047.com/advertise-with-us/">Advertise With Us</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-443"><a href="https://bbgi.com/job-board/">Jobs</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-410"><a href="#">About</a><a href="#" class="show-subnavigation icon-arrow-next"><span class="screen-reader-text">Expand Sub-Navigation</span></a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-11925"><a target="_blank" href="https://bbgi.com/wp-content/uploads/2017/04/Beasley-Privacy-Policy-As-Of-April-19-2017.pdf">Privacy Policy</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-419"><a target="_blank" href="https://bbgi.com/wp-content/uploads/2017/05/Beasley-TOS-May-23-2017.pdf">Terms Of Service</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-420"><a href="https://bbgi.com/dmca.pdf">DMCA</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-422"><a target="_blank" href="https://files.greatermedia.com/uploads/sites/49/2018/08/LSL2-23360212-v5-Beasley_Charlotte_-_EEO_Public_File_Report_-_2018_doc.pdf">EEO</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-426"><a href="https://publicfiles.fcc.gov/fm-profile/wkqc">FCC Public File</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4906"><a href="https://files.greatermedia.com/uploads/sites/49/2017/03/General-Contest-Rules.pdf">General Contest Rules</a></li>
+</ul>
+</li>
+</ul><ul class="social__list"><li><a class="social__link icon-facebook" target="_blank" href="https://www.facebook.com/K1047/"></a></li><li><a class="social__link icon-twitter" target="_blank" href="https://twitter.com/k1047fm"></a></li><li><a class="social__link icon-youtube" target="_blank" href="https://www.youtube.com/user/K1047FM"></a></li><li><a class="social__link icon-instagram" target="_blank" href="http://instagram.com/k1047fm"></a></li></ul>					</nav>
+								<main class="main" role="main">
+											<div class="container__leaderboard">
+							<div class="ad__leaderboard">
+								<script type="text/javascript">googletag.beasley.targeting=[["cdomain","k1047.com"],["cpage","home"],["ctest",""],["genre",""],["market","charlotte"]];</script><div class="" data-dfp-slot="dfp_ad_leaderboard_pos1" data-sizes="false" data-targeting="[[&quot;pos&quot;,1],[&quot;remnant&quot;,&quot;yes&quot;]]"></div>							</div>
+						</div>
+					
+	<div class="container">
+		<section id="featured" class="home__featured home__featured_hero_slider">
+		<div class="slideshow">
+					<div class="feature-post-slide" style="display:none">
+				<a href="https://k1047.com/contests/k104-7-hi-lo-cash-jackpot/">
+					<div class="slide-content">
+						<div class="featured__article--image" style="background-image: url(https://files.greatermedia.com/uploads/sites/49/2018/05/HiLo_Flipper.jpg)">
+						</div>
+						<div class="featured__article--content">
+							<div class="featured__article--heading">
+								K104.7 Hi-Lo Cash Jackpot!							</div>
+													</div>
+					</div>
+				</a>
+			</div>
+					<div class="feature-post-slide" style="display:none">
+				<a href="https://k1047.com/event/carolina-womens-sip-shop/">
+					<div class="slide-content">
+						<div class="featured__article--image" style="background-image: url(https://files.greatermedia.com/uploads/sites/49/2018/08/Untitled-design-970x491.png)">
+						</div>
+						<div class="featured__article--content">
+							<div class="featured__article--heading">
+								Carolina Women's Sip &amp; Shop							</div>
+													</div>
+					</div>
+				</a>
+			</div>
+					<div class="feature-post-slide" style="display:none">
+				<a href="https://k1047.com/join-k-vip-club/">
+					<div class="slide-content">
+						<div class="featured__article--image" style="background-image: url(https://files.greatermedia.com/uploads/sites/49/2018/07/Flipper-WKQC.jpg)">
+						</div>
+						<div class="featured__article--content">
+							<div class="featured__article--heading">
+								Sign Up for Our K104.7 Newsletter							</div>
+													</div>
+					</div>
+				</a>
+			</div>
+					<div class="feature-post-slide" style="display:none">
+				<a href="https://k1047.com/shows/beasley-best-community-caring-mental-health-awareness/">
+					<div class="slide-content">
+						<div class="featured__article--image" style="background-image: url(https://files.greatermedia.com/uploads/sites/49/2018/06/CommunityofCaring_mental-health_rotator.jpg)">
+						</div>
+						<div class="featured__article--content">
+							<div class="featured__article--heading">
+								Beasley Best Community of Caring – Mental Health Awareness							</div>
+													</div>
+					</div>
+				</a>
+			</div>
+					<div class="feature-post-slide" style="display:none">
+				<a href="https://k1047.com/event/fleetwood-macs-north-american-tour/">
+					<div class="slide-content">
+						<div class="featured__article--image" style="background-image: url(https://files.greatermedia.com/uploads/sites/49/2018/04/Unknown-2.jpeg)">
+						</div>
+						<div class="featured__article--content">
+							<div class="featured__article--heading">
+								Fleetwood Mac's North American Tour							</div>
+													</div>
+					</div>
+				</a>
+			</div>
+				<div class="slick-arrow">
+			<a href=# class="slick-prev">Prev</a>
+			<a href=# class="slick-next">Next</a>
+		</div>
+	</div>
+	<div class="slick-dots"></div>
+</section>
+
+<section class="home__highlights">
+	<div class="highlights__col">
+		<div class="highlights__community">
+	<h2 class="highlights__heading">Don't Miss</h2><div class="highlights__community--item">
+				<a href="https://k1047.com/2018/08/24/youll-be-shocked-at-the-average-cost-of-a-date-night-by-state/" title="You'll Be Shocked At The Average Cost Of A Date Night By State">
+					<div class="highlights__community--thumb" style='background-image: url(https://files.greatermedia.com/uploads/sites/49/2018/08/GettyImages-484913171-336x224.jpg)'></div>
+					<h3 class="highlights__community--title">You'll Be Shocked At The Average Cost Of A Date Night By State</h3>
+				</a>
+			</div><div class="highlights__community--item">
+				<a href="https://k1047.com/2018/08/24/quiz-said-belichick-churchill/" title="Quiz: Who Said It - Belichick or Churchill?">
+					<div class="highlights__community--thumb" style='background-image: url(https://files.greatermedia.com/uploads/sites/49/2018/08/GettyImages-588641278-336x224.jpg)'></div>
+					<h3 class="highlights__community--title">Quiz: Who Said It - Belichick or Churchill?</h3>
+				</a>
+			</div><div class="highlights__community--item">
+				<a href="https://k1047.com/2018/08/23/largest-grocery-chain-u-s-getting-rid-plastic-bags/" title="The Largest Grocery Chain In The U.S. Is Getting Rid Of Plastic Bags">
+					<div class="highlights__community--thumb" style='background-image: url(https://files.greatermedia.com/uploads/sites/49/2018/08/GettyImages-80812944-e1507182976653-1-336x224.jpg)'></div>
+					<h3 class="highlights__community--title">The Largest Grocery Chain In The U.S. Is Getting Rid Of Plastic Bags</h3>
+				</a>
+			</div></div>
+
+<div class="highlights__events">
+	<div>
+		<h2 class="highlights__heading">Upcoming Events</h2>
+		<a class="highlights__events--more-btn" href="https://k1047.com/events/">More</a>
+	</div><div class="highlights__event--item">
+				<a href="https://k1047.com/event/alive-after-5-2/" title="Alive After 5">
+					<div class="highlights__event--thumb" style="background-image: url(https://files.greatermedia.com/uploads/sites/49/2018/04/Screen-Shot-2018-06-14-at-10.11.44-AM-336x224.png)"></div>
+
+					<div class="highlights__event--meta">
+						<h3 class="highlights__event--title">Alive After 5</h3>
+						<span class="highlights__event--date"><time datetime="2018-04-05T17:00:00+00:00">Apr 5, 2018</time> - <time datetime="2018-09-13T21:00:00+00:00">Sep 13, 2018</time></span></div>
+				</a>
+			</div><div class="highlights__event--item">
+				<a href="https://k1047.com/event/hobby-lobby-remote/" title="Hobby Lobby Remote">
+					<div class="highlights__event--thumb" style="background-image: url(https://files.greatermedia.com/uploads/sites/49/2018/06/Hobby-Lobby-336x224.jpg)"></div>
+
+					<div class="highlights__event--meta">
+						<h3 class="highlights__event--title">Hobby Lobby Remote</h3>
+						<span class="highlights__event--date"><time datetime="2018-08-27T12:00:00+00:00">Aug 27, 2018</time></span></div>
+				</a>
+			</div></div>
+	</div>
+</section>
+
+		<section class="content">
+
+							<h2 class="content__heading">Latest from K 104.7</h2>
+			
+			<div class="ad__in-loop">
+	<div class="" data-dfp-slot="dfp_ad_inlist_infinite" data-sizes="false" data-targeting="[]"></div></div>
+			
+				<article id="post-146201" class="entry2 post-146201 post type-post status-publish format-standard has-post-thumbnail hentry category-phil-harris tag-casey-affleck tag-danny-glover tag-films tag-forrest-tucker tag-hollywood tag-movies tag-robert-redford tag-sissy-spacek tag-the-old-man-the-gun _shows-phil-harris" role="article" itemscope itemtype="http://schema.org/BlogPosting">
+			<section class="entry2__thumbnail">			
+			<a href="https://k1047.com/2018/08/27/robert-redford-takes-aim-final-starring-role/">
+				<div class="entry2__thumbnail__image" style='background-image: url(https://files.greatermedia.com/uploads/sites/49/2018/08/GettyImages-841645390-500x375.jpg)'></div>
+									<div class="entry2__thumbnail__icon"></div>
+											</a>
+		</section>
+	
+	<section class="entry2__meta">
+		<time datetime="2018-08-27T00:01:12+00:00" class="entry2__date">August 27, 2018</time>
+		
+		<h2 class="entry2__title" itemprop="headline"><a href="https://k1047.com/2018/08/27/robert-redford-takes-aim-final-starring-role/">Robert Redford Takes Aim At His Final Starring Role</a></h2>
+		
+		<div class="entry2__excerpt">
+			<p>Here's a list of some of the films that Robert Redford either starred in or directed(*): Barefoot in the Park (1967) Butch Cassidy and the Sundance Kid (1969)</p>
+		</div>		
+	</section>
+
+	<footer class="entry2__footer">
+		<a href="https://k1047.com/category/phil-harris/" class="entry2__footer--category">Phil Harris</a>
+		<a href="https://k1047.com/2018/08/27/robert-redford-takes-aim-final-starring-role/" class="entry2__footer--read-more">read more</a>
+	</footer>
+</article>
+<article id="post-146254" class="entry2 post-146254 post type-post status-publish format-standard has-post-thumbnail hentry category-human-interest category-k104-7 category-lifestyle tag-john-mccain-dead collection-human-interest-ac-top-40 collection-human-interest-country-2 collection-human-interest-country-phase-1-stations collection-human-interest-rockclassic-rockalt collection-human-interest-urbanurban-ac _shows-lifestyle" role="article" itemscope itemtype="http://schema.org/BlogPosting">
+			<section class="entry2__thumbnail">			
+			<a href="https://k1047.com/2018/08/25/senator-john-mccain-dead-81-twitter-reactions/">
+				<div class="entry2__thumbnail__image" style='background-image: url(https://files.greatermedia.com/uploads/sites/49/2018/08/GettyImages-862155696-500x375.jpg)'></div>
+									<div class="entry2__thumbnail__icon"></div>
+											</a>
+		</section>
+	
+	<section class="entry2__meta">
+		<time datetime="2018-08-25T22:03:29+00:00" class="entry2__date">August 25, 2018</time>
+		
+		<h2 class="entry2__title" itemprop="headline"><a href="https://k1047.com/2018/08/25/senator-john-mccain-dead-81-twitter-reactions/">Senator John McCain Dead at 81: Twitter Reactions</a></h2>
+		
+		<div class="entry2__excerpt">
+			<p>Senator John McCain spent over six decades serving the United States of America.  From the Navy to the House of Representatives to nearly 30 years representing the State of Arizona in the Senate, it goes without saying many took to Twitter to pay tribute to Senator McCain when news broke of his passing from brain cancer&hellip;</p>
+		</div>		
+	</section>
+
+	<footer class="entry2__footer">
+		<a href="https://k1047.com/category/human-interest/" class="entry2__footer--category">Human Interest</a>
+		<a href="https://k1047.com/2018/08/25/senator-john-mccain-dead-81-twitter-reactions/" class="entry2__footer--read-more">read more</a>
+	</footer>
+</article>
+<article id="post-146251" class="entry2 post-146251 post type-post status-publish format-standard has-post-thumbnail hentry category-francene-marie category-k104-7 tag-francene-marie collection-francene-marie _shows-francene-marie" role="article" itemscope itemtype="http://schema.org/BlogPosting">
+			<section class="entry2__thumbnail">			
+			<a href="https://k1047.com/2018/08/25/bikers-with-boxes/">
+				<div class="entry2__thumbnail__image" style='background-image: url(https://files.greatermedia.com/uploads/sites/49/2018/08/Bikers-W-Boxes-500x375.png)'></div>
+									<div class="entry2__thumbnail__icon"></div>
+											</a>
+		</section>
+	
+	<section class="entry2__meta">
+		<time datetime="2018-08-25T13:47:15+00:00" class="entry2__date">August 25, 2018</time>
+		
+		<h2 class="entry2__title" itemprop="headline"><a href="https://k1047.com/2018/08/25/bikers-with-boxes/">Bikers With Boxes</a></h2>
+		
+		<div class="entry2__excerpt">
+			<p>The amazing journey of an Operation Christmas Child shoe box begins with YOU.</p>
+		</div>		
+	</section>
+
+	<footer class="entry2__footer">
+		<a href="https://k1047.com/category/francene-marie/" class="entry2__footer--category">Francene Marie</a>
+		<a href="https://k1047.com/2018/08/25/bikers-with-boxes/" class="entry2__footer--read-more">read more</a>
+	</footer>
+</article>
+<article id="post-146105" class="entry2 post-146105 post type-post status-publish format-video has-post-thumbnail hentry category-human-interest category-k104-7 category-lifestyle tag-alcohol tag-diy post_format-video collection-human-interest-ac-top-40 collection-human-interest-rockclassic-rockalt collection-human-interest-urbanurban-ac _shows-lifestyle" role="article" itemscope itemtype="http://schema.org/BlogPosting">
+			<section class="entry2__thumbnail">			
+			<a href="https://k1047.com/2018/08/25/5-videos-that-will-help-you-build-your-home-bar/">
+				<div class="entry2__thumbnail__image" style='background-image: url(https://files.greatermedia.com/uploads/sites/49/2017/08/479538871.jpg)'></div>
+									<div class="entry2__thumbnail__icon"></div>
+											</a>
+		</section>
+	
+	<section class="entry2__meta">
+		<time datetime="2018-08-25T10:00:07+00:00" class="entry2__date">August 25, 2018</time>
+		
+		<h2 class="entry2__title" itemprop="headline"><a href="https://k1047.com/2018/08/25/5-videos-that-will-help-you-build-your-home-bar/">5 Videos That Will Help You Build Your Home Bar</a></h2>
+		
+		<div class="entry2__excerpt">
+			<p>Legendary actor Sean Connery celebrates his birthday today (August 25), and when one thinks of his career, the first thought is usually “Bond…James Bond.”</p>
+		</div>		
+	</section>
+
+	<footer class="entry2__footer">
+		<a href="https://k1047.com/category/human-interest/" class="entry2__footer--category">Human Interest</a>
+		<a href="https://k1047.com/2018/08/25/5-videos-that-will-help-you-build-your-home-bar/" class="entry2__footer--read-more">read more</a>
+	</footer>
+</article>
+<article id="post-146247" class="entry2 post-146247 post type-post status-publish format-standard has-post-thumbnail hentry category-celebs category-entertainment-news category-k104-7 tag-nikki-bella-reveals-why-her-and-john-cena-really-broke-up tag-qcwriter tag-the-real-reason-nikki-bella-and-john-cena-broke-up collection-entertainment-ac-top-40 collection-entertainment-country-2 collection-entertainment-country-phase-1-stations collection-entertainment-urbanurban-ac _shows-entertainment-news" role="article" itemscope itemtype="http://schema.org/BlogPosting">
+			<section class="entry2__thumbnail">			
+			<a href="https://k1047.com/2018/08/25/nikki-bella-opens-real-reason-john-cena-split/">
+				<div class="entry2__thumbnail__image" style='background-image: url(https://files.greatermedia.com/uploads/sites/49/2018/08/cena-500x375.jpg)'></div>
+									<div class="entry2__thumbnail__icon"></div>
+											</a>
+		</section>
+	
+	<section class="entry2__meta">
+		<time datetime="2018-08-25T09:55:42+00:00" class="entry2__date">August 25, 2018</time>
+		
+		<h2 class="entry2__title" itemprop="headline"><a href="https://k1047.com/2018/08/25/nikki-bella-opens-real-reason-john-cena-split/">Nikki Bella Says Neither Her Or John Cena Wanted To Sacrifice Their Career</a></h2>
+		
+		<div class="entry2__excerpt">
+			<p>Since their split, rumors have been swirling about why Nikki Bella and John Cena really broke up.</p>
+		</div>		
+	</section>
+
+	<footer class="entry2__footer">
+		<a href="https://k1047.com/category/celebs/" class="entry2__footer--category">Celebs</a>
+		<a href="https://k1047.com/2018/08/25/nikki-bella-opens-real-reason-john-cena-split/" class="entry2__footer--read-more">read more</a>
+	</footer>
+</article>
+<article id="post-146243" class="entry2 post-146243 post type-post status-publish format-standard has-post-thumbnail hentry category-celebs category-entertainment-news category-k104-7 tag-another-my-600-lb-life-star-dies tag-lisa-fleming tag-my-600-lb-life-star-dead tag-my-600-lb-life-star-dies tag-qcwriter collection-entertainment-ac-top-40 collection-entertainment-urbanurban-ac _shows-entertainment-news" role="article" itemscope itemtype="http://schema.org/BlogPosting">
+			<section class="entry2__thumbnail">			
+			<a href="https://k1047.com/2018/08/25/another-reality-star-just-passed-away/">
+				<div class="entry2__thumbnail__image" style='background-image: url(https://files.greatermedia.com/uploads/sites/49/2018/08/shutterstock_568744480-e1535207765398-500x375.jpg)'></div>
+									<div class="entry2__thumbnail__icon"></div>
+											</a>
+		</section>
+	
+	<section class="entry2__meta">
+		<time datetime="2018-08-25T07:31:09+00:00" class="entry2__date">August 25, 2018</time>
+		
+		<h2 class="entry2__title" itemprop="headline"><a href="https://k1047.com/2018/08/25/another-reality-star-just-passed-away/">Another Reality Star Has Just Passed Away</a></h2>
+		
+		<div class="entry2__excerpt">
+			<p>Lisa Fleming has passed away at the age of 50. Fleming appeared on season six of 'My 600-lb Life.'</p>
+		</div>		
+	</section>
+
+	<footer class="entry2__footer">
+		<a href="https://k1047.com/category/celebs/" class="entry2__footer--category">Celebs</a>
+		<a href="https://k1047.com/2018/08/25/another-reality-star-just-passed-away/" class="entry2__footer--read-more">read more</a>
+	</footer>
+</article>
+<div class="ad__in-loop">
+	<div class="" data-dfp-slot="dfp_ad_inlist_infinite" data-sizes="false" data-targeting="[]"></div></div><article id="post-146194" class="entry2 post-146194 post type-post status-publish format-standard has-post-thumbnail hentry category-francene-marie category-k104-7 tag-francene-marie collection-francene-marie _shows-francene-marie" role="article" itemscope itemtype="http://schema.org/BlogPosting">
+			<section class="entry2__thumbnail">			
+			<a href="https://k1047.com/2018/08/24/charlotte-crop-hunger-walk-2018/">
+				<div class="entry2__thumbnail__image" style='background-image: url(https://files.greatermedia.com/uploads/sites/49/2018/08/Crop-Hunger-500x375.png)'></div>
+									<div class="entry2__thumbnail__icon"></div>
+											</a>
+		</section>
+	
+	<section class="entry2__meta">
+		<time datetime="2018-08-24T15:18:17+00:00" class="entry2__date">August 24, 2018</time>
+		
+		<h2 class="entry2__title" itemprop="headline"><a href="https://k1047.com/2018/08/24/charlotte-crop-hunger-walk-2018/">Charlotte CROP Hunger Walk 2018</a></h2>
+		
+		<div class="entry2__excerpt">
+			<p>The 40th Annual Charlotte CROP Walk will take place Saturday, October 13th. </p>
+		</div>		
+	</section>
+
+	<footer class="entry2__footer">
+		<a href="https://k1047.com/category/francene-marie/" class="entry2__footer--category">Francene Marie</a>
+		<a href="https://k1047.com/2018/08/24/charlotte-crop-hunger-walk-2018/" class="entry2__footer--read-more">read more</a>
+	</footer>
+</article>
+<article id="post-146187" class="entry2 post-146187 post type-post status-publish format-standard has-post-thumbnail hentry category-k104-7 tag-date tag-money tag-news" role="article" itemscope itemtype="http://schema.org/BlogPosting">
+			<section class="entry2__thumbnail">			
+			<a href="https://k1047.com/2018/08/24/youll-be-shocked-at-the-average-cost-of-a-date-night-by-state/">
+				<div class="entry2__thumbnail__image" style='background-image: url(https://files.greatermedia.com/uploads/sites/49/2018/08/GettyImages-484913171-500x375.jpg)'></div>
+									<div class="entry2__thumbnail__icon"></div>
+											</a>
+		</section>
+	
+	<section class="entry2__meta">
+		<time datetime="2018-08-24T11:51:36+00:00" class="entry2__date">August 24, 2018</time>
+		
+		<h2 class="entry2__title" itemprop="headline"><a href="https://k1047.com/2018/08/24/youll-be-shocked-at-the-average-cost-of-a-date-night-by-state/">You'll Be Shocked At The Average Cost Of A Date Night By State</a></h2>
+		
+		<div class="entry2__excerpt">
+			<p>Date night is here...so say bye to all that money in your wallet.</p>
+		</div>		
+	</section>
+
+	<footer class="entry2__footer">
+		<a href="https://k1047.com/category/k104-7/" class="entry2__footer--category">K104.7</a>
+		<a href="https://k1047.com/2018/08/24/youll-be-shocked-at-the-average-cost-of-a-date-night-by-state/" class="entry2__footer--read-more">read more</a>
+	</footer>
+</article>
+<article id="post-146182" class="entry2 post-146182 post type-post status-publish format-standard has-post-thumbnail hentry category-k104-7 tag-football tag-friday tag-new-england-patriots tag-quiz" role="article" itemscope itemtype="http://schema.org/BlogPosting">
+			<section class="entry2__thumbnail">			
+			<a href="https://k1047.com/2018/08/24/quiz-said-belichick-churchill/">
+				<div class="entry2__thumbnail__image" style='background-image: url(https://files.greatermedia.com/uploads/sites/49/2018/08/GettyImages-588641278-500x375.jpg)'></div>
+									<div class="entry2__thumbnail__icon"></div>
+											</a>
+		</section>
+	
+	<section class="entry2__meta">
+		<time datetime="2018-08-24T09:52:17+00:00" class="entry2__date">August 24, 2018</time>
+		
+		<h2 class="entry2__title" itemprop="headline"><a href="https://k1047.com/2018/08/24/quiz-said-belichick-churchill/">Quiz: Who Said It - Belichick or Churchill?</a></h2>
+		
+		<div class="entry2__excerpt">
+			<p>Happy Football Friday ya'll!</p>
+		</div>		
+	</section>
+
+	<footer class="entry2__footer">
+		<a href="https://k1047.com/category/k104-7/" class="entry2__footer--category">K104.7</a>
+		<a href="https://k1047.com/2018/08/24/quiz-said-belichick-churchill/" class="entry2__footer--read-more">read more</a>
+	</footer>
+</article>
+<article id="post-146156" class="entry2 post-146156 post type-post status-publish format-standard has-post-thumbnail hentry category-phil-harris tag-back-to-school tag-bagel-bites tag-food tag-keebler tag-kids tag-planters-cheez-balls tag-school tag-snack tag-snack-foods tag-snacks _shows-phil-harris" role="article" itemscope itemtype="http://schema.org/BlogPosting">
+			<section class="entry2__thumbnail">			
+			<a href="https://k1047.com/2018/08/24/favorite-school-snack/">
+				<div class="entry2__thumbnail__image" style='background-image: url(https://files.greatermedia.com/uploads/sites/49/2018/08/GettyImages-71737746-500x375.jpg)'></div>
+									<div class="entry2__thumbnail__icon"></div>
+											</a>
+		</section>
+	
+	<section class="entry2__meta">
+		<time datetime="2018-08-24T00:01:52+00:00" class="entry2__date">August 24, 2018</time>
+		
+		<h2 class="entry2__title" itemprop="headline"><a href="https://k1047.com/2018/08/24/favorite-school-snack/">What Was Your Favorite After-School Snack?</a></h2>
+		
+		<div class="entry2__excerpt">
+			<p>With kids going back to school, parents are stocking up on after-school snack foods. That small repast between lunch and dinner was one that I always looked forward to when I was young. It meant that another long, grueling day in the salt mine, er, halls of academia had come to an end. It didn't&hellip;</p>
+		</div>		
+	</section>
+
+	<footer class="entry2__footer">
+		<a href="https://k1047.com/category/phil-harris/" class="entry2__footer--category">Phil Harris</a>
+		<a href="https://k1047.com/2018/08/24/favorite-school-snack/" class="entry2__footer--read-more">read more</a>
+	</footer>
+</article>
+				<div class="posts-pagination">
+		<a
+			class="button posts-pagination--load-more is-loaded"
+			href="https://k1047.com/page/2/"
+			data-page-link-template="https://k1047.com/page/%d/"
+			data-page="2"
+			data-partial-slug='partials/loop'
+			data-partial-name=''
+			data-auto-load='1'
+			>
+			<i class="gmr-icon icon-spin icon-loading"></i> Load More
+		</a>
+	</div>
+			
+		</section>
+
+		
+<aside class="sidebar">
+	<div id="social_icon_widget-2" class="widget--live-player widget_social_icon_widget"><ul class="social__list"><li><a class="social__link icon-facebook" target="_blank" href="https://www.facebook.com/K1047/"></a></li><li><a class="social__link icon-twitter" target="_blank" href="https://twitter.com/k1047fm"></a></li><li><a class="social__link icon-youtube" target="_blank" href="https://www.youtube.com/user/K1047FM"></a></li><li><a class="social__link icon-instagram" target="_blank" href="http://instagram.com/k1047fm"></a></li></ul></div><div id="gmr-dfp-widget-2" class="widget--live-player widget_gmr-dfp-widget"><div class="" data-dfp-slot="WKQC_FM_RightRail_pos1" data-sizes="[[300,250],[300,600]]" data-targeting="[]"></div></div>		<div id="recent-contests-2" class="widget--live-player widget-recent-contests">		<h3 class="widget--live-player__title">K 104.7 CONTESTS</h3>		<ul>
+					<li>
+				<a href="https://k1047.com/contests/2-2-4u-symphonic-celebration-prince/">
+					<div class="widget-recent-contests__meta">
+						<img src="https://files.greatermedia.com/uploads/sites/49/2018/05/Unknown-1.jpeg" />
+						<span>2 @ 2 4U: A Symphonic Celebration of Prince</span>
+					</div>
+				</a>
+			</li>
+					<li>
+				<a href="https://k1047.com/contests/register-to-win-hobby-lobby-giftcards/">
+					<div class="widget-recent-contests__meta">
+						<img src="https://files.greatermedia.com/uploads/sites/49/2018/07/Hobby-Lobby-2018-500x199.png" />
+						<span>Register to Win: Hobby Lobby Giftcards</span>
+					</div>
+				</a>
+			</li>
+					<li>
+				<a href="https://k1047.com/contests/5f-masterbuilt-smoker/">
+					<div class="widget-recent-contests__meta">
+						<img src="https://files.greatermedia.com/uploads/sites/49/2018/08/LaborDay2018_1200x628-500x500.png" />
+						<span>5F: Masterbuilt Smoker</span>
+					</div>
+				</a>
+			</li>
+					<li>
+				<a href="https://k1047.com/contests/masterbuilt-labor-day-football-kick-off-free/">
+					<div class="widget-recent-contests__meta">
+						<img src="https://files.greatermedia.com/uploads/sites/49/2018/08/LaborDay2018_1200x628-500x500.png" />
+						<span>MASTERBUILT Labor Day Football Kick Off Free for All</span>
+					</div>
+				</a>
+			</li>
+				</ul>
+		<div class="more-contests">
+			<a class="more-contests-btn" href="/contests">More Contests</a>
+		</div>
+		</div>		<div id="triton_song_history-2" class="widget--live-player widget_triton_song_history">			<div class="triton-song-history">
+				<td-songhistory
+          id="td-songhistory"
+          station="WKQCFM"
+          songsdisplayed="5"
+          title= "RECENTLY PLAYED"
+          >
+			  </td-songhistory>
+				<script src="//widgets.listenlive.co/1.0/tdwidgets.min.js"></script>
+			</div>
+		</div><div id="text-3" class="widget--live-player widget_text">			<div class="textwidget"><a href="https://publicfiles.fcc.gov/fm-profile/wkqc" target="_blank">FCC Public File</a></div>
+		</div></aside>
+	</div>
+
+			<footer class="footer" role="contentinfo">
+				<div class="container">
+																<div class="footer__content">
+							<div class="footer__copyright">
+								<div class="footer__copyright--logo">
+									<a href="https://k1047.com/">K 104.7</a>
+								</div>
+								<span class="footer__copyright--span">
+									&copy; K 104.7								</span>
+								-
+								<span class="footer__copyright--span">
+									<a href="http://bbgi.com/" target="_blank" rel="noopener noreferrer">Beasley Media Group, LLC</a>
+								</span>
+							</div>
+							<div class="footer__menu">
+								<ul class="social__list"><li><a class="social__link icon-facebook" target="_blank" href="https://www.facebook.com/K1047/"></a></li><li><a class="social__link icon-twitter" target="_blank" href="https://twitter.com/k1047fm"></a></li><li><a class="social__link icon-youtube" target="_blank" href="https://www.youtube.com/user/K1047FM"></a></li><li><a class="social__link icon-instagram" target="_blank" href="http://instagram.com/k1047fm"></a></li></ul>								<nav class="footer__nav"><ul id="footer__nav--list" class="footer__nav--list"><li id="menu-item-1093" class="menu-item menu-item-type-post_type menu-item-object-show menu-item-1093"><a href="https://k1047.com/shows/phil-and-mel-in-the-morning/">Phil &#038; Mel In The Morning</a></li>
+<li id="menu-item-129440" class="menu-item menu-item-type-post_type menu-item-object-show menu-item-129440"><a href="https://k1047.com/shows/melany-myers/">Melany Myers</a></li>
+<li id="menu-item-1091" class="menu-item menu-item-type-post_type menu-item-object-show menu-item-1091"><a href="https://k1047.com/shows/brandon-chase/">Brandon Chase</a></li>
+<li id="menu-item-129439" class="menu-item menu-item-type-post_type menu-item-object-show menu-item-129439"><a href="https://k1047.com/shows/jack-daniel/">Jack Daniel</a></li>
+<li id="menu-item-1197" class="menu-item menu-item-type-post_type menu-item-object-podcast menu-item-1197"><a href="https://k1047.com/podcasts/the-francene-marie-show/">The Francene Marie Show</a></li>
+<li id="menu-item-106513" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-106513"><a href="https://k1047.com/join-k-vip-club/">Sign Up for Our K104.7 Newsletter</a></li>
+<li id="menu-item-1095" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1095"><a href="https://k1047.com/contact-us/">Contact Us</a></li>
+<li id="menu-item-1094" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1094"><a href="https://k1047.com/advertise-with-us/">Advertise With Us</a></li>
+<li id="menu-item-1096" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1096"><a href="https://k1047.com/general-contest-rules/">General Contest Rules</a></li>
+</ul></nav>							</div>
+						</div>
+									</div>
+			</footer>
+		</main>
+	</div> <!-- / page-wrap -->
+</div> <!-- / site-wrap -->
+<div class="menu-overlay-mask"></div>
+<div class="header-search-overlay-mask"></div>
+<div class="busy-mask">
+	<i class="gmr-icon icon-spinner icon-spin"></i>
+</div>
+<!-- /26918149/WKQC_FM_Interstitial -->
+		<div id="div-gpt-ad-1484200509775-3" style="height:0; overflow: hidden; width:0;">
+			<script type="text/javascript">
+				googletag.cmd.push(function() { googletag.display('div-gpt-ad-1484200509775-3'); });
+			</script>
+		</div>		<script>
+		( function ( body ) {
+			'use strict';
+			body.className = body.className.replace( /\btribe-no-js\b/, 'tribe-js' );
+		} )( document.body );
+		</script>
+		<script type='text/javascript'> /* <![CDATA[ */var tribe_l10n_datatables = {"aria":{"sort_ascending":": activate to sort column ascending","sort_descending":": activate to sort column descending"},"length_menu":"Show _MENU_ entries","empty_table":"No data available in table","info":"Showing _START_ to _END_ of _TOTAL_ entries","info_empty":"Showing 0 to 0 of 0 entries","info_filtered":"(filtered from _MAX_ total entries)","zero_records":"No matching records found","search":"Search:","all_selected_text":"All items on this page were selected. ","select_all_link":"Select all pages","clear_selection":"Clear Selection.","pagination":{"all":"All","next":"Next","previous":"Previous"},"select":{"rows":{"0":"","_":": Selected %d rows","1":": Selected 1 row"}},"datepicker":{"dayNames":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"dayNamesShort":["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],"dayNamesMin":["S","M","T","W","T","F","S"],"monthNames":["January","February","March","April","May","June","July","August","September","October","November","December"],"monthNamesShort":["January","February","March","April","May","June","July","August","September","October","November","December"],"nextText":"Next","prevText":"Prev","currentText":"Today","closeText":"Done"}};/* ]]> */ </script><script type='text/javascript' src='https://k1047.com/wp-content/plugins/greatermedia-galleries/assets/js/gmr_gallery.min.js?ver=2.2.3'></script>
+<script type='text/javascript' src='https://k1047.com/wp-content/plugins/greatermedia-timed-content/js/greatermedia-timed-content.js?ver=4.9.7'></script>
+<script type='text/javascript' src='//cdn.embed.ly/player-0.1.0.min.js'></script>
+<script type='text/javascript' src='https://k1047.com/wp-content/plugins/beasley-omny-studio/player.js?ver=20180319.1'></script>
+<script type='text/javascript' src='https://k1047.com/wp-content/mu-plugins/dependencies/waypoints/lib/jquery.waypoints.min.js?ver=4.9.7'></script>
+<script type='text/javascript' src='https://k1047.com/wp-content/mu-plugins/dependencies/polyfills/classList.js?ver=4.9.7'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var platformConfig = {"firebase":{"apiKey":"","authDomain":"","databaseURL":"","storageBucket":"","messagingSenderId":""}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://k1047.com/wp-content/themes/greatermedia/assets/js/frontend.min.js?ver=1535049815'></script>
+<script async type='text/javascript' src='https://tag.simpli.fi/sifitag/273421f0-841f-0135-dc80-06659b33d47c'></script>
+<script type='text/javascript' src='//sdk.listenlive.co/web/2.9/td-sdk.min.js'></script>
+<script type='text/javascript' src='https://k1047.com/wp-content/mu-plugins/dependencies/mediaelement-js/mediaelement-and-player.min.js?ver=2.16.3'></script>
+<script type='text/javascript' src='https://k1047.com/wp-content/mu-plugins/dependencies/cookies/cookies.min.js?ver=1.1.0'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var gmr = {"debug":"","logged_in":"","callsign":"WKQCFM","streamUrl":"","wpLoggedIn":"","homeUrl":"https:\/\/k1047.com\/","popup_url":"https:\/\/k1047.com\/listen-live","is_popup":"","intervals":{"live_streaming":15,"inline_audio":5}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://k1047.com/wp-content/plugins/greatermedia-live-player/assets/js/live-player.min.js?ver=20180319.1'></script>
+<script data-cfasync="true" type='text/javascript' src='https://k1047.com/wp-content/plugins/greatermedia-contests/js/contests.min.js?ver=1.5.0'></script>
+<script type='text/javascript' src='https://k1047.com/wp-content/plugins/gmr-homepage-countdown-clock/js/countdown-clock.min.js?ver=4.9.7'></script>
+<script type='text/javascript' src='https://k1047.com/wp-includes/js/wp-embed.min.js?ver=4.9.7'></script>
+<script type="text/javascript">
+		(function($, googletag) {
+			var slotsIndex = 0, setGlobalTargeting = false, __ready, __cleanup;
+
+			__cleanup = function() {
+				var slots = [];
+
+				$('.main [data-dfp-slot] .gmr-ad').each(function() {
+					var slot = $(this).data('slot');
+
+					if (slot) {
+						slots.push(slot);
+					}
+				});
+
+				if (slots.length > 0) {
+					googletag.destroySlots(slots);
+				}
+
+				googletag.pubads().clearTargeting();
+			};
+
+			__ready = function() {
+				var unitCodes = {"dfp_ad_leaderboard_pos1":"WKQC_FM_Leaderboard_pos1","dfp_ad_leaderboard_pos2":"WKQC_FM_Leaderboard_pos2","dfp_ad_incontent_pos1":"WKQC_FM_InContent_pos1","dfp_ad_incontent_pos2":"WKQC_FM_InContent_pos2","dfp_ad_right_rail_pos1":false,"dfp_ad_right_rail_pos2":false,"dfp_ad_inlist_infinite":"WKQC_FM_InList_infinite","dfp_ad_ingallery":"WKQC_FM_ingallery","dfp_ad_sidegallery":"WKQC_FM_sidegallery","dfp_ad_homepage_countdown_clock":"WKQC_FM_CountdownClock_320x50"},
+					sizes = {"dfp_ad_leaderboard_pos1":[[728,90],[970,90],[970,66],[320,50],[320,100]],"dfp_ad_leaderboard_pos2":[[728,90],[970,90],[320,50],[320,100]],"dfp_ad_incontent_pos1":[[300,250]],"dfp_ad_incontent_pos2":[[300,250]],"dfp_ad_ingallery":[[300,600],[300,250]],"dfp_ad_sidegallery":[[300,250]],"dfp_ad_gallery_sidebar":[[300,250]],"dfp_ad_inlist_infinite":[[300,250]],"dfp_ad_right_rail_pos1":[[300,600],[300,250]],"dfp_ad_right_rail_pos2":[[300,600],[300,250]],"dfp_ad_homepage_countdown_clock":[[320,50]]},
+					slots = [],
+					unitCode;
+
+				$('[data-dfp-slot]:empty').each(function() {
+					var $this = $(this),
+						slotType = $this.attr('data-dfp-slot'),
+						slotSizes = JSON.parse($this.attr('data-sizes')),
+						targeting = JSON.parse($this.attr('data-targeting')),
+						id;
+
+					unitCode = unitCodes[slotType] || slotType;
+					if (unitCode) {
+						id = 'dfp-slot-' + ++slotsIndex;
+						$this.html('<div id="' + id + '" class="gmr-ad"></div>');
+
+						slots.push([
+							'/26918149/' + unitCode,
+							slotSizes || sizes[slotType],
+							id,
+							targeting,
+							slotType
+						]);
+					}
+				});
+
+				googletag.cmd.push(function() {
+					var i, j, slot, targeting, sizeMapping;
+
+					for (i in slots) {
+						slot = googletag.defineSlot(slots[i][0], slots[i][1], slots[i][2]);
+
+						sizeMapping = false;
+						if ('dfp_ad_leaderboard_pos1' == slots[i][4]) {
+							sizeMapping = googletag.sizeMapping()
+								.addSize([1024, 200], [[970, 66], [970, 90], [728, 90]])
+								.addSize([768, 200], [728, 90])
+								.addSize([0, 0], [[320, 50], [320, 100]])
+								.build();
+						} else if ('dfp_ad_leaderboard_pos2' == slots[i][4]) {
+							sizeMapping = googletag.sizeMapping()
+								.addSize([1024, 200], [[970, 90], [728, 90]])
+								.addSize([768, 200], [728, 90])
+								.addSize([0, 0], [[320, 50], [320, 100]])
+								.build();
+						} else if ('dfp_ad_incontent_pos1' == slots[i][4] || 'dfp_ad_incontent_pos2' == slots[i][4]) {
+							sizeMapping = googletag.sizeMapping()
+								.addSize([768, 200], [])
+								.addSize([0, 0], [300, 250])
+								.build();
+						} else if ('dfp_ad_gallery_sidebar' == slots[i][4]) {
+							sizeMapping = googletag.sizeMapping()
+								.addSize([768, 200], [300, 250])
+								.addSize([0, 0], [])
+								.build();
+						} else if ('dfp_ad_ingallery' == slots[i][4]) {
+							sizeMapping = googletag.sizeMapping()
+								.addSize([768, 200], [[300, 600], [300, 250]])
+								.addSize([0, 0], [300, 250])
+								.build();
+						} else if ('dfp_ad_sidegallery' == slots[i][4]) {
+							sizeMapping = googletag.sizeMapping()
+								.addSize([768, 200], [300, 250])
+								.addSize([0, 0], [])
+								.build();
+						} else if ($(document.getElementById(slots[i][2])).parents('.widget_gmr-dfp-widget').length > 0) {
+							sizeMapping = googletag.sizeMapping()
+								.addSize([768, 200], slots[i][1])
+								.addSize([0, 0], [])
+								.build();
+						}
+
+						if (sizeMapping) {
+							slot.defineSizeMapping(sizeMapping);
+						}
+
+						for (j in slots[i][3]) {
+							slot.setTargeting(slots[i][3][j][0], slots[i][3][j][1]);
+						}
+
+						slot.addService(googletag.pubads());
+
+						$(document.getElementById(slots[i][2])).data('slot', slot);
+					}
+
+					// we need to skip first targeting setup because it will be set in the header for the first page,
+					// all pjax/ajax loaded pages will use this block to reset global targeting
+					if (setGlobalTargeting) {
+						while ((targeting = googletag.beasley.targeting.pop())) {
+							googletag.pubads().setTargeting(targeting[0], targeting[1]);
+						}
+					}
+
+					setGlobalTargeting = true;
+				});
+
+				googletag.cmd.push(function() {
+					for (var i in slots) {
+						googletag.display(slots[i][2]);
+					}
+				});
+			};
+
+			$(document)
+				.on('pjax:start', __cleanup)
+				.on('pjax:end gmr_lazy_load_end', __ready)
+				.ready(__ready);
+		})(jQuery, googletag);
+	</script><script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"b7c6c809cf","applicationID":"159761608","transactionName":"b1IAYkNVXRdQW0MLW1YYN0RYG1oKVV1PTERQRw==","queueTime":0,"applicationTime":8,"atts":"QxUDFAtPThk=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

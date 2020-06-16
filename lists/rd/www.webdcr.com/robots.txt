@@ -1,0 +1,4 @@
+# Sitemap is also available on /sitemap.xml
+Sitemap: http://www.webdcr.com/sitemap.xml
+User-agent: *
+

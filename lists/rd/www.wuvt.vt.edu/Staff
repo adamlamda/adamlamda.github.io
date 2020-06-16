@@ -1,0 +1,287 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+
+        <title>Staff - WUVT: Radio for Everyone!</title>
+
+        <link rel="stylesheet" type="text/css" href="/static/css/wuvt.css?v=26" />
+        <link rel="stylesheet" type="text/css" href="/static/css/glyphiconstrap.css" />
+        <link rel="alternate" type="application/atom+xml"
+            href="/feed.atom" title="Atom Feed"  />
+        
+        
+        <link rel="shortcut icon"
+            href="/static/img/favicon.ico" />
+        <link rel="apple-touch-icon"
+            href="/static/img/icon.png" />
+    </head>
+    <body>
+
+<header>
+    <div id="nowplaying"> <!-- now playing bar -->
+        
+        <ul>
+            <li><strong>Currently on air:</strong> <span id="current_track">Not Available</span></li>
+            <li><strong>Current DJ:</strong> <span id="current_dj">Not Available</span></li>
+        </ul>
+        
+    </div>
+
+    <div id="mainheader">
+        <h1>
+            <a href="/" title="WUVT-FM 90.7 Blacksburg, VA">
+                WUVT: Radio for Everyone! 90.7 FM
+            </a>
+        </h1>
+
+        <div id="robot">
+        </div>
+    </div>
+
+    <div id="bubble">
+        
+        <ul>
+            <li><a href="/listen-live">Listen Live!</a></li>
+            <li><a href="/last15">Last 15 Tracks!!</a></li>
+            <li><a href="/donate">Donate Online!!!</a></li>
+        </ul>
+        
+    </div>
+
+    <nav> <!-- top, horizontal nav bar -->
+        
+        <ul>
+        </ul>
+        
+    </nav>
+</header>
+
+<div id="wrapper">
+
+    <div id="side">
+        <nav id="side_primary">
+            
+            <ul>
+                <li>
+                    <span class="menu-heading">News</span>
+                    <ul>
+                        
+                        
+                        <li><a href="/category/events">Events</a></li>
+                        
+                        
+                        
+                        <li><a href="/category/newsletter">Newsletter</a></li>
+                        
+                        
+                        
+                        <li><a href="/category/programming">Programming</a></li>
+                        
+                        
+                        
+                        <li><a href="/category/station-updates">Updates</a></li>
+                        
+                        
+                        
+                        <li><a href="/category/woove">WOOVE</a></li>
+                        
+                        
+                    </ul>
+                </li>
+
+                <li>
+                    <span class="menu-heading">About</span>
+                    <ul>
+                        
+                        <li><a href="/fm">FM</a></li>
+                        
+                        
+                        <li><a href="/history">History</a></li>
+                        
+                        
+                        <li><a href="/listen-live">Listen</a></li>
+                        
+                        
+                        
+                        <li><a href="/wuvt">Station</a></li>
+                        
+                        </ul>
+                </li>
+                <li>
+                    <span class="menu-heading">Community</span>
+                    <ul>
+                        
+                        <li><a href="/alumni">Alumni</a></li>
+                        
+                        
+                        <li><a href="/current-psas">Current PSAs</a></li>
+                        
+                        
+                        <li><a href="/community">Get Involved</a></li>
+                        
+                        
+                        <li><a href="/public-relations">Public Relations</a></li>
+                        
+                        
+                        <li><a href="/supporters">Supporters</a></li>
+                        
+                        
+                        <li><a href="/underwriting">Underwriting</a></li>
+                        
+                        
+                        </ul>
+                </li>
+                <li>
+                    <span class="menu-heading">Playlists</span>
+                    <ul>
+                        <li><a href="/last15">Last 15</a></li>
+                        <li><a href="/playlists/date">by date</a></li>
+                        <li><a href="/playlists/dj">by DJ</a></li>
+                        <li><a href="/playlists/charts">Charts</a></li>
+                        </ul>
+                </li>
+                <li>
+                    <span class="menu-heading">Shows</span>
+                    <ul>
+                        
+                        <li><a href="/local-zone">Local Zone</a></li>
+                        
+                        
+                        <li><a href="/shows">Schedule</a></li>
+                        
+                        </ul>
+                </li>
+                <li>
+                    <span class="menu-heading">Contact</span>
+                    <ul>
+                        
+                        <li><a href="/contact-info">Address</a></li>
+                        
+                        
+                        <li><a href="/donate">Donate</a></li>
+                        
+                        
+                        
+                        <li><a href="/legal">Legal</a></li>
+                        
+                        
+                        <li class="active"><a href="/contact">Staff</a></li>
+                        
+                        </ul>
+                </li>
+                
+
+                <li>
+                    <span class="menu-heading">Social</span>
+                    <ul>
+                        <li><a href="https://www.facebook.com/WUVTFM" rel="external" title="WUVT on Facebook">Facebook</a></li>
+                        <li><a href="https://twitter.com/wuvtfm" rel="external" title="WUVT on Twitter">Twitter</a></li>
+                        <li><a href="https://www.instagram.com/wuvt" rel="external" title="WUVT on Instagram">Instagram</a></li>
+                        <li><a href="/feed.atom" rel="feed" title="Atom Feed">Feed</a></li>
+                    </ul>
+                </li>
+            </ul>
+            
+        </nav>
+
+        
+        <ul id="side_social">
+        </ul>
+        
+    </div>
+
+    <div id="content">
+        
+
+<section>
+    <header>
+        <h2>Staff</h2>
+    </header>
+
+<h1>MANAGEMENT</h1>
+
+<p>
+    General Manager: <a href="mailto:joshf95@vt.edu">Josh Foelsch</a><br />
+    Business Manager: <a href="mailto:mox@vt.edu">Stephen Moxley</a><br />
+    <!-- Office Manager: <a href="mailto:"></a><br /> -->
+</p>
+
+<h1>MUSIC</h1>
+
+<p>
+    Music Director: <a href="mailto:wuvtmusic@gmail.com">Laurel Romoser</a><br />
+    Librarian: <a href="mailto:len.comaratta@gmail.com">Len Comaratta</a><br />
+</p>
+
+<blockquote>
+    NOTE: WUVT does not accept digital music submissions. </br>
+    Our address can be found <a href="/contact-info">here</a> if you want to mail us physical music submissions.
+</blockquote>
+
+<h1>PROGRAMMING</h1>
+
+<p>
+    FM Program Director: <a href="mailto:jasonm99@vt.edu">Jason Maguire</a><br />
+    AM Program Director: <a href="mailto:rjhall97@vt.edu">Raymond Hall</a><br />
+    News Director: <a href="mailto:mchurch4@vt.edu">Maury Church</a><br />
+    Traffic Director: <a href="mailto:hchawley@vt.edu">Heather Hawley</a>  
+</p>
+
+<h1>OUTREACH</h1>
+
+<p>
+    <!-- Sales Manager: <a href="mailto:"></a><br /> -->
+    PR/Outreach Director: <a href="mailto:elysej2@vt.edu">Elyse Johnston</a><br />
+    Promotions Directors: <a href="mailto:clareeb@vt.edu">Clare Bushman</a> and <a href="mailto:lstreet@vt.edu">Lizzy Street</a><br />
+    Special Events Coordinator: <a href="mailto:allyson1@vt.edu">Allyson Dixon</a><br />
+    Philanthropy Director: <a href="mailto:sssosa@vt.edu">Stephanie Sosa</a><br />
+</p>
+
+<h1>ARTISTIC</h1>
+
+<p>
+    Art Director: <a href="mailto:collinc@vt.edu">Collin Caywood</a><br />
+    Woove Editor-In-Chief: <a href="mailto:conor6@vt.edu">Conor Cadra</a><br />
+</p>
+
+<h1>TECHNICAL</h1>
+
+<p>
+Chief Engineer: <a href="mailto:mattps7@vt.edu">Matt Singman</a><br />
+IT Director: <a href="mailto:it@wuvt.vt.edu">Dustin Smith</a><br />
+Webmaster: <a href="mailto:tjane97@vt.edu">Jane Tallman</a><br />
+</p>
+
+<h1>WISDOM</h1>
+
+<p>
+    Faculty Advisor: <a href="mailto:clark.gaylord@vt.edu">Clark Gaylord</a>
+</p>
+
+<h1>OFFICE HOURS</h1>
+
+<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTio_Z4dCNdsfhGqEENAMTE2sZmzGd7qaHR6QfyoyZH067FDyweipIqU8DGmRcBjsIXnMqcC050WaJJ/pubhtml?gid=1518204879&amp;single=true&amp;widget=true&amp;headers=false" width="786" height="350"></iframe>
+
+    <footer></footer>
+</section>
+
+    </div>
+</div>
+
+<footer>
+    © 2007-2018 WUVT-FM et al. <a href="/legal">Some rights reserved.</a> <a href="/privacy">Privacy Policy</a>
+</footer>
+
+
+<script src="/static/js/jquery.js"></script>
+<script src="/static/js/moment.min.js"></script>
+<script src="/static/js/global.js"></script>
+<script src="/static/js/live.js?v=3"></script>
+<script src="/static/js/stream.js?v=3"></script>
+<script src="/static/js/playlists_by_date.js"></script>
+<script src="/js/init.js"></script>
+
+    </body>
+</html>

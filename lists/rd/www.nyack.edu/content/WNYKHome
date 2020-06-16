@@ -1,0 +1,906 @@
+﻿  <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>    
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="keywords" content="Nyack College Alliance Theological Seminary Christian Higher Education Masters Graduate Business" />
+<meta name="description" content="Homepage of WNYK 88.7FM Nyack College Radio" />
+<meta name="google-site-verification" content="d39NSEnpNKcAy4rPZYkB3yZT39b0t8gLQFAt8M8fwwY" />
+<meta charset="utf-8" />
+<title>WNYK 88.7FM Nyack College Radio</title>
+<link rel="canonical" href="http://www.nyack.edu/content/WNYKHome" />
+
+<!-- Responsive and mobile friendly stuff -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script src="//www.google.com/jsapi?key=ABQIAAAAjeWY9glouBWhjTULZpv-MhRFHISly7EaZgaHbmOxaqG6i8clsBRVN2Dd18_O0BTH1erS9CrYj8PTFg" type="text/javascript"></script>
+<script language="Javascript" type="text/javascript">
+    //<![CDATA[
+
+    google.load("jquery", "1.8.2");
+    google.load("jqueryui", "1.8.12");
+
+    //]]>
+</script>
+<!--Google recaptcha-->
+<script src='//www.google.com/recaptcha/api.js'></script>
+<!-- Include jquery -->
+<script src="//code.jquery.com/jquery-1.8.2.min.js"></script>
+<link href="/css/colorbox/colorbox/colorbox.css" rel="stylesheet" type="text/css" />
+<script src="/css/colorbox/colorbox/jquery.colorbox.js" type="text/javascript"></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+				//Examples of how to assign the ColorBox event to elements
+				$(".group1").colorbox({rel:'group1'});
+				$(".group2").colorbox({rel:'group2', transition:"fade"});
+				$(".group3").colorbox({rel:'group3', transition:"none", width:"75%", height:"75%"});
+				$(".group4").colorbox({rel:'group4', slideshow:true});
+				//this is the one I'm using (works just like the old modal popup)
+				//NOTE: iframe works similarly, BUT - won't POST data to main page
+				//$(".ajax").colorbox({width:700, height:600});
+				$(".ajax2").colorbox();
+				$(".ajax").colorbox({width:"90%"});
+				$(".ajax4").colorbox({width:"70%"});
+				$(".ajax3").colorbox({width:"700px"});
+				//$(".ajax").colorbox({width:"60%"});
+				$(".youtube").colorbox({iframe:true, innerWidth:425, innerHeight:344});
+				$(".iframe").colorbox({iframe:true, width:"80%", height:"80%"});
+				$(".inline").colorbox({inline:true, width:"50%"});			
+			});	
+</script>
+
+<link href="/2015.grid.css" rel="stylesheet" />
+<link href="/font-awesome.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Montserrat:400,700|Varela+Round|Dancing+Script:700">
+
+<link href='//fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+
+<link href='//fonts.googleapis.com/css?family=Open+Sans:400,800,700' rel='stylesheet' type='text/css'>
+<link rel="shortcut icon" href="/favicon.ico" />
+<!-- 57x57 (precomposed) for iPhone 3GS, 2011 iPod Touch and older Android devices -->
+<link rel="apple-touch-icon-precomposed" href="/images/apple-touch-icon-precomposed.png">
+<!-- 72x72 (precomposed) for 1st generation iPad, iPad 2 and iPad mini -->
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/images/apple-touch-icon-72x72-precomposed.png">
+<!-- 114x114 (precomposed) for iPhone 4, 4S, 5 and 2012 iPod Touch -->
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/images/apple-touch-icon-114x114-precomposed.png">
+<!-- 144x144 (precomposed) for iPad 3rd and 4th generation -->
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/images/apple-touch-icon-144x144-precomposed.png">
+<!-- All JavaScript at the bottom for faster loading, except for Modernizr which enables HTML5 elements &amp; feature detects -->
+<script src="/modernizr-2.5.3.min.js"></script>
+<!--<link rel="stylesheet" href="/css/_reset.css">-->
+<link rel="stylesheet" href="/2015.build.css">
+
+<!--<script type="text/javascript" src="/scripts/mega-menu-complete-set/js/jquery.js"></script> jQuery -->
+<script src="/scripts/mega-menu-complete-set/js/megamenu.js" type="text/javascript"></script>
+<script type="text/javascript" src="/scripts/mega-menu-complete-set/js/megamenu_plugins.js"></script><!-- Mega Menu Plugins -->
+<link rel="stylesheet" href="/2015.megamenu.css">
+
+<script>
+$(document).ready(function($){
+    $('.megamenu').megaMenuCompleteSet({
+        menu_speed_show : 500, // Time (in milliseconds) to show a drop down
+        menu_speed_hide : 200, // Time (in milliseconds) to hide a drop down
+        menu_speed_delay : 0, // Time (in milliseconds) before showing a drop down
+        menu_effect : 'hover_slide', // Drop down effect, choose between 'hover_fade', 'hover_slide', etc.
+        menu_click_outside : 1, // Clicks outside the drop down close it (1 = true, 0 = false)
+        menu_show_onload : 0, // Drop down to show on page load (type the number of the drop down, 0 for none)
+        menu_responsive:1 // 1 = Responsive, 0 = Not responsive
+    });
+});
+</script>
+<style>
+#search-MOBILE { display:none; }
+@media screen and (max-width: 600px) {
+	#protonav, #desktop_logo, #overview01, #overview02, #overview03, #overview04
+	{ display: none; }
+	
+	.megamenu_container { height:auto;width:100%;background:#000; }
+	.megamenu { width:100%;margin:0;float:none;background:#333;padding-bottom:0px; }
+	.megamenu > ul { 
+		position:absolute;
+		float:none;
+		width:100%;;
+		padding:0;
+		margin:0;
+		left:0; 
+	}
+	.megamenu > li,
+	.megamenu > li:hover,
+	.megamenu > li.right,
+	.megamenu > li.right:hover {
+		
+		float:none;
+		margin:0;
+		border:none;
+		display:block;
+		left:0;
+	}
+	.megamenu > li > a
+	 {
+		width:100%;
+		font-family: "Gotham", sans-serif;
+		font-weight: 700;
+		font-size: 11pt;
+		text-transform: uppercase;
+		outline: 0;
+		text-decoration: none;
+		display: block;
+		height: auto;
+		padding:0;
+	}
+	.megamenu > li .megamenu_drop {
+		padding-right:0px;
+	}
+	.megamenu li .dropdown_fullwidth {
+		position:relative;
+		margin:0;
+		padding:30px;
+		left:0;
+		top:auto;
+		display: block;
+		zoom:1;
+		z-index:9998;
+		float: left;
+	}
+	#ABOUT-NYACK-NAV { display:block; }
+	#search-MOBILE { display:inline; }
+}
+/*.input { border: solid 1px #000;background: #CCC; }*/
+.awesome { color:#fff; }
+
+
+@media print {
+    /* Print CSS rules go here */
+    /* Note: You need a separate @media screen group for other rules */
+	#searchBar, #searchBar-MOBILE, #protonav, #mobile-banner, #honchonav, #menucolumn, .footer2015 
+	{
+		display:none;	
+	}
+}
+
+</style>
+
+<!-- Facebook Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','//connect.facebook.net/en_US/fbevents.js');
+
+fbq('init', '305554406277512');
+fbq('track', "PageView");
+
+
+
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="//www.facebook.com/tr?id=305554406277512&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Facebook Pixel Code -->
+
+<script type="text/javascript">
+(function(a,e,c,f,g,h,b,d){var k={ak:"837706152",cl:"LA9aCIW2wXQQqMO5jwM",autoreplace:"845.358.1710"};a[c]=a[c]||function(){(a[c].q=a[c].q||[]).push(arguments)};a[g]||(a[g]=k.ak);b=e.createElement(h);b.async=1;b.src="//www.gstatic.com/wcm/loader.js";d=e.getElementsByTagName(h)[0];d.parentNode.insertBefore(b,d);a[f]=function(b,d,e){a[c](2,b,k,d,null,new Date,e)};a[f]()})(window,document,"_googWcmImpl","_googWcmGet","_googWcmAk","script");
+</script>
+
+
+		<!-- Event snippet for Request for info conversion page
+		In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+		<script>
+		function gtag_report_conversion(url) {
+		  var callback = function () {
+			if (typeof(url) != 'undefined') {
+			  window.location = url;
+			}
+		  };
+		  gtag('event', 'conversion', {
+			  'send_to': 'AW-837706152/nz5dCNDmp34QqMO5jwM',
+			  'event_callback': callback
+		  });
+		  return false;
+		}
+		</script>
+</head>
+<body>
+
+
+<div class="page_wrapper">
+<a name="top" id="top"></a>
+<!--let's put the giant search bar here, what say you?-->
+<div id="searchBar" class="searchBar" style="display:none;">
+<form id="searchForm" name="searchForm" method="get" action="/?">
+          <input name="terms" type="text" id="terms" class="termy" placeholder="What are you searching for?" style="width:100%;height:40px;background:#CCC;padding-left:3px;" />
+          <!--<input type="submit" name="submitSearch" id="submitSearch" value="search" style="height:25px;" class="small orange awesome" />-->
+          <input name="search" type="hidden" id="search" value="true" />
+        </form>
+</div>
+
+<!--and a mobile version!-->
+<div id="searchBar-MOBILE" class="searchBar" style="display:none;">
+<form id="searchFormMOBILE" name="searchForm" method="get" action="/?">
+          <input name="terms-MOBILE" type="text" id="terms-MOBILE" class="termy" placeholder="Search..." style="width:90%;height:30px;background:#CCC;padding-left:3px;" />
+          <!--<input type="submit" name="submitSearch" id="submitSearch" value="search" style="height:25px;" class="small orange awesome" />-->
+          <input name="search" type="hidden" id="search" value="true" />
+        </form>
+</div>
+
+<style>
+/*.megamenu_button { background:#000;display:inline; }*/
+</style>
+
+<style>
+#side-tabs a.apply {
+	background: url('//www.nyack.edu/images/admissions/apply-tab.png');
+	right: 0px;
+	top: 200px;
+	height: 165px;
+	width: 45px;
+	margin: 0;
+	padding: 0;
+	position: fixed;
+	z-index: 9999;
+	display:block;
+}
+</style>
+
+<div id="side-tabs">
+<a class="apply" href="https://secure.vzcollegeapp.com/nyack/"></a>
+</div>
+
+
+<style>
+#mobile-banner { display:none; }
+@media screen and (max-width: 600px) {
+	#mobile-banner { display:block; }
+}
+@media screen and (max-width: 600px) {
+	#proto-right { display:none; }
+}
+</style>
+
+<div id="mobile-banner" style="background:#000;">
+<a href="/"><img src="/images/2015/assets/Nyack-MOBILE-top-2.gif" border="0" /></a>
+<img src="/images/2015/assets/Nyack-MOBILE-search.gif" border="0" align="right" onClick="toggleSearchMobile('searchBar-MOBILE');" style="margin-right:5px;" />
+</div>
+
+
+<!--BEGIN PROTONAV-->
+<div id="protonav" class="protonav">
+	
+    <ul class="megamenu">
+    	<li><a href="/content/CampusRockland">Rockland</a></li>
+        <li><a href="/content/CampusNYC">NYC</a></li>
+        <li><a href="/content/NyackOnline">ONLINE</a></li>
+    </ul>
+    
+    
+    <ul class="megamenu" id="search-mega" style="float:right;">
+    	
+        <li><a href="/giving">GIVE</a></li>            
+        
+        <!--new 2016 - changing "INFO FOR" to "REQUEST INFO"-->
+         <li style="padding-left:35px;padding-right:10px;background:url('/scripts/mega-menu-complete-set/img/dropdown.png') no-repeat right 16px;"><a href="#" class="megamenu_drop" style="color:gold;">REQUEST INFO</a><!-- Begin Right Item -->    
+                <div class="dropdown_2columns dropdown_container" id="constituents"><!-- Begin Item Container -->
+                    <ul class="dropdown_10columns">
+            
+                            <li><a href="https://www.nyack.edu/content/RequestInfo">Undergrad</a></li>
+                            <!--<li><a href="https://www.nyack.edu/content/OMContact">Adult Ed.</a></li>-->
+                            <li><a href="https://www.nyack.edu/content/GradInfo">Graduate</a></li>
+                            <li><a href="https://www.nyack.edu/content/ATSContact">Seminary</a></li>
+                     </ul>
+                </div><!-- End Item Container --></li>
+                
+                
+                
+                
+        <li style="padding:0px;" id="searchNav"><a href="javascript:;" onClick="toggleSearch('searchBar');"><img src="/images/2015/assets/search.png" id="searchIcon" border="0" style="margin-top:-16px;" /></a></li>
+        </ul>
+    
+
+<!--END PROTONAV-->
+</div>
+
+<script>
+function toggleSearch(id) {
+       var e = document.getElementById(id);
+       if(e.style.display == 'block') {
+          e.style.display = 'none';
+		  document.getElementById('searchIcon').src = '/images/2015/assets/search.png';
+	   } else {
+          e.style.display = 'block';
+		  $('#terms').focus();
+		  document.getElementById('searchIcon').src = '/images/2015/assets/search2.png';
+	   }
+    }
+	
+function toggleSearchMobile(id) {
+       var e = document.getElementById(id);
+       if(e.style.display == 'block') {
+          e.style.display = 'none';
+	   } else {
+          e.style.display = 'block';
+		  $('#terms-MOBILE').focus();
+	   }
+    }
+	
+function toggleNav(id) {
+       var e = document.getElementById(id);
+       if(e.style.display == 'block') {
+          e.style.display = 'none';
+	   } else {
+          e.style.display = 'block';
+		  $('#terms').focus();
+	   }
+    }
+
+//$('#terms').focus();
+</script>
+
+<div><!--adding a black wrapper-->
+
+<!--BEGIN RESPONSIVE NAV-->
+    <div id="honchonav" class="megamenu_container megamenu_dark_bar megamenu_light" style="background:#000;"><!-- Begin Menu Container -->
+    
+
+
+
+<div id="desktop_logo"><a href="/"><img src="/images/2015/Nyack-CSG-Black-Full.gif" align="left" style="margin-left:50px;" border="0" /></a></div>
+        
+        <ul class="megamenu"><!-- Begin Mega Menu -->
+           
+
+            <li class="megamenu_button" style="padding-bottom:0;">
+     				<a href="#_"><img src="/images/2015/assets/MENU-MOBILE.png" style="margin:0px;padding:0px;" border="0" /></a>
+            </li>
+
+        
+            <li id="ABOUT-NYACK-NAV"><a href="#_" class="megamenu_drop">ABOUT NYACK</a><!-- Begin Item -->
+                <div class="dropdown_fullwidth" style="background:#c40a46;"><!-- Begin Item Container -->
+                    <div id="overview01" class="col_2 responsive_halfs"> 
+                        <div>
+                        <img src="/images/2015/assets/NAV-ABOUT-NYACK.jpg" style="margin-bottom:4px;"><!--<br><a href="#">Overview</a>-->
+                        </div>       
+                    </div>
+                    <div class="col_2 responsive_halfs leftBorder">
+                        <ul class="num2">
+                            <li><a href="/content/WhoWeAre">Who We Are</a></li>
+                            <li><a href="/content/Personnel">Faculty/Staff</a></li>
+                            <li><a href="/content/Alumni">Alumni/Friends</a></li>
+                            <li><a href="/giving">Giving to Nyack</a></li>
+                            <li><a href="/ConsumerInfo">Consumer Info</a></li>
+                            
+                        </ul>    
+                    </div>
+                    <div class="col_2 responsive_halfs leftBorder">
+                    
+                        <ul class="list">
+                            <li><a href="/students">Campus Life Rockland</a></li>
+                            <li><a href="/content/NYCLife">Campus Life NYC</a></li>
+                            <!--<li><a href="http://life.nyack.edu" target="_blank">Life @ Nyack Blog</a></li>-->
+                            <li><a href="/news">I AM NYACK News</a></li>
+                            <li><a href="http://athletics.nyack.edu">Athletics</a></li>
+                            <li>&nbsp;</li>
+                        </ul>   
+                    </div>  
+                </div><!-- End Item Container -->
+            </li><!-- End Item -->
+            
+            
+
+
+            
+            <li id="ACADEMICS-NAV"><a href="#_" class="megamenu_drop">ACADEMICS</a><!-- Begin Item -->
+                <div class="dropdown_fullwidth" style="background:#5d2567;"><!-- Begin Item Container -->
+                    <div id="overview02" class="col_2 responsive_halfs">
+                        <div>
+                        <img src="/images/2015/assets/NAV-ACADEMICS.jpg" style="margin-bottom:4px;"><!--<br><a href="#">Overview</a>-->
+                        </div>      
+                    </div>
+                    <div class="col_2 responsive_halfs leftBorder">
+                        <ul class="num2">
+                            <li><a href="/content/Overview">Academic Overview</a></li>
+                            <!--<li><a href="/2015/Overview">Schools</a></li>-->
+                            <li><a href="/content/Undergrad">Undergraduate</a></li>
+                            <!--<li><a href="/content/DAEExplore">Degree Completion</a></li>-->
+                            <li><a href="/content/GradPrograms">Graduate</a></li>
+                        </ul>   
+                    </div>
+                    <div class="col_2 responsive_halfs leftBorder">
+                        <ul class="list">
+                            <li><a href="/ats">Seminary</a></li>
+                            <li><a href="/content/NyackOnline">Online</a></li>
+                            <li><a href="/library">Library</a></li>
+                            <li><a href="/content/GSL">Study Abroad</a></li>
+                            <!--<li>&nbsp;</li>-->
+                            <li>&nbsp;</li>
+                            <li>&nbsp;</li>
+                        </ul>    
+                    </div>
+                </div><!-- End Item Container -->
+            </li><!-- End Item -->
+            
+            
+            
+            
+            
+            
+            <li id="ADMISSIONS-AID-NAV"><a href="#_" class="megamenu_drop">ADMISSIONS & AID</a><!-- Begin Item -->
+                <div class="dropdown_fullwidth" style="background:#18868a;"><!-- Begin Item Container -->  
+                    <div id="overview03" class="col_2 responsive_halfs">
+                        <div>
+                        <img src="/images/2015/assets/NAV-ADMISSIONS.jpg" style="margin-bottom:4px;"><!--<br><a href="#">Overview</a>-->
+                        </div>   
+                    </div>
+                    <div class="col_2 responsive_halfs leftBorder">
+                        <ul class="num2">
+                            <li><a href="/content/FCSExplore">Undergraduate</a></li>
+                            <li><a href="/content/GradAdmissions">Graduate</a></li>
+                            <!--<li><a href="/content/DAEPrograms">Degree Completion</a></li>-->
+                            <li><a href="/content/ATSAdmissions">Seminary</a></li>
+                            <li><a href="/content/NyackOnline">Online</a></li>
+                        </ul>      
+                    </div>
+                    <div class="col_2 responsive_halfs leftBorder">
+                        <ul class="list">
+                            <li><a href="/SFSWelcome">Financial Services</a></li>
+                            <li><a href="/content/RSVP">Visit</a></li>
+                            <li><a href="https://www.nyack.edu/content/RequestInfo">Request Info</a></li>
+                            <li><a href="/international-students">International Students</a></li>
+                            <li>&nbsp;</li>
+                            <li>&nbsp;</li>
+                        </ul>    
+                    </div>
+                    <div class="col_2 responsive_halfs leftBorder">
+                    
+                        <ul class="list">
+                            <li><a href="/students">Campus Life Rockland</a></li>
+                            <li><a href="/content/NYCLife">Student Life NYC</a></li>
+                            <li><a href="http://life.nyack.edu" target="_blank">Life @ Nyack Blog</a></li>
+                            <li><a href="/gsl">Study Abroad</a></li>
+                            <li><a href="http://athletics.nyack.edu">Athletics</a></li>
+                            <li>&nbsp;</li>
+                        </ul>   
+                    </div>
+                </div><!-- End Item container -->
+            </li><!-- End Item -->
+ 
+        
+        </ul><!-- End Mega Menu -->
+
+    </div><!-- End Menu Container -->
+
+
+<!--END RESPONSIVE NAV HTML -->
+
+</div><!--ending black wrapper-->
+
+<!--new element - adding a "BANNER" section to allow insertion of wide media-->
+
+
+<div id="main22" class="home">
+	
+    
+    
+    <div class="inner">
+        
+        
+        
+<!--WRAP THE CONTENT IN A PADDED WHITE CONTAINER-->
+<div class="nyackWrap">    
+   
+   
+   <br><br>&nbsp;
+
+   <h1 class="Title">WNYK 88.7FM Nyack College Radio</h1><br />&nbsp;<div class="section group">
+    <div id="menucolumn" class="col span_1_of_6">
+	<h1 style="font-size:14px;margin-bottom:15px;" class="red" id="menu_hide" onclick="SwitchBio('menu_stuff');">TAP TO EXPAND +</h1>
+        <div id="menu_stuff">
+             
+      <ul class="resetlist"><li class="MenuSelected"><a href="/content/WNYKHome" class="red">HOME</a></li>
+<li><a href="/content/WNYKListen" class="red">PERSONNEL</a></li>
+<li><a href="/content/WNYKAbout" class="red">ABOUT</a></li>
+<li><a href="/content/WNYK_YIR" class="red">YEAR IN REVIEW</a></li>
+<li><a href="/content/WNYKContact" class="red">CONTACT</a></li>
+<li><a href="/content/WNYKStaff" class="red">CONNECT</a></li>
+</ul>
+            <br />&nbsp;
+        </div>
+    </div>
+    <div class="col span_4_of_6 portal_white">
+        <div class="red_content">
+            <img src="/images/WNYK/HOMEPAGE-2016.jpg" alt="wnyk_home" border="0"><br />
+&nbsp;&nbsp;&nbsp;<br>
+
+<!--<div>&nbsp;<object height="50" width="200"><param name="movie" value="http://nyack.lightcastmedia.com/embed/console/dT0zMjkwJmM9MTcyNDMzMDQzMCZ3PTIwMCZoPTUwJmxvZ289JmJnY29sb3I9RUVFRUVF" /><param name="allowFullScreen" value="true" /><embed allowfullscreen="true" allowscriptaccess="always" height="50" src="http://nyack.lightcastmedia.com/embed/console/dT0zMjkwJmM9MTcyNDMzMDQzMCZ3PTIwMCZoPTUwJmxvZ289JmJnY29sb3I9RUVFRUVF" type="application/x-shockwave-flash" width="200"></embed></object></div>-->
+
+
+<iframe allowfullscreen frameborder="0"  width="300" height="100"  src="https://nyack.lightcastmedia.com/embed/console/dT0zMjkwJmM9MTcyNDMzMDQzMCZ3PTMwMCZoPTEwMCZsb2dvPSZhdXRvc3RhcnQ9MQ.html"></iframe>
+
+
+
+<p><a href="http://www.facebook.com/WarriorRadio887" target="_blank"><img src="/images/icons/2011.Facebook.png" width="32" height="32" /></a><a href="http://twitter.com/Warrior_Radio"><img src="/images/icons/2011.Twitter.png" width="32" height="32" /></a><a href="http://www.instagram.com/warrior.radio" target="_blank"><img src="/images/icons/Instagram.jpg" width="32" height="32" /></a></p>
+</div>
+        <div><div style="margin-bottom:-14px;"></div></div>
+	</div></div></div>
+
+
+
+<!--end white container-->
+</div>
+    
+    <!--end class "inner">--> 
+    </div>
+<!--end id "main"-->
+</div>
+
+<br />&nbsp;
+
+
+<style>
+.sectionHOME {
+	clear: both;
+	padding: 0px;
+	margin: 0px;
+}
+
+.colHOME {
+	display: block;
+	text-align: center;
+	float:left;
+	/*margin: 1% 0 1% 2.5%;*/
+	/*margin: 1% 0 1% 3%;*/
+	margin: 0;
+	padding: 0;
+}
+.colHOME:first-child { margin-left: 0; }
+.groupHOME:before,
+.groupHOME:after {
+	content:"";
+	display:table;
+}
+.groupHOME:after {
+	clear:both;
+}
+			
+.span_box { width: 25%; text-align:center; }
+
+.colHOME .featureTitle {
+	font-family: 'Gotham';
+	font-weight: 700;
+	font-size: 14px;
+	color: #FFF;
+	margin: 15%;
+}
+.colHOME .featureText {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 22px;
+	color: #FFF;
+	padding-right:20px;
+	padding-left:20px;	
+}
+
+@media screen and (max-width: 700px) {
+	.span_box { width: 50%; margin:0; }
+	.colHOME .featureTitle { font-size: 12px; }
+	.colHOME .featureText { font-size: 15px; }
+}
+</style>
+
+
+
+
+
+
+<script src="/doubletaptogo.js"></script>
+<script>
+	$( function()
+	{
+		$( '#nav li:has(ul)' ).doubleTapToGo();
+	});
+</script>
+
+
+
+<!--BEGIN FOOTER-->
+
+<style>
+.footer2015 {
+	background-color:#222;
+}
+.footer_pad { padding:5%;padding-right:10%;padding-left:10%; }
+.footer2015 .footer_pad .group .col .pad ul {
+	list-style:none;
+	padding-left:0px;	
+}
+.footer2015 .footer_pad .group .col .pad ul li a {
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #fff;
+	text-decoration:none;
+	font-size: 12pt;
+	line-height:2em;	
+}
+.footer2015 .footer_pad .group .col .pad h5,
+.footer2015 .footer_pad .group .col .pad h5 a {
+	font-family:'Gotham';
+	color: #CCC;
+	text-decoration:none;
+	font-size: 11pt;
+	line-height:2em;
+}
+.footer_divider {
+	margin-top:30px;
+	margin-bottom:20px;
+	margin-left:20px;
+	border-top: solid 1px #FFF;
+	height:2px;	
+}
+.footer2015 .footer_pad .group .col .pad .address {
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #999;
+	font-size: 11pt;
+	line-height:1.6em;
+}
+</style>
+
+<div class="footer2015">
+
+<div class="footer_pad">
+
+<div class="section group">
+    <div class="col span_2_of_8">
+        <div class="pad">
+        <h5>QUICK LINKS</h5>
+        <ul align="left">
+            <li><a href="/content/WhoWeAre">About Nyack College</a></li>
+            <li><a href="/content/Overview">Academics</a></li>
+            <li><a href="/content/ApplyNow">Admissions & Aid</a></li>
+            <li><a href="http://athletics.nyack.edu">Athletics</a></li>
+            <li><a href="/safetyandsecurity">Safety & Security</a></li>
+        </ul>   
+     	</div>
+     </div>
+     <div class="col span_2_of_8">
+        <div class="pad">
+        <ul align="left">
+            <li>&nbsp;</li>
+            <li><a href="/content/Undergrad">Undergrad</a></li>
+            <li><a href="/content/GradPrograms">Graduate</a></li>
+            <li><a href="/content/ATSExplore">Seminary</a></li>
+            <!--<li><a href="/content/DAEExplore">Adult Ed.</a></li>
+-->            <li><a href="http://online.nyack.edu/?Campaign=Web&SubCampaign=HomePage">Online</a></li>
+        </ul>   
+        </div>
+     </div>
+     <div class="col span_2_of_8">
+        <div class="pad">
+        <ul align="left">
+            <li>&nbsp;</li>
+            <li><a href="/content/RSVP">Visit</a></li>
+            <li><a href="/content/ApplyNow">Apply</a></li>
+            <li><a href="/content/Giving">Give</a></li>
+        </ul>   
+        </div>
+     </div>
+     <div class="col span_2_of_8">
+        <div class="pad">
+        <h5>CONNECT</h5>
+        <ul align="left">
+            <li><a href="http://facebook.com/NyackCollege">Facebook</a></li>
+            <li><a href="http://instagram.com/NyackCollege">Instagram</a></li>
+            <li><a href="http://twitter.com/NyackCollege">Twitter</a></li>
+            <li><a href="http://pinterest.com/NyackCollege">Pinterest</a></li>
+            <li><a href="/news">I AM NYACK News</a></li>
+        </ul>   
+     	</div>
+     </div>
+</div>
+
+
+<div class="footer_divider"></div>
+
+
+<div class="section group">
+    <div class="col span_2_of_8">
+        <div class="pad">
+        <h5>NYC CAMPUS</h5>
+        <div class="address">2 Washington Street<br>New York, NY 10004<br>212.625.0500</div>   
+     	</div>
+     </div>
+     <div class="col span_2_of_8">
+        <div class="pad">
+        <h5>ROCKLAND CAMPUS</h5>
+        <div class="address">1 South Boulevard<br>Nyack, NY 10960<br>845.358.1710</div>  
+        </div>
+     </div>
+     <div class="col span_2_of_8">
+        <div class="pad">
+        <ul align="left">
+            <li>&nbsp;</li>
+        </ul>   
+        </div>
+     </div>
+     <div class="col span_2_of_8">
+        <div class="pad">
+        <h5><a href="#top">BACK TO TOP &#x25B2;</a></h5>
+     	</div>
+     </div>
+</div>
+
+
+
+</div>
+                         
+</div>
+
+
+<!--END FOOTER-->
+
+
+<!--END PAGE WRAPPER-->
+</div>
+
+
+<!-- Add javascript to make it work -->
+  <script>
+<!--
+function SwitchBio(obj){
+	if(document.getElementById){
+	var el = document.getElementById(obj);
+		if(el.style.display != "block"){ 
+			el.style.display = "block";
+			if(obj=="menu_stuff") { document.getElementById("menu_hide").innerHTML="TAP TO COLLAPSE -"; }
+		}else{
+			el.style.display = "none";
+			if(obj=="menu_stuff") { document.getElementById("menu_hide").innerHTML="TAP TO EXPAND +"; }
+		}
+	}
+}
+//-->
+  </script>
+   
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-2715734-2");
+pageTracker._initData();
+pageTracker._trackPageview();
+</script>
+
+
+
+
+<script type="text/javascript">
+$(document).ready(function(){
+$('img#nav1').hover(function() {
+	$(this).attr("src","/images/nyack/New_Student_Housing_Button_Hover.jpg");
+		}, function() {
+	$(this).attr("src","/images/nyack/New_Student_Housing_Button.jpg");
+});
+
+$('img#nav2').hover(function() {
+
+	$(this).attr("src","/images/nyack/Current_Student_Housing_Button_Hover2.jpg");
+		}, function() {
+	$(this).attr("src","/images/nyack/Current_Student_Housing_Button2.jpg");
+});
+
+$('img#nav3').hover(function() {
+	$(this).attr("src","/images/nyack/Grad_Housing_Button_Hover.jpg");
+		}, function() {
+	$(this).attr("src","/images/nyack/Grad_Housing_Button.jpg");
+});
+
+$('img#nav4').hover(function() {
+	$(this).attr("src","/images/nyack/NYC_Housing_Button_Hover.jpg");
+		}, function() {
+	$(this).attr("src","/images/nyack/NYC_Housing_Button.jpg");
+});
+});
+
+<!--
+function SwitchFolder(folder, heading){
+	if(document.getElementById){
+	var folderDiv = "" + folder + "";
+	var headingDiv = "" + heading + "";
+	var f = document.getElementById("" + folderDiv + "");
+	var h = document.getElementById("" + headingDiv + "");
+	var hText = document.getElementById("" + headingDiv + "").innerHTML;
+		if(f.style.display != "block"){ 
+			hText=hText.replace( "Folder32.gif", "FolderOpened32.gif" );
+			h.innerHTML = "" + hText + "";
+			f.style.display = "block";
+		}else{
+			hText=hText.replace( "FolderOpened32.gif", "Folder32.gif" );
+			h.innerHTML = "" + hText + "";
+			f.style.display = "none";
+		}
+	}
+}
+//-->
+<!--
+function SwitchButton(ButtonOff, ButtonOn){
+	var OnDiv = "" + ButtonOn + "";
+	document.getElementById('' + OnDiv + '').style.display = 'block';
+	var OffDiv = "" + ButtonOff + "";
+	document.getElementById('' + OffDiv + '').style.display = 'none';
+}
+//-->
+<!--
+function SwitchDiv(DivOn, DivOff){
+	var OnDiv = "" + DivOn + "";
+	document.getElementById('' + OnDiv + '').style.display = 'block';
+	if(DivOff!="none") {
+		var OffDiv = "" + DivOff + "";
+		document.getElementById('' + OffDiv + '').style.display = 'none';
+	}
+}
+//-->
+<!--
+function ToggleDiv(on, off){
+	var OffDiv = "" + off + "";
+	document.getElementById('' + OffDiv + '').style.display = 'none';
+	
+	var OnDiv = "" + on + "";
+	if(document.getElementById('' + OnDiv + '').style.display == 'block') {
+		document.getElementById('' + OnDiv + '').style.display = 'none';
+	} else {
+		document.getElementById('' + OnDiv + '').style.display = 'block';
+	}
+}
+//-->
+<!--
+function DropRFI(){
+	if(document.getElementById){
+		document.getElementById("RFIpop").style.display = "none";
+		document.getElementById("RFIclose").innerHTML = "";
+		var RFIstuff = document.getElementById("RFIstuff").innerHTML;
+		document.getElementById("RFIdrop").innerHTML = "" + RFIstuff + "";
+		
+	}
+}
+//-->
+
+</script>
+
+
+
+<!-- Google Code for Remarketing Tag -->
+<!--------------------------------------------------
+Remarketing tags may not be associated with personally identifiable information or placed on pages related to sensitive categories. See more information and instructions on how to setup the tag on: http://google.com/ads/remarketingsetup
+--------------------------------------------------->
+<script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = 837706152;
+var google_custom_params = window.google_tag_params;
+var google_remarketing_only = true;
+/* ]]> */
+</script>
+<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+</script>
+<noscript>
+<div style="display:inline;">
+<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/837706152/?guid=ON&amp;script=0"/>
+</div>
+</noscript>
+
+<script>
+  jQuery(document).ready(function(){
+    jQuery('a[href="https://secure.vzcollegeapp.com/nyack/"]').click(function(){
+      pageTracker._trackEvent('Button','Click','Apply Now');
+    });
+    if(jQuery('.section div:contains("Thank")').is(":visible"))
+    {
+      pageTracker._trackEvent('form','submit',jQuery('h1.Title').text());
+    }
+  });
+</script>
+
+</body>
+</html>

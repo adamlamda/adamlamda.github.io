@@ -1,0 +1,17 @@
+User-agent: *
+Crawl-delay: 10
+Disallow: /admin/
+Disallow: /ckeditor/
+Disallow: /emailcontent/
+Disallow: /facebookapps/
+Disallow: /feeds/
+Disallow: /formmailer/
+Disallow: /kiosk-olmsted-lobby/
+Disallow: /kiosk/
+Disallow: /majors/foreignlanguages/essay-contest.cfm
+Disallow: /mockups/
+Disallow: /ncsara/
+Disallow: /search/
+Disallow: /secured/
+Disallow: /test/
+Sitemap: /sitemap/sitemap.txt

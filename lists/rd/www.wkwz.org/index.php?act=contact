@@ -1,0 +1,144 @@
+<!-- Site Created by Jared Weiss -->
+<head>
+<title>WKWZ 88.5 FM - Syosset High School Radio</title>
+	<link rel="stylesheet" type="text/css" href="style.css" />
+
+
+<!-- Handles Mobile Redirect -->
+
+	<script type="text/javascript">
+	if (screen.width<800)
+		{
+		<!-- window.location="/mobile/" -->
+		}
+	else
+		{
+		<!-- Do nothing -->
+		}
+	</script>
+
+</head>
+<body>
+
+
+</head>
+
+
+<body>
+
+
+<div class="border"> <!-- border -->
+
+<div class="banner_container"> <!-- banner -->
+
+	<a class="WKWZ_button" href="index.php"></a>
+	<a class="About_button" href="index.php?act=about"></a>
+	<a class="Schedule_button" href="index.php?act=schedule"></a>
+	<a class="DJs_button" href="index.php?act=DJs"></a>
+
+</div> <!-- banner -->
+
+</br>
+</br>
+</br>
+
+
+
+
+<div class="page_title">	<!-- Title of Current Page-->
+	<?php
+	switch($_GET['act']) { 
+		case "listenin":
+			echo("Listen To WKWZ");
+			break;
+		case "schedule":
+			echo("WKWZ Schedule");
+			break;
+		case "about":
+			echo("About Us");
+			break;
+		case "DJs":
+			echo("Our DJs");
+			break;
+		case "privacy":
+			echo("Privacy Policy");
+			break;
+		case "contact":
+			echo("Contact Us");
+			break;
+		case "feedback":
+			echo("Site Feedback");
+			break;
+		default:
+			echo("Syosset High School Radio");
+			break;
+	}
+	?>
+</div>
+
+
+
+</br>
+
+<div class="content"> <!-- Displays Content of Current Page-->
+
+<?php 
+
+switch($_GET['act']) {
+	case "listenin":
+		include("listenin.php");
+		break;
+	case "schedule":
+		include("schedule.php");
+		break;
+	case "about":
+		include("aboutus.txt");
+		break;
+	case "DJs":
+		include("bios.php");
+		break;
+	case "privacy":
+		include("privacy.php");
+		break;
+	case "contact":
+		include("contact.php");
+		break;
+	case "feedback":
+		include("feedback.php");
+		break;
+	default:
+		include("homepage.php");
+		break;
+}
+
+
+?>
+
+
+</br>
+</br>
+</br>
+
+	<a class="ListenIn_button" href="index.php?act=listenin"></a>
+
+
+</br>
+</br>
+
+
+
+</div>		<!-- content -->
+
+<div class="copyright"><a class="copyrightlink" href="index.php?act=privacy">Privacy Policy</a> | <a class="copyrightlink" href="index.php?act=contact">Contact Us</a> | <a class="copyrightlink" href="index.php?act=feedback">Site Feedback</a></br>
+Copyright &copy; 2011 WKWZ. All rights reserved.   </div>
+
+
+
+</br>
+</br>
+</br>
+
+</div>		<!-- border -->
+
+
+</body> 

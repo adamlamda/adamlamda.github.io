@@ -1,0 +1,376 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html prefix="og: http://ogp.me/ns#" xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+	  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="robots" content="index, follow" />
+  <meta name="keywords" content="WBWC, wbwc, 88.3, 883, 88.3fm, 883fm, BW, baldwin-wallace, baldwin, wallace, university, radio, berea, ohio, oh, b-w, the sting, sting, dj, radio station, music, news, baldwin wallace, baldwin wallace sports, free, streaming, listen, musician, real, friends, people, facebook, twitter, rock bands, rock, pop, genres, cleveland's modern rock alternative" />
+  <meta name="title" content="Contact" />
+  <meta name="author" content="Joe T" />
+  <meta name="description" content="" />
+  <meta name="generator" content="Joomla! 1.5 - Open Source Content Management" />
+  <title>Contact</title>
+  <link href="/templates/rt_hivemind_j15/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+  <link rel="stylesheet" href="/components/com_k2/css/k2.css" type="text/css" />
+  <style type="text/css">
+    <!--
+div#poll_loading_1 {
+	background: url(media/system/images/mootree_loader.gif) 0% 50% no-repeat;
+	width:100%;
+	height:20px; 
+	padding: 4px 0 0 20px; 
+}
+
+    -->
+  </style>
+  <script type="text/javascript" src="/plugins/system/mtupgrade/mootools.js"></script>
+  <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+  <script type="text/javascript" src="/components/com_k2/js/k2.js?v2.6.8&amp;sitepath=/"></script>
+  <script type="text/javascript" src="/media/system/js/caption.js"></script>
+  <script type="text/javascript" src="/plugins/content/phocagalleryslideshow.js"></script>
+  <script type="text/javascript">
+
+/* <![CDATA[ */
+window.addEvent('domready', function()
+    {
+		$('poll_vote_1').addEvent('submit', function(e) {
+				// Prevent the submit event
+			    new Event(e).stop();
+
+				var options = $('poll_vote_1').getElements('input[name=voteid]');
+
+				var nothing_selected = 1;				
+				options.each(function(item, index){
+					if(item.checked==1) {nothing_selected = 0;}
+				});							
+				if (nothing_selected) {
+					alert('Please select an option');
+					return false;
+				} else {
+
+						$('submit_vote_1').disabled = 1;
+						$('poll_loading_1').setStyle('display','');
+
+						// Update the page
+						this.send({ 
+						onComplete: function(response, responseXML) 
+						{
+							// get the XML nodes
+							var root   = responseXML.documentElement;
+							var options   = root.getElementsByTagName('option');
+							var text   = root.getElementsByTagName('text');
+							//var percentages  = root.getElementsByTagName('percentages');
+							var voters   = root.getElementsByTagName('voters');
+							
+							// prepare the XHTML
+							var updateValue = '<div style="width:100%"><div style="padding: 3px;">' + text.item(0).firstChild.nodeValue + ' - ' + options.item(0).attributes[1].nodeValue + '%</div><div class="poll_module_bar_holder" id="poll_module_bar_holder0"  style="width: 100%; height: 10px; padding:1px; border:1px solid #cccccc;"><div id="poll_module_bar'+options.item(0).attributes[0].nodeValue+'" style="background:#' + options.item(0).attributes[3].nodeValue + '; width:' + options.item(0).attributes[1].nodeValue + '%; height:10px;"></div></div></div><div style="width:100%"><div style="padding: 3px;">' + text.item(1).firstChild.nodeValue + ' - ' + options.item(1).attributes[1].nodeValue + '%</div><div class="poll_module_bar_holder" id="poll_module_bar_holder1"  style="width: 100%; height: 10px; padding:1px; border:1px solid #cccccc;"><div id="poll_module_bar'+options.item(1).attributes[0].nodeValue+'" style="background:#' + options.item(1).attributes[3].nodeValue + '; width:' + options.item(1).attributes[1].nodeValue + '%; height:10px;"></div></div></div><div style="width:100%"><div style="padding: 3px;">' + text.item(2).firstChild.nodeValue + ' - ' + options.item(2).attributes[1].nodeValue + '%</div><div class="poll_module_bar_holder" id="poll_module_bar_holder2"  style="width: 100%; height: 10px; padding:1px; border:1px solid #cccccc;"><div id="poll_module_bar'+options.item(2).attributes[0].nodeValue+'" style="background:#' + options.item(2).attributes[3].nodeValue + '; width:' + options.item(2).attributes[1].nodeValue + '%; height:10px;"></div></div></div><div style="width:100%"><div style="padding: 3px;">' + text.item(3).firstChild.nodeValue + ' - ' + options.item(3).attributes[1].nodeValue + '%</div><div class="poll_module_bar_holder" id="poll_module_bar_holder3"  style="width: 100%; height: 10px; padding:1px; border:1px solid #cccccc;"><div id="poll_module_bar'+options.item(3).attributes[0].nodeValue+'" style="background:#' + options.item(3).attributes[3].nodeValue + '; width:' + options.item(3).attributes[1].nodeValue + '%; height:10px;"></div></div></div><br /><b>Total votes</b>: ' + voters.item(0).firstChild.nodeValue + '';
+								
+							// update the page element 'update'
+							//$('polldiv_1').removeClass('ajax-loading');
+							$('polldiv_1').empty().setHTML(updateValue);
+                            var pollSlide = new Fx.Slide('poll_comp_form');
+                        	pollSlide.slideOut();
+						}});
+				}
+        });  
+    });/* ]]> */
+  </script>
+
+	
+<link rel="shortcut icon" href="/images/favicon.ico" />
+<link href="/templates/rt_hivemind_j15/css/rokmoomenu.css" rel="stylesheet" type="text/css" />
+<link href="/templates/rt_hivemind_j15/css/sifr-screen.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="/templates/system/css/general.css" type="text/css" />
+<link href="/templates/rt_hivemind_j15/css/template.css" rel="stylesheet" type="text/css" />
+<link href="/templates/rt_hivemind_j15/css/dark.css" rel="stylesheet" type="text/css" />
+<link href="/templates/rt_hivemind_j15/css/menustyle1-dark.css" rel="stylesheet" type="text/css" />
+<link href="/templates/rt_hivemind_j15/rokzoom/rokzoom.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+	div.wrapper { margin: 0 auto; width: 1200px;px;padding:0;}
+	/* clear fixes for pure css layout */
+	    #maincol {float: left; margin-right: -350px; width: 100%;}
+    #maincol-container {margin-right:350px;}
+    #sidecol {float: right; width: 350px;}
+    </style>	
+<script type="text/javascript" src="/templates/rt_hivemind_j15/js/mootools-release-1.11.js"></script>
+<script type="text/javascript" src="/templates/rt_hivemind_j15/rokzoom/rokzoom.js"></script>
+<script type="text/javascript" src="/templates/rt_hivemind_j15/sifr/sifr.js"></script> 
+<script type="text/javascript" src="/templates/rt_hivemind_j15/js/rokfonts.js"></script>   
+<script type="text/javascript">
+	window.addEvent('load', function() {
+		var modules = ['module','module-menu','module-color1','module-color2','module-color3','module-color4','module-style1','module-style1-color1','module-style1-color2','module-style1-color3','module-style1-color4','module-style2','module-style2-color1','module-style2-color2','module-style2-color3','module-style2-color4'];
+		var header = "h3";
+				RokStart(modules, header, "/templates/rt_hivemind_j15/sifr/walkway.swf", {sifr: {sWmode: 'transparent'}});
+	    	});
+</script>
+	
+<!--[if IE]>
+<script type="text/javascript" src="/templates/rt_hivemind_j15/js/ie_suckerfish.js"></script>
+<![endif]-->
+	
+<script type="text/javascript">
+	window.addEvent('load', function() {
+		RokZoom.init({
+			imageDir: '/templates/rt_hivemind_j15/rokzoom/images/',
+			resizeFX: {
+				duration: 700,
+				transition: Fx.Transitions.Cubic.easeOut,
+				wait: true
+			},
+			opacityFX: {
+				duration: 500,
+				wait: false	
+			}
+		});
+	});
+</script>
+	</head>
+	<body id="ff-optima" class="f-default dark">
+		<!-- begin wrapper -->
+		<div class="wrapper">
+			<!-- begin top section -->
+			<div id="top" style="text-align:center;">
+				<iframe
+                                style="width:540px; height:40px; border:none;"
+                                src="http://share.yes.com/Yd926e63f9f67651adfb9d1375efef145cc3d323e">
+                                </iframe>
+									
+			</div>
+			<!-- end top section -->
+			<!-- begin mainbody -->
+			<div id="mainbody-top">
+				<div id="mainbody-top2">
+					<div id="mainbody-top3">
+					</div>
+				</div>
+			</div>
+			<div id="mainbody">
+				<!-- begin header -->
+				<div id="header">
+					<a href="/" class="nounder"> <img src="/images/logosting.jpg" "border="0" alt="" id="logo"/></a>
+					<div id="horiz-menu" class="suckerfish menustyle1">
+						<div id="horiz-menu2">
+															<ul class="menutop"><li class="parent item1"><a href="http://wbwc.com/" class="topdaddy"><span>Home</span></a></li><li class="parent item19"><a href="/index.php?option=com_content&amp;view=category&amp;layout=blog&amp;id=1&amp;Itemid=19" class="topdaddy"><span>News</span></a><ul><li class="item22"><a href="/index.php?option=com_newsfeeds&amp;view=newsfeed&amp;id=1&amp;Itemid=22"><span>AP News</span></a></li></ul></li><li class="parent item2"><a href="/index.php?option=com_content&amp;view=section&amp;id=2&amp;Itemid=2" class="topdaddy"><span>Shows</span></a><ul><li class="item34"><a href="/index.php?option=com_content&amp;view=article&amp;id=180&amp;Itemid=34"><span>DJs</span></a></li><li class="item4"><a href="/index.php?option=com_weblinks&amp;view=category&amp;id=34&amp;Itemid=4"><span>Public Service Programs</span></a></li><li class="item5"><a href="/index.php?option=com_content&amp;view=category&amp;layout=blog&amp;id=5&amp;Itemid=5"><span>Acoustic Cafe</span></a></li><li class="item6"><a href="/index.php?option=com_content&amp;view=category&amp;layout=blog&amp;id=7&amp;Itemid=6"><span>Golden Age of Rock and Roll</span></a></li><li class="item8"><a href="/index.php?option=com_content&amp;view=category&amp;layout=blog&amp;id=9&amp;Itemid=8"><span>Island Time</span></a></li><li class="item9"><a href="/index.php?option=com_content&amp;view=category&amp;layout=blog&amp;id=10&amp;Itemid=9"><span>SportsPulse</span></a></li><li class="item14"><a href="/index.php?option=com_content&amp;view=category&amp;layout=blog&amp;id=13&amp;Itemid=14"><span>The Top 5 @ 5</span></a></li><li class="item15"><a href="/index.php?option=com_content&amp;view=category&amp;layout=blog&amp;id=14&amp;Itemid=15"><span>The Metal Command</span></a></li><li class="item16"><a href="/index.php?option=com_content&amp;view=category&amp;layout=blog&amp;id=15&amp;Itemid=16"><span>Sound of the Underground</span></a></li><li class="item18"><a href="/index.php?option=com_content&amp;view=category&amp;layout=blog&amp;id=4&amp;Itemid=18"><span>Running Late</span></a></li><li class="item69"><a href="/index.php?option=com_content&amp;view=category&amp;layout=blog&amp;id=46&amp;Itemid=69"><span>Country Back Roads</span></a></li></ul></li><li class="parent item23"><a href="/index.php?option=com_content&amp;view=article&amp;id=163&amp;Itemid=23" class="topdaddy"><span>About</span></a><ul><li class="item24"><a href="/index.php?option=com_content&amp;view=article&amp;id=164&amp;Itemid=24"><span>Board of Directors</span></a></li><li class="item31"><a href="/index.php?option=com_content&amp;view=article&amp;id=163&amp;Itemid=31"><span>Who We Are</span></a></li><li class="item25"><a href="/index.php?option=com_content&amp;view=article&amp;id=165&amp;Itemid=25"><span>History</span></a></li><li class="item26"><a href="/index.php?option=com_content&amp;view=article&amp;id=166&amp;Itemid=26"><span>Purpose</span></a></li><li class="parent item28"><a href="/index.php?option=com_content&amp;view=article&amp;id=168&amp;Itemid=28" class="daddy"><span>Media</span></a><ul><li class="item30"><a href="/index.php?option=com_content&amp;view=category&amp;id=36&amp;Itemid=30"><span>Archived Audio</span></a></li><li class="item49"><a href="/index.php?option=com_phocagallery&amp;view=categories&amp;Itemid=49"><span>Photo Gallery</span></a></li></ul></li><li class="item71"><a href="/index.php?option=com_content&amp;view=category&amp;layout=blog&amp;id=47&amp;Itemid=71"><span>Giveaway Policy</span></a></li><li class="item73"><a href="/index.php?option=com_content&amp;view=article&amp;id=627&amp;Itemid=73"><span>WBWC Hall Of Fame</span></a></li></ul></li><li class="parent active item29"><a href="/index.php?option=com_content&amp;view=article&amp;id=169&amp;Itemid=29" class="topdaddy"><span>Contact</span></a><ul><li id="current" class="active item36"><a href="/index.php?option=com_content&amp;view=article&amp;id=169&amp;Itemid=36"><span>General Contact Info</span></a></li><li class="item27"><a href="/index.php?option=com_content&amp;view=article&amp;id=167&amp;Itemid=27"><span>Underwriting</span></a></li></ul></li></ul>								
+						</div>
+					</div>
+				</div>
+				<!-- end header -->
+								<div id="mainbody-padding">
+					<!-- begin maincolumn -->
+					<div id="maincol">
+					    <div id="maincol-container">
+	    					    						<div id="showcase">
+    									<div class="module">
+			<div>
+				<div>
+					<div>
+													<h3>Listen Live!</h3>
+											<!--Wavestreaming.com SHOUTcast Flash Player-->
+<mce:script mce_src="https://web.archive.org/web/20180617103949js_/http://player.wavestreamer.com/cgi-bin/swf.js?id=TQ5LXS87LV6SFE6Z" type="text/javascript"></mce:script>
+<mce:script mce_src="https://web.archive.org/web/20180617103949js_/http://player.wavestreaming.com/?id=TQ5LXS87LV6SFE6Z" type="text/javascript"></mce:script>
+<!--End Player-->
+<p>
+<iframe src="http://tunein.com/embed/player/s27671/" mce_src="http://tunein.com/embed/player/s27671/" style="width:100%;height:100px;" scrolling="no" frameborder="no"></iframe></p>					</div>
+				</div>
+			</div>
+		</div>
+	
+    						</div>
+    						    						    						
+							<table class="contentpaneopen">
+<tr>
+		<td class="contentheading" width="100%">
+				<a href="/index.php?option=com_content&amp;view=article&amp;id=169:contact&amp;catid=22:pages&amp;Itemid=29" class="contentpagetitle">
+			Contact</a>
+			</td>
+				
+		
+					</tr>
+</table>
+
+<table class="contentpaneopen">
+<tr>
+	<td valign="top">
+		<span class="small">
+			Written by Joe T		</span>
+		&nbsp;&nbsp;
+	</td>
+</tr>
+
+<tr>
+	<td valign="top" class="createdate">
+		Tuesday, 09 June 2009 20:49	</td>
+</tr>
+
+
+<tr>
+<td valign="top">
+<p> </p>
+
+<p>WBWC<br /> 275 Eastland Road<br /> BEREA, OH 44017<br /> USA<br /> Attn: Music Director (for all music submissions)<br /> <br /> <br /> <strong>WBWC Request Line / Studio:</strong> 440-826-STING (7846)<br /> <strong>WBWC Office:</strong> 440-826-2145<br /> <strong>WBWC News Room:</strong> 440-826-2735<br /> <br /> <strong>E-Mail Requests:</strong> 
+ <script language='JavaScript' type='text/javascript'>
+ <!--
+ var prefix = 'm&#97;&#105;lt&#111;:';
+ var suffix = '';
+ var attribs = '';
+ var path = 'hr' + 'ef' + '=';
+ var addy80006 = 'r&#101;q&#117;&#101;st' + '&#64;';
+ addy80006 = addy80006 + 'wbwc' + '&#46;' + 'c&#111;m';
+ document.write( '<a ' + path + '\'' + prefix + addy80006 + suffix + '\'' + attribs + '>' );
+ document.write( addy80006 );
+ document.write( '<\/a>' );
+ //-->
+ </script><script language='JavaScript' type='text/javascript'>
+ <!--
+ document.write( '<span style=\'display: none;\'>' );
+ //-->
+ </script>This e-mail address is being protected from spambots. You need JavaScript enabled to view it
+ <script language='JavaScript' type='text/javascript'>
+ <!--
+ document.write( '</' );
+ document.write( 'span>' );
+ //-->
+ </script><br /> <strong>E-Mail Comments:</strong> 
+ <script language='JavaScript' type='text/javascript'>
+ <!--
+ var prefix = 'm&#97;&#105;lt&#111;:';
+ var suffix = '';
+ var attribs = '';
+ var path = 'hr' + 'ef' + '=';
+ var addy49934 = 'gm' + '&#64;';
+ addy49934 = addy49934 + 'wbwc' + '&#46;' + 'c&#111;m';
+ document.write( '<a ' + path + '\'' + prefix + addy49934 + suffix + '\'' + attribs + '>' );
+ document.write( addy49934 );
+ document.write( '<\/a>' );
+ //-->
+ </script><script language='JavaScript' type='text/javascript'>
+ <!--
+ document.write( '<span style=\'display: none;\'>' );
+ //-->
+ </script>This e-mail address is being protected from spambots. You need JavaScript enabled to view it
+ <script language='JavaScript' type='text/javascript'>
+ <!--
+ document.write( '</' );
+ document.write( 'span>' );
+ //-->
+ </script></p>
+<p><strong>For interviews:</strong> 
+ <script language='JavaScript' type='text/javascript'>
+ <!--
+ var prefix = 'm&#97;&#105;lt&#111;:';
+ var suffix = '';
+ var attribs = '';
+ var path = 'hr' + 'ef' + '=';
+ var addy50411 = 'pr&#111;gr&#97;mm&#105;ng' + '&#64;';
+ addy50411 = addy50411 + 'wbwc' + '&#46;' + 'c&#111;m';
+ document.write( '<a ' + path + '\'' + prefix + addy50411 + suffix + '\'' + attribs + '>' );
+ document.write( addy50411 );
+ document.write( '<\/a>' );
+ //-->
+ </script><script language='JavaScript' type='text/javascript'>
+ <!--
+ document.write( '<span style=\'display: none;\'>' );
+ //-->
+ </script>This e-mail address is being protected from spambots. You need JavaScript enabled to view it
+ <script language='JavaScript' type='text/javascript'>
+ <!--
+ document.write( '</' );
+ document.write( 'span>' );
+ //-->
+ </script></p>
+<p><a href="/index.php?option=com_content&amp;view=article&amp;id=164&amp;Itemid=24">Contact our Board of Directors</a></p></td>
+</tr>
+
+</table>
+<span class="article_separator">&nbsp;</span>
+
+    						    					</div>
+					</div>
+					<!-- end maincolumn -->
+					<!-- begin sidecolumn -->
+											<div id="sidecol">
+							<div id="sidecol-padding">
+																		<div class="module">
+			<div>
+				<div>
+					<div>
+													<h3>Have Your Voice Heard! New Music Stingers</h3>
+											
+<div class="poll" style="border:none; padding:1px;">
+
+
+<div id="polldiv_1">
+
+<form action="/index.php?option=com_content&amp;view=article&amp;id=169&amp;Itemid=36" method="post" name="poll_vote_1" id="poll_vote_1">
+	<label for="mod_voteid50" class="sectiontableentry2" style="display:block; padding:2px;">
+		<input type="radio" name="voteid" id="mod_voteid50" value="50" alt="50"  />
+			Bob Moses - Back Down	</label>
+		<label for="mod_voteid51" class="sectiontableentry1" style="display:block; padding:2px;">
+		<input type="radio" name="voteid" id="mod_voteid51" value="51" alt="51"  />
+			Slash - Driving Rain	</label>
+		<label for="mod_voteid52" class="sectiontableentry2" style="display:block; padding:2px;">
+		<input type="radio" name="voteid" id="mod_voteid52" value="52" alt="52"  />
+			Billie Eilish - you should see me in a crown	</label>
+		<label for="mod_voteid53" class="sectiontableentry1" style="display:block; padding:2px;">
+		<input type="radio" name="voteid" id="mod_voteid53" value="53" alt="53"  />
+			Rubblebucket - Lemonade	</label>
+		<div style="padding:2px;" id="poll_buttons_1" >	
+	<input type="submit" id="submit_vote_1" name="task_button" class="button" value="Vote"  />
+	</div>	
+	<div id="poll_loading_1" style="display:none;">Processing....	</div>		
+
+	<input type="hidden" name="option" value="com_acepolls" />
+	<input type="hidden" name="id" value="1" />
+	    <input type="hidden" name="format" value="raw" />
+    <input type="hidden" name="view" value="poll" />
+	<div><input type="hidden" name="ba30f5625ff07c67de9543aac123dc62" value="1" /></div></form>
+
+
+<!-- End of #polldiv -->
+</div>
+<div id="poll_links" style="padding-top:5px; ">
+
+		
+	
+</div>
+</div>					</div>
+				</div>
+			</div>
+		</div>
+								</div>
+						</div>
+										<!-- end sidecolumn -->
+					<div class="clr"></div>
+				</div>
+			</div>
+			<!-- end mainbody -->
+			<!-- begin bottom section -->
+						<div id="mainbody-bottom">
+				<div id="mainbody-bottom2">
+					<div id="mainbody-bottom3">
+					</div>
+				</div>
+			</div>
+			<!-- end bottom section -->
+							<div align="center">
+				<div id="footer">
+							<div class="moduletable">
+					<p><a href="http://www.facebook.com/pages/Berea-OH/883-fm-The-Sting/26370610776" target="_blank" title="Facebook"><img src="/images/icons/fb.png" border="0" width="64" height="64" /> </a><a href="http://www.twitter.com/883thesting" target="_blank" title="Twitter"><img src="/images/icons/twitter.png" border="0" width="64" height="64" /></a></p>		</div>
+			<div class="moduletable">
+					<h4 style="text-align: center;"><span style="color: #ffffff;"><span style="font-size: small;"><strong><span style="font-size: large;">WBWC<br /></span></strong></span><span style="font-size: small;">275 Eastland Road<br /></span><span style="font-size: small; line-height: 1.3em;">Berea, OH 44017<br /> </span><span style="font-size: small;"><strong>Requests</strong>: <span style="font-weight: normal;">440-826-STING (7846)<br /></span></span><span style="font-weight: normal;"><span style="font-size: small;"> Office<span style="font-weight: normal;">: </span><span style="font-weight: normal;">440-826-2145</span></span></span></span></h4>		</div>
+	
+				</div>
+				</div>
+					</div>
+		<!-- end wrapper -->
+	
+			<script type="text/javascript">
+			var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+			document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+			</script>
+			<script type="text/javascript">
+			try {
+			var pageTracker = _gat._getTracker("UA-4215003-3");
+			pageTracker._trackPageview();
+			} catch(err) {}</script>
+			</body>
+</html>

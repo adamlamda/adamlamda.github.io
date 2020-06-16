@@ -1,0 +1,970 @@
+
+
+
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+	<meta name="MachineName" content="Deliver1" />
+	<title>Page Not Found | Embry-Riddle Aeronautical University - Daytona Beach, FL</title>
+	<meta name="google-site-verification" content="bpPmE3rs63KxVSvmhfYlW6efvmaVvGGNS5oIzCEALU4" />
+	<meta name="Description" content="Page Not Found at Embry-Riddle Aeronautical University - Daytona.">
+	<link rel="canonical" href="https://daytonabeach.erau.edu/404/" />
+		<meta name="robots" content="noindex, nofollow">
+	<link rel="shortcut icon" href="/Images/Shared/favicon.ico" type="image/vnd.microsoft.icon" />
+	<link href="/Style/Daytona/bootstrap.min.css" rel="stylesheet">
+	<link href="/Style/Daytona/bootstrap-theme.min.css" rel="stylesheet">
+	<link href="//fonts.googleapis.com/css?family=Oswald:700,300,400" rel="stylesheet">
+	<link href="/Style/Shared/flags.css?d=7-19-18-v3" rel="stylesheet">
+	<link href="/Style/Shared/global.css?d=7-19-18-v3" rel="stylesheet">
+	<link href="/Style/Daytona/daytona.css?d=7-19-18-v3" rel="stylesheet">
+	<link href="//assets.erau.edu/fonts/erau.css" rel="stylesheet">
+	<link href="/Style/Shared/owl.carousel.css" rel="stylesheet">
+	<link href="/Style/Shared/owl.theme.css" rel="stylesheet">
+	<link href="/Style/Shared/animations.css" rel="stylesheet">
+	
+<meta name="VIcurrentDateTime" content="636709550319246385" />
+<script type="text/javascript" src="/layouts/system/VisitorIdentification.js"></script>
+
+	<link href="//erau.edu/action/smart-resource/rendering/stylesheet/4EDOwGVaz0mxTRFemCp-rA.7RiPqTAeZ0yl9l8CL7TXRA.WV2IKUPMEEyGoP9Czula8Q?d=7-19-18-v3" rel="stylesheet">
+
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script>var $erau = jQuery;</script>
+	<script src="/Scripts/Shared/owl.carousel.min.js"></script>
+	<script src="/Scripts/Daytona/bootstrap.min.js"></script>
+	<script src="/Scripts/Daytona/daytona.js?d=7-19-18-v3" type="text/javascript"></script>
+	<script src="/Scripts/Shared/global.js?d=7-19-18-v3" type="text/javascript"></script>
+
+	<script src="/Scripts/University/truconversion-3217-51c02.js"></script>
+
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!--[if lt IE 9]>
+	  <script src="//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+	  <script src="//oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+
+	<style type="text/css">.formLoading { display: none; }</style>
+</head>
+<body>
+	
+
+	<script>jQuery = $erau;</script>
+
+	<div class="hidden-print notification-area">
+		
+	</div>
+	<div class="hidden-print header">
+		<div id="topbar-holder" class="hidden-print">
+	<div id="topbar" class="erau-wrapper hidden-xs">
+		<div class="wrapper-container container">
+			<ul class="wrapper-list-inline">
+					<li>
+						<a href="//givingto.erau.edu/"><span>Give to ERAU</span></a>
+					</li>
+									<li>
+						<a href="//ernie.erau.edu"><span>ERNIE</span> <span class="icon-er-lock"></span></a>
+					</li>
+				<li>
+					<a href="//erau.edu/"><span>Embry-Riddle Home</span></a>
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-33593313-17', 'auto');
+        ga('send', 'pageview');
+
+    </script>
+
+<script src="//assets.erau.edu/affiliate/wrapper.js" id="erau-wrapper-script" hide-header="true" campus="daytona-beach"></script>
+
+<div class="modal fade mezzo-overlay" id="mezzoMenu" tabindex="-1" role="dialog" aria-labelledby="mezzoMenuLabel">
+	<div class="modal-dialog" role="document">
+		<div class="modal-content">
+			<div class="modal-body">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				<div class="row mezzoMenuRow">
+					<div class="col-xs-12">
+						<div class="link-slider slider-white slideReveal">
+							<div class="slider-bg"></div>
+							<a href="//daytonabeach.erau.edu/">Home</a>
+						</div>
+						<div class="link-slider slider-white slideReveal">
+							<div class="slider-bg"></div>
+							<a href="//daytonabeach.erau.edu/about/">About</a>
+						</div>
+						<div class="link-slider slider-white slideReveal">
+							<div class="slider-bg"></div>
+							<a href="//daytonabeach.erau.edu/degrees/">Degrees&nbsp;&amp; Programs</a>
+						</div>
+						<div class="link-slider slider-white slideReveal">
+							<div class="slider-bg"></div>
+							<a href="//daytonabeach.erau.edu/campus-life/">Campus Life</a>
+						</div>
+						<div class="link-slider slider-white slideReveal">
+							<div class="slider-bg"></div>
+							<a href="//daytonabeach.erau.edu/admissions/">Admissions</a>
+						</div>
+						<div class="link-slider slider-white slideReveal">
+							<div class="slider-bg"></div>
+							<a href="//daytonabeach.erau.edu/financial-aid/">Financial Aid</a>
+						</div>
+						<div class="link-slider slider-white slideReveal">
+							<div class="slider-bg"></div>
+							<a href="//daytonabeach.erau.edu/future-students/">Future Students</a>
+						</div>
+						<hr class="slideReveal" />
+						<div class="link-slider slider-white slideReveal">
+							<div class="slider-bg"></div>
+							<a href="//daytonabeach.erau.edu/admissions/apply/">Apply Today</a>
+						</div>
+						<div class="link-slider slider-white slideReveal">
+							<div class="slider-bg"></div>
+							<a href="//daytonabeach.erau.edu/admissions/request-info/">Request Info</a>
+						</div>
+						<div class="link-slider slider-white slideReveal">
+							<div class="slider-bg"></div>
+							<a href="tel:+18008622416">Call: 800-862-2416</a>
+						</div>
+						<div class="link-slider slider-white slideReveal">
+							<div class="slider-bg"></div>
+							<a class="liveagent_button_online_57341000000D9WU" href="javascript://Chat" style="" onclick="liveagent.startChat('57341000000D9WU')">Chat&nbsp;Now</a>
+							<a class="liveagent_button_offline_57341000000D9WU" style="display: none;">Chat&nbsp;Offline</a>
+						</div>
+						<hr class="slideReveal" />
+						<div class="link-slider slider-white slideReveal">
+							<div class="slider-bg"></div>
+							<a href="//givingto.erau.edu/">Give to ERAU</a>
+						</div>
+						<div class="link-slider slider-white slideReveal">
+							<div class="slider-bg"></div>
+							<a href="//ernie.erau.edu">ERNIE</a>
+						</div>
+						<div class="link-slider slider-white slideReveal">
+							<div class="slider-bg"></div>
+							<a href="//erau.edu/">Embry-Riddle Home</a>
+						</div>
+					</div>
+					<div class="col-xs-12" style="margin-top: 10px; opacity: .8;">
+						<span class="slideReveal">Connect with Us</span>
+						<ul class="list-inline">
+							<li class="slideReveal">
+								<a class="icon-er-facebook" href="https://www.facebook.com/eraudb"><span class="sr-only">Facebook</span></a>
+							</li>
+							<li class="slideReveal">
+								<a class="icon-er-twitter" href="https://twitter.com/ERAU_Daytona"><span class="sr-only">Twitter</span></a>
+							</li>
+							<li class="slideReveal">
+								<a class="icon-er-instagram" href="https://www.instagram.com/embryriddledaytona/"><span class="sr-only">Twitter</span></a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="modal fade mezzo-overlay" id="mezzoSearch" tabindex="-1" role="dialog" aria-labelledby="mezzoSearchLabel">
+	<div class="modal-dialog" role="document">
+		<div class="modal-content">
+			<div class="modal-body">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				<div class="row search" style="margin-bottom: 60px;">
+					<div class="col-xs-12">
+						<form id="ww-erau-search" action="//daytonabeach.erau.edu/search/" class="slideReveal">
+							<div class="form-group-lg">
+								<input class="form-control search-query" id="q" name="q" type="text" autocomplete="off" placeholder="What are you looking for?">
+							</div>
+						</form>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-5">
+						<h2 class="slideReveal">Our Campuses</h2>
+						<ul>
+							<li class="slideReveal">
+								<a href="//daytonabeach.erau.edu/">Daytona Beach, FL</a>
+							</li>
+							<li class="slideReveal">
+								<a href="//prescott.erau.edu/">Prescott, AZ</a>
+							</li>
+							<li class="slideReveal">
+								<a href="//worldwide.erau.edu/">Worldwide</a>
+							</li>
+							<li class="slideReveal">
+								<a href="//worldwide.erau.edu/online-learning/">Embry-Riddle Online</a>
+							</li>
+							<li class="slideReveal">
+								<a href="//asia.erau.edu/">Asia</a>
+							</li>
+							<li class="slideReveal">
+								<a href="//europe.erau.edu/">Europe</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+	</div>
+	<div class="stage">
+		<div class="hidden-print headerlower">
+			
+<link href="/Style/Daytona/header.css" rel="stylesheet">
+<link href="/Style/Daytona/meganizr.css" rel="stylesheet">
+
+<div id="header-holder">
+	<div class="container" id="header">
+		<div class="row">
+			<div class="col-xs-2 visible-xs">
+				<ul class="list-unstyled header-links">
+					<li class="hamburger-holder">
+						<a href="#" class="toggle-menu" data-toggle="modal" data-target="#mezzoMenu"><span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span></a>
+					</li>
+				</ul>
+			</div>
+			<div class="col-xs-8 col-sm-6 logo-holder">
+				<a href="//daytonabeach.erau.edu/"><img src="/Images/Daytona/erau-logo2x.png" id="erau-logo" alt="Embry-Riddle Aeronautical University | Daytona Beach" /></a>
+			</div>
+			<div class="col-xs-2 visible-xs">
+				<ul class="list-unstyled header-links pull-right">
+					<li class="search-holder">
+						<a href="#" class="toggle-search" data-toggle="modal" data-target="#mezzoSearch"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></a>
+					</li>
+				</ul>
+			</div>
+			<div class="col-xs-12 col-sm-6 header-links-holder">
+				<ul class="header-cta list-unstyled">
+					<li>
+						<a class="extras-button apply-now" title="Apply Today" href="//daytonabeach.erau.edu/admissions/apply/">Apply&nbsp;Today</a>
+					</li>
+					<li>
+						<a class="extras-button rfi" title="Request Information" href="//daytonabeach.erau.edu/admissions/request-info/">Request&nbsp;Info</a>
+					</li>
+					<li>
+						<nobr><a class="extras-button call-now" title="Call Now" href="tel:+18008622416">Call: 800-862-2416</a></nobr>
+					</li>
+					<li>
+						<a class="extras-button chat-now liveagent_button_online_57341000000D9WU" href="javascript://Chat" style="" onclick="liveagent.startChat('57341000000D9WU')">Chat&nbsp;Now</a>
+						<a class="extras-button chat-now liveagent_button_offline_57341000000D9WU" href="javascript:alert('Sorry, our online chat is not available at this time, please check back soon.')" style="display: none;">Chat&nbsp;Offline</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div id="nav-holder" class="hidden-xs">
+	<div class="container">
+		<div class="row">
+			<ul class="meganizr mzr-erauMenu mzr-fade mz-r-responsive mzr-js-click">
+				<li class="" id="home-link-nav">
+					<a href="//daytonabeach.erau.edu/"><span class="icon-er-home"></span></a>
+				</li>
+				<li class="mzr-drop">
+					<a href="//daytonabeach.erau.edu/about/">About Our Campus</a>
+					<div class="mzr-content drop-five-columns container">
+						<div class="col-md-2">
+							<h4 class="col-title">Where Eagles Learn</h4>
+							<ul class="unstyled-list">
+								<li>
+									<a href="//daytonabeach.erau.edu/about/fleet-simulators/" title="Fleet Simulators and Flight Line">Fleet, Simulators, and Flight Line</a>
+								</li>
+								<li>
+									<a href="//daytonabeach.erau.edu/about/labs/" title="Labs">Labs &amp; Facilities</a>
+								</li>
+								<li>
+									<a href="/ernie-central" title="ERNIE Central">ERNIE Central</a>
+								</li>
+							</ul>
+						</div>
+						<div class="col-md-2">
+							<h4 class="col-title">Explore</h4>
+							<ul class="unstyled-list">
+								<li>
+									<a alt="Virtual Tour" class="virtualtour_embed" data-al="target, tempurl" data-error-output="console" data-hover-height="80%" data-hover-width="80%" data-inst="61236" data-platform="v" href="http://www.youvisit.com">Take a Virtual Tour</a>
+								</li>
+								<li>
+									<a href="//daytonabeach.erau.edu/about/area-information/" title="Area Information and Activities">Area Information &amp; Activities</a>
+								</li>
+								<li>
+									<a href="//daytonabeach.erau.edu/about/live-cameras/" title="Live Cameras">Live Cameras</a>
+								</li>
+								<li>
+									<a href="//daytonabeach.erau.edu/about/directions/" title="Campus Map &amp; Directions">View Campus Map and Directions</a>
+								</li>
+							</ul>
+						</div>
+						<div class="col-md-2">
+							<h4 class="col-title">Campus Resources</h4>
+							<ul class="unstyled-list">
+								<li>
+									<a href="//daytonabeach.erau.edu/about/campus-directory/" title="Campus Directory">Campus Directory</a>
+								</li>
+								<li>
+									<a href="//daytonabeach.erau.edu/about/eaglecard/" title="EagleCard">EAGLEcard</a>
+								</li>
+								<li>
+									<a href="//daytonabeach.erau.edu/about/records/" title="Office of the Registrar">Office of the Registrar</a>
+								</li>
+								<li>
+									<a href="//daytonabeach.erau.edu/parents-association/" title="Parents Association">Parents Association</a>
+								</li>
+								<li>
+									<a href="//daytonabeach.erau.edu/about/social/" title="Social Networking">Social Media Directory</a>
+								</li>
+								<li>
+									<a href="//daytonabeach.erau.edu/about/student-financial-services/" title="Student Financial Services (Payments)">Student Financial Services</a>
+								</li>
+							</ul>
+						</div>
+						<div class="col-md-3">
+							<h4 class="col-title">Campus Services</h4>
+							<ul class="unstyled-list">
+								<li>
+									<a href="//daytonabeach.erau.edu/about/counseling/" title="Counseling">Counseling</a>
+								</li>
+								<li>
+									<a href="//daytonabeach.erau.edu/about/disability-support/" title="Disability Support">Disability</a>
+								</li>
+								<li>
+									<a href="//daytonabeach.erau.edu/about/health-wellness/" title="Health &amp; Wellness">Health &amp; Wellness</a>
+								</li>
+								<li>
+									<a href="//daytonabeach.erau.edu/international-programs/" title="International Student Services">International Student Services</a>
+								</li>
+								<li>
+									<a href="//daytonabeach.erau.edu/title-ix-compliance/" title="Office of Title IX Compliance">Office of Title IX Compliance</a>
+								</li>
+								<li>
+									<a href="//daytonabeach.erau.edu/about/safety/" title="Safety &amp; Security">Safety &amp; Security</a>
+								</li>
+								<li>
+									<a href="/about/conference-services/" title="Conference Services">Conference Services</a>
+								</li>
+							</ul>
+						</div>
+						<div class="col-md-3">
+							<img alt="Explore, Fly, Design, Lead, Predict, Protect." src="/Images/Daytona/viewbook-graphic.jpg">
+						</div>
+					</div>
+				</li>
+				<li class="mzr-drop">
+					<a href="//daytonabeach.erau.edu/degrees/">Degrees &amp; Programs</a>
+					<div class="mzr-content drop-five-columns container">
+						<div class="col-md-3">
+							<h4 class="col-title">Colleges</h4>
+							<ul class="unstyled-list">
+								<li>
+									<a href="//daytonabeach.erau.edu/college-arts-sciences/" title="Colleges of Arts &amp; Sciences">Arts &amp; Sciences</a>
+								</li>
+								<li>
+									<a href="//daytonabeach.erau.edu/college-aviation/" title="College of Aviation">Aviation</a>
+								</li>
+								<li>
+									<a href="//daytonabeach.erau.edu/college-business/" title="College of Business">Business</a>
+								</li>
+								<li>
+									<a href="//daytonabeach.erau.edu/college-engineering/" title="College of Engineering">Engineering</a>
+								</li>
+							</ul>
+						</div>
+						<div class="col-md-3">
+							<h4 class="col-title">Degrees</h4>
+							<ul class="unstyled-list">
+								<li>
+									<a href="//daytonabeach.erau.edu/degrees/" title="Degrees and Programs">Degrees and Programs</a>
+								</li>
+								<li>
+									<a href="//daytonabeach.erau.edu/degrees/bsms/" title="Combined/Accelerated">Combined/Accelerated</a>
+								</li>
+								<li>
+									<a href="//daytonabeach.erau.edu/degrees/minors/" title="Minors Degrees">Minors</a>
+								</li>
+							</ul>
+						</div>
+						<div class="col-md-3">
+							<h4 class="col-title">Programs</h4>
+							<ul class="unstyled-list">
+								<li>
+									<a href="//daytonabeach.erau.edu/degrees/first-year/" title="First Year Programs">First Year Programs</a>
+								</li>
+								<li>
+									<a href="//daytonabeach.erau.edu/degrees/honors/" title="Honors Program">Honors Program</a>
+								</li>
+								<li>
+									<a href="//daytonabeach.erau.edu/international-programs/language-institute/" title="Language Institute">Language Institute</a>
+								</li>
+								<li>
+									<a href="//daytonabeach.erau.edu/degrees/professional-programs/" title="Professional Programs">Professional Programs</a>
+								</li>
+								<li>
+									<a href="//daytonabeach.erau.edu/international-programs/study-abroad/" title="Study Abroad">Study Abroad</a>
+								</li>
+							</ul>
+						</div>
+						<div class="col-md-3">
+							<img alt="Degrees" src="/Images/Daytona/degrees-programs-degrees.jpg">
+							<a href="//summercamps.erau.edu/"><img alt="Degrees" src="//daytonabeach.erau.edu/-/media/ui-images/shared/cta-summer-programs.jpg" style="padding-top:15px;"> </a>
+						</div>
+					</div>
+				</li>
+				<li class="mzr-drop">
+					<a href="//daytonabeach.erau.edu/campus-life/">Campus Life</a>
+					<div class="mzr-content drop-five-columns container">
+						<div class="col-md-3">
+							<h4 class="col-title">Get Involved</h4>
+							<ul class="unstyled-list">
+								<li>
+									<a href="//daytonabeach.erau.edu/campus-life/athletics/" title="Athletics">Athletics</a>
+								</li>
+								<li>
+									<a href="//daytonabeach.erau.edu/campus-life/clubs/" title="Clubs &amp; Organizations">Clubs &amp; Organizations</a>
+								</li>
+								<li>
+									<a href="//daytonabeach.erau.edu/campus-life/flight-team/" title="Flight Team">Flight Team</a>
+								</li>
+								<li>
+									<a href="//daytonabeach.erau.edu/rotc/" title="ROTC">ROTC</a>
+								</li>
+							</ul>
+						</div>
+						<div class="col-md-3">
+							<h4 class="col-title">Living at ERAU</h4>
+							<ul class="unstyled-list">
+								<li>
+									<a href="//daytonabeach.erau.edu/campus-life/housing/" title="Housing">Housing</a>
+								</li>
+								<li>
+									<a href="//daytonabeach.erau.edu/campus-life/orientation/" title="Orientation">Orientation</a>
+								</li>
+								<li>
+									<a href="//daytonabeach.erau.edu/campus-life/spiritual-life/" title="Spiritual Life">Spiritual Life</a>
+								</li>
+								<li>
+									<a href="//daytonabeach.erau.edu/campus-life/tutoring/" title="Tutoring">Tutoring</a>
+								</li>
+							</ul>
+						</div>
+						<div class="col-md-3">
+							<h4 class="col-title">Around Campus</h4>
+							<ul class="unstyled-list">
+								<li>
+									<a href="//daytonabeach.erau.edu/campus-life/academic-calendar/" title="Academic Calendar">Academic Calendar</a>
+								</li>
+								<li>
+									<a href="//daytonabeach.erau.edu/campus-life/dean-of-students/" title="Dean of Students Office">Dean of Students Office</a>
+								</li>
+								<li>
+									<a href="//daytonabeach.erau.edu/campus-life/dining/" title="Dining">Dining</a>
+								</li>
+								<li>
+									<a href="//daytonabeach.erau.edu/campus-life/graduation/" title="Graduation">Graduation</a>
+								</li>
+								<li>
+									<a href="//daytonabeach.erau.edu/campus-life/sports-facilities/" title="Sports Facilities &amp; Intramurals">Sport Facilities &amp; Intramurals</a>
+								</li>
+							</ul>
+						</div>
+						<div class="col-md-3">
+							<img alt="Campus Culture" src="/Images/Daytona/campus-life.jpg">
+						</div>
+					</div>
+				</li>
+				<li class="mzr-drop">
+					<a href="//daytonabeach.erau.edu/admissions/">Admissions</a>
+					<div class="mzr-content drop-five-columns container">
+						<div class="col-md-2">
+							<h4 class="col-title">The Essentials</h4>
+							<ul class="unstyled-list">
+								<li>
+									<a href="//daytonabeach.erau.edu/admissions/applied-students/" title="Applied Students">Applied Students</a>
+								</li>
+								<li>
+									<a href="//daytonabeach.erau.edu/admissions/apply/" title="Apply Now">Apply Now</a>
+								</li>
+								<li>
+									<a href="//daytonabeach.erau.edu/admissions/estimated-costs/" title="Tuition Costs">Tuition Costs</a>
+								</li>
+								<li>
+									<a href="//daytonabeach.erau.edu/admissions/applied-students/tuition/" title="Make an Admissions Tuition Deposit">Tuition Deposit</a>
+								</li>
+							</ul>
+						</div>
+						<div class="col-md-2">
+							<h4 class="col-title">Admissions Guides</h4>
+							<ul class="unstyled-list">
+								<li>
+									<a href="//daytonabeach.erau.edu/admissions/faq/" title="FAQ">Frequently Asked Questions</a>
+								</li>
+								<li>
+									<a href="//daytonabeach.erau.edu/admissions/graduate/" title="Graduate Students">Graduate Students</a>
+								</li>
+								<li>
+									<a href="//daytonabeach.erau.edu/international-programs/international-admissions/" title="International Students">International Students</a>
+								</li>
+								<li>
+									<a href="//daytonabeach.erau.edu/admissions/undergraduate/transfer/" title="Transfer Students">Transfer Students</a>
+								</li>
+								<li>
+									<a href="//daytonabeach.erau.edu/admissions/undergraduate/" title="Undergraduate Students">Undergraduate Students</a>
+								</li>
+							</ul>
+						</div>
+						<div class="col-md-2">
+							<h4 class="col-title">Future Student Events</h4>
+							<ul class="unstyled-list">
+								<li>
+									<a href="//daytonabeach.erau.edu/admissions/events/" title="Attend an event and get to know the Embry-Riddle family">Attend an event</a>
+								</li>
+							</ul>
+						</div>
+						<div class="col-md-3">
+							<h4 class="col-title">The Daytona Beach Experience</h4>
+							<ul class="unstyled-list">
+								<li>
+									<a href="//daytonabeach.erau.edu/future-students/daytona-beach-experience/" title="View our Daytona Beach Experience videos">View our Daytona Beach Experience videos</a>
+								</li>
+								<li>
+									<a href="//riddlelifeflorida.erau.edu/" title="View our Daytona Beach Student Blogs">Student Blogs</a>
+								</li>
+							</ul>
+						</div>
+						<div class="col-md-3">
+							<img alt="Admissions Guides" src="/Images/Daytona/admissions-guides.jpg">
+						</div>
+					</div>
+				</li>
+				<li class="mzr-drop">
+					<a href="//daytonabeach.erau.edu/financial-aid/">Financial Aid</a>
+					<div class="mzr-content drop-five-columns container">
+						<div class="col-md-3">
+							<h4 class="col-title">Getting Started</h4>
+							<ul class="unstyled-list">
+								<li>
+									<a href="//daytonabeach.erau.edu/financial-aid/applying-for-aid/" title="Applying for Financial Aid">Applying for Financial Aid</a>
+								</li>
+								<li>
+									<a href="//daytonabeach.erau.edu/financial-aid/academic-eligibility/" title="Academic Eligibility">Academic Eligibility</a>
+								</li>
+								<li>
+									<a href="//daytonabeach.erau.edu/financial-aid/verification/" title="Verification">Verification</a>
+								</li>
+								<li>
+									<a href="//daytonabeach.erau.edu/financial-aid/forms/" title="Forms">Forms</a>
+								</li>
+								<li>
+									<a href="//daytonabeach.erau.edu/financial-aid/terms-and-conditions/" title="Terms and Conditions">Terms and Conditions</a>
+								</li>
+								<li>
+									<a href="//daytonabeach.erau.edu/financial-aid/tools/" title="Financial Aid Tools">Financial Aid Tools</a>
+								</li>
+								<li>
+									<a href="//daytonabeach.erau.edu/financial-aid/code-conduct/" title="Code of Conduct">Code of Conduct</a>
+								</li>
+								<li>
+									<a href="//daytonabeach.erau.edu/financial-aid/glossary/" title="Glossary">Glossary</a>
+								</li>
+								<li>
+									<a href="//daytonabeach.erau.edu/financial-aid/resources/" title="Resources">Resources</a>
+								</li>
+								<li>
+									<a href="//daytonabeach.erau.edu/financial-aid/faq/" title="Frequently Asked Questions">Frequently Asked Questions</a>
+								</li>
+							</ul>
+						</div>
+						<div class="col-md-3">
+							<h4 class="col-title">Getting Funds</h4>
+							<ul class="unstyled-list">
+								<li>
+									<a href="//daytonabeach.erau.edu/financial-aid/scholarships/" title="Scholarship Opportunities">Scholarship Opportunities</a>
+								</li>
+								<li>
+									<a href="//daytonabeach.erau.edu/financial-aid/grants/" title="Grants">Grants</a>
+								</li>
+								<li>
+									<a href="//daytonabeach.erau.edu/financial-aid/loans/" title="Loan Programs">Loan Programs</a>
+								</li>
+								<li>
+									<a href="//daytonabeach.erau.edu/financial-aid/student-employment/" title="Student Employment">Student Employment</a>
+								</li>
+							</ul>
+						</div>
+						<div class="col-md-3">
+							<a href="//erau.studentaidcalculator.com" target="_blank"><img alt="How much will it cost" height="128" imgtype="_full" src="/Images/Daytona/net-price-calculator.jpg" width="500"><br><br><small>Estimate <em>your</em> cost of attendance and amount of financial aid with our net price calculator.</small></a>
+						</div>
+						<div class="col-md-3">
+							<a href="//daytonabeach.erau.edu/military/" title="Military &amp; Veterans"><img alt="Veterans Affairs" border="" height="128" src="/Images/Daytona/cta-veterans-affairs.jpg" width="500"></a>
+						</div>
+					</div>
+				</li>
+				<li class="mzr-drop">
+					<a href="//daytonabeach.erau.edu/research/">Research</a>
+					<div class="mzr-content drop-five-columns container">
+						<div class="col-md-3">
+							<h4 class="col-title">Signature Areas of Research</h4>
+							<p style="font-size:85%;">Our four academic colleges show off the uniqueness and aptitude of their faculty and staff through their respective top-level research interests.</p>
+							<p>
+								<a class="more-link" href="//daytonabeach.erau.edu/research/areas/" title="Signature Areas">More about our Signature Areas</a>
+							</p>
+						</div>
+						<div class="col-md-3">
+							<h4 class="col-title">Current Centers &amp; Labs</h4>
+							<p style="font-size:85%;">The Daytona Beach Campus is already a world-renowned force in higher-education research with its current facilities.</p>
+							<p>
+								<a class="more-link" href="//daytonabeach.erau.edu/research/current/" title="Current Centers &amp; Labs">More about our Current Centers &amp; Labs</a>
+							</p>
+						</div>
+						<div class="col-md-3">
+							<h4 class="col-title">Planned Centers &amp; Labs</h4>
+							<p style="font-size:85%;">ERAU Daytona Beach is committed to expanding its research capabilities by leaps and bounds, including two state-of-the-art facilities that are in development.</p>
+							<p>
+								<a class="more-link" href="//daytonabeach.erau.edu/research/planned/" title="Planned Centers &amp; Labs">More about our Planned Centers &amp; Labs</a>
+							</p>
+						</div>
+						<div class="col-md-3">
+							<a href="//erau.edu/research" title="ERAU Research"><img alt="Research Website" src="/Images/Daytona/research-website.jpg"></a>
+						</div>
+					</div>
+				</li>
+				<li class="pull-right">
+					<a class="toggle-search" href="#" data-toggle="modal" data-target="#mezzoSearch"><span class="glyphicon glyphicon-search"></span></a>
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+<script type='text/javascript' src='https://c.la2-c1-phx.salesforceliveagent.com/content/g/js/41.0/deployment.js'></script>
+<script type='text/javascript'>
+	liveagent.init('https://d.la2-c1-phx.salesforceliveagent.com/chat', '57241000000D64v', '00D41000000MVqC');
+</script>
+<script type="text/javascript">
+	if (!window._laq) { window._laq = []; }
+	window._laq.push(function () {
+		var chat_id = '57341000000D9WU',
+			i = 0,
+			i2 = 0,
+			chat_online = document.getElementsByClassName('liveagent_button_online_' + chat_id),
+			chat_offline = document.getElementsByClassName('liveagent_button_offline_' + chat_id);
+		for (i = 0; i < chat_online.length; i++) {
+			liveagent.showWhenOnline(chat_id, chat_online[i]);
+		}
+		for (i2 = 0; i2 < chat_offline.length; i2++) {
+			liveagent.showWhenOffline(chat_id, chat_offline[i2]);
+		}
+	});
+</script>
+
+		</div>
+		<div class="body">
+			
+
+
+
+<div class=" titleandimage" style="background-image: url(); background-position: center center; background-size: cover; background-repeat: no-repeat; ">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 ">
+						<div class="">
+							<h1 class="">
+								Page Not Found
+								<br />
+							</h1>
+						</div>
+							</div>
+		</div>
+	</div>
+	
+	</div>
+
+
+
+
+<div class="container hidden-print">
+    <div class="row">
+        <div class="col-md-12">
+            <ol class="breadcrumb">
+                            <li class="active"><a href="//daytonabeach.erau.edu/">Home</a></li>
+                            <li class="active">Page Not Found</li>
+
+            </ol>
+        </div>
+    </div>
+</div>
+
+
+			
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12">
+<div class="plain-text">
+    <div class="auto-404-holder rendering"><h2>We are unable to find the page you are looking for.</h2><h3>We have made a note of this missing page.</h3><p>Below you will find the closest results we could find based on automatically generated keywords.</div>
+<script src="https://webforms.erau.edu/common/services/auto-feedback/init.js" id="auto-404-script" countdownTargetClass="" suggestedSearch="false" searchUrl="/search/"></script>
+
+<style>
+	table.gsc-resultsHeader {display: none;}
+</style>
+
+<script type="text/javascript">
+	var path = location.pathname;
+	var words = path.split("/");
+	var keywords = "";
+	var plus = "+";
+	var nothing = "";
+
+	for (i = 0; i < words.length; i++) {
+		if (words[i] != "") {
+			keywords += words[i] + " ";
+		}
+	}
+	keywords = keywords.trim();
+	keywords = keywords
+				.replace(/ /g, plus)
+				.replace(/-/g, plus)
+				.replace(/_/g, plus)
+				.replace(/~/g, nothing)
+				.replace("index.html", nothing)
+				.replace(".html", nothing)
+				.replace(".pdf", nothing);
+
+	if (location.search == "") {
+		location.href = location.href + "?q=" + keywords;
+	}
+</script>
+</div>
+<div class="row">
+    <div class="col-md-12">
+        <h3 style="display: none;" class="search-help text-muted">Enter a keyword or phrase to get started.</h3>
+        <gcse:searchresults-only></gcse:searchresults-only>
+    </div>
+</div>
+<script>
+	searchResults = (typeof searchResults != 'undefined' && searchResults instanceof Array) ? searchResults : [];
+	searchResults.push({
+		engineId: "001686013806299489840:lli_cs4ljhs"
+	});
+</script></div>
+    </div>
+</div>
+		</div>
+		<div class="hidden-print postfooter">
+			
+<div class="student-resources-footer">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-6 col-md-4">
+				<h3 class="col-title">
+					<a data-toggle="collapse" href="#resources1-row" aria-expanded="false" aria-controls="resources1-row">Future Student Resources</a>
+				</h3>
+				<div class="row collapse" id="resources1-row">
+					<div class="col-xs-6" id="resources1-left">
+						
+
+<div class="  richtext" style="background-color: !important;">
+    <div class="clearfix ">
+        <ul class="list-unstyled not-bold">
+    <li>
+    <a href="/admissions/faq">Admissions FAQ</a>
+    </li>
+    <li>
+    <a href="/about/directions">Campus Map &amp; Directions</a>
+    </li>
+    <li>
+    <a href="/admissions/events">College Fairs</a>
+    </li>
+    <li>
+    <a href="/about/area-information">Daytona Beach Area</a>
+    </li>
+    <li>
+    <a href="/admissions/estimated-costs">Estimated Costs</a>
+    </li>
+    <li>
+    <a href="http://news.erau.edu/">Feature Stories</a>
+    </li>
+    <li>
+    <a href="/degrees/honors">Honors Program</a>
+    </li>
+</ul>    </div>
+</div>
+
+					</div>
+					<div class="col-xs-6" id="resources1-right">
+						
+
+<div class="  richtext" style="background-color: !important;">
+    <div class="clearfix ">
+        <ul class="list-unstyled not-bold">
+    <li>
+    <a href="/campus-life/housing">Housing</a>
+    </li>
+    <li>
+    <a href="/international-programs/language-institute">Language Institute</a>
+    </li>
+    <li>
+    <a href="/degrees/professional-programs">Professional Programs</a>
+    </li>
+    <li>
+    <a href="/rotc">ROTC</a>
+    </li>
+    <li>
+    <a href="/admissions/visit">Schedule a Visit</a>
+    </li>
+    <li>
+    <a href="http://riddlelifeflorida.erau.edu/" target="_blank" title="Embry-Riddle Daytona Student Blogs">Student Blogs</a>
+    </li>
+    <li>
+    <a href="/campus-life/clubs">Student Clubs</a>
+    </li>
+    <li>
+    <a href="http://summercamps.erau.edu/index.html" title="Summer Camps">Summer Camps</a>
+    </li>
+</ul>    </div>
+</div>
+
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-6 col-md-4 col-md-push-4">
+				<h3 class="col-title">
+					<a data-toggle="collapse" href="#resources2-row" aria-expanded="false" aria-controls="resources2-row">Current Student Resources</a>
+				</h3>
+				<div class="row collapse" id="resources2-row">
+					<div class="col-xs-6" id="resources2-left">
+						
+
+<div class="  richtext" style="background-color: !important;">
+    <div class="clearfix ">
+        <ul class="list-unstyled not-bold">
+    <li>
+    <a href="/campus-life/academic-calendar">Academic Calendar</a>
+    </li>
+    <li>
+    <a href="http://www.shoperau.com" target="_blank">Bookstore</a>
+    </li>
+    <li>
+    <a href="/about/student-financial-services">Student Financial Services</a>
+    </li>
+    <li>
+    <a href="/about/campus-directory">Campus Directory</a>
+    </li>
+    <li>
+    <a href="http://careerservices.erau.edu/" target="_blank" title="ERAU Career Services">Career Services</a>
+    </li>
+    <li>
+    <a href="/about/counseling">Counseling</a>
+    </li>
+    <li>
+    <a href="http://catalog.erau.edu/daytona-beach/">Course Catalog</a>
+    </li>
+    <li>
+    <a href="/campus-life/dean-of-students">Dean of Students</a>
+    </li>
+    <li>
+    <a href="/about/disability-support">Disability Support</a>
+    </li>
+</ul>    </div>
+</div>
+
+					</div>
+					<div class="col-xs-6" id="resources2-right">
+						
+
+<div class="  richtext" style="background-color: !important;">
+    <div class="clearfix ">
+        <ul class="list-unstyled not-bold">
+    <li>
+    <a href="/about/eaglecard">EAGLEcard</a>
+    </li>
+    <li>
+    <a href="/financial-aid">Financial Aid</a>
+    </li>
+    <li>
+    <a href="/about/health-wellness">Health &amp; Wellness</a>
+    </li>
+    <li>
+    <a href="http://library.erau.edu/home.html">Library</a>
+    </li>
+    <li>
+    <a href="/about/records">Office of the Registrar</a>
+    </li>
+    <li>
+    <a href="/title-ix-compliance">Office of Title IX Compliance</a>
+    </li>
+    <li>
+    <a href="/about/safety">Safety &amp; Security</a>
+    </li>
+    <li>
+    <a href="/campus-life/tutoring">Tutoring</a>
+    </li>
+</ul>    </div>
+</div>
+
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-12 col-md-4 col-md-pull-4" id="resources3">
+				<div id="resources3-top">
+					<table border="0" cellpadding="10" cellspacing="6" class="color-footer-buttons" style="width: 100%; border-spacing: 6px; border-collapse: separate;">
+						<tbody>
+							<tr>
+								<td class="fade75 erau-light-blue hidden-md" id="athletics" rowspan="6" valign="bottom">
+									<a href="/campus-life/athletics" title="Athletics"><span><br><br><br><br><br><br><br><br><br><br>Athletics</span></a>
+								</td>
+								<td class="fade75 erau-orange" id="family">
+									<a href="/parents-family" title="Parents &amp; Family"><span>Parents &amp; Family</span></a>
+								</td>
+							</tr>
+							<tr>
+								<td class="fade75 erau-gold" id="rotc">
+									<a href="/rotc" title="ROTC"><span>ROTC</span></a>
+								</td>
+							</tr>
+							<tr>
+								<td class="fade75 erau-green" id="military">
+									<a href="/military" title="Military &amp; Veterans"><span>Military &amp; Veterans</span></a>
+								</td>
+							</tr>
+							<tr>
+								<td class="fade75 erau-yellow" id="students">
+									<a href="/future-students" title="Future Students"><span>Future Students</span></a>
+								</td>
+							</tr>
+							<tr>
+								<td class="fade75 erau-gray" id="alumni">
+									<a href="/alumni" title="Alumni"><span>Alumni</span></a>
+								</td>
+							</tr>
+							<tr class="visible-md">
+								<td class="fade75 erau-light-blue" id="athletics2">
+									<a href="/campus-life/athletics" title="Athletics"><span>Athletics</span></a>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+		</div>
+	</div><!-- end stage -->
+
+	
+	<script src="//erau.edu/action/smart-resource/rendering/javascript/4EDOwGVaz0mxTRFemCp-rA.WV2IKUPMEEyGoP9Czula8Q.yb8VpB1n702R9bcdqfx8VA?d=7-19-18-v3" type="text/javascript"></script>
+	<script src="//www.youvisit.com/tour/Embed/js2"></script>
+</body>
+</html>

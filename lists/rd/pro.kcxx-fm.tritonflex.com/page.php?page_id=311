@@ -1,0 +1,306 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><title>X1039 - Contacts</title>
+<meta name="title" content="" />
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<link rel="stylesheet" href="/css/layout-3511.css" media="all" /><meta http-equiv="pragma" content="no-cache"/>
+<meta http-equiv="cache-control" content="no-cache"/>
+<meta http-equiv="expires" content="0"/>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+<script language="javascript" type="text/javascript">jQuery.noConflict();</script>
+<script type="text/javascript" src="/common/js/site_util.js"></script>
+<style type="text/css">html{height:100%} body{margin:0; padding:0; height:100%}</style>
+<link rel=stylesheet type="text/css" href="/developer/styles.css">
+<script type="text/javascript" src="/common/js/jquery-plugins/jquery.cycle.all.latest.js"></script>
+<script type="text/javascript">
+(function($) {
+$('.artist_fade').cycle({
+fx: 'fade', // choose your transition type, ex: fade, scrollUp, shuffle, etc...
+delay: -2000,
+timeout: 3000,
+cleartypeNoBg: true,
+cleartype:  false
+});
+})(jQuery);
+</script>
+<style type="text/css">
+#clicker { display:none; }
+</style><link rel="stylesheet" href="/css/layout-3041.css" media="all" /><link rel="stylesheet" type="text/css" href="/includes/navigation/11/nav.css?t=1331871639" /><!--[if lte IE 8]><link rel="stylesheet" type="text/css" href="/includes/navigation/11/ie-nav.css" /><![endif]--><script type="text/javascript" src="/common/navigation/nav.js"></script><link rel="stylesheet" href="/css/layout-2521.css" media="all" /><link rel="stylesheet" href="/css/layout-1721.css" media="all" /><style type="text/css">#flex_body {min-height: 100%;} div.box {overflow:hidden;} div.box div.module > p:first-child {margin:0; padding:0;}</style><script type='text/javascript' src='//connect.facebook.net/en_US/all.js#xfbml=1'></script>
+<link type='text/css' rel='stylesheet' media='all' href='https://ssoapi.tritonmedia.com/sso/v2/prettyPhoto/css/prettyPhoto.css' />
+<script type='text/javascript' charset='utf-8' src='https://ssoapi.tritonmedia.com/sso/v2/prettyPhoto/js/jquery.prettyPhoto.js'></script>
+<link rel="stylesheet" href="/admin/js/jquery_plugins/purr/purr.css" type="text/css" />
+<script type="text/javascript" src="/admin/js/jquery_plugins/purr/purr-min.js"></script>
+<script type="text/javascript" src="/admin/js/notifyMessage.min.js"></script>
+<script type='text/javascript' charset='utf-8' src='https://ssoapi.tritonmedia.com/sso/v2/social.js'></script>
+<script type='text/javascript' src='/admin/modules/social/js/social.js'></script>
+<script type='text/javascript' charset='utf-8'>
+  jQuery(document).ready(function() {
+    jQuery(".tsso_share_like_widget_flx").each( function() {
+      var ref = jQuery(this).attr('ref');
+      var params = ref.split(";");
+
+      var divid = params[0];
+      var module_id = params[1];
+      var ref_id = params[2];
+      var xml_file = params[3];
+      var xml_params = params[4];
+
+      tsSocialPrintShareLike( divid, '30584','mbbha:dfe6b04696a23171afefb19d16b0bed78159f070', module_id, ref_id, 'http://pro.kcxx-fm.tritonflex.com/page.php?page_id=311', '', xml_file, xml_params );
+    });
+    jQuery( "a[rel^='tssoshare']" ).tssoshare({
+      aid : 30584,
+      auth: 'mbbha:dfe6b04696a23171afefb19d16b0bed78159f070',
+      url_return : 'http://pro.kcxx-fm.tritonflex.com/page.php?page_id=311',
+      providers : ''
+    });
+    jQuery( "a[rel^='tssolike']" ).tssolike({
+      aid : 30584,
+      auth: 'mbbha:dfe6b04696a23171afefb19d16b0bed78159f070',
+      layout: 'button_count',
+      show_faces: false,
+      height: 25,
+      url_return : 'http://pro.kcxx-fm.tritonflex.com/page.php?page_id=311'
+    });
+    jQuery( "a[rel^='prettyPhoto']" ).prettyPhoto();
+  });
+  function tsso_change_share_params( id, module, ref, xml_file, params ) {
+    tsSocialPrintShareLike( id, '30584','mbbha:dfe6b04696a23171afefb19d16b0bed78159f070', module, ref, 'http://pro.kcxx-fm.tritonflex.com/page.php?page_id=311', '', xml_file, params );
+  }
+</script></head><body><div id="flex_body" class=" box-3511-1 box"><div id="flex_wrapper" class=" box-3511-2 box"><div id="g1_container" class=" box-3041-1"><div class=" box-3041-23"><div class="module"><script type="text/javascript" src="http://adserv.medianext.com/cgi-bin/adnext?c=606&i=9300&mode=js"></script></div></div><div class=" box-3041-24"><div class=" box-3041-25"><div class="module"><p>
+	<a href="/index.php"><img alt="" src="/upload/mastheadlogo.png" style="width: 360px; height: 180px;" /></a></p>
+</div></div><div class=" box-3041-26"><div class="module"></div></div><div class=" box-3041-27"><div class=" box-3041-28"><div class="module"><script type="text/javascript">
+var keywordSearch = new function() {
+	this.defaultMessage = "Enter Keyword";
+	this.searchMessage = "Please Wait...";
+	this.notfoundMessage = "Keyword Not Found";
+	this.keyword = "";
+	this.box = null;
+
+	this.search = function() {
+		(function($) {
+			$.post('/common/ajax.php', {t:'keyword', xaction:'search',keyword: document.getElementById('keyword_search').value},
+			function (str) {
+				switch(str) {
+					case "not found":
+						document.getElementById('keyword_search').value = "Keyword Not Found";
+						break;
+					case "no search":
+						document.getElementById('keyword_search').value = keywordSearch.notfoundMessage;
+						break;
+					default:
+						document.location.href=str;
+						break;
+				}
+			});
+		})(jQuery);
+		keywordSearch.keyword = document.getElementById('keyword_search').value;
+		document.getElementById('keyword_search').value = this.searchMessage;
+		return false;
+	};
+
+	this.checkChar = function(evt) {
+		var charCode = (evt.which) ? evt.which : event.keyCode;
+		if(charCode == 13) {
+			keywordSearch.search();
+		}
+	}
+}
+
+
+
+</script><form class="keyword_form" id="keyword_form" onsubmit="return false"><input onkeyup="keywordSearch.checkChar(event)" onclick="if(this.value==keywordSearch.defaultMessage || this.value==keywordSearch.notfoundMessage) this.value='';" type="text" id="keyword_search" value="Enter Keyword" /><div id="keyword_button" onclick="keywordSearch.search()"><input type="button" value="GO" /></div></form></div></div><div class=" box-3041-29"><div class="module"><div>
+	<div>
+		<div>
+			<div>
+				<a href="https://www.facebook.com/x1039" target="_blank"><img alt="Find us on Facebook" src="/upload/images/mast-connect/facebook.gif" style="width: 24px; height: 24px; border-width: 0px; border-style: solid;" /></a><a href="https://twitter.com/X1039" target="_blank"><img alt="Follow us on Twitter" src="/upload/images/mast-connect/twitter.gif" style="width: 24px; height: 24px; border-width: 0px; border-style: solid;" /></a><span><a href="http://instagram.com/x1039?ref=badge#" target="_blank"><img alt="Instagram" src="//badges.instagram.com/static/images/ig-badge-24.png" style="height: 24px; width: 24px;" /></a></span></div>
+		</div>
+	</div>
+</div>
+</div></div><div class=" box-3041-30"><div class="module"><p>
+	<a href="http://player.listenlive.co/34951"><img alt="" height="51" src="/upload/LISTENLIVEButton2.jpg" width="224" /></a></p>
+<p>
+	&nbsp;</p>
+</div></div></div></div><div class=" box-3041-12"><div class=" box-3041-13"><div class="module"><div id="site-nav_11"><ul id="site-nav-list_11">
+	<li class="tier1" id="tier1_11_201"><a class="tier1" href="/index.php"><span>HOME</span></a></li>
+	<li class="tier1" id="tier1_11_211"><a class="tier1" href="#"><span>ON AIR</span></a>
+	<ul class="tier2">
+		<li id="tier2_11_501"><a href="/page.php?page_id=721"><span>Nick Valdez</span></a></li>
+		<li id="tier2_11_331"><a href="/page.php?page_id=171"><span>John DeSantis</span></a></li>
+		<li id="tier2_11_461"><a href="/page.php?page_id=441"><span>Frank-O</span></a></li>
+		<li id="tier2_11_451"><a href="/page.php?page_id=431"><span>Jeremiah Paul</span></a></li>
+		<li id="tier2_11_471"><a href="/page.php?page_id=421"><span>Alex</span></a></li>
+		<li id="tier2_11_361"><a href="/page.php?page_id=201"><span>Rob The Nob</span></a></li>
+	</ul></li>
+	<li class="tier1" id="tier1_11_221"><a class="tier1" href="/page.php?page_id=261"><span>CONCERTS & EVENTS</span></a></li>
+	<li class="tier1" id="tier1_11_231"><a class="tier1" href="/page.php?page_id=59"><span>PHOTOS</span></a></li>
+	<li class="tier1" id="tier1_11_271"><a class="tier1" href="/page.php?page_id=231"><span>X TEAM</span></a></li>
+	<li class="tier1" id="tier1_11_251"><a class="tier1" href="#"><span>X STUFF</span></a>
+	<ul class="tier2">
+		<li id="tier2_11_491"><a href="/page.php?page_id=621"><span>Community Calendar</span></a></li>
+		<li id="tier2_11_281"><a href="/page.php?page_id=111"><span>Giveaways</span></a></li>
+		<li id="tier2_11_291"><a href="/page.php?page_id=91"><span>Contest Rules</span></a></li>
+	</ul></li>
+	<li class="tier1" id="tier1_11_261"><a class="tier1" href="#"><span>CONTACT US</span></a>
+	<ul class="tier2">
+		<li id="tier2_11_381"><a href="/page.php?page_id=301"><span>Directions</span></a></li>
+		<li id="tier2_11_481"><a href="/page.php?page_id=311"><span>Station Contacts</span></a></li>
+		<li id="tier2_11_401"><a href="/page.php?page_id=321"><span>Careers</span></a></li>
+		<li id="tier2_11_421"><a href="/page.php?page_id=71"><span>Privacy Policy</span></a></li>
+	</ul></li>
+	<li class="tier1" id="tier1_11_511"><a class="tier1" href="/page.php?page_id=781"><span>LOCAL LINKS</span></a></li>
+</ul></div></div></div></div></div><div class=" box-2521-1 box"><div class=" box-2521-2 box"><div class=" box-2521-3 box"><div class="module"><table border="0" cellpadding="2" cellspacing="3" class="playlistTable" width="100%">
+	<tbody>
+		<tr>
+			<td colspan="3" style="text-align: center; color: rgb(255, 255, 255); font-weight: bold;">
+				<h2>
+					<span style="color: rgb(0, 0, 0);">Station Contacts</span></h2>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="3" style="text-align: center; color: rgb(255, 255, 255); font-weight: bold;">
+				<table border="0" cellpadding="2" cellspacing="3" class="playlistTable" width="100%">
+					<tbody>
+						<tr style="color: rgb(255, 255, 255); background-color: rgb(26, 26, 26);">
+							<td>
+								&nbsp;</td>
+							<td>
+								&nbsp;</td>
+						</tr>
+						<tr style="color: rgb(255, 255, 255); background-color: rgb(26, 26, 26);">
+							<td>
+								X103.9 BUSINESS LINE</td>
+							<td>
+								909-890-5904</td>
+						</tr>
+						<tr style="color: rgb(255, 255, 255); background-color: rgb(26, 26, 26);">
+							<td>
+								X103.9 FAX LINE</td>
+							<td>
+								909-890-9035</td>
+						</tr>
+					</tbody>
+				</table>
+			</td>
+		</tr>
+		<tr>
+			<td style="text-align: center; color: rgb(255, 255, 255); font-weight: bold;">
+				<span style="color: rgb(0, 0, 0);">Title</span></td>
+			<td style="text-align: center; color: rgb(255, 255, 255); font-weight: bold;">
+				<span style="color: rgb(0, 0, 0);">Name</span></td>
+			<td style="text-align: center; color: rgb(255, 255, 255); font-weight: bold;">
+				<span style="color: rgb(0, 0, 0);">Email </span>Address</td>
+		</tr>
+		<tr style="color: rgb(255, 255, 255); background-color: rgb(26, 26, 26);">
+			<td>
+				&nbsp;</td>
+			<td>
+				&nbsp;</td>
+			<td>
+				&nbsp;</td>
+		</tr>
+		<tr style="color: rgb(255, 255, 255); background-color: rgb(26, 26, 26);">
+			<td>
+				&nbsp;</td>
+			<td>
+				&nbsp;</td>
+			<td>
+				&nbsp;</td>
+		</tr>
+		<tr style="color: rgb(255, 255, 255); background-color: rgb(26, 26, 26);">
+			<td>
+				Program Director</td>
+			<td>
+				John DeSantis</td>
+			<td>
+				<a href="mailto:john@x1039.com"><span style="color: rgb(169, 169, 169);">Email John</span></a></td>
+		</tr>
+		<tr style="color: rgb(255, 255, 255); background-color: rgb(26, 26, 26);">
+			<td>
+				Director of Marketing and Promotions</td>
+			<td>
+				Brian Boget</td>
+			<td>
+				<a href="mailto:brian@x1039.com"><span style="color: rgb(169, 169, 169);">Email Brian</span></a></td>
+		</tr>
+		<tr style="color: rgb(255, 255, 255); background-color: rgb(26, 26, 26);">
+			<td>
+				&nbsp;</td>
+			<td>
+				&nbsp;</td>
+			<td>
+				&nbsp;</td>
+		</tr>
+		<tr style="color: rgb(255, 255, 255); background-color: rgb(26, 26, 26);">
+			<td>
+				&nbsp;</td>
+			<td>
+				&nbsp;</td>
+			<td>
+				&nbsp;</td>
+		</tr>
+		<tr style="color: rgb(255, 255, 255); background-color: rgb(26, 26, 26);">
+			<td>
+				&nbsp;</td>
+			<td>
+				&nbsp;</td>
+			<td>
+				&nbsp;</td>
+		</tr>
+		<tr style="color: rgb(255, 255, 255); background-color: rgb(26, 26, 26);">
+			<td>
+				&nbsp;</td>
+			<td>
+				&nbsp;</td>
+			<td>
+				&nbsp;</td>
+		</tr>
+		<tr style="color: rgb(255, 255, 255); background-color: rgb(26, 26, 26);">
+			<td>
+				&nbsp;</td>
+			<td>
+				&nbsp;</td>
+			<td>
+				&nbsp;</td>
+		</tr>
+	</tbody>
+</table>
+<p>
+	&nbsp;</p>
+</div></div></div><div class=" box-2521-4 box"><div class=" box-2521-5 box"><div class="module"><script type="text/javascript" src="http://adserv.medianext.com/cgi-bin/adnext?c=606&i=10574&mode=js"></script></div></div><div class=" box-2521-6 box"><div class="module"><script type="text/javascript" src="http://adserv.tritonmedia.com/cgi-bin/adnext?c=606&amp;i=11975&amp;mode=js"></script></div></div></div></div><div id="g4_container" class=" box-1721-1 box"><div class=" box-1721-8 box"><div class="module"><div style="text-align: center;"><script type="text/javascript" src="http://adserv.tritonmedia.com/cgi-bin/adnext?c=606&amp;i=9302&amp;mode=js"></script>&nbsp;<script type="text/javascript" src="http://adserv.tritonmedia.com/cgi-bin/adnext?c=606&amp;i=9303&amp;mode=js"></script>&nbsp;<script type="text/javascript" src="http://adserv.tritonmedia.com/cgi-bin/adnext?c=606&amp;i=9304&amp;mode=js"></script>&nbsp;<script type="text/javascript" src="http://adserv.tritonmedia.com/cgi-bin/adnext?c=606&amp;i=9305&amp;mode=js"></script>&nbsp;<script type="text/javascript" src="http://adserv.tritonmedia.com/cgi-bin/adnext?c=606&amp;i=9306&amp;mode=js"></script>&nbsp;<script type="text/javascript" src="http://adserv.tritonmedia.com/cgi-bin/adnext?c=606&amp;i=9307&amp;mode=js"></script>&nbsp;<script type="text/javascript" src="http://adserv.tritonmedia.com/cgi-bin/adnext?c=606&amp;i=9308&amp;mode=js"></script></div></div></div><div class=" box-1721-7 box"><div class="module"><div class="footerLt" style="float: left;">Copyright &copy; <script language="JavaScript" type="text/javascript">var today= new Date();document.write(today.getFullYear());</script>. All Rights Reserved. Internet Development by <a target="_blank" href="http://www.tritondigitalmedia.com">Triton Digital Media</a>.</div>
+<div class="footerRt" style="float: right;">&nbsp; <a href="/privacy">Privacy Policy</a> &nbsp;|&nbsp; <a href="/terms">Terms of Use</a> | <a href="/upload/file/All_Pro_2014-15_EEO_Public_File_Report.pdf">EEO </a></div>
+<div class="clear">&nbsp;</div>
+<p>&nbsp;</p></div></div></div></div></div>  <!--ONESTAT SCRIPTCODE START-->
+  <script type="text/javascript">
+  <!--
+  function OneStat_Pageview()
+  {
+      var d=document;
+      var sid="kcxx-fm.tritondigitalmedia.com";
+      var CONTENTSECTION="";
+      var osp_URL=d.URL;
+      var osp_Title=d.title;
+      var t=new Date();
+      var p="http"+(d.URL.indexOf('https:')==0?'s':'')+"://stat.onestat.com/stat.aspx?tagver=2&sid="+sid;
+      p+="&url="+escape(osp_URL);
+      p+="&ti="+escape(osp_Title);
+      p+="&section="+escape(CONTENTSECTION);
+      p+="&rf="+escape(parent==self?document.referrer:top.document.referrer);
+      p+="&tz="+escape(t.getTimezoneOffset());
+      p+="&ch="+escape(t.getHours());
+      p+="&js=1";
+      p+="&ul="+escape(navigator.appName=="Netscape"?navigator.language:navigator.userLanguage);
+      if(osp_URL!=d.URL) p+="&ol="+escape(d.URL);
+      if(typeof(screen)=="object"){
+         p+="&sr="+screen.width+"x"+screen.height;p+="&cd="+screen.colorDepth;
+         p+="&jo="+(navigator.javaEnabled()?"Yes":"No");
+      }
+      d.write('<img id="ONESTAT_TAG" border="0" width="1" height="1" src="'+p+'" >');
+  }
+
+  OneStat_Pageview();
+  //-->
+  </script>
+    <noscript>
+    <a href="http://www.onestat.com"><img border="0" width="1" height="1" src="http://stat.onestat.com/stat.aspx?tagver=2&amp;sid=kcxx-fm.tritondigitalmedia.com&amp;js=No&amp;" ALT="OneStat.com Web Analytics"></a>
+    </noscript>
+  <!--ONESTAT SCRIPTCODE END--></body></html>

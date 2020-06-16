@@ -1,0 +1,1171 @@
+<!DOCTYPE HTML><html lang="en-US" xmlns:og="http://ogp.me/ns#" xmlns:fb="http://ogp.me/ns/fb#">
+
+<head>
+<meta charset="UTF-8" />
+<link rel="profile" href="http://gmpg.org/xfn/11" />
+
+<!-- Title -->
+<title>WARM 103.3 &#8211; Today&#039;s Hits &amp; Yesterday&#039;s Favorites | WARM-FM</title><link rel='dns-prefetch' href='//www.warm1033.com' />
+<link rel='dns-prefetch' href='//see-p-elb-01.tritondigital.net' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="canonical" href="http://www.warm1033.com/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.3\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.3\/svg\/","svgExt":".svg","source":{"wpemoji":"http:\/\/www.warm1033.com\/wp-includes\/js\/wp-emoji.js?ver=4.9.1","twemoji":"http:\/\/www.warm1033.com\/wp-includes\/js\/twemoji.js?ver=4.9.1"}};
+			( function( window, document, settings ) {
+	var src, ready, ii, tests;
+
+	/*
+	 * Create a canvas element for testing native browser support
+	 * of emoji.
+	 */
+	var canvas = document.createElement( 'canvas' );
+	var context = canvas.getContext && canvas.getContext( '2d' );
+
+	/**
+	 * Check if two sets of Emoji characters render the same.
+	 *
+	 * @param set1 array Set of Emoji characters.
+	 * @param set2 array Set of Emoji characters.
+	 * @returns {boolean} True if the two sets render the same.
+	 */
+	function emojiSetsRenderIdentically( set1, set2 ) {
+		var stringFromCharCode = String.fromCharCode;
+
+		// Cleanup from previous test.
+		context.clearRect( 0, 0, canvas.width, canvas.height );
+		context.fillText( stringFromCharCode.apply( this, set1 ), 0, 0 );
+		var rendered1 = canvas.toDataURL();
+
+		// Cleanup from previous test.
+		context.clearRect( 0, 0, canvas.width, canvas.height );
+		context.fillText( stringFromCharCode.apply( this, set2 ), 0, 0 );
+		var rendered2 = canvas.toDataURL();
+
+		return rendered1 === rendered2;
+	}
+
+	/**
+	 * Detect if the browser supports rendering emoji or flag emoji. Flag emoji are a single glyph
+	 * made of two characters, so some browsers (notably, Firefox OS X) don't support them.
+	 *
+	 * @since 4.2.0
+	 *
+	 * @param type {String} Whether to test for support of "flag" or "emoji".
+	 * @return {Boolean} True if the browser can render emoji, false if it cannot.
+	 */
+	function browserSupportsEmoji( type ) {
+		var isIdentical;
+
+		if ( ! context || ! context.fillText ) {
+			return false;
+		}
+
+		/*
+		 * Chrome on OS X added native emoji rendering in M41. Unfortunately,
+		 * it doesn't work when the font is bolder than 500 weight. So, we
+		 * check for bold rendering support to avoid invisible emoji in Chrome.
+		 */
+		context.textBaseline = 'top';
+		context.font = '600 32px Arial';
+
+		switch ( type ) {
+			case 'flag':
+				/*
+				 * Test for UN flag compatibility. This is the least supported of the letter locale flags,
+				 * so gives us an easy test for full support.
+				 *
+				 * To test for support, we try to render it, and compare the rendering to how it would look if
+				 * the browser doesn't render it correctly ([U] + [N]).
+				 */
+				isIdentical = emojiSetsRenderIdentically(
+					[ 55356, 56826, 55356, 56819 ],
+					[ 55356, 56826, 8203, 55356, 56819 ]
+				);
+
+				if ( isIdentical ) {
+					return false;
+				}
+
+				/*
+				 * Test for English flag compatibility. England is a country in the United Kingdom, it
+				 * does not have a two letter locale code but rather an five letter sub-division code.
+				 *
+				 * To test for support, we try to render it, and compare the rendering to how it would look if
+				 * the browser doesn't render it correctly (black flag emoji + [G] + [B] + [E] + [N] + [G]).
+				 */
+				isIdentical = emojiSetsRenderIdentically(
+					[ 55356, 57332, 56128, 56423, 56128, 56418, 56128, 56421, 56128, 56430, 56128, 56423, 56128, 56447 ],
+					[ 55356, 57332, 8203, 56128, 56423, 8203, 56128, 56418, 8203, 56128, 56421, 8203, 56128, 56430, 8203, 56128, 56423, 8203, 56128, 56447 ]
+				);
+
+				return ! isIdentical;
+			case 'emoji':
+				/*
+				 * Emoji 5 has fairies of all genders.
+				 *
+				 * To test for support, try to render a new emoji (fairy, male), then compares
+				 * it to how it would look if the browser doesn't render it correctly
+				 * (fairy + male sign).
+				 */
+				isIdentical = emojiSetsRenderIdentically(
+					[ 55358, 56794, 8205, 9794, 65039 ],
+					[ 55358, 56794, 8203, 9794, 65039 ]
+				);
+				return ! isIdentical;
+		}
+
+		return false;
+	}
+
+	function addScript( src ) {
+		var script = document.createElement( 'script' );
+
+		script.src = src;
+		script.defer = script.type = 'text/javascript';
+		document.getElementsByTagName( 'head' )[0].appendChild( script );
+	}
+
+	tests = Array( 'flag', 'emoji' );
+
+	settings.supports = {
+		everything: true,
+		everythingExceptFlag: true
+	};
+
+	for( ii = 0; ii < tests.length; ii++ ) {
+		settings.supports[ tests[ ii ] ] = browserSupportsEmoji( tests[ ii ] );
+
+		settings.supports.everything = settings.supports.everything && settings.supports[ tests[ ii ] ];
+
+		if ( 'flag' !== tests[ ii ] ) {
+			settings.supports.everythingExceptFlag = settings.supports.everythingExceptFlag && settings.supports[ tests[ ii ] ];
+		}
+	}
+
+	settings.supports.everythingExceptFlag = settings.supports.everythingExceptFlag && ! settings.supports.flag;
+
+	settings.DOMReady = false;
+	settings.readyCallback = function() {
+		settings.DOMReady = true;
+	};
+
+	if ( ! settings.supports.everything ) {
+		ready = function() {
+			settings.readyCallback();
+		};
+
+		if ( document.addEventListener ) {
+			document.addEventListener( 'DOMContentLoaded', ready, false );
+			window.addEventListener( 'load', ready, false );
+		} else {
+			window.attachEvent( 'onload', ready );
+			document.attachEvent( 'onreadystatechange', function() {
+				if ( 'complete' === document.readyState ) {
+					settings.readyCallback();
+				}
+			} );
+		}
+
+		src = settings.source || {};
+
+		if ( src.concatemoji ) {
+			addScript( src.concatemoji );
+		} else if ( src.wpemoji && src.twemoji ) {
+			addScript( src.twemoji );
+			addScript( src.wpemoji );
+		}
+	}
+
+} )( window, document, window._wpemojiSettings );
+		</script>
+		
+
+<!-- Stylesheets -->
+<link rel='stylesheet' id='headway-google-fonts' href='//fonts.googleapis.com/css?family=Oswald' type='text/css' media='all' />
+<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='bxslider-style-css'  href='http://www.warm1033.com/wp-content/plugins/shared/js/bxslider/jquery.bxslider.css?ver=4.9.1' type='text/css' media='all' />
+<link rel='stylesheet' id='amp-promo-reel-widget-style-css'  href='http://www.warm1033.com/wp-content/plugins/amp-promo-reel/includes/../css/widget.css?ver=4.9.1' type='text/css' media='all' />
+<link rel='stylesheet' id='headway-general-css'  href='http://www.warm1033.com/wp-content/uploads/sites/428/headway/cache/general-e8fd4f4.css?ver=4.9.1' type='text/css' media='all' />
+<link rel='stylesheet' id='headway-layout-front_page-css'  href='http://www.warm1033.com/wp-content/uploads/sites/428/headway/cache/layout-front_page-68a8470.css?ver=4.9.1' type='text/css' media='all' />
+<link rel='stylesheet' id='headway-responsive-grid-css'  href='http://www.warm1033.com/wp-content/uploads/sites/428/headway/cache/responsive-grid-d2119e4.css?ver=4.9.1' type='text/css' media='all' />
+<meta name="builder-styles-css" content="" id="builder-styles-css">
+<link rel='stylesheet' id='amp-breaking-news-css'  href='http://www.warm1033.com/wp-content/plugins/amp-breaking-news/public/css/public.css?ver=0.2.3' type='text/css' media='all' />
+<link rel='stylesheet' id='animate-style-css'  href='http://www.warm1033.com/wp-content/plugins/shared/css/animate.css?ver=0.2.3' type='text/css' media='all' />
+<link rel='stylesheet' id='amp-styles-plugin-styles-css'  href='http://www.warm1033.com/wp-content/plugins/amp-styles/css/public.css?ver=1.4.1' type='text/css' media='all' />
+<link rel='stylesheet' id='amp-events-calendar-styles-css'  href='http://www.warm1033.com/wp-content/plugins/amp-events/css/calendar.css?ver=1.1.4' type='text/css' media='all' />
+<link rel='stylesheet' id='amp-events-export-styles-css'  href='http://www.warm1033.com/wp-content/plugins/amp-events/css/public.css?ver=1.1.4' type='text/css' media='all' />
+<link rel='stylesheet' id='amp_feed-plugin-styles-css'  href='http://www.warm1033.com/wp-content/plugins/amp-feeds/css/public.css?ver=0.4.0' type='text/css' media='all' />
+<link rel='stylesheet' id='amp-image-rotator-plugin-styles-css'  href='http://www.warm1033.com/wp-content/plugins/amp-image-rotator/public/assets/css/public.css?ver=1.0.0' type='text/css' media='all' />
+<link rel='stylesheet' id='amp-listen-live-plugin-styles-css'  href='http://www.warm1033.com/wp-content/plugins/amp-listen-live/public/assets/css/public.css?ver=1.4.4' type='text/css' media='all' />
+<link rel='stylesheet' id='amp-onair-plugin-styles-css'  href='http://www.warm1033.com/wp-content/plugins/amp-onair/public/assets/css/public.css?ver=1.7.1' type='text/css' media='all' />
+<link rel='stylesheet' id='AMPPromoReel-plugin-styles-css'  href='http://www.warm1033.com/wp-content/plugins/amp-promo-reel/css/public.css?ver=1.4.0' type='text/css' media='all' />
+<link rel='stylesheet' id='mediaelement-css'  href='http://www.warm1033.com/wp-includes/js/mediaelement/mediaelementplayer-legacy.min.css?ver=4.2.6-78496d1' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-mediaelement-css'  href='http://www.warm1033.com/wp-includes/js/mediaelement/wp-mediaelement.css?ver=4.9.1' type='text/css' media='all' />
+<link rel='stylesheet' id='amp-tabs-plugin-styles-css'  href='http://www.warm1033.com/wp-content/plugins/amp-tabs/public/assets/css/public.css?ver=1.0.0' type='text/css' media='all' />
+<link rel='stylesheet' id='amp-header-rotator-css'  href='http://www.warm1033.com/wp-content/themes/Headway-AMP_CMS/css/amp-header-rotator.css?ver=1.1.5' type='text/css' media='all' />
+<link rel="stylesheet" type="text/css" media="all" href="http://www.warm1033.com/wp-content/themes/Headway-AMP_CMS/style.css" />
+
+<!-- Scripts -->
+<script type='text/javascript' src='http://www.warm1033.com/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='http://www.warm1033.com/wp-includes/js/jquery/jquery-migrate.js?ver=1.4.1'></script>
+<script type='text/javascript' src='http://www.warm1033.com/wp-content/themes/headway/library/blocks/navigation/js/selectnav.js?ver=1533183780'></script>
+<script type='text/javascript' src='http://www.warm1033.com/wp-content/themes/headway/library/media/js/jquery.hoverintent.js?ver=4.9.1'></script>
+<script type='text/javascript' src='http://www.warm1033.com/wp-content/themes/headway/library/blocks/navigation/js/jquery.superfish.js?ver=4.9.1'></script>
+<script type='text/javascript' src='http://www.warm1033.com/wp-content/uploads/sites/428/headway/cache/block-dynamic-js-layout-front_page-769a883.js?ver=4.9.1'></script>
+<script type='text/javascript' src='http://www.warm1033.com/wp-content/plugins/shared/js/bxslider/jquery.bxslider.min.js?ver=4.9.1'></script>
+<script type='text/javascript' src='http://www.warm1033.com/wp-content/plugins/amp-promo-reel/includes/../js/widget.js?ver=1.4.0'></script>
+<script type='text/javascript' src='http://www.warm1033.com/wp-content/themes/headway/library/media/js/jquery.fitvids.js?ver=4.9.1'></script>
+<script type='text/javascript' src='http://www.warm1033.com/wp-content/uploads/sites/428/headway/cache/responsive-grid-js-e6e6939.js?ver=4.9.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var _ampconfig = {"site_url":"http:\/\/www.warm1033.com","site_id":"428","tz":"America\/New_York","tz_offset":"-4","ts":"1533183780","blog_name":"WARM-FM","client_name":"cumuluspro","user_ID":"","ts_offset":"1535351052","version":"2.47.0.3","env":"prod","settings":{"tenant_id":"see_10725","syn_site_name":false,"selector_logo":false,"selector_masthead":false,"selector_nav":false,"selector_rotator":false,"default_show_name":"WARM 103.3 - Todays Hits & Yesterdays Favorites","default_show_img":"http:\/\/images.tritondigitalcms.com\/6616\/sites\/428\/2017\/11\/02120117\/11665676_1041037602573627_530506973840998129_n.jpg","gtm_id":false,"vidible_company_key":"06125e55709b3c4ffdfe3c3f8a9ed8bd","client_name":false,"nielsen_provider":"cumulus","promoreel_priority":true}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.warm1033.com/wp-content/plugins/shared/js/amp-common.js?ver=1533183780'></script>
+<script type='text/javascript' src='http://www.warm1033.com/wp-content/plugins/amp-breaking-news/public/js/public.js?ver=0.2.3'></script>
+<script type='text/javascript' src='http://www.warm1033.com/wp-content/plugins/amp-styles/js/public.js?ver=1.4.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var dates = {"start_of_week":"1","moment_date_format":"MMMM D, YYYY","moment_time_format":"h:mm a","calendar_date_format":"MMMM d, yyyy","calendar_time_format":"h:mm tt","date_format":"MM d, yy","time_format":"h:mm tt"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.warm1033.com/wp-content/plugins/amp-events/js/calendar.js?ver=1.1.4'></script>
+<script type='text/javascript' src='http://www.warm1033.com/wp-content/plugins/amp-events/js/public.js?ver=1.1.4'></script>
+<script type='text/javascript' src='http://www.warm1033.com/wp-content/plugins/amp-feeds/js/jquery.totemticker.min.js?ver=0.4.0'></script>
+<script type='text/javascript' src='http://www.warm1033.com/wp-includes/js/jquery/ui/core.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://www.warm1033.com/wp-includes/js/jquery/ui/widget.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://www.warm1033.com/wp-includes/js/jquery/ui/tabs.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://www.warm1033.com/wp-content/plugins/amp-feeds/js/amp-feed.js?ver=0.4.0'></script>
+<script type='text/javascript' src='http://www.warm1033.com/wp-content/plugins/amp-feeds/js/public.js?ver=0.4.0'></script>
+<script type='text/javascript' src='http://www.warm1033.com/wp-content/plugins/amp-feeds/js/date.js?ver=0.4.0'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var _amplistenlive = {"blog_id":"428","callsign":"","mount_name":"WARMFM","provider":"stream_the_world","gmt_offset":"-14400"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.warm1033.com/wp-content/plugins/amp-listen-live/public/assets/js/public.js?ver=1.4.4'></script>
+<script type='text/javascript' src='http://www.warm1033.com/wp-content/plugins/amp-onair/public/assets/js/public.js?ver=1.7.1'></script>
+<script type='text/javascript' src='//see-p-elb-01.tritondigital.net/widget/see_10725/see.js?ver=1.3.0'></script>
+<script type='text/javascript' src='http://www.warm1033.com/wp-content/themes/Headway-AMP_CMS/js/amp-theme.js?ver=1.1.5'></script>
+
+<!--[if lt IE 9]>
+<script src="http://www.warm1033.com/wp-content/themes/headway/library/media/js/html5shiv.js"></script>
+<![endif]-->
+
+<!--[if lt IE 8]>
+<script src="http://www.warm1033.com/wp-content/themes/headway/library/media/js/ie8.js"></script>
+<![endif]-->
+
+<script type='text/javascript'>
+var googletag = googletag || {};
+googletag.cmd = googletag.cmd || [];
+(function() {
+var gads = document.createElement('script');
+gads.async = true;
+gads.type ='text/javascript';
+var useSSL ='https:' == document.location.protocol;
+gads.src = (useSSL ?'https:' :'http:') + 
+'//www.googletagservices.com/tag/js/gpt.js';
+var node = document.getElementsByTagName('script')[0];
+node.parentNode.insertBefore(gads, node);
+})();
+</script>
+<script type='text/javascript'>
+googletag.cmd.push(function() {
+
+var leaderboardSizeMap = googletag.sizeMapping()
+	.addSize([970, 0], [[728, 90], [970, 90]])
+ .addSize([750,0], [728,90])
+	.addSize([0, 0], [[320, 50], [320, 53]])
+	.build();
+
+googletag.defineSlot('/6717/cd.warm.fm', [[300, 250], [300, 600]],'div-gpt-ad-1418849849333-0').addService(googletag.pubads())
+.setCollapseEmptyDiv(true).setTargeting("pos","mid");
+googletag.defineSlot('/6717/cd.warm.fm', [[728, 90], [970, 90]],'div-gpt-ad-1418849849333-1').addService(googletag.pubads())
+.defineSizeMapping(leaderboardSizeMap).setCollapseEmptyDiv(true).setTargeting("pos","top");
+googletag.defineSlot('/6717/cd.warm.fm', [[728, 90], [970, 90]],'div-gpt-ad-1418849849333-2').addService(googletag.pubads())
+.defineSizeMapping(leaderboardSizeMap).setCollapseEmptyDiv(true).setTargeting("pos","bot");
+googletag.defineSlot('/6717/cd.warm.fm', [[300, 250], [300, 600]],'div-gpt-ad-1418849849333-3').addService(googletag.pubads())
+.setCollapseEmptyDiv(true).setTargeting("pos","mid2");
+googletag.defineSlot('/6717/cd.warm.fm', [[160, 600]],'div-gpt-ad-1418849849333-4').addService(googletag.pubads())
+.setCollapseEmptyDiv(true).setTargeting("pos","left");
+googletag.defineSlot('/6717/cd.warm.fm', [[160, 600]],'div-gpt-ad-1418849849333-5').addService(googletag.pubads())
+.setCollapseEmptyDiv(true).setTargeting("pos","right");
+googletag.defineSlot('/6717/cd.warm.fm', [[654, 70]],'div-gpt-ad-1418849849333-6').addService(googletag.pubads())
+.setCollapseEmptyDiv(true).setTargeting("pos","rdioplayer");
+googletag.defineSlot('/6717/cd.warm.fm', [[300, 100]],'div-gpt-ad-1418849849333-7').addService(googletag.pubads())
+.setCollapseEmptyDiv(true).setTargeting("pos","contest1");
+googletag.defineSlot('/6717/cd.warm.fm', [[300, 100]],'div-gpt-ad-1418849849333-8').addService(googletag.pubads())
+.setCollapseEmptyDiv(true).setTargeting("pos","contest2");
+googletag.defineSlot('/6717/cd.warm.fm', [[300, 100]],'div-gpt-ad-1418849849333-9').addService(googletag.pubads())
+.setCollapseEmptyDiv(true).setTargeting("pos","contest3");
+googletag.defineSlot('/6717/cd.warm.fm', [[59, 26]],'div-gpt-ad-1418849849333-10').addService(googletag.pubads())
+.setCollapseEmptyDiv(true).setTargeting("pos","rdiobutton");
+googletag.defineSlot('/6717/cd.warm.fm', [[113, 23]],'div-gpt-ad-1418849849333-11').addService(googletag.pubads())
+.setCollapseEmptyDiv(true).setTargeting("pos","feedsponsor1");
+googletag.defineSlot('/6717/cd.warm.fm', [[113, 23]],'div-gpt-ad-1418849849333-12').addService(googletag.pubads())
+.setCollapseEmptyDiv(true).setTargeting("pos","feedsponsor2");
+googletag.defineSlot('/6717/cd.warm.fm', [[113, 23]],'div-gpt-ad-1418849849333-13').addService(googletag.pubads())
+.setCollapseEmptyDiv(true).setTargeting("pos","feedsponsor3");
+googletag.defineSlot('/6717/cd.warm.fm', [[113, 23]],'div-gpt-ad-1418849849333-14').addService(googletag.pubads())
+.setCollapseEmptyDiv(true).setTargeting("pos","feedsponsor4");
+googletag.defineSlot('/6717/cd.warm.fm', [[1, 1]],'div-gpt-ad-1418849849333-16').addService(googletag.pubads())
+.setCollapseEmptyDiv(true).setTargeting("pos","wallpaper-ad");
+googletag.pubads().enableSingleRequest();
+googletag.enableServices();
+googletag.defineSlot('/6717/cd.warm.fm', [[300, 250], [300, 600]], 'div-gpt-ad-1418849849333-18').setCollapseEmptyDiv(true).addService(googletag.pubads())
+.setTargeting("pos","midresponsive");
+});
+</script>
+
+<!--ONESTAT SCRIPTCODE START Embed Player-->
+  <script type="text/javascript">
+  <!--
+  jQuery(document).ready(function(){
+    var d=document;
+    var sid="warm-fm.cumulus";
+    var CONTENTSECTION="";
+    var osp_URL=d.URL;
+    var osp_Title=d.title;
+    var t=new Date();
+    var p="http"+(d.URL.indexOf('https:')==0?'s':'')+"://stat.onestat.com/stat.aspx?tagver=2&sid="+sid;
+    p+="&url="+escape(osp_URL);
+    p+="&ti="+escape(osp_Title);
+    p+="&section="+escape(CONTENTSECTION);
+    p+="&rf="+escape(parent==self?document.referrer:top.document.referrer);
+    p+="&tz="+escape(t.getTimezoneOffset());
+    p+="&ch="+escape(t.getHours());
+    p+="&js=1";
+    p+="&ul="+escape(navigator.appName=="Netscape"?navigator.language:navigator.userLanguage);
+    if(osp_URL!=d.URL) p+="&ol="+escape(d.URL);
+    if(typeof(screen)=="object"){
+       p+="&sr="+screen.width+"x"+screen.height;p+="&cd="+screen.colorDepth;
+       p+="&jo="+(navigator.javaEnabled()?"Yes":"No");
+    }
+
+    var imgTag = '<img border="0" height="0" width="0" id="ONESTAT_TAG" src="' + p + '">'
+    jQuery('body').append(imgTag);
+
+  })
+  //-->
+  </script> 
+<!--ONESTAT SCRIPTCODE END-->
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','corpDataLayer','GTM-TJ8H5V');</script>
+<!-- End Google Tag Manager -->
+
+<!-- BEGIN INFINITE FACEBOOK PIXEL -->
+<script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '181461212508101');
+  fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=181461212508101&ev=PageView&noscript=1"
+/></noscript>
+<!-- END INFINITE FACEBOOK PIXEL -->
+<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
+<link rel="alternate" type="application/rss+xml" title="WARM-FM &raquo; Feed" href="http://www.warm1033.com/feed/" />
+<link rel='shortlink' href='http://www.warm1033.com/' />
+			<script type="text/javascript">
+				var _gaq = _gaq || [];
+
+				
+									_gaq.push(['b._setAccount', 'UA-75966256-6']);
+					_gaq.push(['b._trackPageview']);
+				
+				(function() {
+				var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                				    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                				var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+				})();
+			</script>
+
+        <!-- Customization: Default -->
+<style style="text/css" id="customize-styles">
+#whitewrap {background-image: url(http://images.tritondigitalcms.com/6616/sites/428/2018/04/09132745/WARM-web-background.jpg) !important;
+background-position: top center;
+background-attachment: fixed;
+background-repeat: no-repeat;
+}
+#whitewrap > .wrapper-header {background-color: #0066cc !important; 
+background-image: none !important;
+}
+#whitewrap > .wrapper-content {background-color: transparent !important; background-image: none !important;}
+#whitewrap > .wrapper-footer {background-color: #1d1d1d !important; 
+background-image: none !important;
+}
+body {background-color: #FFFFFF !important; 
+}
+
+</style>
+<script>_AMP.theme.data = [];</script>
+<script type="text/javascript">var ajaxurl = "http://www.warm1033.com/wp-admin/admin-ajax.php"</script><script type="text/javascript">var ajaxurl = "http://www.warm1033.com/wp-admin/admin-ajax.php"</script>
+<!-- AMP CMS DFP custom tags -->
+<script type='text/javascript'>
+  googletag.cmd.push(function() {
+      googletag.pubads().setTargeting('cms-sname', 'WARMFM');
+      googletag.pubads().setTargeting('cms-sgroup', ['All Sites', 'Format  AC', 'Market  York PA']);
+      googletag.pubads().setTargeting('cms-ptitle', 'Home');
+  });
+</script>
+
+<!-- START - Facebook Open Graph, Google+ and Twitter Card Tags 2.0.4 -->
+ <!-- Facebook Open Graph -->
+  <meta property="og:locale" content="en_US"/>
+  <meta property="og:site_name" content="WARM-FM"/>
+  <meta property="og:title" content="WARM-FM"/>
+  <meta property="og:url" content="http://www.warm1033.com"/>
+  <meta property="og:type" content="website"/>
+  <meta property="og:description" content="WARM 103.3 - Today&#039;s Hits &amp; Yesterday&#039;s Favorites"/>
+ <!-- Google+ / Schema.org -->
+  <meta itemprop="name" content="WARM-FM"/>
+  <meta itemprop="description" content="WARM 103.3 - Today&#039;s Hits &amp; Yesterday&#039;s Favorites"/>
+ <!-- Twitter Cards -->
+  <meta name="twitter:title" content="WARM-FM"/>
+  <meta name="twitter:url" content="http://www.warm1033.com"/>
+  <meta name="twitter:description" content="WARM 103.3 - Today&#039;s Hits &amp; Yesterday&#039;s Favorites"/>
+  <meta name="twitter:card" content="summary_large_image"/>
+ <!-- SEO -->
+ <!-- Misc. tags -->
+<!-- END - Facebook Open Graph, Google+ and Twitter Card Tags 2.0.4 -->
+
+
+</head><!-- End <head> -->
+
+<body class="home page-template-default page page-id-27 custom safari webkit iphone responsive-grid-enabled responsive-grid-active pageid-27 page-slug-home layout-front_page layout-using-front_page istouch builder-parallax-scrolling-active" itemscope itemtype="http://schema.org/WebPage">
+
+
+<div id="whitewrap">
+
+
+<div id="wrapper-8" class="wrapper wrapper-fluid wrapper-fixed-grid grid-fluid-24-32-10 responsive-grid wrapper-first wrapper-header" data-alias="Wrapper Header">
+
+<div class="grid-container clearfix">
+
+<section class="row row-1">
+
+<section class="column column-1 grid-left-0 grid-width-24">
+<div id="block-27" class="block block-type-custom-code block-fluid-height" data-alias="728x90 Leaderboard Ad">
+<div class="block-content">
+<div align="center">
+<div id='div-gpt-ad-1418849849333-1'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1418849849333-1'); });
+</script>
+</div>    
+</div>
+</div><!-- .block-content -->
+
+</div><!-- #block-27 -->
+
+</section><!-- .column -->
+
+</section><!-- .row -->
+
+
+<section class="row row-2">
+
+<section class="column column-1 grid-left-0 grid-width-7">
+<figure id="block-31" class="logo block block-type-image block-fixed-height" data-alias="Logo" itemscope="" itemtype="http://schema.org/ImageObject">
+<div class="block-content">
+<a href="/" class="image" ><img src="http://cumulus.pro.poolb.tritondigitalcms.com/warm-fm/wp-content/uploads/sites/428/2015/03/site-logo.png" alt="" title="" itemprop="contentURL"/></a>
+</div><!-- .block-content -->
+
+</figure><!-- #block-31 -->
+
+</section><!-- .column -->
+
+<section class="column column-2 grid-left-0 grid-width-17">
+
+<section class="sub-column sub-column-1 column column-1 grid-width-4 grid-left-0">
+<aside id="block-29" class="on-air block block-type-widget-area block-fluid-height" data-alias="Home - On Air Now" itemscope="" itemtype="http://schema.org/WPSideBar">
+<div class="block-content">
+<ul class="widget-area"><div class="amp-onair-widget" id="amp_onair_widget-2"
+	data-title-now=""
+	data-title-upcoming=""
+	data-title=""
+	data-type="nowplaying"
+	data-change-minutes="5"
+	data-change="0"
+	data-toggle-time="10"
+	data-fields="image,timeslot"
+	data-ajaxurl="http://www.warm1033.com/wp-admin/admin-ajax.php"
+	data-updateurl="http://www.warm1033.com/shows/feed/?type=json"
+	data-memcached="1"
+	data-expiration="1535360400">
+	
+<div class="amp-onair-show nowplaying" >
+
+    <div class="amp-onair-widget-title js-widget-title"></div>
+
+        <div class="amp-onair-show-image">
+                    <img class="js-image amp-onair-show-image-img" src="http://www.warm1033.com/wp-content/uploads/sites/428/2015/03/Chris-Liz-2-WEB-FI2.jpg"  />
+            </div>
+        
+    <div class="amp-onair-show-title">
+            <span class="js-title">Liz &amp; Chris</span>
+        </div>
+    
+        <div class="amp-onair-show-timeslot js-timeslot" >5:00 a.m. - 9:00 a.m.</div>
+        
+        
+    
+</div>
+</div></ul>
+</div><!-- .block-content -->
+
+</aside><!-- #block-29 -->
+
+</section><!-- .sub-column -->
+
+<section class="sub-column sub-column-2 column column-2 grid-width-13 grid-left-0">
+<section id="block-30" class="social-nav block block-type-social block-fixed-height" data-alias="Social Navigation">
+<div class="block-content">
+<div class="social-icons-container"><ul class="social-icons"><li><a href="#"><img src="http://www.warm1033.com/wp-content/uploads/sites/428/2016/04/listen-live.png" title="Listen Live!!" class="img-1"  /></a></li><li><a href="/advertise-with-us/"><img src="http://images.tritondigitalcms.com/6616/sites/428/2018/02/26114052/advertise-with-us.png" alt="Advertise With Us" class="img-2"  /></a></li><li><a href="/listen-live-with-alexa"><img src="http://images.tritondigitalcms.com/6616/sites/428/2018/01/02153608/Alexa-Social-Logo-MUSIC.png" alt="Alexa" class="img-3"  /></a></li><li><a href="https://www.facebook.com/Warm1033" target="_blank"><img src="http://cumulus.pro.poolb.tritondigitalcms.com/warm-fm/wp-content/uploads/sites/428/2014/10/facebook.png" title="Like us on Facebook!" class="img-4"  /></a></li><li><a href="https://twitter.com/WARM1033Radio" target="_blank"><img src="http://cumulus.pro.poolb.tritondigitalcms.com/warm-fm/wp-content/uploads/sites/428/2014/10/twitter.png" title="Follow us on Twitter!" class="img-5"  /></a></li><li><a href="https://www.instagram.com/warm1033/" target="_blank"><img src="http://images.tritondigitalcms.com/6616/sites/428/2018/04/13142703/instagram-new.png" title="Instagram" class="img-6"  /></a></li><li><a href="http://warm1033.listenernetwork.com/" target="_blank"><img src="http://cumulus.pro.poolb.tritondigitalcms.com/warm-fm/wp-content/uploads/sites/428/2015/01/cumulus-vip.png" title="VIP" class="img-7"  /></a></li></ul></div><!-- .social-icons-container -->
+</div><!-- .block-content -->
+
+</section><!-- #block-30 -->
+
+</section><!-- .sub-column -->
+
+<section class="sub-column sub-column-1 column column-1 grid-width-12 grid-left-0">
+<div id="block-bcs5a749667b4644" class="block block-type-custom-code block-fluid-height" data-alias="Empty Spacer">
+<div class="block-content">
+&nbsp;
+</div><!-- .block-content -->
+
+</div><!-- #block-bcs5a749667b4644 -->
+
+</section><!-- .sub-column -->
+
+<section class="sub-column sub-column-2 column column-2 grid-width-5 grid-left-0">
+<nav id="block-33" class="nav-search block block-type-navigation block-fluid-height" data-alias="Navigation Search" itemscope="" itemtype="http://schema.org/SiteNavigationElement">
+<div class="block-content">
+<div class="nav-horizontal nav-align-left nav-search-active nav-search-position-left"><div class="nav-search">
+		<form method="get" id="searchform" action="http://www.warm1033.com/">
+			<label for="s" class="assistive-text">Search</label>
+			<input type="text" class="field" name="s" id="s" value="Type to search, then press enter" onclick="if(this.value=='Type to search, then press enter')this.value='';" onblur="if(this.value=='')this.value='Type to search, then press enter';" />
+			<input type="submit" class="submit" name="searchsubmit" id="searchsubmit" value="Search" />
+		</form>
+	</div></div><!-- .nav-horizontal nav-align-left nav-search-active nav-search-position-left -->
+</div><!-- .block-content -->
+
+</nav><!-- #block-33 -->
+
+</section><!-- .sub-column -->
+<div id="block-b8t5a9439311b47b" class="block block-type-custom-code block-fluid-height" data-alias="Empty Spacer">
+<div class="block-content">
+&nbsp;
+</div><!-- .block-content -->
+
+</div><!-- #block-b8t5a9439311b47b -->
+
+<section class="sub-column sub-column-1 column column-1 grid-width-14 grid-left-0">
+<nav id="block-32" class="main-nav block block-type-navigation block-fluid-height" data-alias="Main Navigation" itemscope="" itemtype="http://schema.org/SiteNavigationElement">
+<div class="block-content">
+<div class="nav-horizontal nav-align-left"><ul id="menu-main-navigation" class="menu"><li id="menu-item-119" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-119"><a href="http://www.warm1033.com/shows/">Shows</a>
+<ul class="sub-menu">
+	<li id="menu-item-64466" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-64466"><a href="http://www.warm1033.com/shows/liz-and-chris/">Liz &#038; Chris</a></li>
+	<li id="menu-item-815614" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-815614"><a href="http://www.warm1033.com/shows/melanie-gardner/">Melanie Gardner</a></li>
+	<li id="menu-item-465732" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-465732"><a href="http://www.warm1033.com/shows/dave-russell/">Dave Russell</a></li>
+	<li id="menu-item-1756063" class="menu-item menu-item-type-post_type menu-item-object-amp-onair-show menu-item-1756063"><a href="http://www.warm1033.com/shows/john-tesh-2/">John Tesh</a></li>
+	<li id="menu-item-64475" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-64475"><a href="http://www.warm1033.com/shows/backtrax-usa/">BackTrax USA</a></li>
+	<li id="menu-item-1740878" class="menu-item menu-item-type-post_type menu-item-object-amp-onair-show menu-item-1740878"><a href="http://www.warm1033.com/shows/the-jim-brickman-show/">The Jim Brickman Show</a></li>
+</ul>
+</li>
+<li id="menu-item-125" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-125"><a href="http://www.warm1033.com/news/">News</a>
+<ul class="sub-menu">
+	<li id="menu-item-82721" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-82721"><a href="http://www.warm1033.com/newsfeed/910-wsba-news-center/">WSBA News Center</a></li>
+	<li id="menu-item-183522" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-183522"><a href="http://www.warm1033.com/category/music-news/">Music News</a></li>
+	<li id="menu-item-1449504" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1449504"><a href="http://www.warm1033.com/category/cnn-entertainment/">Hollywood Headlines</a></li>
+	<li id="menu-item-64481" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-64481"><a href="http://www.warm1033.com/category/cnn-us/">National News</a></li>
+	<li id="menu-item-64484" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-64484"><a href="http://www.warm1033.com/category/cnn-world/">World News</a></li>
+	<li id="menu-item-64490" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-64490"><a href="http://www.warm1033.com/category/cnn-health/">Health News</a></li>
+	<li id="menu-item-561117" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-561117"><a href="#">Videos</a>
+	<ul class="sub-menu">
+		<li id="menu-item-561123" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-561123"><a href="http://www.warm1033.com/1111/11/11/cnn-news/">CNN News</a></li>
+	</ul>
+</li>
+</ul>
+</li>
+<li id="menu-item-123" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-123"><a href="http://www.warm1033.com/contests/">Contests</a>
+<ul class="sub-menu">
+	<li id="menu-item-1768660" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-1768660"><a href="http://www.warm1033.com/2017/12/01/win-lunch-for-your-workplace/">Epex Wayback Lunch</a></li>
+	<li id="menu-item-192936" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-192936"><a href="http://www.warm1033.com/officialcontestrules/">Official Contest Rules</a></li>
+</ul>
+</li>
+<li id="menu-item-1545145" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1545145"><a href="http://warm1033.com">Events</a>
+<ul class="sub-menu">
+	<li id="menu-item-1476947" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1476947"><a href="http://www.warm1033.com/events/">Station Events &#038; Appearances</a></li>
+	<li id="menu-item-1476953" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1476953"><a href="http://www.warm1033.com/features/community-calendar/">Community Calendar</a></li>
+	<li id="menu-item-1545151" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1545151"><a href="http://www.weddingwonderlandpa.com/">Wedding Wonderland</a></li>
+</ul>
+</li>
+<li id="menu-item-121" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-121"><a href="http://www.warm1033.com/features/">Features</a>
+<ul class="sub-menu">
+	<li id="menu-item-64493" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-64493"><a href="http://www.warm1033.com/category/lizs-dirt/">Liz&#8217;s Dirt</a></li>
+	<li id="menu-item-1545157" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-1545157"><a href="http://www.warm1033.com/2015/08/01/download-the-app/">Get the Warm 103.3 App</a></li>
+	<li id="menu-item-1751938" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1751938"><a href="http://www.warm1033.com/listen-live-with-alexa/">Listen Live with Alexa</a></li>
+	<li id="menu-item-1358598" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1358598"><a href="http://warm-fm.mygameroom.com">Games</a></li>
+</ul>
+</li>
+<li id="menu-item-85292" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-85292"><a href="http://www.warm1033.com/photos/">Photos</a></li>
+<li id="menu-item-117" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-117"><a href="http://pa.sweetdealscumulus.com/">Sweet Deals</a></li>
+<li id="menu-item-1745737" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1745737"><a target="_blank" href="http://cumulusdigital.com?market=York">Digital│C-Suite</a></li>
+</ul></div><!-- .nav-horizontal nav-align-left -->
+</div><!-- .block-content -->
+
+</nav><!-- #block-32 -->
+
+</section><!-- .sub-column -->
+
+<section class="sub-column sub-column-2 column column-2 grid-width-3 grid-left-0">
+<div id="block-bwc5a787d9980645" class="gigya-actions block block-type-custom-code block-fluid-height" data-alias="Gigya Profile Actions">
+<div class="block-content">
+<div class="see-widget" data-see-type="regUi" data-see-loginbonus="false"></div>
+</div><!-- .block-content -->
+
+</div><!-- #block-bwc5a787d9980645 -->
+
+</section><!-- .sub-column -->
+
+</section><!-- .column -->
+
+</section><!-- .row -->
+
+
+<section class="row row-3">
+
+<section class="column column-1 grid-left-0 grid-width-5">
+<div id="block-b8z54a44441b0250" class="takeover-left block block-type-custom-code block-fluid-height" data-alias="Skyscraper - Left">
+<div class="block-content">
+<div id='div-gpt-ad-1418849849333-4'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1418849849333-4'); });
+</script>
+</div>
+</div><!-- .block-content -->
+
+</div><!-- #block-b8z54a44441b0250 -->
+
+</section><!-- .column -->
+
+<section class="column column-2 grid-left-0 grid-width-5">
+<div id="block-b0b54a44441b2caa" class="takeover-right block block-type-custom-code block-fluid-height" data-alias="Skyscraper - Right">
+<div class="block-content">
+<div id='div-gpt-ad-1418849849333-5'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1418849849333-5'); });
+</script>
+</div>
+</div><!-- .block-content -->
+
+</div><!-- #block-b0b54a44441b2caa -->
+
+</section><!-- .column -->
+
+</section><!-- .row -->
+
+
+</div><!-- .grid-container -->
+
+</div><!-- .wrapper -->
+
+<div id="wrapper-9" class="wrapper wrapper-fluid wrapper-fixed-grid grid-fluid-24-32-10 responsive-grid wrapper-content" data-alias="Wrapper Content">
+
+<div class="grid-container clearfix">
+
+<section class="row row-1">
+
+<section class="column column-1 grid-left-0 grid-width-16">
+<aside id="block-35" class="promo-reel block block-type-widget-area block-fluid-height" data-alias="Home - Promo Reel" itemscope="" itemtype="http://schema.org/WPSideBar">
+<div class="block-content">
+<ul class="widget-area"><li id="amp_promo_reel-2" class="widget widget_amp_promo_reel sidebar_promo">
+<div class="sliderWrapper"><div class="sliderBody" style=""><div class="bxslider" data-navigation-arrows='1' data-rotation-time='5000' data-pager-type='none'><div class="sliderItem" style="background-image: url(http://images.tritondigitalcms.com/6616/sites/428/2018/07/27115301/4k-undated-FI1.jpg);background-color: #000;background-repeat: no-repeat;background-size: cover;background-position: 0% 0%;position: relative;height: 300px;cursor: pointer;" onclick="window.location='http://www.warm1033.com/2018/07/13/4k-summer-4k-a-day/'"><div class="promoCaption bottom"><div class="captionTitle">Listen for the Keyword!</div></div></div><div class="sliderItem" style="background-image: url(http://images.tritondigitalcms.com/6616/sites/428/2018/03/07141302/Pentatonix_Facebook_InvestorThumbnail_NewsFeedImage_1200x628_Static1.jpg);background-color: #000;background-repeat: no-repeat;background-size: cover;background-position: 50% 50%;position: relative;height: 300px;cursor: pointer;" onclick="window.location='http://www.warm1033.com/2018/03/07/pentatonix-at-hersheypark-stadium-on-september-2nd/'"><div class="promoCaption bottom"><div class="captionTitle">See Pentatonix in Hershey on 9/2</div></div></div><div class="sliderItem" style="background-image: url(http://images.tritondigitalcms.com/6616/sites/428/2017/12/30142000/WARM-epex-workday-lunch.jpg);background-color: #000;background-repeat: no-repeat;background-size: cover;background-position: 50% 50%;position: relative;height: 300px;cursor: pointer;" onclick="window.location='http://www.warm1033.com/2017/12/01/win-lunch-for-your-workplace/'"><div class="promoCaption bottom"><div class="captionTitle">Win Lunch for your Workplace!</div></div></div><div class="sliderItem" style="background-image: url(http://images.tritondigitalcms.com/6616/sites/428/2018/01/03103735/warm-alexa-FI1.jpg);background-color: #000;background-repeat: no-repeat;background-size: cover;background-position: 50% 50%;position: relative;height: 300px;cursor: pointer;" onclick="window.location='http://www.warm1033.com/2018/01/03/play-warm-103-3-on-your-alexa-enabled-device/'"><div class="promoCaption bottom"><div class="captionTitle">WARM 103.3 on Alexa</div></div></div><div class="sliderItem" style="background-image: url(http://images.tritondigitalcms.com/6616/2018/07/18225307/4k-Live-PromoReel.jpg);background-color: #000;background-repeat: no-repeat;background-size: cover;background-position: 50% 50%;position: relative;height: 300px;cursor: pointer;" onclick="window.location='http://www.warm1033.com/2018/07/13/4k-summer-4k-a-day'"><div class="promoCaption bottom"><div class="captionTitle">Enter to win $1k!</div></div></div><div class="sliderItem" style="background-image: url(http://images.tritondigitalcms.com/6616/sites/428/2018/07/27113351/Football-ad-website-FI1.jpg);background-color: #000;background-repeat: no-repeat;background-size: cover;background-position: 0% 0%;position: relative;height: 300px;cursor: pointer;" onclick="window.location='http://www.warm1033.com/2018/07/27/reach-thousands-of-football-fans/'"><div class="promoCaption bottom"><div class="captionTitle">Reach Thousands of Football Fans!</div></div></div><div class="sliderItem" style="background-image: url(http://images.tritondigitalcms.com/6616/sites/443/2018/08/06202132/CPJF-hiring-FI-october.jpg);background-color: #000;background-repeat: no-repeat;background-size: cover;background-position: 0% 0%;position: relative;height: 300px;cursor: pointer;" onclick="window.location='https://www.centralpajobfair.com/'"><div class="promoCaption bottom"><div class="captionTitle">Need to Hire?</div></div></div><div class="sliderItem" style="background-image: url(http://images.tritondigitalcms.com/6616/2018/08/17193903/LaborDay-PromoReel.jpg);background-color: #000;background-repeat: no-repeat;background-size: cover;background-position: 50% 50%;position: relative;height: 300px;cursor: pointer;" onclick="window.location='http://www.warm1033.com/2018/08/20/ultimate-labor-day/'"><div class="promoCaption bottom"><div class="captionTitle">Enter to win $2k!</div></div></div></div></div></div></li><!-- .widget -->
+</ul>
+</div><!-- .block-content -->
+
+</aside><!-- #block-35 -->
+<div id="block-75" class="mobile-only block block-type-custom-code block-fluid-height" data-alias="Responsive Ad">
+<div class="block-content">
+<div id='div-gpt-ad-1418849849333-18'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1418849849333-18'); });
+</script>
+</div>
+</div><!-- .block-content -->
+
+</div><!-- #block-75 -->
+<div id="block-9" class="300x250-ad-1-r block block-type-custom-code block-fluid-height responsive-block-hiding-device-smartphones responsive-block-hiding-device-tablets-landscape responsive-block-hiding-device-tablets-portrait responsive-block-hiding-device-computers" data-alias="">
+<div class="block-content">
+<p>There is no custom code to display.</p>
+</div><!-- .block-content -->
+
+</div><!-- #block-9 -->
+<div id="block-11" class="sweet-deals-ad-r block block-type-custom-code block-fluid-height responsive-block-hiding-device-smartphones responsive-block-hiding-device-tablets-landscape responsive-block-hiding-device-tablets-portrait responsive-block-hiding-device-computers" data-alias="">
+<div class="block-content">
+<p>There is no custom code to display.</p>
+</div><!-- .block-content -->
+
+</div><!-- #block-11 -->
+<div id="block-39" class="top-stories block block-type-content block-fluid-height" data-alias="Top Stories">
+<div class="block-content">
+<h1 class="block-title"><span>Top Stories</span></h1><div class="loop">
+
+<div class="entry-row">
+
+<article id="post-1808082" class="post-1808082 post type-post status-publish format-standard has-post-thumbnail hentry category-featured-events category-homepage author-ljacoby custom-query" itemscope itemtype="http://schema.org/BlogPosting">
+			<a href="http://www.warm1033.com/2018/08/01/heart-walks/" class="post-thumbnail post-thumbnail-left">
+				<img src="http://images.tritondigitalcms.com/6616/sites/428/2018/08/22125611/AHA-heart-walk-FI-warm.jpg" alt="2018 Heart Walks in Central PA" width="auto" height="auto" itemprop="image" />
+			</a>
+		<header><h2 class="entry-title" itemprop="headline"><a href="http://www.warm1033.com/2018/08/01/heart-walks/" title="2018 Heart Walks in Central PA" rel="bookmark">2018 Heart Walks in Central PA</a></h2></header><div class="entry-summary entry-content" itemprop="text"><p>Help the American Heart Association by participating in a Heart Walk VISIT THE WARM 103.3 TABLE AT THE YORK WALK! Help the American Heart Association get America walking by supporting the 2018 Heart Walks. As the signature fundraising event for the American Heart Association, the Heart Walk promotes physical activity and heart-healthy living in a fun&hellip;<span class="more-link-ellipsis">&#8230;  </span><a href="http://www.warm1033.com/2018/08/01/heart-walks/" class="more-link">More</a></p>
+</div><!-- .entry-summary.entry-content --></article><!-- #post-1808082 --><article id="post-1790592" class="post-1790592 post type-post status-publish format-standard has-post-thumbnail hentry category-contests category-homepage tag-4k-a-day tag-contest tag-fast-money-keyword tag-summer-fun-payoff tag-t2w tag-text-2-win tag-text-to-win tag-text2win tag-thousand-dollar-payoff tag-thousand-dollar-summer tag-weekday-payday tag-workday-payday author-dvena alt custom-query" itemscope itemtype="http://schema.org/BlogPosting">
+			<a href="http://www.warm1033.com/2018/07/13/4k-summer-4k-a-day/" class="post-thumbnail post-thumbnail-left">
+				<img src="http://images.tritondigitalcms.com/6616/sites/428/2018/07/19094154/4k-undated-FI.jpg" alt="4k Summer &#8211; 4k A Day" width="auto" height="auto" itemprop="image" />
+			</a>
+		<header><h2 class="entry-title" itemprop="headline"><a href="http://www.warm1033.com/2018/07/13/4k-summer-4k-a-day/" title="4k Summer &#8211; 4k A Day" rel="bookmark">4k Summer &#8211; 4k A Day</a></h2></header><div class="entry-summary entry-content" itemprop="text"><p>Listen Monday through Friday for the keyword and you could win $1,000!<span class="more-link-ellipsis">&#8230;  </span><a href="http://www.warm1033.com/2018/07/13/4k-summer-4k-a-day/" class="more-link">More</a></p>
+</div><!-- .entry-summary.entry-content --></article><!-- #post-1790592 -->
+
+</div><!-- .entry-row -->
+
+
+
+<div class="entry-row">
+
+<article id="post-1766492" class="post-1766492 post type-post status-publish format-standard has-post-thumbnail hentry category-featured-events category-homepage author-mmann custom-query" itemscope itemtype="http://schema.org/BlogPosting">
+			<a href="http://www.warm1033.com/2018/04/13/box-lunch-revue-is-back/" class="post-thumbnail post-thumbnail-left">
+				<img src="http://images.tritondigitalcms.com/6616/sites/428/2018/04/13092540/Box-Lunch-Profile-Pic.jpg" alt="Box Lunch Revue is Back!" width="auto" height="auto" itemprop="image" />
+			</a>
+		<header><h2 class="entry-title" itemprop="headline"><a href="http://www.warm1033.com/2018/04/13/box-lunch-revue-is-back/" title="Box Lunch Revue is Back!" rel="bookmark">Box Lunch Revue is Back!</a></h2></header><div class="entry-summary entry-content" itemprop="text"><p>The Box Lunch Revue concert series returns to Cherry Lane in downtown York on Tuesday, May 1, 2018. Each Tuesday and Thursday, May through August, enjoy FREE musical entertainment in Downtown York’s Cherry Lane (near Central Market House) from 11:30 am to 1:30 pm.  NEW for 2018: Concerts will also be held on Wednesdays in May. Please&hellip;<span class="more-link-ellipsis">&#8230;  </span><a href="http://www.warm1033.com/2018/04/13/box-lunch-revue-is-back/" class="more-link">More</a></p>
+</div><!-- .entry-summary.entry-content --></article><!-- #post-1766492 --><article id="post-1751934" class="post-1751934 post type-post status-publish format-standard has-post-thumbnail hentry category-features category-homepage author-ljacoby alt custom-query" itemscope itemtype="http://schema.org/BlogPosting">
+			<a href="http://www.warm1033.com/2018/01/03/play-warm-103-3-on-your-alexa-enabled-device/" class="post-thumbnail post-thumbnail-left">
+				<img src="http://images.tritondigitalcms.com/6616/sites/428/2018/01/03102240/warm-alexa-FI.jpg" alt="Play Warm 103.3 on your Alexa-enabled device!" width="auto" height="auto" itemprop="image" />
+			</a>
+		<header><h2 class="entry-title" itemprop="headline"><a href="http://www.warm1033.com/2018/01/03/play-warm-103-3-on-your-alexa-enabled-device/" title="Play Warm 103.3 on your Alexa-enabled device!" rel="bookmark">Play Warm 103.3 on your Alexa-enabled device!</a></h2></header><div class="entry-summary entry-content" itemprop="text"><p>Warm 103.3 is now available on Amazon devices with Alexa. In the morning, catch Liz &amp; Chris, followed by Melanie Gardner during the midday, Dave Russell in the afternoon, John Tesh at night, and The Jim Brackman Show on Sundays, all available anytime on your Echo, Echo Dot, Echo Show, or any other Alexa-enabled device. Add&hellip;<span class="more-link-ellipsis">&#8230;  </span><a href="http://www.warm1033.com/2018/01/03/play-warm-103-3-on-your-alexa-enabled-device/" class="more-link">More</a></p>
+</div><!-- .entry-summary.entry-content --></article><!-- #post-1751934 -->
+
+</div><!-- .entry-row -->
+
+
+
+<div class="entry-row">
+
+<article id="post-1756194" class="post-1756194 post type-post status-publish format-standard has-post-thumbnail hentry category-contests category-homepage author-ljacoby custom-query" itemscope itemtype="http://schema.org/BlogPosting">
+			<a href="http://www.warm1033.com/2017/12/01/win-lunch-for-your-workplace/" class="post-thumbnail post-thumbnail-left">
+				<img src="http://images.tritondigitalcms.com/6616/sites/428/2017/12/30142000/WARM-epex-workday-lunch.jpg" alt="Win Lunch for your Workplace!" width="auto" height="auto" itemprop="image" />
+			</a>
+		<header><h2 class="entry-title" itemprop="headline"><a href="http://www.warm1033.com/2017/12/01/win-lunch-for-your-workplace/" title="Win Lunch for your Workplace!" rel="bookmark">Win Lunch for your Workplace!</a></h2></header><div class="entry-summary entry-content" itemprop="text"><p>Win Lunch for you and your co-workers from Epex Soft Pretzels! Complete the form below. Each Friday, we will pick a workplace and deliver lunch for up to 20 people! Nominate your workplace here: Name* First Last Email* Business Name* Business Address* Street Address City Phone* Number of Co-workers (Max of 20)*<span class="more-link-ellipsis">&#8230;  </span><a href="http://www.warm1033.com/2017/12/01/win-lunch-for-your-workplace/" class="more-link">More</a></p>
+</div><!-- .entry-summary.entry-content --></article><!-- #post-1756194 --><article id="post-778858" class="post-778858 post type-post status-publish format-standard has-post-thumbnail hentry category-features category-homepage author-ljacoby alt custom-query" itemscope itemtype="http://schema.org/BlogPosting">
+			<a href="http://www.warm1033.com/2016/01/05/workday-music-marathons/" class="post-thumbnail post-thumbnail-left">
+				<img src="http://www.warm1033.com/wp-content/uploads/sites/428/2016/01/Workday-Marathon-copy.jpg" alt="WARM 103.3&#8217;s At Work Network Workday Music Marathons" width="auto" height="auto" itemprop="image" />
+			</a>
+		<header><h2 class="entry-title" itemprop="headline"><a href="http://www.warm1033.com/2016/01/05/workday-music-marathons/" title="WARM 103.3&#8217;s At Work Network Workday Music Marathons" rel="bookmark">WARM 103.3&#8217;s At Work Network Workday Music Marathons</a></h2></header><div class="entry-summary entry-content" itemprop="text"><p>WARM 103.3 is making your workday even brighter&#8230; with THREE 60-Minute Music Marathons every workday! That&#8217;s 60 minutes of music just before 9am with WARM 103.3&#8217;s Workday Kickoff, 60 minutes of music just before 1pm with WARM 103.3&#8217;s Midday Music Marathon, and 60 minutes just before 4pm with WARM 103.3&#8217;s Workday Wrapup! We give you&hellip;<span class="more-link-ellipsis">&#8230;  </span><a href="http://www.warm1033.com/2016/01/05/workday-music-marathons/" class="more-link">More</a></p>
+</div><!-- .entry-summary.entry-content --></article><!-- #post-778858 -->
+
+</div><!-- .entry-row -->
+
+</div>
+</div><!-- .block-content -->
+
+</div><!-- #block-39 -->
+<div id="block-b5m5553630e07531" class="top-stories block block-type-content block-fluid-height" data-alias="Entertainment News">
+<div class="block-content">
+<h1 class="block-title"><span>Entertainment News</span></h1><div class="loop">
+
+<div class="entry-row">
+
+<article id="post-1809369" class="post-1809369 feed_posts type-feed_posts status-publish has-post-thumbnail hentry category-cnn-entertainment custom-query" itemscope itemtype="http://schema.org/BlogPosting">
+			<a href="http://www.warm1033.com/news/neil-simon-comedy-giant-who-straddled-the-worlds-of-theater-movies-tv/" class="post-thumbnail post-thumbnail-left">
+				<img src="http://i2.cdn.turner.com/cnn/2014/images/12/05/featuremedium.jpg" alt="Neil Simon: Comedy giant who straddled the worlds of theater, movies, TV" width="auto" height="auto" itemprop="image" />
+			</a>
+		<header><h2 class="entry-title" itemprop="headline"><a href="http://www.warm1033.com/news/neil-simon-comedy-giant-who-straddled-the-worlds-of-theater-movies-tv/" title="Neil Simon: Comedy giant who straddled the worlds of theater, movies, TV" rel="bookmark">Neil Simon: Comedy giant who straddled the worlds of theater, movies, TV</a></h2></header><div class="entry-summary entry-content" itemprop="text"><p>(CNN) &#8211; Neil Simon operated in a space few writers could, successfully navigating the formidable gaps that separate the worlds of theater, movies and TV in a manner that established him as one of the<span class="more-link-ellipsis">&#8230;  </span><a href="http://www.warm1033.com/news/neil-simon-comedy-giant-who-straddled-the-worlds-of-theater-movies-tv/" class="more-link">More</a></p>
+</div><!-- .entry-summary.entry-content --></article><!-- #post-1809369 --><article id="post-1809370" class="post-1809370 feed_posts type-feed_posts status-publish has-post-thumbnail hentry category-cnn-entertainment alt custom-query" itemscope itemtype="http://schema.org/BlogPosting">
+			<a href="http://www.warm1033.com/news/sharp-objects-twisty-finish-cant-redeem-flawed-run/" class="post-thumbnail post-thumbnail-left">
+				<img src="http://i2.cdn.turner.com/cnn/2014/images/12/05/featuremedium.jpg" alt="&#8216;Sharp Objects&#8217; twisty finish can&#8217;t redeem flawed run" width="auto" height="auto" itemprop="image" />
+			</a>
+		<header><h2 class="entry-title" itemprop="headline"><a href="http://www.warm1033.com/news/sharp-objects-twisty-finish-cant-redeem-flawed-run/" title="&#8216;Sharp Objects&#8217; twisty finish can&#8217;t redeem flawed run" rel="bookmark">&#8216;Sharp Objects&#8217; twisty finish can&#8217;t redeem flawed run</a></h2></header><div class="entry-summary entry-content" itemprop="text"><p>(CNN) &#8211; In hindsight, &#8220;Sharp Objects&#8221; became the equivalent of &#8220;True Detective 2&#8221; &#8212; the considerably less captivating follow-up to a high-profile HBO limited series, testing the appeal of star power<span class="more-link-ellipsis">&#8230;  </span><a href="http://www.warm1033.com/news/sharp-objects-twisty-finish-cant-redeem-flawed-run/" class="more-link">More</a></p>
+</div><!-- .entry-summary.entry-content --></article><!-- #post-1809370 -->
+
+</div><!-- .entry-row -->
+
+
+
+<div class="entry-row">
+
+<article id="post-1809377" class="post-1809377 feed_posts type-feed_posts status-publish has-post-thumbnail hentry category-cnn-entertainment custom-query" itemscope itemtype="http://schema.org/BlogPosting">
+			<a href="http://www.warm1033.com/news/some-dude-bolted-toward-jay-z-and-beyonce-at-their-atlanta-show-he-didnt-get-far/" class="post-thumbnail post-thumbnail-left">
+				<img src="http://i2.cdn.turner.com/cnn/2014/images/12/05/featuremedium.jpg" alt="Some dude bolted toward Jay-Z and Beyoncé at their Atlanta show. (He didn&#8217;t get far)" width="auto" height="auto" itemprop="image" />
+			</a>
+		<header><h2 class="entry-title" itemprop="headline"><a href="http://www.warm1033.com/news/some-dude-bolted-toward-jay-z-and-beyonce-at-their-atlanta-show-he-didnt-get-far/" title="Some dude bolted toward Jay-Z and Beyoncé at their Atlanta show. (He didn&#8217;t get far)" rel="bookmark">Some dude bolted toward Jay-Z and Beyoncé at their Atlanta show. (He didn&#8217;t get far)</a></h2></header><div class="entry-summary entry-content" itemprop="text"><p>(CNN) &#8211; Someone just had to spoil the party. The Beyoncé/Jay-Z spectacle that is &#8220;On the Run II&#8221; was wrapping up its Saturday night stop in Atlanta when a man ran up on stage and bolted after the<span class="more-link-ellipsis">&#8230;  </span><a href="http://www.warm1033.com/news/some-dude-bolted-toward-jay-z-and-beyonce-at-their-atlanta-show-he-didnt-get-far/" class="more-link">More</a></p>
+</div><!-- .entry-summary.entry-content --></article><!-- #post-1809377 --><article id="post-1809376" class="post-1809376 feed_posts type-feed_posts status-publish has-post-thumbnail hentry category-cnn-entertainment alt custom-query" itemscope itemtype="http://schema.org/BlogPosting">
+			<a href="http://www.warm1033.com/news/neil-simon-pulitzer-prize-winning-playwright-dies-at-91/" class="post-thumbnail post-thumbnail-left">
+				<img src="http://i.cdn.turner.com/cnn/wire/wire-scc/2018/08/26/s1535297851/lead_s097837406_3.jpg" alt="Neil Simon, Pulitzer Prize-winning playwright, dies at 91" width="auto" height="auto" itemprop="image" />
+			</a>
+		<header><h2 class="entry-title" itemprop="headline"><a href="http://www.warm1033.com/news/neil-simon-pulitzer-prize-winning-playwright-dies-at-91/" title="Neil Simon, Pulitzer Prize-winning playwright, dies at 91" rel="bookmark">Neil Simon, Pulitzer Prize-winning playwright, dies at 91</a></h2></header><div class="entry-summary entry-content" itemprop="text"><p>(CNN) &#8211; Neil Simon, the playwright and screenwriter whose indestructible comedies &#8212; including &#8220;The Odd Couple,&#8221; &#8220;Barefoot in the Park,&#8221; &#8220;The Sunshine Boys&#8221; and &#8220;Brighton Beach Memoirs&#8221; &#8212; made him o<span class="more-link-ellipsis">&#8230;  </span><a href="http://www.warm1033.com/news/neil-simon-pulitzer-prize-winning-playwright-dies-at-91/" class="more-link">More</a></p>
+</div><!-- .entry-summary.entry-content --></article><!-- #post-1809376 -->
+
+</div><!-- .entry-row -->
+
+
+
+<div class="entry-row">
+
+<article id="post-1809328" class="post-1809328 feed_posts type-feed_posts status-publish has-post-thumbnail hentry category-cnn-entertainment custom-query" itemscope itemtype="http://schema.org/BlogPosting">
+			<a href="http://www.warm1033.com/news/kyle-pavone-vocalist-for-we-came-as-romans-dies-at-28/" class="post-thumbnail post-thumbnail-left">
+				<img src="http://i.cdn.turner.com/cnn/wire/wire-scc/2018/08/25/s1535219154/lead_s097800941_3.jpg" alt="Kyle Pavone, vocalist for We Came as Romans, dies at 28" width="auto" height="auto" itemprop="image" />
+			</a>
+		<header><h2 class="entry-title" itemprop="headline"><a href="http://www.warm1033.com/news/kyle-pavone-vocalist-for-we-came-as-romans-dies-at-28/" title="Kyle Pavone, vocalist for We Came as Romans, dies at 28" rel="bookmark">Kyle Pavone, vocalist for We Came as Romans, dies at 28</a></h2></header><div class="entry-summary entry-content" itemprop="text"><p>(CNN) &#8211; Kyle Pavone, a vocalist for the rock band We Came as Romans, has died, according to Amy Sciaretto, a representative for Atom Splitter PR, which represents the band. He was 28.The band anno<span class="more-link-ellipsis">&#8230;  </span><a href="http://www.warm1033.com/news/kyle-pavone-vocalist-for-we-came-as-romans-dies-at-28/" class="more-link">More</a></p>
+</div><!-- .entry-summary.entry-content --></article><!-- #post-1809328 --><article id="post-1809389" class="post-1809389 feed_posts type-feed_posts status-publish has-post-thumbnail hentry category-cnn-entertainment alt custom-query" itemscope itemtype="http://schema.org/BlogPosting">
+			<a href="http://www.warm1033.com/news/mario-batali-sued-by-woman-who-claims-he-groped-her/" class="post-thumbnail post-thumbnail-left">
+				<img src="http://i.cdn.turner.com/cnn/wire/wire-scc/2018/08/24/s1535133836/lead_s094136422_3.jpg" alt="Mario Batali sued by woman who claims he groped her" width="auto" height="auto" itemprop="image" />
+			</a>
+		<header><h2 class="entry-title" itemprop="headline"><a href="http://www.warm1033.com/news/mario-batali-sued-by-woman-who-claims-he-groped-her/" title="Mario Batali sued by woman who claims he groped her" rel="bookmark">Mario Batali sued by woman who claims he groped her</a></h2></header><div class="entry-summary entry-content" itemprop="text"><p>(CNN) &#8211; Mario Batali is being sued by a woman who claims the celebrity chef kissed and groped her at a Boston restaurant and bar last year, according to court documents obtained by CNN. The suit c<span class="more-link-ellipsis">&#8230;  </span><a href="http://www.warm1033.com/news/mario-batali-sued-by-woman-who-claims-he-groped-her/" class="more-link">More</a></p>
+</div><!-- .entry-summary.entry-content --></article><!-- #post-1809389 -->
+
+</div><!-- .entry-row -->
+
+</div>
+</div><!-- .block-content -->
+
+</div><!-- #block-b5m5553630e07531 -->
+
+<section class="sub-column sub-column-1 column column-1 grid-width-8 grid-left-0">
+<div id="block-48" class="facebook block block-type-custom-code block-fluid-height" data-alias="Facebook Widget">
+<div class="block-content">
+<iframe src="//www.facebook.com/plugins/likebox.php?href=https://www.facebook.com/Warm1033&amp;width=310&amp;height=448&amp;colorscheme=light&amp;show_faces=true&amp;border_color&amp;stream=true&amp;header=true" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:310px; height:448px; background: #fff;" allowtransparency="true"></iframe>
+</div><!-- .block-content -->
+
+</div><!-- #block-48 -->
+
+</section><!-- .sub-column -->
+
+<section class="sub-column sub-column-2 column column-2 grid-width-8 grid-left-0">
+<div id="block-49" class="twitter block block-type-custom-code block-fluid-height" data-alias="Twitter Widget">
+<div class="block-content">
+<a class="twitter-timeline" data-dnt="true" href="https://twitter.com/WARM1033Radio" data-widget-id="577475791845470208">Tweets by @WARM1033Radio</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+</div><!-- .block-content -->
+
+</div><!-- #block-49 -->
+
+</section><!-- .sub-column -->
+
+</section><!-- .column -->
+
+<section class="column column-2 grid-left-0 grid-width-8">
+<div id="block-34" class="300x250-ad-1 block block-type-custom-code block-fluid-height" data-alias="300x250 Ad 1">
+<div class="block-content">
+<div id='div-gpt-ad-1418849849333-0'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1418849849333-0'); });
+</script>
+</div>
+</div><!-- .block-content -->
+
+</div><!-- #block-34 -->
+<div id="block-38" class="sweet-deals-ad block block-type-custom-code block-fluid-height" data-alias="Sweet Deals Ad">
+<div class="block-content">
+<a href="http://pa.sweetdealscumulus.com/"><img src="/wp-content/uploads/sites/428/2014/10/sweetdeals.png"></a>
+</div><!-- .block-content -->
+
+</div><!-- #block-38 -->
+<div id="block-36" class="vip-club-ad block block-type-custom-code block-fluid-height" data-alias="VIP Club Ad">
+<div class="block-content">
+<div id='div-gpt-ad-1418849849333-7'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1418849849333-7'); });
+</script>
+</div>
+</div><!-- .block-content -->
+
+</div><!-- #block-36 -->
+<div id="block-b3q59b7ee3e602b8" class="headlines block block-type-custom-code block-fluid-height" data-alias="Playlist">
+<div class="block-content">
+<h1 class="block-title"><span>Now Playing on WARM 103.3</span></h1><iframe name="onair" frameborder="0" align="top,left" marginheight="0" marginwidth="0" scrolling="no" width="300" height="480" src="http://warm.tunegenie.com/plugins/onair/?searchbar=on&streamfooter=on"></iframe>
+
+</div><!-- .block-content -->
+
+</div><!-- #block-b3q59b7ee3e602b8 -->
+<div id="block-40" class="blogs block block-type-content block-fluid-height" data-alias="Liz’s Dirt">
+<div class="block-content">
+<h1 class="block-title"><span>Liz’s Dirt</span></h1><div class="loop">
+
+<div class="entry-row">
+
+<article id="post-1809424" class="post-1809424 post type-post status-publish format-standard hentry category-lizs-dirt author-lbell custom-query" itemscope itemtype="http://schema.org/BlogPosting"><header><h2 class="entry-title" itemprop="headline"><a href="http://www.warm1033.com/2018/08/27/mondays-dirt/" title="Monday&#8217;s Dirt" rel="bookmark">Monday&#8217;s Dirt</a></h2></header><div class="entry-summary entry-content" itemprop="text"><p>&#8216;Lifestyles of the Rich and Famous&#8217; host Robin Leach has passed away.  He had been hospitalized since November after suffering a stroke.  He was 76. &#8216;America&#8217;s Got Talent&#8217; judge, Mel B, is heading to rehab in the UK.  She is being treated for PTSD, alcohol abuse and sex addiction. I told you last week that&hellip;</p>
+</div><!-- .entry-summary.entry-content --></article><!-- #post-1809424 --><article id="post-1808739" class="post-1808739 post type-post status-publish format-standard hentry category-lizs-dirt author-lbell alt custom-query" itemscope itemtype="http://schema.org/BlogPosting"><header><h2 class="entry-title" itemprop="headline"><a href="http://www.warm1033.com/2018/08/24/fridays-dirt/" title="Friday&#8217;s Dirt" rel="bookmark">Friday&#8217;s Dirt</a></h2></header><div class="entry-summary entry-content" itemprop="text"><p>Yesterday I told you that CBS was ending &#8216;The Big Bang Theory&#8217; after it&#8217;s upcoming 12th season.  And now it makes sense.  Money wasn&#8217;t the issue because they offered the cast $50 million to continue for two more years but Jim Parsons wanted out.  So the producers said there wasn&#8217;t a show without him. Despite&hellip;</p>
+</div><!-- .entry-summary.entry-content --></article><!-- #post-1808739 -->
+
+</div><!-- .entry-row -->
+
+</div>
+</div><!-- .block-content -->
+
+</div><!-- #block-40 -->
+<div id="block-42" class="facebook-ad block block-type-custom-code block-fluid-height" data-alias="Facebook Ad">
+<div class="block-content">
+<div id='div-gpt-ad-1418849849333-8'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1418849849333-8'); });
+</script>
+</div>
+</div><!-- .block-content -->
+
+</div><!-- #block-42 -->
+<div id="block-43" class="headlines block block-type-content block-fluid-height" data-alias="Headlines">
+<div class="block-content">
+<h1 class="block-title"><span>Headlines</span></h1><div class="loop">
+
+<div class="entry-row">
+
+<article id="post-1809372" class="post-1809372 feed_posts type-feed_posts status-publish has-post-thumbnail hentry category-cnn-us custom-query" itemscope itemtype="http://schema.org/BlogPosting"><header><h2 class="entry-title" itemprop="headline"><a href="http://www.warm1033.com/news/as-video-game-tournament-went-on-these-gunshots-were-real-and-deadly/" title="As video game tournament went on, these gunshot sounds were real" rel="bookmark">As video game tournament went on, these gunshot sounds were real</a></h2></header></article><!-- #post-1809372 --><article id="post-1809410" class="post-1809410 feed_posts type-feed_posts status-publish has-post-thumbnail hentry category-cnn-us alt custom-query" itemscope itemtype="http://schema.org/BlogPosting"><header><h2 class="entry-title" itemprop="headline"><a href="http://www.warm1033.com/news/florida-grapples-with-another-shooting-this-time-at-a-jacksonville-game-tournament/" title="Florida grapples with another shooting, this time at a Jacksonville game tournament" rel="bookmark">Florida grapples with another shooting, this time at a Jacksonville game tournament</a></h2></header></article><!-- #post-1809410 -->
+
+</div><!-- .entry-row -->
+
+
+
+<div class="entry-row">
+
+<article id="post-1809373" class="post-1809373 feed_posts type-feed_posts status-publish has-post-thumbnail hentry category-cnn-us custom-query" itemscope itemtype="http://schema.org/BlogPosting"><header><h2 class="entry-title" itemprop="headline"><a href="http://www.warm1033.com/news/3-8-billion-paid-in-lawsuits-and-claims-over-sex-abuse-allegations-in-catholic-church-since-1980s-group-says/" title="$3.8 billion paid in lawsuits and claims over sex abuse allegations in Catholic Church since 1980s, group says" rel="bookmark">$3.8 billion paid in lawsuits and claims over sex abuse allegations in Catholic Church since 1980s, group says</a></h2></header></article><!-- #post-1809373 --><article id="post-1809365" class="post-1809365 feed_posts type-feed_posts status-publish has-post-thumbnail hentry category-cnn-us alt custom-query" itemscope itemtype="http://schema.org/BlogPosting"><header><h2 class="entry-title" itemprop="headline"><a href="http://www.warm1033.com/news/shooting-at-video-game-tournament-in-jacksonville-leaves-two-dead/" title="Two killed in shooting at Jacksonville video game tournament" rel="bookmark">Two killed in shooting at Jacksonville video game tournament</a></h2></header></article><!-- #post-1809365 -->
+
+</div><!-- .entry-row -->
+
+
+
+<div class="entry-row">
+
+<article id="post-1809423" class="post-1809423 feed_posts type-feed_posts status-publish has-post-thumbnail hentry category-cnn-us custom-query" itemscope itemtype="http://schema.org/BlogPosting"><header><h2 class="entry-title" itemprop="headline"><a href="http://www.warm1033.com/news/runners-dedicate-milesformollie-to-show-theyre-not-afraid/" title="Runners dedicate #MilesForMollie to show they&#8217;re not afraid" rel="bookmark">Runners dedicate #MilesForMollie to show they&#8217;re not afraid</a></h2></header></article><!-- #post-1809423 --><article id="post-1809431" class="post-1809431 feed_posts type-feed_posts status-publish has-post-thumbnail hentry category-cnn-us alt custom-query" itemscope itemtype="http://schema.org/BlogPosting"><header><h2 class="entry-title" itemprop="headline"><a href="http://www.warm1033.com/news/in-new-mexico-where-life-off-the-grid-is-common-compound-suspects-struggled/" title="In New Mexico, where life off the grid is common, compound suspects struggled" rel="bookmark">In New Mexico, where life off the grid is common, compound suspects struggled</a></h2></header></article><!-- #post-1809431 -->
+
+</div><!-- .entry-row -->
+
+</div>
+</div><!-- .block-content -->
+
+</div><!-- #block-43 -->
+<div id="block-44" class="twitter-ad block block-type-custom-code block-fluid-height" data-alias="Twitter Ad">
+<div class="block-content">
+<div id='div-gpt-ad-1418849849333-9'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1418849849333-9'); });
+</script>
+</div>
+</div><!-- .block-content -->
+
+</div><!-- #block-44 -->
+<aside id="block-45" class="free-apps block block-type-widget-area block-fluid-height" data-alias="Home - Free Apps" itemscope="" itemtype="http://schema.org/WPSideBar">
+<div class="block-content">
+<h1 class="block-title"><span>Free Apps</span></h1><ul class="widget-area"><li id="text-3" class="widget widget_text">
+			<div class="textwidget"><div align="center">
+<a href="https://itunes.apple.com/us/app/warm-1033/id797500236?mt=8&amp;ign-mpt=uo=4" target="_blank"><img src="/wp-content/uploads/sites/428/2014/10/appstore.png" border="0"></a>&nbsp;<a href="https://play.google.com/store/apps/details?id=com.airkast.WARMFM" target="_blank"><img src="/wp-content/uploads/sites/428/2014/10/googleplay.png" border="0"></a>&nbsp;<a href="http://amazon.com/dp/B00IZ9ELW6" target="_blank"><img src="/wp-content/uploads/sites/428/2014/10/amazon.png" border="0"></a>
+</div></div>
+		</li><!-- .widget -->
+</ul>
+</div><!-- .block-content -->
+
+</aside><!-- #block-45 -->
+<div id="block-46" class="300x250-ad-2 block block-type-custom-code block-fluid-height" data-alias="300x250 Ad 2">
+<div class="block-content">
+<div id='div-gpt-ad-1418849849333-3'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1418849849333-3'); });
+</script>
+</div>
+</div><!-- .block-content -->
+
+</div><!-- #block-46 -->
+
+</section><!-- .column -->
+
+</section><!-- .row -->
+
+
+</div><!-- .grid-container -->
+
+</div><!-- .wrapper -->
+
+<div id="wrapper-10" class="wrapper wrapper-fluid wrapper-fixed-grid grid-fluid-24-32-10 responsive-grid wrapper-last wrapper-footer" data-alias="Wrapper Footer">
+
+<div class="grid-container clearfix">
+
+<section class="row row-1">
+
+<section class="column column-1 grid-left-0 grid-width-6">
+<nav id="block-50" class="footer-nav block block-type-navigation block-fluid-height" data-alias="Footer Navigation" itemscope="" itemtype="http://schema.org/SiteNavigationElement">
+<div class="block-content">
+<div class="nav-vertical nav-align-left"><ul id="menu-footer-navigation" class="menu"><li id="menu-item-602502" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-602502"><a href="/1111/11/11/privacy-policy">Privacy Policy</a></li>
+<li id="menu-item-602505" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-602505"><a href="/1111/11/11/terms-of-service">Terms of Service</a></li>
+<li id="menu-item-192933" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-192933"><a href="http://www.warm1033.com/officialcontestrules">Official Contest Rules</a></li>
+<li id="menu-item-137" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-137"><a href="http://www.warm1033.com/advertise-with-us/">Advertise With Us</a></li>
+<li id="menu-item-139" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-139"><a href="http://www.warm1033.com/station-information/">Station Information</a></li>
+<li id="menu-item-57899" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-57899"><a href="http://www.warm1033.com/employment-opportunities/">Employment Opportunities</a></li>
+<li id="menu-item-1746891" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1746891"><a target="_blank" href="https://www.cumulus.com">Cumulus Media Corporate</a></li>
+<li id="menu-item-1759955" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1759955"><a href="http://www.warm1033.com/fcc-online-public-file/">FCC Online Public File</a></li>
+</ul></div><!-- .nav-vertical nav-align-left -->
+</div><!-- .block-content -->
+
+</nav><!-- #block-50 -->
+<div id="block-b9055c8af3381789" class="block block-type-custom-code block-fluid-height" data-alias="Wallpaper Ad">
+<div class="block-content">
+<div id='div-gpt-ad-1418849849333-16'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1418849849333-16'); });
+</script>
+</div>
+</div><!-- .block-content -->
+
+</div><!-- #block-b9055c8af3381789 -->
+
+</section><!-- .column -->
+
+<section class="column column-2 grid-left-0 grid-width-18">
+<div id="block-51" class="728x90-ad-2 block block-type-custom-code block-fluid-height" data-alias="728x90 Ad 2">
+<div class="block-content">
+<div class="footer-728x90-ad" align="right">
+<div id='div-gpt-ad-1418849849333-2'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1418849849333-2'); });
+</script>
+</div>
+</div>
+
+</div><!-- .block-content -->
+
+</div><!-- #block-51 -->
+<footer id="block-52" class="copyright block block-type-footer block-fluid-height" data-alias="Copyright" itemscope="" itemtype="http://schema.org/WPFooter">
+<div class="block-content">
+
+<div class="footer-container">
+
+<div class="footer">
+<p class="copyright footer-copyright">Copyright Cumulus Media / Cumulus Media is an equal opportunity employer / AA</p><p class="footer-responsive-grid-link-container footer-responsive-grid-link-disable-container"><a href="http://www.warm1033.com/?full-site=true" rel="nofollow" class="footer-responsive-grid-link footer-responsive-grid-disable footer-link">View Full Site</a></p>
+</div><!-- .footer -->
+</div><!-- .footer-container -->
+</div><!-- .block-content -->
+
+</footer><!-- #block-52 -->
+
+</section><!-- .column -->
+
+</section><!-- .row -->
+
+
+</div><!-- .grid-container -->
+
+</div><!-- .wrapper -->
+
+
+
+<script>_AMP.theme.init();</script>
+<link rel='stylesheet' id='media_library_assistant-plugin-styles-css'  href='http://www.warm1033.com/wp-content/plugins/media-library-assistant/includes/../css/prettyPhoto.css?ver=1.61' type='text/css' media='all' />
+<link rel='stylesheet' id='media_library_assistant-widget-styles-css'  href='http://www.warm1033.com/wp-content/plugins/media-library-assistant/includes/../css/widget.css?ver=1.61' type='text/css' media='all' />
+<link rel='stylesheet' id='amp-polls-plugin-styles-css'  href='http://www.warm1033.com/wp-content/plugins/amp-polls/css/widget.css?ver=4.9.1' type='text/css' media='all' />
+<script type='text/javascript'>
+/* <![CDATA[ */
+var themify_vars = {"version":"2.1.8","url":"http:\/\/www.warm1033.com\/wp-content\/plugins\/themify-builder\/themify","map_key":null,"includesURL":"http:\/\/www.warm1033.com\/wp-includes\/","isCached":null,"minify":{"css":{"themify-icons":false,"themify.framework":false,"lightbox":false,"themify-builder-style":false},"js":{"backstretch.themify-version":false,"bigvideo":false,"themify.dropdown":false,"themify.builder.script":false,"themify.scroll-highlight":false,"themify-youtube-bg":false,"themify.parallaxit":false,"themify.ticks":false}}};
+var tbLocalScript = {"isAnimationActive":"1","isParallaxActive":"1","isParallaxScrollActive":"1","animationInviewSelectors":[".module.wow",".module_row.wow",".builder-posts-wrap > .post.wow"],"backgroundSlider":{"autoplay":5000,"speed":2000},"animationOffset":"100","videoPoster":"http:\/\/www.warm1033.com\/wp-content\/plugins\/themify-builder\/img\/blank.png","backgroundVideoLoop":"yes","builder_url":"http:\/\/www.warm1033.com\/wp-content\/plugins\/themify-builder","framework_url":"http:\/\/www.warm1033.com\/wp-content\/plugins\/themify-builder\/themify","version":"2.1.8","fullwidth_support":"","fullwidth_container":"body","loadScrollHighlight":"","addons":[],"breakpoints":{"tablet_landscape":[769,1024],"tablet":[681,768],"mobile":680},"ticks":{"tick":30,"ajaxurl":"http:\/\/www.warm1033.com\/wp-admin\/admin-ajax.php","postID":27}};
+var themifyScript = {"lightbox":{"lightboxSelector":".themify_lightbox","lightboxOn":true,"lightboxContentImages":false,"lightboxContentImagesSelector":"","theme":"pp_default","social_tools":false,"allow_resize":true,"show_title":false,"overlay_gallery":false,"screenWidthNoLightbox":600,"deeplinking":false,"contentImagesAreas":"","gallerySelector":".gallery-icon > a","lightboxGalleryOn":true},"lightboxContext":"body"};
+var tbScrollHighlight = {"fixedHeaderSelector":"","speed":"900","navigation":"#main-nav","scrollOffset":"0"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.warm1033.com/wp-content/plugins/themify-builder/themify/js/main.js?ver=2.1.8'></script>
+<script type='text/javascript'>
+var mejsL10n = {"language":"en","strings":{"mejs.install-flash":"You are using a browser that does not have Flash player enabled or installed. Please turn on your Flash player plugin or download the latest version from https:\/\/get.adobe.com\/flashplayer\/","mejs.fullscreen-off":"Turn off Fullscreen","mejs.fullscreen-on":"Go Fullscreen","mejs.download-video":"Download Video","mejs.fullscreen":"Fullscreen","mejs.time-jump-forward":["Jump forward 1 second","Jump forward %1 seconds"],"mejs.loop":"Toggle Loop","mejs.play":"Play","mejs.pause":"Pause","mejs.close":"Close","mejs.time-slider":"Time Slider","mejs.time-help-text":"Use Left\/Right Arrow keys to advance one second, Up\/Down arrows to advance ten seconds.","mejs.time-skip-back":["Skip back 1 second","Skip back %1 seconds"],"mejs.captions-subtitles":"Captions\/Subtitles","mejs.captions-chapters":"Chapters","mejs.none":"None","mejs.mute-toggle":"Mute Toggle","mejs.volume-help-text":"Use Up\/Down Arrow keys to increase or decrease volume.","mejs.unmute":"Unmute","mejs.mute":"Mute","mejs.volume-slider":"Volume Slider","mejs.video-player":"Video Player","mejs.audio-player":"Audio Player","mejs.ad-skip":"Skip ad","mejs.ad-skip-info":["Skip in 1 second","Skip in %1 seconds"],"mejs.source-chooser":"Source Chooser","mejs.stop":"Stop","mejs.speed-rate":"Speed Rate","mejs.live-broadcast":"Live Broadcast","mejs.afrikaans":"Afrikaans","mejs.albanian":"Albanian","mejs.arabic":"Arabic","mejs.belarusian":"Belarusian","mejs.bulgarian":"Bulgarian","mejs.catalan":"Catalan","mejs.chinese":"Chinese","mejs.chinese-simplified":"Chinese (Simplified)","mejs.chinese-traditional":"Chinese (Traditional)","mejs.croatian":"Croatian","mejs.czech":"Czech","mejs.danish":"Danish","mejs.dutch":"Dutch","mejs.english":"English","mejs.estonian":"Estonian","mejs.filipino":"Filipino","mejs.finnish":"Finnish","mejs.french":"French","mejs.galician":"Galician","mejs.german":"German","mejs.greek":"Greek","mejs.haitian-creole":"Haitian Creole","mejs.hebrew":"Hebrew","mejs.hindi":"Hindi","mejs.hungarian":"Hungarian","mejs.icelandic":"Icelandic","mejs.indonesian":"Indonesian","mejs.irish":"Irish","mejs.italian":"Italian","mejs.japanese":"Japanese","mejs.korean":"Korean","mejs.latvian":"Latvian","mejs.lithuanian":"Lithuanian","mejs.macedonian":"Macedonian","mejs.malay":"Malay","mejs.maltese":"Maltese","mejs.norwegian":"Norwegian","mejs.persian":"Persian","mejs.polish":"Polish","mejs.portuguese":"Portuguese","mejs.romanian":"Romanian","mejs.russian":"Russian","mejs.serbian":"Serbian","mejs.slovak":"Slovak","mejs.slovenian":"Slovenian","mejs.spanish":"Spanish","mejs.swahili":"Swahili","mejs.swedish":"Swedish","mejs.tagalog":"Tagalog","mejs.thai":"Thai","mejs.turkish":"Turkish","mejs.ukrainian":"Ukrainian","mejs.vietnamese":"Vietnamese","mejs.welsh":"Welsh","mejs.yiddish":"Yiddish"}};
+</script>
+<script type='text/javascript' src='http://www.warm1033.com/wp-includes/js/mediaelement/mediaelement-and-player.js?ver=4.2.6-78496d1'></script>
+<script type='text/javascript' src='http://www.warm1033.com/wp-includes/js/mediaelement/mediaelement-migrate.js?ver=4.9.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var _wpmejsSettings = {"pluginPath":"\/wp-includes\/js\/mediaelement\/","classPrefix":"mejs-","stretching":"responsive"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.warm1033.com/wp-includes/js/mediaelement/wp-mediaelement.js?ver=4.9.1'></script>
+<script type='text/javascript' src='http://www.warm1033.com/wp-content/plugins/media-library-assistant/includes/../js/jquery.prettyPhoto.js?ver=1.61'></script>
+<script type='text/javascript' src='http://www.warm1033.com/wp-content/plugins/media-library-assistant/includes/../js/widget-front-end.js?ver=1533183780'></script>
+<script type='text/javascript' src='http://www.warm1033.com/wp-content/plugins/amp-polls/js/widget-front-end.js?ver=4.9.1'></script>
+<script>
+window.tgmplibs="cumulus2,_append_www,_triton_see";
+</script>
+<script type="text/javascript" class="_tgmp_p">
+function onTuneGenieMediaPlayerLoaded() {
+    window.tgmp=new TuneGenieMediaPlayer('playerbar', {
+        brand: "warm",
+        zindex: 50000,
+        theme: ["#000000"],
+        position: "bottom",
+        debug: true,
+        ios_frame: 3,
+        autostart: false,
+        infoTrayOnLoad: true,
+        useTritonPlayer: true,
+        promptZag: false,
+    });
+    tgmp.go();
+    window.tgmp_rc = new TuneGenieRC(tgmp);
+    tgmp_rc.recentSongWidget(document.getElementById('tgrecent'),{});
+    tgmp_rc.nowPlayingWidget(document.getElementById('tgnowplaying'),{});
+}
+</script>
+<script type="text/javascript"  class="_tgmp_p" async src="https://mpl.tunegenie.com/js/loader2.min.js"></script>
+
+
+</div><!-- #whitewrap -->
+
+<!-- TGMP PLUGIN ENABLED 2016-08-07T13:09:00.289Z -->
+
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.3";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<script type="text/javascript">
+//<![CDATA[
+(function() {
+var _analytics_scr = document.createElement('script');
+_analytics_scr.type = 'text/javascript'; _analytics_scr.async = true; _analytics_scr.src = '/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1949604125';
+var _analytics_elem = document.getElementsByTagName('script')[0]; _analytics_elem.parentNode.insertBefore(_analytics_scr, _analytics_elem);
+})();
+// ]]>
+</script></body>
+
+
+</html>
+<!--
+Performance optimized by W3 Total Cache. Learn more: https://www.w3-edge.com/products/
+
+Object Caching 3856/4244 objects using memcache
+Page Caching using memcache
+Database Caching 394/511 queries in 2.144 seconds using memcache
+
+Served from: www.1460wrad.com @ 2018-08-27 06:24:16 by W3 Total Cache
+-->

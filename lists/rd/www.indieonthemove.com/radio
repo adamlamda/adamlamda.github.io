@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta property="fb:app_id" content="197769483626604"/>
+    <meta property="og:site_name" content="IOTM"/>
+    <meta property="og:image" content="https://www.indieonthemove.com/img/bus_128.png"/>
+    <meta property="og:title" content="  List of Radio Stations and Media Contacts for Musicians
+"/>
+    <meta property="og:url" content="https://www.indieonthemove.com/radio"/>
+    <meta property="og:type" content="website"/>
+
+    
+    
+    <!-- CSRF Token -->
+    <meta name="csrf-token" content="zJCV2NgifXh9xa0RhJ2HnKLsL3PcB7nt5A7bHp7w">
+
+    <title>  List of Radio Stations and Media Contacts for Musicians
+</title>
+    <meta name="description" content="  Comprehensive list of radio stations and media contacts for bands and musicians nationwide. National, state, and city radio stations included.
+">
+    <meta name="keywords" content="">
+
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-MD79HJN');</script>
+    <!-- End Google Tag Manager -->
+
+    <!-- Styles -->
+    <link href="/css/app.css?id=43e70522c520fa74e355" rel="stylesheet">
+
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+        <style>
+    .nav-search {
+      margin-left: 0.5rem;
+      margin-right: 0.5rem;
+    }
+    .nav-search .btn, .nav-search .btn:active, .nav-search .btn:focus {
+      border: 1px solid rgba(255, 255, 255, 0.5);
+    }
+    .nav-search input, .nav-search input:active,
+    .nav-search input:hover, .nav-search input:focus {
+      border: 1px solid rgba(255, 255, 255, 0.5);
+    }
+  </style>
+
+  <style>
+    h2 {
+      font-size: 1.5rem !important;
+    }
+  </style>
+
+  
+
+          <script>
+var _rollbarConfig = {
+  accessToken: '123a6eaf206043a0b860be956a615433',
+  autoInstrument: true,
+  captureUncaught: true,
+  captureUnhandledRejections: true,
+  payload: {
+    environment: 'production',
+    client: {
+      javascript: {
+	source_map_enabled: true,
+	code_version: "1.0", //TODO Start tagging versions
+	// Optionally have Rollbar guess which frames the error was thrown from
+	// when the browser does not provide line and column numbers.
+	guess_uncaught_frames: true
+      }
+    }
+  }
+};
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/rollbar.js/2.4.2/rollbar.min.js"></script>
+
+    
+    <!-- Scripts -->
+    <script src="https://cdn.polyfill.io/v2/polyfill.min.js"></script>
+    <script>
+     window.Config = {"multiselect_search_result_count":30};
+      window.app = {"csrfToken":"zJCV2NgifXh9xa0RhJ2HnKLsL3PcB7nt5A7bHp7w"};
+      window.User = false;
+      window.google_maps_js_key = "AIzaSyBLAyrwAjhvA1qmMk40sxBmxn9FJRk8uYY";
+    </script>
+  </head>
+  <body class="mt-2">
+    <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MD79HJN"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+      <div class="app" id="app">
+    <div class="content-above-footer">
+      <nav class="py-0 navbar navbar-expand-lg bg-dark navbar-dark fixed-top" id="navTop">
+  <div class="container position-relative bg-dark">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <!-- Branding Image -->
+    <a class="d-lg-none center-nav-logo" href="https://www.indieonthemove.com">
+      <img class="navbar-logo" src="https://www.indieonthemove.com/img/bus_105.png">
+    </a>
+    <a class="d-none d-lg-inline" href="https://www.indieonthemove.com">
+      <img class="navbar-logo" src="https://www.indieonthemove.com/img/bus_105.png">
+    </a>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto text-center">
+
+        <li class="nav-item nav-search">
+          <master-search inline-template>
+            <div class="input-group">
+              <input type="text" @keydown.enter="search" v-model="q" class="form-control" placeholder="Search for...">
+              <span class="input-group-btn">
+                <button @click="search" class="btn btn-primary border-radius-0" type="button">
+                  <i class="fa fa-search"></i>
+                </button>
+              </span>
+            </div>
+          </master-search>
+        </li>
+
+        
+                          <li class="nav-item d-lg-none">
+            <a class="nav-link" href="https://www.indieonthemove.com/professional-services">
+              Pro Services
+            </a>
+          </li>
+                  <li class="nav-item d-lg-none">
+            <a class="nav-link" href="https://www.indieonthemove.com/venues">
+              Venues &amp; QuickPitch
+            </a>
+          </li>
+                  <li class="nav-item d-lg-none">
+            <a class="nav-link" href="https://www.indieonthemove.com/college-university-show-booking-directory">
+              Colleges &amp; Universities
+            </a>
+          </li>
+                  <li class="nav-item d-lg-none">
+            <a class="nav-link" href="https://www.indieonthemove.com/music-festivals-and-conferences">
+              Festivals &amp; Conferences
+            </a>
+          </li>
+                  <li class="nav-item d-lg-none">
+            <a class="nav-link" href="https://www.indieonthemove.com/users">
+              Members
+            </a>
+          </li>
+                  <li class="nav-item d-lg-none">
+            <a class="nav-link" href="https://www.indieonthemove.com/show-availabilities">
+              Show Availabilities
+            </a>
+          </li>
+                  <li class="nav-item d-lg-none">
+            <a class="nav-link" href="https://www.indieonthemove.com/band-availabilities">
+              Band Availabilities
+            </a>
+          </li>
+                  <li class="nav-item d-lg-none">
+            <a class="nav-link" href="https://www.indieonthemove.com/classifieds">
+              Classifieds
+            </a>
+          </li>
+                  <li class="nav-item d-lg-none">
+            <a class="nav-link" href="https://www.indieonthemove.com/press-radio-promotion-resources-for-musicians">
+              Promotion
+            </a>
+          </li>
+                  <li class="nav-item d-lg-none">
+            <a class="nav-link" href="https://www.indieonthemove.com/blog">
+              Blog
+            </a>
+          </li>
+                  <li class="nav-item d-lg-none">
+            <a class="nav-link" href="https://www.indieonthemove.com">
+              Home
+            </a>
+          </li>
+                
+        
+                                      <li class="nav-item dropdown d-none d-lg-inline">
+              <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                Features
+              </a>
+              <div class="dropdown-menu">
+                                  <a class="dropdown-item" href="https://www.indieonthemove.com/professional-services">Pro Services</a>
+                                  <a class="dropdown-item" href="https://www.indieonthemove.com/venues">Music Venues Database</a>
+                                  <a class="dropdown-item" href="https://www.indieonthemove.com/quickpitch-emailing">QuickPitch Emailing</a>
+                                  <a class="dropdown-item" href="https://www.indieonthemove.com/college-university-show-booking-directory">Colleges &amp; Universities</a>
+                                  <a class="dropdown-item" href="https://www.indieonthemove.com/music-festivals-and-conferences">Festivals &amp; Conferences</a>
+                                  <a class="dropdown-item" href="https://www.indieonthemove.com/show-availabilities">Show Availabilities</a>
+                                  <a class="dropdown-item" href="https://www.indieonthemove.com/band-availabilities">Band Availabilities</a>
+                                  <a class="dropdown-item" href="https://www.indieonthemove.com/classifieds">Classifieds</a>
+                              </div>
+            </li>
+                                        <li class="nav-item d-none d-lg-inline">
+              <a class="nav-link" href="https://www.indieonthemove.com/users">
+                Members
+              </a>
+            </li>
+                                        <li class="nav-item d-none d-lg-inline">
+              <a class="nav-link" href="https://www.indieonthemove.com/pricing">
+                Account Benefits
+              </a>
+            </li>
+                                        <li class="nav-item d-none d-lg-inline">
+              <a class="nav-link" href="https://www.indieonthemove.com/blog">
+                Blog
+              </a>
+            </li>
+                                        <li class="nav-item d-none d-lg-inline">
+              <a class="nav-link" href="https://www.indieonthemove.com">
+                Home
+              </a>
+            </li>
+                          
+        <li class="nav-item">
+          <button class="w-100 no-border navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="p-0 nav-link">
+              <i class="fa small fa-arrow-up"></i>
+            </span>
+          </button>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Right Side fixed. not in dropdown-->
+    <div class="navbar-fixed-right">
+              <div style="margin-top: 0.1rem">
+  <a class="btn btn-outline-secondary" href="https://www.indieonthemove.com/login?intended=radio">Login</a>
+  <a class="d-none d-sm-inline-block ml-2 btn btn-primary" href="https://www.indieonthemove.com/register">Sign Up</a>
+</div>
+          </div>
+
+  </div>
+</nav>
+
+
+      <div class="nav-spacing">
+          <div class="container mt-3">
+
+          <div class="row">
+        <div class="col-lg-8 col-xl-9">
+      
+      <div class="card">
+        <div class="card-header d-flex justify-content-between">
+          <h4>
+            Radio
+          </h4>
+          <div>
+            <span class="st_facebook_large" displaytext="Facebook"></span>
+            <span class="st_twitter_large" st_via="indieonthemove" displaytext="Tweet"></span>
+            <span class="st_googleplus_large" displaytext="Google +"></span>
+            <span class="st_pinterest_large" displaytext="Pinterest"></span>
+          </div>
+        </div>
+        <div class="card-body">
+
+
+          <div class="page-blog-style">
+            <p>
+	&nbsp;</p>
+<p>
+	<span style="font-size:14px;"><strong>Looking for radio spins, interviews, and on-air performances to promote a new album, show, or tour?</strong>...Well you've come to the right place.&nbsp;</span></p>
+<br>
+<br>
+<p>
+	<span style="font-size:14px;">Welcome to Indie on the Move's compiled listing of radio stations and media contacts for bands and musicians looking to better promote and expose their music to the masses&nbsp;(click on a state name for city by city radio listings and contact links). </span></p>
+<br>
+<br>
+<p>
+	<span style="font-size:14px;">We did our best to include a thorough and comprehensive listing for all of the 50 states (including College, Commercial, and Online radio stations), but if for some reason we've overlooked a station that you believe belongs on the site, please let us know through the contact page located&nbsp;<a href="http://www.indieonthemove.com/contact"><span style="font-size:14px;">HERE</span></a>&nbsp;so that we can add it ASAP.</span></p>
+<br>
+<br>
+<p>
+	<span style="font-size:14px;"><strong>If you're seeking further insight into radio airplay and general radio promotion</strong>, we recommend the following posts:</span></p>
+<p>
+	+<strong><a href="http://www.indieonthemove.com/blog/2013/07/radio-airplay-101-which-stations-to-choose">Radio Airplay 101 - Which Stations to Choose</a></strong></p>
+<p>
+	+<strong><a href="http://www.indieonthemove.com/blog/2013/05/radio-promo-exec-dale-connone-talks-finding-radio-promotion-for-indie-artists">Radio Promo Exec, Dale Connone, Talks Finding Radio Promotion for Indie Artists!</a></strong></p>
+<p>
+	+<strong><a href="https://www.indieonthemove.com/blog?tag=radio%20promotion">Radio Promo Tips</a></strong></p>
+<br>
+<br>
+<p>
+	<span style="font-size:14px;">**If you're specifically looking for the contact and <strong>submission info for hundreds of college radio stations</strong>, check out <a href="http://www.indieonthemove.com/college-university-show-booking-directory"><span style="font-size:14px;">IndieOnTheMove.com's College &amp; University Show Booking Directory</span></a>.</span></p>
+<br>
+<br>
+<span style="font-size:14px;">And by all means, while you're visiting us please take a look around the site. Indie on the Move is THE independent music community's home for show and tour booking. From&nbsp;<a href="http://www.indieonthemove.com/venues"><span style="font-size: 14px; ">music venues</span></a>,&nbsp;<a href="http://www.indieonthemove.com/availabilities/shows"><span style="font-size: 14px; ">show availabilities</span></a>, and&nbsp;<a href="http://www.indieonthemove.com/press"><span style="font-size: 14px; ">press</span></a>&nbsp;and&nbsp;<a href="http://www.indieonthemove.com/radio"><span style="font-size: 14px; ">radio</span></a>&nbsp;contacts to&nbsp;<span style="font-size: 14px; "><a href="https://www.indieonthemove.com/users">booking agents, band managers, and record labels</a></span>, we've got it all right here for you to take advantage of.</span>
+<p>
+	&nbsp;</p>
+<br>
+<br>
+<h2>
+	National and Statewide Radio Stations &amp; Contact Info</h2>
+<ul>
+	<li style="margin-left: 40px; ">
+		<span style="font-size:14px;"><a href="http://indieonthemove.com/radio/national-radio-contacts">National</a></span></li>
+	<li style="margin-left: 40px; ">
+		<span style="font-size:14px;"><a href="http://www.indieonthemove.com/radio/alabama-radio-contacts">Alabama</a></span></li>
+	<li style="margin-left: 40px; ">
+		<span style="font-size:14px;"><a href="http://www.indieonthemove.com/radio/alaska-radio-contacts">Alaska</a></span></li>
+	<li style="margin-left: 40px; ">
+		<span style="font-size:14px;"><a href="http://www.indieonthemove.com/radio/arizona-radio-contacts">Arizona</a></span></li>
+	<li style="margin-left: 40px; ">
+		<span style="font-size:14px;"><a href="http://www.indieonthemove.com/radio/arkansas-radio-contacts">Arkansas</a></span></li>
+	<li style="margin-left: 40px; ">
+		<span style="font-size:14px;"><a href="http://www.indieonthemove.com/radio/california-radio-contacts">California</a></span></li>
+	<li style="margin-left: 40px; ">
+		<span style="font-size:14px;"><a href="http://www.indieonthemove.com/radio/colorado-radio-contacts">Colorado</a></span></li>
+	<li style="margin-left: 40px; ">
+		<span style="font-size:14px;"><a href="http://www.indieonthemove.com/radio/connecticut-radio-contacts">Connecticut</a></span></li>
+	<li style="margin-left: 40px; ">
+		<span style="font-size:14px;"><a href="http://www.indieonthemove.com/radio/delaware-radio-contacts">Delaware</a></span></li>
+	<li style="margin-left: 40px; ">
+		<span style="font-size:14px;"><a href="http://www.indieonthemove.com/radio/district-of-columbia-radio-contacts">District of Columbia</a></span></li>
+	<li style="margin-left: 40px; ">
+		<span style="font-size:14px;"><a href="http://www.indieonthemove.com/radio/florida-radio-contacts">Florida</a></span></li>
+	<li style="margin-left: 40px; ">
+		<span style="font-size:14px;"><a href="http://www.indieonthemove.com/radio/georgia-radio-contacts">Georgia</a></span></li>
+	<li style="margin-left: 40px; ">
+		<span style="font-size:14px;"><a href="http://www.indieonthemove.com/radio/hawaii-radio-contacts">Hawaii</a></span></li>
+	<li style="margin-left: 40px; ">
+		<span style="font-size:14px;"><a href="http://www.indieonthemove.com/radio/idaho-radio-contacts">Idaho</a></span></li>
+	<li style="margin-left: 40px; ">
+		<span style="font-size:14px;"><a href="http://www.indieonthemove.com/radio/illinois-radio-contacts">Illinois</a></span></li>
+	<li style="margin-left: 40px; ">
+		<span style="font-size:14px;"><a href="http://www.indieonthemove.com/radio/indiana-radio-contacts">Indiana</a></span></li>
+	<li style="margin-left: 40px; ">
+		<span style="font-size:14px;"><a href="http://www.indieonthemove.com/radio/iowa-radio-contacts">Iowa</a></span></li>
+	<li style="margin-left: 40px; ">
+		<span style="font-size:14px;"><a href="http://www.indieonthemove.com/radio/kansas-radio-contacts">Kansas</a></span></li>
+	<li style="margin-left: 40px; ">
+		<span style="font-size:14px;"><a href="http://www.indieonthemove.com/radio/kentucky-radio-contacts">Kentucky</a></span></li>
+	<li style="margin-left: 40px; ">
+		<span style="font-size:14px;"><a href="http://www.indieonthemove.com/radio/louisiana-radio-contacts">Louisiana</a></span></li>
+	<li style="margin-left: 40px; ">
+		<span style="font-size:14px;"><a href="http://www.indieonthemove.com/radio/maine-radio-contacts">Maine</a></span></li>
+	<li style="margin-left: 40px; ">
+		<span style="font-size:14px;"><a href="http://www.indieonthemove.com/radio/maryland-radio-contacts">Maryland</a></span></li>
+	<li style="margin-left: 40px; ">
+		<span style="font-size:14px;"><a href="http://www.indieonthemove.com/radio/massachusetts-radio-contacts">Massachusetts</a></span></li>
+	<li style="margin-left: 40px; ">
+		<span style="font-size:14px;"><a href="http://www.indieonthemove.com/radio/michigan-radio-contacts">Michigan</a></span></li>
+	<li style="margin-left: 40px; ">
+		<span style="font-size:14px;"><a href="http://www.indieonthemove.com/radio/minnesota-radio-contacts">Minnesota</a></span></li>
+	<li style="margin-left: 40px; ">
+		<span style="font-size:14px;"><a href="http://www.indieonthemove.com/radio/mississippi-radio-contacts">Mississippi</a></span></li>
+	<li style="margin-left: 40px; ">
+		<span style="font-size:14px;"><a href="http://www.indieonthemove.com/radio/missouri-radio-contacts">Missouri</a></span></li>
+	<li style="margin-left: 40px; ">
+		<span style="font-size:14px;"><a href="http://www.indieonthemove.com/radio/montana-radio-contacts">Montana</a></span></li>
+	<li style="margin-left: 40px; ">
+		<span style="font-size:14px;"><a href="http://www.indieonthemove.com/radio/nebraska-radio-contacts">Nebraska</a></span></li>
+	<li style="margin-left: 40px; ">
+		<span style="font-size:14px;"><a href="http://www.indieonthemove.com/radio/nevada-radio-contacts">Nevada</a></span></li>
+	<li style="margin-left: 40px; ">
+		<span style="font-size:14px;"><a href="http://www.indieonthemove.com/radio/new-hampshire-radio-contacts">New Hampshire</a></span></li>
+	<li style="margin-left: 40px; ">
+		<span style="font-size:14px;"><a href="http://www.indieonthemove.com/radio/new-jersey-radio-contacts">New Jersey</a></span></li>
+	<li style="margin-left: 40px; ">
+		<span style="font-size:14px;"><a href="http://www.indieonthemove.com/radio/new-mexico-radio-contacts">New Mexico</a></span></li>
+	<li style="margin-left: 40px; ">
+		<span style="font-size:14px;"><a href="http://www.indieonthemove.com/radio/new-york-radio-contacts">New York</a></span></li>
+	<li style="margin-left: 40px; ">
+		<span style="font-size:14px;"><a href="http://www.indieonthemove.com/radio/north-carolina-radio-contacts">North Carolina</a></span></li>
+	<li style="margin-left: 40px; ">
+		<span style="font-size:14px;"><a href="http://www.indieonthemove.com/radio/north-dakota-radio-contacts">North Dakota</a></span></li>
+	<li style="margin-left: 40px; ">
+		<span style="font-size:14px;"><a href="http://www.indieonthemove.com/radio/ohio-radio-contacts">Ohio</a></span></li>
+	<li style="margin-left: 40px; ">
+		<span style="font-size:14px;"><a href="http://www.indieonthemove.com/radio/oklahoma-radio-contacts">Oklahoma</a></span></li>
+	<li style="margin-left: 40px; ">
+		<span style="font-size:14px;"><a href="http://www.indieonthemove.com/radio/oregon-radio-contacts">Oregon</a></span></li>
+	<li style="margin-left: 40px; ">
+		<span style="font-size:14px;"><a href="http://www.indieonthemove.com/radio/pennsylvania-radio-contacts">Pennsylvania</a></span></li>
+	<li style="margin-left: 40px; ">
+		<span style="font-size:14px;"><a href="http://www.indieonthemove.com/radio/rhode-island-radio-contacts">Rhode Island</a></span></li>
+	<li style="margin-left: 40px; ">
+		<span style="font-size:14px;"><a href="http://www.indieonthemove.com/radio/south-carolina-radio-contacts">South Carolina</a></span></li>
+	<li style="margin-left: 40px; ">
+		<span style="font-size:14px;"><a href="http://www.indieonthemove.com/radio/south-dakota-radio-contacts">South Dakota</a></span></li>
+	<li style="margin-left: 40px; ">
+		<span style="font-size:14px;"><a href="http://www.indieonthemove.com/radio/tennessee-radio-contacts">Tennessee</a></span></li>
+	<li style="margin-left: 40px; ">
+		<span style="font-size:14px;"><a href="http://www.indieonthemove.com/radio/texas-radio-contacts">Texas</a></span></li>
+	<li style="margin-left: 40px; ">
+		<span style="font-size:14px;"><a href="http://www.indieonthemove.com/radio/utah-radio-contacts">Utah</a></span></li>
+	<li style="margin-left: 40px; ">
+		<span style="font-size:14px;"><a href="http://www.indieonthemove.com/radio/vermont-radio-contacts">Vermont</a></span></li>
+	<li style="margin-left: 40px; ">
+		<span style="font-size:14px;"><a href="http://www.indieonthemove.com/radio/virginia-radio-contacts">Virginia</a></span></li>
+	<li style="margin-left: 40px; ">
+		<span style="font-size:14px;"><a href="http://www.indieonthemove.com/radio/washington-radio-contacts">Washington</a></span></li>
+	<li style="margin-left: 40px; ">
+		<span style="font-size:14px;"><a href="http://www.indieonthemove.com/radio/west-virginia-radio-contacts">West Virginia</a></span></li>
+	<li style="margin-left: 40px; ">
+		<span style="font-size:14px;"><a href="http://www.indieonthemove.com/radio/wisconsin-radio-contacts">Wisconsin</a></span></li>
+	<li style="margin-left: 40px; ">
+		<span style="font-size:14px;"><a href="http://www.indieonthemove.com/radio/wyoming-radio-contacts">Wyoming</a></span></li>
+</ul>
+          </div>
+        </div>
+      </div>
+
+              </div>
+        <div class="col-lg-4 col-xl-3">
+          <news></news>
+        </div>
+      </div>
+    
+  </div>
+      </div>
+
+    </div>
+    <div v-cloak>
+      <footer class="footer mt-3 p-3 bg-dark footer-bordered">
+  <div class="container">
+
+    <!-- small screens -->
+    <div class="d-sm-none text-secondary text-uppercase text-center">
+              <a  href="https://www.indieonthemove.com/about">
+          About
+        </a>
+                  |
+                      <a  href="https://www.indieonthemove.com/indie-on-the-move-101">
+          Features
+        </a>
+                  |
+                      <a  href="https://www.indieonthemove.com/pricing">
+          Pricing
+        </a>
+                  |
+                      <a  href="https://www.indieonthemove.com/testimonials">
+          Testimonials
+        </a>
+                  |
+                      <a  href="https://www.indieonthemove.com/contact">
+          Contact
+        </a>
+                  |
+                      <a  href="https://www.indieonthemove.com/newsletter/subscribe">
+          Newsletter
+        </a>
+                  |
+                      <a  href="https://www.indieonthemove.com/blog">
+          Blog
+        </a>
+                  |
+                      <a  href="https://www.indieonthemove.com/touring-tips-show-booking-advice-for-musicians">
+          Touring Tips
+        </a>
+                  |
+                      <a  href="https://www.indieonthemove.com/iotm-solutions-network">
+          Partners
+        </a>
+                  |
+                      <a  href="https://www.indieonthemove.com/terms-and-conditions">
+          Terms
+        </a>
+                  |
+                      <a  href="https://www.indieonthemove.com/privacy">
+          Privacy
+        </a>
+                  </div>
+
+    <!-- larger screens -->
+    <div class="justify-content-around d-none d-sm-flex text-secondary">
+      <ul>
+                  <li>
+            <a  href="https://www.indieonthemove.com/about">
+              About
+            </a>
+          </li>
+                  <li>
+            <a  href="https://www.indieonthemove.com/indie-on-the-move-101">
+              Features
+            </a>
+          </li>
+                  <li>
+            <a  href="https://www.indieonthemove.com/pricing">
+              Pricing
+            </a>
+          </li>
+                  <li>
+            <a  href="https://www.indieonthemove.com/testimonials">
+              Testimonials
+            </a>
+          </li>
+                  <li>
+            <a  href="https://www.indieonthemove.com/newsletter/subscribe">
+              Newsletter
+            </a>
+          </li>
+                  <li>
+            <a  href="https://www.indieonthemove.com/contact">
+              Contact IOTM
+            </a>
+          </li>
+              </ul>
+      <ul>
+                  <li>
+            <a  href="https://www.indieonthemove.com/users">
+              Members Directory
+            </a>
+          </li>
+                  <li>
+            <a  href="https://www.indieonthemove.com/blog">
+              Blog
+            </a>
+          </li>
+                  <li>
+            <a  href="https://www.indieonthemove.com/touring-tips-show-booking-advice-for-musicians">
+              Touring Tips
+            </a>
+          </li>
+                  <li>
+            <a  href="https://www.indieonthemove.com/iotm-solutions-network">
+              Strategic Partners
+            </a>
+          </li>
+                  <li>
+            <a  href="https://www.indieonthemove.com/terms-and-conditions">
+              Terms &amp; Conditions
+            </a>
+          </li>
+                  <li>
+            <a  href="https://www.indieonthemove.com/privacy">
+              Privacy Policy
+            </a>
+          </li>
+              </ul>
+      <ul>
+                  <li>
+            <a  href="https://www.indieonthemove.com/professional-services">
+              Professional Services
+            </a>
+          </li>
+                  <li>
+            <a  href="https://www.indieonthemove.com/venues">
+              Venues &amp; Quickpitch
+            </a>
+          </li>
+                  <li>
+            <a  href="https://www.indieonthemove.com/college-university-show-booking-directory">
+              Colleges &amp; Universities
+            </a>
+          </li>
+                  <li>
+            <a  href="https://www.indieonthemove.com/music-festivals-and-conferences">
+              Festivals &amp; Conferences
+            </a>
+          </li>
+                  <li>
+            <a  href="https://www.indieonthemove.com/show-availabilities">
+              Show Availabilities
+            </a>
+          </li>
+                  <li>
+            <a  href="https://www.indieonthemove.com/band-availabilities">
+              Band Availabilities
+            </a>
+          </li>
+                  <li>
+            <a  href="https://www.indieonthemove.com/classifieds">
+              Classifieds
+            </a>
+          </li>
+                  <li>
+            <a  href="https://www.indieonthemove.com/press">
+              Press Directory
+            </a>
+          </li>
+                  <li>
+            <a  href="https://www.indieonthemove.com/radio">
+              Radio Directory
+            </a>
+          </li>
+              </ul>
+    </div>
+
+    <!-- all screens -->
+    <div class="pt-3 text-center">
+      <div>
+        <a target="_blank" rel="noopener noreferrer" href="https://facebook.com/indieonthemovellc">
+          <i class="px-2 fa fa-2x fa-facebook"></i>
+        </a>
+        <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/indieonthemove">
+          <i class="px-2 fa fa-2x fa-twitter"></i>
+        </a>
+        <a target="_blank" rel="noopener noreferrer" href="https://plus.google.com/+indieonthemovellc">
+          <i class="px-2 fa fa-2x fa-google-plus"></i>
+        </a>
+
+      </div>
+
+      <a href="#" class="btn btn-link">
+        <i class="fa fa-arrow-circle-up"></i>
+        <span class="mb-1">Back To Top </span>
+      </a>
+
+      <p class="text-secondary">
+        © 2018 Indie on the Move. All rights reserved.
+      </p>
+    </div>
+
+  </div>
+</footer>
+
+    </div>
+  </div>
+
+    <!-- Scripts -->
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script src="https://js.stripe.com/v3/"></script>
+        <script src="/js/app.js?id=bb87c2c2608a0fee47c7"></script>
+      
+
+  <script type="text/javascript" src="//ws.sharethis.com/button/buttons.js"></script>
+  <script type="text/javascript">stLight.options({publisher: "5945aab2-6a71-4a33-9775-fdbe573195ca"});</script>
+  
+  </body>
+</html>

@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta name="google-site-verification" content="BL3QqWHDjOYpKDc2U0X-rZu6pJctgJEnyHRbHUa7RPA" />
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+  <title>Contact | KZFR 90.1 FM CHICO</title>
+  
+  <link href='http://fonts.googleapis.com/css?family=Arvo|Source+Sans+Pro:300italic,400,400italic,600,600italic|PT+Sans' rel='stylesheet' type='text/css'>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <link rel="shortcut icon" href="/theme/51/favicon1.png">
+  
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+  
+<script src="/components/jquery/dist/jquery.min.js?x=1437796891"></script>
+
+<!-- Initialize Creek.fm JS -->
+<script src="/js/cfm-head.js?x=1437796891" type="text/javascript"></script>
+<script type="text/javascript">
+
+  Creek.signedIn = false;
+  Creek.station.id = "kzfr";
+  Creek.streamPlayer.flashByDefault = 0;
+
+  //Check for Internet Explorer
+  if(window.ActiveXObject || "ActiveXObject" in window){
+
+    //Defalt to Flash for stream player
+    Creek.streamPlayer.flashByDefault = 1;
+
+  }
+</script>
+
+<script type="text/javascript" src="/packages/magnific-popup/jquery.magnific-popup.min.js"></script>
+
+<script src="/packages/soundmanager/script/soundmanager2-nodebug-jsmin.js?x=1498244286"></script>
+<style> #sm2-container {position:absolute; top:-10000px; left:-10000px} </style>
+<script src="/js/sm2-settings.js?x=1437796891"></script>
+<link rel="stylesheet" type="text/css" href="/packages/soundmanager/demo/bar-ui/css/bar-ui.css?x=1437796891" />
+<script src="/js/creek-sm2-bar-ui.js?x=1441826410"></script><link href="/css/creekfm-public.css?x=1500320125" rel="stylesheet" type='text/css'>
+<link href="/packages/magnific-popup/magnific-popup.css?x=1437796891" rel="stylesheet" type='text/css'>
+<link href="/css/playlist.css?x=1455040699" rel="stylesheet" type='text/css'>
+
+<script src="/js/cfm-single-page.js?x=1441826410"></script>
+
+<!-- Initialize Creek.fm Stream Player -->
+<script type="text/javascript">Creek.streamPlayer.streamUrl = 'http://stream-tx3.radioparadise.com/kzfr';</script>
+<script type="text/javascript" src="/packages/jplayer/jquery.jplayer.min.js"></script>
+
+
+<link href="/theme/51/css/css-responsive.css?x=1500136720" rel="stylesheet" type='text/css'>
+  <link href="/theme/51/css/css_main.css?x=1499920259" rel="stylesheet" type='text/css'>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-35130326-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.3.4/vue.min.js"></script>
+
+<meta property="og:title" content="Contact | KZFR 90.1 FM CHICO" />
+<meta property="og:url" content="http://www.kzfr.org/pages/contact" />
+<meta property="og:image" content="" />
+<meta property="og:description" content="For general information about KZFR 90.1FM, email info@kzfr.org or call the KZFR Office at (530)895-0706
+
+To have your event considered for the KZFR Community Calendar please send all relevant..." />
+
+
+</head>
+<body>
+
+
+
+<!-- Responsive menu for mobile -->
+<div class="nav-corner-button">
+  <a href="javascript:"><i class="fa fa-bars"></i></a>
+</div>
+<div id="navbar-menu" class="cfm-sp-load">
+  <a href="/programs" class="programs  ">PROGRAMS</a>
+  <a href="/posts" class="new  s">NEWS</a>
+  <a href="/events" class="events  ">EVENTS</a>
+  <a href="/pages/about" class="info {pages-index|active} active">KZFR info</a>
+  <a href="/donate" class="donate {donate-index|active}">DONATE</a>
+  <a href="/underwriters" class="underwriters ">Underwriters</a>
+</div>
+
+<script type="text/javascript">
+  $(function(){
+    $('.nav-corner-button').on('click', function(){
+      $('#navbar-menu').fadeToggle(0);
+    })
+    $('#navbar-menu a').on('click', function(){
+      $('#navbar-menu').css('display', 'none');
+    })
+  })
+</script>
+
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=433853109973153";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<div id="header_container">
+  <div class="container">
+    <div id="header">
+      <!--<div id="logo"><a href="/"><img src="/theme/51/images/header/KZFR_25_Year_Logo_1_WEB_Header.png" /></a></div>-->
+      <div id="logo-responsive"><a href="/"><img src="/theme/51/images/header/KZFR_Logo_Color_isolated_full_szie.png" /></a></div>
+      <div class="people_powered_radio"><img src="/theme/51/images/header/people_powered_radio.png" /></div>
+      <div id="navbar" class="cfm-sp-load">
+        <a href="/programs" class="programs  ">PROGRAMS</a>
+        <a href="/posts" class="new  s">NEWS</a>
+        <a href="/events" class="events  ">EVENTS</a>
+        <a href="/pages/about" class="info {pages-index|active} active">KZFR info</a>
+        <a href="/donate" class="donate {donate-index|active}">DONATE</a>
+        <a href="/underwriters" class="underwriters ">Underwriters</a>
+      </div>
+      <div class="cfm-user-panel user-panel not-signed-in">
+    <div class="sign-in">
+    <a href="/users/sign-in?return_url=">Sign in</a>
+  </div>
+  </div>
+      
+      
+      <div id="header-listen">
+      
+        <!--<a href="/donate"><img src="/theme/51/images/silent_drive_woodcut.png" /></a>-->
+
+                
+        <script type="text/javascript">
+          Creek.streamPlayer.buttonHtmlPlay = '<i class="fa fa-play"></i> Listen';
+          Creek.streamPlayer.buttonHtmlStop = '<i class="fa fa-play"></i> Listening';
+        </script>
+        
+        
+        <div class="cfm-stream-player jp-audio">
+  <div class="jp-type-single">
+    <div class="jp-gui jp-interface jp-controls">
+      <a href="javascript:" class="cfm-stream-main-button cfm-stream-play-button">Listen</a>
+    </div>
+  </div>
+</div>
+        
+        <a href="/listen" class="help"><i class="fa fa-question"></i></a>
+        
+        <!--
+        <div class="stream-error">
+          <b>Stream error:</b> Please install the <a href="http://get.adobe.com/flashplayer/">Flash plug-in</a>, upgrade your web browser, or try the Alternate Stream below.
+        </div>
+        -->
+  
+      </div>
+      
+    </div>
+  </div>
+</div>
+<div class="container">
+<div id="main" class="cfm-sp-load">
+<div id="pages-view" class="content_container">
+
+<div class="page_container {data_short_name}">
+  <div id="pages_list" class="block-pages">
+  <ul>
+      <li><a href="/pages/about">About KZFR</a></li>
+      <li><a href="/pages/becomeprogrammer">Become a Programmer</a></li>
+      <li><a href="/pages/boardcommittees">Board of Directors and Committees</a></li>
+      <li class="selected"><a href="/pages/contact">Contact</a></li>
+      <li><a href="/pages/history">History</a></li>
+      <li><a href="/pages/jobs">Jobs</a></li>
+      <li><a href="/pages/apps">KZFR Apps</a></li>
+      <li><a href="/pages/store">KZFR Store</a></li>
+      <li><a href="/pages/press">Press</a></li>
+      <li><a href="/pages/publicdocs">Public Documents</a></li>
+      <li><a href="/pages/underwrite">Underwrite</a></li>
+      <li><a href="/pages/volunteer">Volunteer</a></li>
+    </ul>
+</div>
+  <div class="page_content">
+    <h1>Contact</h1>
+    <div class="text">
+      <p>For general information about KZFR 90.1FM, email <a>info@kzfr.org</a> or call the KZFR Office at (530)895-0706</p><p>
+  
+</p><p>To have your event considered for the KZFR Community Calendar please send all relevant information about the event (Date, Time, Location, Short Description, Contact Person, etc) to <a>cc@kzfr.org</a> or fax to (530)895-0775</p><p>
+  
+</p><p>To have your event considered for the KZFR Music Calendar please send all relevant information about the event (Date, Time, Location, Short Description, Contact Person, etc) to <a>mc@kzfr.org</a> or fax to (530)895-0775</p><p>Mailing Address: KZFR, 341 Broadway Street, Suite 411, Chico, CA &nbsp;95928</p><p><br><b>Rick Anderson, General Manager</b><br></p><p>(530) 895-0706 ext. 102; <a>gm@kzfr.org</a></p><p><br></p><p><b>Grant C. Parks, Production Coordinator &amp; Office Manager</b></p><p>(530) 895-0706 ext. 100; <a>grant@kzfr.org</a></p><p><br></p><p><b>Ray Laager, Underwriter Director</b></p><p>(530) 520-4742, <a>underwrite@kzfr.org</a></p><p><br></p><p><b>Jacob Sprecher, Assistant To The Traveling Secretary</b></p><p>(530) 895-0706 ext. 104; <a>jake@kzfr.org</a></p><p><br></p><p><b>Leah T. McKean, Volunteer Coordinator</b></p><p>(530) 864.8202, leah@kzfr.org<br></p><p><br></p><p>
+  
+</p>
+    </div>
+  </div>
+</div>
+</div>
+<div id="footer">
+<div class="inner">
+  <div class="title">KZFR 90.1 FM <span>People Powered Radio</span> Chico, CA</div>
+  <div class="contact">
+    <span class="phone-number"><b>STUDIO</b> 530-895-0131</span>
+    <span class="phone-number"><b>OFFICE</b> 530-895-0706</span>
+    <span class="phone-number"><b>FAX</b> 530-895-0775</span>
+    <span>341 Broadway Suite 411, Chico, CA, 95928</span>
+  </div>
+  <div class="links">
+    <span><a href="/">Home</a></span>
+    <span><a href="/listen">Listen</a></span>
+    <span><a href="/programlist">Programs</a>/<a href="/posts">News</a>/<a href="/events">Events</a></span>
+    <span>
+      <a href="/pages/about">About</a>
+      <a href="/pages/volunteer">Volunteer</a>
+      <a href="/pages/underwrite">Underwrite</a>
+      <a href="/pages/donate">Donate</a>
+      <a href="/pages/contact">Contact</a>
+    </span>
+    <a href="https://www.creek.fm"><img style="height:18px;width:18px;opacity:0.20; margin:4px 0 -4px 0;" src="http://cdn.creek.fm/icons/creek1-36.png" /></a>
+    <a href="http://www.facebook.com/kzfr90.1fm/" target="_blank"><img  style="height:18px;width:18px;opacity:0.20; margin:4px 0 -4px 0;" src="https://creekfm-kzfr.s3.amazonaws.com/image/medium/facebook_logo.png" /></a>
+    <a href="http://www.instagram.com/kzfr90.1fm/" target="_blank"><img  style="height:22px;width:22px;opacity:0.20; margin:4px 0 -4px 0;" src="https://creekfm-kzfr.s3.amazonaws.com/image/medium/instagram_logo.png" /></a>
+    <a href="https://twitter.com/kzfr" target="_blank"><img  style="height:22px;width:22px;opacity:0.20; margin:4px 0 -4px 0;" src="https://creekfm-kzfr.s3.amazonaws.com/image/small/twitter_logo_isolated.png" /></a>
+    <a href="https://kzfr.org" target="_blank"><img  style="height:22px;width:22px;opacity:0.20; margin:4px 0 -4px 0;" src="https://creekfm-kzfr.s3.amazonaws.com/image/medium/snap_chat_logo_isloated.png" /></a>
+  </div>
+    <div class="links">
+    </span> <a href="http://kzfr.org/shows/democracynow" target="_blank"><img  style="height:54px;width:100px;opacity:0.70; margin:4px 0 -4px 0;" src="https://creekfm-kzfr.s3.amazonaws.com/image/original/democracy_Now_logo.png" /></a><a href="http://www.brownpapertickets.com/profile/185943" target="_blank"><img style="height:46px;width:91px;opacity:0.70; margin:4px 0 -4px 0;" src="https://creekfm-kzfr.s3.amazonaws.com/image/medium/BPT_buy_tickets_large_2_.png"/></a></div>
+</div>
+   <font color= #FFFFF0>We Do Not Share Any Donor's Personal Data or Information With Anyone. Annual Financial Reports can be found</font> <a href="http://kzfr.org/pages/publicdocs">Here</a></p>'
+   <script type="text/javascript" src="https://sealserver.trustwave.com/seal.js?code=7dcf8909d7c44dc19b9450feaad33b57"></script>
+</div>
+
+</div> <!--close main -->
+
+<div class="ie-margin-bottom-fix"> </div>
+
+</div> <!--close container-->
+
+
+<script type="text/javascript">
+$(function(){
+  $(window).bind("load", function() {
+    $('.hide_until_load').removeClass('hide_until_load');
+  });
+});
+</script>
+
+<div id="cfm-stream-jp" class="jp-jplayer"></div>
+<script type="text/javascript" src="/js/cfm-stream.js?x=1437796891"></script>
+<!-- <script type="text/javascript" src="/js/cfm-stream-preroll.js?x=1437796891"></script> -->
+
+<script type="text/javascript">
+
+/* Activate the image gallery */
+$(function(){
+  $('.image-popup-vertical-fit').magnificPopup({
+    type: 'image'
+    // other options
+  });
+});
+
+</script>
+
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', '', '');
+  ga('send', 'pageview');
+
+</script>
+
+
+
+
+
+<!-- Start of StatCounter Code for Default Guide -->
+<script type="text/javascript">
+var sc_project=8310904; 
+var sc_invisible=1; 
+var sc_security="6e419809"; 
+</script>
+<script type="text/javascript"
+src="http://www.statcounter.com/counter/counter.js"></script>
+<noscript><div class="statcounter"><a title="joomla stats"
+href="http://statcounter.com/joomla/" target="_blank"><img
+class="statcounter"
+src="http://c.statcounter.com/8310904/0/6e419809/1/"
+alt="joomla stats"></a></div></noscript>
+<!-- End of StatCounter Code for Default Guide -->
+
+</body>
+</html>

@@ -1,0 +1,1296 @@
+<!doctype html >
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" class="">
+<head>
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- ========= Meta Tags ========= -->
+<script>
+        try {
+    if(navigator.serviceWorker && navigator.serviceWorker.getRegistrations && location.protocol === 'https:') {
+        // remove all service workers
+        navigator.serviceWorker.getRegistrations().then(function(registrations) {
+            if(registrations && registrations.length) {
+                console.log('unregistering service workers')
+                registrations.forEach(function(registration) {
+                    registration.unregister();
+                });
+            }
+         });
+        // clear caches
+        if(caches) {
+            caches.keys().then(function(keyList) {
+                if(keyList && keyList.length) {
+                    console.log('deleting caches')
+                    keyList.forEach(function(key) {
+                        if (key && key.indexOf('druntime') === 0) {
+                            caches.delete(key);
+                        }
+                    });
+                }
+              })
+        }
+    }
+} catch (err) {
+    // not a secured location
+}</script>
+    
+
+<meta http-equiv="Content-type" content="text/html;charset=utf-8">
+<meta charset="utf-8">
+
+<link rel="canonical" href="/">
+
+<meta id="view" name="viewport"
+        content=", initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=0, viewport-fit=cover" />
+
+<meta name="apple-mobile-web-app-capable" content="yes">
+
+<!--Add favorites icons-->
+
+<link rel="apple-touch-icon" href="https://cdn.website-editor.net/a21dac372fa3481fb8b3f890680e5ceb/dms3rep/multi/112769-WDCR.jpg" />
+
+<link rel="apple-touch-startup-image" href="https://cdn.website-editor.net/a21dac372fa3481fb8b3f890680e5ceb/dms3rep/multi/112769-WDCR.jpg" />
+
+<link rel="shortcut icon" type="image/x-icon" href="https://cdn.website-editor.net/a21dac372fa3481fb8b3f890680e5ceb/site_favicon_16_1499995616234.ico" />
+
+<!-- End favorite icons -->
+
+
+
+
+<!-- render the required CSS and JS in the head section -->
+
+<style id="criticalCss">
+    [class*=" dm-social-icon-"],[class*=" dm-icon-"]{speak:none;font-style:normal;font-variant:normal;text-transform:none;line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.clearfix:after,.dmImageSlider,.dmRespRow:after,.dmSocialHub,.slides:after,DIV.dmBody{clear:both}.pswp,html{-webkit-text-size-adjust:100%}.pswp,.pswp__bg,.pswp__caption,.pswp__container,.pswp__share-modal,.pswp__share-tooltip,.pswp__top-bar{-webkit-backface-visibility:hidden}nav{display:block}html{font-family:Source Sans Pro;-ms-text-size-adjust:100%}b{font-weight:700}hr{box-sizing:content-box;height:0}*,.dmPopup,:after,:before{box-sizing:border-box}img{border:0;max-width:100%;-ms-interpolation-mode:bicubic;display:inline-block}button{font-family:inherit;font-size:100%;margin:0;line-height:normal;text-transform:none;-webkit-appearance:button}.dmRespRow,.dmRespRow .dmRespColsWrapper{max-width:960px;margin:0 auto;width:100%;position:relative}button::-moz-focus-inner{border:0;padding:0}.dmRespRow.dmRespRowNoPadding{padding:0}.dmRespRow{padding-top:15px;padding-bottom:15px}.dmRespRow:after,.dmRespRow:before{content:" ";display:table}.dmRespRow .dmRespCol{position:relative;width:100%;display:inline-block;vertical-align:top;float:left}.dmRespRow .dmRespCol>*{max-width:100%}.dmDesktopBody .dmRespRow .large-2{position:relative;width:16.66667%}.dmDesktopBody .dmRespRow .large-6{position:relative;width:50%}.dmDesktopBody .dmRespRow .large-8{position:relative;width:66.66667%}.dmDesktopBody .dmRespRow .large-12{position:relative;width:100%}@font-face{font-family:'Gloria Hallelujah';font-style:normal;font-weight:400;src:local('Gloria Hallelujah'),local('GloriaHallelujah'),url(https://fonts.gstatic.com/s/gloriahallelujah/v9/LYjYdHv3kUk9BMV96EIswT9DIbW-MIS11zY.ttf) format('truetype')}@font-face{font-family:'Libre Baskerville';font-style:italic;font-weight:400;src:local('Libre Baskerville Italic'),local('LibreBaskerville-Italic'),url(https://fonts.gstatic.com/s/librebaskerville/v5/kmKhZrc3Hgbbcjq75U4uslyuy4kn0qNcWx8QCQ.ttf) format('truetype')}@font-face{font-family:'Libre Baskerville';font-style:normal;font-weight:400;src:local('Libre Baskerville'),local('LibreBaskerville-Regular'),url(https://fonts.gstatic.com/s/librebaskerville/v5/kmKnZrc3Hgbbcjq75U4uslyuy4kn0qNXaxY.ttf) format('truetype')}@font-face{font-family:'Libre Baskerville';font-style:normal;font-weight:700;src:local('Libre Baskerville Bold'),local('LibreBaskerville-Bold'),url(https://fonts.gstatic.com/s/librebaskerville/v5/kmKiZrc3Hgbbcjq75U4uslyuy4kn0qviTgY5KcU.ttf) format('truetype')}@font-face{font-family:'Source Sans Pro';font-style:italic;font-weight:200;src:local('Source Sans Pro ExtraLight Italic'),local('SourceSansPro-ExtraLightItalic'),url(https://fonts.gstatic.com/s/sourcesanspro/v11/6xKwdSBYKcSV-LCoeQqfX1RYOo3qPZYokSdi18E.ttf) format('truetype')}@font-face{font-family:'Source Sans Pro';font-style:italic;font-weight:300;src:local('Source Sans Pro Light Italic'),local('SourceSansPro-LightItalic'),url(https://fonts.gstatic.com/s/sourcesanspro/v11/6xKwdSBYKcSV-LCoeQqfX1RYOo3qPZZMkidi18E.ttf) format('truetype')}@font-face{font-family:'Source Sans Pro';font-style:italic;font-weight:400;src:local('Source Sans Pro Italic'),local('SourceSansPro-Italic'),url(https://fonts.gstatic.com/s/sourcesanspro/v11/6xK1dSBYKcSV-LCoeQqfX1RYOo3qPZ7psDc.ttf) format('truetype')}@font-face{font-family:'Source Sans Pro';font-style:italic;font-weight:600;src:local('Source Sans Pro SemiBold Italic'),local('SourceSansPro-SemiBoldItalic'),url(https://fonts.gstatic.com/s/sourcesanspro/v11/6xKwdSBYKcSV-LCoeQqfX1RYOo3qPZY4lCdi18E.ttf) format('truetype')}@font-face{font-family:'Source Sans Pro';font-style:italic;font-weight:700;src:local('Source Sans Pro Bold Italic'),local('SourceSansPro-BoldItalic'),url(https://fonts.gstatic.com/s/sourcesanspro/v11/6xKwdSBYKcSV-LCoeQqfX1RYOo3qPZZclSdi18E.ttf) format('truetype')}@font-face{font-family:'Source Sans Pro';font-style:italic;font-weight:900;src:local('Source Sans Pro Black Italic'),local('SourceSansPro-BlackItalic'),url(https://fonts.gstatic.com/s/sourcesanspro/v11/6xKwdSBYKcSV-LCoeQqfX1RYOo3qPZZklydi18E.ttf) format('truetype')}@font-face{font-family:'Source Sans Pro';font-style:normal;font-weight:200;src:local('Source Sans Pro ExtraLight'),local('SourceSansPro-ExtraLight'),url(https://fonts.gstatic.com/s/sourcesanspro/v11/6xKydSBYKcSV-LCoeQqfX1RYOo3i94_wmRdr.ttf) format('truetype')}@font-face{font-family:'Source Sans Pro';font-style:normal;font-weight:300;src:local('Source Sans Pro Light'),local('SourceSansPro-Light'),url(https://fonts.gstatic.com/s/sourcesanspro/v11/6xKydSBYKcSV-LCoeQqfX1RYOo3ik4zwmRdr.ttf) format('truetype')}@font-face{font-family:'Source Sans Pro';font-style:normal;font-weight:400;src:local('Source Sans Pro Regular'),local('SourceSansPro-Regular'),url(https://fonts.gstatic.com/s/sourcesanspro/v11/6xK3dSBYKcSV-LCoeQqfX1RYOo3qNq7g.ttf) format('truetype')}@font-face{font-family:'Source Sans Pro';font-style:normal;font-weight:600;src:local('Source Sans Pro SemiBold'),local('SourceSansPro-SemiBold'),url(https://fonts.gstatic.com/s/sourcesanspro/v11/6xKydSBYKcSV-LCoeQqfX1RYOo3i54rwmRdr.ttf) format('truetype')}@font-face{font-family:'Source Sans Pro';font-style:normal;font-weight:700;src:local('Source Sans Pro Bold'),local('SourceSansPro-Bold'),url(https://fonts.gstatic.com/s/sourcesanspro/v11/6xKydSBYKcSV-LCoeQqfX1RYOo3ig4vwmRdr.ttf) format('truetype')}@font-face{font-family:'Source Sans Pro';font-style:normal;font-weight:900;src:local('Source Sans Pro Black'),local('SourceSansPro-Black'),url(https://fonts.gstatic.com/s/sourcesanspro/v11/6xKydSBYKcSV-LCoeQqfX1RYOo3iu4nwmRdr.ttf) format('truetype')}@font-face{font-family:FontAwesome;src:url(/_dm/s/rt/css/font-icons/font-awesome/font/fontawesome-webfont.eot?v=6);src:url(/_dm/s/rt/css/font-icons/font-awesome/font/fontawesome-webfont.eot?#iefix&v=6) format("embedded-opentype"),url(/_dm/s/rt/css/font-icons/font-awesome/font/fontawesome-webfont.woff?v=6) format("woff"),url(/_dm/s/rt/css/font-icons/font-awesome/font/fontawesome-webfont.ttf?v=6) format("truetype"),url(/_dm/s/rt/css/font-icons/font-awesome/font/fontawesome-webfont.svg#fontawesomeregular?v=6) format("svg");font-weight:400;font-style:normal}#dm div.dmContent [class*=" icon-"],[class*=" icon-"]{font-family:FontAwesome!important;font-weight:400;font-style:normal;text-decoration:inherit;-webkit-font-smoothing:antialiased}[class*=" icon-"]:before{text-decoration:none;display:inline-block;speak:none}a [class*=" icon-"]{display:inline}[class*=" icon-"]{display:inline;width:auto;height:auto;line-height:normal;vertical-align:baseline;background-image:none;background-position:0 0;background-repeat:repeat;margin-top:0}.icon-star:before{content:"\f005"}.icon-external-link:before{content:"\f08e"}.icon-phone:before{content:"\f095"}.icon-linkedin:before{content:"\f0e1"}.icon-angle-down:before{content:"\f107"}@font-face{font-family:dm-social-font;src:url(/_dm/s/rt/css/font-icons/dm-social-font/fonts/dm-social-font.eot?mxo7pn);src:url(/_dm/s/rt/css/font-icons/dm-social-font/fonts/dm-social-font.eot?mxo7pn#iefix) format("embedded-opentype"),url(/_dm/s/rt/css/font-icons/dm-social-font/fonts/dm-social-font.ttf?mxo7pn) format("truetype"),url(/_dm/s/rt/css/font-icons/dm-social-font/fonts/dm-social-font.woff?mxo7pn) format("woff"),url(/_dm/s/rt/css/font-icons/dm-social-font/fonts/dm-social-font.svg?mxo7pn#dm-font) format("svg");font-weight:400;font-style:normal}[class*=" dm-social-icon-"]{font-family:dm-social-font!important;font-weight:400}.dm-social-icon-email:before{content:"\e900"}@font-face{font-family:dm-font;src:url(/_dm/s/rt/css/font-icons/dm-font/fonts/dm-font.eot?v=12);src:url(/_dm/s/rt/css/font-icons/dm-font/fonts/dm-font.eot?v=12#iefix-ss0txf) format("embedded-opentype"),url(/_dm/s/rt/css/font-icons/dm-font/fonts/dm-font.ttf?v=12) format("truetype"),url(/_dm/s/rt/css/font-icons/dm-font/fonts/dm-font.woff?v=12) format("woff"),url(/_dm/s/rt/css/font-icons/dm-font/fonts/dm-font.svg?v=12#dm-font) format("svg");font-weight:400;font-style:normal}[class*=" dm-icon-"]{font-family:dm-font;font-weight:400}.dm-icon-facebook:before{content:"\e996"}.dm-icon-twitter:before{content:"\eb18"}.dm-icon-x_close_popup:before{content:"\eb6c"}.dmInner{min-height:100vh!important;position:relative}.dmPopup,.dmPopupMask{position:fixed;left:0}.display_None{display:none}.dmDisplay_None{display:none!important}.clearfix:after{visibility:hidden;line-height:0;height:0}.clearfix:after,.clearfix:before{content:" ";display:table}.clearfix{display:inline-block}#dm .dmWidget .icon{font-size:26px}body:not(.noFontIcons) #dm .dmOuter .dmInner .dmWidget .icon.hasFontIcon{height:26px;margin-top:-13px;line-height:normal;text-align:center;background-image:none}.supportsFontIcons .hasFontIcon{background-image:none!important}.dmPopupMask{margin:0;display:none;width:10px;z-index:1000000999;top:0}.dmPopup{padding:10px;text-align:left;margin:0 10px;top:10px;width:93%;z-index:1000009999!important;background:#f5f5f5;overflow-y:auto;height:100%;display:block}#dm .dmRespRow .dmRespCol>.dmWidget,body.fix-mobile-scrolling{overflow:initial}.dmPopup .dmPopupTitle{text-align:left;font:700 19px Helvetica,Arial;margin:20px 20px 35px;color:#999}.flexslider .slides>li .slide-inner *,.lh-1{line-height:normal}#dmPopup{display:none}.dmPopupClose{position:absolute;visibility:visible;border-radius:25px;width:27px;height:27px;top:12px;right:12px;z-index:1;background-color:rgba(255,255,255,.4)}.dmPopupClose:before{display:block;position:absolute;visibility:visible;font-size:25px;color:#000;top:2px;right:0}body.dmDesktopBody:not(.mac) .data::-webkit-scrollbar{width:5px;height:5px}body.dmDesktopBody:not(.mac) .data::-webkit-scrollbar-track{background:rgba(0,0,0,.1)}body.dmDesktopBody:not(.mac) .data::-webkit-scrollbar-thumb{background:#c8c8c8;box-shadow:inset 0 1px 2px #454545;border-radius:45px}[class*=" dm-icon-"]:before{font-family:dm-font!important}.font-size-12{font-size:12px!important}.font-size-18{font-size:18px!important}.dmRespRow.fullBleedMode>.dmRespColsWrapper{width:100%!important;max-width:100%!important}.dmRespRow.fullBleedMode{padding-left:0!important;padding-right:0!important}[data-display-type=block]{display:block}.flexslider .color-overlay{position:absolute;top:0;left:0;width:100%;height:100%;background-color:rgba(0,0,0,.25);display:block}.flexslider .slides>li{position:relative}.flexslider .slides>li .slide-inner{font-weight:700;color:#fff;position:absolute;z-index:1;visibility:hidden}.flexslider .slides>li .slide-inner .slide-title{margin:0}.flexslider .slides>li .slide-inner .slide-text{margin:0;font-size:19px;font-weight:400}#dm .dmInner .flexslider .slides>li .slide-inner .slide-button{margin-top:20px;margin-left:auto;margin-right:auto}.flexslider .slides [show-content=false] .color-overlay,.flexslider .slides [show-content=false] .slide-inner{visibility:hidden!important}.flexslider .slides>li[layout=center] .slide-inner{max-width:70%;max-height:80%}#dm .flexslider .slides .dmWidget .text{max-width:100%;width:100%;padding:10px 20px!important}#dm .dmInner .flexslider.ed-version .slide-button{-js-display:inline-flex;display:-webkit-inline-flex;display:-ms-inline-flexbox;display:inline-flex;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center}.flexslider:not([position]):not([layout]) .slides>li[layout=center][position=center] .slide-inner{right:auto!important;bottom:auto!important;text-align:center}.flexslider.ed-version .slides img{display:none}.flexslider.ed-version:not([layout]) .slides>li[layout=center]{-ms-flex-pack:center;-ms-flex-align:center;display:-webkit-flex!important;display:flex!important;-webkit-justify-content:center;justify-content:center;-webkit-align-items:center;align-items:center}.flexslider.ed-version:not([layout]) .slides>li[layout=center] .slide-inner{position:static!important;top:auto!important;left:auto!important;margin:0!important}#dm .dmInner .dmWidget.align-center,.align-center{margin-left:auto;margin-right:auto}.flexslider.ed-version:not([layout]) .slides>li[layout=center] .slide-inner .slide-button.slide-button-invisible{display:none!important}.flexslider.ed-version:not([layout]) .slides>li[layout=center] a{position:absolute;left:0;top:0}.flexslider.ed-version:not([layout]) .slide-inner{max-width:70%;max-height:80%;background-color:rgba(0,0,0,0);top:50%!important;left:50%!important;right:auto!important;width:auto}.flexslider.ed-version:not([layout]) .slide-inner .slide-title{display:block!important;text-align:center!important}#dm .dmRespRow .dmRespColsWrapper{display:-ms-flexbox;display:-webkit-flex;display:flex}.text-align-center{text-align:center}.slides,p.rteBlock{margin:0}#dmRoot{text-decoration-skip-ink:none}body{-webkit-overflow-scrolling:touch}.flexslider,.pswp,.pswp__item,.pswp__scroll-wrap{overflow:hidden}#dm .dmWidget[data-buttonstyle*="_ROUND"]{border-radius:6px}#dm .dmWidget[data-buttonstyle^=FLAT]{background-clip:border-box}.pswp__scroll-wrap{top:0!important}.slides{padding:0;list-style:none}.flexslider{height:100%;padding:0;-webkit-transform:translateZ(0);direction:ltr}.flexslider .slides{height:100%;zoom:1}.flexslider .slides>li{height:100%;overflow:hidden;display:none;text-align:center}.flexslider .slides>li a{display:block;width:100%;height:100%}.flexslider .slides img{width:100%;display:block;margin:auto}.flexslider .slides>li a img{opacity:0}.slides:after{content:"\0020";display:block;visibility:hidden;line-height:0;height:0}.pswp,.pswp__bg,.pswp__scroll-wrap{width:100%;height:100%}html[xmlns] .slides{display:block}.flexslider{margin:0;position:relative;zoom:1;opacity:1!important}.pswp,.pswp__bg,.pswp__container,.pswp__item,.pswp__scroll-wrap{position:absolute;left:0}.pswp{z-index:9999999999!important;display:none;top:0;-ms-touch-action:none;touch-action:none;outline:0}.pswp *{-webkit-box-sizing:border-box;box-sizing:border-box}.pswp__bg{top:0;background:#000;opacity:0;will-change:opacity}.pswp__container{-webkit-touch-callout:none;-ms-touch-action:none;touch-action:none;right:0;top:0;bottom:0;will-change:transform}.pswp__item{right:0;top:0;bottom:0}.pswp__button{position:relative;overflow:visible;-webkit-appearance:none;display:block;border:0;padding:0;margin:0;float:right;opacity:.75;-webkit-box-shadow:none;box-shadow:none}.pswp__button::-moz-focus-inner{padding:0;border:0}.pswp__button,.pswp__button--arrow--left:before,.pswp__button--arrow--right:before{background:url(/_dm/s/rt/scripts/vendor/photoswipe4/icons/default-skin.png) no-repeat;background-size:264px 88px;width:44px;height:44px}.pswp__button--close{background-position:0 -44px}.pswp__button--share{background-position:-44px -44px}.pswp__button--fs{display:none}.pswp__button--zoom{display:none;background-position:-88px 0}.pswp__button--arrow--left,.pswp__button--arrow--right{background:0 0;top:50%;margin-top:-50px;width:70px;height:100px;position:absolute}.pswp__button--arrow--left{left:0}.pswp__button--arrow--right{right:0}.pswp__button--arrow--left:before,.pswp__button--arrow--right:before{content:'';top:35px;background-color:rgba(0,0,0,.3);height:30px;width:32px;position:absolute}.pswp__button--arrow--left:before{left:6px;background-position:-138px -44px}.pswp__button--arrow--right:before{right:6px;background-position:-94px -44px}.pswp__share-modal{display:block;background:rgba(0,0,0,.5);width:100%;height:100%;top:0;left:0;padding:10px;position:absolute;z-index:1600;opacity:0;will-change:opacity}.pswp__share-modal--hidden{display:none}.pswp__share-tooltip{z-index:1620;position:absolute;background:#FFF;top:56px;border-radius:2px;display:block;width:auto;right:44px;-webkit-box-shadow:0 2px 5px rgba(0,0,0,.25);box-shadow:0 2px 5px rgba(0,0,0,.25);-webkit-transform:translateY(6px);-ms-transform:translateY(6px);transform:translateY(6px);will-change:transform}.pswp__counter,.pswp__preloader{height:44px;position:absolute;top:0}.pswp__counter{left:0;font-size:13px;line-height:44px;color:#FFF;opacity:.75;padding:0 10px}.pswp__caption{position:absolute;left:0;bottom:0;width:100%;min-height:44px}.pswp__caption__center{max-width:95%;margin:0 auto;font-size:16px;padding:10px;line-height:20px;color:#CCC;width:960px;font-weight:700;text-align:center}.dmInner,.dmInner a{color:#364b27}.pswp__preloader{width:44px;left:50%;margin-left:-22px;opacity:0;will-change:opacity}.pswp__preloader__icn{width:20px;height:20px;margin:12px}@media screen and (max-width:1024px){.pswp__preloader{position:relative;left:auto;top:auto;margin:0;float:right}}.pswp__ui{-webkit-font-smoothing:auto;visibility:visible;opacity:1;z-index:1550}.pswp__top-bar{position:absolute;left:0;top:0;height:44px;width:100%}.pswp__caption,.pswp__top-bar{will-change:opacity;background-color:rgba(0,0,0,.5)}.pswp__ui--hidden .pswp__button--arrow--left,.pswp__ui--hidden .pswp__button--arrow--right,.pswp__ui--hidden .pswp__caption,.pswp__ui--hidden .pswp__top-bar{opacity:.001}.dmLargeBody #dm .dmRespRow .dmRespCol>.dmWidget{width:280px;max-width:100%}.dmLargeBody #dm .dmRespRow .dmRespCol.large-2>.dmWidget{width:100%}#dm .dmInner .dmWidget:not(.displayNone){display:inline-block}#dm .dmInner .dmWidget:not(.displayNone)[data-display-type=block]{display:block}#dm .dmInner .dmWidget{text-decoration:none;margin:10px 0;clear:both;position:relative;text-align:center;line-height:22px;box-shadow:none;background-image:none;padding:0 0 0 40px;height:auto;border:0;white-space:nowrap}#dm .dmInner .dmWidget.slide-button{margin-bottom:0}#dm .dmInner .dmWidget:after{content:'';display:inline-block;height:100%;vertical-align:middle;width:0;margin-right:-.25em}#dm .dmInner .dmWidget .iconBg{position:absolute;left:0;width:50px;top:50%;margin-top:-13px}#dm .dmWidget .text{display:inline-block;vertical-align:middle;line-height:normal;white-space:normal;padding:10px 7px;max-width:98%}#dm .dmWidget.slide-button:after{display:none}#dm .dmOuter .dmInner .dmWidget[data-buttonstyle=ROUND_SIDES]:not([data-buttonstyle*="_ICON"]) .iconBg,#dm [data-buttonstyle^=THICK_BORDER] .dmWidget:not([data-buttonstyle]) .iconBg{display:none!important}#dm .dmOuter .dmInner .dmWidget[data-buttonstyle*="_ROUND"]{border-radius:6px}#dm .dmOuter .dmInner .dmWidget[data-buttonstyle^=FLAT]{background-clip:border-box}#dm [data-buttonstyle^=THICK_BORDER] .dmWidget:not([data-buttonstyle]){overflow:initial;background-clip:border-box;border:2px solid;padding:0}#dm [data-buttonstyle^=THICK_BORDER] .dmWidget:not([data-buttonstyle]) .text{padding-left:7px}#dm .dmRespRow.dmRespRowNoPadding,.dmContent,.dmInner ul:not(.defaultList),DIV.dmBody{padding:0}#dm .dmOuter .dmInner .dmWidget[data-buttonstyle=ROUND_SIDES]{border-radius:50px;padding:0}#dm .dmOuter .dmInner .dmWidget[data-buttonstyle=ROUND_SIDES]:not([data-buttonstyle*="_ICON"]) .text{padding-left:0;padding-right:0}.dmImageSlider{height:350px;position:relative}.flexslider{-webkit-transform:translate3d(0,0,0)}html:not(.ios-preview) #dm .hasStickyHeader .dmInner div.dmHeaderContainer{position:fixed!important;z-index:100;width:100%}*{border:0 solid #364b27;scrollbar-arrow-color:#fff;scrollbar-track-color:#f2f2f2;scrollbar-face-color:silver;scrollbar-highlight-color:silver;scrollbar-3dlight-color:silver;scrollbar-shadow-color:silver;scrollbar-darkshadow-color:silver;scrollbar-width:12px}body{width:100%;overflow:hidden;-webkit-text-size-adjust:100%!important;-ms-text-size-adjust:100%!important}A IMG{border:0}h3,ul{margin-left:0;margin-right:0}.displayNone{display:none}.dmInner *{-webkit-font-smoothing:antialiased}span.oneIcon:before{display:inline-block}.clearfix,a,img,li,ul{vertical-align:top}#iscrollBody,#site_content{position:relative}.dmOuter{word-wrap:break-word}.dmInner{font-size:16px;background:#fff5db}.dmDesktopBody .dmInner{min-width:960px}.dmHeader{background:#364b27;color:#fff5db;text-align:center;position:relative;width:100%;max-width:100%}.dmContent{margin:0}#site_content ul:not(.defaultList){-webkit-padding-start:0;-moz-padding-start:0;list-style-position:inside}#innerBar{position:relative;height:36px;width:100%;font-size:20px;margin:0;z-index:80}.dmLargeBody .dmBody .dmRespRowsWrapper{background-color:#fff5db}.dmRespRowsWrapper{max-width:960px;margin:0 auto}.dmDivider.defaultDivider{min-height:1px;margin:0}#dm .dmRespColsWrapper{display:block}.dmNewParagraph{text-align:left;margin:8px 0;padding:2px 0}.dmRespRow.dmHomeTopContent.dmImgCoverRow{padding-top:0;padding-bottom:0}.dmLargeBody .dmRespRowsWrapper>.dmRespRow .dmRespCol,.dmLargeBody .fHeader .dmRespRow .dmRespCol{padding-left:.75%;padding-right:.75%}.dmLargeBody .dmRespRowsWrapper>.dmRespRow .dmRespCol:first-child,.dmLargeBody .fHeader .dmRespRow .dmRespCol:first-child{padding-left:0;padding-right:1.5%}.dmLargeBody .dmRespRowsWrapper>.dmRespRow .dmRespCol:last-child,.dmLargeBody .fHeader .dmRespRow .dmRespCol:last-child{padding-right:0;padding-left:1.5%}.dmLargeBody .dmRespRowsWrapper>.dmRespRow .dmRespCol:only-child{padding-left:0;padding-right:0}.dmRespRow.dmHomeMiddleContent .dmRespCol .dmSectionImgHome{margin:0 auto 20px}.dmRespRow.dmHomeMiddleContent .dmRespCol .dmSectionImgHome img{width:100%}#innerBar.lineInnerBar{width:100%;box-shadow:none;-webkit-box-shadow:none;-moz-box-shadow:none;font-size:20px;margin-top:30px;margin-bottom:30px;background-color:transparent;color:#364b27}#innerBar .titleLine{display:table-cell;vertical-align:middle;width:50%}.dmPageTitleRow:not(#innerBar){display:none}.titleLine hr{min-height:1px;background-color:rgba(54,75,39,.2)}.dmStandardDesktop{display:block}.standardHeaderLayout .dmHeader{display:table;float:none;height:50px}.dmInner a{outline:0;vertical-align:inherit}.dmLinksMenu>ul{display:block;margin:0;font-size:inherit}.dmStandardDesktop{margin:0 auto}#dm .dmInner .dmWidget{color:#fff5db;background-color:#364b27}#dm [data-buttonstyle=THICK_BORDER] .dmWidget:not([data-buttonstyle]){border-color:#fff5db}#dm .dmDivider{display:block;margin:10px 0}#dm .dmSocialHub a{display:inline-block;text-decoration:none;margin:0;vertical-align:bottom}.dmSocialHub>div{text-align:inherit}a span.socialHubIcon{width:36px;height:36px;font-size:31px;display:inline-block;text-align:center;margin-right:0;margin-bottom:5px;line-height:36px;box-sizing:content-box;background-image:none!important}.socialHubIcon.style5{color:#fff}#dm .dmSocialHub .socialHubWrapper{display:inline-block;max-width:100%}body{background-color:#eee}#dm .dmDividerWrapper{display:block}#dm [data-buttonstyle] .dmWidget span.iconBg,#dm [data-buttonstyle] .dmWidget span.text{color:#fff5db}.flexslider .slides>li .slide-inner .slide-text{white-space:pre-line}.dmDivider{min-height:2px;border:0 currentColor;color:grey;background:0 0}#dm DIV.dmOuter DIV.dmInner,div.dmInner{background-size:cover;background-repeat:no-repeat}.main-navigation.unifiednav{-js-display:flex;display:flex;justify-content:flex-start;align-items:stretch;overflow:visible}.main-navigation.unifiednav ul{list-style:none;padding:0;margin:0;font-size:1rem}.main-navigation.unifiednav .unifiednav__container{-js-display:flex;display:flex;justify-content:flex-start;list-style:none}.main-navigation.unifiednav:not(.unifiednav_vertical)>.unifiednav__container{flex-wrap:wrap}.main-navigation.unifiednav .unifiednav__container>.unifiednav__item-wrap{-js-display:flex;display:flex;justify-content:flex-start;position:relative;font-weight:400}.main-navigation.unifiednav .unifiednav__container:not([data-depth])>.unifiednav__item-wrap::after,.main-navigation.unifiednav .unifiednav__container:not([data-depth])>.unifiednav__item-wrap::before{content:'';align-self:center;font-weight:700}.main-navigation.unifiednav .unifiednav__container>.unifiednav__item-wrap>.unifiednav__item{-js-display:flex;display:flex;justify-content:flex-start;align-items:center;flex-direction:row;color:inherit;text-decoration:none;position:relative;padding:12px 15px;margin:0;font-weight:inherit;letter-spacing:.03em}.main-navigation.unifiednav .unifiednav__container:not([data-depth])>.unifiednav__item-wrap>.unifiednav__item{padding:0 15px}.main-navigation.unifiednav .unifiednav__container>.unifiednav__item-wrap>.unifiednav__item .nav-item-text{white-space:nowrap}.main-navigation.unifiednav .unifiednav__container:not([data-depth])>.unifiednav__item-wrap>.unifiednav__item .nav-item-text::after,.main-navigation.unifiednav .unifiednav__container:not([data-depth])>.unifiednav__item-wrap>.unifiednav__item .nav-item-text::before{content:'';width:100%;height:0;border:0 solid transparent;border-top-color:currentColor;display:block;opacity:0}#innerBar.lineInnerBar,.main-navigation.unifiednav .unifiednav__container .unifiednav__item:not(.unifiednav__item_has-sub-nav) .icon{display:none}.main-navigation.unifiednav .unifiednav__container:not([data-depth])>.unifiednav__item-wrap>.unifiednav__item.dmNavItemSelected .nav-item-text::after,.main-navigation.unifiednav .unifiednav__container:not([data-depth])>.unifiednav__item-wrap>.unifiednav__item.dmNavItemSelected .nav-item-text::before{opacity:1}.main-navigation.unifiednav.effect-bottom2{padding:calc(12px - .2em - 2px) 15px}.main-navigation.unifiednav.effect-bottom2 .unifiednav__container:not([data-depth])>.unifiednav__item-wrap>.unifiednav__item .nav-item-text::after,.main-navigation.unifiednav.effect-bottom2 .unifiednav__container:not([data-depth])>.unifiednav__item-wrap>.unifiednav__item .nav-item-text::before{transform:scaleX(0);border-top-width:2px}.main-navigation.unifiednav.effect-bottom2 .unifiednav__container:not([data-depth])>.unifiednav__item-wrap>.unifiednav__item .nav-item-text::after{margin-top:.2em}.main-navigation.unifiednav.effect-bottom2 .unifiednav__container:not([data-depth])>.unifiednav__item-wrap>.unifiednav__item .nav-item-text::before{margin-bottom:.2em;border-top-color:transparent}.main-navigation.unifiednav.effect-bottom2 .unifiednav__container:not([data-depth])>.unifiednav__item-wrap>.unifiednav__item.dmNavItemSelected .nav-item-text::after,.main-navigation.unifiednav.effect-bottom2 .unifiednav__container:not([data-depth])>.unifiednav__item-wrap>.unifiednav__item.dmNavItemSelected .nav-item-text::before{transform:scaleX(1)}.main-navigation.unifiednav.effect-bottom2 .unifiednav__container:not([data-depth])>.unifiednav__item-wrap>.unifiednav__item .nav-item-text::after,.main-navigation.unifiednav.effect-bottom2 .unifiednav__container:not([data-depth])>.unifiednav__item-wrap>.unifiednav__item .nav-item-text::before{transform-origin:left}div.dmInner{font-family:Libre Baskerville;font-weight:400;font-size:16px;background-image:url(https://dd-cdn.multiscreensite.com/themes/organic/fotolia/organic-bg-img.jpg)}#dm .dmWidget .text,h3{font-size:25px}.dmLargeBody .dmInner{background-color:#ffedc1}h3{font-family:Gloria Hallelujah;margin-bottom:25px;font-weight:600}.dmLargeBody .dmHomeRespTmpl.dmRespRowsWrapper>div.dmRespRow{padding-left:47px;padding-right:47px}.dmDivider.defaultDivider{background-color:#364b27}#iscrollBody{box-shadow:1px 0 1px rgba(0,0,0,.3)}#hcontainer{height:auto;padding:6px}.dmRespRow.dmHomeMiddleContent .dmRespCol .dmSectionImgHome img{border-radius:50%;-webkit-border-radius:50%;-moz-border-radius:50%}.main-navigation.unifiednav:not(.unifiednav_vertical)>.unifiednav__container{justify-content:inherit}#dm .p_hfcontainer nav.main-navigation.unifiednav{min-width:9em!important;text-align:initial!important}#dm .main-navigation.unifiednav:not([data-nav-structure=VERTICAL])>.unifiednav__container{flex-wrap:wrap;justify-content:inherit}#dm .main-navigation.unifiednav:not([data-nav-structure=VERTICAL])>.unifiednav__container .nav-item-text::before{text-align:left}#dm .main-navigation.unifiednav:not([data-nav-structure=VERTICAL]) .unifiednav__container.left_nav>.unifiednav__item-wrap::after,#dm .main-navigation.unifiednav:not([data-nav-structure=VERTICAL]) .unifiednav__container.left_nav>.unifiednav__item-wrap::before,#dm .main-navigation.unifiednav:not([data-nav-structure=VERTICAL]) .unifiednav__container:not([data-depth])>.unifiednav__item-wrap:not(:last-child)::after,#dm .main-navigation.unifiednav:not([data-nav-structure=VERTICAL]) .unifiednav__container:not([data-depth])>.unifiednav__item-wrap:not(:last-child)::before,#dm .main-navigation.unifiednav:not([data-nav-structure=VERTICAL])[data-divider]:not([data-direction=RIGHT]) .unifiednav__container.left_nav>.unifiednav__item-wrap::before,#dm .main-navigation.unifiednav:not([data-nav-structure=VERTICAL])[data-divider]:not([data-direction=RIGHT]) .unifiednav__container:not([data-depth])>.unifiednav__item-wrap:not(:last-child)::before,#dm .main-navigation.unifiednav[data-nav-structure=SPLIT][data-divider] .unifiednav__container.left_nav>.unifiednav__item-wrap:last-child::after{content:''}#dm .main-navigation.unifiednav[data-nav-structure=SPLIT]>.unifiednav__container{-js-display:flex;display:flex;flex:2 1 0;align-items:center}#dm .main-navigation.unifiednav[data-nav-structure=SPLIT]>.unifiednav__container.left_nav{justify-content:flex-end}#dm .main-navigation.unifiednav[data-nav-structure=SPLIT]>.unifiednav__container.right_nav{justify-content:flex-start}#dm .main-navigation.unifiednav[data-nav-structure=SPLIT] .middleLogoLink{-js-display:flex;display:flex;justify-content:center;align-items:center;flex:0 0 auto;margin-left:5px;margin-right:5px;max-width:300px;width:100px}#dm .main-navigation.unifiednav[data-nav-structure=SPLIT] .navLogo{margin:0;width:auto;height:auto}#dm .main-navigation.unifiednav[data-nav-structure=SPLIT] .unifiednav__container:not([data-depth])>.unifiednav__item-wrap{justify-content:space-between}#dm .main-navigation.unifiednav[data-nav-structure=SPLIT] .unifiednav__container:not([data-depth])>.unifiednav__item-wrap>.unifiednav__item{padding:1px 15px;justify-content:center}#dm .main-navigation.unifiednav[data-nav-structure=SPLIT] .unifiednav__item-wrap::after,#dm .main-navigation.unifiednav[data-nav-structure=SPLIT] .unifiednav__item-wrap::before,#dm .main-navigation.unifiednav[data-nav-structure=SPLIT] .unifiednav__item-wrap>.unifiednav__item{flex:1 1 auto}#dm div.dmInner,#dm div.dmInner .dmRespCol{color:rgba(0,105,62,1)}#dm #dm-outer-wrapper .imageWidget img{border-color:rgba(255,255,255,1);border-width:0;border-style:solid}#dm [data-buttonstyle] div.dmInner #site_content .dmWidget{border-color:rgba(255,255,255,1);border-width:2px;border-style:solid}.stickyHeaderSpacer{height:127px}#dm DIV.dmOuter DIV.dmInner{background-image:url(https://cdn.website-editor.net/a21dac372fa3481fb8b3f890680e5ceb/dms3rep/multi/desktop/Dart-flickr+%282%29.jpg);background-color:rgba(0,105,62,1);background-attachment:fixed}.dmLargeBody #dm .dmBody .dmRespRowsWrapper{background-color:rgba(249,255,252,1)}#dm .p_hfcontainer .main-navigation.unifiednav:not(.unifiednav_vertical) .unifiednav__container:not([data-depth])>.unifiednav__item-wrap:not(:last-child)::after,#dm .p_hfcontainer .main-navigation.unifiednav:not(.unifiednav_vertical) .unifiednav__container:not([data-depth])>.unifiednav__item-wrap:not(:last-child)::before{font-size:15px!important}#dm .p_hfcontainer div.u_1330356422 .socialHubIcon{color:rgba(222,223,225,1)!important;border-color:rgba(222,223,225,1)!important}#dm .dmInner div.dmHeader,#dm .dmInner div.dmHeader.u_hcontainer,#dm .dmInner div.u_hcontainer,#dm .p_hfcontainer a.u_1531914392{border-color:transparent!important;border-style:solid!important;border-width:1px!important}#dm .p_hfcontainer a.u_1531914392 .iconBg{display:inline!important}#dm .p_hfcontainer a.u_1531914392 span.icon{color:rgba(201,201,201,1)!important;fill:rgba(201,201,201,1)!important}#dm .p_hfcontainer a.u_1531914392 span.text{color:rgba(201,201,201,1)!important}#dm .p_hfcontainer a.u_1531914392{background-color:rgba(0,0,0,0)!important;border-radius:0!important;-moz-border-radius:0!important;-webkit-border-radius:0!important;box-shadow:none!important;-moz-box-shadow:none!important;-webkit-box-shadow:none!important}#dm .p_hfcontainer .u_1884136207.main-navigation.unifiednav:not([data-nav-structure=VERTICAL]) .unifiednav__container:not([data-depth])>.unifiednav__item-wrap:not(:last-child)::after,#dm .p_hfcontainer .u_1884136207.main-navigation.unifiednav:not([data-nav-structure=VERTICAL]) .unifiednav__container:not([data-depth])>.unifiednav__item-wrap:not(:last-child)::before{font-size:14px!important}#dm .dmInner div.dmHeader.u_hcontainer,#dm .dmInner div.u_hcontainer{background-color:rgba(0,105,62,1)!important;box-shadow:none!important;-moz-box-shadow:none!important;-webkit-box-shadow:none!important}#dm .dmInner div.dmHeader{box-shadow:none!important;-moz-box-shadow:none!important;-webkit-box-shadow:none!important}#dm .dmInner div.fHeader .dmHeader[freeheader=true]{padding:12px 0!important}.fHeader #hcontainer.dmHeader[freeheader=true]{padding-top:initial!important;padding-bottom:initial!important}#dm .p_hfcontainer div.u_1978607787{padding-left:0!important}#dm .p_hfcontainer div.u_1893520472{padding:0!important}#dm .p_hfcontainer div.u_1737129411{padding-left:10px!important}#dm .p_hfcontainer .u_1330356422 .socialHubInnerDiv a{margin-right:8px!important}#dm .p_hfcontainer .u_1330356422 .socialHubIcon{width:25px!important;height:25px!important;font-size:16.67px!important;line-height:25px!important}#dm .p_hfcontainer .u_1330356422 .socialHubIcon:after{width:33px!important;height:25px!important}#dm .p_hfcontainer a.u_1531914392 span.text{font-size:14px!important}#dm .p_hfcontainer div.u_1789014159{margin-top:0!important;padding:0 15px!important}#dm .p_hfcontainer a.u_1531914392{height:41px!important;float:none!important;top:0!important;left:0!important;width:100%!important;position:relative!important;max-width:calc(100% - 0px)!important;min-width:25px!important;text-align:left!important;display:block!important;padding:0 0 0 40px!important;margin:0 auto 10px!important}#dm .p_hfcontainer div.u_1330356422,#dm .p_hfcontainer nav.u_1884136207{float:none!important;top:0!important;left:0!important;position:relative!important;height:auto!important;max-width:calc(100% - 0px)!important;min-width:25px!important;width:100%!important}#dm .p_hfcontainer div.u_1330356422{display:block!important;text-align:center!important;padding:4px 0 0!important;margin:0 auto!important}#dm .dmBody .u_1264186446,#dm .dmBody .u_1326984801,#dm .dmBody .u_1378153754,#dm .dmBody .u_1379221159,#dm .dmBody .u_1445435247,#dm .dmBody .u_1455991947,#dm .dmBody .u_1463462719,#dm .dmBody .u_1578100938,#dm .dmBody .u_1601630133,#dm .dmBody .u_1602413358,#dm .dmBody .u_1701518428,#dm .dmBody .u_1806959940,#dm .dmBody .u_1815949980,#dm .dmBody .u_1830026166,#dm .dmBody .u_1848953316,#dm .dmBody .u_1917437112,#dm .dmBody a.u_1061855180 .iconBg,#dm .dmBody a.u_1134178673 .iconBg,#dm .dmBody a.u_1360788789 .iconBg,#dm .dmBody a.u_1526251983 .iconBg,#dm .dmBody a.u_1617258688 .iconBg,#dm .dmBody a.u_1625418141 .iconBg,#dm .dmBody a.u_1830387126 .iconBg,#dm .dmBody a.u_1934705584 .iconBg{display:none!important}#dm .p_hfcontainer nav.u_1884136207.main-navigation.unifiednav .unifiednav__container:not([data-depth])>.unifiednav__item-wrap>.unifiednav__item{color:rgba(115,111,111,1)!important;font-size:14px!important}#dm .p_hfcontainer nav.u_1884136207{color:#fff!important;justify-content:flex-start!important;align-items:stretch!important;text-align:start!important;padding:6.8px 15px!important;margin:0!important}#dm .dmBody a.u_1061855180,#dm .dmBody a.u_1360788789,#dm .dmBody a.u_1617258688,#dm .dmBody a.u_1830387126,#dm .dmBody div.u_1000448577{float:none!important;top:0!important;left:0!important;position:relative!important;max-width:100%!important;min-width:0!important;text-align:center!important;margin:0 auto!important}#dm .dmBody div.u_1612915634,#dm .dmBody div.u_1969332617{background-color:rgba(255,255,255,1)!important}#dm .dmBody a.u_1061855180{background-color:rgba(0,105,62,1)!important;border-radius:50px!important;-moz-border-radius:50px!important;-webkit-border-radius:50px!important}#dm .dmBody a.u_1617258688,#dm .dmBody a.u_1830387126{background-color:rgba(0,105,62,1)!important;border-radius:50px!important}#dm .dmBody a.u_1830387126{-moz-border-radius:50px!important;-webkit-border-radius:50px!important}#dm .dmBody a.u_1617258688{-moz-border-radius:50px!important;-webkit-border-radius:50px!important}#dm .dmBody div.u_1183381372,#dm .dmBody div.u_1867978621{background-color:rgba(255,255,255,1)!important}#dm .dmBody a.u_1360788789{border-radius:50px!important;-moz-border-radius:50px!important;-webkit-border-radius:50px!important;background-color:rgba(0,105,62,1)!important}#dm .dmBody div.u_1377203594 .color-overlay{background-color:rgba(0,0,0,0)!important}#dm .dmBody div.u_1000448577 hr{color:#00693e!important;background:0 0!important;height:0!important;background-size:initial!important;min-height:0!important;border-color:currentColor!important;border-width:1px!important;border-top-style:solid!important}#dm .dmBody div.u_1503633176 hr{color:rgba(0,105,62,1)!important;border-top-width:1px!important;border-top-style:solid!important}#dm .dmBody div.u_1000448577{width:100%!important;height:auto!important;padding:0!important}#dm .dmBody div.u_1183381372{padding-top:40px!important}#dm .dmBody a.u_1061855180,#dm .dmBody a.u_1360788789,#dm .dmBody a.u_1617258688,#dm .dmBody a.u_1830387126{width:274px!important;height:54px!important;display:block!important;padding:0!important}#dm .dmBody div.u_1377203594{width:866px!important;height:90px!important}#imageZone{position:absolute;margin:auto}.coloumns{border-radius:3px;background-color:#f9980d;height:18px;width:6px;-webkit-animation-name:loader;-webkit-animation-duration:1s;-webkit-animation-iteration-count:infinite;-webkit-animation-direction:linear;-moz-animation-name:loader;-moz-animation-duration:1s;-moz-animation-iteration-count:infinite;-moz-animation-direction:linear;opacity:.25;-webkit-transform:scale(.7);-webkit-transform-origin:50% 180%;-moz-transform:scale(.7);-moz-transform-origin:50% 180%;position:absolute}#coloumn1{-webkit-transform:rotate(0);-webkit-animation-delay:-.914s;-moz-transform:rotate(0);-moz-animation-delay:-.914s}#coloumn2{-webkit-transform:rotate(30deg);-webkit-animation-delay:-.831s;-moz-transform:rotate(30deg);-moz-animation-delay:-.831s}#coloumn3{-webkit-transform:rotate(60deg);-webkit-animation-delay:-.747s;-moz-transform:rotate(60deg);-moz-animation-delay:-.747s}#coloumn4{-webkit-transform:rotate(90deg);-webkit-animation-delay:-.664s;-moz-transform:rotate(90deg);-moz-animation-delay:-.664s}#coloumn5{-webkit-transform:rotate(120deg);-webkit-animation-delay:-.581s;-moz-transform:rotate(120deg);-moz-animation-delay:-.581s}#coloumn6{-webkit-transform:rotate(150deg);-webkit-animation-delay:-.498s;-moz-transform:rotate(150deg);-moz-animation-delay:-.498s}#coloumn7{-webkit-transform:rotate(180deg);-webkit-animation-delay:-.415s;-moz-transform:rotate(180deg);-moz-animation-delay:-.415s}#coloumn8{-webkit-transform:rotate(210deg);-webkit-animation-delay:-.332s;-moz-transform:rotate(210deg);-moz-animation-delay:-.332s}#coloumn9{-webkit-transform:rotate(240deg);-webkit-animation-delay:-.249s;-moz-transform:rotate(240deg);-moz-animation-delay:-.249s}#coloumn10{-webkit-transform:rotate(270deg);-webkit-animation-delay:-.166s;-moz-transform:rotate(270deg);-moz-animation-delay:-.166s}#coloumn11{-webkit-transform:rotate(300deg);-webkit-animation-delay:-83ms;-moz-transform:rotate(300deg);-moz-animation-delay:-83ms}#coloumn12{-webkit-transform:rotate(330deg);-moz-transform:rotate(330deg)}
+    .dmDesktopBody [data-anim-desktop] {
+        visibility: hidden;
+    }
+
+    
+</style>
+
+
+
+<!-- End render the required css and JS in the head section -->
+
+
+
+
+
+
+
+
+  <title>
+    WebDCR.com - Dartmouth Broadcasting/Dartmouth College Radio
+  </title>
+  <meta name="keywords" content="wdcr, webdcr, dartmouth broadcasting, dartmouth college radio, college radio, hanover new hampshire,  wfrd, 99rock, dartmouth radio"/>
+  <meta name="description" content="Located on the campus on Dartmouth College.  Dartmouth Broadcasting is a hands-on, learn-by-doing, student run organization that operates in Robinson Hall."/>
+
+  <meta name="twitter:card" content="summary"/>
+  <meta name="twitter:title" content="WebDCR.com - Dartmouth Broadcasting/Dartmouth College Radio"/>
+  <meta name="twitter:description" content="Located on the campus on Dartmouth College.  Dartmouth Broadcasting is a hands-on, learn-by-doing, student run organization that operates in Robinson Hall."/>
+  <meta name="twitter:image:src" content="https://cdn.website-editor.net/a21dac372fa3481fb8b3f890680e5ceb/dms3rep/multi/112769-WDCR.jpg"/>
+  <meta property="og:description" content="Located on the campus on Dartmouth College.  Dartmouth Broadcasting is a hands-on, learn-by-doing, student run organization that operates in Robinson Hall."/>
+  <meta property="og:title" content="WebDCR.com - Dartmouth Broadcasting/Dartmouth College Radio"/>
+  <meta property="og:image" content="https://cdn.website-editor.net/a21dac372fa3481fb8b3f890680e5ceb/dms3rep/multi/112769-WDCR.jpg"/>
+
+
+
+</head>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<body id="dmRoot"  class="supportsFontIcons supportsFontIcons dmRoot dmDesktopBody fix-mobile-scrolling dmResellerSite msie dmLargeBody " style="padding:0;margin:0;"
+            >
+    
+
+
+        <div id="disabledImageZone" style="display:none;z-index:-1">
+            <style type="text/css">
+                #imageZone {
+                    position: absolute;
+                    margin: auto;
+                }
+
+                .coloumns {
+                    border-radius: 3px;
+                    background-color: rgb(249, 152, 13); /*border:1px solid #999;*/
+                    height: 18px;
+                    width: 6px;
+                    -webkit-animation-name: loader;
+                    -webkit-animation-duration: 1s;
+                    -webkit-animation-iteration-count: infinite;
+                    -webkit-animation-direction: linear;
+                    -moz-animation-name: loader;
+                    -moz-animation-duration: 1s;
+                    -moz-animation-iteration-count: infinite;
+                    -moz-animation-direction: linear;
+                    opacity: .25;
+                    -webkit-transform: scale(0.7);
+                    -webkit-transform-origin: 50% 180%;
+                    -moz-transform: scale(0.7);
+                    -moz-transform-origin: 50% 180%;
+                    position: absolute;
+                }
+
+                #coloumn1 {
+                    -webkit-transform: rotate(0deg);
+                    -webkit-animation-delay: -.914s;
+                    -moz-transform: rotate(0deg);
+                    -moz-animation-delay: -.914s;
+                }
+
+                #coloumn2 {
+                    -webkit-transform: rotate(30deg);
+                    -webkit-animation-delay: -.831s;
+                    -moz-transform: rotate(30deg);
+                    -moz-animation-delay: -.831s;
+                }
+
+                #coloumn3 {
+                    -webkit-transform: rotate(60deg);
+                    -webkit-animation-delay: -.747s;
+                    -moz-transform: rotate(60deg);
+                    -moz-animation-delay: -.747s;
+                }
+
+                #coloumn4 {
+                    -webkit-transform: rotate(90deg);
+                    -webkit-animation-delay: -.664s;
+                    -moz-transform: rotate(90deg);
+                    -moz-animation-delay: -.664s;
+                }
+
+                #coloumn5 {
+                    -webkit-transform: rotate(120deg);
+                    -webkit-animation-delay: -.581s;
+                    -moz-transform: rotate(120deg);
+                    -moz-animation-delay: -.581s;
+                }
+
+                #coloumn6 {
+                    -webkit-transform: rotate(150deg);
+                    -webkit-animation-delay: -.498s;
+                    -moz-transform: rotate(150deg);
+                    -moz-animation-delay: -.498s;
+                }
+
+                #coloumn7 {
+                    -webkit-transform: rotate(180deg);
+                    -webkit-animation-delay: -.415s;
+                    -moz-transform: rotate(180deg);
+                    -moz-animation-delay: -.415s;
+                }
+
+                #coloumn8 {
+                    -webkit-transform: rotate(210deg);
+                    -webkit-animation-delay: -.332s;
+                    -moz-transform: rotate(210deg);
+                    -moz-animation-delay: -.332s;
+                }
+
+                #coloumn9 {
+                    -webkit-transform: rotate(240deg);
+                    -webkit-animation-delay: -.249s;
+                    -moz-transform: rotate(240deg);
+                    -moz-animation-delay: -.249s;
+                }
+
+                #coloumn10 {
+                    -webkit-transform: rotate(270deg);
+                    -webkit-animation-delay: -.166s;
+                    -moz-transform: rotate(270deg);
+                    -moz-animation-delay: -.166s;
+                }
+
+                #coloumn11 {
+                    -webkit-transform: rotate(300deg);
+                    -webkit-animation-delay: -.083s;
+                    -moz-transform: rotate(300deg);
+                    -moz-animation-delay: -.083s;
+                }
+
+                #coloumn12 {
+                    -webkit-transform: rotate(330deg);
+                    -moz-transform: rotate(330deg);
+                }
+
+                @-webkit-keyframes loader {
+                    0% {
+                        opacity: 1;
+                    }
+                    100% {
+                        opacity: .25;
+                    }
+                }
+
+                @-moz-keyframes loader {
+                    0% {
+                        opacity: 1;
+                    }
+                    100% {
+                        opacity: .25;
+                    }
+                }
+            </style>
+            <div id='imageZone'>
+                <div id='coloumn1' class='coloumns'></div>
+                <div id='coloumn2' class='coloumns'></div>
+                <div id='coloumn3' class='coloumns'></div>
+                <div id='coloumn4' class='coloumns'></div>
+                <div id='coloumn5' class='coloumns'></div>
+                <div id='coloumn6' class='coloumns'></div>
+                <div id='coloumn7' class='coloumns'></div>
+                <div id='coloumn8' class='coloumns'></div>
+                <div id='coloumn9' class='coloumns'></div>
+                <div id='coloumn10' class='coloumns'></div>
+                <div id='coloumn11' class='coloumns'></div>
+                <div id='coloumn12' class='coloumns'></div>
+            </div>
+        </div>
+
+        <!-- ========= Site Content ========= -->
+        <div id="dm" class='dmwr'>
+            
+            <div class="dm_wrapper standard-var5 widgetStyle-3 standard">
+                 <div dmwrapped="true" id="1074644490" class="dm-home-page"> <div dmtemplateid="StandardLayoutMultiD" class="standardHeaderLayout dm-bfs dm-layout-home hasAnimations hasStickyHeader dmPageBody d-page-1767736603 dmFreeHeader" id="dm-outer-wrapper" data-page-class="1767736603" data-buttonstyle="THICK_BORDER" data-background-size="cover" data-background-attachment="" data-background-repeat="no-repeat" data-background-position="50% 0" data-background-image="url(https://dd-cdn.multiscreensite.com/themes/organic/fotolia/organic-bg-img.jpg)" data-background-hide-inner="false" data-background-fullbleed="false"> <div id="dmStyle_outerContainer" class="dmOuter"> <div id="dmStyle_innerContainer" class="dmInner"> <div class="dmLayoutWrapper standard-var dmStandardDesktop"> <ul class="dmn dmLayoutNav hiddenNavPlaceHolder navPlaceHolder dmDisplay_None"></ul> 
+ <div> <div id="iscrollBody"> <div id="site_content"> <div class="dmHeaderContainer fHeader d-header-wrapper"> <div id="hcontainer" class="dmHeader p_hfcontainer u_hcontainer" freeheader="true" headerlayout="b58ba5b5703b4cd7b5f5f7951565dc87===horizontal-layout-11" layout="7621f7e0002549258c16efb7610abc8f===header" data-scrollable-target="body" data-scrollable-target-threshold="1" data-scroll-responder-id="1" logo-size-target="80%"> <div dm:templateorder="76" class="dmHeaderResp" id="1513804357"> <div class="dmRespRow dmDefaultListContentRow u_1789014159 fullBleedChanged fullBleedMode" style="text-align:center" id="1789014159"> <div class="dmRespColsWrapper" id="1351361358"> <div class="u_1893520472 small-12 dmRespCol large-2 medium-2" id="1893520472"> <div class="u_1330356422 align-center text-align-center dmSocialHub" id="1330356422" dmle_extension="social_hub" data-element-type="social_hub" wr="true" networks="" icon="true" surround="true" adwords=""> <div class="socialHubWrapper"> <div class="socialHubInnerDiv "> <a href="https://facebook.com/radiodartmouth" target="_blank" dmle_dont_remove="target" dm_dont_rewrite_url="true"> <span class="dmSocialFacebook dm-icon-facebook oneIcon socialHubIcon style5" data-hover-effect=""></span> 
+</a> 
+ <a href="https://twitter.com/99Rock" target="_blank" dmle_dont_remove="target" dm_dont_rewrite_url="true"> <span class="dmSocialTwitter dm-icon-twitter oneIcon socialHubIcon style5" data-hover-effect=""></span> 
+</a> 
+ <a href="https://linkedin.com/in/dartmouth-broadcasting-10553b38" target="_blank" dmle_dont_remove="target" dm_dont_rewrite_url="true"> <span class="dmSocialLinkedin icon-linkedin oneIcon socialHubIcon style5" data-hover-effect=""></span> 
+</a> 
+ <a href="mailto:Leanna.Arjune.19@dartmouth.edu" dmle_dont_remove="target" dm_dont_rewrite_url="true"> <span class="dmSocialEmail dm-social-icon-email oneIcon socialHubIcon style5" data-hover-effect=""></span> 
+</a> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div class="u_1737129411 dmRespCol small-12 large-8 medium-8" id="1737129411"> <nav class="u_1884136207 effect-bottom2 main-navigation unifiednav dmLinksMenu" role="navigation" layout-main="horizontal_nav_layout_1" layout-sub="submenu_horizontal_1" data-show-vertical-sub-items="HOVER" id="1884136207" dmle_extension="onelinksmenu" data-element-type="onelinksmenu" wr="true" data-logo-src="https://cdn.website-editor.net/a21dac372fa3481fb8b3f890680e5ceb/dms3rep/multi/desktop/112769-WDCR.jpg" alt="" data-nav-structure="SPLIT" icon="true" surround="true" adwords="" data-from-nav="true" data-sub-nav="true" data-items="-1" custom-li-class="" custom-ul-class="" custom-a-class="" custom-inner-ul-class="" custom-nested-inner-ul-class="" custom-span-class="" navigation-id="unifiedNav" data-links-level="0" data-divider=""> <ul class="unifiednav__container left_nav "> <li class=" unifiednav__item-wrap "> <a href="/" class="unifiednav__item  dmNavItemSelected  dmUDNavigationItem_00  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+         Home
+        ">Home<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+</li> 
+ <li class=" unifiednav__item-wrap "> <a href="/showsondemand" class="unifiednav__item  dmUDNavigationItem_01  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+         Shows On Demand
+        ">Shows On Demand<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+</li> 
+ <li class=" unifiednav__item-wrap "> <a href="/about" class="unifiednav__item  dmUDNavigationItem_04  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+         About Us
+        ">About Us<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+</li> 
+</ul> 
+ <a class="middleLogoLink" href="/home"><img class="navLogo" id="navLogo" src="https://cdn.website-editor.net/a21dac372fa3481fb8b3f890680e5ceb/dms3rep/multi/desktop/112769-WDCR.jpg" alt="" onerror="handleImageLoadError(this)"/></a> 
+ <ul class="unifiednav__container right_nav "> <li class=" unifiednav__item-wrap "> <a href="/gallery" class="unifiednav__item  dmUDNavigationItem_03  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+         Gallery
+        ">Gallery<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+</li> 
+ <li class=" unifiednav__item-wrap "> <a href="/history" class="unifiednav__item  dmUDNavigationItem_02  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+         History
+        ">History<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+</li> 
+ <li class=" unifiednav__item-wrap "> <a href="/wherearetheynow" class="unifiednav__item  dmUDNavigationItem_05  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+         Where Are They Now?
+        ">Where Are They Now?<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+</li> 
+</ul> 
+</nav> 
+</div> 
+ <div class="u_1978607787 dmRespCol small-12 large-2 medium-2" id="1978607787"> <a class="u_1531914392 default dmDefaultGradient align-center dmCall voipReplacement dmWidget dmNoMark dmWwr" href="tel:324234" contenteditable="false" onclick=";return dm_gaq_push_event('ClickToCall', 'Call',null,'a21dac372fa3481fb8b3f890680e5ceb', this);" dm_dont_rewrite_url="true" id="1531914392" dmle_extension="clicktocall" data-element-type="clicktocall" wr="true" data-buttonstyle="FLAT_ROUND_ICON" data-display-type="block" icon="true" surround="true" description="CALL NOW" adwords="" icon-name="icon-phone" phone="324234" text="" image=""> <span class="iconBg"> <span class="icon hasFontIcon icon-phone"></span> 
+</span> 
+ <span class="text" dmle_select_parent="1">CALL NOW</span> 
+</a> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div class="stickyHeaderSpacer" id="stickyHeaderSpacer" data-new="true"></div> 
+ <div class="dmRespRow dmRespRowStable dmRespRowNoPadding dmPageTitleRow "> <div class="dmRespColsWrapper"> <div class="large-12 dmRespCol"> <div id="innerBar" class="innerBar lineInnerBar dmDisplay_None"> <div class="titleLine display_None"><hr/></div> 
+<!-- Page title is hidden in css for new responsive sites. It is left here only so we don't break old sites. Don't copy it to new layouts --> <div id="pageTitleText"></div> 
+ <div class="titleLine display_None"><hr/></div> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div dmwrapped="true" id="1074644490" class="dmBody u_dmStyle_template_home dm-home-page"> <div id="allWrapper" class="allWrapper"><!-- navigation placeholders --> <div id="dm_content" class="dmContent"> <div dm:templateorder="105" class="dmHomeRespTmpl mainBorder dmRespRowsWrapper" id="1767736603"> <div class="dmRespRow dmDividerRow displayNone" id="1856794189"> <div class="dmRespColsWrapper clearfix" id="1598845946"> <div class="large-12 medium-12 small-12 dmRespCol" id="1276232197"> <div class="dmDividerWrapper clearfix" id="1426507836" data-element-type="dDividerId"><hr class="dmDivider defaultDivider" id="1626536633"/></div> 
+</div> 
+</div> 
+</div> 
+ <div class="dmRespRow u_1183381372" style="text-align: center;" id="1183381372"> <div class="dmRespColsWrapper" id="1486993109"> <div class="dmRespCol small-12 medium-12 large-12" id="1610482420"> <span id="1958300120"></span> 
+ <div class="flex-container dmImageSlider dmNoMargin dmNoMark" editablewidget="true" data-widget-type="imageSlider" id="1056739786" data-element-type="dSliderId"> <div class="flexslider ed-version nav-layout-2" sliderscriptparams="{ stretch: true, animation: true, randomize: false, directionNav: true, isAutoPlay: true, isFade: true, controlNav: false, slideshowSpeed: 7000, animationDuration: 600, pausePlay: true}" id="1274939119"> <ul class="slides" id="1962250904"> <li layout="center" position="center" animation="fadeInUp" show-content="true" color-overlay="true" text-background="true" id="1395212997" class="" show-caption="true"><img dm="true" src="https://cdn.website-editor.net/md/and1/dms3rep/multi/desktop/121405.jpeg" id="1661377613" onerror="handleImageLoadError(this)"/> <div class="color-overlay" id="1150238814"></div> 
+ <div class="slide-inner" id="1084810975"> <div class="text-wrapper" id="1564035309"> <h3 class="slide-title u_1348609082" id="1348609082">EFQ</h3> 
+ <div class="slide-text richText u_1204328517" id="1204328517"><p class="rteBlock">Mondays at 4p with Jacob Hunter</p></div></div> 
+ <div class="slide-button dmWidget clearfix slide-button-invisible" id="1441840695"> <span class="iconBg" id="1303620659"> <span class="icon hasFontIcon icon-star" id="1575135107"></span> 
+</span> 
+ <span class="text" id="1533462720">Button</span> 
+</div> 
+</div> 
+</li> 
+ <li layout="center" position="center" animation="fadeInUp" show-content="true" color-overlay="true" text-background="true" id="1270040626" class="" show-caption="true"><img dm="true" src="https://cdn.website-editor.net/md/and1/dms3rep/multi/desktop/124514.jpeg" id="1673193965" onerror="handleImageLoadError(this)"/> <div class="color-overlay" id="1024786676"></div> 
+ <div class="slide-inner" id="1359421632"> <div class="text-wrapper" id="1544646317"> <h3 class="slide-title u_1031542963" id="1031542963">Handshake</h3> 
+ <div class="slide-text richText u_1293188340" id="1293188340"><p class="rteBlock">Fridays at 6p (biweekly) with Augusta Terkildsen</p></div></div> 
+ <div class="slide-button dmWidget clearfix slide-button-invisible" id="1412203662"> <span class="iconBg" id="1836821226"> <span class="icon hasFontIcon icon-star" id="1539189223"></span> 
+</span> 
+ <span class="text" id="1173683892">Button</span> 
+</div> 
+</div> 
+</li> 
+ <li layout="center" position="center" animation="fadeInUp" show-content="true" color-overlay="true" text-background="true" id="1353101162" class="" show-caption="true"><img dm="true" src="https://cdn.website-editor.net/a21dac372fa3481fb8b3f890680e5ceb/dms3rep/multi/desktop/WDCR-WFRD+Dartmouth+College+Radio+.jpg" id="1988229665" onerror="handleImageLoadError(this)"/> <div class="color-overlay" id="1567646524"></div> 
+ <div class="slide-inner" id="1694622607"> <div class="text-wrapper" id="1829605629"> <h3 class="slide-title u_1698884766" id="1698884766">Misunderstood Madmen</h3> 
+ <div class="slide-text richText u_1377466746" id="1377466746"><p class="rteBlock">Thursdays at 8p with Bradley Hubsch and Will Tacket</p></div></div> 
+ <div class="slide-button dmWidget clearfix slide-button-invisible" id="1639409968"> <span class="iconBg" id="1620367065"> <span class="icon hasFontIcon icon-star" id="1981549646"></span> 
+</span> 
+ <span class="text" id="1266665568">Button</span> 
+</div> 
+</div> 
+</li> 
+ <li layout="center" position="center" animation="fadeInUp" show-content="true" color-overlay="true" text-background="true" id="1552659002" class="" show-caption="true"><img dm="true" src="https://cdn.website-editor.net/md/and1/dms3rep/multi/desktop/13206.jpeg" id="1787864723" onerror="handleImageLoadError(this)"/> <div class="color-overlay" id="1538464636"></div> 
+ <div class="slide-inner" id="1939409177"> <div class="text-wrapper" id="1048463220"> <h3 class="slide-title u_1038159662" id="1038159662">Snack Time!</h3> 
+ <div class="slide-text richText u_1919546006" id="1919546006"><p class="rteBlock">Thursdays at 5p with Daniela Arma</p></div></div> 
+ <div class="slide-button dmWidget clearfix slide-button-invisible" id="1553733576"> <span class="iconBg" id="1345602192"> <span class="icon hasFontIcon icon-star" id="1759940442"></span> 
+</span> 
+ <span class="text" id="1461205726">Button</span> 
+</div> 
+</div> 
+</li> 
+ <li layout="center" position="center" animation="fadeInUp" show-content="true" color-overlay="true" text-background="true" id="1596705964" class="" show-caption="true"><img dm="true" src="https://cdn.website-editor.net/md/and1/dms3rep/multi/desktop/120765.jpeg" id="1292848773" onerror="handleImageLoadError(this)"/> <div class="color-overlay" id="1743906751"></div> 
+ <div class="slide-inner" id="1179694238"> <div class="text-wrapper" id="1037163665"> <h3 class="slide-title u_1533780635" id="1533780635">Things that are good</h3> 
+ <div class="slide-text richText u_1499266280" id="1499266280"><p class="rteBlock">Tuesdays at 8p with Lydia Blanchet and Grace Callahan</p></div></div> 
+ <div class="slide-button dmWidget clearfix slide-button-invisible" id="1151793341"> <span class="iconBg" id="1710395387"> <span class="icon hasFontIcon icon-star" id="1077628186"></span> 
+</span> 
+ <span class="text" id="1281034575">Button</span> 
+</div> 
+</div> 
+</li> 
+ <li layout="center" position="center" animation="fadeInUp" show-content="true" color-overlay="true" text-background="true" id="1942306662" class="" show-caption="true"><img dm="true" src="https://cdn.website-editor.net/md/and1/dms3rep/multi/desktop/116046.jpeg" id="1594952814" onerror="handleImageLoadError(this)"/> <div class="color-overlay" id="1712921785"></div> 
+ <div class="slide-inner" id="1665914495"> <div class="text-wrapper" id="1953073557"> <h3 class="slide-title u_1804527295" id="1804527295">The Chillout Sessions</h3> 
+ <div class="slide-text richText u_1188647949" id="1188647949"><p class="rteBlock">Mondays at 9p with DJ Fire</p></div></div> 
+ <div class="slide-button dmWidget clearfix slide-button-invisible" id="1024386241"> <span class="iconBg" id="1490549835"> <span class="icon hasFontIcon icon-star" id="1672665984"></span> 
+</span> 
+ <span class="text" id="1640243263">Button</span> 
+</div> 
+</div> 
+</li> 
+ <li layout="center" position="center" animation="fadeInUp" show-content="true" color-overlay="true" text-background="true" id="1217756367" class="" show-caption="true"><img dm="true" src="https://cdn.website-editor.net/md/and1/dms3rep/multi/desktop/116047.jpeg" id="1826844348" onerror="handleImageLoadError(this)"/> <div class="color-overlay" id="1050872136"></div> 
+ <div class="slide-inner" id="1546221351"> <div class="text-wrapper" id="1612811035"> <h3 class="slide-title u_1373833374" id="1373833374">Club 99.3 HD2</h3> 
+ <p class="slide-text u_1794560471" id="1794560471">Daily at Midnight on WebDCR.com</p> 
+</div> 
+ <div class="slide-button dmWidget clearfix slide-button-invisible" id="1223267841"> <span class="iconBg" id="1178578625"> <span class="icon hasFontIcon icon-star" id="1527369924"></span> 
+</span> 
+ <span class="text" id="1591920658">Button</span> 
+</div> 
+</div> 
+</li> 
+ <li layout="center" position="center" animation="fadeInUp" show-content="true" color-overlay="true" text-background="true" id="1243475950" class="" show-caption="true"><img dm="true" src="https://cdn.website-editor.net/md/and1/dms3rep/multi/desktop/108319.jpeg" id="1088194503" onerror="handleImageLoadError(this)"/> <div class="color-overlay" id="1335172669"></div> 
+ <div class="slide-inner" id="1906190970"> <div class="text-wrapper" id="1453340781"> <h3 class="slide-title u_1919546171" id="1919546171">The Nightfly</h3> 
+ <div class="slide-text richText u_1474041876" id="1474041876"><p class="rteBlock">Mondays at 8p with gray Christie</p></div></div> 
+ <div class="slide-button dmWidget clearfix slide-button-invisible" id="1709897310"> <span class="iconBg" id="1232762791"> <span class="icon hasFontIcon icon-star" id="1176138753"></span> 
+</span> 
+ <span class="text" id="1078388188">Button</span> 
+</div> 
+</div> 
+</li> 
+ <li layout="center" position="center" animation="fadeInUp" show-content="true" color-overlay="true" text-background="true" id="1607487182" class="" show-caption="true"> <a href="http://www.wfrd.com" id="1527160383" class="" target="_blank" dm_dont_rewrite_url="false" file="false"><img dm="true" src="https://cdn.website-editor.net/md/and1/dms3rep/multi/desktop/10722.jpeg" id="1226616882" onerror="handleImageLoadError(this)"/></a> 
+ <div class="color-overlay" id="1177708580"></div> 
+ <div class="slide-inner" id="1054693301"> <div class="text-wrapper" id="1715670199"> <h3 class="slide-title u_1477513250" id="1477513250">99Rock WFRD-FM 99.3 &quot;The Rock Station&quot;</h3> 
+ <p class="slide-text u_1615076252" id="1615076252">All Rock - All the Time - Since 1976</p> 
+</div> 
+ <div class="slide-button dmWidget clearfix slide-button-invisible" id="1698977096"> <span class="iconBg" id="1101363337"> <span class="icon hasFontIcon icon-star" id="1623112466"></span> 
+</span> 
+ <span class="text" id="1517094996">Button</span> 
+</div> 
+</div> 
+</li> 
+ <li layout="center" position="center" animation="fadeInUp" show-content="true" color-overlay="true" text-background="true" id="1938145468" class="u_1938145468" show-caption="true"><img dm="true" src="https://cdn.website-editor.net/md/and1/dms3rep/multi/desktop/113925.jpeg" id="1819573898" class="" onerror="handleImageLoadError(this)"/> <div class="color-overlay" id="1365660598"></div> 
+ <div class="slide-inner" id="1596142173"> <div class="text-wrapper" id="1548584173"> <h3 class="slide-title u_1650414657" id="1650414657">Mile High Show</h3> 
+ <div class="slide-text richText u_1381372225" id="1381372225"><p class="rteBlock">Wednesdays at 6:30p with Elisabeth Sanson</p></div></div> 
+ <div class="slide-button dmWidget clearfix slide-button-invisible" id="1838141713"> <span class="iconBg" id="1608207110"> <span class="icon hasFontIcon icon-star" id="1530701551"></span> 
+</span> 
+ <span class="text" id="1206892603">Button</span> 
+</div> 
+</div> 
+</li> 
+ <li layout="center" position="center" animation="fadeInUp" show-content="true" color-overlay="true" text-background="true" id="1342554952" class="" show-caption="true"><img dm="true" src="https://cdn.website-editor.net/md/and1/dms3rep/multi/desktop/125913.jpeg" id="1743753767" onerror="handleImageLoadError(this)"/> <div class="color-overlay" id="1723907654"></div> 
+ <div class="slide-inner" id="1981515458"> <div class="text-wrapper" id="1152969828"> <h3 class="slide-title u_1405173476" id="1405173476">Classical FRD 99.3 HD2</h3> 
+ <p class="slide-text u_1562874238" id="1562874238">Mornings at 6 on WebDCR.com</p> 
+</div> 
+ <div class="slide-button dmWidget clearfix slide-button-invisible" id="1082764057"> <span class="iconBg" id="1324754955"> <span class="icon hasFontIcon icon-star" id="1316688877"></span> 
+</span> 
+ <span class="text" id="1371696898">Button</span> 
+</div> 
+</div> 
+</li> 
+ <li layout="center" position="center" animation="fadeInUp" show-content="true" color-overlay="true" text-background="true" id="1548402461" class="u_1548402461" show-caption="true"> <a id="1504877578" dm_dont_rewrite_url="false" file="true" target="_blank" class=""><img dm="true" src="https://cdn.website-editor.net/a21dac372fa3481fb8b3f890680e5ceb/dms3rep/multi/desktop/Moosilauke+Ravine+Lodge+%281%29.jpg" id="1527265452" class="" onerror="handleImageLoadError(this)"/></a> 
+ <div class="color-overlay" id="1846982897"></div> 
+ <div class="slide-inner" id="1980312624"> <div class="text-wrapper" id="1306117010"> <h3 class="slide-title u_1476394380" id="1476394380">Moosilauke Country 99.3 HD2</h3> 
+ <div class="slide-text u_1706854643" id="1706854643"><p class="rteBlock">Mornings at 9 on WebDCR.com</p></div></div> 
+ <div class="slide-button dmWidget clearfix slide-button-invisible" id="1929837472"> <span class="iconBg" id="1295609958"> <span class="icon hasFontIcon icon-star" id="1566459412"></span> 
+</span> 
+ <span class="text" id="1627446664">Button</span> 
+</div> 
+</div> 
+</li> 
+ <li layout="center" position="center" animation="fadeInUp" show-content="true" color-overlay="true" text-background="true" id="1551604062" class="u_1551604062" show-caption="true"><img dm="true" src="https://cdn.website-editor.net/md/and1/dms3rep/multi/desktop/118974.jpeg" id="1563657022" class="" onerror="handleImageLoadError(this)"/> <div class="color-overlay" id="1192946847"></div> 
+ <div class="slide-inner" id="1483805287"> <div class="text-wrapper" id="1778638400"> <h3 class="slide-title u_1937896572" id="1937896572">Democracy Now! en Espa&ntilde;ol</h3> 
+ <div class="slide-text richText u_1469058458" id="1469058458"><p class="rteBlock">Weekdays at Noon on WebDCR.com</p></div></div> 
+ <div class="slide-button dmWidget clearfix slide-button-invisible" id="1050776586"> <span class="iconBg" id="1174476990"> <span class="icon hasFontIcon icon-star" id="1196045433"></span> 
+</span> 
+ <span class="text" id="1956059767">Button</span> 
+</div> 
+</div> 
+</li> 
+ <li layout="center" position="center" animation="fadeInUp" show-content="true" color-overlay="true" text-background="true" id="1840233911" class="" show-caption="true"> <a href="https://cdn.website-editor.net/a21dac372fa3481fb8b3f890680e5ceb/files/uploaded/WFRD%20LATIN.pdf" id="1566442027" dm_dont_rewrite_url="false" file="true" target="_blank"><img dm="true" src="https://cdn.website-editor.net/a21dac372fa3481fb8b3f890680e5ceb/dms3rep/multi/desktop/LATIN-WFRD-HD2-2017_640.png" id="1204604993" onerror="handleImageLoadError(this)"/></a> 
+ <div class="color-overlay" id="1986399333"></div> 
+ <div class="slide-inner" id="1409134732"> <div class="text-wrapper" id="1220995432"> <h3 class="slide-title u_1828392143" id="1828392143">Latin 99.3 HD2</h3> 
+ <p class="slide-text u_1805207465" id="1805207465">Weekdays at Noon on WebDCR.com</p> 
+</div> 
+ <div class="slide-button dmWidget clearfix slide-button-invisible" id="1738436859"> <span class="iconBg" id="1385488994"> <span class="icon hasFontIcon icon-star" id="1176858671"></span> 
+</span> 
+ <span class="text" id="1726515173">Button</span> 
+</div> 
+</div> 
+</li> 
+ <li layout="center" position="center" animation="fadeInUp" show-content="true" color-overlay="true" text-background="true" id="1887618167" class="" show-caption="true"><img dm="true" src="https://cdn.website-editor.net/md/and1/dms3rep/multi/desktop/115961.jpeg" id="1155848327" onerror="handleImageLoadError(this)"/> <div class="color-overlay" id="1325031420"></div> 
+ <div class="slide-inner" id="1165073102"> <div class="text-wrapper" id="1361702341"> <h3 class="slide-title u_1186460744" id="1186460744">The Rock Show @ 99.3 HD2</h3> 
+ <div class="slide-text u_1801895706" id="1801895706"><p class="rteBlock">Evenings at 6p on WebDCR.com</p></div></div> 
+ <div class="slide-button dmWidget clearfix slide-button-invisible" id="1137316088"> <span class="iconBg" id="1153127115"> <span class="icon hasFontIcon icon-star" id="1341924935"></span> 
+</span> 
+ <span class="text" id="1192056344">Button</span> 
+</div> 
+</div> 
+</li> 
+ <li layout="center" position="center" animation="fadeInUp" show-content="true" color-overlay="true" text-background="true" id="1539225910" class="" show-caption="true"><img dm="true" src="https://cdn.website-editor.net/md/and1/dms3rep/multi/desktop/125685.jpeg" id="1161111880" onerror="handleImageLoadError(this)"/> <div class="color-overlay" id="1482436189"></div> 
+ <div class="slide-inner" id="1280167496"> <div class="text-wrapper" id="1643306706"> <h3 class="slide-title u_1805030395" id="1805030395">Sunrise @ 99.3 HD2</h3> 
+ <div class="slide-text u_1844676426" id="1844676426"><p class="rteBlock">Sundays at 6a on WebDCR.com</p></div></div> 
+ <div class="slide-button dmWidget clearfix slide-button-invisible" id="1212410004"> <span class="iconBg" id="1476397480"> <span class="icon hasFontIcon icon-star" id="1737372206"></span> 
+</span> 
+ <span class="text" id="1674906624">Button</span> 
+</div> 
+</div> 
+</li> 
+ <li layout="center" position="center" animation="fadeInUp" show-content="true" color-overlay="true" text-background="true" id="1151588006" class="" show-caption="true"><img dm="true" src="https://cdn.website-editor.net/md/and1/dms3rep/multi/desktop/10691.jpeg" id="1315206132" onerror="handleImageLoadError(this)"/> <div class="color-overlay" id="1948354037"></div> 
+ <div class="slide-inner" id="1755008443"> <div class="text-wrapper" id="1915339538"> <h3 class="slide-title u_1306001357" id="1306001357">ALT 99.3 HD2</h3> 
+ <div class="slide-text richText u_1592164170" id="1592164170"><p class="rteBlock">Afternoons at 2p on WebDCR.com</p></div></div> 
+ <div class="slide-button dmWidget clearfix slide-button-invisible" id="1156178159"> <span class="iconBg" id="1737375258"> <span class="icon hasFontIcon icon-star" id="1174072128"></span> 
+</span> 
+ <span class="text" id="1517916145">Button</span> 
+</div> 
+</div> 
+</li> 
+ <li layout="center" position="center" animation="fadeInUp" show-content="true" color-overlay="true" text-background="true" id="1609314632" class="" show-caption="true"><img dm="true" src="https://cdn.website-editor.net/a21dac372fa3481fb8b3f890680e5ceb/dms3rep/multi/desktop/THE+1980S+AT+EIGHT+CD+IMAGE.jpg" id="1411041512" onerror="handleImageLoadError(this)"/> <div class="color-overlay" id="1693179583"></div> 
+ <div class="slide-inner" id="1333931415"> <div class="text-wrapper" id="1601384906"> <h3 class="slide-title u_1775970804" id="1775970804">The BIG 80's on 99.3 HD2</h3> 
+ <div class="slide-text richText u_1766553857" id="1766553857"><p class="rteBlock">Afternoons at 3p on WebDCR.com</p></div></div> 
+ <div class="slide-button dmWidget clearfix slide-button-invisible" id="1333108101"> <span class="iconBg" id="1150686692"> <span class="icon hasFontIcon icon-star" id="1287116240"></span> 
+</span> 
+ <span class="text" id="1291826181">Button</span> 
+</div> 
+</div> 
+</li> 
+ <li layout="center" position="center" animation="fadeInUp" show-content="true" color-overlay="true" text-background="true" id="1405078903" class="" show-caption="true"><img dm="true" src="https://cdn.website-editor.net/md/and1/dms3rep/multi/desktop/10300.jpeg" id="1267494340" onerror="handleImageLoadError(this)"/> <div class="color-overlay" id="1939356023"></div> 
+ <div class="slide-inner" id="1282133035"> <div class="text-wrapper" id="1583096660"> <h3 class="slide-title u_1163623403" id="1163623403">Glorious Obscurities</h3> 
+ <div class="slide-text richText u_1795304269" id="1795304269"><p class="rteBlock">Wednesdays at 8p with Arielle Gordon-Rowe</p></div></div> 
+ <div class="slide-button dmWidget clearfix slide-button-invisible" id="1231908371"> <span class="iconBg" id="1820077406"> <span class="icon hasFontIcon icon-star" id="1295704086"></span> 
+</span> 
+ <span class="text" id="1981702485">Button</span> 
+</div> 
+</div> 
+</li> 
+ <li layout="center" position="center" animation="fadeInUp" show-content="true" color-overlay="true" text-background="true" id="1526876756" class="u_1526876756" show-caption="true"><img dm="true" src="https://cdn.website-editor.net/a21dac372fa3481fb8b3f890680e5ceb/dms3rep/multi/desktop/IMG_5298.JPG" id="1120363972" class="" onerror="handleImageLoadError(this)"/> <div class="color-overlay" id="1725695636"></div> 
+ <div class="slide-inner" id="1159551123"> <div class="text-wrapper" id="1141142319"> <h3 class="slide-title u_1885503793" id="1885503793">Detour</h3> 
+ <div class="slide-text u_1754332158" id="1754332158"><p class="rteBlock">Fridays at 7p with Christopher Cartwright</p></div></div> 
+ <div class="slide-button dmWidget clearfix slide-button-invisible" id="1636213696"> <span class="iconBg" id="1069051599"> <span class="icon hasFontIcon icon-star" id="1270050881"></span> 
+</span> 
+ <span class="text" id="1408156707">Button</span> 
+</div> 
+</div> 
+</li> 
+ <li layout="center" position="center" animation="fadeInUp" show-content="true" color-overlay="true" text-background="true" id="1860641695" class="u_1860641695" show-caption="true"><img dm="true" src="https://cdn.website-editor.net/md/and1/dms3rep/multi/desktop/124234.jpeg" id="1519332703" class="" onerror="handleImageLoadError(this)"/> <div class="color-overlay" id="1737160502"></div> 
+ <div class="slide-inner" id="1560480573"> <div class="text-wrapper" id="1294012500"> <h3 class="slide-title u_1970718386" id="1970718386">The Bay 99.3 HD2</h3> 
+ <p class="slide-text u_1752106719" id="1752106719">Mornings at 5a on WebDCR.com</p> 
+</div> 
+ <div class="slide-button dmWidget clearfix slide-button-invisible" id="1407609995"> <span class="iconBg" id="1880912138"> <span class="icon hasFontIcon icon-star" id="1761592978"></span> 
+</span> 
+ <span class="text" id="1205550195">Button</span> 
+</div> 
+</div> 
+</li> 
+ <li layout="center" position="center" animation="fadeInUp" show-content="true" color-overlay="true" text-background="true" id="1307329993" class="" show-caption="true"> <a href="https://soundcloud.com/user-517334787" id="1356377518" dm_dont_rewrite_url="false" file="false" class="" target="_blank"><img dm="true" src="https://cdn.website-editor.net/a21dac372fa3481fb8b3f890680e5ceb/dms3rep/multi/desktop/second-take-sports-show-2017-dcr.png" id="1803839202" onerror="handleImageLoadError(this)"/></a> 
+ <div class="color-overlay" id="1432413466"></div> 
+ <div class="slide-inner" id="1700509185"> <div class="text-wrapper" id="1947728261"> <h3 class="slide-title u_1105537459" id="1105537459">Second Take w/ Dan Gridley and Sam Stockton</h3> 
+ <div class="slide-text richText u_1927449994" id="1927449994"><p class="rteBlock">Sundays at 6p on WebDCR.com</p></div></div> 
+ <div class="slide-button dmWidget clearfix slide-button-invisible" id="1259508191"> <span class="iconBg" id="1849028902"> <span class="icon hasFontIcon icon-star" id="1741018378"></span> 
+</span> 
+ <span class="text" id="1303747312">Button</span> 
+</div> 
+</div> 
+</li> 
+ <li layout="center" position="center" animation="fadeInUp" show-content="true" color-overlay="true" text-background="true" id="1893737450" class="" show-caption="true"><img dm="true" src="https://cdn.website-editor.net/a21dac372fa3481fb8b3f890680e5ceb/dms3rep/multi/desktop/Bonfire+2020+oct2016+2.jpg" id="1355137023" onerror="handleImageLoadError(this)"/> <div class="color-overlay" id="1981629812"></div> 
+ <div class="slide-inner" id="1502793403"> <div class="text-wrapper" id="1178766022"> <h3 class="slide-title u_1831185137" id="1831185137">Hanover's Hottest Hits 99.3 HD2</h3> 
+ <div class="slide-text u_1804860840" id="1804860840"><p class="rteBlock">Evenings at 7p on WebDCR.com</p></div></div> 
+ <div class="slide-button dmWidget clearfix slide-button-invisible" id="1192203331"> <span class="iconBg" id="1579315289"> <span class="icon hasFontIcon icon-star" id="1568518140"></span> 
+</span> 
+ <span class="text" id="1278830831">Button</span> 
+</div> 
+</div> 
+</li> 
+ <li layout="center" position="center" animation="fadeInUp" show-content="true" color-overlay="true" text-background="true" id="1035407222" class="" show-caption="true"><img dm="true" src="https://cdn.website-editor.net/md/and1/dms3rep/multi/desktop/12256.jpeg" id="1131912424" onerror="handleImageLoadError(this)"/> <div class="color-overlay" id="1363294467"></div> 
+ <div class="slide-inner" id="1648666144"> <div class="text-wrapper" id="1941881785"> <h3 class="slide-title u_1108206055" id="1108206055">Big City Nights 99.3 HD2</h3> 
+ <div class="slide-text u_1417057465" id="1417057465"><p class="rteBlock">Evenings at 9p on WebDCR.com</p></div></div> 
+ <div class="slide-button dmWidget clearfix slide-button-invisible" id="1926186755"> <span class="iconBg" id="1843172210"> <span class="icon hasFontIcon icon-star" id="1058603518"></span> 
+</span> 
+ <span class="text" id="1682000014">Button</span> 
+</div> 
+</div> 
+</li> 
+ <li layout="center" position="center" animation="fadeInUp" show-content="true" color-overlay="true" text-background="true" id="1558303454" class="" show-caption="true"><img dm="true" src="https://cdn.website-editor.net/md/and1/dms3rep/multi/desktop/118939.jpeg" id="1061666029" onerror="handleImageLoadError(this)"/> <div class="color-overlay" id="1787246405"></div> 
+ <div class="slide-inner" id="1328695967"> <div class="text-wrapper" id="1411021626"> <h3 class="slide-title u_1669984147" id="1669984147">UK Radio 99.3 HD2</h3> 
+ <div class="slide-text u_1638909408" id="1638909408"><p class="rteBlock">Saturdays at 6a on WebDCR.com</p></div></div> 
+ <div class="slide-button dmWidget clearfix slide-button-invisible" id="1449416012"> <span class="iconBg" id="1356032780"> <span class="icon hasFontIcon icon-star" id="1770018536"></span> 
+</span> 
+ <span class="text" id="1979892959">Button</span> 
+</div> 
+</div> 
+</li> 
+</ul> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div class="dmRespRow dmHomeTopContent dmImgCoverRow u_1612915634" id="1612915634"> <div id="dmHomeTopContent" class="dmRespColsWrapper clearfix"> <div class="dmRespCol small-12 medium-6 large-6" id="1373977840"> <span id="1612439533"></span> 
+ <a data-display-type="block" class="u_1360788789 align-center dmButtonLink dmWidget dmWwr default dmOnlyButton dmDefaultGradient" file="false" href="http://wdcr.dartmouth.edu:8000/listen.pls" data-element-type="dButtonLinkId" id="1360788789" target="_blank" dm_dont_rewrite_url="false" data-buttonstyle="ROUND_SIDES"> <span class="iconBg" id="1784273210"> <span class="icon hasFontIcon icon-star" id="1686215033"></span> 
+</span> 
+ <span class="text" id="1618348576">Listen Direct</span> 
+</a> 
+ <a class="u_1830387126 dmPageLink dmWidget dmButtonLink dmHomeDefaultBtn" href="https://beta.tunein.com/radio/Dartmouth-College-RadioWebDCR-s137956/" id="1830387126" dm_dont_rewrite_url="false" file="false" target="_blank" data-buttonstyle="ROUND_SIDES" data-element-type="dPageLinkId"> <span class="iconBg" id="1846258083"> <span class="icon hasFontIcon icon-external-link" id="1233223124"></span> 
+</span> 
+ <span class="text" id="1435887347">Listen on TuneIn</span> 
+</a> 
+</div> 
+ <div class="dmRespCol small-12 medium-6 large-6" id="1037675367"> <span id="1796195273"></span> 
+ <a data-display-type="block" class="u_1617258688 align-center dmButtonLink dmWidget dmWwr default dmOnlyButton dmDefaultGradient" file="false" href="https://www.iheart.com/live/99-Rock-WFRD-FM-5259/" id="1617258688" dm_dont_rewrite_url="false" target="_blank" data-buttonstyle="ROUND_SIDES" data-element-type="dButtonLinkId"> <span class="iconBg" id="1429238769"> <span class="icon hasFontIcon icon-star" id="1877952808"></span> 
+</span> 
+ <span class="text" id="1303362781">Listen to WFRD</span> 
+</a> 
+ <a data-display-type="block" class="u_1061855180 align-center dmButtonLink dmWidget dmWwr default dmOnlyButton dmDefaultGradient" file="false" href="http://129.170.152.51:8000/listen.m3u" id="1061855180" dm_dont_rewrite_url="false" target="_blank" data-buttonstyle="ROUND_SIDES" data-element-type="dButtonLinkId"> <span class="iconBg" id="1799888924"> <span class="icon hasFontIcon icon-star" id="1089216764"></span> 
+</span> 
+ <span class="text" id="1387021823">Listen to HD2</span> 
+</a> 
+</div> 
+</div> 
+</div> 
+ <div class="dmRespRow u_1867978621" style="text-align: center;" id="1867978621"> <div class="dmRespColsWrapper" id="1954606082"> <div class="dmRespCol small-12 medium-12 large-12" id="1131854538"> <span id="1080150241"></span> 
+ <div class="dmNewParagraph" data-dmtmpl="true" id="1574056589" data-uialign="center" style="transition: opacity 1s ease-in-out;"><div style="text-align: center;"><span style="font-family: 'Gloria Hallelujah';" class="lh-1 font-size-12"><b><span style="font-weight: 700;">Student Shows - Spoken Word &amp; True Music Variety - Free Form Campus Radio For Everyone!</span></b></span></div></div> <div class="dmDividerWrapper clearfix u_1503633176" data-element-type="dDividerId" data-layout="divider-style-1" data-widget-version="2" id="1503633176"><hr class="dmDivider" style="border-width:2px; border-top-style:solid; color:grey;" id="1925510465"/></div> 
+ <div class="flex-container dmImageSlider dmNoMargin dmNoMark u_1377203594" editablewidget="true" data-widget-type="imageSlider" data-element-type="dSliderId" id="1377203594"> <div class="flexslider ed-version nav-layout-2" sliderscriptparams="{'stretch':false,'animation':true,'randomize':false,'directionNav':true,'isAutoPlay':true,'isFade':true,'controlNav':false,'slideshowSpeed':7000,'animationDuration':600,'pausePlay':true}" id="1142388581"> <ul class="slides" id="1791064862"> <li layout="center" position="center" animation="fadeInUp" show-content="false" color-overlay="true" text-background="true" id="1197053698" class="" show-caption="false"> <a href="http://www.wiseuv.org/" id="1243095395" dm_dont_rewrite_url="false" file="false" class="" target="_blank"><img dm="true" src="https://cdn.website-editor.net/a21dac372fa3481fb8b3f890680e5ceb/dms3rep/multi/desktop/WISE-DCR_Digital_Ad_2017-1.jpg" id="1885429708" onerror="handleImageLoadError(this)"/></a> 
+ <div class="color-overlay" id="1077468859"></div> 
+ <div class="slide-inner" id="1758473701"> <div class="text-wrapper" id="1434264536"> <h3 class="slide-title u_1701518428" id="1701518428">Slide title</h3> 
+ <div class="slide-text richText u_1455991947" id="1455991947">Write your caption here</div> 
+</div> 
+ <div class="slide-button dmWidget clearfix slide-button-invisible" id="1611386433"> <span class="iconBg" id="1747809008"> <span class="icon hasFontIcon icon-star" id="1836173709"></span> 
+</span> 
+ <span class="text" id="1555536899">Button</span> 
+</div> 
+</div> 
+</li> 
+ <li layout="center" position="center" animation="fadeInUp" show-content="false" color-overlay="true" text-background="true" id="1213331243" class="" show-caption="false"> <a href="http://www.wiseuv.org/" id="1481852721" dm_dont_rewrite_url="false" file="false"><img dm="true" src="https://cdn.website-editor.net/a21dac372fa3481fb8b3f890680e5ceb/dms3rep/multi/desktop/WISE-DCR_Digital_Ad_2017-2.jpg" id="1061123717" onerror="handleImageLoadError(this)"/></a> 
+ <div class="color-overlay" id="1604265296"></div> 
+ <div class="slide-inner" id="1498846021"> <div class="text-wrapper" id="1896447397"> <h3 class="slide-title u_1602413358" id="1602413358">Slide title</h3> 
+ <div class="slide-text richText u_1578100938" id="1578100938">Write your caption here</div> 
+</div> 
+ <div class="slide-button dmWidget clearfix slide-button-invisible" id="1573913837"> <span class="iconBg" id="1645177549"> <span class="icon hasFontIcon icon-star" id="1208945915"></span> 
+</span> 
+ <span class="text" id="1869360571">Button</span> 
+</div> 
+</div> 
+</li> 
+ <li layout="center" position="center" animation="fadeInUp" show-content="false" color-overlay="true" text-background="true" id="1942221030" class="" show-caption="false"><img dm="true" src="https://cdn.website-editor.net/a21dac372fa3481fb8b3f890680e5ceb/dms3rep/multi/desktop/WISE-DCR_Digital_Ad_2017-3.jpg" id="1062923686" onerror="handleImageLoadError(this)"/> <div class="color-overlay" id="1241204816"></div> 
+ <div class="slide-inner" id="1811741024"> <div class="text-wrapper" id="1168172231"> <h3 class="slide-title u_1445435247" id="1445435247">Slide title</h3> 
+ <div class="slide-text richText u_1815949980" id="1815949980">Write your caption here</div> 
+</div> 
+ <div class="slide-button dmWidget clearfix slide-button-invisible" id="1180447736"> <span class="iconBg" id="1961525326"> <span class="icon hasFontIcon icon-star" id="1838496301"></span> 
+</span> 
+ <span class="text" id="1196077916">Button</span> 
+</div> 
+</div> 
+</li> 
+ <li layout="center" position="center" animation="fadeInUp" show-content="false" color-overlay="true" text-background="true" id="1472159943" class="" show-caption="false"> <a href="http://www.wiseuv.org/" id="1565741837" dm_dont_rewrite_url="false" file="false" class="" target="_blank"><img dm="true" src="https://cdn.website-editor.net/a21dac372fa3481fb8b3f890680e5ceb/dms3rep/multi/desktop/WISE-DCR_Digital_Ad_2017-4.jpg" id="1593877104" onerror="handleImageLoadError(this)"/></a> 
+ <div class="color-overlay" id="1827627273"></div> 
+ <div class="slide-inner" id="1759385690"> <div class="text-wrapper" id="1188783651"> <h3 class="slide-title u_1806959940" id="1806959940">Slide title</h3> 
+ <div class="slide-text richText u_1379221159" id="1379221159">Write your caption here</div> 
+</div> 
+ <div class="slide-button dmWidget clearfix slide-button-invisible" id="1329218176"> <span class="iconBg" id="1164358876"> <span class="icon hasFontIcon icon-star" id="1294723948"></span> 
+</span> 
+ <span class="text" id="1368841498">Button</span> 
+</div> 
+</div> 
+</li> 
+ <li layout="center" position="center" animation="fadeInUp" show-content="false" color-overlay="true" text-background="true" id="1256953716" class="" show-caption="false"> <a href="http://www.wiseuv.org/" id="1632406428" dm_dont_rewrite_url="false" file="false" class="" target="_blank"><img dm="true" src="https://cdn.website-editor.net/a21dac372fa3481fb8b3f890680e5ceb/dms3rep/multi/desktop/WISE-DCR_Digital_Ad_2017-5.jpg" id="1312619591" onerror="handleImageLoadError(this)"/></a> 
+ <div class="color-overlay" id="1342390049"></div> 
+ <div class="slide-inner" id="1883701484"> <div class="text-wrapper" id="1298932398"> <h3 class="slide-title u_1830026166" id="1830026166">Slide title</h3> 
+ <div class="slide-text richText u_1601630133" id="1601630133">Write your caption here</div> 
+</div> 
+ <div class="slide-button dmWidget clearfix slide-button-invisible" id="1273579287"> <span class="iconBg" id="1385739075"> <span class="icon hasFontIcon icon-star" id="1766635775"></span> 
+</span> 
+ <span class="text" id="1339421919">Button</span> 
+</div> 
+</div> 
+</li> 
+ <li layout="center" position="center" animation="fadeInUp" show-content="false" color-overlay="true" text-background="true" id="1692673993" class="" show-caption="false"> <a href="http://www.wiseuv.org/" id="1460740341" dm_dont_rewrite_url="false" file="false" class="" target="_blank"><img dm="true" src="https://cdn.website-editor.net/a21dac372fa3481fb8b3f890680e5ceb/dms3rep/multi/desktop/WISE-DCR_Digital_Ad_2017-6.jpg" id="1902369934" onerror="handleImageLoadError(this)"/></a> 
+ <div class="color-overlay" id="1953923603"></div> 
+ <div class="slide-inner" id="1916906379"> <div class="text-wrapper" id="1339866303"> <h3 class="slide-title u_1848953316" id="1848953316">Slide title</h3> 
+ <div class="slide-text richText u_1264186446" id="1264186446">Write your caption here</div> 
+</div> 
+ <div class="slide-button dmWidget clearfix slide-button-invisible" id="1629800683"> <span class="iconBg" id="1296897323"> <span class="icon hasFontIcon icon-star" id="1159196319"></span> 
+</span> 
+ <span class="text" id="1802420739">Button</span> 
+</div> 
+</div> 
+</li> 
+ <li layout="center" position="center" animation="fadeInUp" show-content="false" color-overlay="true" text-background="true" id="1973948869" class="" show-caption="false"> <a href="http://www.wiseuv.org/" id="1796823585" class="" target="_blank" dm_dont_rewrite_url="false" file="false"><img dm="true" src="https://cdn.website-editor.net/a21dac372fa3481fb8b3f890680e5ceb/dms3rep/multi/desktop/WISE-DCR_Digital_Ad_2017-7.jpg" id="1053658847" onerror="handleImageLoadError(this)"/></a> 
+ <div class="color-overlay" id="1699948620"></div> 
+ <div class="slide-inner" id="1488522122"> <div class="text-wrapper" id="1436704523"> <h3 class="slide-title u_1326984801" id="1326984801">Slide title</h3> 
+ <div class="slide-text richText u_1917437112" id="1917437112">Write your caption here</div> 
+</div> 
+ <div class="slide-button dmWidget clearfix slide-button-invisible" id="1156786915"> <span class="iconBg" id="1770790084"> <span class="icon hasFontIcon icon-star" id="1021446689"></span> 
+</span> 
+ <span class="text" id="1052538678">Button</span> 
+</div> 
+</div> 
+</li> 
+ <li layout="center" position="center" animation="fadeInUp" show-content="false" color-overlay="true" text-background="true" id="1233710114" class="" show-caption="false"> <a href="http://www.wiseuv.org/" id="1359931388" dm_dont_rewrite_url="false" file="false"><img dm="true" src="https://cdn.website-editor.net/a21dac372fa3481fb8b3f890680e5ceb/dms3rep/multi/desktop/WISE-DCR_Digital_Ad_2017-8.jpg" id="1073092331" onerror="handleImageLoadError(this)"/></a> 
+ <div class="color-overlay" id="1713879415"></div> 
+ <div class="slide-inner" id="1513612111"> <div class="text-wrapper" id="1032790295"> <h3 class="slide-title u_1378153754" id="1378153754">Slide title</h3> 
+ <div class="slide-text richText u_1463462719" id="1463462719">Write your caption here</div> 
+</div> 
+ <div class="slide-button dmWidget clearfix slide-button-invisible" id="1801477008"> <span class="iconBg" id="1204716262"> <span class="icon hasFontIcon icon-star" id="1423465848"></span> 
+</span> 
+ <span class="text" id="1267298955">Button</span> 
+</div> 
+</div> 
+</li> 
+</ul> 
+</div> 
+</div> 
+ <div class="u_1000448577 dmDividerWrapper clearfix" id="1000448577" layout="divider-style-1" data-element-type="dDividerId" data-widget-version="2"><hr class="dmDivider" style="min-height: 2px; border:none; background:grey" id="1838679167"/></div> 
+</div> 
+</div> 
+</div> 
+ <div class="dmRespRow u_1969332617" style="text-align: center;" id="1969332617"> <div class="dmRespColsWrapper" id="1871600653"> <div class="dmRespCol small-12 medium-6 large-6" id="1879331384"> <div class="dmNewParagraph" data-dmtmpl="true" id="1193956991" data-uialign="left"><div style="text-align: center;"><span class="font-size-18 lh-1">Welcome to <span style="font-weight: 700;">Dartmouth Broadcasting</span>'s Original Radio Station, <b><span style="font-weight: 700;">WDCR</span></b>!</span></div><div style="text-align: center;"><span class="font-size-18 lh-1"><br/></span></div><div style="text-align: center;"><span class="font-size-18 lh-1" style="font-weight: 400;"><span style="font-family: 'Gloria Hallelujah'; font-weight: 700;">Want your own show?</span> 
+<span style="font-weight: 400;">&nbsp;</span></span></div><div style="text-align: center;"><span class="font-size-18 lh-1" style="font-weight: 400;"><span style="font-weight: 400;"><span class="lh-1 font-size-14">Contact:</span></span><span style="font-weight: 400;" class="lh-1 font-size-14">&nbsp;<a href="mailto:christopher.cartwright.21@dartmouth.edu" runtime_url="mailto:christopher.cartwright.21@dartmouth.edu">Christopher Cartwright&nbsp;'21</a>&nbsp;to request a time slot!</span></span></div><div><br/></div><div style="text-align: center;"><span class="lh-1 font-size-12">Program Director: <a href="mailto:christopher.cartwright.21@dartmouth.edu" runtime_url="mailto:christopher.cartwright.21@dartmouth.edu">Christopher Cartwright '21</a></span></div><div style="text-align: center;"><span class="lh-1 font-size-12">General Manager: <a href="mailto:Leanna.Arjune.19@dartmouth.edu" runtime_url="mailto:Leanna.Arjune.19@dartmouth.edu">Leanna Arjune '19</a></span></div><div style="text-align: center;"><span class="lh-1 font-size-12">Summer General Manager: <a href="mailto:connor.b.turner.20@dartmouth.edu" runtime_url="mailto:connor.b.turner.20@dartmouth.edu">Connor Turner '20</a></span></div><div style="text-align: center;"><span class="lh-1 font-size-12">Director of Broadcasting: <a href="mailto:Heath.M.Cole@dartmouth.edu" runtime_url="mailto:Heath.M.Cole@dartmouth.edu">Heath Cole</a></span></div><div style="text-align: center;"><br/></div><div><br/></div><div style="text-align: center;">Thanks for listening to Dartmouth College Radio WebDCR Online at WebDCR.com&nbsp;</div><div style="text-align: center;"><span style="" class="font-size-12 lh-1"><br/></span></div><div style="text-align: center;"><span style="" class="font-size-12 lh-1">and&nbsp;</span></div><div style="text-align: center;"><span style="" class="font-size-12 lh-1"><br/></span></div><div style="text-align: center;">99Rock WFRD-FM at 99.3 in the Upper Valley and Online at <a href="http://wfrd.com" runtime_url="http://wfrd.com" target="_blank">WFRD.com</a></div></div></div> 
+ <div class="dmRespCol small-12 medium-6 large-6" id="1060022160"> <div class="u_1306810653 imageWidget align-center" editablewidget="true" data-widget-type="image" id="1306810653" data-element-type="image"><img src="https://cdn.website-editor.net/a21dac372fa3481fb8b3f890680e5ceb/dms3rep/multi/mobile/c7d4c9e8-c5b6-45ff-943e-b0040e6cfe69.jpg" id="1030592015" class="" data-dm-image-path="https://cdn.website-editor.net/a21dac372fa3481fb8b3f890680e5ceb/dms3rep/multi/c7d4c9e8-c5b6-45ff-943e-b0040e6cfe69.jpg" onerror="handleImageLoadError(this)"/></div> 
+</div> 
+</div> 
+</div> 
+ <div class="dmRespRow u_1916374427" style="text-align: center;" id="1916374427"> <div class="dmRespColsWrapper" id="1219188049"> <div class="dmRespCol small-12 medium-12 large-12" id="1398514890"> <span id="1399122156"></span> 
+ <div class="dmDividerWrapper clearfix u_1864259675" id="1864259675" layout="divider-style-1" data-element-type="dDividerId"><hr class="dmDivider" style="min-height: 2px; border:none; background:grey" id="1069610149"/></div> 
+</div> 
+</div> 
+</div> 
+ <div class="dmRespRow dmHomeMiddleContent u_1937982341" id="1937982341"> <div class="dmRespColsWrapper clearfix" id="1137082171"> <div class="dmRespCol large-4 medium-4 small-12 firstSection" id="1322814469"> <h3 id="1370454868" data-uialign="left">Get In Touch</h3> <div class="imageWidget dmSectionImgHome displayNone" id="1120418647" data-element-type="image"><img src="https://dd-cdn.multiscreensite.com/themes/1px.png" id="1831798052" onerror="handleImageLoadError(this)"/></div> 
+ <div data-dmtmpl="true" class="dmDefaulDivContent dmBlockElement dmFirstSectionInnerDiv" id="1506783390" data-uialign="left"> <div style=""><a href="mailto:TheRadio@Dartmouth.EDU" runtime_url="mailto:TheRadio@Dartmouth.EDU">TheRadio@Dartmouth.EDU</a><br/></div><div style=""><br/></div><div style="">6176 Robinson Hall,</div><div style="">Dartmouth College</div><div style="">&nbsp;Hanover, NH 03755</div><div style=""><br/></div> 
+ <div class="homeBusinessLIne3" style="">Phone: 603-646-3313</div> 
+</div> 
+</div> 
+ <div class="dmRespCol large-4 medium-4 small-12 secondSection" id="1584134808"> <h3 id="1474361259">About Us</h3> 
+ <div class="imageWidget dmSectionImgHome u_1679025752" id="1679025752" data-element-type="image"><img src="https://cdn.website-editor.net/a21dac372fa3481fb8b3f890680e5ceb/dms3rep/multi/mobile/738f34d2-bdbb-4ac8-b0a1-e0eed7a0741b.jpeg" id="1354762509" class="" data-dm-image-path="https://cdn.website-editor.net/a21dac372fa3481fb8b3f890680e5ceb/dms3rep/multi/738f34d2-bdbb-4ac8-b0a1-e0eed7a0741b.jpeg" onerror="handleImageLoadError(this)"/></div> 
+ <div class="dmBlockElement" id="1420301243" data-uialign="left"> <div data-dmtmpl="true" class="dmHomeAboutSectionTxt" id="1127846810" style="">1340 WDCR is now known as <span style="font-weight: 700;">WebDCR.com&nbsp;</span></div><div data-dmtmpl="true" class="dmHomeAboutSectionTxt" id="idd_n5c6k" style="">Dartmouth College Radio</div> 
+ <div class="homeReadMore" style=""> <a href="/about" runtime_url="/about">Read more &gt;</a> 
+</div> 
+</div> 
+</div> 
+ <div class="dmRespCol large-4 medium-4 small-12 thirdSection" id="1798908357"> <h3 id="1707608540" data-uialign="right">75+ Years of Radio</h3> <div class="imageWidget dmSectionImgHome u_1521174827" id="1521174827" data-element-type="image"><img src="https://cdn.website-editor.net/a21dac372fa3481fb8b3f890680e5ceb/dms3rep/multi/mobile/00740fe2-e895-4766-973d-73687f87966f.png" id="1037955636" class="" data-dm-image-path="https://cdn.website-editor.net/a21dac372fa3481fb8b3f890680e5ceb/dms3rep/multi/00740fe2-e895-4766-973d-73687f87966f.png" onerror="handleImageLoadError(this)"/></div> 
+ <div class="imageWidget align-center u_1167067038" editablewidget="true" data-widget-type="image" id="1167067038" data-element-type="image"><img src="https://cdn.website-editor.net/a21dac372fa3481fb8b3f890680e5ceb/dms3rep/multi/mobile/32279659-20bb-4588-bcd6-ebb82a0884dc.jpg" id="1924393323" class="" data-dm-image-path="https://cdn.website-editor.net/a21dac372fa3481fb8b3f890680e5ceb/dms3rep/multi/32279659-20bb-4588-bcd6-ebb82a0884dc.jpg" onerror="handleImageLoadError(this)"/></div> 
+</div> 
+</div> 
+</div> 
+ <div class="dmRespRow u_1604507580" style="text-align: center;" id="1604507580"> <div class="dmRespColsWrapper" id="1246937327"> <div class="dmRespCol small-12 medium-12 large-12" id="1640184914"> <span id="1906251790"></span> 
+ <div class="dmDividerWrapper clearfix u_1494481848" id="1494481848" layout="divider-style-1" data-element-type="dDividerId"><hr class="dmDivider" style="min-height: 2px; border:none; background:grey" id="1821028610"/></div> 
+</div> 
+</div> 
+</div> 
+ <div class="dmRespRow u_1761321473" style="text-align: center;" id="1761321473"> <div class="dmRespColsWrapper" id="1271924869"> <div class="dmRespCol small-12 medium-6 large-6" id="1161513368"> <span id="1771600102"></span> 
+ <a data-display-type="block" class="u_1134178673 align-center dmButtonLink dmWidget dmWwr default dmOnlyButton dmDefaultGradient" file="true" href="https://cdn.website-editor.net/a21dac372fa3481fb8b3f890680e5ceb/files/uploaded/17X%20Alumni%20Newsletter%20%28Final%29.pdf" data-element-type="dButtonLinkId" id="1134178673" dm_dont_rewrite_url="false" target="_blank" data-buttonstyle="ROUND_SIDES"> <span class="iconBg" id="1621483493"> <span class="icon hasFontIcon icon-star" id="1762970449"></span> 
+</span> 
+ <span class="text" id="1826431765">17X Newsletter</span> 
+</a> 
+ <a data-display-type="block" class="u_1625418141 align-center dmButtonLink dmWidget dmWwr default dmOnlyButton dmDefaultGradient" file="true" href="https://cdn.website-editor.net/a21dac372fa3481fb8b3f890680e5ceb/files/uploaded/S2017%20Alumni%20Newsletter.pdf" id="1625418141" dm_dont_rewrite_url="false" target="_blank" data-buttonstyle="ROUND_SIDES" data-element-type="dButtonLinkId"> <span class="iconBg" id="1961590380"> <span class="icon hasFontIcon icon-star" id="1053143430"></span> 
+</span> 
+ <span class="text" id="1518399955">17S Newsletter</span> 
+</a> 
+</div> 
+ <div class="dmRespCol small-12 medium-6 large-6" id="1142505431"> <span id="1602199576"></span> 
+ <a data-display-type="block" class="u_1526251983 align-center dmButtonLink dmWidget dmWwr default dmOnlyButton dmDefaultGradient" file="true" href="https://cdn.website-editor.net/a21dac372fa3481fb8b3f890680e5ceb/files/uploaded/W2017%20Alumni%20Newsletter.pdf" id="1526251983" dm_dont_rewrite_url="false" target="_blank" data-buttonstyle="ROUND_SIDES" data-element-type="dButtonLinkId"> <span class="iconBg" id="1352007173"> <span class="icon hasFontIcon icon-star" id="1618439941"></span> 
+</span> 
+ <span class="text" id="1661762072">17W Newsletter</span> 
+</a> 
+ <a data-display-type="block" class="u_1934705584 align-center dmButtonLink dmWidget dmWwr default dmOnlyButton dmDefaultGradient" file="true" href="https://cdn.website-editor.net/a21dac372fa3481fb8b3f890680e5ceb/files/uploaded/F2016%20Alumni%20Newsletter.pdf" id="1934705584" dm_dont_rewrite_url="false" target="_blank" data-buttonstyle="ROUND_SIDES" data-element-type="dButtonLinkId"> <span class="iconBg" id="1775915077"> <span class="icon hasFontIcon icon-star" id="1286167375"></span> 
+</span> 
+ <span class="text" id="1990649809">16F Newsletter</span> 
+</a> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div class="dmFooterContainer"> <div id="fcontainer" class="f_hcontainer dmFooter p_hfcontainer"> <div dm:templateorder="15" class="dmFooterResp" id="1693188364"> <div class="dmRespRow u_1449197494" style="text-align: center;" id="1449197494"> <div class="dmRespColsWrapper" id="1503116936"> <div class="dmRespCol small-12 medium-12 large-12" id="1843690080"> <span id="1171330184"></span> 
+ <div class="dmDividerWrapper clearfix u_1861608865" id="1861608865" layout="divider-style-1" data-element-type="dDividerId"><hr class="dmDivider" style="min-height: 2px; border:none; background:grey" id="1279594972"/></div> 
+</div> 
+</div> 
+</div> 
+ <div class="dmRespRow dmDividerRow u_1742089149" id="1742089149"> <div class="dmRespColsWrapper" id="1468087913"> <div class="small-12 dmRespCol medium-6 large-6" id="1527957937"> <div class="u_1629769793 dmTwitterFeedWrapper dmTwitterFooter" data-dmtmpl="true" id="1629769793" data-element-type="dTwitterId"> <div class="dmTwitterFeed dmWwr dmTwitterNoScroll" twitterusername="99rock" numberoftweets="2" twittertype="Profile" hideheaderfooter="" lang="en" id="1684722010"></div> 
+</div> 
+</div> 
+ <div class="dmRespCol small-12 medium-6 large-6" id="1452304540"> <span id="1031385685"></span> 
+ <h3 class="dmFooterDefaultH3 u_1769258557" id="1769258557" data-uialign="left" style="display: block;">Follow Us - On Social Media</h3> <div class="u_1883959071 dmSocialHome dmSocialHub" id="1883959071" dmle_extension="social_hub" data-element-type="social_hub" wr="false" icon="true" surround="false"> <div class="socialHubWrapper"> <div class="socialHubInnerDiv "> <a href="https://facebook.com/radiodartmouth/" target="_blank" dmle_dont_remove="target" dm_dont_rewrite_url="true"> <span class="dmSocialFacebook dm-icon-facebook oneIcon socialHubIcon style8" data-hover-effect=""></span> 
+</a> 
+ <a href="https://twitter.com/99Rock" target="_blank" dmle_dont_remove="target" dm_dont_rewrite_url="true"> <span class="dmSocialTwitter dm-icon-twitter oneIcon socialHubIcon style8" data-hover-effect=""></span> 
+</a> 
+ <a href="http://linkedin.com/in/dartmouth-broadcasting-10553b38/" target="_blank" dmle_dont_remove="target" dm_dont_rewrite_url="true"> <span class="dmSocialLinkedin icon-linkedin oneIcon socialHubIcon style8" data-hover-effect=""></span> 
+</a> 
+</div> 
+</div> 
+</div> 
+ <h3 class="u_1353775864 dmFooterDefaultH3" id="1353775864" data-uialign="right" style="display: block;">Find Us - 3rd Floor Robinson Hall</h3> <div class="u_1483357074 dmInlineMapHome inlineMap" data-type="inlineMap" data-lat="43.70312" data-lng="-72.2895249" data-address="6 N Main St, Hanover, NH 03755, United States" data-height="220" data-msid="" data-mapurl="" data-lang="en" data-color-scheme="" data-zoom="13" data-layout="" data-popup-display="" data-popup-show="false" data-popup-title="" data-popup-title-visible="false" data-popup-description="" data-popup-description-visible="false" id="1483357074" dmle_extension="mapextension" data-element-type="mapextension" wr="false" modedesktop="map" data-dmtmpl="true" modemobile="button" addresstodisplay="6 N Main St, Hanover, NH 03755, United States" geocompleteaddress="6 N Main St, Hanover, NH 03755, United States" modetablet="map" icon="true" surround="true" description="Find Us" icon-name="icon-map-marker" provider="mapbox" lon="-72.2895249" lat="43.70312" height="220" zoom="13" data-popup-display-desktop="" data-popup-display-mobile=""> <div class="mapContainer" style="height: 100%; width: 100%; overflow: hidden; z-index: 0;"></div> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div class="dmRespRow" style="text-align: center;" id="1684401965"> <div class="dmRespColsWrapper" id="1974944437"> <div class="dmRespCol small-12 medium-12 large-12" id="1596685604"> <div data-element-type="html" class="dmCustomHtml" id="1070121193"> <a href="https://www.accuweather.com/en/us/hanover-nh/03755/weather-forecast/334487" class="aw-widget-legal"><!--
+By accessing and/or using this code snippet, you agree to AccuWeather’s terms and conditions (in English) which can be found at https://www.accuweather.com/en/free-weather-widgets/terms and AccuWeather’s Privacy Statement (in English) which can be found at https://www.accuweather.com/en/privacy.
+--></a> 
+ <div id="awcc1506449482282" class="aw-widget-current" data-locationkey="334487" data-unit="f" data-language="en-us" data-useip="false" data-uid="awcc1506449482282"></div> 
+ <script type="text/javascript" src="https://oap.accuweather.com/launch.js">
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+            </script> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div class="dmRespRow" style="text-align: center;" id="1248907860"> <div class="dmRespColsWrapper" id="1144525151"> <div class="dmRespCol small-12 medium-12 large-12" id="1507135582"> <span id="1233985056"></span> 
+ <div class="dmDividerWrapper clearfix u_1974657582" id="1974657582" layout="divider-style-1" data-element-type="dDividerId"><hr class="dmDivider" style="min-height: 2px; border:none; background:grey" id="1248875159"/></div> 
+</div> 
+</div> 
+</div> 
+ <div class="u_1004037802 dmRespRow dmFooterContent" id="1004037802"> <div class="dmRespColsWrapper" id="1213868259"> <div class="dmRespCol small-12 dmFooterCol1 medium-12 large-12" id="1330978975"> <span style="clear:both;display:block" id="1906203261"></span> 
+ <div class="dmNewParagraph" data-dmtmpl="true" id="1920485091" style="transition: opacity 1s ease-in-out;" data-uialign="center"><div style="text-align: center;"><span class="font-size-11 lh-1">&copy; 2018 - Trustees of Dartmouth College - Dartmouth Broadcasting</span></div></div></div> 
+</div> 
+</div> 
+ <div id="1897379616" dmle_extension="powered_by" data-element-type="powered_by" wr="false" icon="true" surround="false" data-dmtmpl="true"></div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+
+            </div>
+        </div>
+<!--  Add full CSS and Javascript before the close tag of the body if needed -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- ========= CSS Section ========= -->
+<!-- Foundation CSS -->
+<link rel="stylesheet" type="text/css" href="/_dm/s/rt/dist/css/d-css-foundation.min.css?version=2018-08-19T07_40_23" />
+
+
+<!-- Google Fonts Include -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah:100,200,300,400,500,600,700,800,900,100italic,200italic,300italic,400italic,500italic,600italic,700italic,800italic,900italic|Libre+Baskerville:100,200,300,400,500,600,700,800,900,100italic,200italic,300italic,400italic,500italic,600italic,700italic,800italic,900italic|Source+Sans+Pro:100,200,300,400,500,600,700,800,900,100italic,200italic,300italic,400italic,500italic,600italic,700italic,800italic,900italic&amp;subset=latin-ext">
+
+<link rel="stylesheet" type="text/css" href="https://dd-cdn.multiscreensite.com/fonts/additional-fonts.css">
+
+
+<link rel="stylesheet" type="text/css" href="/_dm/s/rt/dist/css/css-font-package.min.css?version=2018-08-19T07_40_23" />
+
+
+<!-- RT CSS Include d-css-runtime-desktop-one-package-new-->
+<link rel="stylesheet" type="text/css" href="/_dm/s/rt/dist/css/d-css-runtime-desktop-one-package-new.min.css?version=2018-08-19T07_40_23" />
+
+<!-- End of RT CSS Include -->
+
+
+
+<!-- Site CSS -->
+<link type="text/css" rel="stylesheet" href="//cdn.website-editor.net/a21dac372fa3481fb8b3f890680e5ceb/files/a21dac372fa3481fb8b3f890680e5ceb_1.min.css?v=161" />
+
+
+<!-- additional css file per platform -->
+<link type="text/css" rel="stylesheet" href="/_dm/s/rt/css/oneUndOne/1and1-runtime.css?version=2018-08-19T07_40_23" />
+
+<style id="customWidgetStyle" type="text/css">
+    
+</style>
+<style id="innerPagesStyle" type="text/css">
+    
+</style>
+
+<style id="additionalGlobalCss" type="text/css">
+</style>
+
+
+<!-- Page CSS -->
+<link id="homeCssLink" type="text/css" rel="stylesheet" href="//cdn.website-editor.net/a21dac372fa3481fb8b3f890680e5ceb/files/a21dac372fa3481fb8b3f890680e5ceb_home_1.min.css?v=161" />
+
+<style id="pagestyle" type="text/css">
+    
+</style>
+
+<style id="pagestyleDevice" type="text/css">
+    
+</style>
+
+<!--[if IE 7]><style>.fw-head.fw-logo img{max-width: 290px;}.dm_header .logo-div img{max-width: 290px;}</style><![endif]-->
+<!--[if IE 8]><style>.fw-head .fw-logo img{max-width: 290px;}.dm_header .logo-div img{max-width: 290px;}*#dm div.dmHeader{_height:90px;min-height:0px;}</style><![endif]-->
+
+<!-- ========= JS Section ========= -->
+
+<!-- Modernizr -->
+<script>
+    /* THIS FILE IS AUTO-GENERATED. SEE build/build-modernizr */
+
+/*! modernizr 3.5.0 (Custom Build) | MIT *
+ * https://modernizr.com/download/?-cssvwunit-flexbox-flexboxlegacy-flexboxtweener-flexwrap-passiveeventlisteners-supports-svg-setclasses-cssclassprefix:dm- !*/
+!function(e,t,n){function r(e,t){return typeof e===t}function s(){var e,t,n,s,o,i,a;for(var l in w)if(w.hasOwnProperty(l)){if(e=[],t=w[l],t.name&&(e.push(t.name.toLowerCase()),t.options&&t.options.aliases&&t.options.aliases.length))for(n=0;n<t.options.aliases.length;n++)e.push(t.options.aliases[n].toLowerCase());for(s=r(t.fn,"function")?t.fn():t.fn,o=0;o<e.length;o++)i=e[o],a=i.split("."),1===a.length?Modernizr[a[0]]=s:(!Modernizr[a[0]]||Modernizr[a[0]]instanceof Boolean||(Modernizr[a[0]]=new Boolean(Modernizr[a[0]])),Modernizr[a[0]][a[1]]=s),C.push((s?"":"no-")+a.join("-"))}}function o(e){var t=x.className,n=Modernizr._config.classPrefix||"";if(b&&(t=t.baseVal),Modernizr._config.enableJSClass){var r=new RegExp("(^|\\s)"+n+"no-js(\\s|$)");t=t.replace(r,"$1"+n+"js$2")}Modernizr._config.enableClasses&&(t+=" "+n+e.join(" "+n),b?x.className.baseVal=t:x.className=t)}function i(e,t){return!!~(""+e).indexOf(t)}function a(){return"function"!=typeof t.createElement?t.createElement(arguments[0]):b?t.createElementNS.call(t,"http://www.w3.org/2000/svg",arguments[0]):t.createElement.apply(t,arguments)}function l(){var e=t.body;return e||(e=a(b?"svg":"body"),e.fake=!0),e}function f(e,n,r,s){var o,i,f,u,d="modernizr",p=a("div"),c=l();if(parseInt(r,10))for(;r--;)f=a("div"),f.id=s?s[r]:d+(r+1),p.appendChild(f);return o=a("style"),o.type="text/css",o.id="s"+d,(c.fake?c:p).appendChild(o),c.appendChild(p),o.styleSheet?o.styleSheet.cssText=e:o.appendChild(t.createTextNode(e)),p.id=d,c.fake&&(c.style.background="",c.style.overflow="hidden",u=x.style.overflow,x.style.overflow="hidden",x.appendChild(c)),i=n(p,e),c.fake?(c.parentNode.removeChild(c),x.style.overflow=u,x.offsetHeight):p.parentNode.removeChild(p),!!i}function u(e){return e.replace(/([A-Z])/g,function(e,t){return"-"+t.toLowerCase()}).replace(/^ms-/,"-ms-")}function d(t,n,r){var s;if("getComputedStyle"in e){s=getComputedStyle.call(e,t,n);var o=e.console;if(null!==s)r&&(s=s.getPropertyValue(r));else if(o){var i=o.error?"error":"log";o[i].call(o,"getComputedStyle returning null, its possible modernizr test results are inaccurate")}}else s=!n&&t.currentStyle&&t.currentStyle[r];return s}function p(t,r){var s=t.length;if("CSS"in e&&"supports"in e.CSS){for(;s--;)if(e.CSS.supports(u(t[s]),r))return!0;return!1}if("CSSSupportsRule"in e){for(var o=[];s--;)o.push("("+u(t[s])+":"+r+")");return o=o.join(" or "),f("@supports ("+o+") { #modernizr { position: absolute; } }",function(e){return"absolute"==d(e,null,"position")})}return n}function c(e){return e.replace(/([a-z])-([a-z])/g,function(e,t,n){return t+n.toUpperCase()}).replace(/^-/,"")}function v(e,t,s,o){function l(){u&&(delete P.style,delete P.modElem)}if(o=r(o,"undefined")?!1:o,!r(s,"undefined")){var f=p(e,s);if(!r(f,"undefined"))return f}for(var u,d,v,m,g,y=["modernizr","tspan","samp"];!P.style&&y.length;)u=!0,P.modElem=a(y.shift()),P.style=P.modElem.style;for(v=e.length,d=0;v>d;d++)if(m=e[d],g=P.style[m],i(m,"-")&&(m=c(m)),P.style[m]!==n){if(o||r(s,"undefined"))return l(),"pfx"==t?m:!0;try{P.style[m]=s}catch(h){}if(P.style[m]!=g)return l(),"pfx"==t?m:!0}return l(),!1}function m(e,t){return function(){return e.apply(t,arguments)}}function g(e,t,n){var s;for(var o in e)if(e[o]in t)return n===!1?e[o]:(s=t[e[o]],r(s,"function")?m(s,n||t):s);return!1}function y(e,t,n,s,o){var i=e.charAt(0).toUpperCase()+e.slice(1),a=(e+" "+T.join(i+" ")+i).split(" ");return r(t,"string")||r(t,"undefined")?v(a,t,s,o):(a=(e+" "+z.join(i+" ")+i).split(" "),g(a,t,n))}function h(e,t,r){return y(e,n,n,t,r)}var w=[],S={_version:"3.5.0",_config:{classPrefix:"dm-",enableClasses:!0,enableJSClass:!0,usePrefixes:!0},_q:[],on:function(e,t){var n=this;setTimeout(function(){t(n[e])},0)},addTest:function(e,t,n){w.push({name:e,fn:t,options:n})},addAsyncTest:function(e){w.push({name:null,fn:e})}},Modernizr=function(){};Modernizr.prototype=S,Modernizr=new Modernizr;var C=[],x=t.documentElement,b="svg"===x.nodeName.toLowerCase();Modernizr.addTest("svg",!!t.createElementNS&&!!t.createElementNS("http://www.w3.org/2000/svg","svg").createSVGRect);var _="Moz O ms Webkit",T=S._config.usePrefixes?_.split(" "):[];S._cssomPrefixes=T;var E={elem:a("modernizr")};Modernizr._q.push(function(){delete E.elem});var P={style:E.elem.style};Modernizr._q.unshift(function(){delete P.style});var z=S._config.usePrefixes?_.toLowerCase().split(" "):[];S._domPrefixes=z,S.testAllProps=y,S.testAllProps=h,Modernizr.addTest("flexbox",h("flexBasis","1px",!0)),Modernizr.addTest("flexboxlegacy",h("boxDirection","reverse",!0)),Modernizr.addTest("flexboxtweener",h("flexAlign","end",!0)),Modernizr.addTest("flexwrap",h("flexWrap","wrap",!0));var N="CSS"in e&&"supports"in e.CSS,j="supportsCSS"in e;Modernizr.addTest("supports",N||j);var A=S.testStyles=f;A("#modernizr { width: 50vw; }",function(t){var n=parseInt(e.innerWidth/2,10),r=parseInt(d(t,null,"width"),10);Modernizr.addTest("cssvwunit",r==n)}),Modernizr.addTest("passiveeventlisteners",function(){var t=!1;try{var n=Object.defineProperty({},"passive",{get:function(){t=!0}});e.addEventListener("test",null,n)}catch(r){}return t}),s(),o(C),delete S.addTest,delete S.addAsyncTest;for(var k=0;k<Modernizr._q.length;k++)Modernizr._q[k]();e.Modernizr=Modernizr}(window,document);</script>
+
+<script>
+    var isWLR = true;
+</script>
+<!-- Custom Widgets js functions map -->
+<script>
+    window.customWidgetsFunctions = {};
+    window.customWidgetsStrings = {};
+</script>
+<script type="text/javascript">
+
+    var version = "3.5.8";
+    var build = "2018-08-19T07_40_23";
+
+    function buildEditorParent() {
+        window.isMultiScreen = true;
+        window.editorParent = {};
+        window.previewParent = {};
+        window.assetsCacheQueryParam = "?version=2018-08-19T07_40_23";
+        try {
+            var _p = window.parent;
+            if (_p && _p.document && _p.$ && _p.$.dmfw) {
+                window.editorParent = _p;
+            }
+            else if (_p.isSitePreview) {
+                window.previewParent = _p;
+            }
+        } catch (e) {
+
+        }
+    }
+
+    buildEditorParent();
+
+
+</script>
+<!-- Load jQuery -->
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<!-- End Load jQuery --><script>
+    window.cookiesNotificationMarkupPreview = 'null';
+</script>
+<!-- HEAD RT JS Include -->
+<script>
+    window.INSITE = window.INSITE || {};
+    window.INSITE.device = "desktop";
+    window.rtCommonProps = {};
+    rtCommonProps["rt.ajax.ajaxScriptsFix"] =true;
+    rtCommonProps["rt.pushnotifs.sslframe.encoded"] = 'aHR0cHM6Ly97c3ViZG9tYWlufS5wdXNoLW5vdGlmcy5jb20=';
+    rtCommonProps["facebook.accessToken"] = '126515034112906|8vv7JhnEegS8qz43fIOZjxGZReA';
+    rtCommonProps["performance.tabletPreview.removeScroll"] = 'false';
+    rtCommonProps["inlineEditGrid.snap"] =true;
+    rtCommonProps["popup.insite.cookie.ttl"] = '0.0';
+    rtCommonProps["rt.pushnotifs.force.button"] =true;
+    rtCommonProps["google.places.key"] = 'AIzaSyBAwUOqPUB1CU31yDztoZYaUE7sPv4ktEI';
+    rtCommonProps["common.mapbox.token"] = 'pk.eyJ1IjoiZGFubnliMTIzIiwiYSI6ImNqMGljZ256dzAwMDAycXBkdWxwbDgzeXYifQ.Ck5P-0NKPVKAZ6SH98gxxw';
+    rtCommonProps["common.mapbox.js.override"] =false;
+    rtCommonProps["common.opencage.token"] = '319e14f32bcce967ba55cd263478796d';
+    rtCommonProps["common.here.appId"] = 'iYvDjIQ2quyEu0rg0hLo';
+    rtCommonProps["common.here.appCode"] = '1hcIxLJcbybmtBYTD9Z1UA';
+    rtCommonProps["isCoverage.test"] =false;
+    rtCommonProps["ecommerce.ecwid.script"] = 'https://app.multiscreenstore.com/script.js';
+    
+    rtCommonProps["common.mapsProvider"] = 'mapbox';
+    rtCommonProps["common.geocodeProvider"] = 'here';
+</script>
+<script src="/_dm/s/rt/dist/scripts/d-js-runtime-one-package.min.js?version=2018-08-19T07_40_23" ></script>
+<!-- End of HEAD RT JS Include -->
+<script src="/_dm/s/rt/dist/scripts/d-js-one-runtime-layouts-package.min.js?version=2018-08-19T07_40_23" ></script>
+<script src="/_dm/s/rt/dist/scripts/d-js-one-runtime-layouts-desktop.min.js?version=2018-08-19T07_40_23" ></script>
+<script>jQuery.DM.updateWidthAndHeight();
+$(window).resize(function () {
+    jQuery.DM.updateWidth();
+    
+});
+$(window).bind("orientationchange", function (e) {
+    jQuery.DM.updateWidth();
+    jQuery.layoutManager.initLayout();
+    
+});
+$(document).resize(function () {
+    jQuery.DM.updateWidth();
+    
+});
+</script>
+
+<script type="text/javascript">
+(function() {
+ 	var campaign = (/utm_campaign=([^&]*)/).exec(window.location.search);
+ 	
+ 	if (campaign && campaign != null && campaign.length > 1) {
+ 		campaign = campaign[1]; 		
+ 		document.cookie = "_dm_rt_campaign=" + campaign + ";expires=" + new Date().getTime() + 24*60*60*1000 + ";domain=" + window.location.hostname + ";path=/";
+ 	}
+}());
+</script>
+<script type="text/javascript">
+  var _dm_gaq = {};
+  var _gaq = _gaq || [];
+  var _dm_insite = [];
+
+  	
+;(function(p,l,o,w,i,n,g){if(!p[i]){p.GlobalSnowplowNamespace=p.GlobalSnowplowNamespace||[];
+p.GlobalSnowplowNamespace.push(i);p[i]=function(){(p[i].q=p[i].q||[]).push(arguments)
+};p[i].q=p[i].q||[];n=l.createElement(o);g=l.getElementsByTagName(o)[0];n.async=1;
+n.src=w;g.parentNode.insertBefore(n,g)}}(window,document,"script","//d1dxoqu0t5mb7j.cloudfront.net/sp-2.0.0-dm-0.1.min.js","snowplow"));
+window.dmsnowplow  = window.snowplow;
+
+dmsnowplow('newTracker', 'cf', 'd1dxoqu0t5mb7j.cloudfront.net', { // Initialise a tracker
+  appId: 'a21dac372fa3481fb8b3f890680e5ceb'
+});
+
+dmsnowplow('trackPageView')
+$.each(_dm_insite, function(idx, rule) {
+	//('trackStructEvent', 'category','action','label','property','value');
+			// Specifically in popup only the client knows if it is shown or not so we don't always want to track its impression here
+	        // the tracking is in popup.js
+			if (rule.actionName !== "popup") {
+                dmsnowplow('trackStructEvent', 'insite', 'impression', rule.ruleType, rule.ruleId);
+            }
+ 			$(document).ready(function(){
+ 				$.DM.events.trigger('event-ruleTriggered', {value: rule})}
+ 			);
+ 		});
+   </script>
+
+<div style="display:none;" id="P6iryBW0Wu"></div>
+
+<!-- photoswipe markup -->
+
+
+
+
+
+
+
+<!-- Root element of PhotoSwipe. Must have class pswp. -->
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    <!-- Background of PhotoSwipe. 
+         It's a separate element as animating opacity is faster than rgba(). -->
+    <div class="pswp__bg"></div>
+
+    <!-- Slides wrapper with overflow:hidden. -->
+    <div class="pswp__scroll-wrap">
+
+        <!-- Container that holds slides. 
+            PhotoSwipe keeps only 3 of them in the DOM to save memory.
+            Don't modify these 3 pswp__item elements, data is added later on. -->
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                <!--  Controls are self-explanatory. Order can be changed. -->
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+                <!-- element will get class pswp__preloader--active when preloader is running -->
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                      <div class="pswp__preloader__cut">
+                        <div class="pswp__preloader__donut"></div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div> 
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><!-- note these also must be called after ajax -->
+<script>
+    var dmForceShare = false;
+    if (dmForceShare || $("#shareSection").length > 0 || $(".dmShare").length > 0) {
+        dmLoadShare();
+    }
+
+    function dmLoadShare() {
+        /* google plus shares */
+        $.ajax({
+            url: "https://apis.google.com/js/plusone.js", dataType: "script", success: function () {
+            }
+        });
+        /* linked in shares */
+        $.ajax({
+            url: "https://platform.linkedin.com/in.js", dataType: "script", success: function () {
+            }
+        });
+        /* Twitter Shares */
+        $.ajax({
+            url: "https://platform.twitter.com/widgets.js", dataType: "script", success: function () {
+            }
+        });
+    }
+</script>
+<div id="fb-root"
+        data-locale="en"></div>
+
+<!-- Alias: a21dac372fa3481fb8b3f890680e5ceb -->
+<div class="dmPopupMask" id="dmPopupMask"></div>
+<div id="dmPopup" class="dmPopup">
+	<div class="dmPopupCloseWrapper"> <div class="dmPopupClose dm-icon-x_close_popup oneIcon" onclick="dmHidePopup(event);"></div> </div> 
+ 	<div class="dmPopupTitle"> <span></span> Share by:</div> 
+	<div class="data"></div>
+</div><script>
+// Collects client data and updates cookies used by smart sites
+var expireDays = 365,visitLength = 30 * 60000;
+$.setCookie("dm_timezone_offset", (new Date()).getTimezoneOffset(), expireDays);
+function setSmartSiteCookies() {
+	setSmartSiteCookiesInternal("dm_this_page_view","dm_last_page_view","dm_total_visits","dm_last_visit");
+}
+$.DM.events.on("afterAjax", setSmartSiteCookies);
+setSmartSiteCookies();
+</script>
+<script type="text/javascript">
+    $.extend(Parameters,{
+        AjaxContainer : "div.dmBody",
+        WrappingContainer : "div.dmOuter",
+        HomeUrl : "https://www.webdcr.com/",
+        AccountUUID: "ec67f6f7a96244188e27982dd3aee63d",
+        SiteAlias : "a21dac372fa3481fb8b3f890680e5ceb",
+        SiteId : "9579",
+        SiteType : eval(Base64.decode("J0RVREFPTkUn")),
+        ExternalUid: 'a2db9746-1f78-47e4-90f4-d5408acdc836',
+        IsSEOFriendlyLinks : true,
+        IsSiteMultilingual: false,
+        InitialPageAlias : "home",
+        InitialEncodedPageAlias : "aG9tZQ",
+        IsFromScratch : "false",
+        CurrentPageUrl : "null",
+        IsCurrentHomePage : true,
+        classicLink : "",
+         AllowAjax : true,
+        AfterAjaxCommand : null,
+        HomeLinkText:"Back To Home",
+        UseGalleryModule : false,
+        CurrentThemeName : "Layout Theme",
+        ThemeVersion : "495",
+        DefaultPageAlias : "",
+        RemoveDID : true,
+         LayoutVariationID : {desktop : 5},
+		LayoutID : {desktop : 6},
+		WidgetStyleID : null,
+		IsHeaderFixed: true,
+		IsHeaderSkinny: true,
+		IsBfs: true,
+		LayoutParams : {_manifestId : 10000,_device : "desktop"},
+    		StorePageAlias: "null",
+        StorePath: "",
+        StoreId: "null",
+        StoreVersion: 0,
+    		StoreBaseUrl: "",
+        StoreCleanUrl:true,
+    		StoreDisableScrolling: true,
+    		NotificationSubDomain: "webdcr1",
+        HasCustomDomain: true,
+    		showCookieNotification: false,
+		cookiesNotificationMarkup: 'null',
+        translatedPageUrl: '',
+        isFastMigrationSite: false,
+        sidebarPosition: 'NA',
+        currentLanguage: "en",
+        NavItems: "W3sidGl0bGUiOiJIb21lIiwiYWxpYXMiOiJob21lIiwicGF0aCI6Ii8iLCJpbk5hdmlnYXRpb24iOnRydWUsInN1Yk5hdiI6W119LHsidGl0bGUiOiJTaG93cyBPbiBEZW1hbmQiLCJhbGlhcyI6InNob3dzb25kZW1hbmQiLCJwYXRoIjoiL3Nob3dzb25kZW1hbmQiLCJpbk5hdmlnYXRpb24iOnRydWUsInN1Yk5hdiI6W119LHsidGl0bGUiOiJBYm91dCBVcyIsImFsaWFzIjoiYWJvdXQiLCJwYXRoIjoiL2Fib3V0IiwiaW5OYXZpZ2F0aW9uIjp0cnVlLCJzdWJOYXYiOltdfSx7InRpdGxlIjoiR2FsbGVyeSIsImFsaWFzIjoiZ2FsbGVyeSIsInBhdGgiOiIvZ2FsbGVyeSIsImluTmF2aWdhdGlvbiI6dHJ1ZSwic3ViTmF2IjpbXX0seyJ0aXRsZSI6Ikhpc3RvcnkiLCJhbGlhcyI6Imhpc3RvcnkiLCJwYXRoIjoiL2hpc3RvcnkiLCJpbk5hdmlnYXRpb24iOnRydWUsInN1Yk5hdiI6W119LHsidGl0bGUiOiJXaGVyZSBBcmUgVGhleSBOb3c/IiwiYWxpYXMiOiJ3aGVyZWFyZXRoZXlub3ciLCJwYXRoIjoiL3doZXJlYXJldGhleW5vdyIsImluTmF2aWdhdGlvbiI6dHJ1ZSwic3ViTmF2IjpbXX0seyJ0aXRsZSI6Ikxpc3RlbiBMaXZlIEhlcmUhIiwiYWxpYXMiOiJuZXdwYWdlIiwicGF0aCI6Ii9uZXdwYWdlIiwiaW5OYXZpZ2F0aW9uIjpmYWxzZSwic3ViTmF2IjpbXX1d",
+		errors: {
+			general: 'There was an error connecting to the page.<br/> Make sure you are not offline.',
+				password: 'Incorrect name/password combination',
+			tryAgain: 'Try again'
+		}
+    });
+    $.extend(Parameters.NavigationAreaParams,{
+        ShowBackToHomeOnInnerPages : true,
+        NavbarSize : 4,
+        NavbarLiveHomePage : "https://www.webdcr.com/",
+        BlockContainerSelector : ".dmBody",
+        NavbarSelector : "#dmNav:has(a)",
+        SubNavbarSelector : "#subnav_main"
+    });
+    $.extend(Parameters.LayoutParams, {_navigationAnimationStyle : 'slide'});
+    
+    Parameters.NavigationAreaParams.MoreButtonText = 'More';
+    
+    Parameters.NavigationAreaParams.LessButtonText = 'Less';
+    Parameters.HomeLinkText = 'Home';
+    </script>
+
+<script>
+
+    jQuery(window).load(function () {
+        try {
+            jQuery.DM.updateIOSHeight();
+        } catch(e){};
+    });
+</script>
+
+<!--  End Script tags -->
+
+<!--  Begin Product Custom HTML Markup -->
+<script>
+function call1and1Tracking() {
+	var externalId = dmAPI.getSiteExternalId();
+	var siteName = dmAPI.getSiteName();
+	var src = 'https://integration.mywebsite-editor.com/dakota-snippet-service/snippet/integration/snippet.js?sitename='+siteName+'&external_uid='+externalId+'&mode=visit'
+	var tracking = document.createElement('script');
+     tracking.setAttribute('src',src);
+   	document.head.appendChild(tracking);
+}
+call1and1Tracking();
+</script>
+
+
+<!--  End Product Custom HTML Markup -->
+</body>
+</html>
+<!--[oneand-run-as-0e4d71cab0aae4904, 2018-08-27 08:21:07]-->

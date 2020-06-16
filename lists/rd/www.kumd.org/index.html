@@ -1,0 +1,1310 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"VgYHV1dVGwIBVFlVBQU="};window.NREUM||(NREUM={}),__nr_require=function(t,n,e){function r(e){if(!n[e]){var o=n[e]={exports:{}};t[e][0].call(o.exports,function(n){var o=t[e][1][n];return r(o||n)},o,o.exports)}return n[e].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<e.length;o++)r(e[o]);return r}({1:[function(t,n,e){function r(t){try{s.console&&console.log(t)}catch(n){}}var o,i=t("ee"),a=t(15),s={};try{o=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(s.console=!0,o.indexOf("dev")!==-1&&(s.dev=!0),o.indexOf("nr_dev")!==-1&&(s.nrDev=!0))}catch(c){}s.nrDev&&i.on("internal-error",function(t){r(t.stack)}),s.dev&&i.on("fn-err",function(t,n,e){r(e.stack)}),s.dev&&(r("NR AGENT IN DEVELOPMENT MODE"),r("flags: "+a(s,function(t,n){return t}).join(", ")))},{}],2:[function(t,n,e){function r(t,n,e,r,s){try{p?p-=1:o(s||new UncaughtException(t,n,e),!0)}catch(f){try{i("ierr",[f,c.now(),!0])}catch(d){}}return"function"==typeof u&&u.apply(this,a(arguments))}function UncaughtException(t,n,e){this.message=t||"Uncaught error with no additional information",this.sourceURL=n,this.line=e}function o(t,n){var e=n?null:c.now();i("err",[t,e])}var i=t("handle"),a=t(16),s=t("ee"),c=t("loader"),f=t("gos"),u=window.onerror,d=!1,l="nr@seenError",p=0;c.features.err=!0,t(1),window.onerror=r;try{throw new Error}catch(h){"stack"in h&&(t(8),t(7),"addEventListener"in window&&t(5),c.xhrWrappable&&t(9),d=!0)}s.on("fn-start",function(t,n,e){d&&(p+=1)}),s.on("fn-err",function(t,n,e){d&&!e[l]&&(f(e,l,function(){return!0}),this.thrown=!0,o(e))}),s.on("fn-end",function(){d&&!this.thrown&&p>0&&(p-=1)}),s.on("internal-error",function(t){i("ierr",[t,c.now(),!0])})},{}],3:[function(t,n,e){t("loader").features.ins=!0},{}],4:[function(t,n,e){function r(t){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var o=t("ee"),i=t("handle"),a=t(8),s=t(7),c="learResourceTimings",f="addEventListener",u="resourcetimingbufferfull",d="bstResource",l="resource",p="-start",h="-end",m="fn"+p,w="fn"+h,v="bstTimer",y="pushState",g=t("loader");g.features.stn=!0,t(6);var b=NREUM.o.EV;o.on(m,function(t,n){var e=t[0];e instanceof b&&(this.bstStart=g.now())}),o.on(w,function(t,n){var e=t[0];e instanceof b&&i("bst",[e,n,this.bstStart,g.now()])}),a.on(m,function(t,n,e){this.bstStart=g.now(),this.bstType=e}),a.on(w,function(t,n){i(v,[n,this.bstStart,g.now(),this.bstType])}),s.on(m,function(){this.bstStart=g.now()}),s.on(w,function(t,n){i(v,[n,this.bstStart,g.now(),"requestAnimationFrame"])}),o.on(y+p,function(t){this.time=g.now(),this.startPath=location.pathname+location.hash}),o.on(y+h,function(t){i("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),f in window.performance&&(window.performance["c"+c]?window.performance[f](u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["c"+c]()},!1):window.performance[f]("webkit"+u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["webkitC"+c]()},!1)),document[f]("scroll",r,{passive:!0}),document[f]("keypress",r,!1),document[f]("click",r,!1)}},{}],5:[function(t,n,e){function r(t){for(var n=t;n&&!n.hasOwnProperty(u);)n=Object.getPrototypeOf(n);n&&o(n)}function o(t){s.inPlace(t,[u,d],"-",i)}function i(t,n){return t[1]}var a=t("ee").get("events"),s=t(18)(a,!0),c=t("gos"),f=XMLHttpRequest,u="addEventListener",d="removeEventListener";n.exports=a,"getPrototypeOf"in Object?(r(document),r(window),r(f.prototype)):f.prototype.hasOwnProperty(u)&&(o(window),o(f.prototype)),a.on(u+"-start",function(t,n){var e=t[1],r=c(e,"nr@wrapped",function(){function t(){if("function"==typeof e.handleEvent)return e.handleEvent.apply(e,arguments)}var n={object:t,"function":e}[typeof e];return n?s(n,"fn-",null,n.name||"anonymous"):e});this.wrapped=t[1]=r}),a.on(d+"-start",function(t){t[1]=this.wrapped||t[1]})},{}],6:[function(t,n,e){var r=t("ee").get("history"),o=t(18)(r);n.exports=r,o.inPlace(window.history,["pushState","replaceState"],"-")},{}],7:[function(t,n,e){var r=t("ee").get("raf"),o=t(18)(r),i="equestAnimationFrame";n.exports=r,o.inPlace(window,["r"+i,"mozR"+i,"webkitR"+i,"msR"+i],"raf-"),r.on("raf-start",function(t){t[0]=o(t[0],"fn-")})},{}],8:[function(t,n,e){function r(t,n,e){t[0]=a(t[0],"fn-",null,e)}function o(t,n,e){this.method=e,this.timerDuration=isNaN(t[1])?0:+t[1],t[0]=a(t[0],"fn-",this,e)}var i=t("ee").get("timer"),a=t(18)(i),s="setTimeout",c="setInterval",f="clearTimeout",u="-start",d="-";n.exports=i,a.inPlace(window,[s,"setImmediate"],s+d),a.inPlace(window,[c],c+d),a.inPlace(window,[f,"clearImmediate"],f+d),i.on(c+u,r),i.on(s+u,o)},{}],9:[function(t,n,e){function r(t,n){d.inPlace(n,["onreadystatechange"],"fn-",s)}function o(){var t=this,n=u.context(t);t.readyState>3&&!n.resolved&&(n.resolved=!0,u.emit("xhr-resolved",[],t)),d.inPlace(t,y,"fn-",s)}function i(t){g.push(t),h&&(x?x.then(a):w?w(a):(E=-E,O.data=E))}function a(){for(var t=0;t<g.length;t++)r([],g[t]);g.length&&(g=[])}function s(t,n){return n}function c(t,n){for(var e in t)n[e]=t[e];return n}t(5);var f=t("ee"),u=f.get("xhr"),d=t(18)(u),l=NREUM.o,p=l.XHR,h=l.MO,m=l.PR,w=l.SI,v="readystatechange",y=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],g=[];n.exports=u;var b=window.XMLHttpRequest=function(t){var n=new p(t);try{u.emit("new-xhr",[n],n),n.addEventListener(v,o,!1)}catch(e){try{u.emit("internal-error",[e])}catch(r){}}return n};if(c(p,b),b.prototype=p.prototype,d.inPlace(b.prototype,["open","send"],"-xhr-",s),u.on("send-xhr-start",function(t,n){r(t,n),i(n)}),u.on("open-xhr-start",r),h){var x=m&&m.resolve();if(!w&&!m){var E=1,O=document.createTextNode(E);new h(a).observe(O,{characterData:!0})}}else f.on("fn-end",function(t){t[0]&&t[0].type===v||a()})},{}],10:[function(t,n,e){function r(t){var n=this.params,e=this.metrics;if(!this.ended){this.ended=!0;for(var r=0;r<d;r++)t.removeEventListener(u[r],this.listener,!1);if(!n.aborted){if(e.duration=a.now()-this.startTime,4===t.readyState){n.status=t.status;var i=o(t,this.lastSize);if(i&&(e.rxSize=i),this.sameOrigin){var c=t.getResponseHeader("X-NewRelic-App-Data");c&&(n.cat=c.split(", ").pop())}}else n.status=0;e.cbTime=this.cbTime,f.emit("xhr-done",[t],t),s("xhr",[n,e,this.startTime])}}}function o(t,n){var e=t.responseType;if("json"===e&&null!==n)return n;var r="arraybuffer"===e||"blob"===e||"json"===e?t.response:t.responseText;return h(r)}function i(t,n){var e=c(n),r=t.params;r.host=e.hostname+":"+e.port,r.pathname=e.pathname,t.sameOrigin=e.sameOrigin}var a=t("loader");if(a.xhrWrappable){var s=t("handle"),c=t(11),f=t("ee"),u=["load","error","abort","timeout"],d=u.length,l=t("id"),p=t(14),h=t(13),m=window.XMLHttpRequest;a.features.xhr=!0,t(9),f.on("new-xhr",function(t){var n=this;n.totalCbs=0,n.called=0,n.cbTime=0,n.end=r,n.ended=!1,n.xhrGuids={},n.lastSize=null,p&&(p>34||p<10)||window.opera||t.addEventListener("progress",function(t){n.lastSize=t.loaded},!1)}),f.on("open-xhr-start",function(t){this.params={method:t[0]},i(this,t[1]),this.metrics={}}),f.on("open-xhr-end",function(t,n){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&n.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),f.on("send-xhr-start",function(t,n){var e=this.metrics,r=t[0],o=this;if(e&&r){var i=h(r);i&&(e.txSize=i)}this.startTime=a.now(),this.listener=function(t){try{"abort"===t.type&&(o.params.aborted=!0),("load"!==t.type||o.called===o.totalCbs&&(o.onloadCalled||"function"!=typeof n.onload))&&o.end(n)}catch(e){try{f.emit("internal-error",[e])}catch(r){}}};for(var s=0;s<d;s++)n.addEventListener(u[s],this.listener,!1)}),f.on("xhr-cb-time",function(t,n,e){this.cbTime+=t,n?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof e.onload||this.end(e)}),f.on("xhr-load-added",function(t,n){var e=""+l(t)+!!n;this.xhrGuids&&!this.xhrGuids[e]&&(this.xhrGuids[e]=!0,this.totalCbs+=1)}),f.on("xhr-load-removed",function(t,n){var e=""+l(t)+!!n;this.xhrGuids&&this.xhrGuids[e]&&(delete this.xhrGuids[e],this.totalCbs-=1)}),f.on("addEventListener-end",function(t,n){n instanceof m&&"load"===t[0]&&f.emit("xhr-load-added",[t[1],t[2]],n)}),f.on("removeEventListener-end",function(t,n){n instanceof m&&"load"===t[0]&&f.emit("xhr-load-removed",[t[1],t[2]],n)}),f.on("fn-start",function(t,n,e){n instanceof m&&("onload"===e&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=a.now()))}),f.on("fn-end",function(t,n){this.xhrCbStart&&f.emit("xhr-cb-time",[a.now()-this.xhrCbStart,this.onload,n],n)})}},{}],11:[function(t,n,e){n.exports=function(t){var n=document.createElement("a"),e=window.location,r={};n.href=t,r.port=n.port;var o=n.href.split("://");!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=n.hostname||e.hostname,r.pathname=n.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname);var i=!n.protocol||":"===n.protocol||n.protocol===e.protocol,a=n.hostname===document.domain&&n.port===e.port;return r.sameOrigin=i&&(!n.hostname||a),r}},{}],12:[function(t,n,e){function r(){}function o(t,n,e){return function(){return i(t,[f.now()].concat(s(arguments)),n?null:this,e),n?void 0:this}}var i=t("handle"),a=t(15),s=t(16),c=t("ee").get("tracer"),f=t("loader"),u=NREUM;"undefined"==typeof window.newrelic&&(newrelic=u);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",p=l+"ixn-";a(d,function(t,n){u[n]=o(l+n,!0,"api")}),u.addPageAction=o(l+"addPageAction",!0),u.setCurrentRouteName=o(l+"routeName",!0),n.exports=newrelic,u.interaction=function(){return(new r).get()};var h=r.prototype={createTracer:function(t,n){var e={},r=this,o="function"==typeof n;return i(p+"tracer",[f.now(),t,e],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],e),o)try{return n.apply(this,arguments)}catch(t){throw c.emit("fn-err",[arguments,this,t],e),t}finally{c.emit("fn-end",[f.now()],e)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,n){h[n]=o(p+n)}),newrelic.noticeError=function(t){"string"==typeof t&&(t=new Error(t)),i("err",[t,f.now()])}},{}],13:[function(t,n,e){n.exports=function(t){if("string"==typeof t&&t.length)return t.length;if("object"==typeof t){if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if(!("undefined"!=typeof FormData&&t instanceof FormData))try{return JSON.stringify(t).length}catch(n){return}}}},{}],14:[function(t,n,e){var r=0,o=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);o&&(r=+o[1]),n.exports=r},{}],15:[function(t,n,e){function r(t,n){var e=[],r="",i=0;for(r in t)o.call(t,r)&&(e[i]=n(r,t[r]),i+=1);return e}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],16:[function(t,n,e){function r(t,n,e){n||(n=0),"undefined"==typeof e&&(e=t?t.length:0);for(var r=-1,o=e-n||0,i=Array(o<0?0:o);++r<o;)i[r]=t[n+r];return i}n.exports=r},{}],17:[function(t,n,e){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],18:[function(t,n,e){function r(t){return!(t&&t instanceof Function&&t.apply&&!t[a])}var o=t("ee"),i=t(16),a="nr@original",s=Object.prototype.hasOwnProperty,c=!1;n.exports=function(t,n){function e(t,n,e,o){function nrWrapper(){var r,a,s,c;try{a=this,r=i(arguments),s="function"==typeof e?e(r,a):e||{}}catch(f){l([f,"",[r,a,o],s])}u(n+"start",[r,a,o],s);try{return c=t.apply(a,r)}catch(d){throw u(n+"err",[r,a,d],s),d}finally{u(n+"end",[r,a,c],s)}}return r(t)?t:(n||(n=""),nrWrapper[a]=t,d(t,nrWrapper),nrWrapper)}function f(t,n,o,i){o||(o="");var a,s,c,f="-"===o.charAt(0);for(c=0;c<n.length;c++)s=n[c],a=t[s],r(a)||(t[s]=e(a,f?s+o:o,i,s))}function u(e,r,o){if(!c||n){var i=c;c=!0;try{t.emit(e,r,o,n)}catch(a){l([a,e,r,o])}c=i}}function d(t,n){if(Object.defineProperty&&Object.keys)try{var e=Object.keys(t);return e.forEach(function(e){Object.defineProperty(n,e,{get:function(){return t[e]},set:function(n){return t[e]=n,n}})}),n}catch(r){l([r])}for(var o in t)s.call(t,o)&&(n[o]=t[o]);return n}function l(n){try{t.emit("internal-error",n)}catch(e){}}return t||(t=o),e.inPlace=f,e.flag=a,e}},{}],ee:[function(t,n,e){function r(){}function o(t){function n(t){return t&&t instanceof r?t:t?c(t,s,i):i()}function e(e,r,o,i){if(!l.aborted||i){t&&t(e,r,o);for(var a=n(o),s=h(e),c=s.length,f=0;f<c;f++)s[f].apply(a,r);var d=u[y[e]];return d&&d.push([g,e,r,a]),a}}function p(t,n){v[t]=h(t).concat(n)}function h(t){return v[t]||[]}function m(t){return d[t]=d[t]||o(e)}function w(t,n){f(t,function(t,e){n=n||"feature",y[e]=n,n in u||(u[n]=[])})}var v={},y={},g={on:p,emit:e,get:m,listeners:h,context:n,buffer:w,abort:a,aborted:!1};return g}function i(){return new r}function a(){(u.api||u.feature)&&(l.aborted=!0,u=l.backlog={})}var s="nr@context",c=t("gos"),f=t(15),u={},d={},l=n.exports=o();l.backlog=u},{}],gos:[function(t,n,e){function r(t,n,e){if(o.call(t,n))return t[n];var r=e();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(t,n,e){function r(t,n,e,r){o.buffer([t],r),o.emit(t,n,e)}var o=t("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(t,n,e){function r(t){var n=typeof t;return!t||"object"!==n&&"function"!==n?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");n.exports=r},{}],loader:[function(t,n,e){function r(){if(!x++){var t=b.info=NREUM.info,n=l.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&n))return u.abort();f(y,function(n,e){t[n]||(t[n]=e)}),c("mark",["onload",a()+b.offset],null,"api");var e=l.createElement("script");e.src="https://"+t.agent,n.parentNode.insertBefore(e,n)}}function o(){"complete"===l.readyState&&i()}function i(){c("mark",["domContent",a()+b.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(s=Math.max((new Date).getTime(),s))-b.offset}var s=(new Date).getTime(),c=t("handle"),f=t(15),u=t("ee"),d=window,l=d.document,p="addEventListener",h="attachEvent",m=d.XMLHttpRequest,w=m&&m.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:m,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1071.min.js"},g=m&&w&&w[p]&&!/CriOS/.test(navigator.userAgent),b=n.exports={offset:s,now:a,origin:v,features:{},xhrWrappable:g};t(12),l[p]?(l[p]("DOMContentLoaded",i,!1),d[p]("load",r,!1)):(l[h]("onreadystatechange",o),d[h]("onload",r)),c("mark",["firstbyte",s],null,"api");var x=0,E=t(17)},{}]},{},["loader",2,10,4,3]);</script>
+<link rel="shortcut icon" href="http://mediad.publicbroadcasting.net/p/kumd/files/201502/KUMD_favicon.ico" type="image/vnd.microsoft.icon" />
+<meta name="description" content="Local independent public radio for Duluth, MN, with a music, arts, and community focus." />
+<link rel="alternate" type="application/rss+xml" title="RSS Feed" href="http://www.kumd.org/rss.xml" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<meta name="google-site-verification" content="-AiT8IOuB4zU5w5uqcF8cNT953wv4eKKx1zBE84Tqjg" />
+    <title>KUMD | The Duluth Alternative</title>
+    <link type="text/css" rel="stylesheet" href="http://www.kumd.org/sites/kumd.org/files/css/css_zXr1pRkjUmFHX10b6Pv5_DqzyewvdLNQ8QgccGQIRQQ.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://www.kumd.org/sites/kumd.org/files/css/css_ZFlaYqkiQzTmlBPX4mQeT33IFQX3nR-zpGlyqFhtTNM.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://www.kumd.org/sites/kumd.org/files/css/css_PV0HBDBtTWS7oiEnFpozcEeThn_X5umpjVSdbNSQIRI.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://www.kumd.org/sites/kumd.org/files/css/css_uY1_bHNTrAu2UuUwumZ6AuPc2Egu5fV5FiJ2-fv7ySk.css" media="all" />
+<style type="text/css" media="all">
+<!--/*--><![CDATA[/*><!--*/
+.header-region-outer{background-color:#FFFFFF;}@media screen and (min-width:1024px){.header-region-outer{background-image:url(http://mediad.publicbroadcasting.net/p/kumd/files/201503/KUMD_WebHeader_0.png);background-position:center top;background-size:auto;background-repeat:no-repeat;}}.branding .tagline{color:#000;}.branding .listen-live-toggle > a,.branding .header-utility > a,.branding .header-utility > a.trigger-nav{color:#DEDEDE;}@media screen and (min-width:641px){.branding .trigger-nav{background:#777777;}}@media screen and (max-width:640px){.branding .header-utility > a.trigger-nav,.active-menu .branding .header-utility > a.trigger-nav{color:#777777;}}#listen-live .listen-live-toggle{background-color:#6BBA51;}#listen-live .listen-live-btn{background-color:transparent;color:#DEDEDE;}@media screen and (min-width:640px){#listen-live .listen-live-btn{background-color:#6BBA51;}}.branding .give{background:#9E2E10;}
+
+/*]]>*/-->
+</style>
+<link type="text/css" rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato:300,700,700italic,900,italic,regular&amp;subset=latin" media="all" />
+<link type="text/css" rel="stylesheet" href="http://www.kumd.org/sites/kumd.org/files/css/css_zV_5qaEwHtfh43AmzmG8IVYexPd1f_8gXooTNPIZiRg.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://www.kumd.org/sites/kumd.org/files/css/css_SWo6tZlpCPjnhbZDAS4xgnCAofi51J7pbtu4SD2fIug.css" media="all" />
+    <script type="text/javascript" src="http://mediad.publicbroadcasting.net/p/kumd/files/js/js_xSpMA4ArVcBKOZ43sPqNRk0gxQZdDVifw27pIUCzWU0.js"></script>
+<script type="text/javascript" src="http://mediad.publicbroadcasting.net/p/kumd/files/js/js_uQACNz-q46biHdzuzAdQkVZaYioI6VTDeluEJ1apVwI.js"></script>
+<script type="text/javascript" src="http://mediad.publicbroadcasting.net/p/kumd/files/js/js_f_6-OzlFXjayKlsU5sJKLwjz7LFQvdIZDm-Mt6jKwyM.js"></script>
+<script type="text/javascript" src="http://mediad.publicbroadcasting.net/p/kumd/files/js/js__4npt0PuTlrK-GkTl821OR8Eb7aiGB9GvsSeu1tr7U4.js"></script>
+<script type="text/javascript" src="//www.googletagservices.com/tag/js/gpt.js"></script>
+<script type="text/javascript" src="http://mediad.publicbroadcasting.net/p/kumd/files/js/js_9ufN9H6kNVTe25hSLfSJf7Ylq_1PKW-e2_Q_E5-J8eU.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+(function() {var ga = document.createElement("script");ga.type = "text/javascript";ga.async = true;ga.src="//stream.publicbroadcasting.net/analytics/abp3.js";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(ga, s);})();
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://mediad.publicbroadcasting.net/p/kumd/files/js/js_2tkuwUz--0pQ5TVOxxniQYTRPUVL5DidLNRUp-zjMnc.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"responso","theme_token":"INwk6sM_ngM4IYaE4_Px10GyZ8QgtLlPM0auhd2I2_U","js":{"0":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery\/1.8\/jquery.min.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/custom\/responsive_utilities\/js\/vendor\/foundation\/foundation.js":1,"sites\/all\/modules\/custom\/responsive_utilities\/js\/vendor\/foundation\/foundation.topbar.js":1,"sites\/all\/libraries\/magnific-popup\/jquery.magnific-popup.min.js":1,"sites\/all\/modules\/contrib\/google_cse\/google_cse.js":1,"sites\/all\/modules\/custom\/pi_media_types\/pi_audio\/js\/pi-audio.js":1,"sites\/all\/modules\/custom\/pi_hull\/js\/pi-hull.js":1,"sites\/all\/modules\/custom\/pi_hull\/js\/jquery.innerfade.js":1,"sites\/all\/modules\/custom\/pi_hull\/jplayer\/js\/jquery.jplayer.min.js":1,"sites\/all\/modules\/custom\/pi_hull\/jplayer\/js\/main.js":1,"\/\/www.googletagservices.com\/tag\/js\/gpt.js":1,"sites\/all\/modules\/custom\/responsive_ads\/js\/main.js":1,"sites\/all\/modules\/custom\/pi_ajax_links_api\/nprogress\/nprogress.js":1,"sites\/all\/modules\/custom\/pi_ajax_links_api\/pi_ajax_links_api.js":1,"sites\/all\/modules\/custom\/npr_entities\/npr_fields\/npr_image_gallery\/js\/npr-image-gallery.js":1,"sites\/all\/modules\/custom\/pi_assets\/plugins\/images\/js\/popup.js":1,"sites\/all\/modules\/custom\/npr_river\/assets\/npr-river.js":1,"sites\/all\/modules\/custom\/pi_guide\/js\/pi_guide_schedule_selector.js":1,"sites\/all\/modules\/custom\/responsive_utilities\/js\/vendor\/modernizr.js":1,"sites\/all\/modules\/custom\/responsive_utilities\/js\/vendor\/media.match.min.js":1,"sites\/all\/modules\/custom\/responsive_utilities\/js\/vendor\/matchMedia.addListener.js":1,"sites\/all\/modules\/custom\/responsive_utilities\/js\/vendor\/enquire.min.js":1,"sites\/all\/modules\/custom\/responsive_utilities\/js\/vendor\/fastclick.js":1,"1":1,"sites\/all\/modules\/custom\/block_factory\/treatments\/promotional-small\/promotional-small.js":1,"sites\/all\/modules\/custom\/pi_content_types\/pi_program\/treatments\/program-promo\/program-promo.js":1,"sites\/all\/modules\/custom\/responsive_utilities\/js\/responsive-utilities.mediaqueries.js":1,"sites\/all\/modules\/custom\/responsive_utilities\/js\/responsive-utilities.scripts.js":1,"sites\/all\/modules\/custom\/responsive_utilities\/js\/responsive-utilities.responsiveimages.js":1,"sites\/all\/modules\/custom\/community_calendar\/lib\/datetimepicker\/jquery.timepicker.min.js":1,"sites\/all\/modules\/custom\/community_calendar\/lib\/datetimepicker\/bootstrap-datepicker.min.js":1,"sites\/all\/modules\/custom\/community_calendar\/lib\/datetimepicker\/jquery.datepair.min.js":1,"sites\/all\/modules\/custom\/community_calendar\/lib\/validation\/jquery.mask.min.js":1,"sites\/all\/modules\/custom\/community_calendar\/lib\/validation\/jquery.validate.min.js":1,"sites\/all\/modules\/custom\/community_calendar\/lib\/typeahead\/typeahead.js":1,"sites\/all\/modules\/custom\/community_calendar\/assets\/community-calendar.helpers.js":1,"sites\/all\/modules\/custom\/community_calendar\/assets\/community-calendar.js":1,"sites\/all\/modules\/custom\/community_calendar\/assets\/community-calendar.filters.js":1,"sites\/all\/modules\/custom\/community_calendar\/assets\/community-calendar.event.js":1,"sites\/all\/modules\/custom\/responsive_utilities\/js\/responsive-utilities.js":1,"sites\/all\/modules\/custom\/responsive_utilities\/js\/responsive-utilities.tag.js":1,"sites\/all\/modules\/custom\/community_calendar\/assets\/community-calendar.location.js":1,"sites\/all\/modules\/custom\/community_calendar\/assets\/community-calendar.organization.js":1,"sites\/all\/modules\/custom\/community_calendar\/assets\/community-calendar.recurrence.js":1,"sites\/all\/modules\/custom\/community_calendar\/assets\/community-calendar.category.js":1,"sites\/all\/modules\/custom\/community_calendar\/assets\/community-calendar.image.js":1,"sites\/all\/modules\/custom\/community_calendar\/assets\/community-calendar.sponsor.js":1,"sites\/all\/modules\/custom\/community_calendar\/assets\/community-calendar.validation.js":1,"sites\/all\/modules\/custom\/responsive_utilities\/js\/responsive-utilities.overrides.js":1,"sites\/all\/modules\/contrib\/disqus\/disqus.js":1,"sites\/all\/modules\/custom\/audity\/audity\/dsplayer.min.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"sites\/all\/libraries\/magnific-popup\/magnific-popup.css":1,"sites\/all\/modules\/contrib\/date\/date_api\/date.css":1,"sites\/all\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/contrib\/google_cse\/google_cse.css":1,"modules\/node\/node.css":1,"sites\/all\/modules\/custom\/pi_hull\/pi_outrigger\/css\/pi_outrigger.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/custom\/pi_guide\/css\/pi_guide.css":1,"sites\/all\/modules\/custom\/pi_hull\/jplayer\/css\/jplayer.npr.css":1,"sites\/all\/modules\/custom\/pi_npr_story\/css\/pi_npr_story.css":1,"sites\/all\/modules\/custom\/pi_views\/pi_reports_views\/css\/pi_reports.css":1,"sites\/all\/modules\/custom\/pi_menus\/css\/flexiMenu.css":1,"sites\/all\/modules\/custom\/responsive_footer\/responsive-footer.admin.css":1,"0":1,"http:\/\/fonts.googleapis.com\/css?family=Lato:300,700,700italic,900,italic,regular\u0026subset=latin":1,"sites\/all\/modules\/custom\/audity\/audity\/css\/audity.css":1,"sites\/all\/modules\/custom\/pi_ajax_links_api\/pi_ajax_links_api.css":1,"sites\/all\/modules\/custom\/pi_ajax_links_api\/nprogress\/nprogress.css":1,"sites\/all\/modules\/custom\/pi_content_types\/pi_program\/treatments\/program-promo\/program-promo.css":1,"sites\/all\/modules\/custom\/community_calendar\/lib\/typeahead\/typeahead.css":1,"sites\/all\/modules\/custom\/community_calendar\/lib\/datetimepicker\/jquery.timepicker.css":1,"sites\/all\/modules\/custom\/community_calendar\/lib\/datetimepicker\/bootstrap-datepicker3.standalone.min.css":1,"sites\/all\/modules\/custom\/npr_entities\/npr_fields\/npr_image_gallery\/css\/npr-image-gallery.css":1,"sites\/all\/modules\/custom\/community_calendar\/assets\/community-calendar.css":1,"sites\/all\/modules\/custom\/block_factory\/treatments\/one-story\/one-story.css":1,"sites\/all\/modules\/custom\/block_factory\/treatments\/promotional-small\/promotional-small.css":1,"sites\/all\/modules\/custom\/block_factory\/treatments\/promotional-large\/promotional-large.css":1,"sites\/all\/themes\/responso\/css\/icon-fonts.css":1,"sites\/all\/themes\/responso\/css\/screen.css":1}},"googleCSE":{"cx":"007705902156182082353:sjm4hmyl_l8","language":"","resultsWidth":600,"domain":"www.google.com","showWaterMark":true},"audityConfig":{"station":{"listenLabel":"Listen Live"},"streams":[{"desc":"KUMD","name":0,"url":"http:\/\/kumdaac.d.umn.edu:8000\/KUMD.mp3","data":{"type":"composer2","ucs":"5193efcbe1c8c35f7471aa4c"}}],"analytics":{"acct":"abp3"},"ads":{"network":"100034157","units":{"audio":"kumd_player_audio","display":"kumd_player_display","leavebehind":"kumd_player_leavebehind"}}},"responsive_ads":{"networkCode":"100034157","prefix":"kumd","adUnitTypes":{"leaderboard":{"note":"Only shows above 1024; shows 970x90 or 728x90.","sizes":[{"viewportSize":[0,0],"slotSize":[]},{"viewportSize":[1024,200],"slotSize":[[970,90],[970,50],[728,90]]}]},"medium":{"note":"Won't be served on screens smaller than 640x480.","sizes":[{"viewportSize":[0,0],"slotSize":[]},{"viewportSize":[640,200],"slotSize":[300,250]}]},"tablet":{"note":"Won't be served on screens smaller than 640x480 or larger than 1024x768","sizes":[{"viewportSize":[0,0],"slotSize":[]},{"viewportSize":[640,200],"slotSize":[728,90]},{"viewportSize":[1024,200],"slotSize":[]}]},"mobile":{"note":"Won't be served on screens larger than 640x480.","sizes":[{"viewportSize":[0,0],"slotSize":[320,50]},{"viewportSize":[640,200],"slotSize":[]}]}},"adUnits":[{"name":"leaderboard_1","type":"leaderboard","width":728,"height":90},{"name":"player_display","type":"leaderboard","width":728,"height":90},{"name":"medium_1","type":"medium","width":300,"height":250},{"name":"medium_2","type":"medium","width":300,"height":250},{"name":"medium_3","type":"medium","width":300,"height":250},{"name":"tablet_1","type":"tablet","width":728,"height":90},{"name":"mobile_1","type":"mobile","width":320,"height":50}],"placements":{"leaderboard_1":"main#content","medium_1":"#block-pi-responsive-ads-medium-1 .content","medium_2":"#block-pi-responsive-ads-medium-2 .content","medium_3":"#block-pi-responsive-ads-medium-3 .content","tablet_1":"main#content","mobile_1":"#block-pi-responsive-ads-mobile-1 .content"},"persistentPlacements":[],"targeting":{"type":"agg","agg":"homepage"}},"tms_meta":[],"responsive_utilities":{"body_classes":"html front not-logged-in no-sidebars page-homepage","custom_vars":{"nid":{"name":"nid","slot":8,"scope_id":3},"pop":{"name":"pop","slot":9,"scope_id":3},"author":{"name":"author","slot":11,"scope_id":3},"keywords":{"name":"tags","slot":12,"scope_id":3},"org_id":{"name":"org_id","slot":13,"scope_id":3},"brand":{"name":"CP_Station","slot":14,"scope_id":2},"has_audio":{"name":"Has_Inline_Audio","slot":15,"scope_id":3},"programs":{"name":"Program","slot":16,"scope_id":3},"category":{"name":"Category","slot":10,"scope_id":3},"datePublished":{"name":"PublishedDate","slot":17,"scope_id":3},"wordCount":{"name":"WordCount","slot":18,"scope_id":3},"story_id":{"name":"API_Story_Id","slot":19,"scope_id":3},"pmp_guid":{"name":"pmp_guid","slot":20,"scope_id":3}},"pagetype_vars":[{"page_type":"Content\/About","regex_pattern":"\/about(-us)?\/?$","pattern_name":"Core Publisher About Page"},{"page_type":"Events","regex_pattern":"\/events(\/|$)","pattern_name":"Core Publisher Events Page"},{"page_type":"People","regex_pattern":"\/people(\/|$)","pattern_name":"Core Publisher People Page"},{"page_type":"Playlist","regex_pattern":"\/search_playlists\/?$","pattern_name":"Core Publisher Playlist Page"},{"page_type":"Program","regex_pattern":"\/programs(\/|$)","pattern_name":"Core Publisher Program Page"},{"page_type":"Schedule","regex_pattern":"\/schedule(\/|$)","pattern_name":"Core Publisher Schedule Page"},{"page_type":"Search","regex_pattern":"\/search\/google\/?","pattern_name":"Core Publisher Search GSA Page"},{"page_type":"Story","regex_pattern":"\/post\/|\/webclip\/","pattern_name":"Core Publisher Story Page"},{"page_type":"Streaming","regex_pattern":"\/listen(-live)?\/?(#|$)","pattern_name":"Core Publisher Listen Live Page"}],"media_queries":{"mobile":"all and (max-width: 40em)","tablet":"screen and (min-width: 40.063em) and (max-width: 64em)","desktop":"screen and (min-width: 64.063em)"}},"pi_ajax_links_api":{"selector":"#page-document","trigger":"a.ajax-link,#page-wrapper a,a.logo,a.mobile-teaser-link,.dropdown a","negative_triggers":".dropdown .back a,.mobile .not-click \u003e a,#toolbar a,a.lightbox,.jp-interface a,.header .not-click \u003e a,.page-admin a,.page-block-factory a,a.give,.social-share a,#change-station,#rss-tablequeue a,a[href^=\"mailto:\"],.popup,a[href^=\"#\"],a:not([href]),ul.tabs\u003eli\u003ea,ul.contextual-links a,#table-queue-fleximenu a[target=\"_blank\"],.delete-button","scripts_included":0,"html5":1,"vpager":1}});
+//--><!]]>
+</script>
+    <meta name="viewport" content="width=device-width">
+  </head>
+
+  <body class="html front not-logged-in page-homepage has-sidebar" >
+    <header role="banner" class="header">
+  <div class="skiptocontent"><a href="#main-content">skip to main content</a></div>
+    <div class="region region-header">
+    <div id="block-baby-bear-baby-bear-header" class="block block-baby-bear">
+
+    
+  <div class="content">
+    
+<div class="header-region-outer">
+  <section class="header-region-inner row">
+    <div class="branding large-12 columns">
+      <div class="brand-inner-wrapper">
+        <a href="/" rel="home" class="logo" title="KUMD Home"><img typeof="foaf:Image" src="http://mediad.publicbroadcasting.net/p/kumd/files/201502/kumd_logo_1.png" alt="KUMD logo" title="KUMD Home" /></a>         <div class="tagline">
+          The Duluth Alternative        </div>
+      </div>
+      <div class="header-utility">
+        <a class="trigger-nav" href="#">
+          <span class="icon-list"></span>
+          <span class="menu-text">Site Menu</span>
+        </a>
+        <a class="give" href="https://ibex.d.umn.edu/biz/kumd/sustainer.html" target="_blank">
+  Donate</a>
+      </div>
+    </div>
+  </section>
+</div>
+  </div>
+</div>
+  </div>
+</header>
+    <div class="nav-wrapper mobile">
+      <nav>
+        <div class="top-bar contain-to-grid" data-topbar>
+          <ul class="title-area">
+            <li class="toggle-topbar menu-icon">
+              <a href="#">Menu</a>
+            </li>
+          </ul>
+          <section class="top-bar-section">
+            <div class="table-queue" id="table-queue-fleximenu">
+  <ul  class="menu dropdown">
+<li class="active">
+<a href="/" class="active">Home</a>
+</li>
+<li class="dd has-dropdown not-click">
+<a href="/contact">Connect</a>
+<ul  class="dropdown">
+<li class="left">
+<a href="/contact">Contact</a>
+</li>
+<li class="left">
+<a href="/people/category/6">Staff</a>
+</li>
+<li class="left">
+<a href="/listen-live">Listen Live</a>
+</li>
+<li class="left">
+<a href="/newsletter-sign">Weekly Update Signup</a>
+</li>
+<li class="left">
+<a href="/get-involved">Get Involved</a>
+</li>
+<li class="left">
+<a href="https://plus.google.com/110662838736494965592/photos" target="_blank">Photo Galleries</a>
+</li>
+<li class="left">
+<a href="https://www.facebook.com/kumd1033?fref=nf" target="_blank">Facebook</a>
+</li>
+<li class="left">
+<a href="https://twitter.com/kumd1033fm" target="_blank">Twitter</a>
+</li>
+<li class="left">
+<a href="https://instagram.com/kumd1033fm/" target="_blank">Instagram</a>
+</li>
+<li class="left">
+<a href="https://www.youtube.com/user/KUMD1033" target="_blank">YouTube</a>
+</li>
+</ul>
+</li>
+<li class="dd has-dropdown not-click">
+<a href="/programs">Programs</a>
+<ul  class="dropdown">
+<li class="left">
+<a href="/schedule">Schedule</a>
+</li>
+<li class="left">
+<a href="/programs/legacy-programs">Legacy Programs</a>
+</li>
+<li class="left">
+<a href="/programs">All Programs</a>
+</li>
+<li class="left">
+<a href="/programs/live-studio">Live From Studio A</a>
+</li>
+<li class="left">
+<a href="/programs/radio-gallery">Radio Gallery</a>
+</li>
+<li class="left">
+<a href="/programs/ojibwe-stories">Ojibwe Stories</a>
+</li>
+<li class="left">
+<a href="/rss">Podcasts</a>
+</li>
+<li class="left">
+<a href="/category/arts">Arts</a>
+</li>
+<li class="left">
+<a href="/term/music">Music</a>
+</li>
+<li class="left">
+<a href="/term/environment-outdoors">Environment &amp; Outdoors</a>
+</li>
+<li class="left">
+<a href="/term/public-affairs">Public Affairs</a>
+</li>
+</ul>
+</li>
+<li>
+<a href="/playlists">Playlists</a>
+</li>
+<li class="dd has-dropdown not-click">
+<a href="/community-calendar">Events</a>
+<ul  class="dropdown">
+<li class="left">
+<a href="http://kumd.org/term/kumd-events-0">KUMD Events</a>
+</li>
+<li class="left">
+<a href="http://kumd.org/community-calendar#stream/0">All Events</a>
+</li>
+<li class="left">
+<a href="http://kumd.org/community-calendar/events/create">Submit an Event</a>
+</li>
+<li class="left">
+<a href="http://mediad.publicbroadcasting.net/p/kumd/files/201710/kumd_contest_rules_2017.pdf" target="_blank">Contest Rules</a>
+</li>
+</ul>
+</li>
+<li class="dd has-dropdown not-click">
+<a href="/programs/northland-morning">Northland Morning</a>
+<ul  class="dropdown">
+<li class="left">
+<a href="/topic/northland-morning-interviews">Northland Morning Interviews</a>
+</li>
+<li class="left">
+<a href="/topic/backyard-almanac">Backyard Almanac</a>
+</li>
+<li class="left">
+<a href="/programs/birds">For the Birds</a>
+</li>
+<li class="left">
+<a href="/topic/forever-home">Forever Home</a>
+</li>
+<li class="left">
+<a href="/topic/green-visions">Green Visions</a>
+</li>
+<li class="left">
+<a href="/topic/spirit-medicine">In the Spirit of Medicine</a>
+</li>
+<li class="left">
+<a href="/topic/journey-wellness-indian-country">Journey to Wellness in Indian Country</a>
+</li>
+<li class="left">
+<a href="/topic/league-women-voters">League of Women Voters</a>
+</li>
+<li class="left">
+<a href="/topic/mn-reads">MN Reads</a>
+</li>
+<li class="left">
+<a href="/term/sea-grant-files">Sea Grant Files</a>
+</li>
+<li class="left">
+<a href="/topic/tips-hardy-gardeners">Tips for Hardy Gardeners</a>
+</li>
+<li class="left">
+<a href="/topic/wheres-art">Where&#039;s Art</a>
+</li>
+</ul>
+</li>
+<li class="dd has-dropdown not-click">
+<a href="/programs/basement">The Basement</a>
+<ul  class="dropdown">
+<li class="left">
+<a href="/basement-charts">Charts and Adds</a>
+</li>
+<li class="left">
+<a href="/topic/album-reviews">Album Reviews</a>
+</li>
+<li class="left">
+<a href="/people/capacity/basement-djs">Basement DJs</a>
+</li>
+</ul>
+</li>
+<li class="dd has-dropdown not-click">
+<a href="https://ibex.d.umn.edu/biz/kumd/sustainer.html">Support</a>
+<ul  class="dropdown">
+<li class="left">
+<a href="/become-member">Become a Member</a>
+</li>
+<li class="left">
+<a href="/become-kumd-underwriter">Become an Underwriter</a>
+</li>
+<li class="left">
+<a href="http://kumd.careasy.org/HOME.html" target="_blank">Vehicle Donation</a>
+</li>
+</ul>
+</li>
+<li>
+<a href="/search/google">Search</a>
+</li>
+</ul>
+</div>
+          </section>
+        </div>
+      </nav>
+    </div>
+      <div class="region region-persistent">
+    <div id="block-audity-audity" class="block block-audity">
+
+    
+  <div class="content">
+      </div>
+</div>
+  </div>
+    <div id="page-wrapper">
+            <div id="page-document" role="document" class="page">
+  <div class="nav-wrapper">
+    <nav>
+      <div class="top-bar contain-to-grid" data-topbar>
+        <ul class="title-area">
+          <li class="toggle-topbar menu-icon">
+            <a href="#">Menu</a>
+          </li>
+        </ul>
+        <section class="top-bar-section">
+          <div class="table-queue" id="table-queue-fleximenu">
+  <ul  class="menu dropdown">
+<li class="active">
+<a href="/" class="active">Home</a>
+</li>
+<li class="dd has-dropdown not-click">
+<a href="/contact">Connect</a>
+<ul  class="dropdown">
+<li class="left">
+<a href="/contact">Contact</a>
+</li>
+<li class="left">
+<a href="/people/category/6">Staff</a>
+</li>
+<li class="left">
+<a href="/listen-live">Listen Live</a>
+</li>
+<li class="left">
+<a href="/newsletter-sign">Weekly Update Signup</a>
+</li>
+<li class="left">
+<a href="/get-involved">Get Involved</a>
+</li>
+<li class="left">
+<a href="https://plus.google.com/110662838736494965592/photos" target="_blank">Photo Galleries</a>
+</li>
+<li class="left">
+<a href="https://www.facebook.com/kumd1033?fref=nf" target="_blank">Facebook</a>
+</li>
+<li class="left">
+<a href="https://twitter.com/kumd1033fm" target="_blank">Twitter</a>
+</li>
+<li class="left">
+<a href="https://instagram.com/kumd1033fm/" target="_blank">Instagram</a>
+</li>
+<li class="left">
+<a href="https://www.youtube.com/user/KUMD1033" target="_blank">YouTube</a>
+</li>
+</ul>
+</li>
+<li class="dd has-dropdown not-click">
+<a href="/programs">Programs</a>
+<ul  class="dropdown">
+<li class="left">
+<a href="/schedule">Schedule</a>
+</li>
+<li class="left">
+<a href="/programs/legacy-programs">Legacy Programs</a>
+</li>
+<li class="left">
+<a href="/programs">All Programs</a>
+</li>
+<li class="left">
+<a href="/programs/live-studio">Live From Studio A</a>
+</li>
+<li class="left">
+<a href="/programs/radio-gallery">Radio Gallery</a>
+</li>
+<li class="left">
+<a href="/programs/ojibwe-stories">Ojibwe Stories</a>
+</li>
+<li class="left">
+<a href="/rss">Podcasts</a>
+</li>
+<li class="left">
+<a href="/category/arts">Arts</a>
+</li>
+<li class="left">
+<a href="/term/music">Music</a>
+</li>
+<li class="left">
+<a href="/term/environment-outdoors">Environment &amp; Outdoors</a>
+</li>
+<li class="left">
+<a href="/term/public-affairs">Public Affairs</a>
+</li>
+</ul>
+</li>
+<li>
+<a href="/playlists">Playlists</a>
+</li>
+<li class="dd has-dropdown not-click">
+<a href="/community-calendar">Events</a>
+<ul  class="dropdown">
+<li class="left">
+<a href="http://kumd.org/term/kumd-events-0">KUMD Events</a>
+</li>
+<li class="left">
+<a href="http://kumd.org/community-calendar#stream/0">All Events</a>
+</li>
+<li class="left">
+<a href="http://kumd.org/community-calendar/events/create">Submit an Event</a>
+</li>
+<li class="left">
+<a href="http://mediad.publicbroadcasting.net/p/kumd/files/201710/kumd_contest_rules_2017.pdf" target="_blank">Contest Rules</a>
+</li>
+</ul>
+</li>
+<li class="dd has-dropdown not-click">
+<a href="/programs/northland-morning">Northland Morning</a>
+<ul  class="dropdown">
+<li class="left">
+<a href="/topic/northland-morning-interviews">Northland Morning Interviews</a>
+</li>
+<li class="left">
+<a href="/topic/backyard-almanac">Backyard Almanac</a>
+</li>
+<li class="left">
+<a href="/programs/birds">For the Birds</a>
+</li>
+<li class="left">
+<a href="/topic/forever-home">Forever Home</a>
+</li>
+<li class="left">
+<a href="/topic/green-visions">Green Visions</a>
+</li>
+<li class="left">
+<a href="/topic/spirit-medicine">In the Spirit of Medicine</a>
+</li>
+<li class="left">
+<a href="/topic/journey-wellness-indian-country">Journey to Wellness in Indian Country</a>
+</li>
+<li class="left">
+<a href="/topic/league-women-voters">League of Women Voters</a>
+</li>
+<li class="left">
+<a href="/topic/mn-reads">MN Reads</a>
+</li>
+<li class="left">
+<a href="/term/sea-grant-files">Sea Grant Files</a>
+</li>
+<li class="left">
+<a href="/topic/tips-hardy-gardeners">Tips for Hardy Gardeners</a>
+</li>
+<li class="left">
+<a href="/topic/wheres-art">Where&#039;s Art</a>
+</li>
+</ul>
+</li>
+<li class="dd has-dropdown not-click">
+<a href="/programs/basement">The Basement</a>
+<ul  class="dropdown">
+<li class="left">
+<a href="/basement-charts">Charts and Adds</a>
+</li>
+<li class="left">
+<a href="/topic/album-reviews">Album Reviews</a>
+</li>
+<li class="left">
+<a href="/people/capacity/basement-djs">Basement DJs</a>
+</li>
+</ul>
+</li>
+<li class="dd has-dropdown not-click">
+<a href="https://ibex.d.umn.edu/biz/kumd/sustainer.html">Support</a>
+<ul  class="dropdown">
+<li class="left">
+<a href="/become-member">Become a Member</a>
+</li>
+<li class="left">
+<a href="/become-kumd-underwriter">Become an Underwriter</a>
+</li>
+<li class="left">
+<a href="http://kumd.careasy.org/HOME.html" target="_blank">Vehicle Donation</a>
+</li>
+</ul>
+</li>
+<li>
+<a href="/search/google">Search</a>
+</li>
+</ul>
+</div>
+        </section>
+      </div>
+    </nav>
+  </div>
+
+  <div id="player" class="player">
+      </div>
+
+  
+      <section class="pre-content">
+      <div>
+          <div class="region region-pre-content">
+    <div id="block-pi-responsive-ads-mobile-1" class="block block-pi-responsive-ads">
+
+    
+  <div class="content">
+      </div>
+</div>
+  </div>
+      </div>
+    </section>
+  
+  
+  
+  <div class="row">
+    <main id="content" role="main" class="main-content small-12 columns">
+      <article class="story">
+        <a id="main-content"></a>
+        
+                                    
+        
+                  <div class="regions-ab-outer">
+            <div class="regions-ab-inner">
+        
+                  <div class="region-a">
+              <div class="region region-region-a">
+    <div id="block-block-factory-block-factory-5681a3f0d31a4" class="block block-block-factory">
+
+    
+  <div class="content">
+    <div class="three-stories-treatment bf-outer-wrapper clearfix">
+  <div class="bf-inner-wrapper bf-hero">
+      <figure class="bf-image-wrapper  with-image contains-audio">
+    <a href="/post/bringing-welcome-back-umds-welcome-week">
+<div class="card-image-container">
+  <figure>
+    <a title="©JP Rennquist" href="/post/bringing-welcome-back-umds-welcome-week" class="noexit">
+    <img class="multiple" src="http://mediad.publicbroadcasting.net/p/kumd/files/styles/medium/public/201808/ribbet_collage_welcome_week.png" >
+          </a>
+
+        <div class="image-meta">
+      <figcaption>
+        <div class="credit">
+          ©JP Rennquist        </div>
+      </figcaption>
+    </div>
+      </figure>
+</div>
+</a>  </figure>
+
+<div class="bf-text-wrapper  with-image contains-audio">
+  <h2 class="bf-post-title"><a href="/post/bringing-welcome-back-umds-welcome-week">Bringing the welcome back to UMD's Welcome Week</a></h2>
+  <div class="bf-body">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>UMD's Welcome Week celebrations have been controversial in the past. Not the official celebrations - mainly those of upperclassmen, who line busy streets near the University with signs and sentiments in questionable taste. Independent producer JP Rennquist is the father of a college age daughter, so when he saw a group of people on 21st Avenue East Tuesday holding welcome message signs on UMD's move-in day, he jumped out of the car at the busy corner to confront them. And, JP admits, he was...</p></div></div></div>  </div>
+
+  <a href="/post/bringing-welcome-back-umds-welcome-week" class="bf-read-more">Read More</a>
+</div>
+
+<div class="content  with-image contains-audio">
+  </div>
+  </div>
+  <div class="bf-inner-wrapper bf-sidekick-group">
+    <div class="bf-sidekick">
+        <figure class="bf-image-wrapper  with-image contains-audio">
+    <a href="/post/northshore-inline-marathon-takes-tunnels-and-chunk-i-35">
+<div class="card-image-container">
+  <figure>
+    <a title="NorthShore Inline Marathon" href="/post/northshore-inline-marathon-takes-tunnels-and-chunk-i-35" class="noexit">
+    <img class="multiple" src="http://mediad.publicbroadcasting.net/p/kumd/files/styles/medium/public/201808/hockey-dudesnorthshoreinline_marathon.jpg" >
+          </a>
+
+        <div class="image-meta">
+      <figcaption>
+        <div class="credit">
+          NorthShore Inline Marathon        </div>
+      </figcaption>
+    </div>
+      </figure>
+</div>
+</a>  </figure>
+
+<h2 class="bf-post-title  with-image contains-audio"><a href="/post/northshore-inline-marathon-takes-tunnels-and-chunk-i-35">NorthShore Inline Marathon takes the tunnels - and a chunk of I-35</a></h2>
+
+<div class="content">
+  </div>
+    </div>
+    <div class="bf-sidekick">
+        <figure class="bf-image-wrapper  with-image contains-audio">
+    <a href="/post/backyard-almanac-goldenrod-doesnt-cause-allergy-symptoms-just-car-accidents">
+<div class="card-image-container">
+  <figure>
+    <a title="©Steve Kolbe. Used with permission" href="/post/backyard-almanac-goldenrod-doesnt-cause-allergy-symptoms-just-car-accidents" class="noexit">
+    <img class="multiple" src="http://mediad.publicbroadcasting.net/p/kumd/files/styles/medium/public/201808/steve_kolbe_nighthawk.jpg" >
+          </a>
+
+        <div class="image-meta">
+      <figcaption>
+        <div class="credit">
+          ©Steve Kolbe. Used with permission        </div>
+      </figcaption>
+    </div>
+      </figure>
+</div>
+</a>  </figure>
+
+<h2 class="bf-post-title  with-image contains-audio"><a href="/post/backyard-almanac-goldenrod-doesnt-cause-allergy-symptoms-just-car-accidents">Backyard Almanac: goldenrod doesn't cause allergy symptoms, just car accidents</a></h2>
+
+<div class="content">
+  </div>
+    </div>
+  </div>
+</div>
+  </div>
+</div>
+<div id="block-block-factory-block-factory-59249de609b6c" class="block block-block-factory">
+
+    
+  <div class="content">
+    <div class="one-story-treatment bf-outer-wrapper clearfix">
+  <div class="bf-inner-wrapper bf-hero">
+      <figure class="bf-image-wrapper  with-image contains-audio">
+    <a href="/post/817-live-studio-maria-nickolay">
+<div class="card-image-container">
+  <figure>
+    <a title="KUMD " href="/post/817-live-studio-maria-nickolay" class="noexit">
+    <img class="multiple" src="http://mediad.publicbroadcasting.net/p/kumd/files/styles/medium/public/201808/maria_nickolay_edit.jpg" >
+          </a>
+
+        <div class="image-meta">
+      <figcaption>
+        <div class="credit">
+          KUMD         </div>
+      </figcaption>
+    </div>
+      </figure>
+</div>
+</a>  </figure>
+
+<div class="bf-text-wrapper  with-image contains-audio">
+  <h2 class="bf-post-title"><a href="/post/817-live-studio-maria-nickolay">8/17 Live from Studio A: Maria Nickolay</a></h2>
+  <div class="bf-body">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>This acoustic singer/songwriter is back in her native Northern Minnesota after returning from 2 years in Northern Ireland. She released her debut album in 2016 and has a second in the works. We welcomed Nickolay to our studios on August 17, 2018. Maria Nickolay</p></div></div></div>  </div>
+
+  <a href="/post/817-live-studio-maria-nickolay" class="bf-read-more">Read More</a>
+</div>
+
+<div class="content  with-image contains-audio">
+  </div>
+  </div>
+</div>
+  </div>
+</div>
+<div id="block-block-factory-block-factory-56819e7a3b8ed" class="block block-block-factory">
+
+    
+  <div class="content">
+    <div class="three-stories-treatment bf-outer-wrapper clearfix">
+  <div class="bf-inner-wrapper bf-hero">
+      <figure class="bf-image-wrapper  with-image contains-audio">
+    <a href="/post/radio-gallery-free-range-trials">
+<div class="card-image-container">
+  <figure>
+    <a title="Cecilia Ramon" href="/post/radio-gallery-free-range-trials" class="noexit">
+    <img class="multiple" src="http://mediad.publicbroadcasting.net/p/kumd/files/styles/medium/public/201808/cecilia_ramon_calm_rising.jpg" >
+          </a>
+
+        <div class="image-meta">
+      <figcaption>
+        <div class="credit">
+          Cecilia Ramon        </div>
+      </figcaption>
+    </div>
+      </figure>
+</div>
+</a>  </figure>
+
+<div class="bf-text-wrapper  with-image contains-audio">
+  <h2 class="bf-post-title"><a href="/post/radio-gallery-free-range-trials">Radio Gallery: Free Range Trials</a></h2>
+  <div class="bf-body">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>This Sunday, an experiment in art opens in the Free Range Barn in Wrenshall, Minnesota. Successful Duluth artists Cecilia Ramon and Kathy McTavish stretch their creativity in the experimental lab that is, the Free Range Trials. McTaish is a coder, composer and multi media artist, while Ramon is a visual artist, meditation practitioner and UMD art teacher. This is an exciting pairing as these women are cutting new paths in media, mixed media and mindfulness in art. The public is invited to a...</p></div></div></div>  </div>
+
+  <a href="/post/radio-gallery-free-range-trials" class="bf-read-more">Read More</a>
+</div>
+
+<div class="content  with-image contains-audio">
+  </div>
+  </div>
+  <div class="bf-inner-wrapper bf-sidekick-group">
+    <div class="bf-sidekick">
+        <figure class="bf-image-wrapper  with-image contains-audio">
+    <a href="/post/mn-reads-sedges-and-rushes-minnesota-welby-r-smith">
+<div class="card-image-container">
+  <figure>
+    <a title="" href="/post/mn-reads-sedges-and-rushes-minnesota-welby-r-smith" class="noexit">
+    <img class="multiple" src="http://mediad.publicbroadcasting.net/p/kumd/files/styles/medium/public/201808/smith_sedges.jpg" >
+          </a>
+
+      </figure>
+</div>
+</a>  </figure>
+
+<h2 class="bf-post-title  with-image contains-audio"><a href="/post/mn-reads-sedges-and-rushes-minnesota-welby-r-smith">MN Reads: "Sedges and Rushes of Minnesota" by Welby R. Smith</a></h2>
+
+<div class="content">
+  </div>
+    </div>
+    <div class="bf-sidekick">
+        <figure class="bf-image-wrapper  with-image contains-audio">
+    <a href="/post/mayors-listening-sessions-being-heard-shouldnt-scare-you">
+<div class="card-image-container">
+  <figure>
+    <a title="" href="/post/mayors-listening-sessions-being-heard-shouldnt-scare-you" class="noexit">
+    <img class="multiple" src="http://mediad.publicbroadcasting.net/p/kumd/files/styles/medium/public/201808/city_hall_listening_session.jpg" >
+          </a>
+
+      </figure>
+</div>
+</a>  </figure>
+
+<h2 class="bf-post-title  with-image contains-audio"><a href="/post/mayors-listening-sessions-being-heard-shouldnt-scare-you">Mayor's listening sessions: being heard shouldn't scare you</a></h2>
+
+<div class="content">
+  </div>
+    </div>
+  </div>
+</div>
+  </div>
+</div>
+<div id="block-npr-river-npr-river-block-all" class="block block-npr-river">
+
+    
+  <div class="content">
+    
+<div class="npr-river-all">
+  
+<div id="node-4408" class="node-teaser node node-post node-promoted npr_river_card contains-audio row" about="/post/soul-village-interview-william-bell" typeof="sioc:Item foaf:Document">
+  <div class="large-12 columns">
+    <a class="mobile-teaser-link" href="/post/soul-village-interview-william-bell"></a>
+    <div class='title-info'>
+      <h2  property="dc:title" datatype="" itemprop="name"><a href="/post/soul-village-interview-william-bell">Soul Village Interview with William Bell</a></h2>
+              <div class="by-date">
+          <span class="submitted"><span property="dc:date dc:created" content="2018-08-23T15:46:47-05:00" datatype="xsd:dateTime" rel="sioc:has_creator"><span class="submitted-label">By</span> <span class="name"><a href="/people/chris-harwood" rel="author">Chris Harwood</a></span></span></span>
+          <i class="bullet">&#8226;</i>
+          <span class="pub-date">Aug 23,  2018 </span>
+        </div>
+          </div>
+
+    <div class="content">
+      
+<div class="card-image-container">
+  <figure>
+    <a title="Ginette Callaway / Blind Ambition Mgmt." href="/post/soul-village-interview-william-bell" class="noexit">
+    <img class="multiple" src="http://mediad.publicbroadcasting.net/p/kumd/files/styles/medium/public/201808/s8rrwsew__500x333_.jpg" >
+          </a>
+
+        <div class="image-meta">
+      <figcaption>
+        <div class="credit">
+          Ginette Callaway / Blind Ambition Mgmt.        </div>
+      </figcaption>
+    </div>
+      </figure>
+</div>
+<div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p><p>KUMD's Chris Harwood, host of <a href="http://www.kumd.org/programs/soul-village#stream/0"><em>Soul Village</em></a>, interviewed the great singer, songwriter and producer William Bell, noted for his career at Stax Records in Memphis where he made such hit records in the 1960s as "You Don't Miss Your Water," "I Forgot to Be Your Lover," and his duet with Judy Clay "Private Number."  As a songwriter, he wrote many of his own records, often partnering with longtime friend and label mate Booker T Jones.  Together they wrote many songs for Bell and others, including Albert King's "Born under a </p></p></div></div></div>    </div>
+
+      </div>
+</div>
+
+<div id="node-4407" class="node-teaser node node-post node-promoted npr_river_card row" about="/post/forever-home-august-23" typeof="sioc:Item foaf:Document">
+  <div class="large-12 columns">
+    <a class="mobile-teaser-link" href="/post/forever-home-august-23"></a>
+    <div class='title-info'>
+      <h2  property="dc:title" datatype="" itemprop="name"><a href="/post/forever-home-august-23">Forever Home, August 23</a></h2>
+              <div class="by-date">
+          <span class="submitted"><span property="dc:date dc:created" content="2018-08-23T11:17:51-05:00" datatype="xsd:dateTime" rel="sioc:has_creator"><span class="submitted-label">By</span> <span class="name"><a href="/people/lisa-johnson" rel="author">Lisa Johnson</a></span></span></span>
+          <i class="bullet">&#8226;</i>
+          <span class="pub-date">Aug 23,  2018 </span>
+        </div>
+          </div>
+
+    <div class="content">
+      
+<div class="card-image-container">
+  <figure>
+    <a title="" href="/post/forever-home-august-23" class="noexit">
+    <img class="multiple" src="http://mediad.publicbroadcasting.net/p/kumd/files/styles/medium/public/201808/ribbet_collage_fh_8-23-18.png" >
+          </a>
+
+      </figure>
+</div>
+<div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p> <p><a href="http://contentedcritters.homestead.com/Dog.html" target="_blank">  Felisha</a></p> <p>Felisha is a senior female terrier who was dumped out of a car. She is house- and crate-trained, friendly and likes attention. She does not see well but gets around just fine. Super smart lady looking for a human to love on her. Felisha is available for adoption through <a href="http://contentedcritters.org/" target="_blank">Contented Critters Animal Sanctuary</a>.</p> <p><a href="https://www.adoptapet.com/pet/22570554-duluth-minnesota-cat" target="_blank">Mina</a></p></p></div></div></div>    </div>
+
+      </div>
+</div>
+
+<div id="node-4406" class="node-teaser node node-post node-promoted npr_river_card contains-audio row" about="/post/fred-eaglesmith-north-country-jukebox" typeof="sioc:Item foaf:Document">
+  <div class="large-12 columns">
+    <a class="mobile-teaser-link" href="/post/fred-eaglesmith-north-country-jukebox"></a>
+    <div class='title-info'>
+      <h2  property="dc:title" datatype="" itemprop="name"><a href="/post/fred-eaglesmith-north-country-jukebox">Fred Eaglesmith on North Country Jukebox</a></h2>
+              <div class="by-date">
+          <span class="submitted"><span property="dc:date dc:created" content="2018-08-23T10:21:26-05:00" datatype="xsd:dateTime" rel="sioc:has_creator"><span class="submitted-label">By</span> <span class="name"><a href="/people/christine-dean" rel="author">Christine Dean</a></span></span></span>
+          <i class="bullet">&#8226;</i>
+          <span class="pub-date">Aug 23,  2018 </span>
+        </div>
+          </div>
+
+    <div class="content">
+      
+<div class="card-image-container">
+  <figure>
+    <a title="fredeaglesmith.com" href="/post/fred-eaglesmith-north-country-jukebox" class="noexit">
+    <img class="multiple" src="http://mediad.publicbroadcasting.net/p/kumd/files/styles/medium/public/201808/FredEaglesmith2018Poster-232x300.jpg" alt="Man in a hat with his arm around a woman">
+          </a>
+
+        <div class="image-meta">
+      <figcaption>
+        <div class="credit">
+          fredeaglesmith.com        </div>
+      </figcaption>
+    </div>
+      </figure>
+</div>
+<div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p><p>Fred Eaglesmith has been writing and performing for nearly 40 years. The Ontario native's songs are engaging narratives that reflect his rural upbringing, his time spent hopping trains, his observations of ordinary folks, and his love for the spirit of '60s and '70s rock and roll. Although Eaglesmith has intentionally avoided the mainstream in his performing career, his songs have been covered by everyone from Toby Keith to Kasey Chambers, and he's traveled the world playing for his dedicated fans.</p></p></div></div></div>    </div>
+
+      </div>
+</div>
+
+<div id="node-4403" class="node-teaser node node-post node-promoted npr_river_card contains-audio row" about="/post/green-visions-march-climate-voters-and-some-well-deserved-pats-back" typeof="sioc:Item foaf:Document">
+  <div class="large-12 columns">
+    <a class="mobile-teaser-link" href="/post/green-visions-march-climate-voters-and-some-well-deserved-pats-back"></a>
+    <div class='title-info'>
+      <h2  property="dc:title" datatype="" itemprop="name"><a href="/post/green-visions-march-climate-voters-and-some-well-deserved-pats-back">Green Visions: march for climate, voters and some well-deserved pats on the back</a></h2>
+              <div class="by-date">
+          <span class="submitted"><span property="dc:date dc:created" content="2018-08-22T15:18:34-05:00" datatype="xsd:dateTime" rel="sioc:has_creator"><span class="submitted-label">By</span> <span class="name"><a href="/people/lisa-johnson" rel="author">Lisa Johnson</a></span></span></span>
+          <i class="bullet">&#8226;</i>
+          <span class="pub-date">Aug 22,  2018 </span>
+        </div>
+          </div>
+
+    <div class="content">
+      
+<div class="card-image-container">
+  <figure>
+    <a title="Peoples Climate Movement" href="/post/green-visions-march-climate-voters-and-some-well-deserved-pats-back" class="noexit">
+    <img class="multiple" src="http://mediad.publicbroadcasting.net/p/kumd/files/styles/medium/public/201808/RiseBlue.jpg" >
+          </a>
+
+        <div class="image-meta">
+      <figcaption>
+        <div class="credit">
+          Peoples Climate Movement        </div>
+      </figcaption>
+    </div>
+      </figure>
+</div>
+<div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p> <p>Next month's Duluth Peoples Climate March will be more than an effort to educate folks about climate change.</p> </p></div></div></div>    </div>
+
+      </div>
+</div>
+
+<div id="node-4402" class="node-teaser node node-post node-promoted npr_river_card contains-audio row" about="/post/can-you-value-what-you-have-no-words" typeof="sioc:Item foaf:Document">
+  <div class="large-12 columns">
+    <a class="mobile-teaser-link" href="/post/can-you-value-what-you-have-no-words"></a>
+    <div class='title-info'>
+      <h2  property="dc:title" datatype="" itemprop="name"><a href="/post/can-you-value-what-you-have-no-words">Can you value what you have no words for?</a></h2>
+              <div class="by-date">
+          <span class="submitted"><span property="dc:date dc:created" content="2018-08-22T14:00:09-05:00" datatype="xsd:dateTime" rel="sioc:has_creator"><span class="submitted-label">By</span> <span class="name"><a href="/people/lisa-johnson" rel="author">Lisa Johnson</a></span></span></span>
+          <i class="bullet">&#8226;</i>
+          <span class="pub-date">Aug 22,  2018 </span>
+        </div>
+          </div>
+
+    <div class="content">
+      
+<div class="card-image-container">
+  <figure>
+    <a title="" href="/post/can-you-value-what-you-have-no-words" class="noexit">
+    <img class="multiple" src="http://mediad.publicbroadcasting.net/p/kumd/files/styles/medium/public/201808/Bears.jpg" >
+          </a>
+
+      </figure>
+</div>
+<div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p> <p>There's no word for "wilderness" in Italian.</p> <p>So what does that mean when it comes to trying to preserve "the rarest bears on earth"?</p> <p><a href="https://www.ashlandcreekpress.com/books/bears.html" target="_blank"><em>No Word for Wilderness: Italy’s Grizzlies and the Race to Save the Rarest Bears on Earth</em></a> by Roger Thompson is published by Ashland Creek Press. </p> </p></div></div></div>    </div>
+
+      </div>
+</div>
+
+<div id="node-4398" class="node-teaser node node-post node-promoted npr_river_card contains-audio row" about="/post/education-everyone-means-everyone-has-place-and-voice-here" typeof="sioc:Item foaf:Document">
+  <div class="large-12 columns">
+    <a class="mobile-teaser-link" href="/post/education-everyone-means-everyone-has-place-and-voice-here"></a>
+    <div class='title-info'>
+      <h2  property="dc:title" datatype="" itemprop="name"><a href="/post/education-everyone-means-everyone-has-place-and-voice-here">Education for everyone means everyone has a place and a voice here</a></h2>
+              <div class="by-date">
+          <span class="submitted"><span property="dc:date dc:created" content="2018-08-21T09:05:08-05:00" datatype="xsd:dateTime" rel="sioc:has_creator"><span class="submitted-label">By</span> <span class="name"><a href="/people/lisa-johnson" rel="author">Lisa Johnson</a></span></span></span>
+          <i class="bullet">&#8226;</i>
+          <span class="pub-date">Aug 21,  2018 </span>
+        </div>
+          </div>
+
+    <div class="content">
+      
+<div class="card-image-container">
+  <figure>
+    <a title="Community Action Duluth" href="/post/education-everyone-means-everyone-has-place-and-voice-here" class="noexit">
+    <img class="multiple" src="http://mediad.publicbroadcasting.net/p/kumd/files/styles/medium/public/201808/service_banner_GED.jpg" >
+          </a>
+
+        <div class="image-meta">
+      <figcaption>
+        <div class="credit">
+          Community Action Duluth        </div>
+      </figcaption>
+    </div>
+      </figure>
+</div>
+<div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p><p>As back to school looms on the horizon, all kinds of people think about going back themselves.  Maybe it's to get a GED, maybe it's to learn some things about finances or home buying.</p> <p>Porsha Cline and Community Action Duluth serve up evening classes, help with transportation and child care and perhaps the most important ingredient in helping folks make changes to get ahead: hope.</p> <p>More information about <a href="https://www.communityactionduluth.org/classes/" target="_blank">Community Action Duluth's classes is available here</a>.</p>  </p></div></div></div>    </div>
+
+      </div>
+</div>
+
+<div id="node-4399" class="node-teaser node node-post node-promoted npr_river_card contains-audio row" about="/post/tips-hardy-gardeners-best-time-plant-share-perennials" typeof="sioc:Item foaf:Document">
+  <div class="large-12 columns">
+    <a class="mobile-teaser-link" href="/post/tips-hardy-gardeners-best-time-plant-share-perennials"></a>
+    <div class='title-info'>
+      <h2  property="dc:title" datatype="" itemprop="name"><a href="/post/tips-hardy-gardeners-best-time-plant-share-perennials">Tips for Hardy Gardeners: the best time to plant, share perennials</a></h2>
+              <div class="by-date">
+          <span class="submitted"><span property="dc:date dc:created" content="2018-08-21T08:48:49-05:00" datatype="xsd:dateTime" rel="sioc:has_creator"><span class="submitted-label">By</span> <span class="name"><a href="/people/lisa-johnson" rel="author">Lisa Johnson</a></span></span></span>
+          <i class="bullet">&#8226;</i>
+          <span class="pub-date">Aug 21,  2018 </span>
+        </div>
+          </div>
+
+    <div class="content">
+      
+<div class="card-image-container">
+  <figure>
+    <a title="Tom Kasper/Facebook" href="/post/tips-hardy-gardeners-best-time-plant-share-perennials" class="noexit">
+    <img class="multiple" src="http://mediad.publicbroadcasting.net/p/kumd/files/styles/medium/public/201808/tom_kasper_facebook.jpg" >
+          </a>
+
+        <div class="image-meta">
+      <figcaption>
+        <div class="credit">
+          Tom Kasper/Facebook        </div>
+      </figcaption>
+    </div>
+      </figure>
+</div>
+<div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p><p>Cool air temps, warm soil temps: it's the best time to plant/relocate/divide/share perennials ... but Tom Kasper reveals a deteriorating relationship with his garden as the season moves on.</p>  </p></div></div></div>    </div>
+
+      </div>
+</div>
+
+<div id="node-4397" class="node-teaser node node-post node-promoted npr_river_card contains-audio row" about="/post/wheres-art-annie-dugan-living-your-life-you-do-your-art" typeof="sioc:Item foaf:Document">
+  <div class="large-12 columns">
+    <a class="mobile-teaser-link" href="/post/wheres-art-annie-dugan-living-your-life-you-do-your-art"></a>
+    <div class='title-info'>
+      <h2  property="dc:title" datatype="" itemprop="name"><a href="/post/wheres-art-annie-dugan-living-your-life-you-do-your-art">Where&#039;s Art? with Annie Dugan: living your life as you do your art</a></h2>
+              <div class="by-date">
+          <span class="submitted"><span property="dc:date dc:created" content="2018-08-20T13:40:50-05:00" datatype="xsd:dateTime" rel="sioc:has_creator"><span class="submitted-label">By</span> <span class="name"><a href="/people/lisa-johnson" rel="author">Lisa Johnson</a></span></span></span>
+          <i class="bullet">&#8226;</i>
+          <span class="pub-date">Aug 20,  2018 </span>
+        </div>
+          </div>
+
+    <div class="content">
+      
+<div class="card-image-container">
+  <figure>
+    <a title="" href="/post/wheres-art-annie-dugan-living-your-life-you-do-your-art" class="noexit">
+    <img class="multiple" src="http://mediad.publicbroadcasting.net/p/kumd/files/styles/medium/public/201808/free_range_trials.jpg" >
+          </a>
+
+      </figure>
+</div>
+<div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p><p>The convergence of art and (agri) culture as <a href="https://www.facebook.com/events/253719458580765/" target="_blank">Annie Dugan's two worlds come together.</a></p>  </p></div></div></div>    </div>
+
+      </div>
+</div>
+
+<div id="node-4396" class="node-teaser node node-post node-promoted npr_river_card contains-audio row" about="/post/spirit-medicine-gwayakwaadiziwin" typeof="sioc:Item foaf:Document">
+  <div class="large-12 columns">
+    <a class="mobile-teaser-link" href="/post/spirit-medicine-gwayakwaadiziwin"></a>
+    <div class='title-info'>
+      <h2  property="dc:title" datatype="" itemprop="name"><a href="/post/spirit-medicine-gwayakwaadiziwin">In the Spirit of Medicine: Gwayakwaadiziwin</a></h2>
+              <div class="by-date">
+          <span class="submitted"><span property="dc:date dc:created" content="2018-08-20T08:30:00-05:00" datatype="xsd:dateTime" rel="sioc:has_creator"><span class="submitted-label">By</span> <span class="name"><a href="/people/lisa-johnson" rel="author">Lisa Johnson</a></span></span></span>
+          <i class="bullet">&#8226;</i>
+          <span class="pub-date">Aug 20,  2018 </span>
+        </div>
+          </div>
+
+    <div class="content">
+      
+<div class="card-image-container">
+  <figure>
+    <a title="©Ivy Vainio.  Used with permission." href="/post/spirit-medicine-gwayakwaadiziwin" class="noexit">
+    <img class="multiple" src="http://mediad.publicbroadcasting.net/p/kumd/files/styles/medium/public/201808/_MG_8126.jpg" >
+          </a>
+
+        <div class="image-meta">
+      <figcaption>
+        <div class="credit">
+          ©Ivy Vainio.  Used with permission.        </div>
+      </figcaption>
+    </div>
+      </figure>
+</div>
+<div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p><p>This week, running a stop sign on the road of good intentions.</p></p></div></div></div>    </div>
+
+      </div>
+</div>
+
+<div id="node-4395" class="node-teaser node node-post node-promoted npr_river_card contains-audio row" about="/post/backyard-almanac-humid-foggy-august-take-web-walk" typeof="sioc:Item foaf:Document">
+  <div class="large-12 columns">
+    <a class="mobile-teaser-link" href="/post/backyard-almanac-humid-foggy-august-take-web-walk"></a>
+    <div class='title-info'>
+      <h2  property="dc:title" datatype="" itemprop="name"><a href="/post/backyard-almanac-humid-foggy-august-take-web-walk">Backyard Almanac: A Humid, Foggy August? Take a Web Walk.</a></h2>
+              <div class="by-date">
+          <span class="submitted"><span property="dc:date dc:created" content="2018-08-17T11:04:41-05:00" datatype="xsd:dateTime" rel="sioc:has_creator"><span class="submitted-label">By</span> <span class="name"><a href="/people/chris-harwood" rel="author">Chris Harwood</a></span></span></span>
+          <i class="bullet">&#8226;</i>
+          <span class="pub-date">Aug 17,  2018 </span>
+        </div>
+          </div>
+
+    <div class="content">
+      
+<div class="card-image-container">
+  <figure>
+    <a title="Susanne Nilsson [via Flickr]" href="/post/backyard-almanac-humid-foggy-august-take-web-walk" class="noexit">
+    <img class="multiple" src="http://mediad.publicbroadcasting.net/p/kumd/files/styles/medium/public/201808/susannenilsson_decoratedweb__500x334_.jpg" >
+          </a>
+
+        <div class="image-meta">
+      <figcaption>
+        <div class="credit">
+          Susanne Nilsson [via Flickr]        </div>
+      </figcaption>
+    </div>
+      </figure>
+</div>
+<div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p><p>Naturalist and author Larry Weber reminds us that the fog and dews that we often see in August make for some amazing spider web views in the mornings.   That said, we've had less rain this month than we should have.  Mushrooms and berries are on the scene, the sphinx moths are out and about, and sunflowers, aster, goldenrod and arrowhead are gracing our landscape as well.</p>  </p></div></div></div>    </div>
+
+      </div>
+</div>
+</div><h2 class="element-invisible">Pages</h2><div class="item-list"><ul class="pager"><li class="pager-current first">1</li>
+<li class="pager-item"><a href="/homepage?page=1" title="Go to page 2" class="active">2</a></li>
+<li class="pager-item"><a href="/homepage?page=2" title="Go to page 3" class="active">3</a></li>
+<li class="pager-item"><a href="/homepage?page=3" title="Go to page 4" class="active">4</a></li>
+<li class="pager-ellipsis">…</li>
+<li class="pager-next"><a href="/homepage?page=1" title="Go to next page" class="active">next ›</a></li>
+<li class="pager-last last"><a href="/homepage?page=324" title="Go to last page" class="active">last »</a></li>
+</ul></div>  </div>
+</div>
+  </div>
+          </div>
+        
+                  <div class="region-b">
+              <div class="region region-region-b">
+    <div id="block-block-factory-block-factory-550e0ca0041d1" class="block block-block-factory">
+
+    
+  <div class="content">
+    <style type="text/css">#promo-small-550e0ca0041d1 .promo-small-treatment { background-color: #EDEDED; } #promo-small-550e0ca0041d1 .promo-small-heading { color: #404040; } #promo-small-550e0ca0041d1 .promo-small-heading a { color: #404040; } #promo-small-550e0ca0041d1 .promo-small-teaser { color: #404040; } #promo-small-550e0ca0041d1 .promo-small-cta { border-color: #404040; color: #404040; opacity: 1; transition: all .15s ease; } #promo-small-550e0ca0041d1 .promo-small-cta:hover { color: #404040; opacity: 0.6; }</style><div id="promo-small-550e0ca0041d1">
+  <div class="promo-small-treatment clearfix" >
+    
+        <div class="promo-small-text-wrapper">
+              <h2 class="promo-small-heading"><a href="http://kumd.org/playlists">Now Playing</a></h2>
+      
+              <p class="promo-small-teaser"><iframe src="http://composer.nprstations.org/widgets/iframe/now.html?station=5193efcbe1c8c35f7471aa4c" width="100%" height="155" frameborder="0" seamless></iframe></p>
+      
+              <div class="promo-small-cta-wrapper">
+          <a href="http://kumd.org/playlists" class="promo-small-cta">Playlists</a>        </div>
+            </div>
+      </div>
+</div>
+  </div>
+</div>
+<div id="block-pi-responsive-ads-medium-1" class="block block-pi-responsive-ads">
+
+    
+  <div class="content">
+      </div>
+</div>
+<div id="block-block-factory-block-factory-5b314ebf014a4" class="block block-block-factory">
+
+    
+  <div class="content">
+    <div class="one-story-treatment bf-outer-wrapper clearfix">
+  <div class="bf-inner-wrapper bf-hero">
+      <figure class="bf-image-wrapper  with-image contains-audio">
+    <a href="/post/kumd-live-studio-volume-1">
+<div class="card-image-container">
+  <figure>
+    <a title="" href="/post/kumd-live-studio-volume-1" class="noexit">
+    <img class="multiple" src="http://mediad.publicbroadcasting.net/p/kumd/files/styles/medium/public/201806/cd_artwork_mockup-1.jpg" >
+          </a>
+
+      </figure>
+</div>
+</a>  </figure>
+
+<div class="bf-text-wrapper  with-image contains-audio">
+  <h2 class="bf-post-title"><a href="/post/kumd-live-studio-volume-1">KUMD Live from Studio A Volume 1</a></h2>
+  <div class="bf-body">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>KUMD is pleased to announce the release of Live from Studio A Volume 1 , a collection of 16 tracks recorded in our studios over the past several years.</p></div></div></div>  </div>
+
+  <a href="/post/kumd-live-studio-volume-1" class="bf-read-more">Read More</a>
+</div>
+
+<div class="content  with-image contains-audio">
+  </div>
+  </div>
+</div>
+  </div>
+</div>
+<div id="block-block-factory-block-factory-5af3119b28d87" class="block block-block-factory">
+
+    <h2 class="block-title">Ojibwe Stories Feedback</h2>
+  
+  <div class="content">
+    <style type="text/css">#promo-small-5af3119b28d87 .promo-small-treatment { background-color: #FFFFFF; } #promo-small-5af3119b28d87 .promo-small-heading { color: #404040; } #promo-small-5af3119b28d87 .promo-small-heading a { color: #404040; } #promo-small-5af3119b28d87 .promo-small-teaser { color: #404040; } #promo-small-5af3119b28d87 .promo-small-cta { border-color: #404040; color: #404040; opacity: 1; transition: all .15s ease; } #promo-small-5af3119b28d87 .promo-small-cta:hover { color: #404040; opacity: 0.6; }</style><div id="promo-small-5af3119b28d87">
+  <div class="promo-small-treatment clearfix" >
+          <figure class="promo-small-image">
+        <a href="https://umn.qualtrics.com/jfe/form/SV_57GE6qis4DZWntz" class="linked-image"><img typeof="foaf:Image" src="http://mediad.publicbroadcasting.net/p/kumd/files/styles/medium/public/201503/ojibwe_stories_logo.jpg" alt="" /></a>      </figure>
+    
+        <div class="promo-small-text-wrapper">
+              <h2 class="promo-small-heading"><a href="https://umn.qualtrics.com/jfe/form/SV_57GE6qis4DZWntz">Share your feedback</a></h2>
+      
+              <p class="promo-small-teaser"> We'd love to know what you think of our monthly program Ojibwe Stories. Take our survey to help improve our work.</p>
+      
+            </div>
+      </div>
+</div>
+  </div>
+</div>
+<div id="block-block-factory-block-factory-551d92e5a3859" class="block block-block-factory">
+
+    
+  <div class="content">
+    <style type="text/css">#promo-large-551d92e5a3859 .promo-large-treatment { background-color: #FFFFFF; } #promo-large-551d92e5a3859 .promo-large-heading { color: #404040; } #promo-large-551d92e5a3859 .promo-large-heading a { color: #404040; } #promo-large-551d92e5a3859 .promo-large-teaser { color: #404040; } #promo-large-551d92e5a3859 .promo-large-cta { border-color: #404040; color: #404040; opacity: 1; transition: all .15s ease; } #promo-large-551d92e5a3859 .promo-large-cta:hover { color: #404040; opacity: 0.65; }</style><div id="promo-large-551d92e5a3859">
+  <div class="promo-large-treatment clearfix" >
+      <figure class="promo-large-image">
+      <a href="http://www.kumd.org/programs/live-studio" class="linked-image"><img typeof="foaf:Image" src="http://mediad.publicbroadcasting.net/p/kumd/files/styles/large/public/201808/the_fish_heads.jpg" alt="" /></a>    </figure>
+  
+      <div class="promo-large-text-wrapper">
+              <h2 class="promo-large-heading"><a href="http://www.kumd.org/programs/live-studio">Featured Live From Studio A</a></h2>
+      
+              <p class="promo-large-teaser">The Fish Heads Join us Live on on Thursday, August 23 at 2pm</p>
+      
+              <div class="promo-large-cta-wrapper">
+          <a href="http://www.kumd.org/programs/live-studio" class="promo-large-cta">More Sessions</a>        </div>
+          </div>
+    </div>
+</div>  </div>
+</div>
+<div id="block-block-factory-block-factory-59c3fb5556113" class="block block-block-factory">
+
+    
+  <div class="content">
+    <style type="text/css">#promo-small-59c3fb5556113 .promo-small-treatment { background-color: #FFFFFF; } #promo-small-59c3fb5556113 .promo-small-heading { color: #404040; } #promo-small-59c3fb5556113 .promo-small-heading a { color: #404040; } #promo-small-59c3fb5556113 .promo-small-teaser { color: #404040; } #promo-small-59c3fb5556113 .promo-small-cta { border-color: #404040; color: #404040; opacity: 1; transition: all .15s ease; } #promo-small-59c3fb5556113 .promo-small-cta:hover { color: #404040; opacity: 0.6; }</style><div id="promo-small-59c3fb5556113">
+  <div class="promo-small-treatment clearfix" >
+    
+        <div class="promo-small-text-wrapper">
+      
+              <p class="promo-small-teaser"><iframe width="250" height="220" src="https://www.youtube.com/embed/jjJFR031jY8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></p>
+      
+              <div class="promo-small-cta-wrapper">
+          <a href="https://ibex.d.umn.edu/biz/kumd/sustainer.html" class="promo-small-cta"> Join Team 103.3 - Click to Donate</a>        </div>
+            </div>
+      </div>
+</div>
+  </div>
+</div>
+<div id="block-block-factory-block-factory-5835ffb397193" class="block block-block-factory">
+
+    
+  <div class="content">
+    <style type="text/css">#promo-large-5835ffb397193 .promo-large-treatment { background-color: #FFFFFF; } #promo-large-5835ffb397193 .promo-large-heading { color: #404040; } #promo-large-5835ffb397193 .promo-large-heading a { color: #404040; } #promo-large-5835ffb397193 .promo-large-teaser { color: #404040; } #promo-large-5835ffb397193 .promo-large-cta { border-color: #404040; color: #404040; opacity: 1; transition: all .15s ease; } #promo-large-5835ffb397193 .promo-large-cta:hover { color: #404040; opacity: 0.65; }</style><div id="promo-large-5835ffb397193">
+  <div class="promo-large-treatment clearfix" >
+      <figure class="promo-large-image">
+      <a href="http://kumd.careasy.org/HOME.html" class="linked-image"><img typeof="foaf:Image" src="http://mediad.publicbroadcasting.net/p/kumd/files/styles/large/public/201611/screen_shot_2016-11-23_at_2.39.40_pm.png" alt="" /></a>    </figure>
+  
+      <div class="promo-large-text-wrapper">
+      
+              <p class="promo-large-teaser">DONATE YOUR VEHICLE AND MAKE A DIFFERENCE</p>
+      
+              <div class="promo-large-cta-wrapper">
+          <a href="http://kumd.careasy.org/HOME.html" class="promo-large-cta">More Info</a>        </div>
+          </div>
+    </div>
+</div>  </div>
+</div>
+<div id="block-pi-responsive-ads-medium-2" class="block block-pi-responsive-ads">
+
+    
+  <div class="content">
+      </div>
+</div>
+<div id="block-pi-responsive-ads-medium-3" class="block block-pi-responsive-ads">
+
+    
+  <div class="content">
+      </div>
+</div>
+<div id="block-block-factory-block-factory-570bfc67205ad" class="block block-block-factory">
+
+    
+  <div class="content">
+    <style type="text/css">#promo-large-570bfc67205ad .promo-large-treatment { background-color: #8CA374; } #promo-large-570bfc67205ad .promo-large-heading { color: #FFFFFF; } #promo-large-570bfc67205ad .promo-large-heading a { color: #FFFFFF; } #promo-large-570bfc67205ad .promo-large-teaser { color: #FFFFFF; } #promo-large-570bfc67205ad .promo-large-cta { border-color: #FFFFFF; color: #FFFFFF; opacity: 1; transition: all .15s ease; } #promo-large-570bfc67205ad .promo-large-cta:hover { color: #FFFFFF; opacity: 0.65; }</style><div id="promo-large-570bfc67205ad">
+  <div class="promo-large-treatment clearfix" >
+      <figure class="promo-large-image">
+      <a href="http://kumd.org/newsletter-sign#stream/0" class="linked-image"><img typeof="foaf:Image" src="http://mediad.publicbroadcasting.net/p/kumd/files/styles/large/public/201604/NewsletterSignup-18.png" alt="" /></a>    </figure>
+  
+      <div class="promo-large-text-wrapper">
+      
+      
+              <div class="promo-large-cta-wrapper">
+          <a href="http://kumd.org/newsletter-sign#stream/0" class="promo-large-cta">Sign Up</a>        </div>
+          </div>
+    </div>
+</div>  </div>
+</div>
+<div id="block-block-factory-block-factory-57c9cc338e82e" class="block block-block-factory">
+
+    
+  <div class="content">
+    <style type="text/css">#promo-large-57c9cc338e82e .promo-large-treatment { background-color: #FFFFFF; } #promo-large-57c9cc338e82e .promo-large-heading { color: #404040; } #promo-large-57c9cc338e82e .promo-large-heading a { color: #404040; } #promo-large-57c9cc338e82e .promo-large-teaser { color: #404040; } #promo-large-57c9cc338e82e .promo-large-cta { border-color: #404040; color: #404040; opacity: 1; transition: all .15s ease; } #promo-large-57c9cc338e82e .promo-large-cta:hover { color: #404040; opacity: 0.65; }</style><div id="promo-large-57c9cc338e82e">
+  <div class="promo-large-treatment clearfix" >
+      <figure class="promo-large-image">
+      <a href="https://www.facebook.com/kumd1033/?pnref=lhc" class="linked-image"><img typeof="foaf:Image" src="http://mediad.publicbroadcasting.net/p/kumd/files/styles/large/public/201609/SocialIcons_Webfb-01.png" alt="" /></a>    </figure>
+  
+    </div>
+</div>  </div>
+</div>
+<div id="block-block-factory-block-factory-57c9ccc60c67e" class="block block-block-factory">
+
+    
+  <div class="content">
+    <style type="text/css">#promo-large-57c9ccc60c67e .promo-large-treatment { background-color: #FFFFFF; } #promo-large-57c9ccc60c67e .promo-large-heading { color: #404040; } #promo-large-57c9ccc60c67e .promo-large-heading a { color: #404040; } #promo-large-57c9ccc60c67e .promo-large-teaser { color: #404040; } #promo-large-57c9ccc60c67e .promo-large-cta { border-color: #404040; color: #404040; opacity: 1; transition: all .15s ease; } #promo-large-57c9ccc60c67e .promo-large-cta:hover { color: #404040; opacity: 0.65; }</style><div id="promo-large-57c9ccc60c67e">
+  <div class="promo-large-treatment clearfix" >
+      <figure class="promo-large-image">
+      <a href="https://twitter.com/KUMD1033FM" class="linked-image"><img typeof="foaf:Image" src="http://mediad.publicbroadcasting.net/p/kumd/files/styles/large/public/201609/SocialIcons_Webfb-02.png" alt="" /></a>    </figure>
+  
+    </div>
+</div>  </div>
+</div>
+<div id="block-block-factory-block-factory-57c9ccef5ce34" class="block block-block-factory">
+
+    
+  <div class="content">
+    <style type="text/css">#promo-large-57c9ccef5ce34 .promo-large-treatment { background-color: #FFFFFF; } #promo-large-57c9ccef5ce34 .promo-large-heading { color: #404040; } #promo-large-57c9ccef5ce34 .promo-large-heading a { color: #404040; } #promo-large-57c9ccef5ce34 .promo-large-teaser { color: #404040; } #promo-large-57c9ccef5ce34 .promo-large-cta { border-color: #404040; color: #404040; opacity: 1; transition: all .15s ease; } #promo-large-57c9ccef5ce34 .promo-large-cta:hover { color: #404040; opacity: 0.65; }</style><div id="promo-large-57c9ccef5ce34">
+  <div class="promo-large-treatment clearfix" >
+      <figure class="promo-large-image">
+      <a href="https://www.instagram.com/kumd1033fm/" class="linked-image"><img typeof="foaf:Image" src="http://mediad.publicbroadcasting.net/p/kumd/files/styles/large/public/201609/SocialIcons_Webfb-03.png" alt="" /></a>    </figure>
+  
+    </div>
+</div>  </div>
+</div>
+<div id="block-block-factory-block-factory-57c9cd634edec" class="block block-block-factory">
+
+    
+  <div class="content">
+    <style type="text/css">#promo-large-57c9cd634edec .promo-large-treatment { background-color: #FFFFFF; } #promo-large-57c9cd634edec .promo-large-heading { color: #404040; } #promo-large-57c9cd634edec .promo-large-heading a { color: #404040; } #promo-large-57c9cd634edec .promo-large-teaser { color: #404040; } #promo-large-57c9cd634edec .promo-large-cta { border-color: #404040; color: #404040; opacity: 1; transition: all .15s ease; } #promo-large-57c9cd634edec .promo-large-cta:hover { color: #404040; opacity: 0.65; }</style><div id="promo-large-57c9cd634edec">
+  <div class="promo-large-treatment clearfix" >
+      <figure class="promo-large-image">
+      <a href="https://www.youtube.com/channel/UCI-OGhSkw51DndaEsnSFyNw" class="linked-image"><img typeof="foaf:Image" src="http://mediad.publicbroadcasting.net/p/kumd/files/styles/large/public/201609/SocialIcons_Webfb-04.png" alt="" /></a>    </figure>
+  
+    </div>
+</div>  </div>
+</div>
+<div id="block-block-factory-block-factory-5a29b44b9e7bc" class="block block-block-factory">
+
+    <h2 class="block-title">Daily Program Schedule</h2>
+  
+  <div class="content">
+    <style type="text/css">#promo-large-5a29b44b9e7bc .promo-large-treatment { background-color: #FFFFFF; } #promo-large-5a29b44b9e7bc .promo-large-heading { color: #404040; } #promo-large-5a29b44b9e7bc .promo-large-heading a { color: #404040; } #promo-large-5a29b44b9e7bc .promo-large-teaser { color: #404040; } #promo-large-5a29b44b9e7bc .promo-large-cta { border-color: #404040; color: #404040; opacity: 1; transition: all .15s ease; } #promo-large-5a29b44b9e7bc .promo-large-cta:hover { color: #404040; opacity: 0.65; }</style><div id="promo-large-5a29b44b9e7bc">
+  <div class="promo-large-treatment clearfix" >
+  
+      <div class="promo-large-text-wrapper">
+      
+              <p class="promo-large-teaser"> <iframe src="http://composer.nprstations.org/widgets/iframe/daily.html?v=5.12.5&station=5193efcbe1c8c35f7471aa4c" width="100%" height="600" frameborder="0" seamless></iframe></p>
+      
+          </div>
+    </div>
+</div>  </div>
+</div>
+  </div>
+          </div>
+        
+                    </div>
+          </div>
+        
+        
+              </article>
+    </main>
+  </div>
+
+  
+  <div class="bottom-ads">
+    <div class="bottom-ads-inner"></div>
+  </div>
+</div>
+
+<footer class="footer" role="contentinfo">
+  <div class="row">
+    <div class="footer-affiliate-container small-centered columns">
+                  <div class="region region-footer">
+    <div id="block-pi-table-queue-partnerfooter" class="block block-pi-table-queue">
+
+    
+  <div class="content">
+    <div class="table-queue" id="table-queue-partnerfooter">
+  <p class="partnerslabel">
+  KUMD is licensed to the Board of Regents of the University of Minnesota</p>
+<div class="item-list"><ul class="partner-logos"><li class="first"><a href="http://www.ampers.org" target="_blank"><img typeof="foaf:Image" src="http://mediad.publicbroadcasting.net/p/kumd/files/styles/partner_footer_logo/public/201503/amperslogo_0.jpg" alt="Ampers logo" title="Ampers logo" /></a></li>
+<li><a href="http://kumd.org/programs/legacy-programs" target="_blank"><img typeof="foaf:Image" src="http://mediad.publicbroadcasting.net/p/kumd/files/styles/partner_footer_logo/public/201503/legacy_logo-H_rgb.jpg" alt="Legacy Programming" title="Legacy Programming" /></a></li>
+<li><a href="http://www.d.umn.edu" target="_blank"><img typeof="foaf:Image" src="http://mediad.publicbroadcasting.net/p/kumd/files/styles/partner_footer_logo/public/201503/UMD-DrivenToDiscover.png" alt="University of Minnesota, Duluth logo" title="University of Minnesota, Duluth logo" /></a></li>
+<li><a href="https://www.facebook.com/kumd1033" target="_blank"><img typeof="foaf:Image" src="http://mediad.publicbroadcasting.net/p/kumd/files/styles/partner_footer_logo/public/201503/FB-Icon.png" alt="KUMD Facebook" title="KUMD Facebook" /></a></li>
+<li><a href="https://twitter.com/kumd1033fm" target="_blank"><img typeof="foaf:Image" src="http://mediad.publicbroadcasting.net/p/kumd/files/styles/partner_footer_logo/public/201503/Twitter-Icon.png" alt="KUMD Twitter" title="KUMD Twitter" /></a></li>
+<li class="last"><a href="https://instagram.com/kumd1033fm/" target="_blank"><img typeof="foaf:Image" src="http://mediad.publicbroadcasting.net/p/kumd/files/styles/partner_footer_logo/public/201503/Insta_Icon.png" alt="KUMD Instagram" title="KUMD Instagram" /></a></li>
+</ul></div></div>
+  </div>
+</div>
+<div id="block-pi-table-queue-auxiliarylinksfooter" class="block block-pi-table-queue">
+
+    
+  <div class="content">
+    <div class="table-queue" id="table-queue-auxiliarylinksfooter">
+  <div class="item-list"><ul class="auxiliary-links"><li class="first"><span>&copy; 2018 KUMD</span></li>
+<li><a href="http://kumd.org/reports" target="_self">Reports</a></li>
+<li><a href="https://publicfiles.fcc.gov/fm-profile/kumd-fm" target="_blank">FCC Public Inspection File</a></li>
+<li><a href="http://kumd.org/contact" target="_self">Contact</a></li>
+<li class="last"><a href="https://ibex.d.umn.edu/biz/kumd/sustainer.html" target="_blank">Support</a></li>
+</ul></div></div>
+  </div>
+</div>
+  </div>
+          </div>
+  </div>
+</footer>
+      <script type="text/javascript">
+<!--//--><![CDATA[//><!--
+ (function ($) { $(document).foundation({ topbar: { custom_back_text: true, back_text: 'back', mobile_show_parent_link: true } }); }(jQuery));
+//--><!]]>
+</script>
+    </div>
+  <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"15ba4da3e8","applicationID":"1108724","transactionName":"NlMBMhAECEZRAU1eDg8ZNhQLSg9bVAdBGREJRg==","queueTime":0,"applicationTime":15,"atts":"GhQCRFgeG0g=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

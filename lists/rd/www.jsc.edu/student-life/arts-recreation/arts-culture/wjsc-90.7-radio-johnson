@@ -1,0 +1,249 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta charset="utf-8"><script>window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(){}function o(e,t,n){return function(){return i(e,[f.now()].concat(u(arguments)),t?null:this,n),t?void 0:this}}var i=e("handle"),a=e(2),u=e(3),c=e("ee").get("tracer"),f=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,t){s[t]=o(d+t,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),t.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,t){var n={},r=this,o="function"==typeof t;return i(l+"tracer",[f.now(),e,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],n),o)try{return t.apply(this,arguments)}catch(e){throw c.emit("fn-err",[arguments,this,e],n),e}finally{c.emit("fn-end",[f.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){m[t]=o(l+t)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,f.now()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(o<0?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],4:[function(e,t,n){t.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?c(e,u,i):i()}function n(n,r,o,i){if(!d.aborted||i){e&&e(n,r,o);for(var a=t(o),u=m(n),c=u.length,f=0;f<c;f++)u[f].apply(a,r);var p=s[y[n]];return p&&p.push([b,n,r,a]),a}}function l(e,t){v[e]=m(e).concat(t)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(n)}function g(e,t){f(e,function(e,n){t=t||"feature",y[n]=t,t in s||(s[t]=[])})}var v={},y={},b={on:l,emit:n,get:w,listeners:m,context:t,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",c=e("gos"),f=e(2),s={},p={},d=t.exports=o();d.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!x++){var e=h.info=NREUM.info,t=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return s.abort();f(y,function(t,n){e[t]||(e[t]=n)}),c("mark",["onload",a()+h.offset],null,"api");var n=d.createElement("script");n.src="https://"+e.agent,t.parentNode.insertBefore(n,t)}}function o(){"complete"===d.readyState&&i()}function i(){c("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),c=e("handle"),f=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,SI:p.setImmediate,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1071.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=t.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),c("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+<title>WJSC 90.7 Radio Johnson | Johnson State College</title>
+<meta name="description" content="Johnson State College, Vermont's premier public liberal arts college, offers high-impact education on campus and online. Johnson State will become Northern Vermont University in July 2018">
+<link rel="stylesheet" href="//d3pt0wokcezon6.cloudfront.net/styles/main.css?v=1512592847">
+<script src="//d3pt0wokcezon6.cloudfront.net/scripts/vendor/modernizr.js"></script>
+<meta name="google-site-verification" content="h0fwdpUYiI0xwPdNayaSNCXb3FYvS45eeKHERRhZva8"/>
+<!-- Facebook Pixel Code -->
+<script>!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');fbq('init','168776630534393');fbq('track','PageView');</script>
+<noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=168776630534393&ev=PageView&noscript=1"/></noscript>
+<!-- DO NOT MODIFY -->
+<!-- End Facebook Pixel Code -->
+</head>
+<body class="normal wjsc-radio-johnson">
+<!-- Google Tag Manager: Used to include all Google Analytics snippets -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-WGXKQZ" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-WGXKQZ');</script>
+<!-- End Google Tag Manager -->
+<header>
+<!-- begin main (top) nav include-->
+<!-- begin quicklinks nav-->
+<div id="quicklinks-nav" class="collapsed">
+<a href="#" id="back" class="show-phone">Back</a>
+<div class="title-bar">
+<h2 class="left">Quicklinks</h2>
+<a href="#" id="quicklinks-close" class="right">Close</a>
+</div>
+<nav>
+<div class="col-group five-cols no-wrap">
+<div class="col nudge-down">
+<a href="/news-events/events/commencement" class="right-arrow before">Commencement</a>
+<a href="/news-events/events/commencement"><img class="center" alt="Commencement" src="data:image/png;base64,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"/></a>
+</div>
+<div class="col left-border white">
+<h2 class="pencil" style="background-image:url(/images/uploads/utility-nav/pencil.png)">Resources</h2>
+<div class="no-decoration">
+<ul>
+<li><a href="/offices-non-academic-departments/registrars-office">Registration</a></li>
+<li><a href="/academics/academic-resources/academic-calendars/undergraduate-catalog">Catalog &amp; Course Bulletins</a></li>
+<li><a href="/offices-non-academic-departments/information-technology-services">IT/Computing</a></li>
+</ul>
+</div>
+</div>
+<div class="col">
+<h2 class="person" style="background-image:url(/images/uploads/utility-nav/person.png)">On Campus</h2>
+<div class="no-decoration">
+<ul>
+<li><a href="https://johnsonstate.sodexomyway.com/">Dining</a></li>
+<li><a href="/offices-non-academic-departments/public-safety">Campus Safety</a></li>
+<li><a href="/offices-non-academic-departments/conference-event-services">Conferences &amp; Events</a></li>
+</ul>
+</div>
+</div>
+<div class="col">
+<h2 class="person" style="background-image:url(/images/uploads/utility-nav/calendar.png)">Calendars & Directory</h2>
+<div class="no-decoration">
+<ul>
+<li><a href="/academics/academic-resources/academic-calendars/academic-calendar">Academic Calendar</a></li>
+<li><a href="https://events-jsc.vsc.edu/MasterCalendar/MasterCalendar.aspx">Events Calendar</a></li>
+<li><a href="/directory">Directory</a></li>
+</ul>
+</div>
+</div>
+<div class="col left-border white">
+<ul class="right-arrow">
+<li><a href="https://www.northernvermont.edu/about/news-events/news-center">News & Events</a></li>
+<li><a href="https://www.northernvermont.edu/academics/resources/libraries">Library</a></li>
+<li><a href="https://www.northernvermont.edu/resources/advising-and-resources/registrar/transcripts-and-enrollment-verification">Transcripts</a></li>
+<li><a href="https://www.northernvermont.edu/contact-nvu-communications">Contact</a></li>
+</ul>
+</div>
+</div>
+</nav>
+</div>
+<!-- end quicklinks nav-->
+<!-- begin main nav (and)-->
+<!-- begin main nav (and)-->
+<div class="main-nav">
+<a href="http://www.jsc.edu/" class="logo color">Johnson State College Vermont</a>
+<a href="#" class="reveal">Show</a>
+<div class="nav">
+<div class="quicklinks-main quicklinks-reveal"><a href="#">Quicklinks</a></div>
+<!-- Google CSE Search Box Begins  -->
+<form action="http://www.jsc.edu/search/results" id="searchbox_008724123781493753215:g_wv2jokdvo" class="search">
+<input type="hidden" name="cx" value="008724123781493753215:g_wv2jokdvo"/>
+<input type="hidden" name="cof" value="FORID:11"/>
+<input type="text" name="q" placeholder="Search"/>
+<input type="submit" name="sa"/>
+</form>
+<script src="http://www.google.com/coop/cse/brand?form=searchbox_008724123781493753215%3Ag_wv2jokdvo"></script>
+<!-- Google CSE Search Box Ends -->
+<nav>
+<ul class="inline no-decoration">
+<li class="first"><a href="http://www.jsc.edu/who-we-are/">Who We Are</a></li>
+<li><a href="http://www.jsc.edu/academics/">Academics</a></li>
+<li class="parent-active"><a href="http://www.jsc.edu/student-life/">Student Life</a></li>
+<li><a href="http://www.jsc.edu/admissions-aid/">Admissions &amp; Aid</a></li>
+<li class="last"><a href="http://www.jsc.edu/athletics/">Athletics</a></li>
+<li class="quicklinks-mobile quicklinks-reveal"> <a href="#">Quicklinks &gt;</a></li>
+</ul>
+</nav>
+</div>
+</div>
+<!-- end main nav-->
+<!-- end main nav-->
+<!-- end main (top) nav include-->
+<div class="container">
+<h1><span>Arts &amp; Recreation</span></h1>
+</div>
+</header>
+<div class="main-wrapper">
+<div class="container">
+<div class="breadcrumbs">
+<ul>
+<li><a href="http://www.jsc.edu">Home</a></li><li><a href="http://www.jsc.edu/student-life/">Student Life</a></li><li><span class="breadcrumb-page-group">Arts & Recreation</span></li><li><span class="breadcrumb-page-group">Arts & Culture</span></li><li class="last">WJSC: 90.7 FM, Radio Johnson </li>
+</ul>
+</div>
+<div class="main sidebar">
+<aside class="sidebar">
+<nav class="sidebar">
+<ul id="nav-sub" class="no-decoration">
+<li class="first"><a href="http://www.jsc.edu/student-life/arts-recreation/dibden-center-for-the-arts/">Dibden Center for the Arts</a>
+<ul>
+<li class="first"><a href="http://www.jsc.edu/student-life/arts-recreation/dibden-center-for-the-arts/about-dibden/">About Dibden</a>
+<ul>
+<li class="first"><a href="http://www.jsc.edu/student-life/arts-recreation/dibden-center-for-the-arts/about-dibden/mission-history/">Mission &amp; History</a></li>
+<li><a href="http://www.jsc.edu/student-life/arts-recreation/dibden-center-for-the-arts/about-dibden/accessibility-services/">Accessibility Services</a></li>
+<li><a href="http://www.jsc.edu/student-life/arts-recreation/dibden-center-for-the-arts/about-dibden/facility-rental/">Facility Rental</a></li>
+<li><a href="http://www.jsc.edu/student-life/arts-recreation/dibden-center-for-the-arts/about-dibden/directions-parking/">Directions &amp; Parking</a></li>
+<li class="last"><a href="http://www.jsc.edu/student-life/arts-recreation/dibden-center-for-the-arts/about-dibden/community-partners/">Community Partners</a></li>
+</ul>
+</li>
+<li><a href="http://www.jsc.edu/student-life/arts-recreation/dibden-center-for-the-arts/this-seasons-performances/">Upcoming Performances</a></li>
+<li><a href="http://www.jsc.edu/student-life/arts-recreation/dibden-center-for-the-arts/julian-scott-memorial-gallery/">Julian Scott Memorial Gallery</a></li>
+<li><a href="http://www.jsc.edu/student-life/arts-recreation/dibden-center-for-the-arts/hands-on-arts-education/">Hands-on Arts Education</a>
+<ul>
+<li class="first last"><a href="http://www.jsc.edu/student-life/arts-recreation/dibden-center-for-the-arts/hands-on-arts-education/arts-education-in-action/">Dibden As Classroom</a></li>
+</ul>
+</li>
+<li class="last"><a href="http://www.jsc.edu/student-life/arts-recreation/dibden-center-for-the-arts/contact/">Contact</a>
+<ul>
+<li class="first last"><a href="http://www.jsc.edu/student-life/arts-recreation/dibden-center-for-the-arts/contact/dibden-center-for-the-arts-directory/">Dibden Center for the Arts Directory</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="parent-here"><a href="http://www.jsc.edu/student-life/arts-recreation/arts-culture/">Arts &amp; Culture</a>
+<ul>
+<li class="first"><a href="http://www.jsc.edu/student-life/arts-recreation/arts-culture/stearns-student-center/">Stearns Student Center</a>
+<ul>
+<li class="first last"><a href="http://www.jsc.edu/student-life/arts-recreation/arts-culture/stearns-student-center/stearns-cinema-movie-nights/">Stearns Cinema</a></li>
+</ul>
+</li>
+<li><a href="http://www.jsc.edu/student-life/arts-recreation/arts-culture/campus-art-galleries/">Campus Art Galleries</a></li>
+<li><a href="http://www.jsc.edu/student-life/arts-recreation/arts-culture/basement-medicine-student-newspaper/">Basement Medicine Student Newspaper</a></li>
+<li><a href="http://www.jsc.edu/student-life/arts-recreation/arts-culture/green-mountains-review-literary-magazine/">JSC Literary Magazines</a></li>
+<li class="here last"><a href="http://www.jsc.edu/student-life/arts-recreation/arts-culture/wjsc-90.7-radio-johnson/">WJSC: 90.7 FM, Radio Johnson </a></li>
+</ul>
+</li>
+<li><a href="http://www.jsc.edu/student-life/arts-recreation/sports-fitness/">Sports &amp; Fitness</a>
+<ul>
+<li class="first"><a href="http://www.jsc.edu/student-life/arts-recreation/sports-fitness/shape-fitness-center/">SHAPE Fitness Center</a></li>
+<li><a href="http://www.jsc.edu/student-life/arts-recreation/sports-fitness/intramural-sports/">Intramural &amp; Recreation Activities</a></li>
+<li class="last"><a href="http://www.jsc.edu/student-life/arts-recreation/sports-fitness/varsity-athletics/">Varsity Athletics</a></li>
+</ul>
+</li>
+<li class="last"><a href="http://www.jsc.edu/student-life/arts-recreation/outdoor-recreation-opportunities/">Outdoor Recreation Opportunities</a>
+<ul>
+<li class="first"><a href="http://www.jsc.edu/student-life/arts-recreation/outdoor-recreation-opportunities/cross-country-trails/">Cross-Country Trails</a></li>
+<li><a href="http://www.jsc.edu/student-life/arts-recreation/outdoor-recreation-opportunities/disc-golf/">Disc Golf</a></li>
+<li><a href="http://www.jsc.edu/student-life/arts-recreation/outdoor-recreation-opportunities/hiking/">Hiking</a></li>
+<li><a href="http://www.jsc.edu/student-life/arts-recreation/outdoor-recreation-opportunities/terrain-park/">Terrain Park</a></li>
+<li><a href="http://www.jsc.edu/student-life/arts-recreation/outdoor-recreation-opportunities/babcock-nature-preserve/">Babcock Nature Preserve</a></li>
+<li class="last"><a href="http://www.jsc.edu/student-life/arts-recreation/outdoor-recreation-opportunities/skiing-snowboarding/">Skiing &amp; Snowboarding</a></li>
+</ul>
+</li>
+</ul>
+</nav>
+<figure>
+<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEQAAABECAMAAAAPzWOAAAAAq1BMVEU7WZg7WZg7WZg7WZg7WZg7WZg7WZg7WZg7WZg7WZg/XJpAXZpAXptCX5xEYZ1JZZ9KZaBOaaJRbKRTbaVYcqdZcqhgeKtof7BuhLN8kLqGmL+GmcCKnMKMncKWpsiisM6kss+yvtezv9e2wdm3wtnDzN/L0+TR2OfY3urZ3uvb4Ozc4u3g5e/k6PHn6/Lp7fTu8fbw8vfy9Pj3+Pv6+/37/P39/v7+/v////+uEvStAAAACXRSTlMAOzw+wcLD+Pl5rJODAAAA0UlEQVRYw+3Yxw7CMBBF0SEFx/TeOyT0QKjz/1/GKhErhDxvBb77HDmS38ZErqe0IOW5RLlACwsc8rU4j5QcUaQBWUSIlPvzbfLk6yXeRaupEVKcJPyeCdLaM0uRTsJipH5iORKyHOkxAIkASOMBQEYMQJYIZJN9GY/bFcPtnFPjWDMf4C1FBoIVZ3/TRCAlBKIt8lMIf+peACAHxElCBDJDIEME0kUgVQCSIO7JGoEs7IotYhGLWOTvECVH1HdPH5+RPDmBFAkcItdXEkT5Lr0Abso6vCqIwbcAAAAASUVORK5CYII=" class="border">	<figcaption><p><a href="https://www.facebook.com/pages/WJSC-FM/294308820416">Like WJSC FM on Facebook for updates and more!</a></p>
+</figcaption>
+</figure>
+<hr>
+</aside>
+<div class="content">
+<header>
+<img class="banner" alt="WJSC: 90.7 FM, Radio Johnson" width="700" height="292" src="/images/resizer_cache/xb678497c4101a3be3aaa200de2ea90ca2bcd3731.jpg.pagespeed.ic.gylCAYUCb1.jpg"/>
+<h3>WJSC, 90.7 FM: Radio Johnson</h3>
+</header>
+<hr>
+<article>
+<p>From its earliest days in the late 1960s, when it could be heard on campus only as far as Arthur and Martinetti halls, to today, when the Internet makes it possible to hear our community DJs anywhere in the world, WJSC-FM has been the voice of Johnson State College. Located on the top floor of Stearns Student Center overlooking the campus quad, the station broadcasts music and conversation throughout the Lamoille Valley and beyond. We provide an alternative to commercial radio with the goal of educating and empowering our student and community DJs with the experience they need to become professional broadcasters.</p>
+<h4>Listen Live!</h4>
+<p>Tune in to 90.7 on your FM dial if you’re in the area, or <a href="http://155.42.39.253:8000/stream">stream it over the
+Internet</a>!</p>
+<h3>A Brief History</h3>
+<p>WJSC-FM, &#8220;the voice of the mountains,&#8221; began broadcasting in the fall of 1968. Starting at just 10 watts, the station now broadcasts at 250 watts and streams worldwide via the Internet 24/7. We have come full circle back to the Stearns Student Center, where we started in the late 1960s. In 2002, the JSC Student Government Association awarded us more than $6,000 to upgrade our broadcast studio. A new sound board, CD players and other upgrades equipped us to serve as a creative outlet for the community for years to come. WJSC remains a vital part of campus life and was nominated in 2014 for a &#8220;Daysie Award&#8221; from <em>Seven Days</em> as Vermont&#8217;s best college radio station.</p>
+<h3>How to Get Involved</h3>
+<p>WJSC is open to all JSC students, faculty and staff. We also open our studio to community members who want to broadcast their own shows. All participants must complete a two-week training program and adhere to the rules and regulations of the Federal Communications Commission (FCC), the Vermont State Colleges, Johnson State College and WJSC-FM. Contact station advisor Jeffrey Angione by <a href="mailto:jeffrey.angione@jsc.edu">email</a> or call him at 802-635-1273 to inquire about our training program and available time slots.</p>
+<h3>How to Submit Information for Broadcast</h3>
+<p><a href="mailto:wjsc@jsc.edu">Email wjsc@jsc.edu</a> with the information you would like us to broadcast, or send postal mail to WJCS, Johnson State College, 337 College Hill, Johnson, VT 05656. You also may call the studio at 802-635-1414 or <a href="mailto:jeffrey.angione@jsc.edu">email Jeffrey Angione</a>.</p>
+</article>
+</div>
+</div>
+</div>
+</div>
+<footer>
+<div class="container">
+<div class="wrapper">
+<a href="http://northernvermont.edu/" class="logo white">Northern Vermont University</a>
+<div class="spacer hide-phone"></div>
+<div class="address">
+<ul class="no-decoration">
+<li class="dot"><span>337 College Hill</span></li>
+<li><span>Johnson, VT 05656</span></li>
+<li>800-635-2356</li>
+</ul>
+</div>
+<nav>
+<ul class="right-arrow">
+<li><a href="/who-we-are/about-johnson-state/jobs-at-jsc/how-to-apply">Jobs at JSC</a></li>
+<li><a href="http://myjsc.jsc.edu">MyJSC Portal</a></li>
+<li><a href="/sexual-respect-title-ix">Title IX & Sexual Respect</a></li>
+<li><a href="/offices-non-academic-departments/public-safety">Campus Safety</a></li>
+</ul>
+</nav>
+<div class="footer-social-wrap">
+<a href="/give-to-jsc" class="button">Give to Johnson State</a>
+<div class="social">
+<a href="https://www.facebook.com/JohnsonStateCollege?ref=br_tf" class="facebook">facebook</a>
+<a href="https://twitter.com/johnsonstate" class="twitter">twitter</a>
+<a href="https://www.youtube.com/user/JohnsonStateCollege" class="youtube">youtube</a>
+<a href="https://www.flickr.com/photos/johnsonstatecollege/" class="flickr">flickr</a>
+</div>
+</div>
+</div>
+</div>
+</footer>
+<script src="//d3pt0wokcezon6.cloudfront.net/scripts/vendor/jquery.min.js"></script>
+<script src="//d3pt0wokcezon6.cloudfront.net/scripts/vendor/jquery.cycle.js"></script>
+<script src="//d3pt0wokcezon6.cloudfront.net/scripts/main.js?v=1512592846"></script>
+<script>window._bugHerd||document.write('<script src="//www.bugherd.com/sidebarv2.js?apikey=vvn6qo1adrvzhmtrn2gesq"><\/script>')</script>
+<script>window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"fe76a2a90e","applicationID":"4437373","transactionName":"YlVbYktUDUNWUkZRDlsfekNKQQxdGEJGTQVQXk0bVVwFVRhQQEwSGEJcVUtQAkReXlw=","queueTime":0,"applicationTime":413,"atts":"ThJYFANOHk0=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

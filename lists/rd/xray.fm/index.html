@@ -1,0 +1,472 @@
+<!-- *****************************
+This document is commented to help volunteer and less experienced users navigate the site code. 
+If you have experience with web design / development, XRAY would love your help! :]
+Contact us at: http://xray.fm/info/get-involved
+***************************** -->
+
+<!-- Don't touch any of the stuff in this <head> section unless you know what you're doing -->
+<head>
+  <title>XRAY.fm /// Listen Here /// KXRY 91.1 & 107.1 FM</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="google-site-verification" content="IWwHQzWD4ImumsQMOl_3NK0IDzmkGOuBFsw3xDN6FoQ" />
+  <link href='//fonts.googleapis.com/css?family=Open+Sans:400,600,700' rel='stylesheet' type='text/css'>
+  <!--<link href='//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css' rel='stylesheet' type='text/css'>-->
+  <link href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css' rel='stylesheet' type='text/css'>
+  <link href='//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css' rel='stylesheet' type='text/css'>
+  <meta name="description" content="XRAY.fm aims to hold a boom mic up to the best and most distinctive of Portland." />
+  <link rel="shortcut icon" type="image/png" href="/theme/107/favicon.ico"/>
+  <meta property="og:title" content="XRAY.fm /// Listen Here /// KXRY 91.1 & 107.1 FM" />
+<meta property="og:url" content="http://xray.fm/" />
+<meta property="og:image" content="http://s31.postimg.org/gvngbyezf/unnamed.png" />
+
+  <script src="/components/jquery/dist/jquery.min.js?x=1437796891"></script>
+
+<!-- Initialize Creek.fm JS -->
+<script src="/js/cfm-head.js?x=1437796891" type="text/javascript"></script>
+<script type="text/javascript">
+
+  Creek.signedIn = false;
+  Creek.station.id = "xray";
+  Creek.streamPlayer.flashByDefault = 0;
+
+  //Check for Internet Explorer
+  if(window.ActiveXObject || "ActiveXObject" in window){
+
+    //Defalt to Flash for stream player
+    Creek.streamPlayer.flashByDefault = 1;
+
+  }
+</script>
+
+<script type="text/javascript" src="/packages/magnific-popup/jquery.magnific-popup.min.js"></script>
+
+<script src="/packages/soundmanager/script/soundmanager2-nodebug-jsmin.js?x=1498244286"></script>
+<style> #sm2-container {position:absolute; top:-10000px; left:-10000px} </style>
+<script src="/js/sm2-settings.js?x=1437796891"></script>
+<link rel="stylesheet" type="text/css" href="/packages/soundmanager/demo/bar-ui/css/bar-ui.css?x=1437796891" />
+<script src="/js/creek-sm2-bar-ui.js?x=1441826410"></script><link href="/css/creekfm-public.css?x=1500320125" rel="stylesheet" type='text/css'>
+<link href="/packages/magnific-popup/magnific-popup.css?x=1437796891" rel="stylesheet" type='text/css'>
+<link href="/css/playlist.css?x=1455040699" rel="stylesheet" type='text/css'>
+
+  <script src="/theme/107/js/js-settings.js?x=1460258951" type="text/javascript"></script>
+  <script type="text/javascript"> 
+    var playlistInterval = new Object;
+    console.log(
+      '***************************** \nThis document is commented to help volunteer and less experienced users navigate the site code. \nIf you have experience with web design / development, XRAY would love your help! :] \nContact us at: http://xray.fm/info/get-involved \n*****************************'  
+    )
+  </script>
+  <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js"></script>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.4.0/moment.min.js"></script>
+<script src="/js/cfm-api-templates.js?x=1437796891" type="text/javascript"></script>
+  
+<!-- Initialize Creek.fm Stream Player -->
+<script type="text/javascript">Creek.streamPlayer.streamUrl = 'http://listen.xray.fm:8000/stream';</script>
+<script type="text/javascript" src="/packages/jplayer/jquery.jplayer.min.js"></script>
+
+  <link href="/theme/107/css/css-main.css?x=1492725931" rel="stylesheet" type='text/css'>
+  <link href="/theme/107/css/css-pages.css?x=1450993017" rel="stylesheet" type='text/css'>
+  <link href="/theme/107/css/css-tools.css?x=1450993017" rel="stylesheet" type='text/css'>
+  <link href="/theme/107/css/css-responsive.css?x=1450993017" rel="stylesheet" type='text/css'>
+  <link href="/theme/107/css/css-fixes.css?x=1450993017" rel="stylesheet" type='text/css'>
+  <script src="/theme/107/js/readmore.min.js" type="text/javascript"></script>
+</head>
+
+<!-- This section contains the visible content of the main page -->
+<body class="home-index ">
+
+  <!-- Why is this here at the top of the <body>? Why can't we run this from the end of the document? -->
+  <script type="text/javascript">
+    $(function(){
+      var doMenu = function(){
+        $('#mobile-menu').toggleClass('open');
+        //alert(1);
+      }
+      $('body').on('click', '#mobile-menu a.button', function(){
+        doMenu();
+      })
+      $('body').on('click', '#mobile-menu .inner a', function(){
+        doMenu()
+      })
+    })
+  </script>
+  
+  <!-- Add anchor tags to this section in order to populate the hamburger style drop down menu on mobile views. Given the current organization, links are duplicated between this mobile menu and the wide-screen navbar. -->
+  <div id="mobile-menu">
+    <!-- This anchor tag is the hamburger logo that users click to show the hidden link menu -->
+    <a href="javascript:" class="button"><img src="/theme/107/img/menu-button3_2.png"/></a>
+    
+    <div id="mobile-menu-inner" class="inner cfm-sp-load">
+      <a href="/" class="home active">HOME</a>
+      <a href="/shows" class="shows  ">SHOWS</a>
+      <a href="/playlist" class="plsylist ">PLAYLIST</a>
+      <a href="/events/categories/xray-presents" class="events">EVENTS</a>
+      <a href="http://xraytv.org" class="xraytv" target="_blank">XRAY TV</a>
+      <a href="http://xrayfm.wordpress.com/" target="_blank" class="news">BLOG</a>
+      <a href="/membership" class='membership'>MEMBERSHIP</a>
+      <a href="/users/sign-in">Sign In</a>
+      <a href="/donate" class="donate">Donate</a>
+    </div>
+  </div>
+  
+  <!-- This sections contains the navigation elements for wide-screen views. If you add a link to this section, make sure you duplicate it in the preceeding mobile menu as well, since this section is hidden from users with small screens -->
+  <div id="top-toolbar" class="cfm-sp-load">
+  
+    <div class="top-user-panel clearfix">
+      <div class="container"><div class="cfm-user-panel user-panel not-signed-in">
+    <div class="sign-in">
+    <a href="/users/sign-in?return_url=">Sign in</a>
+  </div>
+  </div></div>
+    </div>
+    
+    <div id="trycholeranit" class="cfm-sp-load container">
+      <div class="logo">
+        <a href="/">
+          <img src="/theme/107/img/logo1_white-on-black_399.png" class="img-responsive"/>
+        </a>
+      </div>
+      
+      <!-- Here are the wide-screen links, add and remove them from this <div> section -->
+      <div class="links">
+        <a href="/" class="home active">HOME</a>
+        <a href="/shows" class="shows  ">SHOWS</a>
+        <a href="/playlist" class="playlist ">PLAYLIST</a>
+        <a href="/events/categories/xray-presents" class=" events">EVENTS</a>
+        <a href="https://xrayfm.wordpress.com/" class=" news" target="_blank">BLOG</a>
+        <a href="/info/partners" class="partners">PARTNERS</a>
+        <a href="/info/get-involved" class="get-involved">GET INVOLVED!</a>
+        <a href="/membership" class='membership'>MEMBERSHIP</a>
+        <a href="http://xraytv.org" class="tv">XRAY TV</a>
+        
+        <!-- You can always comment out links you're not using anymore, but that you think you might use again in the future. This BLOG link below is an example -->
+        <!--<a href="/news" class=" news">BLOG</a>-->
+      </div>
+      
+      <div class="donate">
+        <a href="/donate">DONATE &raquo;</a>
+      </div>
+      
+      <div class="cfm-user-panel user-panel not-signed-in">
+    <div class="sign-in">
+    <a href="/users/sign-in?return_url=">Sign in</a>
+  </div>
+  </div>
+    </div>
+  </div>
+  
+  <!-- Notice that there are no closing tags for most of the <div>'s below this point. 
+  I have no idea what this is about, but if you add them it will break the layout. 
+  For example, DON'T do this: 
+    
+    <div id="main" class="clearfix"> 
+    ...
+    </div> <============== BAD
+  -->
+  <div id="outer-container" class="clearfix">
+    <!--Shows an animated "loading" indicator between interactions. Don't touch this. -->
+    <div id="loader">
+      <i class="fa fa-spinner fa-spin"></i>
+    </div>
+    
+    <!-- This nested <div> structure is for styling hook purposes. You should never need to change this unless you are making major changes to the general layout of the page. Change the individual pages instead -->
+    <div id="main" class="clearfix">
+      <div id="main-inner" class="clearfix">
+        <div id="cfm-sp-container" class="clearfix">
+          <div id="page-container" class="page-home-index clearfix">
+
+
+<h1 class="hide" style="display:none">XRAY.FM aims to put a microphone to the best and most distinctive of Portland.</h1>
+
+<div id="featured-post-container">
+  <div id="featured-post-main" class="block-6QoDYynn">
+    <div class="post">
+      <div class="image-container">
+        <!--a(href="#").image(style="display:block;background-image:url('https://xray-fc1-west.creek.fm/image/original/HOME_BG.jpg')")-->
+        <a href="#" style="display:block;background-image:url('/theme/107/img/XRAY-Portland-1963-cropped.jpg')" class="image"></a>
+        <!--<a href="#" style="display:block;background-image:url('https://68.media.tumblr.com/c337841ab0f6abee81b6101315ff50aa/tumblr_ohq3msJTXn1rvg6ffo1_500.gif')" class="image"></a>-->
+        <div id="center-player">
+          <div class="cfm-stream-player jp-audio">
+            <div class="jp-type-single">
+              <div class="jp-gui jp-interface jp-controls">
+                <a href="donate" class="donate-button" target="_blank"><span>Become an XRAY member</span></a>
+                <!--
+                <a href="www.giveguide.org/#xrayfm" class="donate-button" target="_blank"><span>Give to the Give!Guide</span></a>
+                <a href="https://itunes.apple.com/us/app/xray.fm/id1076489204" class="donate-button" target="_blank"><span>Get the XRAY App for iOS</span></a>
+                <a href="http://bit.ly/votexray" class="donate-button" target="_blank"><span>Vote XRAY Best Radio Station!</span></a>
+                <a href="https://impactflow.com/event/the-xray-awards-43" class="donate-button" target="_blank"><span>Come to the XRAY Awards!</span></a>
+                <a href="https://giveguide.org/#xrayfm" class="circle-button-image" target="_blank"><img src="/theme/107/promo/G_G__15.png" /></a>
+                -->
+                <a href="javascript:" class="cfm-stream-main-button cfm-stream-play-button two-up-button">Listen</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!--
+<div class="announcement-banner-image">
+  <a class="announcement-banner-image-main-link" href="/donate"><img src="https://xray-fc1-west.creek.fm/image/original/XRAY_Site_Wide_720x180_2.jpg" target="_blank" /></a>
+</div>
+-->
+
+<div class="container">
+  <div id="big-broadcasting-container">
+    <div id="big-broadcasting" class="hidden">
+      <div class="row">
+        <div class="col-xs-12 col-sm-7">
+          <div class="now">
+            <div class="small-label">On the air:</div>
+            <div class="show show-now">
+              <div class="show-inner">
+                <h1><a href="/shows/{{data.now.short_name}}" data-bind="now.title"></a></h1>
+                <div class="time">
+                  <div data-bind="now.Airtime.start_f" class="starts time-format"></div>
+                  <div class="to">-</div>
+                  <div data-bind="now.Airtime.end_f" class="ends time-format"></div>
+                </div>
+                <div data-bind="now.short_description" class="short-description"></div>
+<script>
+  function fbShare() {
+      var url = window.location
+      var winWidth = 520;
+      var winHeight = 350;
+      var winTop = (screen.height / 2) - (winWidth / 2);
+      var winLeft = (screen.width / 2) - (winHeight / 2);
+      window.open('http://www.facebook.com/sharer.php?s=100&p[url]=' + url, 'sharer', 'top=' + winTop + ',left=' + winLeft + ',toolbar=0,status=0,width=' + winWidth + ',height=' + winHeight);
+  }
+  function twShare() {
+    var width  = 575,
+        height = 400,
+        left   = ($(window).width()  - width)  / 2,
+        top    = ($(window).height() - height) / 2,
+        url    = window.location,
+        opts   = 'status=1' +
+                 ',width='  + width  +
+                 ',height=' + height +
+                 ',top='    + top    +
+                 ',left='   + left;
+                 
+    window.open('http://twitter.com/share', 'Twitter', opts);
+  }
+  function gpShare() {
+    var width  = 575,
+        height = 400,
+        left   = ($(window).width()  - width)  / 2,
+        top    = ($(window).height() - height) / 2,
+        url    = window.location,
+        opts   = 'status=1' +
+                 ',width='  + width  +
+                 ',height=' + height +
+                 ',top='    + top    +
+                 ',left='   + left;
+                 
+    window.open('https://plus.google.com/share?url='+url, 'Twitter', opts);
+  }
+  
+  
+</script>
+<div class="big-share-buttons clearfix"><a href="javascript:fbShare()"><i class="fa fa-facebook"></i>
+    <div class="text">Share</div></a><a href="javascript:twShare()"><i class="fa fa-twitter"></i>
+    <div class="text">Tweet</div></a><a href="javascript:gpShare()"><i class="fa fa-google-plus"></i>
+    <div class="text">+1</div></a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-5">
+          <div class="next">
+<div class="social-media clearfix"><a href="http://facebook.com/xrayfm" target="blank"><i class="fa fa-facebook"></i></a><a href="http://twitter.com/xrayfm" target="blank"><i class="fa fa-twitter"></i></a><a href="http://instagram.com/xrayfm" target="blank"><i class="fa fa-instagram"></i></a><a href="http://xrayfm.tumblr.com" target="blank"><i class="fa fa-tumblr"></i></a><a href="https://www.youtube.com/channel/UCzLnrs7EirGCpL88TXhvYEw" target="blank"><i class="fa fa-youtube"></i></a><a href="https://plus.google.com/115047991072657162785/posts" target="blank"><i class="fa fa-google-plus"></i></a></div>
+            <div class="small-label">Up next:</div>
+            <div class="show show-next">
+              <div class="show-inner">
+                <h3><a href="/shows/{{data.next.short_name}}" data-bind="next.title"></a></h3>
+                <div class="time">
+                  <div data-bind="next.Airtime.start_f" class="starts time-format"></div>
+                  <div class="to">-</div>
+                  <div data-bind="next.Airtime.end_f" class="ends time-format"></div>
+                </div>
+                <div data-bind="next.short_description" class="short-description"></div>
+                <div class="view-schedule"><a href="/shows">VIEW ALL SHOWS</a>&nbsp;&raquo;</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="load">
+  <script type="text/javascript">
+  $(function(){
+    Creek.apiTemplates.render({api:"posts?limit=1&placement=6QoDYynn", id: "#featured-post-main", time_format: 'MMMM Do YYYY, h:mm:ss a', fade:400});
+    Creek.apiTemplates.render({api:"broadcasting", id: "#big-broadcasting", time_format: 'h:mma', fade:350});
+  })
+  </script>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+<div id="footer">
+  <div class="footer-main">
+    <div class="container">
+      <div class="row row-no-right-margin">
+<div class="social-media clearfix"><a href="http://facebook.com/xrayfm" target="blank"><i class="fa fa-facebook"></i></a><a href="http://twitter.com/xrayfm" target="blank"><i class="fa fa-twitter"></i></a><a href="http://instagram.com/xrayfm" target="blank"><i class="fa fa-instagram"></i></a><a href="http://xrayfm.tumblr.com" target="blank"><i class="fa fa-tumblr"></i></a><a href="https://www.youtube.com/channel/UCzLnrs7EirGCpL88TXhvYEw" target="blank"><i class="fa fa-youtube"></i></a><a href="https://plus.google.com/115047991072657162785/posts" target="blank"><i class="fa fa-google-plus"></i></a></div>
+        <div class="main-links col-xs-12 col-sm-12 col-md-8 col-lg-8 clearfix">
+          <div class="inner">
+          <a href="/about">About &raquo;</a>
+          <a href="/info/feedback">Give us Feedback &raquo;</a>
+          <a href="http://merch.xray.fm" target="_blank">Merch &raquo;</a>
+          <a href="/contact">Contact Us &raquo;</a>
+          <a href="http://xray.fm/users/sign-in">DJ Sign in &raquo;</a>
+            <div class="lower">
+              <!--a(href='/shows') Shows &raquo;--><a href="/events" class="events">Events &raquo;</a><a href="/info/partners">Partners &raquo;</a><a href="/info/get-involved">Get Involved! &raquo;</a>
+            </div>
+          </div>
+        </div>
+        <div class="info col-xs-12 col-sm-12 col-md-4 col-lg-4 clearfix">
+          <!--a(href='/').donate Donate-->
+          <!--a(href='/').partners Partners-->
+          <div class="kxry">
+            <span class="nowrap">KXRY 107.1 / 91.1 FM (Portland, OR)</span> 
+            <br>
+            <span class="nowrap">CALL: 503-233-XRAY</span> | <span class="nowrap">TEXT: 971-220-KXRY</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div> <!--end outer container-->
+</div> <!--end outer container-->
+<div id="audio-toolbar">
+  <div class="container">
+    <div class="inner">
+      <div class="row">
+        <div class="col-xs-2 col-sm-1">
+          <div class="play-button-container">
+            <a href="javascript:" class="stream-button play-button cfm-stream-main-button cfm-stream-play-button"><i class="fa fa-play"></i></a>
+            <a href="javascript:" class="stream-button stop-button cfm-stream-main-button cfm-stream-stop-button"><i class="fa fa-pause"></i></a>
+          </div>
+        </div>
+        <div class="col-xs-10 col-sm-10">
+          <div id="toolbar-broadcasting">
+            <div class="title">
+              <span class="now-playing">Now <span class="playing">Playing</span> </span>
+              <span id="current-show" class="hidden"> <span class="first-slashes slashes">///</span> <a href="/shows/{{data.now.short_name}}">{{data.now.title}}</a></span>
+              <span id="current-track" class="hidden"> <span class="slashes">///</span> <a href="/playlist">{{data.artist}} - {{data.title}}</a></span>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-1 visible-sm visible-md visible-lg">
+          <div id="volume-tool" style="-moz-user-select: none; -webkit-user-select: none; -ms-user-select:none; user-select:none;" unselectable="on" onselectstart="return false;">
+            <div class="bar">
+              <div class="filler"></div>
+            </div>
+          </div>
+          <div class="volume-button-container"><a href="javascript:" id="volume-open"><i class="fa fa-volume-up"></i></a></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="load">
+  <script type="text/javascript">
+  $(function(){
+    //Volume Button JS
+    $('body').on('click', '#weekday-dropdown-button', function(){
+      $('.block-weekdays').toggleClass('dropdown-open')
+    })
+    $('body').on('click', '#volume-open', function(){
+      //alert(10)
+      console.log(1);
+      $('#volume-tool').fadeToggle(150);
+    })
+    var volumeDragging = false;
+    $('#volume-tool .bar').on('mousedown', function(e) {
+      volumeDragging = true;
+    });
+    $('#volume-tool .bar').on('mouseup', function(e) {
+      volumeDragging = false;
+    });
+    $('#volume-tool .bar').on('mousemove mousedown', function(e) {
+      if(volumeDragging){
+        var posY = $(this).offset().top;
+        var clickWhere = e.pageY - posY;
+        var theVolum = 1 - (clickWhere / 100);
+        var fillerHaiyt = (100 * theVolum) + 'px';
+        $('#volume-tool .bar .filler').css('height', fillerHaiyt);
+        $("#cfm-stream-jp").jPlayer("volume", theVolum);
+      }
+    });
+    var show_template = $("#current-show").html();
+    var track_template = $("#current-track").html();
+    var checkTrack = function(x){
+      //console.log(x.data);
+      if(x.data){
+        return true;
+      }else {
+        $("#current-track").fadeOut();
+        return false;
+      }
+    }
+    var checkBroadcasting = function (){
+      Creek.apiTemplates.render({api:"tracks/current", id: "#current-track", t: track_template, loadingIndicator: false, onLoad: checkTrack  });
+      Creek.apiTemplates.render({api:"broadcasting", id: "#current-show", t: show_template, loadingIndicator: false});
+    }
+    var checkBroadcastingInterval = window.setInterval(checkBroadcasting, 5000);
+    //Start by refreshing it right now
+    checkBroadcasting();
+  })
+  </script>
+</div><script>
+  // This tag runs all our Google Analytics data collection. Don't touch it unless you know you need to update the data being collected or the credentials being used.
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-41493054-2', 'xray.fm');
+  ga('require', 'displayfeatures');
+  ga('send', 'pageview');
+</script>
+
+<div id="cfm-stream-jp" class="jp-jplayer"></div>
+<script type="text/javascript" src="/js/cfm-stream.js?x=1437796891"></script>
+<!-- <script type="text/javascript" src="/js/cfm-stream-preroll.js?x=1437796891"></script> -->
+
+<script type="text/javascript">
+
+/* Activate the image gallery */
+$(function(){
+  $('.image-popup-vertical-fit').magnificPopup({
+    type: 'image'
+    // other options
+  });
+});
+
+</script>
+
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-41493054-2', 'xray.fm');
+  ga('send', 'pageview');
+
+</script>
+
+
+
+<script src="/js/cfm-single-page.js?x=1441826410"></script>
+</body>
+</html>

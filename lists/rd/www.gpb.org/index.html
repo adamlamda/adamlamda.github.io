@@ -1,0 +1,1341 @@
+<!DOCTYPE html>
+  <!--[if IEMobile 7]><html class="no-js ie iem7" lang="en" dir="ltr"><![endif]-->
+  <!--[if lte IE 6]><html class="no-js ie lt-ie9 lt-ie8 lt-ie7" lang="en" dir="ltr"><![endif]-->
+  <!--[if (IE 7)&(!IEMobile)]><html class="no-js ie lt-ie9 lt-ie8" lang="en" dir="ltr"><![endif]-->
+  <!--[if IE 8]><html class="no-js ie lt-ie9" lang="en" dir="ltr"><![endif]-->
+  <!--[if (gte IE 9)|(gt IEMobile 7)]><html class="no-js ie" lang="en" dir="ltr" prefix="fb: http://ogp.me/ns/fb# og: http://ogp.me/ns# article: http://ogp.me/ns/article# book: http://ogp.me/ns/book# profile: http://ogp.me/ns/profile# video: http://ogp.me/ns/video# product: http://ogp.me/ns/product#"><![endif]-->
+  <!--[if !IE]><!--><html class="no-js" lang="en" dir="ltr" prefix="fb: http://ogp.me/ns/fb# og: http://ogp.me/ns# article: http://ogp.me/ns/article# book: http://ogp.me/ns/book# profile: http://ogp.me/ns/profile# video: http://ogp.me/ns/video# product: http://ogp.me/ns/product#"><!--<![endif]-->
+<head>
+  <title>Home | Georgia Public Broadcasting</title>
+  <meta charset="utf-8" /><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(){}function o(e,t,n){return function(){return i(e,[f.now()].concat(u(arguments)),t?null:this,n),t?void 0:this}}var i=e("handle"),a=e(2),u=e(3),c=e("ee").get("tracer"),f=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,t){s[t]=o(d+t,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),t.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,t){var n={},r=this,o="function"==typeof t;return i(l+"tracer",[f.now(),e,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],n),o)try{return t.apply(this,arguments)}catch(e){throw c.emit("fn-err",[arguments,this,e],n),e}finally{c.emit("fn-end",[f.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){m[t]=o(l+t)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,f.now()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(o<0?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],4:[function(e,t,n){t.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?c(e,u,i):i()}function n(n,r,o,i){if(!d.aborted||i){e&&e(n,r,o);for(var a=t(o),u=m(n),c=u.length,f=0;f<c;f++)u[f].apply(a,r);var p=s[y[n]];return p&&p.push([b,n,r,a]),a}}function l(e,t){v[e]=m(e).concat(t)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(n)}function g(e,t){f(e,function(e,n){t=t||"feature",y[n]=t,t in s||(s[t]=[])})}var v={},y={},b={on:l,emit:n,get:w,listeners:m,context:t,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",c=e("gos"),f=e(2),s={},p={},d=t.exports=o();d.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!x++){var e=h.info=NREUM.info,t=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return s.abort();f(y,function(t,n){e[t]||(e[t]=n)}),c("mark",["onload",a()+h.offset],null,"api");var n=d.createElement("script");n.src="https://"+e.agent,t.parentNode.insertBefore(n,t)}}function o(){"complete"===d.readyState&&i()}function i(){c("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),c=e("handle"),f=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,SI:p.setImmediate,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1071.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=t.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),c("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+<link rel="apple-touch-icon" href="http://www.gpb.org/sites/all/themes/custom/gpb_next/apple-touch-icon-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="http://www.gpb.org/sites/all/themes/custom/gpb_next/apple-touch-icon-180x180.png" sizes="180x180" />
+<link rel="apple-touch-icon" href="http://www.gpb.org/sites/all/themes/custom/gpb_next/apple-touch-icon-57x57.png" sizes="57x57" />
+<link rel="apple-touch-icon" href="http://www.gpb.org/sites/all/themes/custom/gpb_next/apple-touch-icon-76x76.png" sizes="76x76" />
+<link rel="apple-touch-icon" href="http://www.gpb.org/sites/all/themes/custom/gpb_next/apple-touch-icon-152x152.png" sizes="152x152" />
+<link rel="apple-touch-icon" href="http://www.gpb.org/sites/all/themes/custom/gpb_next/apple-touch-icon-128x128.png" sizes="128x128" />
+<meta http-equiv="cleartype" content="on" />
+<link rel="profile" href="http://www.w3.org/1999/xhtml/vocab" />
+<link rel="shortcut icon" href="http://www.gpb.org/sites/all/themes/custom/gpb_next/favicon.ico" type="image/vnd.microsoft.icon" />
+<link rel="apple-touch-icon" href="http://www.gpb.org/sites/all/themes/custom/gpb_next/apple-touch-icon-120x120.png" sizes="120x120" />
+<script>var _sf_startpt=(new Date()).getTime();</script>
+<meta name="viewport" content="width=device-width" />
+<meta name="generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="http://www.gpb.org/homepage" />
+<link rel="shortlink" href="http://www.gpb.org/homepage" />
+<meta property="og:site_name" content="Georgia Public Broadcasting" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://www.gpb.org/homepage" />
+<meta property="og:title" content="Great Performances - Pavarotti: A Voice for the Ages" />
+<meta property="og:description" content="Celebrate the sound of the tenor who extended his presence far beyond Italian opera. Monday, August 27 at 7 pm" />
+<meta property="og:image" content="http://www.gpb.org/sites/www.gpb.org/files/hero-images/copy-of-pavarotti_msg-2.jpg" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:url" content="http://www.gpb.org/homepage" />
+<meta name="twitter:title" content="Great Performances - Pavarotti: A Voice for the Ages" />
+<meta name="twitter:description" content="Celebrate the sound of the tenor who extended his presence far beyond Italian opera. Monday, August 27 at 7 pm" />
+<meta name="twitter:image" content="http://www.gpb.org/sites/www.gpb.org/files/hero-images/copy-of-pavarotti_msg-2.jpg" />
+  <link type="text/css" rel="stylesheet" href="http://www.gpb.org/sites/www.gpb.org/files/css/css_sZ9zZ2jitt9aZF4JPpmUPRqQE-djnUisY4bFupnseos.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://www.gpb.org/sites/www.gpb.org/files/css/css_1aAQeCMLzoA4JatcTrfuVkZJNzc-7rv4AITs7uHJveI.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://www.gpb.org/sites/www.gpb.org/files/css/css_GNBudKUAXWUttO4C_zzNq-C_h46Ijb2JnC_oI8Ulv1g.css" media="all" />
+
+<!--[if lt IE 9]>
+<link type="text/css" rel="stylesheet" href="http://www.gpb.org/sites/www.gpb.org/files/css/css_47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU.css" media="all" />
+<![endif]-->
+  <script src="http://www.gpb.org/sites/www.gpb.org/files/js/js_jd0bqRenkNKddxd2D5xA6qQtyeBKEeaqvg6spN7UcRM.js"></script>
+<script src="http://www.gpb.org/sites/www.gpb.org/files/js/js_BLxotNs2yt7YGlf9QRI9L9AMfdnkQfnN-_ADBTW3SiE.js"></script>
+<script src="http://www.gpb.org/sites/www.gpb.org/files/js/js_8c-07RaQxTxkNQjS96PSBZIAgQgUEPVl7e55L7Dd3E4.js"></script>
+<script src="http://www.gpb.org/sites/www.gpb.org/files/js/js_ZwtHh_UtMhEyIZ7P23uU_tO_tZHXgPG1rk11b_m8s9Y.js"></script>
+<script src="http://admin.brightcove.com/js/BrightcoveExperiences.js"></script>
+<script src="http://www.gpb.org/sites/www.gpb.org/files/js/js_HHOME1KHDbmfbowrZP48VwjHSULgtH_yl5B06PBrM-4.js"></script>
+<script src="//partner.googleadservices.com/gampad/google_service.js"></script>
+<script src="http://www.gpb.org/sites/www.gpb.org/files/js/js_mcgRhe9kb1HRpqgcRXg2BWrDvWAvcplz3zDCHaFaDYc.js"></script>
+<script src="//platform.twitter.com/widgets.js"></script>
+<script src="http://www.gpb.org/sites/www.gpb.org/files/js/js_SX9pZG9mZgqw_wgMivKg3pxhS0ngwHc-9_Se2JryydI.js"></script>
+<script>(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","//www.google-analytics.com/analytics.js","ga");ga("create", "UA-272117-4", {"cookieDomain":"auto"});ga("send", "pageview");</script>
+<script>GS_googleAddAdSenseService("ca-pub-7267875884030079");
+GS_googleEnableAllServices();
+</script>
+<script>GA_googleAddSlot("ca-pub-7267875884030079", "Home-Desktop-Leaderboard-1");
+GA_googleAddSlot("ca-pub-7267875884030079", "Home-Mobile-MedRect-1");
+GA_googleAddSlot("ca-pub-7267875884030079", "Home-Universal-MedRect");
+GA_googleAddSlot("ca-pub-7267875884030079", "Home-Desktop-Leaderboard-2");
+GA_googleAddSlot("ca-pub-7267875884030079", "Home-Mobile-Banner-3");
+GA_googleAddSlot("ca-pub-7267875884030079", "Home-Desktop-Pencil");
+GA_googleAddSlot("ca-pub-7267875884030079", "Home-Mobile-Banner-1");
+</script>
+<script>GA_googleFetchAds();
+</script>
+<script>
+    if ((navigator.userAgent.toLowerCase().indexOf('firefox') < 0) || (window.location.href.indexOf('search/google') < 0)) {
+      google.load('search', '1');
+    }</script>
+<script src="http://www.gpb.org/sites/www.gpb.org/files/js/js_q8g7yRgynuKqAVOmTnA1FCuHwOMSqOwuwqaPdQfWdS0.js"></script>
+<script>jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"gpb_next","theme_token":"BnL7lVUyetezBqbSqs9MHnPWtXxF1zVtBVl_Am9wkoc","jquery_version":"1.8","js":{"sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery\/1.8\/jquery.min.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/external\/jquery.cookie.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/misc\/jquery.form.min.js":1,"misc\/ajax.js":1,"sites\/all\/modules\/contrib\/jquery_update\/js\/jquery_update.js":1,"sites\/all\/modules\/contrib\/google_cse\/google_cse.js":1,"sites\/all\/modules\/custom\/gpb_weather_gov\/gpb_weather_gov.js":1,"sites\/all\/modules\/features\/v_gpb_radio_listen_live\/v_gpb_radio_listen_live.js":1,"misc\/progress.js":1,"http:\/\/admin.brightcove.com\/js\/BrightcoveExperiences.js":1,"https:\/\/www.google.com\/jsapi":1,"\/\/partner.googleadservices.com\/gampad\/google_service.js":1,"sites\/all\/modules\/contrib\/views\/js\/base.js":1,"sites\/all\/modules\/contrib\/quicktabs\/js\/quicktabs.js":1,"sites\/all\/modules\/contrib\/views\/js\/ajax_view.js":1,"\/\/platform.twitter.com\/widgets.js":1,"sites\/all\/libraries\/jquery.cycle\/jquery.cycle.all.js":1,"sites\/all\/modules\/features\/pm_radio\/pm_radio.js":1,"sites\/all\/modules\/contrib\/responsive_menus\/styles\/meanMenu\/jquery.meanmenu.min.js":1,"sites\/all\/modules\/contrib\/responsive_menus\/styles\/meanMenu\/responsive_menus_mean_menu.js":1,"sites\/all\/modules\/contrib\/google_analytics\/googleanalytics.js":1,"0":1,"1":1,"2":1,"3":1,"4":1,"sites\/all\/themes\/custom\/gpb_next\/js\/script.js":1,"sites\/all\/themes\/custom\/gpb_next\/js\/eq.polyfillied.min.js":1,"sites\/all\/themes\/custom\/gpb_next\/js\/eq.min.js":1,"sites\/all\/themes\/contrib\/omega\/omega\/js\/no-js.js":1,"5":1,"6":1,"7":1,"8":1,"9":1},"css":{"sites\/all\/themes\/contrib\/omega\/omega\/css\/modules\/system\/system.base.css":1,"sites\/all\/themes\/contrib\/omega\/omega\/css\/modules\/system\/system.menus.theme.css":1,"sites\/all\/themes\/contrib\/omega\/omega\/css\/modules\/system\/system.messages.theme.css":1,"sites\/all\/themes\/contrib\/omega\/omega\/css\/modules\/system\/system.theme.css":1,"sites\/all\/modules\/contrib\/calendar\/css\/calendar_multiday.css":1,"sites\/all\/themes\/contrib\/omega\/omega\/css\/modules\/comment\/comment.theme.css":1,"sites\/all\/modules\/contrib\/date\/date_api\/date.css":1,"sites\/all\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"sites\/all\/themes\/contrib\/omega\/omega\/css\/modules\/field\/field.theme.css":1,"sites\/all\/modules\/contrib\/google_cse\/google_cse.css":1,"sites\/all\/modules\/custom\/gpb_weather_gov\/gpb_weather_gov.css":1,"modules\/node\/node.css":1,"sites\/all\/themes\/contrib\/omega\/omega\/css\/modules\/search\/search.theme.css":1,"sites\/all\/themes\/contrib\/omega\/omega\/css\/modules\/user\/user.base.css":1,"sites\/all\/themes\/contrib\/omega\/omega\/css\/modules\/user\/user.theme.css":1,"sites\/all\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/chartbeat\/chartbeat.css":1,"sites\/all\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/contrib\/google_admanager\/google_admanager.css":1,"sites\/all\/modules\/contrib\/panels\/css\/panels.css":1,"sites\/all\/modules\/contrib\/twitter\/twitter.css":1,"sites\/all\/modules\/contrib\/easy_social\/css\/easy_social.css":1,"sites\/all\/modules\/contrib\/quicktabs\/css\/quicktabs.css":1,"sites\/all\/modules\/contrib\/responsive_menus\/styles\/meanMenu\/meanmenu.min.css":1,"sites\/all\/modules\/contrib\/menu_minipanels\/css\/menu_minipanels.css":1,"https:\/\/maxcdn.bootstrapcdn.com\/font-awesome\/4.5.0\/css\/font-awesome.min.css":1,"sites\/all\/themes\/custom\/gpb_next\/css\/styles.css":1,"sites\/all\/themes\/custom\/gpb_next\/css\/meanmenu.css":1,"sites\/all\/themes\/custom\/gpb_next\/css\/gpb-next.styles-ie.css":1}},"chartbeat":{"uid":2570,"domain":"www.gpb.org","useCanonical":true,"noCookies":false},"googleCSE":{"cx":"011647421129103490948:ehp7jtg0oe4","language":"","resultsWidth":300,"domain":"www.google.com"},"better_exposed_filters":{"views":{"tweets":{"displays":{"page_2":{"filters":[]}}},"gpb_listen_live":{"displays":{"panel_pane_1":{"filters":[]}}},"megamenu_content_lists":{"displays":{"panel_pane_3":{"filters":[]},"panel_pane_1":{"filters":[]},"panel_pane_8":{"filters":[]},"panel_pane_4":{"filters":[]},"panel_pane_6":{"filters":[]},"panel_pane_7":{"filters":[]}}},"gpb_home_community":{"displays":{"panel_pane_1":{"filters":[]}}},"gpb_home_education":{"displays":{"panel_pane_1":{"filters":[]}}},"gpb_home_hero":{"displays":{"panel_pane_1":{"filters":[]}}},"gpb_home_all_sections":{"displays":{"block":{"filters":[]}}},"gpb_home_blogs":{"displays":{"block_1":{"filters":[]}}}}},"quicktabs":{"qt_home_top_5":{"name":"home_top_5","tabs":[{"vid":"gpb_home_all_sections","display":"block","args":"","view_path":"homepage","view_dom_id":1,"ajax_args":"","actual_args":[]},{"bid":"block_delta_1","hide_title":1},{"vid":"gpb_home_blogs","display":"block_1","args":"","view_path":"homepage","view_dom_id":2,"ajax_args":"","actual_args":[]}],"ajaxPageState":{"jquery_version":"1.8"}}},"responsive_menus":[{"selectors":".pane-menu-new-primary-links","trigger_txt":"\u003Cspan \/\u003E\u003Cspan \/\u003E\u003Cspan \/\u003E","close_txt":"X","close_size":"18px","position":"right","media_size":"768","show_children":"1","expand_children":"1","expand_txt":"+","contract_txt":"-","remove_attrs":"1","responsive_menus_style":"mean_menu"}],"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip"}});</script>
+</head>
+<body class="html front not-logged-in page-homepage">
+  <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+    <div class="l-page">
+
+  
+<div class="l-1-col content">
+
+      <header class="l-1-col__top content__top l-header">
+          <div class="panel-pane pane-panels-mini pane-global-header">
+            
+      <div class="inside-wrapper">  
+      <div class="l-branding">
+        <div class="l-branding__left">
+            <div class="panel-pane pane-custom pane-9">
+            <div class="l-branding__left">
+  <a href="/" class="site-logo" rel="Home" title="Home">Home</a>
+</div>    </div>
+        </div>
+  
+          <div class="l-branding__right">
+            <div class="panel-pane pane-custom pane-10 header_buttons">
+            <a href="http://gpb.convio.net/site/Donation2?df_id=37154&mfc_pref=T&37154.donation=form1" class="donate_btn" target="_blank">DONATE</a>    </div>
+<div class="panel-pane pane-views-panes pane-gpb-listen-live-panel-pane-1">
+            <div class="view view-gpb-listen-live view-id-gpb_listen_live view-display-id-panel_pane_1 radio-listen-live view-dom-id-01c94cffc796862ba1191003c39aaf82">
+            <div class="view-header">
+      <a class="listenlink sgplayer-link" href="http://player.streamguys.com/gpb/sgplayer/player.php" target="_blank" width="848" height="274">
+<i class="fa fa-microphone"></i>
+<span class="listen-header">listen live</span>
+</a>
+    </div>
+  
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content"></span>  </div>  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>    </div>
+        </div>
+      </div><!-- /l-branding -->
+    </div><!-- /inside-wrapper -->  
+  
+      <nav role="navigation" class="global-nav">
+        <div class="inside-wrapper">
+                <div class="panel-pane pane-block pane-menu-new-primary-links pane-menu">
+            <ul class="menu"><li class="first leaf"><a href="/education" title="GPB Education" class="menu-minipanel menu-minipanel-6741 menuparent">Education</a><ul class="menu-minipanel-panel menu-minipanel-education-nav-mega-menu3">
+  <li class="first odd last">
+    
+  <div class="l-mini-3--basic mini__wrapper">
+
+      <div class="l-mini-3__left">
+        <div class="panel-pane pane-block pane-menu-menu-education-secondary-nav pane-menu">
+          <h2 class="pane-title">Quick Links</h2>
+        <ul class="menu"><li class="first leaf"><a href="http://www.gpb.org/education/georgia-studies">GA Studies Digital Collection</a></li>
+<li class="leaf"><a href="/chemistry-matters">Chemistry Matters</a></li>
+<li class="leaf"><a href="/fast-forward">Fast Forward STEAM series</a></li>
+<li class="leaf"><a href="/education/writers-contest">PBS KIDS Writers Contest</a></li>
+<li class="leaf"><a href="/salsa">SALSA</a></li>
+<li class="leaf"><a href="/irasshai">Irasshai</a></li>
+<li class="leaf"><a href="/countonit">Count On It</a></li>
+<li class="leaf"><a href="/blogs/education-matters">Education Matters blog</a></li>
+<li class="leaf"><a href="/education/share-your-story">Share Your Story</a></li>
+<li class="leaf"><a href="/innovation-in-teaching">Innovation in Teaching</a></li>
+<li class="leaf"><a href="/education/steam-central">STEAM Central</a></li>
+<li class="last leaf"><a href="/education/connect">Connect With Us</a></li>
+</ul>    </div>
+<div class="panel-pane pane-custom pane-12">
+            <div class="nav-btn-margin"><a class="menu-edu-btn" href="/education/resources/subject/all">All Resources</a></div>
+    </div>
+      </div>
+
+      <div class="l-mini-3__center">
+        <div class="panel-pane pane-custom pane-11">
+            <h5>New!</h5><ul><li><a href="/physics-in-motion">Physics In Motion</a></li><li><a href="/education/georgia-race-through-time">GA Race Through Time Game</a></li><li><a href="/education/virtual-learning">Civil Rights Virtual Learning Journey</a></li><li><a href="/education/liveexplorations">Live Explorations</a></li><li><a href="/education/gasha-go">GASHA Go!</a></li><li><a href="/education/georgia-studies/virtual-field-trips">Virtual Field Trips</a></li><li><a href="/education/GPB-PD">Professional Development</a></li><li><a href="/education/thingsexplained">Things Explained</a></li><li>&nbsp;</li></ul><h5>Education Partners</h5><ul><li><a href="/education/resource/discovery-education">Discovery Education</a></li><li><a href="http://gpb.pbslearningmedia.org/" target="_blank">PBS LearningMedia</a></li>    </div>
+      </div>
+
+      <div class="l-mini-3__right">
+        <div class="panel-pane pane-views-panes pane-megamenu-content-lists-panel-pane-3">
+            <div class="view view-megamenu-content-lists view-id-megamenu_content_lists view-display-id-panel_pane_3 view-dom-id-aa5db2dfcd68a86cbefe1401e0447c78">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content"><div class="nav-shoutbox">
+ <h2><a href="/blogs/education-matters/2018/07/18/your-2018-back-school-teacher-toolkit">Your 2018 Back-To-School Teacher Toolkit</a></h2>
+<a href="/blogs/education-matters/2018/07/18/your-2018-back-school-teacher-toolkit"><img src="http://www.gpb.org/sites/www.gpb.org/files/styles/redesign_600x333/public/blogs/images/2018/07/16/screen_shot_2018-07-16_at_1.33.14_pm.png?itok=Ci02QGIm" width="600" height="333" alt="" /></a>
+<p>Gear up for a great year with fresh ideas, resources, and activities for the classroom!</p>
+</div></span>  </div>  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>    </div>
+<div class="panel-pane pane-custom pane-13">
+            <div class="secondary-nav-social"><div><a href="https://www.facebook.com/gpbeducation/" target="_blank"><img src="http://www.gpb.org/sites/www.gpb.org/files/images/facebook-menu.png" width="20%">GPB Education</a></div><div><a href="https://twitter.com/gpbeducation" target="_blank"><img src="http://www.gpb.org/sites/www.gpb.org/files/images/twitter-menu.png" width="20%">@GPBEducation</a></div></div>    </div>
+      </div>
+
+  </div>
+  </li>
+</ul>
+</li>
+<li class="leaf"><a href="/television" class="menu-minipanel menu-minipanel-6739 menuparent">Watch Now</a><ul class="menu-minipanel-panel menu-minipanel-tv-nav-mega-menu">
+  <li class="first odd last">
+    
+  <div class="l-mini-3--basic mini__wrapper">
+
+      <div class="l-mini-3__left">
+        <div class="panel-pane pane-block pane-menu-menu-television-navigation pane-menu">
+          <h2 class="pane-title">Popular</h2>
+        <ul class="menu"><li class="first leaf"><a href="http://www.gpb.org/schedule">Schedule</a></li>
+<li class="leaf"><a href="/allprograms">All Programs</a></li>
+<li class="leaf"><a href="http://www.gpbkids.org/" target="_blank">GPB Kids</a></li>
+<li class="leaf"><a href="/television/stations">Stations</a></li>
+<li class="leaf"><a href="/lawmakers">Lawmakers</a></li>
+<li class="last leaf"><a href="/passport">GPB Passport</a></li>
+</ul>    </div>
+      </div>
+
+      <div class="l-mini-3__center">
+        <div class="panel-pane pane-custom pane-14">
+            <h5>Featured</h5><ul><li><a href="/seat-at-the-table">A Seat at the Table</a></li><li><a href="/television/shows/the-long-shadow-of-bobby-jones">The Long Shadow of Bobby Jones</a></li><li><a href="/television/shows/american-experience">American Experience</a></li><li><a href="/television/shows/antiques-roadshow">Antiques Roadshow</a></li><li><a href="/television/shows/pbs-newshour">PBS NewsHour</a></li><li><a href="/inventure">Georgia Tech InVenture Prize</a></li><li><a href="/television/shows/rick-steves-europe">Rick Steve&#39;s Europe</a></li><li><a href="/pick-cook-keep">Pick, Cook, Keep</a></li></ul>    </div>
+      </div>
+
+      <div class="l-mini-3__right">
+        <div class="panel-pane pane-views-panes pane-megamenu-content-lists-panel-pane-1">
+            <div class="view view-megamenu-content-lists view-id-megamenu_content_lists view-display-id-panel_pane_1 view-dom-id-6fc1c989a1557f6ef921534a993888ad">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+      
+          <div class="nav-shoutbox">
+  <h2><a href="http://www.gpb.org/television/shows/great-performances">Vienna Philharmonic Summer Night Concert 2018</a></h2>
+  <a href="http://www.gpb.org/television/shows/great-performances"><img src="http://www.gpb.org/sites/www.gpb.org/files/styles/redesign_600x333/public/hero-images/2018/08/24/great_performances_vienna_summer_concert_2018.jpg?itok=Kyn7BR0i" width="600" height="333" alt="" /></a>
+  <p>Enjoy the world-renowned Vienna Philharmonic’s annual open-air concert from Austria’s Imperial Schönbrunn Palace, streaming now on GPB.org.</p>
+  <a href="http://www.gpb.org/television/shows/great-performances"></a>
+</div>    </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>    </div>
+      </div>
+
+  </div>
+  </li>
+</ul>
+</li>
+<li class="leaf"><a href="/broadcastschedule">TV Schedule</a></li>
+<li class="leaf"><a href="http://gpbnews.org/" title="GPB News" target="_blank">News &amp; Radio</a></li>
+<li class="leaf"><a href="/blogs" title="GPB Blogs" class="menu-minipanel menu-minipanel-6742 menuparent">Blogs</a><ul class="menu-minipanel-panel menu-minipanel-blog-nav-mega-menu">
+  <li class="first odd last">
+    
+  <div class="l-mini-3--basic mini__wrapper">
+
+      <div class="l-mini-3__left">
+        <div class="panel-pane pane-custom pane-15">
+            <h5>Popular Blogs</h5>
+<ul><li><a href="/blogs/education-matters">Education Matters</a></li>
+<li><a href="/blogs/georgia-at-work">Georgia @ Work</a></li>
+<li><a href="/blogs/mygpb">MyGPB</a></li>
+<li><a href="/blogs/community">Community</a></li>
+<li><a href="/blogs/right-here">Right Here</a></li>
+<li><a href="/blogs/gpb-sports-blog">GPB Sports Blog</a></li>
+<li><a href="/blogs/staff-favorites">Staff Favorites</a></li>
+<li><a href="/blogs/the-daily-jog">The Daily Jog</a></li>
+<li><a href="/blogs/desperate-for-downton">Desperate For Downton</a></li>
+<li><a href="/blogs/teya-talks">Teya Talks</a></li>
+</ul>    </div>
+      </div>
+
+      <div class="l-mini-3__center">
+        <div class="panel-pane pane-views-panes pane-megamenu-content-lists-panel-pane-8 blogs-megamenu-recent">
+            <div class="view view-megamenu-content-lists view-id-megamenu_content_lists view-display-id-panel_pane_8 view-dom-id-63589a6e7529216455ffd9fe2ed289ee">
+            <div class="view-header">
+      <h5>Latest Blogs</h5>
+    </div>
+  
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content"><div class="blogs-megamenu-list">
+<div>&#149; <a href="/blogs/education-matters/2018/08/24/georgia-high-school-drone-team-clinches-national-uas4stem">Georgia High School Drone Team Clinches National UAS4STEM Championship</a></div>
+</div></span>  </div>  </div>
+  <div class="views-row views-row-2 views-row-even">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content"><div class="blogs-megamenu-list">
+<div>&#149; <a href="/blogs/gpb-sports-blog/2018/08/23/week-one-what-we-learned">Week One: What We Learned</a></div>
+</div></span>  </div>  </div>
+  <div class="views-row views-row-3 views-row-odd">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content"><div class="blogs-megamenu-list">
+<div>&#149; <a href="/blogs/gpb-sports-blog/2018/08/22/stoneman-douglas-play-for-the-17-at-milton-event">Stoneman Douglas To Play For &#039;The 17&#039; At Milton Event</a></div>
+</div></span>  </div>  </div>
+  <div class="views-row views-row-4 views-row-even">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content"><div class="blogs-megamenu-list">
+<div>&#149; <a href="/blogs/gpb-sports-blog/2018/08/21/the-new-kid-in-town">The New Kid In Town</a></div>
+</div></span>  </div>  </div>
+  <div class="views-row views-row-5 views-row-odd views-row-last">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content"><div class="blogs-megamenu-list">
+<div>&#149; <a href="/blogs/mygpb/2018/08/21/gpb-radios-political-rewind-comes-television-beginning-sunday-september-9">GPB Radio’s “Political Rewind” Comes to Television Beginning Sunday, September 9</a></div>
+</div></span>  </div>  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>    </div>
+      </div>
+
+      <div class="l-mini-3__right">
+        <div class="panel-pane pane-views-panes pane-megamenu-content-lists-panel-pane-4">
+            <div class="view view-megamenu-content-lists view-id-megamenu_content_lists view-display-id-panel_pane_4 view-dom-id-5dd0f0e0a980636a4f960c02db297ae3">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content"><div class="nav-shoutbox">
+  <h2><a href="/blogs/gpb-sports-blog/2018/08/25/friday-recap-marist-40-lovett-20">Friday Recap: Marist 40, Lovett 20</a></h2>
+  <a href="/blogs/gpb-sports-blog/2018/08/25/friday-recap-marist-40-lovett-20"><img src="http://www.gpb.org/sites/www.gpb.org/files/styles/redesign_600x333/public/blogs/images/2018/08/25/blog_header_marist_lovett.jpg?itok=Zob7o-v5" width="600" height="333" alt="" /></a>
+  <p>Marist took advantage of turnovers and defeated Lovett in its season opener.</p>
+</div></span>  </div>  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>    </div>
+      </div>
+
+  </div>
+  </li>
+</ul>
+</li>
+<li class="leaf"><a href="/sports" title="GPB Sports" class="menu-minipanel menu-minipanel-6745 menuparent">Sports</a><ul class="menu-minipanel-panel menu-minipanel-sports-nav-mega-menu3">
+  <li class="first odd last">
+    
+  <div class="l-mini-3--basic mini__wrapper">
+
+      <div class="l-mini-3__left">
+        <div class="panel-pane pane-block pane-menu-menu-sports-menu pane-menu">
+          <h2 class="pane-title">Popular</h2>
+        <ul class="menu"><li class="first leaf"><a href="/blogs/GPB-Sports-Blog">GPB Sports Blog</a></li>
+<li class="leaf"><a href="/sports/football">Football</a></li>
+<li class="leaf"><a href="/sports/football/matchups">Schedule &amp; Scores</a></li>
+<li class="leaf"><a href="/sports/football/ondemand">onDemand</a></li>
+<li class="leaf"><a href="/sports/football/teams">GHSA Football Teams</a></li>
+<li class="leaf"><a href="/sports/football/rankings">Rankings</a></li>
+<li class="leaf"><a href="/apps">GPB Football App</a></li>
+<li class="leaf"><a href="/sports/heads-up-georgia">Heads Up Georgia</a></li>
+<li class="last leaf"><a href="/sports/football/meet-the-team">Meet The Team</a></li>
+</ul>    </div>
+      </div>
+
+      <div class="l-mini-3__center">
+        <div class="panel-pane pane-custom pane-16">
+            <h5>2017 Football Finals</h5><ul><li><a href="/sports/football/match/2017/12/08/class-private-finals">Class A (Private)</a></li><li><a href="/sports/football/match/2017/12/08/class-aaa-finals">Class AAA</a></li><li><a href="/sports/football/match/2017/12/08/class-aaaaaaa-finals">Class AAAAAAA</a></li></ul><br />    </div>
+      </div>
+
+      <div class="l-mini-3__right">
+        <div class="panel-pane pane-views-panes pane-megamenu-content-lists-panel-pane-6">
+            <div class="view view-megamenu-content-lists view-id-megamenu_content_lists view-display-id-panel_pane_6 view-dom-id-a821ebb64b8148af929c550f558aeaf2">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content"><div class="nav-shoutbox">
+  <h2><a href="/blogs/gpb-sports-blog/2018/08/25/friday-recap-marist-40-lovett-20">Friday Recap: Marist 40, Lovett 20</a></h2>
+<a href="/blogs/gpb-sports-blog/2018/08/25/friday-recap-marist-40-lovett-20"><img src="http://www.gpb.org/sites/www.gpb.org/files/styles/redesign_600x333/public/blogs/images/2018/08/25/blog_header_marist_lovett.jpg?itok=Zob7o-v5" width="600" height="333" alt="" /></a>
+  <p>Marist took advantage of turnovers and defeated Lovett in its season...</p>
+</div></span>  </div>  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>    </div>
+<div class="panel-pane pane-custom pane-17">
+            <div class="secondary-nav-social"><div><a href="https://www.facebook.com/gpbsports/" target="_blank"><img src="http://www.gpb.org/sites/www.gpb.org/files/images/facebook-menu.png" width="20%">GPB Sports</a></div><div><a href="https://twitter.com/gpbsports" target="_blank"><img src="http://www.gpb.org/sites/www.gpb.org/files/images/twitter-menu.png" width="20%">@GPBSports</a></div><div><a href="https://www.instagram.com/GPBSports/" target="_blank"><img src="/sites/www.gpb.org/files/images/instagram-menu.jpg" width="20%">GPB Sports</a></div></div>    </div>
+      </div>
+
+  </div>
+  </li>
+</ul>
+</li>
+<li class="leaf"><a href="http://www.gpbkids.org" title="Visit gpbkids.org!" target="_blank">GPB Kids</a></li>
+<li class="last leaf"><a href="/support" title="Help support GPB today!" class="menu-minipanel menu-minipanel-6746 menuparent">Support</a><ul class="menu-minipanel-panel menu-minipanel-support-nav-mega-menu2">
+  <li class="first odd last">
+    
+  <div class="l-mini-3--basic mini__wrapper">
+
+      <div class="l-mini-3__left">
+        <div class="panel-pane pane-block pane-menu-menu-support pane-menu">
+          <h2 class="pane-title">Popular</h2>
+        <ul class="menu"><li class="first leaf"><a href="/passport">GPB Passport</a></li>
+<li class="leaf"><a href="/support/membership">Membership</a></li>
+<li class="leaf"><a href="/support/leadership-circle">Leadership Giving</a></li>
+<li class="leaf"><a href="https://www.sponsorgpb.org/">Corporate Sponsorship</a></li>
+<li class="leaf"><a href="/support/planned">Planned Giving</a></li>
+<li class="leaf"><a href="http://gpb.careasy.org/" target="_blank">Vehicle Donations</a></li>
+<li class="leaf"><a href="/support/volunteer">Volunteers</a></li>
+<li class="leaf"><a href="/support/sustainer">Sustainer</a></li>
+<li class="leaf"><a href="/support/matching-gift-companies">Matching Gifts</a></li>
+<li class="last leaf"><a href="/support/door-to-door">Door2Door Campaign</a></li>
+</ul>    </div>
+      </div>
+
+      <div class="l-mini-3__center">
+        <div class="panel-pane pane-custom pane-18">
+          <h2 class="pane-title">Community</h2>
+        <ul><li><a href="/atlanta">Atlanta</a></li>
+<li><a href="/augusta">Augusta</a></li>
+<li><a href="/macon">Macon</a></li>
+<li><a href="/savannah">Savannah</a></li>
+</ul>    </div>
+      </div>
+
+      <div class="l-mini-3__right">
+        <div class="panel-pane pane-views-panes pane-megamenu-content-lists-panel-pane-7">
+            <div class="view view-megamenu-content-lists view-id-megamenu_content_lists view-display-id-panel_pane_7 view-dom-id-49a38b61b17e30492eec596a6881a5ca">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+      
+  <div class="views-field views-field-field-blog-post-picture">        <div class="field-content"></div>  </div>  
+  <div class="views-field views-field-nothing">        <span class="field-content"><div class="nav-shoutbox">
+  <h2><a href="http://gpb.convio.net/site/Donation2?df_id=37154&mfc_pref=T&37154.donation=form1">Show Your Support for GPB Today!</a></h2>
+  <a href="http://gpb.convio.net/site/Donation2?df_id=37154&mfc_pref=T&37154.donation=form1"><img src="http://www.gpb.org/sites/www.gpb.org/files/styles/redesign_600x333/public/hero-images/support_0.png?itok=NSh7cEz9" width="600" height="333" alt="" /></a>
+  <p>Make your secure online donation at GPB.org.</p>
+  <a href="http://gpb.convio.net/site/Donation2?df_id=37154&mfc_pref=T&37154.donation=form1"></a>
+</div></span>  </div>  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>    </div>
+<div class="panel-pane pane-custom pane-19">
+            <div class="secondary-nav-social"><div><a href="https://www.facebook.com/gpbmedia" target="_blank"><img src="http://www.gpb.org/sites/www.gpb.org/files/images/facebook-menu.png" width="20%">GPB Media</a></div><div><a href="https://twitter.com/mygpb" target="_blank"><img src="http://www.gpb.org/sites/www.gpb.org/files/images/twitter-menu.png" width="20%">@myGPB</a></div></div>    </div>
+      </div>
+
+  </div>
+  </li>
+</ul>
+</li>
+</ul>    </div>
+					
+					          <div class="global-search">
+                        <button class="open_search"><i class="fa fa-search"></i></button>
+                <form class="form__site-search slide_left" action="/search/google" method="post" id="search-form" accept-charset="UTF-8">
+                  <div>
+                    <div class="container-inline form-wrapper" id="edit-basic">
+                      <div class="form-item form-type-textfield form-item-keys">
+                        <input type="text" id="edit-keys" name="keys" value="" size="40" maxlength="255" class="form-text" />
+                      </div>
+                    </div>
+                    <input type="hidden" name="form_build_id" value="form-Txe_ZG53Fa_op6n1yuEX1TxjldwAUsSpYVyEu1f5Rl8" />
+                    <input type="hidden" name="form_id" value="search_form" />
+                  </div>
+                </form>
+            </div>
+        </div><!-- /indside-wrapper -->
+    </nav>
+  
+    </div>
+<div class="panel-pane pane-block pane-google-admanager-6c6c6f3a23e55fb9a057b9b7111d979d ad-970x90 pane-google-admanager">
+            <div id="gam-holder-Home-Desktop-Pencil" class="gam-holder"><script type="text/javascript">GA_googleFillSlot("Home-Desktop-Pencil");</script></div>    </div>
+<div class="panel-pane pane-block pane-google-admanager-6e3b27b1994d638440924bcaf8fc5528 ad-320x50 pane-google-admanager">
+            <div id="gam-holder-Home-Mobile-Banner-1" class="gam-holder"><script type="text/javascript">GA_googleFillSlot("Home-Mobile-Banner-1");</script></div>    </div>
+    </header>
+  
+      <section class="l-1-col__upper content__upper">
+      <div class="inside-wrapper">
+          <div class="panel-pane pane-views-panes pane-gpb-home-hero-panel-pane-1">
+            <div class="view view-gpb-home-hero view-id-gpb_home_hero view-display-id-panel_pane_1 inside-feature view-dom-id-24bbcae0684321841af0bf045bf70965">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+      
+  <div class="views-field views-field-field-hero-image">        <div class="field-content"><a href='http://gpb.convio.net/site/Donation2?df_id=37154&mfc_pref=T&37154.donation=form1'><img src="http://www.gpb.org/sites/www.gpb.org/files/styles/redesign_1440x810/public/hero-images/copy-of-pavarotti_msg-2.jpg?itok=P726gxmW" width="1440" height="810" alt="" /></a></div>  </div>  
+  <div class="views-field views-field-nothing">        <span class="field-content"><div class="inside-feature-text">
+  <h2><a href="http://gpb.convio.net/site/Donation2?df_id=37154&mfc_pref=T&37154.donation=form1">Great Performances - Pavarotti: A Voice for the Ages</a></h2>
+  <p>Celebrate the sound of the tenor who extended his presence far beyond Italian opera. Monday, August 27 at 7 pm</p>
+
+</div></span>  </div>  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>    </div>
+<div class="panel-pane pane-whats-on-tonight-allchannels">
+            
+    <div class='gpbhd-quick-look'>
+      <div id='whatsOnNow' class='whatsOnNow'>
+        <div class='tonight-header'><h4 class='pane-title'>Tonight on GPB HD </h4></div>
+        <div class='gpbhd-tonight'><div class='gpbhd__content'><div class='time'>8:00 pm</div><div class='showtitle'>
+        <span class='showlink' alt='GREAT PERFORMANCES follows the creation of Lin-Manuel Miranda&#39;s pop culture Broadway phenomenon, Hamilton, and the history behind it. Interviews with Presidents Barack Obama and George W. Bush, Nas, Questlove, Stephen Sondheim and more.' title='GREAT PERFORMANCES follows the creation of Lin-Manuel Miranda&#39;s pop culture Broadway phenomenon, Hamilton, and the history behind it. Interviews with Presidents Barack Obama and George W. Bush, Nas, Questlove, Stephen Sondheim and more.'>Hamilton's America</span></div></div><div class='gpbhd__content'><div class='time'>10:00 pm</div><div class='showtitle'>
+        <span class='showlink' alt='Did you know that oatmeal actually isn&#39;t a healthy way to start the day? That milk doesn&#39;t build bones, and eggs aren&#39;t the devil? In Food: What the Heck Should I Eat?, Dr. Mark Hyman looks at every food group and explains what we&#39;ve gotten wrong, revealing which foods nurture our health and which pose a threat. He also explains food&#39;s crucial role in functional medicine and how food systems and policies affect our environmental and personal health. With myth-busting insights, easy-to-understand science, and delicious, wholesome recipes, Food: What the Heck Should I Eat? is a no-nonsense guide to achieving optimal weight and lifelong health. Eating real food doesn&#39;t have to be complicated. Dr. Hyman is going to show us the principles of healthy eating by walking through each of the major food catefories - from meats to beverages and everything in between. Dr. Hyman tells the viewer exactly what foods to focus on and what to avoid. He will provide easy steps to get started, taking out all of the guess work of putting together meals. As a bonus, Dr. Hyman will also explain how food is one of the greatest contributors to global warming and pollution, then he will show us what foods will take less of a toll on our environment and our health.' title='Did you know that oatmeal actually isn&#39;t a healthy way to start the day? That milk doesn&#39;t build bones, and eggs aren&#39;t the devil? In Food: What the Heck Should I Eat?, Dr. Mark Hyman looks at every food group and explains what we&#39;ve gotten wrong, revealing which foods nurture our health and which pose a threat. He also explains food&#39;s crucial role in functional medicine and how food systems and policies affect our environmental and personal health. With myth-busting insights, easy-to-understand science, and delicious, wholesome recipes, Food: What the Heck Should I Eat? is a no-nonsense guide to achieving optimal weight and lifelong health. Eating real food doesn&#39;t have to be complicated. Dr. Hyman is going to show us the principles of healthy eating by walking through each of the major food catefories - from meats to beverages and everything in between. Dr. Hyman tells the viewer exactly what foods to focus on and what to avoid. He will provide easy steps to get started, taking out all of the guess work of putting together meals. As a bonus, Dr. Hyman will also explain how food is one of the greatest contributors to global warming and pollution, then he will show us what foods will take less of a toll on our environment and our health.'>Food: What The Heck Should I Eat? With Mark Hyman,</span></div></div><div class='schedule-nav'>
+        <div class='next'>
+        <i class='fa fa-angle-double-right'></i>
+        </div>
+    <div class='more'>
+    <i class='fa fa-plus-circle'></i>
+    </div>
+      <div class='schedule_button'>
+      <a href='/broadcastschedule'>Full Schedule</a>
+      </div>
+      </div>
+      </div><!-- /gpbhd-tonight -->
+		 <div class='on-tonight tabs'>
+		 <h4 class='pane-title'>Other Channels</h4>
+     <ul class='on-tonight__tabs tab-links'>
+       <li class='active'><a href='#tab2'>Knowledge</a></li>
+       <li><a href='#tab3'>GPB Create</a></li>
+     </ul>
+     <div class='tab-content'>
+		<div id='tab2' class='knowledgeTonight tab active'>
+    <table class='widget-on-tonight__table'><tr class='gray widget-on-tonight__item'><td class='widget-on-tonight__time'>7:30 pm</td><td class='widget-on-tonight__desc'><span class='showlink' alt='' title=''>Live From The Rialto</span></td></tr><tr class='widget-on-tonight__item'><td class='widget-on-tonight__time'>8:30 pm</td><td class='widget-on-tonight__desc'><span class='showlink' alt='' title=''>Spotlight</span></td></tr><tr class='gray widget-on-tonight__item'><td class='widget-on-tonight__time'>9:30 pm</td><td class='widget-on-tonight__desc'><span class='showlink' alt='Host Ken Paulson interviews songwriter Jim Weatherly, who among other stories recalls how exchanging a plane for a train was the final ingredient in the recipe for a hit song. Weatherly is the writer of &#34;Midnight Train To Georgia&#34; by Gladys Knight & The Pips and &#34;A Lady Like You&#34; by Glen Campbell.' title='Host Ken Paulson interviews songwriter Jim Weatherly, who among other stories recalls how exchanging a plane for a train was the final ingredient in the recipe for a hit song. Weatherly is the writer of &#34;Midnight Train To Georgia&#34; by Gladys Knight & The Pips and &#34;A Lady Like You&#34; by Glen Campbell.'>Songwriters</span></td></tr><tr class='widget-on-tonight__item'><td class='widget-on-tonight__time'>10:00 pm</td><td class='widget-on-tonight__desc'><span class='showlink' alt='' title=''>Live From The Rialto</span></td></tr><tr class='gray widget-on-tonight__item'><td class='widget-on-tonight__time'>11:00 pm</td><td class='widget-on-tonight__desc'><span class='showlink' alt='' title=''>Spotlight</span></td></tr>
+		 </table></div><!-- /knowledgeTonight -->
+
+		  <div id='tab3' class='GPBCreate tab'>
+      <table class='widget-on-tonight__table'><tr class='widget-on-tonight__item'><td class='widget-on-tonight__time'>7:00 pm</td><td class='widget-on-tonight__desc'>
+        <span class='showlink' alt='Diane goes off the beaten path to lush Mount Pelion in Central Greece in search of ways to preserve nature&#39;s incredible bounty. Preserves of every kind are the starting point for so many dishes here, from whole apples and almonds put up in sugar syrup to wild pistachio shoots pickled in vinegar. With a bunch of pickled sweet red peppers in hand, Diane makes a hearty local sausage-pepper dish. A foraging escapade inspires a fabulous dish of eggs cooked inside a bed of greens. And, finally, the rainbow of fruit preserves called spoon sweets leads to a delicious cherry-preserve and Greek-yogurt mousse that&#39;s one of those desserts easy to describe as deceptively light. Discover the Greek tradition of sweet and savory preserves that pays homage to Greece&#39;s incredible produce.   Whole apple preserves; Pan-fried fiddlehead ferns; Spetsofai, sausage and peppers; Eggs in a hole, cooked in greens; Sour cherry Greek yogurt mousse.' title='Diane goes off the beaten path to lush Mount Pelion in Central Greece in search of ways to preserve nature&#39;s incredible bounty. Preserves of every kind are the starting point for so many dishes here, from whole apples and almonds put up in sugar syrup to wild pistachio shoots pickled in vinegar. With a bunch of pickled sweet red peppers in hand, Diane makes a hearty local sausage-pepper dish. A foraging escapade inspires a fabulous dish of eggs cooked inside a bed of greens. And, finally, the rainbow of fruit preserves called spoon sweets leads to a delicious cherry-preserve and Greek-yogurt mousse that&#39;s one of those desserts easy to describe as deceptively light. Discover the Greek tradition of sweet and savory preserves that pays homage to Greece&#39;s incredible produce.   Whole apple preserves; Pan-fried fiddlehead ferns; Spetsofai, sausage and peppers; Eggs in a hole, cooked in greens; Sour cherry Greek yogurt mousse.' >My Greek Table With Diane Kochilas</span></td></tr><tr class='widget-on-tonight__item'><td class='widget-on-tonight__time'>7:30 pm</td><td class='widget-on-tonight__desc'>
+        <span class='showlink' alt='Join Joanne as she travels to Antica Locanda Sul Mincio with her students to enjoy a seven-course tortaloni banquet and then returns to master the fine art of making homemade tortaloni. In her studio kitchen, she makes red pepper linguine with clams as well as rolls some special herb pappardelle.   Recipes: Tortaloni; Spinach pasta: ravioli with tomatoes and basil; Red pepper linguine saffron, paprika, cayenne, clams, and tomato; Pappardelle with herbs.' title='Join Joanne as she travels to Antica Locanda Sul Mincio with her students to enjoy a seven-course tortaloni banquet and then returns to master the fine art of making homemade tortaloni. In her studio kitchen, she makes red pepper linguine with clams as well as rolls some special herb pappardelle.   Recipes: Tortaloni; Spinach pasta: ravioli with tomatoes and basil; Red pepper linguine saffron, paprika, cayenne, clams, and tomato; Pappardelle with herbs.' >Joanne Weir's Plates And Places</span></td></tr><tr class='widget-on-tonight__item'><td class='widget-on-tonight__time'>8:00 pm</td><td class='widget-on-tonight__desc'>
+        <span class='showlink' alt='Follow the flavor as Martha puts her spin on the stews of the Arabian Gulf. Slow-cooked treasures like Arabian Gulf potpie, braised lamb shanks with okra, curried swordfish stew, and red lentil vegetable stew offer nourishing comfort with ease.' title='Follow the flavor as Martha puts her spin on the stews of the Arabian Gulf. Slow-cooked treasures like Arabian Gulf potpie, braised lamb shanks with okra, curried swordfish stew, and red lentil vegetable stew offer nourishing comfort with ease.' >Martha Stewart's Cooking School</span></td></tr><tr class='widget-on-tonight__item'><td class='widget-on-tonight__time'>8:30 pm</td><td class='widget-on-tonight__desc'>
+        <span class='showlink' alt='Hosts Julia Collin Davison and Bridget Lancaster uncover the secrets to a Japanese favorite: crispy pan-fried chicken cutlets. In the Equipment Corner, expert Adam Ried reveals his top for santoku knives, science expert Dan Souza demystifies the science of radiant heat, and then test cook Keith Dresser makes Bridget perfect miso-marinated salmon.' title='Hosts Julia Collin Davison and Bridget Lancaster uncover the secrets to a Japanese favorite: crispy pan-fried chicken cutlets. In the Equipment Corner, expert Adam Ried reveals his top for santoku knives, science expert Dan Souza demystifies the science of radiant heat, and then test cook Keith Dresser makes Bridget perfect miso-marinated salmon.' >America's Test Kitchen From Cook's Illustrated</span></td></tr><tr class='widget-on-tonight__item'><td class='widget-on-tonight__time'>9:00 pm</td><td class='widget-on-tonight__desc'>
+        <span class='showlink' alt='Follow the Brass sisters as they &#34;flirt&#34; their way into several Cape Cod kitchens and discover a melting pot of sweets and treats, from American to Greek to South African and more!' title='Follow the Brass sisters as they &#34;flirt&#34; their way into several Cape Cod kitchens and discover a melting pot of sweets and treats, from American to Greek to South African and more!' >Food Flirts</span></td></tr><tr class='widget-on-tonight__item'><td class='widget-on-tonight__time'>9:30 pm</td><td class='widget-on-tonight__desc'>
+        <span class='showlink' alt='Nigella shares ideas for feasts throughout the day. Nigella&#39;s savory take on French toast is an ideal choice for weekend brunch or a comforting and quick supper. With friends to entertain, Nigella rustles up an informal Mediterranean dish for dinner, juicy spiced lamb kofta with garlic sauce. For pudding her guests are treated to a delicately tasting rose and pepper Pavlova with strawberries, inspired by her grandfather&#39;s penchant for strawberries with a grinding of pepper. There&#39;s also an aromatic golden egg curry and a delicious white chocolate.' title='Nigella shares ideas for feasts throughout the day. Nigella&#39;s savory take on French toast is an ideal choice for weekend brunch or a comforting and quick supper. With friends to entertain, Nigella rustles up an informal Mediterranean dish for dinner, juicy spiced lamb kofta with garlic sauce. For pudding her guests are treated to a delicately tasting rose and pepper Pavlova with strawberries, inspired by her grandfather&#39;s penchant for strawberries with a grinding of pepper. There&#39;s also an aromatic golden egg curry and a delicious white chocolate.' >Nigella: At My Table</span></td></tr><tr class='widget-on-tonight__item'><td class='widget-on-tonight__time'>10:00 pm</td><td class='widget-on-tonight__desc'>
+        <span class='showlink' alt='Richard shows Kevin the proper way to ventilate a sink; in Nashville, Tom converts a regular door into a Dutch door; Jenn updates a landscape by moving around, dividing, and pruning the current plants in the yard.' title='Richard shows Kevin the proper way to ventilate a sink; in Nashville, Tom converts a regular door into a Dutch door; Jenn updates a landscape by moving around, dividing, and pruning the current plants in the yard.' >Ask This Old House</span></td></tr><tr class='widget-on-tonight__item'><td class='widget-on-tonight__time'>10:30 pm</td><td class='widget-on-tonight__desc'>
+        <span class='showlink' alt='Bulgaria, so mysterious to most Americans, has a vivid identity as a crossroads of the Balkans. Rick traces the country&#39;s complex history, from ancient Thracian tombs to medieval Orthodox Christian monasteries to Soviet monuments. And he enjoys an intimate taste of contemporary culture: the yellow brick road of Sofia; the gregarious craftspeople of the medieval capital, Veliko Tarnovo; and the thriving pedestrian zones of cosmopolitan Plovdiv.' title='Bulgaria, so mysterious to most Americans, has a vivid identity as a crossroads of the Balkans. Rick traces the country&#39;s complex history, from ancient Thracian tombs to medieval Orthodox Christian monasteries to Soviet monuments. And he enjoys an intimate taste of contemporary culture: the yellow brick road of Sofia; the gregarious craftspeople of the medieval capital, Veliko Tarnovo; and the thriving pedestrian zones of cosmopolitan Plovdiv.' >Rick Steves' Europe</span></td></tr><tr class='widget-on-tonight__item'><td class='widget-on-tonight__time'>11:00 pm</td><td class='widget-on-tonight__desc'>
+        <span class='showlink' alt='In Part One of Making A Restaurant, we saw how a restaurant starts with an idea, followed by a detailed outline for the food you want to serve, a proforma business plan to make sure you have enough money, the staffing, the music and the bar. In Part Two, Burt spends time with one of the most successful restaurant families in America, and sees how the younger generation adapts the restaurant business to a set of new interests, including the revival of the Tiki Bar, the growing popularity of a Japanese soup developed in World War II, and the modern outdoor food festival.' title='In Part One of Making A Restaurant, we saw how a restaurant starts with an idea, followed by a detailed outline for the food you want to serve, a proforma business plan to make sure you have enough money, the staffing, the music and the bar. In Part Two, Burt spends time with one of the most successful restaurant families in America, and sees how the younger generation adapts the restaurant business to a set of new interests, including the revival of the Tiki Bar, the growing popularity of a Japanese soup developed in World War II, and the modern outdoor food festival.' >Burt Wolf: Travels & Traditions</span></td></tr><tr class='widget-on-tonight__item'><td class='widget-on-tonight__time'>11:30 pm</td><td class='widget-on-tonight__desc'>
+        <span class='showlink' alt='Follow the flavor as Martha puts her spin on the stews of the Arabian Gulf. Slow-cooked treasures like Arabian Gulf potpie, braised lamb shanks with okra, curried swordfish stew, and red lentil vegetable stew offer nourishing comfort with ease.' title='Follow the flavor as Martha puts her spin on the stews of the Arabian Gulf. Slow-cooked treasures like Arabian Gulf potpie, braised lamb shanks with okra, curried swordfish stew, and red lentil vegetable stew offer nourishing comfort with ease.' >Martha Stewart's Cooking School</span></td></tr>
+      </table></div><!-- /GPBCreate -->
+      <div class='schedule_button'>
+      <a href='/broadcastschedule'>Full Schedule</a>
+      </div>
+         </div>
+         </div> <!-- What are you -->
+      </div><!-- /tv-quick-look -->    </div>
+<div class="panel-pane pane-block pane-quicktabs-home-top-5 pane-quicktabs">
+          <h2 class="pane-title">GPB&#039;s Latest</h2>
+        <div  id="quicktabs-home_top_5" class="quicktabs-wrapper quicktabs-style-nostyle"><ul class="quicktabs-tabs quicktabs-style-nostyle"><li class="active"><a href="/homepage?qt-home_top_5=0#qt-home_top_5" id="quicktabs-tab-home_top_5-0" class="active">Top 5</a></li>
+<li><a href="/homepage?qt-home_top_5=1#qt-home_top_5" id="quicktabs-tab-home_top_5-1" class="active">News</a></li>
+<li><a href="/homepage?qt-home_top_5=2#qt-home_top_5" id="quicktabs-tab-home_top_5-2" class="active">Blogs</a></li>
+</ul><div id="quicktabs-container-home_top_5" class="quicktabs_main quicktabs-style-nostyle"><div  id="quicktabs-tabpage-home_top_5-0" class="quicktabs-tabpage "><div class="view view-gpb-home-all-sections view-id-gpb_home_all_sections view-display-id-block home-all-sections view-dom-id-db4a297e5d27e0aa6dac75f11aa2936b">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first">
+      
+          <div class="card-image">
+  <a href="http://www.gpb.org/passport"><img src="http://www.gpb.org/sites/www.gpb.org/files/styles/redesign_600x333/public/hero-images/2018/08/22/1270944_kewmediagroupfrankiedrakemysteries2_676515.jpg?itok=OYtORZG-" width="600" height="333" alt="" /></a>
+  <div class="card-id"></div>
+</div>
+<div class="teaser-text">
+  <h4><a href="http://www.gpb.org/passport">Watch &quot;Frankie Drake Mysteries&quot; on GPB Passport</a></h4>
+  <p>Set in 1920s Toronto, the series follows the adventures of Frankie Drake and her partner Trudy Clarke at Drake Private Detectives, the city’s only all-female detective agency, as they find themselves fighting crime in the age of flyboys, gangsters, rum-runners, and speakeasies. You can watch it, along with hundreds of hours of Nova, Nature, The Great British Baking Show, Finding Your Roots and much more streaming on-demand with GPB Passport.</p>
+</div>
+<div class="teaser-icons">
+    
+    <span>August 24, 2018</span>
+    <span></span>
+</div>
+    </div>
+  <div class="views-row views-row-2 views-row-even">
+      
+          <div class="card-image">
+  <a href="http://gpbnews.org/programs/two-way-street"><img src="http://www.gpb.org/sites/www.gpb.org/files/styles/redesign_600x333/public/hero-images/two-way-street.png?itok=HtN4MbWz" width="600" height="333" alt="" /></a>
+  <div class="card-id"></div>
+</div>
+<div class="teaser-text">
+  <h4><a href="http://gpbnews.org/programs/two-way-street">Two Way Street</a></h4>
+  <p>Exploring the issues, people and events that make Georgia a vibrant place to live, work and play. Sunday at 11 am on GPB Radio or streaming live at GPB.org.</p>
+</div>
+<div class="teaser-icons">
+    
+    <span>August 24, 2018</span>
+    <span></span>
+</div>
+    </div>
+  <div class="views-row views-row-3 views-row-odd">
+      
+          <div class="card-image">
+  <a href="http://www.gpbnews.org/post/whats-name-buttermilk-bottom"><img src="http://www.gpb.org/sites/www.gpb.org/files/styles/redesign_600x333/public/hero-images/2018/08/23/buttermilk_bottom_wian.jpeg?itok=npMy_3lk" width="600" height="333" alt="" /></a>
+  <div class="card-id"></div>
+</div>
+<div class="teaser-text">
+  <h4><a href="http://www.gpbnews.org/post/whats-name-buttermilk-bottom">What&#039;s In A Name? | Buttermilk Bottom</a></h4>
+  <p>Rickey Bevington tells the story of how the early 20th century Atlanta neighborhood called Buttermilk Bottom got its name.</p>
+</div>
+<div class="teaser-icons">
+    
+    <span>August 24, 2018</span>
+    <span></span>
+</div>
+    </div>
+  <div class="views-row views-row-4 views-row-even">
+      
+          <div class="card-image">
+  <a href="http://www.gpb.org/blogs/gpb-sports-blog/2018/08/20/state-powers-flex-their-muscles-in-openers"><img src="http://www.gpb.org/sites/www.gpb.org/files/styles/redesign_600x333/public/hero-images/2018/08/23/colquitt_co_runthrough.jpg?itok=-a3Mjxt9" width="600" height="333" alt="" /></a>
+  <div class="card-id"></div>
+</div>
+<div class="teaser-text">
+  <h4><a href="http://www.gpb.org/blogs/gpb-sports-blog/2018/08/20/state-powers-flex-their-muscles-in-openers">State Powers Flex Their Muscles In Openers</a></h4>
+  <p>The state&#039;s best high school teams proved they belonged with big performances on the first week of the regular season.</p>
+</div>
+<div class="teaser-icons">
+    
+    <span>August 24, 2018</span>
+    <span></span>
+</div>
+    </div>
+  <div class="views-row views-row-5 views-row-odd views-row-last">
+      
+          <div class="card-image">
+  <a href="http://www.gpb.org/blogs/education-matters/2018/08/24/georgia-high-school-drone-team-clinches-national-uas4stem"><img src="http://www.gpb.org/sites/www.gpb.org/files/styles/redesign_600x333/public/hero-images/2018/08/24/screen_shot_2018-08-24_at_10.38.58_am.png?itok=iikHqMyS" width="600" height="333" alt="" /></a>
+  <div class="card-id"></div>
+</div>
+<div class="teaser-text">
+  <h4><a href="http://www.gpb.org/blogs/education-matters/2018/08/24/georgia-high-school-drone-team-clinches-national-uas4stem">Georgia High School Drone Team Clinches National UAS4STEM Championship</a></h4>
+  <p>The McIntosh Multi-Rotor Team earned its second consecutive championship win.</p>
+</div>
+<div class="teaser-icons">
+    
+    <span>August 24, 2018</span>
+    <span></span>
+</div>
+    </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div></div><div  id="quicktabs-tabpage-home_top_5-1" class="quicktabs-tabpage quicktabs-hide"><div id="block-block-1" class="block block--block block--block-1">
+        <div class="block__content">
+    <div id="corePublisherNews"><div class="views-row views-row-1"><div class="card-image"><a target="_blank" href="http://feedproxy.google.com/~r/gpbnews/newsRSS/~3/aRtvZyBNMDo/fellow-pow-remembers-mccain-unequaled-public-servant"><img src="sites/all/themes/custom/gpb_next/images/home/gpbNews-default.jpg"></a></div><div class="teaser-text"><h4><a target="_blank" href="http://feedproxy.google.com/~r/gpbnews/newsRSS/~3/aRtvZyBNMDo/fellow-pow-remembers-mccain-unequaled-public-servant">Fellow POW Remembers An McCain As An Unequaled Public Servant</a></h4><div class="teaser-desc">Copyright 2018 NPR. To see more, visit MICHEL MARTIN, HOST: Now we turn to 
+someone who got to know Senator McCain when he was Lieutenant Commander 
+McCain and they were both prisoners of war in Hanoi during the Vietnam War. 
+Orson Swindle III's cell was next to McCain's in prison. They later were in 
+the same cell. Lieutenant Colonel Swindle went on to become a commissioner of 
+the Federal Trade Commission, and he was kind enough to talk to us now from 
+Denver. Welcome. Thank you so much for speaking with us, and we are so very 
+sorry. ORSON SWINDLE III: Thank you very much, Michel. It's a sad day, and 
+I'm slowly getting my composure back. MARTIN: Can you tell us how you first 
+met? SWINDLE: Well, he and I were singled out - not singled out, but about 25 
+of us were singled out as being bad actors, according to the Vietnamese. And 
+they moved us to an outlying camp. And we actually met and first talked at 
+that camp, and then we were moved back into Hanoi later on and were in a cell 
+together
+</div></div><div class="teaser-icons"><span>August 26, 2018</span><span><div class="easy_social-widget easy_social-widget-twitter first"><iframe data-url="http://feedproxy.google.com/~r/gpbnews/newsRSS/~3/aRtvZyBNMDo/fellow-pow-remembers-mccain-unequaled-public-servant" src="http://platform.twitter.com/widgets/tweet_button.baa54ded21a982344c4ced326592f3de.en.html#dnt=false&amp;id=twitter-widget-0&amp;lang=en&amp;original_referer=http%3A%2F%2Fwww.gpb.org&amp;related=%3ACheck%20it%20out!&amp;size=m&amp;text=Fellow POW Remembers An McCain As An Unequaled Public Servant&amp;type=share&amp;url=http://feedproxy.google.com/~r/gpbnews/newsRSS/~3/aRtvZyBNMDo/fellow-pow-remembers-mccain-unequaled-public-servant" title="Twitter Tweet Button" style="position: static; visibility: visible; width: 61px; height: 20px;" class="twitter-share-button twitter-share-button-rendered twitter-tweet-button" allowtransparency="true" scrolling="no" id="twitter-widget-0" frameborder="0"></iframe></div>
+          <div class="easy_social-widget easy_social-widget-facebook last"><iframe src="http://www.facebook.com/plugins/like.php?locale=en_US&amp;href=http://feedproxy.google.com/~r/gpbnews/newsRSS/~3/aRtvZyBNMDo/fellow-pow-remembers-mccain-unequaled-public-servant;send=false&amp;layout=button_count&amp;width=88&amp;show_faces=true&amp;action=like&amp;colorscheme=light&amp;font=&amp;height=21&amp;appId=" scrolling="no" style="border:none; overflow:hidden; width:88px; height:21px;" allowtransparency="true" frameborder="0"></iframe></div></div></div></span><div class="views-row views-row-2"><div class="card-image"><a target="_blank" href="http://feedproxy.google.com/~r/gpbnews/newsRSS/~3/XfngfmlGcls/mccain-war-hero"><img src="sites/all/themes/custom/gpb_next/images/home/gpbNews-default.jpg"></a></div><div class="teaser-text"><h4><a target="_blank" href="http://feedproxy.google.com/~r/gpbnews/newsRSS/~3/XfngfmlGcls/mccain-war-hero">McCain: War Hero</a></h4><div class="teaser-desc">Copyright 2018 NPR. To see more, visit MICHEL MARTIN, HOST: Finally, today, 
+we're going to hear Senator John McCain in his own words. Back in May, he 
+recorded himself reading excerpts of his memoir. Here he is reading from "The 
+Restless Wave: Good Times, Just Causes, Great Fights And Other 
+Appreciations." (SOUNDBITE OF ARCHIVED BROADCAST) JOHN MCCAIN: (Reading) I'd 
+like to see our politics begin to return to the purposes and practices that 
+distinguish our history from the history of other nations. I'd like to see us 
+recover our sense that we're more alike than different. We're citizens of a 
+republic made of shared ideals, forged in a new world to replace the tribal 
+enmities that tormented the old one. Even in times of political turmoil such 
+as these, we share that awesome heritage and the responsibility to embrace 
+it. Whether we think each other right or wrong in our views on the issues of 
+the day, we owe each other our respect, as so long as our character merits 
+respect and as long as
+</div></div><div class="teaser-icons"><span>August 26, 2018</span><span><div class="easy_social-widget easy_social-widget-twitter first"><iframe data-url="http://feedproxy.google.com/~r/gpbnews/newsRSS/~3/XfngfmlGcls/mccain-war-hero" src="http://platform.twitter.com/widgets/tweet_button.baa54ded21a982344c4ced326592f3de.en.html#dnt=false&amp;id=twitter-widget-0&amp;lang=en&amp;original_referer=http%3A%2F%2Fwww.gpb.org&amp;related=%3ACheck%20it%20out!&amp;size=m&amp;text=McCain: War Hero&amp;type=share&amp;url=http://feedproxy.google.com/~r/gpbnews/newsRSS/~3/XfngfmlGcls/mccain-war-hero" title="Twitter Tweet Button" style="position: static; visibility: visible; width: 61px; height: 20px;" class="twitter-share-button twitter-share-button-rendered twitter-tweet-button" allowtransparency="true" scrolling="no" id="twitter-widget-0" frameborder="0"></iframe></div>
+          <div class="easy_social-widget easy_social-widget-facebook last"><iframe src="http://www.facebook.com/plugins/like.php?locale=en_US&amp;href=http://feedproxy.google.com/~r/gpbnews/newsRSS/~3/XfngfmlGcls/mccain-war-hero;send=false&amp;layout=button_count&amp;width=88&amp;show_faces=true&amp;action=like&amp;colorscheme=light&amp;font=&amp;height=21&amp;appId=" scrolling="no" style="border:none; overflow:hidden; width:88px; height:21px;" allowtransparency="true" frameborder="0"></iframe></div></div></div></span><div class="views-row views-row-3"><div class="card-image"><a target="_blank" href="http://feedproxy.google.com/~r/gpbnews/newsRSS/~3/nCXdrKas8eY/he-was-fighter-former-sen-ayotte-says-mccain-stood-oppressed"><img src="sites/all/themes/custom/gpb_next/images/home/gpbNews-default.jpg"></a></div><div class="teaser-text"><h4><a target="_blank" href="http://feedproxy.google.com/~r/gpbnews/newsRSS/~3/nCXdrKas8eY/he-was-fighter-former-sen-ayotte-says-mccain-stood-oppressed">'He Was A Fighter': Former Sen. Ayotte Says McCain Stood Up For The Oppressed</a></h4><div class="teaser-desc">Copyright 2018 NPR. To see more, visit MICHEL MARTIN, HOST: Finally, today, 
+we're going to hear Senator John McCain in his own words. Back in May, he 
+recorded himself reading excerpts of his memoir. Here he is reading from "The 
+Restless Wave: Good Times, Just Causes, Great Fights And Other 
+Appreciations." (SOUNDBITE OF ARCHIVED BROADCAST) JOHN MCCAIN: (Reading) I'd 
+like to see our politics begin to return to the purposes and practices that 
+distinguish our history from the history of other nations. I'd like to see us 
+recover our sense that we're more alike than different. We're citizens of a 
+republic made of shared ideals, forged in a new world to replace the tribal 
+enmities that tormented the old one. Even in times of political turmoil such 
+as these, we share that awesome heritage and the responsibility to embrace 
+it. Whether we think each other right or wrong in our views on the issues of 
+the day, we owe each other our respect, as so long as our character merits 
+respect and as long as
+</div></div><div class="teaser-icons"><span>August 26, 2018</span><span><div class="easy_social-widget easy_social-widget-twitter first"><iframe data-url="http://feedproxy.google.com/~r/gpbnews/newsRSS/~3/nCXdrKas8eY/he-was-fighter-former-sen-ayotte-says-mccain-stood-oppressed" src="http://platform.twitter.com/widgets/tweet_button.baa54ded21a982344c4ced326592f3de.en.html#dnt=false&amp;id=twitter-widget-0&amp;lang=en&amp;original_referer=http%3A%2F%2Fwww.gpb.org&amp;related=%3ACheck%20it%20out!&amp;size=m&amp;text='He Was A Fighter': Former Sen. Ayotte Says McCain Stood Up For The Oppressed&amp;type=share&amp;url=http://feedproxy.google.com/~r/gpbnews/newsRSS/~3/nCXdrKas8eY/he-was-fighter-former-sen-ayotte-says-mccain-stood-oppressed" title="Twitter Tweet Button" style="position: static; visibility: visible; width: 61px; height: 20px;" class="twitter-share-button twitter-share-button-rendered twitter-tweet-button" allowtransparency="true" scrolling="no" id="twitter-widget-0" frameborder="0"></iframe></div>
+          <div class="easy_social-widget easy_social-widget-facebook last"><iframe src="http://www.facebook.com/plugins/like.php?locale=en_US&amp;href=http://feedproxy.google.com/~r/gpbnews/newsRSS/~3/nCXdrKas8eY/he-was-fighter-former-sen-ayotte-says-mccain-stood-oppressed;send=false&amp;layout=button_count&amp;width=88&amp;show_faces=true&amp;action=like&amp;colorscheme=light&amp;font=&amp;height=21&amp;appId=" scrolling="no" style="border:none; overflow:hidden; width:88px; height:21px;" allowtransparency="true" frameborder="0"></iframe></div></div></div></span><div class="views-row views-row-4"><div class="card-image"><a target="_blank" href="http://feedproxy.google.com/~r/gpbnews/newsRSS/~3/sk8IhkFGmUI/mccains-legislative-years"><img src="sites/all/themes/custom/gpb_next/images/home/gpbNews-default.jpg"></a></div><div class="teaser-text"><h4><a target="_blank" href="http://feedproxy.google.com/~r/gpbnews/newsRSS/~3/sk8IhkFGmUI/mccains-legislative-years">McCain's Legislative Years</a></h4><div class="teaser-desc">Copyright 2018 WJCT 89.9 FM Jacksonville. To see more, visit WJCT 89.9 FM 
+Jacksonville . MICHEL MARTIN, HOST: Finally, today, we're going to hear 
+Senator John McCain in his own words. Back in May, he recorded himself 
+reading excerpts of his memoir. Here he is reading from "The Restless Wave: 
+Good Times, Just Causes, Great Fights And Other Appreciations." (SOUNDBITE OF 
+ARCHIVED BROADCAST) JOHN MCCAIN: (Reading) I'd like to see our politics begin 
+to return to the purposes and practices that distinguish our history from the 
+history of other nations. I'd like to see us recover our sense that we're 
+more alike than different. We're citizens of a republic made of shared 
+ideals, forged in a new world to replace the tribal enmities that tormented 
+the old one. Even in times of political turmoil such as these, we share that 
+awesome heritage and the responsibility to embrace it. Whether we think each 
+other right or wrong in our views on the issues of the day, we owe each other 
+our respect, as so
+</div></div><div class="teaser-icons"><span>August 26, 2018</span><span><div class="easy_social-widget easy_social-widget-twitter first"><iframe data-url="http://feedproxy.google.com/~r/gpbnews/newsRSS/~3/sk8IhkFGmUI/mccains-legislative-years" src="http://platform.twitter.com/widgets/tweet_button.baa54ded21a982344c4ced326592f3de.en.html#dnt=false&amp;id=twitter-widget-0&amp;lang=en&amp;original_referer=http%3A%2F%2Fwww.gpb.org&amp;related=%3ACheck%20it%20out!&amp;size=m&amp;text=McCain's Legislative Years&amp;type=share&amp;url=http://feedproxy.google.com/~r/gpbnews/newsRSS/~3/sk8IhkFGmUI/mccains-legislative-years" title="Twitter Tweet Button" style="position: static; visibility: visible; width: 61px; height: 20px;" class="twitter-share-button twitter-share-button-rendered twitter-tweet-button" allowtransparency="true" scrolling="no" id="twitter-widget-0" frameborder="0"></iframe></div>
+          <div class="easy_social-widget easy_social-widget-facebook last"><iframe src="http://www.facebook.com/plugins/like.php?locale=en_US&amp;href=http://feedproxy.google.com/~r/gpbnews/newsRSS/~3/sk8IhkFGmUI/mccains-legislative-years;send=false&amp;layout=button_count&amp;width=88&amp;show_faces=true&amp;action=like&amp;colorscheme=light&amp;font=&amp;height=21&amp;appId=" scrolling="no" style="border:none; overflow:hidden; width:88px; height:21px;" allowtransparency="true" frameborder="0"></iframe></div></div></div></span><div class="views-row views-row-5"><div class="card-image"><a target="_blank" href="http://feedproxy.google.com/~r/gpbnews/newsRSS/~3/wRtAiB5FAdc/mccain-presidential-campaigner"><img src="sites/all/themes/custom/gpb_next/images/home/gpbNews-default.jpg"></a></div><div class="teaser-text"><h4><a target="_blank" href="http://feedproxy.google.com/~r/gpbnews/newsRSS/~3/wRtAiB5FAdc/mccain-presidential-campaigner">McCain, The Presidential Campaigner</a></h4><div class="teaser-desc">Copyright 2018 NPR. To see more, visit MICHEL MARTIN, HOST: Finally, today, 
+we're going to hear Senator John McCain in his own words. Back in May, he 
+recorded himself reading excerpts of his memoir. Here he is reading from "The 
+Restless Wave: Good Times, Just Causes, Great Fights And Other 
+Appreciations." (SOUNDBITE OF ARCHIVED BROADCAST) JOHN MCCAIN: (Reading) I'd 
+like to see our politics begin to return to the purposes and practices that 
+distinguish our history from the history of other nations. I'd like to see us 
+recover our sense that we're more alike than different. We're citizens of a 
+republic made of shared ideals, forged in a new world to replace the tribal 
+enmities that tormented the old one. Even in times of political turmoil such 
+as these, we share that awesome heritage and the responsibility to embrace 
+it. Whether we think each other right or wrong in our views on the issues of 
+the day, we owe each other our respect, as so long as our character merits 
+respect and as long as
+</div></div><div class="teaser-icons"><span>August 26, 2018</span><span><div class="easy_social-widget easy_social-widget-twitter first"><iframe data-url="http://feedproxy.google.com/~r/gpbnews/newsRSS/~3/wRtAiB5FAdc/mccain-presidential-campaigner" src="http://platform.twitter.com/widgets/tweet_button.baa54ded21a982344c4ced326592f3de.en.html#dnt=false&amp;id=twitter-widget-0&amp;lang=en&amp;original_referer=http%3A%2F%2Fwww.gpb.org&amp;related=%3ACheck%20it%20out!&amp;size=m&amp;text=McCain, The Presidential Campaigner&amp;type=share&amp;url=http://feedproxy.google.com/~r/gpbnews/newsRSS/~3/wRtAiB5FAdc/mccain-presidential-campaigner" title="Twitter Tweet Button" style="position: static; visibility: visible; width: 61px; height: 20px;" class="twitter-share-button twitter-share-button-rendered twitter-tweet-button" allowtransparency="true" scrolling="no" id="twitter-widget-0" frameborder="0"></iframe></div>
+          <div class="easy_social-widget easy_social-widget-facebook last"><iframe src="http://www.facebook.com/plugins/like.php?locale=en_US&amp;href=http://feedproxy.google.com/~r/gpbnews/newsRSS/~3/wRtAiB5FAdc/mccain-presidential-campaigner;send=false&amp;layout=button_count&amp;width=88&amp;show_faces=true&amp;action=like&amp;colorscheme=light&amp;font=&amp;height=21&amp;appId=" scrolling="no" style="border:none; overflow:hidden; width:88px; height:21px;" allowtransparency="true" frameborder="0"></iframe></div></div></div></span><div style="clear:both; text-align:center;"><div class="btn-green"><a href="http://gpbnews.org" target="_blank">See More News</a></div></div></div>  </div>
+</div>
+</div><div  id="quicktabs-tabpage-home_top_5-2" class="quicktabs-tabpage quicktabs-hide"><div class="view view-gpb-home-blogs view-id-gpb_home_blogs view-display-id-block_1 home-blog view-dom-id-dad1902af783d2a141774b0d7ae48e78">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content"><div class="card-image">
+  <a href="/blogs/gpb-sports-blog/2018/08/25/friday-recap-marist-40-lovett-20"><img src="http://www.gpb.org/sites/www.gpb.org/files/styles/redesign_600x333/public/blogs/images/2018/08/25/blog_header_marist_lovett.jpg?itok=Zob7o-v5" width="600" height="333" alt="" /></a>
+</div>
+<div class="teaser-text">
+<span class="blog-name-3wide"><i class="fa fa-caret-right" aria-hidden="true"></i> GPB Sports Blog</span>
+  <h4><a href="/blogs/gpb-sports-blog/2018/08/25/friday-recap-marist-40-lovett-20">Friday Recap: Marist 40, Lovett 20</a></h4>
+  <p></p>
+  <p>Marist took advantage of turnovers and defeated Lovett in its season opener.</p>
+</div>
+<div class="teaser-icons">
+    <span class="left">August 25, 2018</span>
+    <span class="right"><div class="easy_social_box clearfix horizontal easy_social_lang_">
+            <div class="easy_social-widget easy_social-widget-twitter first"><a href="http://twitter.com/share" class="twitter-share-button"
+data-url="http://www.gpb.org/blogs/gpb-sports-blog/2018/08/25/friday-recap-marist-40-lovett-20"
+data-count="horizontal"
+data-lang = "en"
+data-via=""
+data-related=":Check it out!"
+data-text="Friday Recap: Marist 40, Lovett 20">Tweet</a></div>
+          <div class="easy_social-widget easy_social-widget-facebook last"><iframe src="//www.facebook.com/plugins/like.php?locale=en_US&amp;href=http%3A//www.gpb.org/blogs/gpb-sports-blog/2018/08/25/friday-recap-marist-40-lovett-20&amp;send=false&amp;layout=button_count&amp;width=88&amp;show_faces=true&amp;action=like&amp;colorscheme=light&amp;font=&amp;height=21&amp;appId=1392484037453626" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:88px; height:21px;" allowTransparency="true"></iframe></div>
+  </div> <!-- /.easy_social_box --></span>
+</div></span>  </div>  </div>
+  <div class="views-row views-row-2 views-row-even">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content"><div class="card-image">
+  <a href="/blogs/education-matters/2018/08/24/georgia-high-school-drone-team-clinches-national-uas4stem"><img src="http://www.gpb.org/sites/www.gpb.org/files/styles/redesign_600x333/public/blogs/images/2018/08/24/screen_shot_2018-08-24_at_10.38.58_am.png?itok=NsbFKTPQ" width="600" height="333" alt="" /></a>
+</div>
+<div class="teaser-text">
+<span class="blog-name-3wide"><i class="fa fa-caret-right" aria-hidden="true"></i> Education Matters</span>
+  <h4><a href="/blogs/education-matters/2018/08/24/georgia-high-school-drone-team-clinches-national-uas4stem">Georgia High School Drone Team Clinches National UAS4STEM Championship</a></h4>
+  <p></p>
+  <p>The McIntosh Multi-Rotor Team earned its second consecutive championship win and a $2,500 cash prize. </p>
+</div>
+<div class="teaser-icons">
+    <span class="left">August 24, 2018</span>
+    <span class="right"><div class="easy_social_box clearfix horizontal easy_social_lang_">
+            <div class="easy_social-widget easy_social-widget-twitter first"><a href="http://twitter.com/share" class="twitter-share-button"
+data-url="http://www.gpb.org/blogs/education-matters/2018/08/24/georgia-high-school-drone-team-clinches-national-uas4stem"
+data-count="horizontal"
+data-lang = "en"
+data-via=""
+data-related=":Check it out!"
+data-text="Georgia High School Drone Team Clinches National UAS4STEM Championship">Tweet</a></div>
+          <div class="easy_social-widget easy_social-widget-facebook last"><iframe src="//www.facebook.com/plugins/like.php?locale=en_US&amp;href=http%3A//www.gpb.org/blogs/education-matters/2018/08/24/georgia-high-school-drone-team-clinches-national-uas4stem&amp;send=false&amp;layout=button_count&amp;width=88&amp;show_faces=true&amp;action=like&amp;colorscheme=light&amp;font=&amp;height=21&amp;appId=1392484037453626" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:88px; height:21px;" allowTransparency="true"></iframe></div>
+  </div> <!-- /.easy_social_box --></span>
+</div></span>  </div>  </div>
+  <div class="views-row views-row-3 views-row-odd">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content"><div class="card-image">
+  <a href="/blogs/gpb-sports-blog/2018/08/23/week-one-what-we-learned"><img src="http://www.gpb.org/sites/www.gpb.org/files/styles/redesign_600x333/public/blogs/images/2018/08/22/image1.jpeg?itok=g5NjG6CX" width="600" height="333" alt="" /></a>
+</div>
+<div class="teaser-text">
+<span class="blog-name-3wide"><i class="fa fa-caret-right" aria-hidden="true"></i> GPB Sports Blog</span>
+  <h4><a href="/blogs/gpb-sports-blog/2018/08/23/week-one-what-we-learned">Week One: What We Learned</a></h4>
+  <p></p>
+  <p>So we’re off and running with the GHSA Football season. After calling seven of the nine games in the Corky Kell Classic last weekend, here&#039;s what I learned.</p>
+</div>
+<div class="teaser-icons">
+    <span class="left">August 23, 2018</span>
+    <span class="right"><div class="easy_social_box clearfix horizontal easy_social_lang_">
+            <div class="easy_social-widget easy_social-widget-twitter first"><a href="http://twitter.com/share" class="twitter-share-button"
+data-url="http://www.gpb.org/blogs/gpb-sports-blog/2018/08/23/week-one-what-we-learned"
+data-count="horizontal"
+data-lang = "en"
+data-via=""
+data-related=":Check it out!"
+data-text="Week One: What We Learned">Tweet</a></div>
+          <div class="easy_social-widget easy_social-widget-facebook last"><iframe src="//www.facebook.com/plugins/like.php?locale=en_US&amp;href=http%3A//www.gpb.org/blogs/gpb-sports-blog/2018/08/23/week-one-what-we-learned&amp;send=false&amp;layout=button_count&amp;width=88&amp;show_faces=true&amp;action=like&amp;colorscheme=light&amp;font=&amp;height=21&amp;appId=1392484037453626" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:88px; height:21px;" allowTransparency="true"></iframe></div>
+  </div> <!-- /.easy_social_box --></span>
+</div></span>  </div>  </div>
+  <div class="views-row views-row-4 views-row-even">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content"><div class="card-image">
+  <a href="/blogs/gpb-sports-blog/2018/08/22/stoneman-douglas-play-for-the-17-at-milton-event"><img src="http://www.gpb.org/sites/www.gpb.org/files/styles/redesign_600x333/public/blogs/images/2018/08/22/milton_field.jpg?itok=KWTy2sQK" width="600" height="333" alt="" /></a>
+</div>
+<div class="teaser-text">
+<span class="blog-name-3wide"><i class="fa fa-caret-right" aria-hidden="true"></i> GPB Sports Blog</span>
+  <h4><a href="/blogs/gpb-sports-blog/2018/08/22/stoneman-douglas-play-for-the-17-at-milton-event">Stoneman Douglas To Play For &#039;The 17&#039; At Milton Event</a></h4>
+  <p></p>
+  <p>Stoneman Douglas Will Participate in the Freedom Bowl weekend of games hosted by Milton High School. </p>
+</div>
+<div class="teaser-icons">
+    <span class="left">August 22, 2018</span>
+    <span class="right"><div class="easy_social_box clearfix horizontal easy_social_lang_">
+            <div class="easy_social-widget easy_social-widget-twitter first"><a href="http://twitter.com/share" class="twitter-share-button"
+data-url="http://www.gpb.org/blogs/gpb-sports-blog/2018/08/22/stoneman-douglas-play-for-the-17-at-milton-event"
+data-count="horizontal"
+data-lang = "en"
+data-via=""
+data-related=":Check it out!"
+data-text="Stoneman Douglas To Play For 'The 17' At Milton Event">Tweet</a></div>
+          <div class="easy_social-widget easy_social-widget-facebook last"><iframe src="//www.facebook.com/plugins/like.php?locale=en_US&amp;href=http%3A//www.gpb.org/blogs/gpb-sports-blog/2018/08/22/stoneman-douglas-play-for-the-17-at-milton-event&amp;send=false&amp;layout=button_count&amp;width=88&amp;show_faces=true&amp;action=like&amp;colorscheme=light&amp;font=&amp;height=21&amp;appId=1392484037453626" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:88px; height:21px;" allowTransparency="true"></iframe></div>
+  </div> <!-- /.easy_social_box --></span>
+</div></span>  </div>  </div>
+  <div class="views-row views-row-5 views-row-odd views-row-last">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content"><div class="card-image">
+  <a href="/blogs/gpb-sports-blog/2018/08/21/the-new-kid-in-town"><img src="http://www.gpb.org/sites/www.gpb.org/files/styles/redesign_600x333/public/blogs/images/2018/08/21/untitled_design-2.png?itok=xj2dvNV8" width="600" height="333" alt="" /></a>
+</div>
+<div class="teaser-text">
+<span class="blog-name-3wide"><i class="fa fa-caret-right" aria-hidden="true"></i> GPB Sports Blog</span>
+  <h4><a href="/blogs/gpb-sports-blog/2018/08/21/the-new-kid-in-town">The New Kid In Town</a></h4>
+  <p></p>
+  <p>Mark Ledford is enjoying a chance to step back and work with a ninth grade football program</p>
+</div>
+<div class="teaser-icons">
+    <span class="left">August 21, 2018</span>
+    <span class="right"><div class="easy_social_box clearfix horizontal easy_social_lang_">
+            <div class="easy_social-widget easy_social-widget-twitter first"><a href="http://twitter.com/share" class="twitter-share-button"
+data-url="http://www.gpb.org/blogs/gpb-sports-blog/2018/08/21/the-new-kid-in-town"
+data-count="horizontal"
+data-lang = "en"
+data-via=""
+data-related=":Check it out!"
+data-text="The New Kid In Town">Tweet</a></div>
+          <div class="easy_social-widget easy_social-widget-facebook last"><iframe src="//www.facebook.com/plugins/like.php?locale=en_US&amp;href=http%3A//www.gpb.org/blogs/gpb-sports-blog/2018/08/21/the-new-kid-in-town&amp;send=false&amp;layout=button_count&amp;width=88&amp;show_faces=true&amp;action=like&amp;colorscheme=light&amp;font=&amp;height=21&amp;appId=1392484037453626" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:88px; height:21px;" allowTransparency="true"></iframe></div>
+  </div> <!-- /.easy_social_box --></span>
+</div></span>  </div>  </div>
+    </div>
+  
+  
+  
+  
+      <div class="view-footer">
+      <div style="clear:both; text-align:center;">
+<div class="btn-green"><a href="/blogs">See More Blogs</a></div>
+</div>
+    </div>
+  
+  
+</div></div></div></div>    </div>
+      </div><!-- /inside-wrapper -->
+    </section>
+  		
+	    <section class="l-1-col__banner-ad social-background">
+          <div class="inside-wrapper">
+			<div class="panel-pane pane-custom pane-1">
+          <h2 class="pane-title">Connect With Us</h2>
+        <!-- &nbsp; -->    </div>
+<div class="panel-pane pane-panels-mini pane-connect-home-mygpb connect-tweets-fb social-wrapper-outer">
+          <h2 class="pane-title"><i class="fa fa-twitter" aria-hidden="true"></i> Latest Tweet from <a href="https://twitter.com/myGPB">@myGPB</a></h2>
+         <div class="l-2-col content">
+
+  
+  	 	
+	 
+    
+<div class="content__middle">
+	<div class="inside-wrapper">
+      <section class="l-2-col__left content__left ">
+          <div id="gpb-tweets" class="panel-pane pane-views pane-tweets">
+            <div class="view view-tweets view-id-tweets view-display-id-page_2 view-dom-id-e5362f14cdd6c372bcb1f81388665aff">
+        
+  
+  
+      <div class="view-content">
+      <div class="item-list"><ul>  <li class="views-row views-row-1 views-row-odd views-row-first views-row-last">  
+  <div class="views-field views-field-formatted-tweet">        <span class="field-content"><div class="twitter-status clearfix">
+  <div class="avatar">
+    <a href="https://twitter.com/mygpb" title="GPB">
+      <img src="http://pbs.twimg.com/profile_images/748228712626266113/bZ2XUQ7O_normal.jpg" alt="GPB" />
+    </a>
+  </div>
+
+  <div class="timestamp">
+    <em class="placeholder">5 hours 7 min</em> ago  </div>
+
+  <div class="name-handle">
+    <div class="name">
+      <a href="https://twitter.com/mygpb">GPB</a>
+    </div>
+
+    <div class="handle">
+      <a href="https://twitter.com/mygpb">@mygpb</a>
+    </div>
+  </div>
+
+  <div class="text">
+    The creation of <a target="_blank" rel="nofollow" class="twitter-timeline-link" target="_blank" rel="nofollow" class="twitter-timeline-link" href="https://twitter.com/HamiltonMusical" class="twitter-atreply"><a target="_blank" rel="nofollow" class="twitter-timeline-link" href="https://twitter.com/HamiltonMusical" class="twitter-atreply">@HamiltonMusical</a></a> examined, including excerpts from the New York production, on <a target="_blank" rel="nofollow" class="twitter-timeline-link" target="_blank" rel="nofollow" class="twitter-timeline-link" href="https://twitter.com/GPerfPBS" class="twitter-atreply"><a target="_blank" rel="nofollow" class="twitter-timeline-link" href="https://twitter.com/GPerfPBS" class="twitter-atreply">@GPerfPBS</a></a> "Hamilton'… <a target="_blank" rel="nofollow" class="twitter-timeline-link" href="https://t.co/y9OGwuUWMT">https://t.co/y9OGwuUWMT</a>  </div>
+
+  <ul class="actions">
+    <li><a href=
+    "https://twitter.com/intent/tweet?in_reply_to=1033845354276499456">Reply</a></li>
+
+    <li><a href=
+    "https://twitter.com/intent/retweet?tweet_id=1033845354276499456">Retweet</a></li>
+
+    <li><a href=
+    "https://twitter.com/intent/favorite?tweet_id=1033845354276499456">Favorite</a></li>
+  </ul>
+</div>
+</span>  </div></li>
+</ul></div>    </div>
+  
+  
+  
+  
+  
+  
+</div>    </div>
+    </section>
+  
+      <section class="l-2-col__right content__right aside ">
+          <div class="panel-pane pane-custom pane-2 fb-connect">
+            <div class="social-wrapper-inner"><div class="facebook-wrapper"><!-- Facebook like button --><h3>Like us on <a href="https://www.facebook.com/gpbmedia" target="_blank">Facebook</a> to stay up to date with all that GPB has to offer!</h3><div id="fb-root">&nbsp;</div><script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script><div class="fb-like" data-action="like" data-href="https://www.facebook.com/gpbmedia" data-layout="button_count" data-share="true" data-show-faces="true">&nbsp;</div><!-- /end facebook like button --></div></div>    </div>
+    </section>
+  	</div>
+</div>
+	 	
+	 	
+	 	 
+
+  
+  
+  
+</div> <!-- end l-1-col -->    </div>
+<div class="panel-pane pane-block pane-google-admanager-a17aeef8d65e981ad08e71e2b1270688 ad-728x90 pane-google-admanager">
+            <div id="gam-holder-Home-Desktop-Leaderboard-1" class="gam-holder"><script type="text/javascript">GA_googleFillSlot("Home-Desktop-Leaderboard-1");</script></div>    </div>
+<div class="panel-pane pane-block pane-google-admanager-74d44c8e58b2cf31509e0aa0ef9f010c ad-300x250-mobile pane-google-admanager">
+            <div id="gam-holder-Home-Mobile-MedRect-1" class="gam-holder"><script type="text/javascript">GA_googleFillSlot("Home-Mobile-MedRect-1");</script></div>    </div>
+			</div>
+	</section>
+  
+      <section class="l-1-col__middle content__middle grey-texture-section">
+      <div class="inside-wrapper">
+          <div class="panel-pane pane-gpb-now-most-popular-v2">
+          <h2 class="pane-title">Watch Now</h2>
+        <section class="watch-listen-wrapper"><div class="sq-1"><a href="/television/shows/the-great-american-read"><img src="http://www.gpb.org/sites/www.gpb.org/files/styles/792x445/public/externals/1404bc594780d5d6e384f6c0c3749146.jpg?itok=odIgU8uJ" width="792" height="445" alt="The Great American Read" /></a></div><div class="sq-2"><a href="/television/shows/a-seat-at-the-table"><img src="http://www.gpb.org/sites/www.gpb.org/files/styles/792x445/public/externals/7e25925638027e77a98bcf12fb54d8ee.jpeg?itok=I-EiZln5" width="792" height="445" alt="A Seat at the Table" /></a></div><div class="sq-3"><a href="/television/shows/outback"><img src="http://www.gpb.org/sites/www.gpb.org/files/styles/792x445/public/externals/3dbb1a2ae8640d897642ab70e37bc738.jpg?itok=zKD5RyOT" width="792" height="445" alt="Outback" /></a></div><div class="sq-4"><a href="/television/shows/10-that-changed-america"><img src="http://www.gpb.org/sites/www.gpb.org/files/styles/792x445/public/externals/cff30e7dbe06103df6dfbf8f783a4a57.jpg?itok=63TVm0LC" width="792" height="445" alt="10 That Changed America" /></a></div><div class="sq-5"><a href="/television/shows/hometown-georgia"><img src="http://www.gpb.org/sites/www.gpb.org/files/styles/792x445/public/externals/da6dbf8f2cc750f1f1044f99cf639f0e.png?itok=8QWbOM8Y" width="792" height="445" alt="Hometown Georgia" /></a></div><div class="sq-6"><a href="/television/shows/the-great-british-baking-show"><img src="http://www.gpb.org/sites/www.gpb.org/files/styles/792x445/public/externals/53c326fa632e96be546ce6ef3d631950.jpg?itok=qsEInsah" width="792" height="445" alt="The Great British Baking Show" /></a></div></section>    </div>
+      </div><!-- /inside-wrapper -->
+    </section>
+  	
+	    <section class="l-1-col__banner-ad home-apps-section">
+      <div class="inside-wrapper">    
+			<div class="panel-pane pane-custom pane-3">
+            <div class="app-content"><a href="/apps"><br /><div class="gpb-apps-logo"><img src="/sites/www.gpb.org/files/images/gpbapps-logo3.png" /></div>
+<div class="apps-text">
+<p> Access GPB content anytime, anywhere from your mobile phone, tablet or television.</p>
+</div>
+<div class="getthemnow"><a href="/apps"><img src="/sites/www.gpb.org/files/images/getthemnow-button4.png" /></a></div>
+<div class="app-platforms">
+<p>AVAILABLE ON</p>
+<p><img src="/sites/www.gpb.org/files/images/app-platforms.png" /></p></div>
+</a></div>
+<div class="app-preview"><a href="/apps"><img src="/sites/www.gpb.org/files/images/app-previews10.png" /></a></div>
+    </div>
+			</div>
+    </section>
+  
+      <section class="l-1-col__lower content__lower home-edu-section">
+      <div class="inside-wrapper">
+          <div class="panel-pane pane-panels-mini pane-homepage-education home-education">
+            
+  <div class="l-mini-1 mini__wrapper">
+          <div class="l-mini__row">
+          <div class="panel-pane pane-views-panes pane-gpb-home-community-panel-pane-1 home-edu-blogs">
+          <h2 class="pane-title">Education Blogs</h2>
+        <div class="view view-gpb-home-community view-id-gpb_home_community view-display-id-panel_pane_1 view-dom-id-32a0b93ee1c203a58a0ef212d6a6f266">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content"><div class="card-image">
+<a href="/blogs/education-matters/2018/08/24/georgia-high-school-drone-team-clinches-national-uas4stem"><img src="http://www.gpb.org/sites/www.gpb.org/files/styles/redesign_600x333/public/blogs/images/2018/08/24/screen_shot_2018-08-24_at_10.38.58_am.png?itok=NsbFKTPQ" width="600" height="333" alt="" /></a>
+</div>
+<div class="teaser-text">
+  <h4><a href="/blogs/education-matters/2018/08/24/georgia-high-school-drone-team-clinches-national-uas4stem">Georgia High School Drone Team Clinches National UAS4STEM Championship</a></h4>
+<p>The McIntosh Multi-Rotor Team earned its second consecutive championship win and a $2,500 cash prize. </p>
+</div>
+<div class="teaser-icons">
+    <span>August 24, 2018</span>
+    <span><div class="easy_social_box clearfix horizontal easy_social_lang_">
+            <div class="easy_social-widget easy_social-widget-twitter first"><a href="http://twitter.com/share" class="twitter-share-button"
+data-url="http://www.gpb.org/blogs/education-matters/2018/08/24/georgia-high-school-drone-team-clinches-national-uas4stem"
+data-count="horizontal"
+data-lang = "en"
+data-via=""
+data-related=":Check it out!"
+data-text="Georgia High School Drone Team Clinches National UAS4STEM Championship">Tweet</a></div>
+          <div class="easy_social-widget easy_social-widget-facebook last"><iframe src="//www.facebook.com/plugins/like.php?locale=en_US&amp;href=http%3A//www.gpb.org/blogs/education-matters/2018/08/24/georgia-high-school-drone-team-clinches-national-uas4stem&amp;send=false&amp;layout=button_count&amp;width=88&amp;show_faces=true&amp;action=like&amp;colorscheme=light&amp;font=&amp;height=21&amp;appId=1392484037453626" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:88px; height:21px;" allowTransparency="true"></iframe></div>
+  </div> <!-- /.easy_social_box --></span>
+</div></span>  </div>  </div>
+  <div class="views-row views-row-2 views-row-even">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content"><div class="card-image">
+<a href="/blogs/education-matters/2018/08/20/the-intentional-bookshelf-for-your-classroom"><img src="http://www.gpb.org/sites/www.gpb.org/files/styles/redesign_600x333/public/blogs/images/2018/08/16/books-on-a-bookshelf.jpg?itok=ZcYMi_zg" width="600" height="333" alt="" /></a>
+</div>
+<div class="teaser-text">
+  <h4><a href="/blogs/education-matters/2018/08/20/the-intentional-bookshelf-for-your-classroom">&quot;The Intentional Bookshelf&quot; For Your Classroom</a></h4>
+<p>Imagine if, as an educator, you took the time to carefully select which books you highlighted in your classroom and within your class bookshelf - consider the impact you could have.</p>
+</div>
+<div class="teaser-icons">
+    <span>August 20, 2018</span>
+    <span><div class="easy_social_box clearfix horizontal easy_social_lang_">
+            <div class="easy_social-widget easy_social-widget-twitter first"><a href="http://twitter.com/share" class="twitter-share-button"
+data-url="http://www.gpb.org/blogs/education-matters/2018/08/20/the-intentional-bookshelf-for-your-classroom"
+data-count="horizontal"
+data-lang = "en"
+data-via=""
+data-related=":Check it out!"
+data-text=""The Intentional Bookshelf" For Your Classroom">Tweet</a></div>
+          <div class="easy_social-widget easy_social-widget-facebook last"><iframe src="//www.facebook.com/plugins/like.php?locale=en_US&amp;href=http%3A//www.gpb.org/blogs/education-matters/2018/08/20/the-intentional-bookshelf-for-your-classroom&amp;send=false&amp;layout=button_count&amp;width=88&amp;show_faces=true&amp;action=like&amp;colorscheme=light&amp;font=&amp;height=21&amp;appId=1392484037453626" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:88px; height:21px;" allowTransparency="true"></iframe></div>
+  </div> <!-- /.easy_social_box --></span>
+</div></span>  </div>  </div>
+  <div class="views-row views-row-3 views-row-odd views-row-last">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content"><div class="card-image">
+<a href="/blogs/education-matters/2018/08/14/the-governors-office-of-student-achievement-now-accepting"><img src="http://www.gpb.org/sites/www.gpb.org/files/styles/redesign_600x333/public/blogs/images/2018/08/14/screen_shot_2018-08-14_at_9.44.43_am.png?itok=zBMT4uWJ" width="600" height="333" alt="" /></a>
+</div>
+<div class="teaser-text">
+  <h4><a href="/blogs/education-matters/2018/08/14/the-governors-office-of-student-achievement-now-accepting">The Governor’s Office Of Student Achievement Now Accepting Applications For 2018-2019 Innovation Fund And Teaching Competition</a></h4>
+<p>Grants range from $10,000 up to $700,000 for innovative programs and teaching practices. </p>
+</div>
+<div class="teaser-icons">
+    <span>August 14, 2018</span>
+    <span><div class="easy_social_box clearfix horizontal easy_social_lang_">
+            <div class="easy_social-widget easy_social-widget-twitter first"><a href="http://twitter.com/share" class="twitter-share-button"
+data-url="http://www.gpb.org/blogs/education-matters/2018/08/14/the-governors-office-of-student-achievement-now-accepting"
+data-count="horizontal"
+data-lang = "en"
+data-via=""
+data-related=":Check it out!"
+data-text="The Governor’s Office Of Student Achievement Now Accepting Applications For 2018-2019 Innovation Fund And Teaching Competition">Tweet</a></div>
+          <div class="easy_social-widget easy_social-widget-facebook last"><iframe src="//www.facebook.com/plugins/like.php?locale=en_US&amp;href=http%3A//www.gpb.org/blogs/education-matters/2018/08/14/the-governors-office-of-student-achievement-now-accepting&amp;send=false&amp;layout=button_count&amp;width=88&amp;show_faces=true&amp;action=like&amp;colorscheme=light&amp;font=&amp;height=21&amp;appId=1392484037453626" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:88px; height:21px;" allowTransparency="true"></iframe></div>
+  </div> <!-- /.easy_social_box --></span>
+</div></span>  </div>  </div>
+    </div>
+  
+  
+  
+  
+      <div class="view-footer">
+      <p></p><center><br /><div class="btn btn-gpb_blue">
+<a href="/blogs/education-matters">More Blogs</a>
+</div>
+<p></p></center>
+    </div>
+  
+  
+</div>    </div>
+<div class="panel-pane pane-views-panes pane-gpb-home-education-panel-pane-1 home-edu-spotlight">
+          <h2 class="pane-title">Education Spotlight</h2>
+        <div class="view view-gpb-home-education view-id-gpb_home_education view-display-id-panel_pane_1 view-dom-id-0078a03aa2a49078b46b9a98f39668da">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+      
+  <div class="views-field views-field-field-edures-photo">        <div class="field-content"><a href="http://www.gpb.org/writers-contest"><img src="http://www.gpb.org/sites/www.gpb.org/files/styles/340xwhatever/public/education-resources/images/2018/02/06/blog-pbs-kids-writers-contest.jpg?itok=9YzoB9S7" width="340" height="191" alt="" /></a></div>  </div>  
+  <div class="views-field views-field-nothing">        <span class="field-content"><div class="teaser-text">
+  <h4><a href="http://www.gpb.org/writers-contest">Writers Contest </a></h4>
+  <p> <p>Meet the winners of the 2018 PBS KIDS Writers Contest and listen as they narrate their award-winning stories! The annual contest is open to kids in kindergarten through third grade. </p>
+</p>
+  <p><a href="http://www.gpb.org/writers-contest">Learn More &gt;&gt;</a></p>
+</div></span>  </div>  </div>
+    </div>
+  
+  
+  
+  
+      <div class="view-footer">
+      <p></p><center><br /><div class="btn btn-green">
+<a href="/education/resources/level/all">GPB's Education Resources</a>
+</div>
+<p></p></center>
+    </div>
+  
+  
+</div>    </div>
+      </div>
+      </div>
+    </div>
+      </div><!-- /inside-wrapper -->
+    </section>
+    
+      <section class="l-1-col__banner-ad browse-background">
+      <div class="inside-wrapper">
+          <div class="panel-pane pane-panels-mini pane-browse-by-section-homepage-mini l-browse">
+            
+  <div class="l-mini-1 mini__wrapper">
+          <div class="l-mini__row">
+          <div class="panel-pane pane-custom pane-4 l-browse-left">
+                            <h2>Browse by Section</h2>
+                <ul class="left">
+                    <li>
+                        <img class="news-icon" src="/sites/www.gpb.org/files/homepage/news-icon.png" />
+                        <div class="browse-subtitles">
+                            <h2><a href="http://www.gpbnews.org/" target="_blank">News</a></h2>
+                            <p>Your local and national news source</p>
+                        </div>
+                    </li>
+                    <li> 
+                        <img class="tv-icon" src="/sites/www.gpb.org/files/homepage/tv-icon.png" />
+                        <div class="browse-subtitles">
+                            <h2><a href="/television">TV</a></h2>
+                            <p>Learn more about our local and national shows</p>
+                        </div>
+                    </li>
+                    <li>
+                        <img class="sports-icon" src="/sites/www.gpb.org/files/homepage/sports-icon.png" />
+                        <div class="browse-subtitles">
+                            <h2><a href="/sports">Sports</a></h2>
+                            <p>Catch up on your favorite high school sports</p>
+                        </div>
+                    </li>
+                    <li>
+                        <img class="video-icon" src="/sites/all/themes/custom/gpb_next/images/icons/heart-icon.png" />
+                        <div class="browse-subtitles">
+                            <h2><a href="/support">Support</a></h2>
+                            <p>Support Georgia Public Broadcasting today</p>
+                        </div>
+                    </li>
+                </ul>
+                <ul class="right">
+                    <li>
+                        <img class="radio-icon" src="/sites/www.gpb.org/files/homepage/radio-icon.png" />
+                        <div class="browse-subtitles">
+                            <h2><a href="http://www.gpbnews.org/programs" target="_blank">Radio</a></h2>
+                            <p>Listen to music, news and more</p>
+                        </div>
+                    </li>
+                    <li>
+                        <img class="education-icon" src="/sites/www.gpb.org/files/homepage/education-icon.png" />
+                        <div class="browse-subtitles">
+                            <h2><a href="/education">Education</a></h2>
+                            <p>Learn more about our education resources</p>
+                        </div>
+                    </li>
+                    <li>
+                        <img class="blogs-icon" src="/sites/www.gpb.org/files/homepage/blogs-icon.png" />
+                        <div class="browse-subtitles">
+                            <h2><a href="/blogs">Blogs</a></h2>
+                            <p>Read, discuss and connect with us</p>
+                        </div>
+                    </li>
+                    <li>
+                        <img class="gpb-kids-icon" src="/sites/www.gpb.org/files/homepage/gpb-kids-icon.png" />
+                        <div class="browse-subtitles">
+                            <h2><a href="http://www.gpbkids.org" target="_blank">GPB Kids</a></h2>
+                            <p>Play kids games</p> 
+                        </div>
+                    </li>
+                </ul>
+
+    </div>
+<div class="panel-pane pane-block pane-google-admanager-a9c4305ade878454d3be149bb0303cba l-browse-right pane-google-admanager">
+            <div id="gam-holder-Home-Universal-MedRect" class="gam-holder"><script type="text/javascript">GA_googleFillSlot("Home-Universal-MedRect");</script></div>    </div>
+      </div>
+      </div>
+    </div>
+      </div><!-- /inside-wrapper -->
+    </section>
+    	
+      <section class="l-1-col__banner-ad">
+      <div class="inside-wrapper">    
+			<div class="panel-pane pane-block pane-google-admanager-179331bbf047c0f18ef694661ff4d5f4 ad-728x90 pane-google-admanager">
+            <div id="gam-holder-Home-Desktop-Leaderboard-2" class="gam-holder"><script type="text/javascript">GA_googleFillSlot("Home-Desktop-Leaderboard-2");</script></div>    </div>
+<div class="panel-pane pane-block pane-google-admanager-d8a82d8648a8209b531f1258d9a17028 ad-320x50 pane-google-admanager">
+            <div id="gam-holder-Home-Mobile-Banner-3" class="gam-holder"><script type="text/javascript">GA_googleFillSlot("Home-Mobile-Banner-3");</script></div>    </div>
+			</div>
+	</section>		
+  
+  
+      <footer class="main-footer" role="contentinfo">
+          <div class="panel-pane pane-panels-mini pane-gpb-next-footer">
+            
+
+<!-- gpb logo -->
+	<section class="gpb-logo-wrap">
+			<a href="/" rel="home" title="home">
+				<img class="gpb-logo" src="/sites/all/themes/custom/gpb_next/assets/src/icons/gpb-npr-pbs_logoBranchesREV.png"/>
+		</a>
+	</section>
+
+	<section class="footer-nav-wrap">
+			<section class="nav-wrap">
+					<div class="about">
+																<div class="footer-menu__left">
+											<div class="panel-pane pane-block pane-menu-menu-footer-about pane-menu">
+            <ul class="menu"><li class="first leaf"><a href="/about">About</a></li>
+<li class="leaf"><a href="/about/contact">Contact Us</a></li>
+<li class="leaf"><a href="/about/directions">Directions</a></li>
+<li class="leaf"><a href="https://www.easyhrweb.com/JC_GPB/JobListings/JobListings.aspx">Careers</a></li>
+<li class="leaf"><a href="/fcc-public-files">FCC Public Files</a></li>
+<li class="leaf"><a href="/studio-production">Studio Productions</a></li>
+<li class="leaf"><a href="/about/closed-captioning">Closed Captioning</a></li>
+<li class="leaf"><a href="http://www.gpb.org/drawingrules" target="_blank">Drawing Rules</a></li>
+<li class="last leaf"><a href="/accessibility">Accessibility</a></li>
+</ul>    </div>
+									</div>
+														</div>
+					<div class="education">
+																<div class="footer-menu__right">
+											<div class="panel-pane pane-block pane-menu-menu-footer-education pane-menu">
+            <ul class="menu"><li class="first leaf"><a href="/education">Education</a></li>
+<li class="leaf"><a href="/blogs/education-matters">Education Matters Blog</a></li>
+<li class="leaf"><a href="/education/georgia-studies">Georgia Studies Digital Collection</a></li>
+<li class="leaf"><a href="/education/share-your-story">Share Your Story</a></li>
+<li class="last leaf"><a href="/education/resources/subject">Resources by Subject</a></li>
+</ul>    </div>
+									</div>
+														</div>
+			</section>
+
+			<!--// contact section //-->
+			<section class="newsletter-phone-wrap">
+					<!--// news letter //-->
+					<div class="newsletter-wrap">
+							<!-- newsletter -->
+							
+											<div class="panel-pane pane-custom pane-6">
+            <label for="newsletter">Sign up for our newsletter</label>
+<!-- end cvo snip email only -->
+<form method="POST" action="http://gpb.convio.net/site/Survey">
+<input type="hidden" name="cons_info_component" id="cons_info_component" value="t" />
+<input type="hidden" name="SURVEY_ID" id="SURVEY_ID" value="1320" />
+<input type="text" name="cons_email" id="cons_email" placeholder="name@website.com" size="15" maxlength="255" onfocus="if(this.value == 'Email Address'){this.value='';}" onblur="if(this.value == ''){this.value='Email Address';}" name="newsletter" />
+<span style="display:none"><input type="text" name="denySubmit" id="denySubmit" value="" alt="This field is used to prevent form submission by scripts." />Please leave this field empty</span>
+
+<button type="submit" name="ACTION_SUBMIT_SURVEY_RESPONSE" id="ACTION_SUBMIT_SURVEY_RESPONSE" value="Get The Newsletter" class="form-newsletter__submit" /></form><!-- end cvo snip email only -->    </div>
+									
+					</div>
+					<!--// gpb phone numbers //-->
+					<div class="phone-wrap">
+							<!-- contact numbers -->
+																<div class="numbers">
+											<div class="panel-pane pane-custom pane-7">
+            <div class="phone">
+<img src="/sites/all/themes/custom/gpb_next/assets/dist/icons/icon-phone.png"/>
+</div>
+<div class="numbers">
+<p><a href="tel:+1-404-685-2400">404.685.2400</a> In Atlanta<br />
+<a href="tel:+1-800-222-4788">800.222.4788</a> Outside Atlanta</p>
+</div>    </div>
+									</div>
+																				<!-- /contact numbers -->
+					</div>
+			</section>
+		</section>
+        <section class="social-footer">
+
+                <div class="social-icons-wrap">
+                    <!-- social media -->
+                                                <div class="panel-pane pane-custom pane-8">
+            <a class="icon-facebook" title="GPB Facebook Page" href="https://www.facebook.com/gpbmedia/"><i class="fa fa-facebook-square"></i></a>
+<a class="icon-twitter" title="GPB Twitter Page" href="https://twitter.com/mygpb?lang=en"><i class="fa fa-twitter-square"></i></a>
+<a class="icon-youtube" title="GPB Youtube Page" href="https://www.youtube.com/user/gpbweb"><i class="fa fa-youtube-play"></i></a>    </div>
+                                                    <!-- /social media -->
+                </div>
+                <!--// footer legal //-->
+                <div class="legal-wrap">
+                    <!-- legal -->
+                                                <div class="panel-pane pane-custom pane-5">
+            <p>&copy; Copyright <span id="year"></span>, Georgia Public Broadcasting. All Rights Reserved. Georgia Public Radio&reg; GPTV&reg;. 260 14th St NW • Atlanta, GA 30318</p>
+<script>
+   var d = new Date();
+   var n = d.getFullYear();
+   document.getElementById("year").innerHTML = n;
+</script>    </div>
+                                                    <!-- /legal -->
+                </div>
+        </section>
+
+	
+    </div>
+	</footer>
+  
+</div> <!-- end l-1-col -->
+
+</div>
+  <script type="text/javascript">
+  var _sf_async_config=Drupal.settings.chartbeat;
+  (function(){
+    function loadChartbeat() {
+      window._sf_endpt=(new Date()).getTime();
+      var e = document.createElement('script');
+      e.setAttribute('language', 'javascript');
+      e.setAttribute('type', 'text/javascript');
+      e.setAttribute('src',
+         (("https:" == document.location.protocol) ? "https://s3.amazonaws.com/" : "http://") +
+         "static.chartbeat.com/js/chartbeat.js");
+      document.body.appendChild(e);
+    }
+    var oldonload = window.onload;
+    window.onload = (typeof window.onload != 'function') ?
+       loadChartbeat : function() { oldonload(); loadChartbeat(); };
+  })();
+</script><script>
+    if ((navigator.userAgent.toLowerCase().indexOf('firefox') < 0) || (window.location.href.indexOf('search/google') < 0)) {
+      google.setOnLoadCallback( function() {
+        // menu form  
+        var menuSearchField = jQuery('form.form__site-search input[name="keys"]');
+        google.search.CustomSearchControl.attachAutoCompletion('011647421129103490948:ehp7jtg0oe4', menuSearchField.get(0), 'search-form');
+      });
+    }</script>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"87c2e6657b","applicationID":"73174190","transactionName":"YFFaN0BTWRJYABVbXFkbeQBGW1gPFhMAVVZoWVkNU1VSE2YTAFVWaFFABlFHQwQ=","queueTime":0,"applicationTime":13034,"atts":"TBZZQQhJShw=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

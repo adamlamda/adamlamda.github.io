@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta property="fb:app_id" content="197769483626604"/>
+    <meta property="og:site_name" content="IOTM"/>
+    <meta property="og:image" content="https://www.indieonthemove.com/img/bus_128.png"/>
+    <meta property="og:title" content="  Tennessee Radio Stations and Contacts List
+"/>
+    <meta property="og:url" content="https://www.indieonthemove.com/radio/tennessee-radio-contacts"/>
+    <meta property="og:type" content="website"/>
+
+    
+    
+    <!-- CSRF Token -->
+    <meta name="csrf-token" content="bbxuRCVnejeFcEG4k1kqF6XFN4yy0EbgMhXMNKE7">
+
+    <title>  Tennessee Radio Stations and Contacts List
+</title>
+    <meta name="description" content="  From Nashville's 98 WSIX to University of Tennessee Radio, find Tennessee radio stations and contacts for promoting musicians' tours and albums.
+">
+    <meta name="keywords" content="">
+
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-MD79HJN');</script>
+    <!-- End Google Tag Manager -->
+
+    <!-- Styles -->
+    <link href="/css/app.css?id=43e70522c520fa74e355" rel="stylesheet">
+
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+        <style>
+    .nav-search {
+      margin-left: 0.5rem;
+      margin-right: 0.5rem;
+    }
+    .nav-search .btn, .nav-search .btn:active, .nav-search .btn:focus {
+      border: 1px solid rgba(255, 255, 255, 0.5);
+    }
+    .nav-search input, .nav-search input:active,
+    .nav-search input:hover, .nav-search input:focus {
+      border: 1px solid rgba(255, 255, 255, 0.5);
+    }
+  </style>
+
+  <style>
+    h2 {
+      font-size: 1.5rem !important;
+    }
+  </style>
+
+  
+
+          <script>
+var _rollbarConfig = {
+  accessToken: '123a6eaf206043a0b860be956a615433',
+  autoInstrument: true,
+  captureUncaught: true,
+  captureUnhandledRejections: true,
+  payload: {
+    environment: 'production',
+    client: {
+      javascript: {
+	source_map_enabled: true,
+	code_version: "1.0", //TODO Start tagging versions
+	// Optionally have Rollbar guess which frames the error was thrown from
+	// when the browser does not provide line and column numbers.
+	guess_uncaught_frames: true
+      }
+    }
+  }
+};
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/rollbar.js/2.4.2/rollbar.min.js"></script>
+
+    
+    <!-- Scripts -->
+    <script src="https://cdn.polyfill.io/v2/polyfill.min.js"></script>
+    <script>
+     window.Config = {"multiselect_search_result_count":30};
+      window.app = {"csrfToken":"bbxuRCVnejeFcEG4k1kqF6XFN4yy0EbgMhXMNKE7"};
+      window.User = false;
+      window.google_maps_js_key = "AIzaSyBLAyrwAjhvA1qmMk40sxBmxn9FJRk8uYY";
+    </script>
+  </head>
+  <body class="mt-2">
+    <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MD79HJN"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+      <div class="app" id="app">
+    <div class="content-above-footer">
+      <nav class="py-0 navbar navbar-expand-lg bg-dark navbar-dark fixed-top" id="navTop">
+  <div class="container position-relative bg-dark">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <!-- Branding Image -->
+    <a class="d-lg-none center-nav-logo" href="https://www.indieonthemove.com">
+      <img class="navbar-logo" src="https://www.indieonthemove.com/img/bus_105.png">
+    </a>
+    <a class="d-none d-lg-inline" href="https://www.indieonthemove.com">
+      <img class="navbar-logo" src="https://www.indieonthemove.com/img/bus_105.png">
+    </a>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto text-center">
+
+        <li class="nav-item nav-search">
+          <master-search inline-template>
+            <div class="input-group">
+              <input type="text" @keydown.enter="search" v-model="q" class="form-control" placeholder="Search for...">
+              <span class="input-group-btn">
+                <button @click="search" class="btn btn-primary border-radius-0" type="button">
+                  <i class="fa fa-search"></i>
+                </button>
+              </span>
+            </div>
+          </master-search>
+        </li>
+
+        
+                          <li class="nav-item d-lg-none">
+            <a class="nav-link" href="https://www.indieonthemove.com/professional-services">
+              Pro Services
+            </a>
+          </li>
+                  <li class="nav-item d-lg-none">
+            <a class="nav-link" href="https://www.indieonthemove.com/venues">
+              Venues &amp; QuickPitch
+            </a>
+          </li>
+                  <li class="nav-item d-lg-none">
+            <a class="nav-link" href="https://www.indieonthemove.com/college-university-show-booking-directory">
+              Colleges &amp; Universities
+            </a>
+          </li>
+                  <li class="nav-item d-lg-none">
+            <a class="nav-link" href="https://www.indieonthemove.com/music-festivals-and-conferences">
+              Festivals &amp; Conferences
+            </a>
+          </li>
+                  <li class="nav-item d-lg-none">
+            <a class="nav-link" href="https://www.indieonthemove.com/users">
+              Members
+            </a>
+          </li>
+                  <li class="nav-item d-lg-none">
+            <a class="nav-link" href="https://www.indieonthemove.com/show-availabilities">
+              Show Availabilities
+            </a>
+          </li>
+                  <li class="nav-item d-lg-none">
+            <a class="nav-link" href="https://www.indieonthemove.com/band-availabilities">
+              Band Availabilities
+            </a>
+          </li>
+                  <li class="nav-item d-lg-none">
+            <a class="nav-link" href="https://www.indieonthemove.com/classifieds">
+              Classifieds
+            </a>
+          </li>
+                  <li class="nav-item d-lg-none">
+            <a class="nav-link" href="https://www.indieonthemove.com/press-radio-promotion-resources-for-musicians">
+              Promotion
+            </a>
+          </li>
+                  <li class="nav-item d-lg-none">
+            <a class="nav-link" href="https://www.indieonthemove.com/blog">
+              Blog
+            </a>
+          </li>
+                  <li class="nav-item d-lg-none">
+            <a class="nav-link" href="https://www.indieonthemove.com">
+              Home
+            </a>
+          </li>
+                
+        
+                                      <li class="nav-item dropdown d-none d-lg-inline">
+              <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                Features
+              </a>
+              <div class="dropdown-menu">
+                                  <a class="dropdown-item" href="https://www.indieonthemove.com/professional-services">Pro Services</a>
+                                  <a class="dropdown-item" href="https://www.indieonthemove.com/venues">Music Venues Database</a>
+                                  <a class="dropdown-item" href="https://www.indieonthemove.com/quickpitch-emailing">QuickPitch Emailing</a>
+                                  <a class="dropdown-item" href="https://www.indieonthemove.com/college-university-show-booking-directory">Colleges &amp; Universities</a>
+                                  <a class="dropdown-item" href="https://www.indieonthemove.com/music-festivals-and-conferences">Festivals &amp; Conferences</a>
+                                  <a class="dropdown-item" href="https://www.indieonthemove.com/show-availabilities">Show Availabilities</a>
+                                  <a class="dropdown-item" href="https://www.indieonthemove.com/band-availabilities">Band Availabilities</a>
+                                  <a class="dropdown-item" href="https://www.indieonthemove.com/classifieds">Classifieds</a>
+                              </div>
+            </li>
+                                        <li class="nav-item d-none d-lg-inline">
+              <a class="nav-link" href="https://www.indieonthemove.com/users">
+                Members
+              </a>
+            </li>
+                                        <li class="nav-item d-none d-lg-inline">
+              <a class="nav-link" href="https://www.indieonthemove.com/pricing">
+                Account Benefits
+              </a>
+            </li>
+                                        <li class="nav-item d-none d-lg-inline">
+              <a class="nav-link" href="https://www.indieonthemove.com/blog">
+                Blog
+              </a>
+            </li>
+                                        <li class="nav-item d-none d-lg-inline">
+              <a class="nav-link" href="https://www.indieonthemove.com">
+                Home
+              </a>
+            </li>
+                          
+        <li class="nav-item">
+          <button class="w-100 no-border navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="p-0 nav-link">
+              <i class="fa small fa-arrow-up"></i>
+            </span>
+          </button>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Right Side fixed. not in dropdown-->
+    <div class="navbar-fixed-right">
+              <div style="margin-top: 0.1rem">
+  <a class="btn btn-outline-secondary" href="https://www.indieonthemove.com/login?intended=radio%2Ftennessee-radio-contacts">Login</a>
+  <a class="d-none d-sm-inline-block ml-2 btn btn-primary" href="https://www.indieonthemove.com/register">Sign Up</a>
+</div>
+          </div>
+
+  </div>
+</nav>
+
+
+      <div class="nav-spacing">
+          <div class="container mt-3">
+
+          <div class="row">
+        <div class="col-lg-8 col-xl-9">
+      
+      <div class="card">
+        <div class="card-header d-flex justify-content-between">
+          <h4>
+            Tennessee Radio Contacts
+          </h4>
+          <div>
+            <span class="st_facebook_large" displaytext="Facebook"></span>
+            <span class="st_twitter_large" st_via="indieonthemove" displaytext="Tweet"></span>
+            <span class="st_googleplus_large" displaytext="Google +"></span>
+            <span class="st_pinterest_large" displaytext="Pinterest"></span>
+          </div>
+        </div>
+        <div class="card-body">
+
+
+          <div class="page-blog-style">
+            
+<p>
+	&nbsp;</p>
+<p>
+	<span style="font-size:14px;">Below you will find Indie on the Move&#39;s compiled listing of Tennessee radio stations and contacts for bands and musicians seeking radio spins, interviews, and on-air performances to promote new albums, shows, and tours.</span></p>
+<br />
+<br />
+<p>
+	<span style="font-size:14px;"><strong>From Nashville&#39;s 98 WSIX to University of Tennessee Radio,&nbsp;</strong><strong>find everything you need for additional radio promotion and exposure in the state of Tennessee</strong>.</span></p>
+<br />
+<br />
+<p>
+	<span style="font-size:14px;">And if these aren&#39;t enough, don&#39;t forget that Indie on the Move provides additional state by state and city by city listings for radio stations and contacts&nbsp;<a href="http://www.indieonthemove.com/radio" style="font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; line-height: 1.231; text-rendering: optimizelegibility; font-size: 13px; color: rgb(0, 102, 255); font-weight: inherit; text-decoration: none; -webkit-transition-property: all; -webkit-transition-duration: 250ms; -webkit-transition-timing-function: linear; -webkit-transition-delay: initial; "><span style="font-size:14px;">HERE</span></a>.</span></p>
+<br />
+<br />
+<h2>
+	Radio Stations, Music Formats &amp; Contact Information</h2>
+<p>
+	<span style="font-size: 14px;">Chattanooga -&nbsp;</span><a href="http://981thelake.iheart.com/main.html" style="font-size: 14px;" target="_blank">98.1 The Lake</a><span style="font-size: 14px;">&nbsp;- Adult Contemporary -&nbsp;</span><a href="http://981thelake.iheart.com/articles/contact-us-151418/contact-information-1554275/" style="font-size: 14px;" target="_blank">Contact</a></p>
+<p>
+	<span style="font-size: 14px;">Chattanooga - </span><a href="http://www.1079nashicon.com/" target="_blank"><span style="font-size: 14px;">Nash 107.9</span></a><span style="font-size: 14px;"> - Country - </span><a href="http://www.1079nashicon.com/station-information/" style="font-size: 14px;" target="_blank">Contact</a></p>
+<p>
+	<span style="font-size: 14px;">Chattanooga - </span><a href="http://wawl.org/" style="font-size: 14px;" target="_blank">Chattanooga State University WAWL</a><span style="font-size: 14px;"> - </span><a href="http://wawl.org/" style="font-size: 14px;" target="_blank">Contact</a><span style="font-size: 14px;">&nbsp;- follow this link. Contact info is available on the right hand side of the page.</span></p>
+<p>
+	<span style="font-size: 14px;">Chattanooga - </span><a href="http://kisschattanooga.iheart.com/main.html" style="font-size: 14px;" target="_blank">KISS 103.7</a><span style="font-size: 14px;"> - Adult Contemporary - </span><a href="http://kisschattanooga.iheart.com/articles/wkxjcontact-us-421944/contact-kiss-8390538/" style="font-size: 14px;" target="_blank">Contact</a></p>
+<p>
+	<span style="font-size: 14px;">Chattanooga - </span><a href="http://www.wskz.com/" style="font-size: 14px;" target="_blank">KZ 106</a><span style="font-size: 14px;"> - Classic Rock - </span><a href="http://www.wskz.com/station-information/" style="font-size: 14px;" target="_blank">Contact</a></p>
+<p>
+	<span style="font-size: 14px;">Chattanooga - </span><a href="http://rock105.iheart.com/main.html" style="font-size: 14px;" target="_blank">Rock 105</a><span style="font-size: 14px;"> - Rock - </span><a href="http://rock105.iheart.com/contact/" style="font-size: 14px;" target="_blank">Contact</a></p>
+<p>
+	<span style="font-size: 14px;">Chattanooga - </span><a href="http://us101country.iheart.com/main.html" style="font-size: 14px;" target="_blank">US101</a><span style="font-size: 14px;"> - Country - </span><a href="http://www.us101country.com/articles/contact-us-151425/contact-information-1554371" style="font-size: 14px;" target="_blank">Contact</a></p>
+<p>
+	<span style="font-size: 14px;">Cookeville - </span><a href="https://www.tntech.edu/wttu/" style="font-size: 14px;" target="_blank">Tennessee Tech University Radio 88.5 WTTU</a><span style="font-size: 14px;"> - </span><a href="https://www.tntech.edu/wttu/contact-us" style="font-size: 14px;" target="_blank">Contact</a></p>
+<p>
+	<span style="font-size: 14px;">Gary - </span><a href="http://www.wqut.com" style="font-size: 14px;" target="_blank">101.5 WQUT</a><span style="font-size: 14px;"> - Classic Rock - </span><a href="http://www.radiowebvillage.com/index.php?page=advertising-contacts" style="font-size: 14px;" target="_blank">Contact</a></p>
+<p>
+	<span style="font-size: 14px;">Knoxville - </span><a href="http://www.wutkradio.com/" style="font-size: 14px;" target="_blank">University of Tennessee Radio 90.3 The Rock</a><span style="font-size: 14px;"> - Free Format - </span><a href="http://wutkradio.com/about-wutk/wutk-staff/" style="font-size: 14px;" target="_blank">Contact</a></p>
+<p>
+	<span style="font-size: 14px;">Knoxville - </span><a href="http://www.wdvx.com" style="font-size: 14px;" target="_blank">WDVX 89.9 FM</a><span style="font-size: 14px;"> - Free Format (no Electronic, Hip Hop, Metal, or Screamo) - </span><a href="http://wdvx.com/about/contact/" style="font-size: 14px;" target="_blank">Contact</a></p>
+<p>
+	<span style="font-size: 14px;">Knoxville - </span><a href="http://www.wivk.com" style="font-size: 14px;" target="_blank">WIVK FM 107.7</a><span style="font-size: 14px;"> - Country - </span><a href="http://www.wivk.com/station-information/" style="font-size: 14px;" target="_blank">Contact</a></p>
+<p>
+	<span style="font-size: 14px;">Memphis - </span><a href="http://www.981themax.com" style="font-size: 14px;" target="_blank">98.1 The Max</a><span style="font-size: 14px;"> - Rock - </span><a href="http://www.981themax.com/station-information/" style="font-size: 14px;" target="_blank">Contact</a></p>
+<p>
+	<span style="font-size: 14px;">Memphis - </span><a href="http://www.1035wrbo.com/" style="font-size: 14px;" target="_blank">103.5 WRBO</a><span style="font-size: 14px;"> - Soul - </span><a href="http://www.1035wrbo.com/station-information/" style="font-size: 14px;" target="_blank">Contact</a></p>
+<p>
+	<span style="font-size: 14px;">Memphis -&nbsp;</span><a href="http://k97fm.iheart.com/main.html" style="font-size: 14px;" target="_blank">K97.1</a><span style="font-size: 14px;">&nbsp;- Hip Hop and R&amp;B -&nbsp;</span><a href="http://k97fm.iheart.com/contact/" style="font-size: 14px;" target="_blank">Contact</a></p>
+<p>
+	<span style="font-size: 14px;">Memphis - </span><a href="http://www.kix106.com" style="font-size: 14px;" target="_blank">KIX 106</a><span style="font-size: 14px;"> - Country - </span><a href="http://www.kix106.com/station-information/" style="font-size: 14px;" target="_blank">Contact</a></p>
+<p>
+	<span style="font-size: 14px;">Memphis - </span><a href="http://mywdia.iheart.com/main.html" style="font-size: 14px;" target="_blank">WDIA</a><span style="font-size: 14px;"> - Hip Hop and R&amp;B - </span><a href="http://mywdia.iheart.com/contact/" style="font-size: 14px;" target="_blank">Contact</a></p>
+<p>
+	<span style="font-size: 14px;">Memphis -&nbsp;</span><a href="http://www.wevl.org/" style="font-size: 14px;" target="_blank">WEVL FM 89.9</a><span style="font-size: 14px;">&nbsp;-&nbsp;</span><a href="http://www.wevl.org/" style="font-size: 14px;" target="_blank">Contact</a>&nbsp;<span style="font-size: 14px;">- Scroll to the bottom of the page.</span></p>
+<p>
+	<span style="font-size: 14px;">Murfreesboro - </span><a href="http://www.wmot.org/" style="font-size: 14px;" target="_blank">Middle Tennessee State Public Radio 89.5 WMOT</a><span style="font-size: 14px;"> - Jazz and Classical - </span><a href="http://wmot.org/people/capacity/hosts#stream/0" style="font-size: 14px;" target="_blank">Contact</a></p>
+<p>
+	<span style="font-size: 14px;">Murfreesboro - </span><a href="http://www.wmts.org" style="font-size: 14px;" target="_blank">WMTS 88.3 FM</a><span style="font-size: 14px;"> - Free Format - </span><a href="http://www.wmts.org/contact/" style="font-size: 14px;" target="_blank">Contact</a></p>
+<p>
+	<span style="font-size: 14px;">Nashville - </span><a href="http://www.92qnashville.com" style="font-size: 14px;" target="_blank">92Q</a><span style="font-size: 14px;"> - </span><a href="http://www.92qnashville.com/station-information/" style="font-size: 14px;" target="_blank">Contact</a></p>
+<p>
+	<span style="font-size: 14px;">Nashville - </span><a href="http://www.955nashicon.com/" target="_blank"><span style="font-size: 14px;">Nash 95.5</span></a><span style="font-size: 14px;"> - Country - </span><a href="http://www.955nashicon.com/station-information/" style="font-size: 14px;" target="_blank">Contact</a></p>
+<p>
+	<span style="font-size: 14px;">Nashville - </span><a href="http://thebig98.iheart.com/" target="_blank"><span style="font-size: 14px;">The Big 98</span></a><span style="font-size: 14px;"> - Country - </span><a href="http://thebig98.iheart.com/contact/" style="font-size: 14px;" target="_blank">Contact</a></p>
+<p>
+	<span style="font-size: 14px;">Nashville - </span><a href="http://1011thebeat.iheart.com/" style="font-size: 14px;" target="_blank">101.1 The Beat</a><span style="font-size: 14px;"> - Hip Hop and R&amp;B - </span><a href="http://1011thebeat.iheart.com/features/contact-1011-the-beat-1298/" style="font-size: 14px;" target="_blank">Contact</a></p>
+<p>
+	<span style="font-size: 14px;">Nashville - </span><a href="http://www.nashfm1033.com/" target="_blank"><span style="font-size: 14px;">Nash 103.3</span></a><span style="font-size: 14px;"> - Country - </span><a href="http://www.nashfm1033.com/station-information/" style="font-size: 14px;" target="_blank">Contact</a></p>
+<p>
+	<span style="font-size: 14px;">Nashville - </span><a href="http://1075theriver.iheart.com/" style="font-size: 14px;" target="_blank">107.5 The River</a><span style="font-size: 14px;"> - Adult Contemporary - </span><a href="http://1075theriver.iheart.com/contact/" style="font-size: 14px;" target="_blank">Contact</a></p>
+<p>
+	<span style="font-size: 14px;">Nashville - </span><a href="http://www.wfskfm.org" style="font-size: 14px;" target="_blank">Jazzy 88 WFSK</a><span style="font-size: 14px;"> - Jazz - </span><a href="http://www.wfskfm.org/contact-us.html" style="font-size: 14px;" target="_blank">Contact</a></p>
+<p>
+	<span style="font-size: 14px;">Nashville - </span><a href="http://lightning100.com" style="font-size: 14px;" target="_blank">Lightning 100: Nashville&#39;s Independent Radio Station</a><span style="font-size: 14px;"> - </span><a href="http://lightning100.com/contact/#.UJcP9YXu01g" style="font-size: 14px;" target="_blank">Contact</a></p>
+<p>
+	<span style="font-size: 14px;">Nashville -&nbsp;</span><a href="http://www.rootsradio.com" style="font-size: 14px;" target="_blank">WMOT-FM/Roots Radio 89.5</a><span style="font-size: 14px;">&nbsp;- Americana, Roots Music -&nbsp;</span><a href="http://www.rootsradio.com/submissions/" style="font-size: 14px;" target="_blank">Contact</a></p>
+<p>
+	<span style="font-size: 14px;">Nashville - </span><a href="http://www.wrvu.org" style="font-size: 14px;" target="_blank">WRVU - Vanderbilt University Student Radio</a><span style="font-size: 14px;"> - Free Format - </span><a href="http://wrvu.org/about/contact/" style="font-size: 14px;" target="_blank">Contact</a></p>
+<p>
+	<span style="font-size:14px;">Nashville - <a href="http://www.nashvillesidestreets.com" target="_blank"><span style="font-size: 14px;">Nashville Side Streets</span></a> - All styles of Acoustic music. *Please note: This is an Internet TV music show and all performances are broadcast live on global HDTV. There is no studio audience. - <span style="font-size: 14px;"><a href="http://www.nashvillesidestreets.com/contact.html" target="_blank">Contact</a></span></span></p>
+<p>
+	&nbsp;</p>
+<p>
+	&nbsp;</p>
+<p>
+	<span style="font-size:14px;">**Please Note: If for some reason one of the above links does not work, or if we have overlooked a radio station that should be added to this list, please inform us through the contact form located&nbsp;<a href="http://www.indieonthemove.com/contact"><span style="font-size:14px;">HERE</span></a>.</span></p>
+<div>
+	&nbsp;</div>
+
+          </div>
+        </div>
+      </div>
+
+              </div>
+        <div class="col-lg-4 col-xl-3">
+          <news></news>
+        </div>
+      </div>
+    
+  </div>
+      </div>
+
+    </div>
+    <div v-cloak>
+      <footer class="footer mt-3 p-3 bg-dark footer-bordered">
+  <div class="container">
+
+    <!-- small screens -->
+    <div class="d-sm-none text-secondary text-uppercase text-center">
+              <a  href="https://www.indieonthemove.com/about">
+          About
+        </a>
+                  |
+                      <a  href="https://www.indieonthemove.com/indie-on-the-move-101">
+          Features
+        </a>
+                  |
+                      <a  href="https://www.indieonthemove.com/pricing">
+          Pricing
+        </a>
+                  |
+                      <a  href="https://www.indieonthemove.com/testimonials">
+          Testimonials
+        </a>
+                  |
+                      <a  href="https://www.indieonthemove.com/contact">
+          Contact
+        </a>
+                  |
+                      <a  href="https://www.indieonthemove.com/newsletter/subscribe">
+          Newsletter
+        </a>
+                  |
+                      <a  href="https://www.indieonthemove.com/blog">
+          Blog
+        </a>
+                  |
+                      <a  href="https://www.indieonthemove.com/touring-tips-show-booking-advice-for-musicians">
+          Touring Tips
+        </a>
+                  |
+                      <a  href="https://www.indieonthemove.com/iotm-solutions-network">
+          Partners
+        </a>
+                  |
+                      <a  href="https://www.indieonthemove.com/terms-and-conditions">
+          Terms
+        </a>
+                  |
+                      <a  href="https://www.indieonthemove.com/privacy">
+          Privacy
+        </a>
+                  </div>
+
+    <!-- larger screens -->
+    <div class="justify-content-around d-none d-sm-flex text-secondary">
+      <ul>
+                  <li>
+            <a  href="https://www.indieonthemove.com/about">
+              About
+            </a>
+          </li>
+                  <li>
+            <a  href="https://www.indieonthemove.com/indie-on-the-move-101">
+              Features
+            </a>
+          </li>
+                  <li>
+            <a  href="https://www.indieonthemove.com/pricing">
+              Pricing
+            </a>
+          </li>
+                  <li>
+            <a  href="https://www.indieonthemove.com/testimonials">
+              Testimonials
+            </a>
+          </li>
+                  <li>
+            <a  href="https://www.indieonthemove.com/newsletter/subscribe">
+              Newsletter
+            </a>
+          </li>
+                  <li>
+            <a  href="https://www.indieonthemove.com/contact">
+              Contact IOTM
+            </a>
+          </li>
+              </ul>
+      <ul>
+                  <li>
+            <a  href="https://www.indieonthemove.com/users">
+              Members Directory
+            </a>
+          </li>
+                  <li>
+            <a  href="https://www.indieonthemove.com/blog">
+              Blog
+            </a>
+          </li>
+                  <li>
+            <a  href="https://www.indieonthemove.com/touring-tips-show-booking-advice-for-musicians">
+              Touring Tips
+            </a>
+          </li>
+                  <li>
+            <a  href="https://www.indieonthemove.com/iotm-solutions-network">
+              Strategic Partners
+            </a>
+          </li>
+                  <li>
+            <a  href="https://www.indieonthemove.com/terms-and-conditions">
+              Terms &amp; Conditions
+            </a>
+          </li>
+                  <li>
+            <a  href="https://www.indieonthemove.com/privacy">
+              Privacy Policy
+            </a>
+          </li>
+              </ul>
+      <ul>
+                  <li>
+            <a  href="https://www.indieonthemove.com/professional-services">
+              Professional Services
+            </a>
+          </li>
+                  <li>
+            <a  href="https://www.indieonthemove.com/venues">
+              Venues &amp; Quickpitch
+            </a>
+          </li>
+                  <li>
+            <a  href="https://www.indieonthemove.com/college-university-show-booking-directory">
+              Colleges &amp; Universities
+            </a>
+          </li>
+                  <li>
+            <a  href="https://www.indieonthemove.com/music-festivals-and-conferences">
+              Festivals &amp; Conferences
+            </a>
+          </li>
+                  <li>
+            <a  href="https://www.indieonthemove.com/show-availabilities">
+              Show Availabilities
+            </a>
+          </li>
+                  <li>
+            <a  href="https://www.indieonthemove.com/band-availabilities">
+              Band Availabilities
+            </a>
+          </li>
+                  <li>
+            <a  href="https://www.indieonthemove.com/classifieds">
+              Classifieds
+            </a>
+          </li>
+                  <li>
+            <a  href="https://www.indieonthemove.com/press">
+              Press Directory
+            </a>
+          </li>
+                  <li>
+            <a  href="https://www.indieonthemove.com/radio">
+              Radio Directory
+            </a>
+          </li>
+              </ul>
+    </div>
+
+    <!-- all screens -->
+    <div class="pt-3 text-center">
+      <div>
+        <a target="_blank" rel="noopener noreferrer" href="https://facebook.com/indieonthemovellc">
+          <i class="px-2 fa fa-2x fa-facebook"></i>
+        </a>
+        <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/indieonthemove">
+          <i class="px-2 fa fa-2x fa-twitter"></i>
+        </a>
+        <a target="_blank" rel="noopener noreferrer" href="https://plus.google.com/+indieonthemovellc">
+          <i class="px-2 fa fa-2x fa-google-plus"></i>
+        </a>
+
+      </div>
+
+      <a href="#" class="btn btn-link">
+        <i class="fa fa-arrow-circle-up"></i>
+        <span class="mb-1">Back To Top </span>
+      </a>
+
+      <p class="text-secondary">
+        © 2018 Indie on the Move. All rights reserved.
+      </p>
+    </div>
+
+  </div>
+</footer>
+
+    </div>
+  </div>
+
+    <!-- Scripts -->
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script src="https://js.stripe.com/v3/"></script>
+        <script src="/js/app.js?id=bb87c2c2608a0fee47c7"></script>
+      
+
+  <script type="text/javascript" src="//ws.sharethis.com/button/buttons.js"></script>
+  <script type="text/javascript">stLight.options({publisher: "5945aab2-6a71-4a33-9775-fdbe573195ca"});</script>
+  
+  </body>
+</html>

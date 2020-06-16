@@ -1,0 +1,14 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>300 Multiple Choices</title>
+</head><body>
+<h1>Multiple Choices</h1>
+The document name you requested (<code>/search</code>) could not be found on this server.
+However, we found documents with names similar to the one you requested.<p>Available documents:
+<ul>
+<li><a href="http://arkho.me/SEARCH.html%3fupdated-max=2017-09-16T15:01:00-07:00&amp;max-results=20">/SEARCH.html?updated-max=2017-09-16T15:01:00-07:00&amp;max-results=20</a> (common basename)
+</ul>
+Please consider informing the owner of the referring page <tt>http://arkho.me/2017-09-17-the-lamb-lays-down-on-broad-way.html</tt> about the broken link.
+<hr>
+<address>Apache/2.4.29 (Ubuntu) Server at arkho.me Port 80</address>
+</body></html>

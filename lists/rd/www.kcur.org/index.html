@@ -1,0 +1,1198 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"VgYHV1dVGwIBVFlVBQU="};window.NREUM||(NREUM={}),__nr_require=function(t,n,e){function r(e){if(!n[e]){var o=n[e]={exports:{}};t[e][0].call(o.exports,function(n){var o=t[e][1][n];return r(o||n)},o,o.exports)}return n[e].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<e.length;o++)r(e[o]);return r}({1:[function(t,n,e){function r(t){try{s.console&&console.log(t)}catch(n){}}var o,i=t("ee"),a=t(15),s={};try{o=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(s.console=!0,o.indexOf("dev")!==-1&&(s.dev=!0),o.indexOf("nr_dev")!==-1&&(s.nrDev=!0))}catch(c){}s.nrDev&&i.on("internal-error",function(t){r(t.stack)}),s.dev&&i.on("fn-err",function(t,n,e){r(e.stack)}),s.dev&&(r("NR AGENT IN DEVELOPMENT MODE"),r("flags: "+a(s,function(t,n){return t}).join(", ")))},{}],2:[function(t,n,e){function r(t,n,e,r,s){try{p?p-=1:o(s||new UncaughtException(t,n,e),!0)}catch(f){try{i("ierr",[f,c.now(),!0])}catch(d){}}return"function"==typeof u&&u.apply(this,a(arguments))}function UncaughtException(t,n,e){this.message=t||"Uncaught error with no additional information",this.sourceURL=n,this.line=e}function o(t,n){var e=n?null:c.now();i("err",[t,e])}var i=t("handle"),a=t(16),s=t("ee"),c=t("loader"),f=t("gos"),u=window.onerror,d=!1,l="nr@seenError",p=0;c.features.err=!0,t(1),window.onerror=r;try{throw new Error}catch(h){"stack"in h&&(t(8),t(7),"addEventListener"in window&&t(5),c.xhrWrappable&&t(9),d=!0)}s.on("fn-start",function(t,n,e){d&&(p+=1)}),s.on("fn-err",function(t,n,e){d&&!e[l]&&(f(e,l,function(){return!0}),this.thrown=!0,o(e))}),s.on("fn-end",function(){d&&!this.thrown&&p>0&&(p-=1)}),s.on("internal-error",function(t){i("ierr",[t,c.now(),!0])})},{}],3:[function(t,n,e){t("loader").features.ins=!0},{}],4:[function(t,n,e){function r(t){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var o=t("ee"),i=t("handle"),a=t(8),s=t(7),c="learResourceTimings",f="addEventListener",u="resourcetimingbufferfull",d="bstResource",l="resource",p="-start",h="-end",m="fn"+p,w="fn"+h,v="bstTimer",y="pushState",g=t("loader");g.features.stn=!0,t(6);var b=NREUM.o.EV;o.on(m,function(t,n){var e=t[0];e instanceof b&&(this.bstStart=g.now())}),o.on(w,function(t,n){var e=t[0];e instanceof b&&i("bst",[e,n,this.bstStart,g.now()])}),a.on(m,function(t,n,e){this.bstStart=g.now(),this.bstType=e}),a.on(w,function(t,n){i(v,[n,this.bstStart,g.now(),this.bstType])}),s.on(m,function(){this.bstStart=g.now()}),s.on(w,function(t,n){i(v,[n,this.bstStart,g.now(),"requestAnimationFrame"])}),o.on(y+p,function(t){this.time=g.now(),this.startPath=location.pathname+location.hash}),o.on(y+h,function(t){i("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),f in window.performance&&(window.performance["c"+c]?window.performance[f](u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["c"+c]()},!1):window.performance[f]("webkit"+u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["webkitC"+c]()},!1)),document[f]("scroll",r,{passive:!0}),document[f]("keypress",r,!1),document[f]("click",r,!1)}},{}],5:[function(t,n,e){function r(t){for(var n=t;n&&!n.hasOwnProperty(u);)n=Object.getPrototypeOf(n);n&&o(n)}function o(t){s.inPlace(t,[u,d],"-",i)}function i(t,n){return t[1]}var a=t("ee").get("events"),s=t(18)(a,!0),c=t("gos"),f=XMLHttpRequest,u="addEventListener",d="removeEventListener";n.exports=a,"getPrototypeOf"in Object?(r(document),r(window),r(f.prototype)):f.prototype.hasOwnProperty(u)&&(o(window),o(f.prototype)),a.on(u+"-start",function(t,n){var e=t[1],r=c(e,"nr@wrapped",function(){function t(){if("function"==typeof e.handleEvent)return e.handleEvent.apply(e,arguments)}var n={object:t,"function":e}[typeof e];return n?s(n,"fn-",null,n.name||"anonymous"):e});this.wrapped=t[1]=r}),a.on(d+"-start",function(t){t[1]=this.wrapped||t[1]})},{}],6:[function(t,n,e){var r=t("ee").get("history"),o=t(18)(r);n.exports=r,o.inPlace(window.history,["pushState","replaceState"],"-")},{}],7:[function(t,n,e){var r=t("ee").get("raf"),o=t(18)(r),i="equestAnimationFrame";n.exports=r,o.inPlace(window,["r"+i,"mozR"+i,"webkitR"+i,"msR"+i],"raf-"),r.on("raf-start",function(t){t[0]=o(t[0],"fn-")})},{}],8:[function(t,n,e){function r(t,n,e){t[0]=a(t[0],"fn-",null,e)}function o(t,n,e){this.method=e,this.timerDuration=isNaN(t[1])?0:+t[1],t[0]=a(t[0],"fn-",this,e)}var i=t("ee").get("timer"),a=t(18)(i),s="setTimeout",c="setInterval",f="clearTimeout",u="-start",d="-";n.exports=i,a.inPlace(window,[s,"setImmediate"],s+d),a.inPlace(window,[c],c+d),a.inPlace(window,[f,"clearImmediate"],f+d),i.on(c+u,r),i.on(s+u,o)},{}],9:[function(t,n,e){function r(t,n){d.inPlace(n,["onreadystatechange"],"fn-",s)}function o(){var t=this,n=u.context(t);t.readyState>3&&!n.resolved&&(n.resolved=!0,u.emit("xhr-resolved",[],t)),d.inPlace(t,y,"fn-",s)}function i(t){g.push(t),h&&(x?x.then(a):w?w(a):(E=-E,O.data=E))}function a(){for(var t=0;t<g.length;t++)r([],g[t]);g.length&&(g=[])}function s(t,n){return n}function c(t,n){for(var e in t)n[e]=t[e];return n}t(5);var f=t("ee"),u=f.get("xhr"),d=t(18)(u),l=NREUM.o,p=l.XHR,h=l.MO,m=l.PR,w=l.SI,v="readystatechange",y=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],g=[];n.exports=u;var b=window.XMLHttpRequest=function(t){var n=new p(t);try{u.emit("new-xhr",[n],n),n.addEventListener(v,o,!1)}catch(e){try{u.emit("internal-error",[e])}catch(r){}}return n};if(c(p,b),b.prototype=p.prototype,d.inPlace(b.prototype,["open","send"],"-xhr-",s),u.on("send-xhr-start",function(t,n){r(t,n),i(n)}),u.on("open-xhr-start",r),h){var x=m&&m.resolve();if(!w&&!m){var E=1,O=document.createTextNode(E);new h(a).observe(O,{characterData:!0})}}else f.on("fn-end",function(t){t[0]&&t[0].type===v||a()})},{}],10:[function(t,n,e){function r(t){var n=this.params,e=this.metrics;if(!this.ended){this.ended=!0;for(var r=0;r<d;r++)t.removeEventListener(u[r],this.listener,!1);if(!n.aborted){if(e.duration=a.now()-this.startTime,4===t.readyState){n.status=t.status;var i=o(t,this.lastSize);if(i&&(e.rxSize=i),this.sameOrigin){var c=t.getResponseHeader("X-NewRelic-App-Data");c&&(n.cat=c.split(", ").pop())}}else n.status=0;e.cbTime=this.cbTime,f.emit("xhr-done",[t],t),s("xhr",[n,e,this.startTime])}}}function o(t,n){var e=t.responseType;if("json"===e&&null!==n)return n;var r="arraybuffer"===e||"blob"===e||"json"===e?t.response:t.responseText;return h(r)}function i(t,n){var e=c(n),r=t.params;r.host=e.hostname+":"+e.port,r.pathname=e.pathname,t.sameOrigin=e.sameOrigin}var a=t("loader");if(a.xhrWrappable){var s=t("handle"),c=t(11),f=t("ee"),u=["load","error","abort","timeout"],d=u.length,l=t("id"),p=t(14),h=t(13),m=window.XMLHttpRequest;a.features.xhr=!0,t(9),f.on("new-xhr",function(t){var n=this;n.totalCbs=0,n.called=0,n.cbTime=0,n.end=r,n.ended=!1,n.xhrGuids={},n.lastSize=null,p&&(p>34||p<10)||window.opera||t.addEventListener("progress",function(t){n.lastSize=t.loaded},!1)}),f.on("open-xhr-start",function(t){this.params={method:t[0]},i(this,t[1]),this.metrics={}}),f.on("open-xhr-end",function(t,n){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&n.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),f.on("send-xhr-start",function(t,n){var e=this.metrics,r=t[0],o=this;if(e&&r){var i=h(r);i&&(e.txSize=i)}this.startTime=a.now(),this.listener=function(t){try{"abort"===t.type&&(o.params.aborted=!0),("load"!==t.type||o.called===o.totalCbs&&(o.onloadCalled||"function"!=typeof n.onload))&&o.end(n)}catch(e){try{f.emit("internal-error",[e])}catch(r){}}};for(var s=0;s<d;s++)n.addEventListener(u[s],this.listener,!1)}),f.on("xhr-cb-time",function(t,n,e){this.cbTime+=t,n?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof e.onload||this.end(e)}),f.on("xhr-load-added",function(t,n){var e=""+l(t)+!!n;this.xhrGuids&&!this.xhrGuids[e]&&(this.xhrGuids[e]=!0,this.totalCbs+=1)}),f.on("xhr-load-removed",function(t,n){var e=""+l(t)+!!n;this.xhrGuids&&this.xhrGuids[e]&&(delete this.xhrGuids[e],this.totalCbs-=1)}),f.on("addEventListener-end",function(t,n){n instanceof m&&"load"===t[0]&&f.emit("xhr-load-added",[t[1],t[2]],n)}),f.on("removeEventListener-end",function(t,n){n instanceof m&&"load"===t[0]&&f.emit("xhr-load-removed",[t[1],t[2]],n)}),f.on("fn-start",function(t,n,e){n instanceof m&&("onload"===e&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=a.now()))}),f.on("fn-end",function(t,n){this.xhrCbStart&&f.emit("xhr-cb-time",[a.now()-this.xhrCbStart,this.onload,n],n)})}},{}],11:[function(t,n,e){n.exports=function(t){var n=document.createElement("a"),e=window.location,r={};n.href=t,r.port=n.port;var o=n.href.split("://");!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=n.hostname||e.hostname,r.pathname=n.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname);var i=!n.protocol||":"===n.protocol||n.protocol===e.protocol,a=n.hostname===document.domain&&n.port===e.port;return r.sameOrigin=i&&(!n.hostname||a),r}},{}],12:[function(t,n,e){function r(){}function o(t,n,e){return function(){return i(t,[f.now()].concat(s(arguments)),n?null:this,e),n?void 0:this}}var i=t("handle"),a=t(15),s=t(16),c=t("ee").get("tracer"),f=t("loader"),u=NREUM;"undefined"==typeof window.newrelic&&(newrelic=u);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",p=l+"ixn-";a(d,function(t,n){u[n]=o(l+n,!0,"api")}),u.addPageAction=o(l+"addPageAction",!0),u.setCurrentRouteName=o(l+"routeName",!0),n.exports=newrelic,u.interaction=function(){return(new r).get()};var h=r.prototype={createTracer:function(t,n){var e={},r=this,o="function"==typeof n;return i(p+"tracer",[f.now(),t,e],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],e),o)try{return n.apply(this,arguments)}catch(t){throw c.emit("fn-err",[arguments,this,t],e),t}finally{c.emit("fn-end",[f.now()],e)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,n){h[n]=o(p+n)}),newrelic.noticeError=function(t){"string"==typeof t&&(t=new Error(t)),i("err",[t,f.now()])}},{}],13:[function(t,n,e){n.exports=function(t){if("string"==typeof t&&t.length)return t.length;if("object"==typeof t){if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if(!("undefined"!=typeof FormData&&t instanceof FormData))try{return JSON.stringify(t).length}catch(n){return}}}},{}],14:[function(t,n,e){var r=0,o=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);o&&(r=+o[1]),n.exports=r},{}],15:[function(t,n,e){function r(t,n){var e=[],r="",i=0;for(r in t)o.call(t,r)&&(e[i]=n(r,t[r]),i+=1);return e}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],16:[function(t,n,e){function r(t,n,e){n||(n=0),"undefined"==typeof e&&(e=t?t.length:0);for(var r=-1,o=e-n||0,i=Array(o<0?0:o);++r<o;)i[r]=t[n+r];return i}n.exports=r},{}],17:[function(t,n,e){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],18:[function(t,n,e){function r(t){return!(t&&t instanceof Function&&t.apply&&!t[a])}var o=t("ee"),i=t(16),a="nr@original",s=Object.prototype.hasOwnProperty,c=!1;n.exports=function(t,n){function e(t,n,e,o){function nrWrapper(){var r,a,s,c;try{a=this,r=i(arguments),s="function"==typeof e?e(r,a):e||{}}catch(f){l([f,"",[r,a,o],s])}u(n+"start",[r,a,o],s);try{return c=t.apply(a,r)}catch(d){throw u(n+"err",[r,a,d],s),d}finally{u(n+"end",[r,a,c],s)}}return r(t)?t:(n||(n=""),nrWrapper[a]=t,d(t,nrWrapper),nrWrapper)}function f(t,n,o,i){o||(o="");var a,s,c,f="-"===o.charAt(0);for(c=0;c<n.length;c++)s=n[c],a=t[s],r(a)||(t[s]=e(a,f?s+o:o,i,s))}function u(e,r,o){if(!c||n){var i=c;c=!0;try{t.emit(e,r,o,n)}catch(a){l([a,e,r,o])}c=i}}function d(t,n){if(Object.defineProperty&&Object.keys)try{var e=Object.keys(t);return e.forEach(function(e){Object.defineProperty(n,e,{get:function(){return t[e]},set:function(n){return t[e]=n,n}})}),n}catch(r){l([r])}for(var o in t)s.call(t,o)&&(n[o]=t[o]);return n}function l(n){try{t.emit("internal-error",n)}catch(e){}}return t||(t=o),e.inPlace=f,e.flag=a,e}},{}],ee:[function(t,n,e){function r(){}function o(t){function n(t){return t&&t instanceof r?t:t?c(t,s,i):i()}function e(e,r,o,i){if(!l.aborted||i){t&&t(e,r,o);for(var a=n(o),s=h(e),c=s.length,f=0;f<c;f++)s[f].apply(a,r);var d=u[y[e]];return d&&d.push([g,e,r,a]),a}}function p(t,n){v[t]=h(t).concat(n)}function h(t){return v[t]||[]}function m(t){return d[t]=d[t]||o(e)}function w(t,n){f(t,function(t,e){n=n||"feature",y[e]=n,n in u||(u[n]=[])})}var v={},y={},g={on:p,emit:e,get:m,listeners:h,context:n,buffer:w,abort:a,aborted:!1};return g}function i(){return new r}function a(){(u.api||u.feature)&&(l.aborted=!0,u=l.backlog={})}var s="nr@context",c=t("gos"),f=t(15),u={},d={},l=n.exports=o();l.backlog=u},{}],gos:[function(t,n,e){function r(t,n,e){if(o.call(t,n))return t[n];var r=e();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(t,n,e){function r(t,n,e,r){o.buffer([t],r),o.emit(t,n,e)}var o=t("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(t,n,e){function r(t){var n=typeof t;return!t||"object"!==n&&"function"!==n?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");n.exports=r},{}],loader:[function(t,n,e){function r(){if(!x++){var t=b.info=NREUM.info,n=l.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&n))return u.abort();f(y,function(n,e){t[n]||(t[n]=e)}),c("mark",["onload",a()+b.offset],null,"api");var e=l.createElement("script");e.src="https://"+t.agent,n.parentNode.insertBefore(e,n)}}function o(){"complete"===l.readyState&&i()}function i(){c("mark",["domContent",a()+b.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(s=Math.max((new Date).getTime(),s))-b.offset}var s=(new Date).getTime(),c=t("handle"),f=t(15),u=t("ee"),d=window,l=d.document,p="addEventListener",h="attachEvent",m=d.XMLHttpRequest,w=m&&m.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:m,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1071.min.js"},g=m&&w&&w[p]&&!/CriOS/.test(navigator.userAgent),b=n.exports={offset:s,now:a,origin:v,features:{},xhrWrappable:g};t(12),l[p]?(l[p]("DOMContentLoaded",i,!1),d[p]("load",r,!1)):(l[h]("onreadystatechange",o),d[h]("onload",r)),c("mark",["firstbyte",s],null,"api");var x=0,E=t(17)},{}]},{},["loader",2,10,4,3]);</script>
+<meta name="description" content="Public Radio from Kansas City, Missouri. Your source for local news and more." />
+<link rel="shortcut icon" href="http://mediad.publicbroadcasting.net/p/kcur/files/favicon_2.ico" type="image/vnd.microsoft.icon" />
+<link rel="shortcut icon" href="public://favicon_2.ico" type="image/vnd.microsoft.icon" />
+<meta name="google-site-verification" content="lVuUnKB71C-5xT5MVzTyyHLvK5yemXZ7roxwO_Ut7sU" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="alternate" type="application/rss+xml" title="RSS Feed" href="http://www.kcur.org/rss.xml" />
+<meta property="fb:pages" content="16030044325"/>
+<!-- Facebook Pixel Code --> 
+<script> 
+!function(f,b,e,v,n,t,s) 
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod? 
+n.callMethod.apply(n,arguments):n.queue.push(arguments)}; 
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0'; 
+n.queue=[];t=b.createElement(e);t.async=!0; 
+t.src=v;s=b.getElementsByTagName(e)[0]; 
+s.parentNode.insertBefore(t,s)}(window, document,'script', 
+'https://connect.facebook.net/en_US/fbevents.js'); 
+fbq('init', '2020194548252972'); 
+fbq('track', 'PageView'); 
+</script> 
+<noscript><img height="1" width="1" style="display:none" 
+src="https://www.facebook.com/tr?id=2020194548252972&ev=PageView&noscript=1" 
+/></noscript> 
+<!-- End Facebook Pixel Code -->
+    <title>KCUR</title>
+    <link type="text/css" rel="stylesheet" href="http://www.kcur.org/sites/www.kcur.org/files/css/css_zXr1pRkjUmFHX10b6Pv5_DqzyewvdLNQ8QgccGQIRQQ.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://www.kcur.org/sites/www.kcur.org/files/css/css_ZFlaYqkiQzTmlBPX4mQeT33IFQX3nR-zpGlyqFhtTNM.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://www.kcur.org/sites/www.kcur.org/files/css/css_PV0HBDBtTWS7oiEnFpozcEeThn_X5umpjVSdbNSQIRI.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://www.kcur.org/sites/www.kcur.org/files/css/css_uY1_bHNTrAu2UuUwumZ6AuPc2Egu5fV5FiJ2-fv7ySk.css" media="all" />
+<style type="text/css" media="all">
+<!--/*--><![CDATA[/*><!--*/
+.header-region-outer{background-color:#fff2d6;}@media screen and (min-width:1024px){.header-region-outer{background-image:url(http://mediad.publicbroadcasting.net/p/kcur/files/201509/webheader2.gif);background-position:center bottom;background-size:auto;background-repeat:repeat-x;}}.branding .tagline{color:#000;}.branding .listen-live-toggle > a,.branding .header-utility > a,.branding .header-utility > a.trigger-nav{color:#fff2d6;}@media screen and (min-width:641px){.branding .trigger-nav{background:#777777;}}@media screen and (max-width:640px){.branding .header-utility > a.trigger-nav,.active-menu .branding .header-utility > a.trigger-nav{color:#777777;}}#listen-live .listen-live-toggle{background-color:#4cb7bf;}#listen-live .listen-live-btn{background-color:transparent;color:#fff2d6;}@media screen and (min-width:640px){#listen-live .listen-live-btn{background-color:#4cb7bf;}}.branding .give{background:#EF3835;}
+
+/*]]>*/-->
+</style>
+<link type="text/css" rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato:300,700,700italic,900,italic,regular&amp;subset=latin" media="all" />
+<link type="text/css" rel="stylesheet" href="http://www.kcur.org/sites/www.kcur.org/files/css/css_fedWK9UGQuJWcixWt_Sp-vIm9cOm4inaaA_8PeKHIUM.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://www.kcur.org/sites/www.kcur.org/files/css/css_SWo6tZlpCPjnhbZDAS4xgnCAofi51J7pbtu4SD2fIug.css" media="all" />
+    <script type="text/javascript" src="http://mediad.publicbroadcasting.net/p/kcur/files/js/js_xSpMA4ArVcBKOZ43sPqNRk0gxQZdDVifw27pIUCzWU0.js"></script>
+<script type="text/javascript" src="http://mediad.publicbroadcasting.net/p/kcur/files/js/js_uQACNz-q46biHdzuzAdQkVZaYioI6VTDeluEJ1apVwI.js"></script>
+<script type="text/javascript" src="http://mediad.publicbroadcasting.net/p/kcur/files/js/js_f_6-OzlFXjayKlsU5sJKLwjz7LFQvdIZDm-Mt6jKwyM.js"></script>
+<script type="text/javascript" src="http://mediad.publicbroadcasting.net/p/kcur/files/js/js__4npt0PuTlrK-GkTl821OR8Eb7aiGB9GvsSeu1tr7U4.js"></script>
+<script type="text/javascript" src="//www.googletagservices.com/tag/js/gpt.js"></script>
+<script type="text/javascript" src="http://mediad.publicbroadcasting.net/p/kcur/files/js/js_6kJ6EB5l2v2wNK7F-90im9Ut4VRp4cfRPLFDj-AOJqk.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+(function() {var ga = document.createElement("script");ga.type = "text/javascript";ga.async = true;ga.src="//stream.publicbroadcasting.net/analytics/aal1.js";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(ga, s);})();
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://mediad.publicbroadcasting.net/p/kcur/files/js/js_I59XKJ_kHbj_0dAhWYE6uEMAO_RV8yJmEktex28UmFs.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"responso","theme_token":"U6APhXBmzW_j4NjHQV_zMZYJZngR7tw4VQMc-LWATJE","js":{"0":1,"http:\/\/mediad.publicbroadcasting.net\/p\/kcur\/files\/js_injector\/js_injector_1.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery\/1.8\/jquery.min.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/custom\/responsive_utilities\/js\/vendor\/foundation\/foundation.js":1,"sites\/all\/modules\/custom\/responsive_utilities\/js\/vendor\/foundation\/foundation.topbar.js":1,"sites\/all\/libraries\/magnific-popup\/jquery.magnific-popup.min.js":1,"sites\/all\/modules\/contrib\/google_cse\/google_cse.js":1,"sites\/all\/modules\/custom\/pi_media_types\/pi_audio\/js\/pi-audio.js":1,"sites\/all\/modules\/custom\/pi_hull\/js\/pi-hull.js":1,"sites\/all\/modules\/custom\/pi_hull\/js\/jquery.innerfade.js":1,"sites\/all\/modules\/custom\/pi_hull\/jplayer\/js\/jquery.jplayer.min.js":1,"sites\/all\/modules\/custom\/pi_hull\/jplayer\/js\/main.js":1,"\/\/www.googletagservices.com\/tag\/js\/gpt.js":1,"sites\/all\/modules\/custom\/responsive_ads\/js\/main.js":1,"sites\/all\/modules\/custom\/pi_ajax_links_api\/nprogress\/nprogress.js":1,"sites\/all\/modules\/custom\/pi_ajax_links_api\/pi_ajax_links_api.js":1,"sites\/all\/modules\/custom\/npr_entities\/npr_fields\/npr_image_gallery\/js\/npr-image-gallery.js":1,"sites\/all\/modules\/custom\/npr_river\/assets\/npr-river.js":1,"sites\/all\/modules\/custom\/pi_assets\/plugins\/images\/js\/popup.js":1,"sites\/all\/modules\/custom\/pi_guide\/js\/pi_guide_schedule_selector.js":1,"sites\/all\/modules\/custom\/pi_content_types\/pi_live_event\/js\/iframe.js":1,"sites\/all\/modules\/custom\/responsive_utilities\/js\/vendor\/modernizr.js":1,"sites\/all\/modules\/custom\/responsive_utilities\/js\/vendor\/media.match.min.js":1,"sites\/all\/modules\/custom\/responsive_utilities\/js\/vendor\/matchMedia.addListener.js":1,"sites\/all\/modules\/custom\/responsive_utilities\/js\/vendor\/enquire.min.js":1,"sites\/all\/modules\/custom\/responsive_utilities\/js\/vendor\/fastclick.js":1,"sites\/all\/modules\/custom\/block_factory\/treatments\/promotional-small\/promotional-small.js":1,"1":1,"sites\/all\/modules\/custom\/pi_content_types\/pi_program\/treatments\/program-promo\/program-promo.js":1,"sites\/all\/modules\/custom\/responsive_utilities\/js\/responsive-utilities.mediaqueries.js":1,"sites\/all\/modules\/custom\/responsive_utilities\/js\/responsive-utilities.scripts.js":1,"sites\/all\/modules\/custom\/responsive_utilities\/js\/responsive-utilities.responsiveimages.js":1,"sites\/all\/modules\/custom\/responsive_utilities\/js\/responsive-utilities.js":1,"sites\/all\/modules\/custom\/responsive_utilities\/js\/responsive-utilities.tag.js":1,"sites\/all\/modules\/custom\/audity\/audity\/dsplayer.min.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"sites\/all\/libraries\/magnific-popup\/magnific-popup.css":1,"sites\/all\/modules\/contrib\/date\/date_api\/date.css":1,"sites\/all\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/contrib\/google_cse\/google_cse.css":1,"modules\/node\/node.css":1,"sites\/all\/modules\/custom\/pi_hull\/pi_outrigger\/css\/pi_outrigger.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/custom\/pi_guide\/css\/pi_guide.css":1,"sites\/all\/modules\/custom\/pi_hull\/jplayer\/css\/jplayer.npr.css":1,"sites\/all\/modules\/custom\/pi_npr_story\/css\/pi_npr_story.css":1,"sites\/all\/modules\/custom\/pi_views\/pi_reports_views\/css\/pi_reports.css":1,"sites\/all\/modules\/custom\/pi_menus\/css\/flexiMenu.css":1,"sites\/all\/modules\/custom\/responsive_footer\/responsive-footer.admin.css":1,"0":1,"http:\/\/fonts.googleapis.com\/css?family=Lato:300,700,700italic,900,italic,regular\u0026subset=latin":1,"sites\/all\/modules\/custom\/audity\/audity\/css\/audity.css":1,"sites\/all\/modules\/custom\/pi_ajax_links_api\/pi_ajax_links_api.css":1,"sites\/all\/modules\/custom\/pi_ajax_links_api\/nprogress\/nprogress.css":1,"sites\/all\/modules\/custom\/pi_content_types\/pi_program\/treatments\/program-promo\/program-promo.css":1,"sites\/all\/modules\/custom\/npr_entities\/npr_fields\/npr_image_gallery\/css\/npr-image-gallery.css":1,"sites\/all\/modules\/custom\/block_factory\/treatments\/one-story\/one-story.css":1,"sites\/all\/modules\/custom\/block_factory\/treatments\/promotional-small\/promotional-small.css":1,"sites\/all\/modules\/custom\/block_factory\/treatments\/promotional-large\/promotional-large.css":1,"sites\/all\/themes\/responso\/css\/icon-fonts.css":1,"sites\/all\/themes\/responso\/css\/screen.css":1}},"googleCSE":{"cx":"010251366440257945544:adjki0ofhcu","language":"","resultsWidth":600,"domain":"www.google.com","showWaterMark":true},"audityConfig":{"station":{"listenLabel":"Listen Live"},"streams":[{"desc":"KCUR","name":0,"url":"https:\/\/kcurlive.umkc.edu\/kcur893","data":{"type":"composer2","ucs":"53a972f1e1c841273997e301"}}],"analytics":{"acct":"aal1"},"ads":{"network":"5342821","units":{"audio":"KCUR_player_audio","display":"KCUR_player_display","leavebehind":"KCUR_player_leavebehind"}}},"responsive_ads":{"networkCode":"5342821","prefix":"KCUR","adUnitTypes":{"leaderboard":{"note":"Only shows above 1024; shows 970x90 or 728x90.","sizes":[{"viewportSize":[0,0],"slotSize":[]},{"viewportSize":[1024,200],"slotSize":[[970,90],[970,50],[728,90]]}]},"medium":{"note":"Won't be served on screens smaller than 640x480.","sizes":[{"viewportSize":[0,0],"slotSize":[]},{"viewportSize":[640,200],"slotSize":[300,250]}]},"tablet":{"note":"Won't be served on screens smaller than 640x480 or larger than 1024x768","sizes":[{"viewportSize":[0,0],"slotSize":[]},{"viewportSize":[640,200],"slotSize":[728,90]},{"viewportSize":[1024,200],"slotSize":[]}]},"mobile":{"note":"Won't be served on screens larger than 640x480.","sizes":[{"viewportSize":[0,0],"slotSize":[320,50]},{"viewportSize":[640,200],"slotSize":[]}]}},"adUnits":[{"name":"leaderboard_1","type":"leaderboard","width":728,"height":90},{"name":"player_display","type":"leaderboard","width":728,"height":90},{"name":"medium_1","type":"medium","width":300,"height":250},{"name":"medium_2","type":"medium","width":300,"height":250},{"name":"medium_3","type":"medium","width":300,"height":250},{"name":"tablet_1","type":"tablet","width":728,"height":90},{"name":"mobile_1","type":"mobile","width":320,"height":50}],"placements":{"leaderboard_1":"main#content","medium_1":"#block-pi-responsive-ads-medium-1 .content","medium_2":".region-c .node-teaser:eq(0) .title-info","medium_3":".region-c .node-teaser:eq(3) .title-info","tablet_1":"main#content","mobile_1":"#block-pi-responsive-ads-mobile-1 .content"},"persistentPlacements":[],"targeting":{"type":"agg","agg":"homepage"}},"tms_meta":[],"responsive_utilities":{"body_classes":"html front not-logged-in no-sidebars page-homepage","custom_vars":{"nid":{"name":"nid","slot":8,"scope_id":3},"pop":{"name":"pop","slot":9,"scope_id":3},"author":{"name":"author","slot":11,"scope_id":3},"keywords":{"name":"tags","slot":12,"scope_id":3},"org_id":{"name":"org_id","slot":13,"scope_id":3},"brand":{"name":"CP_Station","slot":14,"scope_id":2},"has_audio":{"name":"Has_Inline_Audio","slot":15,"scope_id":3},"programs":{"name":"Program","slot":16,"scope_id":3},"category":{"name":"Category","slot":10,"scope_id":3},"datePublished":{"name":"PublishedDate","slot":17,"scope_id":3},"wordCount":{"name":"WordCount","slot":18,"scope_id":3},"story_id":{"name":"API_Story_Id","slot":19,"scope_id":3},"pmp_guid":{"name":"pmp_guid","slot":20,"scope_id":3}},"pagetype_vars":[{"page_type":"Content\/About","regex_pattern":"\/about(-us)?\/?$","pattern_name":"Core Publisher About Page"},{"page_type":"Events","regex_pattern":"\/events(\/|$)","pattern_name":"Core Publisher Events Page"},{"page_type":"People","regex_pattern":"\/people(\/|$)","pattern_name":"Core Publisher People Page"},{"page_type":"Playlist","regex_pattern":"\/search_playlists\/?$","pattern_name":"Core Publisher Playlist Page"},{"page_type":"Program","regex_pattern":"\/programs(\/|$)","pattern_name":"Core Publisher Program Page"},{"page_type":"Schedule","regex_pattern":"\/schedule(\/|$)","pattern_name":"Core Publisher Schedule Page"},{"page_type":"Search","regex_pattern":"\/search\/google\/?","pattern_name":"Core Publisher Search GSA Page"},{"page_type":"Story","regex_pattern":"\/post\/|\/webclip\/","pattern_name":"Core Publisher Story Page"},{"page_type":"Streaming","regex_pattern":"\/listen(-live)?\/?(#|$)","pattern_name":"Core Publisher Listen Live Page"}],"media_queries":{"mobile":"all and (max-width: 40em)","tablet":"screen and (min-width: 40.063em) and (max-width: 64em)","desktop":"screen and (min-width: 64.063em)"}},"pi_ajax_links_api":{"selector":"#page-document","trigger":"a.ajax-link,#page-wrapper a,a.logo,a.mobile-teaser-link,.dropdown a","negative_triggers":".dropdown .back a,.mobile .not-click \u003e a,#toolbar a,a.lightbox,.jp-interface a,.header .not-click \u003e a,.page-admin a,.page-block-factory a,a.give,.social-share a,#change-station,#rss-tablequeue a,a[href^=\"mailto:\"],.popup,a[href^=\"#\"],a:not([href]),ul.tabs\u003eli\u003ea,ul.contextual-links a,#table-queue-fleximenu a[target=\"_blank\"],.delete-button","scripts_included":0,"html5":1,"vpager":1}});
+//--><!]]>
+</script>
+    <meta name="viewport" content="width=device-width">
+  </head>
+
+  <body class="html front not-logged-in page-homepage has-sidebar" >
+    <header role="banner" class="header">
+  <div class="skiptocontent"><a href="#main-content">skip to main content</a></div>
+    <div class="region region-header">
+    <div id="block-baby-bear-baby-bear-header" class="block block-baby-bear">
+
+    
+  <div class="content">
+    
+<div class="header-region-outer">
+  <section class="header-region-inner row">
+    <div class="branding large-12 columns">
+      <div class="brand-inner-wrapper">
+        <a href="/" rel="home" class="logo" title="KCUR Home"><img typeof="foaf:Image" src="http://mediad.publicbroadcasting.net/p/kcur/files/201509/KCUR-Logo-Horizontal-FullColor.png" alt="KCUR logo" title="KCUR Home" /></a>         <div class="tagline">
+                  </div>
+      </div>
+      <div class="header-utility">
+        <a class="trigger-nav" href="#">
+          <span class="icon-list"></span>
+          <span class="menu-text">Site Menu</span>
+        </a>
+        <a class="give" href="http://bit.ly/2cS8bPr" >
+  Donate</a>
+      </div>
+    </div>
+  </section>
+</div>
+  </div>
+</div>
+  </div>
+</header>
+    <div class="nav-wrapper mobile">
+      <nav>
+        <div class="top-bar contain-to-grid" data-topbar>
+          <ul class="title-area">
+            <li class="toggle-topbar menu-icon">
+              <a href="#">Menu</a>
+            </li>
+          </ul>
+          <section class="top-bar-section">
+            <div class="table-queue" id="table-queue-fleximenu">
+  <ul  class="menu dropdown">
+<li class="dd has-dropdown not-click">
+<a href="/programs">Programs</a>
+<ul  class="dropdown">
+<li class="left">
+<a href="/schedule/week">Program Guide</a>
+</li>
+<li class="left">
+<a href="/rss">Podcasts</a>
+</li>
+<li class="left">
+<a href="/programs/midwesternish">Midwesternish</a>
+</li>
+<li class="left">
+<a href="/programs/my-fellow-kansans">My Fellow Kansans</a>
+</li>
+<li class="left">
+<a href="http://kcur.org/programs/statehouse-blend-missouri#stream/0">Statehouse Blend Missouri</a>
+</li>
+<li class="left">
+<a href="/programs/centralstandard">Central Standard</a>
+</li>
+<li class="left">
+<a href="/programs/uptodate">Up To Date</a>
+</li>
+<li class="left">
+<a href="/programs/fish-fry">Fish Fry</a>
+</li>
+<li class="left">
+<a href="/programs/night-tides">Night Tides</a>
+</li>
+<li class="left">
+<a href="/programs/12th-street-jump">12th Street Jump</a>
+</li>
+<li class="left">
+<a href="/programs/cyprus-avenue">Cyprus Avenue</a>
+</li>
+<li class="left">
+<a href="http://kcur.org/programs/question-quest">Question Quest</a>
+</li>
+<li class="left">
+<a href="/programs">All Programs</a>
+</li>
+</ul>
+</li>
+<li class="dd has-dropdown not-click">
+<a href="/news">News</a>
+<ul  class="dropdown">
+<li class="left">
+<a href="http://harvestpublicmedia.org/">Harvest Public Media</a>
+</li>
+<li class="left">
+<a href="/term/kansas-news-service">Kansas News Service</a>
+</li>
+<li class="left">
+<a href="/term/education-0">Education</a>
+</li>
+<li class="left">
+<a href="/term/health">Health</a>
+</li>
+<li class="left">
+<a href="/term/sports">Sports</a>
+</li>
+<li class="left">
+<a href="/term/elections-0">Elections</a>
+</li>
+<li class="left">
+<a href="/term/government">Government</a>
+</li>
+<li class="left">
+<a href="/term/economy">Economy</a>
+</li>
+<li class="left">
+<a href="/term/science-environment">Science &amp; Environment</a>
+</li>
+<li class="left">
+<a href="/npr-news">NPR News</a>
+</li>
+</ul>
+</li>
+<li class="dd has-dropdown not-click">
+<a href="/topic/beyond-our-borders">Special Projects </a>
+<ul  class="dropdown">
+<li class="left">
+<a href="/term/argument">The Argument</a>
+</li>
+<li class="left">
+<a href="/term/goodbye-kids-0">The Goodbye Kids</a>
+</li>
+<li class="left">
+<a href="/term/18th-and-vine">18th and Vine</a>
+</li>
+<li class="left">
+<a href="/topic/beyond-our-borders">Beyond Our Borders </a>
+</li>
+<li class="left">
+<a href="http://kcur.org/term/story-song#stream/0">Story Of A Song</a>
+</li>
+<li class="left">
+<a href="https://sharingamerica.news/">Sharing America</a>
+</li>
+</ul>
+</li>
+<li class="dd has-dropdown not-click">
+<a href="/term/arts-and-culture-0">Arts &amp; Culture</a>
+<ul  class="dropdown">
+<li class="left">
+<a href="/term/artland">Artland</a>
+</li>
+<li class="left">
+<a href="/topic/books">Books</a>
+</li>
+<li class="left">
+<a href="/topic/film">Film</a>
+</li>
+<li class="left">
+<a href="/topic/food-and-drink">Food And Drink</a>
+</li>
+<li class="left">
+<a href="/topic/music">Music</a>
+</li>
+<li class="left">
+<a href="/topic/performance">Performance </a>
+</li>
+<li class="left">
+<a href="/topic/visual-arts">Visual Arts</a>
+</li>
+</ul>
+</li>
+<li class="dd has-dropdown not-click">
+<a href="https://kcurwebdonate.umkc.edu/alleg/WebModule/Donate.aspx?P=MAIN&amp;PAGETYPE=PLG&amp;CHECK=r7ZyK9McKTWqK20krF35cqUOstgWaB20 ">Ways to Give</a>
+<ul  class="dropdown">
+<li class="left">
+<a href="https://kcurwebdonate.umkc.edu/alleg/WebModule/Donate.aspx?P=MAIN&amp;PAGETYPE=PLG&amp;CHECK=r7ZyK9McKTWqK20krF35cqUOstgWaB20 ">Donate Now</a>
+</li>
+<li class="left">
+<a href="/sustaining-members">Sustaining Members</a>
+</li>
+<li class="left">
+<a href="/become-volunteer">Volunteer</a>
+</li>
+<li class="left">
+<a href="http://bit.ly/1qaK0os">Donate Your Vehicle</a>
+</li>
+<li class="left">
+<a href="/business">Partner Marketing</a>
+</li>
+<li class="left">
+<a href="/planned-giving">Planned Giving</a>
+</li>
+<li class="left">
+<a href="/membership-faqs">Membership FAQs</a>
+</li>
+<li class="left">
+<a href="/kcur-leadership-circle">Leadership Circle</a>
+</li>
+<li class="left">
+<a href="https://kcurwebdonate.umkc.edu/alleg/WebModule/Donate.aspx?P=CHANGE&amp;PAGETYPE=PLG&amp;CHECK=dvlaltUaXT8hrOSvjvOZaxiCxtaFReuS">Update Your Monthly Donation</a>
+</li>
+</ul>
+</li>
+<li class="dd has-dropdown not-click">
+<a href="/contact-kcur">Ways to Connect</a>
+<ul  class="dropdown">
+<li class="left">
+<a href="/kcur-events-calendar">Events</a>
+</li>
+<li class="left">
+<a href="/benefit-kcur-893">RadioActive 2018</a>
+</li>
+<li class="left">
+<a href="https://www.facebook.com/KCURKansasCity">Facebook</a>
+</li>
+<li class="left">
+<a href="https://twitter.com/kcur">Twitter</a>
+</li>
+<li class="left">
+<a href="https://instagram.com/kcur893/">Instagram</a>
+</li>
+<li class="left">
+<a href="/generation-listen-kc">KCUR Generation Listen</a>
+</li>
+<li class="left">
+<a href="/contact-kcur">Contact Us</a>
+</li>
+</ul>
+</li>
+<li class="dd has-dropdown not-click">
+<a href="/contact-kcur">Info</a>
+<ul  class="dropdown">
+<li class="left">
+<a href="/term/inside-kcur">Inside KCUR</a>
+</li>
+<li class="left">
+<a href="/contact-kcur">Contact Us</a>
+</li>
+<li class="left">
+<a href="/schedule/week">Program Guide</a>
+</li>
+<li class="left">
+<a href="/people/capacity/staff">Staff</a>
+</li>
+<li class="left">
+<a href="/governance">Governance</a>
+</li>
+<li class="left">
+<a href="/node/47273">Newsletters</a>
+</li>
+<li class="left">
+<a href="/business">Partner Marketing</a>
+</li>
+<li class="left">
+<a href="/employment-opportunities">Jobs</a>
+</li>
+<li class="left">
+<a href="/internships">Internships</a>
+</li>
+</ul>
+</li>
+<li>
+<a href="/search/google">Search </a>
+</li>
+</ul>
+</div>
+          </section>
+        </div>
+      </nav>
+    </div>
+      <div class="region region-persistent">
+    <div id="block-audity-audity" class="block block-audity">
+
+    
+  <div class="content">
+      </div>
+</div>
+  </div>
+    <div id="page-wrapper">
+            <div id="page-document" role="document" class="page">
+  <div class="nav-wrapper">
+    <nav>
+      <div class="top-bar contain-to-grid" data-topbar>
+        <ul class="title-area">
+          <li class="toggle-topbar menu-icon">
+            <a href="#">Menu</a>
+          </li>
+        </ul>
+        <section class="top-bar-section">
+          <div class="table-queue" id="table-queue-fleximenu">
+  <ul  class="menu dropdown">
+<li class="dd has-dropdown not-click">
+<a href="/programs">Programs</a>
+<ul  class="dropdown">
+<li class="left">
+<a href="/schedule/week">Program Guide</a>
+</li>
+<li class="left">
+<a href="/rss">Podcasts</a>
+</li>
+<li class="left">
+<a href="/programs/midwesternish">Midwesternish</a>
+</li>
+<li class="left">
+<a href="/programs/my-fellow-kansans">My Fellow Kansans</a>
+</li>
+<li class="left">
+<a href="http://kcur.org/programs/statehouse-blend-missouri#stream/0">Statehouse Blend Missouri</a>
+</li>
+<li class="left">
+<a href="/programs/centralstandard">Central Standard</a>
+</li>
+<li class="left">
+<a href="/programs/uptodate">Up To Date</a>
+</li>
+<li class="left">
+<a href="/programs/fish-fry">Fish Fry</a>
+</li>
+<li class="left">
+<a href="/programs/night-tides">Night Tides</a>
+</li>
+<li class="left">
+<a href="/programs/12th-street-jump">12th Street Jump</a>
+</li>
+<li class="left">
+<a href="/programs/cyprus-avenue">Cyprus Avenue</a>
+</li>
+<li class="left">
+<a href="http://kcur.org/programs/question-quest">Question Quest</a>
+</li>
+<li class="left">
+<a href="/programs">All Programs</a>
+</li>
+</ul>
+</li>
+<li class="dd has-dropdown not-click">
+<a href="/news">News</a>
+<ul  class="dropdown">
+<li class="left">
+<a href="http://harvestpublicmedia.org/">Harvest Public Media</a>
+</li>
+<li class="left">
+<a href="/term/kansas-news-service">Kansas News Service</a>
+</li>
+<li class="left">
+<a href="/term/education-0">Education</a>
+</li>
+<li class="left">
+<a href="/term/health">Health</a>
+</li>
+<li class="left">
+<a href="/term/sports">Sports</a>
+</li>
+<li class="left">
+<a href="/term/elections-0">Elections</a>
+</li>
+<li class="left">
+<a href="/term/government">Government</a>
+</li>
+<li class="left">
+<a href="/term/economy">Economy</a>
+</li>
+<li class="left">
+<a href="/term/science-environment">Science &amp; Environment</a>
+</li>
+<li class="left">
+<a href="/npr-news">NPR News</a>
+</li>
+</ul>
+</li>
+<li class="dd has-dropdown not-click">
+<a href="/topic/beyond-our-borders">Special Projects </a>
+<ul  class="dropdown">
+<li class="left">
+<a href="/term/argument">The Argument</a>
+</li>
+<li class="left">
+<a href="/term/goodbye-kids-0">The Goodbye Kids</a>
+</li>
+<li class="left">
+<a href="/term/18th-and-vine">18th and Vine</a>
+</li>
+<li class="left">
+<a href="/topic/beyond-our-borders">Beyond Our Borders </a>
+</li>
+<li class="left">
+<a href="http://kcur.org/term/story-song#stream/0">Story Of A Song</a>
+</li>
+<li class="left">
+<a href="https://sharingamerica.news/">Sharing America</a>
+</li>
+</ul>
+</li>
+<li class="dd has-dropdown not-click">
+<a href="/term/arts-and-culture-0">Arts &amp; Culture</a>
+<ul  class="dropdown">
+<li class="left">
+<a href="/term/artland">Artland</a>
+</li>
+<li class="left">
+<a href="/topic/books">Books</a>
+</li>
+<li class="left">
+<a href="/topic/film">Film</a>
+</li>
+<li class="left">
+<a href="/topic/food-and-drink">Food And Drink</a>
+</li>
+<li class="left">
+<a href="/topic/music">Music</a>
+</li>
+<li class="left">
+<a href="/topic/performance">Performance </a>
+</li>
+<li class="left">
+<a href="/topic/visual-arts">Visual Arts</a>
+</li>
+</ul>
+</li>
+<li class="dd has-dropdown not-click">
+<a href="https://kcurwebdonate.umkc.edu/alleg/WebModule/Donate.aspx?P=MAIN&amp;PAGETYPE=PLG&amp;CHECK=r7ZyK9McKTWqK20krF35cqUOstgWaB20 ">Ways to Give</a>
+<ul  class="dropdown">
+<li class="left">
+<a href="https://kcurwebdonate.umkc.edu/alleg/WebModule/Donate.aspx?P=MAIN&amp;PAGETYPE=PLG&amp;CHECK=r7ZyK9McKTWqK20krF35cqUOstgWaB20 ">Donate Now</a>
+</li>
+<li class="left">
+<a href="/sustaining-members">Sustaining Members</a>
+</li>
+<li class="left">
+<a href="/become-volunteer">Volunteer</a>
+</li>
+<li class="left">
+<a href="http://bit.ly/1qaK0os">Donate Your Vehicle</a>
+</li>
+<li class="left">
+<a href="/business">Partner Marketing</a>
+</li>
+<li class="left">
+<a href="/planned-giving">Planned Giving</a>
+</li>
+<li class="left">
+<a href="/membership-faqs">Membership FAQs</a>
+</li>
+<li class="left">
+<a href="/kcur-leadership-circle">Leadership Circle</a>
+</li>
+<li class="left">
+<a href="https://kcurwebdonate.umkc.edu/alleg/WebModule/Donate.aspx?P=CHANGE&amp;PAGETYPE=PLG&amp;CHECK=dvlaltUaXT8hrOSvjvOZaxiCxtaFReuS">Update Your Monthly Donation</a>
+</li>
+</ul>
+</li>
+<li class="dd has-dropdown not-click">
+<a href="/contact-kcur">Ways to Connect</a>
+<ul  class="dropdown">
+<li class="left">
+<a href="/kcur-events-calendar">Events</a>
+</li>
+<li class="left">
+<a href="/benefit-kcur-893">RadioActive 2018</a>
+</li>
+<li class="left">
+<a href="https://www.facebook.com/KCURKansasCity">Facebook</a>
+</li>
+<li class="left">
+<a href="https://twitter.com/kcur">Twitter</a>
+</li>
+<li class="left">
+<a href="https://instagram.com/kcur893/">Instagram</a>
+</li>
+<li class="left">
+<a href="/generation-listen-kc">KCUR Generation Listen</a>
+</li>
+<li class="left">
+<a href="/contact-kcur">Contact Us</a>
+</li>
+</ul>
+</li>
+<li class="dd has-dropdown not-click">
+<a href="/contact-kcur">Info</a>
+<ul  class="dropdown">
+<li class="left">
+<a href="/term/inside-kcur">Inside KCUR</a>
+</li>
+<li class="left">
+<a href="/contact-kcur">Contact Us</a>
+</li>
+<li class="left">
+<a href="/schedule/week">Program Guide</a>
+</li>
+<li class="left">
+<a href="/people/capacity/staff">Staff</a>
+</li>
+<li class="left">
+<a href="/governance">Governance</a>
+</li>
+<li class="left">
+<a href="/node/47273">Newsletters</a>
+</li>
+<li class="left">
+<a href="/business">Partner Marketing</a>
+</li>
+<li class="left">
+<a href="/employment-opportunities">Jobs</a>
+</li>
+<li class="left">
+<a href="/internships">Internships</a>
+</li>
+</ul>
+</li>
+<li>
+<a href="/search/google">Search </a>
+</li>
+</ul>
+</div>
+        </section>
+      </div>
+    </nav>
+  </div>
+
+  <div id="player" class="player">
+      </div>
+
+  
+      <section class="pre-content">
+      <div>
+          <div class="region region-pre-content">
+    <div id="block-pi-responsive-ads-mobile-1" class="block block-pi-responsive-ads">
+
+    
+  <div class="content">
+      </div>
+</div>
+  </div>
+      </div>
+    </section>
+  
+  
+  
+  <div class="row">
+    <main id="content" role="main" class="main-content small-12 columns">
+      <article class="story">
+        <a id="main-content"></a>
+        
+                                    
+        
+                  <div class="regions-ab-outer">
+            <div class="regions-ab-inner">
+        
+                  <div class="region-a">
+              <div class="region region-region-a">
+    <div id="block-block-factory-block-factory-550c45a37e2bd" class="block block-block-factory">
+
+    
+  <div class="content">
+    <div class="one-story-treatment bf-outer-wrapper clearfix">
+  <div class="bf-inner-wrapper bf-hero">
+      <figure class="bf-image-wrapper  with-image">
+    <a href="/post/how-one-kansas-city-artist-works-home-feels-hes-somewhere-else">
+<div class="card-image-container">
+  <figure>
+    <a title="Julie Denesha" href="/post/how-one-kansas-city-artist-works-home-feels-hes-somewhere-else" class="noexit">
+    <img class="multiple" src="http://mediad.publicbroadcasting.net/p/kcur/files/styles/medium/public/201807/20180405_Allan_Winkler_00670023.jpg" >
+          </a>
+
+        <div class="image-meta">
+      <figcaption>
+        <div class="credit">
+          Julie Denesha / KCUR 89.3FM        </div>
+      </figcaption>
+    </div>
+      </figure>
+</div>
+</a>  </figure>
+
+<div class="bf-text-wrapper  with-image">
+  <h2 class="bf-post-title"><a href="/post/how-one-kansas-city-artist-works-home-feels-hes-somewhere-else">How One Kansas City Artist Works At Home But Feels Like He's Somewhere Else</a></h2>
+  <div class="bf-body">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>Kansas City artist Allan Winkler 's work is full of whimsy. It's often found in unexpected places: a mural in a school cafeteria, colorful mosaics in the bathroom of a theater . Year-round, you can see his folksy metal cutouts on permanent display at the Marlborough Community Center , and The Gathering Place is hosting a show of his work during Open Spaces . Winkler works out of a home that was built in the 1860s. Visitors to the Westside neighborhood will recognize it from the bottles decorating the fences and kinetic sculptures hanging from trees.</p></div></div></div>  </div>
+
+  <a href="/post/how-one-kansas-city-artist-works-home-feels-hes-somewhere-else" class="bf-read-more">Read More</a>
+</div>
+
+<div class="content  with-image">
+  </div>
+  </div>
+</div>
+  </div>
+</div>
+<div id="block-block-factory-block-factory-550c5ed087cb5" class="block block-block-factory">
+
+    <h2 class="block-title">Up To Date</h2>
+  
+  <div class="content">
+    <style type="text/css">#promo-small-550c5ed087cb5 .promo-small-treatment { background-color: #E0E0E0; } #promo-small-550c5ed087cb5 .promo-small-heading { color: #404040; } #promo-small-550c5ed087cb5 .promo-small-heading a { color: #404040; } #promo-small-550c5ed087cb5 .promo-small-teaser { color: #404040; } #promo-small-550c5ed087cb5 .promo-small-cta { border-color: #404040; color: #404040; opacity: 1; transition: all .15s ease; } #promo-small-550c5ed087cb5 .promo-small-cta:hover { color: #404040; opacity: 0.6; }</style><div id="promo-small-550c5ed087cb5">
+  <div class="promo-small-treatment clearfix" >
+          <figure class="promo-small-image">
+        <a href="http://www.kcur.org/post/seg-1-will-controversial-candidate-hurt-gop-kansas-2nd-district-seg-2-indie-film-critics#stream/0" class="linked-image"><img typeof="foaf:Image" src="http://mediad.publicbroadcasting.net/p/kcur/files/styles/medium/public/201808/stevewatkins.jpg" alt="" /></a>      </figure>
+    
+        <div class="promo-small-text-wrapper">
+              <h2 class="promo-small-heading"><a href="http://www.kcur.org/post/seg-1-will-controversial-candidate-hurt-gop-kansas-2nd-district-seg-2-indie-film-critics#stream/0">Will A Controversial Candidate In Kansas&#039; 2nd Hurt The GOP?</a></h2>
+      
+              <p class="promo-small-teaser">A relatively unknown Republican candidate's primary victory came as a surprise to many, but has given Democrats hope that their nominee for Rep. Lynn Jenkins' seat in Congress might flip the district.</p>
+      
+              <div class="promo-small-cta-wrapper">
+          <a href="http://www.kcur.org/post/seg-1-will-controversial-candidate-hurt-gop-kansas-2nd-district-seg-2-indie-film-critics#stream/0" class="promo-small-cta">Hear More</a>        </div>
+            </div>
+      </div>
+</div>
+  </div>
+</div>
+  </div>
+          </div>
+        
+                  <div class="region-b">
+              <div class="region region-region-b">
+    <div id="block-pi-responsive-ads-medium-1" class="block block-pi-responsive-ads">
+
+    
+  <div class="content">
+      </div>
+</div>
+<div id="block-block-factory-block-factory-550c45f7eb228" class="block block-block-factory">
+
+    
+  <div class="content">
+    <div class="three-stories-treatment bf-outer-wrapper clearfix">
+  <div class="bf-inner-wrapper bf-hero">
+      <figure class="bf-image-wrapper  with-image">
+    <a href="/post/what-you-need-know-about-open-spaces-kansas-citys-huge-new-arts-festival">
+<div class="card-image-container">
+  <figure>
+    <a title="Julie Denesha" href="/post/what-you-need-know-about-open-spaces-kansas-citys-huge-new-arts-festival" class="noexit">
+    <img class="multiple" src="http://mediad.publicbroadcasting.net/p/kcur/files/styles/medium/public/201808/082318_jd_open_spaces_work_by_dawn_dedeaux_in_swope_park.jpg" >
+          </a>
+
+        <div class="image-meta">
+      <figcaption>
+        <div class="credit">
+          Julie Denesha / KCUR 89.3        </div>
+      </figcaption>
+    </div>
+      </figure>
+</div>
+</a>  </figure>
+
+<div class="bf-text-wrapper  with-image">
+  <h2 class="bf-post-title"><a href="/post/what-you-need-know-about-open-spaces-kansas-citys-huge-new-arts-festival">What You Need To Know About Open Spaces, Kansas City's Huge New Arts Festival</a></h2>
+  <div class="bf-body">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>Kansas City's first biennial Open Spaces launches this week. And, like the metropolitan area itself, Open Spaces is sprawling. It stretches 62 days, from August 25 to October 28, with more than 150 performing and visual artists.</p></div></div></div>  </div>
+
+  <a href="/post/what-you-need-know-about-open-spaces-kansas-citys-huge-new-arts-festival" class="bf-read-more">Read More</a>
+</div>
+
+<div class="content  with-image">
+  </div>
+  </div>
+  <div class="bf-inner-wrapper bf-sidekick-group">
+    <div class="bf-sidekick">
+        <figure class="bf-image-wrapper  with-image contains-audio">
+    <a href="/post/oh-people-you-ll-meet-colorado-trail">
+<div class="card-image-container">
+  <figure>
+    <a title="Frank Morris" href="/post/oh-people-you-ll-meet-colorado-trail" class="noexit">
+    <img class="multiple" src="http://mediad.publicbroadcasting.net/p/kcur/files/styles/medium/public/201808/GRINGO.JPG" >
+          </a>
+
+        <div class="image-meta">
+      <figcaption>
+        <div class="credit">
+          Frank Morris / KCUR 89.3        </div>
+      </figcaption>
+    </div>
+      </figure>
+</div>
+</a>  </figure>
+
+<h2 class="bf-post-title  with-image contains-audio"><a href="/post/oh-people-you-ll-meet-colorado-trail">Oh, The People You’ll Meet On The Colorado Trail</a></h2>
+
+<div class="content">
+  </div>
+    </div>
+    <div class="bf-sidekick">
+        <figure class="bf-image-wrapper  with-image contains-audio">
+    <a href="/post/hands-kansas-city-singer-old-banjo-shows-all-emotions">
+<div class="card-image-container">
+  <figure>
+    <a title="Jenny Wheat" href="/post/hands-kansas-city-singer-old-banjo-shows-all-emotions" class="noexit">
+    <img class="multiple" src="http://mediad.publicbroadcasting.net/p/kcur/files/styles/medium/public/201808/082418_mw_kelly_hunt_by_jenny_wheat.jpg" >
+          </a>
+
+        <div class="image-meta">
+      <figcaption>
+        <div class="credit">
+          Jenny Wheat        </div>
+      </figcaption>
+    </div>
+      </figure>
+</div>
+</a>  </figure>
+
+<h2 class="bf-post-title  with-image contains-audio"><a href="/post/hands-kansas-city-singer-old-banjo-shows-all-emotions">In The Hands Of This Kansas City Singer, An Old Banjo Shows All The Emotions</a></h2>
+
+<div class="content">
+  </div>
+    </div>
+  </div>
+</div>
+  </div>
+</div>
+  </div>
+          </div>
+        
+                    </div>
+          </div>
+        
+                  <div class="region-c">
+              <div class="region region-region-c">
+    <div id="block-npr-river-npr-river-block-all" class="block block-npr-river">
+
+    
+  <div class="content">
+    
+<div class="npr-river-all">
+  
+<div id="node-124917" class="node-teaser node node-post node-promoted npr_river_card row" about="/post/broken-water-pipe-kauffman-stadium-delays-kansas-city-royals-win-friday" typeof="sioc:Item foaf:Document">
+  <div class="large-12 columns">
+    <a class="mobile-teaser-link" href="/post/broken-water-pipe-kauffman-stadium-delays-kansas-city-royals-win-friday"></a>
+    <div class='title-info'>
+      <h2  property="dc:title" datatype="" itemprop="name"><a href="/post/broken-water-pipe-kauffman-stadium-delays-kansas-city-royals-win-friday">Broken Water Pipe At Kauffman Stadium Delays Kansas City Royals&#039; Win On Friday</a></h2>
+              <div class="by-date">
+          <span class="submitted"><span property="dc:date dc:created" content="2018-08-25T07:36:03-05:00" datatype="xsd:dateTime" rel="sioc:has_creator"><span class="submitted-label">By</span> <span class="name"><a href="/people/greg-echlin" rel="author">Greg Echlin</a></span></span></span>
+          <i class="bullet">&#8226;</i>
+          <span class="pub-date">Aug 25,  2018 </span>
+        </div>
+          </div>
+
+    <div class="content">
+      
+<div class="card-image-container">
+  <figure>
+    <a title="Greg Echlin" href="/post/broken-water-pipe-kauffman-stadium-delays-kansas-city-royals-win-friday" class="noexit">
+    <img class="multiple" src="http://mediad.publicbroadcasting.net/p/kcur/files/styles/medium/public/201808/082518_ge_flood_at_kauffman_stadium_greg_echlin.jpg" >
+          </a>
+
+        <div class="image-meta">
+      <figcaption>
+        <div class="credit">
+          Greg Echlin / KCUR 89.3        </div>
+      </figcaption>
+    </div>
+      </figure>
+</div>
+<div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p><p>Things were going badly enough for the Kansas City Royals when they opened a homestand on a five-game losing streak Friday night. Then a pipe broke in the right-field bullpen area and flooded the warning track.</p> <p>And the Royals were winning.</p> <p>The game, already underway, was delayed for 30 minutes. As water gushed from the bottom of the padded wall, the stadium crew frantically shut off the valves to that part of the ballpark and swept the standing water into the drains.</p></p></div></div></div>    </div>
+
+      </div>
+</div>
+
+<div id="node-124901" class="node-teaser node node-post node-promoted npr_river_card row" about="/post/pedestrian-safety-proposal-takes-aim-panhandling-kansas-city" typeof="sioc:Item foaf:Document">
+  <div class="large-12 columns">
+    <a class="mobile-teaser-link" href="/post/pedestrian-safety-proposal-takes-aim-panhandling-kansas-city"></a>
+    <div class='title-info'>
+      <h2  property="dc:title" datatype="" itemprop="name"><a href="/post/pedestrian-safety-proposal-takes-aim-panhandling-kansas-city">A Pedestrian Safety Proposal Takes Aim At Panhandling In Kansas City</a></h2>
+              <div class="by-date">
+          <span class="submitted"><span property="dc:date dc:created" content="2018-08-24T16:30:18-05:00" datatype="xsd:dateTime" rel="sioc:has_creator"><span class="submitted-label">By</span> <span class="name"><a href="/people/andrea-tudhope" rel="author">Andrea Tudhope</a></span></span></span>
+          <i class="bullet">&#8226;</i>
+          <span class="pub-date">Aug 24,  2018 </span>
+        </div>
+          </div>
+
+    <div class="content">
+      
+<div class="card-image-container">
+  <figure>
+    <a title="File photo" href="/post/pedestrian-safety-proposal-takes-aim-panhandling-kansas-city" class="noexit">
+    <img class="multiple" src="http://mediad.publicbroadcasting.net/p/kcur/files/styles/medium/public/201808/Hange_CityHall-2.jpg" >
+          </a>
+
+        <div class="image-meta">
+      <figcaption>
+        <div class="credit">
+          File photo / KCUR 89.3        </div>
+      </figcaption>
+    </div>
+      </figure>
+</div>
+<div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p><p>A proposed pedestrian safety ordinance would have implications for individuals panhandling at Kansas City intersections. </p> <p>Councilperson Teresa Loar introduced the measure Thursday. It outlines new rules to increase pedestrian safety at intersections and crosswalks, reducing the amount of time permitted to cross, and limiting the roadside space permitted for walking. </p> </p></div></div></div>    </div>
+
+      </div>
+</div>
+
+<div id="node-124903" class="node-teaser node node-post node-promoted npr_river_card row" about="/post/tallgrass-brewing-shutting-down-ending-largest-beer-making-operation-kansas" typeof="sioc:Item foaf:Document">
+  <div class="large-12 columns">
+    <a class="mobile-teaser-link" href="/post/tallgrass-brewing-shutting-down-ending-largest-beer-making-operation-kansas"></a>
+    <div class='title-info'>
+      <h2  property="dc:title" datatype="" itemprop="name"><a href="/post/tallgrass-brewing-shutting-down-ending-largest-beer-making-operation-kansas">Tallgrass Brewing Shutting Down, Ending Largest Beer-making Operation In Kansas</a></h2>
+              <div class="by-date">
+          <span class="submitted"><span property="dc:date dc:created" content="2018-08-24T16:04:28-05:00" datatype="xsd:dateTime" rel="sioc:has_creator"><span class="submitted-label">By</span> <span class="name"><a href="/people/stephen-koranda" rel="author">Stephen Koranda</a></span></span></span>
+          <i class="bullet">&#8226;</i>
+          <span class="pub-date">Aug 24,  2018 </span>
+        </div>
+          </div>
+
+    <div class="content">
+      
+<div class="card-image-container">
+  <figure>
+    <a title="Stephen Koranda" href="/post/tallgrass-brewing-shutting-down-ending-largest-beer-making-operation-kansas" class="noexit">
+    <img class="multiple" src="http://mediad.publicbroadcasting.net/p/kcur/files/styles/medium/public/201808/tallgrass-1200.jpg" >
+          </a>
+
+        <div class="image-meta">
+      <figcaption>
+        <div class="credit">
+          Stephen Koranda / Kansas News Service        </div>
+      </figcaption>
+    </div>
+      </figure>
+</div>
+<div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p><p>The self-proclaimed largest craft brewery in Kansas is shutting down. Tallgrass Brewing, based in Manhattan, will close its doors, at least temporarily.</p> <p>Tallgrass Brewing was founded in 2007 and expanded in 2015 to a 60,000-square foot facility, which the company said quadrupled its capacity. Tallgrass has been distributing beer in 18 states, according to the website.</p> <p>When reached by phone, an employee at the Manhattan facility confirmed that the brewery is suspending operations immediately. She couldn't provide any other details.</p></p></div></div></div>    </div>
+
+      </div>
+</div>
+
+<div id="node-124895" class="node-teaser node node-post node-promoted npr_river_card row" about="/post/planned-parenthoods-midtown-kansas-city-clinic-loses-abortion-license" typeof="sioc:Item foaf:Document">
+  <div class="large-12 columns">
+    <a class="mobile-teaser-link" href="/post/planned-parenthoods-midtown-kansas-city-clinic-loses-abortion-license"></a>
+    <div class='title-info'>
+      <h2  property="dc:title" datatype="" itemprop="name"><a href="/post/planned-parenthoods-midtown-kansas-city-clinic-loses-abortion-license">Planned Parenthood&#039;s Midtown Kansas City Clinic Loses Abortion License </a></h2>
+              <div class="by-date">
+          <span class="submitted"><span property="dc:date dc:created" content="2018-08-24T14:58:19-05:00" datatype="xsd:dateTime" rel="sioc:has_creator"><span class="submitted-label">By</span> <span class="name"><a href="/people/dan-margolies" rel="author">Dan Margolies</a></span></span></span>
+          <i class="bullet">&#8226;</i>
+          <span class="pub-date">Aug 24,  2018 </span>
+        </div>
+          </div>
+
+    <div class="content">
+      
+<div class="card-image-container">
+  <figure>
+    <a title="File photo " href="/post/planned-parenthoods-midtown-kansas-city-clinic-loses-abortion-license" class="noexit">
+    <img class="multiple" src="http://mediad.publicbroadcasting.net/p/kcur/files/styles/medium/public/201808/planned_parenthood_midtown_-_copy.jpg" >
+          </a>
+
+        <div class="image-meta">
+      <figcaption>
+        <div class="credit">
+          File photo         </div>
+      </figcaption>
+    </div>
+      </figure>
+</div>
+<div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p><p>Planned Parenthood’s midtown Kansas City clinic can no longer perform medication abortions after its license officially expired on Aug. 10.</p> <p>Clinic officials say they sought timely renewal of its license, but state health officials delayed it after saying they were unable to conduct a complete inspection of the facility in June.</p> <p>The clinic had no abortion provider on the premises at the time, having stopped performing medication abortions on March 29 when its previous provider left.</p></p></div></div></div>    </div>
+
+      </div>
+</div>
+
+<div id="node-124889" class="node-teaser node node-post node-promoted npr_river_card row" about="/post/independent-candidate-kansas-governor-greg-orman-will-stay-ballot" typeof="sioc:Item foaf:Document">
+  <div class="large-12 columns">
+    <a class="mobile-teaser-link" href="/post/independent-candidate-kansas-governor-greg-orman-will-stay-ballot"></a>
+    <div class='title-info'>
+      <h2  property="dc:title" datatype="" itemprop="name"><a href="/post/independent-candidate-kansas-governor-greg-orman-will-stay-ballot">Independent Candidate For Kansas Governor Greg Orman Will Stay On The Ballot</a></h2>
+              <div class="by-date">
+          <span class="submitted"><span property="dc:date dc:created" content="2018-08-24T11:34:15-05:00" datatype="xsd:dateTime" rel="sioc:has_creator"><span class="submitted-label">By</span> <span class="name"><a href="/people/stephen-koranda" rel="author">Stephen Koranda</a></span></span></span>
+          <i class="bullet">&#8226;</i>
+          <span class="pub-date">Aug 24,  2018 </span>
+        </div>
+          </div>
+
+    <div class="content">
+      
+<div class="card-image-container">
+  <figure>
+    <a title="Stephen Koranda" href="/post/independent-candidate-kansas-governor-greg-orman-will-stay-ballot" class="noexit">
+    <img class="multiple" src="http://mediad.publicbroadcasting.net/p/kcur/files/styles/medium/public/201808/board-1200.jpg" >
+          </a>
+
+        <div class="image-meta">
+      <figcaption>
+        <div class="credit">
+          Stephen Koranda / Kansas News Service        </div>
+      </figcaption>
+    </div>
+      </figure>
+</div>
+<div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p><p>Independent candidate for Kansas governor Greg Orman will stay on the ballot after state officials rejected a challenge to his candidacy Thursday.</p> <p>Will Lawrence, a staffer for the state Senate’s top Democrat, had questioned thousands of the signatures Orman used to secure a spot in the race, saying they weren’t collected properly or notarized correctly.</p> <p>The State Objections Board disagreed. The panel ultimately removed a few hundred signatures because they were collected by a convicted felon.</p></p></div></div></div>    </div>
+
+      </div>
+</div>
+
+<div id="node-124767" class="node-teaser node node-post node-promoted npr_river_card row" about="/post/mary-lou-williams-took-kansas-city-music-stars-and-jazz-band-brings-her-back" typeof="sioc:Item foaf:Document">
+  <div class="large-12 columns">
+    <a class="mobile-teaser-link" href="/post/mary-lou-williams-took-kansas-city-music-stars-and-jazz-band-brings-her-back"></a>
+    <div class='title-info'>
+      <h2  property="dc:title" datatype="" itemprop="name"><a href="/post/mary-lou-williams-took-kansas-city-music-stars-and-jazz-band-brings-her-back">Mary Lou Williams Took Kansas City Music To The Stars, And A Jazz Band Brings Her Back</a></h2>
+              <div class="by-date">
+          <span class="submitted"><span property="dc:date dc:created" content="2018-08-24T09:00:00-05:00" datatype="xsd:dateTime" rel="sioc:has_creator"><span class="submitted-label">By</span> <span class="name"><a href="/people/libby-hanssen" rel="author">Libby Hanssen</a></span></span></span>
+          <i class="bullet">&#8226;</i>
+          <span class="pub-date">Aug 24,  2018 </span>
+        </div>
+          </div>
+
+    <div class="content">
+      
+<div class="card-image-container">
+  <figure>
+    <a title="William P. Gottlieb" href="/post/mary-lou-williams-took-kansas-city-music-stars-and-jazz-band-brings-her-back" class="noexit">
+    <img class="multiple" src="http://mediad.publicbroadcasting.net/p/kcur/files/styles/medium/public/201808/082218_lh_mary_lou_williams_by_william_p._gottlieb_wikimedia_commons_public_domain.jpg" >
+          </a>
+
+        <div class="image-meta">
+      <figcaption>
+        <div class="credit">
+          William P. Gottlieb        </div>
+      </figcaption>
+    </div>
+      </figure>
+</div>
+<div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p><p><a href="https://folkways.si.edu/magazine-fall-2010-mary-lou-williams-jazz-soul/ragtime/music/article/smithsonian">Mary Lou Williams</a> only spent a dozen years in Kansas City during its first jazz heyday, but this is where she solidified her professional reputation, gaining the respect of leaders in the field.</p> <p>“Mary Lou Williams is increasingly ranked as one of the most significant and influential composers to have ever made Kansas City their home base,” says Dan Cameron, artistic director of <a href="https://openspaceskc.com/">Open Spaces</a>.</p> <p>Among the ten-week festival's opening-weekend events is a free performance of Williams’ “Zodiac Suite” by the <a href="https://www.kcjo.org/">Kansas City Jazz Orchestra</a> in Swope Park.</p> </p></div></div></div>    </div>
+
+      </div>
+</div>
+
+<div id="node-124756" class="node-teaser node node-post node-promoted npr_river_card row" about="/post/august-deadliest-month-kansas-city-pedestrians-2018" typeof="sioc:Item foaf:Document">
+  <div class="large-12 columns">
+    <a class="mobile-teaser-link" href="/post/august-deadliest-month-kansas-city-pedestrians-2018"></a>
+    <div class='title-info'>
+      <h2  property="dc:title" datatype="" itemprop="name"><a href="/post/august-deadliest-month-kansas-city-pedestrians-2018">August Is The Deadliest Month For Kansas City Pedestrians In 2018</a></h2>
+              <div class="by-date">
+          <span class="submitted"><span property="dc:date dc:created" content="2018-08-23T19:43:07-05:00" datatype="xsd:dateTime" rel="sioc:has_creator"><span class="submitted-label">By</span> <span class="name">Coy Dugger</span></span></span>
+          <i class="bullet">&#8226;</i>
+          <span class="pub-date">Aug 23,  2018 </span>
+        </div>
+          </div>
+
+    <div class="content">
+      
+<div class="card-image-container">
+  <figure>
+    <a title="Hubert Figuière" href="/post/august-deadliest-month-kansas-city-pedestrians-2018" class="noexit">
+    <img class="multiple" src="http://mediad.publicbroadcasting.net/p/kcur/files/styles/medium/public/201808/PedestrianCrossing.jpg" >
+          </a>
+
+        <div class="image-meta">
+      <figcaption>
+        <div class="credit">
+          Hubert Figuière / Flickr-CC        </div>
+      </figcaption>
+    </div>
+      </figure>
+</div>
+<div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p><p>When a pedestrian was struck and killed in a hit-and-run along Interstate 435 near Highway 350 on Monday, the Kansas City Metro hit a grim milestone for the month.</p></p></div></div></div>    </div>
+
+      </div>
+</div>
+
+<div id="node-124863" class="node-teaser node node-post node-promoted npr_river_card row" about="/post/democrats-challenging-kansas-congressional-seats-wary-trump-impeachment-talk" typeof="sioc:Item foaf:Document">
+  <div class="large-12 columns">
+    <a class="mobile-teaser-link" href="/post/democrats-challenging-kansas-congressional-seats-wary-trump-impeachment-talk"></a>
+    <div class='title-info'>
+      <h2  property="dc:title" datatype="" itemprop="name"><a href="/post/democrats-challenging-kansas-congressional-seats-wary-trump-impeachment-talk">Democrats Challenging For Kansas Congressional Seats Wary Of Trump Impeachment Talk</a></h2>
+              <div class="by-date">
+          <span class="submitted"><span property="dc:date dc:created" content="2018-08-23T18:43:17-05:00" datatype="xsd:dateTime" rel="sioc:has_creator"><span class="submitted-label">By</span> <span class="name"><a href="/people/jim-mclean" rel="author">Jim McLean</a></span></span></span>
+          <i class="bullet">&#8226;</i>
+          <span class="pub-date">Aug 23,  2018 </span>
+        </div>
+          </div>
+
+    <div class="content">
+      
+<div class="card-image-container">
+  <figure>
+    <a title="Sgt. Alicia Brand" href="/post/democrats-challenging-kansas-congressional-seats-wary-trump-impeachment-talk" class="noexit">
+    <img class="multiple" src="http://mediad.publicbroadcasting.net/p/kcur/files/styles/medium/public/201702/Wreath-layingceremonywithPresident-electDonaldJTrump.jpg" >
+          </a>
+
+        <div class="image-meta">
+      <figcaption>
+        <div class="credit">
+          Sgt. Alicia Brand / U.S. Army        </div>
+      </figcaption>
+    </div>
+      </figure>
+</div>
+<div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p><p>Plenty of pundits are speculating that a Democratic takeover of the U.S. House would trigger impeachment proceedings against President Donald Trump.</p> <p>But the Democrats attempting to flip three Republican-held congressional districts in Kansas aren’t at all eager to talk about the issue.</p> <p></p></div></div></div>    </div>
+
+      </div>
+</div>
+
+<div id="node-124861" class="node-teaser node node-post node-promoted npr_river_card row" about="/post/former-kctv-5-anchor-s-age-discrimination-lawsuit-can-proceed-judge-rules" typeof="sioc:Item foaf:Document">
+  <div class="large-12 columns">
+    <a class="mobile-teaser-link" href="/post/former-kctv-5-anchor-s-age-discrimination-lawsuit-can-proceed-judge-rules"></a>
+    <div class='title-info'>
+      <h2  property="dc:title" datatype="" itemprop="name"><a href="/post/former-kctv-5-anchor-s-age-discrimination-lawsuit-can-proceed-judge-rules">Former KCTV-5 Anchor’s Age Discrimination Lawsuit Can Proceed, Judge Rules</a></h2>
+              <div class="by-date">
+          <span class="submitted"><span property="dc:date dc:created" content="2018-08-23T17:28:54-05:00" datatype="xsd:dateTime" rel="sioc:has_creator"><span class="submitted-label">By</span> <span class="name"><a href="/people/dan-margolies" rel="author">Dan Margolies</a></span></span></span>
+          <i class="bullet">&#8226;</i>
+          <span class="pub-date">Aug 23,  2018 </span>
+        </div>
+          </div>
+
+    <div class="content">
+      
+<div class="card-image-container">
+  <figure>
+    <a title="KGAN" href="/post/former-kctv-5-anchor-s-age-discrimination-lawsuit-can-proceed-judge-rules" class="noexit">
+    <img class="multiple" src="http://mediad.publicbroadcasting.net/p/kcur/files/styles/medium/public/201808/fuller__karen_0.jpg" >
+          </a>
+
+        <div class="image-meta">
+      <figcaption>
+        <div class="credit">
+          KGAN        </div>
+      </figcaption>
+    </div>
+      </figure>
+</div>
+<div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p><p>Former KCTV Channel 5 anchor Karen Fuller’s age and gender discrimination lawsuit against the station can move forward, a federal judge ruled this week.</p> <p>U.S. District Judge John Lungstrum determined that Fuller had produced sufficient evidence that she had been fired because of her age or gender, and denied KCTV’s bid to throw out the case.  </p> <p>Fuller was a news anchor at KCTV from 2003 until 2015, when she was abruptly let go. She was 47 years old at the time and her lawsuit alleges Meredith Corp., the station’s owner, created an “age ceiling” for its female anchors but not for its male anchors.</p> </p></div></div></div>    </div>
+
+      </div>
+</div>
+
+<div id="node-124860" class="node-teaser node node-post node-promoted npr_river_card row" about="/post/kansas-city-airport-developer-faces-community-improvement-funding-failure" typeof="sioc:Item foaf:Document">
+  <div class="large-12 columns">
+    <a class="mobile-teaser-link" href="/post/kansas-city-airport-developer-faces-community-improvement-funding-failure"></a>
+    <div class='title-info'>
+      <h2  property="dc:title" datatype="" itemprop="name"><a href="/post/kansas-city-airport-developer-faces-community-improvement-funding-failure">Kansas City Airport Developer Faces Community-Improvement Funding Failure</a></h2>
+              <div class="by-date">
+          <span class="submitted"><span property="dc:date dc:created" content="2018-08-23T17:09:30-05:00" datatype="xsd:dateTime" rel="sioc:has_creator"><span class="submitted-label">By</span> <span class="name"><a href="/people/lisa-rodriguez" rel="author">Lisa Rodriguez</a></span></span></span>
+          <i class="bullet">&#8226;</i>
+          <span class="pub-date">Aug 23,  2018 </span>
+        </div>
+          </div>
+
+    <div class="content">
+      
+<div class="card-image-container">
+  <figure>
+    <a title="Edgemoor Infrastructure &amp; Real Estate" href="/post/kansas-city-airport-developer-faces-community-improvement-funding-failure" class="noexit">
+    <img class="multiple" src="http://mediad.publicbroadcasting.net/p/kcur/files/styles/medium/public/201808/0818_KCI_terminalapproach.png" >
+          </a>
+
+        <div class="image-meta">
+      <figcaption>
+        <div class="credit">
+          Edgemoor Infrastructure &amp; Real Estate        </div>
+      </figcaption>
+    </div>
+      </figure>
+</div>
+<div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p><p>Developers of the new terminal at Kansas City International airport may not be able to follow through on a promise to help fund initiatives for minorities and disadvantaged parts of the city.</p> <p>The so-called Community Benefits Agreement is a package of initiatives that include free or subsidized transportation options and licensed childcare for workers, as well as an on-site health clinic, expedited payment and workforce training during the project.</p></p></div></div></div>    </div>
+
+      </div>
+</div>
+</div><h2 class="element-invisible">Pages</h2><div class="item-list"><ul class="pager"><li class="pager-current first">1</li>
+<li class="pager-item"><a href="/homepage?page=1" title="Go to page 2" class="active">2</a></li>
+<li class="pager-item"><a href="/homepage?page=2" title="Go to page 3" class="active">3</a></li>
+<li class="pager-item"><a href="/homepage?page=3" title="Go to page 4" class="active">4</a></li>
+<li class="pager-ellipsis">…</li>
+<li class="pager-next"><a href="/homepage?page=1" title="Go to next page" class="active">next ›</a></li>
+<li class="pager-last last"><a href="/homepage?page=7298" title="Go to last page" class="active">last »</a></li>
+</ul></div>  </div>
+</div>
+<div id="block-block-factory-block-factory-5b578f9a33918" class="block block-block-factory">
+
+    
+  <div class="content">
+    <style type="text/css">#promo-large-5b578f9a33918 .promo-large-treatment { background-color: #FFFFFF; } #promo-large-5b578f9a33918 .promo-large-heading { color: #404040; } #promo-large-5b578f9a33918 .promo-large-heading a { color: #404040; } #promo-large-5b578f9a33918 .promo-large-teaser { color: #404040; } #promo-large-5b578f9a33918 .promo-large-cta { border-color: #404040; color: #404040; opacity: 1; transition: all .15s ease; } #promo-large-5b578f9a33918 .promo-large-cta:hover { color: #404040; opacity: 0.65; }</style><div id="promo-large-5b578f9a33918">
+  <div class="promo-large-treatment clearfix" >
+      <figure class="promo-large-image">
+      <a href="https://spark.adobe.com/page/2HA47GEEpRcNm/" class="linked-image"><img typeof="foaf:Image" src="http://mediad.publicbroadcasting.net/p/kcur/files/styles/large/public/201807/kcur_narene_stokes-lead_photo.jpg" alt="" /></a>    </figure>
+  
+      <div class="promo-large-text-wrapper">
+              <h2 class="promo-large-heading"><a href="https://spark.adobe.com/page/2HA47GEEpRcNm/">KCUR Investigates:</a></h2>
+      
+              <p class="promo-large-teaser">Five years after Ryan Stokes was killed by a Kansas City cop, his family wants police to tell the truth.</p>
+      
+              <div class="promo-large-cta-wrapper">
+          <a href="https://spark.adobe.com/page/2HA47GEEpRcNm/" class="promo-large-cta">Read the full story</a>        </div>
+          </div>
+    </div>
+</div>  </div>
+</div>
+  </div>
+          </div>
+        
+              </article>
+    </main>
+  </div>
+
+  
+  <div class="bottom-ads">
+    <div class="bottom-ads-inner"></div>
+  </div>
+</div>
+
+<footer class="footer" role="contentinfo">
+  <div class="row">
+    <div class="footer-affiliate-container small-centered columns">
+                  <div class="region region-footer">
+    <div id="block-pi-table-queue-partnerfooter" class="block block-pi-table-queue">
+
+    
+  <div class="content">
+    <div class="table-queue" id="table-queue-partnerfooter">
+  <p class="partnerslabel">
+  </p>
+<div class="item-list"><ul class="partner-logos"><li class="first"><a href="http://www.npr.org/" target="_blank"><img typeof="foaf:Image" src="http://mediad.publicbroadcasting.net/p/kcur/files/styles/partner_footer_logo/public/201503/npr-logoWHITE.png" alt="NPR" title="NPR" /></a></li>
+<li><a href="http://harvestpublicmedia.org/" target="_blank"><img typeof="foaf:Image" src="http://mediad.publicbroadcasting.net/p/kcur/files/styles/partner_footer_logo/public/201503/HPM_logo_no_slogan_bw_white_image.png" alt="Harvest Public Media" title="Harvest Public Media" /></a></li>
+<li><a href="http://www.umkc.edu/" target="_blank"><img typeof="foaf:Image" src="http://mediad.publicbroadcasting.net/p/kcur/files/styles/partner_footer_logo/public/201503/UMKC_1C_white.png" alt="University of Missouri-Kansas City" title="University of Missouri-Kansas City" /></a></li>
+<li class="last"><a href="http://kcur.org/term/kansas-news-service" target="_blank"><img typeof="foaf:Image" src="http://mediad.publicbroadcasting.net/p/kcur/files/styles/partner_footer_logo/public/201704/KNS_logo_web_outlines_white.png" alt="Kansas News Service" title="Kansas News Service" /></a></li>
+</ul></div></div>
+  </div>
+</div>
+<div id="block-pi-table-queue-auxiliarylinksfooter" class="block block-pi-table-queue">
+
+    
+  <div class="content">
+    <div class="table-queue" id="table-queue-auxiliarylinksfooter">
+  <div class="item-list"><ul class="auxiliary-links"><li class="first"><span>&copy; 2018 KCUR</span></li>
+<li><a href="http://kcur.org/listen-live" target="_self">Listen Live</a></li>
+<li class="last"><a href="http://bit.ly/2cS8bPr" target="_self">Donate Now</a></li>
+</ul></div></div>
+  </div>
+</div>
+  </div>
+          </div>
+  </div>
+</footer>
+      <script type="text/javascript">
+<!--//--><![CDATA[//><!--
+ (function ($) { $(document).foundation({ topbar: { custom_back_text: true, back_text: 'back', mobile_show_parent_link: true } }); }(jQuery));
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://mediad.publicbroadcasting.net/p/kcur/files/js_injector/js_injector_1.js?p8ejzo"></script>
+    </div>
+  <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"15ba4da3e8","applicationID":"1108724","transactionName":"NlMBMhAECEZRAU1eDg8ZNhQLSg9bVAdBGREJRg==","queueTime":0,"applicationTime":18,"atts":"GhQCRFgeG0g=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

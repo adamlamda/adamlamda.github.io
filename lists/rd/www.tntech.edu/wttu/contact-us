@@ -1,0 +1,497 @@
+<!-- ttu.standard.17.4 tag: wttu, api: wttu, user: (anonymous) -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- ttu17.template-header -->
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Contact Us -:|:- Tennessee Tech</title>
+
+<base href="/wttu/" />
+<!--[if lte IE 9]><base href="https://www.tntech.edu/" /><![endif]-->
+
+<meta name="description" content="" />
+<meta name="keywords" content="tennessee technological university, tennessee tech, ttu, tech, university, college, tbr, tennessee, cookeville" />
+<meta name="web_author" content="David Willis" />
+
+
+<meta property="og:site_name" content="Tennessee Tech" />
+<meta property="og:url" content="/wttu/contact-us" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Contact Us" />
+<meta property="og:description" content="" />
+<meta property="og:image" content="/assets/img/ttu.logo.v.purple.png" />
+<meta property="og:updated_time" content="0" />
+<meta property="fb:admins" content="52703950" />
+
+<link rel="dns-prefetch" href="//maxcdn.bootstrapcdn.com">
+<link rel="dns-prefetch" href="//fonts.googleapis.com">
+<link rel="dns-prefetch" href="//ajax.googleapis.com">
+<link rel="dns-prefetch" href="//cdn.jsdelivr.net">
+
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+<link href="//fonts.googleapis.com/css?family=PT+Sans|Roboto:400italic,700italic,700,400" rel="stylesheet">
+<link href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.6.0/slick/slick.css" rel="stylesheet"/>
+<link href="https://www.tntech.edu/assets/css/ttu17.css?ver=17.1508875041" rel="stylesheet">
+
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#4f2984">
+<meta name="theme-color" content="#ffffff">
+
+<!--[if lt IE 9]>
+      <script src="//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="//oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+
+
+<style>
+    
+</style>
+
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    
+    ga('create', 'UA-1065917-1', 'auto');
+    ga('send', 'pageview');
+    
+    function jqdefer(method){
+        if(window.jQuery) method();
+        else setTimeout(function(){ jqdefer(method) }, 50);
+    }
+</script>
+<!-- /ttu17.template-header -->
+    
+    <style>
+        @media(min-width:768px){
+            #standard main>article:not(:only-child){-ms-flex:1 1 0px;} /* IE needs unit on 0 but LESS strips it */
+        }
+    </style>
+</head>
+
+<body id="standard">
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8&appId=296344604031896";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+    
+    <!-- ttu15.mainav -->
+<nav id="mainav" class="navbar navbar-default navbar-fixed-top">
+    <div class="navbar-header">
+        <a class="navbar-brand" href="/">TTU</a>
+        <button type="button" class="btn btn-default" id="mainmenu" data-target="#mainav" aria-expanded="false" aria-controls="mainav"><span class="glyphicon glyphicon-th-list"></span><span class="sr-only">main navigation</span></button>
+    </div>
+    <div class="nav-rap">
+        <div class="nav-content">
+            <div class="leftnav">
+                <div class="toprow clearfix">
+                    <button type="button" class="nav-md-btn" id="btn-demo" data-target=".demo">About You</button>
+                    <div class="mobile-container demo">
+                        <!-- wayfinder startId=11014 -->
+                		 <ul class="nav navbar-nav navbar-right"><li class="first"><a href="/parents" >Parents</a></li>
+<li ><!-- ttu15.parentrowTpl -->
+	<a href="http://ttualumni.org/" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Alumni <span class="caret"></span></a>
+	<ul class="dropdown-menu"><li class="first"><a href="https://alumni.tntech.edu/" target="_blank">Alumni Association</a></li>
+<li><a href="https://www.tntech.edu/em/records/transcripts/" >Transcript Request</a></li>
+<li><a href="http://365.tntech.edu" >Email</a></li>
+<li><a href="https://www.tntech.edu/career/" >Career Services</a></li>
+<li><a href="http://tenn-tech.bncollege.com/" target="_blank">TTU Bookstore</a></li>
+<li class="last"><a href="https://www.tntech.edu/univadv/annualgiving/giving-options/online-giving/" >Make A Gift</a></li>
+</ul>
+</li>
+<li ><!-- ttu15.parentrowTpl -->
+	<a href="https://www.tntech.edu/students/" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Students <span class="caret"></span></a>
+	<ul class="dropdown-menu"><li class="first"><a href="http://outlook.com/students.tntech.edu" target="_blank">Email</a></li>
+<li><a href="https://www.tntech.edu/eo" >Eagle Online</a></li>
+<li><a href="https://techconnect.campus.eab.com/" >TechConnect</a></li>
+<li><a href="https://tntech.campuslabs.com/courseeval/" target="_blank">Course Evaluations</a></li>
+<li><a href="http://ilearn.tntech.edu" target="_blank">iLearn</a></li>
+<li><a href="https://www.tntech.edu/library/" >Volpe Library</a></li>
+<li><a href="https://emsweb.tntech.edu/VirtualEMS/" >Event Reservation System</a></li>
+<li><a href="https://epay.tntech.edu/C20205_tsa/web/login.jsp" target="_blank">Pay Online - Eagle Pay</a></li>
+<li><a href="https://www.tntech.edu/financialaid/" >Financial Aid</a></li>
+<li><a href="https://www.tntech.edu/bursar/" >Bursar's Office/Fees</a></li>
+<li><a href="/studentaffairs/" >Student Affairs</a></li>
+<li><a href="https://www.tntech.edu/campuscompass/" >Campus Compass</a></li>
+<li><a href="https://www.tntech.edu/handbooks/ttustudenthandbook/" >Student Handbook</a></li>
+<li><a href="https://www.tntech.edu/studentaffairs/stucomplaint/" >Complaint Form</a></li>
+<li class="last"><a href="https://www.tntech.edu/students/" class="more" title="more student options">more...</a></li>
+</ul>
+</li>
+<li  class="last"><!-- ttu15.parentrowTpl -->
+	<a href="https://www.tntech.edu/faculty-and-staff" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Faculty & Staff <span class="caret"></span></a>
+	<ul class="dropdown-menu"><li class="first"><a href="http://365.tntech.edu" target="_blank">365 Webmail</a></li>
+<li><a href="/its/banner/" >Banner Logins</a></li>
+<li><a href="#sitemodal" id="login" data-toggle="modal" data-target="#sitemodal">Web User Login</a></li>
+<li><a href="https://techconnect.campus.eab.com/" >TechConnect</a></li>
+<li><a href="https://emsweb.tntech.edu/VirtualEMS/" >Event Reservation System</a></li>
+<li><a href="http://ilearn.tntech.edu" >iLearn</a></li>
+<li><a href="https://tntech.campuslabs.com/faculty/" >IDEA Course Evaluations</a></li>
+<li><a href="https://tntech.campuslabs.com/ce/" >Department IDEA Results</a></li>
+<li><a href="/citl" >CITL</a></li>
+<li><a href="/facultysenate/" >Faculty Senate</a></li>
+<li><a href="https://www.tntech.edu/handbooks/facultyhandbook/" >Faculty Handbook</a></li>
+<li><a href="https://jobs.tntech.edu/hr" >PeopleAdmin</a></li>
+<li><a href="https://www.tntech.edu/provost/" >Provost's Office</a></li>
+<li><a href="https://www.tntech.edu/library/" >Volpe Library</a></li>
+<li class="last"><a href="https://www.tntech.edu/faculty-and-staff" class="more" title="more faculty staff options">more...</a></li>
+</ul>
+</li>
+</ul><!-- /wayfinder -->
+                	</div>
+        		</div>
+        		<div class="btmrow">
+        		    <button type="button" class="nav-md-btn" id="btn-admit" data-target=".admit">Join Us</button>
+        		    <div class="mobile-container admit">
+                		<!-- wayfinder startId=16883 -->
+                		 <ul class="nav navbar-nav navbar-right"><li class="first"><a href="/admissions" >Admissions</a></li>
+<li  class="dropdown"><!-- ttu15.parentrowTpl -->
+	<a href="https://www.tntech.edu/admissions/undergraduates/visit/" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Visit <span class="caret"></span></a>
+	<ul class="dropdown-menu"><li class="first"><a href="https://www.tntech.edu/admissions/undergraduates/visit/" >Visit Campus</a></li>
+<li><a href="https://tntech.university-tour.com/" >Explore TN Tech</a></li>
+<li><a href="https://www.tntech.edu/about/maps-and-directions" >Maps & Directions</a></li>
+<li class="last"><a href="https://www.tntech.edu/about/community" >The Community</a></li>
+</ul>
+</li>
+<li  class="last dropdown"><!-- ttu15.parentrowTpl -->
+	<a href="https://www.tntech.edu/about/" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">About <span class="caret"></span></a>
+	<ul class="dropdown-menu"><li class="first"><a href="https://www.tntech.edu/about/" >About Tennessee Tech</a></li>
+<li><a href="https://www.tntech.edu/about/accreditation-and-memberships" >Accreditation & Memberships</a></li>
+<li><a href="https://www.tntech.edu/president/" >Office of the President</a></li>
+<li><a href="/strategic" >Strategic Planning</a></li>
+<li><a href="https://www.tntech.edu/ir/" >Institutional Research</a></li>
+<li><a href="/calendar" >Academic & Events Calendar</a></li>
+<li><a href="https://www.tntech.edu/peoplefinder/" >People Finder</a></li>
+<li><a href="http://jobs.tntech.edu" target="_blank">Job Opportunities</a></li>
+<li class="last"><a href="https://www.tntech.edu/about/contacts" >Whom to Contact</a></li>
+</ul>
+</li>
+</ul><!-- wayfinder -->
+                	</div>
+        		</div>
+            </div>
+            <div class="rightnav">
+                <div class="toprow clearfix">
+                    <button type="button" class="nav-md-btn" id="btn-util" data-target=".util">Information</button>
+                    <div class="mobile-container util">
+                        <div class="search">
+                		    <form class="form-search form-inline" role="search" id="siteSearch" action="/search" method="get">
+                                <div class="form-group">
+                                    <div class="input-group">
+                                        <input type="search" class="search-query form-control input-sm col-sm-4" name="search" placeholder="Looking for something?" title="search" autofocus="">
+                                        <div class="input-group-btn"><button type="submit" class="btn btn-default btn-sm"><span class="glyphicon glyphicon-search" aria-hidden="true"></span><span class="sr-only">search</span></button></div>
+                                    </div>
+                                </div>
+                            </form>
+                		</div>
+                        <!-- wayfinder startId=11661 cacheResults -->
+                		 <ul class="nav navbar-nav"><li class="first"><a href="https://www.tntech.edu/a-z/" >A-Z</a></li>
+<li><a href="https://www.tntech.edu/maps" target="_blank">Maps</a></li>
+<li><a href="https://www.tntech.edu/peoplefinder/" >Directory</a></li>
+<li><a href="http://emsweb.tntech.edu/MasterCalendar/MasterCalendar.aspx" target="_blank">Calendar</a></li>
+<li><a href="https://www.tntech.edu/library/" >Library</a></li>
+<li class="last"><a href="/search-box" id="searchBtn"><span class="glyphicon glyphicon-search" aria-hidden="true"></span><span class="sr-only">search</span></a></li>
+</ul><!-- /wayfinder -->
+            		</div>
+        		</div>
+        		<div class="btmrow">
+        		    <button type="button" class="nav-md-btn" id="btn-active" data-target=".active">What We Do</button>
+            		<div class="mobile-container active">
+            		    <!-- wayfinder startId=16882 cacheResults -->
+                		 <ul class="nav navbar-nav"><li  class="first dropdown"><!-- ttu15.parentrowTpl -->
+	<a href="https://www.tntech.edu/academics/" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Academics <span class="caret"></span></a>
+	<ul class="dropdown-menu"><li class="first"><a href="/admissions/undergraduates/majors" >Majors and Concentrations</a></li>
+<li><a href="/em/records/minors" >Minors</a></li>
+<li><a href="/aghs" >College of Agriculture and Human Ecology</a></li>
+<li><a href="/cas" >College of Arts and Sciences</a></li>
+<li><a href="/cob" >College of Business</a></li>
+<li><a href="/education" >College of Education</a></li>
+<li><a href="/engineering" >College of Engineering</a></li>
+<li><a href="/fine-arts/" >College of Fine Arts</a></li>
+<li><a href="/graduatestudies" >College of Graduate Studies</a></li>
+<li><a href="/is" >College of Interdisciplinary Studies</a></li>
+<li><a href="/craftcenter" >Appalachian Center for Craft</a></li>
+<li><a href="/nursing" >Whitson-Hester School of Nursing</a></li>
+<li><a href="https://www.tntech.edu/studyabroad/" >Study Abroad</a></li>
+<li><a href="/honors" >Honors Program</a></li>
+<li><a href="/eprd" >Extended Programs & Non-Credit</a></li>
+<li><a href="/academics/onlineprograms" >Online Programs</a></li>
+<li><a href="/library" >Volpe Library</a></li>
+<li><a href="/certificates" >Certificates</a></li>
+<li><a href="http://catalog.tntech.edu/index.php" >Catalogs</a></li>
+<li><a href="/centerstage" >Center Stage</a></li>
+<li><a href="/armyrotc" >Army ROTC</a></li>
+<li class="last"><a href="/research/faculty-research-directory/centers-and-facilities/" >Excellence & Institutes</a></li>
+</ul>
+</li>
+<li><a href="/research" >Research</a></li>
+<li class="last"><a href="http://www.ttusports.com" target="_blank">Athletics</a></li>
+</ul><!-- wayfinder -->
+                	</div>
+        		</div>
+            </div>
+        </div>
+    </div>
+</nav>
+<!--
+<div class="alert alert-dismissible" id="notify">
+    <button type="button" class="close" data-dismiss="alert" aria-label="Close Alert"><span aria-hidden="true">&times;</span></button>
+	<h1 id="alertDesc">Alert</h1>
+	<p class="more">As further details become available they will be posted at<br><a class="alert-link" href="http://ttuemergency.blogspot.com/" target="_blank">http://ttuemergency.blogspot.com/</a></p>
+	<p id="alertDT"></p>
+</div>
+<!-- /ttu15.mainav =================================================================================
+====================================================================================================
+====================================================================================================
+================================================================================================ -->
+    <div id="print-head">
+    <p><img src="https://www.tntech.edu/assets/templates/ttu15/img/ttu.logo.h.purple.jpg" alt="tennessee tech">
+    <p class="domain">https://www.tntech.edu
+    <p class="url">https://www.tntech.edu/wttu/contact-us
+</div>
+    
+    <header>
+        <div id="header-img" style="background-image:url('/assets/img/ttu.standard.default.jpg');">
+    		
+    	</div>
+        <ol class="breadcrumb">
+<li><a href="https://www.tntech.edu/wttu/">88.5 WTTU</a></li>
+</ol>
+    </header>
+
+    <main>
+        <nav id="sidenav">
+            
+            <header>
+                <div class="calloutBtns">
+                    <a class="vist" href="https://www.tntech.edu/admissions/undergraduates/visit/"><div>Visit</div></a>
+                    <a class="aply" href="/apply"><div>Apply</div></a>
+                    <a class="give" href="https://www.tntech.edu/univadv/annualgiving/#howtogive"><div>Give</div></a>
+                    <a class="plan" href="/strategic"><div>Strategic<br>Planning</div></a>
+                </div>
+                <button type="button" class="btn btn-default" id="mobile-sidenav-menu"><span class="glyphicon glyphicon-list"></span><span class="text"> Navigation</span><span class="sr-only">expand menu</span></button>
+            </header>
+            <div id="sidenavRap">
+                <!-- ttu17.sidenav ck: wttu, api: , level: 4, start: 0 -->
+<ul class=""><!-- ttu17.sidenav.outer.tpl -->
+    <li class="first"><!-- ttu17.sidenav.row.tpl -->
+    <a href="/wttu/" title="88.5 WTTU" >88.5 WTTU</a>
+</li><li><!-- ttu17.sidenav.row.tpl -->
+    <a href="/wttu/specialty-shows" title="Show Schedule" >Show Schedule</a>
+</li><li><!-- ttu17.sidenav.row.tpl -->
+    <a href="/wttu/dj-training" title="DJ Training" >DJ Training</a>
+</li><li><!-- ttu17.sidenav.row.tpl -->
+    <a href="/wttu/how-to-become-a-sponsor-of-wttu/" title="How to Become a Sponsor of WTTU" >How to Become a Sponsor of WTTU</a>
+</li><li><!-- ttu17.sidenav.row.tpl -->
+    <a href="/wttu/directors" title="WTTU Directors" >WTTU Directors</a>
+</li><li><!-- ttu17.sidenav.row.tpl -->
+    <a href="http://rs4.radiostreamer.com:8130/listen.pls" title="Listen" >Listen</a>
+</li><li class="last active"><!-- ttu17.sidenav.row.tpl -->
+    <a href="/wttu/contact-us" title="Contact Us" aria-label="Contact Us wttu">Contact Us</a>
+</li>
+</ul>
+                <footer>
+                    <small id="pageid" aria-hidden="true">12878</small>
+                </footer>
+            </div>
+            
+        </nav>
+        
+        <article>
+            <header>
+                <h1>Contact Us</h1>
+            </header>
+            
+            <div id="content" class="rc">
+    <div>
+        <div></div>
+        <div><h3>88.5 WTTU</h3><p>P.O. Box 5113</p><p>Cookeville, TN 38505</p><p>931-372-3688</p></div>
+        <div></div>
+    </div>
+    <aside class="def">
+    <form action="https://www.tntech.edu/wttu/contact-us" method="post">
+	<fieldset>
+		<legend>Send a Message</legend>
+		<div class="form-group">
+		    <label for="emailName">Full Name</label>
+		    <input class="form-control" type="text" name="emailName" id="emailName" placeholder="full name..." required>
+		</div>
+		<div class="form-group">
+		    <label for="emailAddress">Email Address</label>
+		    <input class="form-control" type="email" name="emailAddress" id="emailAddress" placeholder="your email address..." required>
+	    </div>
+	    <div class="form-group">
+		    <label for="emailSubject">Subject</label>
+		    <input class="form-control" type="text" name="emailSubject" id="emailSubject" placeholder="email subject...">
+	    </div>
+	    <div class="form-group">
+		    <label for="emailMessage">Your message</label>
+		    <textarea class="form-control" name="emailMessage" id="emailMessage" rows="10"></textarea>
+	    </div>
+		<div class="form-group">
+		    <button type="submit" class="btn btn-primary">Send</button>
+	    </div>
+	</fieldset>
+</form>
+</aside>
+</div>
+            
+            <footer id="last-edited-by">
+                Last edited <strong></strong> by <strong>unknown</strong>.
+            </footer>
+        </article>
+    </main>
+    
+    <!-- ttu17.page-footer -->
+<footer>
+    <div id="info">
+        <div>
+    		<div>
+    		    <a href="/consumer-info/"><strong>Consumer Information</strong></a>
+    			<dl>
+    				<dt>Campus Police</dt>
+    					<dd><a href="tel:+19313723234">931-372-3234</a></dd>
+    				<dt>Admissions</dt>
+    					<dd><a href="tel:+18002558881">800-255-8881</a></dd>
+    			</dl>
+    		</div>
+            <div>
+                <ul>
+                    <li><a href="/moreinfo">Request Info</a></li>
+                    <li><a href="/about/contacts" aria-label="Contact Us request information">Contact Us</a></li>
+                    <li><a href="http://jobs.tntech.edu" target="_blank">Jobs @ Tech</a></li>
+                    <li><a href="https://emsweb.tntech.edu/VirtualEMS/">Events @ Tech</a></li>
+                </ul>
+            </div>
+            <div>
+    	        <address>
+    				Tennessee Tech University<br>
+    				1 William L Jones Dr<br>
+    				Cookeville, TN 38505<br>
+    				<a href="tel:+19313723101">931-372-3101</a>
+    			</address>
+    	    </div>
+    	    <div>
+    	        <div class="ttusocial">
+                    <ul>
+                        <li class="fb"><a href="https://www.facebook.com/tennesseetech" target="_blank"><span class="sr-only">facebook</span><svg id="Layer_fb" data-name="Layer fb" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 408.78 408.79"><defs><style>.cls-1{fill:#fff;}</style></defs><title>Facebook_White</title><path class="cls-1" d="M353.7,0H55.09A55.09,55.09,0,0,0,0,55.08V353.7a55.08,55.08,0,0,0,55.08,55.08H202.36l.25-146.08h-38a9,9,0,0,1-9-8.92l-.18-47.09a9,9,0,0,1,9-9h37.88v-45.5c0-52.8,32.25-81.55,79.35-81.55h38.65a9,9,0,0,1,9,9v39.7a9,9,0,0,1-9,9H296.65c-25.61,0-30.58,12.17-30.58,30v39.39h56.29a9,9,0,0,1,8.89,10l-5.58,47.09a9,9,0,0,1-8.89,7.9H266.32l-.25,146.08H353.7a55.08,55.08,0,0,0,55.08-55.08V55.08A55.09,55.09,0,0,0,353.7,0Z" transform="translate(0)"/></svg></a></li>
+                        <li class="tw"><a href="https://twitter.com/tennesseetech" target="_blank"><span class="sr-only">twitter</span><svg id="Layer_tw" data-name="Layer tw" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 410.15 341.17"><defs><style>.cls-1{fill:#fff;}</style></defs><title>Twitter_White</title><path class="cls-1" d="M403.63,74.18a162.41,162.41,0,0,1-28.28,9.54,88.18,88.18,0,0,0,23.27-37.07h0a4.62,4.62,0,0,0-6.76-5.39h0a163.19,163.19,0,0,1-43.24,17.86,11,11,0,0,1-2.7.34,11.46,11.46,0,0,1-7.57-2.89,88.42,88.42,0,0,0-58.51-22.08,94.54,94.54,0,0,0-28,4.33,85.67,85.67,0,0,0-57.74,61.72A94.33,94.33,0,0,0,192,133.1a3.17,3.17,0,0,1-.8,2.48,3.28,3.28,0,0,1-2.44,1.11h-.31C125.69,130.84,69.09,100.6,29.09,51.53h0a4.62,4.62,0,0,0-7.58.59h0A88.53,88.53,0,0,0,35.9,159.61a79.24,79.24,0,0,1-20.17-7.81h0a4.62,4.62,0,0,0-6.87,4h0a88.54,88.54,0,0,0,51.65,81.57l-1.89,0A79.57,79.57,0,0,1,43.72,236h0a4.62,4.62,0,0,0-5.27,6h0a88.62,88.62,0,0,0,70,60.28,163.17,163.17,0,0,1-91.39,27.75H6.83A6.77,6.77,0,0,0,.21,335a7,7,0,0,0,3.35,7.74,242.7,242.7,0,0,0,122,32.88c37.49,0,72.55-7.44,104.22-22.11A230.14,230.14,0,0,0,306,296.41a250.52,250.52,0,0,0,46.69-78.2,247,247,0,0,0,15.87-85.59v-1.35a15,15,0,0,1,5.63-11.71A174.78,174.78,0,0,0,409.35,81h0a4.62,4.62,0,0,0-5.72-6.79Z" transform="translate(0 -34.49)"/></svg></a></li>
+                        <li class="ig"><a href="https://instagram.com/tntechuniversity/" target="_blank"><span class="sr-only">instagram</span><svg id="Layer_ig" data-name="Layer ig" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 551.03 551.03"><defs><style>.cls-1{fill:#fff;}</style></defs><title>Instagram_White</title><g id="_Group_" data-name="&lt;Group&gt;"><path id="_Compound_Path_" data-name="&lt;Compound Path&gt;" class="cls-1" d="M386.88,0H164.16C73.64,0,0,73.64,0,164.16V386.88C0,477.39,73.64,551,164.16,551H386.88C477.39,551,551,477.39,551,386.88V164.16C551,73.64,477.39,0,386.88,0ZM495.6,386.88A108.72,108.72,0,0,1,386.88,495.6H164.16A108.72,108.72,0,0,1,55.43,386.88V164.16A108.72,108.72,0,0,1,164.16,55.43H386.88A108.72,108.72,0,0,1,495.6,164.16V386.88Z"/><path id="_Compound_Path_2" data-name="&lt;Compound Path&gt;" class="cls-1" d="M275.52,133C196.93,133,133,196.93,133,275.52S196.93,418,275.52,418,418,354.1,418,275.52,354.1,133,275.52,133Zm0,229.6a87.08,87.08,0,1,1,87.08-87.08A87.08,87.08,0,0,1,275.52,362.6Z"/><circle id="_Path_" data-name="&lt;Path&gt;" class="cls-1" cx="418.31" cy="134.07" r="34.15"/></g></svg></a></li>
+                        <li class="yt"><a href="https://www.youtube.com/user/ttunews" target="_blank"><span class="sr-only">youtube</span><svg id="Layer_yt" data-name="Layer yt" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 388.37"><defs><style>.cls-1{fill:#fff;}</style></defs><title>YT_White</title><path class="cls-1" d="M506.7,83.91v0s-5.3-38-20.3-54.73C467,7.06,444.91,7.06,435.2,6.21,363.7.89,256,0,256,0S148.3.89,76.8,6.21C67.09,7.09,45,8,25.6,29.21,9.71,45.91,5.3,83.86,5.3,83.86s-5.3,45-5.3,90v41.49c0,45,5.3,89.16,5.3,89.16s5.3,38,20.3,54.73c19.42,22.07,45,21.19,56.5,23.83,40.61,4.41,173.9,5.3,173.9,5.3s107.7,0,179.2-6.18c9.71-.88,31.78-1.77,51.2-23,15-16.77,20.3-54.73,20.3-54.73s5.3-45,5.3-89.16V173.91C512,128.91,506.7,83.91,506.7,83.91ZM194.21,296.61V105.05l167.72,98Z" transform="translate(0 0)"/></svg></a></li>
+                        <li class="pt"><a href="https://www.pinterest.com/tennesseetech/" target="_blank"><span class="sr-only">pinterest</span><svg id="Layer_pt" data-name="Layer pt" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 412.44 412.44"><defs><style>.cls-1{fill:#fff;}</style></defs><title>Pinterest_White</title><path class="cls-1" d="M412.35,212.26C415.72,94.58,320.46-1.68,203.15,0,90.24,1.66-.86,94.91,0,207.83A206.23,206.23,0,0,0,116.15,391.77a5.82,5.82,0,0,0,8.36-5.46c-.5-13.27-.07-27.45,2.59-38.85,2.61-11.23,12.87-54.64,19.61-83.16a102,102,0,0,0,1-42.32,86.6,86.6,0,0,1-1.49-16c0-30.48,17.67-53.24,39.66-53.24,18.7,0,27.74,14,27.74,30.88,0,18.81-12,46.93-18.15,73-5.16,21.82,10.94,39.61,32.46,39.61,39,0,68.91-41.08,68.91-100.38,0-52.48-37.71-89.18-91.56-89.18-62.37,0-99,46.78-99,95.13,0,18.84,7.26,39,16.31,50a6.56,6.56,0,0,1,1.52,6.29c-1.66,6.92-5.36,21.81-6.09,24.86-1,4-3.18,4.86-7.33,2.93-27.38-12.74-44.49-52.77-44.49-84.92,0-69.15,50.24-132.65,144.83-132.65,76,0,135.13,54.18,135.13,126.6,0,75.54-47.63,136.34-113.75,136.34-17.47,0-34.12-7.14-43.91-16.82a5.48,5.48,0,0,0-9.17,2.47c-3.45,13.13-9,34.38-10.81,41.28-3.23,12.43-10,26.9-16.87,39.51a5.83,5.83,0,0,0,3.71,8.42,206.57,206.57,0,0,0,52.76,6.31C316.38,411.42,409.26,320.44,412.35,212.26Z" transform="translate(0 0)"/></svg></a></li>
+                        <li class="em"><a href="mailto:information@tntech.edu" target="_blank"><span class="sr-only">email</span><svg id="Capa_1" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 328"><defs><style>.cls-1{fill:#fff;}</style></defs><title>Email_White</title><path class="cls-1" d="M30,92q-12,0-15,2t-1,4.5q2,2.5,10,8.5a58.43,58.43,0,0,1,6,5L256,284,482,113l5-5a116.33,116.33,0,0,0,10.5-8.5q2.5-2.5-.5-5T482,92H30Z" transform="translate(0 -92)"/><path class="cls-1" d="M0,132V386q0,11,9,22.5T27,420H485q9,0,18-11.5t9-22.5V132L256,328Z" transform="translate(0 -92)"/></svg></a></li>
+                    </ul>
+                </div>
+    		</div>
+		</div>
+	</div>
+		
+	<div id="legal">
+        <div class="container-fluid">
+	        <div class="row">
+    			<div class="col-xs-12">
+    				<a href="https://www.tntech.edu/disability/universalaccess"><img src="/assets/templates/ttuv3/img/universal_access.png" alt="universal access"></a>
+    				<p class="muted">
+    					Tennessee Tech does not condone and will not tolerate discrimination against any individual on the basis of race, religion, color, creed, sex, age, national origin, genetic information, disability, veteran status, and any other bases protected by federal and state civil rights law.
+    					Inquiries regarding the nondiscrimination policies should be directed to <a href="mailto:equity@tntech.edu">equity@tntech.edu</a>.
+    				</p>
+    				<p class="muted"><a href="https://www.tntech.edu/ideaa/">Non-Discrimination at Tennessee Tech</a> | <a href="https://tntech.policytech.com/docview/?docid=579&public=true">Services for Students with Disabilities</a></p>
+    			</div>
+    	    </div>
+    	    <div class="row">
+    	        <div class="col-xs-12">
+    	            <p class="muted">Our website has been optimized for viewing in the following browsers: Google Chrome, FireFox, IE10+, Safari 8+ and Edge.
+    	            If you are running any other browser or older browser versions, you may encounter problems with certain sections of the website.
+    	        </div>
+    	    </div>
+        </div>
+	</div>
+</footer>
+
+    <!-- ttu17.template-footer -->
+<div class="modal fade" id="sitemodal" tabindex="-1" role="dialog" aria-labelledby="sitemodalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close Modal"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="sitemodalLabel">Tennessee Tech University</h4>
+            </div>
+            <div class="modal-body"></div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-NF7BDHH');</script>
+<!-- End Google Tag Manager -->
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NF7BDHH"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="/assets/templates/ttu15/js/jquery-2.1.4.min.js"><\/script>')</script> 
+<script src="/assets/templates/ttuv3/js/jquery.cookie.js"></script>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<script src="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.6.0/slick/slick.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/gsap/1.17.0/TweenMax.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/gsap/1.17.0/jquery.gsap.min.js"></script>
+
+<!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+<!--[if lt IE 7 ]>
+	<script src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js"></script>
+	<script>window.attachEvent('onload',function(){CFInstall.check({mode:'overlay'})})</script>
+<![endif]-->
+
+<!-- add foot -->
+
+
+<!-- render: 0.3864 s,cache -->
+
+<!-- ttu15.template-footer -->
+    <script src="/assets/js/ttu17.js"></script>
+    <script>
+        $(window).on('load', function(){
+            //resize logo on scroll
+            var shrinkHeight = $("#standard>header").height() - 120;
+            $(window).on("scroll", function(){
+            	if($(window).scrollTop() > shrinkHeight) $("#mainav").addClass("shrink");
+            	else $("#mainav").removeClass("shrink");
+            });
+        });
+        
+        $('.calloutBtns').affix({offset:{
+            top:function(){
+                return (this.top = $('#standard>header').outerHeight(true) - 84);
+            },
+            bottom:function(){
+                return (this.bottom = $('#standard>footer').outerHeight(true));
+            }
+        }});
+    </script>
+    <script>
+        <!-- *customJS -->
+        
+    </script>
+</body></html>

@@ -1,0 +1,873 @@
+<!DOCTYPE HTML><html lang=en-US xmlns:og="http://ogp.me/ns#" xmlns:fb="http://ogp.me/ns/fb#">
+<head>
+<meta charset=UTF-8 />
+<link rel=profile href="http://gmpg.org/xfn/11"/>
+<title>96.1 SOX &#8211; The Susquehanna Valley&#039;s Greatest Hits | WSOX-FM</title><link rel=dns-prefetch href='//www.961sox.com'/>
+<link rel=dns-prefetch href='//see-p-elb-01.tritondigital.net'/>
+<link rel=dns-prefetch href='//s.w.org'/>
+<link rel=canonical href="http://www.961sox.com/"/>
+<script>
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.3\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.3\/svg\/","svgExt":".svg","source":{"wpemoji":"http:\/\/www.961sox.com\/wp-includes\/js\/wp-emoji.js?ver=4.9.1","twemoji":"http:\/\/www.961sox.com\/wp-includes\/js\/twemoji.js?ver=4.9.1"}};
+			( function( window, document, settings ) {
+	var src, ready, ii, tests;
+
+	/*
+	 * Create a canvas element for testing native browser support
+	 * of emoji.
+	 */
+	var canvas = document.createElement( 'canvas' );
+	var context = canvas.getContext && canvas.getContext( '2d' );
+
+	/**
+	 * Check if two sets of Emoji characters render the same.
+	 *
+	 * @param set1 array Set of Emoji characters.
+	 * @param set2 array Set of Emoji characters.
+	 * @returns {boolean} True if the two sets render the same.
+	 */
+	function emojiSetsRenderIdentically( set1, set2 ) {
+		var stringFromCharCode = String.fromCharCode;
+
+		// Cleanup from previous test.
+		context.clearRect( 0, 0, canvas.width, canvas.height );
+		context.fillText( stringFromCharCode.apply( this, set1 ), 0, 0 );
+		var rendered1 = canvas.toDataURL();
+
+		// Cleanup from previous test.
+		context.clearRect( 0, 0, canvas.width, canvas.height );
+		context.fillText( stringFromCharCode.apply( this, set2 ), 0, 0 );
+		var rendered2 = canvas.toDataURL();
+
+		return rendered1 === rendered2;
+	}
+
+	/**
+	 * Detect if the browser supports rendering emoji or flag emoji. Flag emoji are a single glyph
+	 * made of two characters, so some browsers (notably, Firefox OS X) don't support them.
+	 *
+	 * @since 4.2.0
+	 *
+	 * @param type {String} Whether to test for support of "flag" or "emoji".
+	 * @return {Boolean} True if the browser can render emoji, false if it cannot.
+	 */
+	function browserSupportsEmoji( type ) {
+		var isIdentical;
+
+		if ( ! context || ! context.fillText ) {
+			return false;
+		}
+
+		/*
+		 * Chrome on OS X added native emoji rendering in M41. Unfortunately,
+		 * it doesn't work when the font is bolder than 500 weight. So, we
+		 * check for bold rendering support to avoid invisible emoji in Chrome.
+		 */
+		context.textBaseline = 'top';
+		context.font = '600 32px Arial';
+
+		switch ( type ) {
+			case 'flag':
+				/*
+				 * Test for UN flag compatibility. This is the least supported of the letter locale flags,
+				 * so gives us an easy test for full support.
+				 *
+				 * To test for support, we try to render it, and compare the rendering to how it would look if
+				 * the browser doesn't render it correctly ([U] + [N]).
+				 */
+				isIdentical = emojiSetsRenderIdentically(
+					[ 55356, 56826, 55356, 56819 ],
+					[ 55356, 56826, 8203, 55356, 56819 ]
+				);
+
+				if ( isIdentical ) {
+					return false;
+				}
+
+				/*
+				 * Test for English flag compatibility. England is a country in the United Kingdom, it
+				 * does not have a two letter locale code but rather an five letter sub-division code.
+				 *
+				 * To test for support, we try to render it, and compare the rendering to how it would look if
+				 * the browser doesn't render it correctly (black flag emoji + [G] + [B] + [E] + [N] + [G]).
+				 */
+				isIdentical = emojiSetsRenderIdentically(
+					[ 55356, 57332, 56128, 56423, 56128, 56418, 56128, 56421, 56128, 56430, 56128, 56423, 56128, 56447 ],
+					[ 55356, 57332, 8203, 56128, 56423, 8203, 56128, 56418, 8203, 56128, 56421, 8203, 56128, 56430, 8203, 56128, 56423, 8203, 56128, 56447 ]
+				);
+
+				return ! isIdentical;
+			case 'emoji':
+				/*
+				 * Emoji 5 has fairies of all genders.
+				 *
+				 * To test for support, try to render a new emoji (fairy, male), then compares
+				 * it to how it would look if the browser doesn't render it correctly
+				 * (fairy + male sign).
+				 */
+				isIdentical = emojiSetsRenderIdentically(
+					[ 55358, 56794, 8205, 9794, 65039 ],
+					[ 55358, 56794, 8203, 9794, 65039 ]
+				);
+				return ! isIdentical;
+		}
+
+		return false;
+	}
+
+	function addScript( src ) {
+		var script = document.createElement( 'script' );
+
+		script.src = src;
+		script.defer = script.type = 'text/javascript';
+		document.getElementsByTagName( 'head' )[0].appendChild( script );
+	}
+
+	tests = Array( 'flag', 'emoji' );
+
+	settings.supports = {
+		everything: true,
+		everythingExceptFlag: true
+	};
+
+	for( ii = 0; ii < tests.length; ii++ ) {
+		settings.supports[ tests[ ii ] ] = browserSupportsEmoji( tests[ ii ] );
+
+		settings.supports.everything = settings.supports.everything && settings.supports[ tests[ ii ] ];
+
+		if ( 'flag' !== tests[ ii ] ) {
+			settings.supports.everythingExceptFlag = settings.supports.everythingExceptFlag && settings.supports[ tests[ ii ] ];
+		}
+	}
+
+	settings.supports.everythingExceptFlag = settings.supports.everythingExceptFlag && ! settings.supports.flag;
+
+	settings.DOMReady = false;
+	settings.readyCallback = function() {
+		settings.DOMReady = true;
+	};
+
+	if ( ! settings.supports.everything ) {
+		ready = function() {
+			settings.readyCallback();
+		};
+
+		if ( document.addEventListener ) {
+			document.addEventListener( 'DOMContentLoaded', ready, false );
+			window.addEventListener( 'load', ready, false );
+		} else {
+			window.attachEvent( 'onload', ready );
+			document.attachEvent( 'onreadystatechange', function() {
+				if ( 'complete' === document.readyState ) {
+					settings.readyCallback();
+				}
+			} );
+		}
+
+		src = settings.source || {};
+
+		if ( src.concatemoji ) {
+			addScript( src.concatemoji );
+		} else if ( src.wpemoji && src.twemoji ) {
+			addScript( src.twemoji );
+			addScript( src.wpemoji );
+		}
+	}
+
+} )( window, document, window._wpemojiSettings );
+		</script>
+<link rel=stylesheet id=headway-google-fonts href='//fonts.googleapis.com/css?family=Oswald' type='text/css' media=all />
+<style>
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel=stylesheet id=bxslider-style-css href='http://www.961sox.com/wp-content/plugins/shared/js/bxslider/jquery.bxslider.css?ver=4.9.1' type='text/css' media=all />
+<link rel=stylesheet id=amp-promo-reel-widget-style-css href='http://www.961sox.com/wp-content/plugins/amp-promo-reel/includes/../css/widget.css?ver=4.9.1' type='text/css' media=all />
+<link rel=stylesheet id=headway-general-css href='http://www.961sox.com/wp-content/uploads/sites/437/headway/cache/general-cbe868f.css?ver=4.9.1' type='text/css' media=all />
+<link rel=stylesheet id=headway-layout-front_page-css href='http://www.961sox.com/wp-content/uploads/sites/437/headway/cache/layout-front_page-8b0250d.css?ver=4.9.1' type='text/css' media=all />
+<link rel=stylesheet id=headway-responsive-grid-css href='http://www.961sox.com/wp-content/uploads/sites/437/headway/cache/responsive-grid-d2119e4.css?ver=4.9.1' type='text/css' media=all />
+<meta name=builder-styles-css content="" id=builder-styles-css>
+<link rel=stylesheet id=amp-breaking-news-css href='http://www.961sox.com/wp-content/plugins/amp-breaking-news/public/css/public.css?ver=0.2.3' type='text/css' media=all />
+<link rel=stylesheet id=animate-style-css href='http://www.961sox.com/wp-content/plugins/shared/css/animate.css?ver=0.2.3' type='text/css' media=all />
+<link rel=stylesheet id=amp-styles-plugin-styles-css href='http://www.961sox.com/wp-content/plugins/amp-styles/css/public.css?ver=1.4.1' type='text/css' media=all />
+<link rel=stylesheet id=amp-events-calendar-styles-css href='http://www.961sox.com/wp-content/plugins/amp-events/css/calendar.css?ver=1.1.4' type='text/css' media=all />
+<link rel=stylesheet id=amp-events-export-styles-css href='http://www.961sox.com/wp-content/plugins/amp-events/css/public.css?ver=1.1.4' type='text/css' media=all />
+<link rel=stylesheet id=amp_feed-plugin-styles-css href='http://www.961sox.com/wp-content/plugins/amp-feeds/css/public.css?ver=0.4.0' type='text/css' media=all />
+<link rel=stylesheet id=amp-image-rotator-plugin-styles-css href='http://www.961sox.com/wp-content/plugins/amp-image-rotator/public/assets/css/public.css?ver=1.0.0' type='text/css' media=all />
+<link rel=stylesheet id=amp-listen-live-plugin-styles-css href='http://www.961sox.com/wp-content/plugins/amp-listen-live/public/assets/css/public.css?ver=1.4.4' type='text/css' media=all />
+<link rel=stylesheet id=amp-onair-plugin-styles-css href='http://www.961sox.com/wp-content/plugins/amp-onair/public/assets/css/public.css?ver=1.7.1' type='text/css' media=all />
+<link rel=stylesheet id=AMPPromoReel-plugin-styles-css href='http://www.961sox.com/wp-content/plugins/amp-promo-reel/css/public.css?ver=1.4.0' type='text/css' media=all />
+<link rel=stylesheet id=mediaelement-css href='http://www.961sox.com/wp-includes/js/mediaelement/mediaelementplayer-legacy.min.css?ver=4.2.6-78496d1' type='text/css' media=all />
+<link rel=stylesheet id=wp-mediaelement-css href='http://www.961sox.com/wp-includes/js/mediaelement/wp-mediaelement.css?ver=4.9.1' type='text/css' media=all />
+<link rel=stylesheet id=amp-tabs-plugin-styles-css href='http://www.961sox.com/wp-content/plugins/amp-tabs/public/assets/css/public.css?ver=1.0.0' type='text/css' media=all />
+<link rel=stylesheet id=amp-header-rotator-css href='http://www.961sox.com/wp-content/themes/Headway-AMP_CMS/css/amp-header-rotator.css?ver=1.1.5' type='text/css' media=all />
+<link rel=stylesheet type="text/css" media=all href="http://www.961sox.com/wp-content/themes/Headway-AMP_CMS/style.css"/>
+<script src='http://www.961sox.com/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script src='http://www.961sox.com/wp-includes/js/jquery/jquery-migrate.js?ver=1.4.1'></script>
+<script src='http://www.961sox.com/wp-content/themes/headway/library/blocks/navigation/js/selectnav.js?ver=1533183780'></script>
+<script src='http://www.961sox.com/wp-content/themes/headway/library/media/js/jquery.hoverintent.js?ver=4.9.1'></script>
+<script src='http://www.961sox.com/wp-content/themes/headway/library/blocks/navigation/js/jquery.superfish.js?ver=4.9.1'></script>
+<script src='http://www.961sox.com/wp-content/uploads/sites/437/headway/cache/block-dynamic-js-layout-front_page-769a883.js?ver=4.9.1'></script>
+<script src='http://www.961sox.com/wp-content/plugins/shared/js/bxslider/jquery.bxslider.min.js?ver=4.9.1'></script>
+<script src='http://www.961sox.com/wp-content/plugins/amp-promo-reel/includes/../js/widget.js?ver=1.4.0'></script>
+<script src='http://www.961sox.com/wp-content/themes/headway/library/media/js/jquery.fitvids.js?ver=4.9.1'></script>
+<script src='http://www.961sox.com/wp-content/uploads/sites/437/headway/cache/responsive-grid-js-e6e6939.js?ver=4.9.1'></script>
+<script>
+/* <![CDATA[ */
+var _ampconfig = {"site_url":"http:\/\/www.961sox.com","site_id":"437","tz":"America\/New_York","tz_offset":"-4","ts":"1533183780","blog_name":"WSOX-FM","client_name":"cumuluspro","user_ID":"","ts_offset":"1535350819","version":"2.47.0.3","env":"prod","settings":{"tenant_id":"see_10728","syn_site_name":false,"selector_logo":false,"selector_masthead":false,"selector_nav":false,"selector_rotator":false,"default_show_name":"The Susquehanna Valley\\'s Greatest Hits","default_show_img":"http:\/\/images.tritondigitalcms.com\/6616\/sites\/437\/2018\/05\/20210611\/26165218_1973499802665609_3386037552778496467_n.jpg","gtm_id":false,"vidible_company_key":"06125e55709b3c4ffdfe3c3f8a9ed8bd","client_name":false,"nielsen_provider":"cumulus","promoreel_priority":true}};
+/* ]]> */
+</script>
+<script src='http://www.961sox.com/wp-content/plugins/shared/js/amp-common.js?ver=1533183780'></script>
+<script src='http://www.961sox.com/wp-content/plugins/amp-breaking-news/public/js/public.js?ver=0.2.3'></script>
+<script src='http://www.961sox.com/wp-content/plugins/amp-styles/js/public.js?ver=1.4.1'></script>
+<script>
+/* <![CDATA[ */
+var dates = {"start_of_week":"1","moment_date_format":"MMMM D, YYYY","moment_time_format":"h:mm a","calendar_date_format":"MMMM d, yyyy","calendar_time_format":"h:mm tt","date_format":"MM d, yy","time_format":"h:mm tt"};
+/* ]]> */
+</script>
+<script src='http://www.961sox.com/wp-content/plugins/amp-events/js/calendar.js?ver=1.1.4'></script>
+<script src='http://www.961sox.com/wp-content/plugins/amp-events/js/public.js?ver=1.1.4'></script>
+<script src='http://www.961sox.com/wp-content/plugins/amp-feeds/js/jquery.totemticker.min.js?ver=0.4.0'></script>
+<script src='http://www.961sox.com/wp-includes/js/jquery/ui/core.min.js?ver=1.11.4'></script>
+<script src='http://www.961sox.com/wp-includes/js/jquery/ui/widget.min.js?ver=1.11.4'></script>
+<script src='http://www.961sox.com/wp-includes/js/jquery/ui/tabs.min.js?ver=1.11.4'></script>
+<script src='http://www.961sox.com/wp-content/plugins/amp-feeds/js/amp-feed.js?ver=0.4.0'></script>
+<script src='http://www.961sox.com/wp-content/plugins/amp-feeds/js/public.js?ver=0.4.0'></script>
+<script src='http://www.961sox.com/wp-content/plugins/amp-feeds/js/date.js?ver=0.4.0'></script>
+<script>
+/* <![CDATA[ */
+var _amplistenlive = {"blog_id":"437","callsign":"","mount_name":"WSOXFM","provider":"stream_the_world","gmt_offset":"-14400"};
+/* ]]> */
+</script>
+<script src='http://www.961sox.com/wp-content/plugins/amp-listen-live/public/assets/js/public.js?ver=1.4.4'></script>
+<script src='http://www.961sox.com/wp-content/plugins/amp-onair/public/assets/js/public.js?ver=1.7.1'></script>
+<script src='//see-p-elb-01.tritondigital.net/widget/see_10728/see.js?ver=1.3.0'></script>
+<script src='http://www.961sox.com/wp-content/themes/Headway-AMP_CMS/js/amp-theme.js?ver=1.1.5'></script>
+<!--[if lt IE 9]>
+<script src="http://www.961sox.com/wp-content/themes/headway/library/media/js/html5shiv.js"></script>
+<![endif]-->
+<!--[if lt IE 8]>
+<script src="http://www.961sox.com/wp-content/themes/headway/library/media/js/ie8.js"></script>
+<![endif]-->
+<script>
+var googletag = googletag || {};
+googletag.cmd = googletag.cmd || [];
+(function() {
+var gads = document.createElement('script');
+gads.async = true;
+gads.type = 'text/javascript';
+var useSSL = 'https:' == document.location.protocol;
+gads.src = (useSSL ? 'https:' : 'http:') + 
+'//www.googletagservices.com/tag/js/gpt.js';
+var node = document.getElementsByTagName('script')[0];
+node.parentNode.insertBefore(gads, node);
+})();
+</script>
+<script>
+googletag.cmd.push(function() {
+
+var leaderboardSizeMap = googletag.sizeMapping()
+ .addSize([970, 0], [[728, 90], [970, 90]])
+ .addSize([750,0], [728,90])
+ .addSize([0, 0], [[320, 50], [320, 53]])
+ .build();
+
+googletag.defineSlot('/6717/cd.WSOX.FM', [[300, 250], [300, 600]], 'div-gpt-ad-1418849849333-0').addService(googletag.pubads())
+.setCollapseEmptyDiv(true).setTargeting("pos","mid");
+googletag.defineSlot('/6717/cd.WSOX.FM', [[728, 90], [970, 90]], 'div-gpt-ad-1418849849333-1').addService(googletag.pubads())
+.defineSizeMapping(leaderboardSizeMap).setCollapseEmptyDiv(true).setTargeting("pos","top");
+googletag.defineSlot('/6717/cd.WSOX.FM', [[728, 90], [970, 90]], 'div-gpt-ad-1418849849333-2').addService(googletag.pubads())
+.defineSizeMapping(leaderboardSizeMap).setCollapseEmptyDiv(true).setTargeting("pos","bot");
+googletag.defineSlot('/6717/cd.WSOX.FM', [[300, 250], [300, 600]], 'div-gpt-ad-1418849849333-3').addService(googletag.pubads())
+.setCollapseEmptyDiv(true).setTargeting("pos","mid2");
+googletag.defineSlot('/6717/cd.WSOX.FM', [[160, 600]], 'div-gpt-ad-1418849849333-4').addService(googletag.pubads())
+.setCollapseEmptyDiv(true).setTargeting("pos","left");
+googletag.defineSlot('/6717/cd.WSOX.FM', [[160, 600]], 'div-gpt-ad-1418849849333-5').addService(googletag.pubads())
+.setCollapseEmptyDiv(true).setTargeting("pos","right");
+googletag.defineSlot('/6717/cd.WSOX.FM', [[654, 70]], 'div-gpt-ad-1418849849333-6').addService(googletag.pubads())
+.setCollapseEmptyDiv(true).setTargeting("pos","rdioplayer");
+googletag.defineSlot('/6717/cd.WSOX.FM', [[300, 100]], 'div-gpt-ad-1418849849333-7').addService(googletag.pubads())
+.setCollapseEmptyDiv(true).setTargeting("pos","contest1");
+googletag.defineSlot('/6717/cd.WSOX.FM', [[300, 100]], 'div-gpt-ad-1418849849333-8').addService(googletag.pubads())
+.setCollapseEmptyDiv(true).setTargeting("pos","contest2");
+googletag.defineSlot('/6717/cd.WSOX.FM', [[300, 100]], 'div-gpt-ad-1418849849333-9').addService(googletag.pubads())
+.setCollapseEmptyDiv(true).setTargeting("pos","contest3");
+googletag.defineSlot('/6717/cd.WSOX.FM', [[100, 51]], 'div-gpt-ad-1418849849333-10').addService(googletag.pubads())
+.setCollapseEmptyDiv(true).setTargeting("pos","rdiobutton");
+googletag.defineSlot('/6717/cd.WSOX.FM', [[113, 23]], 'div-gpt-ad-1418849849333-11').addService(googletag.pubads())
+.setCollapseEmptyDiv(true).setTargeting("pos","feedsponsor1");
+googletag.defineSlot('/6717/cd.WSOX.FM', [[113, 23]], 'div-gpt-ad-1418849849333-12').addService(googletag.pubads())
+.setCollapseEmptyDiv(true).setTargeting("pos","feedsponsor2");
+googletag.defineSlot('/6717/cd.WSOX.FM', [[113, 23]], 'div-gpt-ad-1418849849333-13').addService(googletag.pubads())
+.setCollapseEmptyDiv(true).setTargeting("pos","feedsponsor3");
+googletag.defineSlot('/6717/cd.WSOX.FM', [[113, 23]], 'div-gpt-ad-1418849849333-14').addService(googletag.pubads())
+.setCollapseEmptyDiv(true).setTargeting("pos","feedsponsor4");
+googletag.defineSlot('/6717/cd.WSOX.FM', [[1, 1]],'div-gpt-ad-1418849849333-16').addService(googletag.pubads())
+.setTargeting("pos","wallpaper-ad");
+googletag.pubads().enableSingleRequest();
+googletag.enableServices();
+googletag.defineSlot('/6717/cd.WSOX.fm', [[300, 250], [300, 600]], 'div-gpt-ad-1418849849333-18').setCollapseEmptyDiv(true).addService(googletag.pubads())
+.setTargeting("pos","midresponsive");
+});
+</script>
+<script>
+  <!--
+  jQuery(document).ready(function(){
+    var d=document;
+    var sid="wsox-fm.cumulus";
+    var CONTENTSECTION="";
+    var osp_URL=d.URL;
+    var osp_Title=d.title;
+    var t=new Date();
+    var p="http"+(d.URL.indexOf('https:')==0?'s':'')+"://stat.onestat.com/stat.aspx?tagver=2&sid="+sid;
+    p+="&url="+escape(osp_URL);
+    p+="&ti="+escape(osp_Title);
+    p+="&section="+escape(CONTENTSECTION);
+    p+="&rf="+escape(parent==self?document.referrer:top.document.referrer);
+    p+="&tz="+escape(t.getTimezoneOffset());
+    p+="&ch="+escape(t.getHours());
+    p+="&js=1";
+    p+="&ul="+escape(navigator.appName=="Netscape"?navigator.language:navigator.userLanguage);
+    if(osp_URL!=d.URL) p+="&ol="+escape(d.URL);
+    if(typeof(screen)=="object"){
+       p+="&sr="+screen.width+"x"+screen.height;p+="&cd="+screen.colorDepth;
+       p+="&jo="+(navigator.javaEnabled()?"Yes":"No");
+    }
+
+    var imgTag = '<img border="0" height="0" width="0" id="ONESTAT_TAG" src="' + p + '">'
+    jQuery('body').append(imgTag);
+
+  })
+  //-->
+  </script>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','corpDataLayer','GTM-PPZZMX');</script>
+<script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '181461212508101');
+  fbq('track', 'PageView');
+</script>
+<noscript><img height=1 width=1 style=display:none src="https://www.facebook.com/tr?id=181461212508101&ev=PageView&noscript=1"/></noscript>
+<meta name=viewport content="width=device-width, minimum-scale=1.0, maximum-scale=1.0"/>
+<link rel=alternate type="application/rss+xml" title="WSOX-FM &raquo; Feed" href="http://www.961sox.com/feed/"/>
+<link rel=shortlink href='http://www.961sox.com/'/>
+<script>
+				var _gaq = _gaq || [];
+
+				
+									_gaq.push(['b._setAccount', 'UA-75966256-7']);
+					_gaq.push(['b._trackPageview']);
+				
+				(function() {
+				var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                				    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                				var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+				})();
+			</script>
+<script>var ajaxurl = "http://www.961sox.com/wp-admin/admin-ajax.php"</script><script>var ajaxurl = "http://www.961sox.com/wp-admin/admin-ajax.php"</script>
+<script>
+  googletag.cmd.push(function() {
+      googletag.pubads().setTargeting('cms-sname', 'WSOXFM');
+      googletag.pubads().setTargeting('cms-sgroup', ['All Sites', 'Format  Classic Hits', 'Market  York PA']);
+      googletag.pubads().setTargeting('cms-ptitle', 'Home');
+  });
+</script>
+<meta property=og:locale content=en_US />
+<meta property=og:site_name content=WSOX-FM />
+<meta property=og:title content=WSOX-FM />
+<meta property=og:url content="http://www.961sox.com"/>
+<meta property=og:type content=website />
+<meta property=og:description content="96.1 SOX - The Susquehanna Valley&#039;s Greatest Hits"/>
+<meta itemprop=name content=WSOX-FM />
+<meta itemprop=description content="96.1 SOX - The Susquehanna Valley&#039;s Greatest Hits"/>
+<meta name=twitter:title content=WSOX-FM />
+<meta name=twitter:url content="http://www.961sox.com"/>
+<meta name=twitter:description content="96.1 SOX - The Susquehanna Valley&#039;s Greatest Hits"/>
+<meta name=twitter:card content=summary_large_image />
+</head>
+<body class="home page-template-default page page-id-27 custom safari webkit responsive-grid-enabled responsive-grid-active pageid-27 page-slug-home layout-front_page layout-using-front_page builder-parallax-scrolling-active" itemscope itemtype="http://schema.org/WebPage">
+<div id=whitewrap>
+<div id=wrapper-8 class="wrapper wrapper-fluid wrapper-fixed-grid grid-fluid-24-32-10 responsive-grid wrapper-first wrapper-header" data-alias="Wrapper Header">
+<div class="grid-container clearfix">
+<section class="row row-1">
+<section class="column column-1 grid-left-0 grid-width-24">
+<div id=block-27 class="block block-type-custom-code block-fluid-height" data-alias="728x90 Leaderboard Ad">
+<div class=block-content>
+<div align=center>
+<div id=div-gpt-ad-1418849849333-1>
+<script>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1418849849333-1'); });
+</script>
+</div>
+</div>
+</div>
+</div>
+</section>
+</section>
+<section class="row row-2">
+<section class="column column-1 grid-left-0 grid-width-6">
+<figure id=block-31 class="logo block block-type-image block-fixed-height" data-alias=Logo itemscope="" itemtype="http://schema.org/ImageObject">
+<div class=block-content>
+<a href="/" class=image><img src="http://cumulus.pro.poolb.tritondigitalcms.com/wsox-fm/wp-content/uploads/sites/437/2015/03/site-logo.png" alt="" title="" itemprop=contentURL /></a>
+</div>
+</figure>
+</section>
+<section class="column column-2 grid-left-0 grid-width-18">
+<section class="sub-column sub-column-1 column column-1 grid-width-5 grid-left-0">
+<aside id=block-29 class="on-air block block-type-widget-area block-fluid-height" data-alias="Home - On Air Now" itemscope="" itemtype="http://schema.org/WPSideBar">
+<div class=block-content>
+<ul class=widget-area><div class=amp-onair-widget id=amp_onair_widget-2 data-title-now="" data-title-upcoming="" data-title="" data-type=nowplaying data-change-minutes=5 data-change=0 data-toggle-time=10 data-fields="image,timeslot" data-ajaxurl="http://www.961sox.com/wp-admin/admin-ajax.php" data-updateurl="http://www.961sox.com/shows/feed/?type=json" data-memcached=1 data-expiration=1535364000>
+<div class="amp-onair-show nowplaying">
+<div class="amp-onair-widget-title js-widget-title"></div>
+<div class=amp-onair-show-image>
+<img class="js-image amp-onair-show-image-img" src="http://images.tritondigitalcms.com/6616/sites/437/2015/03/28210839/wakeupcrew-copy.jpg"/>
+</div>
+<div class=amp-onair-show-title>
+<span class=js-title>SOX Wake Up Crew</span>
+</div>
+<div class="amp-onair-show-timeslot js-timeslot">5:00 a.m. - 10:00 a.m.</div>
+</div>
+</div></ul>
+</div>
+</aside>
+</section>
+<section class="sub-column sub-column-2 column column-2 grid-width-2 grid-left-0">
+<nav id=block-33 class="nav-search block block-type-navigation block-fluid-height" data-alias="Navigation Search" itemscope="" itemtype="http://schema.org/SiteNavigationElement">
+<div class=block-content>
+<div class="nav-horizontal nav-align-left nav-search-active nav-search-position-left"><div class=nav-search>
+<form id=searchform action="http://www.961sox.com/">
+<label for=s class=assistive-text>Search</label>
+<input class=field name=s id=s value=Search onclick="if(this.value=='Search')this.value='';" onblur="if(this.value=='')this.value='Search';"/>
+<input type=submit class=submit name=searchsubmit id=searchsubmit value=Search />
+</form>
+</div></div>
+</div>
+</nav>
+</section>
+<section class="sub-column sub-column-3 column column-3 grid-width-11 grid-left-0">
+<section id=block-30 class="social-nav block block-type-social block-fixed-height" data-alias="Social Navigation">
+<div class=block-content>
+<div class=social-icons-container><ul class=social-icons><li><a href="#"><img src="http://www.961wsox.com/wp-content/uploads/sites/437/2016/04/listen-live.png" title="Listen Live!!" class=img-1 /></a></li><li><a href="/advertise-with-us/"><img src="http://images.tritondigitalcms.com/6616/sites/437/2018/02/26114345/advertise-with-us.png" alt="Advertise With Us" class=img-2 /></a></li><li><a href="/listen-live-with-alexa"><img src="http://images.tritondigitalcms.com/6616/sites/437/2018/01/09120117/Alexa-Social-Logo-MUSIC.png" alt=Alexa class=img-3 /></a></li><li><a href="https://www.facebook.com/pages/961-SOX/616247195057550" target=_blank><img src="http://cumulus.pro.poolb.tritondigitalcms.com/wsox-fm/wp-content/uploads/sites/437/2014/10/facebook.png" title="Like us on Facebook!" class=img-4 /></a></li><li><a href="https://twitter.com/WSOXFM" target=_blank><img src="http://cumulus.pro.poolb.tritondigitalcms.com/wsox-fm/wp-content/uploads/sites/437/2014/10/twitter.png" title="Follow us on Twitter!" class=img-5 /></a></li><li><a href="http://961wsox.listenernetwork.com/" target=_blank><img src="http://cumulus.pro.poolb.tritondigitalcms.com/wsox-fm/wp-content/uploads/sites/437/2015/01/cumulus-vip.png" title=VIP class=img-6 /></a></li></ul></div>
+</div>
+</section>
+</section>
+<div id=block-blf5a831463c2a87 class="block block-type-custom-code block-fluid-height" data-alias="Empty Spacer">
+<div class=block-content>
+&nbsp;
+</div>
+</div>
+<section class="sub-column sub-column-1 column column-1 grid-width-15 grid-left-0">
+<nav id=block-32 class="main-nav block block-type-navigation block-fluid-height" data-alias="Main Navigation" itemscope="" itemtype="http://schema.org/SiteNavigationElement">
+<div class=block-content>
+<div class="nav-horizontal nav-align-left"><ul id=menu-main-navigation class=menu><li id=menu-item-298545 class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-298545"><a>Shows</a>
+<ul class=sub-menu>
+<li id=menu-item-56210 class="menu-item menu-item-type-custom menu-item-object-custom menu-item-56210"><a href="http://www.961wsox.com/shows/sox-wake-up-crew/">Wake Up Crew</a></li>
+<li id=menu-item-56213 class="menu-item menu-item-type-custom menu-item-object-custom menu-item-56213"><a href="http://www.961wsox.com/shows/john-london/">John London</a></li>
+<li id=menu-item-56216 class="menu-item menu-item-type-custom menu-item-object-custom menu-item-56216"><a href="http://www.961wsox.com/shows/fuzzy-summers/">Fuzzy Summers</a></li>
+<li id=menu-item-56219 class="menu-item menu-item-type-custom menu-item-object-custom menu-item-56219"><a href="http://www.961wsox.com/shows/mike-harvey/">Mike Harvey</a></li>
+</ul>
+</li>
+<li id=menu-item-125 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-125"><a href="http://www.961sox.com/news/">News</a>
+<ul class=sub-menu>
+<li id=menu-item-365835 class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-365835"><a href="#">Videos</a>
+<ul class=sub-menu>
+<li id=menu-item-365841 class="menu-item menu-item-type-post_type menu-item-object-post menu-item-365841"><a href="http://www.961sox.com/1111/11/11/cnn-news/">CNN News</a></li>
+</ul>
+</li>
+<li id=menu-item-50537 class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-50537"><a href="http://www.961sox.com/category/cnn-us/">National News</a></li>
+<li id=menu-item-50540 class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-50540"><a href="http://www.961sox.com/category/cnn-world/">World News</a></li>
+<li id=menu-item-936138 class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-936138"><a href="http://www.961sox.com/category/cnn-entertainment/">Showbiz Buzz</a></li>
+<li id=menu-item-50546 class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-50546"><a href="http://www.961sox.com/category/cnn-health/">Health News</a></li>
+<li id=menu-item-50549 class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-50549"><a href="http://www.961sox.com/category/cnn-sports/">Sports News</a></li>
+</ul>
+</li>
+<li id=menu-item-123 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-123"><a href="http://www.961sox.com/contests/">Contests</a>
+<ul class=sub-menu>
+<li id=menu-item-152286 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-152286"><a href="http://www.961sox.com/officialcontestrules/">Official Contest Rules</a></li>
+</ul>
+</li>
+<li id=menu-item-127 class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-127"><a>Events</a>
+<ul class=sub-menu>
+<li id=menu-item-349776 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-349776"><a href="http://www.961sox.com/events/sox-on-location/">SOX on Location</a></li>
+<li id=menu-item-50573 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-50573"><a href="http://www.961sox.com/events/concert-calendar/">Concert Calendar</a></li>
+<li id=menu-item-50576 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-50576"><a href="http://www.961sox.com/events/community-calendar/">Community Calendar</a></li>
+<li id=menu-item-50579 class="menu-item menu-item-type-custom menu-item-object-custom menu-item-50579"><a href="http://weddingwonderlandpa.com">Wedding Wonderland</a></li>
+</ul>
+</li>
+<li id=menu-item-121 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-121"><a href="http://www.961sox.com/features/">Features</a>
+<ul class=sub-menu>
+<li id=menu-item-1221050 class="menu-item menu-item-type-post_type menu-item-object-post menu-item-1221050"><a href="http://www.961sox.com/2018/07/31/your-home-for-eagles-football/">Philadelphia Eagles Football</a></li>
+<li id=menu-item-1049566 class="menu-item menu-item-type-post_type menu-item-object-post menu-item-1049566"><a href="http://www.961sox.com/2015/07/01/download-the-app/">Get the 96.1 SOX App</a></li>
+<li id=menu-item-871017 class="menu-item menu-item-type-custom menu-item-object-custom menu-item-871017"><a href="http://wsox-fm.mygameroom.com">Games</a></li>
+<li id=menu-item-526840 class="menu-item menu-item-type-custom menu-item-object-custom menu-item-526840"><a href="http://www.961wsox.com/2016/01/25/heard-it-on-96-1-sox/">Heard it on SOX</a></li>
+</ul>
+</li>
+<li id=menu-item-117 class="menu-item menu-item-type-custom menu-item-object-custom menu-item-117"><a href="http://pa.sweetdealscumulus.com/">Sweet Deals</a></li>
+<li id=menu-item-1188024 class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1188024"><a target=_blank href="http://cumulusdigital.com?market=York">Digital│C-Suite</a></li>
+</ul></div>
+</div>
+</nav>
+</section>
+<section class="sub-column sub-column-2 column column-2 grid-width-3 grid-left-0">
+<div id=block-bzi5a8313e77275e class="gigya-actions block block-type-custom-code block-fluid-height" data-alias="Gigya Profile Actions">
+<div class=block-content>
+<div class=see-widget data-see-type=regUi data-see-loginbonus=false></div>
+</div>
+</div>
+</section>
+</section>
+</section>
+<section class="row row-3">
+<section class="column column-1 grid-left-0 grid-width-5">
+<div id=block-b8z54a44441b0250 class="takeover-left block block-type-custom-code block-fluid-height" data-alias="Skyscraper - Left">
+<div class=block-content>
+<div id=div-gpt-ad-1418849849333-4>
+<script>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1418849849333-4'); });
+</script>
+</div>
+</div>
+</div>
+</section>
+<section class="column column-2 grid-left-0 grid-width-5">
+<div id=block-b0b54a44441b2caa class="takeover-right block block-type-custom-code block-fluid-height" data-alias="Skyscraper - Right">
+<div class=block-content>
+<div id=div-gpt-ad-1418849849333-5>
+<script>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1418849849333-5'); });
+</script>
+</div>
+</div>
+</div>
+</section>
+</section>
+</div>
+</div>
+<div id=wrapper-9 class="wrapper wrapper-fluid wrapper-fixed-grid grid-fluid-24-32-10 responsive-grid wrapper-content" data-alias="Wrapper Content">
+<div class="grid-container clearfix">
+<section class="row row-1">
+<section class="column column-1 grid-left-0 grid-width-16">
+<aside id=block-35 class="promo-reel block block-type-widget-area block-fluid-height" data-alias="Home - Promo Reel" itemscope="" itemtype="http://schema.org/WPSideBar">
+<div class=block-content>
+<ul class=widget-area><li id=amp_promo_reel-2 class="widget widget_amp_promo_reel sidebar_promo">
+<div class=sliderWrapper><div class=sliderBody style=""><div class=bxslider data-navigation-arrows=1 data-rotation-time=5000 data-pager-type=none><div class=sliderItem style="background-image: url(http://images.tritondigitalcms.com/6616/sites/437/2018/07/19093309/TDP-undated-FI.jpg);background-color: #000;background-repeat: no-repeat;background-size: cover;background-position: 0% 0%;position: relative;height: 300px;cursor: pointer;" onclick="window.location='http://www.961sox.com/2018/07/13/4k-summer-thousand-dollar-payoff/'"><div class="promoCaption bottom"><div class=captionTitle>Listen for the Keyword</div></div></div><div class=sliderItem style="background-image: url(http://images.tritondigitalcms.com/6616/sites/437/2018/08/23122311/SOX-Labor-Day-500-weekend.jpg);background-color: #000;background-repeat: no-repeat;background-size: cover;background-position: 0% 0%;position: relative;height: 300px;cursor: pointer;" onclick="window.location='http://www.961sox.com/2018/08/24/enjoy-the-top-500-classic-hits-for-your-labor-day-weekend/'"><div class="promoCaption bottom"><div class=captionTitle>Begins Friday at Noon!</div></div></div><div class=sliderItem style="background-image: url(http://images.tritondigitalcms.com/6616/sites/437/2017/12/24233218/sox-alexa-FI.jpg);background-color: #000;background-repeat: no-repeat;background-size: cover;background-position: 50% 50%;position: relative;height: 300px;cursor: pointer;" onclick="window.location='http://www.961sox.com/2017/12/24/play-96-1-sox-on-your-alexa-enabled-device/'"><div class="promoCaption bottom"><div class=captionTitle>Enable the 96.1 SOX skill!</div></div></div><div class=sliderItem style="background-image: url(http://www.961sox.com/wp-content/uploads/sites/437/2016/04/sox-listen-live.jpg);background-color: #000;background-repeat: no-repeat;background-size: cover;background-position: 50% 50%;position: relative;height: 300px;cursor: pointer;" onclick="window.open('http://player.listenlive.co/26761/en/songhistory', '_blank')"><div class="promoCaption bottom"><div class=captionTitle>Listen Live </div></div></div><div class=sliderItem style="background-image: url(http://images.tritondigitalcms.com/6616/2018/07/18225456/Thousand-Dollar-Payoff-Live-PromoReel.jpg);background-color: #000;background-repeat: no-repeat;background-size: cover;background-position: 50% 50%;position: relative;height: 300px;cursor: pointer;" onclick="window.location='http://www.961sox.com/2018/07/13/4k-summer-thousand-dollar-payoff'"><div class="promoCaption bottom"><div class=captionTitle>Enter to win $1k!</div></div></div><div class=sliderItem style="background-image: url(http://images.tritondigitalcms.com/6616/sites/437/2018/07/27114755/Football-ad-website-FI1.jpg);background-color: #000;background-repeat: no-repeat;background-size: cover;background-position: 0% 0%;position: relative;height: 300px;cursor: pointer;" onclick="window.location='http://www.961sox.com/2018/07/27/reach-thousands-of-football-fans/'"><div class="promoCaption bottom"><div class=captionTitle>Reach Thousands of Football Fans!</div></div></div><div class=sliderItem style="background-image: url(http://images.tritondigitalcms.com/6616/sites/443/2018/08/06202132/CPJF-hiring-FI-october.jpg);background-color: #000;background-repeat: no-repeat;background-size: cover;background-position: 0% 0%;position: relative;height: 300px;cursor: pointer;" onclick="window.location='https://www.centralpajobfair.com/'"><div class="promoCaption bottom"><div class=captionTitle>Need to Hire?</div></div></div><div class=sliderItem style="background-image: url(http://images.tritondigitalcms.com/6616/2018/08/17193903/LaborDay-PromoReel.jpg);background-color: #000;background-repeat: no-repeat;background-size: cover;background-position: 50% 50%;position: relative;height: 300px;cursor: pointer;" onclick="window.location='http://www.961sox.com/2018/08/20/ultimate-labor-day/'"><div class="promoCaption bottom"><div class=captionTitle>Enter to win $2k!</div></div></div></div></div></div></li>
+</ul>
+</div>
+</aside>
+<div id=block-75 class="mobile-only block block-type-custom-code block-fluid-height" data-alias="Responsive Ad">
+<div class=block-content>
+<div id=div-gpt-ad-1418849849333-18>
+<script>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1418849849333-18'); });
+</script>
+</div>
+</div>
+</div>
+<div id=block-9 class="300x250-ad-1-r block block-type-custom-code block-fluid-height responsive-block-hiding-device-smartphones responsive-block-hiding-device-tablets-landscape responsive-block-hiding-device-tablets-portrait responsive-block-hiding-device-computers" data-alias="">
+<div class=block-content>
+<p>There is no custom code to display.</p>
+</div>
+</div>
+<div id=block-11 class="sweet-deals-ad-r block block-type-custom-code block-fluid-height responsive-block-hiding-device-smartphones responsive-block-hiding-device-tablets-landscape responsive-block-hiding-device-tablets-portrait responsive-block-hiding-device-computers" data-alias="">
+<div class=block-content>
+<p>There is no custom code to display.</p>
+</div>
+</div>
+<div id=block-39 class="top-stories block block-type-content block-fluid-height" data-alias="Top Stories">
+<div class=block-content>
+<h1 class=block-title><span>Top Stories</span></h1><div class=loop>
+<div class=entry-row>
+<article id=post-1224267 class="post-1224267 post type-post status-publish format-standard has-post-thumbnail hentry category-homepage category-promo-reel author-ljacoby custom-query" itemscope itemtype="http://schema.org/BlogPosting">
+<a href="http://www.961sox.com/2018/08/24/enjoy-the-top-500-classic-hits-for-your-labor-day-weekend/" class="post-thumbnail post-thumbnail-left">
+<img src="http://images.tritondigitalcms.com/6616/sites/437/2018/08/23122311/SOX-Labor-Day-500-weekend.jpg" alt="Enjoy the Top 500 Classic Hits for your Labor Day Weekend" width=auto height=auto itemprop=image />
+</a>
+<header><h2 class=entry-title itemprop=headline><a href="http://www.961sox.com/2018/08/24/enjoy-the-top-500-classic-hits-for-your-labor-day-weekend/" title="Enjoy the Top 500 Classic Hits for your Labor Day Weekend" rel=bookmark>Enjoy the Top 500 Classic Hits for your Labor Day Weekend</a></h2></header><div class="entry-summary entry-content" itemprop=text><p>Take SOX with you on your Labor Day Weekend, we are counting down the Top 500 Classic Hits! We will kickoff the Labor Day 500 weekend on Friday at Noon and continue all the way thru the Monday holiday. Have a Fun &amp; Safe Labor Day Weekend! presented by Neffsville Plumbing &amp; Heating Services<span class=more-link-ellipsis>&#8230; </span><a href="http://www.961sox.com/2018/08/24/enjoy-the-top-500-classic-hits-for-your-labor-day-weekend/" class=more-link>More</a></p>
+</div></article><article id=post-1220839 class="post-1220839 post type-post status-publish format-standard has-post-thumbnail hentry category-homepage category-promo-reel author-ljacoby alt custom-query" itemscope itemtype="http://schema.org/BlogPosting">
+<a href="http://www.961sox.com/2018/07/31/your-home-for-eagles-football/" class="post-thumbnail post-thumbnail-left">
+<img src="http://images.tritondigitalcms.com/6616/sites/437/2018/07/31132512/SOX-Eagles-2018-FI.jpg" alt="Your Home for Eagles Football" width=auto height=auto itemprop=image />
+</a>
+<header><h2 class=entry-title itemprop=headline><a href="http://www.961sox.com/2018/07/31/your-home-for-eagles-football/" title="Your Home for Eagles Football" rel=bookmark>Your Home for Eagles Football</a></h2></header><div class="entry-summary entry-content" itemprop=text><p>96.1 SOX is your home for the defending champion Philadelphia Eagles The Birds will defend their title opening the season at home against Atlanta on Thursday, September 6th. The schedule is below and all games can be heard right here on 96.1 SOX. Preseason: Game 3 at Cleveland on Thursday, August 23rd at 8pm Game&hellip;<span class=more-link-ellipsis>&#8230; </span><a href="http://www.961sox.com/2018/07/31/your-home-for-eagles-football/" class=more-link>More</a></p>
+</div></article>
+</div>
+<div class=entry-row>
+<article id=post-159253 class="post-159253 post type-post status-publish format-standard has-post-thumbnail hentry category-featured-events category-homepage author-ljacoby custom-query" itemscope itemtype="http://schema.org/BlogPosting">
+<a href="http://www.961sox.com/2018/07/31/heart-walks/" class="post-thumbnail post-thumbnail-left">
+<img src="http://images.tritondigitalcms.com/6616/sites/437/2015/07/22125046/AHA-heart-walk-FI-sox.jpg" alt="2018 Heart Walks in Central PA" width=auto height=auto itemprop=image />
+</a>
+<header><h2 class=entry-title itemprop=headline><a href="http://www.961sox.com/2018/07/31/heart-walks/" title="2018 Heart Walks in Central PA" rel=bookmark>2018 Heart Walks in Central PA</a></h2></header><div class="entry-summary entry-content" itemprop=text><p>Help the American Heart Association by participating in a Heart Walk VISIT THE 96.1 SOX TABLE AT THE ADAMS AND LANCASTER WALKS! Help the American Heart Association get America walking by supporting the 2018 Heart Walks. As the signature fundraising event for the American Heart Association, the Heart Walk promotes physical activity and heart-healthy living in a fun&hellip;<span class=more-link-ellipsis>&#8230; </span><a href="http://www.961sox.com/2018/07/31/heart-walks/" class=more-link>More</a></p>
+</div></article><article id=post-1207826 class="post-1207826 post type-post status-publish format-standard has-post-thumbnail hentry category-contests category-homepage tag-4k-a-day tag-contest tag-fast-money-keyword tag-summer-fun-payoff tag-t2w tag-text-2-win tag-text-to-win tag-text2win tag-thousand-dollar-payoff tag-thousand-dollar-summer tag-weekday-payday tag-workday-payday author-dvena alt custom-query" itemscope itemtype="http://schema.org/BlogPosting">
+<a href="http://www.961sox.com/2018/07/13/4k-summer-thousand-dollar-payoff/" class="post-thumbnail post-thumbnail-left">
+<img src="http://images.tritondigitalcms.com/6616/sites/437/2018/07/19093309/TDP-undated-FI.jpg" alt="4k Summer &#8211; Thousand Dollar Payoff" width=auto height=auto itemprop=image />
+</a>
+<header><h2 class=entry-title itemprop=headline><a href="http://www.961sox.com/2018/07/13/4k-summer-thousand-dollar-payoff/" title="4k Summer &#8211; Thousand Dollar Payoff" rel=bookmark>4k Summer &#8211; Thousand Dollar Payoff</a></h2></header><div class="entry-summary entry-content" itemprop=text><p>Listen Monday through Friday for the keyword and you could win $1,000!<span class=more-link-ellipsis>&#8230; </span><a href="http://www.961sox.com/2018/07/13/4k-summer-thousand-dollar-payoff/" class=more-link>More</a></p>
+</div></article>
+</div>
+<div class=entry-row>
+<article id=post-1207264 class="post-1207264 post type-post status-publish format-standard has-post-thumbnail hentry category-contests category-homepage author-ljacoby custom-query" itemscope itemtype="http://schema.org/BlogPosting">
+<a href="http://www.961sox.com/2018/07/12/play-the-pony-payout-with-the-sox-wake-up-crew/" class="post-thumbnail post-thumbnail-left">
+<img src="http://images.tritondigitalcms.com/6616/sites/437/2018/07/12103400/SOX-pony-payout-FI.jpg" alt="Play the Pony Payout with the SOX Wake Up Crew" width=auto height=auto itemprop=image />
+</a>
+<header><h2 class=entry-title itemprop=headline><a href="http://www.961sox.com/2018/07/12/play-the-pony-payout-with-the-sox-wake-up-crew/" title="Play the Pony Payout with the SOX Wake Up Crew" rel=bookmark>Play the Pony Payout with the SOX Wake Up Crew</a></h2></header><div class="entry-summary entry-content" itemprop=text><p>Each Monday and Thursday Morning, the Wake Up Crew are giving you a chance to win $100 in slot play and a $25 food voucher to the Casino at Delaware Park. Just pick the winning horse on 96.1 SOX! Must be 21 or older to play and attend casino. It&#8217;s the 81st Season of live&hellip;<span class=more-link-ellipsis>&#8230; </span><a href="http://www.961sox.com/2018/07/12/play-the-pony-payout-with-the-sox-wake-up-crew/" class=more-link>More</a></p>
+</div></article><article id=post-1189885 class="post-1189885 post type-post status-publish format-standard has-post-thumbnail hentry category-homepage category-promo-reel author-ljacoby alt custom-query" itemscope itemtype="http://schema.org/BlogPosting">
+<a href="http://www.961sox.com/2017/12/24/play-96-1-sox-on-your-alexa-enabled-device/" class="post-thumbnail post-thumbnail-left">
+<img src="http://images.tritondigitalcms.com/6616/sites/437/2017/12/24233218/sox-alexa-FI.jpg" alt="Play 96.1 SOX on your Alexa-enabled device!" width=auto height=auto itemprop=image />
+</a>
+<header><h2 class=entry-title itemprop=headline><a href="http://www.961sox.com/2017/12/24/play-96-1-sox-on-your-alexa-enabled-device/" title="Play 96.1 SOX on your Alexa-enabled device!" rel=bookmark>Play 96.1 SOX on your Alexa-enabled device!</a></h2></header><div class="entry-summary entry-content" itemprop=text><p>96.1 SOX is now available on Amazon devices with Alexa. Featuring The Susquehanna Valley’s Greatest Hits with The SOX Wake Up Crew in the Morning and Sing Along Songs All Day. Listen to John London in the middays, Fuzzy on weekday afternoons and to round out your evening, two hours of feel good sing along songs from&hellip;<span class=more-link-ellipsis>&#8230; </span><a href="http://www.961sox.com/2017/12/24/play-96-1-sox-on-your-alexa-enabled-device/" class=more-link>More</a></p>
+</div></article>
+</div>
+</div>
+</div>
+</div>
+<section class="sub-column sub-column-1 column column-1 grid-width-8 grid-left-0">
+<div id=block-48 class="facebook block block-type-custom-code block-fluid-height" data-alias="Facebook Widget">
+<div class=block-content>
+<iframe src="//www.facebook.com/plugins/likebox.php?href=https://www.facebook.com/pages/961-SOX/616247195057550&amp;width=310&amp;height=448&amp;colorscheme=light&amp;show_faces=true&amp;border_color&amp;stream=true&amp;header=true" scrolling=no frameborder=0 style="border:none; overflow:hidden; width:310px; height:448px; background: #fff;" allowtransparency=true></iframe>
+</div>
+</div>
+</section>
+<section class="sub-column sub-column-2 column column-2 grid-width-8 grid-left-0">
+<div id=block-49 class="twitter block block-type-custom-code block-fluid-height" data-alias="Twitter Widget">
+<div class=block-content>
+<a class=twitter-timeline data-dnt=true href="https://twitter.com/WSOXFM" data-widget-id=577488894255624192>Tweets by @WSOXFM</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+</div>
+</div>
+</section>
+</section>
+<section class="column column-2 grid-left-0 grid-width-8">
+<div id=block-34 class="300x250-ad-1 block block-type-custom-code block-fluid-height" data-alias="300x250 Ad 1">
+<div class=block-content>
+<div id=div-gpt-ad-1418849849333-0>
+<script>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1418849849333-0'); });
+</script>
+</div>
+</div>
+</div>
+<div id=block-38 class="sweet-deals-ad block block-type-custom-code block-fluid-height" data-alias="Sweet Deals Ad">
+<div class=block-content>
+<a href="http://pa.sweetdealscumulus.com/"><img src="/wp-content/uploads/sites/437/2014/10/sweetdeals.png"></a>
+</div>
+</div>
+<div id=block-36 class="vip-club-ad block block-type-custom-code block-fluid-height" data-alias="VIP Club Ad">
+<div class=block-content>
+<div id=div-gpt-ad-1418849849333-7>
+<script>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1418849849333-7'); });
+</script>
+</div>
+</div>
+</div>
+<div id=block-40 class="blogs block block-type-content block-fluid-height" data-alias="Question of the Day">
+<div class=block-content>
+<h1 class=block-title><span>Question of the Day</span></h1><div class=loop>
+<div class=entry-row>
+<article id=post-1224626 class="post-1224626 post type-post status-publish format-standard hentry category-question-of-the-day author-dgrey custom-query" itemscope itemtype="http://schema.org/BlogPosting"><header><h2 class=entry-title itemprop=headline><a href="http://www.961sox.com/2018/08/24/aug-24-3/" title="Aug 24" rel=bookmark>Aug 24</a></h2></header><div class="entry-summary entry-content" itemprop=text><p>Q: The average American does this 5-times a year&#8230; A: Play board games</p>
+</div></article><article id=post-1224204 class="post-1224204 post type-post status-publish format-standard hentry category-question-of-the-day author-dgrey alt custom-query" itemscope itemtype="http://schema.org/BlogPosting"><header><h2 class=entry-title itemprop=headline><a href="http://www.961sox.com/2018/08/23/aug-23-3/" title="Aug 23" rel=bookmark>Aug 23</a></h2></header><div class="entry-summary entry-content" itemprop=text><p>Q: Americans eat nearly 50-million of these every summer&#8230; A: Marshmallows</p>
+</div></article>
+</div>
+<div class=entry-row>
+<article id=post-1223785 class="post-1223785 post type-post status-publish format-standard hentry category-question-of-the-day author-dgrey custom-query" itemscope itemtype="http://schema.org/BlogPosting"><header><h2 class=entry-title itemprop=headline><a href="http://www.961sox.com/2018/08/22/aug-22-3/" title="Aug 22" rel=bookmark>Aug 22</a></h2></header><div class="entry-summary entry-content" itemprop=text><p>Q: Americans in this profession work more hours than their colleagues in other countries&#8230; A: Teachers</p>
+</div></article>
+</div>
+</div>
+</div>
+</div>
+<div id=block-42 class="facebook-ad block block-type-custom-code block-fluid-height" data-alias="Facebook Ad">
+<div class=block-content>
+<div id=div-gpt-ad-1418849849333-8>
+<script>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1418849849333-8'); });
+</script>
+</div>
+</div>
+</div>
+<div id=block-43 class="headlines block block-type-content block-fluid-height" data-alias="Eagles News">
+<div class=block-content>
+<h1 class=block-title><span>Eagles News</span></h1><div class=loop>
+<div class=entry-row>
+<article id=post-1225103 class="post-1225103 feed_posts type-feed_posts status-publish has-post-thumbnail hentry category-dell-news-philadelphia-eagles alt custom-query" itemscope itemtype="http://schema.org/BlogPosting"><header><h2 class=entry-title itemprop=headline><a href="http://www.961sox.com/news/pederson-wentz-not-cleared-for-contact/" title="Pederson: Wentz not cleared for contact" rel=bookmark>Pederson: Wentz not cleared for contact</a></h2></header></article><article id=post-1224546 class="post-1224546 feed_posts type-feed_posts status-publish has-post-thumbnail hentry category-dell-news-philadelphia-eagles custom-query" itemscope itemtype="http://schema.org/BlogPosting"><header><h2 class=entry-title itemprop=headline><a href="http://www.961sox.com/news/cleveland-qbs-get-banged-up-as-browns-down-eagles/" title="Cleveland QBs get banged up as Browns down Eagles" rel=bookmark>Cleveland QBs get banged up as Browns down Eagles</a></h2></header></article>
+</div>
+<div class=entry-row>
+<article id=post-1224675 class="post-1224675 feed_posts type-feed_posts status-publish has-post-thumbnail hentry category-dell-news-philadelphia-eagles alt custom-query" itemscope itemtype="http://schema.org/BlogPosting"><header><h2 class=entry-title itemprop=headline><a href="http://www.961sox.com/news/eagles-pederson-deferring-wentz-decision-to-doctors/" title="Eagles&#8217; Pederson deferring Wentz decision to doctors" rel=bookmark>Eagles&#8217; Pederson deferring Wentz decision to doctors</a></h2></header></article><article id=post-1225105 class="post-1225105 feed_posts type-feed_posts status-publish has-post-thumbnail hentry category-dell-news-philadelphia-eagles custom-query" itemscope itemtype="http://schema.org/BlogPosting"><header><h2 class=entry-title itemprop=headline><a href="http://www.961sox.com/news/eagles-qb-foles-shoulder-to-play-thursday/" title="Eagles QB Foles (shoulder) to play Thursday" rel=bookmark>Eagles QB Foles (shoulder) to play Thursday</a></h2></header></article>
+</div>
+<div class=entry-row>
+<article id=post-1225112 class="post-1225112 feed_posts type-feed_posts status-publish has-post-thumbnail hentry category-dell-news-philadelphia-eagles alt custom-query" itemscope itemtype="http://schema.org/BlogPosting"><header><h2 class=entry-title itemprop=headline><a href="http://www.961sox.com/news/eagles-de-graham-activated-from-pup-list/" title="Eagles DE Graham activated from PUP list" rel=bookmark>Eagles DE Graham activated from PUP list</a></h2></header></article><article id=post-1225113 class="post-1225113 feed_posts type-feed_posts status-publish has-post-thumbnail hentry category-dell-news-philadelphia-eagles custom-query" itemscope itemtype="http://schema.org/BlogPosting"><header><h2 class=entry-title itemprop=headline><a href="http://www.961sox.com/news/eagles-qb-wentz-out-thursday-aiming-for-sept-6-opener/" title="Eagles QB Wentz out Thursday, aiming for Sept. 6 opener" rel=bookmark>Eagles QB Wentz out Thursday, aiming for Sept. 6 opener</a></h2></header></article>
+</div>
+</div>
+</div>
+</div>
+<div id=block-44 class="twitter-ad block block-type-custom-code block-fluid-height" data-alias="Twitter Ad">
+<div class=block-content>
+<div id=div-gpt-ad-1418849849333-9>
+<script>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1418849849333-9'); });
+</script>
+</div>
+</div>
+</div>
+<aside id=block-45 class="free-apps block block-type-widget-area block-fluid-height" data-alias="Home - Free Apps" itemscope="" itemtype="http://schema.org/WPSideBar">
+<div class=block-content>
+<h1 class=block-title><span>Free Apps</span></h1><ul class=widget-area><li id=text-3 class="widget widget_text">
+<div class=textwidget><div align=center>
+<a href="https://itunes.apple.com/us/app/96.1-sox/id735945644?mt=8"><img src="/wp-content/uploads/sites/437/2014/10/appstore.png" border=0></a>&nbsp;<a href="https://play.google.com/store/apps/details?id=com.airkast.WSOXFM" target=_blank><img src="/wp-content/uploads/sites/437/2014/10/googleplay.png" border=0></a>&nbsp;<a href="http://www.amazon.com/AirKast-Inc-96-1-SOX/dp/B00L8BPFMS/" target=_blank><img src="/wp-content/uploads/sites/437/2014/10/amazon.png" border=0></a>
+</div></div>
+</li>
+</ul>
+</div>
+</aside>
+<div id=block-46 class="300x250-ad-2 block block-type-custom-code block-fluid-height" data-alias="300x250 Ad 2">
+<div class=block-content>
+<div id=div-gpt-ad-1418849849333-3>
+<script>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1418849849333-3'); });
+</script>
+</div>
+</div>
+</div>
+</section>
+</section>
+</div>
+</div>
+<div id=wrapper-10 class="wrapper wrapper-fluid wrapper-fixed-grid grid-fluid-24-32-10 responsive-grid wrapper-last wrapper-footer" data-alias="Wrapper Footer">
+<div class="grid-container clearfix">
+<section class="row row-1">
+<section class="column column-1 grid-left-0 grid-width-6">
+<nav id=block-50 class="footer-nav block block-type-navigation block-fluid-height" data-alias="Footer Navigation" itemscope="" itemtype="http://schema.org/SiteNavigationElement">
+<div class=block-content>
+<div class="nav-vertical nav-align-left"><ul id=menu-footer-navigation class=menu><li id=menu-item-390318 class="menu-item menu-item-type-custom menu-item-object-custom menu-item-390318"><a href="/1111/11/11/privacy-policy">Privacy Policy</a></li>
+<li id=menu-item-390321 class="menu-item menu-item-type-custom menu-item-object-custom menu-item-390321"><a href="/1111/11/11/terms-of-service">Terms of Service</a></li>
+<li id=menu-item-152283 class="menu-item menu-item-type-custom menu-item-object-custom menu-item-152283"><a href="http://www.961wsox.com/officialcontestrules">Official Contest Rules</a></li>
+<li id=menu-item-137 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-137"><a href="http://www.961sox.com/advertise-with-us/">Advertise With Us</a></li>
+<li id=menu-item-139 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-139"><a href="http://www.961sox.com/station-information/">Station Information</a></li>
+<li id=menu-item-49334 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-49334"><a href="http://www.961sox.com/employment-opportunities/">Employment Opportunities</a></li>
+<li id=menu-item-1188600 class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1188600"><a target=_blank href="https://www.cumulus.com">Cumulus Media Corporate</a></li>
+<li id=menu-item-1192856 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1192856"><a href="http://www.961sox.com/fcc-online-public-file/">FCC Online Public File</a></li>
+</ul></div>
+</div>
+</nav>
+<div id=block-b9n55c8b13eda27f class="block block-type-custom-code block-fluid-height" data-alias="Wallpaper Ad">
+<div class=block-content>
+<div id=div-gpt-ad-1418849849333-16>
+<script>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1418849849333-16'); });
+</script>
+</div>
+</div>
+</div>
+</section>
+<section class="column column-2 grid-left-0 grid-width-18">
+<div id=block-51 class="728x90-ad-2 block block-type-custom-code block-fluid-height" data-alias="728x90 Ad 2">
+<div class=block-content>
+<div class=footer-728x90-ad align=right>
+<div id=div-gpt-ad-1418849849333-2>
+<script>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1418849849333-2'); });
+</script>
+</div>
+</div>
+</div>
+</div>
+<footer id=block-52 class="copyright block block-type-footer block-fluid-height" data-alias=Copyright itemscope="" itemtype="http://schema.org/WPFooter">
+<div class=block-content>
+<div class=footer-container>
+<div class=footer>
+<p class="copyright footer-copyright">Copyright Cumulus Media / Cumulus Media is an equal opportunity employer / AA</p><p class="footer-responsive-grid-link-container footer-responsive-grid-link-disable-container"><a href="http://www.961sox.com/?full-site=true" rel=nofollow class="footer-responsive-grid-link footer-responsive-grid-disable footer-link">View Full Site</a></p>
+</div>
+</div>
+</div>
+</footer>
+</section>
+</section>
+</div>
+</div>
+<script>_AMP.theme.init();</script>
+<link rel=stylesheet id=media_library_assistant-plugin-styles-css href='http://www.961sox.com/wp-content/plugins/media-library-assistant/includes/../css/prettyPhoto.css?ver=1.61' type='text/css' media=all />
+<link rel=stylesheet id=media_library_assistant-widget-styles-css href='http://www.961sox.com/wp-content/plugins/media-library-assistant/includes/../css/widget.css?ver=1.61' type='text/css' media=all />
+<link rel=stylesheet id=amp-polls-plugin-styles-css href='http://www.961sox.com/wp-content/plugins/amp-polls/css/widget.css?ver=4.9.1' type='text/css' media=all />
+<link rel=stylesheet id=themify-builder-1220839-generated-css href='http://www.961sox.com/wp-content/uploads/sites/437/themify-css/themify-builder-1220839-generated.css?ver=1534948237' type='text/css' media=all />
+<script>
+/* <![CDATA[ */
+var themify_vars = {"version":"2.1.8","url":"http:\/\/www.961sox.com\/wp-content\/plugins\/themify-builder\/themify","map_key":null,"includesURL":"http:\/\/www.961sox.com\/wp-includes\/","isCached":null,"minify":{"css":{"themify-icons":false,"themify.framework":false,"lightbox":false,"themify-builder-style":false},"js":{"backstretch.themify-version":false,"bigvideo":false,"themify.dropdown":false,"themify.builder.script":false,"themify.scroll-highlight":false,"themify-youtube-bg":false,"themify.parallaxit":false,"themify.ticks":false}}};
+var tbLocalScript = {"isAnimationActive":"1","isParallaxActive":"1","isParallaxScrollActive":"1","animationInviewSelectors":[".module.wow",".module_row.wow",".builder-posts-wrap > .post.wow"],"backgroundSlider":{"autoplay":5000,"speed":2000},"animationOffset":"100","videoPoster":"http:\/\/www.961sox.com\/wp-content\/plugins\/themify-builder\/img\/blank.png","backgroundVideoLoop":"yes","builder_url":"http:\/\/www.961sox.com\/wp-content\/plugins\/themify-builder","framework_url":"http:\/\/www.961sox.com\/wp-content\/plugins\/themify-builder\/themify","version":"2.1.8","fullwidth_support":"","fullwidth_container":"body","loadScrollHighlight":"","addons":[],"breakpoints":{"tablet_landscape":[769,1024],"tablet":[681,768],"mobile":680},"ticks":{"tick":30,"ajaxurl":"http:\/\/www.961sox.com\/wp-admin\/admin-ajax.php","postID":27}};
+var themifyScript = {"lightbox":{"lightboxSelector":".themify_lightbox","lightboxOn":true,"lightboxContentImages":false,"lightboxContentImagesSelector":"","theme":"pp_default","social_tools":false,"allow_resize":true,"show_title":false,"overlay_gallery":false,"screenWidthNoLightbox":600,"deeplinking":false,"contentImagesAreas":"","gallerySelector":".gallery-icon > a","lightboxGalleryOn":true},"lightboxContext":"body"};
+var tbScrollHighlight = {"fixedHeaderSelector":"","speed":"900","navigation":"#main-nav","scrollOffset":"0"};
+/* ]]> */
+</script>
+<script src='http://www.961sox.com/wp-content/plugins/themify-builder/themify/js/main.js?ver=2.1.8'></script>
+<script>
+var mejsL10n = {"language":"en","strings":{"mejs.install-flash":"You are using a browser that does not have Flash player enabled or installed. Please turn on your Flash player plugin or download the latest version from https:\/\/get.adobe.com\/flashplayer\/","mejs.fullscreen-off":"Turn off Fullscreen","mejs.fullscreen-on":"Go Fullscreen","mejs.download-video":"Download Video","mejs.fullscreen":"Fullscreen","mejs.time-jump-forward":["Jump forward 1 second","Jump forward %1 seconds"],"mejs.loop":"Toggle Loop","mejs.play":"Play","mejs.pause":"Pause","mejs.close":"Close","mejs.time-slider":"Time Slider","mejs.time-help-text":"Use Left\/Right Arrow keys to advance one second, Up\/Down arrows to advance ten seconds.","mejs.time-skip-back":["Skip back 1 second","Skip back %1 seconds"],"mejs.captions-subtitles":"Captions\/Subtitles","mejs.captions-chapters":"Chapters","mejs.none":"None","mejs.mute-toggle":"Mute Toggle","mejs.volume-help-text":"Use Up\/Down Arrow keys to increase or decrease volume.","mejs.unmute":"Unmute","mejs.mute":"Mute","mejs.volume-slider":"Volume Slider","mejs.video-player":"Video Player","mejs.audio-player":"Audio Player","mejs.ad-skip":"Skip ad","mejs.ad-skip-info":["Skip in 1 second","Skip in %1 seconds"],"mejs.source-chooser":"Source Chooser","mejs.stop":"Stop","mejs.speed-rate":"Speed Rate","mejs.live-broadcast":"Live Broadcast","mejs.afrikaans":"Afrikaans","mejs.albanian":"Albanian","mejs.arabic":"Arabic","mejs.belarusian":"Belarusian","mejs.bulgarian":"Bulgarian","mejs.catalan":"Catalan","mejs.chinese":"Chinese","mejs.chinese-simplified":"Chinese (Simplified)","mejs.chinese-traditional":"Chinese (Traditional)","mejs.croatian":"Croatian","mejs.czech":"Czech","mejs.danish":"Danish","mejs.dutch":"Dutch","mejs.english":"English","mejs.estonian":"Estonian","mejs.filipino":"Filipino","mejs.finnish":"Finnish","mejs.french":"French","mejs.galician":"Galician","mejs.german":"German","mejs.greek":"Greek","mejs.haitian-creole":"Haitian Creole","mejs.hebrew":"Hebrew","mejs.hindi":"Hindi","mejs.hungarian":"Hungarian","mejs.icelandic":"Icelandic","mejs.indonesian":"Indonesian","mejs.irish":"Irish","mejs.italian":"Italian","mejs.japanese":"Japanese","mejs.korean":"Korean","mejs.latvian":"Latvian","mejs.lithuanian":"Lithuanian","mejs.macedonian":"Macedonian","mejs.malay":"Malay","mejs.maltese":"Maltese","mejs.norwegian":"Norwegian","mejs.persian":"Persian","mejs.polish":"Polish","mejs.portuguese":"Portuguese","mejs.romanian":"Romanian","mejs.russian":"Russian","mejs.serbian":"Serbian","mejs.slovak":"Slovak","mejs.slovenian":"Slovenian","mejs.spanish":"Spanish","mejs.swahili":"Swahili","mejs.swedish":"Swedish","mejs.tagalog":"Tagalog","mejs.thai":"Thai","mejs.turkish":"Turkish","mejs.ukrainian":"Ukrainian","mejs.vietnamese":"Vietnamese","mejs.welsh":"Welsh","mejs.yiddish":"Yiddish"}};
+</script>
+<script src='http://www.961sox.com/wp-includes/js/mediaelement/mediaelement-and-player.js?ver=4.2.6-78496d1'></script>
+<script src='http://www.961sox.com/wp-includes/js/mediaelement/mediaelement-migrate.js?ver=4.9.1'></script>
+<script>
+/* <![CDATA[ */
+var _wpmejsSettings = {"pluginPath":"\/wp-includes\/js\/mediaelement\/","classPrefix":"mejs-","stretching":"responsive"};
+/* ]]> */
+</script>
+<script src='http://www.961sox.com/wp-includes/js/mediaelement/wp-mediaelement.js?ver=4.9.1'></script>
+<script src='http://www.961sox.com/wp-content/plugins/media-library-assistant/includes/../js/jquery.prettyPhoto.js?ver=1.61'></script>
+<script src='http://www.961sox.com/wp-content/plugins/media-library-assistant/includes/../js/widget-front-end.js?ver=1533183780'></script>
+<script src='http://www.961sox.com/wp-content/plugins/amp-polls/js/widget-front-end.js?ver=4.9.1'></script>
+<script>
+window.tgmplibs="cumulus2,_append_www,_triton_see";
+</script>
+<script class=_tgmp_p>
+function onTuneGenieMediaPlayerLoaded() {
+    window.tgmp=new TuneGenieMediaPlayer('playerbar', {
+        brand: "wsox",
+        zindex: 50000,
+        theme: ["#000000"],
+        position: "bottom",
+        debug: true,
+        ios_frame: 3,
+        autostart: false,
+        infoTrayOnLoad: true,
+        useTritonPlayer: true,
+        promptZag: false,
+    });
+    tgmp.go();
+    window.tgmp_rc = new TuneGenieRC(tgmp);
+    tgmp_rc.recentSongWidget(document.getElementById('tgrecent'),{});
+    tgmp_rc.nowPlayingWidget(document.getElementById('tgnowplaying'),{});
+}
+</script>
+<script class=_tgmp_p async src="https://mpl.tunegenie.com/js/loader2.min.js"></script>
+</div>
+<div id=fb-root></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.3";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<script type="text/javascript">
+//<![CDATA[
+(function() {
+var _analytics_scr = document.createElement('script');
+_analytics_scr.type = 'text/javascript'; _analytics_scr.async = true; _analytics_scr.src = '/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=742187748';
+var _analytics_elem = document.getElementsByTagName('script')[0]; _analytics_elem.parentNode.insertBefore(_analytics_scr, _analytics_elem);
+})();
+// ]]>
+</script></body>
+</html>

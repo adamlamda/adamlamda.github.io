@@ -1,0 +1,1080 @@
+<!DOCTYPE HTML><html lang="en-US" xmlns:og="http://ogp.me/ns#" xmlns:fb="http://ogp.me/ns/fb#">
+
+<head>
+<meta charset="UTF-8" />
+<link rel="profile" href="http://gmpg.org/xfn/11" />
+
+<!-- Title -->
+<title>Today&#039;s Hit Music | 92PROFM.COM | WPRO-FM</title><link rel='dns-prefetch' href='//www.92profm.com' />
+<link rel='dns-prefetch' href='//see-p-elb-01.tritondigital.net' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="canonical" href="http://www.92profm.com/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.3\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.3\/svg\/","svgExt":".svg","source":{"wpemoji":"http:\/\/www.92profm.com\/wp-includes\/js\/wp-emoji.js?ver=4.9.1","twemoji":"http:\/\/www.92profm.com\/wp-includes\/js\/twemoji.js?ver=4.9.1"}};
+			( function( window, document, settings ) {
+	var src, ready, ii, tests;
+
+	/*
+	 * Create a canvas element for testing native browser support
+	 * of emoji.
+	 */
+	var canvas = document.createElement( 'canvas' );
+	var context = canvas.getContext && canvas.getContext( '2d' );
+
+	/**
+	 * Check if two sets of Emoji characters render the same.
+	 *
+	 * @param set1 array Set of Emoji characters.
+	 * @param set2 array Set of Emoji characters.
+	 * @returns {boolean} True if the two sets render the same.
+	 */
+	function emojiSetsRenderIdentically( set1, set2 ) {
+		var stringFromCharCode = String.fromCharCode;
+
+		// Cleanup from previous test.
+		context.clearRect( 0, 0, canvas.width, canvas.height );
+		context.fillText( stringFromCharCode.apply( this, set1 ), 0, 0 );
+		var rendered1 = canvas.toDataURL();
+
+		// Cleanup from previous test.
+		context.clearRect( 0, 0, canvas.width, canvas.height );
+		context.fillText( stringFromCharCode.apply( this, set2 ), 0, 0 );
+		var rendered2 = canvas.toDataURL();
+
+		return rendered1 === rendered2;
+	}
+
+	/**
+	 * Detect if the browser supports rendering emoji or flag emoji. Flag emoji are a single glyph
+	 * made of two characters, so some browsers (notably, Firefox OS X) don't support them.
+	 *
+	 * @since 4.2.0
+	 *
+	 * @param type {String} Whether to test for support of "flag" or "emoji".
+	 * @return {Boolean} True if the browser can render emoji, false if it cannot.
+	 */
+	function browserSupportsEmoji( type ) {
+		var isIdentical;
+
+		if ( ! context || ! context.fillText ) {
+			return false;
+		}
+
+		/*
+		 * Chrome on OS X added native emoji rendering in M41. Unfortunately,
+		 * it doesn't work when the font is bolder than 500 weight. So, we
+		 * check for bold rendering support to avoid invisible emoji in Chrome.
+		 */
+		context.textBaseline = 'top';
+		context.font = '600 32px Arial';
+
+		switch ( type ) {
+			case 'flag':
+				/*
+				 * Test for UN flag compatibility. This is the least supported of the letter locale flags,
+				 * so gives us an easy test for full support.
+				 *
+				 * To test for support, we try to render it, and compare the rendering to how it would look if
+				 * the browser doesn't render it correctly ([U] + [N]).
+				 */
+				isIdentical = emojiSetsRenderIdentically(
+					[ 55356, 56826, 55356, 56819 ],
+					[ 55356, 56826, 8203, 55356, 56819 ]
+				);
+
+				if ( isIdentical ) {
+					return false;
+				}
+
+				/*
+				 * Test for English flag compatibility. England is a country in the United Kingdom, it
+				 * does not have a two letter locale code but rather an five letter sub-division code.
+				 *
+				 * To test for support, we try to render it, and compare the rendering to how it would look if
+				 * the browser doesn't render it correctly (black flag emoji + [G] + [B] + [E] + [N] + [G]).
+				 */
+				isIdentical = emojiSetsRenderIdentically(
+					[ 55356, 57332, 56128, 56423, 56128, 56418, 56128, 56421, 56128, 56430, 56128, 56423, 56128, 56447 ],
+					[ 55356, 57332, 8203, 56128, 56423, 8203, 56128, 56418, 8203, 56128, 56421, 8203, 56128, 56430, 8203, 56128, 56423, 8203, 56128, 56447 ]
+				);
+
+				return ! isIdentical;
+			case 'emoji':
+				/*
+				 * Emoji 5 has fairies of all genders.
+				 *
+				 * To test for support, try to render a new emoji (fairy, male), then compares
+				 * it to how it would look if the browser doesn't render it correctly
+				 * (fairy + male sign).
+				 */
+				isIdentical = emojiSetsRenderIdentically(
+					[ 55358, 56794, 8205, 9794, 65039 ],
+					[ 55358, 56794, 8203, 9794, 65039 ]
+				);
+				return ! isIdentical;
+		}
+
+		return false;
+	}
+
+	function addScript( src ) {
+		var script = document.createElement( 'script' );
+
+		script.src = src;
+		script.defer = script.type = 'text/javascript';
+		document.getElementsByTagName( 'head' )[0].appendChild( script );
+	}
+
+	tests = Array( 'flag', 'emoji' );
+
+	settings.supports = {
+		everything: true,
+		everythingExceptFlag: true
+	};
+
+	for( ii = 0; ii < tests.length; ii++ ) {
+		settings.supports[ tests[ ii ] ] = browserSupportsEmoji( tests[ ii ] );
+
+		settings.supports.everything = settings.supports.everything && settings.supports[ tests[ ii ] ];
+
+		if ( 'flag' !== tests[ ii ] ) {
+			settings.supports.everythingExceptFlag = settings.supports.everythingExceptFlag && settings.supports[ tests[ ii ] ];
+		}
+	}
+
+	settings.supports.everythingExceptFlag = settings.supports.everythingExceptFlag && ! settings.supports.flag;
+
+	settings.DOMReady = false;
+	settings.readyCallback = function() {
+		settings.DOMReady = true;
+	};
+
+	if ( ! settings.supports.everything ) {
+		ready = function() {
+			settings.readyCallback();
+		};
+
+		if ( document.addEventListener ) {
+			document.addEventListener( 'DOMContentLoaded', ready, false );
+			window.addEventListener( 'load', ready, false );
+		} else {
+			window.attachEvent( 'onload', ready );
+			document.attachEvent( 'onreadystatechange', function() {
+				if ( 'complete' === document.readyState ) {
+					settings.readyCallback();
+				}
+			} );
+		}
+
+		src = settings.source || {};
+
+		if ( src.concatemoji ) {
+			addScript( src.concatemoji );
+		} else if ( src.wpemoji && src.twemoji ) {
+			addScript( src.twemoji );
+			addScript( src.wpemoji );
+		}
+	}
+
+} )( window, document, window._wpemojiSettings );
+		</script>
+		
+
+<!-- Stylesheets -->
+<link rel='stylesheet' id='headway-google-fonts' href='//fonts.googleapis.com/css?family=Oswald|Quattrocento+Sans' type='text/css' media='all' />
+<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='bxslider-style-css'  href='http://www.92profm.com/wp-content/plugins/shared/js/bxslider/jquery.bxslider.css?ver=4.9.1' type='text/css' media='all' />
+<link rel='stylesheet' id='amp-promo-reel-widget-style-css'  href='http://www.92profm.com/wp-content/plugins/amp-promo-reel/includes/../css/widget.css?ver=4.9.1' type='text/css' media='all' />
+<link rel='stylesheet' id='headway-general-css'  href='http://www.92profm.com/wp-content/uploads/sites/3/headway/cache/general-15e3321.css?ver=4.9.1' type='text/css' media='all' />
+<link rel='stylesheet' id='headway-layout-front_page-css'  href='http://www.92profm.com/wp-content/uploads/sites/3/headway/cache/layout-front_page-43af8c1.css?ver=4.9.1' type='text/css' media='all' />
+<link rel='stylesheet' id='headway-responsive-grid-css'  href='http://www.92profm.com/wp-content/uploads/sites/3/headway/cache/responsive-grid-d2119e4.css?ver=4.9.1' type='text/css' media='all' />
+<meta name="builder-styles-css" content="" id="builder-styles-css">
+<link rel='stylesheet' id='amp-breaking-news-css'  href='http://www.92profm.com/wp-content/plugins/amp-breaking-news/public/css/public.css?ver=0.2.3' type='text/css' media='all' />
+<link rel='stylesheet' id='animate-style-css'  href='http://www.92profm.com/wp-content/plugins/shared/css/animate.css?ver=0.2.3' type='text/css' media='all' />
+<link rel='stylesheet' id='amp-styles-plugin-styles-css'  href='http://www.92profm.com/wp-content/plugins/amp-styles/css/public.css?ver=1.4.1' type='text/css' media='all' />
+<link rel='stylesheet' id='amp-events-calendar-styles-css'  href='http://www.92profm.com/wp-content/plugins/amp-events/css/calendar.css?ver=1.1.4' type='text/css' media='all' />
+<link rel='stylesheet' id='amp-events-export-styles-css'  href='http://www.92profm.com/wp-content/plugins/amp-events/css/public.css?ver=1.1.4' type='text/css' media='all' />
+<link rel='stylesheet' id='amp_feed-plugin-styles-css'  href='http://www.92profm.com/wp-content/plugins/amp-feeds/css/public.css?ver=0.4.0' type='text/css' media='all' />
+<link rel='stylesheet' id='amp-image-rotator-plugin-styles-css'  href='http://www.92profm.com/wp-content/plugins/amp-image-rotator/public/assets/css/public.css?ver=1.0.0' type='text/css' media='all' />
+<link rel='stylesheet' id='amp-listen-live-plugin-styles-css'  href='http://www.92profm.com/wp-content/plugins/amp-listen-live/public/assets/css/public.css?ver=1.4.4' type='text/css' media='all' />
+<link rel='stylesheet' id='amp-onair-plugin-styles-css'  href='http://www.92profm.com/wp-content/plugins/amp-onair/public/assets/css/public.css?ver=1.7.1' type='text/css' media='all' />
+<link rel='stylesheet' id='AMPPromoReel-plugin-styles-css'  href='http://www.92profm.com/wp-content/plugins/amp-promo-reel/css/public.css?ver=1.4.0' type='text/css' media='all' />
+<link rel='stylesheet' id='mediaelement-css'  href='http://www.92profm.com/wp-includes/js/mediaelement/mediaelementplayer-legacy.min.css?ver=4.2.6-78496d1' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-mediaelement-css'  href='http://www.92profm.com/wp-includes/js/mediaelement/wp-mediaelement.css?ver=4.9.1' type='text/css' media='all' />
+<link rel='stylesheet' id='amp-tabs-plugin-styles-css'  href='http://www.92profm.com/wp-content/plugins/amp-tabs/public/assets/css/public.css?ver=1.0.0' type='text/css' media='all' />
+<link rel='stylesheet' id='amp-header-rotator-css'  href='http://www.92profm.com/wp-content/themes/Headway-AMP_CMS/css/amp-header-rotator.css?ver=1.1.5' type='text/css' media='all' />
+<link rel="stylesheet" type="text/css" media="all" href="http://www.92profm.com/wp-content/themes/Headway-AMP_CMS/style.css" />
+
+<!-- Scripts -->
+<script type='text/javascript' src='http://www.92profm.com/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='http://www.92profm.com/wp-includes/js/jquery/jquery-migrate.js?ver=1.4.1'></script>
+<script type='text/javascript' src='http://www.92profm.com/wp-content/themes/headway/library/blocks/navigation/js/selectnav.js?ver=1533183780'></script>
+<script type='text/javascript' src='http://www.92profm.com/wp-content/themes/headway/library/media/js/jquery.hoverintent.js?ver=4.9.1'></script>
+<script type='text/javascript' src='http://www.92profm.com/wp-content/themes/headway/library/blocks/navigation/js/jquery.superfish.js?ver=4.9.1'></script>
+<script type='text/javascript' src='http://www.92profm.com/wp-content/uploads/sites/3/headway/cache/block-dynamic-js-layout-front_page-769a883.js?ver=4.9.1'></script>
+<script type='text/javascript' src='http://www.92profm.com/wp-content/plugins/shared/js/bxslider/jquery.bxslider.min.js?ver=4.9.1'></script>
+<script type='text/javascript' src='http://www.92profm.com/wp-content/plugins/amp-promo-reel/includes/../js/widget.js?ver=1.4.0'></script>
+<script type='text/javascript' src='http://www.92profm.com/wp-content/themes/headway/library/media/js/jquery.fitvids.js?ver=4.9.1'></script>
+<script type='text/javascript' src='http://www.92profm.com/wp-content/uploads/sites/3/headway/cache/responsive-grid-js-e6e6939.js?ver=4.9.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var _ampconfig = {"site_url":"http:\/\/www.92profm.com","site_id":"3","tz":"America\/New_York","tz_offset":"-4","ts":"1533183780","blog_name":"WPRO-FM","client_name":"cumuluspro","user_ID":"","ts_offset":"1535351100","version":"2.47.0.3","env":"prod","settings":{"tenant_id":"see_10214","vidible_company_key":"06125e55709b3c4ffdfe3c3f8a9ed8bd","client_name":false,"nielsen_provider":"cumulus","promoreel_priority":true}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.92profm.com/wp-content/plugins/shared/js/amp-common.js?ver=1533183780'></script>
+<script type='text/javascript' src='http://www.92profm.com/wp-content/plugins/amp-breaking-news/public/js/public.js?ver=0.2.3'></script>
+<script type='text/javascript' src='http://www.92profm.com/wp-content/plugins/amp-styles/js/public.js?ver=1.4.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var dates = {"start_of_week":"1","moment_date_format":"MMMM D, YYYY","moment_time_format":"h:mm a","calendar_date_format":"MMMM d, yyyy","calendar_time_format":"h:mm tt","date_format":"MM d, yy","time_format":"h:mm tt"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.92profm.com/wp-content/plugins/amp-events/js/calendar.js?ver=1.1.4'></script>
+<script type='text/javascript' src='http://www.92profm.com/wp-content/plugins/amp-events/js/public.js?ver=1.1.4'></script>
+<script type='text/javascript' src='http://www.92profm.com/wp-content/plugins/amp-feeds/js/jquery.totemticker.min.js?ver=0.4.0'></script>
+<script type='text/javascript' src='http://www.92profm.com/wp-includes/js/jquery/ui/core.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://www.92profm.com/wp-includes/js/jquery/ui/widget.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://www.92profm.com/wp-includes/js/jquery/ui/tabs.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://www.92profm.com/wp-content/plugins/amp-feeds/js/amp-feed.js?ver=0.4.0'></script>
+<script type='text/javascript' src='http://www.92profm.com/wp-content/plugins/amp-feeds/js/public.js?ver=0.4.0'></script>
+<script type='text/javascript' src='http://www.92profm.com/wp-content/plugins/amp-feeds/js/date.js?ver=0.4.0'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var _amplistenlive = {"blog_id":"3","callsign":"","mount_name":"WPROFM","provider":"stream_the_world","gmt_offset":"-14400"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.92profm.com/wp-content/plugins/amp-listen-live/public/assets/js/public.js?ver=1.4.4'></script>
+<script type='text/javascript' src='http://www.92profm.com/wp-content/plugins/amp-onair/public/assets/js/public.js?ver=1.7.1'></script>
+<script type='text/javascript' src='//see-p-elb-01.tritondigital.net/widget/see_10214/see.js?ver=1.3.0'></script>
+<script type='text/javascript' src='http://www.92profm.com/wp-content/themes/Headway-AMP_CMS/js/amp-theme.js?ver=1.1.5'></script>
+
+<!--[if lt IE 9]>
+<script src="http://www.92profm.com/wp-content/themes/headway/library/media/js/html5shiv.js"></script>
+<![endif]-->
+
+<!--[if lt IE 8]>
+<script src="http://www.92profm.com/wp-content/themes/headway/library/media/js/ie8.js"></script>
+<![endif]-->
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','corpDataLayer','GTM-5HJ3T3');</script>
+<!-- End Google Tag Manager -->
+
+<script type='text/javascript'>
+var googletag = googletag || {};
+googletag.cmd = googletag.cmd || [];
+(function() {
+var gads = document.createElement('script');
+gads.async = true;
+gads.type = 'text/javascript';
+var useSSL = 'https:' == document.location.protocol;
+gads.src = (useSSL ? 'https:' : 'http:') + 
+'//www.googletagservices.com/tag/js/gpt.js';
+var node = document.getElementsByTagName('script')[0];
+node.parentNode.insertBefore(gads, node);
+})();
+</script>
+<script type='text/javascript'>
+googletag.cmd.push(function() {
+
+var leaderboardSizeMap = googletag.sizeMapping()
+ .addSize([970, 0], [[728, 90], [970, 90]])
+ .addSize([750,0], [728,90])
+ .addSize([0, 0], [[320, 50], [320, 53]])
+ .build();
+
+googletag.defineSlot('/6717/cd.WPRO.FM', [[300, 250], [300, 600]], 'div-gpt-ad-1418849849333-0').addService(googletag.pubads())
+.setCollapseEmptyDiv(true).setTargeting("pos","mid");
+googletag.defineSlot('/6717/cd.WPRO.FM', [[728, 90], [970, 90]], 'div-gpt-ad-1418849849333-1').addService(googletag.pubads())
+.defineSizeMapping(leaderboardSizeMap).setCollapseEmptyDiv(true).setTargeting("pos","top");
+googletag.defineSlot('/6717/cd.WPRO.FM', [[728, 90], [970, 90]], 'div-gpt-ad-1418849849333-2').addService(googletag.pubads())
+.defineSizeMapping(leaderboardSizeMap).setCollapseEmptyDiv(true).setTargeting("pos","bot");
+googletag.defineSlot('/6717/cd.WPRO.FM', [[300, 250], [300, 600]], 'div-gpt-ad-1418849849333-3').addService(googletag.pubads())
+.setCollapseEmptyDiv(true).setTargeting("pos","mid2");
+googletag.defineSlot('/6717/cd.WPRO.FM', [[160, 600]], 'div-gpt-ad-1418849849333-4').addService(googletag.pubads())
+.setCollapseEmptyDiv(true).setTargeting("pos","left");
+googletag.defineSlot('/6717/cd.WPRO.FM', [[160, 600]], 'div-gpt-ad-1418849849333-5').addService(googletag.pubads())
+.setCollapseEmptyDiv(true).setTargeting("pos","right");
+googletag.defineSlot('/6717/cd.WPRO.FM', [[654, 70]], 'div-gpt-ad-1418849849333-6').addService(googletag.pubads())
+.setCollapseEmptyDiv(true).setTargeting("pos","rdioplayer");
+googletag.defineSlot('/6717/cd.WPRO.FM', [[300, 100]], 'div-gpt-ad-1418849849333-7').addService(googletag.pubads())
+.setCollapseEmptyDiv(true).setTargeting("pos","contest1");
+googletag.defineSlot('/6717/cd.WPRO.FM', [[300, 100]], 'div-gpt-ad-1418849849333-8').addService(googletag.pubads())
+.setCollapseEmptyDiv(true).setTargeting("pos","contest2");
+googletag.defineSlot('/6717/cd.WPRO.FM', [[300, 100]], 'div-gpt-ad-1418849849333-9').addService(googletag.pubads())
+.setCollapseEmptyDiv(true).setTargeting("pos","contest3");
+googletag.defineSlot('/6717/cd.WPRO.FM', [[100, 51]], 'div-gpt-ad-1418849849333-10').addService(googletag.pubads())
+.setCollapseEmptyDiv(true).setTargeting("pos","rdiobutton");
+googletag.defineSlot('/6717/cd.WPRO.FM', [[113, 23]], 'div-gpt-ad-1418849849333-11').addService(googletag.pubads())
+.setCollapseEmptyDiv(true).setTargeting("pos","feedsponsor1");
+googletag.defineSlot('/6717/cd.WPRO.FM', [[113, 23]], 'div-gpt-ad-1418849849333-12').addService(googletag.pubads())
+.setCollapseEmptyDiv(true).setTargeting("pos","feedsponsor2");
+googletag.defineSlot('/6717/cd.WPRO.FM', [[113, 23]], 'div-gpt-ad-1418849849333-13').addService(googletag.pubads())
+.setCollapseEmptyDiv(true).setTargeting("pos","feedsponsor3");
+googletag.defineSlot('/6717/cd.WPRO.FM', [[113, 23]], 'div-gpt-ad-1418849849333-14').addService(googletag.pubads())
+.setCollapseEmptyDiv(true).setTargeting("pos","feedsponsor4");
+googletag.defineSlot('/6717/cd.WPRO.FM', [[1, 1]],'div-gpt-ad-1418849849333-16').addService(googletag.pubads())
+.setTargeting("pos","wallpaper-ad");
+googletag.pubads().enableSingleRequest();
+googletag.enableServices();
+googletag.defineSlot('/6717/cd.WPRO.fm', [[300, 250], [300, 600]], 'div-gpt-ad-1418849849333-18').setCollapseEmptyDiv(true).addService(googletag.pubads())
+.setTargeting("pos","midresponsive");
+
+});
+</script>
+
+<!--ONESTAT SCRIPTCODE START Embed Player-->
+  <script type="text/javascript">
+  <!--
+  jQuery(document).ready(function(){
+    var d=document;
+    var sid="wpro-fm.cumulus";
+    var CONTENTSECTION="";
+    var osp_URL=d.URL;
+    var osp_Title=d.title;
+    var t=new Date();
+    var p="http"+(d.URL.indexOf('https:')==0?'s':'')+"://stat.onestat.com/stat.aspx?tagver=2&sid="+sid;
+    p+="&url="+escape(osp_URL);
+    p+="&ti="+escape(osp_Title);
+    p+="&section="+escape(CONTENTSECTION);
+    p+="&rf="+escape(parent==self?document.referrer:top.document.referrer);
+    p+="&tz="+escape(t.getTimezoneOffset());
+    p+="&ch="+escape(t.getHours());
+    p+="&js=1";
+    p+="&ul="+escape(navigator.appName=="Netscape"?navigator.language:navigator.userLanguage);
+    if(osp_URL!=d.URL) p+="&ol="+escape(d.URL);
+    if(typeof(screen)=="object"){
+       p+="&sr="+screen.width+"x"+screen.height;p+="&cd="+screen.colorDepth;
+       p+="&jo="+(navigator.javaEnabled()?"Yes":"No");
+    }
+
+    var imgTag = '<img border="0" height="0" width="0" id="ONESTAT_TAG" src="' + p + '">'
+    jQuery('body').append(imgTag);
+
+  })
+  //-->
+  </script> 
+<!--ONESTAT SCRIPTCODE END-->
+
+<!-- START GOOGLE ANALYTICS -->
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-41709712-3']);
+  _gaq.push(['_setDomainName', '.92profm.com']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+<!-- END GOOGLE ANALYTICS -->
+
+
+<!-- Begin comScore Tag --><script>
+  var _comscore = _comscore || [];
+  _comscore.push({ c1: "2", c2: "16059128" });
+  (function() {
+    var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+    s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+    el.parentNode.insertBefore(s, el);
+  })();
+</script><noscript>
+  <img src="http://b.scorecardresearch.com/p?c1=2&c2=16059128&cv=2.0&cj=1" />
+</noscript><!-- End comScore Tag -->
+
+
+<!--Pinterest Analytics-->
+<meta name="p:domain_verify" content="c8ede67482a2d542c423bbc715c1d7f0"/>
+<!-- End Pinterest Analytics-->
+
+<!-- BEGIN INFINITE FACEBOOK PIXEL -->
+<script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '181461212508101');
+  fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=181461212508101&ev=PageView&noscript=1"
+/></noscript>
+<!-- END INFINITE FACEBOOK PIXEL -->
+<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
+<link rel="alternate" type="application/rss+xml" title="WPRO-FM &raquo; Feed" href="http://www.92profm.com/feed/" />
+
+
+<!-- Favicon -->
+<link rel="shortcut icon" type="image/ico" href="http://cumulus.pro.poolb.tritondigitalcms.com/wpro-fm/wp-content/uploads/sites/3/2014/06/favicon.png" />
+
+
+<link rel='shortlink' href='http://www.92profm.com/' />
+			<script type="text/javascript">
+				var _gaq = _gaq || [];
+
+				
+									_gaq.push(['b._setAccount', 'UA-70359759-1']);
+					_gaq.push(['b._trackPageview']);
+				
+				(function() {
+				var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                				    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                				var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+				})();
+			</script>
+
+        <script type="text/javascript">var ajaxurl = "http://www.92profm.com/wp-admin/admin-ajax.php"</script><script type="text/javascript">var ajaxurl = "http://www.92profm.com/wp-admin/admin-ajax.php"</script>
+<!-- AMP CMS DFP custom tags -->
+<script type='text/javascript'>
+  googletag.cmd.push(function() {
+      googletag.pubads().setTargeting('cms-sname', 'WPROFM');
+      googletag.pubads().setTargeting('cms-sgroup', ['All Sites', 'Market  Providence RI', 'Format  CHR', 'Temporary Live Sites']);
+      googletag.pubads().setTargeting('cms-ptitle', 'Home');
+  });
+</script>
+
+<!-- START - Facebook Open Graph, Google+ and Twitter Card Tags 2.0.4 -->
+ <!-- Facebook Open Graph -->
+  <meta property="og:locale" content="en_US"/>
+  <meta property="og:site_name" content="WPRO-FM"/>
+  <meta property="og:title" content="WPRO-FM"/>
+  <meta property="og:url" content="http://www.92profm.com"/>
+  <meta property="og:type" content="website"/>
+  <meta property="og:description" content="Today&#039;s Hit Music | 92PROFM.COM"/>
+ <!-- Google+ / Schema.org -->
+  <meta itemprop="name" content="WPRO-FM"/>
+  <meta itemprop="description" content="Today&#039;s Hit Music | 92PROFM.COM"/>
+ <!-- Twitter Cards -->
+  <meta name="twitter:title" content="WPRO-FM"/>
+  <meta name="twitter:url" content="http://www.92profm.com"/>
+  <meta name="twitter:description" content="Today&#039;s Hit Music | 92PROFM.COM"/>
+  <meta name="twitter:card" content="summary_large_image"/>
+ <!-- SEO -->
+ <!-- Misc. tags -->
+<!-- END - Facebook Open Graph, Google+ and Twitter Card Tags 2.0.4 -->
+
+
+</head><!-- End <head> -->
+
+<body class="home page-template-default page page-id-9 custom responsive-grid-enabled responsive-grid-active pageid-9 page-slug-home-page layout-front_page layout-using-front_page builder-parallax-scrolling-active" itemscope itemtype="http://schema.org/WebPage">
+
+
+<div id="whitewrap">
+
+
+<div id="wrapper-8" class="wrapper wrapper-fluid wrapper-fixed-grid grid-fluid-24-32-10 responsive-grid wrapper-first wrapper-header" data-alias="Wrapper Header">
+
+<div class="grid-container clearfix">
+
+<section class="row row-1">
+
+<section class="column column-1 grid-left-0 grid-width-24">
+<div id="block-27" class="block block-type-custom-code block-fluid-height" data-alias="728x90 Leaderboard Ad">
+<div class="block-content">
+<div align="center"><div id='div-gpt-ad-1418849849333-1'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1418849849333-1'); });
+</script>
+</div></div>
+</div><!-- .block-content -->
+
+</div><!-- #block-27 -->
+
+</section><!-- .column -->
+
+</section><!-- .row -->
+
+
+<section class="row row-2">
+
+<section class="column column-1 grid-left-0 grid-width-5">
+<figure id="block-31" class="logo block block-type-image block-fixed-height" data-alias="Logo" itemscope="" itemtype="http://schema.org/ImageObject">
+<div class="block-content">
+<a href="/" class="image" ><img src="http://www.92profm.com/wp-content/uploads/sites/3/2015/01/headway-imported-image19.png" alt="" title="" itemprop="contentURL"/></a>
+</div><!-- .block-content -->
+
+</figure><!-- #block-31 -->
+<div id="block-b8z54a44441b0250" class="takeover-left block block-type-custom-code block-fluid-height" data-alias="Skyscraper - Left">
+<div class="block-content">
+<div id='div-gpt-ad-1418849849333-4'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1418849849333-4'); });
+</script>
+</div>
+</div><!-- .block-content -->
+
+</div><!-- #block-b8z54a44441b0250 -->
+
+</section><!-- .column -->
+
+<section class="column column-2 grid-left-0 grid-width-19">
+<div id="block-bxf5a9063a4086ed" class="block block-type-custom-code block-fluid-height" data-alias="Empty Spacer">
+<div class="block-content">
+&nbsp;
+</div><!-- .block-content -->
+
+</div><!-- #block-bxf5a9063a4086ed -->
+
+<section class="sub-column sub-column-1 column column-1 grid-width-7 grid-left-0">
+<aside id="block-29" class="on-air block block-type-widget-area block-fluid-height" data-alias="Home - On Air Now" itemscope="" itemtype="http://schema.org/WPSideBar">
+<div class="block-content">
+<ul class="widget-area"><div class="amp-onair-widget" id="amp_onair_widget-3"
+	data-title-now=""
+	data-title-upcoming=""
+	data-title=""
+	data-type="nowplaying"
+	data-change-minutes="5"
+	data-change="0"
+	data-toggle-time="10"
+	data-fields="image,timeslot"
+	data-ajaxurl="http://www.92profm.com/wp-admin/admin-ajax.php"
+	data-updateurl="http://www.92profm.com/shows/feed/?type=json"
+	data-memcached="1"
+	data-expiration="1535364000">
+	
+<div class="amp-onair-show nowplaying" >
+
+    <div class="amp-onair-widget-title js-widget-title"></div>
+
+        <div class="amp-onair-show-image">
+                    <img class="js-image amp-onair-show-image-img" src="http://www.92profm.com/wp-content/uploads/sites/3/2014/07/GioKim1.jpg"  />
+            </div>
+        
+    <div class="amp-onair-show-title">
+            <span class="js-title">Giovanni &amp; Kim in the Morning</span>
+        </div>
+    
+        <div class="amp-onair-show-timeslot js-timeslot" >6:00 a.m. - 10:00 a.m.</div>
+        
+        
+    
+</div>
+</div></ul>
+</div><!-- .block-content -->
+
+</aside><!-- #block-29 -->
+
+</section><!-- .sub-column -->
+
+<section class="sub-column sub-column-2 column column-2 grid-width-9 grid-left-0">
+<section id="block-30" class="social-nav block block-type-social block-fixed-height" data-alias="Social Navigation">
+<div class="block-content">
+<div class="social-icons-container"><ul class="social-icons"><li><a href="#"><img src="http://www.92profm.com/wp-content/uploads/sites/3/2016/04/listen-live-purple-2.png" title="Listen Live!!" class="img-1"  /></a></li><li><a href="/listen-live-with-alexa"><img src="http://images.tritondigitalcms.com/6616/sites/3/2018/01/02131433/Alexa-Social-Logo-MUSIC.png" alt="Alexa" class="img-2"  /></a></li><li><a href="https://www.facebook.com/92PROFM/" target="_blank"><img src="http://www.92profm.com/wp-content/uploads/sites/3/2015/01/headway-imported-image14.png" title="Like us on Facebook!" class="img-3"  /></a></li><li><a href="https://twitter.com/92profm" target="_blank"><img src="http://www.92profm.com/wp-content/uploads/sites/3/2015/01/headway-imported-image15.png" title="Follow us on Twitter!" class="img-4"  /></a></li><li><a href="http://92profm.listenernetwork.com/" target="_blank"><img src="http://www.92profm.com/wp-content/uploads/sites/3/2015/01/headway-imported-image16.png" title="VIP" class="img-5"  /></a></li></ul></div><!-- .social-icons-container -->
+</div><!-- .block-content -->
+
+</section><!-- #block-30 -->
+
+</section><!-- .sub-column -->
+
+<section class="sub-column sub-column-3 column column-3 grid-width-3 grid-left-0">
+<div id="block-b2g5a9063a40e502" class="gigya-actions block block-type-custom-code block-fluid-height" data-alias="Gigya Profile Actions">
+<div class="block-content">
+<div class="see-widget" data-see-type="regUi" data-see-loginbonus="false"></div>
+</div><!-- .block-content -->
+
+</div><!-- #block-b2g5a9063a40e502 -->
+
+</section><!-- .sub-column -->
+<div id="block-bxf5a9063a4086ed" class="block block-type-custom-code block-fluid-height block-mirrored block-mirroring-bxf5a9063a4086ed block-original-bi35a9063af8b5e2" data-alias="Empty Spacer">
+<div class="block-content">
+&nbsp;
+</div><!-- .block-content -->
+
+</div><!-- #block-bxf5a9063a4086ed -->
+
+<section class="sub-column sub-column-1 column column-1 grid-width-16 grid-left-0">
+<nav id="block-32" class="main-nav block block-type-navigation block-fluid-height" data-alias="Main Navigation" itemscope="" itemtype="http://schema.org/SiteNavigationElement">
+<div class="block-content">
+<div class="nav-horizontal nav-align-left"><ul id="menu-header-navigation" class="menu"><li id="menu-item-6331" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-6331"><a href="/92-pro-fm-full-show-lineup/">Shows</a>
+<ul class="sub-menu">
+	<li id="menu-item-10173" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-10173"><a href="/92-pro-fm-full-show-lineup/">Full Show Lineup</a></li>
+	<li id="menu-item-10175" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-10175"><a href="/?p=10177">Giovanni &amp; Kim in the Morning</a></li>
+	<li id="menu-item-22463" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-22463"><a href="http://www.92profm.com/shows-jessica/">Jessica</a></li>
+	<li id="menu-item-22037" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-22037"><a href="http://www.92profm.com/22007-2/">Davey Morris</a></li>
+	<li id="menu-item-22241" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-22241"><a href="http://www.92profm.com/ralphie/">Ralphie Tonight</a></li>
+	<li id="menu-item-22273" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-22273"><a href="http://www.92profm.com/countdown-nation-the-top-20-songs-in-the-country/">Countdown Nation</a></li>
+	<li id="menu-item-22411" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-22411"><a href="http://www.92profm.com/92-pro-fm-social-media-2/">Connect on Social Media</a></li>
+</ul>
+</li>
+<li id="menu-item-12115" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-12115"><a href="/prizes">Prizes</a>
+<ul class="sub-menu">
+	<li id="menu-item-22293" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-22293"><a href="http://www.92profm.com/prizes/">Current Contests</a></li>
+	<li id="menu-item-34657" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-34657"><a target="_blank" href="http://92profm.listenernetwork.com/">PRO-FM VIP Club</a></li>
+	<li id="menu-item-34651" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-34651"><a target="_blank" href="http://92profm.listenernetwork.com/asp2/trivias.aspx">Trivia</a></li>
+	<li id="menu-item-34655" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-34655"><a target="_blank" href="http://92profm.listenernetwork.com/asp2/games2.aspx">Games</a></li>
+	<li id="menu-item-34653" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-34653"><a target="_blank" href="http://92profm.listenernetwork.com/asp2/Surveys.aspx">Surveys</a></li>
+	<li id="menu-item-12131" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-12131"><a target="_blank" href="/1111/11/11/contest-rules">Contest Rules</a></li>
+</ul>
+</li>
+<li id="menu-item-377500" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-377500"><a href="http://www.92profm.com/category/all/">BLOG</a></li>
+<li id="menu-item-12109" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-12109"><a>Music &amp; Lifestyle</a>
+<ul class="sub-menu">
+	<li id="menu-item-22003" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-22003"><a href="http://www.92profm.com/online-radio-listen-live-to-92-pro-fm/">Listen Live</a></li>
+	<li id="menu-item-12137" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-12137"><a target="_blank" href="http://wpro.tunegenie.com/onair/">On-Air Song List</a></li>
+	<li id="menu-item-768575" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-768575"><a href="http://www.92profm.com/category/music/">Photos</a></li>
+	<li id="menu-item-12119" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-12119"><a href="http://www.92profm.com/category/playlists/">Playlists</a></li>
+	<li id="menu-item-43" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-43"><a target="_blank" href="http://92profm.eviesays.com/">Community Calendar</a></li>
+	<li id="menu-item-75722" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-75722"><a href="http://www.92profm.com/2015/04/02/celebrity-sleaze-afternoon-update/">Celebrity Sleaze &amp; Afternoon Update</a></li>
+	<li id="menu-item-22373" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-22373"><a href="http://www.92profm.com/category/lists/">Lists</a></li>
+	<li id="menu-item-12129" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-12129"><a href="http://www.92profm.com/category/music/">Interviews</a></li>
+	<li id="menu-item-212661" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-212661"><a href="http://www.92profm.com/2015/09/18/showcase-team-of-the-week/">Showcase High School Team of the Week</a></li>
+	<li id="menu-item-42729" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-42729"><a href="http://www.92profm.com/traffic/">Traffic</a></li>
+</ul>
+</li>
+<li id="menu-item-12117" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-12117"><a>Connect</a>
+<ul class="sub-menu">
+	<li id="menu-item-23525" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-23525"><a href="http://www.92profm.com/23517-2/">Contact</a></li>
+	<li id="menu-item-22401" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-22401"><a href="http://www.92profm.com/92-pro-fm-mobile-email-club/">Sign Up For Our Newsletter</a></li>
+	<li id="menu-item-22375" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-22375"><a href="http://www.92profm.com/92-pro-fm-mobile-apps/">Mobile Apps</a></li>
+	<li id="menu-item-22409" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-22409"><a href="http://www.92profm.com/92-pro-fm-social-media-2/">Social Media</a></li>
+	<li id="menu-item-23543" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-23543"><a href="http://www.92profm.com/advertise-with-us/">Advertise With Us</a></li>
+</ul>
+</li>
+<li id="menu-item-1194291" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1194291"><a href="http://wpro-fm.mygameroom.com">Games</a></li>
+<li id="menu-item-10761" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-10761"><a target="_blank" href="http://providence.sweetdealscumulus.com/">Sweet Deals</a></li>
+</ul></div><!-- .nav-horizontal nav-align-left -->
+</div><!-- .block-content -->
+
+</nav><!-- #block-32 -->
+
+</section><!-- .sub-column -->
+
+<section class="sub-column sub-column-2 column column-2 grid-width-3 grid-left-0">
+<nav id="block-33" class="nav-search block block-type-navigation block-fluid-height" data-alias="Navigation Search" itemscope="" itemtype="http://schema.org/SiteNavigationElement">
+<div class="block-content">
+<div class="nav-horizontal nav-align-left nav-search-active nav-search-position-left"><div class="nav-search">
+		<form method="get" id="searchform" action="http://www.92profm.com/">
+			<label for="s" class="assistive-text">Search</label>
+			<input type="text" class="field" name="s" id="s" value="Search" onclick="if(this.value=='Search')this.value='';" onblur="if(this.value=='')this.value='Search';" />
+			<input type="submit" class="submit" name="searchsubmit" id="searchsubmit" value="Search" />
+		</form>
+	</div></div><!-- .nav-horizontal nav-align-left nav-search-active nav-search-position-left -->
+</div><!-- .block-content -->
+
+</nav><!-- #block-33 -->
+
+</section><!-- .sub-column -->
+
+<section class="sub-column sub-column-1 column column-1 grid-width-5 grid-left-0">
+<div id="block-b0b54a44441b2caa" class="takeover-right block block-type-custom-code block-fluid-height" data-alias="Skyscraper - Right">
+<div class="block-content">
+<div id='div-gpt-ad-1418849849333-5'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1418849849333-5'); });
+</script>
+</div>
+</div><!-- .block-content -->
+
+</div><!-- #block-b0b54a44441b2caa -->
+
+</section><!-- .sub-column -->
+
+</section><!-- .column -->
+
+</section><!-- .row -->
+
+
+</div><!-- .grid-container -->
+
+</div><!-- .wrapper -->
+
+<div id="wrapper-9" class="wrapper wrapper-fixed wrapper-fixed-grid grid-fluid-24-32-10 responsive-grid wrapper-content" data-alias="Wrapper Content">
+
+<div class="grid-container clearfix">
+
+<section class="row row-1">
+
+<section class="column column-1 grid-left-0 grid-width-16">
+<aside id="block-35" class="promo-reel block block-type-widget-area block-fluid-height" data-alias="Home - Promo Reel" itemscope="" itemtype="http://schema.org/WPSideBar">
+<div class="block-content">
+<ul class="widget-area"><li id="amp_promo_reel-4" class="widget widget_amp_promo_reel sidebar_promo">
+<div class="sliderWrapper"><div class="sliderBody" style=""><div class="bxslider" data-navigation-arrows='1' data-rotation-time='5000' data-pager-type='none'><div class="sliderItem" style="background-image: url(http://images.tritondigitalcms.com/6616/sites/3/2018/08/24083050/FallOutBoyWeb.png);background-color: #000;background-repeat: no-repeat;background-size: contain;background-position: 50% 50%;position: relative;height: 300px;cursor: pointer;" onclick="window.location='http://www.92profm.com/2018/08/24/giovanni-kims-weekly-game-win-fall-out-boy-tickets/'"></div><div class="sliderItem" style="background-image: url(http://images.tritondigitalcms.com/6616/sites/3/2018/08/24091213/5SOSSoundCheckHomePage.png);background-color: #000;background-repeat: no-repeat;background-size: contain;background-position: 50% 50%;position: relative;height: 300px;cursor: pointer;" onclick="window.open('http://92profm.listenernetwork.com/Contest/7TOLFN', '_blank')"></div><div class="sliderItem" style="background-image: url(http://images.tritondigitalcms.com/6616/sites/3/2018/07/03101306/BeachReports.jpg);background-color: #000;background-repeat: no-repeat;background-size: contain;background-position: 50% 50%;position: relative;height: 300px;cursor: pointer;" onclick="window.location='http://www.92profm.com/2017/06/09/summer-beach-reports/'"></div><div class="sliderItem" style="background-image: url(http://images.tritondigitalcms.com/6616/sites/3/2018/05/25120640/KEEL2.jpg);background-color: #000;background-repeat: no-repeat;background-size: contain;background-position: 50% 50%;position: relative;height: 300px;cursor: pointer;" onclick="window.location='http://www.92profm.com/2018/05/25/1903367/'"></div><div class="sliderItem" style="background-image: url(http://images.tritondigitalcms.com/6616/sites/3/2017/01/20103606/promoreel_prizes-1.jpg);background-color: #000;background-repeat: no-repeat;background-size: cover;background-position: 50% 50%;position: relative;height: 300px;cursor: pointer;" onclick="window.location='http://www.92profm.com/prizes'"></div><div class="sliderItem" style="background-image: url(http://images.tritondigitalcms.com/6616/2018/07/18225456/Thousand-Dollar-Payoff-Live-PromoReel.jpg);background-color: #000;background-repeat: no-repeat;background-size: cover;background-position: 50% 50%;position: relative;height: 300px;cursor: pointer;" onclick="window.location='http://www.92profm.com/2018/07/13/4k-summer-thousand-dollar-payoff'"></div><div class="sliderItem" style="background-image: url(http://images.tritondigitalcms.com/6616/2018/08/17193903/LaborDay-PromoReel.jpg);background-color: #000;background-repeat: no-repeat;background-size: cover;background-position: 50% 50%;position: relative;height: 300px;cursor: pointer;" onclick="window.location='http://www.92profm.com/2018/08/20/ultimate-labor-day/'"></div></div></div></div></li><!-- .widget -->
+</ul>
+</div><!-- .block-content -->
+
+</aside><!-- #block-35 -->
+<div id="block-b2o582e057e542a3" class="block block-type-content block-fluid-height" data-alias="">
+<div class="block-content">
+<h1 class="block-title"><span>92 PRO-FM Multimedia</span></h1><div class="loop">
+
+<div class="entry-row">
+
+<article id="post-1889092" class="post-1889092 post type-post status-publish format-standard has-post-thumbnail hentry category-all category-music author-rwelch custom-query" itemscope itemtype="http://schema.org/BlogPosting">
+			<a href="http://www.92profm.com/2018/04/10/10-questions-with-marshmello/" class="post-thumbnail post-thumbnail-left">
+				<img src="http://images.tritondigitalcms.com/6616/sites/3/2018/04/10183016/sq-150x150.jpg" alt="10 Questions with Marshmello" width="auto" height="auto" itemprop="image" />
+			</a>
+		<header><h2 class="entry-title" itemprop="headline"><a href="http://www.92profm.com/2018/04/10/10-questions-with-marshmello/" title="10 Questions with Marshmello" rel="bookmark">10 Questions with Marshmello</a></h2></header><div class="entry-summary entry-content" itemprop="text"><p>Jay Buff sat down our most quiet interview yet, with DJ Marshmello! VIDEO</p>
+</div><!-- .entry-summary.entry-content --></article><!-- #post-1889092 --><article id="post-1876988" class="post-1876988 post type-post status-publish format-standard has-post-thumbnail hentry category-all category-music category-uncategorized author-rwelch alt custom-query" itemscope itemtype="http://schema.org/BlogPosting">
+			<a href="http://www.92profm.com/2018/03/01/aaron-carter-in-studio-interview-and-concert-photos/" class="post-thumbnail post-thumbnail-left">
+				<img src="http://images.tritondigitalcms.com/6616/sites/3/2018/03/01140028/web-150x150.jpg" alt="AARON CARTER &#8211; In Studio Interview and Concert Photos" width="auto" height="auto" itemprop="image" />
+			</a>
+		<header><h2 class="entry-title" itemprop="headline"><a href="http://www.92profm.com/2018/03/01/aaron-carter-in-studio-interview-and-concert-photos/" title="AARON CARTER &#8211; In Studio Interview and Concert Photos" rel="bookmark">AARON CARTER &#8211; In Studio Interview and Concert Photos</a></h2></header><div class="entry-summary entry-content" itemprop="text"><p>Aaron Carter joined Davey in the Pro-FM studio on 2.28 before his show at The Met that night! Aaron and Davey talked about Aarons new album, LOVE, released this year! The album contains songs from Aarons most recent EP release along with a bunch of new music, produced and written by Aaron himself. The album&hellip;</p>
+</div><!-- .entry-summary.entry-content --></article><!-- #post-1876988 -->
+
+</div><!-- .entry-row -->
+
+
+
+<div class="entry-row">
+
+<article id="post-1874394" class="post-1874394 post type-post status-publish format-standard has-post-thumbnail hentry category-all category-music author-rwelch custom-query" itemscope itemtype="http://schema.org/BlogPosting">
+			<a href="http://www.92profm.com/2018/02/21/in-real-life-live-in-studio/" class="post-thumbnail post-thumbnail-left">
+				<img src="http://images.tritondigitalcms.com/6616/sites/3/2018/02/21172347/web-thing-150x150.jpg" alt="In Real Life &#8211; LIVE in studio!" width="auto" height="auto" itemprop="image" />
+			</a>
+		<header><h2 class="entry-title" itemprop="headline"><a href="http://www.92profm.com/2018/02/21/in-real-life-live-in-studio/" title="In Real Life &#8211; LIVE in studio!" rel="bookmark">In Real Life &#8211; LIVE in studio!</a></h2></header><div class="entry-summary entry-content" itemprop="text"><p>Straight from the TV competition &#8220;Boy Band&#8221;, &#8220;In Real Life&#8221; came by the station to chat with Giovanni and Kim in the Morning. The boy band talks about their favorite artists and influences, what it&#8217;s been like since the success from the TV show, playing video games, and their new single &#8220;Tattoo (How &#8216;Bout You)&#8221;!&hellip;</p>
+</div><!-- .entry-summary.entry-content --></article><!-- #post-1874394 --><article id="post-1871441" class="post-1871441 post type-post status-publish format-standard has-post-thumbnail hentry category-all category-music author-rwelch alt custom-query" itemscope itemtype="http://schema.org/BlogPosting">
+			<a href="http://www.92profm.com/2018/02/12/troye-sivan-exclusive-event-full-interview-and-performances/" class="post-thumbnail post-thumbnail-left">
+				<img src="http://images.tritondigitalcms.com/6616/sites/3/2018/02/12151914/web-thumbnail-150x150.jpg" alt="Troye Sivan &#8211; EXCLUSIVE EVENT- Full Interview and Performances!" width="auto" height="auto" itemprop="image" />
+			</a>
+		<header><h2 class="entry-title" itemprop="headline"><a href="http://www.92profm.com/2018/02/12/troye-sivan-exclusive-event-full-interview-and-performances/" title="Troye Sivan &#8211; EXCLUSIVE EVENT- Full Interview and Performances!" rel="bookmark">Troye Sivan &#8211; EXCLUSIVE EVENT- Full Interview and Performances!</a></h2></header><div class="entry-summary entry-content" itemprop="text"><p>Troye Sivan stopped by our exclusive private listening lounge at Pizza J&#8217;s in Providence Saturday 2.10.2018 to answer a few questions and perform for some very lucky fans! Jay Buff asked Troye about his recent releases, including &#8220;There For You&#8221;, a feature Troye was a part of with Martin Garrix, and what he hopes his&hellip;</p>
+</div><!-- .entry-summary.entry-content --></article><!-- #post-1871441 -->
+
+</div><!-- .entry-row -->
+
+
+
+<div class="entry-row">
+
+<article id="post-1868108" class="post-1868108 post type-post status-publish format-standard has-post-thumbnail hentry category-all category-music author-rwelch custom-query" itemscope itemtype="http://schema.org/BlogPosting">
+			<a href="http://www.92profm.com/2018/02/02/meet-paddington-representing-little-rhody-in-the-puppy-bowl/" class="post-thumbnail post-thumbnail-left">
+				<img src="http://images.tritondigitalcms.com/6616/sites/3/2018/02/02153824/img_82541-150x150.jpg" alt="Meet Paddington, Representing Little Rhody in the Puppy Bowl!" width="auto" height="auto" itemprop="image" />
+			</a>
+		<header><h2 class="entry-title" itemprop="headline"><a href="http://www.92profm.com/2018/02/02/meet-paddington-representing-little-rhody-in-the-puppy-bowl/" title="Meet Paddington, Representing Little Rhody in the Puppy Bowl!" rel="bookmark">Meet Paddington, Representing Little Rhody in the Puppy Bowl!</a></h2></header><div class="entry-summary entry-content" itemprop="text"><p>It&#8217;s not just the Patriots representing New England on the big screen this Super Bowl Sunday, but Rhode Island&#8217;s own Paddington will be showing her stuff and competing in this years Puppy Bowl, giving us another &#8220;athlete&#8221; to cheer on this Sunday! Paddington, a mixed breed pup, was rescued from a high-kill shelter down in&hellip;</p>
+</div><!-- .entry-summary.entry-content --></article><!-- #post-1868108 --><article id="post-1867821" class="post-1867821 post type-post status-publish format-standard has-post-thumbnail hentry category-all category-music category-uncategorized author-rwelch alt custom-query" itemscope itemtype="http://schema.org/BlogPosting">
+			<a href="http://www.92profm.com/2018/02/01/on-your-feet-dance-lessons-with-barbi-jo/" class="post-thumbnail post-thumbnail-left">
+				<img src="http://images.tritondigitalcms.com/6616/sites/3/2018/02/01193459/21077472_2038351116392707_8344405645396563400_n-150x150.png" alt="&#8220;On Your Feet&#8221; Dance Lessons with Barbi-Jo" width="auto" height="auto" itemprop="image" />
+			</a>
+		<header><h2 class="entry-title" itemprop="headline"><a href="http://www.92profm.com/2018/02/01/on-your-feet-dance-lessons-with-barbi-jo/" title="&#8220;On Your Feet&#8221; Dance Lessons with Barbi-Jo" rel="bookmark">&#8220;On Your Feet&#8221; Dance Lessons with Barbi-Jo</a></h2></header><div class="entry-summary entry-content" itemprop="text"><p>&#8220;On Your Feet&#8221;&#8216;s associate choreographer Natalie Caruncho taught Barbi Jo some moves from their performance of &#8220;Rhythm Is Gonna Get You&#8221; which you can now see playing at PPAC until February 4th!</p>
+</div><!-- .entry-summary.entry-content --></article><!-- #post-1867821 -->
+
+</div><!-- .entry-row -->
+
+
+
+<div class="entry-row">
+
+<article id="post-1867647" class="post-1867647 post type-post status-publish format-standard has-post-thumbnail hentry category-all category-music author-rwelch custom-query" itemscope itemtype="http://schema.org/BlogPosting">
+			<a href="http://www.92profm.com/2018/02/01/patriots-cheerleaders-julia-and-talia-join-the-afternoon-update/" class="post-thumbnail post-thumbnail-left">
+				<img src="http://images.tritondigitalcms.com/6616/sites/3/2018/02/01132302/IMG_7271-150x150.jpg" alt="Patriots Cheerleaders Julia and Talia join the Afternoon Update!" width="auto" height="auto" itemprop="image" />
+			</a>
+		<header><h2 class="entry-title" itemprop="headline"><a href="http://www.92profm.com/2018/02/01/patriots-cheerleaders-julia-and-talia-join-the-afternoon-update/" title="Patriots Cheerleaders Julia and Talia join the Afternoon Update!" rel="bookmark">Patriots Cheerleaders Julia and Talia join the Afternoon Update!</a></h2></header><div class="entry-summary entry-content" itemprop="text"><p>Julia and Talia (both Rhode Island girls!) joined Barbi Jo and Davey Morris in the afternoon updates on air to chat about what it&#8217;s like preparing for this weekends Superbowl, what it&#8217;s like to audition, and information on upcoming auditions to join the cheerleading team! They also played &#8220;So True, So False&#8221; with Barbi-Jo to&hellip;</p>
+</div><!-- .entry-summary.entry-content --></article><!-- #post-1867647 --><article id="post-1865256" class="post-1865256 post type-post status-publish format-standard has-post-thumbnail hentry category-all category-music author-rwelch alt custom-query" itemscope itemtype="http://schema.org/BlogPosting">
+			<a href="http://www.92profm.com/2018/01/25/video-dua-lipa-interview-and-performances/" class="post-thumbnail post-thumbnail-left">
+				<img src="http://images.tritondigitalcms.com/6616/sites/3/2018/01/25131232/Photo-Dec-06-4-10-11-PM_preview-150x150.jpg" alt="VIDEO: Dua Lipa Interview and Performances" width="auto" height="auto" itemprop="image" />
+			</a>
+		<header><h2 class="entry-title" itemprop="headline"><a href="http://www.92profm.com/2018/01/25/video-dua-lipa-interview-and-performances/" title="VIDEO: Dua Lipa Interview and Performances" rel="bookmark">VIDEO: Dua Lipa Interview and Performances</a></h2></header><div class="entry-summary entry-content" itemprop="text"><p>We had the pleasure of having international sensation Dua Lipa join us at Pizza J in Providence for an exclusive private event! We talked with Dua about everything from her most recent female anthem, New Rules, to meeting with Doug the Pug! Dua then gave Pro-FM lucky winners acoustic performances of both &#8220;New Rules&#8221; and&hellip;</p>
+</div><!-- .entry-summary.entry-content --></article><!-- #post-1865256 -->
+
+</div><!-- .entry-row -->
+
+</div><div id="nav-below" class="loop-navigation loop-utility loop-utility-below" itemscope itemtype="http://schema.org/SiteNavigationElement"><div class="nav-previous" itemprop="url"><a href="http://www.92profm.com/page/2/" ><span class="meta-nav">&larr;</span> Older posts</a></div><div class="nav-next" itemprop="url"></div></div><!-- #nav-below -->
+</div><!-- .block-content -->
+
+</div><!-- #block-b2o582e057e542a3 -->
+<div id="block-bwe582dfd4dd8f04" class="block block-type-custom-code block-fluid-height" data-alias="Prizes">
+<div class="block-content">
+<!-- start feedwind code --> <script type="text/javascript" src="https://feed.mikle.com/js/fw-loader.js" data-fw-param="?widget_parameter=%7B%22sources%22%3A%5B%7B%22source%22%3A%22http%3A%2F%2F92profm.listenernetwork.com%2FRSSfeeds%2FContestRSSService.svc%2FUsePointsList%2F36740191%2F1%22%2C%22type%22%3A%22RSS%22%7D%5D%2C%22name%22%3A%22%22%2C%22width%22%3A0%2C%22height%22%3A%22800%22%2C%22height_by_article%22%3A0%2C%22target%22%3A%22_blank%22%2C%22font%22%3A%22Arial%2C%20Helvetica%2C%20sans-serif%22%2C%22title_font_size%22%3A%2216%22%2C%22item_title_font_size%22%3A%2216%22%2C%22item_description_font_size%22%3A%2212%22%2C%22border%22%3A%22on%22%2C%22css_url%22%3A%22%22%2C%22responsive%22%3A%22on%22%2C%22text_direction%22%3A%22left%22%2C%22text_alignment%22%3A%22left%22%2C%22corner%22%3A%22square%22%2C%22scroll%22%3A%22on%22%2C%22auto_scroll%22%3A%22off%22%2C%22auto_scroll_direction%22%3A%22up%22%2C%22auto_scroll_step_speed%22%3A%224%22%2C%22auto_scroll_mc_speed%22%3A%2220%22%2C%22sort%22%3A%22new%22%2C%22title%22%3A%22on%22%2C%22title_sentence%22%3A%2292%20PRO-FM%20Online%20Prizes%22%2C%22title_link%22%3A%22%22%2C%22title_bgcolor%22%3A%22%23ffffff%22%2C%22title_color%22%3A%22%23505659%22%2C%22title_bgimage%22%3A%22%22%2C%22item_bgcolor%22%3A%22%23ffffff%22%2C%22item_bgimage%22%3A%22%22%2C%22item_title_length%22%3A%2255%22%2C%22item_title_color%22%3A%22%23546be6%22%2C%22item_border_bottom%22%3A%22on%22%2C%22item_description%22%3A%22both%22%2C%22item_link%22%3A%22off%22%2C%22item_description_length%22%3A%221000%22%2C%22item_description_color%22%3A%22%23505659%22%2C%22item_date%22%3A%22on%22%2C%22item_date_format%22%3A%22%25b%20%25e%2C%20%25Y%20%25k%3A%25M%22%2C%22item_date_timezone%22%3A%22%22%2C%22item_description_style%22%3A%22thumbnail%22%2C%22item_thumbnail%22%3A%22crop%22%2C%22item_thumbnail_selection%22%3A%22auto%22%2C%22article_num%22%3A%2215%22%2C%22item_player%22%3A%22youtube%22%2C%22keyword_inc%22%3A%22%22%2C%22keyword_exc%22%3A%22%22%7D"></script> <!-- end feedwind code -->
+</div><!-- .block-content -->
+
+</div><!-- #block-bwe582dfd4dd8f04 -->
+<div id="block-bk9587e9245d38ca" class="block block-type-text block-fluid-height" data-alias="">
+<div class="block-content">
+<div class="entry-content"><p>
+	<a href="/concert-calendar"><img src="http://www.92profm.com/wp-content/uploads/sites/3/2017/01/concerts_3.png" alt="" style="display: block; width: 100%; margin: auto;"></a></p></div><!-- .entry-content -->
+</div><!-- .block-content -->
+
+</div><!-- #block-bk9587e9245d38ca -->
+
+</section><!-- .column -->
+
+<section class="column column-2 grid-left-0 grid-width-8">
+<div id="block-34" class="300x250-ad-1 block block-type-custom-code block-fluid-height" data-alias="300x250 Ad 1">
+<div class="block-content">
+<center></center><span style="color:#A9A9A9;"><span style="font-size:8px;">ADVERTISEMENT</span>
+<div id='div-gpt-ad-1418849849333-0'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1418849849333-0'); });
+</script>
+</div></center>
+</div><!-- .block-content -->
+
+</div><!-- #block-34 -->
+<div id="block-38" class="sweet-deals-ad block block-type-custom-code block-fluid-height" data-alias="Sweet Deals Ad">
+<div class="block-content">
+<a href="http://providence.sweetdealscumulus.com/"><img src="/wp-content/uploads/sites/41/2014/10/sweetdeals.png"></a>
+</div><!-- .block-content -->
+
+</div><!-- #block-38 -->
+<div id="block-bjh587ea59d8c4f1" class="block block-type-text block-fluid-height" data-alias="Personalities">
+<div class="block-content">
+<div class="entry-content"><p>
+	<a href="http://www.92profm.com/92-pro-fm-full-show-lineup/"><img src="http://www.92profm.com/wp-content/uploads/sites/3/2016/11/profm_family.png" style="width: 100%;"></a></p></div><!-- .entry-content -->
+</div><!-- .block-content -->
+
+</div><!-- #block-bjh587ea59d8c4f1 -->
+<div id="block-bfg58b64679b62a5" class="block block-type-text block-fluid-height" data-alias="HSTOTW">
+<div class="block-content">
+<div class="entry-content"><p>
+	<a href="http://www.92profm.com/2015/09/18/showcase-team-of-the-week/"><img alt="" src="http://www.literock105fm.com/wp-content/uploads/sites/9/2016/02/team1-300x1513.jpg" width="100%"></a>
+</p></div><!-- .entry-content -->
+</div><!-- .block-content -->
+
+</div><!-- #block-bfg58b64679b62a5 -->
+<div id="block-bj454b8345370f16" class="recently-played block block-type-custom-code block-fluid-height" data-alias="Tunegenie">
+<div class="block-content">
+<h1 class="block-title"><span>PLAYING NOW</span></h1><iframe name="onair" frameborder="0" align="top,left" marginheight="0" marginwidth="0" scrolling="no" width="100%" height="300" src="http://wpro.tunegenie.com/plugins/onair/?searchbar=on&streamfooter=on"></iframe>
+</div><!-- .block-content -->
+
+</div><!-- #block-bj454b8345370f16 -->
+<div id="block-bfy56a9059608fd9" class="block block-type-custom-code block-fluid-height" data-alias="">
+<div class="block-content">
+<h1 class="block-title"><span>CONCERT CALENDAR</span></h1><center><iframe name="concerts" frameborder="0" align="top,left" marginheight="0" marginwidth="0" scrolling="no" width="327" height="400" src="http://wpro.tunegenie.com/plugins/concerts/?searchbar=on&streamfooter=OFF"></iframe></center>
+
+</div><!-- .block-content -->
+
+</div><!-- #block-bfy56a9059608fd9 -->
+<div id="block-brk56f05167d6d8b" class="block block-type-custom-code block-fluid-height" data-alias="Community Calendar">
+<div class="block-content">
+<h1 class="block-title"><span>Community Calendar</span></h1><iframe src="http://widget.eviesays.com/render?site=92profm&label=default" frameBorder="0" width="300" height="606" scrolling="no"></iframe>
+</div><!-- .block-content -->
+
+</div><!-- #block-brk56f05167d6d8b -->
+<div id="block-36" class="vip-club-ad block block-type-custom-code block-fluid-height" data-alias="VIP Club Ad">
+<div class="block-content">
+<div id='div-gpt-ad-1418849849333-7'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1418849849333-7'); });
+</script>
+</div>
+</div><!-- .block-content -->
+
+</div><!-- #block-36 -->
+<aside id="block-45" class="free-apps block block-type-widget-area block-fluid-height" data-alias="Home - Free Apps" itemscope="" itemtype="http://schema.org/WPSideBar">
+<div class="block-content">
+<h1 class="block-title"><span>Free Apps</span></h1><ul class="widget-area"><li id="text-7" class="widget widget_text">
+			<div class="textwidget"><p align="center">
+<a href="https://itunes.apple.com/us/app/92-pro-fm/id372750431?mt=8" target="_blank"><img src="/wp-content/uploads/sites/3/2015/01/app-apple.png"></a>&nbsp; 
+<a href="https://play.google.com/store/apps/details?id=com.airkast.WPROFM" target="_blank"><img src="/wp-content/uploads/sites/15/2014/06/app-google.png"></a>&nbsp; 
+<a href="http://amazon.com/dp/B00FJXT71G" target="_blank"><img src="/wp-content/uploads/sites/3/2015/01/app-amazon.png"></a>
+ </p>
+
+
+
+</div>
+		</li><!-- .widget -->
+</ul>
+</div><!-- .block-content -->
+
+</aside><!-- #block-45 -->
+
+</section><!-- .column -->
+
+</section><!-- .row -->
+
+
+</div><!-- .grid-container -->
+
+</div><!-- .wrapper -->
+
+<div id="wrapper-10" class="wrapper wrapper-fluid wrapper-fixed-grid grid-fluid-24-32-10 responsive-grid wrapper-last wrapper-footer" data-alias="Wrapper Footer">
+
+<div class="grid-container clearfix">
+
+<section class="row row-1">
+
+<section class="column column-1 grid-left-0 grid-width-6">
+<nav id="block-50" class="footer-nav block block-type-navigation block-fluid-height" data-alias="Footer Navigation" itemscope="" itemtype="http://schema.org/SiteNavigationElement">
+<div class="block-content">
+<div class="nav-vertical nav-align-left"><ul id="menu-footer-navigation" class="menu"><li id="menu-item-243420" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-243420"><a href="/1111/11/11/privacy-policy">Privacy Policy</a></li>
+<li id="menu-item-243423" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-243423"><a href="/1111/11/11/terms-of-service">Terms of Service</a></li>
+<li id="menu-item-53" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-53"><a target="_blank" href="/1111/11/11/contest-rules">Contest Rules</a></li>
+<li id="menu-item-23561" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-23561"><a href="http://www.92profm.com/terms-of-use/">Terms of Use</a></li>
+<li id="menu-item-23559" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-23559"><a href="http://www.92profm.com/advertise-with-us/">Advertise With Us</a></li>
+<li id="menu-item-23557" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-23557"><a href="http://www.92profm.com/23517-2/">Contact</a></li>
+<li id="menu-item-59" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-59"><a target="_blank" href="http://www.cumulus.com/careers">Employment Opportunities</a></li>
+<li id="menu-item-40005" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-40005"><a target="_blank" href="http://www.92profm.com/wp-content/uploads/sites/3/2017/12/2017-EEO-Public-File-Report.pdf">EEO Report</a></li>
+<li id="menu-item-1299429" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1299429"><a target="_blank" href="https://publicfiles.fcc.gov/fm-profile/wpro-fm">FCC Public File</a></li>
+<li id="menu-item-1844243" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1844243"><a target="_blank" href="https://www.cumulus.com">Cumulus Media Corporate</a></li>
+</ul></div><!-- .nav-vertical nav-align-left -->
+</div><!-- .block-content -->
+
+</nav><!-- #block-50 -->
+<div id="block-bnq55db61ede2cee" class="block block-type-custom-code block-fluid-height" data-alias="Wallpaper Ad">
+<div class="block-content">
+<div id='div-gpt-ad-1418849849333-16'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1418849849333-16'); });
+</script>
+</div>
+</div><!-- .block-content -->
+
+</div><!-- #block-bnq55db61ede2cee -->
+
+</section><!-- .column -->
+
+<section class="column column-2 grid-left-0 grid-width-18">
+<div id="block-51" class="728x90-ad-2 block block-type-custom-code block-fluid-height" data-alias="728x90 Ad 2">
+<div class="block-content">
+<div class="footer-728x90-ad" align="right">
+<div id='div-gpt-ad-1418849849333-2'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1418849849333-2'); });
+</script>
+</div>
+</div>
+
+</div><!-- .block-content -->
+
+</div><!-- #block-51 -->
+<footer id="block-52" class="copyright block block-type-footer block-fluid-height" data-alias="Copyright" itemscope="" itemtype="http://schema.org/WPFooter">
+<div class="block-content">
+
+<div class="footer-container">
+
+<div class="footer">
+<p class="copyright footer-copyright">Copyright Cumulus Media / Cumulus Media is an equal opportunity employer / AA</p><p class="footer-responsive-grid-link-container footer-responsive-grid-link-disable-container"><a href="http://www.92profm.com/?full-site=true" rel="nofollow" class="footer-responsive-grid-link footer-responsive-grid-disable footer-link">View Full Site</a></p>
+</div><!-- .footer -->
+</div><!-- .footer-container -->
+</div><!-- .block-content -->
+
+</footer><!-- #block-52 -->
+<div id="block-bma567190efa9f97" class="block block-type-text block-fluid-height" data-alias="">
+<div class="block-content">
+<div class="entry-content"><p style="text-align: right;">
+	If you need help accessing the FCC Public File file due to a disability, please contact&nbsp;<a href="mailto:neil.larrimore@cumulus.com">neil.larrimore@cumulus.com</a>
+</p></div><!-- .entry-content -->
+</div><!-- .block-content -->
+
+</div><!-- #block-bma567190efa9f97 -->
+
+</section><!-- .column -->
+
+</section><!-- .row -->
+
+
+</div><!-- .grid-container -->
+
+</div><!-- .wrapper -->
+
+
+
+<script>_AMP.theme.init();</script>
+<link rel='stylesheet' id='media_library_assistant-plugin-styles-css'  href='http://www.92profm.com/wp-content/plugins/media-library-assistant/includes/../css/prettyPhoto.css?ver=1.61' type='text/css' media='all' />
+<link rel='stylesheet' id='media_library_assistant-widget-styles-css'  href='http://www.92profm.com/wp-content/plugins/media-library-assistant/includes/../css/widget.css?ver=1.61' type='text/css' media='all' />
+<link rel='stylesheet' id='amp-polls-plugin-styles-css'  href='http://www.92profm.com/wp-content/plugins/amp-polls/css/widget.css?ver=4.9.1' type='text/css' media='all' />
+<link rel='stylesheet' id='themify-builder-1889092-generated-css'  href='http://www.92profm.com/wp-content/uploads/sites/3/themify-css/themify-builder-1889092-generated.css?ver=1523399504' type='text/css' media='all' />
+<script type='text/javascript'>
+/* <![CDATA[ */
+var themify_vars = {"version":"2.1.8","url":"http:\/\/www.92profm.com\/wp-content\/plugins\/themify-builder\/themify","map_key":null,"includesURL":"http:\/\/www.92profm.com\/wp-includes\/","isCached":null,"minify":{"css":{"themify-icons":false,"themify.framework":false,"lightbox":false,"themify-builder-style":false},"js":{"backstretch.themify-version":false,"bigvideo":false,"themify.dropdown":false,"themify.builder.script":false,"themify.scroll-highlight":false,"themify-youtube-bg":false,"themify.parallaxit":false,"themify.ticks":false}}};
+var tbLocalScript = {"isAnimationActive":"1","isParallaxActive":"1","isParallaxScrollActive":"1","animationInviewSelectors":[".module.wow",".module_row.wow",".builder-posts-wrap > .post.wow"],"backgroundSlider":{"autoplay":5000,"speed":2000},"animationOffset":"100","videoPoster":"http:\/\/www.92profm.com\/wp-content\/plugins\/themify-builder\/img\/blank.png","backgroundVideoLoop":"yes","builder_url":"http:\/\/www.92profm.com\/wp-content\/plugins\/themify-builder","framework_url":"http:\/\/www.92profm.com\/wp-content\/plugins\/themify-builder\/themify","version":"2.1.8","fullwidth_support":"","fullwidth_container":"body","loadScrollHighlight":"","addons":[],"breakpoints":{"tablet_landscape":[769,1024],"tablet":[681,768],"mobile":680},"ticks":{"tick":30,"ajaxurl":"http:\/\/www.92profm.com\/wp-admin\/admin-ajax.php","postID":9}};
+var themifyScript = {"lightbox":{"lightboxSelector":".themify_lightbox","lightboxOn":true,"lightboxContentImages":false,"lightboxContentImagesSelector":"","theme":"pp_default","social_tools":false,"allow_resize":true,"show_title":false,"overlay_gallery":false,"screenWidthNoLightbox":600,"deeplinking":false,"contentImagesAreas":"","gallerySelector":".gallery-icon > a","lightboxGalleryOn":true},"lightboxContext":"body"};
+var tbScrollHighlight = {"fixedHeaderSelector":"","speed":"900","navigation":"#main-nav","scrollOffset":"0"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.92profm.com/wp-content/plugins/themify-builder/themify/js/main.js?ver=2.1.8'></script>
+<script type='text/javascript'>
+var mejsL10n = {"language":"en","strings":{"mejs.install-flash":"You are using a browser that does not have Flash player enabled or installed. Please turn on your Flash player plugin or download the latest version from https:\/\/get.adobe.com\/flashplayer\/","mejs.fullscreen-off":"Turn off Fullscreen","mejs.fullscreen-on":"Go Fullscreen","mejs.download-video":"Download Video","mejs.fullscreen":"Fullscreen","mejs.time-jump-forward":["Jump forward 1 second","Jump forward %1 seconds"],"mejs.loop":"Toggle Loop","mejs.play":"Play","mejs.pause":"Pause","mejs.close":"Close","mejs.time-slider":"Time Slider","mejs.time-help-text":"Use Left\/Right Arrow keys to advance one second, Up\/Down arrows to advance ten seconds.","mejs.time-skip-back":["Skip back 1 second","Skip back %1 seconds"],"mejs.captions-subtitles":"Captions\/Subtitles","mejs.captions-chapters":"Chapters","mejs.none":"None","mejs.mute-toggle":"Mute Toggle","mejs.volume-help-text":"Use Up\/Down Arrow keys to increase or decrease volume.","mejs.unmute":"Unmute","mejs.mute":"Mute","mejs.volume-slider":"Volume Slider","mejs.video-player":"Video Player","mejs.audio-player":"Audio Player","mejs.ad-skip":"Skip ad","mejs.ad-skip-info":["Skip in 1 second","Skip in %1 seconds"],"mejs.source-chooser":"Source Chooser","mejs.stop":"Stop","mejs.speed-rate":"Speed Rate","mejs.live-broadcast":"Live Broadcast","mejs.afrikaans":"Afrikaans","mejs.albanian":"Albanian","mejs.arabic":"Arabic","mejs.belarusian":"Belarusian","mejs.bulgarian":"Bulgarian","mejs.catalan":"Catalan","mejs.chinese":"Chinese","mejs.chinese-simplified":"Chinese (Simplified)","mejs.chinese-traditional":"Chinese (Traditional)","mejs.croatian":"Croatian","mejs.czech":"Czech","mejs.danish":"Danish","mejs.dutch":"Dutch","mejs.english":"English","mejs.estonian":"Estonian","mejs.filipino":"Filipino","mejs.finnish":"Finnish","mejs.french":"French","mejs.galician":"Galician","mejs.german":"German","mejs.greek":"Greek","mejs.haitian-creole":"Haitian Creole","mejs.hebrew":"Hebrew","mejs.hindi":"Hindi","mejs.hungarian":"Hungarian","mejs.icelandic":"Icelandic","mejs.indonesian":"Indonesian","mejs.irish":"Irish","mejs.italian":"Italian","mejs.japanese":"Japanese","mejs.korean":"Korean","mejs.latvian":"Latvian","mejs.lithuanian":"Lithuanian","mejs.macedonian":"Macedonian","mejs.malay":"Malay","mejs.maltese":"Maltese","mejs.norwegian":"Norwegian","mejs.persian":"Persian","mejs.polish":"Polish","mejs.portuguese":"Portuguese","mejs.romanian":"Romanian","mejs.russian":"Russian","mejs.serbian":"Serbian","mejs.slovak":"Slovak","mejs.slovenian":"Slovenian","mejs.spanish":"Spanish","mejs.swahili":"Swahili","mejs.swedish":"Swedish","mejs.tagalog":"Tagalog","mejs.thai":"Thai","mejs.turkish":"Turkish","mejs.ukrainian":"Ukrainian","mejs.vietnamese":"Vietnamese","mejs.welsh":"Welsh","mejs.yiddish":"Yiddish"}};
+</script>
+<script type='text/javascript' src='http://www.92profm.com/wp-includes/js/mediaelement/mediaelement-and-player.js?ver=4.2.6-78496d1'></script>
+<script type='text/javascript' src='http://www.92profm.com/wp-includes/js/mediaelement/mediaelement-migrate.js?ver=4.9.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var _wpmejsSettings = {"pluginPath":"\/wp-includes\/js\/mediaelement\/","classPrefix":"mejs-","stretching":"responsive"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.92profm.com/wp-includes/js/mediaelement/wp-mediaelement.js?ver=4.9.1'></script>
+<script type='text/javascript' src='http://www.92profm.com/wp-content/plugins/media-library-assistant/includes/../js/jquery.prettyPhoto.js?ver=1.61'></script>
+<script type='text/javascript' src='http://www.92profm.com/wp-content/plugins/media-library-assistant/includes/../js/widget-front-end.js?ver=1533183780'></script>
+<script type='text/javascript' src='http://www.92profm.com/wp-content/plugins/amp-polls/js/widget-front-end.js?ver=4.9.1'></script>
+<script>
+window.tgmplibs="cumulus2,_append_www,_triton_see";
+</script>
+<script type="text/javascript" class="_tgmp_p">
+function onTuneGenieMediaPlayerLoaded() {
+    window.tgmp=new TuneGenieMediaPlayer('playerbar', {
+        brand: "wpro",
+        zindex: 50000,
+        theme: ["#000000"],
+        position: "bottom",
+        debug: true,
+        ios_frame: 3,
+        autostart: false,
+        infoTrayOnLoad: true,
+        useTritonPlayer: true,
+        promptZag: false,
+    });
+    tgmp.go();
+    window.tgmp_rc = new TuneGenieRC(tgmp);
+    tgmp_rc.recentSongWidget(document.getElementById('tgrecent'),{});
+    tgmp_rc.nowPlayingWidget(document.getElementById('tgnowplaying'),{});
+}
+</script>
+<script type="text/javascript"  class="_tgmp_p" async src="https://mpl.tunegenie.com/js/loader2.min.js"></script>
+
+
+</div><!-- #whitewrap -->
+
+<!-- TGMP PLUGIN ENABLED 2016-08-06T19:35:20.953Z -->
+<!-- DISABLE TGMP INFO TRAY -->
+<!-- ADDED 2016-08-06T19:35:20.953Z -->
+<script>
+	if (window.top.tgmp) {
+		window.top.tgmp.updateOption('infoTrayOnLoad',false);
+	}
+</script>
+<!-- END DISABLE TGMP INFO TRAY -->
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.3";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<script type="text/javascript">
+//<![CDATA[
+(function() {
+var _analytics_scr = document.createElement('script');
+_analytics_scr.type = 'text/javascript'; _analytics_scr.async = true; _analytics_scr.src = '/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1020970847';
+var _analytics_elem = document.getElementsByTagName('script')[0]; _analytics_elem.parentNode.insertBefore(_analytics_scr, _analytics_elem);
+})();
+// ]]>
+</script></body>
+
+
+</html>
+<!--
+Performance optimized by W3 Total Cache. Learn more: https://www.w3-edge.com/products/
+
+Object Caching 3537/3960 objects using memcache
+Page Caching using memcache
+Database Caching 298/443 queries in 2.417 seconds using memcache
+
+Served from: www.1460wrad.com @ 2018-08-27 06:25:03 by W3 Total Cache
+-->

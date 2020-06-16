@@ -1,0 +1,1043 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"VgYHV1dVGwIBVFlVBQU="};window.NREUM||(NREUM={}),__nr_require=function(t,n,e){function r(e){if(!n[e]){var o=n[e]={exports:{}};t[e][0].call(o.exports,function(n){var o=t[e][1][n];return r(o||n)},o,o.exports)}return n[e].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<e.length;o++)r(e[o]);return r}({1:[function(t,n,e){function r(t){try{s.console&&console.log(t)}catch(n){}}var o,i=t("ee"),a=t(15),s={};try{o=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(s.console=!0,o.indexOf("dev")!==-1&&(s.dev=!0),o.indexOf("nr_dev")!==-1&&(s.nrDev=!0))}catch(c){}s.nrDev&&i.on("internal-error",function(t){r(t.stack)}),s.dev&&i.on("fn-err",function(t,n,e){r(e.stack)}),s.dev&&(r("NR AGENT IN DEVELOPMENT MODE"),r("flags: "+a(s,function(t,n){return t}).join(", ")))},{}],2:[function(t,n,e){function r(t,n,e,r,s){try{p?p-=1:o(s||new UncaughtException(t,n,e),!0)}catch(f){try{i("ierr",[f,c.now(),!0])}catch(d){}}return"function"==typeof u&&u.apply(this,a(arguments))}function UncaughtException(t,n,e){this.message=t||"Uncaught error with no additional information",this.sourceURL=n,this.line=e}function o(t,n){var e=n?null:c.now();i("err",[t,e])}var i=t("handle"),a=t(16),s=t("ee"),c=t("loader"),f=t("gos"),u=window.onerror,d=!1,l="nr@seenError",p=0;c.features.err=!0,t(1),window.onerror=r;try{throw new Error}catch(h){"stack"in h&&(t(8),t(7),"addEventListener"in window&&t(5),c.xhrWrappable&&t(9),d=!0)}s.on("fn-start",function(t,n,e){d&&(p+=1)}),s.on("fn-err",function(t,n,e){d&&!e[l]&&(f(e,l,function(){return!0}),this.thrown=!0,o(e))}),s.on("fn-end",function(){d&&!this.thrown&&p>0&&(p-=1)}),s.on("internal-error",function(t){i("ierr",[t,c.now(),!0])})},{}],3:[function(t,n,e){t("loader").features.ins=!0},{}],4:[function(t,n,e){function r(t){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var o=t("ee"),i=t("handle"),a=t(8),s=t(7),c="learResourceTimings",f="addEventListener",u="resourcetimingbufferfull",d="bstResource",l="resource",p="-start",h="-end",m="fn"+p,w="fn"+h,v="bstTimer",y="pushState",g=t("loader");g.features.stn=!0,t(6);var b=NREUM.o.EV;o.on(m,function(t,n){var e=t[0];e instanceof b&&(this.bstStart=g.now())}),o.on(w,function(t,n){var e=t[0];e instanceof b&&i("bst",[e,n,this.bstStart,g.now()])}),a.on(m,function(t,n,e){this.bstStart=g.now(),this.bstType=e}),a.on(w,function(t,n){i(v,[n,this.bstStart,g.now(),this.bstType])}),s.on(m,function(){this.bstStart=g.now()}),s.on(w,function(t,n){i(v,[n,this.bstStart,g.now(),"requestAnimationFrame"])}),o.on(y+p,function(t){this.time=g.now(),this.startPath=location.pathname+location.hash}),o.on(y+h,function(t){i("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),f in window.performance&&(window.performance["c"+c]?window.performance[f](u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["c"+c]()},!1):window.performance[f]("webkit"+u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["webkitC"+c]()},!1)),document[f]("scroll",r,{passive:!0}),document[f]("keypress",r,!1),document[f]("click",r,!1)}},{}],5:[function(t,n,e){function r(t){for(var n=t;n&&!n.hasOwnProperty(u);)n=Object.getPrototypeOf(n);n&&o(n)}function o(t){s.inPlace(t,[u,d],"-",i)}function i(t,n){return t[1]}var a=t("ee").get("events"),s=t(18)(a,!0),c=t("gos"),f=XMLHttpRequest,u="addEventListener",d="removeEventListener";n.exports=a,"getPrototypeOf"in Object?(r(document),r(window),r(f.prototype)):f.prototype.hasOwnProperty(u)&&(o(window),o(f.prototype)),a.on(u+"-start",function(t,n){var e=t[1],r=c(e,"nr@wrapped",function(){function t(){if("function"==typeof e.handleEvent)return e.handleEvent.apply(e,arguments)}var n={object:t,"function":e}[typeof e];return n?s(n,"fn-",null,n.name||"anonymous"):e});this.wrapped=t[1]=r}),a.on(d+"-start",function(t){t[1]=this.wrapped||t[1]})},{}],6:[function(t,n,e){var r=t("ee").get("history"),o=t(18)(r);n.exports=r,o.inPlace(window.history,["pushState","replaceState"],"-")},{}],7:[function(t,n,e){var r=t("ee").get("raf"),o=t(18)(r),i="equestAnimationFrame";n.exports=r,o.inPlace(window,["r"+i,"mozR"+i,"webkitR"+i,"msR"+i],"raf-"),r.on("raf-start",function(t){t[0]=o(t[0],"fn-")})},{}],8:[function(t,n,e){function r(t,n,e){t[0]=a(t[0],"fn-",null,e)}function o(t,n,e){this.method=e,this.timerDuration=isNaN(t[1])?0:+t[1],t[0]=a(t[0],"fn-",this,e)}var i=t("ee").get("timer"),a=t(18)(i),s="setTimeout",c="setInterval",f="clearTimeout",u="-start",d="-";n.exports=i,a.inPlace(window,[s,"setImmediate"],s+d),a.inPlace(window,[c],c+d),a.inPlace(window,[f,"clearImmediate"],f+d),i.on(c+u,r),i.on(s+u,o)},{}],9:[function(t,n,e){function r(t,n){d.inPlace(n,["onreadystatechange"],"fn-",s)}function o(){var t=this,n=u.context(t);t.readyState>3&&!n.resolved&&(n.resolved=!0,u.emit("xhr-resolved",[],t)),d.inPlace(t,y,"fn-",s)}function i(t){g.push(t),h&&(x?x.then(a):w?w(a):(E=-E,O.data=E))}function a(){for(var t=0;t<g.length;t++)r([],g[t]);g.length&&(g=[])}function s(t,n){return n}function c(t,n){for(var e in t)n[e]=t[e];return n}t(5);var f=t("ee"),u=f.get("xhr"),d=t(18)(u),l=NREUM.o,p=l.XHR,h=l.MO,m=l.PR,w=l.SI,v="readystatechange",y=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],g=[];n.exports=u;var b=window.XMLHttpRequest=function(t){var n=new p(t);try{u.emit("new-xhr",[n],n),n.addEventListener(v,o,!1)}catch(e){try{u.emit("internal-error",[e])}catch(r){}}return n};if(c(p,b),b.prototype=p.prototype,d.inPlace(b.prototype,["open","send"],"-xhr-",s),u.on("send-xhr-start",function(t,n){r(t,n),i(n)}),u.on("open-xhr-start",r),h){var x=m&&m.resolve();if(!w&&!m){var E=1,O=document.createTextNode(E);new h(a).observe(O,{characterData:!0})}}else f.on("fn-end",function(t){t[0]&&t[0].type===v||a()})},{}],10:[function(t,n,e){function r(t){var n=this.params,e=this.metrics;if(!this.ended){this.ended=!0;for(var r=0;r<d;r++)t.removeEventListener(u[r],this.listener,!1);if(!n.aborted){if(e.duration=a.now()-this.startTime,4===t.readyState){n.status=t.status;var i=o(t,this.lastSize);if(i&&(e.rxSize=i),this.sameOrigin){var c=t.getResponseHeader("X-NewRelic-App-Data");c&&(n.cat=c.split(", ").pop())}}else n.status=0;e.cbTime=this.cbTime,f.emit("xhr-done",[t],t),s("xhr",[n,e,this.startTime])}}}function o(t,n){var e=t.responseType;if("json"===e&&null!==n)return n;var r="arraybuffer"===e||"blob"===e||"json"===e?t.response:t.responseText;return h(r)}function i(t,n){var e=c(n),r=t.params;r.host=e.hostname+":"+e.port,r.pathname=e.pathname,t.sameOrigin=e.sameOrigin}var a=t("loader");if(a.xhrWrappable){var s=t("handle"),c=t(11),f=t("ee"),u=["load","error","abort","timeout"],d=u.length,l=t("id"),p=t(14),h=t(13),m=window.XMLHttpRequest;a.features.xhr=!0,t(9),f.on("new-xhr",function(t){var n=this;n.totalCbs=0,n.called=0,n.cbTime=0,n.end=r,n.ended=!1,n.xhrGuids={},n.lastSize=null,p&&(p>34||p<10)||window.opera||t.addEventListener("progress",function(t){n.lastSize=t.loaded},!1)}),f.on("open-xhr-start",function(t){this.params={method:t[0]},i(this,t[1]),this.metrics={}}),f.on("open-xhr-end",function(t,n){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&n.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),f.on("send-xhr-start",function(t,n){var e=this.metrics,r=t[0],o=this;if(e&&r){var i=h(r);i&&(e.txSize=i)}this.startTime=a.now(),this.listener=function(t){try{"abort"===t.type&&(o.params.aborted=!0),("load"!==t.type||o.called===o.totalCbs&&(o.onloadCalled||"function"!=typeof n.onload))&&o.end(n)}catch(e){try{f.emit("internal-error",[e])}catch(r){}}};for(var s=0;s<d;s++)n.addEventListener(u[s],this.listener,!1)}),f.on("xhr-cb-time",function(t,n,e){this.cbTime+=t,n?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof e.onload||this.end(e)}),f.on("xhr-load-added",function(t,n){var e=""+l(t)+!!n;this.xhrGuids&&!this.xhrGuids[e]&&(this.xhrGuids[e]=!0,this.totalCbs+=1)}),f.on("xhr-load-removed",function(t,n){var e=""+l(t)+!!n;this.xhrGuids&&this.xhrGuids[e]&&(delete this.xhrGuids[e],this.totalCbs-=1)}),f.on("addEventListener-end",function(t,n){n instanceof m&&"load"===t[0]&&f.emit("xhr-load-added",[t[1],t[2]],n)}),f.on("removeEventListener-end",function(t,n){n instanceof m&&"load"===t[0]&&f.emit("xhr-load-removed",[t[1],t[2]],n)}),f.on("fn-start",function(t,n,e){n instanceof m&&("onload"===e&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=a.now()))}),f.on("fn-end",function(t,n){this.xhrCbStart&&f.emit("xhr-cb-time",[a.now()-this.xhrCbStart,this.onload,n],n)})}},{}],11:[function(t,n,e){n.exports=function(t){var n=document.createElement("a"),e=window.location,r={};n.href=t,r.port=n.port;var o=n.href.split("://");!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=n.hostname||e.hostname,r.pathname=n.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname);var i=!n.protocol||":"===n.protocol||n.protocol===e.protocol,a=n.hostname===document.domain&&n.port===e.port;return r.sameOrigin=i&&(!n.hostname||a),r}},{}],12:[function(t,n,e){function r(){}function o(t,n,e){return function(){return i(t,[f.now()].concat(s(arguments)),n?null:this,e),n?void 0:this}}var i=t("handle"),a=t(15),s=t(16),c=t("ee").get("tracer"),f=t("loader"),u=NREUM;"undefined"==typeof window.newrelic&&(newrelic=u);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",p=l+"ixn-";a(d,function(t,n){u[n]=o(l+n,!0,"api")}),u.addPageAction=o(l+"addPageAction",!0),u.setCurrentRouteName=o(l+"routeName",!0),n.exports=newrelic,u.interaction=function(){return(new r).get()};var h=r.prototype={createTracer:function(t,n){var e={},r=this,o="function"==typeof n;return i(p+"tracer",[f.now(),t,e],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],e),o)try{return n.apply(this,arguments)}catch(t){throw c.emit("fn-err",[arguments,this,t],e),t}finally{c.emit("fn-end",[f.now()],e)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,n){h[n]=o(p+n)}),newrelic.noticeError=function(t){"string"==typeof t&&(t=new Error(t)),i("err",[t,f.now()])}},{}],13:[function(t,n,e){n.exports=function(t){if("string"==typeof t&&t.length)return t.length;if("object"==typeof t){if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if(!("undefined"!=typeof FormData&&t instanceof FormData))try{return JSON.stringify(t).length}catch(n){return}}}},{}],14:[function(t,n,e){var r=0,o=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);o&&(r=+o[1]),n.exports=r},{}],15:[function(t,n,e){function r(t,n){var e=[],r="",i=0;for(r in t)o.call(t,r)&&(e[i]=n(r,t[r]),i+=1);return e}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],16:[function(t,n,e){function r(t,n,e){n||(n=0),"undefined"==typeof e&&(e=t?t.length:0);for(var r=-1,o=e-n||0,i=Array(o<0?0:o);++r<o;)i[r]=t[n+r];return i}n.exports=r},{}],17:[function(t,n,e){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],18:[function(t,n,e){function r(t){return!(t&&t instanceof Function&&t.apply&&!t[a])}var o=t("ee"),i=t(16),a="nr@original",s=Object.prototype.hasOwnProperty,c=!1;n.exports=function(t,n){function e(t,n,e,o){function nrWrapper(){var r,a,s,c;try{a=this,r=i(arguments),s="function"==typeof e?e(r,a):e||{}}catch(f){l([f,"",[r,a,o],s])}u(n+"start",[r,a,o],s);try{return c=t.apply(a,r)}catch(d){throw u(n+"err",[r,a,d],s),d}finally{u(n+"end",[r,a,c],s)}}return r(t)?t:(n||(n=""),nrWrapper[a]=t,d(t,nrWrapper),nrWrapper)}function f(t,n,o,i){o||(o="");var a,s,c,f="-"===o.charAt(0);for(c=0;c<n.length;c++)s=n[c],a=t[s],r(a)||(t[s]=e(a,f?s+o:o,i,s))}function u(e,r,o){if(!c||n){var i=c;c=!0;try{t.emit(e,r,o,n)}catch(a){l([a,e,r,o])}c=i}}function d(t,n){if(Object.defineProperty&&Object.keys)try{var e=Object.keys(t);return e.forEach(function(e){Object.defineProperty(n,e,{get:function(){return t[e]},set:function(n){return t[e]=n,n}})}),n}catch(r){l([r])}for(var o in t)s.call(t,o)&&(n[o]=t[o]);return n}function l(n){try{t.emit("internal-error",n)}catch(e){}}return t||(t=o),e.inPlace=f,e.flag=a,e}},{}],ee:[function(t,n,e){function r(){}function o(t){function n(t){return t&&t instanceof r?t:t?c(t,s,i):i()}function e(e,r,o,i){if(!l.aborted||i){t&&t(e,r,o);for(var a=n(o),s=h(e),c=s.length,f=0;f<c;f++)s[f].apply(a,r);var d=u[y[e]];return d&&d.push([g,e,r,a]),a}}function p(t,n){v[t]=h(t).concat(n)}function h(t){return v[t]||[]}function m(t){return d[t]=d[t]||o(e)}function w(t,n){f(t,function(t,e){n=n||"feature",y[e]=n,n in u||(u[n]=[])})}var v={},y={},g={on:p,emit:e,get:m,listeners:h,context:n,buffer:w,abort:a,aborted:!1};return g}function i(){return new r}function a(){(u.api||u.feature)&&(l.aborted=!0,u=l.backlog={})}var s="nr@context",c=t("gos"),f=t(15),u={},d={},l=n.exports=o();l.backlog=u},{}],gos:[function(t,n,e){function r(t,n,e){if(o.call(t,n))return t[n];var r=e();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(t,n,e){function r(t,n,e,r){o.buffer([t],r),o.emit(t,n,e)}var o=t("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(t,n,e){function r(t){var n=typeof t;return!t||"object"!==n&&"function"!==n?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");n.exports=r},{}],loader:[function(t,n,e){function r(){if(!x++){var t=b.info=NREUM.info,n=l.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&n))return u.abort();f(y,function(n,e){t[n]||(t[n]=e)}),c("mark",["onload",a()+b.offset],null,"api");var e=l.createElement("script");e.src="https://"+t.agent,n.parentNode.insertBefore(e,n)}}function o(){"complete"===l.readyState&&i()}function i(){c("mark",["domContent",a()+b.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(s=Math.max((new Date).getTime(),s))-b.offset}var s=(new Date).getTime(),c=t("handle"),f=t(15),u=t("ee"),d=window,l=d.document,p="addEventListener",h="attachEvent",m=d.XMLHttpRequest,w=m&&m.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:m,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1071.min.js"},g=m&&w&&w[p]&&!/CriOS/.test(navigator.userAgent),b=n.exports={offset:s,now:a,origin:v,features:{},xhrWrappable:g};t(12),l[p]?(l[p]("DOMContentLoaded",i,!1),d[p]("load",r,!1)):(l[h]("onreadystatechange",o),d[h]("onload",r)),c("mark",["firstbyte",s],null,"api");var x=0,E=t(17)},{}]},{},["loader",2,10,4,3]);</script>
+<link rel="shortcut icon" href="http://mediad.publicbroadcasting.net/p/kwmu/files/201709/stlpr-radio_wave-256.ico" type="image/vnd.microsoft.icon" />
+<meta name="description" content="St. Louis Public Radio 90.7 KWMU: Your source for regional news, in-depth discussion and national programs from NPR, APM and PRI" />
+<link rel="alternate" type="application/rss+xml" title="RSS Feed" href="http://www.news.stlpublicradio.org/rss.xml" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<meta name="google-site-verification" content="oBU8GDeYnQOfLkaU7NG1QFd2uLAwSlH2c7c40k-nWPQ" />
+<script src="https://cdn.optimizely.com/js/5644760415.js"></script>
+<div id="ttdUniversalPixelTag6d3d5b8f7070486a9c3403b067b90fb6" style="display:none">
+            <script src="https://js.adsrvr.org/up_loader.1.1.0.js" type="text/javascript"></script>
+            <script type="text/javascript">
+                (function(global) {
+                    if (typeof TTDUniversalPixelApi === 'function') {
+                        var universalPixelApi = new TTDUniversalPixelApi();
+                        universalPixelApi.init("62u7umi", ["xmsmd11"], "https://insight.adsrvr.org/track/up", "ttdUniversalPixelTag6d3d5b8f7070486a9c3403b067b90fb6");
+                    }
+                })(this);
+            </script>
+        </div>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KLPKLWL');</script>
+    <title>St. Louis Public Radio</title>
+    <link type="text/css" rel="stylesheet" href="http://www.news.stlpublicradio.org/sites/news.stlpublicradio.org/files/css/css_zXr1pRkjUmFHX10b6Pv5_DqzyewvdLNQ8QgccGQIRQQ.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://www.news.stlpublicradio.org/sites/news.stlpublicradio.org/files/css/css_ZFlaYqkiQzTmlBPX4mQeT33IFQX3nR-zpGlyqFhtTNM.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://www.news.stlpublicradio.org/sites/news.stlpublicradio.org/files/css/css_PV0HBDBtTWS7oiEnFpozcEeThn_X5umpjVSdbNSQIRI.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://www.news.stlpublicradio.org/sites/news.stlpublicradio.org/files/css/css_uY1_bHNTrAu2UuUwumZ6AuPc2Egu5fV5FiJ2-fv7ySk.css" media="all" />
+<style type="text/css" media="all">
+<!--/*--><![CDATA[/*><!--*/
+.header-region-outer{background-color:#FFFFFF;}@media screen and (min-width:1024px){.header-region-outer{background-image:url(http://mediad.publicbroadcasting.net/p/kwmu/files/201503/responsive-skyline-light.jpg);background-position:center bottom;background-size:auto;background-repeat:no-repeat;}}.branding .tagline{color:#000;}.branding .listen-live-toggle > a,.branding .header-utility > a,.branding .header-utility > a.trigger-nav{color:#ffffff;}@media screen and (min-width:641px){.branding .trigger-nav{background:#777777;}}@media screen and (max-width:640px){.branding .header-utility > a.trigger-nav,.active-menu .branding .header-utility > a.trigger-nav{color:#777777;}}#listen-live .listen-live-toggle{background-color:#000000;}#listen-live .listen-live-btn{background-color:transparent;color:#ffffff;}@media screen and (min-width:640px){#listen-live .listen-live-btn{background-color:#000000;}}.branding .give{background:#B3282D;}
+
+/*]]>*/-->
+</style>
+<link type="text/css" rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato:300,700,700italic,900,italic,regular&amp;subset=latin" media="all" />
+<link type="text/css" rel="stylesheet" href="http://www.news.stlpublicradio.org/sites/news.stlpublicradio.org/files/css/css_zV_5qaEwHtfh43AmzmG8IVYexPd1f_8gXooTNPIZiRg.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://www.news.stlpublicradio.org/sites/news.stlpublicradio.org/files/css/css_SWo6tZlpCPjnhbZDAS4xgnCAofi51J7pbtu4SD2fIug.css" media="all" />
+    <script type="text/javascript" src="http://mediad.publicbroadcasting.net/p/kwmu/files/js/js_xSpMA4ArVcBKOZ43sPqNRk0gxQZdDVifw27pIUCzWU0.js"></script>
+<script type="text/javascript" src="http://mediad.publicbroadcasting.net/p/kwmu/files/js/js_uQACNz-q46biHdzuzAdQkVZaYioI6VTDeluEJ1apVwI.js"></script>
+<script type="text/javascript" src="http://mediad.publicbroadcasting.net/p/kwmu/files/js/js_f_6-OzlFXjayKlsU5sJKLwjz7LFQvdIZDm-Mt6jKwyM.js"></script>
+<script type="text/javascript" src="http://mediad.publicbroadcasting.net/p/kwmu/files/js/js__4npt0PuTlrK-GkTl821OR8Eb7aiGB9GvsSeu1tr7U4.js"></script>
+<script type="text/javascript" src="//www.googletagservices.com/tag/js/gpt.js"></script>
+<script type="text/javascript" src="http://mediad.publicbroadcasting.net/p/kwmu/files/js/js__5eCzSOo9eTsWKCAqGfAPUXzUkIViz83V3e3-ghfLsE.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+(function() {var ga = document.createElement("script");ga.type = "text/javascript";ga.async = true;ga.src="//stream.publicbroadcasting.net/analytics/aalp.js";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(ga, s);})();
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://mediad.publicbroadcasting.net/p/kwmu/files/js/js_cza0kAvLlCn6LNbTEP4iQCnYZt5Fni87eusDp0Y6uSI.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"responso","theme_token":"4WOZ2gcKRustdlbu9yKWklSjVDBaJOVxtX8Sag4lBcs","js":{"0":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery\/1.8\/jquery.min.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/custom\/responsive_utilities\/js\/vendor\/foundation\/foundation.js":1,"sites\/all\/modules\/custom\/responsive_utilities\/js\/vendor\/foundation\/foundation.topbar.js":1,"sites\/all\/libraries\/magnific-popup\/jquery.magnific-popup.min.js":1,"sites\/all\/modules\/contrib\/google_cse\/google_cse.js":1,"sites\/all\/modules\/custom\/pi_media_types\/pi_audio\/js\/pi-audio.js":1,"sites\/all\/modules\/custom\/pi_hull\/js\/pi-hull.js":1,"sites\/all\/modules\/custom\/pi_hull\/js\/jquery.innerfade.js":1,"sites\/all\/modules\/custom\/pi_hull\/jplayer\/js\/jquery.jplayer.min.js":1,"sites\/all\/modules\/custom\/pi_hull\/jplayer\/js\/main.js":1,"\/\/www.googletagservices.com\/tag\/js\/gpt.js":1,"sites\/all\/modules\/custom\/responsive_ads\/js\/main.js":1,"sites\/all\/modules\/custom\/pi_ajax_links_api\/nprogress\/nprogress.js":1,"sites\/all\/modules\/custom\/pi_ajax_links_api\/pi_ajax_links_api.js":1,"sites\/all\/modules\/custom\/npr_entities\/npr_fields\/npr_image_gallery\/js\/npr-image-gallery.js":1,"sites\/all\/modules\/custom\/pi_assets\/plugins\/images\/js\/popup.js":1,"sites\/all\/modules\/custom\/npr_river\/assets\/npr-river.js":1,"sites\/all\/modules\/custom\/pi_guide\/js\/pi_guide_schedule_selector.js":1,"sites\/all\/modules\/custom\/pi_content_types\/pi_live_event\/js\/iframe.js":1,"sites\/all\/modules\/custom\/responsive_utilities\/js\/vendor\/modernizr.js":1,"sites\/all\/modules\/custom\/responsive_utilities\/js\/vendor\/media.match.min.js":1,"sites\/all\/modules\/custom\/responsive_utilities\/js\/vendor\/matchMedia.addListener.js":1,"sites\/all\/modules\/custom\/responsive_utilities\/js\/vendor\/enquire.min.js":1,"sites\/all\/modules\/custom\/responsive_utilities\/js\/vendor\/fastclick.js":1,"sites\/all\/modules\/custom\/block_factory\/treatments\/promotional-small\/promotional-small.js":1,"1":1,"sites\/all\/modules\/custom\/pi_content_types\/pi_program\/treatments\/program-promo\/program-promo.js":1,"sites\/all\/modules\/custom\/responsive_utilities\/js\/responsive-utilities.mediaqueries.js":1,"sites\/all\/modules\/custom\/responsive_utilities\/js\/responsive-utilities.scripts.js":1,"sites\/all\/modules\/custom\/responsive_utilities\/js\/responsive-utilities.responsiveimages.js":1,"sites\/all\/modules\/custom\/community_calendar\/lib\/datetimepicker\/jquery.timepicker.min.js":1,"sites\/all\/modules\/custom\/community_calendar\/lib\/datetimepicker\/bootstrap-datepicker.min.js":1,"sites\/all\/modules\/custom\/community_calendar\/lib\/datetimepicker\/jquery.datepair.min.js":1,"sites\/all\/modules\/custom\/community_calendar\/lib\/validation\/jquery.mask.min.js":1,"sites\/all\/modules\/custom\/community_calendar\/lib\/validation\/jquery.validate.min.js":1,"sites\/all\/modules\/custom\/community_calendar\/lib\/typeahead\/typeahead.js":1,"sites\/all\/modules\/custom\/community_calendar\/assets\/community-calendar.helpers.js":1,"sites\/all\/modules\/custom\/community_calendar\/assets\/community-calendar.js":1,"sites\/all\/modules\/custom\/community_calendar\/assets\/community-calendar.filters.js":1,"sites\/all\/modules\/custom\/community_calendar\/assets\/community-calendar.event.js":1,"sites\/all\/modules\/custom\/responsive_utilities\/js\/responsive-utilities.js":1,"sites\/all\/modules\/custom\/responsive_utilities\/js\/responsive-utilities.tag.js":1,"sites\/all\/modules\/custom\/community_calendar\/assets\/community-calendar.location.js":1,"sites\/all\/modules\/custom\/community_calendar\/assets\/community-calendar.organization.js":1,"sites\/all\/modules\/custom\/community_calendar\/assets\/community-calendar.recurrence.js":1,"sites\/all\/modules\/custom\/community_calendar\/assets\/community-calendar.category.js":1,"sites\/all\/modules\/custom\/community_calendar\/assets\/community-calendar.image.js":1,"sites\/all\/modules\/custom\/community_calendar\/assets\/community-calendar.sponsor.js":1,"sites\/all\/modules\/custom\/community_calendar\/assets\/community-calendar.validation.js":1,"sites\/all\/modules\/custom\/responsive_utilities\/js\/responsive-utilities.overrides.js":1,"sites\/all\/modules\/contrib\/disqus\/disqus.js":1,"sites\/all\/modules\/custom\/audity\/audity\/dsplayer.min.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"sites\/all\/libraries\/magnific-popup\/magnific-popup.css":1,"sites\/all\/modules\/contrib\/date\/date_api\/date.css":1,"sites\/all\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/contrib\/google_cse\/google_cse.css":1,"modules\/node\/node.css":1,"sites\/all\/modules\/custom\/pi_hull\/pi_outrigger\/css\/pi_outrigger.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/custom\/pi_guide\/css\/pi_guide.css":1,"sites\/all\/modules\/custom\/pi_hull\/jplayer\/css\/jplayer.npr.css":1,"sites\/all\/modules\/custom\/pi_npr_story\/css\/pi_npr_story.css":1,"sites\/all\/modules\/custom\/pi_views\/pi_reports_views\/css\/pi_reports.css":1,"sites\/all\/modules\/custom\/pi_menus\/css\/flexiMenu.css":1,"sites\/all\/modules\/custom\/responsive_footer\/responsive-footer.admin.css":1,"0":1,"http:\/\/fonts.googleapis.com\/css?family=Lato:300,700,700italic,900,italic,regular\u0026subset=latin":1,"sites\/all\/modules\/custom\/audity\/audity\/css\/audity.css":1,"sites\/all\/modules\/custom\/pi_ajax_links_api\/pi_ajax_links_api.css":1,"sites\/all\/modules\/custom\/pi_ajax_links_api\/nprogress\/nprogress.css":1,"sites\/all\/modules\/custom\/pi_content_types\/pi_program\/treatments\/program-promo\/program-promo.css":1,"sites\/all\/modules\/custom\/community_calendar\/lib\/typeahead\/typeahead.css":1,"sites\/all\/modules\/custom\/community_calendar\/lib\/datetimepicker\/jquery.timepicker.css":1,"sites\/all\/modules\/custom\/community_calendar\/lib\/datetimepicker\/bootstrap-datepicker3.standalone.min.css":1,"sites\/all\/modules\/custom\/npr_entities\/npr_fields\/npr_image_gallery\/css\/npr-image-gallery.css":1,"sites\/all\/modules\/custom\/community_calendar\/assets\/community-calendar.css":1,"sites\/all\/modules\/custom\/block_factory\/treatments\/promotional-large\/promotional-large.css":1,"sites\/all\/modules\/custom\/block_factory\/treatments\/promotional-small\/promotional-small.css":1,"sites\/all\/themes\/responso\/css\/icon-fonts.css":1,"sites\/all\/themes\/responso\/css\/screen.css":1}},"googleCSE":{"cx":"010251366440257945544:mcxgbkrqq9g","language":"","resultsWidth":600,"domain":"www.google.com","showWaterMark":true},"audityConfig":{"station":{"listenLabel":"Listen Live"},"streams":[{"desc":"St. Louis Public Radio KWMU-1","name":0,"url":"https:\/\/kwmu1-ice.streamguys1.com\/kwmu1","data":{"type":"composer2","ucs":"5182a93be1c876c6464716bd"}},{"desc":"Jazz KWMU-2","name":1,"url":"https:\/\/kwmu2-ice.streamguys1.com\/jazz-64 ","data":{"type":"composer2","ucs":"55f7033fe92bc66260264337"}},{"desc":"Classical KWMU-3","name":2,"url":"https:\/\/kwmu3-ice.streamguys1.com\/kwmu3 ","data":{"type":"composer2","ucs":"5182a971e1c88835113f34f6"}},{"desc":"The Bridge WQUB-2","name":3,"url":"https:\/\/kwmu2-ice.streamguys1.com\/bridge-96","data":{"type":"composer2","ucs":"5182a953e1c81754628b0a6f"}}],"analytics":{"acct":"aalp"},"ads":{"network":"1031771","units":{"audio":"SLPR_player_audio","display":"SLPR_player_display","leavebehind":"SLPR_player_leavebehind"}}},"responsive_ads":{"networkCode":"1031771","prefix":"SLPR","adUnitTypes":{"leaderboard":{"note":"Only shows above 1024; shows 970x90 or 728x90.","sizes":[{"viewportSize":[0,0],"slotSize":[]},{"viewportSize":[1024,200],"slotSize":[[970,90],[970,50],[728,90]]}]},"medium":{"note":"Won't be served on screens smaller than 640x480.","sizes":[{"viewportSize":[0,0],"slotSize":[]},{"viewportSize":[640,200],"slotSize":[300,250]}]},"tablet":{"note":"Won't be served on screens smaller than 640x480 or larger than 1024x768","sizes":[{"viewportSize":[0,0],"slotSize":[]},{"viewportSize":[640,200],"slotSize":[728,90]},{"viewportSize":[1024,200],"slotSize":[]}]},"mobile":{"note":"Won't be served on screens larger than 640x480.","sizes":[{"viewportSize":[0,0],"slotSize":[320,50]},{"viewportSize":[640,200],"slotSize":[]}]}},"adUnits":[{"name":"leaderboard_1","type":"leaderboard","width":728,"height":90},{"name":"player_display","type":"leaderboard","width":728,"height":90},{"name":"medium_1","type":"medium","width":300,"height":250},{"name":"medium_2","type":"medium","width":300,"height":250},{"name":"medium_3","type":"medium","width":300,"height":250},{"name":"tablet_1","type":"tablet","width":728,"height":90},{"name":"mobile_1","type":"mobile","width":320,"height":50}],"placements":{"leaderboard_1":"main#content","medium_1":"#block-pi-responsive-ads-medium-1 .content","medium_2":"#block-pi-responsive-ads-medium-2 .content","medium_3":"#block-pi-responsive-ads-medium-3 .content","tablet_1":"main#content","mobile_1":"#block-pi-responsive-ads-mobile-1 .content"},"persistentPlacements":[],"targeting":{"type":"agg","agg":"homepage"}},"tms_meta":[],"responsive_utilities":{"body_classes":"html front not-logged-in no-sidebars page-homepage fixed-header","custom_vars":{"nid":{"name":"nid","slot":8,"scope_id":3},"pop":{"name":"pop","slot":9,"scope_id":3},"author":{"name":"author","slot":11,"scope_id":3},"keywords":{"name":"tags","slot":12,"scope_id":3},"org_id":{"name":"org_id","slot":13,"scope_id":3},"brand":{"name":"CP_Station","slot":14,"scope_id":2},"has_audio":{"name":"Has_Inline_Audio","slot":15,"scope_id":3},"programs":{"name":"Program","slot":16,"scope_id":3},"category":{"name":"Category","slot":10,"scope_id":3},"datePublished":{"name":"PublishedDate","slot":17,"scope_id":3},"wordCount":{"name":"WordCount","slot":18,"scope_id":3},"story_id":{"name":"API_Story_Id","slot":19,"scope_id":3},"pmp_guid":{"name":"pmp_guid","slot":20,"scope_id":3}},"pagetype_vars":[{"page_type":"Content\/About","regex_pattern":"\/about(-us)?\/?$","pattern_name":"Core Publisher About Page"},{"page_type":"Events","regex_pattern":"\/events(\/|$)","pattern_name":"Core Publisher Events Page"},{"page_type":"People","regex_pattern":"\/people(\/|$)","pattern_name":"Core Publisher People Page"},{"page_type":"Playlist","regex_pattern":"\/search_playlists\/?$","pattern_name":"Core Publisher Playlist Page"},{"page_type":"Program","regex_pattern":"\/programs(\/|$)","pattern_name":"Core Publisher Program Page"},{"page_type":"Schedule","regex_pattern":"\/schedule(\/|$)","pattern_name":"Core Publisher Schedule Page"},{"page_type":"Search","regex_pattern":"\/search\/google\/?","pattern_name":"Core Publisher Search GSA Page"},{"page_type":"Story","regex_pattern":"\/post\/|\/webclip\/","pattern_name":"Core Publisher Story Page"},{"page_type":"Streaming","regex_pattern":"\/listen(-live)?\/?(#|$)","pattern_name":"Core Publisher Listen Live Page"}],"media_queries":{"mobile":"all and (max-width: 40em)","tablet":"screen and (min-width: 40.063em) and (max-width: 64em)","desktop":"screen and (min-width: 64.063em)"}},"pi_ajax_links_api":{"selector":"#page-document","trigger":"a.ajax-link,#page-wrapper a,a.logo,a.mobile-teaser-link,.dropdown a","negative_triggers":".dropdown .back a,.mobile .not-click \u003e a,#toolbar a,a.lightbox,.jp-interface a,.header .not-click \u003e a,.page-admin a,.page-block-factory a,a.give,.social-share a,#change-station,#rss-tablequeue a,a[href^=\"mailto:\"],.popup,a[href^=\"#\"],a:not([href]),ul.tabs\u003eli\u003ea,ul.contextual-links a,#table-queue-fleximenu a[target=\"_blank\"],.delete-button","scripts_included":0,"html5":1,"vpager":1}});
+//--><!]]>
+</script>
+    <meta name="viewport" content="width=device-width">
+  </head>
+
+  <body class="html front not-logged-in page-homepage fixed-header has-sidebar" >
+    <header role="banner" class="header">
+  <div class="skiptocontent"><a href="#main-content">skip to main content</a></div>
+    <div class="region region-header">
+    <div id="block-baby-bear-baby-bear-header" class="block block-baby-bear">
+
+    
+  <div class="content">
+    
+<div class="header-region-outer">
+  <section class="header-region-inner row">
+    <div class="branding large-12 columns">
+      <div class="brand-inner-wrapper">
+        <a href="/" rel="home" class="logo" title="St. Louis Public Radio Home"><img typeof="foaf:Image" src="http://mediad.publicbroadcasting.net/p/kwmu/files/201709/STLPR-CP-logo_0.png" alt="St. Louis Public Radio logo" title="St. Louis Public Radio Home" /></a>         <div class="tagline">
+                  </div>
+      </div>
+      <div class="header-utility">
+        <a class="trigger-nav" href="#">
+          <span class="icon-list"></span>
+          <span class="menu-text">Site Menu</span>
+        </a>
+        <a class="give" href="https://secure-kwmu.umsl.edu/alleg/WebModule/Donate.aspx?P=FY18W&PAGETYPE=PLG&CHECK=6%2fhcAhg5akniQl%2byqVkEd4HJipnY8PNT" >
+  Donate</a>
+      </div>
+    </div>
+  </section>
+</div>
+  </div>
+</div>
+  </div>
+</header>
+    <div class="nav-wrapper mobile">
+      <nav>
+        <div class="top-bar contain-to-grid" data-topbar>
+          <ul class="title-area">
+            <li class="toggle-topbar menu-icon">
+              <a href="#">Menu</a>
+            </li>
+          </ul>
+          <section class="top-bar-section">
+            <div class="table-queue" id="table-queue-fleximenu">
+  <ul  class="menu dropdown">
+<li class="dd has-dropdown not-click">
+<a href="/news">News Topics</a>
+<ul  class="dropdown">
+<li class="left">
+<a href="/term/arts-culture">Arts &amp; Culture</a>
+</li>
+<li class="left">
+<a href="/term/economy-innovation">Economy &amp; Innovation</a>
+</li>
+<li class="left">
+<a href="/term/education-0">Education</a>
+</li>
+<li class="left">
+<a href="/term/health-science">Health, Science, Environment</a>
+</li>
+<li class="left">
+<a href="/term/politics-issues">Politics &amp; Issues</a>
+</li>
+<li class="left">
+<a href="http://news.stlpublicradio.org/st-louis-regional-newscasts">Latest STLPR Newscast</a>
+</li>
+</ul>
+</li>
+<li class="dd has-dropdown not-click">
+<a href="http://news.stlpublicradio.org/term/top-stories">News Specials</a>
+<ul  class="dropdown">
+<li class="left">
+<a href="http://news.stlpublicradio.org/term/curious-louis">Curious Louis</a>
+</li>
+<li class="left">
+<a href="/topic/election-coverage-2018">Election Coverage</a>
+</li>
+<li class="left">
+<a href="http://apps.stlpublicradio.org/great-flood-25/">Great Flood of &#039;93: 25 Years Later</a>
+</li>
+<li class="left">
+<a href="http://apps.stlpublicradio.org/hear-ferguson/" target="_blank">One Year in Ferguson</a>
+</li>
+<li class="left">
+<a href="https://sharingamerica.news/" target="_blank">Sharing America: Race, Culture, Identity</a>
+</li>
+</ul>
+</li>
+<li class="dd has-dropdown not-click">
+<a href="/programs">Programs &amp; Podcasts</a>
+<ul  class="dropdown">
+<li class="left">
+<a href="/programs">Programs A-Z</a>
+</li>
+<li class="left">
+<a href="/schedule/week">Schedules</a>
+</li>
+<li class="left">
+<a href="http://news.stlpublicradio.org/programs/cut-paste">Cut &amp; Paste</a>
+</li>
+<li class="left">
+<a href="http://www.news.stlpublicradio.org/programs/jazz-unlimited">Jazz Unlimited</a>
+</li>
+<li class="left">
+<a href="http://news.stlpublicradio.org/programs/politically-speaking">Politically Speaking</a>
+</li>
+<li class="left">
+<a href="http://www.stlpublicradio.org/programs/black-white/index.php">STL History in Black &amp; White</a>
+</li>
+<li class="left">
+<a href="/content/st-louis-air">St. Louis on the Air</a>
+</li>
+<li class="left">
+<a href="https://www.stlpublicradio.org/programs/symphony/">St. Louis Symphony Orchestra</a>
+</li>
+<li class="left">
+<a href="http://welivehere.show" target="_blank">We Live Here</a>
+</li>
+</ul>
+</li>
+<li class="dd has-dropdown not-click">
+<a href="http://www.stlpublicradio.org/events/index.php">Events</a>
+<ul  class="dropdown">
+<li class="left">
+<a href="http://www.stlpublicradio.org/events/index.php">Station Events</a>
+</li>
+<li class="left">
+<a href="http://news.stlpublicradio.org/community-calendar">Community Calendar</a>
+</li>
+<li class="left">
+<a href="http://publicmediacommons.org/schedule/">Public Media Commons</a>
+</li>
+<li class="left">
+<a href="http://www.stlpublicradio.org/metroquest/">Metroquest</a>
+</li>
+</ul>
+</li>
+<li class="dd has-dropdown not-click">
+<a href="http://www.stlpublicradio.org/contact">Ways to Connect</a>
+<ul  class="dropdown">
+<li class="left">
+<a href="http://www.stlpublicradio.org/contact/">Contact Us</a>
+</li>
+<li class="left">
+<a href="http://stlpublicradio.org/enewsletter/">E-Newsletters</a>
+</li>
+<li class="left">
+<a href="http://stlpublicradio.org/generationlistenstl/">Generation Listen STL</a>
+</li>
+<li class="left">
+<a href="http://www.stlpublicradio.org/listen.php">Listening Options</a>
+</li>
+<li class="left">
+<a href="http://www.stlpublicradio.org/listenmobile.php">Mobile App</a>
+</li>
+<li class="left">
+<a href="http://news.stlpublicradio.org/podcasts-rss-feeds">Podcasts/RSS</a>
+</li>
+</ul>
+</li>
+<li class="dd has-dropdown not-click">
+<a href="http://www.stlpublicradio.org/support">Ways to Give</a>
+<ul  class="dropdown">
+<li class="left">
+<a href="https://secure-kwmu.umsl.edu/alleg/WebModule/Donate.aspx?P=FY18W&amp;PAGETYPE=PLG&amp;CHECK=6%2fhcAhg5akniQl%2byqVkEd4HJipnY8PNT">Donate</a>
+</li>
+<li class="left">
+<a href="http://www.stlpublicradio.org/support/">Learn More</a>
+</li>
+<li class="left">
+<a href="https://secure-kwmu.umsl.edu/alleg/WebModule/Donate.aspx?P=FY18W&amp;PAGETYPE=PLG&amp;CHECK=6%2fhcAhg5akniQl%2byqVkEd4HJipnY8PNT">Sustaining Membership</a>
+</li>
+<li class="left">
+<a href="http://www.stlpublicradio.org/support/membership/cornerstone.php">Cornerstone Society</a>
+</li>
+<li class="left">
+<a href="http://www.sponsorstlpublicradio.org" target="_blank">Corporate Support</a>
+</li>
+<li class="left">
+<a href="http://www.cardonationwizard.com/st-louis-public-radio/info/car-donation-st-louis-mo.html" target="_blank">Vehicle Donation</a>
+</li>
+<li class="left">
+<a href="http://www.stlpublicradio.org/support/otherwaystogive.php">Other Ways to Give</a>
+</li>
+</ul>
+</li>
+<li>
+<a href="/search/google">Search</a>
+</li>
+</ul>
+</div>
+          </section>
+        </div>
+      </nav>
+    </div>
+      <div class="region region-persistent">
+    <div id="block-audity-audity" class="block block-audity">
+
+    
+  <div class="content">
+      </div>
+</div>
+  </div>
+    <div id="page-wrapper">
+            <div id="page-document" role="document" class="page">
+  <div class="nav-wrapper">
+    <nav>
+      <div class="top-bar contain-to-grid" data-topbar>
+        <ul class="title-area">
+          <li class="toggle-topbar menu-icon">
+            <a href="#">Menu</a>
+          </li>
+        </ul>
+        <section class="top-bar-section">
+          <div class="table-queue" id="table-queue-fleximenu">
+  <ul  class="menu dropdown">
+<li class="dd has-dropdown not-click">
+<a href="/news">News Topics</a>
+<ul  class="dropdown">
+<li class="left">
+<a href="/term/arts-culture">Arts &amp; Culture</a>
+</li>
+<li class="left">
+<a href="/term/economy-innovation">Economy &amp; Innovation</a>
+</li>
+<li class="left">
+<a href="/term/education-0">Education</a>
+</li>
+<li class="left">
+<a href="/term/health-science">Health, Science, Environment</a>
+</li>
+<li class="left">
+<a href="/term/politics-issues">Politics &amp; Issues</a>
+</li>
+<li class="left">
+<a href="http://news.stlpublicradio.org/st-louis-regional-newscasts">Latest STLPR Newscast</a>
+</li>
+</ul>
+</li>
+<li class="dd has-dropdown not-click">
+<a href="http://news.stlpublicradio.org/term/top-stories">News Specials</a>
+<ul  class="dropdown">
+<li class="left">
+<a href="http://news.stlpublicradio.org/term/curious-louis">Curious Louis</a>
+</li>
+<li class="left">
+<a href="/topic/election-coverage-2018">Election Coverage</a>
+</li>
+<li class="left">
+<a href="http://apps.stlpublicradio.org/great-flood-25/">Great Flood of &#039;93: 25 Years Later</a>
+</li>
+<li class="left">
+<a href="http://apps.stlpublicradio.org/hear-ferguson/" target="_blank">One Year in Ferguson</a>
+</li>
+<li class="left">
+<a href="https://sharingamerica.news/" target="_blank">Sharing America: Race, Culture, Identity</a>
+</li>
+</ul>
+</li>
+<li class="dd has-dropdown not-click">
+<a href="/programs">Programs &amp; Podcasts</a>
+<ul  class="dropdown">
+<li class="left">
+<a href="/programs">Programs A-Z</a>
+</li>
+<li class="left">
+<a href="/schedule/week">Schedules</a>
+</li>
+<li class="left">
+<a href="http://news.stlpublicradio.org/programs/cut-paste">Cut &amp; Paste</a>
+</li>
+<li class="left">
+<a href="http://www.news.stlpublicradio.org/programs/jazz-unlimited">Jazz Unlimited</a>
+</li>
+<li class="left">
+<a href="http://news.stlpublicradio.org/programs/politically-speaking">Politically Speaking</a>
+</li>
+<li class="left">
+<a href="http://www.stlpublicradio.org/programs/black-white/index.php">STL History in Black &amp; White</a>
+</li>
+<li class="left">
+<a href="/content/st-louis-air">St. Louis on the Air</a>
+</li>
+<li class="left">
+<a href="https://www.stlpublicradio.org/programs/symphony/">St. Louis Symphony Orchestra</a>
+</li>
+<li class="left">
+<a href="http://welivehere.show" target="_blank">We Live Here</a>
+</li>
+</ul>
+</li>
+<li class="dd has-dropdown not-click">
+<a href="http://www.stlpublicradio.org/events/index.php">Events</a>
+<ul  class="dropdown">
+<li class="left">
+<a href="http://www.stlpublicradio.org/events/index.php">Station Events</a>
+</li>
+<li class="left">
+<a href="http://news.stlpublicradio.org/community-calendar">Community Calendar</a>
+</li>
+<li class="left">
+<a href="http://publicmediacommons.org/schedule/">Public Media Commons</a>
+</li>
+<li class="left">
+<a href="http://www.stlpublicradio.org/metroquest/">Metroquest</a>
+</li>
+</ul>
+</li>
+<li class="dd has-dropdown not-click">
+<a href="http://www.stlpublicradio.org/contact">Ways to Connect</a>
+<ul  class="dropdown">
+<li class="left">
+<a href="http://www.stlpublicradio.org/contact/">Contact Us</a>
+</li>
+<li class="left">
+<a href="http://stlpublicradio.org/enewsletter/">E-Newsletters</a>
+</li>
+<li class="left">
+<a href="http://stlpublicradio.org/generationlistenstl/">Generation Listen STL</a>
+</li>
+<li class="left">
+<a href="http://www.stlpublicradio.org/listen.php">Listening Options</a>
+</li>
+<li class="left">
+<a href="http://www.stlpublicradio.org/listenmobile.php">Mobile App</a>
+</li>
+<li class="left">
+<a href="http://news.stlpublicradio.org/podcasts-rss-feeds">Podcasts/RSS</a>
+</li>
+</ul>
+</li>
+<li class="dd has-dropdown not-click">
+<a href="http://www.stlpublicradio.org/support">Ways to Give</a>
+<ul  class="dropdown">
+<li class="left">
+<a href="https://secure-kwmu.umsl.edu/alleg/WebModule/Donate.aspx?P=FY18W&amp;PAGETYPE=PLG&amp;CHECK=6%2fhcAhg5akniQl%2byqVkEd4HJipnY8PNT">Donate</a>
+</li>
+<li class="left">
+<a href="http://www.stlpublicradio.org/support/">Learn More</a>
+</li>
+<li class="left">
+<a href="https://secure-kwmu.umsl.edu/alleg/WebModule/Donate.aspx?P=FY18W&amp;PAGETYPE=PLG&amp;CHECK=6%2fhcAhg5akniQl%2byqVkEd4HJipnY8PNT">Sustaining Membership</a>
+</li>
+<li class="left">
+<a href="http://www.stlpublicradio.org/support/membership/cornerstone.php">Cornerstone Society</a>
+</li>
+<li class="left">
+<a href="http://www.sponsorstlpublicradio.org" target="_blank">Corporate Support</a>
+</li>
+<li class="left">
+<a href="http://www.cardonationwizard.com/st-louis-public-radio/info/car-donation-st-louis-mo.html" target="_blank">Vehicle Donation</a>
+</li>
+<li class="left">
+<a href="http://www.stlpublicradio.org/support/otherwaystogive.php">Other Ways to Give</a>
+</li>
+</ul>
+</li>
+<li>
+<a href="/search/google">Search</a>
+</li>
+</ul>
+</div>
+        </section>
+      </div>
+    </nav>
+  </div>
+
+  <div id="player" class="player">
+      </div>
+
+  
+      <section class="pre-content">
+      <div>
+          <div class="region region-pre-content">
+    <div id="block-pi-responsive-ads-mobile-1" class="block block-pi-responsive-ads">
+
+    
+  <div class="content">
+      </div>
+</div>
+  </div>
+      </div>
+    </section>
+  
+  
+  
+  <div class="row">
+    <main id="content" role="main" class="main-content small-12 columns">
+      <article class="story">
+        <a id="main-content"></a>
+        
+                                    
+        
+                  <div class="regions-ab-outer">
+            <div class="regions-ab-inner">
+        
+                  <div class="region-a">
+              <div class="region region-region-a">
+    <div id="block-block-factory-block-factory-55723268458a5" class="block block-block-factory">
+
+    
+  <div class="content">
+    <div class="three-stories-treatment bf-outer-wrapper clearfix">
+  <div class="bf-inner-wrapper bf-hero">
+      <figure class="bf-image-wrapper  with-image">
+    <a href="/post/missouri-one-4-states-don-t-allow-teachers-be-lawmakers">
+<div class="card-image-container">
+  <figure>
+    <a title="File photo I Carolina Hidalgo | St. Louis Public Radio" href="/post/missouri-one-4-states-don-t-allow-teachers-be-lawmakers" class="noexit">
+    <img class="multiple" src="http://mediad.publicbroadcasting.net/p/kwmu/files/styles/medium/public/201705/051217_CH_molegend17_06.JPG" alt="House Republicans talk during the last day of the legislative session. May 17, 2017">
+          </a>
+
+        <div class="image-meta">
+      <figcaption>
+        <div class="credit">
+          File photo I Carolina Hidalgo | St. Louis Public Radio        </div>
+      </figcaption>
+    </div>
+      </figure>
+</div>
+</a>  </figure>
+
+<div class="bf-text-wrapper  with-image">
+  <h2 class="bf-post-title"><a href="/post/missouri-one-4-states-don-t-allow-teachers-be-lawmakers">Missouri is one of 4 states that don’t allow teachers to be lawmakers</a></h2>
+  <div class="bf-body">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>Missouri public school teachers educate their students on civics and the workings of government, but those same teachers aren’t allowed to participate in governing the state. Missouri is one of four states where active public school teachers cannot also serve in their state legislature, according to a review of National Conference of State Legislatures data by Education Week .</p></div></div></div>  </div>
+
+  <a href="/post/missouri-one-4-states-don-t-allow-teachers-be-lawmakers" class="bf-read-more">Read More</a>
+</div>
+
+<div class="content  with-image">
+  </div>
+  </div>
+  <div class="bf-inner-wrapper bf-sidekick-group">
+    <div class="bf-sidekick">
+        <figure class="bf-image-wrapper  with-image">
+    <a href="/post/mlk-bridge-shut-down-1-year-starting-monday">
+<div class="card-image-container">
+  <figure>
+    <a title="Sarah Kellogg | St. Louis Public Radio" href="/post/mlk-bridge-shut-down-1-year-starting-monday" class="noexit">
+    <img class="multiple" src="http://mediad.publicbroadcasting.net/p/kwmu/files/styles/medium/public/201808/0826_SK_MLK_01.jpg" alt="The Martin Luther King Jr. Bridge, built in 1951, is a major thoroughfare connecting Illinois and downtown St. Louis.">
+          </a>
+
+        <div class="image-meta">
+      <figcaption>
+        <div class="credit">
+          Sarah Kellogg | St. Louis Public Radio        </div>
+      </figcaption>
+    </div>
+      </figure>
+</div>
+</a>  </figure>
+
+<h2 class="bf-post-title  with-image"><a href="/post/mlk-bridge-shut-down-1-year-starting-monday">MLK Bridge to shut down for 1 year, starting Monday</a></h2>
+
+<div class="content">
+  </div>
+    </div>
+    <div class="bf-sidekick">
+        <figure class="bf-image-wrapper  with-image contains-audio">
+    <a href="/post/carmen-dence-s-grupo-atlantico-invites-everyone-celebrate-her-heritage-and-theirs">
+<div class="card-image-container">
+  <figure>
+    <a title="Nancy Fowler | St. Louis Public Radio" href="/post/carmen-dence-s-grupo-atlantico-invites-everyone-celebrate-her-heritage-and-theirs" class="noexit">
+    <img class="multiple" src="http://mediad.publicbroadcasting.net/p/kwmu/files/styles/medium/public/201808/082318_NF_grupoatlantico_0102.JPG" alt="Tihara Mari rehearses with Grupo Atlantico at the home of founder Carmen Dence.">
+          </a>
+
+        <div class="image-meta">
+      <figcaption>
+        <div class="credit">
+          Nancy Fowler | St. Louis Public Radio        </div>
+      </figcaption>
+    </div>
+      </figure>
+</div>
+</a>  </figure>
+
+<h2 class="bf-post-title  with-image contains-audio"><a href="/post/carmen-dence-s-grupo-atlantico-invites-everyone-celebrate-her-heritage-and-theirs">Carmen Dence’s Grupo Atlantico invites everyone to celebrate her heritage — and theirs </a></h2>
+
+<div class="content">
+  </div>
+    </div>
+  </div>
+</div>
+  </div>
+</div>
+<div id="block-npr-river-npr-river-block-all" class="block block-npr-river">
+
+    
+  <div class="content">
+    
+<div class="npr-river-all">
+  
+<div id="node-61885" class="node-teaser node node-post node-promoted npr_river_card row" about="/post/shareholders-approve-express-scripts-cigna-merger" typeof="sioc:Item foaf:Document">
+  <div class="large-12 columns">
+    <a class="mobile-teaser-link" href="/post/shareholders-approve-express-scripts-cigna-merger"></a>
+    <div class='title-info'>
+      <h2  property="dc:title" datatype="" itemprop="name"><a href="/post/shareholders-approve-express-scripts-cigna-merger">Shareholders approve Express Scripts-Cigna merger</a></h2>
+              <div class="by-date">
+          <span class="submitted"><span class="submitted-label">By</span> <span class="name"><a href="/people/melody-walker" rel="author">Melody Walker</a></span></span>
+          <i class="bullet">&#8226;</i>
+          <span class="pub-date">Aug 24,  2018 </span>
+        </div>
+          </div>
+
+    <div class="content">
+      
+<div class="card-image-container">
+  <figure>
+    <a title="Express Scripts" href="/post/shareholders-approve-express-scripts-cigna-merger" class="noexit">
+    <img class="multiple" src="http://mediad.publicbroadcasting.net/p/kwmu/files/styles/medium/public/201604/0426ExpressScriptsHQ.jpg" alt="Express Scripts headquarters">
+          </a>
+
+        <div class="image-meta">
+      <figcaption>
+        <div class="credit">
+          Express Scripts        </div>
+      </figcaption>
+    </div>
+      </figure>
+</div>
+<div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p><p>The merger between Express Scripts and Cigna won approval from shareholders of both companies on Friday.</p> <p>The vote was overwhelmingly in favor of combining Express Scripts, the St. Louis-based pharmacy benefit management company, and the Connecticut-based health service corporation.</p> <p>Cigna made its $67 billion cash and stock offer in March. Following shareholder approval, the merger agreement will be reviewed by the Department of Justice, and barring any anti-trust complications, could be approved by the end of this year.</p></p></div></div></div>    </div>
+
+      </div>
+</div>
+
+<div id="node-61855" class="node-teaser node node-post node-promoted npr_river_card row" about="/post/2-metro-east-reporters-take-close-look-perceptions-realities-surrounding-transit-safety" typeof="sioc:Item foaf:Document">
+  <div class="large-12 columns">
+    <a class="mobile-teaser-link" href="/post/2-metro-east-reporters-take-close-look-perceptions-realities-surrounding-transit-safety"></a>
+    <div class='title-info'>
+      <h2  property="dc:title" datatype="" itemprop="name"><a href="/post/2-metro-east-reporters-take-close-look-perceptions-realities-surrounding-transit-safety">2 Metro East reporters take close look at perceptions, realities surrounding transit safety concerns</a></h2>
+              <div class="by-date">
+          <span class="submitted"><span class="submitted-label">By</span> <span class="name"><a href="/people/evie-hemphill" rel="author">Evie Hemphill</a></span></span>
+          <i class="bullet">&#8226;</i>
+          <span class="pub-date">Aug 24,  2018 </span>
+        </div>
+          </div>
+
+    <div class="content">
+      
+<div class="card-image-container">
+  <figure>
+    <a title="Evie Hemphill | St. Louis Public Radio" href="/post/2-metro-east-reporters-take-close-look-perceptions-realities-surrounding-transit-safety" class="noexit">
+    <img class="multiple" src="http://mediad.publicbroadcasting.net/p/kwmu/files/styles/medium/public/201808/072518_EH_MetroLinkImage.jpg" alt="A new Belleville News-Democrat investigation challenges common perceptions about how safe MetroLink is.">
+          </a>
+
+        <div class="image-meta">
+      <figcaption>
+        <div class="credit">
+          Evie Hemphill | St. Louis Public Radio        </div>
+      </figcaption>
+    </div>
+      </figure>
+</div>
+<div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p><p>Early Tuesday morning, the Belleville News-Democrat published <a data-mce-="" href="https://www.bnd.com/news/local/article210317754.html">an in-depth investigation</a> into just how safe the St. Louis region’s MetroLink light-rail system is, ultimately concluding that it “isn’t as dangerous as you think” and that crime rates have declined.</p> <p>Hours later, <a data-mce-="" href="http://news.stlpublicradio.org/post/st-louis-county-public-health-spokesman-killed-gunfire-metro-station">a man was shot and killed</a> at the South Grand Boulevard Metro station during an argument between two other people. He was an innocent bystander waiting for a bus.</p> <p>On Friday’s <em>St. Louis on the Air</em>, host Don Marsh led an on-air discussion prompted by this juxtaposition.</p> <p></p></div></div></div>    </div>
+
+      </div>
+</div>
+
+<div id="node-61883" class="node-teaser node node-post node-promoted npr_river_card row" about="/post/illinois-forum-tackles-fiscal-issues-population-loss" typeof="sioc:Item foaf:Document">
+  <div class="large-12 columns">
+    <a class="mobile-teaser-link" href="/post/illinois-forum-tackles-fiscal-issues-population-loss"></a>
+    <div class='title-info'>
+      <h2  property="dc:title" datatype="" itemprop="name"><a href="/post/illinois-forum-tackles-fiscal-issues-population-loss">Illinois forum tackles fiscal issues, population loss</a></h2>
+              <div class="by-date">
+          <span class="submitted"><span class="submitted-label">By</span> <span class="name"><a href="/people/mary-edwards" rel="author">Mary Edwards</a></span></span>
+          <i class="bullet">&#8226;</i>
+          <span class="pub-date">Aug 24,  2018 </span>
+        </div>
+          </div>
+
+    <div class="content">
+      
+<div class="card-image-container">
+  <figure>
+    <a title="Mary Edwards | St. Louis Public Radio" href="/post/illinois-forum-tackles-fiscal-issues-population-loss" class="noexit">
+    <img class="multiple" src="http://mediad.publicbroadcasting.net/p/kwmu/files/styles/medium/public/201808/Illinois_Forum_Alton081618.jpg" alt="From left, Sara McGibany, Nathan Grimm, Susie Harris and Sean Crawford">
+          </a>
+
+        <div class="image-meta">
+      <figcaption>
+        <div class="credit">
+          Mary Edwards | St. Louis Public Radio        </div>
+      </figcaption>
+    </div>
+      </figure>
+</div>
+<div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p><p>During this election season, NPR Illinois, the public radio station in Springfield, is partnering with stations across the state and AARP on a series of forums examining fiscal solutions to the prominent issues in the upcoming Illinois elections and exploring why people are leaving Illinois. The forum in the Metro East area was held Aug. 16 at the Post Commons in Alton.</p> <p></p></div></div></div>    </div>
+
+      </div>
+</div>
+
+<div id="node-61882" class="node-teaser node node-post node-promoted npr_river_card row" about="/post/politically-speaking-trump-factor-how-president-will-affect-missouri-s-senate-contest" typeof="sioc:Item foaf:Document">
+  <div class="large-12 columns">
+    <a class="mobile-teaser-link" href="/post/politically-speaking-trump-factor-how-president-will-affect-missouri-s-senate-contest"></a>
+    <div class='title-info'>
+      <h2  property="dc:title" datatype="" itemprop="name"><a href="/post/politically-speaking-trump-factor-how-president-will-affect-missouri-s-senate-contest">Politically Speaking: The Trump Factor: How the president will affect Missouri’s Senate contest</a></h2>
+              <div class="by-date">
+          <span class="submitted"><span class="submitted-label">By</span> <span class="name"><a href="/people/jason-rosenbaum" rel="author">Jason Rosenbaum</a> & <a href="/people/jo-mannies" rel="author">Jo Mannies</a></span></span>
+          <i class="bullet">&#8226;</i>
+          <span class="pub-date">Aug 24,  2018 </span>
+        </div>
+          </div>
+
+    <div class="content">
+      
+<div class="card-image-container">
+  <figure>
+    <a title="File photo I Carolina Hidalgo | St. Louis Public Radio" href="/post/politically-speaking-trump-factor-how-president-will-affect-missouri-s-senate-contest" class="noexit">
+    <img class="multiple" src="http://mediad.publicbroadcasting.net/p/kwmu/files/styles/medium/public/201803/031418_CH_TrumpLambert_02_2.jpg" alt="President Donald Trump arrives at St. Louis Lambert International Airport to attend a fundraiser for GOP U.S. Senate hopeful Josh Hawley.">
+          </a>
+
+        <div class="image-meta">
+      <figcaption>
+        <div class="credit">
+          File photo I Carolina Hidalgo | St. Louis Public Radio        </div>
+      </figcaption>
+    </div>
+      </figure>
+</div>
+<div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p><p>This week’s Politically Speaking zeroes in on how President Donald Trump will affect Missouri’s election cycle — particularly U.S. Sen. Claire McCaskill’s re-election bid against Attorney General Josh Hawley.</p> <p>On the surface, Trump should benefit Hawley — especially because the GOP chief executive won Missouri by nearly 19 percentage points in 2016. Missouri’s public opinion polls show his approval ratings hovering around 50 percent. But Trump has faced a torrent of controversy this week with the Paul Manafort and Michael Cohen court proceedings.</p> <p></p></div></div></div>    </div>
+
+      </div>
+</div>
+
+<div id="node-61879" class="node-teaser node node-post node-promoted npr_river_card row" about="/post/east-st-louis-festival-sunday-will-celebrate-citys-history-and-illinois-bicentennial" typeof="sioc:Item foaf:Document">
+  <div class="large-12 columns">
+    <a class="mobile-teaser-link" href="/post/east-st-louis-festival-sunday-will-celebrate-citys-history-and-illinois-bicentennial"></a>
+    <div class='title-info'>
+      <h2  property="dc:title" datatype="" itemprop="name"><a href="/post/east-st-louis-festival-sunday-will-celebrate-citys-history-and-illinois-bicentennial">East St. Louis festival on Sunday will celebrate city&#039;s history and Illinois bicentennial </a></h2>
+              <div class="by-date">
+          <span class="submitted"><span class="submitted-label">By</span> <span class="name"><a href="/people/mary-delach-leonard" rel="author">Mary Delach Leonard</a></span></span>
+          <i class="bullet">&#8226;</i>
+          <span class="pub-date">Aug 24,  2018 </span>
+        </div>
+          </div>
+
+    <div class="content">
+      
+<div class="card-image-container">
+  <figure>
+    <a title="Provided by lllinois Bicentennial Commission" href="/post/east-st-louis-festival-sunday-will-celebrate-citys-history-and-illinois-bicentennial" class="noexit">
+    <img class="multiple" src="http://mediad.publicbroadcasting.net/p/kwmu/files/styles/medium/public/201808/082318_provided_Joyner-Kersee_01_1.jpg" alt="Olympic gold medalist Jackie Joyner-Kersee will be at the East St. Louis Heritage Festival on Sunday. Aug. 26, 2018">
+          </a>
+
+        <div class="image-meta">
+      <figcaption>
+        <div class="credit">
+          Provided by lllinois Bicentennial Commission        </div>
+      </figcaption>
+    </div>
+      </figure>
+</div>
+<div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p><p>East St. Louis will celebrate its own rich history on Sunday as it joins about a dozen Illinois cities holding celebrations to mark the state’s bicentennial.</p> <p>The <a href="https://illinois200.com/events/illinois-bicentennial-celebration-jackie-joyner-kersee-community-center/">East St. Louis Heritage Festival </a>at the Jackie Joyner-Kersee Center will note the 200th anniversary of the state’s first constitution, signed in Kaskaskia on Aug. 26, 1818. The festival also will celebrate remarkable East St. Louisans, like iconic jazz trumpeter Miles Davis, Olympic gold medalist Joyner-Kersee, and others.</p> <p></p></div></div></div>    </div>
+
+      </div>
+</div>
+
+<div id="node-61835" class="node-teaser node node-post node-promoted npr_river_card contains-audio row" about="/post/curious-louis-answers-what-happens-all-those-used-baseballs-busch-stadium" typeof="sioc:Item foaf:Document">
+  <div class="large-12 columns">
+    <a class="mobile-teaser-link" href="/post/curious-louis-answers-what-happens-all-those-used-baseballs-busch-stadium"></a>
+    <div class='title-info'>
+      <h2  property="dc:title" datatype="" itemprop="name"><a href="/post/curious-louis-answers-what-happens-all-those-used-baseballs-busch-stadium">Curious Louis answers: What happens to all those used baseballs at Busch Stadium?</a></h2>
+              <div class="by-date">
+          <span class="submitted"><span class="submitted-label">By</span> <span class="name"><a href="/people/mary-delach-leonard" rel="author">Mary Delach Leonard</a></span></span>
+          <i class="bullet">&#8226;</i>
+          <span class="pub-date">Aug 24,  2018 </span>
+        </div>
+          </div>
+
+    <div class="content">
+      
+<div class="card-image-container">
+  <figure>
+    <a title="David Kovaluk | St. Louis Public Radio" href="/post/curious-louis-answers-what-happens-all-those-used-baseballs-busch-stadium" class="noexit">
+    <img class="multiple" src="http://mediad.publicbroadcasting.net/p/kwmu/files/styles/medium/public/201808/081618-dk-cl_gameballs_12-picking_up_the_balls__1_.jpg" alt="Ralph Toenjes carries game-used baseballs during an Aug. 16 game from the Cardinals&#039; dugout to the Authentics Shop in the right field concourse of Busch Stadium. ">
+          </a>
+
+        <div class="image-meta">
+      <figcaption>
+        <div class="credit">
+          David Kovaluk | St. Louis Public Radio        </div>
+      </figcaption>
+    </div>
+      </figure>
+</div>
+<div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p><p>What happens to all those used baseballs the umpires toss out of games at Busch Stadium?</p> <p>After Keith Duncan of St. Louis submitted that question to our <a href="http://news.stlpublicradio.org/term/curious-louis#stream/0" target="_blank">Curious Louis</a> feature, we went to the Aug. 16 game between the Cardinals and Washington Nationals to find out.</p> <p>That’s where we found Ralph Toenjes hard at work, happily greeting fans at the Authentics Shop, located behind center field. Toenjes sells memorabilia, including used baseballs, fresh from the field. During games, it’s his job to fetch baseballs from the Cardinals dugout every two or three innings.</p> <p></p></div></div></div>    </div>
+
+      </div>
+</div>
+
+<div id="node-61877" class="node-teaser node node-post node-promoted npr_river_card row" about="/post/u-city-tif-advances-after-months-contention-over-future-3rd-ward" typeof="sioc:Item foaf:Document">
+  <div class="large-12 columns">
+    <a class="mobile-teaser-link" href="/post/u-city-tif-advances-after-months-contention-over-future-3rd-ward"></a>
+    <div class='title-info'>
+      <h2  property="dc:title" datatype="" itemprop="name"><a href="/post/u-city-tif-advances-after-months-contention-over-future-3rd-ward">U City TIF advances after months of contention over future of 3rd Ward</a></h2>
+              <div class="by-date">
+          <span class="submitted"><span class="submitted-label">By</span> <span class="name"><a href="/people/ashley-lisenby" rel="author">Ashley Lisenby</a></span></span>
+          <i class="bullet">&#8226;</i>
+          <span class="pub-date">Aug 24,  2018 </span>
+        </div>
+          </div>
+
+    <div class="content">
+      
+<div class="card-image-container">
+  <figure>
+    <a title="Carolina Hidalgo | St. Louis Public Radio" href="/post/u-city-tif-advances-after-months-contention-over-future-3rd-ward" class="noexit">
+    <img class="multiple" src="http://mediad.publicbroadcasting.net/p/kwmu/files/styles/medium/public/201804/041918_CH_jeffreyplaza_01.JPG" alt="Business owners in Jeffrey Plaza on Olive Boulevard say they have not been receiving updates about a proposed development that would displace them.">
+          </a>
+
+        <div class="image-meta">
+      <figcaption>
+        <div class="credit">
+          Carolina Hidalgo | St. Louis Public Radio        </div>
+      </figcaption>
+    </div>
+      </figure>
+</div>
+<div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p><p>The University City Tax Increment Financing commission approved a proposal Thursday that would release millions of dollars in money for development in the 3rd Ward. The commission voted 10-2 in favor of the financing plan.</p> <p>But residents remained split on how the city should bring those improvements to fruition.</p> <p>Much of the redevelopment proposal hinges on the first phase of the plan secured by local company Novus Development. The plans would bring big box retail and high-end living to a location near Interstate 170 and Olive Boulevard.</p></p></div></div></div>    </div>
+
+      </div>
+</div>
+
+<div id="node-61852" class="node-teaser node node-post node-promoted npr_river_card row" about="/post/gathering-will-remember-kiwi-herring-black-transgender-woman-shot-and-killed-police" typeof="sioc:Item foaf:Document">
+  <div class="large-12 columns">
+    <a class="mobile-teaser-link" href="/post/gathering-will-remember-kiwi-herring-black-transgender-woman-shot-and-killed-police"></a>
+    <div class='title-info'>
+      <h2  property="dc:title" datatype="" itemprop="name"><a href="/post/gathering-will-remember-kiwi-herring-black-transgender-woman-shot-and-killed-police">Gathering will remember Kiwi Herring, black, transgender woman shot and killed by police</a></h2>
+              <div class="by-date">
+          <span class="submitted"><span class="submitted-label">By</span> <span class="name"><a href="/people/nancy-fowler" rel="author">Nancy Fowler</a></span></span>
+          <i class="bullet">&#8226;</i>
+          <span class="pub-date">Aug 23,  2018 </span>
+        </div>
+          </div>
+
+    <div class="content">
+      
+<div class="card-image-container">
+  <figure>
+    <a title="Carolina Hidalgo | St. Louis Public Radio " href="/post/gathering-will-remember-kiwi-herring-black-transgender-woman-shot-and-killed-police" class="noexit">
+    <img class="multiple" src="http://mediad.publicbroadcasting.net/p/kwmu/files/styles/medium/public/201808/082217_ch_kiwiherringvigil_06_2.jpg" alt="Mourners gather to remember Kiwi Herring in August 2017, in this file photo.">
+          </a>
+
+        <div class="image-meta">
+      <figcaption>
+        <div class="credit">
+          Carolina Hidalgo | St. Louis Public Radio         </div>
+      </figcaption>
+    </div>
+      </figure>
+</div>
+<div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p><p>Members of the LGBTQ community and others will gather Friday at Transgender Memorial Garden to commemorate <a href="http://news.stlpublicradio.org/post/transgender-woman-s-death-highlights-toll-violence-and-community-distrust-police#stream/0" target="_blank">Kiwi Herring</a>, a black, transgender woman killed last year by police.</p> <p>Two police officers shot Herring last August while they were investigating a reported stabbing in the apartment building where Herring lived with her partner and three children.</p> <p></p></div></div></div>    </div>
+
+      </div>
+</div>
+
+<div id="node-61858" class="node-teaser node node-post node-promoted npr_river_card row" about="/post/missouri-state-auditor-calls-more-oversight-community-improvement-districts" typeof="sioc:Item foaf:Document">
+  <div class="large-12 columns">
+    <a class="mobile-teaser-link" href="/post/missouri-state-auditor-calls-more-oversight-community-improvement-districts"></a>
+    <div class='title-info'>
+      <h2  property="dc:title" datatype="" itemprop="name"><a href="/post/missouri-state-auditor-calls-more-oversight-community-improvement-districts">Missouri state auditor calls for more oversight of Community Improvement Districts</a></h2>
+              <div class="by-date">
+          <span class="submitted"><span class="submitted-label">By</span> <span class="name"><a href="/people/melody-walker" rel="author">Melody Walker</a></span></span>
+          <i class="bullet">&#8226;</i>
+          <span class="pub-date">Aug 23,  2018 </span>
+        </div>
+          </div>
+
+    <div class="content">
+      
+<div class="card-image-container">
+  <figure>
+    <a title="Melody Walker | St. Louis Public Radio " href="/post/missouri-state-auditor-calls-more-oversight-community-improvement-districts" class="noexit">
+    <img class="multiple" src="http://mediad.publicbroadcasting.net/p/kwmu/files/styles/medium/public/201808/2016-01-21_22.52.22.jpg" alt="Missouri State Auditor Nicole Galloway releases audit of state&#039;s 400 Community Improvement Districts CIDs">
+          </a>
+
+        <div class="image-meta">
+      <figcaption>
+        <div class="credit">
+          Melody Walker | St. Louis Public Radio         </div>
+      </figcaption>
+    </div>
+      </figure>
+</div>
+<div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p><p>Missouri State Auditor Nicole Galloway was in St. Louis Thursday to present <a href="https://app.auditor.mo.gov/Repository/Press/2018056182702.pdf" target="_blank">her report</a> on more than 400 Community Improvement Districts around the state.</p> <p>The first-ever audit of the special tax districts, better known as CIDs, found a general lack of accountability and failure to comply with state laws regarding budget preparation, annual financial and performance reporting, annual meetings and the Sunshine Law.</p> <p></p></div></div></div>    </div>
+
+      </div>
+</div>
+
+<div id="node-61856" class="node-teaser node node-post node-promoted npr_river_card row" about="/post/missouri-division-i-basketball-coaches-aim-offer-potential-students-coaches-leadership-advice" typeof="sioc:Item foaf:Document">
+  <div class="large-12 columns">
+    <a class="mobile-teaser-link" href="/post/missouri-division-i-basketball-coaches-aim-offer-potential-students-coaches-leadership-advice"></a>
+    <div class='title-info'>
+      <h2  property="dc:title" datatype="" itemprop="name"><a href="/post/missouri-division-i-basketball-coaches-aim-offer-potential-students-coaches-leadership-advice">Missouri Division I basketball coaches aim to offer potential students, coaches leadership advice</a></h2>
+              <div class="by-date">
+          <span class="submitted"><span class="submitted-label">By</span> <span class="name"><a href="/people/chad-davis" rel="author">Chad Davis</a></span></span>
+          <i class="bullet">&#8226;</i>
+          <span class="pub-date">Aug 23,  2018 </span>
+        </div>
+          </div>
+
+    <div class="content">
+      
+<div class="card-image-container">
+  <figure>
+    <a title="Ryan Delaney | St. Louis Public Radio" href="/post/missouri-division-i-basketball-coaches-aim-offer-potential-students-coaches-leadership-advice" class="noexit">
+    <img class="multiple" src="http://mediad.publicbroadcasting.net/p/kwmu/files/styles/medium/public/201803/032418_RD_YMCAbasketball-15.jpg" alt="Marcus Wilson, the executive director for the Monsanto YMCA, gathers with players in their prayer circle. On Saturdays, Wilson allows players to play basketball for free to allow the players a safe space away from violence. ">
+          </a>
+
+        <div class="image-meta">
+      <figcaption>
+        <div class="credit">
+          Ryan Delaney | St. Louis Public Radio        </div>
+      </figcaption>
+    </div>
+      </figure>
+</div>
+<div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p><p>College basketball coaches from across Missouri are coming together to discuss the importance of leadership and how they recruit incoming student athletes, just in time for the new school year.</p> <p>These issues are among several topics that will be discussed at the first annual Coaches Luncheon on Aug. 27, where regional NCAA Division I basketball coaches will  discuss the issues and strengths they see in both students and coaches.</p> <p></p></div></div></div>    </div>
+
+      </div>
+</div>
+</div><h2 class="element-invisible">Pages</h2><div class="item-list"><ul class="pager"><li class="pager-current first">1</li>
+<li class="pager-item"><a href="/homepage?page=1" title="Go to page 2" class="active">2</a></li>
+<li class="pager-item"><a href="/homepage?page=2" title="Go to page 3" class="active">3</a></li>
+<li class="pager-item"><a href="/homepage?page=3" title="Go to page 4" class="active">4</a></li>
+<li class="pager-ellipsis">…</li>
+<li class="pager-next"><a href="/homepage?page=1" title="Go to next page" class="active">next ›</a></li>
+<li class="pager-last last"><a href="/homepage?page=3333" title="Go to last page" class="active">last »</a></li>
+</ul></div>  </div>
+</div>
+  </div>
+          </div>
+        
+                  <div class="region-b">
+              <div class="region region-region-b">
+    <div id="block-pi-responsive-ads-medium-1" class="block block-pi-responsive-ads">
+
+    
+  <div class="content">
+      </div>
+</div>
+<div id="block-block-factory-block-factory-552fc7d2d9040" class="block block-block-factory">
+
+    <h2 class="block-title">St. Louis on the Air</h2>
+  
+  <div class="content">
+    <style type="text/css">#promo-small-552fc7d2d9040 .promo-small-treatment { background-color: #F5F5F5; } #promo-small-552fc7d2d9040 .promo-small-heading { color: #404040; } #promo-small-552fc7d2d9040 .promo-small-heading a { color: #404040; } #promo-small-552fc7d2d9040 .promo-small-teaser { color: #404040; } #promo-small-552fc7d2d9040 .promo-small-cta { border-color: #404040; color: #404040; opacity: 1; transition: all .15s ease; } #promo-small-552fc7d2d9040 .promo-small-cta:hover { color: #404040; opacity: 0.6; }</style><div id="promo-small-552fc7d2d9040">
+  <div class="promo-small-treatment clearfix" >
+          <figure class="promo-small-image">
+        <a href="http://news.stlpublicradio.org/post/monday-addressing-maternal-and-infant-mortality-rates-among-risk-women#stream/0" class="linked-image"><img typeof="foaf:Image" src="http://mediad.publicbroadcasting.net/p/kwmu/files/styles/medium/public/201806/SLOTA-logo-alt-L.png" alt="" /></a>      </figure>
+    
+        <div class="promo-small-text-wrapper">
+              <h2 class="promo-small-heading"><a href="http://news.stlpublicradio.org/post/monday-addressing-maternal-and-infant-mortality-rates-among-risk-women#stream/0">Monday: Addressing disparities in maternal and infant mortality rates</a></h2>
+      
+              <p class="promo-small-teaser">Host Don Marsh will talk about how Ferguson-based Jamaa Birth Village is seeking community-driven solutions to a nationwide health issue.</p>
+      
+              <div class="promo-small-cta-wrapper">
+          <a href="http://news.stlpublicradio.org/post/monday-addressing-maternal-and-infant-mortality-rates-among-risk-women#stream/0" class="promo-small-cta">Read</a>        </div>
+            </div>
+      </div>
+</div>
+  </div>
+</div>
+<div id="block-pi-responsive-ads-medium-2" class="block block-pi-responsive-ads">
+
+    
+  <div class="content">
+      </div>
+</div>
+<div id="block-block-factory-block-factory-5b5f4c7091c51" class="block block-block-factory">
+
+    
+  <div class="content">
+    <style type="text/css">#promo-large-5b5f4c7091c51 .promo-large-treatment { background-color: #FFFFFF; } #promo-large-5b5f4c7091c51 .promo-large-heading { color: #404040; } #promo-large-5b5f4c7091c51 .promo-large-heading a { color: #404040; } #promo-large-5b5f4c7091c51 .promo-large-teaser { color: #404040; } #promo-large-5b5f4c7091c51 .promo-large-cta { border-color: #404040; color: #404040; opacity: 1; transition: all .15s ease; } #promo-large-5b5f4c7091c51 .promo-large-cta:hover { color: #404040; opacity: 0.65; }</style><div id="promo-large-5b5f4c7091c51">
+  <div class="promo-large-treatment clearfix" >
+      <figure class="promo-large-image">
+      <a href="http://apps.stlpublicradio.org/great-flood-25/" class="linked-image"><img typeof="foaf:Image" src="http://mediad.publicbroadcasting.net/p/kwmu/files/styles/large/public/201807/072718-DK-CP-93Flood.png" alt="" /></a>    </figure>
+  
+      <div class="promo-large-text-wrapper">
+              <h2 class="promo-large-heading"><a href="http://apps.stlpublicradio.org/great-flood-25/">25 years later: Remembering the Great Flood of &#039;93</a></h2>
+      
+              <p class="promo-large-teaser">Twenty-five years ago, on Aug. 1, 1993, the Mississippi River crested in St. Louis at the highest level ever recorded — 49.58 feet. Residents can still feel the impact of the watershed disaster today.</p>
+      
+              <div class="promo-large-cta-wrapper">
+          <a href="http://apps.stlpublicradio.org/great-flood-25/" class="promo-large-cta">Read More</a>        </div>
+          </div>
+    </div>
+</div>  </div>
+</div>
+<div id="block-pi-responsive-ads-medium-3" class="block block-pi-responsive-ads">
+
+    
+  <div class="content">
+      </div>
+</div>
+<div id="block-block-factory-block-factory-59f219d8e2cd5" class="block block-block-factory">
+
+    
+  <div class="content">
+    <style type="text/css">#promo-small-59f219d8e2cd5 .promo-small-treatment { background-color: #FFFFFF; } #promo-small-59f219d8e2cd5 .promo-small-heading { color: #404040; } #promo-small-59f219d8e2cd5 .promo-small-heading a { color: #404040; } #promo-small-59f219d8e2cd5 .promo-small-teaser { color: #404040; } #promo-small-59f219d8e2cd5 .promo-small-cta { border-color: #404040; color: #404040; opacity: 1; transition: all .15s ease; } #promo-small-59f219d8e2cd5 .promo-small-cta:hover { color: #404040; opacity: 0.6; }</style><div id="promo-small-59f219d8e2cd5">
+  <div class="promo-small-treatment clearfix" >
+    
+        <div class="promo-small-text-wrapper">
+      
+              <p class="promo-small-teaser"><div data-pym-src="https://stlpublicradio.org/apps/pym/lrl-signup-homepage.html"></div> <script type="text/javascript" src="https://pym.nprapps.org/pym-loader.v1.min.js"></script></p>
+      
+            </div>
+      </div>
+</div>
+  </div>
+</div>
+<div id="block-block-factory-block-factory-5adf84053146c" class="block block-block-factory">
+
+    
+  <div class="content">
+    <style type="text/css">#promo-small-5adf84053146c .promo-small-treatment { background-color: #FFFFFF; } #promo-small-5adf84053146c .promo-small-heading { color: #404040; } #promo-small-5adf84053146c .promo-small-heading a { color: #404040; } #promo-small-5adf84053146c .promo-small-teaser { color: #404040; } #promo-small-5adf84053146c .promo-small-cta { border-color: #404040; color: #404040; opacity: 1; transition: all .15s ease; } #promo-small-5adf84053146c .promo-small-cta:hover { color: #404040; opacity: 0.6; }</style><div id="promo-small-5adf84053146c">
+  <div class="promo-small-treatment clearfix" >
+    
+        <div class="promo-small-text-wrapper">
+      
+              <p class="promo-small-teaser"><div id="h473a" class="curiosity-module" data-pym-src="//modules.wearehearken.com/kwmu/curiosity_modules/161"></div><script src="//assets.wearehearken.com/production/thirdparty/p.m.js"></script></p>
+      
+            </div>
+      </div>
+</div>
+  </div>
+</div>
+  </div>
+          </div>
+        
+                    </div>
+          </div>
+        
+        
+              </article>
+    </main>
+  </div>
+
+  
+  <div class="bottom-ads">
+    <div class="bottom-ads-inner"></div>
+  </div>
+</div>
+
+<footer class="footer" role="contentinfo">
+  <div class="row">
+    <div class="footer-affiliate-container small-centered columns">
+                  <div class="region region-footer">
+    <div id="block-pi-table-queue-partnerfooter" class="block block-pi-table-queue">
+
+    
+  <div class="content">
+    <div class="table-queue" id="table-queue-partnerfooter">
+  <p class="partnerslabel">
+  St. Louis Public Radio is a service of</p>
+<div class="item-list"><ul class="partner-logos"><li class="first last"><a href="http://www.umsl.edu" target="_blank"><img typeof="foaf:Image" src="http://mediad.publicbroadcasting.net/p/kwmu/files/styles/partner_footer_logo/public/201502/umsl_logo.png" alt="University of Missouri-St. Louis" title="University of Missouri-St. Louis" /></a></li>
+</ul></div></div>
+  </div>
+</div>
+<div id="block-pi-table-queue-auxiliarylinksfooter" class="block block-pi-table-queue">
+
+    
+  <div class="content">
+    <div class="table-queue" id="table-queue-auxiliarylinksfooter">
+  <div class="item-list"><ul class="auxiliary-links"><li class="first"><span>&copy; 2018 St. Louis Public Radio</span></li>
+<li><a href="http://www.stlpublicradio.org/info/index.php" target="_self">About Us</a></li>
+<li><a href="https://www.stlpublicradio.org/info/employment.php" target="_self">Careers</a></li>
+<li><a href="http://www.stlpublicradio.org/contact/" target="_self">Contact Us</a></li>
+<li><a href="http://www.stlpublicradio.org/support/privacypolicy.php" target="_self">Privacy Policy</a></li>
+<li class="last"><a href="http://www.stlpublicradio.org/publicfile" target="_self">Public File</a></li>
+</ul></div></div>
+  </div>
+</div>
+  </div>
+          </div>
+  </div>
+</footer>
+      <script type="text/javascript">
+<!--//--><![CDATA[//><!--
+ (function ($) { $(document).foundation({ topbar: { custom_back_text: true, back_text: 'back', mobile_show_parent_link: true } }); }(jQuery));
+//--><!]]>
+</script>
+    </div>
+  <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"15ba4da3e8","applicationID":"1108724","transactionName":"NlMBMhAECEZRAU1eDg8ZNhQLSg9bVAdBGREJRg==","queueTime":0,"applicationTime":24,"atts":"GhQCRFgeG0g=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

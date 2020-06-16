@@ -1,0 +1,3151 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+<title>Debian -- Package Search Results -- apt</title>
+<link rev="made" href="mailto:webmaster@debian.org">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="Author" content="Debian Webmaster, webmaster@debian.org">
+<meta name="Description" content="">
+<meta name="Keywords" content="Debian,  ">
+
+
+<link href="https://packages.debian.org/debpkg.css" rel="stylesheet" type="text/css" media="all">
+
+<script src="https://packages.debian.org/packages.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="header">
+   <div id="upperheader">
+
+   <div id="logo">
+  <!-- very Debian specific use of the logo stuff -->
+<a href="https://www.debian.org/"><img src="https://packages.debian.org/Pics/openlogo-50.png" alt="Debian" with="50" height="61"></a>
+</div> <!-- end logo -->
+<p class="hidecss"><a href="apt#inner">skip the navigation</a></p>
+<p class="section"><a href="https://packages.debian.org/">Packages</a></p>
+</div> <!-- end upperheader -->
+<!-- navbar -->
+<div id="navbar">
+<ul>
+   <li><a href="https://www.debian.org/intro/about">About Debian</a></li>
+   <li><a href="https://www.debian.org/distrib/">Getting Debian</a></li>
+   <li><a href="https://www.debian.org/support">Support</a></li>
+   <li><a href="https://www.debian.org/devel/">Developers'&nbsp;Corner</a></li>
+</ul>
+</div> <!-- end navbar -->
+
+<div id="pnavbar">
+ &nbsp;&#x2F; <a href="https://packages.debian.org/" title="Debian Packages Homepage">Packages</a>
+
+ &#x2F; Package Search Results 
+
+</div> <!-- end navbar -->
+
+</div> <!-- end header -->
+<div id="content">
+
+
+<form method="GET" action="https://packages.debian.org/search">
+<div id="hpacketsearch">
+
+
+<input type="hidden" name="suite" value="default">
+<input type="hidden" name="section" value="all">
+<input type="hidden" name="arch" value="any">
+
+<input type="submit" value="Search">
+<select size="1" name="searchon">
+<option value="names" selected="selected">
+package names</option>
+<option value="all" >descriptions</option>
+<option value="sourcenames" >source package names</option>
+<option value="contents" >package contents</option>
+</select>
+<input type="text" size="30" name="keywords" value="apt" id="kw">
+<span style="font-size: 60%"><a href="https://packages.debian.org/">all options</a></span>
+</div> <!-- end hpacketsearch -->
+</form>
+
+
+<div id="psearchsug">
+
+
+<p>Limit to suite:
+
+	
+	[<a href="https://packages.debian.org/search?suite=jessie&amp;keywords=apt">jessie</a>]
+	
+
+	
+	[<a href="https://packages.debian.org/search?suite=jessie-updates&amp;keywords=apt">jessie-updates</a>]
+	
+
+	
+	[<a href="https://packages.debian.org/search?suite=stretch&amp;keywords=apt">stretch</a>]
+	
+
+	
+	[<a href="https://packages.debian.org/search?suite=stretch-updates&amp;keywords=apt">stretch-updates</a>]
+	
+
+	
+	[<a href="https://packages.debian.org/search?suite=stretch-backports&amp;keywords=apt">stretch-backports</a>]
+	
+
+	
+	[<a href="https://packages.debian.org/search?suite=stretch-backports-sloppy&amp;keywords=apt">stretch-backports-sloppy</a>]
+	
+
+	
+	[<a href="https://packages.debian.org/search?suite=buster&amp;keywords=apt">buster</a>]
+	
+
+	
+	[<a href="https://packages.debian.org/search?suite=buster-updates&amp;keywords=apt">buster-updates</a>]
+	
+
+	
+	[<a href="https://packages.debian.org/search?suite=buster-backports&amp;keywords=apt">buster-backports</a>]
+	
+
+	
+	[<a href="https://packages.debian.org/search?suite=bullseye&amp;keywords=apt">bullseye</a>]
+	
+
+	
+	[<a href="https://packages.debian.org/search?suite=sid&amp;keywords=apt">sid</a>]
+	
+
+	
+	[<a href="https://packages.debian.org/search?suite=experimental&amp;keywords=apt">experimental</a>]
+	
+
+
+
+<p>Limit to a architecture:
+
+   
+   [<a href="https://packages.debian.org/search?arch=alpha&amp;keywords=apt">alpha</a>]
+   
+
+   
+   [<a href="https://packages.debian.org/search?arch=amd64&amp;keywords=apt">amd64</a>]
+   
+
+   
+   [<a href="https://packages.debian.org/search?arch=arm&amp;keywords=apt">arm</a>]
+   
+
+   
+   [<a href="https://packages.debian.org/search?arch=arm64&amp;keywords=apt">arm64</a>]
+   
+
+   
+   [<a href="https://packages.debian.org/search?arch=armel&amp;keywords=apt">armel</a>]
+   
+
+   
+   [<a href="https://packages.debian.org/search?arch=armhf&amp;keywords=apt">armhf</a>]
+   
+
+   
+   [<a href="https://packages.debian.org/search?arch=avr32&amp;keywords=apt">avr32</a>]
+   
+
+   
+   [<a href="https://packages.debian.org/search?arch=hppa&amp;keywords=apt">hppa</a>]
+   
+
+   
+   [<a href="https://packages.debian.org/search?arch=hurd-i386&amp;keywords=apt">hurd-i386</a>]
+   
+
+   
+   [<a href="https://packages.debian.org/search?arch=i386&amp;keywords=apt">i386</a>]
+   
+
+   
+   [<a href="https://packages.debian.org/search?arch=ia64&amp;keywords=apt">ia64</a>]
+   
+
+   
+   [<a href="https://packages.debian.org/search?arch=kfreebsd-amd64&amp;keywords=apt">kfreebsd-amd64</a>]
+   
+
+   
+   [<a href="https://packages.debian.org/search?arch=kfreebsd-i386&amp;keywords=apt">kfreebsd-i386</a>]
+   
+
+   
+   [<a href="https://packages.debian.org/search?arch=m68k&amp;keywords=apt">m68k</a>]
+   
+
+   
+   [<a href="https://packages.debian.org/search?arch=mips&amp;keywords=apt">mips</a>]
+   
+
+   
+   [<a href="https://packages.debian.org/search?arch=mips64el&amp;keywords=apt">mips64el</a>]
+   
+
+   
+   [<a href="https://packages.debian.org/search?arch=mipsel&amp;keywords=apt">mipsel</a>]
+   
+
+   
+   [<a href="https://packages.debian.org/search?arch=powerpc&amp;keywords=apt">powerpc</a>]
+   
+
+   
+   [<a href="https://packages.debian.org/search?arch=powerpcspe&amp;keywords=apt">powerpcspe</a>]
+   
+
+   
+   [<a href="https://packages.debian.org/search?arch=ppc64&amp;keywords=apt">ppc64</a>]
+   
+
+   
+   [<a href="https://packages.debian.org/search?arch=ppc64el&amp;keywords=apt">ppc64el</a>]
+   
+
+   
+   [<a href="https://packages.debian.org/search?arch=riscv64&amp;keywords=apt">riscv64</a>]
+   
+
+   
+   [<a href="https://packages.debian.org/search?arch=s390&amp;keywords=apt">s390</a>]
+   
+
+   
+   [<a href="https://packages.debian.org/search?arch=s390x&amp;keywords=apt">s390x</a>]
+   
+
+   
+   [<a href="https://packages.debian.org/search?arch=sh4&amp;keywords=apt">sh4</a>]
+   
+
+   
+   [<a href="https://packages.debian.org/search?arch=sparc&amp;keywords=apt">sparc</a>]
+   
+
+   
+   [<a href="https://packages.debian.org/search?arch=sparc64&amp;keywords=apt">sparc64</a>]
+   
+
+   
+   [<a href="https://packages.debian.org/search?arch=x32&amp;keywords=apt">x32</a>]
+   
+
+
+
+</div>
+
+
+<!-- messages.tmpl -->
+<div id="psearchres">
+
+
+<p>You have searched for packages that names contain <em>apt</em> in all suites, all sections, and all architectures.
+
+
+Found <strong>76</strong> matching packages.</p>
+
+
+
+
+<div class="note">
+<p>
+Your keyword was too generic, for optimizing reasons some results might have been suppressed.<br>Please consider using a longer keyword or more keywords.</p>
+</div>
+
+
+
+
+
+  <h2>Exact hits</h2>
+
+
+  <h3>Package apt</h3>
+  <ul>
+  
+    <li class="jessie"><a class="resultlink" href="https://packages.debian.org/jessie/apt">jessie (oldoldstable)</a> (admin):
+	commandline package manager
+    
+      <br>1.0.9.8.6 [<strong class="pmarker" title="">security</strong>]: amd64 armel armhf i386
+    
+    
+    </li>
+  
+    <li class="stretch"><a class="resultlink" href="https://packages.debian.org/stretch/apt">stretch (oldstable)</a> (admin):
+	commandline package manager
+    
+      <br>1.4.10 [<strong class="pmarker" title="">security</strong>]: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el s390x
+    
+    
+    </li>
+  
+    <li class="buster"><a class="resultlink" href="https://packages.debian.org/buster/apt">buster (stable)</a> (admin):
+	commandline package manager
+    
+      <br>1.8.2.1 [<strong class="pmarker" title="">security</strong>]: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el s390x
+    
+    
+    </li>
+  
+    <li class="bullseye"><a class="resultlink" href="https://packages.debian.org/bullseye/apt">bullseye (testing)</a> (admin):
+	commandline package manager
+    
+      <br>2.1.6: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el s390x
+    
+    
+    </li>
+  
+    <li class="sid"><a class="resultlink" href="https://packages.debian.org/sid/apt">sid (unstable)</a> (admin):
+	commandline package manager
+    
+      <br>2.1.6: alpha amd64 arm64 armel armhf hppa i386 m68k mips64el mipsel ppc64 ppc64el riscv64 s390x sh4 sparc64 x32
+    
+      <br>1.8.1 [<a href="https://www.ports.debian.org/"><strong class="pmarker" title="ports of packages to architectures not yet or not anymore available in Debian">debports</strong></a>]: powerpcspe
+    
+    
+    </li>
+  
+  </ul>
+
+
+
+
+
+  <h2>Other hits</h2>
+
+
+  <h3>Package apt-build</h3>
+  <ul>
+  
+    <li class="jessie"><a class="resultlink" href="https://packages.debian.org/jessie/apt-build">jessie (oldoldstable)</a> (devel):
+	frontend to apt to build, optimize and install packages
+    
+      <br>0.12.45: amd64 armel armhf i386
+    
+    
+    </li>
+  
+    <li class="stretch"><a class="resultlink" href="https://packages.debian.org/stretch/apt-build">stretch (oldstable)</a> (devel):
+	frontend to apt to build, optimize and install packages
+    
+      <br>0.12.47: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el s390x
+    
+    
+    </li>
+  
+    <li class="buster"><a class="resultlink" href="https://packages.debian.org/buster/apt-build">buster (stable)</a> (devel):
+	frontend to apt to build, optimize and install packages
+    
+      <br>0.12.47: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el s390x
+    
+    
+    </li>
+  
+    <li class="bullseye"><a class="resultlink" href="https://packages.debian.org/bullseye/apt-build">bullseye (testing)</a> (devel):
+	frontend to apt to build, optimize and install packages
+    
+      <br>0.12.48: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el s390x
+    
+    
+    </li>
+  
+    <li class="sid"><a class="resultlink" href="https://packages.debian.org/sid/apt-build">sid (unstable)</a> (devel):
+	frontend to apt to build, optimize and install packages
+    
+      <br>0.12.48: alpha amd64 arm64 armel armhf hppa i386 m68k mips64el mipsel ppc64 ppc64el riscv64 s390x sh4 sparc64 x32
+    
+      <br>0.12.47 [<a href="https://www.ports.debian.org/"><strong class="pmarker" title="ports of packages to architectures not yet or not anymore available in Debian">debports</strong></a>]: powerpcspe
+    
+    
+    </li>
+  
+  </ul>
+
+  <h3>Package apt-build-dbgsym</h3>
+  <ul>
+  
+    <li class="sid"><a class="resultlink" href="https://packages.debian.org/sid/apt-build-dbgsym">sid (unstable)</a> (debug):
+	debug symbols for apt-build
+    
+      <br>0.12.48 [<a href="https://www.ports.debian.org/"><strong class="pmarker" title="ports of packages to architectures not yet or not anymore available in Debian">debports</strong></a>]: alpha hppa m68k ppc64 riscv64 sh4 sparc64 x32
+    
+      <br>0.12.47 [<a href="https://www.ports.debian.org/"><strong class="pmarker" title="ports of packages to architectures not yet or not anymore available in Debian">debports</strong></a>]: powerpcspe
+    
+    
+    </li>
+  
+  </ul>
+
+  <h3>Package apt-cacher</h3>
+  <ul>
+  
+    <li class="jessie"><a class="resultlink" href="https://packages.debian.org/jessie/apt-cacher">jessie (oldoldstable)</a> (net):
+	Caching proxy server for Debian/Ubuntu software repositories
+    
+      <br>1.7.10+deb8u2: all
+    
+    
+    </li>
+  
+    <li class="stretch"><a class="resultlink" href="https://packages.debian.org/stretch/apt-cacher">stretch (oldstable)</a> (net):
+	Caching proxy server for Debian/Ubuntu software repositories
+    
+      <br>1.7.13+deb9u1: all
+    
+    
+    </li>
+  
+    <li class="buster"><a class="resultlink" href="https://packages.debian.org/buster/apt-cacher">buster (stable)</a> (net):
+	Caching proxy server for Debian/Ubuntu/Devuan software repositories
+    
+      <br>1.7.20.1: all
+    
+    
+    </li>
+  
+    <li class="bullseye"><a class="resultlink" href="https://packages.debian.org/bullseye/apt-cacher">bullseye (testing)</a> (net):
+	Caching proxy server for Debian/Ubuntu/Devuan software repositories
+    
+      <br>1.7.20.1: all
+    
+    
+    </li>
+  
+    <li class="sid"><a class="resultlink" href="https://packages.debian.org/sid/apt-cacher">sid (unstable)</a> (net):
+	Caching proxy server for Debian/Ubuntu/Devuan software repositories
+    
+      <br>1.7.20.1: all
+    
+    
+    </li>
+  
+  </ul>
+
+  <h3>Package apt-cacher-ng</h3>
+  <ul>
+  
+    <li class="jessie"><a class="resultlink" href="https://packages.debian.org/jessie/apt-cacher-ng">jessie (oldoldstable)</a> (net):
+	caching proxy server for software repositories
+    
+      <br>0.8.0-3: amd64 armel armhf i386
+    
+    
+    </li>
+  
+    <li class="stretch"><a class="resultlink" href="https://packages.debian.org/stretch/apt-cacher-ng">stretch (oldstable)</a> (net):
+	caching proxy server for software repositories
+    
+      <br>2-2: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el s390x
+    
+    
+    </li>
+  
+    <li class="stretch-backports"><a class="resultlink" href="https://packages.debian.org/stretch-backports/apt-cacher-ng">stretch-backports</a> (net):
+	caching proxy server for software repositories
+    
+      <br>3.2-1~bpo9+1: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el s390x
+    
+    
+    </li>
+  
+    <li class="stretch-backports-sloppy"><a class="resultlink" href="https://packages.debian.org/stretch-backports-sloppy/apt-cacher-ng">stretch-backports-sloppy</a> (net):
+	caching proxy server for software repositories
+    
+      <br>3.2-3~bpo9+1: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el s390x
+    
+    
+    </li>
+  
+    <li class="buster"><a class="resultlink" href="https://packages.debian.org/buster/apt-cacher-ng">buster (stable)</a> (net):
+	caching proxy server for software repositories
+    
+      <br>3.2.1-1: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el s390x
+    
+    
+    </li>
+  
+    <li class="buster-backports"><a class="resultlink" href="https://packages.debian.org/buster-backports/apt-cacher-ng">buster-backports</a> (net):
+	caching proxy server for software repositories
+    
+      <br>3.3.1-2~bpo10+1: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el s390x
+    
+    
+    </li>
+  
+    <li class="bullseye"><a class="resultlink" href="https://packages.debian.org/bullseye/apt-cacher-ng">bullseye (testing)</a> (net):
+	caching proxy server for software repositories
+    
+      <br>3.5-1: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el s390x
+    
+    
+    </li>
+  
+    <li class="sid"><a class="resultlink" href="https://packages.debian.org/sid/apt-cacher-ng">sid (unstable)</a> (net):
+	caching proxy server for software repositories
+    
+      <br>3.5-1: alpha amd64 arm64 armel armhf hppa i386 m68k mips64el mipsel ppc64 ppc64el riscv64 s390x sparc64 x32
+    
+      <br>3.4-1 [<a href="https://www.ports.debian.org/"><strong class="pmarker" title="ports of packages to architectures not yet or not anymore available in Debian">debports</strong></a>]: sh4
+    
+      <br>3.2-1 [<a href="https://www.ports.debian.org/"><strong class="pmarker" title="ports of packages to architectures not yet or not anymore available in Debian">debports</strong></a>]: powerpcspe
+    
+    
+    </li>
+  
+  </ul>
+
+  <h3>Package apt-cacher-ng-dbgsym</h3>
+  <ul>
+  
+    <li class="sid"><a class="resultlink" href="https://packages.debian.org/sid/apt-cacher-ng-dbgsym">sid (unstable)</a> (debug):
+	debug symbols for apt-cacher-ng
+    
+      <br>3.5-1 [<a href="https://www.ports.debian.org/"><strong class="pmarker" title="ports of packages to architectures not yet or not anymore available in Debian">debports</strong></a>]: alpha hppa m68k ppc64 riscv64 sparc64 x32
+    
+      <br>3.4-1 [<a href="https://www.ports.debian.org/"><strong class="pmarker" title="ports of packages to architectures not yet or not anymore available in Debian">debports</strong></a>]: sh4
+    
+      <br>3.2-1 [<a href="https://www.ports.debian.org/"><strong class="pmarker" title="ports of packages to architectures not yet or not anymore available in Debian">debports</strong></a>]: powerpcspe
+    
+    
+    </li>
+  
+  </ul>
+
+  <h3>Package apt-cdrom-setup</h3>
+  <ul>
+  
+    <li class="jessie"><a class="resultlink" href="https://packages.debian.org/jessie/apt-cdrom-setup">jessie (oldoldstable)</a> (debian-installer):
+	set up a CD in sources.list
+    
+      <br>1:0.97: all
+    
+    
+    </li>
+  
+    <li class="stretch"><a class="resultlink" href="https://packages.debian.org/stretch/apt-cdrom-setup">stretch (oldstable)</a> (debian-installer):
+	set up a CD in sources.list
+    
+      <br>1:0.127: all
+    
+    
+    </li>
+  
+    <li class="buster"><a class="resultlink" href="https://packages.debian.org/buster/apt-cdrom-setup">buster (stable)</a> (debian-installer):
+	set up a CD in sources.list
+    
+      <br>1:0.151~deb10u1: all
+    
+    
+    </li>
+  
+    <li class="bullseye"><a class="resultlink" href="https://packages.debian.org/bullseye/apt-cdrom-setup">bullseye (testing)</a> (debian-installer):
+	set up a CD in sources.list
+    
+      <br>1:0.157: all
+    
+    
+    </li>
+  
+    <li class="sid"><a class="resultlink" href="https://packages.debian.org/sid/apt-cdrom-setup">sid (unstable)</a> (debian-installer):
+	set up a CD in sources.list
+    
+      <br>1:0.157: all
+    
+    
+    </li>
+  
+  </ul>
+
+  <h3>Package apt-clone</h3>
+  <ul>
+  
+    <li class="jessie"><a class="resultlink" href="https://packages.debian.org/jessie/apt-clone">jessie (oldoldstable)</a> (admin):
+	Script to create state bundles
+    
+      <br>0.2.2: all
+    
+    
+    </li>
+  
+    <li class="stretch"><a class="resultlink" href="https://packages.debian.org/stretch/apt-clone">stretch (oldstable)</a> (admin):
+	Script to create state bundles
+    
+      <br>0.4.1: all
+    
+    
+    </li>
+  
+    <li class="buster"><a class="resultlink" href="https://packages.debian.org/buster/apt-clone">buster (stable)</a> (admin):
+	Script to create state bundles
+    
+      <br>0.4.1: all
+    
+    
+    </li>
+  
+    <li class="sid"><a class="resultlink" href="https://packages.debian.org/sid/apt-clone">sid (unstable)</a> (admin):
+	Script to create state bundles
+    
+      <br>0.4.1: all
+    
+    
+    </li>
+  
+  </ul>
+
+  <h3>Package apt-config-auto-update</h3>
+  <ul>
+  
+    <li class="stretch"><a class="resultlink" href="https://packages.debian.org/stretch/apt-config-auto-update">stretch (oldstable)</a> (utils):
+	Apt configuration for automatic cache updates
+    
+      <br>2.0.0-2: all
+    
+    
+    </li>
+  
+    <li class="buster"><a class="resultlink" href="https://packages.debian.org/buster/apt-config-auto-update">buster (stable)</a> (utils):
+	APT configuration for automatic cache updates
+    
+      <br>2.1: all
+    
+    
+    </li>
+  
+    <li class="bullseye"><a class="resultlink" href="https://packages.debian.org/bullseye/apt-config-auto-update">bullseye (testing)</a> (utils):
+	APT configuration for automatic cache updates
+    
+      <br>2.1: all
+    
+    
+    </li>
+  
+    <li class="sid"><a class="resultlink" href="https://packages.debian.org/sid/apt-config-auto-update">sid (unstable)</a> (utils):
+	APT configuration for automatic cache updates
+    
+      <br>2.1: all
+    
+    
+    </li>
+  
+  </ul>
+
+  <h3>Package apt-config-icons</h3>
+  <ul>
+  
+    <li class="buster"><a class="resultlink" href="https://packages.debian.org/buster/apt-config-icons">buster (stable)</a> (misc):
+	APT configuration snippet to enable icon downloads
+    
+      <br>0.12.5-1: all
+    
+    
+    </li>
+  
+    <li class="bullseye"><a class="resultlink" href="https://packages.debian.org/bullseye/apt-config-icons">bullseye (testing)</a> (misc):
+	APT configuration snippet to enable icon downloads
+    
+      <br>0.12.11-1: all
+    
+    
+    </li>
+  
+    <li class="sid"><a class="resultlink" href="https://packages.debian.org/sid/apt-config-icons">sid (unstable)</a> (misc):
+	APT configuration snippet to enable icon downloads
+    
+      <br>0.12.11-1: all
+    
+    
+    </li>
+  
+  </ul>
+
+  <h3>Package apt-config-icons-hidpi</h3>
+  <ul>
+  
+    <li class="buster"><a class="resultlink" href="https://packages.debian.org/buster/apt-config-icons-hidpi">buster (stable)</a> (misc):
+	APT configuration snippet to enable HiDPI icon downloads
+    
+      <br>0.12.5-1: all
+    
+    
+    </li>
+  
+    <li class="bullseye"><a class="resultlink" href="https://packages.debian.org/bullseye/apt-config-icons-hidpi">bullseye (testing)</a> (misc):
+	APT configuration snippet to enable HiDPI icon downloads
+    
+      <br>0.12.11-1: all
+    
+    
+    </li>
+  
+    <li class="sid"><a class="resultlink" href="https://packages.debian.org/sid/apt-config-icons-hidpi">sid (unstable)</a> (misc):
+	APT configuration snippet to enable HiDPI icon downloads
+    
+      <br>0.12.11-1: all
+    
+    
+    </li>
+  
+  </ul>
+
+  <h3>Package apt-config-icons-large</h3>
+  <ul>
+  
+    <li class="buster"><a class="resultlink" href="https://packages.debian.org/buster/apt-config-icons-large">buster (stable)</a> (misc):
+	APT configuration snippet to enable large icon downloads
+    
+      <br>0.12.5-1: all
+    
+    
+    </li>
+  
+    <li class="bullseye"><a class="resultlink" href="https://packages.debian.org/bullseye/apt-config-icons-large">bullseye (testing)</a> (misc):
+	APT configuration snippet to enable large icon downloads
+    
+      <br>0.12.11-1: all
+    
+    
+    </li>
+  
+    <li class="sid"><a class="resultlink" href="https://packages.debian.org/sid/apt-config-icons-large">sid (unstable)</a> (misc):
+	APT configuration snippet to enable large icon downloads
+    
+      <br>0.12.11-1: all
+    
+    
+    </li>
+  
+  </ul>
+
+  <h3>Package apt-config-icons-large-hidpi</h3>
+  <ul>
+  
+    <li class="buster"><a class="resultlink" href="https://packages.debian.org/buster/apt-config-icons-large-hidpi">buster (stable)</a> (misc):
+	APT configuration snippet to enable large HiDPI icon downloads
+    
+      <br>0.12.5-1: all
+    
+    
+    </li>
+  
+    <li class="bullseye"><a class="resultlink" href="https://packages.debian.org/bullseye/apt-config-icons-large-hidpi">bullseye (testing)</a> (misc):
+	APT configuration snippet to enable large HiDPI icon downloads
+    
+      <br>0.12.11-1: all
+    
+    
+    </li>
+  
+    <li class="sid"><a class="resultlink" href="https://packages.debian.org/sid/apt-config-icons-large-hidpi">sid (unstable)</a> (misc):
+	APT configuration snippet to enable large HiDPI icon downloads
+    
+      <br>0.12.11-1: all
+    
+    
+    </li>
+  
+  </ul>
+
+  <h3>Package apt-cudf</h3>
+  <ul>
+  
+    <li class="jessie"><a class="resultlink" href="https://packages.debian.org/jessie/apt-cudf">jessie (oldoldstable)</a> (admin):
+	CUDF solver integration for APT
+    
+      <br>3.3~beta1-3: amd64 armel armhf i386
+    
+    
+    </li>
+  
+    <li class="stretch"><a class="resultlink" href="https://packages.debian.org/stretch/apt-cudf">stretch (oldstable)</a> (admin):
+	CUDF solver integration for APT
+    
+      <br>5.0.1-8+deb9u1: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el s390x
+    
+    
+    </li>
+  
+    <li class="stretch-backports"><a class="resultlink" href="https://packages.debian.org/stretch-backports/apt-cudf">stretch-backports</a> (admin):
+	CUDF solver integration for APT
+    
+      <br>5.0.1-11~bpo9+1: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el s390x
+    
+    
+    </li>
+  
+    <li class="buster"><a class="resultlink" href="https://packages.debian.org/buster/apt-cudf">buster (stable)</a> (admin):
+	CUDF solver integration for APT
+    
+      <br>5.0.1-12: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el s390x
+    
+    
+    </li>
+  
+    <li class="bullseye"><a class="resultlink" href="https://packages.debian.org/bullseye/apt-cudf">bullseye (testing)</a> (admin):
+	CUDF solver integration for APT
+    
+      <br>5.0.1-14+b3: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el s390x
+    
+    
+    </li>
+  
+    <li class="sid"><a class="resultlink" href="https://packages.debian.org/sid/apt-cudf">sid (unstable)</a> (admin):
+	CUDF solver integration for APT
+    
+      <br>5.0.1-14+sh4.1 [<a href="https://www.ports.debian.org/"><strong class="pmarker" title="ports of packages to architectures not yet or not anymore available in Debian">debports</strong></a>]: m68k sh4
+    
+      <br>5.0.1-14+b6 [<a href="https://www.ports.debian.org/"><strong class="pmarker" title="ports of packages to architectures not yet or not anymore available in Debian">debports</strong></a>]: alpha hppa ppc64 sparc64 x32
+    
+      <br>5.0.1-14+b3: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
+    
+      <br>5.0.1-12 [<a href="https://www.ports.debian.org/"><strong class="pmarker" title="ports of packages to architectures not yet or not anymore available in Debian">debports</strong></a>]: powerpcspe
+    
+    
+    </li>
+  
+  </ul>
+
+  <h3>Package apt-dater</h3>
+  <ul>
+  
+    <li class="jessie"><a class="resultlink" href="https://packages.debian.org/jessie/apt-dater">jessie (oldoldstable)</a> (admin):
+	terminal-based remote package update manager
+    
+      <br>0.9.0-8: amd64 armel armhf i386
+    
+    
+    </li>
+  
+    <li class="stretch"><a class="resultlink" href="https://packages.debian.org/stretch/apt-dater">stretch (oldstable)</a> (admin):
+	terminal-based remote package update manager
+    
+      <br>1.0.3-4: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el s390x
+    
+    
+    </li>
+  
+    <li class="buster"><a class="resultlink" href="https://packages.debian.org/buster/apt-dater">buster (stable)</a> (admin):
+	terminal-based remote package update manager
+    
+      <br>1.0.4-2: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el s390x
+    
+    
+    </li>
+  
+    <li class="bullseye"><a class="resultlink" href="https://packages.debian.org/bullseye/apt-dater">bullseye (testing)</a> (admin):
+	terminal-based remote package update manager
+    
+      <br>1.0.4-3: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el s390x
+    
+    
+    </li>
+  
+    <li class="sid"><a class="resultlink" href="https://packages.debian.org/sid/apt-dater">sid (unstable)</a> (admin):
+	terminal-based remote package update manager
+    
+      <br>1.0.4-3: alpha amd64 arm64 armel armhf hppa i386 m68k mips64el mipsel ppc64 ppc64el riscv64 s390x sh4 sparc64 x32
+    
+      <br>1.0.4-2 [<a href="https://www.ports.debian.org/"><strong class="pmarker" title="ports of packages to architectures not yet or not anymore available in Debian">debports</strong></a>]: powerpcspe
+    
+    
+    </li>
+  
+  </ul>
+
+  <h3>Package apt-dater-dbg</h3>
+  <ul>
+  
+    <li class="jessie"><a class="resultlink" href="https://packages.debian.org/jessie/apt-dater-dbg">jessie (oldoldstable)</a> (debug):
+	terminal-based remote package update manager (dbg symbols)
+    
+      <br>0.9.0-8: amd64 armel armhf i386
+    
+    
+    </li>
+  
+    <li class="stretch"><a class="resultlink" href="https://packages.debian.org/stretch/apt-dater-dbg">stretch (oldstable)</a> (debug):
+	terminal-based remote package update manager (dbg symbols)
+    
+      <br>1.0.3-4: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el s390x
+    
+    
+    </li>
+  
+    <li class="sid"><a class="resultlink" href="https://packages.debian.org/sid/apt-dater-dbg">sid (unstable)</a> (debug):
+	terminal-based remote package update manager (dbg symbols)
+    
+      <br>1.0.1-1 [<a href="https://www.ports.debian.org/"><strong class="pmarker" title="ports of packages to architectures not yet or not anymore available in Debian">debports</strong></a>]: arm64
+    
+    
+    </li>
+  
+  </ul>
+
+  <h3>Package apt-dater-dbgsym</h3>
+  <ul>
+  
+    <li class="sid"><a class="resultlink" href="https://packages.debian.org/sid/apt-dater-dbgsym">sid (unstable)</a> (debug):
+	debug symbols for apt-dater
+    
+      <br>1.0.4-3 [<a href="https://www.ports.debian.org/"><strong class="pmarker" title="ports of packages to architectures not yet or not anymore available in Debian">debports</strong></a>]: alpha hppa m68k ppc64 riscv64 sh4 sparc64 x32
+    
+      <br>1.0.4-2 [<a href="https://www.ports.debian.org/"><strong class="pmarker" title="ports of packages to architectures not yet or not anymore available in Debian">debports</strong></a>]: powerpcspe
+    
+    
+    </li>
+  
+  </ul>
+
+  <h3>Package apt-dater-host</h3>
+  <ul>
+  
+    <li class="jessie"><a class="resultlink" href="https://packages.debian.org/jessie/apt-dater-host">jessie (oldoldstable)</a> (admin):
+	host helper application for apt-dater
+    
+      <br>1.0.0-2+deb8u1: all
+    
+    
+    </li>
+  
+    <li class="stretch"><a class="resultlink" href="https://packages.debian.org/stretch/apt-dater-host">stretch (oldstable)</a> (admin):
+	host helper application for apt-dater
+    
+      <br>1.0.0-4: all
+    
+    
+    </li>
+  
+    <li class="buster"><a class="resultlink" href="https://packages.debian.org/buster/apt-dater-host">buster (stable)</a> (admin):
+	host helper application for apt-dater
+    
+      <br>1.0.1-1: all
+    
+    
+    </li>
+  
+    <li class="bullseye"><a class="resultlink" href="https://packages.debian.org/bullseye/apt-dater-host">bullseye (testing)</a> (admin):
+	host helper application for apt-dater
+    
+      <br>1.0.1-2: all
+    
+    
+    </li>
+  
+    <li class="sid"><a class="resultlink" href="https://packages.debian.org/sid/apt-dater-host">sid (unstable)</a> (admin):
+	host helper application for apt-dater
+    
+      <br>1.0.1-2: all
+    
+    
+    </li>
+  
+  </ul>
+
+  <h3>Package apt-dbgsym</h3>
+  <ul>
+  
+    <li class="sid"><a class="resultlink" href="https://packages.debian.org/sid/apt-dbgsym">sid (unstable)</a> (debug):
+	debug symbols for apt
+    
+      <br>2.1.6 [<a href="https://www.ports.debian.org/"><strong class="pmarker" title="ports of packages to architectures not yet or not anymore available in Debian">debports</strong></a>]: alpha hppa m68k ppc64 riscv64 sh4 sparc64 x32
+    
+      <br>1.8.1 [<a href="https://www.ports.debian.org/"><strong class="pmarker" title="ports of packages to architectures not yet or not anymore available in Debian">debports</strong></a>]: powerpcspe
+    
+    
+    </li>
+  
+  </ul>
+
+  <h3>Package apt-doc</h3>
+  <ul>
+  
+    <li class="jessie"><a class="resultlink" href="https://packages.debian.org/jessie/apt-doc">jessie (oldoldstable)</a> (doc):
+	documentation for APT
+    
+      <br>1.0.9.8.6 [<strong class="pmarker" title="">security</strong>]: all
+    
+    
+    </li>
+  
+    <li class="stretch"><a class="resultlink" href="https://packages.debian.org/stretch/apt-doc">stretch (oldstable)</a> (doc):
+	documentation for APT
+    
+      <br>1.4.10 [<strong class="pmarker" title="">security</strong>]: all
+    
+    
+    </li>
+  
+    <li class="buster"><a class="resultlink" href="https://packages.debian.org/buster/apt-doc">buster (stable)</a> (doc):
+	documentation for APT
+    
+      <br>1.8.2.1 [<strong class="pmarker" title="">security</strong>]: all
+    
+    
+    </li>
+  
+    <li class="bullseye"><a class="resultlink" href="https://packages.debian.org/bullseye/apt-doc">bullseye (testing)</a> (doc):
+	documentation for APT
+    
+      <br>2.1.6: all
+    
+    
+    </li>
+  
+    <li class="sid"><a class="resultlink" href="https://packages.debian.org/sid/apt-doc">sid (unstable)</a> (doc):
+	documentation for APT
+    
+      <br>2.1.6: all
+    
+    
+    </li>
+  
+  </ul>
+
+  <h3>Package apt-dpkg-ref</h3>
+  <ul>
+  
+    <li class="stretch"><a class="resultlink" href="https://packages.debian.org/stretch/apt-dpkg-ref">stretch (oldstable)</a> (doc):
+	APT, Dpkg Quick Reference sheet
+    
+      <br>5.3.1+nmu2: all
+    
+    
+    </li>
+  
+    <li class="buster"><a class="resultlink" href="https://packages.debian.org/buster/apt-dpkg-ref">buster (stable)</a> (doc):
+	APT, Dpkg Quick Reference sheet
+    
+      <br>5.3.1+nmu2: all
+    
+    
+    </li>
+  
+    <li class="bullseye"><a class="resultlink" href="https://packages.debian.org/bullseye/apt-dpkg-ref">bullseye (testing)</a> (doc):
+	APT, Dpkg Quick Reference sheet
+    
+      <br>5.3.1+nmu2: all
+    
+    
+    </li>
+  
+    <li class="sid"><a class="resultlink" href="https://packages.debian.org/sid/apt-dpkg-ref">sid (unstable)</a> (doc):
+	APT, Dpkg Quick Reference sheet
+    
+      <br>5.3.1+nmu2: all
+    
+    
+    </li>
+  
+  </ul>
+
+  <h3>Package apt-file</h3>
+  <ul>
+  
+    <li class="jessie"><a class="resultlink" href="https://packages.debian.org/jessie/apt-file">jessie (oldoldstable)</a> (admin):
+	search for files within Debian packages (command-line interface)
+    
+      <br>2.5.4: all
+    
+    
+    </li>
+  
+    <li class="stretch"><a class="resultlink" href="https://packages.debian.org/stretch/apt-file">stretch (oldstable)</a> (admin):
+	search for files within Debian packages (command-line interface)
+    
+      <br>3.1.4: all
+    
+    
+    </li>
+  
+    <li class="buster"><a class="resultlink" href="https://packages.debian.org/buster/apt-file">buster (stable)</a> (admin):
+	search for files within Debian packages (command-line interface)
+    
+      <br>3.2.2: all
+    
+    
+    </li>
+  
+    <li class="bullseye"><a class="resultlink" href="https://packages.debian.org/bullseye/apt-file">bullseye (testing)</a> (admin):
+	search for files within Debian packages (command-line interface)
+    
+      <br>3.2.2: all
+    
+    
+    </li>
+  
+    <li class="sid"><a class="resultlink" href="https://packages.debian.org/sid/apt-file">sid (unstable)</a> (admin):
+	search for files within Debian packages (command-line interface)
+    
+      <br>3.2.2: all
+    
+    
+    </li>
+  
+  </ul>
+
+  <h3>Package apt-forktracer</h3>
+  <ul>
+  
+    <li class="jessie"><a class="resultlink" href="https://packages.debian.org/jessie/apt-forktracer">jessie (oldoldstable)</a> (admin):
+	a utility for tracking non-official package versions
+    
+      <br>0.4: all
+    
+    
+    </li>
+  
+    <li class="stretch"><a class="resultlink" href="https://packages.debian.org/stretch/apt-forktracer">stretch (oldstable)</a> (admin):
+	utility for tracking non-official package versions
+    
+      <br>0.5: all
+    
+    
+    </li>
+  
+    <li class="buster"><a class="resultlink" href="https://packages.debian.org/buster/apt-forktracer">buster (stable)</a> (admin):
+	utility for tracking non-official package versions
+    
+      <br>0.5: all
+    
+    
+    </li>
+  
+    <li class="bullseye"><a class="resultlink" href="https://packages.debian.org/bullseye/apt-forktracer">bullseye (testing)</a> (admin):
+	utility for tracking non-official package versions
+    
+      <br>0.7: all
+    
+    
+    </li>
+  
+    <li class="sid"><a class="resultlink" href="https://packages.debian.org/sid/apt-forktracer">sid (unstable)</a> (admin):
+	utility for tracking non-official package versions
+    
+      <br>0.7: all
+    
+    
+    </li>
+  
+  </ul>
+
+  <h3>Package apt-listbugs</h3>
+  <ul>
+  
+    <li class="jessie"><a class="resultlink" href="https://packages.debian.org/jessie/apt-listbugs">jessie (oldoldstable)</a> (admin):
+	tool which lists critical bugs before each APT installation
+    
+      <br>0.1.16: all
+    
+    
+    </li>
+  
+    <li class="stretch"><a class="resultlink" href="https://packages.debian.org/stretch/apt-listbugs">stretch (oldstable)</a> (admin):
+	tool which lists critical bugs before each APT installation
+    
+      <br>0.1.22: all
+    
+    
+    </li>
+  
+    <li class="buster"><a class="resultlink" href="https://packages.debian.org/buster/apt-listbugs">buster (stable)</a> (admin):
+	tool which lists critical bugs before each APT installation
+    
+      <br>0.1.28: all
+    
+    
+    </li>
+  
+    <li class="bullseye"><a class="resultlink" href="https://packages.debian.org/bullseye/apt-listbugs">bullseye (testing)</a> (admin):
+	tool which lists critical bugs before each APT installation
+    
+      <br>0.1.31: all
+    
+    
+    </li>
+  
+    <li class="sid"><a class="resultlink" href="https://packages.debian.org/sid/apt-listbugs">sid (unstable)</a> (admin):
+	tool which lists critical bugs before each APT installation
+    
+      <br>0.1.31: all
+    
+    
+    </li>
+  
+  </ul>
+
+  <h3>Package apt-listchanges</h3>
+  <ul>
+  
+    <li class="jessie"><a class="resultlink" href="https://packages.debian.org/jessie/apt-listchanges">jessie (oldoldstable)</a> (utils):
+	package change history notification tool
+    
+      <br>2.85.13+nmu1: all
+    
+    
+    </li>
+  
+    <li class="stretch"><a class="resultlink" href="https://packages.debian.org/stretch/apt-listchanges">stretch (oldstable)</a> (utils):
+	package change history notification tool
+    
+      <br>3.10: all
+    
+    
+    </li>
+  
+    <li class="buster"><a class="resultlink" href="https://packages.debian.org/buster/apt-listchanges">buster (stable)</a> (utils):
+	package change history notification tool
+    
+      <br>3.19: all
+    
+    
+    </li>
+  
+    <li class="bullseye"><a class="resultlink" href="https://packages.debian.org/bullseye/apt-listchanges">bullseye (testing)</a> (utils):
+	package change history notification tool
+    
+      <br>3.22: all
+    
+    
+    </li>
+  
+    <li class="sid"><a class="resultlink" href="https://packages.debian.org/sid/apt-listchanges">sid (unstable)</a> (utils):
+	package change history notification tool
+    
+      <br>3.22: all
+    
+    
+    </li>
+  
+  </ul>
+
+  <h3>Package apt-listdifferences</h3>
+  <ul>
+  
+    <li class="jessie"><a class="resultlink" href="https://packages.debian.org/jessie/apt-listdifferences">jessie (oldoldstable)</a> (utils):
+	source differences notification tool
+    
+      <br>1.20141011: all
+    
+    
+    </li>
+  
+    <li class="stretch"><a class="resultlink" href="https://packages.debian.org/stretch/apt-listdifferences">stretch (oldstable)</a> (utils):
+	source differences notification tool
+    
+      <br>1.20161219: all
+    
+    
+    </li>
+  
+    <li class="buster"><a class="resultlink" href="https://packages.debian.org/buster/apt-listdifferences">buster (stable)</a> (utils):
+	source differences notification tool
+    
+      <br>1.20190206: all
+    
+    
+    </li>
+  
+    <li class="bullseye"><a class="resultlink" href="https://packages.debian.org/bullseye/apt-listdifferences">bullseye (testing)</a> (utils):
+	source differences notification tool
+    
+      <br>1.20190206: all
+    
+    
+    </li>
+  
+    <li class="sid"><a class="resultlink" href="https://packages.debian.org/sid/apt-listdifferences">sid (unstable)</a> (utils):
+	source differences notification tool
+    
+      <br>1.20190206: all
+    
+    
+    </li>
+  
+  </ul>
+
+  <h3>Package apt-mirror</h3>
+  <ul>
+  
+    <li class="jessie"><a class="resultlink" href="https://packages.debian.org/jessie/apt-mirror">jessie (oldoldstable)</a> (net):
+	APT sources mirroring tool
+    
+      <br>0.5.1-1: all
+    
+    
+    </li>
+  
+    <li class="stretch"><a class="resultlink" href="https://packages.debian.org/stretch/apt-mirror">stretch (oldstable)</a> (net):
+	APT sources mirroring tool
+    
+      <br>0.5.4-1: all
+    
+    
+    </li>
+  
+    <li class="buster"><a class="resultlink" href="https://packages.debian.org/buster/apt-mirror">buster (stable)</a> (net):
+	APT sources mirroring tool
+    
+      <br>0.5.4-1: all
+    
+    
+    </li>
+  
+    <li class="bullseye"><a class="resultlink" href="https://packages.debian.org/bullseye/apt-mirror">bullseye (testing)</a> (net):
+	APT sources mirroring tool
+    
+      <br>0.5.4-1: all
+    
+    
+    </li>
+  
+    <li class="sid"><a class="resultlink" href="https://packages.debian.org/sid/apt-mirror">sid (unstable)</a> (net):
+	APT sources mirroring tool
+    
+      <br>0.5.4-1: all
+    
+    
+    </li>
+  
+  </ul>
+
+  <h3>Package apt-mirror-setup</h3>
+  <ul>
+  
+    <li class="jessie"><a class="resultlink" href="https://packages.debian.org/jessie/apt-mirror-setup">jessie (oldoldstable)</a> (debian-installer):
+	set up a mirror in sources.list
+    
+      <br>1:0.97: all
+    
+    
+	<br>also provided by:
+	<a href="https://packages.debian.org/jessie/apt-cdrom-setup">apt-cdrom-setup</a>
+    
+    </li>
+  
+    <li class="stretch"><a class="resultlink" href="https://packages.debian.org/stretch/apt-mirror-setup">stretch (oldstable)</a> (debian-installer):
+	set up a mirror in sources.list
+    
+      <br>1:0.127: all
+    
+    
+	<br>also provided by:
+	<a href="https://packages.debian.org/stretch/apt-cdrom-setup">apt-cdrom-setup</a>
+    
+    </li>
+  
+    <li class="buster"><a class="resultlink" href="https://packages.debian.org/buster/apt-mirror-setup">buster (stable)</a> (debian-installer):
+	set up a mirror in sources.list
+    
+      <br>1:0.151~deb10u1: all
+    
+    
+	<br>also provided by:
+	<a href="https://packages.debian.org/buster/apt-cdrom-setup">apt-cdrom-setup</a>
+    
+    </li>
+  
+    <li class="bullseye"><a class="resultlink" href="https://packages.debian.org/bullseye/apt-mirror-setup">bullseye (testing)</a> (debian-installer):
+	set up a mirror in sources.list
+    
+      <br>1:0.157: all
+    
+    
+	<br>also provided by:
+	<a href="https://packages.debian.org/bullseye/apt-cdrom-setup">apt-cdrom-setup</a>
+    
+    </li>
+  
+    <li class="sid"><a class="resultlink" href="https://packages.debian.org/sid/apt-mirror-setup">sid (unstable)</a> (debian-installer):
+	set up a mirror in sources.list
+    
+      <br>1:0.157: all
+    
+    
+	<br>also provided by:
+	<a href="https://packages.debian.org/sid/apt-cdrom-setup">apt-cdrom-setup</a>
+    
+    </li>
+  
+  </ul>
+
+  <h3>Package apt-move</h3>
+  <ul>
+  
+    <li class="jessie"><a class="resultlink" href="https://packages.debian.org/jessie/apt-move">jessie (oldoldstable)</a> (admin):
+	Maintain Debian packages in a package pool
+    
+      <br>4.2.27-3: amd64 armel armhf i386
+    
+    
+    </li>
+  
+    <li class="stretch"><a class="resultlink" href="https://packages.debian.org/stretch/apt-move">stretch (oldstable)</a> (admin):
+	maintain Debian packages in a package pool
+    
+      <br>4.2.27-5: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el s390x
+    
+    
+    </li>
+  
+    <li class="buster"><a class="resultlink" href="https://packages.debian.org/buster/apt-move">buster (stable)</a> (admin):
+	maintain Debian packages in a package pool
+    
+      <br>4.2.27-5: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el s390x
+    
+    
+    </li>
+  
+    <li class="bullseye"><a class="resultlink" href="https://packages.debian.org/bullseye/apt-move">bullseye (testing)</a> (admin):
+	maintain Debian packages in a package pool
+    
+      <br>4.2.27-6: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el s390x
+    
+    
+    </li>
+  
+    <li class="sid"><a class="resultlink" href="https://packages.debian.org/sid/apt-move">sid (unstable)</a> (admin):
+	maintain Debian packages in a package pool
+    
+      <br>4.2.27-6: alpha amd64 arm64 armel armhf hppa i386 m68k mips64el mipsel ppc64 ppc64el riscv64 s390x sh4 sparc64 x32
+    
+      <br>4.2.27-5 [<a href="https://www.ports.debian.org/"><strong class="pmarker" title="ports of packages to architectures not yet or not anymore available in Debian">debports</strong></a>]: powerpcspe
+    
+    
+    </li>
+  
+  </ul>
+
+  <h3>Package apt-move-dbgsym</h3>
+  <ul>
+  
+    <li class="sid"><a class="resultlink" href="https://packages.debian.org/sid/apt-move-dbgsym">sid (unstable)</a> (debug):
+	debug symbols for apt-move
+    
+      <br>4.2.27-6 [<a href="https://www.ports.debian.org/"><strong class="pmarker" title="ports of packages to architectures not yet or not anymore available in Debian">debports</strong></a>]: alpha hppa m68k ppc64 riscv64 sh4 sparc64 x32
+    
+      <br>4.2.27-5 [<a href="https://www.ports.debian.org/"><strong class="pmarker" title="ports of packages to architectures not yet or not anymore available in Debian">debports</strong></a>]: powerpcspe
+    
+    
+    </li>
+  
+  </ul>
+
+  <h3>Package apt-offline</h3>
+  <ul>
+  
+    <li class="jessie"><a class="resultlink" href="https://packages.debian.org/jessie/apt-offline">jessie (oldoldstable)</a> (admin):
+	offline APT package manager
+    
+      <br>1.5.1: all
+    
+    
+    </li>
+  
+    <li class="stretch"><a class="resultlink" href="https://packages.debian.org/stretch/apt-offline">stretch (oldstable)</a> (admin):
+	offline APT package manager
+    
+      <br>1.7.2: all
+    
+    
+    </li>
+  
+    <li class="buster-backports"><a class="resultlink" href="https://packages.debian.org/buster-backports/apt-offline">buster-backports</a> (admin):
+	offline APT package manager
+    
+      <br>1.8.2-1~bpo10+1: all
+    
+    
+    </li>
+  
+    <li class="bullseye"><a class="resultlink" href="https://packages.debian.org/bullseye/apt-offline">bullseye (testing)</a> (admin):
+	offline APT package manager
+    
+      <br>1.8.2-2: all
+    
+    
+    </li>
+  
+    <li class="sid"><a class="resultlink" href="https://packages.debian.org/sid/apt-offline">sid (unstable)</a> (admin):
+	offline APT package manager
+    
+      <br>1.8.2-2: all
+    
+    
+    </li>
+  
+  </ul>
+
+  <h3>Package apt-offline-gui</h3>
+  <ul>
+  
+    <li class="jessie"><a class="resultlink" href="https://packages.debian.org/jessie/apt-offline-gui">jessie (oldoldstable)</a> (admin):
+	offline APT package manager - GUI
+    
+      <br>1.5.1: all
+    
+    
+    </li>
+  
+    <li class="stretch"><a class="resultlink" href="https://packages.debian.org/stretch/apt-offline-gui">stretch (oldstable)</a> (admin):
+	offline APT package manager - GUI
+    
+      <br>1.7.2: all
+    
+    
+    </li>
+  
+    <li class="buster-backports"><a class="resultlink" href="https://packages.debian.org/buster-backports/apt-offline-gui">buster-backports</a> (admin):
+	offline APT package manager - GUI
+    
+      <br>1.8.2-1~bpo10+1: all
+    
+    
+    </li>
+  
+    <li class="bullseye"><a class="resultlink" href="https://packages.debian.org/bullseye/apt-offline-gui">bullseye (testing)</a> (admin):
+	offline APT package manager - GUI
+    
+      <br>1.8.2-2: all
+    
+    
+    </li>
+  
+    <li class="sid"><a class="resultlink" href="https://packages.debian.org/sid/apt-offline-gui">sid (unstable)</a> (admin):
+	offline APT package manager - GUI
+    
+      <br>1.8.2-2: all
+    
+    
+    </li>
+  
+  </ul>
+
+  <h3>Package apt-p2p</h3>
+  <ul>
+  
+    <li class="jessie"><a class="resultlink" href="https://packages.debian.org/jessie/apt-p2p">jessie (oldoldstable)</a> (net):
+	apt helper for peer-to-peer downloads of Debian packages
+    
+      <br>0.1.8: all
+    
+    
+    </li>
+  
+  </ul>
+
+  <h3>Package apt-rdepends</h3>
+  <ul>
+  
+    <li class="jessie"><a class="resultlink" href="https://packages.debian.org/jessie/apt-rdepends">jessie (oldoldstable)</a> (utils):
+	Recursively lists package dependencies
+    
+      <br>1.3.0-3: all
+    
+    
+    </li>
+  
+    <li class="stretch"><a class="resultlink" href="https://packages.debian.org/stretch/apt-rdepends">stretch (oldstable)</a> (utils):
+	recursively lists package dependencies
+    
+      <br>1.3.0-6: all
+    
+    
+    </li>
+  
+    <li class="buster"><a class="resultlink" href="https://packages.debian.org/buster/apt-rdepends">buster (stable)</a> (utils):
+	recursively lists package dependencies
+    
+      <br>1.3.0-6: all
+    
+    
+    </li>
+  
+    <li class="bullseye"><a class="resultlink" href="https://packages.debian.org/bullseye/apt-rdepends">bullseye (testing)</a> (utils):
+	recursively lists package dependencies
+    
+      <br>1.3.0-7: all
+    
+    
+    </li>
+  
+    <li class="sid"><a class="resultlink" href="https://packages.debian.org/sid/apt-rdepends">sid (unstable)</a> (utils):
+	recursively lists package dependencies
+    
+      <br>1.3.0-7: all
+    
+    
+    </li>
+  
+  </ul>
+
+  <h3>Package apt-setup-udeb</h3>
+  <ul>
+  
+    <li class="jessie"><a class="resultlink" href="https://packages.debian.org/jessie/apt-setup-udeb">jessie (oldoldstable)</a> (debian-installer):
+	Configure apt
+    
+      <br>1:0.97: amd64 armel armhf i386
+    
+    
+    </li>
+  
+    <li class="stretch"><a class="resultlink" href="https://packages.debian.org/stretch/apt-setup-udeb">stretch (oldstable)</a> (debian-installer):
+	Configure apt
+    
+      <br>1:0.127: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el s390x
+    
+    
+    </li>
+  
+    <li class="buster"><a class="resultlink" href="https://packages.debian.org/buster/apt-setup-udeb">buster (stable)</a> (debian-installer):
+	Configure apt
+    
+      <br>1:0.151~deb10u1: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el s390x
+    
+    
+    </li>
+  
+    <li class="bullseye"><a class="resultlink" href="https://packages.debian.org/bullseye/apt-setup-udeb">bullseye (testing)</a> (debian-installer):
+	Configure apt
+    
+      <br>1:0.157: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el s390x
+    
+    
+    </li>
+  
+    <li class="sid"><a class="resultlink" href="https://packages.debian.org/sid/apt-setup-udeb">sid (unstable)</a> (debian-installer):
+	Configure apt
+    
+      <br>1:0.157: alpha amd64 arm64 armel armhf hppa i386 m68k mips64el mipsel ppc64 ppc64el riscv64 s390x sh4 sparc64 x32
+    
+      <br>1:0.149 [<a href="https://www.ports.debian.org/"><strong class="pmarker" title="ports of packages to architectures not yet or not anymore available in Debian">debports</strong></a>]: powerpcspe
+    
+    
+    </li>
+  
+  </ul>
+
+  <h3>Package apt-show-source</h3>
+  <ul>
+  
+    <li class="jessie"><a class="resultlink" href="https://packages.debian.org/jessie/apt-show-source">jessie (oldoldstable)</a> (admin):
+	Shows source-package information
+    
+      <br>0.10: all
+    
+    
+    </li>
+  
+    <li class="stretch"><a class="resultlink" href="https://packages.debian.org/stretch/apt-show-source">stretch (oldstable)</a> (admin):
+	Shows source-package information
+    
+      <br>0.10+nmu5: all
+    
+    
+    </li>
+  
+    <li class="buster"><a class="resultlink" href="https://packages.debian.org/buster/apt-show-source">buster (stable)</a> (admin):
+	Shows source-package information
+    
+      <br>0.11: all
+    
+    
+    </li>
+  
+    <li class="bullseye"><a class="resultlink" href="https://packages.debian.org/bullseye/apt-show-source">bullseye (testing)</a> (admin):
+	Shows source-package information
+    
+      <br>0.11: all
+    
+    
+    </li>
+  
+    <li class="sid"><a class="resultlink" href="https://packages.debian.org/sid/apt-show-source">sid (unstable)</a> (admin):
+	Shows source-package information
+    
+      <br>0.11: all
+    
+    
+    </li>
+  
+  </ul>
+
+  <h3>Package apt-show-versions</h3>
+  <ul>
+  
+    <li class="jessie"><a class="resultlink" href="https://packages.debian.org/jessie/apt-show-versions">jessie (oldoldstable)</a> (admin):
+	lists available package versions with distribution
+    
+      <br>0.22.4: all
+    
+    
+    </li>
+  
+    <li class="stretch"><a class="resultlink" href="https://packages.debian.org/stretch/apt-show-versions">stretch (oldstable)</a> (admin):
+	lists available package versions with distribution
+    
+      <br>0.22.7: all
+    
+    
+    </li>
+  
+    <li class="stretch-backports"><a class="resultlink" href="https://packages.debian.org/stretch-backports/apt-show-versions">stretch-backports</a> (admin):
+	lists available package versions with distribution
+    
+      <br>0.22.11~bpo9.1: all
+    
+    
+    </li>
+  
+    <li class="buster"><a class="resultlink" href="https://packages.debian.org/buster/apt-show-versions">buster (stable)</a> (admin):
+	lists available package versions with distribution
+    
+      <br>0.22.11: all
+    
+    
+    </li>
+  
+    <li class="bullseye"><a class="resultlink" href="https://packages.debian.org/bullseye/apt-show-versions">bullseye (testing)</a> (admin):
+	lists available package versions with distribution
+    
+      <br>0.22.11: all
+    
+    
+    </li>
+  
+    <li class="sid"><a class="resultlink" href="https://packages.debian.org/sid/apt-show-versions">sid (unstable)</a> (admin):
+	lists available package versions with distribution
+    
+      <br>0.22.11: all
+    
+    
+    </li>
+  
+  </ul>
+
+  <h3>Package apt-spy</h3>
+  <ul>
+  
+    <li class="sid"><a class="resultlink" href="https://packages.debian.org/sid/apt-spy">sid (unstable)</a> (admin):
+	writes a sources.list file based on bandwidth tests
+    
+      <br>3.2.2-1 [<a href="https://www.ports.debian.org/"><strong class="pmarker" title="ports of packages to architectures not yet or not anymore available in Debian">debports</strong></a>]: arm64
+    
+    
+    </li>
+  
+  </ul>
+
+  <h3>Package apt-src</h3>
+  <ul>
+  
+    <li class="jessie"><a class="resultlink" href="https://packages.debian.org/jessie/apt-src">jessie (oldoldstable)</a> (admin):
+	manage Debian source packages
+    
+      <br>0.25.1-0.2: all
+    
+    
+    </li>
+  
+    <li class="stretch"><a class="resultlink" href="https://packages.debian.org/stretch/apt-src">stretch (oldstable)</a> (admin):
+	manage Debian source packages
+    
+      <br>0.25.2: all
+    
+    
+    </li>
+  
+    <li class="buster"><a class="resultlink" href="https://packages.debian.org/buster/apt-src">buster (stable)</a> (admin):
+	manage Debian source packages
+    
+      <br>0.25.2: all
+    
+    
+    </li>
+  
+    <li class="bullseye"><a class="resultlink" href="https://packages.debian.org/bullseye/apt-src">bullseye (testing)</a> (admin):
+	manage Debian source packages
+    
+      <br>0.25.2: all
+    
+    
+    </li>
+  
+    <li class="sid"><a class="resultlink" href="https://packages.debian.org/sid/apt-src">sid (unstable)</a> (admin):
+	manage Debian source packages
+    
+      <br>0.25.2: all
+    
+    
+    </li>
+  
+  </ul>
+
+  <h3>Package apt-transport-https</h3>
+  <ul>
+  
+    <li class="jessie"><a class="resultlink" href="https://packages.debian.org/jessie/apt-transport-https">jessie (oldoldstable)</a> (admin):
+	https download transport for APT
+    
+      <br>1.0.9.8.6 [<strong class="pmarker" title="">security</strong>]: amd64 armel armhf i386
+    
+    
+    </li>
+  
+    <li class="stretch"><a class="resultlink" href="https://packages.debian.org/stretch/apt-transport-https">stretch (oldstable)</a> (admin):
+	https download transport for APT
+    
+      <br>1.4.10 [<strong class="pmarker" title="">security</strong>]: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el s390x
+    
+    
+    </li>
+  
+    <li class="buster"><a class="resultlink" href="https://packages.debian.org/buster/apt-transport-https">buster (stable)</a> (admin):
+	transitional package for https support
+    
+      <br>1.8.2.1 [<strong class="pmarker" title="">security</strong>]: all
+    
+    
+    </li>
+  
+    <li class="bullseye"><a class="resultlink" href="https://packages.debian.org/bullseye/apt-transport-https">bullseye (testing)</a> (oldlibs):
+	transitional package for https support
+    
+      <br>2.1.6: all
+    
+    
+    </li>
+  
+    <li class="sid"><a class="resultlink" href="https://packages.debian.org/sid/apt-transport-https">sid (unstable)</a> (oldlibs):
+	transitional package for https support
+    
+      <br>2.1.6: all
+    
+      <br>1.0.9.3 [<a href="https://www.ports.debian.org/"><strong class="pmarker" title="ports of packages to architectures not yet or not anymore available in Debian">debports</strong></a>]: arm64
+    
+    
+    </li>
+  
+  </ul>
+
+  <h3>Package apt-transport-s3</h3>
+  <ul>
+  
+    <li class="stretch"><a class="resultlink" href="https://packages.debian.org/stretch/apt-transport-s3">stretch (oldstable)</a> (admin):
+	APT transport for privately held AWS S3 repositories
+    
+      <br>1.2.1-1: all
+    
+    
+    </li>
+  
+    <li class="buster"><a class="resultlink" href="https://packages.debian.org/buster/apt-transport-s3">buster (stable)</a> (admin):
+	APT transport for privately held AWS S3 repositories
+    
+      <br>1.3.0-1: all
+    
+    
+    </li>
+  
+    <li class="buster-backports"><a class="resultlink" href="https://packages.debian.org/buster-backports/apt-transport-s3">buster-backports</a> (admin):
+	APT transport for privately held AWS S3 repositories
+    
+      <br>1.4.0-1~bpo10+1: all
+    
+    
+    </li>
+  
+    <li class="bullseye"><a class="resultlink" href="https://packages.debian.org/bullseye/apt-transport-s3">bullseye (testing)</a> (admin):
+	APT transport for privately held AWS S3 repositories
+    
+      <br>2.0.0-1: all
+    
+    
+    </li>
+  
+    <li class="sid"><a class="resultlink" href="https://packages.debian.org/sid/apt-transport-s3">sid (unstable)</a> (admin):
+	APT transport for privately held AWS S3 repositories
+    
+      <br>2.0.0-1: all
+    
+    
+    </li>
+  
+  </ul>
+
+  <h3>Package apt-transport-spacewalk</h3>
+  <ul>
+  
+    <li class="jessie"><a class="resultlink" href="https://packages.debian.org/jessie/apt-transport-spacewalk">jessie (oldoldstable)</a> (admin):
+	APT transport for communicating with Spacewalk servers
+    
+      <br>1.0.6-4.1: all
+    
+    
+    </li>
+  
+    <li class="stretch"><a class="resultlink" href="https://packages.debian.org/stretch/apt-transport-spacewalk">stretch (oldstable)</a> (admin):
+	APT transport for communicating with Spacewalk servers
+    
+      <br>1.0.6-4.1: all
+    
+    
+    </li>
+  
+  </ul>
+
+  <h3>Package apt-transport-tor</h3>
+  <ul>
+  
+    <li class="jessie"><a class="resultlink" href="https://packages.debian.org/jessie/apt-transport-tor">jessie (oldoldstable)</a> (admin):
+	APT transport for anonymous package downloads via Tor
+    
+      <br>0.2.1-1: amd64 armel armhf i386
+    
+    
+    </li>
+  
+    <li class="stretch"><a class="resultlink" href="https://packages.debian.org/stretch/apt-transport-tor">stretch (oldstable)</a> (admin):
+	APT transport for anonymous package downloads via Tor
+    
+      <br>0.3: all
+    
+    
+    </li>
+  
+    <li class="buster"><a class="resultlink" href="https://packages.debian.org/buster/apt-transport-tor">buster (stable)</a> (admin):
+	APT transport for anonymous package downloads via Tor
+    
+      <br>0.4: all
+    
+    
+    </li>
+  
+    <li class="bullseye"><a class="resultlink" href="https://packages.debian.org/bullseye/apt-transport-tor">bullseye (testing)</a> (admin):
+	APT transport for anonymous package downloads via Tor
+    
+      <br>0.4: all
+    
+    
+    </li>
+  
+    <li class="sid"><a class="resultlink" href="https://packages.debian.org/sid/apt-transport-tor">sid (unstable)</a> (admin):
+	APT transport for anonymous package downloads via Tor
+    
+      <br>0.4: all
+    
+      <br>0.2.1-1+b3 [<a href="https://www.ports.debian.org/"><strong class="pmarker" title="ports of packages to architectures not yet or not anymore available in Debian">debports</strong></a>]: ppc64
+    
+      <br>0.2.1-1+b2 [<a href="https://www.ports.debian.org/"><strong class="pmarker" title="ports of packages to architectures not yet or not anymore available in Debian">debports</strong></a>]: alpha sparc64
+    
+      <br>0.2.1-1+b1 [<a href="https://www.ports.debian.org/"><strong class="pmarker" title="ports of packages to architectures not yet or not anymore available in Debian">debports</strong></a>]: hppa m68k sh4 x32
+    
+      <br>0.2.1-1 [<a href="https://www.ports.debian.org/"><strong class="pmarker" title="ports of packages to architectures not yet or not anymore available in Debian">debports</strong></a>]: arm64 powerpcspe
+    
+    
+    </li>
+  
+  </ul>
+
+  <h3>Package apt-transport-tor-dbgsym</h3>
+  <ul>
+  
+    <li class="sid"><a class="resultlink" href="https://packages.debian.org/sid/apt-transport-tor-dbgsym">sid (unstable)</a> (debug):
+	Debug symbols for apt-transport-tor
+    
+      <br>0.2.1-1+b3 [<a href="https://www.ports.debian.org/"><strong class="pmarker" title="ports of packages to architectures not yet or not anymore available in Debian">debports</strong></a>]: ppc64
+    
+      <br>0.2.1-1+b2 [<a href="https://www.ports.debian.org/"><strong class="pmarker" title="ports of packages to architectures not yet or not anymore available in Debian">debports</strong></a>]: sparc64
+    
+      <br>0.2.1-1 [<a href="https://www.ports.debian.org/"><strong class="pmarker" title="ports of packages to architectures not yet or not anymore available in Debian">debports</strong></a>]: powerpcspe
+    
+    
+    </li>
+  
+  </ul>
+
+  <h3>Package apt-utils</h3>
+  <ul>
+  
+    <li class="jessie"><a class="resultlink" href="https://packages.debian.org/jessie/apt-utils">jessie (oldoldstable)</a> (admin):
+	package management related utility programs
+    
+      <br>1.0.9.8.6 [<strong class="pmarker" title="">security</strong>]: amd64 armel armhf i386
+    
+    
+    </li>
+  
+    <li class="stretch"><a class="resultlink" href="https://packages.debian.org/stretch/apt-utils">stretch (oldstable)</a> (admin):
+	package management related utility programs
+    
+      <br>1.4.10 [<strong class="pmarker" title="">security</strong>]: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el s390x
+    
+    
+    </li>
+  
+    <li class="buster"><a class="resultlink" href="https://packages.debian.org/buster/apt-utils">buster (stable)</a> (admin):
+	package management related utility programs
+    
+      <br>1.8.2.1 [<strong class="pmarker" title="">security</strong>]: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el s390x
+    
+    
+    </li>
+  
+    <li class="bullseye"><a class="resultlink" href="https://packages.debian.org/bullseye/apt-utils">bullseye (testing)</a> (admin):
+	package management related utility programs
+    
+      <br>2.1.6: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el s390x
+    
+    
+    </li>
+  
+    <li class="sid"><a class="resultlink" href="https://packages.debian.org/sid/apt-utils">sid (unstable)</a> (admin):
+	package management related utility programs
+    
+      <br>2.1.6: alpha amd64 arm64 armel armhf hppa i386 m68k mips64el mipsel ppc64 ppc64el riscv64 s390x sh4 sparc64 x32
+    
+      <br>1.8.1 [<a href="https://www.ports.debian.org/"><strong class="pmarker" title="ports of packages to architectures not yet or not anymore available in Debian">debports</strong></a>]: powerpcspe
+    
+    
+    </li>
+  
+  </ul>
+
+  <h3>Package apt-utils-dbgsym</h3>
+  <ul>
+  
+    <li class="sid"><a class="resultlink" href="https://packages.debian.org/sid/apt-utils-dbgsym">sid (unstable)</a> (debug):
+	debug symbols for apt-utils
+    
+      <br>2.1.6 [<a href="https://www.ports.debian.org/"><strong class="pmarker" title="ports of packages to architectures not yet or not anymore available in Debian">debports</strong></a>]: alpha hppa m68k ppc64 riscv64 sh4 sparc64 x32
+    
+      <br>1.8.1 [<a href="https://www.ports.debian.org/"><strong class="pmarker" title="ports of packages to architectures not yet or not anymore available in Debian">debports</strong></a>]: powerpcspe
+    
+    
+    </li>
+  
+  </ul>
+
+  <h3>Package apt-venv</h3>
+  <ul>
+  
+    <li class="jessie"><a class="resultlink" href="https://packages.debian.org/jessie/apt-venv">jessie (oldoldstable)</a> (admin):
+	apt virtual environment
+    
+      <br>1.0.0-1: all
+    
+    
+    </li>
+  
+    <li class="stretch"><a class="resultlink" href="https://packages.debian.org/stretch/apt-venv">stretch (oldstable)</a> (admin):
+	apt virtual environment
+    
+      <br>1.0.0-2: all
+    
+    
+    </li>
+  
+    <li class="buster"><a class="resultlink" href="https://packages.debian.org/buster/apt-venv">buster (stable)</a> (admin):
+	apt virtual environment
+    
+      <br>1.0.0-2: all
+    
+    
+    </li>
+  
+    <li class="bullseye"><a class="resultlink" href="https://packages.debian.org/bullseye/apt-venv">bullseye (testing)</a> (admin):
+	apt virtual environment
+    
+      <br>1.0.0-2: all
+    
+    
+    </li>
+  
+    <li class="sid"><a class="resultlink" href="https://packages.debian.org/sid/apt-venv">sid (unstable)</a> (admin):
+	apt virtual environment
+    
+      <br>1.0.0-2: all
+    
+    
+    </li>
+  
+  </ul>
+
+  <h3>Package apt-watch-backend</h3>
+  <ul>
+  
+    <li class="sid"><a class="resultlink" href="https://packages.debian.org/sid/apt-watch-backend">sid (unstable)</a> (admin):
+	Applet that monitors apt sources for upgrades (backend slave)
+    
+      <br>0.4.0-2.1 [<a href="https://www.ports.debian.org/"><strong class="pmarker" title="ports of packages to architectures not yet or not anymore available in Debian">debports</strong></a>]: arm64
+    
+    
+    </li>
+  
+  </ul>
+
+  <h3>Package apt-watch-gnome</h3>
+  <ul>
+  
+    <li class="sid"><a class="resultlink" href="https://packages.debian.org/sid/apt-watch-gnome">sid (unstable)</a> (admin):
+	Applet that monitors apt sources for upgrades (GNOME applet)
+    
+      <br>0.4.0-2.1 [<a href="https://www.ports.debian.org/"><strong class="pmarker" title="ports of packages to architectures not yet or not anymore available in Debian">debports</strong></a>]: arm64
+    
+    
+    </li>
+  
+  </ul>
+
+  <h3>Package apt-xapian-index</h3>
+  <ul>
+  
+    <li class="jessie"><a class="resultlink" href="https://packages.debian.org/jessie/apt-xapian-index">jessie (oldoldstable)</a> (admin):
+	maintenance and search tools for a Xapian index of Debian packages
+    
+      <br>0.47+deb8u1: all
+    
+    
+    </li>
+  
+    <li class="stretch"><a class="resultlink" href="https://packages.debian.org/stretch/apt-xapian-index">stretch (oldstable)</a> (admin):
+	maintenance and search tools for a Xapian index of Debian packages
+    
+      <br>0.49: all
+    
+    
+    </li>
+  
+    <li class="buster"><a class="resultlink" href="https://packages.debian.org/buster/apt-xapian-index">buster (stable)</a> (admin):
+	maintenance and search tools for a Xapian index of Debian packages
+    
+      <br>0.49: all
+    
+    
+    </li>
+  
+    <li class="bullseye"><a class="resultlink" href="https://packages.debian.org/bullseye/apt-xapian-index">bullseye (testing)</a> (admin):
+	maintenance and search tools for a Xapian index of Debian packages
+    
+      <br>0.51: all
+    
+    
+    </li>
+  
+    <li class="sid"><a class="resultlink" href="https://packages.debian.org/sid/apt-xapian-index">sid (unstable)</a> (admin):
+	maintenance and search tools for a Xapian index of Debian packages
+    
+      <br>0.51: all
+    
+    
+    </li>
+  
+  </ul>
+
+  <h3>Package aptdaemon</h3>
+  <ul>
+  
+    <li class="jessie"><a class="resultlink" href="https://packages.debian.org/jessie/aptdaemon">jessie (oldoldstable)</a> (admin):
+	transaction based package management service
+    
+      <br>1.1.1-4+deb8u1: all
+    
+    
+    </li>
+  
+  </ul>
+
+  <h3>Package aptdaemon-data</h3>
+  <ul>
+  
+    <li class="jessie"><a class="resultlink" href="https://packages.debian.org/jessie/aptdaemon-data">jessie (oldoldstable)</a> (admin):
+	data files for clients
+    
+      <br>1.1.1-4+deb8u1: all
+    
+    
+    </li>
+  
+  </ul>
+
+  <h3>Package aptfs</h3>
+  <ul>
+  
+    <li class="jessie"><a class="resultlink" href="https://packages.debian.org/jessie/aptfs">jessie (oldoldstable)</a> (utils):
+	FUSE filesystem for APT source repositories
+    
+      <br>1:0+git201108031956-38fb8dc-3: all
+    
+    
+    </li>
+  
+    <li class="stretch"><a class="resultlink" href="https://packages.debian.org/stretch/aptfs">stretch (oldstable)</a> (utils):
+	FUSE filesystem for APT source repositories
+    
+      <br>2:0.10-1: all
+    
+    
+    </li>
+  
+    <li class="buster"><a class="resultlink" href="https://packages.debian.org/buster/aptfs">buster (stable)</a> (utils):
+	FUSE filesystem for APT source repositories
+    
+      <br>2:0.13.1-1: all
+    
+    
+    </li>
+  
+    <li class="bullseye"><a class="resultlink" href="https://packages.debian.org/bullseye/aptfs">bullseye (testing)</a> (utils):
+	FUSE filesystem for APT source repositories
+    
+      <br>2:1.0.1: all
+    
+    
+    </li>
+  
+    <li class="sid"><a class="resultlink" href="https://packages.debian.org/sid/aptfs">sid (unstable)</a> (utils):
+	FUSE filesystem for APT source repositories
+    
+      <br>2:1.0.1: all
+    
+    
+    </li>
+  
+  </ul>
+
+  <h3>Package apticron</h3>
+  <ul>
+  
+    <li class="jessie"><a class="resultlink" href="https://packages.debian.org/jessie/apticron">jessie (oldoldstable)</a> (admin):
+	Simple tool to mail about pending package updates
+    
+      <br>1.1.57: all
+    
+    
+    </li>
+  
+    <li class="stretch"><a class="resultlink" href="https://packages.debian.org/stretch/apticron">stretch (oldstable)</a> (admin):
+	Simple tool to mail about pending package updates
+    
+      <br>1.1.61: all
+    
+    
+    </li>
+  
+    <li class="buster"><a class="resultlink" href="https://packages.debian.org/buster/apticron">buster (stable)</a> (admin):
+	Simple tool to mail about pending package updates - cron version
+    
+      <br>1.2.1: all
+    
+    
+    </li>
+  
+    <li class="bullseye"><a class="resultlink" href="https://packages.debian.org/bullseye/apticron">bullseye (testing)</a> (admin):
+	Simple tool to mail about pending package updates - cron version
+    
+      <br>1.2.3+nmu1: all
+    
+    
+    </li>
+  
+    <li class="sid"><a class="resultlink" href="https://packages.debian.org/sid/apticron">sid (unstable)</a> (admin):
+	Simple tool to mail about pending package updates - cron version
+    
+      <br>1.2.3+nmu1: all
+    
+    
+    </li>
+  
+  </ul>
+
+  <h3>Package apticron-systemd</h3>
+  <ul>
+  
+    <li class="buster"><a class="resultlink" href="https://packages.debian.org/buster/apticron-systemd">buster (stable)</a> (admin):
+	Simple tool to mail about pending package updates - systemd version
+    
+      <br>1.2.1: all
+    
+    
+    </li>
+  
+    <li class="bullseye"><a class="resultlink" href="https://packages.debian.org/bullseye/apticron-systemd">bullseye (testing)</a> (admin):
+	Simple tool to mail about pending package updates - systemd version
+    
+      <br>1.2.3+nmu1: all
+    
+    
+    </li>
+  
+    <li class="sid"><a class="resultlink" href="https://packages.debian.org/sid/apticron-systemd">sid (unstable)</a> (admin):
+	Simple tool to mail about pending package updates - systemd version
+    
+      <br>1.2.3+nmu1: all
+    
+    
+    </li>
+  
+  </ul>
+
+  <h3>Package aptitude</h3>
+  <ul>
+  
+    <li class="jessie"><a class="resultlink" href="https://packages.debian.org/jessie/aptitude">jessie (oldoldstable)</a> (admin):
+	terminal-based package manager
+    
+      <br>0.6.11-1+b1: amd64 armel armhf i386
+    
+    
+    </li>
+  
+    <li class="stretch"><a class="resultlink" href="https://packages.debian.org/stretch/aptitude">stretch (oldstable)</a> (admin):
+	terminal-based package manager
+    
+      <br>0.8.7-1: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el s390x
+    
+    
+    </li>
+  
+    <li class="buster"><a class="resultlink" href="https://packages.debian.org/buster/aptitude">buster (stable)</a> (admin):
+	terminal-based package manager
+    
+      <br>0.8.11-7: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el s390x
+    
+    
+    </li>
+  
+    <li class="bullseye"><a class="resultlink" href="https://packages.debian.org/bullseye/aptitude">bullseye (testing)</a> (admin):
+	terminal-based package manager
+    
+      <br>0.8.13-1+b1: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el s390x
+    
+    
+    </li>
+  
+    <li class="sid"><a class="resultlink" href="https://packages.debian.org/sid/aptitude">sid (unstable)</a> (admin):
+	terminal-based package manager
+    
+      <br>0.8.13-1+b1: alpha amd64 arm64 armel armhf hppa i386 m68k mips64el mipsel ppc64 ppc64el riscv64 s390x sh4 sparc64
+    
+      <br>0.8.13-1 [<a href="https://www.ports.debian.org/"><strong class="pmarker" title="ports of packages to architectures not yet or not anymore available in Debian">debports</strong></a>]: x32
+    
+      <br>0.8.11-7 [<a href="https://www.ports.debian.org/"><strong class="pmarker" title="ports of packages to architectures not yet or not anymore available in Debian">debports</strong></a>]: powerpcspe
+    
+    
+    </li>
+  
+  </ul>
+
+  <h3>Package aptitude-common</h3>
+  <ul>
+  
+    <li class="jessie"><a class="resultlink" href="https://packages.debian.org/jessie/aptitude-common">jessie (oldoldstable)</a> (admin):
+	architecture independent files for the aptitude package manager
+    
+      <br>0.6.11-1: all
+    
+    
+    </li>
+  
+    <li class="stretch"><a class="resultlink" href="https://packages.debian.org/stretch/aptitude-common">stretch (oldstable)</a> (admin):
+	architecture independent files for the aptitude package manager
+    
+      <br>0.8.7-1: all
+    
+    
+    </li>
+  
+    <li class="buster"><a class="resultlink" href="https://packages.debian.org/buster/aptitude-common">buster (stable)</a> (admin):
+	architecture independent files for the aptitude package manager
+    
+      <br>0.8.11-7: all
+    
+    
+    </li>
+  
+    <li class="bullseye"><a class="resultlink" href="https://packages.debian.org/bullseye/aptitude-common">bullseye (testing)</a> (admin):
+	architecture independent files for the aptitude package manager
+    
+      <br>0.8.13-1: all
+    
+    
+    </li>
+  
+    <li class="sid"><a class="resultlink" href="https://packages.debian.org/sid/aptitude-common">sid (unstable)</a> (admin):
+	architecture independent files for the aptitude package manager
+    
+      <br>0.8.13-1: all
+    
+    
+    </li>
+  
+  </ul>
+
+  <h3>Package aptitude-dbg</h3>
+  <ul>
+  
+    <li class="jessie"><a class="resultlink" href="https://packages.debian.org/jessie/aptitude-dbg">jessie (oldoldstable)</a> (debug):
+	Debug symbols for the aptitude package manager
+    
+      <br>0.6.11-1+b1: amd64 armel armhf i386
+    
+    
+    </li>
+  
+    <li class="sid"><a class="resultlink" href="https://packages.debian.org/sid/aptitude-dbg">sid (unstable)</a> (debug):
+	Debug symbols for the aptitude package manager
+    
+      <br>0.6.11-1 [<a href="https://www.ports.debian.org/"><strong class="pmarker" title="ports of packages to architectures not yet or not anymore available in Debian">debports</strong></a>]: arm64
+    
+    
+    </li>
+  
+  </ul>
+
+  <h3>Package aptitude-dbgsym</h3>
+  <ul>
+  
+    <li class="sid"><a class="resultlink" href="https://packages.debian.org/sid/aptitude-dbgsym">sid (unstable)</a> (debug):
+	debug symbols for aptitude
+    
+      <br>0.8.13-1+b1 [<a href="https://www.ports.debian.org/"><strong class="pmarker" title="ports of packages to architectures not yet or not anymore available in Debian">debports</strong></a>]: alpha hppa m68k ppc64 riscv64 sh4 sparc64
+    
+      <br>0.8.13-1 [<a href="https://www.ports.debian.org/"><strong class="pmarker" title="ports of packages to architectures not yet or not anymore available in Debian">debports</strong></a>]: x32
+    
+      <br>0.8.11-7 [<a href="https://www.ports.debian.org/"><strong class="pmarker" title="ports of packages to architectures not yet or not anymore available in Debian">debports</strong></a>]: powerpcspe
+    
+    
+    </li>
+  
+  </ul>
+
+  <h3>Package aptitude-doc-cs</h3>
+  <ul>
+  
+    <li class="jessie"><a class="resultlink" href="https://packages.debian.org/jessie/aptitude-doc-cs">jessie (oldoldstable)</a> (doc):
+	Czech manual for aptitude, a terminal-based package manager
+    
+      <br>0.6.11-1: all
+    
+    
+    </li>
+  
+    <li class="stretch"><a class="resultlink" href="https://packages.debian.org/stretch/aptitude-doc-cs">stretch (oldstable)</a> (doc):
+	Czech manual for aptitude, a terminal-based package manager
+    
+      <br>0.8.7-1: all
+    
+    
+    </li>
+  
+    <li class="buster"><a class="resultlink" href="https://packages.debian.org/buster/aptitude-doc-cs">buster (stable)</a> (doc):
+	Czech manual for aptitude, a terminal-based package manager
+    
+      <br>0.8.11-7: all
+    
+    
+    </li>
+  
+    <li class="bullseye"><a class="resultlink" href="https://packages.debian.org/bullseye/aptitude-doc-cs">bullseye (testing)</a> (doc):
+	Czech manual for aptitude, a terminal-based package manager
+    
+      <br>0.8.13-1: all
+    
+    
+    </li>
+  
+    <li class="sid"><a class="resultlink" href="https://packages.debian.org/sid/aptitude-doc-cs">sid (unstable)</a> (doc):
+	Czech manual for aptitude, a terminal-based package manager
+    
+      <br>0.8.13-1: all
+    
+    
+    </li>
+  
+  </ul>
+
+  <h3>Package aptitude-doc-en</h3>
+  <ul>
+  
+    <li class="jessie"><a class="resultlink" href="https://packages.debian.org/jessie/aptitude-doc-en">jessie (oldoldstable)</a> (doc):
+	English manual for aptitude, a terminal-based package manager
+    
+      <br>0.6.11-1: all
+    
+    
+    </li>
+  
+    <li class="stretch"><a class="resultlink" href="https://packages.debian.org/stretch/aptitude-doc-en">stretch (oldstable)</a> (doc):
+	English manual for aptitude, a terminal-based package manager
+    
+      <br>0.8.7-1: all
+    
+    
+    </li>
+  
+    <li class="buster"><a class="resultlink" href="https://packages.debian.org/buster/aptitude-doc-en">buster (stable)</a> (doc):
+	English manual for aptitude, a terminal-based package manager
+    
+      <br>0.8.11-7: all
+    
+    
+    </li>
+  
+    <li class="bullseye"><a class="resultlink" href="https://packages.debian.org/bullseye/aptitude-doc-en">bullseye (testing)</a> (doc):
+	English manual for aptitude, a terminal-based package manager
+    
+      <br>0.8.13-1: all
+    
+    
+    </li>
+  
+    <li class="sid"><a class="resultlink" href="https://packages.debian.org/sid/aptitude-doc-en">sid (unstable)</a> (doc):
+	English manual for aptitude, a terminal-based package manager
+    
+      <br>0.8.13-1: all
+    
+    
+    </li>
+  
+  </ul>
+
+  <h3>Package aptitude-doc-es</h3>
+  <ul>
+  
+    <li class="jessie"><a class="resultlink" href="https://packages.debian.org/jessie/aptitude-doc-es">jessie (oldoldstable)</a> (doc):
+	Spanish manual for aptitude, a terminal-based package manager
+    
+      <br>0.6.11-1: all
+    
+    
+    </li>
+  
+    <li class="stretch"><a class="resultlink" href="https://packages.debian.org/stretch/aptitude-doc-es">stretch (oldstable)</a> (doc):
+	Spanish manual for aptitude, a terminal-based package manager
+    
+      <br>0.8.7-1: all
+    
+    
+    </li>
+  
+    <li class="buster"><a class="resultlink" href="https://packages.debian.org/buster/aptitude-doc-es">buster (stable)</a> (doc):
+	Spanish manual for aptitude, a terminal-based package manager
+    
+      <br>0.8.11-7: all
+    
+    
+    </li>
+  
+    <li class="bullseye"><a class="resultlink" href="https://packages.debian.org/bullseye/aptitude-doc-es">bullseye (testing)</a> (doc):
+	Spanish manual for aptitude, a terminal-based package manager
+    
+      <br>0.8.13-1: all
+    
+    
+    </li>
+  
+    <li class="sid"><a class="resultlink" href="https://packages.debian.org/sid/aptitude-doc-es">sid (unstable)</a> (doc):
+	Spanish manual for aptitude, a terminal-based package manager
+    
+      <br>0.8.13-1: all
+    
+    
+    </li>
+  
+  </ul>
+
+  <h3>Package aptitude-doc-fi</h3>
+  <ul>
+  
+    <li class="jessie"><a class="resultlink" href="https://packages.debian.org/jessie/aptitude-doc-fi">jessie (oldoldstable)</a> (doc):
+	Finnish manual for aptitude, a terminal-based package manager
+    
+      <br>0.6.11-1: all
+    
+    
+    </li>
+  
+    <li class="stretch"><a class="resultlink" href="https://packages.debian.org/stretch/aptitude-doc-fi">stretch (oldstable)</a> (doc):
+	Finnish manual for aptitude, a terminal-based package manager
+    
+      <br>0.8.7-1: all
+    
+    
+    </li>
+  
+    <li class="buster"><a class="resultlink" href="https://packages.debian.org/buster/aptitude-doc-fi">buster (stable)</a> (doc):
+	Finnish manual for aptitude, a terminal-based package manager
+    
+      <br>0.8.11-7: all
+    
+    
+    </li>
+  
+    <li class="bullseye"><a class="resultlink" href="https://packages.debian.org/bullseye/aptitude-doc-fi">bullseye (testing)</a> (doc):
+	Finnish manual for aptitude, a terminal-based package manager
+    
+      <br>0.8.13-1: all
+    
+    
+    </li>
+  
+    <li class="sid"><a class="resultlink" href="https://packages.debian.org/sid/aptitude-doc-fi">sid (unstable)</a> (doc):
+	Finnish manual for aptitude, a terminal-based package manager
+    
+      <br>0.8.13-1: all
+    
+    
+    </li>
+  
+  </ul>
+
+  <h3>Package aptitude-doc-fr</h3>
+  <ul>
+  
+    <li class="jessie"><a class="resultlink" href="https://packages.debian.org/jessie/aptitude-doc-fr">jessie (oldoldstable)</a> (doc):
+	French manual for aptitude, a terminal-based package manager
+    
+      <br>0.6.11-1: all
+    
+    
+    </li>
+  
+    <li class="stretch"><a class="resultlink" href="https://packages.debian.org/stretch/aptitude-doc-fr">stretch (oldstable)</a> (doc):
+	French manual for aptitude, a terminal-based package manager
+    
+      <br>0.8.7-1: all
+    
+    
+    </li>
+  
+    <li class="buster"><a class="resultlink" href="https://packages.debian.org/buster/aptitude-doc-fr">buster (stable)</a> (doc):
+	French manual for aptitude, a terminal-based package manager
+    
+      <br>0.8.11-7: all
+    
+    
+    </li>
+  
+    <li class="bullseye"><a class="resultlink" href="https://packages.debian.org/bullseye/aptitude-doc-fr">bullseye (testing)</a> (doc):
+	French manual for aptitude, a terminal-based package manager
+    
+      <br>0.8.13-1: all
+    
+    
+    </li>
+  
+    <li class="sid"><a class="resultlink" href="https://packages.debian.org/sid/aptitude-doc-fr">sid (unstable)</a> (doc):
+	French manual for aptitude, a terminal-based package manager
+    
+      <br>0.8.13-1: all
+    
+    
+    </li>
+  
+  </ul>
+
+  <h3>Package aptitude-doc-it</h3>
+  <ul>
+  
+    <li class="jessie"><a class="resultlink" href="https://packages.debian.org/jessie/aptitude-doc-it">jessie (oldoldstable)</a> (doc):
+	Italian manual for aptitude, a terminal-based package manager
+    
+      <br>0.6.11-1: all
+    
+    
+    </li>
+  
+    <li class="stretch"><a class="resultlink" href="https://packages.debian.org/stretch/aptitude-doc-it">stretch (oldstable)</a> (doc):
+	Italian manual for aptitude, a terminal-based package manager
+    
+      <br>0.8.7-1: all
+    
+    
+    </li>
+  
+    <li class="buster"><a class="resultlink" href="https://packages.debian.org/buster/aptitude-doc-it">buster (stable)</a> (doc):
+	Italian manual for aptitude, a terminal-based package manager
+    
+      <br>0.8.11-7: all
+    
+    
+    </li>
+  
+    <li class="bullseye"><a class="resultlink" href="https://packages.debian.org/bullseye/aptitude-doc-it">bullseye (testing)</a> (doc):
+	Italian manual for aptitude, a terminal-based package manager
+    
+      <br>0.8.13-1: all
+    
+    
+    </li>
+  
+    <li class="sid"><a class="resultlink" href="https://packages.debian.org/sid/aptitude-doc-it">sid (unstable)</a> (doc):
+	Italian manual for aptitude, a terminal-based package manager
+    
+      <br>0.8.13-1: all
+    
+    
+    </li>
+  
+  </ul>
+
+  <h3>Package aptitude-doc-ja</h3>
+  <ul>
+  
+    <li class="jessie"><a class="resultlink" href="https://packages.debian.org/jessie/aptitude-doc-ja">jessie (oldoldstable)</a> (doc):
+	Japanese manual for aptitude, a terminal-based package manager
+    
+      <br>0.6.11-1: all
+    
+    
+    </li>
+  
+    <li class="stretch"><a class="resultlink" href="https://packages.debian.org/stretch/aptitude-doc-ja">stretch (oldstable)</a> (doc):
+	Japanese manual for aptitude, a terminal-based package manager
+    
+      <br>0.8.7-1: all
+    
+    
+    </li>
+  
+    <li class="buster"><a class="resultlink" href="https://packages.debian.org/buster/aptitude-doc-ja">buster (stable)</a> (doc):
+	Japanese manual for aptitude, a terminal-based package manager
+    
+      <br>0.8.11-7: all
+    
+    
+    </li>
+  
+    <li class="bullseye"><a class="resultlink" href="https://packages.debian.org/bullseye/aptitude-doc-ja">bullseye (testing)</a> (doc):
+	Japanese manual for aptitude, a terminal-based package manager
+    
+      <br>0.8.13-1: all
+    
+    
+    </li>
+  
+    <li class="sid"><a class="resultlink" href="https://packages.debian.org/sid/aptitude-doc-ja">sid (unstable)</a> (doc):
+	Japanese manual for aptitude, a terminal-based package manager
+    
+      <br>0.8.13-1: all
+    
+    
+    </li>
+  
+  </ul>
+
+  <h3>Package aptitude-doc-nl</h3>
+  <ul>
+  
+    <li class="stretch"><a class="resultlink" href="https://packages.debian.org/stretch/aptitude-doc-nl">stretch (oldstable)</a> (doc):
+	Dutch manual for aptitude, a terminal-based package manager
+    
+      <br>0.8.7-1: all
+    
+    
+    </li>
+  
+    <li class="buster"><a class="resultlink" href="https://packages.debian.org/buster/aptitude-doc-nl">buster (stable)</a> (doc):
+	Dutch manual for aptitude, a terminal-based package manager
+    
+      <br>0.8.11-7: all
+    
+    
+    </li>
+  
+    <li class="bullseye"><a class="resultlink" href="https://packages.debian.org/bullseye/aptitude-doc-nl">bullseye (testing)</a> (doc):
+	Dutch manual for aptitude, a terminal-based package manager
+    
+      <br>0.8.13-1: all
+    
+    
+    </li>
+  
+    <li class="sid"><a class="resultlink" href="https://packages.debian.org/sid/aptitude-doc-nl">sid (unstable)</a> (doc):
+	Dutch manual for aptitude, a terminal-based package manager
+    
+      <br>0.8.13-1: all
+    
+    
+    </li>
+  
+  </ul>
+
+  <h3>Package aptitude-doc-ru</h3>
+  <ul>
+  
+    <li class="jessie"><a class="resultlink" href="https://packages.debian.org/jessie/aptitude-doc-ru">jessie (oldoldstable)</a> (doc):
+	Russian manual for aptitude, a terminal-based package manager
+    
+      <br>0.6.11-1: all
+    
+    
+    </li>
+  
+    <li class="stretch"><a class="resultlink" href="https://packages.debian.org/stretch/aptitude-doc-ru">stretch (oldstable)</a> (doc):
+	Russian manual for aptitude, a terminal-based package manager
+    
+      <br>0.8.7-1: all
+    
+    
+    </li>
+  
+    <li class="buster"><a class="resultlink" href="https://packages.debian.org/buster/aptitude-doc-ru">buster (stable)</a> (doc):
+	Russian manual for aptitude, a terminal-based package manager
+    
+      <br>0.8.11-7: all
+    
+    
+    </li>
+  
+    <li class="bullseye"><a class="resultlink" href="https://packages.debian.org/bullseye/aptitude-doc-ru">bullseye (testing)</a> (doc):
+	Russian manual for aptitude, a terminal-based package manager
+    
+      <br>0.8.13-1: all
+    
+    
+    </li>
+  
+    <li class="sid"><a class="resultlink" href="https://packages.debian.org/sid/aptitude-doc-ru">sid (unstable)</a> (doc):
+	Russian manual for aptitude, a terminal-based package manager
+    
+      <br>0.8.13-1: all
+    
+    
+    </li>
+  
+  </ul>
+
+  <h3>Package aptitude-robot</h3>
+  <ul>
+  
+    <li class="jessie"><a class="resultlink" href="https://packages.debian.org/jessie/aptitude-robot">jessie (oldoldstable)</a> (admin):
+	Automate package choice management
+    
+      <br>1.3.4-1: all
+    
+    
+    </li>
+  
+    <li class="stretch"><a class="resultlink" href="https://packages.debian.org/stretch/aptitude-robot">stretch (oldstable)</a> (admin):
+	Automate package choice management
+    
+      <br>1.5.1-1: all
+    
+    
+    </li>
+  
+    <li class="buster"><a class="resultlink" href="https://packages.debian.org/buster/aptitude-robot">buster (stable)</a> (admin):
+	Automate package choice management
+    
+      <br>1.5.2-1: all
+    
+    
+    </li>
+  
+    <li class="bullseye"><a class="resultlink" href="https://packages.debian.org/bullseye/aptitude-robot">bullseye (testing)</a> (admin):
+	Automate package choice management
+    
+      <br>1.5.3-1: all
+    
+    
+    </li>
+  
+    <li class="sid"><a class="resultlink" href="https://packages.debian.org/sid/aptitude-robot">sid (unstable)</a> (admin):
+	Automate package choice management
+    
+      <br>1.5.3-1: all
+    
+    
+    </li>
+  
+  </ul>
+
+  <h3>Package aptly</h3>
+  <ul>
+  
+    <li class="jessie"><a class="resultlink" href="https://packages.debian.org/jessie/aptly">jessie (oldoldstable)</a> (utils):
+	Swiss army knife for Debian repository management
+    
+      <br>0.8-3+deb8u1 [<strong class="pmarker" title="">security</strong>]: amd64 armel armhf i386
+    
+    
+    </li>
+  
+    <li class="stretch"><a class="resultlink" href="https://packages.debian.org/stretch/aptly">stretch (oldstable)</a> (utils):
+	Swiss army knife for Debian repository management
+    
+      <br>0.9.7-1+b1: amd64 arm64 armel armhf i386 ppc64el
+    
+    
+    </li>
+  
+    <li class="stretch-backports"><a class="resultlink" href="https://packages.debian.org/stretch-backports/aptly">stretch-backports</a> (utils):
+	Swiss army knife for Debian repository management - main package
+    
+      <br>1.3.0-5~bpo9+1: amd64 s390x
+    
+      <br>1.1.1-2~bpo9+1: arm64 armel armhf i386 ppc64el
+    
+    
+    </li>
+  
+    <li class="buster"><a class="resultlink" href="https://packages.debian.org/buster/aptly">buster (stable)</a> (utils):
+	Swiss army knife for Debian repository management - main package
+    
+      <br>1.3.0+ds1-2.2~deb10u1: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el s390x
+    
+    
+    </li>
+  
+    <li class="bullseye"><a class="resultlink" href="https://packages.debian.org/bullseye/aptly">bullseye (testing)</a> (utils):
+	Swiss army knife for Debian repository management - main package
+    
+      <br>1.3.0+ds1-4: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el s390x
+    
+    
+    </li>
+  
+    <li class="sid"><a class="resultlink" href="https://packages.debian.org/sid/aptly">sid (unstable)</a> (utils):
+	Swiss army knife for Debian repository management - main package
+    
+      <br>1.3.0+ds1-4: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
+    
+      <br>1.3.0-6 [<a href="https://www.ports.debian.org/"><strong class="pmarker" title="ports of packages to architectures not yet or not anymore available in Debian">debports</strong></a>]: ppc64
+    
+      <br>1.2.0-2 [<a href="https://www.ports.debian.org/"><strong class="pmarker" title="ports of packages to architectures not yet or not anymore available in Debian">debports</strong></a>]: sparc64
+    
+    
+    </li>
+  
+  </ul>
+
+  <h3>Package aptly-api</h3>
+  <ul>
+  
+    <li class="stretch-backports"><a class="resultlink" href="https://packages.debian.org/stretch-backports/aptly-api">stretch-backports</a> (utils):
+	Swiss army knife for Debian repository management - API
+    
+      <br>1.3.0-5~bpo9+1: amd64 s390x
+    
+    
+    </li>
+  
+    <li class="buster"><a class="resultlink" href="https://packages.debian.org/buster/aptly-api">buster (stable)</a> (utils):
+	Swiss army knife for Debian repository management - API
+    
+      <br>1.3.0+ds1-2.2~deb10u1: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el s390x
+    
+    
+    </li>
+  
+    <li class="bullseye"><a class="resultlink" href="https://packages.debian.org/bullseye/aptly-api">bullseye (testing)</a> (utils):
+	Swiss army knife for Debian repository management - API
+    
+      <br>1.3.0+ds1-4: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el s390x
+    
+    
+    </li>
+  
+    <li class="sid"><a class="resultlink" href="https://packages.debian.org/sid/aptly-api">sid (unstable)</a> (utils):
+	Swiss army knife for Debian repository management - API
+    
+      <br>1.3.0+ds1-4: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64 s390x
+    
+      <br>1.3.0-6 [<a href="https://www.ports.debian.org/"><strong class="pmarker" title="ports of packages to architectures not yet or not anymore available in Debian">debports</strong></a>]: ppc64
+    
+    
+    </li>
+  
+  </ul>
+
+  <h3>Package aptly-dbgsym</h3>
+  <ul>
+  
+    <li class="sid"><a class="resultlink" href="https://packages.debian.org/sid/aptly-dbgsym">sid (unstable)</a> (debug):
+	debug symbols for aptly
+    
+      <br>1.3.0-6 [<a href="https://www.ports.debian.org/"><strong class="pmarker" title="ports of packages to architectures not yet or not anymore available in Debian">debports</strong></a>]: ppc64
+    
+      <br>1.2.0-2 [<a href="https://www.ports.debian.org/"><strong class="pmarker" title="ports of packages to architectures not yet or not anymore available in Debian">debports</strong></a>]: sparc64
+    
+    
+    </li>
+  
+  </ul>
+
+  <h3>Package aptly-publisher</h3>
+  <ul>
+  
+    <li class="stretch"><a class="resultlink" href="https://packages.debian.org/stretch/aptly-publisher">stretch (oldstable)</a> (utils):
+	Tool for management of Aptly publishes
+    
+      <br>0.8.1-1: all
+    
+    
+    </li>
+  
+    <li class="buster"><a class="resultlink" href="https://packages.debian.org/buster/aptly-publisher">buster (stable)</a> (utils):
+	Tool for management of Aptly publishes
+    
+      <br>0.12.10-1: all
+    
+    
+    </li>
+  
+    <li class="bullseye"><a class="resultlink" href="https://packages.debian.org/bullseye/aptly-publisher">bullseye (testing)</a> (utils):
+	Tool for management of Aptly publishes
+    
+      <br>0.12.10-2: all
+    
+    
+    </li>
+  
+    <li class="sid"><a class="resultlink" href="https://packages.debian.org/sid/aptly-publisher">sid (unstable)</a> (utils):
+	Tool for management of Aptly publishes
+    
+      <br>0.12.10-2: all
+    
+    
+    </li>
+  
+  </ul>
+
+  <h3>Package aptoncd</h3>
+  <ul>
+  
+    <li class="jessie"><a class="resultlink" href="https://packages.debian.org/jessie/aptoncd">jessie (oldoldstable)</a> (admin):
+	Installation disc creator for packages downloaded via APT
+    
+      <br>0.1.98+bzr117-1.4: all
+    
+    
+    </li>
+  
+  </ul>
+
+  <h3>Package aptsh</h3>
+  <ul>
+  
+    <li class="jessie"><a class="resultlink" href="https://packages.debian.org/jessie/aptsh">jessie (oldoldstable)</a> (admin):
+	apt interactive shell
+    
+      <br>0.0.7+nmu2+b1: amd64 armel armhf i386
+    
+    
+    </li>
+  
+    <li class="stretch"><a class="resultlink" href="https://packages.debian.org/stretch/aptsh">stretch (oldstable)</a> (admin):
+	apt interactive shell
+    
+      <br>0.0.8: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el s390x
+    
+    
+    </li>
+  
+    <li class="sid"><a class="resultlink" href="https://packages.debian.org/sid/aptsh">sid (unstable)</a> (admin):
+	apt interactive shell
+    
+      <br>0.0.8 [<a href="https://www.ports.debian.org/"><strong class="pmarker" title="ports of packages to architectures not yet or not anymore available in Debian">debports</strong></a>]: powerpcspe
+    
+      <br>0.0.7+nmu2 [<a href="https://www.ports.debian.org/"><strong class="pmarker" title="ports of packages to architectures not yet or not anymore available in Debian">debports</strong></a>]: arm64
+    
+    
+    </li>
+  
+  </ul>
+
+  <h3>Package aptsh-dbgsym</h3>
+  <ul>
+  
+    <li class="sid"><a class="resultlink" href="https://packages.debian.org/sid/aptsh-dbgsym">sid (unstable)</a> (debug):
+	Debug symbols for aptsh
+    
+      <br>0.0.8 [<a href="https://www.ports.debian.org/"><strong class="pmarker" title="ports of packages to architectures not yet or not anymore available in Debian">debports</strong></a>]: powerpcspe
+    
+    
+    </li>
+  
+  </ul>
+
+
+
+
+
+
+
+
+</div>
+</div> <!-- end inner -->
+
+<div id="footer">
+
+
+<hr class="hidecss">
+<!--UdmComment-->
+<div id="pageLang">
+<div id="langSelector">
+<p>This page is also available in the following languages (How to set <a href="https://www.debian.org/intro/cn">the default document language</a>):</p>
+<div id="langContainer">
+
+<a href="https://packages.debian.org/search?lang=bg&amp;keywords=apt" title="Bulgarian" hreflang="bg" lang="bg" rel="alternate">&#1041;&#1098;&#1083;&#1075;&#1072;&#1088;&#1089;&#1082;&#1080; (B&#601;lgarski)</a>
+
+<a href="https://packages.debian.org/search?lang=de&amp;keywords=apt" title="German" hreflang="de" lang="de" rel="alternate">Deutsch</a>
+
+<a href="https://packages.debian.org/search?lang=fi&amp;keywords=apt" title="Finnish" hreflang="fi" lang="fi" rel="alternate">suomi</a>
+
+<a href="https://packages.debian.org/search?lang=fr&amp;keywords=apt" title="French" hreflang="fr" lang="fr" rel="alternate">fran&ccedil;ais</a>
+
+<a href="https://packages.debian.org/search?lang=hu&amp;keywords=apt" title="Hungarian" hreflang="hu" lang="hu" rel="alternate">magyar</a>
+
+<a href="https://packages.debian.org/search?lang=ja&amp;keywords=apt" title="Japanese" hreflang="ja" lang="ja" rel="alternate">&#26085;&#26412;&#35486; (Nihongo)</a>
+
+<a href="https://packages.debian.org/search?lang=nl&amp;keywords=apt" title="Dutch" hreflang="nl" lang="nl" rel="alternate">Nederlands</a>
+
+<a href="https://packages.debian.org/search?lang=pl&amp;keywords=apt" title="Polish" hreflang="pl" lang="pl" rel="alternate">polski</a>
+
+<a href="https://packages.debian.org/search?lang=ru&amp;keywords=apt" title="Russian" hreflang="ru" lang="ru" rel="alternate">&#1056;&#1091;&#1089;&#1089;&#1082;&#1080;&#1081; (Russkij)</a>
+
+<a href="https://packages.debian.org/search?lang=sk&amp;keywords=apt" title="Slovak" hreflang="sk" lang="sk" rel="alternate">slovensky</a>
+
+<a href="https://packages.debian.org/search?lang=sv&amp;keywords=apt" title="Swedish" hreflang="sv" lang="sv" rel="alternate">svenska</a>
+
+<a href="https://packages.debian.org/search?lang=tr&amp;keywords=apt" title="Turkish" hreflang="tr" lang="tr" rel="alternate">T&uuml;rk&ccedil;e</a>
+
+<a href="https://packages.debian.org/search?lang=uk&amp;keywords=apt" title="Ukrainian" hreflang="uk" lang="uk" rel="alternate">&#1091;&#1082;&#1088;&#1072;&#1111;&#1085;&#1089;&#1100;&#1082;&#1072; (ukrajins'ka)</a>
+
+<a href="https://packages.debian.org/search?lang=zh-cn&amp;keywords=apt" title="Chinese (China)" hreflang="zh-cn" lang="zh-cn" rel="alternate">&#20013;&#25991; (Zhongwen,&#31616;)</a>
+
+<a href="https://packages.debian.org/search?lang=zh-tw&amp;keywords=apt" title="Chinese (Taiwan)" hreflang="zh-tw" lang="zh-tw" rel="alternate">&#20013;&#25991; (Zhongwen,&#32321;)</a>
+
+</div>
+</div>
+</div>
+<!--/UdmComment-->
+
+
+<hr class="hidecss">
+<div id="fineprint" class="bordertop">
+<div id="impressum">
+<p>To report a problem with the web site, e-mail <a href="mailto:debian-www@lists.debian.org">debian-www@lists.debian.org</a>. For other contact information, see the Debian <a href="https://www.debian.org/contact">contact page</a>.</p>
+
+<p>
+Content Copyright &copy; 1997 - 2020 <a href="https://www.spi-inc.org/">SPI Inc.</a>; See <a href="https://www.debian.org/license">license terms</a>. Debian is a <a href="https://www.debian.org/trademark">trademark</a> of SPI Inc.
+ <a href="https://packages.debian.org/about/">Learn more about this site</a>.</p>
+
+</div> <!-- end impressum -->
+
+<div id="sponsorfooter"><p>
+This service is sponsored by <a href="http://www.hp.com/">Hewlett-Packard</a>.</p></div>
+
+</div> <!-- end fineprint -->
+</div> <!-- end footer -->
+</body>
+</html>

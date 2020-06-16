@@ -1,0 +1,17 @@
+User-agent: Mediapartners-Google*
+User-agent: *
+Disallow: /search/*
+Disallow: /calendar/ajaxcall/
+Disallow: /static/
+Disallow: /api/*
+Disallow: /_debug/*
+Disallow: /_preview
+Disallow: /articles/*
+Disallow: /photos/*
+Disallow: /media/*
+Disallow: /onair/*
+Disallow: /features/*
+Disallow: /eyes-to-ears/*
+Disallow: /newsletter/embed/*
+Disallow: /contact/send*
+Sitemap: https://1025thebull.iheart.com/sitemap.xml

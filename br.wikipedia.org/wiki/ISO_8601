@@ -1,0 +1,302 @@
+
+<!DOCTYPE html>
+<html class="client-nojs" lang="br" dir="ltr">
+<head>
+<meta charset="UTF-8"/>
+<title>ISO 8601 - Wikipedia</title>
+<script>document.documentElement.className="client-js";RLCONF={"wgBreakFrames":!1,"wgSeparatorTransformTable":[",\t."," \t,"],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","Genver","C'hwevrer","Meurzh","Ebrel","Mae","Mezheven","Gouere","Eost","Gwengolo","Here","Du","Kerzu"],"wgRequestId":"06a25803-c1e5-4b3e-9881-b54a7d921c75","wgCSPNonce":!1,"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":!1,"wgNamespaceNumber":0,"wgPageName":"ISO_8601","wgTitle":"ISO 8601","wgCurRevisionId":1776922,"wgRevisionId":1776922,"wgArticleId":23751,"wgIsArticle":!0,"wgIsRedirect":!1,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Reoladoù ISO"],"wgPageContentLanguage":"br","wgPageContentModel":"wikitext","wgRelevantPageName":"ISO_8601","wgRelevantArticleId":23751,"wgIsProbablyEditable":!0,"wgRelevantPageIsProbablyEditable":!0,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgMediaViewerOnClick":!0,"wgMediaViewerEnabledByDefault":
+!0,"wgPopupsReferencePreviews":!1,"wgPopupsConflictsWithNavPopupGadget":!1,"wgVisualEditor":{"pageLanguageCode":"br","pageLanguageDir":"ltr","pageVariantFallbacks":"br"},"wgMFDisplayWikibaseDescriptions":{"search":!0,"nearby":!0,"watchlist":!0,"tagline":!0},"wgWMESchemaEditAttemptStepOversample":!1,"wgULSCurrentAutonym":"brezhoneg","wgNoticeProject":"wikipedia","wgWikibaseItemId":"Q50101","wgCentralAuthMobileDomain":!1,"wgEditSubmitButtonLabelPublish":!0};RLSTATE={"ext.globalCssJs.user.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","ext.globalCssJs.user":"ready","user":"ready","user.options":"loading","skins.vector.styles.legacy":"ready","wikibase.client.init":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready"};RLPAGEMODULES=["site","mediawiki.page.startup","mediawiki.page.ready","skins.vector.legacy.js","ext.centralauth.centralautologin","ext.popups",
+"ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging","ext.wikimediaEvents","ext.navigationTiming","ext.uls.compactlinks","ext.uls.interface","ext.cx.eventlogging.campaigns","ext.centralNotice.geoIP","ext.centralNotice.startUp"];</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.loader.implement("user.options@1hzgi",function($,jQuery,require,module){/*@nomin*/mw.user.tokens.set({"patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});mw.user.options.set({"variant":"br"});
+});});</script>
+<link rel="stylesheet" href="https://br.wikipedia.org/w/load.php?lang=br&amp;modules=ext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediaBadges%7Cskins.vector.styles.legacy%7Cwikibase.client.init&amp;only=styles&amp;skin=vector"/>
+<script async="" src="https://br.wikipedia.org/w/load.php?lang=br&amp;modules=startup&amp;only=scripts&amp;raw=1&amp;skin=vector"></script>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="https://br.wikipedia.org/w/load.php?lang=br&amp;modules=site.styles&amp;only=styles&amp;skin=vector"/>
+<meta name="generator" content="MediaWiki 1.35.0-wmf.36"/>
+<meta name="referrer" content="origin"/>
+<meta name="referrer" content="origin-when-crossorigin"/>
+<meta name="referrer" content="origin-when-cross-origin"/>
+<link rel="alternate" type="application/x-wiki" title="Kemmañ" href="https://br.wikipedia.org/w/index.php?title=ISO_8601&amp;action=edit"/>
+<link rel="edit" title="Kemmañ" href="https://br.wikipedia.org/w/index.php?title=ISO_8601&amp;action=edit"/>
+<link rel="apple-touch-icon" href="https://br.wikipedia.org/static/apple-touch/wikipedia.png"/>
+<link rel="shortcut icon" href="https://br.wikipedia.org/static/favicon/wikipedia.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="https://br.wikipedia.org/w/opensearch_desc.php" title="Wikipedia (br)"/>
+<link rel="EditURI" type="application/rsd+xml" href="https://br.wikipedia.org/w/api.php?action=rsd"/>
+<link rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/"/>
+<link rel="alternate" type="application/atom+xml" title="Lanv Atom evit Wikipedia" href="https://br.wikipedia.org/w/index.php?title=Dibar:Kemmo%C3%B9Diwezha%C3%B1&amp;feed=atom"/>
+<link rel="canonical" href="ISO_8601"/>
+<link rel="dns-prefetch" href="https://login.wikimedia.org/"/>
+<link rel="dns-prefetch" href="https://meta.wikimedia.org/" />
+<!--[if lt IE 9]><script src="/w/resources/lib/html5shiv/html5shiv.js"></script><![endif]-->
+</head>
+<body class="mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject mw-editable page-ISO_8601 rootpage-ISO_8601 skin-vector action-view skin-vector-legacy">
+<div id="mw-page-base" class="noprint"></div>
+<div id="mw-head-base" class="noprint"></div>
+<div id="content" class="mw-body" role="main">
+	<a id="top"></a>
+		<div id="siteNotice" class="mw-body-content"><!-- CentralNotice --></div>
+	<div class="mw-indicators mw-body-content">
+</div>
+
+	<h1 id="firstHeading" class="firstHeading" lang="br">ISO 8601</h1>
+	
+	<div id="bodyContent" class="mw-body-content">
+		<div id="siteSub" class="noprint">Eus Wikipedia</div>
+		<div id="contentSub"></div>
+		
+		
+		<div id="jump-to-nav"></div>
+		<a class="mw-jump-link" href="ISO_8601#mw-head">Sauter à la navigation</a>
+		<a class="mw-jump-link" href="ISO_8601#p-search">Sauter à la recherche</a>
+		<div id="mw-content-text" lang="br" dir="ltr" class="mw-content-ltr"><div class="mw-parser-output"><p>Merkañ a ra ar <a href="https://br.wikipedia.org/w/index.php?title=Reolad&amp;action=edit&amp;redlink=1" class="new" title="Reolad (n&#39;eus ket eus ar bajenn-mañ)">reolad</a> <i><a href="https://br.wikipedia.org/wiki/ISO" title="ISO">ISO</a> 8601</i> an notadur skouer implijet evit renabliñ an deiziadoù hag an <a href="https://br.wikipedia.org/wiki/Amzer" title="Amzer">amzer</a>. Gant ar furmad-se eo aesaet an eskemmoù etre savennoù disheñvel. Heuliañ a ra ar patrom urzhiañ a gleiz da zehou, en ur gregiñ gant ar prantad amzer hirañ, betek an hini berrañ. Da skouer, evit merkañ un deiz resis e vo skrivet&#160;: BBBB-MM-DD, da lavarout eo: 
+</p>
+<ul><li>BBBB evit ar <a href="https://br.wikipedia.org/wiki/Bloaz" title="Bloaz">bloaz</a></li>
+<li>MM evit ar <a href="https://br.wikipedia.org/wiki/Miz" title="Miz">miz</a></li>
+<li>DD evit an <a href="Deiz" title="Deiz">deiz</a>.</li></ul>
+<!-- 
+NewPP limit report
+Parsed by mw1409
+Cached time: 20200531122036
+Cache expiry: 2592000
+Dynamic content: false
+Complications: []
+CPU time usage: 0.008 seconds
+Real time usage: 0.007 seconds
+Preprocessor visited node count: 1/1000000
+Post‐expand include size: 0/2097152 bytes
+Template argument size: 0/2097152 bytes
+Highest expansion depth: 1/40
+Expensive parser function count: 0/500
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 0/5000000 bytes
+Number of Wikibase entities loaded: 0/400
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%    0.000      1 -total
+-->
+
+<!-- Saved in parser cache with key brwiki:pcache:idhash:23751-0!canonical and timestamp 20200531122036 and revision id 1776922
+ -->
+</div><noscript><img src="https://br.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" alt="" title="" width="1" height="1" style="border: none; position: absolute;" /></noscript></div>
+		<div class="printfooter">Adtapet diwar «&#160;<a dir="ltr" href="https://br.wikipedia.org/w/index.php?title=ISO_8601&amp;oldid=1776922">https://br.wikipedia.org/w/index.php?title=ISO_8601&amp;oldid=1776922</a>&#160;»</div>
+		<div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="https://br.wikipedia.org/wiki/Dibar:Rummado%C3%B9" title="Dibar:Rummadoù">Rummad</a> : <ul><li><a href="https://br.wikipedia.org/wiki/Rummad:Reolado%C3%B9_ISO" title="Rummad:Reoladoù ISO">Reoladoù ISO</a></li></ul></div></div>
+		<div class="visualClear"></div>
+		
+	</div>
+</div>
+<div id='mw-data-after-content'>
+	<div class="read-more-container"></div>
+</div>
+
+<div id="mw-navigation">
+	<h2>Lañser merdeiñ</h2>
+	<div id="mw-head">
+		<div id="p-personal" class="vector-menu" aria-labelledby="p-personal-label" 
+	 >
+	<h3 id="p-personal-label">
+		<span>Ostilhoù personel</span>
+	</h3>
+	<!-- Please do not use the .body class, it is deprecated. -->
+	<div class="body vector-menu-content">
+		<!-- Please do not use the .menu class, it is deprecated. -->
+		<ul class="vector-menu-content-list"><li id="pt-anonuserpage">Digevreet</li><li id="pt-anontalk"><a href="https://br.wikipedia.org/wiki/Dibar:MaC%27haozeadenno%C3%B9" title="Kaozeadennoù diwar-benn ar c&#039;hemmoù graet adal ar chomlec&#039;h-mañ [n]" accesskey="n">Kaozeal</a></li><li id="pt-anoncontribs"><a href="https://br.wikipedia.org/wiki/Dibar:MaDegasadenno%C3%B9" title="Ur roll eus ar c&#039;hemmoù graet adalek ar chomlec&#039;h IP-mañ [y]" accesskey="y">Ma degasadennoù</a></li><li id="pt-createaccount"><a href="https://br.wikipedia.org/w/index.php?title=Dibar:Kroui%C3%B1Kont&amp;returnto=ISO+8601" title="Erbedet eo deoc&#039;h krouiñ ur gont ha kevreañ ; n&#039;eo ket ret koulskoude.">Krouiñ ur gont</a></li><li id="pt-login"><a href="https://br.wikipedia.org/w/index.php?title=Dibar:Kevrea%C3%B1Implijer&amp;returnto=ISO+8601" title="Daoust ma n&#039;eo ket ret, ec&#039;h aliomp deoc&#039;h kevreañ [o]" accesskey="o">Kevreañ</a></li></ul>
+		
+	</div>
+</div>
+
+
+		<div id="left-navigation">
+			<div id="p-namespaces" class="vector-menu vector-menu-tabs vectorTabs" aria-labelledby="p-namespaces-label" 
+	 >
+	<h3 id="p-namespaces-label">
+		<span>Esaouennoù anv</span>
+	</h3>
+	<!-- Please do not use the .body class, it is deprecated. -->
+	<div class="body vector-menu-content">
+		<!-- Please do not use the .menu class, it is deprecated. -->
+		<ul class="vector-menu-content-list"><li id="ca-nstab-main" class="selected"><a href="ISO_8601" title="Gwelet ar pennad [c]" accesskey="c">Pajenn</a></li><li id="ca-talk" class="new"><a href="https://br.wikipedia.org/w/index.php?title=Kaozeal:ISO_8601&amp;action=edit&amp;redlink=1" rel="discussion" title="Kaozeadennoù diwar-benn ar pennad (n&#039;eus ket eus ar bajenn-mañ) [t]" accesskey="t">Kaozeadenn</a></li></ul>
+		
+	</div>
+</div>
+
+
+			<div id="p-variants" class="vector-menu-empty emptyPortlet vector-menu vector-menu-dropdown vectorMenu" aria-labelledby="p-variants-label" 
+	 >
+	<input type="checkbox" class="vectorMenuCheckbox vector-menu-checkbox" aria-labelledby="p-variants-label" />
+	<h3 id="p-variants-label">
+		<span>Adstummoù</span>
+	</h3>
+	<!-- Please do not use the .body class, it is deprecated. -->
+	<div class="body vector-menu-content">
+		<!-- Please do not use the .menu class, it is deprecated. -->
+		<ul class="menu vector-menu-content-list"></ul>
+		
+	</div>
+</div>
+
+
+		</div>
+		<div id="right-navigation">
+			<div id="p-views" class="vector-menu vector-menu-tabs vectorTabs" aria-labelledby="p-views-label" 
+	 >
+	<h3 id="p-views-label">
+		<span>Gweladennoù</span>
+	</h3>
+	<!-- Please do not use the .body class, it is deprecated. -->
+	<div class="body vector-menu-content">
+		<!-- Please do not use the .menu class, it is deprecated. -->
+		<ul class="vector-menu-content-list"><li id="ca-view" class="collapsible selected"><a href="ISO_8601">Lenn</a></li><li id="ca-ve-edit" class="collapsible"><a href="https://br.wikipedia.org/w/index.php?title=ISO_8601&amp;veaction=edit" title="Kemmañ ar bajenn-mañ [v]" accesskey="v">Kemmañ</a></li><li id="ca-edit" class="collapsible"><a href="https://br.wikipedia.org/w/index.php?title=ISO_8601&amp;action=edit" title="Kemmañ ar bajenn-mañ. [e]" accesskey="e">Kemmañ ar vammenn</a></li><li id="ca-history" class="collapsible"><a href="https://br.wikipedia.org/w/index.php?title=ISO_8601&amp;action=history" title="Stummoù kozh ar bajenn-mañ gant an aozerien anezhi. [h]" accesskey="h">Gwelet an istor</a></li></ul>
+		
+	</div>
+</div>
+
+
+			<div id="p-cactions" class="vector-menu-empty emptyPortlet vector-menu vector-menu-dropdown vectorMenu" aria-labelledby="p-cactions-label" 
+	 >
+	<input type="checkbox" class="vectorMenuCheckbox vector-menu-checkbox" aria-labelledby="p-cactions-label" />
+	<h3 id="p-cactions-label">
+		<span>Muioc&#039;h</span>
+	</h3>
+	<!-- Please do not use the .body class, it is deprecated. -->
+	<div class="body vector-menu-content">
+		<!-- Please do not use the .menu class, it is deprecated. -->
+		<ul class="menu vector-menu-content-list"></ul>
+		
+	</div>
+</div>
+
+
+			<div id="p-search" role="search">
+	<h3 >
+		<label for="searchInput">Klask</label>
+	</h3>
+	<form action="https://br.wikipedia.org/w/index.php" id="searchform">
+		<div id="simpleSearch">
+			<input type="search" name="search" placeholder="Klask e Wikipedia" title="Klaskit er wiki-mañ [f]" accesskey="f" id="searchInput"/>
+			<input type="hidden" name="title" value="Dibar:Klask">
+			<input type="submit" name="fulltext" value="Klask" title="Klask an destenn-mañ er pajennoù" id="mw-searchButton" class="searchButton mw-fallbackSearchButton"/>
+			<input type="submit" name="go" value="Mont" title="Mont d&#039;ar bajenn dezhi an anv-mañ rik, ma&#039;z eus anezhi" id="searchButton" class="searchButton"/>
+		</div>
+	</form>
+</div>
+
+		</div>
+	</div>
+	
+<div id="mw-panel">
+	<div id="p-logo" role="banner">
+		<a  title="Pajenn bennañ" class="mw-wiki-logo" href="https://br.wikipedia.org/wiki/Degemer"></a>
+	</div>
+	<div id="p-navigation" class="vector-menu vector-menu-portal portal portal-first" aria-labelledby="p-navigation-label" 
+	 >
+	<h3 id="p-navigation-label">
+		<span>Merdeiñ</span>
+	</h3>
+	<!-- Please do not use the .body class, it is deprecated. -->
+	<div class="body vector-menu-content">
+		<!-- Please do not use the .menu class, it is deprecated. -->
+		<ul class="vector-menu-content-list"><li id="n-mainpage"><a href="https://br.wikipedia.org/wiki/Degemer" title="Diskouez ar Bajenn bennañ [z]" accesskey="z">Degemer</a></li><li id="n-recentchanges"><a href="https://br.wikipedia.org/wiki/Dibar:Kemmo%C3%B9Diwezha%C3%B1" title="Roll ar c&#039;hemmoù diwezhañ c&#039;hoarvezet war ar wiki. [r]" accesskey="r">Kemmoù diwezhañ</a></li><li id="n-randompage"><a href="https://br.wikipedia.org/wiki/Dibar:DreZegouezh" title="Diskwel ur bajenn dre zegouezh [x]" accesskey="x">Ur bajenn dre zegouezh</a></li><li id="n-Meneger-hollek"><a href="https://br.wikipedia.org/wiki/Dibar:AnHollBajenno%C3%B9">Meneger hollek</a></li></ul>
+		
+	</div>
+</div>
+
+
+	<div id="p-Kemer perzh" class="vector-menu vector-menu-portal portal" aria-labelledby="p-Kemer perzh-label" 
+	 >
+	<h3 id="p-Kemer perzh-label">
+		<span>Kemer perzh</span>
+	</h3>
+	<!-- Please do not use the .body class, it is deprecated. -->
+	<div class="body vector-menu-content">
+		<!-- Please do not use the .menu class, it is deprecated. -->
+		<ul class="vector-menu-content-list"><li id="n-help"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Contents" title="Skoazell.">Skoazell</a></li><li id="n-portal"><a href="https://br.wikipedia.org/wiki/Wikipedia:Porched_ar_gumuniezh" title="Diwar-benn ar raktres, ar pezh a c&#039;hallit ober, pelec&#039;h kavout an traoù">Porched ar gumuniezh</a></li><li id="n-Tavarn"><a href="https://br.wikipedia.org/wiki/Wikipedia:Kumuniezh/An_davarn">Tavarn</a></li><li id="n-sitesupport"><a href="https://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=C13_br.wikipedia.org&amp;uselang=br" title="Harpit ac&#039;hanomp">Reiñ</a></li></ul>
+		
+	</div>
+</div>
+
+<div id="p-tb" class="vector-menu vector-menu-portal portal" aria-labelledby="p-tb-label" 
+	 >
+	<h3 id="p-tb-label">
+		<span>Ostilhoù</span>
+	</h3>
+	<!-- Please do not use the .body class, it is deprecated. -->
+	<div class="body vector-menu-content">
+		<!-- Please do not use the .menu class, it is deprecated. -->
+		<ul class="vector-menu-content-list"><li id="t-whatlinkshere"><a href="https://br.wikipedia.org/wiki/Dibar:PetraGasBetekAma%C3%B1/ISO_8601" title="Roll ar pajennoù liammet ouzh ar bajenn-mañ [j]" accesskey="j">Pajennoù liammet</a></li><li id="t-recentchangeslinked"><a href="https://br.wikipedia.org/wiki/Dibar:Kemmo%C3%B9Kar/ISO_8601" rel="nofollow" title="Roll ar c&#039;hemmoù diwezhañ war ar pajennoù liammet ouzh ar bajenn-mañ [k]" accesskey="k">Heuliañ ar pajennoù liammet</a></li><li id="t-upload"><a href="https://commons.wikimedia.org/wiki/Special:UploadWizard?uselang=br" title="Enporzhiañ ur skeudenn pe ur restr media war ar servijer [u]" accesskey="u">Kargañ war ar servijer</a></li><li id="t-specialpages"><a href="https://br.wikipedia.org/wiki/Dibar:Pajenno%C3%B9Dibar" title="Roll an holl bajennoù dibar [q]" accesskey="q">Pajennoù dibar</a></li><li id="t-permalink"><a href="https://br.wikipedia.org/w/index.php?title=ISO_8601&amp;oldid=1776922" title="Liamm padus war-du ar stumm-mañ eus ar bajenn">Chomlec'h ar stumm-mañ</a></li><li id="t-info"><a href="https://br.wikipedia.org/w/index.php?title=ISO_8601&amp;action=info" title="Titouroù ouzhpenn a-zivout ar bajenn-mañ">Titouroù ar bajenn</a></li><li id="t-wikibase"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q50101" title="Liamm war-zu elfenn gevreet kavlec&#039;h ar roadennoù [g]" accesskey="g">Elfenn Wikidata</a></li><li id="t-cite"><a href="https://br.wikipedia.org/w/index.php?title=Dibar:Menegi%C3%B1&amp;page=ISO_8601&amp;id=1776922&amp;wpFormIdentifier=titleform" title="Titouroù war an doare da venegiñ ar bajenn-mañ">Menegiñ ar pennad-mañ</a></li></ul>
+		
+	</div>
+</div>
+
+<div id="p-lang" class="vector-menu vector-menu-portal portal" aria-labelledby="p-lang-label" 
+	 >
+	<h3 id="p-lang-label">
+		<span>Yezhoù all</span>
+	</h3>
+	<!-- Please do not use the .body class, it is deprecated. -->
+	<div class="body vector-menu-content">
+		<!-- Please do not use the .menu class, it is deprecated. -->
+		<ul class="vector-menu-content-list"><li class="interlanguage-link interwiki-af"><a href="https://af.wikipedia.org/wiki/ISO_8601" title="ISO 8601 – afrikaans" lang="af" hreflang="af" class="interlanguage-link-target">Afrikaans</a></li><li class="interlanguage-link interwiki-ar"><a href="https://ar.wikipedia.org/wiki/%D8%A7%D9%8A%D8%B2%D9%88_8601" title="ايزو 8601 – arabeg" lang="ar" hreflang="ar" class="interlanguage-link-target">العربية</a></li><li class="interlanguage-link interwiki-bg"><a href="https://bg.wikipedia.org/wiki/ISO_8601" title="ISO 8601 – bulgareg" lang="bg" hreflang="bg" class="interlanguage-link-target">Български</a></li><li class="interlanguage-link interwiki-bn"><a href="https://bn.wikipedia.org/wiki/%E0%A6%86%E0%A6%87%E0%A6%8F%E0%A6%B8%E0%A6%93_%E0%A7%AE%E0%A7%AC%E0%A7%A6%E0%A7%A7" title="আইএসও ৮৬০১ – bengali" lang="bn" hreflang="bn" class="interlanguage-link-target">বাংলা</a></li><li class="interlanguage-link interwiki-ca"><a href="https://ca.wikipedia.org/wiki/ISO_8601" title="ISO 8601 – katalaneg" lang="ca" hreflang="ca" class="interlanguage-link-target">Català</a></li><li class="interlanguage-link interwiki-cs"><a href="https://cs.wikipedia.org/wiki/ISO_8601" title="ISO 8601 – tchekeg" lang="cs" hreflang="cs" class="interlanguage-link-target">Čeština</a></li><li class="interlanguage-link interwiki-da"><a href="https://da.wikipedia.org/wiki/ISO_8601" title="ISO 8601 – daneg" lang="da" hreflang="da" class="interlanguage-link-target">Dansk</a></li><li class="interlanguage-link interwiki-de"><a href="https://de.wikipedia.org/wiki/ISO_8601" title="ISO 8601 – alamaneg" lang="de" hreflang="de" class="interlanguage-link-target">Deutsch</a></li><li class="interlanguage-link interwiki-en"><a href="https://en.wikipedia.org/wiki/ISO_8601" title="ISO 8601 – saozneg" lang="en" hreflang="en" class="interlanguage-link-target">English</a></li><li class="interlanguage-link interwiki-eo"><a href="https://eo.wikipedia.org/wiki/ISO_8601" title="ISO 8601 – esperanteg" lang="eo" hreflang="eo" class="interlanguage-link-target">Esperanto</a></li><li class="interlanguage-link interwiki-es"><a href="https://es.wikipedia.org/wiki/ISO_8601" title="ISO 8601 – spagnoleg" lang="es" hreflang="es" class="interlanguage-link-target">Español</a></li><li class="interlanguage-link interwiki-et"><a href="https://et.wikipedia.org/wiki/ISO_8601" title="ISO 8601 – estoneg" lang="et" hreflang="et" class="interlanguage-link-target">Eesti</a></li><li class="interlanguage-link interwiki-fa"><a href="https://fa.wikipedia.org/wiki/%D8%A7%DB%8C%D8%B2%D9%88_%DB%B8%DB%B6%DB%B0%DB%B1" title="ایزو ۸۶۰۱ – perseg" lang="fa" hreflang="fa" class="interlanguage-link-target">فارسی</a></li><li class="interlanguage-link interwiki-fi"><a href="https://fi.wikipedia.org/wiki/ISO_8601" title="ISO 8601 – finneg" lang="fi" hreflang="fi" class="interlanguage-link-target">Suomi</a></li><li class="interlanguage-link interwiki-fo"><a href="https://fo.wikipedia.org/wiki/ISO_8601" title="ISO 8601 – faeroeg" lang="fo" hreflang="fo" class="interlanguage-link-target">Føroyskt</a></li><li class="interlanguage-link interwiki-fr"><a href="https://fr.wikipedia.org/wiki/ISO_8601" title="ISO 8601 – galleg" lang="fr" hreflang="fr" class="interlanguage-link-target">Français</a></li><li class="interlanguage-link interwiki-hr"><a href="https://hr.wikipedia.org/wiki/ISO_8601" title="ISO 8601 – kroateg" lang="hr" hreflang="hr" class="interlanguage-link-target">Hrvatski</a></li><li class="interlanguage-link interwiki-hu"><a href="https://hu.wikipedia.org/wiki/ISO_8601" title="ISO 8601 – hungareg" lang="hu" hreflang="hu" class="interlanguage-link-target">Magyar</a></li><li class="interlanguage-link interwiki-id"><a href="https://id.wikipedia.org/wiki/ISO_8601" title="ISO 8601 – indonezeg" lang="id" hreflang="id" class="interlanguage-link-target">Bahasa Indonesia</a></li><li class="interlanguage-link interwiki-is"><a href="https://is.wikipedia.org/wiki/ISO_8601" title="ISO 8601 – islandeg" lang="is" hreflang="is" class="interlanguage-link-target">Íslenska</a></li><li class="interlanguage-link interwiki-it"><a href="https://it.wikipedia.org/wiki/ISO_8601" title="ISO 8601 – italianeg" lang="it" hreflang="it" class="interlanguage-link-target">Italiano</a></li><li class="interlanguage-link interwiki-ja"><a href="https://ja.wikipedia.org/wiki/ISO_8601" title="ISO 8601 – japaneg" lang="ja" hreflang="ja" class="interlanguage-link-target">日本語</a></li><li class="interlanguage-link interwiki-ka"><a href="https://ka.wikipedia.org/wiki/ISO_8601" title="ISO 8601 – jorjianeg" lang="ka" hreflang="ka" class="interlanguage-link-target">ქართული</a></li><li class="interlanguage-link interwiki-ko"><a href="https://ko.wikipedia.org/wiki/ISO_8601" title="ISO 8601 – koreaneg" lang="ko" hreflang="ko" class="interlanguage-link-target">한국어</a></li><li class="interlanguage-link interwiki-lv"><a href="https://lv.wikipedia.org/wiki/ISO_8601" title="ISO 8601 – latvieg" lang="lv" hreflang="lv" class="interlanguage-link-target">Latviešu</a></li><li class="interlanguage-link interwiki-ml"><a href="https://ml.wikipedia.org/wiki/%E0%B4%90.%E0%B4%8E%E0%B4%B8%E0%B5%8D.%E0%B4%92._8601" title="ഐ.എസ്.ഒ. 8601 – malayalam" lang="ml" hreflang="ml" class="interlanguage-link-target">മലയാളം</a></li><li class="interlanguage-link interwiki-ms"><a href="https://ms.wikipedia.org/wiki/ISO_8601" title="ISO 8601 – malayseg" lang="ms" hreflang="ms" class="interlanguage-link-target">Bahasa Melayu</a></li><li class="interlanguage-link interwiki-nl"><a href="https://nl.wikipedia.org/wiki/ISO_8601" title="ISO 8601 – nederlandeg" lang="nl" hreflang="nl" class="interlanguage-link-target">Nederlands</a></li><li class="interlanguage-link interwiki-nn"><a href="https://nn.wikipedia.org/wiki/ISO_8601" title="ISO 8601 – norvegeg nynorsk" lang="nn" hreflang="nn" class="interlanguage-link-target">Norsk nynorsk</a></li><li class="interlanguage-link interwiki-no"><a href="https://no.wikipedia.org/wiki/ISO_8601" title="ISO 8601 – norvegeg bokmål" lang="nb" hreflang="nb" class="interlanguage-link-target">Norsk bokmål</a></li><li class="interlanguage-link interwiki-pl"><a href="https://pl.wikipedia.org/wiki/ISO_8601" title="ISO 8601 – poloneg" lang="pl" hreflang="pl" class="interlanguage-link-target">Polski</a></li><li class="interlanguage-link interwiki-pt"><a href="https://pt.wikipedia.org/wiki/ISO_8601" title="ISO 8601 – portugaleg" lang="pt" hreflang="pt" class="interlanguage-link-target">Português</a></li><li class="interlanguage-link interwiki-ru"><a href="https://ru.wikipedia.org/wiki/ISO_8601" title="ISO 8601 – rusianeg" lang="ru" hreflang="ru" class="interlanguage-link-target">Русский</a></li><li class="interlanguage-link interwiki-simple"><a href="https://simple.wikipedia.org/wiki/ISO_8601" title="ISO 8601 – Simple English" lang="en-simple" hreflang="en-simple" class="interlanguage-link-target">Simple English</a></li><li class="interlanguage-link interwiki-sk"><a href="https://sk.wikipedia.org/wiki/ISO_8601" title="ISO 8601 – slovakeg" lang="sk" hreflang="sk" class="interlanguage-link-target">Slovenčina</a></li><li class="interlanguage-link interwiki-sl"><a href="https://sl.wikipedia.org/wiki/ISO_8601" title="ISO 8601 – sloveneg" lang="sl" hreflang="sl" class="interlanguage-link-target">Slovenščina</a></li><li class="interlanguage-link interwiki-sq"><a href="https://sq.wikipedia.org/wiki/ISO_8601" title="ISO 8601 – albaneg" lang="sq" hreflang="sq" class="interlanguage-link-target">Shqip</a></li><li class="interlanguage-link interwiki-sv"><a href="https://sv.wikipedia.org/wiki/ISO_8601" title="ISO 8601 – svedeg" lang="sv" hreflang="sv" class="interlanguage-link-target">Svenska</a></li><li class="interlanguage-link interwiki-sw"><a href="https://sw.wikipedia.org/wiki/ISO_8601" title="ISO 8601 – swahili" lang="sw" hreflang="sw" class="interlanguage-link-target">Kiswahili</a></li><li class="interlanguage-link interwiki-th"><a href="https://th.wikipedia.org/wiki/ISO_8601" title="ISO 8601 – thai" lang="th" hreflang="th" class="interlanguage-link-target">ไทย</a></li><li class="interlanguage-link interwiki-uk"><a href="https://uk.wikipedia.org/wiki/ISO_8601" title="ISO 8601 – ukraineg" lang="uk" hreflang="uk" class="interlanguage-link-target">Українська</a></li><li class="interlanguage-link interwiki-vi"><a href="https://vi.wikipedia.org/wiki/ISO_8601" title="ISO 8601 – vietnameg" lang="vi" hreflang="vi" class="interlanguage-link-target">Tiếng Việt</a></li><li class="interlanguage-link interwiki-xmf"><a href="https://xmf.wikipedia.org/wiki/ISO_8601" title="ISO 8601 – megreleg" lang="xmf" hreflang="xmf" class="interlanguage-link-target">მარგალური</a></li><li class="interlanguage-link interwiki-yo"><a href="https://yo.wikipedia.org/wiki/ISO_8601" title="ISO 8601 – yorouba" lang="yo" hreflang="yo" class="interlanguage-link-target">Yorùbá</a></li><li class="interlanguage-link interwiki-zh"><a href="https://zh.wikipedia.org/wiki/ISO_8601" title="ISO 8601 – sinaeg" lang="zh" hreflang="zh" class="interlanguage-link-target">中文</a></li><li class="interlanguage-link interwiki-zh-min-nan"><a href="https://zh-min-nan.wikipedia.org/wiki/ISO_8601" title="ISO 8601 – Chinese (Min Nan)" lang="nan" hreflang="nan" class="interlanguage-link-target">Bân-lâm-gú</a></li></ul>
+		<div class="after-portlet after-portlet-lang"><span class="wb-langlinks-edit wb-langlinks-link"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q50101#sitelinks-wikipedia" title="Kemmañ al liammoù etreyezhel" class="wbc-editpage">Kemmañ al liammoù</a></span></div>
+	</div>
+</div>
+
+<div id="p-wikibase-otherprojects" class="vector-menu vector-menu-portal portal" aria-labelledby="p-wikibase-otherprojects-label" 
+	 >
+	<h3 id="p-wikibase-otherprojects-label">
+		<span>E raktresoù all</span>
+	</h3>
+	<!-- Please do not use the .body class, it is deprecated. -->
+	<div class="body vector-menu-content">
+		<!-- Please do not use the .menu class, it is deprecated. -->
+		<ul class="vector-menu-content-list"><li class="wb-otherproject-link wb-otherproject-commons"><a href="https://commons.wikimedia.org/wiki/Category:ISO_8601" hreflang="en">Wikimedia Commons</a></li></ul>
+		
+	</div>
+</div>
+
+<div id="p-coll-print_export" class="vector-menu vector-menu-portal portal" aria-labelledby="p-coll-print_export-label" 
+	 >
+	<h3 id="p-coll-print_export-label">
+		<span>Moullañ/ezporzhiañ</span>
+	</h3>
+	<!-- Please do not use the .body class, it is deprecated. -->
+	<div class="body vector-menu-content">
+		<!-- Please do not use the .menu class, it is deprecated. -->
+		<ul class="vector-menu-content-list"><li id="coll-create_a_book"><a href="https://br.wikipedia.org/w/index.php?title=Dibar:Dastumad&amp;bookcmd=book_creator&amp;referer=ISO+8601">Sevel ul levr</a></li><li id="coll-download-as-rl"><a href="https://br.wikipedia.org/w/index.php?title=Dibar:ElectronPdf&amp;page=ISO+8601&amp;action=show-download-screen">Pellgargañ evel PDF</a></li><li id="t-print"><a href="https://br.wikipedia.org/w/index.php?title=ISO_8601&amp;printable=yes" title="Stumm moulladus ar bajenn-mañ [p]" accesskey="p">Stumm da voullañ</a></li></ul>
+		
+	</div>
+</div>
+
+
+</div>
+
+</div>
+
+<div id="footer" class="mw-footer" role="contentinfo" >
+	<ul id="footer-info" >
+		<li id="footer-info-lastmod"> Kemmoù diwezhañ degaset d'ar bajenn-mañ d'an 6 Kzu 2017, da 02:41.</li>
+		<li id="footer-info-copyright">Gallout a reer implijout an testennoù zo dindan <a href="https://creativecommons.org/licenses/by-sa/3.0/">an Aotre-Implijout Creative Commons Dereiñ/Kenrannañ diouzh an hevelep divizoù</a>;
+divizoù ouzhpenn a c'hall bezañ ivez.
+Gwelet an <a href="https://foundation.wikimedia.org/wiki/Special:Terms_of_Use">Doareoù Implijout</a> evit gouzout hiroc'h.</li>
+	</ul>
+	<ul id="footer-places" >
+		<li id="footer-places-privacy"><a href="https://meta.wikimedia.org/wiki/Privacy_policy/fr" class="extiw" title="m:Privacy policy/fr">Reolennoù prevezded</a></li>
+		<li id="footer-places-about"><a href="https://br.wikipedia.org/wiki/Wikipedia:Diwar-benn" class="mw-redirect" title="Wikipedia:Diwar-benn">Diwar-benn Wikipedia</a></li>
+		<li id="footer-places-disclaimer"><a href="https://br.wikipedia.org/wiki/Wikipedia:Kemenn_hollek" title="Wikipedia:Kemenn hollek">Kemennoù</a></li>
+		<li id="footer-places-developers"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/How_to_contribute">Diorroerien</a></li>
+		<li id="footer-places-statslink"><a href="https://stats.wikimedia.org/#/br.wikipedia.org">Statistiques</a></li>
+		<li id="footer-places-cookiestatement"><a href="https://foundation.wikimedia.org/wiki/Cookie_statement">Diskrêriadur war an toupinoù</a></li>
+		<li id="footer-places-mobileview"><a href="https://br.m.wikipedia.org/w/index.php?title=ISO_8601&amp;mobileaction=toggle_view_mobile" class="noprint stopMobileRedirectToggle">Gwel evit an hezoug</a></li>
+	</ul>
+	<ul id="footer-icons" class="noprint">
+		<li id="footer-copyrightico"><a href="https://wikimediafoundation.org/"><img src="https://br.wikipedia.org/static/images/wikimedia-button.png" srcset="https://br.wikipedia.org/static/images/wikimedia-button-1.5x.png 1.5x, https://br.wikipedia.org/static/images/wikimedia-button-2x.png 2x" width="88" height="31" alt="Wikimedia Foundation" loading="lazy" /></a></li>
+		<li id="footer-poweredbyico"><a href="https://www.mediawiki.org/"><img src="https://br.wikipedia.org/static/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" srcset="https://br.wikipedia.org/static/images/poweredby_mediawiki_132x47.png 1.5x, https://br.wikipedia.org/static/images/poweredby_mediawiki_176x62.png 2x" width="88" height="31"/></a></li>
+	</ul>
+	<div style="clear: both;"></div>
+</div>
+
+
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.008","walltime":"0.007","ppvisitednodes":{"value":1,"limit":1000000},"postexpandincludesize":{"value":0,"limit":2097152},"templateargumentsize":{"value":0,"limit":2097152},"expansiondepth":{"value":1,"limit":40},"expensivefunctioncount":{"value":0,"limit":500},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":0,"limit":5000000},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%    0.000      1 -total"]},"cachereport":{"origin":"mw1409","timestamp":"20200531122036","ttl":2592000,"transientcontent":false}}});});</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"ISO 8601","url":"https:\/\/br.wikipedia.org\/wiki\/ISO_8601","sameAs":"http:\/\/www.wikidata.org\/entity\/Q50101","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q50101","author":{"@type":"Organization","name":"Contributeurs aux projets de Wikim\u00e9dia"},"publisher":{"@type":"Organization","name":"Wikimedia Foundation, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2007-01-05T21:43:45Z","dateModified":"2017-12-06T02:41:09Z"}</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":218,"wgHostname":"mw1261"});});</script></body></html>

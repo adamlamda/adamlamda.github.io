@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/ dc: http://purl.org/dc/terms/ foaf: http://xmlns.com/foaf/0.1/ og: http://ogp.me/ns# rdfs: http://www.w3.org/2000/01/rdf-schema# sioc: http://rdfs.org/sioc/ns# sioct: http://rdfs.org/sioc/types# skos: http://www.w3.org/2004/02/skos/core# xsd: http://www.w3.org/2001/XMLSchema#">
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="/sites/all/themes/contrib/cscc_theme/apple-touch-icon-114x114.png" rel="apple-touch-icon-precomposed" sizes="114x114" />
+<link href="/sites/all/themes/contrib/cscc_theme/apple-touch-icon-144x144.png" rel="apple-touch-icon-precomposed" sizes="144x144" />
+<link href="/sites/all/themes/contrib/cscc_theme/apple-touch-icon-72x72.png" rel="apple-touch-icon-precomposed" sizes="72x72" />
+<link href="/sites/all/themes/contrib/cscc_theme/apple-touch-icon-57x57.png" rel="apple-touch-icon-precomposed" sizes="57x57" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="shortcut icon" href="https://wawl.org/sites/default/files/wawl_0.ico" type="image/vnd.microsoft.icon" />
+  <title>wawl</title>
+  <style>
+@import url("https://wawl.org/modules/system/system.base.css?p81yce");
+</style>
+<style>
+@import url("https://wawl.org/sites/all/modules/contrib/jquery_update/replace/ui/themes/base/minified/jquery.ui.core.min.css?p81yce");
+@import url("https://wawl.org/sites/all/modules/contrib/jquery_update/replace/ui/themes/base/minified/jquery.ui.theme.min.css?p81yce");
+@import url("https://wawl.org/sites/all/modules/contrib/jquery_update/replace/ui/themes/base/minified/jquery.ui.accordion.min.css?p81yce");
+</style>
+<style>
+@import url("https://wawl.org/sites/all/modules/contrib/date/date_api/date.css?p81yce");
+@import url("https://wawl.org/sites/all/modules/contrib/date/date_popup/themes/datepicker.1.7.css?p81yce");
+@import url("https://wawl.org/modules/field/theme/field.css?p81yce");
+@import url("https://wawl.org/sites/all/modules/contrib/fitvids/fitvids.css?p81yce");
+@import url("https://wawl.org/modules/node/node.css?p81yce");
+@import url("https://wawl.org/sites/all/modules/contrib/views/css/views.css?p81yce");
+@import url("https://wawl.org/sites/all/modules/contrib/ckeditor/css/ckeditor.css?p81yce");
+</style>
+<style>
+@import url("https://wawl.org/sites/all/modules/contrib/ctools/css/ctools.css?p81yce");
+@import url("https://wawl.org/sites/all/modules/contrib/panels/css/panels.css?p81yce");
+@import url("https://wawl.org/sites/all/modules/contrib/views_accordion/views-accordion.css?p81yce");
+@import url("https://wawl.org/sites/all/modules/contrib/flexslider/assets/css/flexslider_img.css?p81yce");
+@import url("https://wawl.org/sites/all/libraries/flexslider/flexslider.css?p81yce");
+@import url("https://wawl.org/sites/all/libraries/fontawesome/css/font-awesome.css?p81yce");
+</style>
+<link type="text/css" rel="stylesheet" href="//cdn.jsdelivr.net/bootswatch/3.3.2/simplex/bootstrap.css" media="all" />
+<style>
+@import url("https://wawl.org/sites/all/themes/contrib/bootstrap/css/3.3.2/overrides-simplex.min.css?p81yce");
+@import url("https://wawl.org/sites/all/themes/contrib/cscc_theme/css/style.css?p81yce");
+@import url("https://wawl.org/sites/all/themes/contrib/cscc_theme/css/scroll-to-top.css?p81yce");
+@import url("https://wawl.org/sites/all/themes/contrib/cscc_theme/css/ui-lightness.css?p81yce");
+</style>
+<style>
+@import url("https://wawl.org/sites/default/files/fontyourface/font.css?p81yce");
+</style>
+<link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:700,regular&amp;subset=latin" media="all" />
+  <!-- HTML5 element support for IE6-8 -->
+  <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+  <script src="https://wawl.org/sites/all/modules/contrib/jquery_update/replace/jquery/1.9/jquery.min.js?v=1.9.1"></script>
+<script src="https://wawl.org/misc/jquery.once.js?v=1.2"></script>
+<script src="https://wawl.org/misc/drupal.js?p81yce"></script>
+<script src="https://wawl.org/sites/all/modules/contrib/jquery_update/replace/ui/external/jquery.cookie.js?v=67fb34f6a866c40d0570"></script>
+<script src="https://wawl.org/sites/all/modules/contrib/jquery_update/replace/jquery.form/4/jquery.form.min.js?v=4.2.1"></script>
+<script src="https://wawl.org/sites/all/libraries/fitvids/jquery.fitvids.js?p81yce"></script>
+<script src="https://wawl.org/misc/ajax.js?v=7.59"></script>
+<script src="https://wawl.org/sites/all/modules/contrib/jquery_update/js/jquery_update.js?v=0.0.1"></script>
+<script src="https://wawl.org/sites/all/modules/contrib/ajax_pages/ajax_pages.js?v=7.x-1.x"></script>
+<script src="https://wawl.org/sites/all/modules/contrib/jquery_update/replace/ui/ui/minified/jquery.ui.core.min.js?v=1.10.2"></script>
+<script src="https://wawl.org/sites/all/modules/contrib/jquery_update/replace/ui/ui/minified/jquery.ui.widget.min.js?v=1.10.2"></script>
+<script src="https://wawl.org/sites/all/modules/contrib/jquery_update/replace/ui/ui/minified/jquery.ui.accordion.min.js?v=1.10.2"></script>
+<script src="//cdn.jsdelivr.net/bootstrap/3.3.2/js/bootstrap.js"></script>
+<script src="https://wawl.org/sites/all/themes/contrib/bootstrap/js/misc/_progress.js?v=7.59"></script>
+<script src="https://wawl.org/sites/all/modules/contrib/fitvids/fitvids.js?p81yce"></script>
+<script src="https://wawl.org/sites/all/modules/contrib/iframe/iframe.js?p81yce"></script>
+<script src="https://wawl.org/sites/all/modules/contrib/views_accordion/views-accordion.js?p81yce"></script>
+<script src="https://wawl.org/sites/all/libraries/flexslider/jquery.flexslider-min.js?p81yce"></script>
+<script src="https://wawl.org/sites/all/modules/contrib/google_analytics/googleanalytics.js?p81yce"></script>
+<script>(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","//www.google-analytics.com/analytics.js","ga");ga("create", "UA-77075664-1", {"cookieDomain":"auto"});ga("set", "anonymizeIp", true);ga("send", "pageview");</script>
+<script>(function($) {$(document).ready(function() {
+  $("#accordion").accordion();
+});}(jQuery));</script>
+<script src="//use.edgefonts.net/adamina:n4.js"></script>
+<script src="https://wawl.org/sites/all/themes/contrib/cscc_theme/js/custom.js?p81yce"></script>
+<script src="https://wawl.org/sites/all/themes/contrib/cscc_theme/js/scroll-to-top.js?p81yce"></script>
+<script src="https://wawl.org/sites/all/themes/contrib/bootstrap/js/misc/ajax.js?p81yce"></script>
+<script>jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"cscc_theme","theme_token":"-6fjueAWtRbC_3FFP80eSg_rtANIrrMcu_CgQkEPSxc","jquery_version":"1.9","js":{"sites\/all\/modules\/contrib\/flexslider\/assets\/js\/flexslider.load.js":1,"sites\/all\/themes\/contrib\/bootstrap\/js\/bootstrap.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery\/1.9\/jquery.min.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/external\/jquery.cookie.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery.form\/4\/jquery.form.min.js":1,"sites\/all\/libraries\/fitvids\/jquery.fitvids.js":1,"misc\/ajax.js":1,"sites\/all\/modules\/contrib\/jquery_update\/js\/jquery_update.js":1,"sites\/all\/modules\/contrib\/ajax_pages\/ajax_pages.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.core.min.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.widget.min.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.accordion.min.js":1,"\/\/cdn.jsdelivr.net\/bootstrap\/3.3.2\/js\/bootstrap.js":1,"sites\/all\/themes\/contrib\/bootstrap\/js\/misc\/_progress.js":1,"sites\/all\/modules\/contrib\/fitvids\/fitvids.js":1,"sites\/all\/modules\/contrib\/iframe\/iframe.js":1,"sites\/all\/modules\/contrib\/views_accordion\/views-accordion.js":1,"sites\/all\/libraries\/flexslider\/jquery.flexslider-min.js":1,"sites\/all\/modules\/contrib\/google_analytics\/googleanalytics.js":1,"0":1,"1":1,"\/\/use.edgefonts.net\/adamina:n4.js":1,"sites\/all\/themes\/contrib\/cscc_theme\/js\/custom.js":1,"sites\/all\/themes\/contrib\/cscc_theme\/js\/scroll-to-top.js":1,"sites\/all\/themes\/contrib\/bootstrap\/js\/misc\/ajax.js":1},"css":{"modules\/system\/system.base.css":1,"misc\/ui\/jquery.ui.core.css":1,"misc\/ui\/jquery.ui.theme.css":1,"misc\/ui\/jquery.ui.accordion.css":1,"sites\/all\/modules\/contrib\/date\/date_api\/date.css":1,"sites\/all\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/contrib\/fitvids\/fitvids.css":1,"modules\/node\/node.css":1,"sites\/all\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/ckeditor\/css\/ckeditor.css":1,"sites\/all\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/contrib\/panels\/css\/panels.css":1,"sites\/all\/modules\/contrib\/views_accordion\/views-accordion.css":1,"sites\/all\/modules\/contrib\/flexslider\/assets\/css\/flexslider_img.css":1,"sites\/all\/libraries\/flexslider\/flexslider.css":1,"sites\/all\/libraries\/fontawesome\/css\/font-awesome.css":1,"\/\/cdn.jsdelivr.net\/bootswatch\/3.3.2\/simplex\/bootstrap.css":1,"sites\/all\/themes\/contrib\/bootstrap\/css\/3.3.2\/overrides-simplex.min.css":1,"sites\/all\/themes\/contrib\/cscc_theme\/css\/style.css":1,"sites\/all\/themes\/contrib\/cscc_theme\/css\/scroll-to-top.css":1,"sites\/all\/themes\/contrib\/cscc_theme\/css\/ui-lightness.css":1,"sites\/default\/files\/fontyourface\/font.css":1,"https:\/\/fonts.googleapis.com\/css?family=Lato:700,regular\u0026subset=latin":1}},"ajaxPages":{"paths":{"admin":"node\/*\/addanother\nimport\nimport\/*\nnode\/*\/import\nnode\/*\/delete-items\nnode\/*\/log\nfile\/add\nfile\/add\/*\nfile\/*\/edit\nfile\/*\/usage\nfile\/*\/delete\nfpa_modal\/*\/permissions\nmedia\/*\/edit\/*\nmedia\/*\/format-form\nmedia\/browser\nmedia\/browser\/*\nnode\/*\/edit\nnode\/*\/delete\nnode\/*\/revisions\nnode\/*\/revisions\/*\/revert\nnode\/*\/revisions\/*\/delete\nnode\/add\nnode\/add\/*\nuser\/*\/shortcuts\nadmin\nadmin\/*\nbatch\ntaxonomy\/term\/*\/edit\nuser\/*\/cancel\nuser\/*\/edit\nuser\/*\/edit\/*\nfile\/*\/panelizer*\nuser\/*\/panelizer*\nnode\/*\/panelizer*\ntaxonomy\/term\/*\/panelizer*\ndevel\/*\nnode\/*\/devel\nnode\/*\/devel\/*\ncomment\/*\/devel\ncomment\/*\/devel\/*\nuser\/*\/devel\nuser\/*\/devel\/*\ntaxonomy\/term\/*\/devel\ntaxonomy\/term\/*\/devel\/*\nnode\/*\/revisions\/view\/*\/*","non_admin":"admin\/structure\/block\/demo\/*\nadmin\/reports\/status\/php"},"pathPrefixes":[],"linksSelector":"#page-wrapper .ajax-links"},"views_accordion":{"views-accordion-front_page_accordion-block_1":{"collapsible":0,"rowstartopen":false,"animated":"slide","autoheight":1,"event":"click","fillspace":0,"navigation":0,"clearstyle":0,"grouping":0,"display":"block_1","viewname":"front_page_accordion","usegroupheader":0,"header":".views-accordion-header","newoptions":false}},"flexslider":{"optionsets":{"default":{"namespace":"flex-","selector":".slides \u003E li","easing":"swing","direction":"horizontal","reverse":false,"smoothHeight":false,"startAt":0,"animationSpeed":600,"initDelay":0,"useCSS":true,"touch":true,"video":false,"keyboard":true,"multipleKeyboard":false,"mousewheel":0,"controlsContainer":".flex-control-nav-container","sync":"","asNavFor":"","itemWidth":0,"itemMargin":0,"minItems":0,"maxItems":0,"move":0,"animation":"fade","slideshow":true,"slideshowSpeed":"7000","directionNav":true,"controlNav":false,"prevText":"Previous","nextText":"Next","pausePlay":false,"pauseText":"Pause","playText":"Play","randomize":false,"thumbCaptions":false,"thumbCaptionsBoth":false,"animationLoop":true,"pauseOnAction":true,"pauseOnHover":false,"manualControls":""},"world_slider":{"namespace":"flex-","selector":".slides \u003E li","easing":"swing","direction":"vertical","reverse":false,"smoothHeight":false,"startAt":0,"animationSpeed":600,"initDelay":0,"useCSS":true,"touch":true,"video":false,"keyboard":true,"multipleKeyboard":false,"mousewheel":0,"controlsContainer":".flex-control-nav-container","sync":"","asNavFor":"","itemWidth":0,"itemMargin":0,"minItems":0,"maxItems":0,"move":0,"animation":"fade","slideshow":true,"slideshowSpeed":"4000","directionNav":false,"controlNav":false,"prevText":"Previous","nextText":"Next","pausePlay":false,"pauseText":"Pause","playText":"Play","randomize":false,"thumbCaptions":false,"thumbCaptionsBoth":false,"animationLoop":true,"pauseOnAction":true,"pauseOnHover":false,"manualControls":""}},"instances":{"flexslider-1":"default","flexslider-2":"world_slider"}},"fitvids":{"custom_domains":[],"selectors":["body"],"simplifymarkup":true},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip"},"bootstrap":{"anchorsFix":1,"anchorsSmoothScrolling":1,"formHasError":1,"popoverEnabled":1,"popoverOptions":{"animation":1,"html":0,"placement":"right","selector":"","trigger":"click","triggerAutoclose":1,"title":"","content":"","delay":0,"container":"body"},"tooltipEnabled":1,"tooltipOptions":{"animation":1,"html":0,"placement":"auto left","selector":"","trigger":"hover focus","delay":0,"container":"body"}}});</script>
+  
+</head>
+<body class="html front not-logged-in one-sidebar sidebar-second page-home home-panel" >
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+
+  <div class="scroll-top-wrapper ">
+        <span class="scroll-top-inner">
+            <i class="fa fa-2x fa-arrow-circle-up"></i>
+        </span>
+  </div>
+  <div class="playercontrol" id="playcontrol">
+    <div class="player-message">
+      <i class="fa fa-headphones fa-lg"> </i> <strong>Click here to listen to the WAWL Live!</strong>
+    </div>
+
+  </div>
+
+  <div class="pausecontrol">
+    <div class="pause-message">
+      <i class="fa fa-circle-o-notch fa-spin"></i><span> You are listening to The WAWL Live! </span><i class="fa fa-pause"></i>
+    </div>
+    <div class="now-playing"> </div>
+  </div>
+<audio class="pull-right streamplayer" controls><source src="http://91.121.195.222:9204/;stream.mp3" type="audio/mp3">Your browser does not support the audio element.</audio>
+
+  <div id="page-wrapper">
+    <header id="navbar" role="banner" class="navbar navbar-static-top navbar-default">
+<div id="loading"><h2>Please wait while we look up this employee.</h2></div>
+      <div class="navbar-collapse collapse">
+        <nav role="navigation">
+
+                      <ul class="menu nav navbar-nav"><li class="first leaf active"><a href="/" class="fa fa-home ajax-links active">Home</a></li>
+<li class="leaf"><a href="/about-us" class="fa fa-info-circle ajax-links">About Us</a></li>
+<li class="expanded active dropdown"><a href="/" class="fa fa-music dropdown-toggle active" data-target="#" data-toggle="dropdown">Music <span class="caret"></span></a><ul class="dropdown-menu"><li class="first leaf"><a href="/whats_playing" class="fa fa-question ajax-links">What&#039;s Playing</a></li>
+<li class="last leaf"><a href="/library" class="fa fa-list ajax-links">Music Library</a></li>
+</ul></li>
+<li class="expanded dropdown"><a class="fa fa-user dropdown-toggle nolink" data-target="#" data-toggle="dropdown">Jocks/Students <span class="caret"></span></a><ul class="dropdown-menu"><li class="first leaf"><a href="/jocks-students/jocks" class="fa fa-user">Jocks</a></li>
+<li class="last leaf"><a href="/jocks-students/students" class="fa fa-user ajax-links">Students</a></li>
+</ul></li>
+<li class="expanded dropdown"><a class="fa fa-calendar dropdown-toggle nolink" data-target="#" data-toggle="dropdown">Schedule <span class="caret"></span></a><ul class="dropdown-menu"><li class="first leaf"><a href="/schedule/shows" class="fa fa-microphone ajax-links">The Shows</a></li>
+<li class="last leaf"><a href="/schedule/people" class="fa fa-user ajax-links">The People</a></li>
+</ul></li>
+<li class="expanded dropdown"><a class="fa fa-microphone dropdown-toggle nolink" data-target="#" data-toggle="dropdown">Concerts <span class="caret"></span></a><ul class="dropdown-menu"><li class="first leaf"><a href="/events/thisweek" class="fa fa-list ajax-links">Metro Chattanooga</a></li>
+<li class="last leaf"><a href="/events/upcoming" class="fa fa-list ajax-links">Regional: Atlanta, Nashville, Knoxville, more</a></li>
+</ul></li>
+<li class="last leaf"><a href="/stream" class="fa fa-bookmark" target="_blank">Bookmark/Stream</a></li>
+</ul>
+                                   	</nav>
+	 </div>
+      <div class="container">
+    <div class="navbar-header">
+    <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+              <a class="logo navbar-btn pull-left" href="/" title="Home">
+          <img src="https://wawl.org/sites/default/files/WAWL-Around-World-logo_0_0.png" alt="Home" />
+        </a>
+              <!--<span class="second-logo pull-right"><img src="/sites/default/files/logo-secondary.png"></span>-->
+      		<div class='tigeralert-container'>
+    	<div class="tigeralert-page">
+		  <div class="region region-tigeralert">
+    <section id="block-block-6" class="block block-block clearfix">
+
+      
+  <p><a href="https://www.chattanoogastate.edu"><img src="//wawl.org/sites/default/files/wawl-bricks.png" /></a></p>
+
+</section>
+  </div>
+        </div>
+	</div>
+
+    </div>
+
+
+  </div>
+
+</header>
+
+
+<div class="main-container container">
+  <!--SlideShow Region-->
+      <div class='flexslider'>
+        <div class="region region-slideshow">
+    <section id="block-views-slideshow-block-1" class="block block-views clearfix">
+
+      
+  <div class="view view-slideshow view-id-slideshow view-display-id-block_1 view-dom-id-f265f196db95ec777dcb806f7a0d159c">
+        
+  
+  
+      <div class="view-content">
+      <div  id="flexslider-1" class="flexslider optionset-default">
+  <ul class="slides"><li>  
+  <div class="views-field views-field-field-photo">        <div class="field-content"><div id="file-63" class="file file-image file-image-jpeg">
+
+        <h2 class="element-invisible"><a href="/file/63">BluesShowSlide.jpg</a></h2>
+    
+  
+  <div class="content">
+    <img typeof="foaf:Image" class="img-responsive" src="https://wawl.org/sites/default/files/BluesShowSlide.jpg" width="760" height="456" alt="Blues Ad" />  </div>
+
+  
+</div>
+</div>  </div></li>
+<li>  
+  <div class="views-field views-field-field-photo">        <div class="field-content"><div id="file-166" class="file file-image file-image-jpeg">
+
+        <h2 class="element-invisible"><a href="/file/166">new-site.jpg</a></h2>
+    
+  
+  <div class="content">
+    <img typeof="foaf:Image" class="img-responsive" src="https://wawl.org/sites/default/files/new-site-2.jpg" width="760" height="456" alt="" />  </div>
+
+  
+</div>
+</div>  </div></li>
+<li>  
+  <div class="views-field views-field-field-photo">        <div class="field-content"><div id="file-79" class="file file-image file-image-jpeg">
+
+        <h2 class="element-invisible"><a href="/file/79">Reggae.jpg</a></h2>
+    
+  
+  <div class="content">
+    <img typeof="foaf:Image" class="img-responsive" src="https://wawl.org/sites/default/files/Reggae.jpg" width="380" height="228" alt="Reggae Ad" />  </div>
+
+  
+</div>
+</div>  </div></li>
+<li>  
+  <div class="views-field views-field-field-photo">        <div class="field-content"><div id="file-64" class="file file-image file-image-jpeg">
+
+        <h2 class="element-invisible"><a href="/file/64">Christian-Blevins.jpg</a></h2>
+    
+  
+  <div class="content">
+    <img typeof="foaf:Image" class="img-responsive" src="https://wawl.org/sites/default/files/Christian-Blevins.jpg" width="380" height="228" alt="Christian" />  </div>
+
+  
+</div>
+</div>  </div></li>
+<li>  
+  <div class="views-field views-field-field-photo">        <div class="field-content"><div id="file-70" class="file file-image file-image-jpeg">
+
+        <h2 class="element-invisible"><a href="/file/70">Flying-Man.jpg</a></h2>
+    
+  
+  <div class="content">
+    <img typeof="foaf:Image" class="img-responsive" src="https://wawl.org/sites/default/files/Flying-Man.jpg" width="380" height="228" alt="Flying Man Ad" />  </div>
+
+  
+</div>
+</div>  </div></li>
+<li>  
+  <div class="views-field views-field-field-photo">        <div class="field-content"><div id="file-83" class="file file-image file-image-jpeg">
+
+        <h2 class="element-invisible"><a href="/file/83">Under-the-Needle.jpg</a></h2>
+    
+  
+  <div class="content">
+    <img typeof="foaf:Image" class="img-responsive" src="https://wawl.org/sites/default/files/Under-the-Needle.jpg" width="380" height="228" alt="Under the Needle Ad" />  </div>
+
+  
+</div>
+</div>  </div></li>
+<li>  
+  <div class="views-field views-field-field-photo">        <div class="field-content"><div id="file-81" class="file file-image file-image-jpeg">
+
+        <h2 class="element-invisible"><a href="/file/81">Southern-style.jpg</a></h2>
+    
+  
+  <div class="content">
+    <img typeof="foaf:Image" class="img-responsive" src="https://wawl.org/sites/default/files/Southern-style.jpg" width="380" height="228" alt="Southern Style Ad" />  </div>
+
+  
+</div>
+</div>  </div></li>
+<li>  
+  <div class="views-field views-field-field-photo">        <div class="field-content"><div id="file-80" class="file file-image file-image-jpeg">
+
+        <h2 class="element-invisible"><a href="/file/80">Sly-Crooner.jpg</a></h2>
+    
+  
+  <div class="content">
+    <img typeof="foaf:Image" class="img-responsive" src="https://wawl.org/sites/default/files/Sly-Crooner.jpg" width="380" height="228" alt="Sly Crooner Ad" />  </div>
+
+  
+</div>
+</div>  </div></li>
+<li>  
+  <div class="views-field views-field-field-photo">        <div class="field-content"><div id="file-78" class="file file-image file-image-jpeg">
+
+        <h2 class="element-invisible"><a href="/file/78">Radio-Unleashed.jpg</a></h2>
+    
+  
+  <div class="content">
+    <img typeof="foaf:Image" class="img-responsive" src="https://wawl.org/sites/default/files/Radio-Unleashed.jpg" width="380" height="228" alt="Radio Unleashed Ad" />  </div>
+
+  
+</div>
+</div>  </div></li>
+<li>  
+  <div class="views-field views-field-field-photo">        <div class="field-content"><div id="file-75" class="file file-image file-image-jpeg">
+
+        <h2 class="element-invisible"><a href="/file/75">Morning-Mess.jpg</a></h2>
+    
+  
+  <div class="content">
+    <img typeof="foaf:Image" class="img-responsive" src="https://wawl.org/sites/default/files/Morning-Mess.jpg" width="380" height="228" alt="Morning Mess Ad" />  </div>
+
+  
+</div>
+</div>  </div></li>
+<li>  
+  <div class="views-field views-field-field-photo">        <div class="field-content"><div id="file-62" class="file file-image file-image-jpeg">
+
+        <h2 class="element-invisible"><a href="/file/62">80s-Retro.jpg</a></h2>
+    
+  
+  <div class="content">
+    <img typeof="foaf:Image" class="img-responsive" src="https://wawl.org/sites/default/files/80s-Retro.jpg" width="380" height="228" alt="80s Retro Ad" />  </div>
+
+  
+</div>
+</div>  </div></li>
+<li>  
+  <div class="views-field views-field-field-photo">        <div class="field-content"><div id="file-73" class="file file-image file-image-jpeg">
+
+        <h2 class="element-invisible"><a href="/file/73">Local-music.jpg</a></h2>
+    
+  
+  <div class="content">
+    <img typeof="foaf:Image" class="img-responsive" src="https://wawl.org/sites/default/files/Local-music.jpg" width="380" height="228" alt="Local Music Ad" />  </div>
+
+  
+</div>
+</div>  </div></li>
+<li>  
+  <div class="views-field views-field-field-photo">        <div class="field-content"><div id="file-72" class="file file-image file-image-jpeg">
+
+        <h2 class="element-invisible"><a href="/file/72">Kids.jpg</a></h2>
+    
+  
+  <div class="content">
+    <img typeof="foaf:Image" class="img-responsive" src="https://wawl.org/sites/default/files/Kids.jpg" width="380" height="228" alt="Kids Ad" />  </div>
+
+  
+</div>
+</div>  </div></li>
+<li>  
+  <div class="views-field views-field-field-photo">        <div class="field-content"><div id="file-71" class="file file-image file-image-jpeg">
+
+        <h2 class="element-invisible"><a href="/file/71">japanese.jpg</a></h2>
+    
+  
+  <div class="content">
+    <img typeof="foaf:Image" class="img-responsive" src="https://wawl.org/sites/default/files/japanese.jpg" width="380" height="228" alt="Japanese Ad" />  </div>
+
+  
+</div>
+</div>  </div></li>
+<li>  
+  <div class="views-field views-field-field-photo">        <div class="field-content"><div id="file-230" class="file file-image file-image-jpeg">
+
+        <h2 class="element-invisible"><a href="/file/230">Spotlight.jpg</a></h2>
+    
+  
+  <div class="content">
+    <img typeof="foaf:Image" class="img-responsive" src="https://wawl.org/sites/default/files/Spotlight.jpg" width="760" height="456" alt="" />  </div>
+
+  
+</div>
+</div>  </div></li>
+<li>  
+  <div class="views-field views-field-field-photo">        <div class="field-content"><div id="file-77" class="file file-image file-image-jpeg">
+
+        <h2 class="element-invisible"><a href="/file/77">Radio-quad.jpg</a></h2>
+    
+  
+  <div class="content">
+    <img typeof="foaf:Image" class="img-responsive" src="https://wawl.org/sites/default/files/Radio-quad.jpg" width="380" height="228" alt="Radio Quad Ad" />  </div>
+
+  
+</div>
+</div>  </div></li>
+<li>  
+  <div class="views-field views-field-field-photo">        <div class="field-content"><div id="file-65" class="file file-image file-image-jpeg">
+
+        <h2 class="element-invisible"><a href="/file/65">Courses-In.jpg</a></h2>
+    
+  
+  <div class="content">
+    <img typeof="foaf:Image" class="img-responsive" src="https://wawl.org/sites/default/files/Courses-In.jpg" width="380" height="228" alt="Courses In Ad" />  </div>
+
+  
+</div>
+</div>  </div></li>
+<li>  
+  <div class="views-field views-field-field-photo">        <div class="field-content"><div id="file-84" class="file file-image file-image-jpeg">
+
+        <h2 class="element-invisible"><a href="/file/84">WAWL-MedDep.jpg</a></h2>
+    
+  
+  <div class="content">
+    <img typeof="foaf:Image" class="img-responsive" src="https://wawl.org/sites/default/files/WAWL-MedDep.jpg" width="380" height="228" alt="WAWL-MedDep Ad" />  </div>
+
+  
+</div>
+</div>  </div></li>
+</ul></div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>
+</section>
+<section id="block-block-5" class="block block-block clearfix">
+
+      
+  <p><span class="hidden-xs"><img src="//wawl.org/sites/default/files/WAWLy-400.png" /></span></p>
+
+</section>
+<section id="block-views-world-slider-block-1" class="block block-views clearfix">
+
+      
+  <div class="view view-world-slider view-id-world_slider view-display-id-block_1 view-dom-id-1fa84d5474d87c19ada5d66bd409e502">
+            <div class="view-header">
+      <p><img src="//wawl.org/sites/default/files/animated-world.gif" /></p>
+    </div>
+  
+  
+  
+      <div class="view-content">
+      <div  id="flexslider-2" class="flexslider optionset-world-slider">
+  <ul class="slides"><li>  
+  <div>        <span><div class="pink">Welcome to the WAWL.org: Streaming 24/7</div></span>  </div></li>
+<li>  
+  <div>        <span><div class="green">The WAWL is now streaming in iTunes/College</div></span>  </div></li>
+<li>  
+  <div>        <span><div class="purple">Listen and win FREE tickets </div></span>  </div></li>
+<li>  
+  <div>        <span><div class="orange">Fans and listeners in over 860 American cities in 50 states, and reaching over 120 countries.</div></span>  </div></li>
+<li>  
+  <div>        <span><div class="green">Reggae, Native American, New Age, Jazz, Metal, Punk, Local, Hip-Hop, Blues and R&amp;B</div></span>  </div></li>
+<li>  
+  <div>        <span><div class="yellow">The WAWL serves as a learning lab for students enrolled in the broadcasting degree program</div></span>  </div></li>
+<li>  
+  <div>        <span><div class="pink">Around the World and Pole to Pole!</div></span>  </div></li>
+<li>  
+  <div>        <span><div class="teal">Your Alternate Choice</div></span>  </div></li>
+<li>  
+  <div>        <span><div class="orange">The WAWL request library has 30 thousand songs to select from. 1960s onward.</div></span>  </div></li>
+</ul></div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>
+</section>
+  </div>
+
+    </div>
+    <!--/SlideShow Region-->
+
+
+  <header role="banner" id="page-header">
+    
+      </header> <!-- /#page-header -->
+
+  <div class="row">
+
+    
+    <section class="col-sm-9">
+                  <a id="main-content"></a>
+                                                                <div class="region region-content">
+    <section id="block-system-main" class="block block-system clearfix">
+
+      
+  <div class="bootstrap-twocol-stacked" >
+  <div class="row">
+      </div>
+  <div class="row">
+          </div>
+  <div class="row">
+    <div class='panel-panel bottom col-lg-12'><div class="panel-pane pane-block pane-views-front-page-accordion-block-1 front-page-accordion"  >
+  
+      
+  
+  <div class="pane-content">
+    <div class="view view-front-page-accordion view-id-front_page_accordion view-display-id-block_1 view-dom-id-22929273470111ff5a4b2b9056717069">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first">
+      
+  <div class="views-field views-field-title views-accordion-header">        <span class="field-content"><a href="/node/26">Media Tech on YouTube</a></span>  </div>  
+  <div class="views-field views-field-field-video">        <div class="field-content"><div id="file-352" class="file file-video file-video-youtube">
+
+        <h2 class="element-invisible"><a href="/file/352">Student Voice - TN ReConnect</a></h2>
+    
+  
+  <div class="content">
+    <div class="media-youtube-video media-youtube-1">
+  <iframe class="media-youtube-player" width="640" height="390" title="Student Voice - TN ReConnect" src="https://www.youtube.com/embed/byvwDcj2ETI?wmode=opaque" frameborder="0" allowfullscreen>Video of Student Voice - TN ReConnect</iframe>
+</div>
+  </div>
+
+  
+</div>
+</div>  </div>  
+  <div class="views-field views-field-body">        <div class="field-content"><p> </p>
+</div>  </div>  </div>
+  <div class="views-row views-row-2 views-row-even">
+      
+  <div class="views-field views-field-title views-accordion-header">        <span class="field-content"><a href="/node/132">50 YEARS AGO • Everly Brothers• All I have To Do Is Dream</a></span>  </div>  
+  <div class="views-field views-field-field-video">        <div class="field-content"><div id="file-351" class="file file-video file-video-youtube">
+
+        <h2 class="element-invisible"><a href="/file/351">Everly Brothers- &quot;All I Have To Do Is Dream/Cathy&#039;s Clown&quot; 1960 (Reelin&#039; In The Years Archives)</a></h2>
+    
+  
+  <div class="content">
+    <div class="media-youtube-video media-youtube-2">
+  <iframe class="media-youtube-player" width="640" height="390" title="Everly Brothers- &quot;All I Have To Do Is Dream/Cathy&#039;s Clown&quot; 1960 (Reelin&#039; In The Years Archives)" src="https://www.youtube.com/embed/lTYe9eDqxe8?wmode=opaque" frameborder="0" allowfullscreen>Video of Everly Brothers- &amp;quot;All I Have To Do Is Dream/Cathy&amp;#039;s Clown&amp;quot; 1960 (Reelin&amp;#039; In The Years Archives)</iframe>
+</div>
+  </div>
+
+  
+</div>
+</div>  </div>  
+  <div class="views-field views-field-body">        <div class="field-content"><p> </p>
+</div>  </div>  </div>
+  <div class="views-row views-row-3 views-row-odd views-row-last">
+      
+  <div class="views-field views-field-title views-accordion-header">        <span class="field-content"><a href="/node/25">New Tracks featured on The WAWL</a></span>  </div>  
+  <div class="views-field views-field-field-video">        <div class="field-content"><div id="file-298" class="file file-video file-video-vimeo">
+
+        <h2 class="element-invisible"><a href="/file/298">New Tracks on The WAWL 47</a></h2>
+    
+  
+  <div class="content">
+    <div class="media-vimeo-video media-vimeo-1">
+  <iframe class="media-vimeo-player" width="640" height="420" title="New Tracks on The WAWL 47" src="//player.vimeo.com/video/215529415?portrait=0&title=0&byline=0&color=" frameborder="0" allowfullscreen>Video of New Tracks on The WAWL 47</iframe>
+</div>
+  </div>
+
+  
+</div>
+</div>  </div>  
+  <div class="views-field views-field-body">        <div class="field-content"><p> </p>
+</div>  </div>  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>  </div>
+
+  
+  </div>
+</div>  </div>
+</div>
+
+</section>
+  </div>
+    </section>
+
+          <aside class="col-sm-3 pull-right" role="complementary">
+          <div class="region region-sidebar-second">
+    <section id="block-block-1" class="block block-block clearfix">
+
+        <h2 class="block-title">The WAWL: Established 1980</h2>
+    
+  <p>Uncle Don M-F @ 6am with weather from Patrick Core. <strong>Request Line:</strong> 423-697-4406 <strong>Underwriting:</strong> 423-697-4470 <strong>Mailing Address:</strong> ChSCC-WAWL 4501 Amnicola Hwy Chattanooga, TN 37406 <a href="mailto:don.hixson@chattanoogastate.edu?subject=From:http://wawl.org">E-mail Us</a></p>
+<script type="text/javascript" src="//ra.revolvermaps.com/0/0/3.js?i=0rx8ho3yts9&amp;b=5&amp;s=0&amp;m=2&amp;cl=ffffff&amp;co=010020&amp;cd=aa0000&amp;v0=60&amp;v1=60&amp;r=1" async="async"></script>
+</section>
+<section id="block-wawl-facebook-wawl-facebook-blockname" class="block block-wawl-facebook clearfix">
+
+        <h2 class="block-title"><span class="fa fa-facebook-square fa-lg facebook-icon"></span> Recently on Facebook</h2>
+    
+  <div class='fb-post'><span><a href='https://facebook.com/thewawl' target='_blank'><h2>The WAWL</h2></a></span><h3><a href='https://www.facebook.com/TheWAWL/photos/a.479668267364/10153951102972365/?type=3'target='_blank'>The WAWL shared their photo.</a></h3><div class='fb-post-date'>Aug 25 at 07:38am</div><div class='fb-description'>Gather up the kids and jump online...Another "Saturday Morning Cereal Bowl" is on the way starting around 8A (ET) this week-end. Your host, Dave L, puts together the largest variety of music for you and your children to enjoy together...Get your weekend started off with lots of smiles...It's "The Saturday Morning Cereal Bowl"; all you have to do is click on wawl.org....Enjoy!
+https://www.facebook.com/saturdaymorningcerealbowl</div><a href='https://www.facebook.com/TheWAWL/photos/a.479668267364/10153951102972365/?type=3' target='_blank'><img class='fb-post-image' src='https://scontent.xx.fbcdn.net/v/t1.0-0/s130x130/12814521_10153951102972365_769657660291827942_n.jpg?_nc_cat=0&oh=3eef945553cb21422f51420376be5eca&oe=5BF804B9'></a></div><div class='fb-post'><span><a href='https://facebook.com/thewawl' target='_blank'><h2>The WAWL</h2></a></span><h3><a href='https://www.facebook.com/TheWAWL/photos/a.479668267364/10152391407077365/?type=3'target='_blank'>The WAWL shared their photo.</a></h3><div class='fb-post-date'>Aug 25 at 07:37am</div><div class='fb-description'>Check out classic rock at it's best with your Old Uncle Don! It's "Jurassic Rock", every Saturday at 3P (ET) at wawl.org.
+
+http://www.rollingstone.com/music/lists/the-500-greatest-songs-of-all-time-20110407</div><a href='https://www.facebook.com/TheWAWL/photos/a.479668267364/10152391407077365/?type=3' target='_blank'><img class='fb-post-image' src='https://scontent.xx.fbcdn.net/v/t1.0-0/s130x130/10299581_10152391407077365_6196192763787358631_n.jpg?_nc_cat=0&oh=e16f19999e6000e4162db73295c8ab93&oe=5BFCD01D'></a></div><div class='fb-post'><span><a href='https://facebook.com/thewawl' target='_blank'><h2>The WAWL</h2></a></span><h3><a href='https://www.facebook.com/TheWAWL/photos/a.479668267364/10153658497362365/?type=3'target='_blank'>The WAWL shared their photo.</a></h3><div class='fb-post-date'>Aug 25 at 07:33am</div><div class='fb-description'>Radio Unleashed with Dave Leonard is a big part of the weekend lineup on The WAWL in Chattanooga, TN! We are on the air Saturday, from 4:00-6:00PM. For those wishing to catch the show online, you can tune in at http://wawl.org/</div><a href='https://www.facebook.com/TheWAWL/photos/a.479668267364/10153658497362365/?type=3' target='_blank'><img class='fb-post-image' src='https://scontent.xx.fbcdn.net/v/t1.0-0/s130x130/12079317_10153658497362365_5759078005991141493_n.jpg?_nc_cat=0&oh=040c4a5de7ae3c0747bd1ee6f438eea8&oe=5C30D2B7'></a></div><div class='fb-post'><span><a href='https://facebook.com/thewawl' target='_blank'><h2>ChattState Foundation</h2></a></span><h3><a href='https://www.facebook.com/ChattStateFoundation/photos/a.1409619215920523/2129436590605445/?type=3'target='_blank'>The WAWL shared ChattState Foundation's post.</a></h3><div class='fb-post-date'>Aug 25 at 07:17am</div><div class='fb-description'>Chattanooga State Community College Kolwyck Library has a series of "Refresh” Sessions for those who want to brush up on their back-to-class skills. Learn more & register here: https://libcal.chattanoogastate.edu/calendar/klicworkshops/?cid=5956&t=d&d=0000-00-00&cal=5956 #ChattState #TnReconnect</div><a href='https://www.facebook.com/ChattStateFoundation/photos/a.1409619215920523/2129436590605445/?type=3' target='_blank'><img class='fb-post-image' src='https://scontent.xx.fbcdn.net/v/t1.0-0/s130x130/39943621_2129436593938778_3353218960991453184_n.png?_nc_cat=0&oh=a28b679a1135cd32cde209d7f1f4eb48&oe=5C02DA7B'></a></div><div class='fb-post'><span><a href='https://facebook.com/thewawl' target='_blank'><h2>The WAWL</h2></a></span><h3><a href='https://www.facebook.com/TheWAWL/photos/a.479668267364/10152984659962365/?type=3'target='_blank'>The WAWL shared their photo.</a></h3><div class='fb-post-date'>Aug 22 at 12:05pm</div><div class='fb-description'>"Spotlight on the WAWL" hits the internet Saturday at 6P (EDT). This week, 8/25/18, we will shine the spotlight on music from Led Zeppelin. The next week, we will feature music from Neil Young. For more music and the biggest variety, why would you go anywhere else? "Spotlight on the WAWL"... Saturday evenings at wawl.org.
+
+http://en.wikipedia.org/wiki/Led_Zeppelin</div><a href='https://www.facebook.com/TheWAWL/photos/a.479668267364/10152984659962365/?type=3' target='_blank'><img class='fb-post-image' src='https://scontent.xx.fbcdn.net/v/t1.0-0/s130x130/10896987_10152984659962365_3724778200154620441_n.jpg?_nc_cat=0&oh=fd7a962daeb904d241ee37331106f2ec&oe=5C01D2FC'></a></div>
+</section>
+  </div>
+      </aside>  <!-- /#sidebar-second -->
+    
+  </div>
+</div>
+<footer class="footer container">
+  </footer>
+
+<div class="footer-alt">
+ </div>
+  <script src="https://wawl.org/sites/all/modules/contrib/flexslider/assets/js/flexslider.load.js?p81yce"></script>
+<script src="https://wawl.org/sites/all/themes/contrib/bootstrap/js/bootstrap.js?p81yce"></script>
+    </div>
+</body>
+</html>

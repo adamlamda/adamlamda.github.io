@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<meta charset="UTF-8"/>
+<title>RationalWiki</title>
+<script>document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Main_Page","wgTitle":"Main Page","wgCurRevisionId":1875187,"wgRevisionId":1875187,"wgArticleId":98827,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":[],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Main_Page","wgRelevantArticleId":98827,"wgRequestId":"f9979055b649328be50d5b6a","wgIsProbablyEditable":false,"wgRestrictionEdit":["moderator"],"wgRestrictionMove":["moderator"],"wgIsMainPage":true,"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"preview":false,"publish":false}});mw.loader.implement("user.options",function($,jQuery,require,module){mw.user.options.set({"variant":"en"});});mw.loader.implement("user.tokens",function ( $, jQuery, require, module ) {
+mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});/*@nomin*/;
+
+});mw.loader.load(["mediawiki.page.startup","skins.vector.js"]);});</script>
+<link rel="stylesheet" href="https://rationalwiki.org/w/load.php?debug=false&amp;lang=en&amp;modules=ext.gadget.ReferenceTooltips%7Cmediawiki.legacy.commonPrint%2Cshared%7Cmediawiki.sectionAnchor%7Cmediawiki.skinning.interface%7Cskins.vector.styles&amp;only=styles&amp;skin=vector"/>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="https://rationalwiki.org/w/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=styles&amp;skin=vector"/>
+<script async="" src="https://rationalwiki.org/w/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector"></script>
+<meta name="generator" content="MediaWiki 1.27.7"/>
+<link rel="shortcut icon" href="https://rationalwiki.org/favicon.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="https://rationalwiki.org/w/opensearch_desc.php" title="RationalWiki (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="https://rationalwiki.org/w/api.php?action=rsd"/>
+<link rel="copyright" href="https://rationalwiki.org/wiki/RationalWiki:Copyrights"/>
+<link rel="alternate" type="application/atom+xml" title="RationalWiki Atom feed" href="https://rationalwiki.org/w/index.php?title=Special:RecentChanges&amp;feed=atom"/>
+<style type="text/css">/*<![CDATA[*/ .firstHeading, .subtitle, #siteSub, #contentSub, .pagetitle { display:none; } /*]]>*/</style>
+</head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-Main_Page rootpage-Main_Page skin-vector action-view">
+		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<div id="content" class="mw-body" role="main">
+			<a id="top"></a>
+
+							<div id="siteNotice"><div id="localNotice" lang="en" dir="ltr"><table class="messagebox mb-info" style="">
+<tr>
+<td class="mb-image"><a href="https://rationalwiki.org/wiki/File:Information_icon.svg" class="image"><img alt="Information icon.svg" src="https://rationalwiki.org/w/images/thumb/3/35/Information_icon.svg/50px-Information_icon.svg.png" width="50" height="50" srcset="https://rationalwiki.org/w/images/thumb/3/35/Information_icon.svg/75px-Information_icon.svg.png 1.5x, https://rationalwiki.org/w/images/thumb/3/35/Information_icon.svg/100px-Information_icon.svg.png 2x" /></a>
+</td>
+<td class="mb-text">The RationalWiki <b><a href="https://rationalwiki.org/wiki/RationalWiki:Community_Standards" title="RationalWiki:Community Standards">community standards</a></b> are under review, and voting on a proposed change has begun. Your comments and inputs are welcome on the <b><a href="https://rationalwiki.org/wiki/RationalWiki_talk:Community_Standards" title="RationalWiki talk:Community Standards">community standards talk page</a></b>
+</td></tr></table>
+</div></div>
+						<div class="mw-indicators">
+</div>
+			<h1 id="firstHeading" class="firstHeading" lang="en">Main Page</h1>
+									<div id="bodyContent" class="mw-body-content">
+									<div id="siteSub">From RationalWiki</div>
+								<div id="contentSub"></div>
+												<div id="jump-to-nav" class="mw-jump">
+					Jump to:					<a href="Main_Page#mw-head">navigation</a>, 					<a href="Main_Page#p-search">search</a>
+				</div>
+				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><table class="mp_header" style="width:100%;">
+<tr>
+<td class="mp_title"> Welcome to <a href="https://rationalwiki.org/wiki/RationalWiki" title="RationalWiki">RationalWiki</a>!<div class="mp_title_underline"></div>
+</td>
+<td class="mp_header_rightlinks" rowspan="2">
+</td></tr>
+</table>
+<table class="mp_content">
+<tr>
+<td class="mp_left mp_box" rowspan="2"> <div class="mp_left_border mp_gradient_border">
+<table class="mp_left_inside mp_box_inside" cellpadding="2" cellspacing="5">
+<tr>
+<th class="mp_about_header mp_section_header"> About RationalWiki
+</th></tr>
+<tr>
+<td>
+<p>Our purpose here at <a href="https://rationalwiki.org/wiki/RationalWiki" title="RationalWiki">RationalWiki</a> includes:
+</p>
+<ol><li>Analyzing and refuting <a href="Pseudoscience" title="Pseudoscience">pseudoscience</a> and the <a href="https://rationalwiki.org/wiki/Anti-science" title="Anti-science" class="mw-redirect">anti-science</a> movement;</li>
+<li>Documenting the full range of <a href="Crank" title="Crank">crank</a> ideas;</li>
+<li>Explorations of <a href="https://rationalwiki.org/wiki/Authoritarianism" title="Authoritarianism">authoritarianism</a> and <a href="https://rationalwiki.org/wiki/Fundamentalism" title="Fundamentalism">fundamentalism</a>;</li>
+<li>Analysis and criticism of how these subjects are handled in the <a href="https://rationalwiki.org/wiki/Media" title="Media">media</a>.</li></ol>
+<p>We welcome contributors, and encourage those who disagree with us to <a href="https://rationalwiki.org/wiki/Special:UserLogin" title="Special:UserLogin">register</a> and engage in <a href="https://rationalwiki.org/wiki/RationalWiki:Constructive_dialogue" title="RationalWiki:Constructive dialogue">constructive dialogue</a>.
+</p><p>We have 7,313 articles for your enjoyment.
+</p>
+</td></tr>
+<tr>
+<th class="mp_cover_header mp_section_header"> Random featured article<sup><small><b>[</b><a href="https://rationalwiki.org/wiki/Help:Cover_stories" title="Help:Cover stories">What&#160;is&#160;this?</a><b>]</b></small></sup>
+</th></tr>
+<tr>
+<td><div style="font-size:larger"><i><b><a href="https://rationalwiki.org/wiki/Expelled:_Leader%27s_Guide" title="Expelled: Leader's Guide">Expelled: Leader's Guide</a></b></i></div>
+<div class="floatright"><a href="https://rationalwiki.org/wiki/File:Expelledpropaganda.jpg" class="image" title="Advertising."><img alt="Advertising." src="https://rationalwiki.org/w/images/thumb/6/60/Expelledpropaganda.jpg/120px-Expelledpropaganda.jpg" width="120" height="121" srcset="https://rationalwiki.org/w/images/thumb/6/60/Expelledpropaganda.jpg/180px-Expelledpropaganda.jpg 1.5x, https://rationalwiki.org/w/images/thumb/6/60/Expelledpropaganda.jpg/240px-Expelledpropaganda.jpg 2x" /></a></div>
+<p>The producers of the "documentary" feature film <i><a href="https://rationalwiki.org/wiki/Expelled:_No_Intelligence_Allowed" title="Expelled: No Intelligence Allowed">Expelled: No Intelligence Allowed</a></i> (featuring <a href="https://rationalwiki.org/wiki/Ben_Stein" title="Ben Stein">Ben Stein</a>) created a <i>Leader's Guide</i>, intended to structure debate on the topics raised by the movie. The guide is intended for "leaders" (whoever they might be) to steer the discussion along the movie's <a href="https://rationalwiki.org/wiki/Talking_point" title="Talking point" class="mw-redirect">talking points</a> - that the <a href="https://rationalwiki.org/wiki/Theory_of_evolution" title="Theory of evolution">theory of evolution</a> is being questioned, that the people questioning the "<a href="https://rationalwiki.org/wiki/Darwinist" title="Darwinist" class="mw-redirect">Darwinian</a> orthodoxy" are being <a href="Persecution_complex" title="Persecution complex">singled out and punished</a>, and that teaching evolution <a href="https://rationalwiki.org/wiki/Slippery_slope" title="Slippery slope">leads</a> to <a href="https://rationalwiki.org/wiki/Abortion" title="Abortion">abortion</a>, <a href="https://rationalwiki.org/wiki/Godwin%27s_Law" title="Godwin's Law" class="mw-redirect">eugenics and genocide</a>.
+</p><p>This article is a point-by-point critique of the <i>Leader's Guide</i> and ultimately of the message of <i>Expelled</i>.
+</p>
+</td></tr>
+<tr>
+<th class="mp_contents_header mp_section_header"> Participate in RationalWiki
+</th></tr>
+<tr>
+<td><div style="float:right;"><a href="https://twitter.com/rationalwiki" rel="nofollow"><img alt="Twitter logo.png" src="https://rationalwiki.org/w/images/thumb/1/1a/Twitter_logo.png/100px-Twitter_logo.png" width="100" height="19" srcset="https://rationalwiki.org/w/images/thumb/1/1a/Twitter_logo.png/150px-Twitter_logo.png 1.5x, https://rationalwiki.org/w/images/thumb/1/1a/Twitter_logo.png/200px-Twitter_logo.png 2x" /></a><br /><a href="https://www.facebook.com/pages/Rationalwiki/226614404019306" rel="nofollow"><img alt="Facebook logo.png" src="https://rationalwiki.org/w/images/thumb/0/07/Facebook_logo.png/100px-Facebook_logo.png" width="100" height="38" srcset="https://rationalwiki.org/w/images/thumb/0/07/Facebook_logo.png/150px-Facebook_logo.png 1.5x, https://rationalwiki.org/w/images/thumb/0/07/Facebook_logo.png/200px-Facebook_logo.png 2x" /></a><br /><a href="https://discordapp.com/invite/qaRBu98" rel="nofollow"><img alt="Discord logo.png" src="https://rationalwiki.org/w/images/thumb/d/d0/Discord_logo.png/100px-Discord_logo.png" width="100" height="28" srcset="https://rationalwiki.org/w/images/thumb/d/d0/Discord_logo.png/150px-Discord_logo.png 1.5x, https://rationalwiki.org/w/images/thumb/d/d0/Discord_logo.png/200px-Discord_logo.png 2x" /></a><br /></div>
+<p>We welcome contributors, and encourage those who disagree with us to <b><a href="https://rationalwiki.org/wiki/Special:UserLogin/signup" title="Special:UserLogin/signup">register</a></b> and engage in <a href="https://rationalwiki.org/wiki/RationalWiki:Constructive_dialogue" title="RationalWiki:Constructive dialogue">constructive dialogue</a>.
+</p>
+<dl><dt><a href="https://rationalwiki.org/wiki/Category:RationalWiki" title="Category:RationalWiki">RationalWiki portal:</a></dt>
+<dd>Share <b><a href="https://rationalwiki.org/wiki/RationalWiki:How_I_found_RationalWiki" title="RationalWiki:How I found RationalWiki">how you found RationalWiki</a></b>!</dd>
+<dd>For news that caught our interest, see <b><a href="https://rationalwiki.org/wiki/RationalWiki:What_is_going_on_in_the_world%3F" title="RationalWiki:What is going on in the world?">What is going on in the world</a></b>.</dd>
+<dd>For general chatter, the <b><a href="https://rationalwiki.org/wiki/RationalWiki:Saloon_bar" title="RationalWiki:Saloon bar">Saloon Bar</a></b> is the place to go.</dd></dl>
+<dl><dt><a href="https://rationalwiki.org/wiki/Category:Essays" title="Category:Essays">Essay portal:</a></dt>
+<dd>Essays written by individual users covering a wide range of subjects. Comment on the talk pages or write your own.</dd></dl>
+<dl><dt><a href="https://rationalwiki.org/wiki/Category:Debates" title="Category:Debates">Debate portal:</a></dt>
+<dd>Informal debates covering political and philosophical issues. Participate freely or start your own.</dd></dl>
+<dl><dt>Writing articles</dt>
+<dd></dd>
+<dd>Read up on <a href="https://rationalwiki.org/wiki/RationalWiki:What_is_a_RationalWiki_article%3F" title="RationalWiki:What is a RationalWiki article?"><b>what a RationalWiki page is</b></a> and our <a href="https://rationalwiki.org/wiki/RationalWiki:Community_Standards" title="RationalWiki:Community Standards"><b>community standards</b></a>. Take a look at the <a href="https://rationalwiki.org/wiki/RationalWiki:Help" title="RationalWiki:Help" class="mw-redirect"><b>help pages</b></a> if you're having trouble.</dd>
+<dd>We also keep a list of <a href="https://rationalwiki.org/wiki/Category:RationalWiki_links" title="Category:RationalWiki links"><b>useful links</b></a>.</dd>
+<dd>Our <b><a href="https://rationalwiki.org/wiki/RationalWiki:To_do_list" title="RationalWiki:To do list">to do list</a></b> is where we pile up ideas for articles. See if anything piques your interest!</dd></dl>
+</td></tr>
+</table></div>
+</td>
+<td class="mp_wigo mp_box"> <div class="mp_wigo_border mp_gradient_border">
+<table class="mp_wigo_inside mp_box_inside" cellpadding="2" cellspacing="5">
+<tr>
+<th class="mp_wigo_header mp_section_header"> Featured Content
+</th></tr>
+<tr>
+<td> <div style="margin-top:1em; margin-bottom:2em;">Need to know <a href="https://rationalwiki.org/wiki/WIGO" title="WIGO"><b>What Is Going On?</b></a>   We present regularly updated selections of the finest lunacy the Internet has to offer.    Participate in the dialogue.
+<p><b>What is going on...</b><br />
+</p>
+<table>
+<tr>
+<td><div class="floatleft"><a href="https://rationalwiki.org/wiki/RationalWiki:What_is_going_on_in_the_world%3F" title="noframe"><img alt="noframe" src="https://rationalwiki.org/w/images/thumb/5/5e/Icon_wigo_world_alt_tilted.svg/50px-Icon_wigo_world_alt_tilted.svg.png" width="50" height="50" srcset="https://rationalwiki.org/w/images/thumb/5/5e/Icon_wigo_world_alt_tilted.svg/75px-Icon_wigo_world_alt_tilted.svg.png 1.5x, https://rationalwiki.org/w/images/thumb/5/5e/Icon_wigo_world_alt_tilted.svg/100px-Icon_wigo_world_alt_tilted.svg.png 2x" /></a></div></td>
+<td><b><a href="https://rationalwiki.org/wiki/RationalWiki:What_is_going_on_in_the_world%3F" title="RationalWiki:What is going on in the world?">. . . in the "world"?</a></b><sup>(<a href="https://rationalwiki.org/wiki/RationalWiki_talk:What_is_going_on_in_the_world%3F" title="RationalWiki talk:What is going on in the world?">talk</a>)</sup> Actual news from the "real world."
+</td></tr>
+<tr>
+<td><div class="floatleft"><a href="https://rationalwiki.org/wiki/RationalWiki:What_is_going_on_in_the_blogosphere%3F" title="noframe"><img alt="noframe" src="https://rationalwiki.org/w/images/thumb/b/b8/Wigoblog.svg/50px-Wigoblog.svg.png" width="50" height="50" srcset="https://rationalwiki.org/w/images/thumb/b/b8/Wigoblog.svg/75px-Wigoblog.svg.png 1.5x, https://rationalwiki.org/w/images/thumb/b/b8/Wigoblog.svg/100px-Wigoblog.svg.png 2x" /></a></div></td>
+<td><b><a href="https://rationalwiki.org/wiki/RationalWiki:What_is_going_on_in_the_blogosphere%3F" title="RationalWiki:What is going on in the blogosphere?">. . . in the Blogosphere?</a></b><sup>(<a href="https://rationalwiki.org/wiki/RationalWiki_talk:What_is_going_on_in_the_blogosphere%3F" title="RationalWiki talk:What is going on in the blogosphere?">talk</a>)</sup> Quality articles by bloggers, submitted by the RW community.
+</td></tr>
+<tr>
+<td><div class="floatleft"><a href="https://rationalwiki.org/wiki/RationalWiki:What_is_going_on_in_the_clogosphere%3F" title="noframe"><img alt="noframe" src="https://rationalwiki.org/w/images/thumb/9/95/Wigoclog.svg/50px-Wigoclog.svg.png" width="50" height="50" srcset="https://rationalwiki.org/w/images/thumb/9/95/Wigoclog.svg/75px-Wigoclog.svg.png 1.5x, https://rationalwiki.org/w/images/thumb/9/95/Wigoclog.svg/100px-Wigoclog.svg.png 2x" /></a></div></td>
+<td><b><a href="https://rationalwiki.org/wiki/RationalWiki:What_is_going_on_in_the_clogosphere%3F" title="RationalWiki:What is going on in the clogosphere?">. . . in the Clogosphere?</a></b><sup>(<a href="https://rationalwiki.org/wiki/RationalWiki_talk:What_is_going_on_in_the_clogosphere%3F" title="RationalWiki talk:What is going on in the clogosphere?">talk</a>)</sup> Crazy articles from the clogged-up fringes of the Internet.
+</td></tr>
+<tr>
+<td><div class="floatleft"><a href="https://rationalwiki.org/wiki/RationalWiki:What_is_going_on_with_the_coronavirus%3F" title="noframe"><img alt="noframe" src="https://rationalwiki.org/w/images/thumb/3/39/Covid-19_Icon.svg/50px-Covid-19_Icon.svg.png" width="50" height="50" srcset="https://rationalwiki.org/w/images/thumb/3/39/Covid-19_Icon.svg/75px-Covid-19_Icon.svg.png 1.5x, https://rationalwiki.org/w/images/thumb/3/39/Covid-19_Icon.svg/100px-Covid-19_Icon.svg.png 2x" /></a></div></td>
+<td><b><a href="https://rationalwiki.org/wiki/RationalWiki:What_is_going_on_with_the_coronavirus%3F" title="RationalWiki:What is going on with the coronavirus?">. . . with the coronavirus?</a></b><sup>(<a href="https://rationalwiki.org/wiki/RationalWiki_talk:What_is_going_on_with_the_coronavirus%3F" title="RationalWiki talk:What is going on with the coronavirus?">*cough*</a>)</sup> Keep up to date with all the lies, propaganda, mass hysteria and government incompetence related to the <a href="https://rationalwiki.org/wiki/2019-20_COVID-19_outbreak" title="2019-20 COVID-19 outbreak">Coronavirus pandemic</a>.
+</td></tr>
+<tr>
+<td><div class="floatleft"><a href="https://rationalwiki.org/wiki/RationalWiki:Saloon_bar" title="noframe"><img alt="noframe" src="https://rationalwiki.org/w/images/thumb/f/f0/Wigobar.svg/50px-Wigobar.svg.png" width="50" height="50" srcset="https://rationalwiki.org/w/images/thumb/f/f0/Wigobar.svg/75px-Wigobar.svg.png 1.5x, https://rationalwiki.org/w/images/thumb/f/f0/Wigobar.svg/100px-Wigobar.svg.png 2x" /></a></div></td>
+<td><b><a href="https://rationalwiki.org/wiki/RationalWiki:Saloon_bar" title="RationalWiki:Saloon bar">. . . at RationalWiki?</a></b><sup>(<a href="https://rationalwiki.org/wiki/RationalWiki_talk:Saloon_bar" title="RationalWiki talk:Saloon bar">hic</a>)</sup> Our own main back-page.
+</td></tr></table>
+<hr />
+<p><b>Portals and Articles</b><sup><small>[<b><a href="https://rationalwiki.org/wiki/RationalWiki:Contents" title="RationalWiki:Contents">See all portals</a></b>]</small></sup>
+</p>
+<table cellpadding="2">
+<tr>
+<td><div class="floatleft"><a href="https://rationalwiki.org/wiki/Category:Creationism" title="noframe"><img alt="noframe" src="https://rationalwiki.org/w/images/thumb/a/a8/Icon_creationism.svg/50px-Icon_creationism.svg.png" width="50" height="50" srcset="https://rationalwiki.org/w/images/thumb/a/a8/Icon_creationism.svg/75px-Icon_creationism.svg.png 1.5x, https://rationalwiki.org/w/images/thumb/a/a8/Icon_creationism.svg/100px-Icon_creationism.svg.png 2x" /></a></div> </td>
+<td> <b><a href="https://rationalwiki.org/wiki/Category:Creationism" title="Category:Creationism">Creationism portal</a></b> • <a href="https://rationalwiki.org/wiki/Creationism" title="Creationism">Creationism</a> • <a href="https://rationalwiki.org/wiki/Answers_in_Genesis" title="Answers in Genesis">Answers in Genesis</a> • <a href="https://rationalwiki.org/wiki/Creation_Museum" title="Creation Museum">Creation Museum</a> • <a href="https://rationalwiki.org/wiki/Creation_science" title="Creation science">Creation science</a> • <a href="https://rationalwiki.org/wiki/Banana_fallacy" title="Banana fallacy" class="mw-redirect">Banana fallacy</a> • <a href="https://rationalwiki.org/wiki/Baraminology" title="Baraminology">Baraminology</a> • <a href="https://rationalwiki.org/wiki/C-decay" title="C-decay">C-decay</a> • <a href="https://rationalwiki.org/wiki/Complex_specified_information" title="Complex specified information" class="mw-redirect">Complex specified information</a> • <a href="https://rationalwiki.org/wiki/Discovery_Institute" title="Discovery Institute">Discovery Institute</a> • <a href="https://rationalwiki.org/wiki/Evidence_against_a_recent_creation" title="Evidence against a recent creation">Evidence against a recent creation</a> • <a href="https://rationalwiki.org/wiki/Falldidit" title="Falldidit" class="mw-redirect">Falldidit</a> • <a href="https://rationalwiki.org/wiki/Horizon_problem" title="Horizon problem">Horizon problem</a> • <a href="https://rationalwiki.org/wiki/Intelligent_Design" title="Intelligent Design" class="mw-redirect">Intelligent Design</a> • <a href="https://rationalwiki.org/wiki/Young_earth_creationism" title="Young earth creationism" class="mw-redirect">Young earth creationism</a>
+</td></tr>
+<tr>
+<td> <div class="floatleft"><a href="https://rationalwiki.org/wiki/Category:Global_warming" title="noframe"><img alt="noframe" src="https://rationalwiki.org/w/images/thumb/c/c4/Icon_global_warming_alt.svg/50px-Icon_global_warming_alt.svg.png" width="50" height="50" srcset="https://rationalwiki.org/w/images/thumb/c/c4/Icon_global_warming_alt.svg/75px-Icon_global_warming_alt.svg.png 1.5x, https://rationalwiki.org/w/images/thumb/c/c4/Icon_global_warming_alt.svg/100px-Icon_global_warming_alt.svg.png 2x" /></a></div> </td>
+<td> <b><a href="https://rationalwiki.org/wiki/Category:Global_warming" title="Category:Global warming">Global warming portal</a></b> • <a href="https://rationalwiki.org/wiki/Global_warming_denialism" title="Global warming denialism" class="mw-redirect">Global warming denialism</a> • <a href="https://rationalwiki.org/wiki/Climategate" title="Climategate">Climategate</a> • <a href="https://rationalwiki.org/wiki/Denialgate" title="Denialgate">Denialgate</a> • <a href="https://rationalwiki.org/wiki/Effects_of_global_warming" title="Effects of global warming" class="mw-redirect">Effects of global warming</a> • <a href="https://rationalwiki.org/wiki/James_Inhofe" title="James Inhofe" class="mw-redirect">James Inhofe</a> • <a href="https://rationalwiki.org/wiki/Global_warming" title="Global warming">Global warming</a> • <a href="https://rationalwiki.org/wiki/Global_warming_conspiracy_theory" title="Global warming conspiracy theory" class="mw-redirect">Global warming conspiracy theory</a> • <a href="https://rationalwiki.org/wiki/Oregon_Petition" title="Oregon Petition">Oregon Petition</a> • <a href="https://rationalwiki.org/wiki/Anthony_Watts" title="Anthony Watts">Anthony Watts</a>
+</td></tr>
+<tr>
+<td> <div class="floatleft"><a href="https://rationalwiki.org/wiki/Category:Alternative_medicine" title="noframe"><img alt="noframe" src="https://rationalwiki.org/w/images/thumb/2/2e/Icon_alt_med_alt.svg/50px-Icon_alt_med_alt.svg.png" width="50" height="50" srcset="https://rationalwiki.org/w/images/thumb/2/2e/Icon_alt_med_alt.svg/75px-Icon_alt_med_alt.svg.png 1.5x, https://rationalwiki.org/w/images/thumb/2/2e/Icon_alt_med_alt.svg/100px-Icon_alt_med_alt.svg.png 2x" /></a></div> </td>
+<td> <b><a href="https://rationalwiki.org/wiki/Category:Alternative_medicine" title="Category:Alternative medicine">Alternative medicine portal</a></b> • <a href="https://rationalwiki.org/wiki/Alternative_medicine" title="Alternative medicine">Alternative medicine</a> • <a href="https://rationalwiki.org/wiki/Acupuncture" title="Acupuncture">Acupuncture</a> • <a href="https://rationalwiki.org/wiki/Autism_and_pseudoscience" title="Autism and pseudoscience" class="mw-redirect">Autism and pseudoscience</a> • <a href="https://rationalwiki.org/wiki/Bloodletting" title="Bloodletting">Bloodletting</a> • <a href="https://rationalwiki.org/wiki/CAM" title="CAM" class="mw-redirect">CAM</a> • <a href="https://rationalwiki.org/wiki/Chelation_therapy" title="Chelation therapy">Chelation therapy</a> • <a href="https://rationalwiki.org/wiki/Chiropractic" title="Chiropractic">Chiropractic</a> • <a href="https://rationalwiki.org/wiki/Crystal_healing" title="Crystal healing">Crystal healing</a> • <a href="https://rationalwiki.org/wiki/Evidence_for_homeopathy" title="Evidence for homeopathy" class="mw-redirect">Evidence for homeopathy</a> • <a href="https://rationalwiki.org/wiki/Faith_healing" title="Faith healing">Faith healing</a> • <a href="https://rationalwiki.org/wiki/Folk_remedy" title="Folk remedy">Folk remedy</a> • <a href="https://rationalwiki.org/wiki/Herbal_supplement" title="Herbal supplement">Herbal supplement</a> • <a href="https://rationalwiki.org/wiki/Homeopathy" title="Homeopathy">Homeopathy</a> • <a href="https://rationalwiki.org/wiki/Massage" title="Massage">Massage</a> • <a href="https://rationalwiki.org/wiki/Raw_foodism" title="Raw foodism">Raw foodism</a> • <a href="https://rationalwiki.org/wiki/Vaccine_denialism" title="Vaccine denialism" class="mw-redirect">Vaccine denialism</a>
+</td></tr>
+<tr>
+<td> <div class="floatleft"><a href="./Category:Conspiracy_theories" title="noframe"><img alt="noframe" src="https://rationalwiki.org/w/images/thumb/5/58/Icon_conspiracy.svg/50px-Icon_conspiracy.svg.png" width="50" height="50" srcset="https://rationalwiki.org/w/images/thumb/5/58/Icon_conspiracy.svg/75px-Icon_conspiracy.svg.png 1.5x, https://rationalwiki.org/w/images/thumb/5/58/Icon_conspiracy.svg/100px-Icon_conspiracy.svg.png 2x" /></a></div> </td>
+<td> <b><a href="./Category:Conspiracy_theories" title="Category:Conspiracy theories">Conspiracy theories portal</a></b> • <a href="Conspiracy_theory" title="Conspiracy theory">Conspiracy theories</a> • <a href="https://rationalwiki.org/wiki/9/11_conspiracy_theories" title="9/11 conspiracy theories" class="mw-redirect">9/11 conspiracy theories</a> • <a href="https://rationalwiki.org/wiki/Alex_Jones" title="Alex Jones">Alex Jones</a> • <a href="https://rationalwiki.org/wiki/Bermuda_Triangle" title="Bermuda Triangle">Bermuda Triangle</a> • <a href="https://rationalwiki.org/wiki/Chemtrails" title="Chemtrails">Chemtrails</a> • <a href="https://rationalwiki.org/wiki/Clinton_body_count" title="Clinton body count">Clinton body count</a> • <a href="https://rationalwiki.org/wiki/Cultural_Marxism" title="Cultural Marxism">Cultural Marxism</a> • <a href="https://rationalwiki.org/wiki/Freemason" title="Freemason">Freemason</a> • <a href="https://rationalwiki.org/wiki/Illuminati" title="Illuminati">Illuminati</a> • <a href="https://rationalwiki.org/wiki/International_Jewish_conspiracy" title="International Jewish conspiracy">International Jewish conspiracy</a> • <a href="https://rationalwiki.org/wiki/Monsanto" title="Monsanto">Monsanto</a> • <a href="https://rationalwiki.org/wiki/Moon_landing_hoax" title="Moon landing hoax">Moon landing hoax</a> • <a href="https://rationalwiki.org/wiki/New_World_Order" title="New World Order">New World Order</a> • <a href="https://rationalwiki.org/wiki/Pizzagate" title="Pizzagate">Pizzagate</a> • <a href="https://rationalwiki.org/wiki/Project_Blue_Beam" title="Project Blue Beam">Project Blue Beam</a> • <a href="https://rationalwiki.org/wiki/QAnon" title="QAnon">QAnon</a> • <a href="https://rationalwiki.org/wiki/War_on_Christmas" title="War on Christmas">War on Christmas</a> • <a href="https://rationalwiki.org/wiki/White_genocide" title="White genocide">White genocide</a>
+</td></tr>
+<tr>
+<td> <div class="floatleft"><a href="https://rationalwiki.org/wiki/Category:Ufology" title="noframe"><img alt="noframe" src="https://rationalwiki.org/w/images/thumb/c/cc/Icon_ufology_alt.svg/50px-Icon_ufology_alt.svg.png" width="50" height="50" srcset="https://rationalwiki.org/w/images/thumb/c/cc/Icon_ufology_alt.svg/75px-Icon_ufology_alt.svg.png 1.5x, https://rationalwiki.org/w/images/thumb/c/cc/Icon_ufology_alt.svg/100px-Icon_ufology_alt.svg.png 2x" /></a></div> </td>
+<td> <b><a href="https://rationalwiki.org/wiki/Category:Ufology" title="Category:Ufology">Ufology portal</a></b> • <a href="https://rationalwiki.org/wiki/Ufology" title="Ufology">Ufology</a> • <a href="https://rationalwiki.org/wiki/Aliensdidit" title="Aliensdidit" class="mw-redirect">Aliensdidit</a> • <a href="https://rationalwiki.org/wiki/Area_51" title="Area 51">Area 51</a> • <a href="https://rationalwiki.org/wiki/Crop_circles" title="Crop circles">Crop circles</a> • <a href="https://rationalwiki.org/wiki/Extraterrestrial" title="Extraterrestrial">Extraterrestrial</a> • <a href="https://rationalwiki.org/wiki/Ra%C3%ABlism" title="Raëlism">Raëlism</a> • <a href="https://rationalwiki.org/wiki/Unidentified_flying_object" title="Unidentified flying object">Unidentified flying object</a> • <a href="https://rationalwiki.org/wiki/Unidentified_submerged_object" title="Unidentified submerged object" class="mw-redirect">Unidentified submerged object</a>
+</td></tr>
+<tr>
+<td> <div class="floatleft"><a href="https://rationalwiki.org/wiki/Category:Paranormal" title="noframe"><img alt="noframe" src="https://rationalwiki.org/w/images/thumb/5/56/Icon_ghost.svg/50px-Icon_ghost.svg.png" width="50" height="50" srcset="https://rationalwiki.org/w/images/thumb/5/56/Icon_ghost.svg/75px-Icon_ghost.svg.png 1.5x, https://rationalwiki.org/w/images/thumb/5/56/Icon_ghost.svg/100px-Icon_ghost.svg.png 2x" /></a></div> </td>
+<td> <b><a href="https://rationalwiki.org/wiki/Category:Paranormal" title="Category:Paranormal">Paranormal portal</a></b> • <a href="https://rationalwiki.org/wiki/Paranormal" title="Paranormal">Paranormal</a> • <a href="https://rationalwiki.org/wiki/Bigfoot" title="Bigfoot">Bigfoot</a> • <a href="https://rationalwiki.org/wiki/Coast_to_Coast_AM" title="Coast to Coast AM">Coast to Coast AM</a> • <a href="https://rationalwiki.org/wiki/Demonic_possession" title="Demonic possession">Demonic possession</a> • <a href="https://rationalwiki.org/wiki/Exorcism" title="Exorcism">Exorcism</a> • <a href="https://rationalwiki.org/wiki/Fortune-telling" title="Fortune-telling">Fortune-telling</a> • <a href="https://rationalwiki.org/wiki/Ghost" title="Ghost">Ghost</a> • <a href="https://rationalwiki.org/wiki/Magic" title="Magic">Magic</a> • <a href="https://rationalwiki.org/wiki/Near-death_experience" title="Near-death experience">Near-death experience</a> • <a href="https://rationalwiki.org/wiki/Ouija_board" title="Ouija board">Ouija board</a> • <a href="https://rationalwiki.org/wiki/Poltergeist" title="Poltergeist">Poltergeist</a> • <a href="https://rationalwiki.org/wiki/S%C3%A9ance" title="Séance">Séance</a> • <a href="https://rationalwiki.org/wiki/Vampire" title="Vampire">Vampire</a>
+</td></tr>
+<tr>
+<td> <div class="floatleft"><a href="https://rationalwiki.org/wiki/Category:Denialism" title="noframe"><img alt="noframe" src="https://rationalwiki.org/w/images/thumb/c/ca/Icon_denialism.svg/50px-Icon_denialism.svg.png" width="50" height="50" srcset="https://rationalwiki.org/w/images/thumb/c/ca/Icon_denialism.svg/75px-Icon_denialism.svg.png 1.5x, https://rationalwiki.org/w/images/thumb/c/ca/Icon_denialism.svg/100px-Icon_denialism.svg.png 2x" /></a></div> </td>
+<td> <b><a href="https://rationalwiki.org/wiki/Category:Denialism" title="Category:Denialism">Denialism portal</a></b> • <a href="https://rationalwiki.org/wiki/Denialism" title="Denialism">Denialism</a> • <a href="https://rationalwiki.org/wiki/Armenian_Genocide_denial" title="Armenian Genocide denial">Armenian Genocide denial</a> • <a href="https://rationalwiki.org/wiki/A_comparative_guide_to_science_denial" title="A comparative guide to science denial">A comparative guide to science denial</a> • <a href="https://rationalwiki.org/wiki/Germ_theory_denialism" title="Germ theory denialism">Germ theory denialism</a> • <a href="https://rationalwiki.org/wiki/HIV_denial" title="HIV denial" class="mw-redirect">HIV denial</a> • <a href="https://rationalwiki.org/wiki/Holocaust_denial" title="Holocaust denial">Holocaust denial</a> • <a href="https://rationalwiki.org/wiki/Obama_citizenship_denial" title="Obama citizenship denial">Obama citizenship denial</a> • <a href="https://rationalwiki.org/wiki/Sound_science" title="Sound science">Sound science</a>
+</td></tr>
+<tr>
+<td><div class="floatleft"><a href="https://rationalwiki.org/wiki/Category:Logic" title="noframe"><img alt="noframe" src="https://rationalwiki.org/w/images/thumb/3/3f/Icon_logic_alt.svg/50px-Icon_logic_alt.svg.png" width="50" height="50" srcset="https://rationalwiki.org/w/images/thumb/3/3f/Icon_logic_alt.svg/75px-Icon_logic_alt.svg.png 1.5x, https://rationalwiki.org/w/images/thumb/3/3f/Icon_logic_alt.svg/100px-Icon_logic_alt.svg.png 2x" /></a></div> </td>
+<td> <b><a href="https://rationalwiki.org/wiki/Category:Logic" title="Category:Logic">Logic portal</a></b> • <a href="https://rationalwiki.org/wiki/Logic" title="Logic">Logic</a> • <a href="https://rationalwiki.org/wiki/Rhetoric" title="Rhetoric">Rhetoric</a> • <a href="https://rationalwiki.org/wiki/Ad_hoc" title="Ad hoc">Ad hoc</a> • <a href="https://rationalwiki.org/wiki/Argument" title="Argument">Argument</a> • <a href="https://rationalwiki.org/wiki/Argument_by_assertion" title="Argument by assertion">Argument by assertion</a> • <a href="https://rationalwiki.org/wiki/Argumentum_ad_hominem" title="Argumentum ad hominem">Argumentum ad hominem</a> • <a href="https://rationalwiki.org/wiki/Cherry_picking" title="Cherry picking">Cherry picking</a> • <a href="https://rationalwiki.org/wiki/Heuristic" title="Heuristic">Heuristic</a> • <a href="https://rationalwiki.org/wiki/Logical_fallacy" title="Logical fallacy">Logical fallacy</a> • <a href="https://rationalwiki.org/wiki/Negative_proof" title="Negative proof" class="mw-redirect">Negative proof</a> • <a href="https://rationalwiki.org/wiki/No_True_Scotsman" title="No True Scotsman">No True Scotsman</a> • <a href="https://rationalwiki.org/wiki/Non_sequitur" title="Non sequitur">Non sequitur</a> • <a href="https://rationalwiki.org/wiki/Occam%27s_razor" title="Occam's razor">Occam's razor</a> • <a href="https://rationalwiki.org/wiki/Paradox" title="Paradox">Paradox</a> • <a href="https://rationalwiki.org/wiki/Open_mind" title="Open mind">Open mind</a> • <a href="https://rationalwiki.org/wiki/Poisoning_the_well" title="Poisoning the well">Poisoning the well</a> • <a href="https://rationalwiki.org/wiki/Post_hoc,_ergo_propter_hoc" title="Post hoc, ergo propter hoc">Post hoc, ergo propter hoc</a> • <a href="https://rationalwiki.org/wiki/Red_herring" title="Red herring">Red herring</a> • <a href="https://rationalwiki.org/wiki/Straw_man" title="Straw man">Straw man</a>
+</td></tr></table></div>
+</td></tr></table></div>
+</td></tr>
+</table>
+
+<!-- 
+NewPP limit report
+Parsed by apache4
+Cached time: 20200616120842
+Cache expiry: 3600
+Dynamic content: true
+CPU time usage: 0.052 seconds
+Real time usage: 0.123 seconds
+Preprocessor visited node count: 27/1000000
+Preprocessor generated node count: 128/1000000
+Post‐expand include size: 8874/2097152 bytes
+Template argument size: 0/2097152 bytes
+Highest expansion depth: 4/40
+Expensive parser function count: 0/100
+-->
+
+<!-- 
+Transclusion expansion time report (%,ms,calls,template)
+100.00%   42.641      1 - -total
+ 67.55%   28.803      1 - Template:Coverstory
+ 41.45%   17.674      1 - Template:Cover_abstract/Expelled:_Leader's_Guide
+ 20.10%    8.571      1 - Template:Nostub
+ 14.52%    6.190      1 - Template:RationalWiki_MainPage/About
+ 10.24%    4.368      1 - Template:MainPageRedesign
+  6.69%    2.853      1 - RationalWiki:Miscellanea
+  6.43%    2.741      1 - Template:Mission
+-->
+
+<!-- Saved in parser cache with key rationalwiki:pcache:idhash:98827-0!*!0!*!*!5!* and timestamp 20200616120841 and revision id 1875187
+ -->
+</div>					<div class="printfooter">
+						Retrieved from "<a dir="ltr" href="https://rationalwiki.org/w/index.php?title=Main_Page&amp;oldid=1875187">https://rationalwiki.org/w/index.php?title=Main_Page&amp;oldid=1875187</a>"					</div>
+				<div id="catlinks" class="catlinks catlinks-allhidden" data-mw="interface"></div>				<div class="visualClear"></div>
+							</div>
+		</div>
+		<div id="mw-navigation">
+			<h2>Navigation menu</h2>
+
+			<div id="mw-head">
+									<div id="p-personal" role="navigation" class="" aria-labelledby="p-personal-label">
+						<h3 id="p-personal-label">Personal tools</h3>
+						<ul>
+							<li id="pt-anonuserpage">Not logged in</li><li id="pt-anontalk"><a href="https://rationalwiki.org/wiki/Special:MyTalk" title="Discussion about edits from this IP address [n]" accesskey="n">Talk</a></li><li id="pt-anoncontribs"><a href="https://rationalwiki.org/wiki/Special:MyContributions" title="A list of edits made from this IP address [y]" accesskey="y">Contributions</a></li><li id="pt-createaccount"><a href="https://rationalwiki.org/w/index.php?title=Special:CreateAccount&amp;returnto=Main+Page" title="You are encouraged to create an account and log in; however, it is not mandatory">Create account</a></li><li id="pt-login"><a href="https://rationalwiki.org/w/index.php?title=Special:UserLogin&amp;returnto=Main+Page" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o">Log in</a></li>						</ul>
+					</div>
+									<div id="left-navigation">
+										<div id="p-namespaces" role="navigation" class="vectorTabs" aria-labelledby="p-namespaces-label">
+						<h3 id="p-namespaces-label">Namespaces</h3>
+						<ul>
+															<li  id="ca-nstab-main" class="selected"><span><a href="Main_Page"  title="View the content page [c]" accesskey="c">Main page</a></span></li>
+															<li  id="ca-talk"><span><a href="https://rationalwiki.org/wiki/Talk:Main_Page"  title="Discussion about the content page [t]" accesskey="t" rel="discussion">Talk</a></span></li>
+													</ul>
+					</div>
+										<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-variants-label">
+												<h3 id="p-variants-label">
+							<span>Variants</span><a href="Main_Page#"></a>
+						</h3>
+
+						<div class="menu">
+							<ul>
+															</ul>
+						</div>
+					</div>
+									</div>
+				<div id="right-navigation">
+										<div id="p-views" role="navigation" class="vectorTabs" aria-labelledby="p-views-label">
+						<h3 id="p-views-label">Views</h3>
+						<ul>
+															<li id="ca-view" class="selected"><span><a href="Main_Page" >Read</a></span></li>
+															<li id="ca-viewsource"><span><a href="https://rationalwiki.org/w/index.php?title=Main_Page&amp;action=edit"  title="This page is protected.&#10;You can view its source [e]" accesskey="e">View source</a></span></li>
+															<li id="ca-history" class="collapsible"><span><a href="https://rationalwiki.org/w/index.php?title=Main_Page&amp;action=history"  title="Past revisions of this page [h]" accesskey="h">Fossil record</a></span></li>
+													</ul>
+					</div>
+										<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-cactions-label">
+						<h3 id="p-cactions-label"><span>More</span><a href="Main_Page#"></a></h3>
+
+						<div class="menu">
+							<ul>
+															</ul>
+						</div>
+					</div>
+										<div id="p-search" role="search">
+						<h3>
+							<label for="searchInput">Search</label>
+						</h3>
+
+						<form action="https://rationalwiki.org/w/index.php" id="searchform">
+							<div id="simpleSearch">
+							<input type="search" name="search" placeholder="Search" title="Search RationalWiki [f]" accesskey="f" id="searchInput"/><input type="hidden" value="Special:Search" name="title"/><input type="submit" name="fulltext" value="Search" title="Search the pages for this text" id="mw-searchButton" class="searchButton mw-fallbackSearchButton"/><input type="submit" name="go" value="Go" title="Go to a page with this exact name if it exists" id="searchButton" class="searchButton"/>							</div>
+						</form>
+					</div>
+									</div>
+			</div>
+			<div id="mw-panel">
+				<div id="p-logo" role="banner"><a class="mw-wiki-logo" href="Main_Page"  title="Visit the main page"></a></div>
+						<div class="portal" role="navigation" id='p-navigation' aria-labelledby='p-navigation-label'>
+			<h3 id='p-navigation-label'>Navigation</h3>
+
+			<div class="body">
+									<ul>
+						<li id="n-mainpage-description"><a href="Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li><li id="n-recentchanges"><a href="https://rationalwiki.org/wiki/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li><li id="n-randompage"><a href="https://rationalwiki.org/wiki/Special:Random" title="Load a random mainspace article [x]" accesskey="x">Random page</a></li><li id="n-New-pages"><a href="https://rationalwiki.org/wiki/Special:NewPages">New pages</a></li><li id="n-All-logs"><a href="https://rationalwiki.org/wiki/Special:Log">All logs</a></li><li id="n-help"><a href="https://rationalwiki.org/wiki/Help:Contents" title="RTFM">Help</a></li>					</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-support' aria-labelledby='p-support-label'>
+			<h3 id='p-support-label'>Support</h3>
+
+			<div class="body">
+									<ul>
+						<li id="n-Donate"><a href="https://rationalwiki.org/wiki/RationalWiki:Site_support">Donate</a></li>					</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-community' aria-labelledby='p-community-label'>
+			<h3 id='p-community-label'>Community</h3>
+
+			<div class="body">
+									<ul>
+						<li id="n-Saloon-bar"><a href="https://rationalwiki.org/wiki/RationalWiki:Saloon_bar">Saloon bar</a></li><li id="n-To-do-list"><a href="https://rationalwiki.org/wiki/RationalWiki:To_do_list">To do list</a></li><li id="n-What-is-going-on.3F"><a href="https://rationalwiki.org/wiki/WIGO">What is going on?</a></li><li id="n-Best-of-RationalWiki"><a href="https://rationalwiki.org/wiki/RationalWiki:Contents">Best of RationalWiki</a></li><li id="n-About-RationalWiki"><a href="https://rationalwiki.org/wiki/RationalWiki">About RationalWiki</a></li><li id="n-Technical-support"><a href="https://rationalwiki.org/wiki/RationalWiki:Technical_support">Technical support</a></li><li id="n-Mod-noticeboard"><a href="https://rationalwiki.org/wiki/RationalWiki_talk:All_things_in_moderation">Mod noticeboard</a></li>					</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-Social_media' aria-labelledby='p-Social_media-label'>
+			<h3 id='p-Social_media-label'>Social media</h3>
+
+			<div class="body">
+									<ul>
+						<li id="n-Twitter"><a href="https://twitter.com/RationalWiki" rel="nofollow">Twitter</a></li><li id="n-Facebook"><a href="https://www.facebook.com/pages/Rationalwiki/226614404019306" rel="nofollow">Facebook</a></li><li id="n-Discord"><a href="https://rationalwiki.org/wiki/RationalWiki:Discord">Discord</a></li><li id="n-Telegram"><a href="https://t.me/RationalWiki" rel="nofollow">Telegram</a></li><li id="n-Reddit"><a href="https://rationalwiki.org/wiki/RationalWiki:Reddit">Reddit</a></li>					</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-tb' aria-labelledby='p-tb-label'>
+			<h3 id='p-tb-label'>Tools</h3>
+
+			<div class="body">
+									<ul>
+						<li id="t-whatlinkshere"><a href="https://rationalwiki.org/wiki/Special:WhatLinksHere/Main_Page" title="A list of all wiki pages that link here [j]" accesskey="j">What links here</a></li><li id="t-recentchangeslinked"><a href="https://rationalwiki.org/wiki/Special:RecentChangesLinked/Main_Page" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li><li id="t-specialpages"><a href="https://rationalwiki.org/wiki/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li><li id="t-print"><a href="https://rationalwiki.org/w/index.php?title=Main_Page&amp;printable=yes" rel="alternate" title="Printable version of this page [p]" accesskey="p">Printable version</a></li><li id="t-permalink"><a href="https://rationalwiki.org/w/index.php?title=Main_Page&amp;oldid=1875187" title="Permanent link to this revision of the page">Permanent link</a></li><li id="t-info"><a href="https://rationalwiki.org/w/index.php?title=Main_Page&amp;action=info" title="More information about this page">Page information</a></li>					</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-lang' aria-labelledby='p-lang-label'>
+			<h3 id='p-lang-label'>In other languages</h3>
+
+			<div class="body">
+									<ul>
+						<li class="interlanguage-link interwiki-ru"><a href="http://ru.rationalwiki.org/wiki/%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0" title="Заглавная страница – русский" lang="ru" hreflang="ru">Русский</a></li>					</ul>
+							</div>
+		</div>
+				</div>
+		</div>
+		<div id="footer" role="contentinfo">
+							<ul id="footer-info">
+											<li id="footer-info-lastmod"> This page was last modified on 24 September 2017, at 14:07.</li>
+											<li id="footer-info-copyright">Unless explicitly noted otherwise, all content licensed as indicated by <a name="Copyright" href="https://rationalwiki.org/wiki/RationalWiki:Copyrights">RationalWiki:Copyrights</a>. <br> For concerns on copyright infringement please see: <a name="Copyright infringement" href="https://rationalwiki.org/wiki/RationalWiki:Copyright_violations">RationalWiki:Copyright violations</a></li>
+									</ul>
+							<ul id="footer-places">
+											<li id="footer-places-privacy"><a href="https://rationalwiki.org/wiki/RationalWiki:Privacy_policy" title="RationalWiki:Privacy policy">Privacy policy</a></li>
+											<li id="footer-places-about"><a href="https://rationalwiki.org/wiki/RationalWiki:About" title="RationalWiki:About">About RationalWiki</a></li>
+											<li id="footer-places-disclaimer"><a href="https://rationalwiki.org/wiki/RationalWiki:General_disclaimer" title="RationalWiki:General disclaimer">Disclaimers</a></li>
+									</ul>
+										<ul id="footer-icons" class="noprint">
+											<li id="footer-copyrightico">
+							<a href="https://creativecommons.org/licenses/by-sa/3.0/"><img src="https://rationalwiki.org/w/88x31.png" alt="CC-BY-SA 3.0, or any later version" width="88" height="31"/></a>						</li>
+											<li id="footer-poweredbyico">
+							<a href="https://www.mediawiki.org/"><img src="https://rationalwiki.org/w/resources/assets/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" srcset="https://rationalwiki.org/w/resources/assets/poweredby_mediawiki_132x47.png 1.5x, https://rationalwiki.org/w/resources/assets/poweredby_mediawiki_176x62.png 2x" width="88" height="31"/></a>						</li>
+									</ul>
+						<div style="clear:both"></div>
+		</div>
+		<script>(window.RLQ=window.RLQ||[]).push(function(){mw.loader.state({"user":"ready","user.groups":"ready"});mw.loader.load(["mediawiki.action.view.postEdit","site","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.searchSuggest","ext.gadget.ReferenceTooltips"]);});</script><script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":43,"wgHostname":"apache4"});});</script>
+	</body>
+</html>

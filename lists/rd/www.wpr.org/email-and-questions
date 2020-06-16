@@ -1,0 +1,741 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(){}function o(e,t,n){return function(){return i(e,[f.now()].concat(u(arguments)),t?null:this,n),t?void 0:this}}var i=e("handle"),a=e(2),u=e(3),c=e("ee").get("tracer"),f=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,t){s[t]=o(d+t,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),t.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,t){var n={},r=this,o="function"==typeof t;return i(l+"tracer",[f.now(),e,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],n),o)try{return t.apply(this,arguments)}catch(e){throw c.emit("fn-err",[arguments,this,e],n),e}finally{c.emit("fn-end",[f.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){m[t]=o(l+t)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,f.now()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(o<0?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],4:[function(e,t,n){t.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?c(e,u,i):i()}function n(n,r,o,i){if(!d.aborted||i){e&&e(n,r,o);for(var a=t(o),u=m(n),c=u.length,f=0;f<c;f++)u[f].apply(a,r);var p=s[y[n]];return p&&p.push([b,n,r,a]),a}}function l(e,t){v[e]=m(e).concat(t)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(n)}function g(e,t){f(e,function(e,n){t=t||"feature",y[n]=t,t in s||(s[t]=[])})}var v={},y={},b={on:l,emit:n,get:w,listeners:m,context:t,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",c=e("gos"),f=e(2),s={},p={},d=t.exports=o();d.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!x++){var e=h.info=NREUM.info,t=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return s.abort();f(y,function(t,n){e[t]||(e[t]=n)}),c("mark",["onload",a()+h.offset],null,"api");var n=d.createElement("script");n.src="https://"+e.agent,t.parentNode.insertBefore(n,t)}}function o(){"complete"===d.readyState&&i()}function i(){c("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),c=e("handle"),f=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,SI:p.setImmediate,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1071.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=t.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),c("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>  <!--[if IE]><![endif]-->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=4, minimum-scale=1, user-scalable=yes" />
+<link rel="shortcut icon" href="https://www.wpr.org/sites/default/files/favicon_0_0.ico" type="image/vnd.microsoft.icon" />
+<meta name="description" content="If you have a question or comment about something you heard on Wisconsin Public Radio, or you have a program suggestion, there are various ways to contact us." />
+<meta name="keywords" content="Wisconsin Public Radio, WPR, Wisconsin News, Wisconsin Politics, Wisconsin, Public Radio, Music, Classical Music, Entertainment, Arts, Culture, In-Depth News, Analysis, NPR in Wisconsin" />
+<meta name="generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="image_src" href="https://www.wpr.org/sites/default/files/images/logo/WPR-fb-1200x627.png" />
+<link rel="canonical" href="https://www.wpr.org/email-and-questions" />
+<link rel="shortlink" href="https://www.wpr.org/node/6872" />
+<meta property="og:site_name" content="Wisconsin Public Radio" />
+<meta property="og:type" content="non_profit" />
+<meta property="og:url" content="https://www.wpr.org/email-and-questions" />
+<meta property="og:title" content="Email and Questions" />
+<meta property="og:description" content="If you have a question or comment about something you heard on Wisconsin Public Radio, or you have a program suggestion, there are various ways to contact us." />
+<meta property="og:updated_time" content="2015-05-20T12:05:02-05:00" />
+<meta property="og:image" content="https://www.wpr.org/sites/default/files/images/logo/WPR-fb-1200x627.png" />
+<meta name="twitter:title" content="Email and Questions" />
+<meta name="twitter:description" content="If you have a question or comment about something you heard on Wisconsin Public Radio, or you have a program suggestion, there are various ways to contact us." />
+<meta property="article:published_time" content="2013-04-03T11:24:23-05:00" />
+<meta property="article:modified_time" content="2015-05-20T12:05:02-05:00" />
+  <title>Email and Questions | Wisconsin Public Radio</title>
+  <style type="text/css" media="all">
+@import url("https://www.wpr.org/modules/system/system.base.css?pe3dhz");
+@import url("https://www.wpr.org/modules/system/system.menus.css?pe3dhz");
+@import url("https://www.wpr.org/modules/system/system.messages.css?pe3dhz");
+@import url("https://www.wpr.org/modules/system/system.theme.css?pe3dhz");
+</style>
+<style type="text/css" media="all">
+@import url("https://www.wpr.org/sites/all/libraries/mediaelement/build/mediaelementplayer.min.css?pe3dhz");
+</style>
+<style type="text/css" media="all">
+@import url("https://www.wpr.org/sites/all/modules/calendar/css/calendar_multiday.css?pe3dhz");
+@import url("https://www.wpr.org/sites/all/modules/date/date_api/date.css?pe3dhz");
+@import url("https://www.wpr.org/sites/all/modules/date/date_popup/themes/datepicker.1.7.css?pe3dhz");
+@import url("https://www.wpr.org/sites/all/modules/date/date_repeat_field/date_repeat_field.css?pe3dhz");
+@import url("https://www.wpr.org/modules/field/theme/field.css?pe3dhz");
+@import url("https://www.wpr.org/modules/node/node.css?pe3dhz");
+@import url("https://www.wpr.org/sites/all/modules/picture/picture_wysiwyg.css?pe3dhz");
+@import url("https://www.wpr.org/modules/search/search.css?pe3dhz");
+@import url("https://www.wpr.org/modules/user/user.css?pe3dhz");
+@import url("https://www.wpr.org/sites/all/modules/extlink/extlink.css?pe3dhz");
+@import url("https://www.wpr.org/sites/all/modules/views/css/views.css?pe3dhz");
+@import url("https://www.wpr.org/sites/all/modules/ckeditor/css/ckeditor.css?pe3dhz");
+@import url("https://www.wpr.org/sites/all/modules/media/modules/media_wysiwyg/css/media_wysiwyg.base.css?pe3dhz");
+</style>
+<style type="text/css" media="all">
+@import url("https://www.wpr.org/sites/all/modules/amazon/amazon.css?pe3dhz");
+@import url("https://www.wpr.org/sites/all/modules/colorbox/styles/default/colorbox_style.css?pe3dhz");
+@import url("https://www.wpr.org/sites/all/modules/ctools/css/ctools.css?pe3dhz");
+@import url("https://www.wpr.org/sites/all/modules/content_type_extras/css/content_type_extras.css?pe3dhz");
+@import url("https://www.wpr.org/sites/all/modules/forward/forward.css?pe3dhz");
+@import url("https://www.wpr.org/sites/default/files/honeypot/honeypot.css?pe3dhz");
+@import url("https://www.wpr.org/sites/all/modules/webform/css/webform.css?pe3dhz");
+@import url("https://www.wpr.org/sites/all/modules/pullquote/css/pullquote_style_2.css?pe3dhz");
+@import url("https://www.wpr.org/sites/all/themes/wprtheme/css/print.css?pe3dhz");
+@import url("https://www.wpr.org/sites/all/themes/wprtheme/jplayer/jplayer.css?pe3dhz");
+@import url("https://www.wpr.org/sites/all/libraries/sidr/stylesheets/jquery.sidr.dark.css?pe3dhz");
+</style>
+<style type="text/css" media="all">
+@import url("https://www.wpr.org/sites/wpr.org/themes/omega/alpha/css/alpha-reset.css?pe3dhz");
+@import url("https://www.wpr.org/sites/wpr.org/themes/omega/alpha/css/alpha-mobile.css?pe3dhz");
+@import url("https://www.wpr.org/sites/wpr.org/themes/omega/alpha/css/alpha-alpha.css?pe3dhz");
+@import url("https://www.wpr.org/sites/wpr.org/themes/omega/omega/css/formalize.css?pe3dhz");
+@import url("https://www.wpr.org/sites/wpr.org/themes/omega/omega/css/omega-text.css?pe3dhz");
+@import url("https://www.wpr.org/sites/wpr.org/themes/omega/omega/css/omega-branding.css?pe3dhz");
+@import url("https://www.wpr.org/sites/wpr.org/themes/omega/omega/css/omega-menu.css?pe3dhz");
+@import url("https://www.wpr.org/sites/wpr.org/themes/omega/omega/css/omega-forms.css?pe3dhz");
+@import url("https://www.wpr.org/sites/wpr.org/themes/omega/omega/css/omega-visuals.css?pe3dhz");
+@import url("https://www.wpr.org/sites/default/files/fontyourface/local_fonts/Proxima_Nova-italic-bold/stylesheet.css?pe3dhz");
+@import url("https://www.wpr.org/sites/default/files/fontyourface/local_fonts/Proxima_Nova-italic-normal/stylesheet.css?pe3dhz");
+@import url("https://www.wpr.org/sites/default/files/fontyourface/local_fonts/Proxima_Nova-normal-bold/stylesheet.css?pe3dhz");
+@import url("https://www.wpr.org/sites/default/files/fontyourface/local_fonts/Proxima_Nova-normal-normal/stylesheet.css?pe3dhz");
+@import url("https://www.wpr.org/sites/default/files/fontyourface/local_fonts/Sina_Nova-italic-bold/stylesheet.css?pe3dhz");
+@import url("https://www.wpr.org/sites/default/files/fontyourface/local_fonts/Sina_Nova-italic-normal/stylesheet.css?pe3dhz");
+@import url("https://www.wpr.org/sites/default/files/fontyourface/local_fonts/Sina_Nova-normal-normal/stylesheet.css?pe3dhz");
+@import url("https://www.wpr.org/sites/all/themes/wprtheme/css/global.css?pe3dhz");
+</style>
+
+<!--[if (lt IE 9)&(!IEMobile)]>
+<style type="text/css" media="all">
+@import url("https://www.wpr.org/sites/all/themes/wprtheme/css/wprtheme-alpha-default.css?pe3dhz");
+@import url("https://www.wpr.org/sites/all/themes/wprtheme/css/wprtheme-alpha-default-normal.css?pe3dhz");
+@import url("https://www.wpr.org/sites/wpr.org/themes/omega/alpha/css/grid/alpha_default/normal/alpha-default-normal-12.css?pe3dhz");
+</style>
+<![endif]-->
+
+<!--[if gte IE 9]><!-->
+<style type="text/css" media="all and (min-width: 740px) and (min-device-width: 740px), (max-device-width: 800px) and (min-width: 740px) and (orientation:landscape)">
+@import url("https://www.wpr.org/sites/all/themes/wprtheme/css/wprtheme-alpha-default.css?pe3dhz");
+@import url("https://www.wpr.org/sites/all/themes/wprtheme/css/wprtheme-alpha-default-narrow.css?pe3dhz");
+@import url("https://www.wpr.org/sites/wpr.org/themes/omega/alpha/css/grid/alpha_default/narrow/alpha-default-narrow-12.css?pe3dhz");
+</style>
+<!--<![endif]-->
+
+<!--[if gte IE 9]><!-->
+<style type="text/css" media="all and (min-width: 980px) and (min-device-width: 980px), all and (max-device-width: 1024px) and (min-width: 1024px) and (orientation:landscape)">
+@import url("https://www.wpr.org/sites/all/themes/wprtheme/css/wprtheme-alpha-default.css?pe3dhz");
+@import url("https://www.wpr.org/sites/all/themes/wprtheme/css/wprtheme-alpha-default-normal.css?pe3dhz");
+@import url("https://www.wpr.org/sites/wpr.org/themes/omega/alpha/css/grid/alpha_default/normal/alpha-default-normal-12.css?pe3dhz");
+</style>
+<!--<![endif]-->
+  <script type="text/javascript" src="https://www.wpr.org/sites/all/modules/jquery_update/replace/jquery/1.7/jquery.min.js?v=1.7.2"></script>
+<script type="text/javascript" src="https://www.wpr.org/misc/jquery.once.js?v=1.2"></script>
+<script type="text/javascript" src="https://www.wpr.org/misc/drupal.js?pe3dhz"></script>
+<script type="text/javascript" src="https://www.wpr.org/sites/all/themes/wprtheme/js/wpr.js?pe3dhz"></script>
+<script type="text/javascript" src="https://www.wpr.org/sites/all/modules/equalheights/jquery.equalheights.js?v=1.0"></script>
+<script type="text/javascript" src="https://www.wpr.org/sites/all/libraries/jquery.maphilight/jquery.maphilight.min.js?v=1.2.2"></script>
+<script type="text/javascript" src="https://www.wpr.org/sites/all/libraries/mediaelement/build/mediaelement-and-player.min.js?v=2.1.6"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+document.createElement( "picture" );
+//--><!]]>
+</script>
+<script type="text/javascript" src="https://www.wpr.org/sites/all/modules/equalheights/equalheights.js?pe3dhz"></script>
+<script type="text/javascript" src="https://www.wpr.org/sites/all/modules/extlink/extlink.js?pe3dhz"></script>
+<script type="text/javascript" src="https://www.wpr.org/sites/all/libraries/colorbox/jquery.colorbox-min.js?pe3dhz"></script>
+<script type="text/javascript" src="https://www.wpr.org/sites/all/modules/colorbox/js/colorbox.js?pe3dhz"></script>
+<script type="text/javascript" src="https://www.wpr.org/sites/all/modules/colorbox/styles/default/colorbox_style.js?pe3dhz"></script>
+<script type="text/javascript" src="https://www.wpr.org/sites/all/modules/colorbox/js/colorbox_load.js?pe3dhz"></script>
+<script type="text/javascript" src="https://www.wpr.org/sites/all/modules/colorbox/js/colorbox_inline.js?pe3dhz"></script>
+<script type="text/javascript" src="https://www.wpr.org/sites/all/modules/jq_maphilight/jq_maphilight.js?pe3dhz"></script>
+<script type="text/javascript" src="https://www.wpr.org/sites/all/modules/mediaelement/mediaelement.js?pe3dhz"></script>
+<script type="text/javascript" src="https://www.wpr.org/sites/all/libraries/imagesloaded/jquery.imagesloaded.min.js?pe3dhz"></script>
+<script type="text/javascript" src="https://www.wpr.org/sites/all/modules/google_analytics/googleanalytics.js?pe3dhz"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","https://www.wpr.org/sites/default/files/googleanalytics/analytics.js?pe3dhz","ga");ga("create", "UA-9516785-1", {"cookieDomain":"auto"});ga("set", "dimension1", "Webform");ga("send", "pageview");
+//--><!]]>
+</script>
+<script type="text/javascript" src="https://www.wpr.org/misc/textarea.js?v=7.59"></script>
+<script type="text/javascript" src="https://www.wpr.org/sites/all/modules/webform/js/webform.js?pe3dhz"></script>
+<script type="text/javascript" src="https://www.wpr.org/sites/all/modules/pullquote/pullquote.js?pe3dhz"></script>
+<script type="text/javascript" src="https://www.wpr.org/sites/wpr.org/themes/omega/omega/js/jquery.formalize.js?pe3dhz"></script>
+<script type="text/javascript" src="https://www.wpr.org/sites/wpr.org/themes/omega/omega/js/omega-mediaqueries.js?pe3dhz"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"wprtheme","theme_token":"kbkrMq-tK9mvh7iExXCJTgLGjNOvPtmAMQqZ2kMqyDs","css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"sites\/all\/libraries\/mediaelement\/build\/mediaelementplayer.min.css":1,"sites\/all\/modules\/calendar\/css\/calendar_multiday.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"sites\/all\/modules\/date\/date_repeat_field\/date_repeat_field.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"sites\/all\/modules\/picture\/picture_wysiwyg.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/extlink\/extlink.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ckeditor\/css\/ckeditor.css":1,"sites\/all\/modules\/media\/modules\/media_wysiwyg\/css\/media_wysiwyg.base.css":1,"sites\/all\/modules\/amazon\/amazon.css":1,"sites\/all\/modules\/colorbox\/styles\/default\/colorbox_style.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/content_type_extras\/css\/content_type_extras.css":1,"sites\/all\/modules\/forward\/forward.css":1,"public:\/\/honeypot\/honeypot.css":1,"sites\/all\/modules\/webform\/css\/webform.css":1,"sites\/all\/modules\/pullquote\/css\/pullquote_style_2.css":1,"sites\/all\/themes\/wprtheme\/css\/print.css":1,"sites\/all\/themes\/wprtheme\/jplayer\/jplayer.css":1,"sites\/all\/libraries\/sidr\/stylesheets\/jquery.sidr.dark.css":1,"sites\/wpr.org\/themes\/omega\/alpha\/css\/alpha-reset.css":1,"sites\/wpr.org\/themes\/omega\/alpha\/css\/alpha-mobile.css":1,"sites\/wpr.org\/themes\/omega\/alpha\/css\/alpha-alpha.css":1,"sites\/wpr.org\/themes\/omega\/omega\/css\/formalize.css":1,"sites\/wpr.org\/themes\/omega\/omega\/css\/omega-text.css":1,"sites\/wpr.org\/themes\/omega\/omega\/css\/omega-branding.css":1,"sites\/wpr.org\/themes\/omega\/omega\/css\/omega-menu.css":1,"sites\/wpr.org\/themes\/omega\/omega\/css\/omega-forms.css":1,"sites\/wpr.org\/themes\/omega\/omega\/css\/omega-visuals.css":1,"public:\/\/fontyourface\/local_fonts\/Proxima_Nova-italic-bold\/stylesheet.css":1,"public:\/\/fontyourface\/local_fonts\/Proxima_Nova-italic-normal\/stylesheet.css":1,"public:\/\/fontyourface\/local_fonts\/Proxima_Nova-normal-bold\/stylesheet.css":1,"public:\/\/fontyourface\/local_fonts\/Proxima_Nova-normal-normal\/stylesheet.css":1,"public:\/\/fontyourface\/local_fonts\/Sina_Nova-italic-bold\/stylesheet.css":1,"public:\/\/fontyourface\/local_fonts\/Sina_Nova-italic-normal\/stylesheet.css":1,"public:\/\/fontyourface\/local_fonts\/Sina_Nova-normal-normal\/stylesheet.css":1,"sites\/all\/themes\/wprtheme\/css\/global.css":1,"ie::normal::sites\/all\/themes\/wprtheme\/css\/wprtheme-alpha-default.css":1,"ie::normal::sites\/all\/themes\/wprtheme\/css\/wprtheme-alpha-default-normal.css":1,"ie::normal::sites\/wpr.org\/themes\/omega\/alpha\/css\/grid\/alpha_default\/normal\/alpha-default-normal-12.css":1,"narrow::sites\/all\/themes\/wprtheme\/css\/wprtheme-alpha-default.css":1,"narrow::sites\/all\/themes\/wprtheme\/css\/wprtheme-alpha-default-narrow.css":1,"sites\/wpr.org\/themes\/omega\/alpha\/css\/grid\/alpha_default\/narrow\/alpha-default-narrow-12.css":1,"normal::sites\/all\/themes\/wprtheme\/css\/wprtheme-alpha-default.css":1,"normal::sites\/all\/themes\/wprtheme\/css\/wprtheme-alpha-default-normal.css":1,"sites\/wpr.org\/themes\/omega\/alpha\/css\/grid\/alpha_default\/normal\/alpha-default-normal-12.css":1},"js":{"sites\/all\/libraries\/jplayer\/jquery.jplayer.min.js":1,"sites\/all\/modules\/picture\/picturefill2\/picturefill.min.js":1,"sites\/all\/modules\/picture\/picture.min.js":1,"sites\/all\/libraries\/sidr\/jquery.sidr.min.js":1,"sites\/all\/libraries\/flexslider\/jquery.flexslider-min.js":1,"sites\/all\/modules\/jquery_update\/replace\/jquery\/1.7\/jquery.min.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/themes\/wprtheme\/js\/wpr.js":1,"sites\/all\/modules\/equalheights\/jquery.equalheights.js":1,"sites\/all\/libraries\/jquery.maphilight\/jquery.maphilight.min.js":1,"sites\/all\/libraries\/mediaelement\/build\/mediaelement-and-player.min.js":1,"sites\/all\/modules\/equalheights\/equalheights.js":1,"sites\/all\/modules\/extlink\/extlink.js":1,"sites\/all\/libraries\/colorbox\/jquery.colorbox-min.js":1,"sites\/all\/modules\/colorbox\/js\/colorbox.js":1,"sites\/all\/modules\/colorbox\/styles\/default\/colorbox_style.js":1,"sites\/all\/modules\/colorbox\/js\/colorbox_load.js":1,"sites\/all\/modules\/colorbox\/js\/colorbox_inline.js":1,"sites\/all\/modules\/jq_maphilight\/jq_maphilight.js":1,"sites\/all\/modules\/mediaelement\/mediaelement.js":1,"sites\/all\/libraries\/imagesloaded\/jquery.imagesloaded.min.js":1,"sites\/all\/modules\/google_analytics\/googleanalytics.js":1,"misc\/textarea.js":1,"sites\/all\/modules\/webform\/js\/webform.js":1,"sites\/all\/modules\/pullquote\/pullquote.js":1,"sites\/wpr.org\/themes\/omega\/omega\/js\/jquery.formalize.js":1,"sites\/wpr.org\/themes\/omega\/omega\/js\/omega-mediaqueries.js":1}},"colorbox":{"transition":"elastic","speed":"350","opacity":"0.85","slideshow":false,"slideshowAuto":true,"slideshowSpeed":"2500","slideshowStart":"start slideshow","slideshowStop":"stop slideshow","current":"{current} of {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"Close","overlayClose":true,"returnFocus":true,"maxWidth":"100%","maxHeight":"100%","initialWidth":"300","initialHeight":"225","fixed":true,"scrolling":true,"mobiledetect":true,"mobiledevicewidth":"500px"},"jq_maphilight":{"fill":"true","fillColor":"000000","fillOpacity":0.2,"stroke":"true","strokeColor":"ff0000","strokeOpacity":1,"strokeWidth":"2","fade":"true","alwaysOn":"false","neverOn":"false","groupBy":"false","allMapsEnabled":"true"},"mediaelementAll":true,"equalHeightsModule":{"classes":[{"selector":".series-story .story-title","mediaquery":"(min-width: 768px)","minheight":"","maxheight":"","overflow":"visible"},{"selector":".featured-story, .story-box","mediaquery":"(min-width: 1300px)","minheight":"","maxheight":"","overflow":"visible"}],"imagesloaded_ie8":1},"extlink":{"extTarget":"_blank","extClass":0,"extLabel":"(link is external)","extImgClass":0,"extIconPlacement":"append","extSubdomains":1,"extExclude":"","extInclude":"","extCssExclude":"","extCssExplicit":"","extAlert":0,"extAlertText":"This link will take you to an external web site. We are not responsible for their content.","mailtoClass":0,"mailtoLabel":"(link sends e-mail)"},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip","trackColorbox":1},"urlIsAjaxTrusted":{"\/email-and-questions":true},"omega":{"layouts":{"primary":"normal","order":["narrow","normal"],"queries":{"narrow":"all and (min-width: 740px) and (min-device-width: 740px), (max-device-width: 800px) and (min-width: 740px) and (orientation:landscape)","normal":"all and (min-width: 980px) and (min-device-width: 980px), all and (max-device-width: 1024px) and (min-width: 1024px) and (orientation:landscape)"}}}});
+//--><!]]>
+</script>
+  <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+  <meta name="google-site-verification" content="Ukk5s8ccVPrwPoz56A53G8_h2BhextrcODIdHDAl-WQ" />
+</head>
+<body class="html not-front not-logged-in page-node page-node- page-node-6872 node-type-webform context-email-and-questions">
+<!-- Google Tag Manager -->
+<script async='async' src='https://www.googletagservices.com/tag/js/gpt.js'></script>
+<script>
+  var googletag = googletag || {};
+  googletag.cmd = googletag.cmd || [];
+</script>
+<script>
+  googletag.cmd.push(function() {
+    googletag.defineSlot('/1006475/WPR_ORG_300x250A', [300, 250], 'div-gpt-ad-1495910762556-0').addService(googletag.pubads());
+    googletag.defineSlot('/1006475/WPR_ORG_300x250B', [300, 250], 'div-gpt-ad-1495910887526-0').addService(googletag.pubads());
+    googletag.defineSlot('/1006475/WPR_LIVEPLAYER', [300, 250], 'div-gpt-ad-1495914522370-0').addService(googletag.pubads());
+    googletag.pubads().collapseEmptyDivs();
+    googletag.enableServices();
+  });
+</script>
+<!-- End Google Tag Manager -->
+  <div id="skip-link"> 
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a> 
+  </div>
+  <!--img alt="" class="fb_hidden_image element-invisible" src="/sites/default/files/media/WPR_Logo_Small.jpg"-->
+    <div class="page clearfix" id="page">
+      <header id="section-header" class="section section-header">
+  <div id="zone-branding-wrapper" class="zone-wrapper zone-branding-wrapper clearfix">  
+  <div id="zone-branding" class="zone zone-branding clearfix container-12">
+    <div class="grid-12 region region-branding" id="region-branding">
+  <div class="region-inner region-branding-inner">
+        <div class="block block-block wpr-logo-text block-14 block-block-14 odd block-without-title" id="block-block-14">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <div class="header-logo"><a href="/"><span>Wisconsin Public Radio</span></a></div>
+    </div>
+  </div>
+</div><div class="block block-search block-form block-search-form even block-without-title" id="block-search-form">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <form action="/email-and-questions" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+      <h2 class="element-invisible">Search form</h2>
+    <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions--2"><input type="submit" id="edit-submit--2" name="op" value="Search" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-4tBnJnZTP6gBZ_OzU-zj8Hd1s9KS1ETVT1lVlQ-mVpI" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>    </div>
+  </div>
+</div><div class="block block-block support follow block-26 block-block-26 odd block-without-title" id="block-block-26">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <div><a class="support-block-link red" href="/donate" target="_blank">Donate</a></div>
+<div class="follow-links"><a class="facebook-follow" href="https://www.facebook.com/wisconsinpublicradio"><img alt="Facebook icon" src="/sites/all/modules/service_links/images/facebook.png" /></a> <a class="twitter-follow" href="https://twitter.com/WPR"><img alt="Twitter icon" src="/sites/all/modules/service_links/images/twitter.png" /></a></div>
+    </div>
+  </div>
+</div><div class="block block-block search-sponsor-block block-81 block-block-81 even block-without-title" id="block-block-81">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <!-- WPR_ORG_Search_234x60 --><div id="div-gpt-ad-1415984171221-0" style="width:234px; height:60px;">
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1415984171221-0'); });
+</script></div>
+    </div>
+  </div>
+</div>  </div>
+</div>  </div>
+</div><div id="zone-menu-wrapper" class="zone-wrapper zone-menu-wrapper clearfix">  
+  <div id="zone-menu" class="zone zone-menu clearfix container-12">
+    <div class="grid-12 region region-menu" id="region-menu">
+  <div class="region-inner region-menu-inner">
+        <div class="block block-block menu-panel block-30 block-block-30 odd block-without-title" id="block-block-30">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <div class="menu-tab">Menu</div>
+<p><a class="listen-tab popup-player" href="/listen-live">Listen Live</a></p>
+    </div>
+  </div>
+</div><section class="block block-menu pushdown-menu block-menu-verticals block-menu-menu-verticals even" id="block-menu-menu-verticals">
+  <div class="block-inner clearfix">
+              <h2 class="block-title">Menu</h2>
+            
+    <div class="content clearfix">
+      <ul class="menu"><li class="first leaf"><a href="/" title="">Home</a></li>
+<li class="leaf"><a href="https://www.wpr.org/donate" class="donate" target="_blank">Donate</a></li>
+<li class="leaf"><a href="/program-notes" class="program-notes">Program Notes</a></li>
+<li class="leaf"><a href="/search" class="search">Search</a></li>
+<li class="leaf"><a href="/news" class="link-pushdown pushdown-news">News</a></li>
+<li class="leaf"><a href="/weather" class="pushdown-weather">Weather</a></li>
+<li class="leaf"><a href="/weather" class="events-mobile">Weather</a></li>
+<li class="leaf"><a href="/arts-and-culture" class="link-pushdown pushdown-entertainment">Arts &amp; Culture</a></li>
+<li class="leaf"><a href="/music" class="link-pushdown pushdown-music">Music</a></li>
+<li class="leaf"><a href="/events/monthly" class="link-pushdown pushdown-events">Events</a></li>
+<li class="leaf"><a href="/events/day" class="events-mobile">Events</a></li>
+<li class="leaf"><a href="/programs" class="link-pushdown pushdown-program">Shows</a></li>
+<li class="leaf"><a href="/programs/mobile" class="shows-mobile">Shows</a></li>
+<li class="leaf"><a href="/about-wisconsin-public-radio-0" class="link-pushdown pushdown-about">About WPR</a></li>
+<li class="last leaf"><a href="/support" class="link-pushdown pushdown-support support">Support</a></li>
+</ul>    </div>
+  </div>
+</section>  </div>
+</div>
+  </div>
+</div></header>    
+      <section id="section-content" class="section section-content">
+  <div id="zone-preface-wrapper" class="zone-wrapper zone-preface-wrapper clearfix">  
+  <div id="zone-preface" class="zone zone-preface clearfix container-12">
+    <div class="grid-4 region region-preface-first" id="region-preface-first">
+  <div class="region-inner region-preface-first-inner">
+    <div class="block block-block block-pushdown pushdown-weather weather-conditions block-28 block-block-28 odd block-without-title" id="block-block-28">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <div class="block-preface">
+<ul class="weather-menu">
+<li><a href="/weather/conditions-forecast">Conditions and Forecast</a></li>
+<li><a href="/weather/maps-radar">Maps and Radar</a></li>
+</ul>
+</div>
+    </div>
+  </div>
+</div><div class="block block-block block-pushdown pushdown-entertainment block-34 block-block-34 even block-without-title" id="block-block-34">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <ul class="menu nav-menu">
+<li class="first leaf"><a href="/arts-and-culture">Arts &amp; Culture</a></li>
+<li class="leaf"><a href="/music">Music</a></li>
+<li class="leaf"><a href="/topics/film">Film</a></li>
+</ul>
+<ul class="menu nav-menu">
+<li class="last leaf"><a href="/topics/books">Books</a></li>
+<li class="last leaf"><a href="/topics/food">Food</a></li>
+<li class="leaf"><a href="/topics/art">Art</a></li>
+</ul>
+<ul class="menu nav-menu">
+<li class="first leaf"><a href="/topics/digital-media">Digital Media</a></li>
+<li class="first leaf"><a href="/topics/games-and-humor">Games &amp; Humor</a></li>
+<li class="last leaf"><a class="more-content" href="/arts-and-culture">More</a></li>
+</ul>
+    </div>
+  </div>
+</div><div class="block block-block block-pushdown pushdown-music block-36 block-block-36 odd block-without-title" id="block-block-36">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <div class="content">
+<ul class="menu nav-menu">
+<li class="program-section"><strong>Genre</strong></li>
+<li><a href="/topics/classical-music">Classical Music</a></li>
+<li><a href="/topics/folk">Folk</a></li>
+<li><a href="/topics/jazz">Jazz</a></li>
+<li><a href="/topics/pop-music">Pop Music</a></li>
+<li><a href="/topics/world-music">World Music</a></li>
+</ul>
+<ul class="menu nav-menu">
+<li class="program-section"><strong>Music Request Forms</strong></li>
+<li><a href="/programs/classics-request">Classics by Request</a></li>
+<li><a href="/simply-folk-request">Simply Folk</a></li>
+</ul>
+<ul class="menu nav-menu">
+<li class="program-section"><strong>Music Series</strong></li>
+<li><a href="/series/wpr-music">WPR Music Blog</a></li>
+<li><a href="/programs/wisconsin-classical">Wisconsin Classical</a></li>
+<li><a href="/series/simply-folk-interviews">Simply Folk Interviews</a></li>
+<li><a href="/series/set-list">Set List</a></li>
+<li><a href="/series/grace-notes">Grace Notes</a></li>
+<li><a href="/programs/odyssey-series">The Odyssey Series</a></li>
+</ul>
+<ul class="menu nav-menu">
+<li><a href="/classical-music-lists">Classical Music Playlist</a></li>
+<li><a href="/folk-music-lists" target="_blank">Folk Music Playlist</a></li>
+<li class="more-content"><a href="/music">More</a></li>
+</ul>
+</div>
+    </div>
+  </div>
+</div><div class="block block-block block-pushdown pushdown-about block-22 block-block-22 even block-without-title" id="block-block-22">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <div class="content" style="padding-left: 1px !important;">
+<ul class="menu" style="margin-left: 0px !important;">
+<li class="program-section">About Us</li>
+<li><a href="/about-wpr">Who Are We?</a></li>
+<li><a href="/jobs">Career Opportunities</a></li>
+<li><a href="/support/volunteer">Volunteering</a></li>
+<li><a href="/100">Our First 100 Years</a></li>
+<li><a href="/travel">Travel With WPR</a></li>
+</ul>
+<ul class="menu" style="margin-left: -30px !important;">
+<li class="program-section">Contact Us</li>
+<li><a href="/email-and-questions">Listener Questions/Feedback</a></li>
+<li><a href="/news-tip">Sending News Tips</a></li>
+<li><a href="/support/wpr-membership-faq#gen1">Member/Donation Questions</a></li>
+<li><a href="/regional-offices">Regional Offices</a></li>
+<li><a href="/staff">Staff Directory</a></li>
+<li><a href="/online-community">Our Online Community</a></li>
+<li><a href="/related-links">Related Links</a></li>
+<li><a href="/radio-store">The Radio Store</a></li>
+</ul>
+<ul class="menu" style="margin-left: -30px !important;">
+<li class="program-section" style="margin-left: 5px !important;">Stations, Schedules &amp; Content</li>
+<li><a href="/regions">Stations, Schedules &amp; Regional Studios</a></li>
+<li><a href="/network-coverage-maps">Network Station Maps</a></li>
+<li><a href="/ideas-network-program-notes-subscription-page">Program Notes Subscriptions</a></li>
+<li><a href="/improving-radio-reception">Improving Your Radio Reception</a></li>
+<li><a href="/hd-radio-information">HD Radio Information</a></li>
+<li><a href="/streams">Live Online Streams</a></li>
+<li><a href="/audio-archives">Audio Archives</a></li>
+<li><a href="/podcasts">Program Podcasts</a></li>
+<li><a href="/mobile">Mobile Apps</a></li>
+</ul>
+<ul class="menu" style="margin-left: -10px !important;">
+<li class="program-section" style="margin-left: 5px !important;">Policies &amp; Reports</li>
+<li><a href="/radiowaves">Radiowaves Newsletter</a></li>
+<li><a href="/wpr-reports">Annual&nbsp;Reports</a></li>
+<li><a href="/wpr-ethical-guidelines">WPR Ethics</a></li>
+<li><a href="/social-media-guidelines">Social Media Guidelines</a></li>
+<li><a href="/caller-guidelines">Call-In Guidelines</a></li>
+<li><a href="/open-meetings-information">Open Meetings</a></li>
+<li><a href="/legal-filings">Local Content Reports</a></li>
+<li><a href="/wpr-public-inspection-files">FCC Public Inspection Files</a></li>
+<li><a href="/wisconsin-public-radio-financial-statement">Financial Statements</a></li>
+</ul>
+</div>
+    </div>
+  </div>
+</div><div class="block block-block block-pushdown pushdown-support block-23 block-block-23 odd block-without-title" id="block-block-23">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <div class="content nav-support-menu">
+<ul class="menu nav-menu">
+<li class="first-leaf"><a href="/support/sponsor">Business Sponsorship</a></li>
+<li class="leaf"><a href="/support/day-sponsor">Day Sponsor</a></li>
+<li class="leaf"><a href="/support/ira-charitable-rollover">IRA Gifts</a></li>
+<li class="leaf"><a href="/support/stock">Gifts Of Stock</a></li>
+<li class="last-leaf"><a href="/support/major-gifts">Leadership Gifts</a></li>
+</ul>
+<ul class="menu nav-menu">
+<li class="first leaf"><a href="/support/matching-gifts-information">Matching Gifts</a></li>
+<li class="leaf"><a href="/support/wpr-sustainer">Sustaining Gifts</a></li>
+<li class="leaf"><a href="/support/car-donation">Vehicle Donation</a>s</li>
+<li class="leaf"><a href="/support/volunteer">Volunteer</a></li>
+<li class="last leaf"><a href="http://legacy.wpr.org/">Wills &amp; Bequests</a></li>
+</ul>
+<ul class="menu nav-menu">
+<li class="first-leaf"><a href="/support/wpr-membership-faq">FAQ</a></li>
+<li class="leaf"><a href="/support/wpr-funding-information">Funding Information</a></li>
+<li class="leaf"><a href="/support/wpr-membership-faq#gen1">Member/Donation Questions</a></li>
+<li class="last-leaf"><strong><a href="/donate">Donate Now</a></strong></li>
+</ul>
+</div>
+    </div>
+  </div>
+</div><div class="block block-block block-pushdown pushdown-program block-37 block-block-37 even block-without-title" id="block-block-37">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <div class="content" style="padding-left: -8px;">
+<ul class="menu" style="margin-left: -7px;">
+<li class="program-section" style="font-size: 1.1em;"><a href="/programs">Programs</a></li>
+<li><a href="/programs/morning-show">The Morning Show</a></li>
+<li><a href="/programs/larry-meiller-show">The Larry Meiller Show</a></li>
+<li><a href="/programs/central-time">Central Time</a></li>
+<li><a href="/programs/chapter-day">Chapter A Day</a></li>
+<li><a href="/programs/beta">BETA</a></li>
+<li><a href="/programs/old-time-radio-drama">Old Time Radio Drama</a></li>
+<li><a href="/programs/garden-talk">Garden Talk</a></li>
+<li><a href="https://www.ttbook.org">To The Best Of Our Knowledge</a></li>
+<li><a href="/programs/university-air">University Of The Air</a></li>
+<li><a href="/programs/zorba-paster-your-health">Zorba Paster On Your Health</a></li>
+</ul>
+<ul class="menu" style="margin-left: -20px;">
+<li><a href="/programs/all-things-considered">All Things Considered</a></li>
+<li><a href="/programs/show-chris-thile">Live from Here with Chris Thile</a></li>
+<li><a href="/programs/fresh-air">Fresh Air</a></li>
+<li><a href="/programs/marketplace">Marketplace</a></li>
+<li><a href="/programs/morning-edition">Morning Edition</a></li>
+<li><a href="/programs/point">On Point</a></li>
+<li><a href="/programs/1a">1A</a></li>
+<li><a href="https://www.wpr.org/programs/science-friday">Science Friday</a></li>
+<li><a href="https://www.wisconsinlife.org/">Wisconsin Life</a></li>
+<li><a href="/politics">WPR Politics</a></li>
+<li><a href="/programs/special-programming">Special Programs</a></li>
+</ul>
+<ul class="menu" style="margin-left: -20px;">
+<li class="program-section" style="font-size: 1.1em;">Music</li>
+<li><a href="/programs/midday">The Midday</a></li>
+<li><a href="/programs/classics-request">Classics by Request</a></li>
+<li><a href="/programs/higher-ground">Higher Ground with Jonathan Overby</a></li>
+<li><a href="/programs/simply-folk">Simply Folk</a></li>
+<li><a href="/programs/sunday-brunch">Sunday Brunch</a></li>
+<li><a href="/programs/wisconsin-classical">Wisconsin Classical</a></li>
+<li>&nbsp;</li>
+<li>&nbsp;</li>
+<li>&nbsp;</li>
+<li class="more-content"><a href="/program-notes">Ideas Network Program Notes</a></li>
+<li class="more-content"><a href="/programs/archives/all">All Audio Archives</a></li>
+</ul>
+<ul class="menu" style="margin-left: -20px;">
+<li class="program-section">Regional Programs</li>
+<li><a href="/programs/hear-me-out">Hear Me Out</a></li>
+<li><a href="/programs/newsmakers">Newsmakers</a></li>
+<li><a href="/programs/people-color">People of Color</a></li>
+<li><a href="/programs/route-51">Route 51</a></li>
+<li><a href="/programs/spectrum-west-al-ross">Spectrum West</a></li>
+<li><a href="/programs/west-side-rich-kremer">The West Side</a></li>
+<li>&nbsp;</li>
+<li>&nbsp;</li>
+<li>&nbsp;</li>
+<li class="more-content"><a href="/programs">More Programs</a></li>
+<li class="more-content"><a href="/programs/retired">Retired Programs</a></li>
+</ul>
+</div>
+    </div>
+  </div>
+</div><div class="block block-block block-pushdown pushdown-news block-35 block-block-35 odd block-without-title" id="block-block-35">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <div class="content">
+<ul class="menu" style="margin-left: -3px;">
+<li><a href="/news">All WPR News</a></li>
+</ul>
+<ul class="menu" style="margin-left: -2px;">
+<li class="program-section"><strong>News By Topic</strong></li>
+<li class="leaf"><a href="/topics/agriculture">Agriculture</a></li>
+<li class="leaf"><a href="/arts-and-culture">Arts &amp; Culture</a></li>
+<li class="leaf"><a href="/topics/justice">Criminal Justice</a></li>
+<li class="leaf"><a href="/topics/education">Education</a></li>
+<li class="leaf"><a href="/topics/environment">Environment</a></li>
+</ul>
+<ul class="menu" style="margin-left: -2px;">
+<li class="leaf"><a href="/topics/health">Health</a></li>
+<li class="leaf"><a href="/topics/money">Money</a></li>
+<li class="leaf"><a href="/topics/politics">Politics</a></li>
+<li class="leaf"><a href="/topics/science-and-technology">Science &amp; Technology</a></li>
+<li class="leaf"><a href="/topics/social-issues">Social Issues</a></li>
+<li class="leaf"><a href="/topics/sports">Sports</a></li>
+</ul>
+<ul class="menu" style="margin-left: -1px;">
+<li class="leaf"><a href="/news-podcasts">WPR News Podcasts</a></li>
+</ul>
+</div>
+    </div>
+  </div>
+</div><div class="block block-block block-pushdown pushdown-events block-171 block-block-171 even block-without-title" id="block-block-171">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <div class="content">
+<ul class="menu nav-menu">
+<li class="first-leaf"><a href="/events">All Events</a></li>
+<li class="leaf"><a href="/programs/simply-folk/events">Folk Events</a></li>
+<li class="last-leaf"><a href="/presents">WPR Presents</a></li>
+</ul>
+</div>
+    </div>
+  </div>
+</div>  </div>
+</div>  </div>
+</div><div id="zone-content-wrapper" class="zone-wrapper zone-content-wrapper clearfix">  
+
+  <div id="zone-content" class="zone zone-content clearfix container-12">    
+        
+        <div class="grid-12 region region-content" id="region-content">
+  <div class="region-inner region-content-inner">
+    <a id="main-content"></a>
+                        <div class="block block-block listen-live block-6 block-block-6 odd block-without-title" id="block-block-6">
+  <div class="block-inner clearfix">
+                <h2 class="block-title"><a class="live-player popup-player" href="/listen-live">Listen Live</a></h2>
+    
+    <div class="content clearfix">
+
+	<div id="listen-ideas" class="listen-section network">
+		<a href="/listen-live?network=ideas" class="live-player popup-player"><div class="play-button"></div><h4>The Ideas Network</h4></a>
+		<a class="network-schedule" href="/ideas-network/weekly"><h4>Program Schedule</h4></a>
+		<a class="program-notes" href="/program-notes"><h4>Program Notes</h4></a>
+	</div>
+	
+	<div class='listen-section network' id="listen-news">
+		<a href="/listen-live?network=news" class="live-player popup-player"><div class="play-button"></div><h4>NPR News & Classical Network</h4></a>
+		<a class="network-schedule" href="/news-classical-network/weekly"><h4>Program Schedule</h4></a>
+		<a class="classical-playlist" href="/classical-music-lists"><h4>Music Playlists</h4></a>
+	</div>
+
+	<div class='listen-section network' id="listen-classical">
+		<a href="/listen-live?network=classical" class="live-player popup-player"><div class="play-button"></div><h4>All Classical Network</h4></a>
+		<a class="network-schedule" href="/all-classical-network/weekly"><h4>Program Schedule</h4></a>
+		<a class="classical-playlist" href="/all-classical-network-playlists"><h4>Music Playlists</h4></a>		
+	</div>
+	  
+    </div>
+  </div>
+</div>
+		<aside class="grid-6 region region-content-top" id="region-content-top">
+		  <div class="region-inner region-content-top-inner">
+			<div class="block block-system block-main block-system-main odd block-without-title" id="block-system-main">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <div  id="node-webform-6872" class="ds-1col node node-webform node-promoted view-mode-full node-published node-not-sticky author-nlarson odd clearfix clearfix">
+
+  
+  <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even"><p>If you have a question or comment about something you heard on Wisconsin Public Radio, or you have a program suggestion, there are various ways to contact us.</p>
+<ul>
+<li>Contact WPR&#39;s Audience Services at 1-800-747-7444</li>
+<li>Email them directly at&nbsp;<a href="mailto:listener@wpr.org">listener@wpr.org</a></li>
+<li>Send a letter or postcard&nbsp;to: &nbsp;Audience Services, Wisconsin Public Radio, 821 University Ave., Madison, WI. 53706</li>
+<li>If you have a technical question or comment, you can contact&nbsp;<a href="http://www.wpr.org/website-and-streaming-questions">WPR&rsquo;s webmaster</a>.</li>
+<li>Questions and comments can also be submitted using the handy webform below.</li>
+</ul>
+</div></div></div><form class="webform-client-form webform-client-form-6872" action="/email-and-questions" method="post" id="webform-client-form-6872" accept-charset="UTF-8"><div><div  class="form-item webform-component webform-component-textfield webform-component--your-name">
+  <label for="edit-submitted-your-name">Your Name <span class="form-required" title="This field is required.">*</span></label>
+ <input required="required" type="text" id="edit-submitted-your-name" name="submitted[your_name]" value="" size="60" maxlength="128" class="form-text required" />
+</div>
+<div  class="form-item webform-component webform-component-email webform-component--your-email">
+  <label for="edit-submitted-your-email">Your Email <span class="form-required" title="This field is required.">*</span></label>
+ <input required="required" class="email form-text form-email required" type="email" id="edit-submitted-your-email" name="submitted[your_email]" size="60" />
+</div>
+<div  class="form-item webform-component webform-component-textfield webform-component--subject">
+  <label for="edit-submitted-subject">Subject <span class="form-required" title="This field is required.">*</span></label>
+ <input required="required" type="text" id="edit-submitted-subject" name="submitted[subject]" value="" size="60" maxlength="128" class="form-text required" />
+</div>
+<div  class="form-item webform-component webform-component-select webform-component--web-or-network">
+  <label for="edit-submitted-web-or-network">Web or Network </label>
+ <select id="edit-submitted-web-or-network" name="submitted[web_or_network]" class="form-select"><option value="" selected="selected">- None -</option><option value="key_web">WPR Websites</option><option value="key_ideas">Ideas Network</option><option value="key_news">NPR News &amp; Classical Network</option><option value="key_classical">All Classical Network</option></select>
+</div>
+<div  class="form-item webform-component webform-component-select webform-component--program">
+  <label for="edit-submitted-program">Program </label>
+ <select id="edit-submitted-program" name="submitted[program]" class="form-select"><option value="" selected="selected">- None -</option><option value="key_tms">The Morning Show</option><option value="key_larry">The Larry Meiller Show</option><option value="key_chapter">Chapter a Day</option><option value="key_central">Central Time with Rob Ferrett</option><option value="key_money">On Your Money</option><option value="key_old">Old Time Radio Drama</option><option value="key_university">University of the Air</option><option value="key_zorba">Zorba Paster On Your Health</option><option value="key_high">Higher Ground with Jonathan Overby</option><option value="key_sfk">Simply Folk</option><option value="key_ttbook">To the Best of Our Knowledge</option><option value="key_other">Other non-WPR Program</option></select>
+</div>
+<div  class="form-item webform-component webform-component-textarea webform-component--questions-or-comments">
+  <label for="edit-submitted-questions-or-comments">Questions or Comments <span class="form-required" title="This field is required.">*</span></label>
+ <div class="form-textarea-wrapper resizable"><textarea required="required" id="edit-submitted-questions-or-comments" name="submitted[questions_or_comments]" cols="60" rows="5" class="form-textarea required"></textarea></div>
+</div>
+<input type="hidden" name="details[sid]" />
+<input type="hidden" name="details[page_num]" value="1" />
+<input type="hidden" name="details[page_count]" value="1" />
+<input type="hidden" name="details[finished]" value="0" />
+<input type="hidden" name="form_build_id" value="form-PtoNVpKLwx8YuooSq7SrV6uDRzsXDJIZVNsJzm68I-A" />
+<input type="hidden" name="form_id" value="webform_client_form_6872" />
+<input type="hidden" name="honeypot_time" value="1535366063|GxCGSLDwnyUTixXMLIcudS9ntWGuuYzRrrnKOd0drRc" />
+<div class="email-textfield"><div class="form-item form-type-textfield form-item-email">
+  <label for="edit-email">Leave this field blank </label>
+ <input autocomplete="off" type="text" id="edit-email" name="email" value="" size="20" maxlength="128" class="form-text" />
+</div>
+</div><div class="form-actions"><input class="webform-submit button-primary form-submit" type="submit" name="op" value="Submit" /></div></div></form></div>
+
+    </div>
+  </div>
+</div>		  </div>
+		</aside>
+
+	<!-- Container divs for top right content -->
+	<div id="region-content-top-right" class="grid-6 region region-content-top-right">
+		<div class="region-inner region-content-top-right-inner"><div class="grid-3 region region-sidebar-first-top" id="region-sidebar-first-top">
+  <div class="region-inner region-sidebar-first-top-inner">
+    <div class="block block-block underwriting underwriting-1 block-5 block-block-5 odd block-without-title" id="block-block-5">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <p style="text-align: center">Sponsored by:</p>
+<!-- /1006475/WPR_ORG_300x250A --></p>
+<div id="div-gpt-ad-1495910762556-0" style="height:250px; width:300px;">
+<script>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1495910762556-0'); });
+</script></div>
+<p class="sponsor-link"><a href="/support/corporate">Become a WPR Sponsor</a></p>
+    </div>
+  </div>
+</div><div class="block block-block underwriting underwriting-2 block-20 block-block-20 even block-without-title" id="block-block-20">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <p style="text-align: center">Sponsored by:</p>
+<!-- /1006475/WPR_ORG_300x250B --></p>
+<div id="div-gpt-ad-1495910887526-0" style="height:250px; width:300px;">
+<script>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1495910887526-0'); });
+</script></div>
+<p class="sponsor-link"><a href="/support/corporate">Become a WPR Sponsor</a></p>
+    </div>
+  </div>
+</div><div class="block block-block content-section block-66 block-block-66 odd block-without-title" id="block-block-66">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <!-- Begin MailChimp Signup Form --><link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css" />
+<style type="text/css">#mc_embed_signup {background:#fff; clear:left; font:"Proxima Nova",Arial,sans-serif;}
+  #mce-responses .response a {font-style:italic !important;}
+  #mc_embed_signup .mc-field-group input {padding:2px 0 !important;}
+	/* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+</style><div id="mc_embed_signup">
+<form action="//wpr.us11.list-manage.com/subscribe/post?u=3cb4c021b28e511db7dc0b1ca&amp;id=8cef131bb2" class="validate" id="mc-embedded-subscribe-form" method="post" name="mc-embedded-subscribe-form" novalidate="" target="_blank">
+<div id="mc_embed_signup_scroll">
+<h2 class="block-title" style="font-weight:normal !important; padding: .1em .25em;">Subscribe To WPR Newsletters</h2>
+<div class="mc-field-group input-group">Keep updated on the latest news and information. Sign up now!</p>
+<ul>
+<li><input checked="checked" id="mce-group[13645]-13645-0" name="group[13645][1]" type="checkbox" value="1" />&nbsp;&nbsp;<label for="mce-group[13645]-13645-0">Morning Top Headlines</label></li>
+<li><input checked="checked" id="mce-group[13645]-13645-1" name="group[13645][2]" type="checkbox" value="2" />&nbsp;&nbsp;<label for="mce-group[13645]-13645-1">Afternoon Top Headlines</label></li>
+</ul>
+</div>
+<div class="mc-field-group"><label for="mce-EMAIL">Email Address (required)</label> <input class="required email" id="mce-EMAIL" name="EMAIL" type="email" value="" /></div>
+<div class="clear" id="mce-responses">
+<div class="response" id="mce-error-response" style="display:none">&nbsp;</div>
+<div class="response" id="mce-success-response" style="display:none">&nbsp;</div>
+</div>
+<!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups--><div aria-hidden="true" style="position: absolute; left: -5000px;"><input name="b_3cb4c021b28e511db7dc0b1ca_8cef131bb2" tabindex="-1" type="text" value="" /></div>
+<div class="clear"><input class="button" id="mc-embedded-subscribe" name="subscribe" style="color:#000 !important; background-image: none !important; text-shadow:none !important;" type="submit" value="Subscribe" /></p>
+<p><span style="font-family:'Proxima Nova',Arial,sans-serif !important;"><a href="http://us11.campaign-archive2.com/home/?u=3cb4c021b28e511db7dc0b1ca&amp;id=8cef131bb2" target="_blank">See the archives</a></span></div>
+</div>
+</form>
+</div>
+<script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script><!--End mc_embed_signup-->    </div>
+  </div>
+</div>  </div>
+</div>      </div>
+</div>
+	<!-- Closing divs / for bottom right content -->
+		</div>
+	</div>
+	
+  </div>
+</div></section>	  
+  
+      <footer id="section-footer" class="section section-footer">
+  <div id="zone-footer-wrapper" class="zone-wrapper zone-footer-wrapper clearfix">  
+  <div id="zone-footer" class="zone zone-footer clearfix container-12">
+    <div class="grid-12 region region-footer-first" id="region-footer-first">
+  <div class="region-inner region-footer-first-inner">
+    <div class="block block-block contact-copyright block-11 block-block-11 odd block-without-title" id="block-block-11">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <p><a class="wpr-logo-footer" href="/">Wisconsin Public Radio</a></p>
+<div class="section-partners clearfix"><span class="footer-logos"><a class="logo-ECB" href="https://ecb.org/">ECB</a> <a class="logo-UWM" href="https://www.wisc.edu/">UW-Madison</a> <a class="logo-NPR" href="https://www.npr.org/">National Public Radio</a> <a class="logo-WPT" href="https://wpt.org/">Wisconsin Public Television</a></span></div>
+<p>For questions or comments about our programming, contact WPR’s Audience Services at 1-800-747-7444, email to&nbsp;<a href="mailto:listener@wpr.org">listener@wpr.org</a> or use our <a href="/email-and-questions">Listener Feedback form</a>.</p>
+<p>For technical questions or&nbsp;comments about WPR’s website, streaming or other digital media products, please use our <a href="/website-and-streaming-questions">Website Feedback form</a>.</p>
+<p>Find out how to <a href="/support">Support WPR</a>.</p>
+<p>View our <a href="/privacy-policy-and-terms-use">privacy policy</a>.</p>
+<p style="font-size: 12px;">© 2018 by Wisconsin Public Radio, a service of the <a href="https://www.ecb.org/">Wisconsin Educational Communications Board</a> and the <a href="https://www.wisc.edu/">University of Wisconsin-Madison</a>.</p>
+    </div>
+  </div>
+</div>  </div>
+</div><div class="grid-12 region region-footer-second" id="region-footer-second">
+  <div class="region-inner region-footer-second-inner">
+    <div class="block block-randomblocks element-invisible block-random-splash block-randomblocks-random-splash odd block-without-title" id="block-randomblocks-random-splash">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <div>
+<div id="splashify-subtext"><a class="donate" href="https://pledge.wpr.org/WebModule/Donate.aspx?P=CUSTOM&amp;PAGETYPE=PLG&amp;CHECK=IHgx605LHotOQgkZuGyCqhiCxtaFReuS&amp;utm_source=wpr.org&amp;utm_medium=splash&amp;utm_term=thank-you_gift&amp;utm_content=reach_out_and_read&amp;utm_campaign=2018%20April%20Pledge%20Drive"></p>
+<style type="text/css">@media screen and (max-width: 969px) {
+  .splash-container {
+    background: url('/sites/default/files/media/1804PledgeSplash2_mobile.png') top left no-repeat; .splashify .outer, .splash-container { width: 300px; }
+  }
+}
+
+@media screen and (min-width: 970px) {
+  .splash-container {
+    background: url('/sites/default/files/media/1804PledgeSplash2.png') top left no-repeat; .splashify .outer, .splash-container { width: 500px; }
+  }
+}
+</style><p></a> </p>
+<script type="text/javascript">
+(function($){
+
+$(document).bind('cbox_complete', function(){
+$('#colorbox .splash-container').append($('#splashify-subtext').clone(true));  
+});
+
+})(jQuery);
+</script></div>
+</div>
+    </div>
+  </div>
+</div>  </div>
+</div>  </div>
+</div></footer>  </div>  <div class="region region-page-bottom" id="region-page-bottom">
+  <div class="region-inner region-page-bottom-inner">
+      </div>
+</div><script type="text/javascript" src="https://www.wpr.org/sites/all/libraries/jplayer/jquery.jplayer.min.js?pe3dhz"></script>
+<script type="text/javascript" async="async" src="https://www.wpr.org/sites/all/modules/picture/picturefill2/picturefill.min.js?v=2.3.1"></script>
+<script type="text/javascript" async="async" src="https://www.wpr.org/sites/all/modules/picture/picture.min.js?v=7.59"></script>
+<script type="text/javascript" src="https://www.wpr.org/sites/all/libraries/sidr/jquery.sidr.min.js?pe3dhz"></script>
+<script type="text/javascript" src="https://www.wpr.org/sites/all/libraries/flexslider/jquery.flexslider-min.js?pe3dhz"></script>
+  <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"8d7a4982ef","applicationID":"17973382","transactionName":"ZFxUZhECVkpVBhAPX10Wd1EXCldXGwEXOVVLTURTEDxWVlAAOxZRVFxpRAoGTw==","queueTime":0,"applicationTime":423,"atts":"SBtXEFkYRUQ=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

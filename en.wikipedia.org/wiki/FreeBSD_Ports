@@ -1,0 +1,578 @@
+
+<!DOCTYPE html>
+<html class="client-nojs" lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8"/>
+<title>FreeBSD Ports - Wikipedia</title>
+<script>document.documentElement.className="client-js";RLCONF={"wgBreakFrames":!1,"wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgRequestId":"6ae48c2c-91d9-4376-89c8-fad6eb4168f2","wgCSPNonce":!1,"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":!1,"wgNamespaceNumber":0,"wgPageName":"FreeBSD_Ports","wgTitle":"FreeBSD Ports","wgCurRevisionId":944287605,"wgRevisionId":944287605,"wgArticleId":5128033,"wgIsArticle":!0,"wgIsRedirect":!1,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["CS1 maint: unfit url","Use mdy dates from June 2013","Free package management systems","FreeBSD"],"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgRelevantPageName":"FreeBSD_Ports","wgRelevantArticleId":5128033,"wgIsProbablyEditable":!0,"wgRelevantPageIsProbablyEditable":!0,
+"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgMediaViewerOnClick":!0,"wgMediaViewerEnabledByDefault":!0,"wgPopupsReferencePreviews":!1,"wgPopupsConflictsWithNavPopupGadget":!1,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en"},"wgMFDisplayWikibaseDescriptions":{"search":!0,"nearby":!0,"watchlist":!0,"tagline":!1},"wgWMESchemaEditAttemptStepOversample":!1,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgWikibaseItemId":"Q2474726","wgCentralAuthMobileDomain":!1,"wgEditSubmitButtonLabelPublish":!0};RLSTATE={"ext.globalCssJs.user.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","ext.globalCssJs.user":"ready","user":"ready","user.options":"loading","ext.cite.styles":"ready","jquery.makeCollapsible.styles":"ready","mediawiki.toc.styles":"ready","skins.vector.styles.legacy":"ready","wikibase.client.init":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready",
+"ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready"};RLPAGEMODULES=["ext.cite.ux-enhancements","site","mediawiki.page.startup","mediawiki.page.ready","jquery.makeCollapsible","mediawiki.toc","skins.vector.legacy.js","ext.gadget.ReferenceTooltips","ext.gadget.charinsert","ext.gadget.extra-toolbar-buttons","ext.gadget.refToolbar","ext.gadget.switcher","ext.centralauth.centralautologin","mmv.head","mmv.bootstrap.autostart","ext.popups","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging","ext.wikimediaEvents","ext.navigationTiming","ext.uls.compactlinks","ext.uls.interface","ext.cx.eventlogging.campaigns","ext.quicksurveys.init","ext.centralNotice.geoIP","ext.centralNotice.startUp"];</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.loader.implement("user.options@1hzgi",function($,jQuery,require,module){/*@nomin*/mw.user.tokens.set({"patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+});});</script>
+<link rel="stylesheet" href="https://en.wikipedia.org/w/load.php?lang=en&amp;modules=ext.cite.styles%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediaBadges%7Cjquery.makeCollapsible.styles%7Cmediawiki.toc.styles%7Cskins.vector.styles.legacy%7Cwikibase.client.init&amp;only=styles&amp;skin=vector"/>
+<script async="" src="https://en.wikipedia.org/w/load.php?lang=en&amp;modules=startup&amp;only=scripts&amp;raw=1&amp;skin=vector"></script>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="https://en.wikipedia.org/w/load.php?lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=vector"/>
+<meta name="generator" content="MediaWiki 1.35.0-wmf.36"/>
+<meta name="referrer" content="origin"/>
+<meta name="referrer" content="origin-when-crossorigin"/>
+<meta name="referrer" content="origin-when-cross-origin"/>
+<link rel="alternate" type="application/x-wiki" title="Edit this page" href="https://en.wikipedia.org/w/index.php?title=FreeBSD_Ports&amp;action=edit"/>
+<link rel="edit" title="Edit this page" href="https://en.wikipedia.org/w/index.php?title=FreeBSD_Ports&amp;action=edit"/>
+<link rel="apple-touch-icon" href="https://en.wikipedia.org/static/apple-touch/wikipedia.png"/>
+<link rel="shortcut icon" href="https://en.wikipedia.org/static/favicon/wikipedia.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="https://en.wikipedia.org/w/opensearch_desc.php" title="Wikipedia (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="https://en.wikipedia.org/w/api.php?action=rsd"/>
+<link rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/"/>
+<link rel="alternate" type="application/atom+xml" title="Wikipedia Atom feed" href="https://en.wikipedia.org/w/index.php?title=Special:RecentChanges&amp;feed=atom"/>
+<link rel="canonical" href="FreeBSD_Ports"/>
+<link rel="dns-prefetch" href="https://login.wikimedia.org/"/>
+<link rel="dns-prefetch" href="https://meta.wikimedia.org/" />
+<!--[if lt IE 9]><script src="/w/resources/lib/html5shiv/html5shiv.js"></script><![endif]-->
+</head>
+<body class="mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject mw-editable page-FreeBSD_Ports rootpage-FreeBSD_Ports skin-vector action-view skin-vector-legacy">
+<div id="mw-page-base" class="noprint"></div>
+<div id="mw-head-base" class="noprint"></div>
+<div id="content" class="mw-body" role="main">
+	<a id="top"></a>
+		<div id="siteNotice" class="mw-body-content"><!-- CentralNotice --></div>
+	<div class="mw-indicators mw-body-content">
+</div>
+
+	<h1 id="firstHeading" class="firstHeading" lang="en">FreeBSD Ports</h1>
+	
+	<div id="bodyContent" class="mw-body-content">
+		<div id="siteSub" class="noprint">From Wikipedia, the free encyclopedia</div>
+		<div id="contentSub"></div>
+		
+		
+		<div id="jump-to-nav"></div>
+		<a class="mw-jump-link" href="FreeBSD_Ports#mw-head">Jump to navigation</a>
+		<a class="mw-jump-link" href="FreeBSD_Ports#p-search">Jump to search</a>
+		<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><div class="mw-parser-output"><p>
+The <b>FreeBSD Ports collection</b> is a <a href="https://en.wikipedia.org/wiki/Package_management_system" class="mw-redirect" title="Package management system">package management system</a> for the <a href="https://en.wikipedia.org/wiki/FreeBSD" title="FreeBSD">FreeBSD</a> <a href="https://en.wikipedia.org/wiki/Operating_system" title="Operating system">operating system</a>, providing an easy and consistent way of installing software packages. As of February 2020, there are over 38,487 ports<sup id="cite_ref-1" class="reference"><a href="FreeBSD_Ports#cite_note-1">&#91;1&#93;</a></sup> available in the collection. It has also been adopted by <a href="https://en.wikipedia.org/wiki/NetBSD" title="NetBSD">NetBSD</a> as the basis of its <a href="https://en.wikipedia.org/wiki/Pkgsrc" title="Pkgsrc">pkgsrc</a> system.
+</p>
+<div id="toc" class="toc" role="navigation" aria-labelledby="mw-toc-heading"><input type="checkbox" role="button" id="toctogglecheckbox" class="toctogglecheckbox" style="display:none" /><div class="toctitle" lang="en" dir="ltr"><h2 id="mw-toc-heading">Contents</h2><span class="toctogglespan"><label class="toctogglelabel" for="toctogglecheckbox"></label></span></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="FreeBSD_Ports#Installing_from_source"><span class="tocnumber">1</span> <span class="toctext">Installing from source</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="FreeBSD_Ports#Packages"><span class="tocnumber">2</span> <span class="toctext">Packages</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="FreeBSD_Ports#History"><span class="tocnumber">3</span> <span class="toctext">History</span></a></li>
+<li class="toclevel-1 tocsection-4"><a href="FreeBSD_Ports#DPorts"><span class="tocnumber">4</span> <span class="toctext">DPorts</span></a></li>
+<li class="toclevel-1 tocsection-5"><a href="FreeBSD_Ports#See_also"><span class="tocnumber">5</span> <span class="toctext">See also</span></a></li>
+<li class="toclevel-1 tocsection-6"><a href="FreeBSD_Ports#References"><span class="tocnumber">6</span> <span class="toctext">References</span></a></li>
+<li class="toclevel-1 tocsection-7"><a href="FreeBSD_Ports#External_links"><span class="tocnumber">7</span> <span class="toctext">External links</span></a></li>
+</ul>
+</div>
+
+<h2><span class="mw-headline" id="Installing_from_source">Installing from source</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="https://en.wikipedia.org/w/index.php?title=FreeBSD_Ports&amp;action=edit&amp;section=1" title="Edit section: Installing from source">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>The <a href="https://en.wikipedia.org/wiki/Ports_collection" title="Ports collection">ports collection</a> uses <a href="https://en.wikipedia.org/wiki/Makefile" title="Makefile">Makefiles</a> arranged in a <a href="https://en.wikipedia.org/wiki/Directory_structure" title="Directory structure">directory hierarchy</a> so that software can be <a href="https://en.wikipedia.org/wiki/Software_build" title="Software build">built</a>, <a href="https://en.wikipedia.org/wiki/Installation_(computer_programs)" title="Installation (computer programs)">installed</a> and uninstalled with the <b>make</b> command. When installing an application, very little (if any) user intervention is required after issuing a beginning command such as <b>make install</b> or <b>make install clean</b> in the ports directory of the desired <a href="Application_software" title="Application software">application</a>. In most cases the software is automatically downloaded from the <a href="https://en.wikipedia.org/wiki/Internet" title="Internet">Internet</a>, <a href="https://en.wikipedia.org/wiki/Patch_(computing)" title="Patch (computing)">patched</a> and <a href="https://en.wikipedia.org/wiki/Configure_script" title="Configure script">configured</a> if necessary, then <a href="https://en.wikipedia.org/wiki/Compiler" title="Compiler">compiled</a>, installed and registered in the package database. If the new port has needed <a href="https://en.wikipedia.org/wiki/Dependency_(project_management)" title="Dependency (project management)">dependencies</a> on other applications or libraries, these are installed beforehand automatically.
+</p><p>Most ports are already configured with <a href="https://en.wikipedia.org/wiki/Default_(computer_science)" title="Default (computer science)">default options</a> which have been deemed generally appropriate for most users. However, these configuration options (called <i>knobs</i>) can sometimes be changed before installation using the <b>make config</b> command, which brings up a text-based interface that allows the user to select the desired options.
+</p><p>Historically, each port (or software package) has been <a href="https://en.wikipedia.org/wiki/Software_maintenance" title="Software maintenance">maintained</a> by an individual <i>port maintainer</i> who is responsible for ensuring the currency of the port and providing general support. Today, many ports are maintained by special task forces or sub-projects, each with a dedicated <a href="https://en.wikipedia.org/wiki/Mailing_list" title="Mailing list">mailing list</a> (e.g. kde@FreeBSD.org, java@FreeBSD.org, etc.), while unmaintained ports are assigned to the generic group ports@FreeBSD.org. In general, anyone may become a port maintainer by contributing their favorite software to the collection. One may also choose to maintain an existing port with no active maintainer.<sup id="cite_ref-maintain_2-0" class="reference"><a href="FreeBSD_Ports#cite_note-maintain-2">&#91;2&#93;</a></sup>
+</p>
+<h2><span class="mw-headline" id="Packages">Packages</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="https://en.wikipedia.org/w/index.php?title=FreeBSD_Ports&amp;action=edit&amp;section=2" title="Edit section: Packages">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Precompiled (binary) ports are called <i>packages</i>. A package can be created from the corresponding port with the <b>make package</b> command; pre-built packages are also available for download from FreeBSD-hosted package repositories. A user can install a package by passing the package name to the <b>pkg install</b> command. This downloads the appropriate package for the installed FreeBSD release <a href="https://en.wikipedia.org/wiki/Software_versioning" title="Software versioning">version</a>, then installs the application, including any software dependencies it may have. By default, packages are downloaded from the main FreeBSD Package Repository (pkg.freebsd.org).
+</p><p>FreeBSD maintains a <a href="https://en.wikipedia.org/wiki/Compile_farm" title="Compile farm">build farm</a> called the <i>pointyhat cluster</i> in which all packages for all supported <a href="https://en.wikipedia.org/wiki/Computer_architecture" title="Computer architecture">architectures</a> and major <a href="https://en.wikipedia.org/wiki/Software_release_life_cycle" title="Software release life cycle">releases</a> are built. The build <a href="https://en.wikipedia.org/wiki/Server_log" title="Server log">logs</a> and known errors for all ports built into packages through the pointyhat cluster are available in a <a href="https://en.wikipedia.org/wiki/Database" title="Database">database</a> <sup id="cite_ref-portslog_3-0" class="reference"><a href="FreeBSD_Ports#cite_note-portslog-3">&#91;3&#93;</a></sup> and weekly builds logs are also available through mailing list archives<sup id="cite_ref-4" class="reference"><a href="FreeBSD_Ports#cite_note-4">&#91;4&#93;</a></sup>. 
+</p><p>These pre-compiled packages are separated into categories by the architectures for which they are available. Packages are further separated into several "release" directories, one for each current <i>production release</i> built from the ports collection and shipped with the release. These production release directories are never updated.
+</p><p>There are also <i>stable</i> and <i>current</i> directories for several major release branches. These are updated more or less weekly. In most cases a package created for an older version of FreeBSD can be installed and used on a newer system without difficulty since binary backward compatibility across major releases is enabled by default.
+</p><p>A packaging system for binary packages<sup id="cite_ref-5" class="reference"><a href="FreeBSD_Ports#cite_note-5">&#91;5&#93;</a></sup> called <code>pkg</code> has replaced the package management system in <a href="https://en.wikipedia.org/wiki/FreeBSD" title="FreeBSD">FreeBSD</a> 10.<sup id="cite_ref-6" class="reference"><a href="FreeBSD_Ports#cite_note-6">&#91;6&#93;</a></sup>
+</p>
+<h2><span class="mw-headline" id="History">History</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="https://en.wikipedia.org/w/index.php?title=FreeBSD_Ports&amp;action=edit&amp;section=3" title="Edit section: History">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p><a href="https://en.wikipedia.org/wiki/Jordan_Hubbard" title="Jordan Hubbard">Jordan Hubbard</a> committed his <i>port make macros</i> to the FreeBSD CVS repository on August 21, 1994.<sup id="cite_ref-portmacros_7-0" class="reference"><a href="FreeBSD_Ports#cite_note-portmacros-7">&#91;7&#93;</a></sup> His package install suite <i>Makefile</i> had been committed a year earlier (August 26, 1993).<sup id="cite_ref-Makefile_8-0" class="reference"><a href="FreeBSD_Ports#cite_note-Makefile-8">&#91;8&#93;</a></sup> The core ports framework was at first maintained by Hubbard along with Satoshi Asami for several years. The Ports Management Team was later formed to handle this task.
+</p><p><a href="https://en.wikipedia.org/wiki/Pkgsrc" title="Pkgsrc">NetBSD's pkgsrc</a> and <a href="https://en.wikipedia.org/wiki/Ports_collection#OpenBSD_ports" title="Ports collection">OpenBSD's ports collection</a> trace their roots to FreeBSD.
+</p>
+<h2><span class="mw-headline" id="DPorts">DPorts</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="https://en.wikipedia.org/w/index.php?title=FreeBSD_Ports&amp;action=edit&amp;section=4" title="Edit section: DPorts">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Since release 3.6 <a href="https://en.wikipedia.org/wiki/DragonFly_BSD" title="DragonFly BSD">DragonFly BSD</a> project uses FreeBSD Ports as a base for its own <i>DPorts</i> ports collection. John Marino of DragonFly BSD project created <i>DeltaPorts</i> <a href="https://en.wikipedia.org/wiki/Source_code_repository" class="mw-redirect" title="Source code repository">repository</a> – a collection of patches and files that overlay and modify the
+FreeBSD Ports, in order to generate DPorts.<sup id="cite_ref-9" class="reference"><a href="FreeBSD_Ports#cite_note-9">&#91;9&#93;</a></sup><sup id="cite_ref-10" class="reference"><a href="FreeBSD_Ports#cite_note-10">&#91;10&#93;</a></sup>
+</p>
+<h2><span class="mw-headline" id="See_also">See also</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="https://en.wikipedia.org/w/index.php?title=FreeBSD_Ports&amp;action=edit&amp;section=5" title="Edit section: See also">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul><li><a href="https://en.wikipedia.org/wiki/MacPorts" title="MacPorts">MacPorts</a></li></ul>
+<h2><span class="mw-headline" id="References">References</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="https://en.wikipedia.org/w/index.php?title=FreeBSD_Ports&amp;action=edit&amp;section=6" title="Edit section: References">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="reflist" style="list-style-type: decimal;">
+<div class="mw-references-wrap"><ol class="references">
+<li id="cite_note-1"><span class="mw-cite-backlink"><b><a href="FreeBSD_Ports#cite_ref-1">^</a></b></span> <span class="reference-text"><cite class="citation web"><a rel="nofollow" class="external text" href="https://www.freebsd.org/ports/">"About FreeBSD Ports"</a>. freebsd.org<span class="reference-accessdate">. Retrieved <span class="nowrap">December 8,</span> 2019</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=About+FreeBSD+Ports&amp;rft.pub=freebsd.org&amp;rft_id=https%3A%2F%2Fwww.freebsd.org%2Fports%2F&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AFreeBSD+Ports" class="Z3988"></span><style data-mw-deduplicate="TemplateStyles:r951705291">.mw-parser-output cite.citation{font-style:inherit}.mw-parser-output .citation q{quotes:"\"""\"""'""'"}.mw-parser-output .id-lock-free a,.mw-parser-output .citation .cs1-lock-free a{background-image:url("https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Lock-green.svg/9px-Lock-green.svg.png");background-image:linear-gradient(transparent,transparent),url("https://upload.wikimedia.org/wikipedia/commons/6/65/Lock-green.svg");background-repeat:no-repeat;background-size:9px;background-position:right .1em center}.mw-parser-output .id-lock-limited a,.mw-parser-output .id-lock-registration a,.mw-parser-output .citation .cs1-lock-limited a,.mw-parser-output .citation .cs1-lock-registration a{background-image:url("https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Lock-gray-alt-2.svg/9px-Lock-gray-alt-2.svg.png");background-image:linear-gradient(transparent,transparent),url("https://upload.wikimedia.org/wikipedia/commons/d/d6/Lock-gray-alt-2.svg");background-repeat:no-repeat;background-size:9px;background-position:right .1em center}.mw-parser-output .id-lock-subscription a,.mw-parser-output .citation .cs1-lock-subscription a{background-image:url("https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Lock-red-alt-2.svg/9px-Lock-red-alt-2.svg.png");background-image:linear-gradient(transparent,transparent),url("https://upload.wikimedia.org/wikipedia/commons/a/aa/Lock-red-alt-2.svg");background-repeat:no-repeat;background-size:9px;background-position:right .1em center}.mw-parser-output .cs1-subscription,.mw-parser-output .cs1-registration{color:#555}.mw-parser-output .cs1-subscription span,.mw-parser-output .cs1-registration span{border-bottom:1px dotted;cursor:help}.mw-parser-output .cs1-ws-icon a{background-image:url("https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Wikisource-logo.svg/12px-Wikisource-logo.svg.png");background-image:linear-gradient(transparent,transparent),url("https://upload.wikimedia.org/wikipedia/commons/4/4c/Wikisource-logo.svg");background-repeat:no-repeat;background-size:12px;background-position:right .1em center}.mw-parser-output code.cs1-code{color:inherit;background:inherit;border:inherit;padding:inherit}.mw-parser-output .cs1-hidden-error{display:none;font-size:100%}.mw-parser-output .cs1-visible-error{font-size:100%}.mw-parser-output .cs1-maint{display:none;color:#33aa33;margin-left:0.3em}.mw-parser-output .cs1-subscription,.mw-parser-output .cs1-registration,.mw-parser-output .cs1-format{font-size:95%}.mw-parser-output .cs1-kern-left,.mw-parser-output .cs1-kern-wl-left{padding-left:0.2em}.mw-parser-output .cs1-kern-right,.mw-parser-output .cs1-kern-wl-right{padding-right:0.2em}.mw-parser-output .citation .mw-selflink{font-weight:inherit}</style></span>
+</li>
+<li id="cite_note-maintain-2"><span class="mw-cite-backlink"><b><a href="FreeBSD_Ports#cite_ref-maintain_2-0">^</a></b></span> <span class="reference-text"><cite class="citation web"><a rel="nofollow" class="external text" href="https://www.freebsd.org/doc/en/books/porters-handbook/">"Porter's Handbook"</a>. FreeBSD project.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Porter%27s+Handbook&amp;rft.pub=FreeBSD+project&amp;rft_id=https%3A%2F%2Fwww.freebsd.org%2Fdoc%2Fen%2Fbooks%2Fporters-handbook%2F&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AFreeBSD+Ports" class="Z3988"></span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r951705291"/></span>
+</li>
+<li id="cite_note-portslog-3"><span class="mw-cite-backlink"><b><a href="FreeBSD_Ports#cite_ref-portslog_3-0">^</a></b></span> <span class="reference-text"><cite class="citation web"><a rel="nofollow" class="external text" href="https://pointyhat.freebsd.org/errorlogs/">"FreeBSD Package building logs and errors (pointyhat cluster)"</a>. freebsd.org<span class="reference-accessdate">. Retrieved <span class="nowrap">March 26,</span> 2010</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=FreeBSD+Package+building+logs+and+errors+%28pointyhat+cluster%29&amp;rft.pub=freebsd.org&amp;rft_id=https%3A%2F%2Fpointyhat.freebsd.org%2Ferrorlogs%2F&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AFreeBSD+Ports" class="Z3988"></span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r951705291"/></span>
+</li>
+<li id="cite_note-4"><span class="mw-cite-backlink"><b><a href="FreeBSD_Ports#cite_ref-4">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external free" href="https://lists.freebsd.org/mailman/listinfo/freebsd-pkg-fallout">https://lists.freebsd.org/mailman/listinfo/freebsd-pkg-fallout</a></span>
+</li>
+<li id="cite_note-5"><span class="mw-cite-backlink"><b><a href="FreeBSD_Ports#cite_ref-5">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external free" href="https://www.freebsd.org/doc/handbook/pkgng-intro.html">https://www.freebsd.org/doc/handbook/pkgng-intro.html</a></span>
+</li>
+<li id="cite_note-6"><span class="mw-cite-backlink"><b><a href="FreeBSD_Ports#cite_ref-6">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external free" href="https://www.freebsd.org/releases/10.0R/relnotes.html">https://www.freebsd.org/releases/10.0R/relnotes.html</a></span>
+</li>
+<li id="cite_note-portmacros-7"><span class="mw-cite-backlink"><b><a href="FreeBSD_Ports#cite_ref-portmacros_7-0">^</a></b></span> <span class="reference-text"><cite class="citation web"><a rel="nofollow" class="external text" href="https://archive.is/20130415033100/http://www.freebsd.org/cgi/cvsweb.cgi/ports/Mk/bsd.port.mk">"CVS log for ports/Mk/bsd.port.mk"</a>. FreeBSD project. Archived from the original on April 15, 2013<span class="reference-accessdate">. Retrieved <span class="nowrap">January 5,</span> 2020</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=CVS+log+for+ports%2FMk%2Fbsd.port.mk&amp;rft.pub=FreeBSD+project&amp;rft_id=https%3A%2F%2Fwww.freebsd.org%2Fcgi%2Fcvsweb.cgi%2Fports%2FMk%2Fbsd.port.mk&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AFreeBSD+Ports" class="Z3988"></span><span class="cs1-maint citation-comment">CS1 maint: unfit url (<a href="https://en.wikipedia.org/wiki/Category:CS1_maint:_unfit_url" title="Category:CS1 maint: unfit url">link</a>)</span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r951705291"/></span>
+</li>
+<li id="cite_note-Makefile-8"><span class="mw-cite-backlink"><b><a href="FreeBSD_Ports#cite_ref-Makefile_8-0">^</a></b></span> <span class="reference-text"><cite class="citation web"><a rel="nofollow" class="external text" href="https://archive.is/20130414183008/http://www.freebsd.org/cgi/cvsweb.cgi/src/usr.sbin/pkg_install/Makefile">"CVS log for src/usr.sbin/pkg_install/Makefile"</a>. FreeBSD project. Archived from <a rel="nofollow" class="external text" href="https://www.freebsd.org/cgi/cvsweb.cgi/src/usr.sbin/pkg_install/Makefile">the original</a> on April 14, 2013<span class="reference-accessdate">. Retrieved <span class="nowrap">May 26,</span> 2018</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=CVS+log+for+src%2Fusr.sbin%2Fpkg_install%2FMakefile&amp;rft.pub=FreeBSD+project&amp;rft_id=https%3A%2F%2Fwww.freebsd.org%2Fcgi%2Fcvsweb.cgi%2Fsrc%2Fusr.sbin%2Fpkg_install%2FMakefile&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AFreeBSD+Ports" class="Z3988"></span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r951705291"/></span>
+</li>
+<li id="cite_note-9"><span class="mw-cite-backlink"><b><a href="FreeBSD_Ports#cite_ref-9">^</a></b></span> <span class="reference-text"><cite id="CITEREFSherrill2013" class="citation web">Sherrill, Justin (January 12, 2013). <a rel="nofollow" class="external text" href="http://www.shiningsilence.com/dbsdlog/2013/01/12/11008.html">"An early DPorts education"</a>. <i>DragonFly BSD Digest</i><span class="reference-accessdate">. Retrieved <span class="nowrap">April 12,</span> 2014</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=DragonFly+BSD+Digest&amp;rft.atitle=An+early+DPorts+education&amp;rft.date=2013-01-12&amp;rft.aulast=Sherrill&amp;rft.aufirst=Justin&amp;rft_id=http%3A%2F%2Fwww.shiningsilence.com%2Fdbsdlog%2F2013%2F01%2F12%2F11008.html&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AFreeBSD+Ports" class="Z3988"></span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r951705291"/></span>
+</li>
+<li id="cite_note-10"><span class="mw-cite-backlink"><b><a href="FreeBSD_Ports#cite_ref-10">^</a></b></span> <span class="reference-text"><cite id="CITEREFMarino" class="citation web">Marino, John. <a rel="nofollow" class="external text" href="https://github.com/DragonFlyBSD/DeltaPorts">"DeltaPorts"</a>. <i><a href="https://en.wikipedia.org/wiki/GitHub" title="GitHub">GitHub</a></i><span class="reference-accessdate">. Retrieved <span class="nowrap">April 12,</span> 2014</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=GitHub&amp;rft.atitle=DeltaPorts&amp;rft.aulast=Marino&amp;rft.aufirst=John&amp;rft_id=https%3A%2F%2Fgithub.com%2FDragonFlyBSD%2FDeltaPorts&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AFreeBSD+Ports" class="Z3988"></span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r951705291"/></span>
+</li>
+</ol></div></div>
+<h2><span class="mw-headline" id="External_links">External links</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="https://en.wikipedia.org/w/index.php?title=FreeBSD_Ports&amp;action=edit&amp;section=7" title="Edit section: External links">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul><li><a rel="nofollow" class="external text" href="https://www.freebsd.org/ports/index.html">Official FreeBSD Ports web page</a></li>
+<li><a rel="nofollow" class="external text" href="https://www.freshports.org/">FreshPorts</a> - website that tracks port updates</li>
+<li><a rel="nofollow" class="external text" href="https://www.tobez.org/port-tags/">Port-Tags</a> - Project to add tags to the ports collection</li>
+<li><a rel="nofollow" class="external text" href="https://www.freebsd.org/doc/en_US.ISO8859-1/books/handbook/ports.html">Installing Applications: Packages and Ports</a> from the <a href="https://en.wikipedia.org/w/index.php?title=FreeBSD_Handbook&amp;action=edit&amp;redlink=1" class="new" title="FreeBSD Handbook (page does not exist)">FreeBSD Handbook</a> (Chapter 4)</li></ul>
+<div role="navigation" class="navbox" aria-labelledby="The_FreeBSD_Project" style="padding:3px"><table class="nowraplinks mw-collapsible autocollapse navbox-inner" style="border-spacing:0;background:transparent;color:inherit"><tbody><tr><th scope="col" class="navbox-title" colspan="2"><div class="plainlinks hlist navbar mini"><ul><li class="nv-view"><a href="https://en.wikipedia.org/wiki/Template:FreeBSD" title="Template:FreeBSD"><abbr title="View this template" style=";;background:none transparent;border:none;-moz-box-shadow:none;-webkit-box-shadow:none;box-shadow:none; padding:0;">v</abbr></a></li><li class="nv-talk"><a href="https://en.wikipedia.org/wiki/Template_talk:FreeBSD" title="Template talk:FreeBSD"><abbr title="Discuss this template" style=";;background:none transparent;border:none;-moz-box-shadow:none;-webkit-box-shadow:none;box-shadow:none; padding:0;">t</abbr></a></li><li class="nv-edit"><a class="external text" href="https://en.wikipedia.org/w/index.php?title=Template:FreeBSD&amp;action=edit"><abbr title="Edit this template" style=";;background:none transparent;border:none;-moz-box-shadow:none;-webkit-box-shadow:none;box-shadow:none; padding:0;">e</abbr></a></li></ul></div><div id="The_FreeBSD_Project" style="font-size:114%;margin:0 4em">The <a href="https://en.wikipedia.org/wiki/FreeBSD" title="FreeBSD">FreeBSD</a> Project</div></th></tr><tr><th scope="row" class="navbox-group" style="width:1%"><a href="https://en.wikipedia.org/wiki/FreeBSD" title="FreeBSD">FreeBSD</a></th><td class="navbox-list navbox-odd hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="https://en.wikipedia.org/wiki/FreeBSD_Core_Team" title="FreeBSD Core Team">FreeBSD Core Team</a></li>
+<li><a href="https://en.wikipedia.org/wiki/FreeBSD_Documentation_License" title="FreeBSD Documentation License">FreeBSD Documentation License</a></li>
+<li><a href="https://en.wikipedia.org/wiki/FreeBSD_Foundation" title="FreeBSD Foundation">FreeBSD Foundation</a></li>
+<li><a class="mw-selflink selflink">FreeBSD Ports</a></li>
+<li><a href="https://en.wikipedia.org/wiki/FreeBSD_version_history" title="FreeBSD version history">Version History</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Kernel_Normal_Form" title="Kernel Normal Form">Kernel Normal Form</a></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">Subsystems</th><td class="navbox-list navbox-odd hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em"></div><table class="nowraplinks navbox-subgroup" style="border-spacing:0"><tbody><tr><th scope="row" class="navbox-group" style="width:1%"><a href="https://en.wikipedia.org/wiki/Scheduling_(computing)#SCHEDULER" title="Scheduling (computing)">Scheduling</a></th><td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="https://en.wikipedia.org/wiki/ALTQ" title="ALTQ">ALTQ</a></li>
+<li><a href="https://en.wikipedia.org/wiki/ULE_scheduler" title="ULE scheduler">ULE scheduler</a></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%"><a href="https://en.wikipedia.org/wiki/OS-level_virtualisation" class="mw-redirect" title="OS-level virtualisation">Virtualisation</a></th><td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="https://en.wikipedia.org/wiki/Chroot" title="Chroot">chroot</a></li>
+<li><a href="https://en.wikipedia.org/wiki/FreeBSD_jail" title="FreeBSD jail">jail</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Bhyve" title="Bhyve">bhyve</a></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%"><a href="https://en.wikipedia.org/wiki/Computer_data_storage" title="Computer data storage">Storage</a></th><td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="https://en.wikipedia.org/wiki/GEOM" title="GEOM">GEOM</a>
+<ul><li><a href="https://en.wikipedia.org/wiki/Geom_raid5" title="Geom raid5">raid5</a></li>
+<li><a href="https://en.wikipedia.org/wiki/GBDE" title="GBDE">GBDE</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Geli_(software)" title="Geli (software)">geli</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Logical_Volume_Manager_(Linux)" title="Logical Volume Manager (Linux)">LVM2</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Vinum_volume_manager" title="Vinum volume manager">vinum</a></li></ul></li>
+<li><a href="https://en.wikipedia.org/wiki/BSD_disklabel" title="BSD disklabel">disklabel</a>
+<ul><li><a href="https://en.wikipedia.org/wiki/Fdisk" title="Fdisk">fdisk</a></li></ul></li>
+<li><a href="https://en.wikipedia.org/wiki/Unix_File_System" title="Unix File System">UFS</a>
+<ul><li><a href="https://en.wikipedia.org/wiki/Soft_updates" title="Soft updates">Soft updates</a></li></ul></li>
+<li><a href="https://en.wikipedia.org/wiki/Virtual_file_system" title="Virtual file system">VFS</a></li>
+<li><a href="https://en.wikipedia.org/wiki/OpenZFS#ZFS_on_FreeBSD" title="OpenZFS">ZFS</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Highly_Available_STorage" title="Highly Available STorage">Highly Available STorage</a></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%"><a href="https://en.wikipedia.org/wiki/Computer_network" title="Computer network">Networking</a></th><td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="https://en.wikipedia.org/wiki/Comparison_of_open-source_wireless_drivers#FreeBSD" title="Comparison of open-source wireless drivers">802.11 drivers</a></li>
+<li><a href="https://en.wikipedia.org/wiki/ALTQ" title="ALTQ">ALTQ</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Bluetooth_stack#FreeBSD" title="Bluetooth stack">Bluetooth</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Berkeley_Packet_Filter" title="Berkeley Packet Filter">BPF</a></li>
+<li><a href="https://en.wikipedia.org/wiki/IPFilter" title="IPFilter">IPFilter</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Ipfirewall" title="Ipfirewall">ipfw</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Netgraph" title="Netgraph">Netgraph</a></li>
+<li><a href="https://en.wikipedia.org/wiki/NDISwrapper#Similar_programs" title="NDISwrapper">NDIS</a></li>
+<li><a href="https://en.wikipedia.org/wiki/PF_(firewall)" title="PF (firewall)">pf</a>
+<ul><li><a href="https://en.wikipedia.org/wiki/Common_Address_Redundancy_Protocol" title="Common Address Redundancy Protocol">CARP</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Pfsync" title="Pfsync">pfsync</a></li></ul></li>
+<li><a href="https://en.wikipedia.org/wiki/Stream_Control_Transmission_Protocol" title="Stream Control Transmission Protocol">SCTP</a></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">Other</th><td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="https://en.wikipedia.org/wiki/Busdma" title="Busdma">busdma</a></li>
+<li><a href="https://en.wikipedia.org/wiki/DTrace" title="DTrace">DTrace</a></li>
+<li><a href="https://en.wikipedia.org/wiki/OpenPAM" title="OpenPAM">OpenPAM</a></li>
+<li><a href="https://en.wikipedia.org/wiki/OpenBSM" title="OpenBSM">OpenBSM</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Portsnap" title="Portsnap">portsnap</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Kqueue" title="Kqueue">kqueue</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Loadable_kernel_module" title="Loadable kernel module">KLD</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Moused" title="Moused">moused</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Systat_(BSD)" title="Systat (BSD)">systat</a></li></ul>
+</div></td></tr></tbody></table><div></div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">People</th><td class="navbox-list navbox-odd hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="https://en.wikipedia.org/wiki/Matthew_Dillon" title="Matthew Dillon">Matthew Dillon</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Jordan_Hubbard" title="Jordan Hubbard">Jordan Hubbard</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Poul-Henning_Kamp" title="Poul-Henning Kamp">Poul-Henning Kamp</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Michael_J._Karels" title="Michael J. Karels">Mike Karels</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Ben_Laurie" title="Ben Laurie">Ben Laurie</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Samuel_J_Leffler" class="mw-redirect" title="Samuel J Leffler">Sam Leffler</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Marshall_Kirk_McKusick" title="Marshall Kirk McKusick">Marshall Kirk McKusick</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Diomidis_Spinellis" title="Diomidis Spinellis">Diomidis Spinellis</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Robert_Watson_(computer_scientist)" title="Robert Watson (computer scientist)">Robert Watson</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Dru_Lavigne" title="Dru Lavigne">Dru Lavigne</a></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%"><a href="https://en.wikipedia.org/wiki/List_of_products_based_on_FreeBSD" title="List of products based on FreeBSD">Derivatives</a></th><td class="navbox-list navbox-odd hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em"></div><table class="nowraplinks navbox-subgroup" style="border-spacing:0"><tbody><tr><th id="open-source" scope="row" class="navbox-group" style="width:1%"><a href="https://en.wikipedia.org/wiki/Open-source_software" title="Open-source software">open-source</a></th><td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="https://en.wikipedia.org/wiki/XNU" title="XNU">XNU</a>
+<ul><li><a href="https://en.wikipedia.org/wiki/Darwin_(operating_system)" title="Darwin (operating system)">Darwin</a></li></ul></li>
+<li><a href="https://en.wikipedia.org/wiki/DesktopBSD" title="DesktopBSD">DesktopBSD</a></li>
+<li><a href="https://en.wikipedia.org/wiki/DragonFly_BSD" title="DragonFly BSD">DragonFly BSD</a></li>
+<li><a href="https://en.wikipedia.org/wiki/FreeNAS" title="FreeNAS">FreeNAS</a></li>
+<li><a href="https://en.wikipedia.org/wiki/FreeSBIE" title="FreeSBIE">FreeSBIE</a></li>
+<li><a href="https://en.wikipedia.org/wiki/GhostBSD" title="GhostBSD">GhostBSD</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Kylin_(operating_system)" title="Kylin (operating system)">Kylin</a></li>
+<li><a href="https://en.wikipedia.org/wiki/MidnightBSD" title="MidnightBSD">MidnightBSD</a></li>
+<li><a href="https://en.wikipedia.org/wiki/M0n0wall" title="M0n0wall">m0n0wall</a>
+<ul><li><a href="https://en.wikipedia.org/wiki/OPNsense" title="OPNsense">OPNsense</a></li>
+<li><a href="https://en.wikipedia.org/wiki/PfSense" title="PfSense">pfSense</a></li></ul></li>
+<li><a href="https://en.wikipedia.org/wiki/TrueOS" title="TrueOS">TrueOS</a></li>
+<li><a href="https://en.wikipedia.org/wiki/GNU_variants#BSD_variants" title="GNU variants">GNU/kFreeBSD</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Gentoo/FreeBSD" class="mw-redirect" title="Gentoo/FreeBSD">Gentoo/FreeBSD</a></li>
+<li><a href="https://en.wikipedia.org/wiki/XigmaNAS" title="XigmaNAS">XigmaNAS</a></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%"><a href="https://en.wikipedia.org/wiki/Proprietary_software" title="Proprietary software">proprietary</a></th><td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="https://en.wikipedia.org/wiki/Junos" class="mw-redirect" title="Junos">Junos</a></li>
+<li><a href="https://en.wikipedia.org/wiki/MacOS" title="MacOS">macOS</a>, <a href="https://en.wikipedia.org/wiki/IOS" title="IOS">iOS</a>, <a href="https://en.wikipedia.org/wiki/TvOS" title="TvOS">tvOS</a>, and <a href="https://en.wikipedia.org/wiki/WatchOS" title="WatchOS">watchOS</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Nintendo_Switch_system_software" title="Nintendo Switch system software">Nintendo Switch OS</a></li>
+<li><a href="https://en.wikipedia.org/wiki/OpenServer" title="OpenServer">OpenServer 10</a></li>
+<li><a href="https://en.wikipedia.org/wiki/PlayStation_3_system_software" title="PlayStation 3 system software">PlayStation 3 OS</a></li>
+<li><a href="https://en.wikipedia.org/wiki/PlayStation_4_system_software" title="PlayStation 4 system software">PlayStation 4 OS</a></li>
+<li><a href="https://en.wikipedia.org/wiki/PlayStation_Vita_system_software" title="PlayStation Vita system software">PlayStation Vita OS</a></li></ul>
+</div></td></tr></tbody></table><div></div></td></tr></tbody></table></div>
+<div role="navigation" class="navbox" aria-labelledby="Package_managers_(format)" style="padding:3px"><table class="nowraplinks hlist mw-collapsible autocollapse navbox-inner" style="border-spacing:0;background:transparent;color:inherit"><tbody><tr><th scope="col" class="navbox-title" colspan="2"><div class="plainlinks hlist navbar mini"><ul><li class="nv-view"><a href="https://en.wikipedia.org/wiki/Template:Package_management_systems" title="Template:Package management systems"><abbr title="View this template" style=";;background:none transparent;border:none;-moz-box-shadow:none;-webkit-box-shadow:none;box-shadow:none; padding:0;">v</abbr></a></li><li class="nv-talk"><a href="https://en.wikipedia.org/wiki/Template_talk:Package_management_systems" title="Template talk:Package management systems"><abbr title="Discuss this template" style=";;background:none transparent;border:none;-moz-box-shadow:none;-webkit-box-shadow:none;box-shadow:none; padding:0;">t</abbr></a></li><li class="nv-edit"><a class="external text" href="https://en.wikipedia.org/w/index.php?title=Template:Package_management_systems&amp;action=edit"><abbr title="Edit this template" style=";;background:none transparent;border:none;-moz-box-shadow:none;-webkit-box-shadow:none;box-shadow:none; padding:0;">e</abbr></a></li></ul></div><div id="Package_managers_(format)" style="font-size:114%;margin:0 4em"><a href="https://en.wikipedia.org/wiki/Package_manager" title="Package manager">Package managers</a> (<a href="https://en.wikipedia.org/wiki/Package_format" title="Package format">format</a>)</div></th></tr><tr><td colspan="2" class="navbox-list navbox-odd" style="width:100%;padding:0px"><div style="padding:0em 0.25em"></div><table class="nowraplinks mw-collapsible uncollapsed navbox-subgroup" style="border-spacing:0"><tbody><tr><th scope="col" class="navbox-title" colspan="2"><div id="Compiled" style="font-size:114%;margin:0 4em"><a href="https://en.wikipedia.org/wiki/Executable" title="Executable">Compiled</a></div></th></tr><tr><td colspan="2" class="navbox-list navbox-odd" style="width:100%;padding:0px"><div style="padding:0em 0.25em"></div><table class="nowraplinks navbox-subgroup" style="border-spacing:0"><tbody><tr><th scope="row" class="navbox-group" style="width:5em"><a href="https://en.wikipedia.org/wiki/Microsoft_Windows" title="Microsoft Windows">Windows</a></th><td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="https://en.wikipedia.org/wiki/Allmyapps" title="Allmyapps">Allmyapps</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Cygwin" title="Cygwin">Cygwin</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Microsoft_Store_(digital)" title="Microsoft Store (digital)">Microsoft Store</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Npackd" class="mw-redirect" title="Npackd">Npackd</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Nullsoft_Scriptable_Install_System" title="Nullsoft Scriptable Install System">NSIS</a></li>
+<li><a href="https://en.wikipedia.org/wiki/NuGet" title="NuGet">NuGet</a>
+<ul><li><a href="https://en.wikipedia.org/wiki/Chocolatey" class="mw-redirect" title="Chocolatey">Chocolatey</a></li></ul></li>
+<li><a href="https://en.wikipedia.org/wiki/ProGet" title="ProGet">ProGet</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Windows_Package_Manager" title="Windows Package Manager">Windows Package Manager</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Wpkg" class="mw-redirect" title="Wpkg">wpkg</a></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:5em"><a href="https://en.wikipedia.org/wiki/MacOS" title="MacOS">macOS</a></th><td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="https://en.wikipedia.org/wiki/App_Store_(macOS)" title="App Store (macOS)">Mac App Store</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Pkgsrc" title="Pkgsrc">pkgsrc</a></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:5em"><a href="https://en.wikipedia.org/wiki/Linux" title="Linux">Linux</a><br /><a href="https://en.wikipedia.org/wiki/Unix-like" title="Unix-like">Unix-like</a></th><td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;padding:0px"><div style="padding:0em 0.25em"></div><table class="nowraplinks navbox-subgroup" style="border-spacing:0"><tbody><tr><th scope="row" class="navbox-group" style="width:1%"><a href="https://en.wikipedia.org/wiki/Dpkg" title="Dpkg">dpkg</a></th><td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="https://en.wikipedia.org/wiki/APT_(Debian)" class="mw-redirect" title="APT (Debian)">APT</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Aptitude_(software)" title="Aptitude (software)">aptitude</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Dselect" title="Dselect">dselect</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Ubuntu_Software_Center" title="Ubuntu Software Center">Ubuntu Software Center</a></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%"><a href="https://en.wikipedia.org/wiki/RPM_Package_Manager" title="RPM Package Manager">RPM</a></th><td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="Yum_(software)" title="Yum (software)">YUM</a></li>
+<li><a href="https://en.wikipedia.org/wiki/DNF_(software)" title="DNF (software)">DNF</a></li>
+<li><a href="https://en.wikipedia.org/wiki/APT-RPM" title="APT-RPM">APT-RPM</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Up2date" title="Up2date">up2date</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Urpmi" title="Urpmi">urpmi</a></li>
+<li><a href="https://en.wikipedia.org/wiki/ZYpp" title="ZYpp">ZYpp</a></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%"><a href="https://en.wikipedia.org/wiki/Tar_(computing)" title="Tar (computing)">tarball</a></th><td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="https://en.wikipedia.org/wiki/Slapt-get" title="Slapt-get">slapt-get</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Slackpkg" title="Slackpkg">slackpkg</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Netpkg" class="mw-redirect" title="Netpkg">netpkg</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Swaret" title="Swaret">swaret</a></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%"><a href="https://en.wikipedia.org/wiki/Purely_functional_programming" title="Purely functional programming">Purely functional</a></th><td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="https://en.wikipedia.org/wiki/Nix_package_manager" title="Nix package manager">Nix</a></li>
+<li><a href="https://en.wikipedia.org/wiki/GNU_Guix" title="GNU Guix">Guix</a></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">Other</th><td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="https://en.wikipedia.org/wiki/AppImage" title="AppImage">AppImage</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Autopackage" title="Autopackage">Autopackage</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Conary_(package_manager)" title="Conary (package manager)">Conary</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Flatpak" title="Flatpak">Flatpak</a></li>
+<li><a href="https://en.wikipedia.org/wiki/PackageKit" title="PackageKit">PackageKit</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Arch_Linux#pacman" title="Arch Linux">pacman</a></li>
+<li><a href="https://en.wikipedia.org/wiki/TrueOS#Package_management" title="TrueOS">PBI</a></li>
+<li><a href="https://en.wikipedia.org/wiki/PETget" class="mw-redirect" title="PETget">PETget</a></li>
+<li><a href="https://en.wikipedia.org/wiki/PISI" class="mw-redirect" title="PISI">PISI</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Portage_(software)" title="Portage (software)">Portage</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Snap_(package_manager)" title="Snap (package manager)">Snap</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Upkg" class="mw-redirect" title="Upkg">Upkg</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Pkgsrc" title="Pkgsrc">pkgsrc</a></li></ul>
+</div></td></tr></tbody></table><div></div></td></tr><tr><th scope="row" class="navbox-group" style="width:5em"><a href="https://en.wikipedia.org/wiki/Solaris_(operating_system)" title="Solaris (operating system)">Solaris</a> • <a href="https://en.wikipedia.org/wiki/Illumos" title="Illumos">illumos</a></th><td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="https://en.wikipedia.org/wiki/Image_Packaging_System" title="Image Packaging System">IPS</a></li>
+<li><a href="https://en.wikipedia.org/w/index.php?title=Pkgutil&amp;action=edit&amp;redlink=1" class="new" title="Pkgutil (page does not exist)">Pkgutil</a>
+<ul><li><a href="https://en.wikipedia.org/wiki/OpenCSW" title="OpenCSW">OpenCSW</a></li></ul></li>
+<li><a href="https://en.wikipedia.org/wiki/Pkgsrc" title="Pkgsrc">pkgsrc</a></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:5em"><a href="https://en.wikipedia.org/wiki/Z/OS" title="Z/OS">z/OS</a></th><td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="https://en.wikipedia.org/wiki/SMP/E" title="SMP/E">SMP/E</a></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:5em"><a href="https://en.wikipedia.org/wiki/Embedded_operating_system" title="Embedded operating system">Embedded OS</a></th><td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="https://en.wikipedia.org/wiki/Ipkg" title="Ipkg">ipkg</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Opkg" title="Opkg">opkg</a></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:5em"><a href="https://en.wikipedia.org/wiki/Mobile_operating_system" title="Mobile operating system">Mobile OS</a></th><td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="https://en.wikipedia.org/wiki/Amazon_Appstore" title="Amazon Appstore">Amazon Appstore</a></li>
+<li><a href="https://en.wikipedia.org/wiki/App_Store_(iOS)" title="App Store (iOS)">App Store</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Cydia" title="Cydia">Cydia</a></li>
+<li><a href="https://en.wikipedia.org/wiki/F-Droid" title="F-Droid">F-Droid</a></li>
+<li><a href="https://en.wikipedia.org/wiki/GetJar" title="GetJar">GetJar</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Google_Play" title="Google Play">Google Play</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Microsoft_Store_(digital)" title="Microsoft Store (digital)">Microsoft Store</a></li>
+<li><a href="https://en.wikipedia.org/wiki/RPM_Package_Manager" title="RPM Package Manager">RPM</a></li>
+<li><a href="https://en.wikipedia.org/wiki/SlideME" class="mw-redirect" title="SlideME">SlideME</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Windows_Phone_Store" title="Windows Phone Store">Windows Phone Store</a></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:5em"><a href="https://en.wikipedia.org/wiki/Video_game_console" title="Video game console">Gaming console</a></th><td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="https://en.wikipedia.org/wiki/DSi_Shop" class="mw-redirect" title="DSi Shop">DSi Shop</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Nintendo_eShop" title="Nintendo eShop">Nintendo eShop</a></li>
+<li><a href="https://en.wikipedia.org/wiki/PlayStation_Store" title="PlayStation Store">PlayStation Store</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Wii_Shop_Channel" title="Wii Shop Channel">Wii Shop Channel</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Xbox_Games_Store" title="Xbox Games Store">Xbox Games Store</a></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:5em"><a href="https://en.wikipedia.org/wiki/Cross-platform_software" title="Cross-platform software">Multi-platform</a></th><td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="https://en.wikipedia.org/wiki/OpenPKG" title="OpenPKG">OpenPKG</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Pkgsrc" title="Pkgsrc">pkgsrc</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Zero_Install" title="Zero Install">Zero Install</a></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:5em"><a href="https://en.wikipedia.org/wiki/Web_browser" title="Web browser">Web browsers</a></th><td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="https://en.wikipedia.org/wiki/Chrome_Web_Store" title="Chrome Web Store">Chrome Web Store</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Add-on_(Mozilla)#Website" title="Add-on (Mozilla)">Mozilla Add-ons</a></li></ul>
+</div></td></tr></tbody></table><div></div></td></tr></tbody></table><div></div></td></tr><tr><td colspan="2" class="navbox-list navbox-odd" style="width:100%;padding:0px"><div style="padding:0em 0.25em"></div><table class="nowraplinks mw-collapsible uncollapsed navbox-subgroup" style="border-spacing:0"><tbody><tr><th scope="col" class="navbox-title" colspan="2"><div id="Uncompiled" style="font-size:114%;margin:0 4em"><a href="https://en.wikipedia.org/wiki/Source_code" title="Source code">Uncompiled</a></div></th></tr><tr><td colspan="2" class="navbox-list navbox-odd" style="width:100%;padding:0px"><div style="padding:0em 0.25em"></div><table class="nowraplinks navbox-subgroup" style="border-spacing:0"><tbody><tr><th scope="row" class="navbox-group" style="width:1%"><a href="https://en.wikipedia.org/wiki/Linux" title="Linux">Linux</a></th><td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="https://en.wikipedia.org/wiki/Arch_Build_System" class="mw-redirect" title="Arch Build System">ABS</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Apt-build" class="mw-redirect" title="Apt-build">apt-build</a></li>
+<li><a href="https://en.wikipedia.org/wiki/GoboLinux#&quot;Compile&quot;_program" title="GoboLinux">Compile</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Portage_(software)" title="Portage (software)">Portage</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Source_Mage#Sorcery" title="Source Mage">Sorcery</a></li>
+<li><a href="https://en.wikipedia.org/wiki/BitBake" title="BitBake">BitBake</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Pkgsrc" title="Pkgsrc">pkgsrc</a></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%"><a href="https://en.wikipedia.org/wiki/MacOS" title="MacOS">macOS</a></th><td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="https://en.wikipedia.org/wiki/Fink_(software)" title="Fink (software)">Fink</a></li>
+<li><a href="https://en.wikipedia.org/wiki/MacPorts" title="MacPorts">MacPorts</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Homebrew_(package_management_software)" class="mw-redirect" title="Homebrew (package management software)">Homebrew</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Pkgsrc" title="Pkgsrc">pkgsrc</a></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%"><a href="https://en.wikipedia.org/wiki/Berkeley_Software_Distribution" title="Berkeley Software Distribution">BSD</a></th><td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="https://en.wikipedia.org/wiki/Ports_collection" title="Ports collection">ports collection</a></li>
+<li><a class="mw-selflink selflink">FreeBSD Ports</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Pkgsrc" title="Pkgsrc">pkgsrc</a></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%"><a href="https://en.wikipedia.org/wiki/C%2B%2B" title="C++">C++</a></th><td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="https://en.wikipedia.org/wiki/Gradle" title="Gradle">Gradle</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Vcpkg" title="Vcpkg">vcpkg</a></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%"><a href="https://en.wikipedia.org/wiki/Java_(programming_language)" title="Java (programming language)">Java</a></th><td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="https://en.wikipedia.org/wiki/Apache_Maven" title="Apache Maven">Maven</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Apache_Ivy" title="Apache Ivy">Ivy</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Gradle" title="Gradle">Gradle</a></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%"><a href="https://en.wikipedia.org/wiki/Python_(programming_language)" title="Python (programming language)">Python</a></th><td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="https://en.wikipedia.org/wiki/Python_Package_Index" title="Python Package Index">PyPl</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Pip_(package_manager)" title="Pip (package manager)">pip</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Setuptools#EasyInstall" title="Setuptools">easyinstall</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Python_Package_Manager" title="Python Package Manager">PyPM</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Anaconda_(Python_distribution)" title="Anaconda (Python distribution)">Anaconda</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Enthought" title="Enthought">Enthought Canopy</a></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%"><a href="https://en.wikipedia.org/wiki/JavaScript" title="JavaScript">JavaScript</a></th><td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="https://en.wikipedia.org/wiki/Npm_(software)" title="Npm (software)">NPM</a></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%"><a href="https://en.wikipedia.org/wiki/.NET_Framework" title=".NET Framework">.NET</a></th><td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="https://en.wikipedia.org/wiki/NuGet" title="NuGet">NuGet</a></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%"><a href="Perl" title="Perl">Perl</a></th><td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="https://en.wikipedia.org/wiki/CPAN" title="CPAN">CPAN</a></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%"><a href="https://en.wikipedia.org/wiki/Ruby_(programming_language)" title="Ruby (programming language)">Ruby</a></th><td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="https://en.wikipedia.org/wiki/RubyGems" title="RubyGems">RubyGems</a></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%"><a href="https://en.wikipedia.org/wiki/PHP" title="PHP">PHP</a></th><td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="https://en.wikipedia.org/wiki/PEAR" title="PEAR">PEAR</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Composer_(software)" title="Composer (software)">Composer</a></li></ul>
+</div></td></tr></tbody></table><div></div></td></tr></tbody></table><div></div></td></tr><tr><td class="navbox-abovebelow" colspan="2"><div>
+<ul><li><img alt="List-Class article" src="https://upload.wikimedia.org/wikipedia/en/thumb/d/db/Symbol_list_class.svg/16px-Symbol_list_class.svg.png" decoding="async" title="List-Class article" width="16" height="16" srcset="https://upload.wikimedia.org/wikipedia/en/thumb/d/db/Symbol_list_class.svg/23px-Symbol_list_class.svg.png 1.5x, https://upload.wikimedia.org/wikipedia/en/thumb/d/db/Symbol_list_class.svg/31px-Symbol_list_class.svg.png 2x" data-file-width="180" data-file-height="185" /> <b><a href="https://en.wikipedia.org/wiki/List_of_software_package_management_systems" title="List of software package management systems">List</a></b></li>
+<li><img alt="Category" src="https://upload.wikimedia.org/wikipedia/en/thumb/4/48/Folder_Hexagonal_Icon.svg/16px-Folder_Hexagonal_Icon.svg.png" decoding="async" title="Category" width="16" height="14" srcset="https://upload.wikimedia.org/wikipedia/en/thumb/4/48/Folder_Hexagonal_Icon.svg/24px-Folder_Hexagonal_Icon.svg.png 1.5x, https://upload.wikimedia.org/wikipedia/en/thumb/4/48/Folder_Hexagonal_Icon.svg/32px-Folder_Hexagonal_Icon.svg.png 2x" data-file-width="36" data-file-height="31" /> <b><a href="https://en.wikipedia.org/wiki/Category:Package_management_systems" title="Category:Package management systems">Category</a></b></li>
+<li><img alt="Commons page" src="https://upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/12px-Commons-logo.svg.png" decoding="async" title="Commons page" width="12" height="16" srcset="https://upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/18px-Commons-logo.svg.png 1.5x, https://upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/24px-Commons-logo.svg.png 2x" data-file-width="1024" data-file-height="1376" /> <b><a href="https://commons.wikimedia.org/wiki/category:Package_management_systems" class="extiw" title="commons:category:Package management systems">Commons</a></b></li></ul>
+</div></td></tr></tbody></table></div>
+<!-- 
+NewPP limit report
+Parsed by mw1332
+Cached time: 20200521142925
+Cache expiry: 2592000
+Dynamic content: false
+Complications: [vary‐revision‐sha1]
+CPU time usage: 0.288 seconds
+Real time usage: 0.366 seconds
+Preprocessor visited node count: 889/1000000
+Post‐expand include size: 95435/2097152 bytes
+Template argument size: 259/2097152 bytes
+Highest expansion depth: 13/40
+Expensive parser function count: 1/500
+Unstrip recursion depth: 1/20
+Unstrip post‐expand size: 27579/5000000 bytes
+Number of Wikibase entities loaded: 0/400
+Lua time usage: 0.136/10.000 seconds
+Lua memory usage: 3.57 MB/50 MB
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%  273.739      1 -total
+ 53.65%  146.865      1 Template:Reflist
+ 48.47%  132.685      7 Template:Cite_web
+ 17.67%   48.359      1 Template:Use_mdy_dates
+ 16.34%   44.730      6 Template:Navbox
+ 14.13%   38.666      1 Template:Package_management_systems
+ 12.75%   34.888      1 Template:Navbox_with_collapsible_groups
+ 11.60%   31.756      1 Template:FreeBSD
+  6.16%   16.858      1 Template:DMCA
+  5.12%   14.028      1 Template:Dated_maintenance_category
+-->
+
+<!-- Saved in parser cache with key enwiki:pcache:idhash:5128033-0!canonical and timestamp 20200521142925 and revision id 944287605
+ -->
+</div><noscript><img src="https://en.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" alt="" title="" width="1" height="1" style="border: none; position: absolute;" /></noscript></div>
+		<div class="printfooter">Retrieved from "<a dir="ltr" href="https://en.wikipedia.org/w/index.php?title=FreeBSD_Ports&amp;oldid=944287605">https://en.wikipedia.org/w/index.php?title=FreeBSD_Ports&amp;oldid=944287605</a>"</div>
+		<div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="https://en.wikipedia.org/wiki/Help:Category" title="Help:Category">Categories</a>: <ul><li><a href="https://en.wikipedia.org/wiki/Category:Free_package_management_systems" title="Category:Free package management systems">Free package management systems</a></li><li><a href="https://en.wikipedia.org/wiki/Category:FreeBSD" title="Category:FreeBSD">FreeBSD</a></li></ul></div><div id="mw-hidden-catlinks" class="mw-hidden-catlinks mw-hidden-cats-hidden">Hidden categories: <ul><li><a href="https://en.wikipedia.org/wiki/Category:CS1_maint:_unfit_url" title="Category:CS1 maint: unfit url">CS1 maint: unfit url</a></li><li><a href="https://en.wikipedia.org/wiki/Category:Use_mdy_dates_from_June_2013" title="Category:Use mdy dates from June 2013">Use mdy dates from June 2013</a></li></ul></div></div>
+		<div class="visualClear"></div>
+		
+	</div>
+</div>
+<div id='mw-data-after-content'>
+	<div class="read-more-container"></div>
+</div>
+
+<div id="mw-navigation">
+	<h2>Navigation menu</h2>
+	<div id="mw-head">
+		<div id="p-personal" class="vector-menu" aria-labelledby="p-personal-label" 
+	 >
+	<h3 id="p-personal-label">
+		<span>Personal tools</span>
+	</h3>
+	<!-- Please do not use the .body class, it is deprecated. -->
+	<div class="body vector-menu-content">
+		<!-- Please do not use the .menu class, it is deprecated. -->
+		<ul class="vector-menu-content-list"><li id="pt-anonuserpage">Not logged in</li><li id="pt-anontalk"><a href="https://en.wikipedia.org/wiki/Special:MyTalk" title="Discussion about edits from this IP address [n]" accesskey="n">Talk</a></li><li id="pt-anoncontribs"><a href="https://en.wikipedia.org/wiki/Special:MyContributions" title="A list of edits made from this IP address [y]" accesskey="y">Contributions</a></li><li id="pt-createaccount"><a href="https://en.wikipedia.org/w/index.php?title=Special:CreateAccount&amp;returnto=FreeBSD+Ports" title="You are encouraged to create an account and log in; however, it is not mandatory">Create account</a></li><li id="pt-login"><a href="https://en.wikipedia.org/w/index.php?title=Special:UserLogin&amp;returnto=FreeBSD+Ports" title="You&#039;re encouraged to log in; however, it&#039;s not mandatory. [o]" accesskey="o">Log in</a></li></ul>
+		
+	</div>
+</div>
+
+
+		<div id="left-navigation">
+			<div id="p-namespaces" class="vector-menu vector-menu-tabs vectorTabs" aria-labelledby="p-namespaces-label" 
+	 >
+	<h3 id="p-namespaces-label">
+		<span>Namespaces</span>
+	</h3>
+	<!-- Please do not use the .body class, it is deprecated. -->
+	<div class="body vector-menu-content">
+		<!-- Please do not use the .menu class, it is deprecated. -->
+		<ul class="vector-menu-content-list"><li id="ca-nstab-main" class="selected"><a href="FreeBSD_Ports" title="View the content page [c]" accesskey="c">Article</a></li><li id="ca-talk"><a href="https://en.wikipedia.org/wiki/Talk:FreeBSD_Ports" rel="discussion" title="Discuss improvements to the content page [t]" accesskey="t">Talk</a></li></ul>
+		
+	</div>
+</div>
+
+
+			<div id="p-variants" class="vector-menu-empty emptyPortlet vector-menu vector-menu-dropdown vectorMenu" aria-labelledby="p-variants-label" 
+	 >
+	<input type="checkbox" class="vectorMenuCheckbox vector-menu-checkbox" aria-labelledby="p-variants-label" />
+	<h3 id="p-variants-label">
+		<span>Variants</span>
+	</h3>
+	<!-- Please do not use the .body class, it is deprecated. -->
+	<div class="body vector-menu-content">
+		<!-- Please do not use the .menu class, it is deprecated. -->
+		<ul class="menu vector-menu-content-list"></ul>
+		
+	</div>
+</div>
+
+
+		</div>
+		<div id="right-navigation">
+			<div id="p-views" class="vector-menu vector-menu-tabs vectorTabs" aria-labelledby="p-views-label" 
+	 >
+	<h3 id="p-views-label">
+		<span>Views</span>
+	</h3>
+	<!-- Please do not use the .body class, it is deprecated. -->
+	<div class="body vector-menu-content">
+		<!-- Please do not use the .menu class, it is deprecated. -->
+		<ul class="vector-menu-content-list"><li id="ca-view" class="collapsible selected"><a href="FreeBSD_Ports">Read</a></li><li id="ca-edit" class="collapsible"><a href="https://en.wikipedia.org/w/index.php?title=FreeBSD_Ports&amp;action=edit" title="Edit this page [e]" accesskey="e">Edit</a></li><li id="ca-history" class="collapsible"><a href="https://en.wikipedia.org/w/index.php?title=FreeBSD_Ports&amp;action=history" title="Past revisions of this page [h]" accesskey="h">View history</a></li></ul>
+		
+	</div>
+</div>
+
+
+			<div id="p-cactions" class="vector-menu-empty emptyPortlet vector-menu vector-menu-dropdown vectorMenu" aria-labelledby="p-cactions-label" 
+	 >
+	<input type="checkbox" class="vectorMenuCheckbox vector-menu-checkbox" aria-labelledby="p-cactions-label" />
+	<h3 id="p-cactions-label">
+		<span>More</span>
+	</h3>
+	<!-- Please do not use the .body class, it is deprecated. -->
+	<div class="body vector-menu-content">
+		<!-- Please do not use the .menu class, it is deprecated. -->
+		<ul class="menu vector-menu-content-list"></ul>
+		
+	</div>
+</div>
+
+
+			<div id="p-search" role="search">
+	<h3 >
+		<label for="searchInput">Search</label>
+	</h3>
+	<form action="https://en.wikipedia.org/w/index.php" id="searchform">
+		<div id="simpleSearch">
+			<input type="search" name="search" placeholder="Search Wikipedia" title="Search Wikipedia [f]" accesskey="f" id="searchInput"/>
+			<input type="hidden" name="title" value="Special:Search">
+			<input type="submit" name="fulltext" value="Search" title="Search Wikipedia for this text" id="mw-searchButton" class="searchButton mw-fallbackSearchButton"/>
+			<input type="submit" name="go" value="Go" title="Go to a page with this exact name if it exists" id="searchButton" class="searchButton"/>
+		</div>
+	</form>
+</div>
+
+		</div>
+	</div>
+	
+<div id="mw-panel">
+	<div id="p-logo" role="banner">
+		<a  title="Visit the main page" class="mw-wiki-logo" href="Main_Page"></a>
+	</div>
+	<div id="p-navigation" class="vector-menu vector-menu-portal portal portal-first" aria-labelledby="p-navigation-label" 
+	 >
+	<h3 id="p-navigation-label">
+		<span>Navigation</span>
+	</h3>
+	<!-- Please do not use the .body class, it is deprecated. -->
+	<div class="body vector-menu-content">
+		<!-- Please do not use the .menu class, it is deprecated. -->
+		<ul class="vector-menu-content-list"><li id="n-mainpage-description"><a href="Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li><li id="n-contents"><a href="https://en.wikipedia.org/wiki/Wikipedia:Contents" title="Guides to browsing Wikipedia">Contents</a></li><li id="n-currentevents"><a href="https://en.wikipedia.org/wiki/Portal:Current_events" title="Find background information on current events">Current events</a></li><li id="n-randompage"><a href="https://en.wikipedia.org/wiki/Special:Random" title="Visit a randomly selected article [x]" accesskey="x">Random article</a></li><li id="n-aboutsite"><a href="https://en.wikipedia.org/wiki/Wikipedia:About" title="Learn about Wikipedia and how it works">About Wikipedia</a></li><li id="n-contactpage"><a href="https://en.wikipedia.org/wiki/Wikipedia:Contact_us" title="How to contact Wikipedia">Contact us</a></li><li id="n-sitesupport"><a href="https://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=C13_en.wikipedia.org&amp;uselang=en" title="Support us by donating to the Wikimedia Foundation">Donate</a></li><li id="n-shoplink"><a href="https://shop.wikimedia.org/" title="Visit the Wikipedia store">Wikipedia store</a></li></ul>
+		
+	</div>
+</div>
+
+
+	<div id="p-interaction" class="vector-menu vector-menu-portal portal" aria-labelledby="p-interaction-label" 
+	 >
+	<h3 id="p-interaction-label">
+		<span>Contribute</span>
+	</h3>
+	<!-- Please do not use the .body class, it is deprecated. -->
+	<div class="body vector-menu-content">
+		<!-- Please do not use the .menu class, it is deprecated. -->
+		<ul class="vector-menu-content-list"><li id="n-help"><a href="https://en.wikipedia.org/wiki/Help:Contents" title="Guidance on how to use and edit Wikipedia">Help</a></li><li id="n-portal"><a href="https://en.wikipedia.org/wiki/Wikipedia:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li><li id="n-recentchanges"><a href="https://en.wikipedia.org/wiki/Special:RecentChanges" title="A list of recent changes to Wikipedia [r]" accesskey="r">Recent changes</a></li><li id="n-upload"><a href="https://en.wikipedia.org/wiki/Wikipedia:File_Upload_Wizard" title="Add images or other media for use on Wikipedia">Upload file</a></li></ul>
+		
+	</div>
+</div>
+
+<div id="p-tb" class="vector-menu vector-menu-portal portal" aria-labelledby="p-tb-label" 
+	 >
+	<h3 id="p-tb-label">
+		<span>Tools</span>
+	</h3>
+	<!-- Please do not use the .body class, it is deprecated. -->
+	<div class="body vector-menu-content">
+		<!-- Please do not use the .menu class, it is deprecated. -->
+		<ul class="vector-menu-content-list"><li id="t-whatlinkshere"><a href="https://en.wikipedia.org/wiki/Special:WhatLinksHere/FreeBSD_Ports" title="List of all English Wikipedia pages containing links to this page [j]" accesskey="j">What links here</a></li><li id="t-recentchangeslinked"><a href="https://en.wikipedia.org/wiki/Special:RecentChangesLinked/FreeBSD_Ports" rel="nofollow" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li><li id="t-upload"><a href="https://en.wikipedia.org/wiki/Wikipedia:File_Upload_Wizard" title="Upload files [u]" accesskey="u">Upload file</a></li><li id="t-specialpages"><a href="https://en.wikipedia.org/wiki/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li><li id="t-permalink"><a href="https://en.wikipedia.org/w/index.php?title=FreeBSD_Ports&amp;oldid=944287605" title="Permanent link to this revision of this page">Permanent link</a></li><li id="t-info"><a href="https://en.wikipedia.org/w/index.php?title=FreeBSD_Ports&amp;action=info" title="More information about this page">Page information</a></li><li id="t-wikibase"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q2474726" title="Structured data on this page hosted by Wikidata [g]" accesskey="g">Wikidata item</a></li><li id="t-cite"><a href="https://en.wikipedia.org/w/index.php?title=Special:CiteThisPage&amp;page=FreeBSD_Ports&amp;id=944287605&amp;wpFormIdentifier=titleform" title="Information on how to cite this page">Cite this page</a></li></ul>
+		
+	</div>
+</div>
+
+<div id="p-lang" class="vector-menu vector-menu-portal portal" aria-labelledby="p-lang-label" 
+	 >
+	<h3 id="p-lang-label">
+		<span>Languages</span>
+	</h3>
+	<!-- Please do not use the .body class, it is deprecated. -->
+	<div class="body vector-menu-content">
+		<!-- Please do not use the .menu class, it is deprecated. -->
+		<ul class="vector-menu-content-list"><li class="interlanguage-link interwiki-fa"><a href="https://fa.wikipedia.org/wiki/%D9%BE%D9%88%D8%B1%D8%AA%E2%80%8C%D9%87%D8%A7%DB%8C_%D9%81%D8%B1%DB%8C%E2%80%8C%D8%A8%DB%8C%E2%80%8C%D8%A7%D8%B3%E2%80%8C%D8%AF%DB%8C" title="پورت‌های فری‌بی‌اس‌دی – Persian" lang="fa" hreflang="fa" class="interlanguage-link-target">فارسی</a></li><li class="interlanguage-link interwiki-no"><a href="https://no.wikipedia.org/wiki/FreeBSD_Ports" title="FreeBSD Ports – Norwegian Bokmål" lang="nb" hreflang="nb" class="interlanguage-link-target">Norsk bokmål</a></li><li class="interlanguage-link interwiki-pl"><a href="https://pl.wikipedia.org/wiki/Porty_FreeBSD" title="Porty FreeBSD – Polish" lang="pl" hreflang="pl" class="interlanguage-link-target">Polski</a></li><li class="interlanguage-link interwiki-pt"><a href="https://pt.wikipedia.org/wiki/Sistema_de_Ports" title="Sistema de Ports – Portuguese" lang="pt" hreflang="pt" class="interlanguage-link-target">Português</a></li><li class="interlanguage-link interwiki-ru"><a href="https://ru.wikipedia.org/wiki/%D0%9F%D0%BE%D1%80%D1%82%D1%8B_FreeBSD" title="Порты FreeBSD – Russian" lang="ru" hreflang="ru" class="interlanguage-link-target">Русский</a></li><li class="interlanguage-link interwiki-zh"><a href="https://zh.wikipedia.org/wiki/FreeBSD_Ports" title="FreeBSD Ports – Chinese" lang="zh" hreflang="zh" class="interlanguage-link-target">中文</a></li></ul>
+		<div class="after-portlet after-portlet-lang"><span class="wb-langlinks-edit wb-langlinks-link"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q2474726#sitelinks-wikipedia" title="Edit interlanguage links" class="wbc-editpage">Edit links</a></span></div>
+	</div>
+</div>
+
+<div id="p-coll-print_export" class="vector-menu vector-menu-portal portal" aria-labelledby="p-coll-print_export-label" 
+	 >
+	<h3 id="p-coll-print_export-label">
+		<span>Print/export</span>
+	</h3>
+	<!-- Please do not use the .body class, it is deprecated. -->
+	<div class="body vector-menu-content">
+		<!-- Please do not use the .menu class, it is deprecated. -->
+		<ul class="vector-menu-content-list"><li id="coll-download-as-rl"><a href="https://en.wikipedia.org/w/index.php?title=Special:ElectronPdf&amp;page=FreeBSD+Ports&amp;action=show-download-screen" title="Download this page as a PDF file">Download as PDF</a></li><li id="t-print"><a href="https://en.wikipedia.org/w/index.php?title=FreeBSD_Ports&amp;printable=yes" title="Printable version of this page [p]" accesskey="p">Printable version</a></li></ul>
+		
+	</div>
+</div>
+
+
+</div>
+
+</div>
+
+<div id="footer" class="mw-footer" role="contentinfo" >
+	<ul id="footer-info" >
+		<li id="footer-info-lastmod"> This page was last edited on 6 March 2020, at 21:45<span class="anonymous-show">&#160;(UTC)</span>.</li>
+		<li id="footer-info-copyright">Text is available under the <a rel="license" href="https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License">Creative Commons Attribution-ShareAlike License</a><a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/" style="display:none;"></a>;
+additional terms may apply.  By using this site, you agree to the <a href="https://foundation.wikimedia.org/wiki/Terms_of_Use">Terms of Use</a> and <a href="https://foundation.wikimedia.org/wiki/Privacy_policy">Privacy Policy</a>. Wikipedia® is a registered trademark of the <a href="https://www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.</li>
+	</ul>
+	<ul id="footer-places" >
+		<li id="footer-places-privacy"><a href="https://foundation.wikimedia.org/wiki/Privacy_policy" class="extiw" title="wmf:Privacy policy">Privacy policy</a></li>
+		<li id="footer-places-about"><a href="https://en.wikipedia.org/wiki/Wikipedia:About" title="Wikipedia:About">About Wikipedia</a></li>
+		<li id="footer-places-disclaimer"><a href="https://en.wikipedia.org/wiki/Wikipedia:General_disclaimer" title="Wikipedia:General disclaimer">Disclaimers</a></li>
+		<li id="footer-places-contact"><a href="https://en.wikipedia.org/wiki/Wikipedia:Contact_us">Contact Wikipedia</a></li>
+		<li id="footer-places-developers"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/How_to_contribute">Developers</a></li>
+		<li id="footer-places-statslink"><a href="https://stats.wikimedia.org/#/en.wikipedia.org">Statistics</a></li>
+		<li id="footer-places-cookiestatement"><a href="https://foundation.wikimedia.org/wiki/Cookie_statement">Cookie statement</a></li>
+		<li id="footer-places-mobileview"><a href="https://en.m.wikipedia.org/w/index.php?title=FreeBSD_Ports&amp;mobileaction=toggle_view_mobile" class="noprint stopMobileRedirectToggle">Mobile view</a></li>
+	</ul>
+	<ul id="footer-icons" class="noprint">
+		<li id="footer-copyrightico"><a href="https://wikimediafoundation.org/"><img src="https://en.wikipedia.org/static/images/wikimedia-button.png" srcset="https://en.wikipedia.org/static/images/wikimedia-button-1.5x.png 1.5x, https://en.wikipedia.org/static/images/wikimedia-button-2x.png 2x" width="88" height="31" alt="Wikimedia Foundation" loading="lazy" /></a></li>
+		<li id="footer-poweredbyico"><a href="https://www.mediawiki.org/"><img src="https://en.wikipedia.org/static/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" srcset="https://en.wikipedia.org/static/images/poweredby_mediawiki_132x47.png 1.5x, https://en.wikipedia.org/static/images/poweredby_mediawiki_176x62.png 2x" width="88" height="31"/></a></li>
+	</ul>
+	<div style="clear: both;"></div>
+</div>
+
+
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.288","walltime":"0.366","ppvisitednodes":{"value":889,"limit":1000000},"postexpandincludesize":{"value":95435,"limit":2097152},"templateargumentsize":{"value":259,"limit":2097152},"expansiondepth":{"value":13,"limit":40},"expensivefunctioncount":{"value":1,"limit":500},"unstrip-depth":{"value":1,"limit":20},"unstrip-size":{"value":27579,"limit":5000000},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%  273.739      1 -total"," 53.65%  146.865      1 Template:Reflist"," 48.47%  132.685      7 Template:Cite_web"," 17.67%   48.359      1 Template:Use_mdy_dates"," 16.34%   44.730      6 Template:Navbox"," 14.13%   38.666      1 Template:Package_management_systems"," 12.75%   34.888      1 Template:Navbox_with_collapsible_groups"," 11.60%   31.756      1 Template:FreeBSD","  6.16%   16.858      1 Template:DMCA","  5.12%   14.028      1 Template:Dated_maintenance_category"]},"scribunto":{"limitreport-timeusage":{"value":"0.136","limit":"10.000"},"limitreport-memusage":{"value":3743617,"limit":52428800}},"cachereport":{"origin":"mw1332","timestamp":"20200521142925","ttl":2592000,"transientcontent":false}}});});</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"FreeBSD Ports","url":"https:\/\/en.wikipedia.org\/wiki\/FreeBSD_Ports","sameAs":"http:\/\/www.wikidata.org\/entity\/Q2474726","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q2474726","author":{"@type":"Organization","name":"Contributors to Wikimedia projects"},"publisher":{"@type":"Organization","name":"Wikimedia Foundation, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2006-05-13T12:55:58Z","dateModified":"2020-03-06T21:45:21Z"}</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":98,"wgHostname":"mw1389"});});</script></body></html>

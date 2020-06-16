@@ -1,0 +1,183 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+ <title>Station Staff | WMUC Radio</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<style type="text/css" media="all">@import "/misc/drupal.css";</style><link rel="shortcut icon" href="/files/favicon.ico" type="image/x-icon" />
+<style type="text/css" media="all">@import "/themes/chameleon/common.css";</style><style type="text/css" media="all">@import "/themes/chameleon/style.css";</style><meta property="og:image" content="http://wmuc.umd.edu/themes/chameleon/logo.png" /></head><body>
+ <div id="header">  <a href="/" title="Home"><img src="/themes/chameleon/logo.png" alt="Home" /></a>  <div class="site-slogan"></div></div>
+ <div class="navlinks"><div class="primary"></div><div class="secondary"></div> </div>
+ <table id="content">
+  <tr>
+   <td id="sidebar-left"><div class="block block-bcast" id="block-bcast-1">
+ <h2 class="title">Listen Online</h2>
+ <div class="content"><ul><li><object type="application/x-shockwave-flash" width="17" height="17" data="http://wmuc.umd.edu/files/musicplayer.swf?&song_url=http://wmuc.umd.edu:8000/wmuc-hq"> <param name="movie" value="http://wmuc.umd.edu/files/musicplayer.swf?&song_url=http://wmuc.umd.edu:8000/wmuc-hq"/></object> <a href="http://wmuc.umd.edu/wmuc-high.m3u">WMUC FM</a><br></li><li><object type="application/x-shockwave-flash" width="17" height="17" data="http://wmuc.umd.edu/files/musicplayer.swf?&song_url=http://wmuc.umd.edu:8000/wmuc2-high"> <param name="movie" value="http://wmuc.umd.edu/files/musicplayer.swf?&song_url=http://wmuc.umd.edu:8000/wmuc2-high"/></object> <a href="http://wmuc.umd.edu/wmuc2-high.m3u">WMUC Digital</a></li><li><br></div>
+</div>
+<div class="block block-bcast" id="block-bcast-2">
+ <h2 class="title"></h2>
+ <div class="content"><ul id="navigation">
+					<li><a href="/station/schedule">WMUC FM Schedule</a></li>
+					<li><a href="/station/schedule/0/2">WMUC Digital Schedule</a></li>
+					 <li><a href="/chat">Webchat on WMUCNet</a></li>
+		<!--			 <li><a href="/station/calendar">Calendar</a></li> -->
+					<li><a href="/station/shows">Show Profiles</a></li>
+					<li><a href="/station/profiles">DJ Profiles</a></li>
+					<li><a href="/station/playlists">Recent Playlists</a></li>
+					<ul><li><a href="/station/playlists/archive">Playlist Archive</a></li></ul>
+					<li><a href="http://wmuc.umd.edu/stream_ripper">Show Archive (MP3)</a></li>
+					<li><a href="http://wmucradio.tumblr.com">WMUC Blog</a></li>
+		<!--			<li><a href="http://wmuc.umd.edu/forum">Discussion Board</a></li>-->
+					<li><a href="http://www.wmucsports.net">WMUC Sports</a></li>
+					<li><a href="http://wmucnews.umd.edu">WMUC News</a></li>
+					<li>Any person with a disability who requires assistance with access to WMUC-FM’s FCC public inspection file may call 301-314-7867 or email wmuc.gm@gmail.com with inquiries. </li>
+	<!--				<br>				
+					<li><a href="/node/38">Recording Studio</a></li>
+					<li><a href="/node/14">Station History</a></li>
+					<li><a href="/node/8" class="active">Contact the Staff</a></li>
+					<li><a href="/node/6">Submitting Music</a></li>
+					<li><a href="/node/7">Submitting PSAs</a></li>
+					<li><a href="/node/9">Underwriting</a></li> -->
+					</ul></div>
+</div>
+<div class="block block-menu" id="block-menu-2">
+ <h2 class="title">General Links</h2>
+ <div class="content">
+<ul class="menu">
+<li class="leaf"><a href="/node/465">Get Involved</a></li>
+<li class="leaf"><a href="/node/14">Station History</a></li>
+<li class="leaf"><a href="https://publicfiles.fcc.gov/fm-profile/wmuc-fm">WMUC Online Public Inspection File</a></li>
+<li class="leaf"><a href="/node/761">Donate to Support WMUC</a></li>
+<li class="leaf"><a href="/node/8" class="active">Contact the Staff</a></li>
+<li class="leaf"><a href="/node/38">Recording Studio</a></li>
+<li class="leaf"><a href="/node/6">Submitting Music</a></li>
+<li class="leaf"><a href="/node/7">Submitting PSAs</a></li>
+
+</ul>
+</div>
+</div>
+</td>
+   <td id="main">
+<div class="breadcrumb"><a href="/">Home</a></div><h2>Station Staff</h2>
+<!-- begin content -->
+<div class="node">
+ <div class="content">
+<p><strong>General Manager: Maddie Metcalfe</strong><br />
+<a href="mailto:wmucgm@gmail.com">wmuc.gm@gmail.com</a><br />
+<em>Office Hours: By appointment. Please email<a href="mailto:wmucgm@gmail.com">wmuc.gm@gmail.com</a> to schedule a time.</em></p>
+<p><strong>Program Director: Sydney Wess</strong><br />
+<a href="mailto:programmingwmuc@gmail.com">programming.wmuc@gmail.com</a><br />
+<em>Office Hours: TBA</em></p>
+<p><strong>Operations Director: Alex Minassian</strong><br />
+<a href="mailto:wmuc.ops@gmail.com">wmuc.ops@gmail.com</a><br />
+<em>Office Hours: TBA</em></p>
+<p><strong>Business Director: Anthony Cuonzo</strong><br />
+<a href="mailto:wmuc.biz@gmail.com">wmuc.biz@gmail.com</a><br />
+<em>Office Hours: TBA</em></p>
+<p><strong>Music Director: Jordan Stovka</strong><br />
+<strong>Assistant Music Director: Teresa Johnson</strong><br />
+<a href="mailto:wmucmusicdir@gmail.com">wmuc.musicdir@gmail.com</a><br />
+<em>Office Hours: TBA</em><br />
+<em>For artists/representatives of artists who would like to be played on WMUC. WMUC does not accept digital submissions. Send submissions to 3130 Campus Dr, College Park, MD 20742</em><br />
+<em> Office Phone: 301-314-7867 </em><br />
+<strong>Music Team</strong><br />
+<em> Meeting Times: TBA</em></p>
+<p><strong>Record Library Manager: Matthew Gates</strong><br />
+<a href="mailto:wmuclibrarian@gmail.com">wmuc.librarian@gmail.com</a><br />
+<em> Office Hours: TBA</em><br />
+<strong>Record Library Team</strong><br />
+<em>Meeting Times: TBA</em></p>
+<p><strong>Promotions Director: Ava Mirzadegan</strong><br />
+<a href="mailto:wmucpromos@gmail.com">wmuc.promos@gmail.com</a><br />
+<em> Office Hours: TBA</em><br />
+<strong>Promotions Team</strong><br />
+<em> Meeting Times: TBA</em></p>
+<p><strong>Community Outreach Director: Alexya Brown</strong><br />
+<a href="mailto:wmuc.outreach@gmail.com">wmuc.outreach@gmail.com</a><br />
+<em> Office Hours: TBA</em><br />
+<strong>Promotions Team</strong><br />
+<em> Meeting Times: TBA</em></p>
+<p><strong>Social Media Director: Katherine Zmoda</strong><br />
+<strong>Assistant Social Media Director: Ericka Njeumi</strong><br />
+<a href="mailto:wmuc.social@gmail.com">wmuc.social@gmail.com</a><br />
+<em> Office Hours: TBA</em><br />
+<strong>Promotions Team</strong><br />
+<em> Meeting Times: TBA</em></p>
+<p><strong>Graphic Design Manager: Theresa Phan</strong><br />
+<a href="mailto:wmuc.graphics@gmail.com">wmuc.graphics@gmail.com</a></p>
+<p><strong>Live Music Director: Arthi Vijaykumar</strong>u<br />
+<strong>Assistant Live Music Director: Rashid Ahmad</strong><br />
+<a href="mailto:wmuclivemusic@gmail.com">wmuc.livemusic@gmail.com</a><br />
+<em> Office Hours: TBA</em><br />
+<em>Want to perform live on WMUC? Get in touch!</em></p>
+<p><strong>Video Team Manager: Joseph Antony</strong><br />
+<a href="mailto:jantony789@gmail.com">jantony789@gmail.com</a><br />
+<strong>Video Team</strong><br />
+<em> Meeting Times: Sundays 5:30 PM in WMUC Live Room</em></p>
+<p><strong>IT Director: Matthew Mazzanti</strong><br />
+<a href="mailto:wmuc.it@gmail.com">wmuc.it@gmail.com</a><br />
+<em>Office Hours: TBA</em></p>
+<p><strong>App Manager: Jake Gluck</strong><br />
+<a href="mailto:wmuc.apps@gmail.com">wmuc.apps@gmail.com</a><br />
+<strong>App Team</strong><br />
+<em> Meeting Times: TBA</em></p>
+<p><strong>Chief Engineer: Sam Becraft</strong><br />
+<a href="mailto:engineering.wmuc@gmail.com">engineering.wmuc@gmail.com</a><br />
+<em> Office Hours: Sundays 3:00 - 4:00 PM</em><br />
+<strong>Engineering Team</strong><br />
+<em> Meeting Times: Sundays at 3 PM in Engineering Office</em></p>
+<p><strong>Recording Studio Director: Jay Kinnaman</strong><br />
+<a href="mailto:wmuc.recordingstudio@gmail.com">wmuc.recordingstudio@gmail.com</a><br />
+<em> Office Hours: Sundays 5:00 - 6:00 PM</em><br />
+<strong>Recording Studio Team</strong><br />
+<em> Meeting Times: Sundays 5 PM in WMUC Live Room &amp; Recording Studio</em></p>
+<p><strong>News Directors: Tyler Boyle and Anna Muckerman</strong><br />
+<a href="mailto:wmucnewsdirector@gmail.com">wmuc.newsdirector@gmail.com</a><br />
+<em> Office Hours: TBA</em><br />
+<strong>News, Drop the Pop, Humpnight</strong><br />
+<em> Contact <a href="mailto:wmucnewsdirector@gmail.com">wmuc.newsdirector@gmail.com</a> for meeting times</em></p>
+<p><strong>Sports Directors: Liam Beatus and Megan Smedley</strong><br />
+<a href="mailto:wmucsports@gmail.com">wmuc.sports@gmail.com</a><br />
+<a href="http://www.wmucsports.net"> www.wmucsports.net</a><br />
+<em>For anything and everything involving WMUC's Sports department, click over to their site and get in touch.</em></p>
+ </div>
+ <div class="links">By Webmaster at 2006-02-13 16:50 | <a href="/user/login?destination=comment/reply/8%2523comment_form">login</a> to post comments</div>
+</div>
+
+<!-- end content -->
+   </td>
+   <td id="sidebar-right"><div class="block block-user" id="block-user-0">
+ <h2 class="title">User login</h2>
+ <div class="content"><form action="/node/8?destination=node%2F8"  method="post" id="user-login-form">
+<div><div class="form-item">
+ <label for="edit-name">Username: <span class="form-required" title="This field is required.">*</span></label>
+ <input type="text" maxlength="60" name="edit[name]" id="edit-name"  size="15" value="" class="form-text required" />
+</div>
+<div class="form-item">
+ <label for="edit-pass">Password: <span class="form-required" title="This field is required.">*</span></label>
+ <input type="password" name="edit[pass]" id="edit-pass"  maxlength="60"  size="15"  class="form-text required" />
+</div>
+<input type="submit" name="op" value="Log in"  class="form-submit" />
+<div class="item-list"><ul><li><a href="/user/password" title="Request new password via e-mail.">Request new password</a></li></ul></div><input type="hidden" name="edit[form_id]" id="edit-user-login-block" value="user_login_block"  />
+
+</div></form>
+</div>
+</div>
+<div class="block block-menu" id="block-menu-4">
+ <h2 class="title"></h2>
+ <div class="content">
+<ul class="menu">
+<li class="leaf"><a href="https://www.facebook.com/wmucfm">Find us on Facebook</a></li>
+<li class="leaf"><a href="https://twitter.com/wmucradio">Follow WMUC on Twitter!</a></li>
+<li class="leaf"><a href="http://wmucradio.tumblr.com/">WMUC Tumblr</a></li>
+<li class="leaf"><a href="https://www.google.com/calendar/embed?src=4uv6ic199hqmdgagpe78tcjru0%40group.calendar.google.com&amp;ctz=America/New_York">WMUC Calendar</a></li>
+<li class="leaf"><a href="https://www.google.com/calendar/embed?src=qq5g95m1io4aa0u518df4p41l4%40group.calendar.google.com&amp;ctz=America/New_York">Recording Calendar</a></li>
+<li class="leaf"><a href="http://www.umd.edu" title="University of Maryland">UMD</a></li>
+
+</ul>
+</div>
+</div>
+</td>
+  </tr>
+ </table>
+ </body>
+</html>

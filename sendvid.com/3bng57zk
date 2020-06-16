@@ -1,0 +1,710 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8"/>
+
+  <title>anearthshapedheart2 - Sendvid</title>
+<meta name="description" content="Upload and share videos instantly. It's free and simple. No signup required."/>
+<meta name="viewport" content="width=device-width,initial-scale=1,minimal-ui"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+
+<style type="text/css">
+  #preload-01 {background: url(https://sendvid.com/assets/clouds-1d4ec0bc4ced986e867e5da480d22eb9.png) no-repeat -9999px -9999px;}
+  #preload-video-still {background: url(https://thumbs3.sendvid.com/3f/90/3bng57zk.jpg) no-repeat -9999px -9999px;}
+</style>
+
+
+<link rel="shortcut icon" href="https://sendvid.com/favicon.ico" type="image/x-icon" />
+<link rel="apple-touch-icon" href="https://sendvid.com/assets/apple-touch-icon-dae20db09b635822e00dce9e95179c2c.png" />
+<link rel="apple-touch-icon" sizes="57x57" href="https://sendvid.com/assets/apple-touch-icon-57x57-dae20db09b635822e00dce9e95179c2c.png" />
+<link rel="apple-touch-icon" sizes="72x72" href="https://sendvid.com/assets/apple-touch-icon-72x72-c4b09a77d057593282f49b3fa9bd391a.png" />
+<link rel="apple-touch-icon" sizes="76x76" href="https://sendvid.com/assets/apple-touch-icon-76x76-7bfdd4b029b8bd06480ecad9410356a7.png" />
+<link rel="apple-touch-icon" sizes="114x114" href="https://sendvid.com/assets/apple-touch-icon-114x114-a097d0a8fd18b2cfabeca5e277cd6d04.png" />
+<link rel="apple-touch-icon" sizes="120x120" href="https://sendvid.com/assets/apple-touch-icon-120x120-2d26e3fa5fca3ff79406b47f84a9fdd1.png" />
+<link rel="apple-touch-icon" sizes="144x144" href="https://sendvid.com/assets/apple-touch-icon-144x144-8dc551b3084b29518c6abb7f93256c7d.png" />
+<link rel="apple-touch-icon" sizes="152x152" href="https://sendvid.com/assets/apple-touch-icon-152x152-26c21435edc004f9e220e20796386e21.png" />
+
+<meta name="google-site-verification" content="vZ7tmnlUbaULjrLx-3wfCJOv9E37yctErvGymKXQL7g" />
+<meta name="google-site-verification" content="qDd4qDEuw_xi__rtemu1yv_2G9aZ9SeC3FIZ-38P0Mw" />
+
+<!--
+<meta name="apple-itunes-app" content="app-id=989134130"/>
+-->
+<meta name="msvalidate.01" content="8088E6014CFD78990F3DE4A02545D9B3" />
+
+<meta name="ROBOTS" content="NOINDEX, NOFOLLOW"/>
+
+
+      <meta name="twitter:card" content="player"/>
+    <meta name="twitter:title" content="anearthshapedheart2"/>
+    <meta name="twitter:player" content="https://sendvid.com/embed/3bng57zk"/>
+    <meta name="twitter:player:width" content="720"/>
+    <meta name="twitter:player:height" content="405"/>
+    <meta name="twitter:image" content="https://sendvid.comhttps://thumbs3.sendvid.com/3f/90/3bng57zk.jpg"/>
+
+    <meta property="fb:app_id" content="283868891821069"/>
+
+    <meta property="og:site_name" content="Sendvid"/>
+    <meta property="og:url" content="https://sendvid.com/3bng57zk"/>
+    <meta property="og:title" content="anearthshapedheart2"/>
+    <meta property="og:image" content="https://sendvid.comhttps://thumbs3.sendvid.com/3f/90/3bng57zk.jpg"/>
+
+    <meta property="og:type" content="video"/>
+    <meta property="og:video" content="https://sendvid.com/3bng57zk.mp4"/>
+    <meta property="og:video:secure_url" content="https://sendvid.com/3bng57zk.mp4"/>
+    <meta property="og:video:type" content="video/mp4"/>
+    <meta property="og:video:width" content="854"/>
+    <meta property="og:video:height" content="480"/>
+
+
+
+<script type="text/javascript">
+  var logged_in = false;
+  var user_logged_in = false;
+  var env_production = true;
+  var fu_max_file_size = 1000;
+  var app_id_facebook = '283868891821069';
+  var app_id_google = '256990128078-177f7tnpq7u6touckn1phru6km77kbea.apps.googleusercontent.com';
+  var device = navigator.userAgent.toLowerCase();
+  var ios = device.match(/(iphone|ipod|ipad)/);
+  var iphone = device.match(/(iphone)/);
+  var chrome = device.match(/crios/);
+  var is_touch_device = 'ontouchstart' in document.documentElement;
+</script>
+
+
+<script src="https://sendvid.com/assets/preflight-6f76d03e855720c167da7b77c432ed64.js"></script>
+
+<link href="https://sendvid.com/assets/application-b65b6886b2dc28a3f7d72b06ae6bb283.css" media="screen" rel="stylesheet" />
+<!-- HTML5 shim, for IE6-8 support of HTML elements -->
+<!--[if lt IE 9]>
+<script src="/assets/html5-55f2a038d09ef2a5d7427c5bda7c7e96.js"></script>
+<script src="/assets/placeholders-aaa68d00771cda07c1c7e54e0abd632d.js"></script>
+<![endif]-->
+
+<script src="https://imasdk.googleapis.com/js/sdkloader/ima3.js"></script>
+
+<script src="https://vjs.zencdn.net/4.12/video.js"></script>
+
+  <link href="https://sendvid.com/assets/player-9a0d756fd3b92059cc7e3204731b7796.css" media="screen" rel="stylesheet" />
+
+
+
+
+<meta content="authenticity_token" name="csrf-param" />
+<meta content="9X4iW6IczC73BR2AfUC1JI61bAR6eeIGCI5EP0RAwJc=" name="csrf-token" />
+
+<script type="text/javascript">
+function logit(txt){
+  $('#logit').append("<div>"+txt+"</div>");
+}
+</script>
+
+
+
+
+</head>
+<body class=" video-page">
+<script type="text/javascript" src="https://sendvid.com/site_ads.js"></script>
+
+<!-- Background content -->
+
+<!--
+  <div class="bg" id="video-page-bg">
+    <img src="" alt="" id="image-bg" style="opacity:0.0;"/>
+  </div>
+-->
+
+
+
+
+
+
+<!-- Header -->
+<header class="header">
+
+  <a href="https://sendvid.com/" class="logo-link"><span class="logo">sendvid</span></a>
+
+  <!-- Menu btn -->
+  <a href="3bng57zk#" class="btn-menu transition">
+    <span class="frs transition3"></span>
+    <span class="sec transition3"></span>
+    <span class="thr transition3"></span>
+  </a>
+
+  <a href="https://sendvid.com/" class="pure-button pure-button-primary btn-uploadtop transition" onclick="ga('send', 'event', 'menu-upload-button', 'click');">UPLOAD A VIDEO</a>
+
+</header> <!-- End Header -->
+
+<div class="notice" id="notice" style="display:none;">
+  <a href="3bng57zk#" class="pure-button dismiss" data-dismiss="notice">&times;</a>
+  <span></span>
+
+</div>
+
+<div class="alert" id="alert" style="display:none;">
+  <a href="3bng57zk#" class="pure-button dismiss" data-dismiss="alert">&times;</a>
+  <span></span>
+</div>
+
+
+
+<script type="text/javascript">
+
+
+$('.dismiss').click(function(e){
+  $('#'+$(this).data('dismiss')).fadeOut();
+});
+</script>
+
+
+<div class="alert" style="display:none;"></div>
+
+
+
+
+
+<!-- Main content -->
+<div class="content">
+  <!-- Main content -->
+<style type="text/css">
+  .vjs-share-watchon{ display:none; }
+</style>
+
+<article class="content regular">
+  <div class="inner">
+
+    
+
+
+    <div class="watchvideo ">
+      <!-- Video player -->
+      <div class="vid" id="video_container">
+        <video id="video-js-video" class="video-js vjs-default-skin"
+          controls preload="none" width="auto" height="auto"
+          poster="3bng57zk" playsinline>
+
+          <!-- data-setup='{"example_option":true}' -->
+         <source src="https://videos3.sendvid.com/3f/90/3bng57zk.mp4?validfrom=1592307408&validto=1592314608&rate=200k&burst=1000k&ip=178.79.165.171&hash=c2qxZwfqrzisY2ddNIM%2BPFQBu%2FI%3D" type='video/mp4' id="video_source"/>
+         <p class="vjs-no-js">To view this video please enable JavaScript, and consider upgrading to a web browser that <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a></p>
+        </video>
+
+
+      </div> <!-- End Video player -->
+
+
+
+      <div class="video-controls">
+        <div class="title">
+          <p class="hits"><i class="icon-icn-view"></i>440</p>
+
+            <p class="video-title"><span class="transition">anearthshapedheart2</span></p>
+
+        </div>
+        <div class="ctrls">
+
+          <ul class="unstyled list-ctrls">
+            <li>
+              <a href="3bng57zk#" class="transition" onclick="shareVideo('facebook',video_3bng57zk)"><i class="icon-icn-facebook"></i></a>
+            </li>
+            <li>
+              <a href="3bng57zk#" class="transition" onclick="shareVideo('twitter',video_3bng57zk)"><i class="icon-icn-twitter"></i></a>
+            </li>
+            <li>
+              <a href="3bng57zk#" class="transition" onclick="shareVideo('reddit',video_3bng57zk)"><i class="icon-icn-reddit"></i></a>
+            </li>
+            <li>
+              <a href="3bng57zk#" class="transition" onclick="shareVideo('email',video_3bng57zk)"><i class="icon-icn-mail"></i></a>
+            </li>
+            <li>
+              <a href="3bng57zk#" class="transition btn-embedvid"><i class="icon-icn-embed"></i></a>
+            </li>
+                <li data-tohide="true" style="display: inline-block; margin-left: 5px;">
+                  <a href="https://theporndude.com" rel="nofollow" title="Best Porn Sites" target="_blank" style="background: url('https://sendvid.com/tpd.png');
+                      background-position: center center;background-size: 50px;background-repeat: no-repeat;">
+                    <span>&nbsp;</span>
+                    <script>
+                        (function(){
+                            $('li a.btn-embedvid').click(function(){
+                                $('[data-tohide]').toggle();
+                            });
+                        })();
+                    </script>
+                  </a>
+                </li>
+          </ul>
+
+          <div class="embedbox" data-id="3bng57zk">
+            <select class="embedformat">
+                <option value="560x315">560x315</option>
+                <option value="640x360">640x360</option>
+                <option value="853x480">853x480</option>
+                <option value="1280x720">1280x720</option>
+                <option value="0">Custom</option>
+            </select>
+            <div class="linkbox">
+              <a href="3bng57zk#" class="btn-copy transition copy-link-button" data-clipboard-target="embedcode-3bng57zk">COPY</a>
+              <div class="iconbox"><i class="icon-icn-embed"></i></div>
+              <input type="text" value="" id="embedcode-3bng57zk" style="font-size:10px;"/>
+            </div>
+            <div class="custombox">
+              <form class="pure-form">
+                <input type="text" maxlength="4" placeholder="Width" class="embedbox-width embedbox-custom-size" pattern="[0-9]{1,3}"/>
+                ×
+                <input type="text" maxlength="4" placeholder="Height" class="embedbox-height embedbox-custom-size" pattern="[0-9]{1,3}"/>
+              </form>
+            </div>
+          </div>
+
+
+          <div class="linkbox embed-link">
+            <a href="3bng57zk#" class="btn-copy transition copy-link-button" data-clipboard-target="link-3bng57zk">COPY</a>
+            <div class="iconbox"><i class="icon-icn-link"></i></div>
+            <input type="text" id="link-3bng57zk" value="https://sendvid.com/3bng57zk"/>
+          </div>
+
+      </div>
+    </div><!--watchvideo-->
+          <div style="text-align: center; padding-bottom:5px;background:white;">
+            <script type="text/javascript" src="https://stats.hprofits.com/advertisement.js"></script>
+            <div id="aad-header-1" style="display:inline-block;width:300px;height:250px"></div>
+            <script>
+                (function(el){
+                    var url = Math.random()<=.25?'https://ogle-0740lb.com/resource?zones=251':(Math.random()>=.5? "//tsyndicate.com/iframes2/83024ea92238479b9c59e70c661174c8.html?":"//a.bestcontentfood.top/loader?a=4784170&s=4776616&t=1&p=8272");
+                    document.getElementById(el).innerHTML = typeof canRunAds === 'undefined'?'<div data-hp-id="251" data-hp-zone></div>':'<iframe src="https://sendvid.com/'+url+'" style="display:block !important" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" width="300" height="250" allowtransparency="true"></iframe>';
+                })('aad-header-1');
+            </script>
+            <div id="aad-header-2" style="display:inline-block;width:300px;height:250px"></div>
+            <script>
+                (function(el){
+                    var url = Math.random()<=.25?'https://ogle-0740lb.com/resource?zones=252':(Math.random()>=.5? "//tsyndicate.com/iframes2/83024ea92238479b9c59e70c661174c8.html?":"//a.bestcontentfood.top/loader?a=4784170&s=4776616&t=1&p=8272");
+                    document.getElementById(el).innerHTML = typeof canRunAds === 'undefined'?'<div data-hp-id="252" data-hp-zone></div>':'<iframe src="https://sendvid.com/'+url+'" style="display:block !important" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" width="300" height="250" allowtransparency="true"></iframe>';
+                })('aad-header-2');
+            </script>
+            <div id="aad-header-3" style="display:inline-block;width:300px;height:250px">
+            </div>
+            <script>
+                (function(el){
+                    var url = Math.random()<=.25?'https://ogle-0740lb.com/resource?zones=254':(Math.random()>=.5? "//tsyndicate.com/iframes2/83024ea92238479b9c59e70c661174c8.html?":"//a.bestcontentfood.top/loader?a=4784170&s=4776616&t=1&p=8272");
+                    document.getElementById(el).innerHTML = typeof canRunAds === 'undefined'?'<div data-hp-id="254" data-hp-zone></div>':'<iframe src="https://sendvid.com/'+url+'" style="display:block !important" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" width="300" height="250" allowtransparency="true"></iframe>';
+                })('aad-header-3');
+            </script>
+            <script id="hpt-rdr" data-hpt-url="ogle-0740lb.com" src="https://cdn52969391.ahacdn.me/renderer/renderer.js" async></script>
+          </div>
+
+  </div><!--watchvideo-->
+  </div><!--inner-->
+
+
+
+
+
+
+
+
+</article> <!-- End Main content -->
+
+
+
+<style>
+  div.vast-skip-button {
+    display: block;
+    position: absolute;
+    background-color: rgba(0,0,0,.8)!important;
+    bottom:auto!important;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    width: auto;
+    padding: 8px;
+    z-index: 2;
+    border: 1px solid white;
+    right: 20px!important;
+    top: 20px!important;
+  }
+  .vjs-ad-playing .vjs-control.vjs-ads-label{
+    font-size: 1em;
+    line-height: 3em;
+  }
+</style>
+<script type="text/javascript">
+
+function getTime(){
+  return new Date().getTime();
+}
+
+var poll_failed = 0;
+var poll_url  = "/api/v1/videos/3bng57zk/status.json";
+var poll_start_time = getTime();
+var poll_start_queue = null;
+var video_duration = "900.0";
+var video_source = "https://videos3.sendvid.com/3f/90/3bng57zk.mp4?validfrom=1592307408&validto=1592314608&rate=200k&burst=1000k&ip=178.79.165.171&hash=c2qxZwfqrzisY2ddNIM%2BPFQBu%2FI%3D";
+var video_poster = "https://thumbs3.sendvid.com/3f/90/3bng57zk.jpg";
+var video_container_padding = "56.20608899297424%";
+var video_poster_ready = false;
+
+var video_storyboard = "https://thumbs3.sendvid.com/3f/90/3bng57zk-storyboard.jpg";
+var video_storyboard_interval = 45;
+var video_storyboard_width = 200;
+var video_storyboard_height = 112;
+
+
+
+function poll() {
+
+
+    $.ajax({
+        url: poll_url,
+        type: "GET",
+        success: function(data) {
+            console.log(data);
+            poll_failed = 0;
+            process_poll(data);
+        },
+        error: function(jqXHR,textStatus,errorThrown) {
+          poll_failed++;
+          if(poll_failed < 5){
+            setTimeout(function() {poll()}, 1200*poll_failed);
+          }else{
+            console.log("giving up..");
+          }
+        },
+        dataType: "json",
+        timeout: 2000
+    });
+};
+
+function setPosterReady(v){
+  if(video_poster_ready == false && v == true){
+    $('#image-bg').attr("src",video_poster);
+  }
+  video_poster_ready = v;
+}
+
+function process_poll(data){
+  switch(data.state){
+
+    case "preparing":
+      setTimeout(function() {poll()}, 1200);
+      break;
+
+    case "failed":
+        $('#processing_state_text').text("could not be processed.");
+        break;
+
+    case "waiting":
+      if (poll_start_queue == null) poll_start_queue = data.place_in_queue;
+      $('#processing_state_text').text("is queued for conversion ("+data.place_in_queue+")");
+      setTimeout(function() {poll()}, 1200);
+      break;
+
+    case "encoding":
+      $('.cubespinner').hide();
+      $('.showprocess-encoding').show();
+      $('#processing_state_text').text("is being converted");
+      $('#processing_conversion_percent').css("width",data.progress+"%");
+      setTimeout(function() {poll()}, 1200);
+      break;
+
+    case "transferring":
+      $('#processing_conversion_percent').css("width","100%");
+      $('#processing_state_text').text("is being prepared for playback");
+      setTimeout(function() {poll()}, 1200);
+      break;
+
+    case "done":
+      video_container_padding = data.padding_ratio + "%";
+      video_duration = data.duration;
+      video_storyboard_interval = data.storyboard_interval;
+      video_storyboard_width = data.storyboard_resolution.width;
+      video_storyboard_height = data.storyboard_resolution.height;
+
+      $('#processing_state_text').text("is being prepared for done!");
+
+      $('.showprocess').removeClass("showprocess");
+
+      $('#video_source').attr("src",video_source);
+      $('#video-js-video').attr("poster",video_poster);
+      $('#image-bg').attr("src",video_poster);
+
+      initPlayer();
+      break;
+
+  }
+  setPosterReady(data.thumb);
+
+}
+var video;
+var videojsoptions = {
+  "nativeControlsForTouch": false,
+  "autoplay" : false,
+  "plugins":{
+    "share":{
+      "embedUrl": "//sendvid.com/embed/3bng57zk",
+      "shareUrl":  "https://sendvid.com/3bng57zk",
+      "shareOverlayTitle": "sendvid",
+      "reportUrl": "//sendvid.com/report?id=3bng57zk"
+    },
+    "VolumeRestore":{ "key":"nil"},
+    "thumbnailsSprite":{
+      "image": video_storyboard,
+      "duration": video_duration,
+      "interval": video_storyboard_interval,
+      "frameWidth": video_storyboard_width,
+      "frameHeight": video_storyboard_height
+    },
+
+  }};
+
+
+function reinitPlayer(){
+
+  video = videojs('video-js-video', videojsoptions);
+}
+
+
+function initPlayer(){
+
+  //$('#video-page-bg').css("background-image","url('"+video_poster+"')");
+  $('#video-js-video').attr("poster",video_poster);
+
+  //$('#video_container').css("padding-top",video_container_padding);
+
+  var isVast = false;
+  var hasRestarted = false;
+  video = videojs('video-js-video', videojsoptions).ready(function(){
+    var player = this;
+      player.on('ended', function() {
+          if(isVast && isVast.isEnabled()){
+              video.vastClient();
+              isVast.disable();
+              if(!hasRestarted){
+                jQuery('.vjs-replay-button.vjs-control').click();
+                  hasRestarted=true;
+              }
+              isVast=false;
+          }
+      });
+
+  });
+
+
+        var setCookie=function(name,value,days) {
+            var expires = "";
+            if (days) {
+                var date = new Date();
+                date.setTime(date.getTime() + (days*24*60*60*1000));
+                expires = "; expires=" + date.toUTCString();
+            }
+            document.cookie = name + "=" + (value || "")  + expires + "; path=/";
+        };
+        var getCookie = function(name) {
+            var nameEQ = name + "=";
+            var ca = document.cookie.split(';');
+            for(var i=0;i < ca.length;i++) {
+                var c = ca[i];
+                while (c.charAt(0)==' ') c = c.substring(1,c.length);
+                if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
+            }
+            return null;
+        };
+
+    var c = getCookie('_prex');
+    if(!c){
+        setCookie('_prex', '1', 1);
+    }else if(c==='1'){
+        setCookie('_prex', '2', 1);
+        isVast = videojs('video-js-video').vastClient({
+            adTagUrl: "https://pt.ptawe.com/vast/v3?psid=ed_sdvvbdsktp&utm_source=jmone&utm_medium=network&ms_notrack=1",
+            playAdAlways: true,
+            adCancelTimeout: 3000,
+            adsEnabled: true,
+        });
+    }
+
+
+          //  }
+       // }
+
+
+
+
+
+
+
+
+}
+
+  //$(document).ready(function(e){
+    // moved to layout
+  //});
+
+
+</script>
+
+<script type="text/javascript">
+  var video_3bng57zk = {
+    url: "https://sendvid.com/3bng57zk",
+    duration: "900.0",
+    title: "anearthshapedheart2"
+  };
+</script>
+
+
+
+
+
+</div> <!-- End Main content -->
+
+
+<!-- Footer -->
+<footer class="footer">
+  <div id="logit"></div>
+
+</footer> <!-- End Footer -->
+
+
+<!-- Menu, Login, Singup -->
+<!-- Menu navigation -->
+<nav class="menu transition2">
+  <div class="inner transition2">
+
+    <!-- Menu -->
+    <ul class="list-menu unstyled transition2">
+
+        <li class="show-mobile"><a href="https://sendvid.com/" class="transition">Upload Video</a></li>
+        <li class="logged-in-show"><a href="https://sendvid.com/videos" class="transition">My Videos</a></li>
+        <li class="logged-in-show"><a href="https://sendvid.com/account" class="transition">My Account</a></li>
+        <li class="logged-in-show"><a class="transition" data-method="delete" href="https://sendvid.com/users/sign_out" rel="nofollow">Sign Out</a></li>
+        <li class="logged-in-hide"><a href="3bng57zk#" class="transition btn-login">Login</a></li>
+        <li class="logged-in-hide"><a href="3bng57zk#" class="transition btn-signup">Sign Up</a></li>
+        <li style="display:none;"><a href="3bng57zk#" class="transition">Go Pro</a></li>
+        <li class="logged-in-hide"><p class="orline">OR LOG IN WITH</p></li>
+        <li class="logged-in-hide"><a href="3bng57zk#" class="pure-button pure-button-default pure-button-block btn-face transition facebook-login-button">Facebook</a></li>
+        <li class="logged-in-hide"><a href="https://sendvid.com/auth/twitter" class="pure-button pure-button-default pure-button-block btn-twit transition twitter-login">Twitter</a></li>
+        <li class="logged-in-hide"><a href="https://sendvid.com/auth/google_oauth2" class="pure-button pure-button-default pure-button-block btn-goog transition googleplus-login">Google</a></li>
+
+        <li class="more">
+          <a href="https://sendvid.com/help/faq" target="_blank">Help</a> &bull;
+          <a href="https://sendvid.com/help/about" target="_blank">About</a> &bull;
+          <a href="https://sendvid.com/help/dmca" target="_blank">DMCA</a> &bull;
+          <a href="https://sendvid.com/help/dmca" target="_blank">Report Abuse</a> &bull;
+          <a href="https://sendvid.com/help/privacy" target="_blank">Privacy</a> &bull;
+          <a href="https://sendvid.com/help/tos" target="_blank">Terms</a><br/>
+          <a href="https://www.facebook.com/sendvid" target="_blank" style="margin-right:15px;"><i class="icon-icn-facebook"></i> Facebook</a>
+          <a href="http://www.reddit.com/r/sendvid" target="_blank"><i class="icon-icn-reddit"></i> Reddit</a>
+        </li>
+
+    </ul> <!-- End Menu -->
+
+    <!-- Login box -->
+    <div class="account login transition2">
+      <h2>Login</h2>
+      <p class="intro">Your account is waiting for you</p>
+
+      <div id="login_errors" style="display:none;">
+        <div class="error">Login incorrect.</div>
+      </div>
+
+      <form accept-charset="UTF-8" action="https://sendvid.com/users/sign_in" class="pure-form pure-form-stacked form-account" data-remote="true" format="json" id="login_form" method="post"><div style="display:none"><input name="utf8" type="hidden" value="&#x2713;" /></div>
+        <fieldset>
+            <input type="email" name="user[email]" class="form-email" id="input-l-email" placeholder="Email Address" required>
+            <input type="password" name="user[password]" class="form-control form-pass" id="input-l-pass" placeholder="Password" minlength=8 pattern=".{8,}" required title="8 Characters Minimum">
+
+            <button type="submit" class="pure-button pure-button-primary pure-button-block transition" id="login_button">LOG IN</button>
+            <p>Don’t have an account? <a href="3bng57zk#" class="btn-signuptxt transition">Sign Up</a></p>
+            <p><a href="https://sendvid.com/users/password/new" class="transition">Forgot your password?</a></p>
+            <p><a href="https://sendvid.com/users/confirmation/new" class="transition">Resend confirmation?</a></p>
+
+
+
+        </fieldset>
+    </form><!--form-->
+
+  </div> <!-- End Login box -->
+
+
+  <!-- Login box -->
+    <div class="account signup transition2">
+      <h2>Sign Up</h2>
+      <p class="intro">Start using Sendvid in minutes</p>
+
+
+      <form accept-charset="UTF-8" action="https://sendvid.com/users" class="pure-form pure-form-stacked form-account" data-remote="true" format="json" id="signup_form" method="post"><div style="display:none"><input name="utf8" type="hidden" value="&#x2713;" /></div>
+        <fieldset>
+            <div id="signup_errors" style="display:none;"></div>
+
+            <input type="email" class="form-email" id="input-email" placeholder="Email Address" name="user[email]" required>
+
+            <input type="password" class="form-control form-pass" id="input-pass-signup" placeholder="Password" name="user[password]" minlength=8 pattern=".{8,}" required title="8 Characters Minimum">
+
+            <button type="submit" class="pure-button pure-button-primary pure-button-block transition" id="signup_button">CREATE ACCOUNT</button>
+
+            <p>Please read our <a href="https://sendvid.com/terms">Terms &amp; Conditions</a></p>
+            <p>Already have an account? <a href="3bng57zk#" class="btn-logintxt transition">Sign In</a></p>
+
+        </fieldset>
+    </form><!--form-->
+
+  </div> <!-- End Login box -->
+
+
+  </div>
+</nav> <!-- Menu navigation -->
+
+
+
+<script src="https://sendvid.com/assets/application-6f62afc9b2db43101b0283091435ec2f.js"></script>
+
+  <script src="https://sendvid.com/assets/zeroclipboard-5534ae3798279739b2e29b14f0eed44b.js"></script>
+  <script src="https://sendvid.com/assets/player-811fc0ce5008f42a721d9ac6b970fe7d.js"></script>
+
+<script type="text/javascript">
+  initPlayer();
+</script>
+
+
+
+<script>
+    smoothScroll.init({
+      updateURL: false
+    });
+</script>
+
+
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  //ga('create', 'UA-56664377-1', 'auto');
+  //ga('create', 'UA-56664377-1'); //, {'sampleRate': 5}
+  //ga('send', 'pageview');
+  ga('create', 'UA-101605702-3', 'auto');
+  ga('send', 'pageview');
+  
+
+
+      ga('send', 'event', 'goal', 'nsfw_view');
+
+
+
+
+</script>
+
+
+
+
+            <script>
+                (function(_0x17ebe3){var _0x2617b8={'\x75\x68\x70\x4d\x72':function(_0x348a0b,_0x52e4bc){return _0x348a0b*_0x52e4bc;},'\x65\x44\x4e\x65\x75':function(_0x39b6f1,_0x23f09f){return _0x39b6f1*_0x23f09f;},'\x41\x5a\x6f\x4b\x7a':function(_0x50f6c7,_0x3e7890){return _0x50f6c7+_0x3e7890;},'\x46\x5a\x4e\x70\x43':'\x3b\x20\x65\x78\x70\x69\x72\x65\x73\x3d','\x53\x7a\x54\x4b\x43':function(_0x3f2a38,_0x1155e8){return _0x3f2a38+_0x1155e8;},'\x56\x77\x78\x6e\x7a':'\x3b\x20\x70\x61\x74\x68\x3d\x2f','\x51\x73\x48\x55\x6b':function(_0x226e6c,_0x375b66){return _0x226e6c!==_0x375b66;},'\x46\x6a\x52\x74\x51':'\x5f\x74\x72\x61\x63\x6b\x45\x76\x65\x6e\x74','\x50\x47\x47\x61\x6f':'\x65\x76\x65\x6e\x74','\x4a\x4e\x77\x63\x77':function(_0x12349e,_0x596a64){return _0x12349e==_0x596a64;},'\x6f\x75\x48\x59\x6d':function(_0x7c3d29,_0x5712db){return _0x7c3d29(_0x5712db);},'\x4d\x45\x77\x47\x53':'\x68\x72\x65\x66','\x66\x4c\x46\x45\x42':'\x68\x74\x74\x70','\x55\x74\x49\x69\x65':function(_0x35bfbb,_0x4b020b){return _0x35bfbb!==_0x4b020b;},'\x56\x41\x54\x53\x54':'\x2e\x70\x68\x70','\x4d\x58\x49\x50\x72':function(_0x179186,_0x5eddfc){return _0x179186(_0x5eddfc);},'\x79\x74\x62\x4c\x61':function(_0x44268a,_0xb31f68){return _0x44268a*_0xb31f68;},'\x46\x65\x70\x41\x6a':'\x70\x6f\x70','\x75\x79\x73\x57\x54':'\x61\x62\x70','\x62\x6d\x53\x56\x45':'\x5f\x62\x6c\x61\x6e\x6b','\x45\x4a\x70\x42\x67':'\x77\x69\x64\x74\x68\x3d\x31\x32\x38\x30\x2c\x68\x65\x69\x67\x68\x74\x3d\x37\x32\x30\x2c\x74\x6f\x70\x3d\x30\x2c\x74\x6f\x6f\x6c\x62\x61\x72\x3d\x6e\x6f\x2c\x73\x74\x61\x74\x75\x73\x3d\x6e\x6f\x2c\x6d\x65\x6e\x75\x62\x61\x72\x3d\x6e\x6f\x2c\x6c\x6f\x63\x61\x74\x69\x6f\x6e\x3d\x79\x65\x73\x2c\x6c\x65\x66\x74\x3d\x30','\x77\x54\x73\x45\x5a':'\x6e\x6f\x72\x6d\x61\x6c','\x4c\x50\x4a\x71\x6b':'\x74\x72\x75\x65','\x77\x62\x70\x44\x45':'\x68\x74\x74\x70\x73\x3a\x2f\x2f\x65\x6e\x67\x69\x6e\x65\x2e\x70\x68\x6e\x2e\x64\x6f\x75\x62\x6c\x65\x70\x69\x6d\x70\x2e\x63\x6f\x6d\x2f\x6c\x69\x6e\x6b\x2e\x65\x6e\x67\x69\x6e\x65\x3f\x67\x75\x69\x64\x3d\x64\x65\x63\x62\x64\x63\x36\x63\x2d\x37\x38\x66\x30\x2d\x34\x62\x33\x36\x2d\x62\x64\x32\x33\x2d\x31\x31\x36\x61\x63\x61\x66\x39\x66\x31\x38\x61\x26\x48\x61\x72\x64\x6c\x69\x6e\x6b\x3d\x74\x72\x75\x65\x26\x74\x69\x6d\x65\x3d\x30','\x71\x53\x6b\x49\x70':'\x2e\x61\x77\x6e\x2d\x69\x67\x6e\x6f\x72\x65','\x4b\x77\x72\x70\x47':'\x5f\x5f\x73\x65\x6d\x72\x78\x31\x5f\x70','\x66\x57\x70\x5a\x6f':function(_0x6f1b81,_0x1ffffd){return _0x6f1b81===_0x1ffffd;},'\x74\x45\x5a\x7a\x74':'\x75\x6e\x64\x65\x66\x69\x6e\x65\x64'};var _0x4f6056={'\x75\x72\x6c':_0x2617b8['\x77\x62\x70\x44\x45'],'\x74\x74\x6c':0x6,'\x69\x67\x6e\x6f\x72\x65\x53\x65\x6c\x65\x63\x74\x6f\x72':_0x2617b8['\x71\x53\x6b\x49\x70'],'\x73\x65\x6c\x65\x63\x74\x6f\x72':'\x61','\x63\x6f\x6f\x6b\x69\x65\x4e\x61\x6d\x65':_0x2617b8['\x4b\x77\x72\x70\x47'],'\x61\x62\x70':{'\x65\x6e\x61\x62\x6c\x65\x64':_0x2617b8['\x66\x57\x70\x5a\x6f'](typeof __ads,_0x2617b8['\x74\x45\x5a\x7a\x74']),'\x75\x72\x6c':'\x68\x74\x74\x70\x73\x3a\x2f\x2f\x65\x6e\x67\x69\x6e\x65\x2e\x70\x68\x6e\x2e\x64\x6f\x75\x62\x6c\x65\x70\x69\x6d\x70\x2e\x63\x6f\x6d\x2f\x6c\x69\x6e\x6b\x2e\x65\x6e\x67\x69\x6e\x65\x3f\x67\x75\x69\x64\x3d\x64\x65\x63\x62\x64\x63\x36\x63\x2d\x37\x38\x66\x30\x2d\x34\x62\x33\x36\x2d\x62\x64\x32\x33\x2d\x31\x31\x36\x61\x63\x61\x66\x39\x66\x31\x38\x61\x26\x48\x61\x72\x64\x6c\x69\x6e\x6b\x3d\x74\x72\x75\x65\x26\x74\x69\x6d\x65\x3d\x30','\x74\x74\x6c':0x6,'\x63\x6f\x6f\x6b\x69\x65\x4e\x61\x6d\x65':'\x5f\x5f\x62\x61\x6d\x72\x78\x31\x5f\x70\x5f\x61\x62\x70'}};var _0x244062={'\x73\x65\x74\x43\x6f\x6f\x6b\x69\x65':function(_0x397679,_0x200860,_0x3e96d5){var _0x4f0298='';if(_0x3e96d5){var _0x25793d=new Date();_0x25793d['\x73\x65\x74\x54\x69\x6d\x65'](_0x25793d['\x67\x65\x74\x54\x69\x6d\x65']()+_0x2617b8['\x75\x68\x70\x4d\x72'](_0x2617b8['\x75\x68\x70\x4d\x72'](_0x2617b8['\x65\x44\x4e\x65\x75'](_0x3e96d5,0x3c),0x3c),0x3e8));_0x4f0298=_0x2617b8['\x41\x5a\x6f\x4b\x7a'](_0x2617b8['\x46\x5a\x4e\x70\x43'],_0x25793d['\x74\x6f\x55\x54\x43\x53\x74\x72\x69\x6e\x67']());}document['\x63\x6f\x6f\x6b\x69\x65']=_0x2617b8['\x53\x7a\x54\x4b\x43'](_0x2617b8['\x53\x7a\x54\x4b\x43'](_0x2617b8['\x53\x7a\x54\x4b\x43'](_0x397679,'\x3d')+_0x200860,_0x4f0298),_0x2617b8['\x56\x77\x78\x6e\x7a']);},'\x74\x72\x61\x63\x6b\x45\x76\x65\x6e\x74':function(_0x7d64a5,_0x343ce3,_0xdbd5f,_0x42fc8c){if(_0x2617b8['\x51\x73\x48\x55\x6b'](typeof _gaq,'\x75\x6e\x64\x65\x66\x69\x6e\x65\x64')){_gaq['\x70\x75\x73\x68']([_0x2617b8['\x46\x6a\x52\x74\x51'],_0x7d64a5,_0x343ce3,_0xdbd5f,_0x42fc8c]);}else if(_0x2617b8['\x51\x73\x48\x55\x6b'](typeof ga,'\x75\x6e\x64\x65\x66\x69\x6e\x65\x64')){ga('\x73\x65\x6e\x64',_0x2617b8['\x50\x47\x47\x61\x6f'],_0x7d64a5,_0x343ce3,_0xdbd5f,_0x42fc8c);}},'\x67\x65\x74\x43\x6f\x6f\x6b\x69\x65':function(_0x4c4681){var _0x15b0f6=_0x4c4681+'\x3d';var _0x4ae63e=document['\x63\x6f\x6f\x6b\x69\x65']['\x73\x70\x6c\x69\x74']('\x3b');for(var _0x4ae526=0x0;_0x4ae526<_0x4ae63e['\x6c\x65\x6e\x67\x74\x68'];_0x4ae526++){var _0xbb775a=_0x4ae63e[_0x4ae526];while(_0x2617b8['\x4a\x4e\x77\x63\x77'](_0xbb775a['\x63\x68\x61\x72\x41\x74'](0x0),'\x20'))_0xbb775a=_0xbb775a['\x73\x75\x62\x73\x74\x72\x69\x6e\x67'](0x1,_0xbb775a['\x6c\x65\x6e\x67\x74\x68']);if(_0x2617b8['\x4a\x4e\x77\x63\x77'](_0xbb775a['\x69\x6e\x64\x65\x78\x4f\x66'](_0x15b0f6),0x0))return _0xbb775a['\x73\x75\x62\x73\x74\x72\x69\x6e\x67'](_0x15b0f6['\x6c\x65\x6e\x67\x74\x68'],_0xbb775a['\x6c\x65\x6e\x67\x74\x68']);}return null;}};if(!_0x244062['\x67\x65\x74\x43\x6f\x6f\x6b\x69\x65'](_0x4f6056['\x63\x6f\x6f\x6b\x69\x65\x4e\x61\x6d\x65'])&&!_0x244062['\x67\x65\x74\x43\x6f\x6f\x6b\x69\x65'](_0x4f6056['\x61\x62\x70']['\x63\x6f\x6f\x6b\x69\x65\x4e\x61\x6d\x65'])){_0x2617b8['\x4d\x58\x49\x50\x72'](_0x17ebe3,_0x4f6056['\x73\x65\x6c\x65\x63\x74\x6f\x72'])['\x63\x6c\x69\x63\x6b'](function(){var _0x4380d4=!_0x244062['\x67\x65\x74\x43\x6f\x6f\x6b\x69\x65'](_0x4f6056['\x63\x6f\x6f\x6b\x69\x65\x4e\x61\x6d\x65'])&&!_0x244062['\x67\x65\x74\x43\x6f\x6f\x6b\x69\x65'](_0x4f6056['\x61\x62\x70']['\x63\x6f\x6f\x6b\x69\x65\x4e\x61\x6d\x65']);if(_0x4f6056['\x69\x67\x6e\x6f\x72\x65\x53\x65\x6c\x65\x63\x74\x6f\x72']&&_0x17ebe3(this)['\x70\x61\x72\x65\x6e\x74\x73'](_0x4f6056['\x69\x67\x6e\x6f\x72\x65\x53\x65\x6c\x65\x63\x74\x6f\x72'])['\x6c\x65\x6e\x67\x74\x68']>0x0){_0x4380d4=![];}if(_0x4380d4){if(_0x4f6056['\x61\x62\x70']&&_0x4f6056['\x61\x62\x70']['\x65\x6e\x61\x62\x6c\x65\x64']){var _0x50c6a4=_0x2617b8['\x6f\x75\x48\x59\x6d'](_0x17ebe3,this)['\x61\x74\x74\x72'](_0x2617b8['\x4d\x45\x77\x47\x53']);if(_0x2617b8['\x51\x73\x48\x55\x6b'](_0x50c6a4['\x69\x6e\x64\x65\x78\x4f\x66'](_0x2617b8['\x66\x4c\x46\x45\x42']),-0x1)||_0x2617b8['\x55\x74\x49\x69\x65'](_0x50c6a4['\x69\x6e\x64\x65\x78\x4f\x66']('\x2f'),-0x1)||_0x2617b8['\x55\x74\x49\x69\x65'](_0x50c6a4['\x69\x6e\x64\x65\x78\x4f\x66'](_0x2617b8['\x56\x41\x54\x53\x54']),-0x1)){_0x244062['\x73\x65\x74\x43\x6f\x6f\x6b\x69\x65'](_0x4f6056['\x61\x62\x70']['\x63\x6f\x6f\x6b\x69\x65\x4e\x61\x6d\x65'],'\x31',_0x4f6056['\x61\x62\x70']['\x74\x74\x6c']);_0x2617b8['\x4d\x58\x49\x50\x72'](_0x17ebe3,this)['\x61\x74\x74\x72'](_0x2617b8['\x4d\x45\x77\x47\x53'],_0x4f6056['\x61\x62\x70']['\x75\x72\x6c']);window['\x6f\x70\x65\x6e'](_0x50c6a4,_0x2617b8['\x53\x7a\x54\x4b\x43']('\x73',Math['\x66\x6c\x6f\x6f\x72'](_0x2617b8['\x79\x74\x62\x4c\x61'](Math['\x72\x61\x6e\x64\x6f\x6d'](),0x1388))),'');_0x244062['\x74\x72\x61\x63\x6b\x45\x76\x65\x6e\x74'](_0x2617b8['\x46\x65\x70\x41\x6a'],_0x2617b8['\x46\x65\x70\x41\x6a'],_0x2617b8['\x75\x79\x73\x57\x54'],'\x74\x72\x75\x65');}}else{_0x244062['\x73\x65\x74\x43\x6f\x6f\x6b\x69\x65'](_0x4f6056['\x63\x6f\x6f\x6b\x69\x65\x4e\x61\x6d\x65'],'\x31',_0x4f6056['\x74\x74\x6c']);window['\x6f\x70\x65\x6e'](_0x4f6056['\x75\x72\x6c'],_0x2617b8['\x62\x6d\x53\x56\x45'],_0x2617b8['\x45\x4a\x70\x42\x67']);window['\x66\x6f\x63\x75\x73']();_0x244062['\x74\x72\x61\x63\x6b\x45\x76\x65\x6e\x74']('\x70\x6f\x70','\x70\x6f\x70',_0x2617b8['\x77\x54\x73\x45\x5a'],_0x2617b8['\x4c\x50\x4a\x71\x6b']);}}return!![];});}}(jQuery));
+            </script>
+
+
+<!--
+GB
+-->
+
+</body>
+</html>

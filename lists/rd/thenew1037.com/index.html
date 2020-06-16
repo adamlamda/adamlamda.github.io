@@ -1,0 +1,1120 @@
+<!DOCTYPE html>
+ <!--[if lt IE 7]>
+<html class="no-js lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if (IE 7)&!(IEMobile)]>
+<html class="no-js lt-ie9 lt-ie8"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]>
+<html class="no-js lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js"><!--<![endif]-->
+	<!--
+	generated 494 seconds ago
+	generated in 0.766 seconds
+	served from batcache in 0.006 seconds
+	expires in 106 seconds
+-->
+<head>
+		<meta charset="utf-8">
+
+				<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(){}function o(e,t,n){return function(){return i(e,[f.now()].concat(u(arguments)),t?null:this,n),t?void 0:this}}var i=e("handle"),a=e(2),u=e(3),c=e("ee").get("tracer"),f=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,t){s[t]=o(d+t,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),t.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,t){var n={},r=this,o="function"==typeof t;return i(l+"tracer",[f.now(),e,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],n),o)try{return t.apply(this,arguments)}catch(e){throw c.emit("fn-err",[arguments,this,e],n),e}finally{c.emit("fn-end",[f.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){m[t]=o(l+t)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,f.now()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(o<0?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],4:[function(e,t,n){t.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?c(e,u,i):i()}function n(n,r,o,i){if(!d.aborted||i){e&&e(n,r,o);for(var a=t(o),u=m(n),c=u.length,f=0;f<c;f++)u[f].apply(a,r);var p=s[y[n]];return p&&p.push([b,n,r,a]),a}}function l(e,t){v[e]=m(e).concat(t)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(n)}function g(e,t){f(e,function(e,n){t=t||"feature",y[n]=t,t in s||(s[t]=[])})}var v={},y={},b={on:l,emit:n,get:w,listeners:m,context:t,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",c=e("gos"),f=e(2),s={},p={},d=t.exports=o();d.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!x++){var e=h.info=NREUM.info,t=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return s.abort();f(y,function(t,n){e[t]||(e[t]=n)}),c("mark",["onload",a()+h.offset],null,"api");var n=d.createElement("script");n.src="https://"+e.agent,t.parentNode.insertBefore(n,t)}}function o(){"complete"===d.readyState&&i()}function i(){c("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),c=e("handle"),f=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,SI:p.setImmediate,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1071.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=t.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),c("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+
+		<title>The New 103.7 - Country&#039;s Hottest Hits</title>
+
+				<meta name="HandheldFriendly" content="True">
+		<meta name="MobileOptimized" content="320">
+		<meta name="viewport" content="width=device-width,height=device-height,user-scalable=no,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0">
+
+		<link rel="pingback" href="https://thenew1037.com/xmlrpc.php">
+
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+
+				<script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');var googleUidDimension = '1';ga('create', 'UA-57247911-5', 'auto');ga('require', 'displayfeatures');document.addEventListener("DOMContentLoaded", function() {
+	jQuery( document ).on( 'pjax:end', function () {
+		ga( 'set', 'location', window.location.href );
+		ga( 'send', 'pageview' );
+	} );
+
+	var $body = jQuery( 'body' );
+
+	$body.on( 'inlineAudioPlaying.gmr', function () {
+		ga( 'send', 'event', 'audio', 'Inline audio playing' );
+	} );
+
+	$body.on( 'liveStreamPlaying.gmr', function () {
+		ga( 'send', 'event', 'audio', 'Live stream playing' );
+	} );
+});ga('send', 'pageview');</script>
+<!-- This site is optimized with the Yoast SEO plugin v5.6.1 - https://yoast.com/wordpress/plugins/seo/ -->
+<meta name="description" content="Country&#039;s Hottest Hits"/>
+<link rel="canonical" href="https://thenew1037.com/" />
+<link rel="next" href="https://thenew1037.com/page/2/" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="The New 103.7 - Country&#039;s Hottest Hits" />
+<meta property="og:description" content="Country&#039;s Hottest Hits" />
+<meta property="og:url" content="https://thenew1037.com/" />
+<meta property="og:site_name" content="The New 103.7" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:description" content="Country&#039;s Hottest Hits" />
+<meta name="twitter:title" content="The New 103.7 - Country&#039;s Hottest Hits" />
+<script type='application/ld+json'>{"@context":"http:\/\/schema.org","@type":"WebSite","@id":"#website","url":"https:\/\/thenew1037.com\/","name":"The New 103.7","potentialAction":{"@type":"SearchAction","target":"https:\/\/thenew1037.com\/?s={search_term_string}","query-input":"required name=search_term_string"}}</script>
+<!-- / Yoast SEO plugin. -->
+
+<link rel='dns-prefetch' href='//cdn.embed.ly' />
+<link rel='dns-prefetch' href='//tag.simpli.fi' />
+<link rel='dns-prefetch' href='//sdk.listenlive.co' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.4\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.4\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/thenew1037.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.9.7"}};
+			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55357,56692,8205,9792,65039],[55357,56692,8203,9792,65039]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<script async="async" src="https://www.googletagservices.com/tag/js/gpt.js"></script>
+	<script>
+		var googletag = googletag || {};
+		googletag.cmd = googletag.cmd || [];
+
+		googletag.beasley = googletag.beasley || {};
+		googletag.beasley.targeting = googletag.beasley.targeting || [];
+
+		googletag.cmd.push(function() {
+						var sizeMapping = googletag.sizeMapping()
+				.addSize([1024, 200], [[1, 1]])
+				.addSize([0, 0], [])
+				.build();
+			
+						googletag.defineOutOfPageSlot('/26918149/WSOC_FM_Wallpaper', 'div-gpt-ad-1487289548015-0').defineSizeMapping(sizeMapping).addService(googletag.pubads());
+			
+						googletag.defineOutOfPageSlot('/26918149/WSOC_FM_Interstitial', 'div-gpt-ad-1484200509775-3').defineSizeMapping(sizeMapping).addService(googletag.pubads());
+			
+						googletag.defineSlot('/26918149/WSOC_FM_PlayerSponsorship', ['fluid'], 'div-gpt-ad-1487117572008-0').addService(googletag.pubads());
+			
+			
+			googletag.pubads().enableSingleRequest();
+			googletag.pubads().collapseEmptyDivs(true);
+
+							googletag.pubads().setTargeting("cdomain", "thenew1037.com");
+							googletag.pubads().setTargeting("cpage", "home");
+							googletag.pubads().setTargeting("ctest", "");
+							googletag.pubads().setTargeting("genre", "");
+							googletag.pubads().setTargeting("market", "");
+			
+			googletag.enableServices();
+		});
+	</script><style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='gmr-gallery-css'  href='https://thenew1037.com/wp-content/plugins/greatermedia-galleries/assets/css/gmr_gallery.min.css?ver=2.2.3' type='text/css' media='all' />
+<link rel='stylesheet' id='google-fonts-css'  href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,800italic,400,300,700,800' type='text/css' media='all' />
+<link rel='stylesheet' id='tribe-events-custom-jquery-styles-css'  href='https://thenew1037.com/wp-content/plugins/the-events-calendar/vendor/jquery/smoothness/jquery-ui-1.8.23.custom.css?ver=4.9.7' type='text/css' media='all' />
+<link rel='stylesheet' id='tribe-events-full-calendar-style-css'  href='https://thenew1037.com/wp-content/plugins/the-events-calendar/src/resources/css/tribe-events-full.min.css?ver=4.6.2' type='text/css' media='all' />
+<link rel='stylesheet' id='tribe-events-calendar-style-css'  href='https://thenew1037.com/wp-content/plugins/the-events-calendar/src/resources/css/tribe-events-theme.min.css?ver=4.6.2' type='text/css' media='all' />
+<link rel='stylesheet' id='tribe-events-calendar-full-mobile-style-css'  href='https://thenew1037.com/wp-content/plugins/the-events-calendar/src/resources/css/tribe-events-full-mobile.min.css?ver=4.6.2' type='text/css' media='only screen and (max-width: 768px)' />
+<link rel='stylesheet' id='tribe-events-calendar-mobile-style-css'  href='https://thenew1037.com/wp-content/plugins/the-events-calendar/src/resources/css/tribe-events-theme-mobile.min.css?ver=4.6.2' type='text/css' media='only screen and (max-width: 768px)' />
+<link rel='stylesheet' id='wsoc-css'  href='https://thenew1037.com/wp-content/themes/wsoc/assets/css/wsoc.min.css?ver=1535049815' type='text/css' media='all' />
+<link rel='stylesheet' id='greatermedia-countdown-clock-css'  href='https://thenew1037.com/wp-content/plugins/gmr-homepage-countdown-clock/css/greatermedia-countdown-clock.css?ver=1.0.3.6' type='text/css' media='all' />
+	<!--[if lte IE 8]>
+	<script src="https://thenew1037.com/wp-content/themes/greatermedia/assets/js/vendor/respond.min.js?ver=1.4.2"></script>
+	<![endif]-->
+	<script type='text/javascript' src='https://thenew1037.com/wp-content/mu-plugins/dependencies/modernizr/modernizr.min.js?ver=2.8.3.1'></script>
+<script type='text/javascript' src='https://thenew1037.com/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='https://thenew1037.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript' src='https://thenew1037.com/wp-includes/js/underscore.min.js?ver=1.8.3'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var GMRKeywords = [{"keyword":"Greenway","id":4807,"title":"\u200bHike, Run, Or Walk to Support the Greenway","url":"https:\/\/thenew1037.com\/2017\/03\/28\/4807\/"},{"keyword":"Jimmy V Comedy","id":12302,"title":"Tanner in the Morning's Jimmy V Cancer Benefit At Comedy Zone","url":"https:\/\/thenew1037.com\/event\/tanner-mornings-jimmy-v-cancer-benefit-comedy-zone\/"},{"keyword":"Vacation","id":9066,"title":"Pigeon Forge Sweepstakes","url":"https:\/\/thenew1037.com\/?post_type=contest&p=9066"},{"keyword":"Pets","id":15037,"title":"Pet Month","url":"https:\/\/thenew1037.com\/shows\/pet-month\/"},{"keyword":"Franks","id":25065,"title":"Memorial Day Isn't Complete Without A Frank's RedHot Buffalo Chicken Sandwich","url":"https:\/\/thenew1037.com\/2017\/05\/22\/replace-your-hotdog-with-a-franks-redhot-buffalo-chicken-sandwich-on-memorial-day\/"},{"keyword":"Giftcard","id":28214,"title":"Ruth's Chris Is Celebrating Their Anniversary By Giving You A Gift","url":"https:\/\/thenew1037.com\/2017\/05\/30\/ruths-chris-celebrating-anniversary-giving-gift\/"},{"keyword":"Safe","id":47364,"title":"Don't Drink And Drive, Make A Plan To Get Home Safely","url":"https:\/\/thenew1037.com\/2017\/07\/20\/dont-drink-drive-make-plan-get-home-safely\/"},{"keyword":"community","id":84200,"title":"Beasley Best Community of Caring","url":"https:\/\/thenew1037.com\/shows\/beasley-best-community-caring\/"}];
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://thenew1037.com/wp-content/plugins/greatermedia-keywords/assets/js/greatermedia_keywords_autocomplete.min.js?ver=0.0.1'></script>
+<script type='text/javascript' src='//www.gstatic.com/firebasejs/3.6.9/firebase.js'></script>
+<script type='text/javascript' src='https://thenew1037.com/wp-content/plugins/the-events-calendar/vendor/jquery-resize/jquery.ba-resize.min.js?ver=1.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var tribe_js_config = {"permalink_settings":"\/%year%\/%monthnum%\/%day%\/%postname%\/","events_post_type":"tribe_events","events_base":"https:\/\/thenew1037.com\/events\/"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://thenew1037.com/wp-content/plugins/the-events-calendar/src/resources/js/tribe-events.min.js?ver=4.6.2'></script>
+<script type='text/javascript' src='https://thenew1037.com/wp-content/mu-plugins/dependencies/pjax/jquery.pjax.js?ver=1.9.2'></script>
+<link rel='https://api.w.org/' href='https://thenew1037.com/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://thenew1037.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://thenew1037.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.9.7" />
+		<style>
+		.getty.alignleft {
+			margin-right: 5px;
+		}
+		.getty.alignright {
+			margin-left: 5px;
+		}
+		</style>
+		<meta name="tec-api-version" content="v1"><meta name="tec-api-origin" content="https://thenew1037.com"><link rel="https://theeventscalendar.com/" href="https://thenew1037.com/wp-json/tribe/events/v1/" />
+
+		<link rel="apple-touch-icon" sizes="57x57" href="https://thenew1037.com/wp-content/themes/wsoc/images/apple-icon-57x57.png">
+		<link rel="apple-touch-icon" sizes="60x60" href="https://thenew1037.com/wp-content/themes/wsoc/images/apple-icon-60x60.png">
+		<link rel="apple-touch-icon" sizes="72x72" href="https://thenew1037.com/wp-content/themes/wsoc/images/apple-icon-72x72.png">
+		<link rel="apple-touch-icon" sizes="76x76" href="https://thenew1037.com/wp-content/themes/wsoc/images/apple-icon-76x76.png">
+		<link rel="apple-touch-icon" sizes="114x114" href="https://thenew1037.com/wp-content/themes/wsoc/images/apple-icon-114x114.png">
+		<link rel="apple-touch-icon" sizes="120x120" href="https://thenew1037.com/wp-content/themes/wsoc/images/apple-icon-120x120.png">
+		<link rel="apple-touch-icon" sizes="144x144" href="https://thenew1037.com/wp-content/themes/wsoc/images/apple-icon-144x144.png">
+		<link rel="apple-touch-icon" sizes="152x152" href="https://thenew1037.com/wp-content/themes/wsoc/images/apple-icon-152x152.png">
+		<link rel="apple-touch-icon" sizes="180x180" href="https://thenew1037.com/wp-content/themes/wsoc/images/apple-icon-180x180.png">
+		<link rel="icon" type="image/png" sizes="192x192"  href="https://thenew1037.com/wp-content/themes/wsoc/images/android-icon-192x192.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="https://thenew1037.com/wp-content/themes/wsoc/images/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="96x96" href="https://thenew1037.com/wp-content/themes/wsoc/images/favicon-96x96.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="https://thenew1037.com/wp-content/themes/wsoc/images/favicon-16x16.png">
+		<!--[if IE]>
+		<link rel="shortcut icon" href="https://thenew1037.com/wp-content/themes/wsoc/images/favicon.ico" />
+		<![endif]-->
+		<meta name="msapplication-TileImage" content="https://thenew1037.com/wp-content/themes/wsoc/images/ms-icon-144x144.png">
+
+	
+		<script>
+		  (function(w, d){
+		   var id='embedly-platform', n = 'script';
+		   if (!d.getElementById(id)){
+		     w.embedly = w.embedly || function() {(w.embedly.q = w.embedly.q || []).push(arguments);};
+		     var e = d.createElement(n); e.id = id; e.async=1;
+		     e.src = ('https:' === document.location.protocol ? 'https' : 'http') + '://cdn.embedly.com/widgets/platform.js';
+		     var s = d.getElementsByTagName(n)[0];
+		     s.parentNode.insertBefore(e, s);
+		   }
+		  })(window, document);
+		</script>
+
+			<!--[if lt IE 10]>
+	<link rel="stylesheet" href="https://thenew1037.com/wp-content/themes/greatermedia/assets/css/ie9.css"/>
+	<![endif]-->
+	<!--[if lt IE 9]>
+	<link rel="stylesheet" href="https://thenew1037.com/wp-content/themes/greatermedia/assets/css/ie8.css"/>
+	<![endif]-->
+			
+					</head>
+
+	<body class="home blog tribe-no-js">
+		
+		<div id="site-wrap" class="site-wrap">
+			<div id="page-wrap" class="page-wrap">
+
+				<div class="ad__wallpaper">
+			<!-- /26918149/WSOC_FM_Wallpaper -->
+			<div id='div-gpt-ad-1487289548015-0'>
+				<script type="text/javascript">
+					googletag.cmd.push(function() { googletag.display('div-gpt-ad-1487289548015-0'); });
+				</script>
+			</div>
+		</div>
+				
+					<header id="header" class="header" role="banner">
+					<a href="https://thenew1037.com/2018/08/22/win-share-50000/">
+					<div id="breaking-news-banner" class="breaking-news-banner">
+						<div class='breaking-news-banner__inner'>
+							<span class="breaking-news-banner__title">Win YOUR Share at $50,000:</span> 
+							<span class="breaking-news-banner__excerpt">Do you want a chance to win your share of $50,000? All you need to do is register HERE and listen to The New 103.7&hellip;</span>
+						</div>
+					</div>
+				</a>
+			
+	<div class="header__main">
+		<div class="container">
+			<a href="https://thenew1037.com/" class="header__logo"><img src="https://files.greatermedia.com/uploads/sites/46/2017/03/WSOC-1037-Logo-1.png" alt="The New 103.7 | Country&#039;s Hottest Hits" class="header__logo--img"></a>
+
+			<div class="header__main--navwrap">
+				<div id="header__search" class="header__search">
+					<label for="s" class="header__search--label"><span class="header__search--span">Search</span>
+						<i class="header__search--btn"></i>
+					</label>
+				</div><nav class="header__nav"><ul id="header__nav--list" class="header__nav--list"><li id="menu-item-3077" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-3077"><a href="https://thenew1037.com">HOME</a></li>
+<li id="menu-item-447" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-447 format-sp"><a href="#">ON AIR</a>
+<ul class="sub-menu">
+	<li id="menu-item-451" class="menu-item menu-item-type-post_type menu-item-object-show menu-item-451 format-sp"><a href="https://thenew1037.com/shows/tanner-in-the-morning/"><img width="150" height="150" src="https://files.greatermedia.com/uploads/sites/46/2017/03/Tanner-Logo-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" /><div class="group">Tanner In The Morning<div class="meta-text"><span class="days">Weekdays</span><span class="times">5:00AM - 10:00AM</span></div></div></a></li>
+	<li id="menu-item-450" class="menu-item menu-item-type-post_type menu-item-object-show menu-item-450 format-sp"><a href="https://thenew1037.com/shows/catherine-lane/"><img width="150" height="150" src="https://files.greatermedia.com/uploads/sites/46/2017/03/Catherine-Lane-1-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" /><div class="group">Catherine Lane<div class="meta-text"><span class="days">Weekdays</span><span class="times">10:00AM - 3:00PM</span></div></div></a></li>
+	<li id="menu-item-449" class="menu-item menu-item-type-post_type menu-item-object-show menu-item-449 format-sp"><a href="https://thenew1037.com/shows/charlie-debbie/"><img width="150" height="150" src="https://files.greatermedia.com/uploads/sites/46/2017/03/WSOC_Charlie-and-Debbie-profile-150x150.png" class="attachment-thumbnail size-thumbnail" alt="" /><div class="group">Charlie &#038; Debbie<div class="meta-text"><span class="days">Weekdays</span><span class="times">3:00PM - 7:00PM</span></div></div></a></li>
+	<li id="menu-item-448" class="menu-item menu-item-type-post_type menu-item-object-show menu-item-448 format-sp"><a href="https://thenew1037.com/shows/big-sexy/"><img width="150" height="150" src="https://files.greatermedia.com/uploads/sites/46/2017/03/WSOC_Big-Sexy-profile-150x150.png" class="attachment-thumbnail size-thumbnail" alt="" /><div class="group">Big Sexy<div class="meta-text"><span class="days">Weekdays</span><span class="times">7:00PM - 2:00AM</span></div></div></a></li>
+	<li id="menu-item-470" class="menu-item menu-item-type-post_type menu-item-object-show menu-item-470"><a href="https://thenew1037.com/shows/country-fried-mix-2/"><img width="150" height="150" src="https://files.greatermedia.com/uploads/sites/46/2017/03/sinister-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" /><div class="group">Country Fried Mix<div class="meta-text"><span class="days">Friday</span><span class="times">10:00PM</span></div></div></a></li>
+	<li id="menu-item-471" class="menu-item menu-item-type-post_type menu-item-object-show menu-item-471"><a href="https://thenew1037.com/shows/country-fried-mix/"><img width="150" height="150" src="https://files.greatermedia.com/uploads/sites/46/2017/03/dj_silver_bw.r-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" /><div class="group">Country Club Mix<div class="meta-text"><span class="days">Saturday Nights</span><span class="times">10:00PM</span></div></div></a></li>
+	<li id="menu-item-97738" class="menu-item menu-item-type-post_type menu-item-object-show menu-item-97738"><a href="https://thenew1037.com/shows/francene-marie-show/"><img width="150" height="150" src="https://files.greatermedia.com/uploads/sites/46/2017/11/Francene-Bracelet-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" /><div class="group">The Francene Marie Show<div class="meta-text"><span class="days">Sundays</span><span class="times">6:00am-7:00am</span></div></div></a></li>
+</ul>
+</li>
+<li id="menu-item-1894" class="menu-item menu-item-type-post_type_archive menu-item-object-podcast menu-item-has-children menu-item-1894"><a href="https://thenew1037.com/podcasts/">PODCASTS</a>
+<ul class="sub-menu">
+	<li id="menu-item-73869" class="menu-item menu-item-type-post_type menu-item-object-podcast menu-item-73869"><a href="https://thenew1037.com/podcasts/tanner-in-the-mornings/">Tanner in the Mornings on Demand</a></li>
+	<li id="menu-item-76486" class="menu-item menu-item-type-post_type menu-item-object-podcast menu-item-76486"><a href="https://thenew1037.com/podcasts/catherines-media-zone/">Catherine's Media Zone</a></li>
+	<li id="menu-item-76487" class="menu-item menu-item-type-post_type menu-item-object-podcast menu-item-76487"><a href="https://thenew1037.com/podcasts/charlie-debbie/">Charlie &#038; Debbie On Demand</a></li>
+	<li id="menu-item-73868" class="menu-item menu-item-type-post_type menu-item-object-podcast menu-item-73868"><a href="https://thenew1037.com/podcasts/taking-dead-aim-charlie-nance/">"Taking Dead Aim" with Charlie Nance</a></li>
+	<li id="menu-item-1906" class="menu-item menu-item-type-post_type menu-item-object-podcast menu-item-1906"><a href="https://thenew1037.com/podcasts/the-francene-marie-show/">The Francene Marie Show</a></li>
+</ul>
+</li>
+<li id="menu-item-1887" class="menu-item menu-item-type-post_type_archive menu-item-object-gmr_gallery menu-item-1887"><a href="https://thenew1037.com/galleries/">PHOTOS</a></li>
+<li id="menu-item-160547" class="menu-item menu-item-type-post_type_archive menu-item-object-contest menu-item-160547"><a href="https://thenew1037.com/contests/">CONTESTS</a></li>
+<li id="menu-item-2188" class="menu-item menu-item-type-taxonomy menu-item-object-tribe_events_cat menu-item-has-children menu-item-2188"><a href="https://thenew1037.com/events/category/all-events/">EVENTS</a>
+<ul class="sub-menu">
+	<li id="menu-item-2220" class="menu-item menu-item-type-taxonomy menu-item-object-tribe_events_cat menu-item-2220"><a href="https://thenew1037.com/events/category/all-events/">All Events</a></li>
+	<li id="menu-item-2221" class="menu-item menu-item-type-taxonomy menu-item-object-tribe_events_cat menu-item-2221"><a href="https://thenew1037.com/events/category/concerts/">Concerts</a></li>
+</ul>
+</li>
+<li id="menu-item-514" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-has-children menu-item-514"><a href="/">FEATURES</a>
+<ul class="sub-menu">
+	<li id="menu-item-159758" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-159758"><a href="https://thenew1037.com/whats-on-your-plate/">What's On Your Plate?</a></li>
+	<li id="menu-item-158523" class="menu-item menu-item-type-post_type menu-item-object-show menu-item-158523"><a href="https://thenew1037.com/shows/beasley-best-community-caring-mental-health-awareness/">Beasley Best Community of Caring – Mental Health Awareness</a></li>
+	<li id="menu-item-542" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-542"><a href="https://thenew1037.com/category/tanners-pets-of-the-week/">Tanner's Pets of the Week</a></li>
+	<li id="menu-item-515" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-515"><a href="https://thenew1037.com/category/new-music-showdown/">New Music Showdown</a></li>
+	<li id="menu-item-19639" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-19639"><a href="https://thenew1037.com/stand-up-speak-out/">Stand Up Speak Out</a></li>
+	<li id="menu-item-781" class="menu-item menu-item-type-post_type menu-item-object-show menu-item-781"><a href="https://thenew1037.com/shows/country-news/">Country News</a></li>
+	<li id="menu-item-778" class="menu-item menu-item-type-post_type menu-item-object-show menu-item-778"><a href="https://thenew1037.com/shows/tech-buzz/">Tech Buzz</a></li>
+	<li id="menu-item-779" class="menu-item menu-item-type-post_type menu-item-object-show menu-item-779"><a href="https://thenew1037.com/shows/lifestyle/">Lifestyle</a></li>
+</ul>
+</li>
+<li id="menu-item-583" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-583"><a href="#">CONNECT</a>
+<ul class="sub-menu">
+	<li id="menu-item-113076" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-113076"><a href="https://thenew1037.com/join-103-7-wsoc-country-club/">Sign Up for The New 103.7 Newsletter</a></li>
+	<li id="menu-item-731" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-731"><a href="https://thenew1037.com/get-the-new-103-7-app/">Download The App</a></li>
+	<li id="menu-item-582" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-582"><a href="https://thenew1037.com/contact-us/">Contact Us</a></li>
+	<li id="menu-item-588" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-588"><a href="https://thenew1037.com/advertise-with-us/">Advertise With Us</a></li>
+	<li id="menu-item-733" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-733"><a href="https://bbgi.com/category/job-openings/">Jobs</a></li>
+</ul>
+</li>
+<li id="menu-item-777" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-777"><a href="#">ABOUT</a>
+<ul class="sub-menu">
+	<li id="menu-item-12730" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-12730"><a target="_blank" href="https://bbgi.com/wp-content/uploads/2017/04/Beasley-Privacy-Policy-As-Of-April-19-2017.pdf">Privacy Policy</a></li>
+	<li id="menu-item-593" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-593"><a target="_blank" href="https://bbgi.com/wp-content/uploads/2017/05/Beasley-TOS-May-23-2017.pdf">Terms of Services</a></li>
+	<li id="menu-item-594" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-594"><a target="_blank" href="https://bbgi.com/dmca.pdf">DMCA</a></li>
+	<li id="menu-item-801" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-801"><a target="_blank" href="https://files.greatermedia.com/uploads/sites/46/2018/08/LSL2-23360212-v5-Beasley_Charlotte_-_EEO_Public_File_Report_-_2018_doc.pdf">EEO</a></li>
+	<li id="menu-item-802" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-802"><a target="_blank" href="https://publicfiles.fcc.gov/fm-profile/wsoc-fm/">FCC Public File</a></li>
+	<li id="menu-item-5491" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5491"><a target="_blank" href="https://files.greatermedia.com/uploads/sites/49/2017/03/General-Contest-Rules.pdf">General Contest Rules</a></li>
+</ul>
+</li>
+</ul></nav></div>
+
+			<div class="mobile-nav__toggle">
+				<div class="mobile-nav__toggle--span"></div>
+			</div>
+		</div>
+
+		<div id="live-player" class="audio-interface">
+
+		<div id="js-audio-ad-aboveplayer" class="audio-ad audio-ad--aboveplayer">
+	</div>
+
+	<div class="audio-interface__container">
+				<nav class="audio-stream">
+			<ul class="audio-stream__list">
+				<li class="audio-stream__current">
+										<button class="audio-stream__title" data-callsign="WSOCFM" data-station-id="1801">
+						COUNTRY&#039;S HOTTEST HITS					</button>
+					<ul class="audio-stream__available">
+													<li class="audio-stream__item">
+								<button class="audio-stream__link" data-callsign="WSOCFM" data-station-id="1801">
+									<span class="audio-stream__name">WSOCFM</span>
+									<span class="audio-stream__desc">COUNTRY&#039;S HOTTEST HITS</span>
+								</button>
+							</li>
+											</ul>
+				</li>
+			</ul><!-- .audio-stream__list -->
+
+			<div class="audio-sponsor -open">
+				<!-- /26918149/WSOC_FM_PlayerSponsorship -->
+		<div id='div-gpt-ad-1487117572008-0'>
+			<script type="text/javascript">
+				googletag.cmd.push(function() { googletag.display('div-gpt-ad-1487117572008-0'); });
+			</script>
+		</div>			</div>
+		</nav><!-- .audio-stream -->
+
+		<div id="js-audio-player" class="audio-player">
+
+						<div id="js-audio-volume" class="audio-volume">
+				<button id="audio-volume-mute" class="audio-volume__mute"><span class="audio-volume__text">Mute Volume</span></button>
+				<input type="range" min="0" max="1" step="0.01" value="1" title="Volume Slider">
+				<button id="js-audio-volume-button" class="audio-volume__btn"><span class="audio-volume__text">Volume</span></button>
+			</div><!-- .audio-volume -->
+
+						<div id="js-audio-controls" class="audio-controls">
+				<button id="playButton" class="audio-controls__play" data-action="play-live">
+					<span class="audio-controls__text">Play</span>
+				</button>
+				<div id="loadButton" class="audio-controls__loading"><i class="gmr-icon icon-spin icon-loading">
+					<span class="audio-controls__text">Loading</span></i>
+				</div>
+				<button id="pauseButton" class="audio-controls__pause">
+					<span class="audio-controls__text">Pause</span>
+				</button>
+				<button id="resumeButton" class="audio-controls__resume">
+					<span class="audio-controls__text">Resume</span>
+				</button>
+			</div><!-- .audio-controls -->
+
+			<div id="js-audio-readout" class="audio-readout">
+
+								<div id="js-audio-ad-inplayer" class="audio-ad audio-ad--inplayer">
+				</div>
+
+								<div id="live-stream__listen-now" class="audio-readout__notification audio-readout__notification--listen -show">Listen Live</div>
+				<!--<div id="js-notification-preroll" class="audio-readout__notification audio-readout__notification--preroll">Live stream will be available after this brief ad from our sponsors</div>-->
+
+								<div id="live-stream__now-playing" class="audio-playing">
+					<div id="js-track-info" class="audio-playing__track"></div>
+					<div id="js-artist-info" class="audio-playing__artist"></div>
+
+										<div id="js-audio-podcast" class="audio-podcast">
+						<span class="audio-podcast__text">00:00</span>
+						<input type="range" name="audio-podcast" id="audio-podcast-slider" min="0" max="1" step="0.001" value="0">
+						<span class="audio-podcast__text">00:00</span>
+					</div><!-- .audio-podcast -->
+				</div><!-- .audio-playing -->
+
+								<div id="js-audio-status" class="audio-status">
+					<button id="js-audio-status-listen" class="audio-status__btn">Listen Live</button>
+				</div>
+
+				<div id="js-audio-more" class="audio-more">
+					<a href="https://thenew1037.com/stream/WSOCFM/" data-tmpl="https://thenew1037.com/stream/%s/" title="Play History"><span class="icon-clock"></span></a>
+				</div>
+
+				<div id="js-audio-time" class="audio-time">
+					<div id="js-audio-time__progressbar" class="audio-time__progressbar">
+						<span id="js-audio-time__progress" class="audio-time__progress"></span>
+					</div>
+					<div id="js-audio-time__elapsed" class="audio-time__elapsed"></div>
+					<div id="js-audio-time__remaining" class="audio-time__remaining"></div>
+				</div><!-- .audio-time -->
+
+			</div><!-- .audio-readout -->
+
+						<button id="js-audio-expand" class="audio-expand">
+				<span class="audio-expand__text">View Audio Streams</span>
+			</button>
+
+		</div><!-- .audio-player -->
+
+	</div>
+</div><!-- .audio-interface -->
+	</div>
+</header>
+
+<div id="live-stream__container" class="live-stream__container">
+	<div id="td_container" class="live-stream__container--player"></div>
+	<div class="pre-roll__notification">Live stream will be available after this brief ad from our sponsors</div>
+</div>					<div id="header__search--form" class="header__search--form">
+	<form role="search" method="get" id="searchform" class="searchform" action="https://thenew1037.com/">
+		<label class="screen-reader-text" for="s">Search for:</label>
+		<input type="text" value="" name="s" id="header-search" class="header__search--input" placeholder="Search The New 103.7" autocomplete="off">
+		<button type="submit" id="searchsubmit" class="header__search--submit">
+		<button class="header__search--cancel"></button>
+	</form>
+
+	<div class="header-search-body">
+		<div id="keyword-search-container"></div>
+	
+		<button class='header-search__search-all-btn' href='#'>Search All Content</button>
+	</div>
+
+	<script type='text/template' id="keyword-search-body-template">
+		<div class='keyword-search'>
+			<div class='keyword-search__header'></div>
+			<div class='keyword-search__items'></div>
+		</div>
+	</script>
+
+	<script type="text/template" id="keyword-search-item-template">
+		<a href='<%= url %>'>
+			<div class='keyword-search-item'>
+				<div class='keyword-search-item__keyword'>Keyword: <strong><%= keyword %></strong></div>
+				<div class='keyword-search-item__article'><%= title %></div>
+			</div>
+		</a>
+	</script>
+</div>
+					<nav id="mobile-nav" class="mobile-nav">
+						<ul id="menu-primary" class="mobile-nav__list js-mobile-sub-menus"><li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-3077"><a href="https://thenew1037.com">HOME</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-447 format-sp"><a href="#">ON AIR</a><a href="#" class="show-subnavigation icon-arrow-next"><span class="screen-reader-text">Expand Sub-Navigation</span></a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-show menu-item-451 format-sp"><a href="https://thenew1037.com/shows/tanner-in-the-morning/"><img width="150" height="150" src="https://files.greatermedia.com/uploads/sites/46/2017/03/Tanner-Logo-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" /><div class="group">Tanner In The Morning<div class="meta-text"><span class="days">Weekdays</span><span class="times">5:00AM - 10:00AM</span></div></div></a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-show menu-item-450 format-sp"><a href="https://thenew1037.com/shows/catherine-lane/"><img width="150" height="150" src="https://files.greatermedia.com/uploads/sites/46/2017/03/Catherine-Lane-1-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" /><div class="group">Catherine Lane<div class="meta-text"><span class="days">Weekdays</span><span class="times">10:00AM - 3:00PM</span></div></div></a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-show menu-item-449 format-sp"><a href="https://thenew1037.com/shows/charlie-debbie/"><img width="150" height="150" src="https://files.greatermedia.com/uploads/sites/46/2017/03/WSOC_Charlie-and-Debbie-profile-150x150.png" class="attachment-thumbnail size-thumbnail" alt="" /><div class="group">Charlie &#038; Debbie<div class="meta-text"><span class="days">Weekdays</span><span class="times">3:00PM - 7:00PM</span></div></div></a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-show menu-item-448 format-sp"><a href="https://thenew1037.com/shows/big-sexy/"><img width="150" height="150" src="https://files.greatermedia.com/uploads/sites/46/2017/03/WSOC_Big-Sexy-profile-150x150.png" class="attachment-thumbnail size-thumbnail" alt="" /><div class="group">Big Sexy<div class="meta-text"><span class="days">Weekdays</span><span class="times">7:00PM - 2:00AM</span></div></div></a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-show menu-item-470"><a href="https://thenew1037.com/shows/country-fried-mix-2/"><img width="150" height="150" src="https://files.greatermedia.com/uploads/sites/46/2017/03/sinister-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" /><div class="group">Country Fried Mix<div class="meta-text"><span class="days">Friday</span><span class="times">10:00PM</span></div></div></a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-show menu-item-471"><a href="https://thenew1037.com/shows/country-fried-mix/"><img width="150" height="150" src="https://files.greatermedia.com/uploads/sites/46/2017/03/dj_silver_bw.r-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" /><div class="group">Country Club Mix<div class="meta-text"><span class="days">Saturday Nights</span><span class="times">10:00PM</span></div></div></a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-show menu-item-97738"><a href="https://thenew1037.com/shows/francene-marie-show/"><img width="150" height="150" src="https://files.greatermedia.com/uploads/sites/46/2017/11/Francene-Bracelet-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" /><div class="group">The Francene Marie Show<div class="meta-text"><span class="days">Sundays</span><span class="times">6:00am-7:00am</span></div></div></a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type_archive menu-item-object-podcast menu-item-has-children menu-item-1894"><a href="https://thenew1037.com/podcasts/">PODCASTS</a><a href="#" class="show-subnavigation icon-arrow-next"><span class="screen-reader-text">Expand Sub-Navigation</span></a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-podcast menu-item-73869"><a href="https://thenew1037.com/podcasts/tanner-in-the-mornings/">Tanner in the Mornings on Demand</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-podcast menu-item-76486"><a href="https://thenew1037.com/podcasts/catherines-media-zone/">Catherine's Media Zone</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-podcast menu-item-76487"><a href="https://thenew1037.com/podcasts/charlie-debbie/">Charlie &#038; Debbie On Demand</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-podcast menu-item-73868"><a href="https://thenew1037.com/podcasts/taking-dead-aim-charlie-nance/">"Taking Dead Aim" with Charlie Nance</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-podcast menu-item-1906"><a href="https://thenew1037.com/podcasts/the-francene-marie-show/">The Francene Marie Show</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type_archive menu-item-object-gmr_gallery menu-item-1887"><a href="https://thenew1037.com/galleries/">PHOTOS</a></li>
+<li class="menu-item menu-item-type-post_type_archive menu-item-object-contest menu-item-160547"><a href="https://thenew1037.com/contests/">CONTESTS</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-tribe_events_cat menu-item-has-children menu-item-2188"><a href="https://thenew1037.com/events/category/all-events/">EVENTS</a><a href="#" class="show-subnavigation icon-arrow-next"><span class="screen-reader-text">Expand Sub-Navigation</span></a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-tribe_events_cat menu-item-2220"><a href="https://thenew1037.com/events/category/all-events/">All Events</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-tribe_events_cat menu-item-2221"><a href="https://thenew1037.com/events/category/concerts/">Concerts</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-has-children menu-item-514"><a href="/">FEATURES</a><a href="#" class="show-subnavigation icon-arrow-next"><span class="screen-reader-text">Expand Sub-Navigation</span></a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-159758"><a href="https://thenew1037.com/whats-on-your-plate/">What's On Your Plate?</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-show menu-item-158523"><a href="https://thenew1037.com/shows/beasley-best-community-caring-mental-health-awareness/">Beasley Best Community of Caring – Mental Health Awareness</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-542"><a href="https://thenew1037.com/category/tanners-pets-of-the-week/">Tanner's Pets of the Week</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-515"><a href="https://thenew1037.com/category/new-music-showdown/">New Music Showdown</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-19639"><a href="https://thenew1037.com/stand-up-speak-out/">Stand Up Speak Out</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-show menu-item-781"><a href="https://thenew1037.com/shows/country-news/">Country News</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-show menu-item-778"><a href="https://thenew1037.com/shows/tech-buzz/">Tech Buzz</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-show menu-item-779"><a href="https://thenew1037.com/shows/lifestyle/">Lifestyle</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-583"><a href="#">CONNECT</a><a href="#" class="show-subnavigation icon-arrow-next"><span class="screen-reader-text">Expand Sub-Navigation</span></a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-113076"><a href="https://thenew1037.com/join-103-7-wsoc-country-club/">Sign Up for The New 103.7 Newsletter</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-731"><a href="https://thenew1037.com/get-the-new-103-7-app/">Download The App</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-582"><a href="https://thenew1037.com/contact-us/">Contact Us</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-588"><a href="https://thenew1037.com/advertise-with-us/">Advertise With Us</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-733"><a href="https://bbgi.com/category/job-openings/">Jobs</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-777"><a href="#">ABOUT</a><a href="#" class="show-subnavigation icon-arrow-next"><span class="screen-reader-text">Expand Sub-Navigation</span></a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-12730"><a target="_blank" href="https://bbgi.com/wp-content/uploads/2017/04/Beasley-Privacy-Policy-As-Of-April-19-2017.pdf">Privacy Policy</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-593"><a target="_blank" href="https://bbgi.com/wp-content/uploads/2017/05/Beasley-TOS-May-23-2017.pdf">Terms of Services</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-594"><a target="_blank" href="https://bbgi.com/dmca.pdf">DMCA</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-801"><a target="_blank" href="https://files.greatermedia.com/uploads/sites/46/2018/08/LSL2-23360212-v5-Beasley_Charlotte_-_EEO_Public_File_Report_-_2018_doc.pdf">EEO</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-802"><a target="_blank" href="https://publicfiles.fcc.gov/fm-profile/wsoc-fm/">FCC Public File</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5491"><a target="_blank" href="https://files.greatermedia.com/uploads/sites/49/2017/03/General-Contest-Rules.pdf">General Contest Rules</a></li>
+</ul>
+</li>
+</ul><ul class="social__list"><li><a class="social__link icon-facebook" target="_blank" href="https://www.facebook.com/TheNew1037"></a></li><li><a class="social__link icon-twitter" target="_blank" href="https://twitter.com/TheNew1037"></a></li><li><a class="social__link icon-youtube" target="_blank" href="https://www.youtube.com/channel/UCn6-CY6c3oXidEjLmysH7rQ?view_as=subscriber"></a></li><li><a class="social__link icon-instagram" target="_blank" href="http://instagram.com/thenew1037/"></a></li></ul>					</nav>
+								<main class="main" role="main">
+											<div class="container__leaderboard">
+							<div class="ad__leaderboard">
+								<script type="text/javascript">googletag.beasley.targeting=[["cdomain","thenew1037.com"],["cpage","home"],["ctest",""],["genre",""],["market",""]];</script><div class="" data-dfp-slot="dfp_ad_leaderboard_pos1" data-sizes="false" data-targeting="[[&quot;pos&quot;,1],[&quot;remnant&quot;,&quot;yes&quot;]]"></div>							</div>
+						</div>
+					
+	<div class="container">
+		<section id="featured" class="home__featured home__featured_hero_slider">
+		<div class="slideshow">
+					<div class="feature-post-slide" style="display:none">
+				<a href="https://thenew1037.com/contests/register-win-share-50000/">
+					<div class="slide-content">
+						<div class="featured__article--image" style="background-image: url(https://files.greatermedia.com/uploads/sites/46/2018/08/Agetn1037_Flipper.jpg)">
+						</div>
+						<div class="featured__article--content">
+							<div class="featured__article--heading">
+								Register to Win Your Share of $50,000!							</div>
+													</div>
+					</div>
+				</a>
+			</div>
+					<div class="feature-post-slide" style="display:none">
+				<a href="https://thenew1037.com/event/carolina-country-music-cruise/">
+					<div class="slide-content">
+						<div class="featured__article--image" style="background-image: url(https://files.greatermedia.com/uploads/sites/46/2018/08/Untitled-design-970x491.png)">
+						</div>
+						<div class="featured__article--content">
+							<div class="featured__article--heading">
+								Carolina Country Music Cruise!							</div>
+													</div>
+					</div>
+				</a>
+			</div>
+					<div class="feature-post-slide" style="display:none">
+				<a href="https://thenew1037.com/contests/tanners-friday-flowers/">
+					<div class="slide-content">
+						<div class="featured__article--image" style="background-image: url(https://files.greatermedia.com/uploads/sites/46/2018/07/Flipper-Sunflowers-White-970x491.jpg)">
+						</div>
+						<div class="featured__article--content">
+							<div class="featured__article--heading">
+								Register to Win: Tanner's Friday Flowers!							</div>
+													</div>
+					</div>
+				</a>
+			</div>
+					<div class="feature-post-slide" style="display:none">
+				<a href="https://thenew1037.com/join-103-7-wsoc-country-club/">
+					<div class="slide-content">
+						<div class="featured__article--image" style="background-image: url(https://files.greatermedia.com/uploads/sites/46/2018/07/Flipper-WSOC-970x491.jpg)">
+						</div>
+						<div class="featured__article--content">
+							<div class="featured__article--heading">
+								Sign Up for The New 103.7 Newsletter							</div>
+													</div>
+					</div>
+				</a>
+			</div>
+					<div class="feature-post-slide" style="display:none">
+				<a href="https://thenew1037.com/event/alan-jackson-honky-tonk-highway-tour/">
+					<div class="slide-content">
+						<div class="featured__article--image" style="background-image: url(https://files.greatermedia.com/uploads/sites/46/2017/11/Alan-Jackson-2018-1200x628.jpg)">
+						</div>
+						<div class="featured__article--content">
+							<div class="featured__article--heading">
+								Alan Jackson "Honky Tonk Highway Tour"							</div>
+													</div>
+					</div>
+				</a>
+			</div>
+				<div class="slick-arrow">
+			<a href=# class="slick-prev">Prev</a>
+			<a href=# class="slick-next">Next</a>
+		</div>
+	</div>
+	<div class="slick-dots"></div>
+</section>
+
+<section class="home__highlights">
+	<div class="highlights__col">
+		<div class="highlights__community">
+	<h2 class="highlights__heading">Don't Miss</h2><div class="highlights__community--item">
+				<a href="https://thenew1037.com/episodes/captain-curtis-and-the-most-important-ryder-cup/" title="Captain Curtis And The Most Important Ryder Cup">
+					<div class="highlights__community--thumb" style='background-image: url(https://files.greatermedia.com/uploads/sites/46/2018/03/509ba248207aa787b1e157d3ba60e551-336x224.png)'></div>
+					<h3 class="highlights__community--title">Captain Curtis And The Most Important Ryder Cup</h3>
+				</a>
+			</div><div class="highlights__community--item">
+				<a href="https://thenew1037.com/2018/08/25/alan-jackson-issues-statement-canceling-multiple-shows/" title="Alan Jackson Issues Statement After Canceling Multiple Shows">
+					<div class="highlights__community--thumb" style='background-image: url(https://files.greatermedia.com/uploads/sites/46/2018/06/GettyImages-476767122-e1529159024279-336x224.jpg)'></div>
+					<h3 class="highlights__community--title">Alan Jackson Issues Statement After Canceling Multiple Shows</h3>
+				</a>
+			</div><div class="highlights__community--item">
+				<a href="https://thenew1037.com/2018/08/25/carrie-underwood-performed-keith-urban-show-nashville/" title="Carrie Underwood Performed With Keith Urban During Show In Nashville">
+					<div class="highlights__community--thumb" style='background-image: url(https://files.greatermedia.com/uploads/sites/46/2017/09/GettyImages-804329930-e1505576665371-336x224.jpg)'></div>
+					<h3 class="highlights__community--title">Carrie Underwood Performed With Keith Urban During Show In Nashville</h3>
+				</a>
+			</div></div>
+
+<div class="highlights__events">
+	<div>
+		<h2 class="highlights__heading">Upcoming Events</h2>
+		<a class="highlights__events--more-btn" href="https://thenew1037.com/events/">More</a>
+	</div><div class="highlights__event--item">
+				<a href="https://thenew1037.com/event/alive-after-5-2/" title="Alive After 5">
+					<div class="highlights__event--thumb" style="background-image: url(https://files.greatermedia.com/uploads/sites/46/2018/04/Screen-Shot-2018-06-14-at-10.11.44-AM-336x224.png)"></div>
+
+					<div class="highlights__event--meta">
+						<h3 class="highlights__event--title">Alive After 5</h3>
+						<span class="highlights__event--date"><time datetime="2018-04-05T17:00:00+00:00">Apr 5, 2018</time> - <time datetime="2018-09-13T21:00:00+00:00">Sep 13, 2018</time></span></div>
+				</a>
+			</div><div class="highlights__event--item">
+				<a href="https://thenew1037.com/event/win-vip-sec-nation-experience-academy-sports-outdoors/" title="Win A VIP SEC Nation Experience at Academy Sports &amp; Outdoors!">
+					<div class="highlights__event--thumb" style="background-image: url(https://files.greatermedia.com/uploads/sites/46/2018/02/Academy-Sports-336x224.jpg)"></div>
+
+					<div class="highlights__event--meta">
+						<h3 class="highlights__event--title">Win A VIP SEC Nation Experience at Academy Sports &amp; Outdoors!</h3>
+						<span class="highlights__event--date"><time datetime="2018-08-31T13:00:00+00:00">Aug 31, 2018</time></span></div>
+				</a>
+			</div></div>
+	</div>
+</section>
+
+		<section class="content">
+
+							<h2 class="content__heading">Latest from The New 103.7</h2>
+			
+			<div class="ad__in-loop">
+	<div class="" data-dfp-slot="dfp_ad_inlist_infinite" data-sizes="false" data-targeting="[]"></div></div>
+			
+				<article id="post-162459" class="entry2 post-162459 post type-post status-publish format-standard has-post-thumbnail hentry category-tanner-in-the-morning tag-faith-hill tag-reputation tag-taylor-swift tag-tim-mcgraw _shows-tanner-in-the-mornings" role="article" itemscope itemtype="http://schema.org/BlogPosting">
+			<section class="entry2__thumbnail">			
+			<a href="https://thenew1037.com/2018/08/27/taylor-swift-brought-tim-mcgraw-faith-hill-sing-tim-mcgraw-people-lost/">
+				<div class="entry2__thumbnail__image" style='background-image: url(https://files.greatermedia.com/uploads/sites/46/2018/08/GettyImages-170087454-500x375.jpg)'></div>
+									<div class="entry2__thumbnail__icon"></div>
+											</a>
+		</section>
+	
+	<section class="entry2__meta">
+		<time datetime="2018-08-27T05:50:31+00:00" class="entry2__date">August 27, 2018</time>
+		
+		<h2 class="entry2__title" itemprop="headline"><a href="https://thenew1037.com/2018/08/27/taylor-swift-brought-tim-mcgraw-faith-hill-sing-tim-mcgraw-people-lost/">Taylor Swift brought out Tim McGraw + Faith Hill to sing 'Tim McGraw' and People Lost it!</a></h2>
+		
+		<div class="entry2__excerpt">
+			<p>"Please Welcome the ACTUAL Tim McGraw to the stage"</p>
+		</div>		
+	</section>
+
+	<footer class="entry2__footer">
+		<a href="https://thenew1037.com/category/tanner-in-the-morning/" class="entry2__footer--category">Tanner in the Morning</a>
+		<a href="https://thenew1037.com/2018/08/27/taylor-swift-brought-tim-mcgraw-faith-hill-sing-tim-mcgraw-people-lost/" class="entry2__footer--read-more">read more</a>
+	</footer>
+</article>
+<article id="post-162456" class="entry2 post-162456 post type-post status-publish format-standard has-post-thumbnail hentry category-tanner-in-the-morning tag-game-of-thrones _shows-tanner-in-the-mornings" role="article" itemscope itemtype="http://schema.org/BlogPosting">
+			<section class="entry2__thumbnail">			
+			<a href="https://thenew1037.com/2018/08/27/hbo-gives-quick-peek-season-8-game-thrones/">
+				<div class="entry2__thumbnail__image" style='background-image: url(https://files.greatermedia.com/uploads/sites/46/2017/04/GettyImages-522831932-e1466691861548-500x375.jpg)'></div>
+									<div class="entry2__thumbnail__icon"></div>
+											</a>
+		</section>
+	
+	<section class="entry2__meta">
+		<time datetime="2018-08-27T05:43:03+00:00" class="entry2__date">August 27, 2018</time>
+		
+		<h2 class="entry2__title" itemprop="headline"><a href="https://thenew1037.com/2018/08/27/hbo-gives-quick-peek-season-8-game-thrones/">HBO Gives Quick Peek at Season 8 of ‘Game of Thrones’</a></h2>
+		
+		<div class="entry2__excerpt">
+			<p>HBO is giving a quick peek at what's to come for the final season in a new trailer!</p>
+		</div>		
+	</section>
+
+	<footer class="entry2__footer">
+		<a href="https://thenew1037.com/category/tanner-in-the-morning/" class="entry2__footer--category">Tanner in the Morning</a>
+		<a href="https://thenew1037.com/2018/08/27/hbo-gives-quick-peek-season-8-game-thrones/" class="entry2__footer--read-more">read more</a>
+	</footer>
+</article>
+<article id="post-162443" class="entry2 post-162443 post type-post status-publish format-standard has-post-thumbnail hentry category-celebs category-entertainment-news category-the-new-103-7 tag-nikki-bella-reveals-why-her-and-john-cena-really-broke-up tag-qcwriter tag-the-real-reason-nikki-bella-and-john-cena-broke-up collection-entertainment-ac-top-40 collection-entertainment-country-2 collection-entertainment-country-phase-1-stations collection-entertainment-urbanurban-ac _shows-entertainment-news" role="article" itemscope itemtype="http://schema.org/BlogPosting">
+			<section class="entry2__thumbnail">			
+			<a href="https://thenew1037.com/2018/08/25/nikki-bella-opens-real-reason-john-cena-split/">
+				<div class="entry2__thumbnail__image" style='background-image: url(https://files.greatermedia.com/uploads/sites/46/2018/08/cena-500x375.jpg)'></div>
+									<div class="entry2__thumbnail__icon"></div>
+											</a>
+		</section>
+	
+	<section class="entry2__meta">
+		<time datetime="2018-08-25T21:42:21+00:00" class="entry2__date">August 25, 2018</time>
+		
+		<h2 class="entry2__title" itemprop="headline"><a href="https://thenew1037.com/2018/08/25/nikki-bella-opens-real-reason-john-cena-split/">Nikki Bella Says Neither Her Or John Cena Wanted To Sacrifice Their Career</a></h2>
+		
+		<div class="entry2__excerpt">
+			<p>Since their split, rumors have been swirling about why Nikki Bella and John Cena really broke up.</p>
+		</div>		
+	</section>
+
+	<footer class="entry2__footer">
+		<a href="https://thenew1037.com/category/celebs/" class="entry2__footer--category">Celebs</a>
+		<a href="https://thenew1037.com/2018/08/25/nikki-bella-opens-real-reason-john-cena-split/" class="entry2__footer--read-more">read more</a>
+	</footer>
+</article>
+<article id="post-162449" class="entry2 post-162449 post type-post status-publish format-standard has-post-thumbnail hentry category-celebs category-entertainment-news category-the-new-103-7 tag-cops-tell-gretchen-wilson-shes-a-bad-drunk tag-footage-of-gretchen-wilson-arrest tag-gretchen-wilson-arrest tag-gretchen-wilson-arrest-video tag-gretchen-wilson-speaks-out-after-arrest tag-qcwriter collection-entertainment-country-2 collection-entertainment-country-phase-1-stations _shows-entertainment-news" role="article" itemscope itemtype="http://schema.org/BlogPosting">
+			<section class="entry2__thumbnail">			
+			<a href="https://thenew1037.com/2018/08/25/country-star-speaks-arrest/">
+				<div class="entry2__thumbnail__image" style='background-image: url(https://files.greatermedia.com/uploads/sites/46/2017/12/shutterstock_582908293-e1510329935354-1-500x375.jpg)'></div>
+									<div class="entry2__thumbnail__icon"></div>
+											</a>
+		</section>
+	
+	<section class="entry2__meta">
+		<time datetime="2018-08-25T21:42:18+00:00" class="entry2__date">August 25, 2018</time>
+		
+		<h2 class="entry2__title" itemprop="headline"><a href="https://thenew1037.com/2018/08/25/country-star-speaks-arrest/">Video: Gretchen Wilson Arrest</a></h2>
+		
+		<div class="entry2__excerpt">
+			<p>There are two sides to every story, just ask Gretchen Wilson.</p>
+		</div>		
+	</section>
+
+	<footer class="entry2__footer">
+		<a href="https://thenew1037.com/category/celebs/" class="entry2__footer--category">Celebs</a>
+		<a href="https://thenew1037.com/2018/08/25/country-star-speaks-arrest/" class="entry2__footer--read-more">read more</a>
+	</footer>
+</article>
+<article id="post-162446" class="entry2 post-162446 post type-post status-publish format-standard has-post-thumbnail hentry category-francene-marie category-the-new-103-7 tag-francene-marie collection-francene-marie _shows-francene-marie" role="article" itemscope itemtype="http://schema.org/BlogPosting">
+			<section class="entry2__thumbnail">			
+			<a href="https://thenew1037.com/2018/08/25/bikers-with-boxes/">
+				<div class="entry2__thumbnail__image" style='background-image: url(https://files.greatermedia.com/uploads/sites/46/2018/08/Bikers-W-Boxes-500x375.png)'></div>
+									<div class="entry2__thumbnail__icon"></div>
+											</a>
+		</section>
+	
+	<section class="entry2__meta">
+		<time datetime="2018-08-25T13:47:15+00:00" class="entry2__date">August 25, 2018</time>
+		
+		<h2 class="entry2__title" itemprop="headline"><a href="https://thenew1037.com/2018/08/25/bikers-with-boxes/">Bikers With Boxes</a></h2>
+		
+		<div class="entry2__excerpt">
+			<p>The amazing journey of an Operation Christmas Child shoe box begins with YOU.</p>
+		</div>		
+	</section>
+
+	<footer class="entry2__footer">
+		<a href="https://thenew1037.com/category/francene-marie/" class="entry2__footer--category">Francene Marie</a>
+		<a href="https://thenew1037.com/2018/08/25/bikers-with-boxes/" class="entry2__footer--read-more">read more</a>
+	</footer>
+</article>
+<article id="post-162438" class="entry2 post-162438 post type-post status-publish format-standard has-post-thumbnail hentry category-celebs category-entertainment-news category-the-new-103-7 tag-evan-felker-breaks-up-with-miranda-lambert tag-miranda-lambert-and-evan-felker-split tag-miranda-lambert-breaks-up-with-evan-felker tag-miranda-lambert-single tag-qcwriter tag-staci-felker-and-evan-felker-miranda-lambert-split collection-entertainment-country-2 collection-entertainment-country-phase-1-stations _shows-entertainment-news" role="article" itemscope itemtype="http://schema.org/BlogPosting">
+			<section class="entry2__thumbnail">			
+			<a href="https://thenew1037.com/2018/08/25/miranda-lambert-just-opened-love-life/">
+				<div class="entry2__thumbnail__image" style='background-image: url(https://files.greatermedia.com/uploads/sites/46/2018/07/GettyImages-534363334-e1532045328875-500x375.jpg)'></div>
+									<div class="entry2__thumbnail__icon"></div>
+											</a>
+		</section>
+	
+	<section class="entry2__meta">
+		<time datetime="2018-08-25T12:52:53+00:00" class="entry2__date">August 25, 2018</time>
+		
+		<h2 class="entry2__title" itemprop="headline"><a href="https://thenew1037.com/2018/08/25/miranda-lambert-just-opened-love-life/">Miranda Lambert Just Opened Up About Her Love Life</a></h2>
+		
+		<div class="entry2__excerpt">
+			<p>It appears as though Miranda Lambert and Evan Felker are no longer a couple.</p>
+		</div>		
+	</section>
+
+	<footer class="entry2__footer">
+		<a href="https://thenew1037.com/category/celebs/" class="entry2__footer--category">Celebs</a>
+		<a href="https://thenew1037.com/2018/08/25/miranda-lambert-just-opened-love-life/" class="entry2__footer--read-more">read more</a>
+	</footer>
+</article>
+<div class="ad__in-loop">
+	<div class="" data-dfp-slot="dfp_ad_inlist_infinite" data-sizes="false" data-targeting="[]"></div></div><article id="post-162440" class="entry2 post-162440 post type-post status-publish format-standard has-post-thumbnail hentry category-celebs category-entertainment-news category-the-new-103-7 tag-carrie-underwood-baby-bump-is-growing tag-carrie-underwood-big-baby-bump tag-carrie-underwood-looks-really-pregnant tag-carrie-underwoods-baby-bump-is-big tag-qcwriter collection-entertainment-country-2 collection-entertainment-country-phase-1-stations _shows-entertainment-news" role="article" itemscope itemtype="http://schema.org/BlogPosting">
+			<section class="entry2__thumbnail">			
+			<a href="https://thenew1037.com/2018/08/25/carrie-underwood-performed-keith-urban-show-nashville/">
+				<div class="entry2__thumbnail__image" style='background-image: url(https://files.greatermedia.com/uploads/sites/46/2017/09/GettyImages-804329930-e1505576665371-500x375.jpg)'></div>
+									<div class="entry2__thumbnail__icon"></div>
+											</a>
+		</section>
+	
+	<section class="entry2__meta">
+		<time datetime="2018-08-25T12:52:50+00:00" class="entry2__date">August 25, 2018</time>
+		
+		<h2 class="entry2__title" itemprop="headline"><a href="https://thenew1037.com/2018/08/25/carrie-underwood-performed-keith-urban-show-nashville/">Carrie Underwood Performed With Keith Urban During Show In Nashville</a></h2>
+		
+		<div class="entry2__excerpt">
+			<p>It's no secret that Carrie Underwood is pregnant.</p>
+		</div>		
+	</section>
+
+	<footer class="entry2__footer">
+		<a href="https://thenew1037.com/category/celebs/" class="entry2__footer--category">Celebs</a>
+		<a href="https://thenew1037.com/2018/08/25/carrie-underwood-performed-keith-urban-show-nashville/" class="entry2__footer--read-more">read more</a>
+	</footer>
+</article>
+<article id="post-162433" class="cf episode post-162433 type-episode status-publish has-post-thumbnail hentry" role="article" itemscope itemtype="http://schema.org/OnDemandEvent">
+		<div class="podcast-player"><div class="podcast__play mp3-e361d430c9103acc9331083f8e011514"><div class="podcast__cover"  style="background-image: url(https://files.greatermedia.com/uploads/sites/46/2018/03/509ba248207aa787b1e157d3ba60e551.png);"><button class="podcast__btn--play" data-mp3-src="https://omnystudio.com/d/clips/58a22c8d-1810-4cd1-bce2-a849004eeede/5341172d-04ae-4fcb-8742-a897014a913e/024bb1f8-d896-4080-ac6c-a94700c4028c/audio.mp3" data-mp3-title="Captain Curtis And The Most Important Ryder Cup" data-mp3-artist="Captain Curtis And The Most Important Ryder Cup - 8.25.18" data-mp3-hash="e361d430c9103acc9331083f8e011514"></button><button class="podcast__btn--pause"></button></div><div id="audio__time" class="audio__time"><div id="audio__progress-bar" class="audio__progress-bar"><span id="audio__progress" class="audio__progress"></span></div><div id="audio__time--elapsed" class="audio__time--elapsed"></div><div id="audio__time--remaining" class="audio__time--remaining"></div></div><span class="podcast__runtime"></span></div><div class="podcast__meta"><time class="podcast__date" datetime="2018-08-25T10:00:00+00:00">August 25, 2018</time><h3 class="podcast__title"><a href="https://thenew1037.com/episodes/captain-curtis-and-the-most-important-ryder-cup/">Captain Curtis And The Most Important Ryder Cup</a></h3><div class="podcast__parent"><div class="podcast__parent--title"><a href="https://thenew1037.com/podcasts/taking-dead-aim-charlie-nance/">Taking Dead Aim with Charlie Nance</a></div><a class="podcast__subscribe" href="https://itunes.apple.com/us/podcast/taking-dead-aim-with-charlie-nance/id1211794684?mt=2" target="_blank">Subscribe in iTunes</a><a class="podcast__rss" href="https://thenew1037.com/?feed=podcast&#038;podcast_series=taking-dead-aim-charlie-nance" target="_blank">Podcast Feed</a></div><div class="podcast__desc">Just prior to the last Ryder Cup matches, I had the chance to talk IN DEPTH with Curtis Strange regarding his time as Ryder Cup Captain in 2001 (that became 2002-Post 911).  There's so much here that I'd never heard before.  I hope you enjoy.  Also we hear from Courtney Styles, the Director of the&hellip;</div><div id="audio__time" class="audio__time"><div id="audio__progress-bar" class="audio__progress-bar"><span id="audio__progress" class="audio__progress"></span></div><div id="audio__time--elapsed" class="audio__time--elapsed"></div><div id="audio__time--remaining" class="audio__time--remaining"></div></div></div><div class="gmr-mediaelement-fallback"><!--[if lt IE 9]><script>document.createElement('audio');</script><![endif]-->
+<audio class="wp-audio-shortcode" id="audio-162433-1" preload="none" style="width: 100%;visibility: hidden;" controls="controls"><source type="audio/mpeg" src="https://omnystudio.com/d/clips/58a22c8d-1810-4cd1-bce2-a849004eeede/5341172d-04ae-4fcb-8742-a897014a913e/024bb1f8-d896-4080-ac6c-a94700c4028c/audio.mp3?_=1" /><a href="https://omnystudio.com/d/clips/58a22c8d-1810-4cd1-bce2-a849004eeede/5341172d-04ae-4fcb-8742-a897014a913e/024bb1f8-d896-4080-ac6c-a94700c4028c/audio.mp3">https://omnystudio.com/d/clips/58a22c8d-1810-4cd1-bce2-a849004eeede/5341172d-04ae-4fcb-8742-a897014a913e/024bb1f8-d896-4080-ac6c-a94700c4028c/audio.mp3</a></audio></div></div>	</article><article id="post-162435" class="entry2 post-162435 post type-post status-publish format-standard has-post-thumbnail hentry category-celebs category-entertainment-news category-the-new-103-7 tag-alan-jackson-health-scare tag-alan-jackson-is-ill tag-alan-jackson-issues-statement-about-show-cancellations tag-alan-jackson-recovering-after-illness tag-alan-jackson-sick tag-qcwriter collection-country-breaking collection-entertainment-country-2 _shows-entertainment-news" role="article" itemscope itemtype="http://schema.org/BlogPosting">
+			<section class="entry2__thumbnail">			
+			<a href="https://thenew1037.com/2018/08/25/alan-jackson-issues-statement-canceling-multiple-shows/">
+				<div class="entry2__thumbnail__image" style='background-image: url(https://files.greatermedia.com/uploads/sites/46/2018/06/GettyImages-476767122-e1529159024279-500x375.jpg)'></div>
+									<div class="entry2__thumbnail__icon"></div>
+											</a>
+		</section>
+	
+	<section class="entry2__meta">
+		<time datetime="2018-08-25T06:52:31+00:00" class="entry2__date">August 25, 2018</time>
+		
+		<h2 class="entry2__title" itemprop="headline"><a href="https://thenew1037.com/2018/08/25/alan-jackson-issues-statement-canceling-multiple-shows/">Alan Jackson Issues Statement After Canceling Multiple Shows</a></h2>
+		
+		<div class="entry2__excerpt">
+			<p>Earlier this month, we reported Alan Jackson had canceled a couple of shows due to an unspecified illness.</p>
+		</div>		
+	</section>
+
+	<footer class="entry2__footer">
+		<a href="https://thenew1037.com/category/celebs/" class="entry2__footer--category">Celebs</a>
+		<a href="https://thenew1037.com/2018/08/25/alan-jackson-issues-statement-canceling-multiple-shows/" class="entry2__footer--read-more">read more</a>
+	</footer>
+</article>
+<article id="post-162426" class="entry2 post-162426 post type-post status-publish format-standard has-post-thumbnail hentry category-big-sexy tag-big-sexy tag-funny tag-instagram tag-laughing tag-social tag-throwback tag-walker-hayes _shows-big-sexy" role="article" itemscope itemtype="http://schema.org/BlogPosting">
+			<section class="entry2__thumbnail">			
+			<a href="https://thenew1037.com/2018/08/24/laugh-walker-hayes-us-confused-3-ig-posts/">
+				<div class="entry2__thumbnail__image" style='background-image: url(https://files.greatermedia.com/uploads/sites/46/2017/11/GettyImages-693138042-500x375.jpg)'></div>
+									<div class="entry2__thumbnail__icon"></div>
+											</a>
+		</section>
+	
+	<section class="entry2__meta">
+		<time datetime="2018-08-24T17:57:49+00:00" class="entry2__date">August 24, 2018</time>
+		
+		<h2 class="entry2__title" itemprop="headline"><a href="https://thenew1037.com/2018/08/24/laugh-walker-hayes-us-confused-3-ig-posts/">Laugh: Walker Hayes Has Us Confused With 3 IG Posts</a></h2>
+		
+		<div class="entry2__excerpt">
+			<p>What in the world is Walker Hayes even up to?  Well with the last three posts he's made on Instagram, we have no clue, but we sure are laughin!  But confused...</p>
+		</div>		
+	</section>
+
+	<footer class="entry2__footer">
+		<a href="https://thenew1037.com/category/big-sexy/" class="entry2__footer--category">Big Sexy</a>
+		<a href="https://thenew1037.com/2018/08/24/laugh-walker-hayes-us-confused-3-ig-posts/" class="entry2__footer--read-more">read more</a>
+	</footer>
+</article>
+				<div class="posts-pagination">
+		<a
+			class="button posts-pagination--load-more is-loaded"
+			href="https://thenew1037.com/page/2/"
+			data-page-link-template="https://thenew1037.com/page/%d/"
+			data-page="2"
+			data-partial-slug='partials/loop'
+			data-partial-name=''
+			data-auto-load='1'
+			>
+			<i class="gmr-icon icon-spin icon-loading"></i> Load More
+		</a>
+	</div>
+			
+		</section>
+
+		
+<aside class="sidebar">
+	<div id="social_icon_widget-2" class="widget--live-player widget_social_icon_widget"><ul class="social__list"><li><a class="social__link icon-facebook" target="_blank" href="https://www.facebook.com/TheNew1037"></a></li><li><a class="social__link icon-twitter" target="_blank" href="https://twitter.com/TheNew1037"></a></li><li><a class="social__link icon-youtube" target="_blank" href="https://www.youtube.com/channel/UCn6-CY6c3oXidEjLmysH7rQ?view_as=subscriber"></a></li><li><a class="social__link icon-instagram" target="_blank" href="http://instagram.com/thenew1037/"></a></li></ul></div><div id="gmr-dfp-widget-2" class="widget--live-player widget_gmr-dfp-widget"><div class="" data-dfp-slot="WSOC_FM_RightRail_pos1" data-sizes="[[300,250],[300,600]]" data-targeting="[[&quot;pos&quot;,1]]"></div></div>		<div id="recent-contests-2" class="widget--live-player widget-recent-contests">		<h3 class="widget--live-player__title">WSOC Contests</h3>		<ul>
+					<li>
+				<a href="https://thenew1037.com/contests/take-our-cabarrus-county-fair-quiz-to-win-a-family-4-pack-of-tickets/">
+					<div class="widget-recent-contests__meta">
+						<img src="https://files.greatermedia.com/uploads/sites/46/2018/08/Screen-Shot-2018-08-23-at-4.22.27-PM-500x500.png" />
+						<span>Take Our Cabarrus County Fair Quiz to Win A Family 4-Pack of Tickets!</span>
+					</div>
+				</a>
+			</li>
+					<li>
+				<a href="https://thenew1037.com/contests/listen-win-week-cadillac-three-tickets-cabarrus-county-fair-tickets-hobby-lobby-gift-cards/">
+					<div class="widget-recent-contests__meta">
+						<img src="https://files.greatermedia.com/uploads/sites/46/2017/09/111-500x500.jpg" />
+						<span>Listen To Win This Week: The Cadillac Three Tickets, Cabarrus County Fair Tickets, and Hobby Lobby Gift Cards!</span>
+					</div>
+				</a>
+			</li>
+					<li>
+				<a href="https://thenew1037.com/contests/extraordinary-womens-conference-tickets/">
+					<div class="widget-recent-contests__meta">
+						<img src="https://files.greatermedia.com/uploads/sites/46/2018/08/ewomen_site_logo_retina_2-500x300.png" />
+						<span>Extraordinary Womens Conference Tickets</span>
+					</div>
+				</a>
+			</li>
+					<li>
+				<a href="https://thenew1037.com/contests/register-win-share-50000/">
+					<div class="widget-recent-contests__meta">
+						<img src="https://files.greatermedia.com/uploads/sites/46/2018/08/Agetn1037_Flipper-500x491.jpg" />
+						<span>Register to Win Your Share of $50,000!</span>
+					</div>
+				</a>
+			</li>
+					<li>
+				<a href="https://thenew1037.com/contests/tanners-friday-flowers/">
+					<div class="widget-recent-contests__meta">
+						<img src="https://files.greatermedia.com/uploads/sites/46/2018/07/Flipper-Sunflowers-White-500x491.jpg" />
+						<span>Register to Win: Tanner's Friday Flowers!</span>
+					</div>
+				</a>
+			</li>
+				</ul>
+		<div class="more-contests">
+			<a class="more-contests-btn" href="/contests">More Contests</a>
+		</div>
+		</div>		<div id="text-2" class="widget--live-player widget_text">			<div class="textwidget"><!--<div data-crowdynews-widget="BeasleyBroadcastGroupInc_the-new-1037-social-spot-vertical"><script src="//widget.crowdynews.com/BeasleyBroadcastGroupInc_the-new-1037-social-spot-vertical.js" async="true"></script></div><br>--></div>
+		</div><div id="gmr-dfp-widget-3" class="widget--live-player widget_gmr-dfp-widget"><div class="" data-dfp-slot="WSOC_FM_RightRail_pos2" data-sizes="[[300,250],[300,600]]" data-targeting="[[&quot;pos&quot;,2]]"></div></div><div id="triton_song_history-2" class="widget--live-player widget_triton_song_history">			<div class="triton-song-history">
+				<td-songhistory
+          id="td-songhistory"
+          station="WSOCFMAAC"
+          songsdisplayed="5"
+          title= "Recently Played"
+          >
+			  </td-songhistory>
+				<script src="//widgets.listenlive.co/1.0/tdwidgets.min.js"></script>
+			</div>
+		</div><div id="text-3" class="widget--live-player widget_text">			<div class="textwidget"><a href="https://publicfiles.fcc.gov/fm-profile/wsoc" target="_blank">FCC Public File</a></div>
+		</div></aside>
+	</div>
+
+			<footer class="footer" role="contentinfo">
+				<div class="container">
+																<div class="footer__content">
+							<div class="footer__copyright">
+								<div class="footer__copyright--logo">
+									<a href="https://thenew1037.com/">The New 103.7</a>
+								</div>
+								<span class="footer__copyright--span">
+									&copy; The New 103.7								</span>
+								-
+								<span class="footer__copyright--span">
+									<a href="http://bbgi.com/" target="_blank" rel="noopener noreferrer">Beasley Media Group, LLC</a>
+								</span>
+							</div>
+							<div class="footer__menu">
+								<ul class="social__list"><li><a class="social__link icon-facebook" target="_blank" href="https://www.facebook.com/TheNew1037"></a></li><li><a class="social__link icon-twitter" target="_blank" href="https://twitter.com/TheNew1037"></a></li><li><a class="social__link icon-youtube" target="_blank" href="https://www.youtube.com/channel/UCn6-CY6c3oXidEjLmysH7rQ?view_as=subscriber"></a></li><li><a class="social__link icon-instagram" target="_blank" href="http://instagram.com/thenew1037/"></a></li></ul>								<nav class="footer__nav"><ul id="footer__nav--list" class="footer__nav--list"><li id="menu-item-1889" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1889"><a href="https://thenew1037.com/contact-us/">Contact Us</a></li>
+<li id="menu-item-1891" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1891"><a href="https://thenew1037.com/get-the-new-103-7-app/">Get The New 103.7 App!</a></li>
+<li id="menu-item-113075" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-113075"><a href="https://thenew1037.com/join-103-7-wsoc-country-club/">Sign Up for The New 103.7 Newsletter</a></li>
+<li id="menu-item-1888" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1888"><a href="https://thenew1037.com/advertise-with-us/">Advertise With Us</a></li>
+<li id="menu-item-5490" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5490"><a target="_blank" href="https://files.greatermedia.com/uploads/sites/49/2017/03/General-Contest-Rules.pdf">General Contest Rules</a></li>
+</ul></nav>							</div>
+						</div>
+									</div>
+			</footer>
+		</main>
+	</div> <!-- / page-wrap -->
+</div> <!-- / site-wrap -->
+<div class="menu-overlay-mask"></div>
+<div class="header-search-overlay-mask"></div>
+<div class="busy-mask">
+	<i class="gmr-icon icon-spinner icon-spin"></i>
+</div>
+<!-- /26918149/WSOC_FM_Interstitial -->
+		<div id="div-gpt-ad-1484200509775-3" style="height:0; overflow: hidden; width:0;">
+			<script type="text/javascript">
+				googletag.cmd.push(function() { googletag.display('div-gpt-ad-1484200509775-3'); });
+			</script>
+		</div>		<script>
+		( function ( body ) {
+			'use strict';
+			body.className = body.className.replace( /\btribe-no-js\b/, 'tribe-js' );
+		} )( document.body );
+		</script>
+		<script type='text/javascript'> /* <![CDATA[ */var tribe_l10n_datatables = {"aria":{"sort_ascending":": activate to sort column ascending","sort_descending":": activate to sort column descending"},"length_menu":"Show _MENU_ entries","empty_table":"No data available in table","info":"Showing _START_ to _END_ of _TOTAL_ entries","info_empty":"Showing 0 to 0 of 0 entries","info_filtered":"(filtered from _MAX_ total entries)","zero_records":"No matching records found","search":"Search:","all_selected_text":"All items on this page were selected. ","select_all_link":"Select all pages","clear_selection":"Clear Selection.","pagination":{"all":"All","next":"Next","previous":"Previous"},"select":{"rows":{"0":"","_":": Selected %d rows","1":": Selected 1 row"}},"datepicker":{"dayNames":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"dayNamesShort":["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],"dayNamesMin":["S","M","T","W","T","F","S"],"monthNames":["January","February","March","April","May","June","July","August","September","October","November","December"],"monthNamesShort":["January","February","March","April","May","June","July","August","September","October","November","December"],"nextText":"Next","prevText":"Prev","currentText":"Today","closeText":"Done"}};/* ]]> */ </script><link rel='stylesheet' id='mediaelement-css'  href='https://thenew1037.com/wp-includes/js/mediaelement/mediaelementplayer-legacy.min.css?ver=4.2.6-78496d1' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-mediaelement-css'  href='https://thenew1037.com/wp-includes/js/mediaelement/wp-mediaelement.min.css?ver=4.9.7' type='text/css' media='all' />
+<script type='text/javascript' src='https://thenew1037.com/wp-content/plugins/greatermedia-galleries/assets/js/gmr_gallery.min.js?ver=2.2.3'></script>
+<script type='text/javascript' src='https://thenew1037.com/wp-content/plugins/greatermedia-timed-content/js/greatermedia-timed-content.js?ver=4.9.7'></script>
+<script type='text/javascript' src='//cdn.embed.ly/player-0.1.0.min.js'></script>
+<script type='text/javascript' src='https://thenew1037.com/wp-content/plugins/beasley-omny-studio/player.js?ver=20180319.1'></script>
+<script type='text/javascript' src='https://thenew1037.com/wp-content/mu-plugins/dependencies/waypoints/lib/jquery.waypoints.min.js?ver=4.9.7'></script>
+<script type='text/javascript' src='https://thenew1037.com/wp-content/mu-plugins/dependencies/polyfills/classList.js?ver=4.9.7'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var platformConfig = {"firebase":{"apiKey":"","authDomain":"","databaseURL":"","storageBucket":"","messagingSenderId":""}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://thenew1037.com/wp-content/themes/greatermedia/assets/js/frontend.min.js?ver=1535049815'></script>
+<script async type='text/javascript' src='https://tag.simpli.fi/sifitag/273421f0-841f-0135-dc80-06659b33d47c'></script>
+<script type='text/javascript' src='//sdk.listenlive.co/web/2.9/td-sdk.min.js'></script>
+<script type='text/javascript' src='https://thenew1037.com/wp-content/mu-plugins/dependencies/mediaelement-js/mediaelement-and-player.min.js?ver=2.16.3'></script>
+<script type='text/javascript' src='https://thenew1037.com/wp-content/mu-plugins/dependencies/cookies/cookies.min.js?ver=1.1.0'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var gmr = {"debug":"","logged_in":"","callsign":"WSOCFM","streamUrl":"","wpLoggedIn":"","homeUrl":"https:\/\/thenew1037.com\/","popup_url":"https:\/\/thenew1037.com\/listen-live","is_popup":"","intervals":{"live_streaming":15,"inline_audio":5}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://thenew1037.com/wp-content/plugins/greatermedia-live-player/assets/js/live-player.min.js?ver=20180319.1'></script>
+<script data-cfasync="true" type='text/javascript' src='https://thenew1037.com/wp-content/plugins/greatermedia-contests/js/contests.min.js?ver=1.5.0'></script>
+<script type='text/javascript' src='https://thenew1037.com/wp-content/plugins/gmr-homepage-countdown-clock/js/countdown-clock.min.js?ver=4.9.7'></script>
+<script type='text/javascript' src='https://thenew1037.com/wp-includes/js/wp-embed.min.js?ver=4.9.7'></script>
+<script type="text/javascript">
+		(function($, googletag) {
+			var slotsIndex = 0, setGlobalTargeting = false, __ready, __cleanup;
+
+			__cleanup = function() {
+				var slots = [];
+
+				$('.main [data-dfp-slot] .gmr-ad').each(function() {
+					var slot = $(this).data('slot');
+
+					if (slot) {
+						slots.push(slot);
+					}
+				});
+
+				if (slots.length > 0) {
+					googletag.destroySlots(slots);
+				}
+
+				googletag.pubads().clearTargeting();
+			};
+
+			__ready = function() {
+				var unitCodes = {"dfp_ad_leaderboard_pos1":"WSOC_FM_Leaderboard_pos1","dfp_ad_leaderboard_pos2":"WSOC_FM_Leaderboard_pos2","dfp_ad_incontent_pos1":"WSOC_FM_InContent_pos1","dfp_ad_incontent_pos2":"WSOC_FM_InContent_pos2","dfp_ad_right_rail_pos1":false,"dfp_ad_right_rail_pos2":false,"dfp_ad_inlist_infinite":"WSOC_FM_InList_infinite","dfp_ad_ingallery":"WSOC_FM_ingallery","dfp_ad_sidegallery":"WSOC_FM_sidegallery","dfp_ad_homepage_countdown_clock":"WSOC_FM_CountdownClock_320x50"},
+					sizes = {"dfp_ad_leaderboard_pos1":[[728,90],[970,90],[970,66],[320,50],[320,100]],"dfp_ad_leaderboard_pos2":[[728,90],[970,90],[320,50],[320,100]],"dfp_ad_incontent_pos1":[[300,250]],"dfp_ad_incontent_pos2":[[300,250]],"dfp_ad_ingallery":[[300,600],[300,250]],"dfp_ad_sidegallery":[[300,250]],"dfp_ad_gallery_sidebar":[[300,250]],"dfp_ad_inlist_infinite":[[300,250]],"dfp_ad_right_rail_pos1":[[300,600],[300,250]],"dfp_ad_right_rail_pos2":[[300,600],[300,250]],"dfp_ad_homepage_countdown_clock":[[320,50]]},
+					slots = [],
+					unitCode;
+
+				$('[data-dfp-slot]:empty').each(function() {
+					var $this = $(this),
+						slotType = $this.attr('data-dfp-slot'),
+						slotSizes = JSON.parse($this.attr('data-sizes')),
+						targeting = JSON.parse($this.attr('data-targeting')),
+						id;
+
+					unitCode = unitCodes[slotType] || slotType;
+					if (unitCode) {
+						id = 'dfp-slot-' + ++slotsIndex;
+						$this.html('<div id="' + id + '" class="gmr-ad"></div>');
+
+						slots.push([
+							'/26918149/' + unitCode,
+							slotSizes || sizes[slotType],
+							id,
+							targeting,
+							slotType
+						]);
+					}
+				});
+
+				googletag.cmd.push(function() {
+					var i, j, slot, targeting, sizeMapping;
+
+					for (i in slots) {
+						slot = googletag.defineSlot(slots[i][0], slots[i][1], slots[i][2]);
+
+						sizeMapping = false;
+						if ('dfp_ad_leaderboard_pos1' == slots[i][4]) {
+							sizeMapping = googletag.sizeMapping()
+								.addSize([1024, 200], [[970, 66], [970, 90], [728, 90]])
+								.addSize([768, 200], [728, 90])
+								.addSize([0, 0], [[320, 50], [320, 100]])
+								.build();
+						} else if ('dfp_ad_leaderboard_pos2' == slots[i][4]) {
+							sizeMapping = googletag.sizeMapping()
+								.addSize([1024, 200], [[970, 90], [728, 90]])
+								.addSize([768, 200], [728, 90])
+								.addSize([0, 0], [[320, 50], [320, 100]])
+								.build();
+						} else if ('dfp_ad_incontent_pos1' == slots[i][4] || 'dfp_ad_incontent_pos2' == slots[i][4]) {
+							sizeMapping = googletag.sizeMapping()
+								.addSize([768, 200], [])
+								.addSize([0, 0], [300, 250])
+								.build();
+						} else if ('dfp_ad_gallery_sidebar' == slots[i][4]) {
+							sizeMapping = googletag.sizeMapping()
+								.addSize([768, 200], [300, 250])
+								.addSize([0, 0], [])
+								.build();
+						} else if ('dfp_ad_ingallery' == slots[i][4]) {
+							sizeMapping = googletag.sizeMapping()
+								.addSize([768, 200], [[300, 600], [300, 250]])
+								.addSize([0, 0], [300, 250])
+								.build();
+						} else if ('dfp_ad_sidegallery' == slots[i][4]) {
+							sizeMapping = googletag.sizeMapping()
+								.addSize([768, 200], [300, 250])
+								.addSize([0, 0], [])
+								.build();
+						} else if ($(document.getElementById(slots[i][2])).parents('.widget_gmr-dfp-widget').length > 0) {
+							sizeMapping = googletag.sizeMapping()
+								.addSize([768, 200], slots[i][1])
+								.addSize([0, 0], [])
+								.build();
+						}
+
+						if (sizeMapping) {
+							slot.defineSizeMapping(sizeMapping);
+						}
+
+						for (j in slots[i][3]) {
+							slot.setTargeting(slots[i][3][j][0], slots[i][3][j][1]);
+						}
+
+						slot.addService(googletag.pubads());
+
+						$(document.getElementById(slots[i][2])).data('slot', slot);
+					}
+
+					// we need to skip first targeting setup because it will be set in the header for the first page,
+					// all pjax/ajax loaded pages will use this block to reset global targeting
+					if (setGlobalTargeting) {
+						while ((targeting = googletag.beasley.targeting.pop())) {
+							googletag.pubads().setTargeting(targeting[0], targeting[1]);
+						}
+					}
+
+					setGlobalTargeting = true;
+				});
+
+				googletag.cmd.push(function() {
+					for (var i in slots) {
+						googletag.display(slots[i][2]);
+					}
+				});
+			};
+
+			$(document)
+				.on('pjax:start', __cleanup)
+				.on('pjax:end gmr_lazy_load_end', __ready)
+				.ready(__ready);
+		})(jQuery, googletag);
+	</script><script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"b7c6c809cf","applicationID":"159761608","transactionName":"b1IAYkNVXRdQW0MLW1YYN0RYG1oKVV1PTERQRw==","queueTime":0,"applicationTime":6,"atts":"QxUDFAtPThk=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

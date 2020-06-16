@@ -1,0 +1,1705 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8" >
+<meta name="viewport" id="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no" />
+
+
+
+<link rel="shortcut icon" href="http://x96dev.wpengine.com/wp-content/uploads/2015/11/x96_fav_y.png" /><link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="https://x96.com/feed/" />
+<link rel="alternate" type="text/xml" title="RSS .92" href="https://x96.com/feed/rss/" />
+<link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="https://x96.com/feed/atom/" />
+<link rel="pingback" href="https://x96.com/xmlrpc.php" />
+
+<meta property="og:image" content="https://x96.com/wp-content/uploads/2015/10/RFH-Featured.jpg" />
+<meta name="twitter:image" content="https://x96.com/wp-content/uploads/2015/10/RFH-Featured.jpg" />
+
+<meta property="og:description" content="Utah&#039;s Original Alternative" />
+
+
+<link type="text/css" media="all" href="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/cache/autoptimize/css/autoptimize_737142769b881ec6e597ffe5e3659968.css" rel="stylesheet" /><title>X96 - Utah&#039;s Original Alternative</title>
+<link rel='dns-prefetch' href='//netdna.bootstrapcdn.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="X96 &raquo; Feed" href="https://x96.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="X96 &raquo; Comments Feed" href="https://x96.com/comments/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11\/svg\/","svgExt":".svg","source":{"wpemoji":"https:\/\/x96.com\/wp-includes\/js\/wp-emoji.js?ver=4.9.8","twemoji":"https:\/\/x96.com\/wp-includes\/js\/twemoji.js?ver=4.9.8"}};
+			( function( window, document, settings ) {
+	var src, ready, ii, tests;
+
+	/*
+	 * Create a canvas element for testing native browser support
+	 * of emoji.
+	 */
+	var canvas = document.createElement( 'canvas' );
+	var context = canvas.getContext && canvas.getContext( '2d' );
+
+	/**
+	 * Check if two sets of Emoji characters render the same.
+	 *
+	 * @param set1 array Set of Emoji characters.
+	 * @param set2 array Set of Emoji characters.
+	 * @returns {boolean} True if the two sets render the same.
+	 */
+	function emojiSetsRenderIdentically( set1, set2 ) {
+		var stringFromCharCode = String.fromCharCode;
+
+		// Cleanup from previous test.
+		context.clearRect( 0, 0, canvas.width, canvas.height );
+		context.fillText( stringFromCharCode.apply( this, set1 ), 0, 0 );
+		var rendered1 = canvas.toDataURL();
+
+		// Cleanup from previous test.
+		context.clearRect( 0, 0, canvas.width, canvas.height );
+		context.fillText( stringFromCharCode.apply( this, set2 ), 0, 0 );
+		var rendered2 = canvas.toDataURL();
+
+		return rendered1 === rendered2;
+	}
+
+	/**
+	 * Detect if the browser supports rendering emoji or flag emoji. Flag emoji are a single glyph
+	 * made of two characters, so some browsers (notably, Firefox OS X) don't support them.
+	 *
+	 * @since 4.2.0
+	 *
+	 * @param type {String} Whether to test for support of "flag" or "emoji".
+	 * @return {Boolean} True if the browser can render emoji, false if it cannot.
+	 */
+	function browserSupportsEmoji( type ) {
+		var isIdentical;
+
+		if ( ! context || ! context.fillText ) {
+			return false;
+		}
+
+		/*
+		 * Chrome on OS X added native emoji rendering in M41. Unfortunately,
+		 * it doesn't work when the font is bolder than 500 weight. So, we
+		 * check for bold rendering support to avoid invisible emoji in Chrome.
+		 */
+		context.textBaseline = 'top';
+		context.font = '600 32px Arial';
+
+		switch ( type ) {
+			case 'flag':
+				/*
+				 * Test for UN flag compatibility. This is the least supported of the letter locale flags,
+				 * so gives us an easy test for full support.
+				 *
+				 * To test for support, we try to render it, and compare the rendering to how it would look if
+				 * the browser doesn't render it correctly ([U] + [N]).
+				 */
+				isIdentical = emojiSetsRenderIdentically(
+					[ 55356, 56826, 55356, 56819 ],
+					[ 55356, 56826, 8203, 55356, 56819 ]
+				);
+
+				if ( isIdentical ) {
+					return false;
+				}
+
+				/*
+				 * Test for English flag compatibility. England is a country in the United Kingdom, it
+				 * does not have a two letter locale code but rather an five letter sub-division code.
+				 *
+				 * To test for support, we try to render it, and compare the rendering to how it would look if
+				 * the browser doesn't render it correctly (black flag emoji + [G] + [B] + [E] + [N] + [G]).
+				 */
+				isIdentical = emojiSetsRenderIdentically(
+					[ 55356, 57332, 56128, 56423, 56128, 56418, 56128, 56421, 56128, 56430, 56128, 56423, 56128, 56447 ],
+					[ 55356, 57332, 8203, 56128, 56423, 8203, 56128, 56418, 8203, 56128, 56421, 8203, 56128, 56430, 8203, 56128, 56423, 8203, 56128, 56447 ]
+				);
+
+				return ! isIdentical;
+			case 'emoji':
+				/*
+				 * She's the hero Emoji deserves, but not the one it needs right now.
+				 *
+				 * To test for support, try to render a new emoji (female superhero),
+				 * then compare it to how it would look if the browser doesn't render it correctly
+				 * (superhero + female sign).
+				 */
+				isIdentical = emojiSetsRenderIdentically(
+					[55358, 56760, 9792, 65039],
+					[55358, 56760, 8203, 9792, 65039]
+				);
+				return ! isIdentical;
+		}
+
+		return false;
+	}
+
+	function addScript( src ) {
+		var script = document.createElement( 'script' );
+
+		script.src = src;
+		script.defer = script.type = 'text/javascript';
+		document.getElementsByTagName( 'head' )[0].appendChild( script );
+	}
+
+	tests = Array( 'flag', 'emoji' );
+
+	settings.supports = {
+		everything: true,
+		everythingExceptFlag: true
+	};
+
+	for( ii = 0; ii < tests.length; ii++ ) {
+		settings.supports[ tests[ ii ] ] = browserSupportsEmoji( tests[ ii ] );
+
+		settings.supports.everything = settings.supports.everything && settings.supports[ tests[ ii ] ];
+
+		if ( 'flag' !== tests[ ii ] ) {
+			settings.supports.everythingExceptFlag = settings.supports.everythingExceptFlag && settings.supports[ tests[ ii ] ];
+		}
+	}
+
+	settings.supports.everythingExceptFlag = settings.supports.everythingExceptFlag && ! settings.supports.flag;
+
+	settings.DOMReady = false;
+	settings.readyCallback = function() {
+		settings.DOMReady = true;
+	};
+
+	if ( ! settings.supports.everything ) {
+		ready = function() {
+			settings.readyCallback();
+		};
+
+		if ( document.addEventListener ) {
+			document.addEventListener( 'DOMContentLoaded', ready, false );
+			window.addEventListener( 'load', ready, false );
+		} else {
+			window.attachEvent( 'onload', ready );
+			document.attachEvent( 'onreadystatechange', function() {
+				if ( 'complete' === document.readyState ) {
+					settings.readyCallback();
+				}
+			} );
+		}
+
+		src = settings.source || {};
+
+		if ( src.concatemoji ) {
+			addScript( src.concatemoji );
+		} else if ( src.wpemoji && src.twemoji ) {
+			addScript( src.twemoji );
+			addScript( src.wpemoji );
+		}
+	}
+
+} )( window, document, window._wpemojiSettings );
+		</script>
+		
+
+
+
+
+
+
+
+
+
+<link rel='stylesheet' id='mvp-fontawesome-css'  href='//netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css?ver=4.9.8' type='text/css' media='all' />
+
+<!--[if lt IE 10]>
+<link rel='stylesheet' id='mvp-iecss-css'  href='https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/themes/flex-mag-child/css/iecss.css?ver=4.9.8' type='text/css' media='all' />
+<![endif]-->
+
+
+
+
+
+
+
+
+
+
+
+
+<script type='text/javascript' src='https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-includes/js/jquery/jquery-migrate.js?ver=1.4.1'></script>
+<script type='text/javascript' src='https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/plugins/photo-gallery/js/bwg_frontend.js?ver=2.2.100'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var bwg_objectsL10n = {"bwg_select_tag":"Select Tag."};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/plugins/photo-gallery/js/jquery.sumoselect.min.js?ver=2.2.100'></script>
+<script type='text/javascript' src='https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/plugins/photo-gallery/js/jquery.mobile.js?ver=2.2.100'></script>
+<script type='text/javascript' src='https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/plugins/photo-gallery/js/jquery.mCustomScrollbar.concat.min.js?ver=2.2.100'></script>
+<script type='text/javascript' src='https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/plugins/photo-gallery/js/jquery.fullscreen-0.4.1.js?ver=0.4.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var bwg_objectL10n = {"bwg_field_required":"field is required.","bwg_mail_validation":"This is not a valid email address.","bwg_search_result":"There are no images matching your search."};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/plugins/photo-gallery/js/bwg_gallery_box.js?ver=2.2.100'></script>
+<script type='text/javascript' src='https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/plugins/photo-gallery/js/jquery.raty.js?ver=2.5.2'></script>
+<script type='text/javascript' src='https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/plugins/photo-gallery/js/jquery.featureCarousel.js?ver=2.2.100'></script>
+<script type='text/javascript' src='https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/plugins/photo-gallery/js/3DEngine/3DEngine.js?ver=1.0.0'></script>
+<script type='text/javascript' src='https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/plugins/photo-gallery/js/3DEngine/Sphere.js?ver=1.0.0'></script>
+<script type='text/javascript' src='https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.tools.min.js?ver=5.4.8'></script>
+<script type='text/javascript' src='https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.revolution.min.js?ver=5.4.8'></script>
+<link rel='https://api.w.org/' href='https://x96.com/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://x96.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://x96.com/wp-includes/wlwmanifest.xml" /> 
+<link rel="canonical" href="https://x96.com/" />
+<link rel='shortlink' href='https://x96.com/' />
+<link rel="alternate" type="application/json+oembed" href="https://x96.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fx96.com%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://x96.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fx96.com%2F&#038;format=xml" />
+<meta name="apple-itunes-app" content="app-id=655730921">
+<meta name="google-play-app" content="app-id=com.commotion.KXRK">
+<meta name="author" content="Broadway Media">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--WPEventPlus 2.3.9-->
+
+	
+
+
+<meta name="generator" content="Powered by WPBakery Page Builder - drag and drop page builder for WordPress."/>
+<!--[if lte IE 9]><link rel="stylesheet" type="text/css" href="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/plugins/js_composer/assets/css/vc_lte_ie9.min.css" media="screen"><![endif]--><meta name="generator" content="Powered by Slider Revolution 5.4.8 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface." />
+<script type="text/javascript">function setREVStartSize(e){									
+						try{ e.c=jQuery(e.c);var i=jQuery(window).width(),t=9999,r=0,n=0,l=0,f=0,s=0,h=0;
+							if(e.responsiveLevels&&(jQuery.each(e.responsiveLevels,function(e,f){f>i&&(t=r=f,l=e),i>f&&f>r&&(r=f,n=e)}),t>r&&(l=n)),f=e.gridheight[l]||e.gridheight[0]||e.gridheight,s=e.gridwidth[l]||e.gridwidth[0]||e.gridwidth,h=i/s,h=h>1?1:h,f=Math.round(h*f),"fullscreen"==e.sliderLayout){var u=(e.c.width(),jQuery(window).height());if(void 0!=e.fullScreenOffsetContainer){var c=e.fullScreenOffsetContainer.split(",");if (c) jQuery.each(c,function(e,i){u=jQuery(i).length>0?u-jQuery(i).outerHeight(!0):u}),e.fullScreenOffset.split("%").length>1&&void 0!=e.fullScreenOffset&&e.fullScreenOffset.length>0?u-=jQuery(window).height()*parseInt(e.fullScreenOffset,0)/100:void 0!=e.fullScreenOffset&&e.fullScreenOffset.length>0&&(u-=parseInt(e.fullScreenOffset,0))}f=u}else void 0!=e.minHeight&&f<e.minHeight&&(f=e.minHeight);e.c.closest(".rev_slider_wrapper").css({height:f})					
+						}catch(d){console.log("Failure at Presize of Slider:"+d)}						
+					};</script>
+<noscript><style type="text/css"> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript>
+<!--BROADWAY UPDATE-->
+<script type='text/javascript'>
+  var googletag = googletag || {};
+  googletag.cmd = googletag.cmd || [];
+  (function() {
+    var gads = document.createElement('script');
+    gads.async = true;
+    gads.type = 'text/javascript';
+    var useSSL = 'https:' == document.location.protocol;
+    gads.src = (useSSL ? 'https:' : 'http:') +
+      '//www.googletagservices.com/tag/js/gpt.js';
+    var node = document.getElementsByTagName('script')[0];
+    node.parentNode.insertBefore(gads, node);
+  })();
+</script>
+
+<script type='text/javascript'>
+  googletag.cmd.push(function() {
+
+var Leaderboard = googletag.sizeMapping().
+ addSize([1400, 768], [1200, 90]).
+ addSize([980, 400], [970, 90]).
+ addSize([740, 400], [728, 90]).
+ addSize([0, 0], [320, 50]).
+ build();
+
+var Middlebox = googletag.sizeMapping().
+ addSize([1500, 768], [500, 300]).
+ addSize([0, 0], [300, 250]).
+ build();
+
+var Middlebox2 = googletag.sizeMapping().
+ addSize([1500, 768], [500, 300]).
+ addSize([0, 0], [300, 250]).
+ build();
+	  
+var Events = googletag.sizeMapping().
+ addSize([1400, 768], [1200, 300]).
+ addSize([740, 400], [728, 90]).
+ addSize([0,0], [300, 250]).
+ build();
+
+    googletag.defineSlot('/133996388/X96_300x250_Home', [300, 250], 'div-gpt-ad-1449615311021-0').addService(googletag.pubads());
+    googletag.defineSlot('/133996388/X96_300x250_Sidebar', [300, 250], 'div-gpt-ad-1449615311021-1')
+	.addService(googletag.pubads())
+	.setTargeting("postID", "25681");
+    googletag.defineSlot('/133996388/X96_BigBlock_500x300', [[500, 300], [300, 250]], 'div-gpt-ad-1449615311021-2').defineSizeMapping(Middlebox).addService(googletag.pubads());
+    googletag.defineSlot('/133996388/X96_Leaderboard_1200x90', [[1200, 90], [970, 90], [728, 90], [320, 50]], 'div-gpt-ad-1449615311021-3').defineSizeMapping(Leaderboard).addService(googletag.pubads());
+    googletag.defineSlot('/133996388/X96_Monster_300x600', [300, 600], 'div-gpt-ad-1449615311021-4')
+	.addService(googletag.pubads())
+	.setTargeting("postID", "25681");
+	  googletag.defineSlot('/133996388/X96_EventsPage', [[1200, 300], [728, 90], [300, 250]], 'div-gpt-ad-1532976127368-0').defineSizeMapping(Events).addService(googletag.pubads());
+    googletag.pubads().enableSingleRequest();
+    googletag.enableServices();
+  });
+</script>
+<!--End Google DoubleClick-->
+
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-57PN8L"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-57PN8L');</script>
+<!-- End Google Tag Manager -->
+
+
+
+<!-- Facebook Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','https://connect.facebook.net/en_US/fbevents.js');
+
+fbq('init', '1692510571022926');
+fbq('track', "PageView");
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=1692510571022926&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Facebook Pixel Code -->
+<!--END BROADWAY UPDATE-->
+
+</head>
+
+<body class="home page-template page-template-page-home page-template-page-home-php page page-id-25681 wpb-js-composer js-comp-ver-5.4.7 vc_responsive">
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8&appId=1245125238836718";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+	<div id="site" class="left relative">
+		<div id="site-wrap" class="left relative">
+				<div id="wallpaper">
+					<!--BROADWAY UPDATEEND BROADWAY UPDATE-->
+				</div><!--wallpaper-->
+			<div id="fly-wrap">
+	<div class="fly-wrap-out">
+		<div class="fly-side-wrap">
+			<ul class="fly-bottom-soc left relative">
+									<li class="fb-soc">
+						<a href="https://www.facebook.com/X96Music/" target="_blank">
+						<i class="fa fa-facebook-square fa-2"></i>
+						</a>
+					</li>
+													<li class="twit-soc">
+						<a href="http://www.twitter.com/x96" target="_blank">
+						<i class="fa fa-twitter fa-2"></i>
+						</a>
+					</li>
+																	<li class="inst-soc">
+						<a href="https://instagram.com/x96fm/" target="_blank">
+						<i class="fa fa-instagram fa-2"></i>
+						</a>
+					</li>
+																	<li class="yt-soc">
+						<a href="https://www.youtube.com/user/kxrkx96" target="_blank">
+						<i class="fa fa-youtube-play fa-2"></i>
+						</a>
+					</li>
+																					<li class="rss-soc">
+						<a href="https://x96.com/feed/rss/" target="_blank">
+						<i class="fa fa-rss fa-2"></i>
+						</a>
+					</li>
+							</ul>
+		</div><!--fly-side-wrap-->
+		<div class="fly-wrap-in">
+			<div id="fly-menu-wrap">
+				<nav class="fly-nav-menu left relative">
+					<div class="menu-primary-menu-container"><ul id="menu-primary-menu" class="menu"><li id="menu-item-93548" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-93548"><a href="http://www.x96.com/radio-from-hell">Radio From Hell</a></li>
+<li id="menu-item-27946" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-27946"><a href="https://x96.com/contests/">Win</a></li>
+<li id="menu-item-25711" class="green menu-item menu-item-type-custom menu-item-object-custom menu-item-25711"><a href="https://x96.com/events">Events</a></li>
+<li id="menu-item-27982" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-27982"><a href="https://x96.com/on-air/">DJs</a></li>
+<li id="menu-item-27991" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-27991"><a href="https://x96.com/blog/">Latest News</a></li>
+<li id="menu-item-25717" class="green menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-25717"><a href="#">Media</a>
+<ul class="sub-menu">
+	<li id="menu-item-90956" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-90956"><a href="https://x96.com/video/">X96 Video</a></li>
+	<li id="menu-item-44156" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-44156"><a href="https://x96.com/live">X96 Live Video Feed</a></li>
+	<li id="menu-item-25762" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-25762"><a href="https://x96.com/photos/">Photos</a></li>
+	<li id="menu-item-25699" class="green menu-item menu-item-type-post_type menu-item-object-page menu-item-25699"><a href="https://x96.com/podcasts/">Podcasts</a></li>
+	<li id="menu-item-27970" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-27970"><a href="https://x96.com/apps/">X96 Mobile App</a></li>
+</ul>
+</li>
+<li id="menu-item-25750" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-25750"><a href="https://x96.com/features/">Features</a>
+<ul class="sub-menu">
+	<li id="menu-item-42521" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-42521"><a href="http://www.x96.com/tag/xposed">Xposed (New music weeknights at 8)</a></li>
+	<li id="menu-item-44359" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-44359"><a href="http://www.x96.com/tag/XposedFeat">Xposed Featured Tracks</a></li>
+	<li id="menu-item-44502" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-44502"><a href="http://www.x96.com/tag/freshx">Fresh X (new music blog)</a></li>
+	<li id="menu-item-42515" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-42515"><a href="http://www.x96.com/tag/ipo">X96 IPO (A full hour a new alternative Sundays nights at 9)</a></li>
+	<li id="menu-item-43722" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-43722"><a href="http://www.x96.com/tag/slcpunx">SLC Punx (an hour of punk music every Sunday at 10pm)</a></li>
+	<li id="menu-item-42524" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-42524"><a href="http://www.x96.com/tag/coreycal">Corey O&#8217;Brien&#8217;s Concert &#038; Event Calendar</a></li>
+	<li id="menu-item-42545" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-42545"><a href="https://x96.com/tag/loungex">Lounge X</a></li>
+	<li id="menu-item-25744" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-25744"><a href="https://x96.com/liveandlocal/">X96 Live And Local</a></li>
+	<li id="menu-item-43267" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-43267"><a href="http://geekshowpodcast.com">Geekshow Podcast</a></li>
+	<li id="menu-item-28024" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-28024"><a href="http://theletsgoeatshow.com/">The Let&#8217;s Go Eat Podcast</a></li>
+	<li id="menu-item-35420" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-35420"><a href="https://x96.com/801punx/">801PUNX</a></li>
+</ul>
+</li>
+<li id="menu-item-33921" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-33921"><a href="https://x96.com/workersunion/">X96 Worker&#8217;s Union Card</a></li>
+<li id="menu-item-42509" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-42509"><a href="http://www.x96.com/mobile">X96 Mobile Updates</a></li>
+</ul></div>				</nav>
+			</div><!--fly-menu-wrap-->
+		</div><!--fly-wrap-in-->
+	</div><!--fly-wrap-out-->
+</div><!--fly-wrap-->			<div id="head-main-wrap" class="left relative">
+				<div id="head-main-top" class="left relative">
+																																<div class="logo-wide-wrap left relative">
+							<!--BROADWAY UPDATE--><h1 class="header-logo"><!--END BROADWAY UPDATE-->
+															<a itemprop="url" href="https://x96.com/"><img itemprop="logo" src="http://x96dev.wpengine.com/wp-content/uploads/2015/12/X96Header_Logo_172.png" alt="X96" /></a>
+														</h1>
+							<!--BROADWAY UPDATE--><div class="right relative"><a href="javascript:tgmp.playStream()" onclick="ga('send', 'event', 'Stream Top', 'play');"><img src="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2016/01/ListenLiveButtonv3.png" style="margin-top:-15px"></a></div><!--END BROADWAY UPDATE-->
+						</div><!--logo-wide-wrap-->
+									</div><!--head-main-top-->
+				<div id="main-nav-wrap">
+					<div class="nav-out">
+						<div class="nav-in">
+							<div id="main-nav-cont" class="left" itemscope itemtype="http://schema.org/Organization">
+								<div class="nav-logo-out">
+									<div class="nav-left-wrap left relative">
+										<div class="fly-but-wrap left relative">
+											<span></span>
+											<span></span>
+											<span></span>
+											<span></span>
+										</div><!--fly-but-wrap-->
+																					<div class="nav-logo-fade left">
+																									<a href="https://x96.com/"><img src="http://x96dev.wpengine.com/wp-content/uploads/2015/12/x96-logo-site3.png" alt="X96" /></a>
+																							</div><!--nav-logo-fade-->
+																			</div><!--nav-left-wrap-->
+									<div class="nav-logo-in">
+										<div class="nav-menu-out">
+											<div class="nav-menu-in">
+												<nav class="main-menu-wrap left">
+													<div class="menu-primary-menu-container"><ul id="menu-primary-menu-1" class="menu"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-93548"><a href="http://www.x96.com/radio-from-hell">Radio From Hell</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-27946"><a href="https://x96.com/contests/">Win</a></li>
+<li class="green menu-item menu-item-type-custom menu-item-object-custom menu-item-25711"><a href="https://x96.com/events">Events</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-27982"><a href="https://x96.com/on-air/">DJs</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-27991"><a href="https://x96.com/blog/">Latest News</a></li>
+<li class="green menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-25717"><a href="#">Media</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-90956"><a href="https://x96.com/video/">X96 Video</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-44156"><a href="https://x96.com/live">X96 Live Video Feed</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-25762"><a href="https://x96.com/photos/">Photos</a></li>
+	<li class="green menu-item menu-item-type-post_type menu-item-object-page menu-item-25699"><a href="https://x96.com/podcasts/">Podcasts</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-27970"><a href="https://x96.com/apps/">X96 Mobile App</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-25750"><a href="https://x96.com/features/">Features</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-42521"><a href="http://www.x96.com/tag/xposed">Xposed (New music weeknights at 8)</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-44359"><a href="http://www.x96.com/tag/XposedFeat">Xposed Featured Tracks</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-44502"><a href="http://www.x96.com/tag/freshx">Fresh X (new music blog)</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-42515"><a href="http://www.x96.com/tag/ipo">X96 IPO (A full hour a new alternative Sundays nights at 9)</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-43722"><a href="http://www.x96.com/tag/slcpunx">SLC Punx (an hour of punk music every Sunday at 10pm)</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-42524"><a href="http://www.x96.com/tag/coreycal">Corey O&#8217;Brien&#8217;s Concert &#038; Event Calendar</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-42545"><a href="https://x96.com/tag/loungex">Lounge X</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-25744"><a href="https://x96.com/liveandlocal/">X96 Live And Local</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-43267"><a href="http://geekshowpodcast.com">Geekshow Podcast</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-28024"><a href="http://theletsgoeatshow.com/">The Let&#8217;s Go Eat Podcast</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-35420"><a href="https://x96.com/801punx/">801PUNX</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-33921"><a href="https://x96.com/workersunion/">X96 Worker&#8217;s Union Card</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-42509"><a href="http://www.x96.com/mobile">X96 Mobile Updates</a></li>
+</ul></div>												</nav>
+											</div><!--nav-menu-in-->
+											<div class="nav-right-wrap relative">
+												<div class="nav-search-wrap left relative">
+													<span class="nav-search-but left"><i class="fa fa-search fa-2"></i></span>
+													<div class="search-fly-wrap">
+														<form method="get" id="searchform" action="https://x96.com/">
+	<input type="text" name="s" id="s" value="Type search term and press enter" onfocus='if (this.value == "Type search term and press enter") { this.value = ""; }' onblur='if (this.value == "") { this.value = "Type search term and press enter"; }' />
+	<input type="hidden" id="searchsubmit" value="Search" />
+</form>													</div><!--search-fly-wrap-->
+												</div><!--nav-search-wrap-->
+																									<a href="https://www.facebook.com/X96Music/" target="_blank">
+													<span class="nav-soc-but"><i class="fa fa-facebook fa-2"></i></span>
+													</a>
+																																					<a href="http://www.twitter.com/x96" target="_blank">
+													<span class="nav-soc-but"><i class="fa fa-twitter fa-2"></i></span>
+													</a>
+																							</div><!--nav-right-wrap-->
+										</div><!--nav-menu-out-->
+									</div><!--nav-logo-in-->
+								</div><!--nav-logo-out-->
+							</div><!--main-nav-cont-->
+						</div><!--nav-in-->
+					</div><!--nav-out-->
+				</div><!--main-nav-wrap-->
+			</div><!--head-main-wrap-->
+							<div class="col-tabs-wrap left relative">
+					<ul class="col-tabs">
+						<li class="feat-col-tab">
+							<a href="#tab-col1">Featured</a>
+						</li>
+						<li class="latest-col-tab non-feat-tab">
+							<a href="#tab-col2">Latest</a>
+						</li>
+						<li class="pop-col-tab non-feat-tab">
+							<a href="#tab-col3">Popular</a>
+						</li>
+					</ul>
+				</div><!--col-tabs-wrap-->
+										<div id="body-main-wrap" class="left relative">
+										
+												<div class="body-main-out relative">
+					<div class="body-main-in">
+						<div id="body-main-cont" class="left relative">
+																			<div id="leader-wrap" class="left relative">
+								<!-- /133996388/X96_Leaderboard_1200x90 -->
+<div id='div-gpt-ad-1449615311021-3'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1449615311021-3'); });
+</script>
+</div>							</div><!--leader-wrap-->
+																<div id="feat-top-wrap" class="left relative">
+				<div class="feat-top2-left-wrap left relative">
+	
+<div id="rev_slider_5_1_wrapper" class="rev_slider_wrapper fullwidthbanner-container" data-source="gallery" style="margin:0px auto;background:transparent;padding:0px;margin-top:0px;margin-bottom:0px;max-width:600px;">
+<!-- START REVOLUTION SLIDER 5.4.8 auto mode -->
+	<div id="rev_slider_5_1" class="rev_slider fullwidthabanner" style="display:none;" data-version="5.4.8">
+<ul>	<!-- SLIDE  -->
+	<li data-index="rs-568" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="300"  data-link="https://x96.com/life/x96-toyota-big-ass-show-50-off-sale/"   data-thumb="https://x96.com/wp-content/uploads/2018/08/X96_BASH18790x490halfprice-SL-100x50.jpg"  data-rotate="0"  data-saveperformance="off"  data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
+		<!-- MAIN IMAGE -->
+		<img src="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/plugins/revslider/admin/assets/images/dummy.png"  alt="" title="X96_BASH18(790&#215;490)halfprice-SL"  width="790" height="490" data-lazyload="https://x96.com/wp-content/uploads/2018/08/X96_BASH18790x490halfprice-SL.jpg" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
+		<!-- LAYERS -->
+	</li>
+	<!-- SLIDE  -->
+	<li data-index="rs-347" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="300"  data-link="https://x96.com/life/corey-obriens-concert-and-event-calendar-week-of-august-29th/"   data-thumb="https://x96.com/wp-content/uploads/2018/08/COREYCAL_2017_SL_0829-100x50.png"  data-rotate="0"  data-saveperformance="off"  data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
+		<!-- MAIN IMAGE -->
+		<img src="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/plugins/revslider/admin/assets/images/dummy.png"  alt="" title="COREYCAL_2017_SL_0829"  width="790" height="490" data-lazyload="https://x96.com/wp-content/uploads/2018/08/COREYCAL_2017_SL_0829.png" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
+		<!-- LAYERS -->
+	</li>
+	<!-- SLIDE  -->
+	<li data-index="rs-569" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="300"  data-link="https://x96.com/life/walk-to-fight-suicide-salt-lake-city-out-of-darkness-walk/"   data-thumb="https://x96.com/wp-content/uploads/2018/08/AFSP_2018_Salt_Lake_City_Banner_Ads_walks_790x490-1-100x50.png"  data-rotate="0"  data-saveperformance="off"  data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
+		<!-- MAIN IMAGE -->
+		<img src="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/plugins/revslider/admin/assets/images/dummy.png"  alt="" title="AFSP_2018_Salt_Lake_City_Banner_Ads_walks_790x490"  width="790" height="490" data-lazyload="https://x96.com/wp-content/uploads/2018/08/AFSP_2018_Salt_Lake_City_Banner_Ads_walks_790x490-1.png" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
+		<!-- LAYERS -->
+	</li>
+	<!-- SLIDE  -->
+	<li data-index="rs-498" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="300"  data-link="http://twilightconcerts.com/"  data-target="_blank"  data-thumb="https://x96.com/wp-content/uploads/2018/04/Twilight18790x490SL.jpg"  data-rotate="0"  data-saveperformance="off"  data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
+		<!-- MAIN IMAGE -->
+		<img src="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/plugins/revslider/admin/assets/images/dummy.png"  alt="" title="Twilight18(790&#215;490)SL"  width="790" height="490" data-lazyload="https://x96.com/wp-content/uploads/2018/04/Twilight18790x490SL.jpg" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
+		<!-- LAYERS -->
+	</li>
+	<!-- SLIDE  -->
+	<li data-index="rs-567" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="300"  data-link="https://x96.com/life/fan-x-salt-lake-comic-convention-2018/"   data-thumb="https://x96.com/wp-content/uploads/2018/08/887x-500-100x50.jpg"  data-rotate="0"  data-saveperformance="off"  data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
+		<!-- MAIN IMAGE -->
+		<img src="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/plugins/revslider/admin/assets/images/dummy.png"  alt="" title="887x-500"  width="887" height="500" data-lazyload="https://x96.com/wp-content/uploads/2018/08/887x-500.jpg" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
+		<!-- LAYERS -->
+	</li>
+	<!-- SLIDE  -->
+	<li data-index="rs-564" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="300"  data-link="https://www.x96.com/life/win-a-car-from-the-cutrubus-automotive-team"   data-thumb="https://x96.com/wp-content/uploads/2018/08/X96_CutrubusLD790x490SL-100x50.jpg"  data-rotate="0"  data-saveperformance="off"  data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
+		<!-- MAIN IMAGE -->
+		<img src="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/plugins/revslider/admin/assets/images/dummy.png"  alt="" title="X96_CutrubusLD(790&#215;490)SL"  width="790" height="490" data-lazyload="https://x96.com/wp-content/uploads/2018/08/X96_CutrubusLD790x490SL.jpg" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
+		<!-- LAYERS -->
+	</li>
+</ul>
+<script>var htmlDiv = document.getElementById("rs-plugin-settings-inline-css"); var htmlDivCss="";
+						if(htmlDiv) {
+							htmlDiv.innerHTML = htmlDiv.innerHTML + htmlDivCss;
+						}else{
+							var htmlDiv = document.createElement("div");
+							htmlDiv.innerHTML = "<style>" + htmlDivCss + "</style>";
+							document.getElementsByTagName("head")[0].appendChild(htmlDiv.childNodes[0]);
+						}
+					</script>
+<div class="tp-bannertimer tp-bottom" style="visibility: hidden !important;"></div>	</div>
+<script>var htmlDiv = document.getElementById("rs-plugin-settings-inline-css"); var htmlDivCss="";
+				if(htmlDiv) {
+					htmlDiv.innerHTML = htmlDiv.innerHTML + htmlDivCss;
+				}else{
+					var htmlDiv = document.createElement("div");
+					htmlDiv.innerHTML = "<style>" + htmlDivCss + "</style>";
+					document.getElementsByTagName("head")[0].appendChild(htmlDiv.childNodes[0]);
+				}
+			</script>
+		<script type="text/javascript">
+if (setREVStartSize!==undefined) setREVStartSize(
+	{c: '#rev_slider_5_1', gridwidth: [1280], gridheight: [790], sliderLayout: 'auto'});
+			
+var revapi5,
+	tpj;	
+(function() {			
+	if (!/loaded|interactive|complete/.test(document.readyState)) document.addEventListener("DOMContentLoaded",onLoad); else onLoad();	
+	function onLoad() {				
+		if (tpj===undefined) { tpj = jQuery; if("off" == "on") tpj.noConflict();}
+	if(tpj("#rev_slider_5_1").revolution == undefined){
+		revslider_showDoubleJqueryError("#rev_slider_5_1");
+	}else{
+		revapi5 = tpj("#rev_slider_5_1").show().revolution({
+			sliderType:"standard",
+			jsFileLocation:"//x96.com/wp-content/plugins/revslider/public/assets/js/",
+			sliderLayout:"auto",
+			dottedOverlay:"none",
+			delay:4000,
+			navigation: {
+				keyboardNavigation:"off",
+				keyboard_direction: "horizontal",
+				mouseScrollNavigation:"off",
+ 							mouseScrollReverse:"default",
+				onHoverStop:"off",
+				bullets: {
+					enable:true,
+					hide_onmobile:false,
+					style:"hesperiden",
+					hide_onleave:false,
+					direction:"horizontal",
+					h_align:"center",
+					v_align:"bottom",
+					h_offset:0,
+					v_offset:20,
+					space:5,
+					tmp:''
+				}
+			},
+			visibilityLevels:[1240,1024,778,480],
+			gridwidth:1280,
+			gridheight:790,
+			lazyType:"single",
+			shadow:0,
+			spinner:"spinner0",
+			stopLoop:"off",
+			stopAfterLoops:-1,
+			stopAtSlide:-1,
+			shuffle:"off",
+			autoHeight:"off",
+			disableProgressBar:"on",
+			hideThumbsOnMobile:"off",
+			hideSliderAtLimit:0,
+			hideCaptionAtLimit:0,
+			hideAllCaptionAtLilmit:0,
+			debugMode:false,
+			fallbacks: {
+				simplifyAll:"off",
+				nextSlideOnWindowFocus:"off",
+				disableFocusListener:false,
+			}
+		});
+	}; /* END OF revapi call */
+	
+ }; /* END OF ON LOAD FUNCTION */
+}()); /* END OF WRAPPING FUNCTION */
+</script>
+		<script>
+					var htmlDivCss = unescape(".hesperiden.tp-bullets%20%7B%0A%7D%0A.hesperiden.tp-bullets%3Abefore%20%7B%0A%09content%3A%22%20%22%3B%0A%09position%3Aabsolute%3B%0A%09width%3A100%25%3B%0A%09height%3A100%25%3B%0A%09background%3Atransparent%3B%0A%09padding%3A10px%3B%0A%09margin-left%3A-10px%3Bmargin-top%3A-10px%3B%0A%09box-sizing%3Acontent-box%3B%0A%20%20%20border-radius%3A8px%3B%0A%20%20%0A%7D%0A.hesperiden%20.tp-bullet%20%7B%0A%09width%3A12px%3B%0A%09height%3A12px%3B%0A%09position%3Aabsolute%3B%0A%09background%3A%20rgb%28153%2C%20153%2C%20153%29%3B%20%2F%2A%20old%20browsers%20%2A%2F%0A%20%20%20%20background%3A%20-moz-linear-gradient%28top%2C%20%20rgb%28153%2C%20153%2C%20153%29%200%25%2C%20rgb%28225%2C%20225%2C%20225%29%20100%25%29%3B%20%2F%2A%20ff3.6%2B%20%2A%2F%0A%20%20%20%20background%3A%20-webkit-linear-gradient%28top%2C%20%20rgb%28153%2C%20153%2C%20153%29%200%25%2Crgb%28225%2C%20225%2C%20225%29%20100%25%29%3B%20%2F%2A%20chrome10%2B%2Csafari5.1%2B%20%2A%2F%0A%20%20%20%20background%3A%20-o-linear-gradient%28top%2C%20%20rgb%28153%2C%20153%2C%20153%29%200%25%2Crgb%28225%2C%20225%2C%20225%29%20100%25%29%3B%20%2F%2A%20opera%2011.10%2B%20%2A%2F%0A%20%20%20%20background%3A%20-ms-linear-gradient%28top%2C%20%20rgb%28153%2C%20153%2C%20153%29%200%25%2Crgb%28225%2C%20225%2C%20225%29%20100%25%29%3B%20%2F%2A%20ie10%2B%20%2A%2F%0A%20%20%20%20background%3A%20linear-gradient%28to%20bottom%2C%20%20rgb%28153%2C%20153%2C%20153%29%200%25%2Crgb%28225%2C%20225%2C%20225%29%20100%25%29%3B%20%2F%2A%20w3c%20%2A%2F%0A%20%20%20%20filter%3A%20progid%3Adximagetransform.microsoft.gradient%28%20%0A%20%20%20%20startcolorstr%3D%22rgb%28153%2C%20153%2C%20153%29%22%2C%20endcolorstr%3D%22rgb%28225%2C%20225%2C%20225%29%22%2Cgradienttype%3D0%20%29%3B%20%2F%2A%20ie6-9%20%2A%2F%0A%09border%3A3px%20solid%20rgb%28229%2C%20229%2C%20229%29%3B%0A%09border-radius%3A50%25%3B%0A%09cursor%3A%20pointer%3B%0A%09box-sizing%3Acontent-box%3B%0A%7D%0A.hesperiden%20.tp-bullet%3Ahover%2C%0A.hesperiden%20.tp-bullet.selected%20%7B%0A%09background%3Argb%28102%2C%20102%2C%20102%29%3B%0A%7D%0A.hesperiden%20.tp-bullet-image%20%7B%0A%7D%0A.hesperiden%20.tp-bullet-title%20%7B%0A%7D%0A%0A");
+					var htmlDiv = document.getElementById('rs-plugin-settings-inline-css');
+					if(htmlDiv) {
+						htmlDiv.innerHTML = htmlDiv.innerHTML + htmlDivCss;
+					}
+					else{
+						var htmlDiv = document.createElement('div');
+						htmlDiv.innerHTML = '<style>' + htmlDivCss + '</style>';
+						document.getElementsByTagName('head')[0].appendChild(htmlDiv.childNodes[0]);
+					}
+				  </script>
+				</div><!-- END REVOLUTION SLIDER -->	<!--	<div class="feat-top2-left left relative">
+							<a href="https://x96.com/life/x96-i-p-o-august-26-2018/" rel="bookmark">
+							<div class="feat-top2-left-img left relative">
+																	<img width="790" height="490" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-type="image" data-lazy-src="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/IPO_0826.png" class="lazy lazy-hidden unlazy reg-img wp-post-image" alt="" data-lazy-srcset="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/IPO_0826.png 790w, https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/IPO_0826-300x186.png 300w" data-lazy-sizes="(max-width: 790px) 100vw, 790px" /><noscript><img width="790" height="490" src="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/IPO_0826.png" class="unlazy reg-img wp-post-image" alt="" srcset="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/IPO_0826.png 790w, https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/IPO_0826-300x186.png 300w" sizes="(max-width: 790px) 100vw, 790px" /></noscript>									<img width="450" height="270" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-type="image" data-lazy-src="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/IPO_0826-450x270.png" class="lazy lazy-hidden unlazy mob-img wp-post-image" alt="" data-lazy-srcset="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/IPO_0826-450x270.png 450w, https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/IPO_0826-300x180.png 300w" data-lazy-sizes="(max-width: 450px) 100vw, 450px" /><noscript><img width="450" height="270" src="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/IPO_0826-450x270.png" class="unlazy mob-img wp-post-image" alt="" srcset="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/IPO_0826-450x270.png 450w, https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/IPO_0826-300x180.png 300w" sizes="(max-width: 450px) 100vw, 450px" /></noscript>															</div><!--feat-top-left-img--*>
+														<div class="feat-top2-left-text">
+								<span class="feat-cat">Life</span>
+																	<h2 class="stand-title">X96 I.P.O. | August 26, 2018</h2>
+															</div><!--feat-top2-left-text--*>
+															<div class="feat-info-wrap">
+									<div class="feat-info-views">
+										<i class="fa fa-eye fa-2"></i> <span class="feat-info-text">10</span>
+									</div><!--feat-info-views--*>
+																	</div><!--feat-info-wrap--*>
+														</a>
+						</div>-->
+						<!--feat-top2-left-->
+									</div>
+					<!--feat-top2-left-wrap-->
+				<div class="feat-top2-right-wrap left relative">
+											<!--SPECIAL SALES SLIDER-->
+						<!--<div class="feat-top2-right left relative"> 
+										<a href="http://woobox.com/qsjepx" rel="bookmark" target="_blank">
+											<div class="feat-top2-right-img left relative"> <img src="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2017/09/170028_BWAY_UTEvUSC790x490Slider-412x270.png" class="unlazy feat-top2-small wp-post-image" alt="" width="412" height="270"> <img src="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2017/09/170028_BWAY_UTEvUSC790x490Slider.png" class="unlazy feat-top2-big wp-post-image" alt="" srcset="https://x96.com/wp-content/uploads/2017/09/170028_BWAY_UTEvUSC790x490Slider.png 412w, https://x96.com/wp-content/uploads/2017/09/170028_BWAY_UTEvUSC790x490Slider-208x300.png 208w, https://x96.com/wp-content/uploads/2017/09/170028_BWAY_UTEvUSC790x490Slider-201x290.png 201w" sizes="(max-width: 412px) 100vw, 412px" width="412" height="594">
+											</div><!--feat-top2-right-img--*>
+											<div class="feat-top2-right-text"> </div>
+											<!--feat-top2-right-text--*>
+											<div class="feat-info-wrap"><div class="feat-info-views"> </div>
+											<!--feat-info-views--*></div>
+											<!--feat-info-wrap--*> </a></div>-->
+						<!--SPECIAL SALES SLIDER END-->
+						<div class="feat-top2-right left relative">
+							<a href="https://x96.com/life/x96-i-p-o-august-26-2018/" rel="bookmark">
+							<div class="feat-top2-right-img left relative">
+																	<img width="450" height="270" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-type="image" data-lazy-src="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/IPO_0826-450x270.png" class="lazy lazy-hidden unlazy feat-top2-small wp-post-image" alt="" data-lazy-srcset="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/IPO_0826-450x270.png 450w, https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/IPO_0826-300x180.png 300w" data-lazy-sizes="(max-width: 450px) 100vw, 450px" /><noscript><img width="450" height="270" src="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/IPO_0826-450x270.png" class="unlazy feat-top2-small wp-post-image" alt="" srcset="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/IPO_0826-450x270.png 450w, https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/IPO_0826-300x180.png 300w" sizes="(max-width: 450px) 100vw, 450px" /></noscript>									<img width="790" height="490" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-type="image" data-lazy-src="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/IPO_0826.png" class="lazy lazy-hidden unlazy feat-top2-big wp-post-image" alt="" data-lazy-srcset="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/IPO_0826.png 790w, https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/IPO_0826-300x186.png 300w" data-lazy-sizes="(max-width: 790px) 100vw, 790px" /><noscript><img width="790" height="490" src="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/IPO_0826.png" class="unlazy feat-top2-big wp-post-image" alt="" srcset="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/IPO_0826.png 790w, https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/IPO_0826-300x186.png 300w" sizes="(max-width: 790px) 100vw, 790px" /></noscript>															</div><!--feat-top2-right-img-->
+														<div class="feat-top2-right-text">
+								<span class="feat-cat">Life</span>
+								<h2>X96 I.P.O. | August 26, 2018</h2>
+							</div><!--feat-top2-right-text-->
+															<div class="feat-info-wrap">
+									<div class="feat-info-views">
+										<i class="fa fa-eye fa-2"></i> <span class="feat-info-text">10</span>
+									</div><!--feat-info-views-->
+																	</div><!--feat-info-wrap-->
+														</a>
+						</div><!--feat-top2-right-->
+											<!--SPECIAL SALES SLIDER-->
+						<!--<div class="feat-top2-right left relative"> 
+										<a href="http://woobox.com/qsjepx" rel="bookmark" target="_blank">
+											<div class="feat-top2-right-img left relative"> <img src="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2017/09/170028_BWAY_UTEvUSC790x490Slider-412x270.png" class="unlazy feat-top2-small wp-post-image" alt="" width="412" height="270"> <img src="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2017/09/170028_BWAY_UTEvUSC790x490Slider.png" class="unlazy feat-top2-big wp-post-image" alt="" srcset="https://x96.com/wp-content/uploads/2017/09/170028_BWAY_UTEvUSC790x490Slider.png 412w, https://x96.com/wp-content/uploads/2017/09/170028_BWAY_UTEvUSC790x490Slider-208x300.png 208w, https://x96.com/wp-content/uploads/2017/09/170028_BWAY_UTEvUSC790x490Slider-201x290.png 201w" sizes="(max-width: 412px) 100vw, 412px" width="412" height="594">
+											</div><!--feat-top2-right-img--*>
+											<div class="feat-top2-right-text"> </div>
+											<!--feat-top2-right-text--*>
+											<div class="feat-info-wrap"><div class="feat-info-views"> </div>
+											<!--feat-info-views--*></div>
+											<!--feat-info-wrap--*> </a></div>-->
+						<!--SPECIAL SALES SLIDER END-->
+						<div class="feat-top2-right left relative">
+							<a href="https://x96.com/life/x96-toyota-big-ass-show-50-off-sale/" rel="bookmark">
+							<div class="feat-top2-right-img left relative">
+																	<img width="450" height="270" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-type="image" data-lazy-src="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/X96_BASH18887x500halfprice-LP-450x270.png" class="lazy lazy-hidden unlazy feat-top2-small wp-post-image" alt="" data-lazy-srcset="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/X96_BASH18887x500halfprice-LP-450x270.png 450w, https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/X96_BASH18887x500halfprice-LP-300x180.png 300w" data-lazy-sizes="(max-width: 450px) 100vw, 450px" /><noscript><img width="450" height="270" src="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/X96_BASH18887x500halfprice-LP-450x270.png" class="unlazy feat-top2-small wp-post-image" alt="" srcset="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/X96_BASH18887x500halfprice-LP-450x270.png 450w, https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/X96_BASH18887x500halfprice-LP-300x180.png 300w" sizes="(max-width: 450px) 100vw, 450px" /></noscript>									<img width="887" height="500" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-type="image" data-lazy-src="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/X96_BASH18887x500halfprice-LP.jpg" class="lazy lazy-hidden unlazy feat-top2-big wp-post-image" alt="" data-lazy-srcset="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/X96_BASH18887x500halfprice-LP.jpg 887w, https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/X96_BASH18887x500halfprice-LP-300x169.png 300w" data-lazy-sizes="(max-width: 887px) 100vw, 887px" /><noscript><img width="887" height="500" src="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/X96_BASH18887x500halfprice-LP.jpg" class="unlazy feat-top2-big wp-post-image" alt="" srcset="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/X96_BASH18887x500halfprice-LP.jpg 887w, https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/X96_BASH18887x500halfprice-LP-300x169.png 300w" sizes="(max-width: 887px) 100vw, 887px" /></noscript>															</div><!--feat-top2-right-img-->
+														<div class="feat-top2-right-text">
+								<span class="feat-cat">Life</span>
+								<h2>X96 Toyota Big Ass Show 50% Off Sale!!!</h2>
+							</div><!--feat-top2-right-text-->
+															<div class="feat-info-wrap">
+									<div class="feat-info-views">
+										<i class="fa fa-eye fa-2"></i> <span class="feat-info-text">234</span>
+									</div><!--feat-info-views-->
+																	</div><!--feat-info-wrap-->
+														</a>
+						</div><!--feat-top2-right-->
+									</div>
+	<div class="citysparkhome left relative">
+							<!--<div data-cswidget="8185" > </div>
+                      <script type="text/javascript" async defer src="//portal.CitySpark.com/js/widget.min.js" > </script>-->
+						<a href="/events"><img src="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/06/X96Cal_Filler-1.jpg"></a>
+						</div><!--feat-top2-right-wrap-->
+			</div><!--feat-top-wrap-->
+			<!--END BROADWAY UPDATE-->
+	<div id="home-main-wrap" class="left relative">
+	<div class="home-wrap-out1">
+		<div class="home-wrap-in1">
+			<div id="home-left-wrap" class=" left relative">
+				<div class="home-wrap-out2">
+					<div class="home-wrap-in2">
+						<div id="tab-col1" class="home-left-col relative tab-col-cont">
+															<div class="side-title-wrap left relative">
+									<h3 class="side-list-title">Featured News</h3>
+								</div><!--side-title-wrap-->
+																																											<div id="home-mid-wrap" class="left relative">
+																																						<div id="text-8" class="home-widget left relative widget_text"><div class="home-title-wrap left relative"><h3 class="side-list-title">X96 HD2 | Classic Alternative</h3></div>			<div class="textwidget"><p><a href="javascript:tgmp.update({brand:'kxrkhd2', autostart:'true'})" onclick="ga('send', 'event', 'HD2 Stream', 'play');"><img class="lazy lazy-hidden size-full wp-image-95894 aligncenter" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-type="image" data-lazy-src="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/06/X96HD2_ListenNow-1.png" alt="" width="567" height="125" /><noscript><img class="size-full wp-image-95894 aligncenter" src="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/06/X96HD2_ListenNow-1.png" alt="" width="567" height="125" /></noscript></a></p>
+<p>Stream Live Now or Listen on Your HD Radio!</p>
+</div>
+		</div><div id="mvp_catrow_widget-2" class="home-widget left relative mvp_catrow_widget"><a href="http://www.x96.com/radio-from-hell"><div class="home-title-wrap left relative"><h3 class="side-list-title">Radio From Hell</h3></div></a>			<div class="row-widget-wrap left relative">
+				<ul class="row-widget-list">
+											<li>
+							<a href="https://x96.com/life/corey-obriens-concert-and-event-calendar-week-of-august-29th/" rel="bookmark">
+															<div class="row-widget-img left relative">
+										<img width="300" height="180" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-type="image" data-lazy-src="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/COREYCAL_2017_0829-300x180.png" class="lazy lazy-hidden reg-img wp-post-image" alt="" data-lazy-srcset="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/COREYCAL_2017_0829-300x180.png 300w, https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/COREYCAL_2017_0829-1000x600.png 1000w, https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/COREYCAL_2017_0829-450x270.png 450w" data-lazy-sizes="(max-width: 300px) 100vw, 300px" /><noscript><img width="300" height="180" src="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/COREYCAL_2017_0829-300x180.png" class="reg-img wp-post-image" alt="" srcset="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/COREYCAL_2017_0829-300x180.png 300w, https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/COREYCAL_2017_0829-1000x600.png 1000w, https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/COREYCAL_2017_0829-450x270.png 450w" sizes="(max-width: 300px) 100vw, 300px" /></noscript>										
+																		<div class="feat-info-wrap">
+										<div class="feat-info-views">
+											<i class="fa fa-eye fa-2"></i> <span class="feat-info-text">15</span>
+										</div><!--feat-info-views-->
+																			</div><!--feat-info-wrap-->
+																										</div><!--row-widget-img-->
+														<div class="row-widget-text">
+																	<span class="side-list-cat">Life</span>
+																<p>Corey O&#8217;Brien&#8217;s Concert and Event Calendar | Week of August 29th</p>
+							</div><!--row-widget-text-->
+							</a>
+						</li>
+											<li>
+							<a href="https://x96.com/news/boner-fight-for-august-24th-2018/" rel="bookmark">
+															<div class="row-widget-img left relative">
+										<img width="300" height="180" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-type="image" data-lazy-src="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2017/04/RFH_BonerFight1887x500LP-300x180.png" class="lazy lazy-hidden reg-img wp-post-image" alt="" data-lazy-srcset="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2017/04/RFH_BonerFight1887x500LP-300x180.png 300w, https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2017/04/RFH_BonerFight1887x500LP-30x17.png 30w, https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2017/04/RFH_BonerFight1887x500LP-450x270.png 450w" data-lazy-sizes="(max-width: 300px) 100vw, 300px" /><noscript><img width="300" height="180" src="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2017/04/RFH_BonerFight1887x500LP-300x180.png" class="reg-img wp-post-image" alt="" srcset="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2017/04/RFH_BonerFight1887x500LP-300x180.png 300w, https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2017/04/RFH_BonerFight1887x500LP-30x17.png 30w, https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2017/04/RFH_BonerFight1887x500LP-450x270.png 450w" sizes="(max-width: 300px) 100vw, 300px" /></noscript>										
+																		<div class="feat-info-wrap">
+										<div class="feat-info-views">
+											<i class="fa fa-eye fa-2"></i> <span class="feat-info-text">69</span>
+										</div><!--feat-info-views-->
+																			</div><!--feat-info-wrap-->
+																										</div><!--row-widget-img-->
+														<div class="row-widget-text">
+																	<span class="side-list-cat">Boner of the Day</span>
+																<p>Boner Fight for August 24th, 2018</p>
+							</div><!--row-widget-text-->
+							</a>
+						</li>
+											<li>
+							<a href="https://x96.com/news/boner-round-one-and-two-for-august-24th-2018/" rel="bookmark">
+															<div class="row-widget-img left relative">
+										<img width="300" height="180" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-type="image" data-lazy-src="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2016/12/Friday-Preview-300x180.png" class="lazy lazy-hidden reg-img wp-post-image" alt="" data-lazy-srcset="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2016/12/Friday-Preview-300x180.png 300w, https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2016/12/Friday-Preview-450x270.png 450w" data-lazy-sizes="(max-width: 300px) 100vw, 300px" /><noscript><img width="300" height="180" src="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2016/12/Friday-Preview-300x180.png" class="reg-img wp-post-image" alt="" srcset="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2016/12/Friday-Preview-300x180.png 300w, https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2016/12/Friday-Preview-450x270.png 450w" sizes="(max-width: 300px) 100vw, 300px" /></noscript>										
+																		<div class="feat-info-wrap">
+										<div class="feat-info-views">
+											<i class="fa fa-eye fa-2"></i> <span class="feat-info-text">71</span>
+										</div><!--feat-info-views-->
+																			</div><!--feat-info-wrap-->
+																										</div><!--row-widget-img-->
+														<div class="row-widget-text">
+																	<span class="side-list-cat">Boner of the Day</span>
+																<p>Boner (Round One and Two) for August 24th, 2018</p>
+							</div><!--row-widget-text-->
+							</a>
+						</li>
+									</ul>
+			</div><!--row-widget-wrap-->
+		</div><div id="mvp_catrow_widget-3" class="home-widget left relative mvp_catrow_widget"><div class="home-title-wrap left relative"><h3 class="side-list-title"><a href="/contests">Contests</a></h3></div>			<div class="row-widget-wrap left relative">
+				<ul class="row-widget-list">
+											<li>
+							<a href="https://x96.com/life/action-point-on-blu-ray/" rel="bookmark">
+															<div class="row-widget-img left relative">
+										<img width="300" height="180" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-type="image" data-lazy-src="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/ActionPont-BD-500-300x180.png" class="lazy lazy-hidden reg-img wp-post-image" alt="" data-lazy-srcset="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/ActionPont-BD-500-300x180.png 300w, https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/ActionPont-BD-500-450x270.png 450w" data-lazy-sizes="(max-width: 300px) 100vw, 300px" /><noscript><img width="300" height="180" src="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/ActionPont-BD-500-300x180.png" class="reg-img wp-post-image" alt="" srcset="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/ActionPont-BD-500-300x180.png 300w, https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/ActionPont-BD-500-450x270.png 450w" sizes="(max-width: 300px) 100vw, 300px" /></noscript>										
+																		<div class="feat-info-wrap">
+										<div class="feat-info-views">
+											<i class="fa fa-eye fa-2"></i> <span class="feat-info-text">41</span>
+										</div><!--feat-info-views-->
+																			</div><!--feat-info-wrap-->
+																										</div><!--row-widget-img-->
+														<div class="row-widget-text">
+																	<span class="side-list-cat">Contests</span>
+																<p>Action Point on Blu-ray!</p>
+							</div><!--row-widget-text-->
+							</a>
+						</li>
+											<li>
+							<a href="https://x96.com/life/win-a-car-from-the-cutrubus-automotive-team/" rel="bookmark">
+															<div class="row-widget-img left relative">
+										<img width="300" height="180" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-type="image" data-lazy-src="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/X96_CutrubusLD887x500LP-300x180.png" class="lazy lazy-hidden reg-img wp-post-image" alt="" data-lazy-srcset="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/X96_CutrubusLD887x500LP-300x180.png 300w, https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/X96_CutrubusLD887x500LP-450x270.png 450w" data-lazy-sizes="(max-width: 300px) 100vw, 300px" /><noscript><img width="300" height="180" src="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/X96_CutrubusLD887x500LP-300x180.png" class="reg-img wp-post-image" alt="" srcset="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/X96_CutrubusLD887x500LP-300x180.png 300w, https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/X96_CutrubusLD887x500LP-450x270.png 450w" sizes="(max-width: 300px) 100vw, 300px" /></noscript>										
+																		<div class="feat-info-wrap">
+										<div class="feat-info-views">
+											<i class="fa fa-eye fa-2"></i> <span class="feat-info-text">108</span>
+										</div><!--feat-info-views-->
+																			</div><!--feat-info-wrap-->
+																										</div><!--row-widget-img-->
+														<div class="row-widget-text">
+																	<span class="side-list-cat">Contests</span>
+																<p>Win a Car from the Cutrubus Automotive Team!</p>
+							</div><!--row-widget-text-->
+							</a>
+						</li>
+											<li>
+							<a href="https://x96.com/life/ash-vs-evil-dead-the-complete-3rd-season-the-terror-season-1-on-blu-ray/" rel="bookmark">
+															<div class="row-widget-img left relative">
+										<img width="300" height="180" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-type="image" data-lazy-src="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/AvEDS3_TTerrorS1_700-300x180.png" class="lazy lazy-hidden reg-img wp-post-image" alt="" data-lazy-srcset="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/AvEDS3_TTerrorS1_700-300x180.png 300w, https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/AvEDS3_TTerrorS1_700-450x270.png 450w" data-lazy-sizes="(max-width: 300px) 100vw, 300px" /><noscript><img width="300" height="180" src="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/AvEDS3_TTerrorS1_700-300x180.png" class="reg-img wp-post-image" alt="" srcset="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/AvEDS3_TTerrorS1_700-300x180.png 300w, https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/AvEDS3_TTerrorS1_700-450x270.png 450w" sizes="(max-width: 300px) 100vw, 300px" /></noscript>										
+																		<div class="feat-info-wrap">
+										<div class="feat-info-views">
+											<i class="fa fa-eye fa-2"></i> <span class="feat-info-text">31</span>
+										</div><!--feat-info-views-->
+																			</div><!--feat-info-wrap-->
+																										</div><!--row-widget-img-->
+														<div class="row-widget-text">
+																	<span class="side-list-cat">Contests</span>
+																<p>Ash vs Evil Dead: The Complete 3rd Season &#038; The Terror: Season 1 on Blu-ray!</p>
+							</div><!--row-widget-text-->
+							</a>
+						</li>
+									</ul>
+			</div><!--row-widget-wrap-->
+		</div>			<div class="feat-widget-cont left relative">
+									<div class="home-title-wrap left relative">
+						<h3 class="side-list-title">What&#8217;s going on this week?</h3>
+					</div><!--home-title-wrap-->
+								<div class="feat-widget-in left relative">
+									<div class="feat-widget-wrap left relative">
+						<a href="https://x96.com/life/corey-obriens-concert-and-event-calendar-week-of-august-29th/" rel="bookmark">
+						<div class="feat-widget-img left relative">
+															<img width="1000" height="600" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-type="image" data-lazy-src="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/COREYCAL_2017_0829-1000x600.png" class="lazy lazy-hidden widget-img-main wp-post-image" alt="" data-lazy-srcset="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/COREYCAL_2017_0829-1000x600.png 1000w, https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/COREYCAL_2017_0829-450x270.png 450w, https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/COREYCAL_2017_0829-300x180.png 300w" data-lazy-sizes="(max-width: 1000px) 100vw, 1000px" /><noscript><img width="1000" height="600" src="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/COREYCAL_2017_0829-1000x600.png" class="widget-img-main wp-post-image" alt="" srcset="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/COREYCAL_2017_0829-1000x600.png 1000w, https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/COREYCAL_2017_0829-450x270.png 450w, https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/COREYCAL_2017_0829-300x180.png 300w" sizes="(max-width: 1000px) 100vw, 1000px" /></noscript>								<img width="450" height="270" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-type="image" data-lazy-src="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/COREYCAL_2017_0829-450x270.png" class="lazy lazy-hidden widget-img-side wp-post-image" alt="" data-lazy-srcset="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/COREYCAL_2017_0829-450x270.png 450w, https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/COREYCAL_2017_0829-1000x600.png 1000w, https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/COREYCAL_2017_0829-300x180.png 300w" data-lazy-sizes="(max-width: 450px) 100vw, 450px" /><noscript><img width="450" height="270" src="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/COREYCAL_2017_0829-450x270.png" class="widget-img-side wp-post-image" alt="" srcset="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/COREYCAL_2017_0829-450x270.png 450w, https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/COREYCAL_2017_0829-1000x600.png 1000w, https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/COREYCAL_2017_0829-300x180.png 300w" sizes="(max-width: 450px) 100vw, 450px" /></noscript>																						<div class="feat-info-wrap">
+									<div class="feat-info-views">
+										<i class="fa fa-eye fa-2"></i> <span class="feat-info-text">15</span>
+									</div><!--feat-info-views-->
+																	</div><!--feat-info-wrap-->
+																				</div><!--feat-widget-img-->
+						<div class="feat-widget-text left relative">
+							<span class="side-list-cat">Life</span>
+							<h2>Corey O&#8217;Brien&#8217;s Concert and Event Calendar | Week of August 29th</h2>
+							<p>Every Wednesday morning at 9, Corey O&#8217;Brien (x96, 7p to midnight) joins Radio From Hell to keep your life from [&hellip;]</p>
+						</div><!--feat-widget-text-->
+						</a>
+					</div><!--feat-widget-wrap-->
+								</div><!--feat-widget-in-->
+			</div><!--feat-widget-cont-->
+					<div class="widget-ad left relative">
+				<!-- /133996388/X96_BigBlock_500x300 -->
+<div id='div-gpt-ad-1449615311021-2'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1449615311021-2'); });
+</script>
+</div>			</div><!--widget-ad-->
+		<div id="custom_html-3" class="widget_text home-widget left relative widget_custom_html"><div class="textwidget custom-html-widget">&nbsp;<br>
+&nbsp;</div></div>																																												<div class="home-widget left relative">
+			<div class="blog-widget-wrap left relative">
+				<ul class="blog-widget-list left relative infinite-content">
+																	<li class="infinite-post">
+
+							<a href="https://x96.com/life/corey-obriens-concert-and-event-calendar-week-of-august-29th/" rel="bookmark">
+															<div class="blog-widget-img left relative">
+									<img width="300" height="180" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-type="image" data-lazy-src="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/COREYCAL_2017_0829-300x180.png" class="lazy lazy-hidden reg-img wp-post-image" alt="" data-lazy-srcset="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/COREYCAL_2017_0829-300x180.png 300w, https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/COREYCAL_2017_0829-1000x600.png 1000w, https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/COREYCAL_2017_0829-450x270.png 450w" data-lazy-sizes="(max-width: 300px) 100vw, 300px" /><noscript><img width="300" height="180" src="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/COREYCAL_2017_0829-300x180.png" class="reg-img wp-post-image" alt="" srcset="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/COREYCAL_2017_0829-300x180.png 300w, https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/COREYCAL_2017_0829-1000x600.png 1000w, https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/COREYCAL_2017_0829-450x270.png 450w" sizes="(max-width: 300px) 100vw, 300px" /></noscript>									<img width="80" height="80" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-type="image" data-lazy-src="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/COREYCAL_2017_0829-80x80.png" class="lazy lazy-hidden mob-img wp-post-image" alt="" data-lazy-srcset="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/COREYCAL_2017_0829-80x80.png 80w, https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/COREYCAL_2017_0829-150x150.png 150w" data-lazy-sizes="(max-width: 80px) 100vw, 80px" /><noscript><img width="80" height="80" src="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/COREYCAL_2017_0829-80x80.png" class="mob-img wp-post-image" alt="" srcset="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/COREYCAL_2017_0829-80x80.png 80w, https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/COREYCAL_2017_0829-150x150.png 150w" sizes="(max-width: 80px) 100vw, 80px" /></noscript>																		<div class="feat-info-wrap">
+										<div class="feat-info-views">
+											<i class="fa fa-eye fa-2"></i> <span class="feat-info-text">15</span>
+										</div><!--feat-info-views-->
+																			</div><!--feat-info-wrap-->
+																										</div><!--blog-widget-img-->
+														<div class="blog-widget-text left relative">
+								<span class="side-list-cat">Life</span>
+								<h2>Corey O&#8217;Brien&#8217;s Concert and Event Calendar | Week of August 29th</h2>
+								<p>Every Wednesday morning at 9, Corey O&#8217;Brien (x96, 7p to midnight) joins Radio From Hell to keep your life from [&hellip;]</p>
+							</div><!--blog-widget-text-->
+							</a>
+						</li>
+												<li class="infinite-post">
+
+							<a href="https://x96.com/life/walk-to-fight-suicide-salt-lake-city-out-of-darkness-walk/" rel="bookmark">
+															<div class="blog-widget-img left relative">
+									<img width="300" height="180" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-type="image" data-lazy-src="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/AFSP_2018_Salt_Lake_City_Banner_Ads_walks_887x500_1-300x180.png" class="lazy lazy-hidden reg-img wp-post-image" alt="" data-lazy-srcset="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/AFSP_2018_Salt_Lake_City_Banner_Ads_walks_887x500_1-300x180.png 300w, https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/AFSP_2018_Salt_Lake_City_Banner_Ads_walks_887x500_1-450x270.png 450w" data-lazy-sizes="(max-width: 300px) 100vw, 300px" /><noscript><img width="300" height="180" src="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/AFSP_2018_Salt_Lake_City_Banner_Ads_walks_887x500_1-300x180.png" class="reg-img wp-post-image" alt="" srcset="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/AFSP_2018_Salt_Lake_City_Banner_Ads_walks_887x500_1-300x180.png 300w, https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/AFSP_2018_Salt_Lake_City_Banner_Ads_walks_887x500_1-450x270.png 450w" sizes="(max-width: 300px) 100vw, 300px" /></noscript>									<img width="80" height="80" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-type="image" data-lazy-src="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/AFSP_2018_Salt_Lake_City_Banner_Ads_walks_887x500_1-80x80.png" class="lazy lazy-hidden mob-img wp-post-image" alt="" data-lazy-srcset="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/AFSP_2018_Salt_Lake_City_Banner_Ads_walks_887x500_1-80x80.png 80w, https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/AFSP_2018_Salt_Lake_City_Banner_Ads_walks_887x500_1-150x150.png 150w" data-lazy-sizes="(max-width: 80px) 100vw, 80px" /><noscript><img width="80" height="80" src="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/AFSP_2018_Salt_Lake_City_Banner_Ads_walks_887x500_1-80x80.png" class="mob-img wp-post-image" alt="" srcset="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/AFSP_2018_Salt_Lake_City_Banner_Ads_walks_887x500_1-80x80.png 80w, https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/AFSP_2018_Salt_Lake_City_Banner_Ads_walks_887x500_1-150x150.png 150w" sizes="(max-width: 80px) 100vw, 80px" /></noscript>																		<div class="feat-info-wrap">
+										<div class="feat-info-views">
+											<i class="fa fa-eye fa-2"></i> <span class="feat-info-text">22</span>
+										</div><!--feat-info-views-->
+																			</div><!--feat-info-wrap-->
+																										</div><!--blog-widget-img-->
+														<div class="blog-widget-text left relative">
+								<span class="side-list-cat">Life</span>
+								<h2>Walk to Fight Suicide | Salt Lake City Out of Darkness Walk</h2>
+								<p>September 15 | Liberty Park Suicide prevention starts with everyday heroes like you. Join us on Saturday, September 15th at [&hellip;]</p>
+							</div><!--blog-widget-text-->
+							</a>
+						</li>
+												<li class="infinite-post">
+
+							<a href="https://x96.com/life/arkansas-woman-posed-as-california-deputy-to-help-boyfriend-escape-jail/" rel="bookmark">
+															<div class="blog-widget-img left relative">
+									<img width="300" height="180" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-type="image" data-lazy-src="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/jail-300x180.png" class="lazy lazy-hidden reg-img wp-post-image" alt="" data-lazy-srcset="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/jail-300x180.png 300w, https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/jail-450x270.png 450w" data-lazy-sizes="(max-width: 300px) 100vw, 300px" /><noscript><img width="300" height="180" src="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/jail-300x180.png" class="reg-img wp-post-image" alt="" srcset="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/jail-300x180.png 300w, https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/jail-450x270.png 450w" sizes="(max-width: 300px) 100vw, 300px" /></noscript>									<img width="80" height="80" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-type="image" data-lazy-src="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/jail-80x80.png" class="lazy lazy-hidden mob-img wp-post-image" alt="" data-lazy-srcset="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/jail-80x80.png 80w, https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/jail-150x150.png 150w" data-lazy-sizes="(max-width: 80px) 100vw, 80px" /><noscript><img width="80" height="80" src="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/jail-80x80.png" class="mob-img wp-post-image" alt="" srcset="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/jail-80x80.png 80w, https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/jail-150x150.png 150w" sizes="(max-width: 80px) 100vw, 80px" /></noscript>																		<div class="feat-info-wrap">
+										<div class="feat-info-views">
+											<i class="fa fa-eye fa-2"></i> <span class="feat-info-text">89</span>
+										</div><!--feat-info-views-->
+																			</div><!--feat-info-wrap-->
+																										</div><!--blog-widget-img-->
+														<div class="blog-widget-text left relative">
+								<span class="side-list-cat">Life</span>
+								<h2>Arkansas Woman Posed As California Deputy to Help Boyfriend Escape Jail</h2>
+								<p>An Arkansas woman who posed as a California deputy to help her boyfriend escape a county jail was arrested Friday. [&hellip;]</p>
+							</div><!--blog-widget-text-->
+							</a>
+						</li>
+												<li class="infinite-post">
+
+							<a href="https://x96.com/life/one-of-worst-dui-offenders-in-the-us-gets-probation/" rel="bookmark">
+															<div class="blog-widget-img left relative">
+									<img width="300" height="180" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-type="image" data-lazy-src="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/dui-300x180.png" class="lazy lazy-hidden reg-img wp-post-image" alt="" data-lazy-srcset="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/dui-300x180.png 300w, https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/dui-450x270.png 450w" data-lazy-sizes="(max-width: 300px) 100vw, 300px" /><noscript><img width="300" height="180" src="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/dui-300x180.png" class="reg-img wp-post-image" alt="" srcset="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/dui-300x180.png 300w, https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/dui-450x270.png 450w" sizes="(max-width: 300px) 100vw, 300px" /></noscript>									<img width="80" height="80" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-type="image" data-lazy-src="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/dui-80x80.png" class="lazy lazy-hidden mob-img wp-post-image" alt="" data-lazy-srcset="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/dui-80x80.png 80w, https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/dui-150x150.png 150w" data-lazy-sizes="(max-width: 80px) 100vw, 80px" /><noscript><img width="80" height="80" src="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/dui-80x80.png" class="mob-img wp-post-image" alt="" srcset="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/dui-80x80.png 80w, https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/dui-150x150.png 150w" sizes="(max-width: 80px) 100vw, 80px" /></noscript>																		<div class="feat-info-wrap">
+										<div class="feat-info-views">
+											<i class="fa fa-eye fa-2"></i> <span class="feat-info-text">78</span>
+										</div><!--feat-info-views-->
+																			</div><!--feat-info-wrap-->
+																										</div><!--blog-widget-img-->
+														<div class="blog-widget-text left relative">
+								<span class="side-list-cat">Life</span>
+								<h2>One of Worst DUI Offenders in the US Gets Probation</h2>
+								<p>This is not going to make you feel any safer on the roadways but a woman that police called &#8220;one [&hellip;]</p>
+							</div><!--blog-widget-text-->
+							</a>
+						</li>
+												<li class="infinite-post">
+
+							<a href="https://x96.com/news/where-are-the-most-scenic-restaurants-in-the-country/" rel="bookmark">
+															<div class="blog-widget-img left relative">
+									<img width="300" height="180" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-type="image" data-lazy-src="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/foodview-300x180.png" class="lazy lazy-hidden reg-img wp-post-image" alt="" data-lazy-srcset="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/foodview-300x180.png 300w, https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/foodview-450x270.png 450w" data-lazy-sizes="(max-width: 300px) 100vw, 300px" /><noscript><img width="300" height="180" src="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/foodview-300x180.png" class="reg-img wp-post-image" alt="" srcset="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/foodview-300x180.png 300w, https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/foodview-450x270.png 450w" sizes="(max-width: 300px) 100vw, 300px" /></noscript>									<img width="80" height="80" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-type="image" data-lazy-src="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/foodview-80x80.png" class="lazy lazy-hidden mob-img wp-post-image" alt="" data-lazy-srcset="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/foodview-80x80.png 80w, https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/foodview-150x150.png 150w" data-lazy-sizes="(max-width: 80px) 100vw, 80px" /><noscript><img width="80" height="80" src="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/foodview-80x80.png" class="mob-img wp-post-image" alt="" srcset="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/foodview-80x80.png 80w, https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/foodview-150x150.png 150w" sizes="(max-width: 80px) 100vw, 80px" /></noscript>																		<div class="feat-info-wrap">
+										<div class="feat-info-views">
+											<i class="fa fa-eye fa-2"></i> <span class="feat-info-text">105</span>
+										</div><!--feat-info-views-->
+																			</div><!--feat-info-wrap-->
+																										</div><!--blog-widget-img-->
+														<div class="blog-widget-text left relative">
+								<span class="side-list-cat">News</span>
+								<h2>Where Are The Most Scenic Restaurants in the Country?</h2>
+								<p>Croutons with a view Restaurant reservation app Open Table has revealed its list of the 100 most scenic restaurants in [&hellip;]</p>
+							</div><!--blog-widget-text-->
+							</a>
+						</li>
+												<li class="infinite-post">
+
+							<a href="https://x96.com/life/george-clooney-is-the-highest-paid-actor/" rel="bookmark">
+															<div class="blog-widget-img left relative">
+									<img width="300" height="180" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-type="image" data-lazy-src="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/georgeclooney-300x180.png" class="lazy lazy-hidden reg-img wp-post-image" alt="" data-lazy-srcset="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/georgeclooney-300x180.png 300w, https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/georgeclooney-450x270.png 450w" data-lazy-sizes="(max-width: 300px) 100vw, 300px" /><noscript><img width="300" height="180" src="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/georgeclooney-300x180.png" class="reg-img wp-post-image" alt="" srcset="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/georgeclooney-300x180.png 300w, https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/georgeclooney-450x270.png 450w" sizes="(max-width: 300px) 100vw, 300px" /></noscript>									<img width="80" height="80" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-type="image" data-lazy-src="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/georgeclooney-80x80.png" class="lazy lazy-hidden mob-img wp-post-image" alt="" data-lazy-srcset="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/georgeclooney-80x80.png 80w, https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/georgeclooney-150x150.png 150w" data-lazy-sizes="(max-width: 80px) 100vw, 80px" /><noscript><img width="80" height="80" src="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/georgeclooney-80x80.png" class="mob-img wp-post-image" alt="" srcset="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/georgeclooney-80x80.png 80w, https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/georgeclooney-150x150.png 150w" sizes="(max-width: 80px) 100vw, 80px" /></noscript>																		<div class="feat-info-wrap">
+										<div class="feat-info-views">
+											<i class="fa fa-eye fa-2"></i> <span class="feat-info-text">87</span>
+										</div><!--feat-info-views-->
+																			</div><!--feat-info-wrap-->
+																										</div><!--blog-widget-img-->
+														<div class="blog-widget-text left relative">
+								<span class="side-list-cat">Life</span>
+								<h2>George Clooney Is The Highest-Paid Actor</h2>
+								<p>George Clooney is on the top of the Forbes Highest Paid Actor list. Clooney grossed $239 million from June 2017 [&hellip;]</p>
+							</div><!--blog-widget-text-->
+							</a>
+						</li>
+												<li class="infinite-post">
+
+							<a href="https://x96.com/life/disney-offers-tuition-for-hourly-workers-in-tight-job-market/" rel="bookmark">
+															<div class="blog-widget-img left relative">
+									<img width="300" height="180" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-type="image" data-lazy-src="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/disney-300x180.png" class="lazy lazy-hidden reg-img wp-post-image" alt="" data-lazy-srcset="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/disney-300x180.png 300w, https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/disney-450x270.png 450w" data-lazy-sizes="(max-width: 300px) 100vw, 300px" /><noscript><img width="300" height="180" src="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/disney-300x180.png" class="reg-img wp-post-image" alt="" srcset="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/disney-300x180.png 300w, https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/disney-450x270.png 450w" sizes="(max-width: 300px) 100vw, 300px" /></noscript>									<img width="80" height="80" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-type="image" data-lazy-src="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/disney-80x80.png" class="lazy lazy-hidden mob-img wp-post-image" alt="" data-lazy-srcset="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/disney-80x80.png 80w, https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/disney-150x150.png 150w" data-lazy-sizes="(max-width: 80px) 100vw, 80px" /><noscript><img width="80" height="80" src="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/disney-80x80.png" class="mob-img wp-post-image" alt="" srcset="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/disney-80x80.png 80w, https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/disney-150x150.png 150w" sizes="(max-width: 80px) 100vw, 80px" /></noscript>																		<div class="feat-info-wrap">
+										<div class="feat-info-views">
+											<i class="fa fa-eye fa-2"></i> <span class="feat-info-text">69</span>
+										</div><!--feat-info-views-->
+																			</div><!--feat-info-wrap-->
+																										</div><!--blog-widget-img-->
+														<div class="blog-widget-text left relative">
+								<span class="side-list-cat">Life</span>
+								<h2>Disney Offers Tuition for Hourly Workers in Tight Job Market</h2>
+								<p>Good-guy mouse Disney has some good news for its hourly employees, they will pay for their college education. Through &#8220;Disney [&hellip;]</p>
+							</div><!--blog-widget-text-->
+							</a>
+						</li>
+												<li class="infinite-post">
+
+							<a href="https://x96.com/life/this-gamer-dumped-his-girlfriend-for-call-of-duty-and-lost/" rel="bookmark">
+															<div class="blog-widget-img left relative">
+									<img width="300" height="180" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-type="image" data-lazy-src="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/gamer-300x180.png" class="lazy lazy-hidden reg-img wp-post-image" alt="" data-lazy-srcset="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/gamer-300x180.png 300w, https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/gamer-450x270.png 450w" data-lazy-sizes="(max-width: 300px) 100vw, 300px" /><noscript><img width="300" height="180" src="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/gamer-300x180.png" class="reg-img wp-post-image" alt="" srcset="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/gamer-300x180.png 300w, https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/gamer-450x270.png 450w" sizes="(max-width: 300px) 100vw, 300px" /></noscript>									<img width="80" height="80" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-type="image" data-lazy-src="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/gamer-80x80.png" class="lazy lazy-hidden mob-img wp-post-image" alt="" data-lazy-srcset="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/gamer-80x80.png 80w, https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/gamer-150x150.png 150w" data-lazy-sizes="(max-width: 80px) 100vw, 80px" /><noscript><img width="80" height="80" src="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/gamer-80x80.png" class="mob-img wp-post-image" alt="" srcset="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/gamer-80x80.png 80w, https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/gamer-150x150.png 150w" sizes="(max-width: 80px) 100vw, 80px" /></noscript>																		<div class="feat-info-wrap">
+										<div class="feat-info-views">
+											<i class="fa fa-eye fa-2"></i> <span class="feat-info-text">92</span>
+										</div><!--feat-info-views-->
+																			</div><!--feat-info-wrap-->
+																										</div><!--blog-widget-img-->
+														<div class="blog-widget-text left relative">
+								<span class="side-list-cat">Life</span>
+								<h2>This Gamer Dumped His Girlfriend for &#8216;Call of Duty&#8217;&#8230; and Lost</h2>
+								<p>It might be time for Douglas Martin to reorganize his priorities. The 24-year-old dumped his girlfriend to focus on winning [&hellip;]</p>
+							</div><!--blog-widget-text-->
+							</a>
+						</li>
+												<li class="infinite-post">
+
+							<a href="https://x96.com/life/you-can-buy-glow-in-the-dark-reeses-kit-kats-and-hersheys-bars-this-halloween/" rel="bookmark">
+															<div class="blog-widget-img left relative">
+									<img width="300" height="180" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-type="image" data-lazy-src="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/reeses-300x180.png" class="lazy lazy-hidden reg-img wp-post-image" alt="" data-lazy-srcset="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/reeses-300x180.png 300w, https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/reeses-450x270.png 450w" data-lazy-sizes="(max-width: 300px) 100vw, 300px" /><noscript><img width="300" height="180" src="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/reeses-300x180.png" class="reg-img wp-post-image" alt="" srcset="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/reeses-300x180.png 300w, https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/reeses-450x270.png 450w" sizes="(max-width: 300px) 100vw, 300px" /></noscript>									<img width="80" height="80" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-type="image" data-lazy-src="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/reeses-80x80.png" class="lazy lazy-hidden mob-img wp-post-image" alt="" data-lazy-srcset="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/reeses-80x80.png 80w, https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/reeses-150x150.png 150w" data-lazy-sizes="(max-width: 80px) 100vw, 80px" /><noscript><img width="80" height="80" src="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/reeses-80x80.png" class="mob-img wp-post-image" alt="" srcset="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/reeses-80x80.png 80w, https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/reeses-150x150.png 150w" sizes="(max-width: 80px) 100vw, 80px" /></noscript>																		<div class="feat-info-wrap">
+										<div class="feat-info-views">
+											<i class="fa fa-eye fa-2"></i> <span class="feat-info-text">131</span>
+										</div><!--feat-info-views-->
+																			</div><!--feat-info-wrap-->
+																										</div><!--blog-widget-img-->
+														<div class="blog-widget-text left relative">
+								<span class="side-list-cat">Life</span>
+								<h2>You Can Buy Glow In The Dark Reese&#8217;s, Kit Kats And Hershey&#8217;s Bars This Halloween</h2>
+								<p>Want to be the biggest hit on your block this Halloween? Hershey is rolling out a special edition of their [&hellip;]</p>
+							</div><!--blog-widget-text-->
+							</a>
+						</li>
+												<li class="infinite-post">
+
+							<a href="https://x96.com/life/would-be-nasa-intern-loses-job-over-twitter-posts-nsfw/" rel="bookmark">
+															<div class="blog-widget-img left relative">
+									<img width="300" height="180" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-type="image" data-lazy-src="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/nasa-300x180.png" class="lazy lazy-hidden reg-img wp-post-image" alt="" data-lazy-srcset="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/nasa-300x180.png 300w, https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/nasa-450x270.png 450w" data-lazy-sizes="(max-width: 300px) 100vw, 300px" /><noscript><img width="300" height="180" src="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/nasa-300x180.png" class="reg-img wp-post-image" alt="" srcset="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/nasa-300x180.png 300w, https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/nasa-450x270.png 450w" sizes="(max-width: 300px) 100vw, 300px" /></noscript>									<img width="80" height="80" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-type="image" data-lazy-src="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/nasa-80x80.png" class="lazy lazy-hidden mob-img wp-post-image" alt="" data-lazy-srcset="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/nasa-80x80.png 80w, https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/nasa-150x150.png 150w" data-lazy-sizes="(max-width: 80px) 100vw, 80px" /><noscript><img width="80" height="80" src="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/nasa-80x80.png" class="mob-img wp-post-image" alt="" srcset="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/nasa-80x80.png 80w, https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/nasa-150x150.png 150w" sizes="(max-width: 80px) 100vw, 80px" /></noscript>																		<div class="feat-info-wrap">
+										<div class="feat-info-views">
+											<i class="fa fa-eye fa-2"></i> <span class="feat-info-text">139</span>
+										</div><!--feat-info-views-->
+																			</div><!--feat-info-wrap-->
+																										</div><!--blog-widget-img-->
+														<div class="blog-widget-text left relative">
+								<span class="side-list-cat">Life</span>
+								<h2>Would-Be NASA Intern Loses Job Over Twitter Posts (NSFW)</h2>
+								<p>Be careful of random strangers you fight with on the internet, it could come back to haunt you. A would-be [&hellip;]</p>
+							</div><!--blog-widget-text-->
+							</a>
+						</li>
+												<li class="infinite-post">
+
+							<a href="https://x96.com/news/korn-frontman-speaks-out-on-wifes-death-and-mental-illness/" rel="bookmark">
+															<div class="blog-widget-img left relative">
+									<img width="300" height="180" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-type="image" data-lazy-src="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/jonathandavis-300x180.png" class="lazy lazy-hidden reg-img wp-post-image" alt="" data-lazy-srcset="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/jonathandavis-300x180.png 300w, https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/jonathandavis-450x270.png 450w" data-lazy-sizes="(max-width: 300px) 100vw, 300px" /><noscript><img width="300" height="180" src="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/jonathandavis-300x180.png" class="reg-img wp-post-image" alt="" srcset="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/jonathandavis-300x180.png 300w, https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/jonathandavis-450x270.png 450w" sizes="(max-width: 300px) 100vw, 300px" /></noscript>									<img width="80" height="80" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-type="image" data-lazy-src="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/jonathandavis-80x80.png" class="lazy lazy-hidden mob-img wp-post-image" alt="" data-lazy-srcset="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/jonathandavis-80x80.png 80w, https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/jonathandavis-150x150.png 150w" data-lazy-sizes="(max-width: 80px) 100vw, 80px" /><noscript><img width="80" height="80" src="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/jonathandavis-80x80.png" class="mob-img wp-post-image" alt="" srcset="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/jonathandavis-80x80.png 80w, https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/jonathandavis-150x150.png 150w" sizes="(max-width: 80px) 100vw, 80px" /></noscript>																		<div class="feat-info-wrap">
+										<div class="feat-info-views">
+											<i class="fa fa-eye fa-2"></i> <span class="feat-info-text">85</span>
+										</div><!--feat-info-views-->
+																			</div><!--feat-info-wrap-->
+																										</div><!--blog-widget-img-->
+														<div class="blog-widget-text left relative">
+								<span class="side-list-cat">Music</span>
+								<h2>Korn Frontman Speaks Out On Wife&#8217;s Death And Mental Illness</h2>
+								<p>Jonathan Davis lost his estranged wife on Friday and now the Korn frontman is speaking out for the first time [&hellip;]</p>
+							</div><!--blog-widget-text-->
+							</a>
+						</li>
+												<li class="infinite-post">
+
+							<a href="https://x96.com/news/pearl-jam-plays-old-song-for-first-time-ever/" rel="bookmark">
+															<div class="blog-widget-img left relative">
+									<img width="300" height="180" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-type="image" data-lazy-src="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/05/PearlJam-300x180.png" class="lazy lazy-hidden reg-img wp-post-image" alt="" data-lazy-srcset="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/05/PearlJam-300x180.png 300w, https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/05/PearlJam-450x270.png 450w" data-lazy-sizes="(max-width: 300px) 100vw, 300px" /><noscript><img width="300" height="180" src="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/05/PearlJam-300x180.png" class="reg-img wp-post-image" alt="" srcset="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/05/PearlJam-300x180.png 300w, https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/05/PearlJam-450x270.png 450w" sizes="(max-width: 300px) 100vw, 300px" /></noscript>									<img width="80" height="80" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-type="image" data-lazy-src="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/05/PearlJam-80x80.png" class="lazy lazy-hidden mob-img wp-post-image" alt="" data-lazy-srcset="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/05/PearlJam-80x80.png 80w, https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/05/PearlJam-150x150.png 150w" data-lazy-sizes="(max-width: 80px) 100vw, 80px" /><noscript><img width="80" height="80" src="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/05/PearlJam-80x80.png" class="mob-img wp-post-image" alt="" srcset="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/05/PearlJam-80x80.png 80w, https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/05/PearlJam-150x150.png 150w" sizes="(max-width: 80px) 100vw, 80px" /></noscript>																		<div class="feat-info-wrap">
+										<div class="feat-info-views">
+											<i class="fa fa-eye fa-2"></i> <span class="feat-info-text">111</span>
+										</div><!--feat-info-views-->
+																			</div><!--feat-info-wrap-->
+																										</div><!--blog-widget-img-->
+														<div class="blog-widget-text left relative">
+								<span class="side-list-cat">Music</span>
+								<h2>Pearl Jam Plays Old Song For First Time Ever</h2>
+								<p>Chances are you&#8217;ve probably never heard Pearl Jam&#8217;s &#8220;Evil Little Goat.&#8221; The song, which is an outtake from the band&#8217;s [&hellip;]</p>
+							</div><!--blog-widget-text-->
+							</a>
+						</li>
+															</ul>
+									<a href="#" class="inf-more-but">More Posts</a>
+								<div class="nav-links">
+					<div class="pagination"><span>Page 1 of 524</span><span class="current">1</span><a href='https://x96.com/page/2/' class="inactive">2</a><a href='https://x96.com/page/3/' class="inactive">3</a><a href='https://x96.com/page/4/' class="inactive">4</a><a href='https://x96.com/page/5/' class="inactive">5</a><a href="https://x96.com/page/2/">Next &rsaquo;</a><a href='https://x96.com/page/524/'>Last &raquo;</a></div>
+				</div><!--nav-links-->
+			</div><!--blog-widget-wrap-->
+									</div><!--home-widget-->
+															</div><!--home-mid-wrap-->
+						</div><!--home-left-col-->
+					</div><!--home-wrap-in2-->
+											<div id="tab-col2" class="home-mid-col relative tab-col-cont">
+															<div id="sidebar-wrap" class="left relative">
+																			<div id="text-7" class="side-widget widget_text"><a href="https://www.youtube.com/user/kxrkx96" target="_blank"><h4 class="post-header"><span class="post-header">Subscribe to X96 on YouTube</span></h4></a>			<div class="textwidget"><p><script src="https://apis.google.com/js/platform.js"></script></p>
+<div class="g-ytsubscribe" data-channelid="UCjGTS8yZIHpaKwe0p3tVURQ" data-layout="full" data-count="default"></div>
+</div>
+		</div><div id="mvp_taglist_widget-5" class="side-widget mvp_taglist_widget"><h4 class="post-header"><span class="post-header">X96 Music News</span></h4>			<div class="blog-widget-wrap left relative">
+				<ul class="blog-widget-list left relative">
+											<li>
+							<a href="https://x96.com/news/korn-frontman-speaks-out-on-wifes-death-and-mental-illness/" rel="bookmark">
+															<div class="blog-widget-img left relative">
+									<img width="300" height="180" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-type="image" data-lazy-src="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/jonathandavis-300x180.png" class="lazy lazy-hidden widget-img-main wp-post-image" alt="" data-lazy-srcset="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/jonathandavis-300x180.png 300w, https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/jonathandavis-450x270.png 450w" data-lazy-sizes="(max-width: 300px) 100vw, 300px" /><noscript><img width="300" height="180" src="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/jonathandavis-300x180.png" class="widget-img-main wp-post-image" alt="" srcset="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/jonathandavis-300x180.png 300w, https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/jonathandavis-450x270.png 450w" sizes="(max-width: 300px) 100vw, 300px" /></noscript>									<img width="80" height="80" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-type="image" data-lazy-src="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/jonathandavis-80x80.png" class="lazy lazy-hidden widget-img-side wp-post-image" alt="" data-lazy-srcset="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/jonathandavis-80x80.png 80w, https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/jonathandavis-150x150.png 150w" data-lazy-sizes="(max-width: 80px) 100vw, 80px" /><noscript><img width="80" height="80" src="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/jonathandavis-80x80.png" class="widget-img-side wp-post-image" alt="" srcset="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/jonathandavis-80x80.png 80w, https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/jonathandavis-150x150.png 150w" sizes="(max-width: 80px) 100vw, 80px" /></noscript>																		<div class="feat-info-wrap">
+										<div class="feat-info-views">
+											<i class="fa fa-eye fa-2"></i> <span class="feat-info-text">85</span>
+										</div><!--feat-info-views-->
+																			</div><!--feat-info-wrap-->
+																										</div><!--blog-widget-img-->
+														<div class="blog-widget-text left relative">
+								<span class="side-list-cat">Music</span>
+								<h2>Korn Frontman Speaks Out On Wife&#8217;s Death And Mental Illness</h2>
+								<p>Jonathan Davis lost his estranged wife on Friday and now the Korn frontman is...</p>
+							</div><!--blog-widget-text-->
+							</a>
+						</li>
+											<li>
+							<a href="https://x96.com/news/pearl-jam-plays-old-song-for-first-time-ever/" rel="bookmark">
+															<div class="blog-widget-img left relative">
+									<img width="300" height="180" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-type="image" data-lazy-src="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/05/PearlJam-300x180.png" class="lazy lazy-hidden widget-img-main wp-post-image" alt="" data-lazy-srcset="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/05/PearlJam-300x180.png 300w, https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/05/PearlJam-450x270.png 450w" data-lazy-sizes="(max-width: 300px) 100vw, 300px" /><noscript><img width="300" height="180" src="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/05/PearlJam-300x180.png" class="widget-img-main wp-post-image" alt="" srcset="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/05/PearlJam-300x180.png 300w, https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/05/PearlJam-450x270.png 450w" sizes="(max-width: 300px) 100vw, 300px" /></noscript>									<img width="80" height="80" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-type="image" data-lazy-src="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/05/PearlJam-80x80.png" class="lazy lazy-hidden widget-img-side wp-post-image" alt="" data-lazy-srcset="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/05/PearlJam-80x80.png 80w, https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/05/PearlJam-150x150.png 150w" data-lazy-sizes="(max-width: 80px) 100vw, 80px" /><noscript><img width="80" height="80" src="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/05/PearlJam-80x80.png" class="widget-img-side wp-post-image" alt="" srcset="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/05/PearlJam-80x80.png 80w, https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/05/PearlJam-150x150.png 150w" sizes="(max-width: 80px) 100vw, 80px" /></noscript>																		<div class="feat-info-wrap">
+										<div class="feat-info-views">
+											<i class="fa fa-eye fa-2"></i> <span class="feat-info-text">111</span>
+										</div><!--feat-info-views-->
+																			</div><!--feat-info-wrap-->
+																										</div><!--blog-widget-img-->
+														<div class="blog-widget-text left relative">
+								<span class="side-list-cat">Music</span>
+								<h2>Pearl Jam Plays Old Song For First Time Ever</h2>
+								<p>Chances are you&#8217;ve probably never heard Pearl Jam&#8217;s &#8220;Evil Little Goat.&#8221; The song, which...</p>
+							</div><!--blog-widget-text-->
+							</a>
+						</li>
+											<li>
+							<a href="https://x96.com/news/alice-in-chains-throw-out-first-pitch-at-mariners-game/" rel="bookmark">
+															<div class="blog-widget-img left relative">
+									<img width="300" height="180" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-type="image" data-lazy-src="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/aliceinchains-300x180.png" class="lazy lazy-hidden widget-img-main wp-post-image" alt="" data-lazy-srcset="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/aliceinchains-300x180.png 300w, https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/aliceinchains-450x270.png 450w" data-lazy-sizes="(max-width: 300px) 100vw, 300px" /><noscript><img width="300" height="180" src="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/aliceinchains-300x180.png" class="widget-img-main wp-post-image" alt="" srcset="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/aliceinchains-300x180.png 300w, https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/aliceinchains-450x270.png 450w" sizes="(max-width: 300px) 100vw, 300px" /></noscript>									<img width="80" height="80" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-type="image" data-lazy-src="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/aliceinchains-80x80.png" class="lazy lazy-hidden widget-img-side wp-post-image" alt="" data-lazy-srcset="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/aliceinchains-80x80.png 80w, https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/aliceinchains-150x150.png 150w" data-lazy-sizes="(max-width: 80px) 100vw, 80px" /><noscript><img width="80" height="80" src="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/aliceinchains-80x80.png" class="widget-img-side wp-post-image" alt="" srcset="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/aliceinchains-80x80.png 80w, https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/aliceinchains-150x150.png 150w" sizes="(max-width: 80px) 100vw, 80px" /></noscript>																		<div class="feat-info-wrap">
+										<div class="feat-info-views">
+											<i class="fa fa-eye fa-2"></i> <span class="feat-info-text">135</span>
+										</div><!--feat-info-views-->
+																			</div><!--feat-info-wrap-->
+																										</div><!--blog-widget-img-->
+														<div class="blog-widget-text left relative">
+								<span class="side-list-cat">Music</span>
+								<h2>Alice In Chains Throw Out First Pitch At Mariners Game</h2>
+								<p>Alice In Chains are back home in Seattle, and Monday night they made a...</p>
+							</div><!--blog-widget-text-->
+							</a>
+						</li>
+											<li>
+							<a href="https://x96.com/news/panic-at-the-disco-vma-mystery-solved/" rel="bookmark">
+															<div class="blog-widget-img left relative">
+									<img width="300" height="180" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-type="image" data-lazy-src="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/panicatthedisco-300x180.png" class="lazy lazy-hidden widget-img-main wp-post-image" alt="" data-lazy-srcset="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/panicatthedisco-300x180.png 300w, https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/panicatthedisco-450x270.png 450w" data-lazy-sizes="(max-width: 300px) 100vw, 300px" /><noscript><img width="300" height="180" src="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/panicatthedisco-300x180.png" class="widget-img-main wp-post-image" alt="" srcset="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/panicatthedisco-300x180.png 300w, https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/panicatthedisco-450x270.png 450w" sizes="(max-width: 300px) 100vw, 300px" /></noscript>									<img width="80" height="80" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-type="image" data-lazy-src="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/panicatthedisco-80x80.png" class="lazy lazy-hidden widget-img-side wp-post-image" alt="" data-lazy-srcset="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/panicatthedisco-80x80.png 80w, https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/panicatthedisco-150x150.png 150w" data-lazy-sizes="(max-width: 80px) 100vw, 80px" /><noscript><img width="80" height="80" src="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/panicatthedisco-80x80.png" class="widget-img-side wp-post-image" alt="" srcset="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/panicatthedisco-80x80.png 80w, https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/panicatthedisco-150x150.png 150w" sizes="(max-width: 80px) 100vw, 80px" /></noscript>																		<div class="feat-info-wrap">
+										<div class="feat-info-views">
+											<i class="fa fa-eye fa-2"></i> <span class="feat-info-text">287</span>
+										</div><!--feat-info-views-->
+																			</div><!--feat-info-wrap-->
+																										</div><!--blog-widget-img-->
+														<div class="blog-widget-text left relative">
+								<span class="side-list-cat">Music</span>
+								<h2>Panic! At The Disco VMA Mystery Solved</h2>
+								<p>If you caught Panic! At The Disco&#8217;s performance at the VMA&#8217;s, you might have...</p>
+							</div><!--blog-widget-text-->
+							</a>
+						</li>
+											<li>
+							<a href="https://x96.com/music/pearl-jam-responds-to-criticism-on-trump-poster/" rel="bookmark">
+															<div class="blog-widget-img left relative">
+									<img width="300" height="180" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-type="image" data-lazy-src="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/PearlJam-300x180.png" class="lazy lazy-hidden widget-img-main wp-post-image" alt="" data-lazy-srcset="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/PearlJam-300x180.png 300w, https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/PearlJam-450x270.png 450w" data-lazy-sizes="(max-width: 300px) 100vw, 300px" /><noscript><img width="300" height="180" src="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/PearlJam-300x180.png" class="widget-img-main wp-post-image" alt="" srcset="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/PearlJam-300x180.png 300w, https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/PearlJam-450x270.png 450w" sizes="(max-width: 300px) 100vw, 300px" /></noscript>									<img width="80" height="80" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-type="image" data-lazy-src="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/PearlJam-80x80.png" class="lazy lazy-hidden widget-img-side wp-post-image" alt="" data-lazy-srcset="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/PearlJam-80x80.png 80w, https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/PearlJam-150x150.png 150w" data-lazy-sizes="(max-width: 80px) 100vw, 80px" /><noscript><img width="80" height="80" src="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/PearlJam-80x80.png" class="widget-img-side wp-post-image" alt="" srcset="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/PearlJam-80x80.png 80w, https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/PearlJam-150x150.png 150w" sizes="(max-width: 80px) 100vw, 80px" /></noscript>																		<div class="feat-info-wrap">
+										<div class="feat-info-views">
+											<i class="fa fa-eye fa-2"></i> <span class="feat-info-text">179</span>
+										</div><!--feat-info-views-->
+																			</div><!--feat-info-wrap-->
+																										</div><!--blog-widget-img-->
+														<div class="blog-widget-text left relative">
+								<span class="side-list-cat">Music</span>
+								<h2>Pearl Jam Responds to Criticism on Trump Poster</h2>
+								<p>A poster from Pearl Jam that depicted the rotting corpse of President Donald Trump...</p>
+							</div><!--blog-widget-text-->
+							</a>
+						</li>
+									</ul>
+			</div><!--blog-widget-wrap-->
+		</div>			<div class="widget-ad left relative">
+				<!-- /133996388/X96_300x250_Sidebar -->
+<div id='div-gpt-ad-1449615311021-1' style='height:250px; width:300px;'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1449615311021-1'); });
+</script>
+</div>			</div><!--widget-ad-->
+		<div id="mvp_taglist_widget-6" class="side-widget mvp_taglist_widget"><h4 class="post-header"><span class="post-header">X96 Podcasts</span></h4>			<div class="blog-widget-wrap left relative">
+				<ul class="blog-widget-list left relative">
+											<li>
+							<a href="https://x96.com/life/podcast-lets-go-eat-show-spice-kitchen-incubator-and-jenny-wilson/" rel="bookmark">
+															<div class="blog-widget-img left relative">
+									<img width="300" height="180" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-type="image" data-lazy-src="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2017/12/LetsGoEat_Landing-300x180.png" class="lazy lazy-hidden widget-img-main wp-post-image" alt="" data-lazy-srcset="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2017/12/LetsGoEat_Landing-300x180.png 300w, https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2017/12/LetsGoEat_Landing-450x270.png 450w" data-lazy-sizes="(max-width: 300px) 100vw, 300px" /><noscript><img width="300" height="180" src="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2017/12/LetsGoEat_Landing-300x180.png" class="widget-img-main wp-post-image" alt="" srcset="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2017/12/LetsGoEat_Landing-300x180.png 300w, https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2017/12/LetsGoEat_Landing-450x270.png 450w" sizes="(max-width: 300px) 100vw, 300px" /></noscript>									<img width="80" height="80" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-type="image" data-lazy-src="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2017/12/LetsGoEat_Landing-80x80.png" class="lazy lazy-hidden widget-img-side wp-post-image" alt="" data-lazy-srcset="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2017/12/LetsGoEat_Landing-80x80.png 80w, https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2017/12/LetsGoEat_Landing-150x150.png 150w" data-lazy-sizes="(max-width: 80px) 100vw, 80px" /><noscript><img width="80" height="80" src="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2017/12/LetsGoEat_Landing-80x80.png" class="widget-img-side wp-post-image" alt="" srcset="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2017/12/LetsGoEat_Landing-80x80.png 80w, https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2017/12/LetsGoEat_Landing-150x150.png 150w" sizes="(max-width: 80px) 100vw, 80px" /></noscript>																		<div class="feat-info-wrap">
+										<div class="feat-info-views">
+											<i class="fa fa-eye fa-2"></i> <span class="feat-info-text">114</span>
+										</div><!--feat-info-views-->
+																			</div><!--feat-info-wrap-->
+																										</div><!--blog-widget-img-->
+														<div class="blog-widget-text left relative">
+								<span class="side-list-cat">Life</span>
+								<h2>Podcast | Let&#8217;s Go Eat Show: Spice Kitchen Incubator and Jenny Wilson</h2>
+								<p>Food and conversation This week Bill and Jenny Wilson visit the Spice Kitchen Incubator....</p>
+							</div><!--blog-widget-text-->
+							</a>
+						</li>
+											<li>
+							<a href="https://x96.com/life/podcast-geekshow-fruntt-bhutt/" rel="bookmark">
+															<div class="blog-widget-img left relative">
+									<img width="300" height="180" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-type="image" data-lazy-src="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2017/10/Geekshow_LP-300x180.png" class="lazy lazy-hidden widget-img-main wp-post-image" alt="" data-lazy-srcset="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2017/10/Geekshow_LP-300x180.png 300w, https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2017/10/Geekshow_LP-450x270.png 450w" data-lazy-sizes="(max-width: 300px) 100vw, 300px" /><noscript><img width="300" height="180" src="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2017/10/Geekshow_LP-300x180.png" class="widget-img-main wp-post-image" alt="" srcset="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2017/10/Geekshow_LP-300x180.png 300w, https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2017/10/Geekshow_LP-450x270.png 450w" sizes="(max-width: 300px) 100vw, 300px" /></noscript>									<img width="80" height="80" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-type="image" data-lazy-src="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2017/10/Geekshow_LP-80x80.png" class="lazy lazy-hidden widget-img-side wp-post-image" alt="" data-lazy-srcset="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2017/10/Geekshow_LP-80x80.png 80w, https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2017/10/Geekshow_LP-150x150.png 150w" data-lazy-sizes="(max-width: 80px) 100vw, 80px" /><noscript><img width="80" height="80" src="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2017/10/Geekshow_LP-80x80.png" class="widget-img-side wp-post-image" alt="" srcset="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2017/10/Geekshow_LP-80x80.png 80w, https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2017/10/Geekshow_LP-150x150.png 150w" sizes="(max-width: 80px) 100vw, 80px" /></noscript>																		<div class="feat-info-wrap">
+										<div class="feat-info-views">
+											<i class="fa fa-eye fa-2"></i> <span class="feat-info-text">122</span>
+										</div><!--feat-info-views-->
+																			</div><!--feat-info-wrap-->
+																										</div><!--blog-widget-img-->
+														<div class="blog-widget-text left relative">
+								<span class="side-list-cat">Life</span>
+								<h2>Podcast | Geekshow: Fruntt Bhutt</h2>
+								<p>NSFW! Your best option is that PLAY button right there. The Download button up...</p>
+							</div><!--blog-widget-text-->
+							</a>
+						</li>
+											<li>
+							<a href="https://x96.com/life/podcast-lets-go-eat-show-splishy-splashy-jimmy-santangelo/" rel="bookmark">
+															<div class="blog-widget-img left relative">
+									<img width="300" height="180" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-type="image" data-lazy-src="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2017/12/LetsGoEat_Landing-300x180.png" class="lazy lazy-hidden widget-img-main wp-post-image" alt="" data-lazy-srcset="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2017/12/LetsGoEat_Landing-300x180.png 300w, https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2017/12/LetsGoEat_Landing-450x270.png 450w" data-lazy-sizes="(max-width: 300px) 100vw, 300px" /><noscript><img width="300" height="180" src="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2017/12/LetsGoEat_Landing-300x180.png" class="widget-img-main wp-post-image" alt="" srcset="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2017/12/LetsGoEat_Landing-300x180.png 300w, https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2017/12/LetsGoEat_Landing-450x270.png 450w" sizes="(max-width: 300px) 100vw, 300px" /></noscript>									<img width="80" height="80" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-type="image" data-lazy-src="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2017/12/LetsGoEat_Landing-80x80.png" class="lazy lazy-hidden widget-img-side wp-post-image" alt="" data-lazy-srcset="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2017/12/LetsGoEat_Landing-80x80.png 80w, https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2017/12/LetsGoEat_Landing-150x150.png 150w" data-lazy-sizes="(max-width: 80px) 100vw, 80px" /><noscript><img width="80" height="80" src="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2017/12/LetsGoEat_Landing-80x80.png" class="widget-img-side wp-post-image" alt="" srcset="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2017/12/LetsGoEat_Landing-80x80.png 80w, https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2017/12/LetsGoEat_Landing-150x150.png 150w" sizes="(max-width: 80px) 100vw, 80px" /></noscript>																		<div class="feat-info-wrap">
+										<div class="feat-info-views">
+											<i class="fa fa-eye fa-2"></i> <span class="feat-info-text">237</span>
+										</div><!--feat-info-views-->
+																			</div><!--feat-info-wrap-->
+																										</div><!--blog-widget-img-->
+														<div class="blog-widget-text left relative">
+								<span class="side-list-cat">Life</span>
+								<h2>Podcast | Let&#8217;s Go Eat Show: Splishy Splashy Jimmy Santangelo</h2>
+								<p>Food and Conversation If you like wine, if you like food, and you like...</p>
+							</div><!--blog-widget-text-->
+							</a>
+						</li>
+											<li>
+							<a href="https://x96.com/life/podcast-geekshow-probable-cause/" rel="bookmark">
+															<div class="blog-widget-img left relative">
+									<img width="300" height="180" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-type="image" data-lazy-src="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2017/10/Geekshow_LP-300x180.png" class="lazy lazy-hidden widget-img-main wp-post-image" alt="" data-lazy-srcset="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2017/10/Geekshow_LP-300x180.png 300w, https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2017/10/Geekshow_LP-450x270.png 450w" data-lazy-sizes="(max-width: 300px) 100vw, 300px" /><noscript><img width="300" height="180" src="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2017/10/Geekshow_LP-300x180.png" class="widget-img-main wp-post-image" alt="" srcset="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2017/10/Geekshow_LP-300x180.png 300w, https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2017/10/Geekshow_LP-450x270.png 450w" sizes="(max-width: 300px) 100vw, 300px" /></noscript>									<img width="80" height="80" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-type="image" data-lazy-src="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2017/10/Geekshow_LP-80x80.png" class="lazy lazy-hidden widget-img-side wp-post-image" alt="" data-lazy-srcset="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2017/10/Geekshow_LP-80x80.png 80w, https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2017/10/Geekshow_LP-150x150.png 150w" data-lazy-sizes="(max-width: 80px) 100vw, 80px" /><noscript><img width="80" height="80" src="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2017/10/Geekshow_LP-80x80.png" class="widget-img-side wp-post-image" alt="" srcset="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2017/10/Geekshow_LP-80x80.png 80w, https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2017/10/Geekshow_LP-150x150.png 150w" sizes="(max-width: 80px) 100vw, 80px" /></noscript>																		<div class="feat-info-wrap">
+										<div class="feat-info-views">
+											<i class="fa fa-eye fa-2"></i> <span class="feat-info-text">182</span>
+										</div><!--feat-info-views-->
+																			</div><!--feat-info-wrap-->
+																										</div><!--blog-widget-img-->
+														<div class="blog-widget-text left relative">
+								<span class="side-list-cat">Life</span>
+								<h2>Podcast | Geekshow: Probable Cause</h2>
+								<p>NSFW! Chris &amp; Chris v Trek, Gunn’s script, Silver Sable v Black Cat, Cowboy...</p>
+							</div><!--blog-widget-text-->
+							</a>
+						</li>
+											<li>
+							<a href="https://x96.com/life/a-new-episode-of-downrange-with-jon-smith-is-up/" rel="bookmark">
+															<div class="blog-widget-img left relative">
+									<img width="300" height="180" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-type="image" data-lazy-src="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/01/DownRange_LP-300x180.png" class="lazy lazy-hidden widget-img-main wp-post-image" alt="" data-lazy-srcset="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/01/DownRange_LP-300x180.png 300w, https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/01/DownRange_LP-450x270.png 450w" data-lazy-sizes="(max-width: 300px) 100vw, 300px" /><noscript><img width="300" height="180" src="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/01/DownRange_LP-300x180.png" class="widget-img-main wp-post-image" alt="" srcset="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/01/DownRange_LP-300x180.png 300w, https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/01/DownRange_LP-450x270.png 450w" sizes="(max-width: 300px) 100vw, 300px" /></noscript>									<img width="80" height="80" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-type="image" data-lazy-src="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/01/DownRange_LP-80x80.png" class="lazy lazy-hidden widget-img-side wp-post-image" alt="" data-lazy-srcset="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/01/DownRange_LP-80x80.png 80w, https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/01/DownRange_LP-150x150.png 150w" data-lazy-sizes="(max-width: 80px) 100vw, 80px" /><noscript><img width="80" height="80" src="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/01/DownRange_LP-80x80.png" class="widget-img-side wp-post-image" alt="" srcset="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/01/DownRange_LP-80x80.png 80w, https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/01/DownRange_LP-150x150.png 150w" sizes="(max-width: 80px) 100vw, 80px" /></noscript>																		<div class="feat-info-wrap">
+										<div class="feat-info-views">
+											<i class="fa fa-eye fa-2"></i> <span class="feat-info-text">62</span>
+										</div><!--feat-info-views-->
+																			</div><!--feat-info-wrap-->
+																										</div><!--blog-widget-img-->
+														<div class="blog-widget-text left relative">
+								<span class="side-list-cat">Life</span>
+								<h2>A New Episode Of DOWNRANGE with JON SMITH Is Up!</h2>
+								<p>This week we took a first timer to the range! How did it go? ...</p>
+							</div><!--blog-widget-text-->
+							</a>
+						</li>
+									</ul>
+			</div><!--blog-widget-wrap-->
+		</div><div id="text-6" class="side-widget widget_text"><a href="http://www.x96.com/live"><h4 class="post-header"><span class="post-header">Radio From Hell Live Stream Video</span></h4></a>			<div class="textwidget"><a href="http://www.x96.com/live"><img class="lazy lazy-hidden" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-type="image" data-lazy-src="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2016/06/160606_X96_RFHStreamingLive790x490.png"><noscript><img src="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2016/06/160606_X96_RFHStreamingLive790x490.png"></noscript><a>
+&nbsp;</div>
+		</div><div id="custom_html-2" class="widget_text side-widget widget_custom_html"><div class="textwidget custom-html-widget">&nbsp;<br>
+&nbsp;</div></div>																	</div><!--sidebar-wrap-->
+													</div><!--home-mid-col-->
+									</div><!--home-wrap-out2-->
+			</div><!--home-left-wrap-->
+		</div><!--home-wrap-in1-->
+		<div id="tab-col3" class="home-right-col relative tab-col-cont">
+						<!--BROADWAY UPDATE-->
+			<div style="background-color: #ffffff; width: 300px; height: 250px"><!-- /133996388/X96_300x250_Home -->
+<div id='div-gpt-ad-1449615311021-0' style='height:250px; width:300px;'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1449615311021-0'); });
+</script>
+</div></div><br>
+			<!--END BROADWAY UPDATE-->
+				<div class="side-title-wrap left relative">
+	<h3 class="side-list-title">Most Viewed</h3>
+</div><!--side-title-wrap-->
+<div class="side-pop-wrap left relative">
+	<div class="feat-widget-cont left relative">
+					<div class="feat-widget-wrap left relative">
+				<a href="https://x96.com/life/heres-what-happens-when-you-od-a-true-story-of-my-night-with-the-salt-lake-police-dept/">
+									<div class="feat-widget-img left relative">
+						<img width="300" height="180" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-type="image" data-lazy-src="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/image1-1-300x180.jpg" class="lazy lazy-hidden reg-img wp-post-image" alt="" data-lazy-srcset="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/image1-1-300x180.jpg 300w, https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/image1-1-450x270.jpg 450w" data-lazy-sizes="(max-width: 300px) 100vw, 300px" /><noscript><img width="300" height="180" src="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/image1-1-300x180.jpg" class="reg-img wp-post-image" alt="" srcset="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/image1-1-300x180.jpg 300w, https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/image1-1-450x270.jpg 450w" sizes="(max-width: 300px) 100vw, 300px" /></noscript>						<img width="80" height="80" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-type="image" data-lazy-src="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/image1-1-80x80.jpg" class="lazy lazy-hidden mob-img wp-post-image" alt="" data-lazy-srcset="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/image1-1-80x80.jpg 80w, https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/image1-1-150x150.jpg 150w" data-lazy-sizes="(max-width: 80px) 100vw, 80px" /><noscript><img width="80" height="80" src="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/image1-1-80x80.jpg" class="mob-img wp-post-image" alt="" srcset="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/image1-1-80x80.jpg 80w, https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/image1-1-150x150.jpg 150w" sizes="(max-width: 80px) 100vw, 80px" /></noscript>													<div class="feat-info-wrap">
+								<div class="feat-info-views">
+									<i class="fa fa-eye fa-2"></i> <span class="feat-info-text">1.0K</span>
+								</div><!--feat-info-views-->
+															</div><!--feat-info-wrap-->
+																	</div><!--feat-widget-img-->
+								<div class="feat-widget-text">
+					<span class="side-list-cat">Life</span>
+					<h2>Here&#8217;s What Happens When You OD&#8230; A True Story Of My Night With The Salt Lake Police Dept.</h2>
+				</div><!--feat-widget-text-->
+				</a>
+			</div><!--feat-widget-wrap-->
+					<div class="feat-widget-wrap left relative">
+				<a href="https://x96.com/life/olive-garden-is-selling-annual-pasta-passes/">
+									<div class="feat-widget-img left relative">
+						<img width="300" height="180" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-type="image" data-lazy-src="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/olivegarden-300x180.png" class="lazy lazy-hidden reg-img wp-post-image" alt="" data-lazy-srcset="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/olivegarden-300x180.png 300w, https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/olivegarden-450x270.png 450w" data-lazy-sizes="(max-width: 300px) 100vw, 300px" /><noscript><img width="300" height="180" src="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/olivegarden-300x180.png" class="reg-img wp-post-image" alt="" srcset="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/olivegarden-300x180.png 300w, https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/olivegarden-450x270.png 450w" sizes="(max-width: 300px) 100vw, 300px" /></noscript>						<img width="80" height="80" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-type="image" data-lazy-src="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/olivegarden-80x80.png" class="lazy lazy-hidden mob-img wp-post-image" alt="" data-lazy-srcset="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/olivegarden-80x80.png 80w, https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/olivegarden-150x150.png 150w" data-lazy-sizes="(max-width: 80px) 100vw, 80px" /><noscript><img width="80" height="80" src="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/olivegarden-80x80.png" class="mob-img wp-post-image" alt="" srcset="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/olivegarden-80x80.png 80w, https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/olivegarden-150x150.png 150w" sizes="(max-width: 80px) 100vw, 80px" /></noscript>													<div class="feat-info-wrap">
+								<div class="feat-info-views">
+									<i class="fa fa-eye fa-2"></i> <span class="feat-info-text">428</span>
+								</div><!--feat-info-views-->
+															</div><!--feat-info-wrap-->
+																	</div><!--feat-widget-img-->
+								<div class="feat-widget-text">
+					<span class="side-list-cat">Life</span>
+					<h2>Olive Garden Is Selling Annual Pasta Passes</h2>
+				</div><!--feat-widget-text-->
+				</a>
+			</div><!--feat-widget-wrap-->
+					<div class="feat-widget-wrap left relative">
+				<a href="https://x96.com/life/corey-obrien-community-and-events-calendar-week-of-august-22nd/">
+									<div class="feat-widget-img left relative">
+						<img width="300" height="180" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-type="image" data-lazy-src="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/COREYCAL_2017_SL_0822-300x180.png" class="lazy lazy-hidden reg-img wp-post-image" alt="" data-lazy-srcset="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/COREYCAL_2017_SL_0822-300x180.png 300w, https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/COREYCAL_2017_SL_0822-450x270.png 450w" data-lazy-sizes="(max-width: 300px) 100vw, 300px" /><noscript><img width="300" height="180" src="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/COREYCAL_2017_SL_0822-300x180.png" class="reg-img wp-post-image" alt="" srcset="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/COREYCAL_2017_SL_0822-300x180.png 300w, https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/COREYCAL_2017_SL_0822-450x270.png 450w" sizes="(max-width: 300px) 100vw, 300px" /></noscript>						<img width="80" height="80" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-type="image" data-lazy-src="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/COREYCAL_2017_SL_0822-80x80.png" class="lazy lazy-hidden mob-img wp-post-image" alt="" data-lazy-srcset="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/COREYCAL_2017_SL_0822-80x80.png 80w, https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/COREYCAL_2017_SL_0822-150x150.png 150w" data-lazy-sizes="(max-width: 80px) 100vw, 80px" /><noscript><img width="80" height="80" src="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/COREYCAL_2017_SL_0822-80x80.png" class="mob-img wp-post-image" alt="" srcset="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/COREYCAL_2017_SL_0822-80x80.png 80w, https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/COREYCAL_2017_SL_0822-150x150.png 150w" sizes="(max-width: 80px) 100vw, 80px" /></noscript>													<div class="feat-info-wrap">
+								<div class="feat-info-views">
+									<i class="fa fa-eye fa-2"></i> <span class="feat-info-text">314</span>
+								</div><!--feat-info-views-->
+															</div><!--feat-info-wrap-->
+																	</div><!--feat-widget-img-->
+								<div class="feat-widget-text">
+					<span class="side-list-cat">Life</span>
+					<h2>Corey O&#8217;Brien Community and Events Calendar | Week of August 22nd</h2>
+				</div><!--feat-widget-text-->
+				</a>
+			</div><!--feat-widget-wrap-->
+					<div class="feat-widget-wrap left relative">
+				<a href="https://x96.com/news/marilyn-manson-collapses-onstage-at-houston-show/">
+									<div class="feat-widget-img left relative">
+						<img width="300" height="180" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-type="image" data-lazy-src="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/marilynmanson-300x180.png" class="lazy lazy-hidden reg-img wp-post-image" alt="" data-lazy-srcset="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/marilynmanson-300x180.png 300w, https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/marilynmanson-450x270.png 450w" data-lazy-sizes="(max-width: 300px) 100vw, 300px" /><noscript><img width="300" height="180" src="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/marilynmanson-300x180.png" class="reg-img wp-post-image" alt="" srcset="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/marilynmanson-300x180.png 300w, https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/marilynmanson-450x270.png 450w" sizes="(max-width: 300px) 100vw, 300px" /></noscript>						<img width="80" height="80" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-type="image" data-lazy-src="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/marilynmanson-80x80.png" class="lazy lazy-hidden mob-img wp-post-image" alt="" data-lazy-srcset="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/marilynmanson-80x80.png 80w, https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/marilynmanson-150x150.png 150w" data-lazy-sizes="(max-width: 80px) 100vw, 80px" /><noscript><img width="80" height="80" src="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/marilynmanson-80x80.png" class="mob-img wp-post-image" alt="" srcset="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/marilynmanson-80x80.png 80w, https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/marilynmanson-150x150.png 150w" sizes="(max-width: 80px) 100vw, 80px" /></noscript>													<div class="feat-info-wrap">
+								<div class="feat-info-views">
+									<i class="fa fa-eye fa-2"></i> <span class="feat-info-text">309</span>
+								</div><!--feat-info-views-->
+															</div><!--feat-info-wrap-->
+																	</div><!--feat-widget-img-->
+								<div class="feat-widget-text">
+					<span class="side-list-cat">Music</span>
+					<h2>Marilyn Manson Collapses Onstage at Houston Show</h2>
+				</div><!--feat-widget-text-->
+				</a>
+			</div><!--feat-widget-wrap-->
+					<div class="feat-widget-wrap left relative">
+				<a href="https://x96.com/news/panic-at-the-disco-vma-mystery-solved/">
+									<div class="feat-widget-img left relative">
+						<img width="300" height="180" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-type="image" data-lazy-src="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/panicatthedisco-300x180.png" class="lazy lazy-hidden reg-img wp-post-image" alt="" data-lazy-srcset="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/panicatthedisco-300x180.png 300w, https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/panicatthedisco-450x270.png 450w" data-lazy-sizes="(max-width: 300px) 100vw, 300px" /><noscript><img width="300" height="180" src="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/panicatthedisco-300x180.png" class="reg-img wp-post-image" alt="" srcset="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/panicatthedisco-300x180.png 300w, https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/panicatthedisco-450x270.png 450w" sizes="(max-width: 300px) 100vw, 300px" /></noscript>						<img width="80" height="80" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-type="image" data-lazy-src="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/panicatthedisco-80x80.png" class="lazy lazy-hidden mob-img wp-post-image" alt="" data-lazy-srcset="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/panicatthedisco-80x80.png 80w, https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/panicatthedisco-150x150.png 150w" data-lazy-sizes="(max-width: 80px) 100vw, 80px" /><noscript><img width="80" height="80" src="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/panicatthedisco-80x80.png" class="mob-img wp-post-image" alt="" srcset="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/panicatthedisco-80x80.png 80w, https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/panicatthedisco-150x150.png 150w" sizes="(max-width: 80px) 100vw, 80px" /></noscript>													<div class="feat-info-wrap">
+								<div class="feat-info-views">
+									<i class="fa fa-eye fa-2"></i> <span class="feat-info-text">287</span>
+								</div><!--feat-info-views-->
+															</div><!--feat-info-wrap-->
+																	</div><!--feat-widget-img-->
+								<div class="feat-widget-text">
+					<span class="side-list-cat">Music</span>
+					<h2>Panic! At The Disco VMA Mystery Solved</h2>
+				</div><!--feat-widget-text-->
+				</a>
+			</div><!--feat-widget-wrap-->
+					<div class="feat-widget-wrap left relative">
+				<a href="https://x96.com/life/this-will-make-you-think-twice-about-casual-vacation-sex/">
+									<div class="feat-widget-img left relative">
+						<img width="300" height="180" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-type="image" data-lazy-src="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/vacationsex-300x180.png" class="lazy lazy-hidden reg-img wp-post-image" alt="" data-lazy-srcset="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/vacationsex-300x180.png 300w, https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/vacationsex-450x270.png 450w" data-lazy-sizes="(max-width: 300px) 100vw, 300px" /><noscript><img width="300" height="180" src="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/vacationsex-300x180.png" class="reg-img wp-post-image" alt="" srcset="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/vacationsex-300x180.png 300w, https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/vacationsex-450x270.png 450w" sizes="(max-width: 300px) 100vw, 300px" /></noscript>						<img width="80" height="80" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-type="image" data-lazy-src="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/vacationsex-80x80.png" class="lazy lazy-hidden mob-img wp-post-image" alt="" data-lazy-srcset="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/vacationsex-80x80.png 80w, https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/vacationsex-150x150.png 150w" data-lazy-sizes="(max-width: 80px) 100vw, 80px" /><noscript><img width="80" height="80" src="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/vacationsex-80x80.png" class="mob-img wp-post-image" alt="" srcset="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/vacationsex-80x80.png 80w, https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/vacationsex-150x150.png 150w" sizes="(max-width: 80px) 100vw, 80px" /></noscript>													<div class="feat-info-wrap">
+								<div class="feat-info-views">
+									<i class="fa fa-eye fa-2"></i> <span class="feat-info-text">273</span>
+								</div><!--feat-info-views-->
+															</div><!--feat-info-wrap-->
+																	</div><!--feat-widget-img-->
+								<div class="feat-widget-text">
+					<span class="side-list-cat">Life</span>
+					<h2>This Will Make You Think Twice About Casual Vacation Sex</h2>
+				</div><!--feat-widget-text-->
+				</a>
+			</div><!--feat-widget-wrap-->
+					<div class="feat-widget-wrap left relative">
+				<a href="https://x96.com/news/what-happened-after-marilyn-manson-collapsed-on-stage/">
+									<div class="feat-widget-img left relative">
+						<img width="300" height="180" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-type="image" data-lazy-src="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/marilynmanson-1-300x180.png" class="lazy lazy-hidden reg-img wp-post-image" alt="" data-lazy-srcset="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/marilynmanson-1-300x180.png 300w, https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/marilynmanson-1-450x270.png 450w" data-lazy-sizes="(max-width: 300px) 100vw, 300px" /><noscript><img width="300" height="180" src="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/marilynmanson-1-300x180.png" class="reg-img wp-post-image" alt="" srcset="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/marilynmanson-1-300x180.png 300w, https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/marilynmanson-1-450x270.png 450w" sizes="(max-width: 300px) 100vw, 300px" /></noscript>						<img width="80" height="80" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-type="image" data-lazy-src="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/marilynmanson-1-80x80.png" class="lazy lazy-hidden mob-img wp-post-image" alt="" data-lazy-srcset="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/marilynmanson-1-80x80.png 80w, https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/marilynmanson-1-150x150.png 150w" data-lazy-sizes="(max-width: 80px) 100vw, 80px" /><noscript><img width="80" height="80" src="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/marilynmanson-1-80x80.png" class="mob-img wp-post-image" alt="" srcset="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/marilynmanson-1-80x80.png 80w, https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/marilynmanson-1-150x150.png 150w" sizes="(max-width: 80px) 100vw, 80px" /></noscript>													<div class="feat-info-wrap">
+								<div class="feat-info-views">
+									<i class="fa fa-eye fa-2"></i> <span class="feat-info-text">256</span>
+								</div><!--feat-info-views-->
+															</div><!--feat-info-wrap-->
+																	</div><!--feat-widget-img-->
+								<div class="feat-widget-text">
+					<span class="side-list-cat">Music</span>
+					<h2>What Happened After Marilyn Manson Collapsed On-Stage?</h2>
+				</div><!--feat-widget-text-->
+				</a>
+			</div><!--feat-widget-wrap-->
+					<div class="feat-widget-wrap left relative">
+				<a href="https://x96.com/life/coconut-oil-is-pure-poison/">
+									<div class="feat-widget-img left relative">
+						<img width="300" height="180" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-type="image" data-lazy-src="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/coconut-300x180.png" class="lazy lazy-hidden reg-img wp-post-image" alt="" data-lazy-srcset="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/coconut-300x180.png 300w, https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/coconut-450x270.png 450w" data-lazy-sizes="(max-width: 300px) 100vw, 300px" /><noscript><img width="300" height="180" src="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/coconut-300x180.png" class="reg-img wp-post-image" alt="" srcset="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/coconut-300x180.png 300w, https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/coconut-450x270.png 450w" sizes="(max-width: 300px) 100vw, 300px" /></noscript>						<img width="80" height="80" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-type="image" data-lazy-src="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/coconut-80x80.png" class="lazy lazy-hidden mob-img wp-post-image" alt="" data-lazy-srcset="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/coconut-80x80.png 80w, https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/coconut-150x150.png 150w" data-lazy-sizes="(max-width: 80px) 100vw, 80px" /><noscript><img width="80" height="80" src="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/coconut-80x80.png" class="mob-img wp-post-image" alt="" srcset="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/coconut-80x80.png 80w, https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/coconut-150x150.png 150w" sizes="(max-width: 80px) 100vw, 80px" /></noscript>													<div class="feat-info-wrap">
+								<div class="feat-info-views">
+									<i class="fa fa-eye fa-2"></i> <span class="feat-info-text">237</span>
+								</div><!--feat-info-views-->
+															</div><!--feat-info-wrap-->
+																	</div><!--feat-widget-img-->
+								<div class="feat-widget-text">
+					<span class="side-list-cat">Life</span>
+					<h2>Coconut Oil Is “Pure Poison”</h2>
+				</div><!--feat-widget-text-->
+				</a>
+			</div><!--feat-widget-wrap-->
+					<div class="feat-widget-wrap left relative">
+				<a href="https://x96.com/life/elba-says-no-to-bond/">
+									<div class="feat-widget-img left relative">
+						<img width="300" height="180" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-type="image" data-lazy-src="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/idriselba-300x180.png" class="lazy lazy-hidden reg-img wp-post-image" alt="" data-lazy-srcset="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/idriselba-300x180.png 300w, https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/idriselba-450x270.png 450w" data-lazy-sizes="(max-width: 300px) 100vw, 300px" /><noscript><img width="300" height="180" src="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/idriselba-300x180.png" class="reg-img wp-post-image" alt="" srcset="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/idriselba-300x180.png 300w, https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/idriselba-450x270.png 450w" sizes="(max-width: 300px) 100vw, 300px" /></noscript>						<img width="80" height="80" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-type="image" data-lazy-src="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/idriselba-80x80.png" class="lazy lazy-hidden mob-img wp-post-image" alt="" data-lazy-srcset="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/idriselba-80x80.png 80w, https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/idriselba-150x150.png 150w" data-lazy-sizes="(max-width: 80px) 100vw, 80px" /><noscript><img width="80" height="80" src="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/idriselba-80x80.png" class="mob-img wp-post-image" alt="" srcset="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/idriselba-80x80.png 80w, https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/idriselba-150x150.png 150w" sizes="(max-width: 80px) 100vw, 80px" /></noscript>													<div class="feat-info-wrap">
+								<div class="feat-info-views">
+									<i class="fa fa-eye fa-2"></i> <span class="feat-info-text">227</span>
+								</div><!--feat-info-views-->
+															</div><!--feat-info-wrap-->
+																	</div><!--feat-widget-img-->
+								<div class="feat-widget-text">
+					<span class="side-list-cat">Life</span>
+					<h2>Elba Says “No” to Bond</h2>
+				</div><!--feat-widget-text-->
+				</a>
+			</div><!--feat-widget-wrap-->
+					<div class="feat-widget-wrap left relative">
+				<a href="https://x96.com/life/the-asia-argento-story-gets-stranger/">
+									<div class="feat-widget-img left relative">
+						<img width="300" height="180" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-type="image" data-lazy-src="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/asiaargento-300x180.png" class="lazy lazy-hidden reg-img wp-post-image" alt="" data-lazy-srcset="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/asiaargento-300x180.png 300w, https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/asiaargento-450x270.png 450w" data-lazy-sizes="(max-width: 300px) 100vw, 300px" /><noscript><img width="300" height="180" src="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/asiaargento-300x180.png" class="reg-img wp-post-image" alt="" srcset="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/asiaargento-300x180.png 300w, https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/asiaargento-450x270.png 450w" sizes="(max-width: 300px) 100vw, 300px" /></noscript>						<img width="80" height="80" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-type="image" data-lazy-src="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/asiaargento-80x80.png" class="lazy lazy-hidden mob-img wp-post-image" alt="" data-lazy-srcset="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/asiaargento-80x80.png 80w, https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/asiaargento-150x150.png 150w" data-lazy-sizes="(max-width: 80px) 100vw, 80px" /><noscript><img width="80" height="80" src="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/asiaargento-80x80.png" class="mob-img wp-post-image" alt="" srcset="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/asiaargento-80x80.png 80w, https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/asiaargento-150x150.png 150w" sizes="(max-width: 80px) 100vw, 80px" /></noscript>													<div class="feat-info-wrap">
+								<div class="feat-info-views">
+									<i class="fa fa-eye fa-2"></i> <span class="feat-info-text">226</span>
+								</div><!--feat-info-views-->
+															</div><!--feat-info-wrap-->
+																	</div><!--feat-widget-img-->
+								<div class="feat-widget-text">
+					<span class="side-list-cat">Life</span>
+					<h2>The Asia Argento Story Gets Stranger</h2>
+				</div><!--feat-widget-text-->
+				</a>
+			</div><!--feat-widget-wrap-->
+			</div><!--feat-widget-cont-->
+</div><!--side-pop-wrap-->					</div><!--home-right-col-->
+	</div><!--home-wrap-out1-->
+</div><!--home-main-wrap-->
+											</div><!--body-main-cont-->
+				</div><!--body-main-in-->
+			</div><!--body-main-out-->
+			<footer id="foot-wrap" class="left relative">
+				<div id="foot-top-wrap" class="left relative">
+					<!--BROADWAY UPDATE
+					<div class="body-main-out relative">
+						<div class="body-main-in">
+							<div id="foot-widget-wrap" class="left relative">
+																							</div><!--foot-widget-wrap--*>
+						</div><!--body-main-in--*>
+					</div>
+					END BROADWAY UPDATE-->
+					<!--body-main-out-->
+				</div><!--foot-top-->
+				<div id="foot-bot-wrap" class="left relative">
+					<div class="body-main-out relative">
+						<div class="body-main-in">
+							<div id="foot-bot" class="left relative">
+								<div class="foot-menu relative">
+									<div class="menu-footer-container"><ul id="menu-footer" class="menu"><li id="menu-item-27805" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-27805"><a href="https://x96.com/terms-conditions/">Terms &#038; Conditions</a></li>
+<li id="menu-item-27796" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-27796"><a href="https://x96.com/copyright-policy/">Copyright Policy</a></li>
+<li id="menu-item-27799" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-27799"><a href="https://x96.com/eeo-report/">EEO Report</a></li>
+<li id="menu-item-27802" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-27802"><a href="https://x96.com/privacy-policy/">Privacy Policy</a></li>
+<li id="menu-item-27955" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-27955"><a href="https://x96.com/contest-rules/">Contest Rules</a></li>
+<li id="menu-item-28039" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-28039"><a href="https://x96.com/contact/">Contact X96</a></li>
+<li id="menu-item-96116" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-96116"><a href="https://x96.com/jobs/">Jobs</a></li>
+</ul></div>								</div><!--foot-menu-->
+								<div class="foot-copy relative">
+									<p>Copyright © 2017 Broadway Media <br>
+Built by <a href="http://realmediaslc.com" target="_blank">Real Media SLC</a>.</p>
+								</div><!--foot-copy-->
+							</div><!--foot-bot-->
+						</div><!--body-main-in-->
+					</div><!--body-main-out-->
+				</div><!--foot-bot-->
+			</footer>
+		</div><!--body-main-wrap-->
+	</div><!--site-wrap-->
+</div><!--site-->
+<div class="fly-to-top back-to-top">
+	<i class="fa fa-angle-up fa-3"></i>
+	<span class="to-top-text">To Top</span>
+</div><!--fly-to-top-->
+<div class="fly-fade">
+</div><!--fly-fade-->
+		<div data-theiaStickySidebar-sidebarSelector='"#post-sidebar-wrap, #sidebar-wrap"'
+		     data-theiaStickySidebar-options='{"containerSelector":"#content-main, #home-main-wrap","additionalMarginTop":80,"additionalMarginBottom":0,"updateSidebarHeight":false,"minWidth":0,"sidebarBehavior":"modern","disableOnResponsiveLayouts":true}'></div>
+		<div id="wps-bt-background-takeover-id" data-background-takeover-id="72"></div>
+<script type="text/javascript">
+jQuery(document).ready(function($) {
+
+	// Back to Top Button
+    	var duration = 500;
+    	$('.back-to-top').click(function(event) {
+          event.preventDefault();
+          $('html, body').animate({scrollTop: 0}, duration);
+          return false;
+	});
+
+	// Main Menu Dropdown Toggle
+	$('.menu-item-has-children a').click(function(event){
+	  event.stopPropagation();
+	  location.href = this.href;
+  	});
+
+	$('.menu-item-has-children').click(function(){
+    	  $(this).addClass('toggled');
+    	  if($('.menu-item-has-children').hasClass('toggled'))
+    	  {
+    	  $(this).children('ul').toggle();
+	  $('.fly-nav-menu').getNiceScroll().resize();
+	  }
+	  $(this).toggleClass('tog-minus');
+    	  return false;
+  	});
+
+	// Main Menu Scroll
+	$(window).load(function(){
+	  $('.fly-nav-menu').niceScroll({cursorcolor:"#888",cursorwidth: 7,cursorborder: 0,zindex:999999});
+	});
+
+
+	// Infinite Scroll
+	$('.infinite-content').infinitescroll({
+	  navSelector: ".nav-links",
+	  nextSelector: ".nav-links a:first",
+	  itemSelector: ".infinite-post",
+	  loading: {
+		msgText: "Loading more posts...",
+		finishedMsg: "Sorry, no more posts"
+	  },
+	  errorCallback: function(){ $(".inf-more-but").css("display", "none") }
+	});
+	$(window).unbind('.infscr');
+	$(".inf-more-but").click(function(){
+   		$('.infinite-content').infinitescroll('retrieve');
+        	return false;
+	});
+	$(window).load(function(){
+		if ($('.nav-links a').length) {
+			$('.inf-more-but').css('display','inline-block');
+		} else {
+			$('.inf-more-but').css('display','none');
+		}
+	});
+
+$(window).load(function() {
+  // The slider being synced must be initialized first
+  $('.post-gallery-bot').flexslider({
+    animation: "slide",
+    controlNav: false,
+    animationLoop: true,
+    slideshow: false,
+    itemWidth: 80,
+    itemMargin: 10,
+    asNavFor: '.post-gallery-top'
+  });
+
+  $('.post-gallery-top').flexslider({
+    animation: "fade",
+    controlNav: false,
+    animationLoop: true,
+    slideshow: false,
+    	  prevText: "&lt;",
+          nextText: "&gt;",
+    sync: ".post-gallery-bot"
+  });
+});
+
+});
+
+</script>
+
+<script>window._popup_data = {"ajaxurl":"","do":"get_data","ajax_data":{"request_uri":"\/"}};</script>			<script type="text/javascript">
+				function revslider_showDoubleJqueryError(sliderID) {
+					var errorMessage = "Revolution Slider Error: You have some jquery.js library include that comes after the revolution files js include.";
+					errorMessage += "<br> This includes make eliminates the revolution slider libraries, and make it not work.";
+					errorMessage += "<br><br> To fix it you can:<br>&nbsp;&nbsp;&nbsp; 1. In the Slider Settings -> Troubleshooting set option:  <strong><b>Put JS Includes To Body</b></strong> option to true.";
+					errorMessage += "<br>&nbsp;&nbsp;&nbsp; 2. Find the double jquery.js include and remove it.";
+					errorMessage = "<span style='font-size:16px;color:#BC0C06;'>" + errorMessage + "</span>";
+						jQuery(sliderID).show().html(errorMessage);
+				}
+			</script>
+			<script type='text/javascript' src='https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-includes/js/jquery/ui/core.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-includes/js/comment-reply.js?ver=4.9.8'></script>
+<script type='text/javascript' src='https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/plugins/appbanners/lib/smartbanner/jquery.smartbanner.min.js?ver=4.9.8'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var appBannersConfig = {"title":"X96","author":"Broadway Media","price":"Free","appStoreLanguage":"US","inAppStore":"On the App Store","inGooglePlay":"In Google Play","inAmazonAppStore":"In the Amazon Appstore","inWindowsStore":"In the Windows Store","GooglePlayParams":null,"icon":"https:\/\/is5-ssl.mzstatic.com\/image\/thumb\/Purple3\/v4\/0a\/2c\/a1\/0a2ca15e-c4af-51a3-f621-b5bbae76e893\/mzl.ohuzqlqy.png\/340x340bb-80.png","iconGloss":"","url":"","button":"Download","scale":"auto","speedIn":"300","speedOut":"400","daysHidden":"0","daysReminder":"0","force":null,"hideOnInstall":"1","layer":"","iOSUniversalApp":"1","appendToSelector":"body","printViewPort":"1","pushSelector":"html"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/plugins/appbanners/js/config.min.js?ver=4.9.8'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wpcf7 = {"apiSettings":{"root":"https:\/\/x96.com\/wp-json\/contact-form-7\/v1","namespace":"contact-form-7\/v1"},"recaptcha":{"messages":{"empty":"Please verify that you are not a robot."}},"cached":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=5.0.2'></script>
+<script type='text/javascript' src='https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/plugins/theia-sticky-sidebar/js/theia-sticky-sidebar.js?ver=1.6.3'></script>
+<script type='text/javascript' src='https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/plugins/theia-sticky-sidebar/js/main.js?ver=1.6.3'></script>
+<script type='text/javascript' src='https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/themes/flex-mag/js/scripts.js?ver=4.9.8'></script>
+<script type='text/javascript' src='https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/themes/flex-mag/js/jquery.infinitescroll.min.js?ver=4.9.8'></script>
+<script type='text/javascript' src='https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/themes/flex-mag/js/retina.js?ver=4.9.8'></script>
+<script type='text/javascript' src='https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/plugins/wpeventplus/assets/js/excanvas.js?ver=1.0.0'></script>
+<script type='text/javascript' src='https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/plugins/wpeventplus/assets/js/jquery.knob.min.js?ver=1.0.0'></script>
+<script type='text/javascript' src='https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/plugins/wpeventplus/assets/js/jquery.ba-throttle-debounce.min.js?ver=1.0.0'></script>
+<script type='text/javascript' src='https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/plugins/wpeventplus/assets/js/jquery.redcountdown.min.js?ver=1.0.0'></script>
+<script type='text/javascript' src='https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/plugins/wpeventplus/assets/front/evrplus_public_script.js?ver=1535365889'></script>
+<script type='text/javascript' src='https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/plugins/wpeventplus/assets/scripts/fancybox/jquery.easing-1.3.pack.js?ver=1.0.0'></script>
+<script type='text/javascript' src='https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/plugins/wpeventplus/assets/scripts/fancybox/jquery.mousewheel-3.0.4.pack.js?ver=1.0.0'></script>
+<script type='text/javascript' src='https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/plugins/bj-lazy-load/js/bj-lazy-load.min.js?ver=2'></script>
+<script type='text/javascript' src='https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/plugins/popover/inc/external/wpmu-lib/js/wpmu-ui.3.min.js?ver=4.9.8'></script>
+<script type='text/javascript' src='https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/plugins/popover/js/public.min.js?ver=4.9.8'></script>
+<script type='text/javascript' src='https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-includes/js/wp-embed.js?ver=4.9.8'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wpsite_clickable_data = {"prefix_dash":"wps-bt-","ajaxurl":"https:\/\/x96.com\/wp-admin\/admin-ajax.php","link_left":"http:\/\/www.ticketfly.com\/event\/1733381-x96-toyota-big-ass-show-salt-lake-city\/","link_right":"http:\/\/www.ticketfly.com\/event\/1733381-x96-toyota-big-ass-show-salt-lake-city\/","link_both":"","link_option":"0","link_url_left_target":"_blank","link_url_right_target":"_blank","dom_element":"#wallpaper"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/plugins/wpsite-background-takeover/js/wpsite_clickable.js?ver=4.9.8'></script>
+<script type="text/javascript" class="_tgmp_p">
+function onTuneGenieMediaPlayerLoaded() {
+    window.tgmp=new TuneGenieMediaPlayer('playerbar', {
+        brand: "kxrk",
+    });
+    tgmp.go();
+    window.tgmp_rc = new TuneGenieRC(tgmp);
+    tgmp_rc.recentSongWidget(document.getElementById('tgrecent'),{});
+    tgmp_rc.nowPlayingWidget(document.getElementById('tgnowplaying'),{});
+}
+</script>
+<script type="text/javascript"  class="_tgmp_p" async src="//mpl.tunegenie.com/js/loader2.min.js"></script>
+<!-- Google Code for Remarketing Tag -->
+<!--------------------------------------------------
+Remarketing tags may not be associated with personally identifiable information or placed on pages related to sensitive categories. See more information and instructions on how to setup the tag on: http://google.com/ads/remarketingsetup --------------------------------------------------->
+<script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = 971886214;
+var google_custom_params = window.google_tag_params;
+var google_remarketing_only = true;
+/* ]]> */
+</script>
+<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+</script>
+<noscript>
+<div style="display:inline;">
+<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/971886214/?value=0&amp;guid=ON&amp;script=0"/>
+</div>
+</noscript>
+</body>
+</html>

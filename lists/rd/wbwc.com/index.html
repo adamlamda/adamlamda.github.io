@@ -1,0 +1,4491 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html prefix="og: http://ogp.me/ns#" xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+	  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="robots" content="index, follow" />
+  <meta name="keywords" content="WBWC, wbwc, 88.3, 883, 88.3fm, 883fm, BW, baldwin-wallace, baldwin, wallace, university, radio, berea, ohio, oh, b-w, the sting, sting, dj, radio station, music, news, baldwin wallace, baldwin wallace sports, free, streaming, listen, musician, real, friends, people, facebook, twitter, rock bands, rock, pop, genres, cleveland's modern rock alternative" />
+  <meta name="description" content="" />
+  <meta name="generator" content="Joomla! 1.5 - Open Source Content Management" />
+  <title>WBWC 88.3FM The Sting</title>
+  <link href="/index.php?format=feed&amp;type=rss" rel="alternate" type="application/rss+xml" title="RSS 2.0" />
+  <link href="/index.php?format=feed&amp;type=atom" rel="alternate" type="application/atom+xml" title="Atom 1.0" />
+  <link href="/templates/rt_hivemind_j15/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+  <link rel="stylesheet" href="/components/com_k2/css/k2.css" type="text/css" />
+  <style type="text/css">
+    <!--
+div#poll_loading_1 {
+	background: url(media/system/images/mootree_loader.gif) 0% 50% no-repeat;
+	width:100%;
+	height:20px; 
+	padding: 4px 0 0 20px; 
+}
+
+    -->
+  </style>
+  <script type="text/javascript" src="/plugins/system/mtupgrade/mootools.js"></script>
+  <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+  <script type="text/javascript" src="/components/com_k2/js/k2.js?v2.6.8&amp;sitepath=/"></script>
+  <script type="text/javascript" src="/media/system/js/caption.js"></script>
+  <script type="text/javascript" src="/plugins/content/phocagalleryslideshow.js"></script>
+  <script type="text/javascript">
+
+/* <![CDATA[ */
+window.addEvent('domready', function()
+    {
+		$('poll_vote_1').addEvent('submit', function(e) {
+				// Prevent the submit event
+			    new Event(e).stop();
+
+				var options = $('poll_vote_1').getElements('input[name=voteid]');
+
+				var nothing_selected = 1;				
+				options.each(function(item, index){
+					if(item.checked==1) {nothing_selected = 0;}
+				});							
+				if (nothing_selected) {
+					alert('Please select an option');
+					return false;
+				} else {
+
+						$('submit_vote_1').disabled = 1;
+						$('poll_loading_1').setStyle('display','');
+
+						// Update the page
+						this.send({ 
+						onComplete: function(response, responseXML) 
+						{
+							// get the XML nodes
+							var root   = responseXML.documentElement;
+							var options   = root.getElementsByTagName('option');
+							var text   = root.getElementsByTagName('text');
+							//var percentages  = root.getElementsByTagName('percentages');
+							var voters   = root.getElementsByTagName('voters');
+							
+							// prepare the XHTML
+							var updateValue = '<div style="width:100%"><div style="padding: 3px;">' + text.item(0).firstChild.nodeValue + ' - ' + options.item(0).attributes[1].nodeValue + '%</div><div class="poll_module_bar_holder" id="poll_module_bar_holder0"  style="width: 100%; height: 10px; padding:1px; border:1px solid #cccccc;"><div id="poll_module_bar'+options.item(0).attributes[0].nodeValue+'" style="background:#' + options.item(0).attributes[3].nodeValue + '; width:' + options.item(0).attributes[1].nodeValue + '%; height:10px;"></div></div></div><div style="width:100%"><div style="padding: 3px;">' + text.item(1).firstChild.nodeValue + ' - ' + options.item(1).attributes[1].nodeValue + '%</div><div class="poll_module_bar_holder" id="poll_module_bar_holder1"  style="width: 100%; height: 10px; padding:1px; border:1px solid #cccccc;"><div id="poll_module_bar'+options.item(1).attributes[0].nodeValue+'" style="background:#' + options.item(1).attributes[3].nodeValue + '; width:' + options.item(1).attributes[1].nodeValue + '%; height:10px;"></div></div></div><div style="width:100%"><div style="padding: 3px;">' + text.item(2).firstChild.nodeValue + ' - ' + options.item(2).attributes[1].nodeValue + '%</div><div class="poll_module_bar_holder" id="poll_module_bar_holder2"  style="width: 100%; height: 10px; padding:1px; border:1px solid #cccccc;"><div id="poll_module_bar'+options.item(2).attributes[0].nodeValue+'" style="background:#' + options.item(2).attributes[3].nodeValue + '; width:' + options.item(2).attributes[1].nodeValue + '%; height:10px;"></div></div></div><div style="width:100%"><div style="padding: 3px;">' + text.item(3).firstChild.nodeValue + ' - ' + options.item(3).attributes[1].nodeValue + '%</div><div class="poll_module_bar_holder" id="poll_module_bar_holder3"  style="width: 100%; height: 10px; padding:1px; border:1px solid #cccccc;"><div id="poll_module_bar'+options.item(3).attributes[0].nodeValue+'" style="background:#' + options.item(3).attributes[3].nodeValue + '; width:' + options.item(3).attributes[1].nodeValue + '%; height:10px;"></div></div></div><br /><b>Total votes</b>: ' + voters.item(0).firstChild.nodeValue + '';
+								
+							// update the page element 'update'
+							//$('polldiv_1').removeClass('ajax-loading');
+							$('polldiv_1').empty().setHTML(updateValue);
+                            var pollSlide = new Fx.Slide('poll_comp_form');
+                        	pollSlide.slideOut();
+						}});
+				}
+        });  
+    });/* ]]> */
+  </script>
+
+	
+<link rel="shortcut icon" href="/images/favicon.ico" />
+<link href="/templates/rt_hivemind_j15/css/rokmoomenu.css" rel="stylesheet" type="text/css" />
+<link href="/templates/rt_hivemind_j15/css/sifr-screen.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="/templates/system/css/general.css" type="text/css" />
+<link href="/templates/rt_hivemind_j15/css/template.css" rel="stylesheet" type="text/css" />
+<link href="/templates/rt_hivemind_j15/css/dark.css" rel="stylesheet" type="text/css" />
+<link href="/templates/rt_hivemind_j15/css/menustyle1-dark.css" rel="stylesheet" type="text/css" />
+<link href="/templates/rt_hivemind_j15/rokzoom/rokzoom.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+	div.wrapper { margin: 0 auto; width: 1200px;px;padding:0;}
+	/* clear fixes for pure css layout */
+	    #maincol {float: left; margin-right: -350px; width: 100%;}
+    #maincol-container {margin-right:350px;}
+    #sidecol {float: right; width: 350px;}
+    </style>	
+<script type="text/javascript" src="/templates/rt_hivemind_j15/js/mootools-release-1.11.js"></script>
+<script type="text/javascript" src="/templates/rt_hivemind_j15/rokzoom/rokzoom.js"></script>
+<script type="text/javascript" src="/templates/rt_hivemind_j15/sifr/sifr.js"></script> 
+<script type="text/javascript" src="/templates/rt_hivemind_j15/js/rokfonts.js"></script>   
+<script type="text/javascript">
+	window.addEvent('load', function() {
+		var modules = ['module','module-menu','module-color1','module-color2','module-color3','module-color4','module-style1','module-style1-color1','module-style1-color2','module-style1-color3','module-style1-color4','module-style2','module-style2-color1','module-style2-color2','module-style2-color3','module-style2-color4'];
+		var header = "h3";
+				RokStart(modules, header, "/templates/rt_hivemind_j15/sifr/walkway.swf", {sifr: {sWmode: 'transparent'}});
+	    	});
+</script>
+	
+<!--[if IE]>
+<script type="text/javascript" src="/templates/rt_hivemind_j15/js/ie_suckerfish.js"></script>
+<![endif]-->
+	
+<script type="text/javascript">
+	window.addEvent('load', function() {
+		RokZoom.init({
+			imageDir: '/templates/rt_hivemind_j15/rokzoom/images/',
+			resizeFX: {
+				duration: 700,
+				transition: Fx.Transitions.Cubic.easeOut,
+				wait: true
+			},
+			opacityFX: {
+				duration: 500,
+				wait: false	
+			}
+		});
+	});
+</script>
+	</head>
+	<body id="ff-optima" class="f-default dark">
+		<!-- begin wrapper -->
+		<div class="wrapper">
+			<!-- begin top section -->
+			<div id="top" style="text-align:center;">
+				<iframe
+                                style="width:540px; height:40px; border:none;"
+                                src="http://share.yes.com/Yd926e63f9f67651adfb9d1375efef145cc3d323e">
+                                </iframe>
+									
+			</div>
+			<!-- end top section -->
+			<!-- begin mainbody -->
+			<div id="mainbody-top">
+				<div id="mainbody-top2">
+					<div id="mainbody-top3">
+					</div>
+				</div>
+			</div>
+			<div id="mainbody">
+				<!-- begin header -->
+				<div id="header">
+					<a href="/" class="nounder"> <img src="/images/logosting.jpg" "border="0" alt="" id="logo"/></a>
+					<div id="horiz-menu" class="suckerfish menustyle1">
+						<div id="horiz-menu2">
+															<ul class="menutop"><li id="current" class="parent active item1"><a href="http://wbwc.com/" class="topdaddy"><span>Home</span></a></li><li class="parent item19"><a href="/index.php?option=com_content&amp;view=category&amp;layout=blog&amp;id=1&amp;Itemid=19" class="topdaddy"><span>News</span></a><ul><li class="item22"><a href="/index.php?option=com_newsfeeds&amp;view=newsfeed&amp;id=1&amp;Itemid=22"><span>AP News</span></a></li></ul></li><li class="parent item2"><a href="/index.php?option=com_content&amp;view=section&amp;id=2&amp;Itemid=2" class="topdaddy"><span>Shows</span></a><ul><li class="item34"><a href="/index.php?option=com_content&amp;view=article&amp;id=180&amp;Itemid=34"><span>DJs</span></a></li><li class="item4"><a href="/index.php?option=com_weblinks&amp;view=category&amp;id=34&amp;Itemid=4"><span>Public Service Programs</span></a></li><li class="item5"><a href="/index.php?option=com_content&amp;view=category&amp;layout=blog&amp;id=5&amp;Itemid=5"><span>Acoustic Cafe</span></a></li><li class="item6"><a href="/index.php?option=com_content&amp;view=category&amp;layout=blog&amp;id=7&amp;Itemid=6"><span>Golden Age of Rock and Roll</span></a></li><li class="item8"><a href="/index.php?option=com_content&amp;view=category&amp;layout=blog&amp;id=9&amp;Itemid=8"><span>Island Time</span></a></li><li class="item9"><a href="/index.php?option=com_content&amp;view=category&amp;layout=blog&amp;id=10&amp;Itemid=9"><span>SportsPulse</span></a></li><li class="item14"><a href="/index.php?option=com_content&amp;view=category&amp;layout=blog&amp;id=13&amp;Itemid=14"><span>The Top 5 @ 5</span></a></li><li class="item15"><a href="/index.php?option=com_content&amp;view=category&amp;layout=blog&amp;id=14&amp;Itemid=15"><span>The Metal Command</span></a></li><li class="item16"><a href="/index.php?option=com_content&amp;view=category&amp;layout=blog&amp;id=15&amp;Itemid=16"><span>Sound of the Underground</span></a></li><li class="item18"><a href="/index.php?option=com_content&amp;view=category&amp;layout=blog&amp;id=4&amp;Itemid=18"><span>Running Late</span></a></li><li class="item69"><a href="/index.php?option=com_content&amp;view=category&amp;layout=blog&amp;id=46&amp;Itemid=69"><span>Country Back Roads</span></a></li></ul></li><li class="parent item23"><a href="/index.php?option=com_content&amp;view=article&amp;id=163&amp;Itemid=23" class="topdaddy"><span>About</span></a><ul><li class="item24"><a href="/index.php?option=com_content&amp;view=article&amp;id=164&amp;Itemid=24"><span>Board of Directors</span></a></li><li class="item31"><a href="/index.php?option=com_content&amp;view=article&amp;id=163&amp;Itemid=31"><span>Who We Are</span></a></li><li class="item25"><a href="/index.php?option=com_content&amp;view=article&amp;id=165&amp;Itemid=25"><span>History</span></a></li><li class="item26"><a href="/index.php?option=com_content&amp;view=article&amp;id=166&amp;Itemid=26"><span>Purpose</span></a></li><li class="parent item28"><a href="/index.php?option=com_content&amp;view=article&amp;id=168&amp;Itemid=28" class="daddy"><span>Media</span></a><ul><li class="item30"><a href="/index.php?option=com_content&amp;view=category&amp;id=36&amp;Itemid=30"><span>Archived Audio</span></a></li><li class="item49"><a href="/index.php?option=com_phocagallery&amp;view=categories&amp;Itemid=49"><span>Photo Gallery</span></a></li></ul></li><li class="item71"><a href="/index.php?option=com_content&amp;view=category&amp;layout=blog&amp;id=47&amp;Itemid=71"><span>Giveaway Policy</span></a></li><li class="item73"><a href="/index.php?option=com_content&amp;view=article&amp;id=627&amp;Itemid=73"><span>WBWC Hall Of Fame</span></a></li></ul></li><li class="parent item29"><a href="/index.php?option=com_content&amp;view=article&amp;id=169&amp;Itemid=29" class="topdaddy"><span>Contact</span></a><ul><li class="item36"><a href="/index.php?option=com_content&amp;view=article&amp;id=169&amp;Itemid=36"><span>General Contact Info</span></a></li><li class="item27"><a href="/index.php?option=com_content&amp;view=article&amp;id=167&amp;Itemid=27"><span>Underwriting</span></a></li></ul></li></ul>								
+						</div>
+					</div>
+				</div>
+				<!-- end header -->
+								<div id="mainbody-padding">
+					<!-- begin maincolumn -->
+					<div id="maincol">
+					    <div id="maincol-container">
+	    					    						<div id="showcase">
+    									<div class="module">
+			<div>
+				<div>
+					<div>
+													<h3>Listen Live!</h3>
+											<!--Wavestreaming.com SHOUTcast Flash Player-->
+<mce:script mce_src="https://web.archive.org/web/20180617103949js_/http://player.wavestreamer.com/cgi-bin/swf.js?id=TQ5LXS87LV6SFE6Z" type="text/javascript"></mce:script>
+<mce:script mce_src="https://web.archive.org/web/20180617103949js_/http://player.wavestreaming.com/?id=TQ5LXS87LV6SFE6Z" type="text/javascript"></mce:script>
+<!--End Player-->
+<p>
+<iframe src="http://tunein.com/embed/player/s27671/" mce_src="http://tunein.com/embed/player/s27671/" style="width:100%;height:100px;" scrolling="no" frameborder="no"></iframe></p>					</div>
+				</div>
+			</div>
+		</div>
+			<div class="module">
+			<div>
+				<div>
+					<div>
+													<h3>The Sting Staff</h3>
+											
+<!-- JoomlaWorks "Simple Image Rotator" Module (v1.2) starts here -->
+<noscript>
+	<div class="message">Sorry, but Javascript is not enabled in your browser!</div>
+</noscript>
+<script language="javascript" type="text/javascript">
+<!--
+var embedSIRCSS = '<' + 'style type="text/css" media="all">'
++ '@import "modules/mod_jw_sir/mod_jw_sir/mod_jw_sir.css";'
++ 'ul#jw-sir,ul#jw-sir li#jw-sir-loading {width:480px;height:384px;}'
++ '</' + 'style>';
+document.write(embedSIRCSS);
+-->
+</script>
+<script type="text/javascript" src="/modules/mod_jw_sir/mod_jw_sir/mod_jw_sir.js"></script>
+<script type="text/javascript">var delay=5000;var transition=40;var preLoader='jw-sir-loading';</script>
+<ul id="jw-sir" class="">
+  <li id="jw-sir-loading"></li><li><img src="/images/slideshow/img_2739.jpg" title="The Sting Staff" alt="The Sting Staff" style="width:384px;height:480px;" /></li><li><img src="/images/slideshow/img_2731.jpg" title="The Sting Staff" alt="The Sting Staff" style="width:480px;height:384px;" /></li><li><img src="/images/slideshow/img_2728.jpg" title="The Sting Staff" alt="The Sting Staff" style="width:480px;height:384px;" /></li><li><img src="/images/slideshow/img_2732.jpg" title="The Sting Staff" alt="The Sting Staff" style="width:384px;height:480px;" /></li><li><img src="/images/slideshow/img_2727.jpg" title="The Sting Staff" alt="The Sting Staff" style="width:384px;height:480px;" /></li><li><img src="/images/slideshow/img_2724.jpg" title="The Sting Staff" alt="The Sting Staff" style="width:384px;height:480px;" /></li><li><img src="/images/slideshow/img_2741.jpg" title="The Sting Staff" alt="The Sting Staff" style="width:384px;height:480px;" /></li><li><img src="/images/slideshow/img_2725.jpg" title="The Sting Staff" alt="The Sting Staff" style="width:480px;height:384px;" /></li><li><img src="/images/slideshow/img_2736.jpg" title="The Sting Staff" alt="The Sting Staff" style="width:384px;height:480px;" /></li><li><img src="/images/slideshow/img_2729.jpg" title="The Sting Staff" alt="The Sting Staff" style="width:384px;height:480px;" /></li><li><img src="/images/slideshow/img_2733.jpg" title="The Sting Staff" alt="The Sting Staff" style="width:480px;height:384px;" /></li><li><img src="/images/slideshow/img_2726.jpg" title="The Sting Staff" alt="The Sting Staff" style="width:480px;height:384px;" /></li></ul>
+<!-- JoomlaWorks "Simple Image Rotator" Module (v1.2) ends here -->					</div>
+				</div>
+			</div>
+		</div>
+	
+    						</div>
+    						    						    						
+							<table class="blog" cellpadding="0" cellspacing="0">
+<tr>
+	<td valign="top">
+					<div>
+		
+<table class="contentpaneopen">
+<tr>
+		<td class="contentheading" width="100%">
+				<a href="/index.php?option=com_content&amp;view=article&amp;id=646:2018-summer-marathon-series" class="contentpagetitle">
+			2018 Summer Marathon Series</a>
+			</td>
+	
+	
+	
+		</tr>
+</table>
+<table class="contentpaneopen">
+
+<tr>
+	<td width="70%"  valign="top" colspan="2">
+		<span class="small">
+			Written by Double E		</span>
+		&nbsp;&nbsp;
+	</td>
+</tr>
+
+<tr>
+	<td valign="top" colspan="2" class="createdate">
+		Wednesday, 23 May 2018 06:36	</td>
+</tr>
+
+
+<tr>
+<td valign="top" colspan="2">
+<p><strong>May 10</strong> - Avicii<br /><strong>May 17 </strong>- Arctic Monkeys<br /><strong>May 24</strong> - Deadmau5<br /><strong>May 31</strong> - Mike Shinoda</p>
+<p><strong>June 7</strong> - Blondie<br /><strong>June 14</strong> - The Cars<br /><strong>June 21</strong> - The Killers<br /><strong>June 28</strong> - The Kinks</p>
+<p><strong>July 5</strong> - Tom Petty<br /><strong>July 12</strong> - Steely Dan<br /><strong>July 19</strong> - Jack White<br /><strong>July 26</strong> - Simple Minds</p>
+<p><strong>August 2</strong> - Counting Crows &amp; Live<br /><strong>August 9</strong> - The Beatles<br /><strong>August 16</strong> - Nickelback<br /><strong>August 23</strong> - Streetlight Manifesto<br /><strong>August 30</strong> - Paramore &amp; Foster the People</p>
+<p><strong><span style="text-decoration: underline;"><br /></span></strong></p></td>
+</tr>
+
+
+
+</table>
+<span class="article_separator">&nbsp;</span>
+		</div>
+		</td>
+</tr>
+
+<tr>
+	<td valign="top">
+		<table width="100%"  cellpadding="0" cellspacing="0">
+		<tr>
+										<td valign="top" width="50%" class="article_column">
+				
+<table class="contentpaneopen">
+<tr>
+		<td class="contentheading" width="100%">
+				<a href="/index.php?option=com_content&amp;view=article&amp;id=645:top-88-of-2017" class="contentpagetitle">
+			Top 88 of 2017!</a>
+			</td>
+	
+	
+	
+		</tr>
+</table>
+<table class="contentpaneopen">
+
+<tr>
+	<td width="70%"  valign="top" colspan="2">
+		<span class="small">
+			Written by Jordan Laird		</span>
+		&nbsp;&nbsp;
+	</td>
+</tr>
+
+<tr>
+	<td valign="top" colspan="2" class="createdate">
+		Tuesday, 23 January 2018 11:40	</td>
+</tr>
+
+
+<tr>
+<td valign="top" colspan="2">
+<p>Greetings laudable listeners! You've asked for it, and here it is -- the WBWC top 88 songs of 2017!</p>
+<p> </p>
+<table style="border-collapse: collapse; width: 599px;" border="0" cellspacing="0" cellpadding="0">
+<colgroup><col style="mso-width-source: userset; mso-width-alt: 881; width: 19pt;" width="25"></col> <col style="mso-width-source: userset; mso-width-alt: 9443; width: 199pt;" width="266"></col> <col style="mso-width-source: userset; mso-width-alt: 10951; width: 231pt;" width="308"></col> </colgroup> 
+<tbody>
+<tr style="height: 15.6pt;" height="21">
+<td class="xl63" style="height: 15.6pt; width: 19pt;" width="25" height="21">#</td>
+<td class="xl63" style="border-left: none; width: 199pt;" width="266">Artist</td>
+<td class="xl63" style="border-left: none; width: 231pt;" width="308">Song</td>
+</tr>
+<tr style="height: 15.6pt;" height="21">
+<td class="xl63" style="height: 15.6pt; border-top: none;" height="21">88</td>
+<td class="xl64" style="border-top: none; border-left: none;">Guytano</td>
+<td class="xl64" style="border-top: none; border-left: none;">Fall   Back in Your Arms</td>
+</tr>
+<tr style="height: 15.6pt;" height="21">
+<td class="xl63" style="height: 15.6pt; border-top: none;" height="21">87</td>
+<td class="xl64" style="border-top: none; border-left: none;">Can't   Get it Out</td>
+<td class="xl64" style="border-top: none; border-left: none;">Brand   New</td>
+</tr>
+<tr style="height: 15.6pt;" height="21">
+<td class="xl63" style="height: 15.6pt; border-top: none;" height="21">86</td>
+<td class="xl64" style="border-top: none; border-left: none;">All   American Rejects</td>
+<td class="xl64" style="border-top: none; border-left: none;">Sweat</td>
+</tr>
+<tr style="height: 15.6pt;" height="21">
+<td class="xl63" style="height: 15.6pt; border-top: none;" height="21">85</td>
+<td class="xl64" style="border-top: none; border-left: none;">The   Strumbellas</td>
+<td class="xl64" style="border-top: none; border-left: none;">Young   and Wild</td>
+</tr>
+<tr style="height: 15.6pt;" height="21">
+<td class="xl63" style="height: 15.6pt; border-top: none;" height="21">84</td>
+<td class="xl64" style="border-top: none; border-left: none;">Depeche   Mode</td>
+<td class="xl64" style="border-top: none; border-left: none;">Where's   the Revolution</td>
+</tr>
+<tr style="height: 15.6pt;" height="21">
+<td class="xl63" style="height: 15.6pt; border-top: none;" height="21">83</td>
+<td class="xl64" style="border-top: none; border-left: none;">Pierce   the Veil</td>
+<td class="xl64" style="border-top: none; border-left: none;">Floral   and Fading</td>
+</tr>
+<tr style="height: 15.6pt;" height="21">
+<td class="xl63" style="height: 15.6pt; border-top: none;" height="21">82</td>
+<td class="xl64" style="border-top: none; border-left: none;">The   Wrecks</td>
+<td class="xl64" style="border-top: none; border-left: none;">Favorite   Liar</td>
+</tr>
+<tr style="height: 15.6pt;" height="21">
+<td class="xl63" style="height: 15.6pt; border-top: none;" height="21">81</td>
+<td class="xl64" style="border-top: none; border-left: none;">The   Record Company</td>
+<td class="xl64" style="border-top: none; border-left: none;">Baby,   I'm Broken</td>
+</tr>
+<tr style="height: 15.6pt;" height="21">
+<td class="xl63" style="height: 15.6pt; border-top: none;" height="21">80</td>
+<td class="xl64" style="border-top: none; border-left: none;">Liza   Anne</td>
+<td class="xl64" style="border-top: none; border-left: none;">Paranoia</td>
+</tr>
+<tr style="height: 15.6pt;" height="21">
+<td class="xl63" style="height: 15.6pt; border-top: none;" height="21">79</td>
+<td class="xl64" style="border-top: none; border-left: none;">Mother   Mother</td>
+<td class="xl64" style="border-top: none; border-left: none;">Love   Stuck</td>
+</tr>
+<tr style="height: 15.6pt;" height="21">
+<td class="xl63" style="height: 15.6pt; border-top: none;" height="21">78</td>
+<td class="xl64" style="border-top: none; border-left: none;">Pandas   and People</td>
+<td class="xl64" style="border-top: none; border-left: none;">Out   to Sea</td>
+</tr>
+<tr style="height: 15.6pt;" height="21">
+<td class="xl63" style="height: 15.6pt; border-top: none;" height="21">77</td>
+<td class="xl64" style="border-top: none; border-left: none;">The   Heydaze</td>
+<td class="xl64" style="border-top: none; border-left: none;">New   Religion</td>
+</tr>
+<tr style="height: 15.6pt;" height="21">
+<td class="xl63" style="height: 15.6pt; border-top: none;" height="21">76</td>
+<td class="xl64" style="border-top: none; border-left: none;">U2</td>
+<td class="xl64" style="border-top: none; border-left: none;">You're   the Best Thing About Me</td>
+</tr>
+<tr style="height: 15.6pt;" height="21">
+<td class="xl63" style="height: 15.6pt; border-top: none;" height="21">75</td>
+<td class="xl64" style="border-top: none; border-left: none;">Death   from Above</td>
+<td class="xl64" style="border-top: none; border-left: none;">Freeze   Me</td>
+</tr>
+<tr style="height: 15.6pt;" height="21">
+<td class="xl63" style="height: 15.6pt; border-top: none;" height="21">74</td>
+<td class="xl64" style="border-top: none; border-left: none;">The   Brinks</td>
+<td class="xl64" style="border-top: none; border-left: none;">Honey</td>
+</tr>
+<tr style="height: 15.6pt;" height="21">
+<td class="xl63" style="height: 15.6pt; border-top: none;" height="21">73</td>
+<td class="xl64" style="border-top: none; border-left: none;">X   Ambassadors</td>
+<td class="xl64" style="border-top: none; border-left: none;">Ahead   Of Myself</td>
+</tr>
+<tr style="height: 15.6pt;" height="21">
+<td class="xl63" style="height: 15.6pt; border-top: none;" height="21">72</td>
+<td class="xl64" style="border-top: none; border-left: none;">Grizfolk   ft. Jaime N Commons</td>
+<td class="xl64" style="border-top: none; border-left: none;">In   My Arms</td>
+</tr>
+<tr style="height: 15.6pt;" height="21">
+<td class="xl63" style="height: 15.6pt; border-top: none;" height="21">71</td>
+<td class="xl64" style="border-top: none; border-left: none;">Paramore</td>
+<td class="xl64" style="border-top: none; border-left: none;">Fake   Happy</td>
+</tr>
+<tr style="height: 15.6pt;" height="21">
+<td class="xl63" style="height: 15.6pt; border-top: none;" height="21">70</td>
+<td class="xl64" style="border-top: none; border-left: none;">Lorde</td>
+<td class="xl64" style="border-top: none; border-left: none;">Green   Light</td>
+</tr>
+<tr style="height: 15.6pt;" height="21">
+<td class="xl63" style="height: 15.6pt; border-top: none;" height="21">69</td>
+<td class="xl64" style="border-top: none; border-left: none;">Andrew   McMahon In the Wilderness</td>
+<td class="xl64" style="border-top: none; border-left: none;">So   Close</td>
+</tr>
+<tr style="height: 15.6pt;" height="21">
+<td class="xl63" style="height: 15.6pt; border-top: none;" height="21">68</td>
+<td class="xl64" style="border-top: none; border-left: none;">DREAMCAR</td>
+<td class="xl64" style="border-top: none; border-left: none;">Kill   For Candy</td>
+</tr>
+<tr style="height: 15.6pt;" height="21">
+<td class="xl63" style="height: 15.6pt; border-top: none;" height="21">67</td>
+<td class="xl64" style="border-top: none; border-left: none;">Blink-182</td>
+<td class="xl64" style="border-top: none; border-left: none;">Home   is Such a Lonely Place Without You</td>
+</tr>
+<tr style="height: 15.6pt;" height="21">
+<td class="xl63" style="height: 15.6pt; border-top: none;" height="21">66</td>
+<td class="xl64" style="border-top: none; border-left: none;">Citizen   Zero</td>
+<td class="xl64" style="border-top: none; border-left: none;">Lure   and Persuade</td>
+</tr>
+<tr style="height: 15.6pt;" height="21">
+<td class="xl63" style="height: 15.6pt; border-top: none;" height="21">65</td>
+<td class="xl64" style="border-top: none; border-left: none;">The   Glorious Sons</td>
+<td class="xl64" style="border-top: none; border-left: none;">Everything   is Alright</td>
+</tr>
+<tr style="height: 15.6pt;" height="21">
+<td class="xl63" style="height: 15.6pt; border-top: none;" height="21">64</td>
+<td class="xl64" style="border-top: none; border-left: none;">Avenged   Sevenfold</td>
+<td class="xl64" style="border-top: none; border-left: none;">Wish   You Were Here</td>
+</tr>
+<tr style="height: 15.6pt;" height="21">
+<td class="xl63" style="height: 15.6pt; border-top: none;" height="21">63</td>
+<td class="xl64" style="border-top: none; border-left: none;">Vance   Joy</td>
+<td class="xl64" style="border-top: none; border-left: none;">Lay   It On Me</td>
+</tr>
+<tr style="height: 15.6pt;" height="21">
+<td class="xl63" style="height: 15.6pt; border-top: none;" height="21">62</td>
+<td class="xl64" style="border-top: none; border-left: none;">K.   Flay</td>
+<td class="xl64" style="border-top: none; border-left: none;">Giver</td>
+</tr>
+<tr style="height: 15.6pt;" height="21">
+<td class="xl63" style="height: 15.6pt; border-top: none;" height="21">61</td>
+<td class="xl64" style="border-top: none; border-left: none;">The   Heydaze</td>
+<td class="xl64" style="border-top: none; border-left: none;">Hurt   Like Hell</td>
+</tr>
+<tr style="height: 15.6pt;" height="21">
+<td class="xl63" style="height: 15.6pt; border-top: none;" height="21">60</td>
+<td class="xl64" style="border-top: none; border-left: none;">Unlikely   Candidates</td>
+<td class="xl64" style="border-top: none; border-left: none;">Violence</td>
+</tr>
+<tr style="height: 15.6pt;" height="21">
+<td class="xl63" style="height: 15.6pt; border-top: none;" height="21">59</td>
+<td class="xl64" style="border-top: none; border-left: none;">The   Amity Affliction</td>
+<td class="xl64" style="border-top: none; border-left: none;">All   Messed Up</td>
+</tr>
+<tr style="height: 15.6pt;" height="21">
+<td class="xl63" style="height: 15.6pt; border-top: none;" height="21">58</td>
+<td class="xl64" style="border-top: none; border-left: none;">Muse</td>
+<td class="xl64" style="border-top: none; border-left: none;">Dig   Down</td>
+</tr>
+<tr style="height: 15.6pt;" height="21">
+<td class="xl63" style="height: 15.6pt; border-top: none;" height="21">57</td>
+<td class="xl64" style="border-top: none; border-left: none;">Black   Stone Cherry</td>
+<td class="xl64" style="border-top: none; border-left: none;">Cheaper   to Drink Alone</td>
+</tr>
+<tr style="height: 15.6pt;" height="21">
+<td class="xl63" style="height: 15.6pt; border-top: none;" height="21">56</td>
+<td class="xl64" style="border-top: none; border-left: none;">Fozzy</td>
+<td class="xl64" style="border-top: none; border-left: none;">Judas</td>
+</tr>
+<tr style="height: 15.6pt;" height="21">
+<td class="xl63" style="height: 15.6pt; border-top: none;" height="21">55</td>
+<td class="xl64" style="border-top: none; border-left: none;">Glass   Animals</td>
+<td class="xl64" style="border-top: none; border-left: none;">Pork   Soda</td>
+</tr>
+<tr style="height: 15.6pt;" height="21">
+<td class="xl63" style="height: 15.6pt; border-top: none;" height="21">54</td>
+<td class="xl64" style="border-top: none; border-left: none;">Welshly   Arms</td>
+<td class="xl64" style="border-top: none; border-left: none;">Legendary</td>
+</tr>
+<tr style="height: 15.6pt;" height="21">
+<td class="xl63" style="height: 15.6pt; border-top: none;" height="21">53</td>
+<td class="xl64" style="border-top: none; border-left: none;">Grouplove</td>
+<td class="xl64" style="border-top: none; border-left: none;">Good   Morning</td>
+</tr>
+<tr style="height: 15.6pt;" height="21">
+<td class="xl63" style="height: 15.6pt; border-top: none;" height="21">52</td>
+<td class="xl64" style="border-top: none; border-left: none;">Harry   Styles</td>
+<td class="xl64" style="border-top: none; border-left: none;">Kiwi</td>
+</tr>
+<tr style="height: 15.6pt;" height="21">
+<td class="xl63" style="height: 15.6pt; border-top: none;" height="21">51</td>
+<td class="xl64" style="border-top: none; border-left: none;">The XX</td>
+<td class="xl64" style="border-top: none; border-left: none;">On   Hold</td>
+</tr>
+<tr style="height: 15.6pt;" height="21">
+<td class="xl63" style="height: 15.6pt; border-top: none;" height="21">50</td>
+<td class="xl64" style="border-top: none; border-left: none;">Catfish   and The Bottleman</td>
+<td class="xl64" style="border-top: none; border-left: none;">Twice</td>
+</tr>
+<tr style="height: 15.6pt;" height="21">
+<td class="xl63" style="height: 15.6pt; border-top: none;" height="21">49</td>
+<td class="xl64" style="border-top: none; border-left: none;">Theory   of a Deadman</td>
+<td class="xl64" style="border-top: none; border-left: none;">Rx   (Medicate)</td>
+</tr>
+<tr style="height: 15.6pt;" height="21">
+<td class="xl63" style="height: 15.6pt; border-top: none;" height="21">48</td>
+<td class="xl64" style="border-top: none; border-left: none;">Linkin   Park ft. Kiiara</td>
+<td class="xl64" style="border-top: none; border-left: none;">Heavy</td>
+</tr>
+<tr style="height: 15.6pt;" height="21">
+<td class="xl63" style="height: 15.6pt; border-top: none;" height="21">47</td>
+<td class="xl64" style="border-top: none; border-left: none;">Childish   Gambino</td>
+<td class="xl64" style="border-top: none; border-left: none;">Redbone</td>
+</tr>
+<tr style="height: 15.6pt;" height="21">
+<td class="xl63" style="height: 15.6pt; border-top: none;" height="21">46</td>
+<td class="xl64" style="border-top: none; border-left: none;">Seether</td>
+<td class="xl64" style="border-top: none; border-left: none;">Betray   and Degrade</td>
+</tr>
+<tr style="height: 15.6pt;" height="21">
+<td class="xl63" style="height: 15.6pt; border-top: none;" height="21">45</td>
+<td class="xl64" style="border-top: none; border-left: none;">Gary   Clark, Jr.</td>
+<td class="xl64" style="border-top: none; border-left: none;">Come   Together</td>
+</tr>
+<tr style="height: 15.6pt;" height="21">
+<td class="xl63" style="height: 15.6pt; border-top: none;" height="21">44</td>
+<td class="xl64" style="border-top: none; border-left: none;">Lorde</td>
+<td class="xl64" style="border-top: none; border-left: none;">Perfect   Places</td>
+</tr>
+<tr style="height: 15.6pt;" height="21">
+<td class="xl63" style="height: 15.6pt; border-top: none;" height="21">43</td>
+<td class="xl64" style="border-top: none; border-left: none;">Stone   Sour</td>
+<td class="xl64" style="border-top: none; border-left: none;">Song   #3</td>
+</tr>
+<tr style="height: 15.6pt;" height="21">
+<td class="xl63" style="height: 15.6pt; border-top: none;" height="21">42</td>
+<td class="xl64" style="border-top: none; border-left: none;">Halsey</td>
+<td class="xl64" style="border-top: none; border-left: none;">Now   or Never</td>
+</tr>
+<tr style="height: 15.6pt;" height="21">
+<td class="xl63" style="height: 15.6pt; border-top: none;" height="21">41</td>
+<td class="xl64" style="border-top: none; border-left: none;">Volbeat</td>
+<td class="xl64" style="border-top: none; border-left: none;">Black   Rose</td>
+</tr>
+<tr style="height: 15.6pt;" height="21">
+<td class="xl63" style="height: 15.6pt; border-top: none;" height="21">40</td>
+<td class="xl64" style="border-top: none; border-left: none;">Spoon</td>
+<td class="xl64" style="border-top: none; border-left: none;">Can   I Sit Next to You?</td>
+</tr>
+<tr style="height: 15.6pt;" height="21">
+<td class="xl63" style="height: 15.6pt; border-top: none;" height="21">39</td>
+<td class="xl64" style="border-top: none; border-left: none;">The   Struts</td>
+<td class="xl64" style="border-top: none; border-left: none;">One   Night Only</td>
+</tr>
+<tr style="height: 15.6pt;" height="21">
+<td class="xl63" style="height: 15.6pt; border-top: none;" height="21">38</td>
+<td class="xl64" style="border-top: none; border-left: none;">311</td>
+<td class="xl64" style="border-top: none; border-left: none;">Too   Much To Think</td>
+</tr>
+<tr style="height: 15.6pt;" height="21">
+<td class="xl63" style="height: 15.6pt; border-top: none;" height="21">37</td>
+<td class="xl64" style="border-top: none; border-left: none;">Barns   Courtney</td>
+<td class="xl64" style="border-top: none; border-left: none;">Golden   Dandelions</td>
+</tr>
+<tr style="height: 15.6pt;" height="21">
+<td class="xl63" style="height: 15.6pt; border-top: none;" height="21">36</td>
+<td class="xl64" style="border-top: none; border-left: none;">Foster   the People</td>
+<td class="xl64" style="border-top: none; border-left: none;">Sit   Next to Me</td>
+</tr>
+<tr style="height: 15.6pt;" height="21">
+<td class="xl63" style="height: 15.6pt; border-top: none;" height="21">35</td>
+<td class="xl64" style="border-top: none; border-left: none;">AWOLNATION</td>
+<td class="xl64" style="border-top: none; border-left: none;">Passion</td>
+</tr>
+<tr style="height: 15.6pt;" height="21">
+<td class="xl63" style="height: 15.6pt; border-top: none;" height="21">34</td>
+<td class="xl64" style="border-top: none; border-left: none;">Milky   Chance</td>
+<td class="xl64" style="border-top: none; border-left: none;">Cocoon</td>
+</tr>
+<tr style="height: 15.6pt;" height="21">
+<td class="xl63" style="height: 15.6pt; border-top: none;" height="21">33</td>
+<td class="xl64" style="border-top: none; border-left: none;">Cold   War Kids ft. Bishop Briggs</td>
+<td class="xl64" style="border-top: none; border-left: none;">So   Tied Up</td>
+</tr>
+<tr style="height: 15.6pt;" height="21">
+<td class="xl63" style="height: 15.6pt; border-top: none;" height="21">32</td>
+<td class="xl64" style="border-top: none; border-left: none;">Arkells</td>
+<td class="xl64" style="border-top: none; border-left: none;">Knocking   at the Door</td>
+</tr>
+<tr style="height: 15.6pt;" height="21">
+<td class="xl63" style="height: 15.6pt; border-top: none;" height="21">31</td>
+<td class="xl64" style="border-top: none; border-left: none;">Nickelback</td>
+<td class="xl64" style="border-top: none; border-left: none;">Feed   The Machine</td>
+</tr>
+<tr style="height: 15.6pt;" height="21">
+<td class="xl63" style="height: 15.6pt; border-top: none;" height="21">30</td>
+<td class="xl64" style="border-top: none; border-left: none;">K.   Flay</td>
+<td class="xl64" style="border-top: none; border-left: none;">High   Enough</td>
+</tr>
+<tr style="height: 15.6pt;" height="21">
+<td class="xl63" style="height: 15.6pt; border-top: none;" height="21">29</td>
+<td class="xl64" style="border-top: none; border-left: none;">Rise   Against</td>
+<td class="xl64" style="border-top: none; border-left: none;">The   Violence</td>
+</tr>
+<tr style="height: 15.6pt;" height="21">
+<td class="xl63" style="height: 15.6pt; border-top: none;" height="21">28</td>
+<td class="xl64" style="border-top: none; border-left: none;">Weezer</td>
+<td class="xl64" style="border-top: none; border-left: none;">Feels   Like Summer</td>
+</tr>
+<tr style="height: 15.6pt;" height="21">
+<td class="xl63" style="height: 15.6pt; border-top: none;" height="21">27</td>
+<td class="xl64" style="border-top: none; border-left: none;">Kings   of Leon</td>
+<td class="xl64" style="border-top: none; border-left: none;">Reverened</td>
+</tr>
+<tr style="height: 15.6pt;" height="21">
+<td class="xl63" style="height: 15.6pt; border-top: none;" height="21">26</td>
+<td class="xl64" style="border-top: none; border-left: none;">Ghost</td>
+<td class="xl64" style="border-top: none; border-left: none;">Square   Hammer</td>
+</tr>
+<tr style="height: 15.6pt;" height="21">
+<td class="xl63" style="height: 15.6pt; border-top: none;" height="21">25</td>
+<td class="xl64" style="border-top: none; border-left: none;">Alt J</td>
+<td class="xl64" style="border-top: none; border-left: none;">In   Cold Blood</td>
+</tr>
+<tr style="height: 15.6pt;" height="21">
+<td class="xl63" style="height: 15.6pt; border-top: none;" height="21">24</td>
+<td class="xl64" style="border-top: none; border-left: none;">Foo   Fighters</td>
+<td class="xl64" style="border-top: none; border-left: none;">Sky   is a Neighborhood</td>
+</tr>
+<tr style="height: 15.6pt;" height="21">
+<td class="xl63" style="height: 15.6pt; border-top: none;" height="21">23</td>
+<td class="xl64" style="border-top: none; border-left: none;">Nothing   More</td>
+<td class="xl64" style="border-top: none; border-left: none;">Go   to War</td>
+</tr>
+<tr style="height: 15.6pt;" height="21">
+<td class="xl63" style="height: 15.6pt; border-top: none;" height="21">22</td>
+<td class="xl64" style="border-top: none; border-left: none;">Imagine   Dragons</td>
+<td class="xl64" style="border-top: none; border-left: none;">Thunder</td>
+</tr>
+<tr style="height: 15.6pt;" height="21">
+<td class="xl63" style="height: 15.6pt; border-top: none;" height="21">21</td>
+<td class="xl64" style="border-top: none; border-left: none;">Dirty   Heads</td>
+<td class="xl64" style="border-top: none; border-left: none;">Vacation</td>
+</tr>
+<tr style="height: 15.6pt;" height="21">
+<td class="xl63" style="height: 15.6pt; border-top: none;" height="21">20</td>
+<td class="xl64" style="border-top: none; border-left: none;">Royal   Blood</td>
+<td class="xl64" style="border-top: none; border-left: none;">I   Only Lie When I Love You</td>
+</tr>
+<tr style="height: 15.6pt;" height="21">
+<td class="xl63" style="height: 15.6pt; border-top: none;" height="21">19</td>
+<td class="xl64" style="border-top: none; border-left: none;">Kaleo</td>
+<td class="xl64" style="border-top: none; border-left: none;">All   The Pretty Girls</td>
+</tr>
+<tr style="height: 15.6pt;" height="21">
+<td class="xl63" style="height: 15.6pt; border-top: none;" height="21">18</td>
+<td class="xl64" style="border-top: none; border-left: none;">New   Politics</td>
+<td class="xl64" style="border-top: none; border-left: none;">One   Of Us</td>
+</tr>
+<tr style="height: 15.6pt;" height="21">
+<td class="xl63" style="height: 15.6pt; border-top: none;" height="21">17</td>
+<td class="xl64" style="border-top: none; border-left: none;">Tash   Sultana</td>
+<td class="xl64" style="border-top: none; border-left: none;">Jungle</td>
+</tr>
+<tr style="height: 15.6pt;" height="21">
+<td class="xl63" style="height: 15.6pt; border-top: none;" height="21">16</td>
+<td class="xl64" style="border-top: none; border-left: none;">Fall   Out Boy</td>
+<td class="xl64" style="border-top: none; border-left: none;">Young   and Menace</td>
+</tr>
+<tr style="height: 15.6pt;" height="21">
+<td class="xl63" style="height: 15.6pt; border-top: none;" height="21">15</td>
+<td class="xl64" style="border-top: none; border-left: none;">Rag   N Bone Man</td>
+<td class="xl64" style="border-top: none; border-left: none;">Human</td>
+</tr>
+<tr style="height: 15.6pt;" height="21">
+<td class="xl63" style="height: 15.6pt; border-top: none;" height="21">14</td>
+<td class="xl64" style="border-top: none; border-left: none;">Highly   Suspect</td>
+<td class="xl64" style="border-top: none; border-left: none;">Little   One</td>
+</tr>
+<tr style="height: 15.6pt;" height="21">
+<td class="xl63" style="height: 15.6pt; border-top: none;" height="21">13</td>
+<td class="xl64" style="border-top: none; border-left: none;">Bleachers</td>
+<td class="xl64" style="border-top: none; border-left: none;">Don't   Take the Money</td>
+</tr>
+<tr style="height: 15.6pt;" height="21">
+<td class="xl63" style="height: 15.6pt; border-top: none;" height="21">12</td>
+<td class="xl64" style="border-top: none; border-left: none;">Spoon</td>
+<td class="xl64" style="border-top: none; border-left: none;">Hot   Thoughts</td>
+</tr>
+<tr style="height: 15.6pt;" height="21">
+<td class="xl63" style="height: 15.6pt; border-top: none;" height="21">11</td>
+<td class="xl64" style="border-top: none; border-left: none;">Imagine   Dragons</td>
+<td class="xl64" style="border-top: none; border-left: none;">Believer</td>
+</tr>
+<tr style="height: 15.6pt;" height="21">
+<td class="xl63" style="height: 15.6pt; border-top: none;" height="21">10</td>
+<td class="xl64" style="border-top: none; border-left: none;">AJR   (ft. Rivers Cuomo)</td>
+<td class="xl64" style="border-top: none; border-left: none;">Sober   Up</td>
+</tr>
+<tr style="height: 15.6pt;" height="21">
+<td class="xl63" style="height: 15.6pt; border-top: none;" height="21">9</td>
+<td class="xl64" style="border-top: none; border-left: none;">Cage   the Elephant</td>
+<td class="xl64" style="border-top: none; border-left: none;">Cold   Cold Cold</td>
+</tr>
+<tr style="height: 15.6pt;" height="21">
+<td class="xl63" style="height: 15.6pt; border-top: none;" height="21">8</td>
+<td class="xl64" style="border-top: none; border-left: none;">Foo   Fighters</td>
+<td class="xl64" style="border-top: none; border-left: none;">Run</td>
+</tr>
+<tr style="height: 15.6pt;" height="21">
+<td class="xl63" style="height: 15.6pt; border-top: none;" height="21">7</td>
+<td class="xl64" style="border-top: none; border-left: none;">Alice   Merton</td>
+<td class="xl64" style="border-top: none; border-left: none;">No   Roots</td>
+</tr>
+<tr style="height: 15.6pt;" height="21">
+<td class="xl63" style="height: 15.6pt; border-top: none;" height="21">6</td>
+<td class="xl64" style="border-top: none; border-left: none;">Sir   Sly</td>
+<td class="xl64" style="border-top: none; border-left: none;">High</td>
+</tr>
+<tr style="height: 15.6pt;" height="21">
+<td class="xl63" style="height: 15.6pt; border-top: none;" height="21">5</td>
+<td class="xl64" style="border-top: none; border-left: none;">Papa   Roach</td>
+<td class="xl64" style="border-top: none; border-left: none;">Help</td>
+</tr>
+<tr style="height: 15.6pt;" height="21">
+<td class="xl63" style="height: 15.6pt; border-top: none;" height="21">4</td>
+<td class="xl64" style="border-top: none; border-left: none;">The   Killers</td>
+<td class="xl64" style="border-top: none; border-left: none;">The   Man</td>
+</tr>
+<tr style="height: 15.6pt;" height="21">
+<td class="xl63" style="height: 15.6pt; border-top: none;" height="21">3</td>
+<td class="xl64" style="border-top: none; border-left: none;">Twenty   One Pilots</td>
+<td class="xl64" style="border-top: none; border-left: none;">heavydirtysoul</td>
+</tr>
+<tr style="height: 15.6pt;" height="21">
+<td class="xl63" style="height: 15.6pt; border-top: none;" height="21">2</td>
+<td class="xl64" style="border-top: none; border-left: none;">Portugal.   The Man</td>
+<td class="xl64" style="border-top: none; border-left: none;">Feel   It Still</td>
+</tr>
+<tr style="height: 15.6pt;" height="21">
+<td class="xl63" style="height: 15.6pt; border-top: none;" height="21">1</td>
+<td class="xl64" style="border-top: none; border-left: none;">Queens   of the Stoneage</td>
+<td class="xl64" style="border-top: none; border-left: none;">Like   the Way You Used To Do</td>
+</tr>
+</tbody>
+</table>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;"><!-- td {border: 1px solid #ccc;}br {mso-data-placement:same-cell;} --> 
+<table style="table-layout: fixed; font-size: 10pt; font-family: Arial; width: 0px; border-collapse: collapse; border: none;" dir="ltr" border="1" cellspacing="0" cellpadding="0">
+<colgroup><col width="47"></col><col width="356"></col></colgroup> 
+<tbody>
+<tr style="height: 20px;">
+<td style="overflow: hidden; padding: 0px 3px; vertical-align: bottom; font-family: &quot;Permanent Marker&quot;; font-size: 18pt; text-align: center;">#</td>
+<td style="overflow: hidden; padding: 0px 3px; vertical-align: bottom; font-family: &quot;Permanent Marker&quot;; font-size: 18pt; text-align: center;">Artist</td>
+</tr>
+<tr style="height: 20px;">
+<td style="overflow: hidden; padding: 0px 3px; vertical-align: bottom; font-family: &quot;Permanent Marker&quot;; font-size: 18pt; text-align: center;">88</td>
+<td style="overflow: hidden; padding: 0px 3px; vertical-align: bottom; font-family: Alegreya; font-size: 18pt;">Guytano</td>
+</tr>
+<tr style="height: 20px;">
+<td style="overflow: hidden; padding: 0px 3px; vertical-align: bottom; font-family: &quot;Permanent Marker&quot;; font-size: 18pt; text-align: center;">87</td>
+<td style="overflow: hidden; padding: 0px 3px; vertical-align: bottom; font-family: Alegreya; font-size: 18pt;">Can't Get it Out</td>
+</tr>
+<tr style="height: 20px;">
+<td style="overflow: hidden; padding: 0px 3px; vertical-align: bottom; font-family: &quot;Permanent Marker&quot;; font-size: 18pt; text-align: center;">86</td>
+<td style="overflow: hidden; padding: 0px 3px; vertical-align: bottom; font-family: Alegreya; font-size: 18pt;">All American Rejects</td>
+</tr>
+<tr style="height: 20px;">
+<td style="overflow: hidden; padding: 0px 3px; vertical-align: bottom; font-family: &quot;Permanent Marker&quot;; font-size: 18pt; text-align: center;">85</td>
+<td style="overflow: hidden; padding: 0px 3px; vertical-align: bottom; font-family: Alegreya; font-size: 18pt;">The Strumbellas</td>
+</tr>
+<tr style="height: 20px;">
+<td style="overflow: hidden; padding: 0px 3px; vertical-align: bottom; font-family: &quot;Permanent Marker&quot;; font-size: 18pt; text-align: center;">84</td>
+<td style="overflow: hidden; padding: 0px 3px; vertical-align: bottom; font-family: Alegreya; font-size: 18pt;">Depeche Mode</td>
+</tr>
+<tr style="height: 20px;">
+<td style="overflow: hidden; padding: 0px 3px; vertical-align: bottom; font-family: &quot;Permanent Marker&quot;; font-size: 18pt; text-align: center;">83</td>
+<td style="overflow: hidden; padding: 0px 3px; vertical-align: bottom; font-family: Alegreya; font-size: 18pt;">Pierce the Veil</td>
+</tr>
+<tr style="height: 20px;">
+<td style="overflow: hidden; padding: 0px 3px; vertical-align: bottom; font-family: &quot;Permanent Marker&quot;; font-size: 18pt; text-align: center;">82</td>
+<td style="overflow: hidden; padding: 0px 3px; vertical-align: bottom; font-family: Alegreya; font-size: 18pt;">The Wrecks</td>
+</tr>
+<tr style="height: 20px;">
+<td style="overflow: hidden; padding: 0px 3px; vertical-align: bottom; font-family: &quot;Permanent Marker&quot;; font-size: 18pt; text-align: center;">81</td>
+<td style="overflow: hidden; padding: 0px 3px; vertical-align: bottom; font-family: Alegreya; font-size: 18pt;">The Record Company</td>
+</tr>
+<tr style="height: 20px;">
+<td style="overflow: hidden; padding: 0px 3px; vertical-align: bottom; font-family: &quot;Permanent Marker&quot;; font-size: 18pt; text-align: center;">80</td>
+<td style="overflow: hidden; padding: 0px 3px; vertical-align: bottom; font-family: Alegreya; font-size: 18pt;">Liza Anne</td>
+</tr>
+<tr style="height: 20px;">
+<td style="overflow: hidden; padding: 0px 3px; vertical-align: bottom; font-family: &quot;Permanent Marker&quot;; font-size: 18pt; text-align: center;">79</td>
+<td style="overflow: hidden; padding: 0px 3px; vertical-align: bottom; font-family: Alegreya; font-size: 18pt;">Mother Mother</td>
+</tr>
+<tr style="height: 20px;">
+<td style="overflow: hidden; padding: 0px 3px; vertical-align: bottom; font-family: &quot;Permanent Marker&quot;; font-size: 18pt; text-align: center;">78</td>
+<td style="overflow: hidden; padding: 0px 3px; vertical-align: bottom; font-family: Alegreya; font-size: 18pt;">Pandas and People</td>
+</tr>
+<tr style="height: 20px;">
+<td style="overflow: hidden; padding: 0px 3px; vertical-align: bottom; font-family: &quot;Permanent Marker&quot;; font-size: 18pt; text-align: center;">77</td>
+<td style="overflow: hidden; padding: 0px 3px; vertical-align: bottom; font-family: Alegreya; font-size: 18pt;">The Heydaze</td>
+</tr>
+<tr style="height: 20px;">
+<td style="overflow: hidden; padding: 0px 3px; vertical-align: bottom; font-family: &quot;Permanent Marker&quot;; font-size: 18pt; text-align: center;">76</td>
+<td style="overflow: hidden; padding: 0px 3px; vertical-align: bottom; font-family: Alegreya; font-size: 18pt;">U2</td>
+</tr>
+<tr style="height: 20px;">
+<td style="overflow: hidden; padding: 0px 3px; vertical-align: bottom; font-family: &quot;Permanent Marker&quot;; font-size: 18pt; text-align: center;">75</td>
+<td style="overflow: hidden; padding: 0px 3px; vertical-align: bottom; font-family: Alegreya; font-size: 18pt;">Death from Above</td>
+</tr>
+<tr style="height: 20px;">
+<td style="overflow: hidden; padding: 0px 3px; vertical-align: bottom; font-family: &quot;Permanent Marker&quot;; font-size: 18pt; text-align: center;">74</td>
+<td style="overflow: hidden; padding: 0px 3px; vertical-align: bottom; font-family: Alegreya; font-size: 18pt;">The Brinks</td>
+</tr>
+<tr style="height: 20px;">
+<td style="overflow: hidden; padding: 0px 3px; vertical-align: bottom; font-family: &quot;Permanent Marker&quot;; font-size: 18pt; text-align: center;">73</td>
+<td style="overflow: hidden; padding: 0px 3px; vertical-align: bottom; font-family: Alegreya; font-size: 18pt;">X Ambassadors</td>
+</tr>
+<tr style="height: 20px;">
+<td style="overflow: hidden; padding: 0px 3px; vertical-align: bottom; font-family: &quot;Permanent Marker&quot;; font-size: 18pt; text-align: center;">72</td>
+<td style="overflow: hidden; padding: 0px 3px; vertical-align: bottom; font-family: Alegreya; font-size: 18pt;">Grizfolk ft. Jaime N Commons</td>
+</tr>
+<tr style="height: 20px;">
+<td style="overflow: hidden; padding: 0px 3px; vertical-align: bottom; font-family: &quot;Permanent Marker&quot;; font-size: 18pt; text-align: center;">71</td>
+<td style="overflow: hidden; padding: 0px 3px; vertical-align: bottom; font-family: Alegreya; font-size: 18pt;">Paramore</td>
+</tr>
+<tr style="height: 20px;">
+<td style="overflow: hidden; padding: 0px 3px; vertical-align: bottom; font-family: &quot;Permanent Marker&quot;; font-size: 18pt; text-align: center;">70</td>
+<td style="overflow: hidden; padding: 0px 3px; vertical-align: bottom; font-family: Alegreya; font-size: 18pt;">Lorde</td>
+</tr>
+<tr style="height: 20px;">
+<td style="overflow: hidden; padding: 0px 3px; vertical-align: bottom; font-family: &quot;Permanent Marker&quot;; font-size: 18pt; text-align: center;">69</td>
+<td style="overflow: hidden; padding: 0px 3px; vertical-align: bottom; font-family: Alegreya; font-size: 18pt;">Andrew McMahon In the Wilderness</td>
+</tr>
+<tr style="height: 20px;">
+<td style="overflow: hidden; padding: 0px 3px; vertical-align: bottom; font-family: &quot;Permanent Marker&quot;; font-size: 18pt; text-align: center;">68</td>
+<td style="overflow: hidden; padding: 0px 3px; vertical-align: bottom; font-family: Alegreya; font-size: 18pt;">DREAMCAR</td>
+</tr>
+<tr style="height: 20px;">
+<td style="overflow: hidden; padding: 0px 3px; vertical-align: bottom; font-family: &quot;Permanent Marker&quot;; font-size: 18pt; text-align: center;">67</td>
+<td style="overflow: hidden; padding: 0px 3px; vertical-align: bottom; font-family: Alegreya; font-size: 18pt;">Blink-182</td>
+</tr>
+<tr style="height: 20px;">
+<td style="overflow: hidden; padding: 0px 3px; vertical-align: bottom; font-family: &quot;Permanent Marker&quot;; font-size: 18pt; text-align: center;">66</td>
+<td style="overflow: hidden; padding: 0px 3px; vertical-align: bottom; font-family: Alegreya; font-size: 18pt;">Citizen Zero</td>
+</tr>
+<tr style="height: 20px;">
+<td style="overflow: hidden; padding: 0px 3px; vertical-align: bottom; font-family: &quot;Permanent Marker&quot;; font-size: 18pt; text-align: center;">65</td>
+<td style="overflow: hidden; padding: 0px 3px; vertical-align: bottom; font-family: Alegreya; font-size: 18pt;">The Glorious Sons</td>
+</tr>
+<tr style="height: 20px;">
+<td style="overflow: hidden; padding: 0px 3px; vertical-align: bottom; font-family: &quot;Permanent Marker&quot;; font-size: 18pt; text-align: center;">64</td>
+<td style="overflow: hidden; padding: 0px 3px; vertical-align: bottom; font-family: Alegreya; font-size: 18pt;">Avenged Sevenfold</td>
+</tr>
+<tr style="height: 20px;">
+<td style="overflow: hidden; padding: 0px 3px; vertical-align: bottom; font-family: &quot;Permanent Marker&quot;; font-size: 18pt; text-align: center;">63</td>
+<td style="overflow: hidden; padding: 0px 3px; vertical-align: bottom; font-family: Alegreya; font-size: 18pt;">Vance Joy</td>
+</tr>
+<tr style="height: 20px;">
+<td style="overflow: hidden; padding: 0px 3px; vertical-align: bottom; font-family: &quot;Permanent Marker&quot;; font-size: 18pt; text-align: center;">62</td>
+<td style="overflow: hidden; padding: 0px 3px; vertical-align: bottom; font-family: Alegreya; font-size: 18pt;">K. Flay</td>
+</tr>
+<tr style="height: 20px;">
+<td style="overflow: hidden; padding: 0px 3px; vertical-align: bottom; font-family: &quot;Permanent Marker&quot;; font-size: 18pt; text-align: center;">61</td>
+<td style="overflow: hidden; padding: 0px 3px; vertical-align: bottom; font-family: Alegreya; font-size: 18pt;">The Heydaze</td>
+</tr>
+<tr style="height: 20px;">
+<td style="overflow: hidden; padding: 0px 3px; vertical-align: bottom; font-family: &quot;Permanent Marker&quot;; font-size: 18pt; text-align: center;">60</td>
+<td style="overflow: hidden; padding: 0px 3px; vertical-align: bottom; font-family: Alegreya; font-size: 18pt;">Unlikely Candidates</td>
+</tr>
+<tr style="height: 20px;">
+<td style="overflow: hidden; padding: 0px 3px; vertical-align: bottom; font-family: &quot;Permanent Marker&quot;; font-size: 18pt; text-align: center;">59</td>
+<td style="overflow: hidden; padding: 0px 3px; vertical-align: bottom; font-family: Alegreya; font-size: 18pt;">The Amity Affliction</td>
+</tr>
+<tr style="height: 20px;">
+<td style="overflow: hidden; padding: 0px 3px; vertical-align: bottom; font-family: &quot;Permanent Marker&quot;; font-size: 18pt; text-align: center;">58</td>
+<td style="overflow: hidden; padding: 0px 3px; vertical-align: bottom; font-family: Alegreya; font-size: 18pt;">Muse</td>
+</tr>
+<tr style="height: 20px;">
+<td style="overflow: hidden; padding: 0px 3px; vertical-align: bottom; font-family: &quot;Permanent Marker&quot;; font-size: 18pt; text-align: center;">57</td>
+<td style="overflow: hidden; padding: 0px 3px; vertical-align: bottom; font-family: Alegreya; font-size: 18pt;">Black Stone Cherry</td>
+</tr>
+<tr style="height: 20px;">
+<td style="overflow: hidden; padding: 0px 3px; vertical-align: bottom; font-family: &quot;Permanent Marker&quot;; font-size: 18pt; text-align: center;">56</td>
+<td style="overflow: hidden; padding: 0px 3px; vertical-align: bottom; font-family: Alegreya; font-size: 18pt;">Fozzy</td>
+</tr>
+<tr style="height: 20px;">
+<td style="overflow: hidden; padding: 0px 3px; vertical-align: bottom; font-family: &quot;Permanent Marker&quot;; font-size: 18pt; text-align: center;">55</td>
+<td style="overflow: hidden; padding: 0px 3px; vertical-align: bottom; font-family: Alegreya; font-size: 18pt;">Glass Animals</td>
+</tr>
+<tr style="height: 20px;">
+<td style="overflow: hidden; padding: 0px 3px; vertical-align: bottom; font-family: &quot;Permanent Marker&quot;; font-size: 18pt; text-align: center;">54</td>
+<td style="overflow: hidden; padding: 0px 3px; vertical-align: bottom; font-family: Alegreya; font-size: 18pt;">Welshly Arms</td>
+</tr>
+<tr style="height: 20px;">
+<td style="overflow: hidden; padding: 0px 3px; vertical-align: bottom; font-family: &quot;Permanent Marker&quot;; font-size: 18pt; text-align: center;">53</td>
+<td style="overflow: hidden; padding: 0px 3px; vertical-align: bottom; font-family: Alegreya; font-size: 18pt;">Grouplove</td>
+</tr>
+<tr style="height: 20px;">
+<td style="overflow: hidden; padding: 0px 3px; vertical-align: bottom; font-family: &quot;Permanent Marker&quot;; font-size: 18pt; text-align: center;">52</td>
+<td style="overflow: hidden; padding: 0px 3px; vertical-align: bottom; font-family: Alegreya; font-size: 18pt;">Harry Styles</td>
+</tr>
+<tr style="height: 20px;">
+<td style="overflow: hidden; padding: 0px 3px; vertical-align: bottom; font-family: &quot;Permanent Marker&quot;; font-size: 18pt; text-align: center;">51</td>
+<td style="overflow: hidden; padding: 0px 3px; vertical-align: bottom; font-family: Alegreya; font-size: 18pt;">The XX</td>
+</tr>
+<tr style="height: 20px;">
+<td style="overflow: hidden; padding: 0px 3px; vertical-align: bottom; font-family: &quot;Permanent Marker&quot;; font-size: 18pt; text-align: center;">50</td>
+<td style="overflow: hidden; padding: 0px 3px; vertical-align: bottom; font-family: Alegreya; font-size: 18pt;">Catfish and The Bottleman</td>
+</tr>
+<tr style="height: 20px;">
+<td style="overflow: hidden; padding: 0px 3px; vertical-align: bottom; font-family: &quot;Permanent Marker&quot;; font-size: 18pt; text-align: center;">49</td>
+<td style="overflow: hidden; padding: 0px 3px; vertical-align: bottom; font-family: Alegreya; font-size: 18pt;">Theory of a Deadman</td>
+</tr>
+<tr style="height: 20px;">
+<td style="overflow: hidden; padding: 0px 3px; vertical-align: bottom; font-family: &quot;Permanent Marker&quot;; font-size: 18pt; text-align: center;">48</td>
+<td style="overflow: hidden; padding: 0px 3px; vertical-align: bottom; font-family: Alegreya; font-size: 18pt;">Linkin Park ft. Kiiara</td>
+</tr>
+<tr style="height: 20px;">
+<td style="overflow: hidden; padding: 0px 3px; vertical-align: bottom; font-family: &quot;Permanent Marker&quot;; font-size: 18pt; text-align: center;">47</td>
+<td style="overflow: hidden; padding: 0px 3px; vertical-align: bottom; font-family: Alegreya; font-size: 18pt;">Childish Gambino</td>
+</tr>
+<tr style="height: 20px;">
+<td style="overflow: hidden; padding: 0px 3px; vertical-align: bottom; font-family: &quot;Permanent Marker&quot;; font-size: 18pt; text-align: center;">46</td>
+<td style="overflow: hidden; padding: 0px 3px; vertical-align: bottom; font-family: Alegreya; font-size: 18pt;">Seether</td>
+</tr>
+<tr style="height: 20px;">
+<td style="overflow: hidden; padding: 0px 3px; vertical-align: bottom; font-family: &quot;Permanent Marker&quot;; font-size: 18pt; text-align: center;">45</td>
+<td style="overflow: hidden; padding: 0px 3px; vertical-align: bottom; font-family: Alegreya; font-size: 18pt;">Gary Clark, Jr.</td>
+</tr>
+<tr style="height: 20px;">
+<td style="overflow: hidden; padding: 0px 3px; vertical-align: bottom; font-family: &quot;Permanent Marker&quot;; font-size: 18pt; text-align: center;">44</td>
+<td style="overflow: hidden; padding: 0px 3px; vertical-align: bottom; font-family: Alegreya; font-size: 18pt;">Lorde</td>
+</tr>
+<tr style="height: 20px;">
+<td style="overflow: hidden; padding: 0px 3px; vertical-align: bottom; font-family: &quot;Permanent Marker&quot;; font-size: 18pt; text-align: center;">43</td>
+<td style="overflow: hidden; padding: 0px 3px; vertical-align: bottom; font-family: Alegreya; font-size: 18pt;">Stone Sour</td>
+</tr>
+<tr style="height: 20px;">
+<td style="overflow: hidden; padding: 0px 3px; vertical-align: bottom; font-family: &quot;Permanent Marker&quot;; font-size: 18pt; text-align: center;">42</td>
+<td style="overflow: hidden; padding: 0px 3px; vertical-align: bottom; font-family: Alegreya; font-size: 18pt;">Halsey</td>
+</tr>
+<tr style="height: 20px;">
+<td style="overflow: hidden; padding: 0px 3px; vertical-align: bottom; font-family: &quot;Permanent Marker&quot;; font-size: 18pt; text-align: center;">41</td>
+<td style="overflow: hidden; padding: 0px 3px; vertical-align: bottom; font-family: Alegreya; font-size: 18pt;">Volbeat</td>
+</tr>
+<tr style="height: 20px;">
+<td style="overflow: hidden; padding: 0px 3px; vertical-align: bottom; font-family: &quot;Permanent Marker&quot;; font-size: 18pt; text-align: center;">40</td>
+<td style="overflow: hidden; padding: 0px 3px; vertical-align: bottom; font-family: Alegreya; font-size: 18pt;">Spoon</td>
+</tr>
+<tr style="height: 20px;">
+<td style="overflow: hidden; padding: 0px 3px; vertical-align: bottom; font-family: &quot;Permanent Marker&quot;; font-size: 18pt; text-align: center;">39</td>
+<td style="overflow: hidden; padding: 0px 3px; vertical-align: bottom; font-family: Alegreya; font-size: 18pt;">The Struts</td>
+</tr>
+<tr style="height: 20px;">
+<td style="overflow: hidden; padding: 0px 3px; vertical-align: bottom; font-family: &quot;Permanent Marker&quot;; font-size: 18pt; text-align: center;">38</td>
+<td style="overflow: hidden; padding: 0px 3px; vertical-align: bottom; font-family: Alegreya; font-size: 18pt;">311</td>
+</tr>
+<tr style="height: 20px;">
+<td style="overflow: hidden; padding: 0px 3px; vertical-align: bottom; font-family: &quot;Permanent Marker&quot;; font-size: 18pt; text-align: center;">37</td>
+<td style="overflow: hidden; padding: 0px 3px; vertical-align: bottom; font-family: Alegreya; font-size: 18pt;">Barns Courtney</td>
+</tr>
+<tr style="height: 20px;">
+<td style="overflow: hidden; padding: 0px 3px; vertical-align: bottom; font-family: &quot;Permanent Marker&quot;; font-size: 18pt; text-align: center;">36</td>
+<td style="overflow: hidden; padding: 0px 3px; vertical-align: bottom; font-family: Alegreya; font-size: 18pt;">Foster the People</td>
+</tr>
+<tr style="height: 20px;">
+<td style="overflow: hidden; padding: 0px 3px; vertical-align: bottom; font-family: &quot;Permanent Marker&quot;; font-size: 18pt; text-align: center;">35</td>
+<td style="overflow: hidden; padding: 0px 3px; vertical-align: bottom; font-family: Alegreya; font-size: 18pt;">AWOLNATION</td>
+</tr>
+<tr style="height: 20px;">
+<td style="overflow: hidden; padding: 0px 3px; vertical-align: bottom; font-family: &quot;Permanent Marker&quot;; font-size: 18pt; text-align: center;">34</td>
+<td style="overflow: hidden; padding: 0px 3px; vertical-align: bottom; font-family: Alegreya; font-size: 18pt;">Milky Chance</td>
+</tr>
+<tr style="height: 20px;">
+<td style="overflow: hidden; padding: 0px 3px; vertical-align: bottom; font-family: &quot;Permanent Marker&quot;; font-size: 18pt; text-align: center;">33</td>
+<td style="overflow: hidden; padding: 0px 3px; vertical-align: bottom; font-family: Alegreya; font-size: 18pt;">Cold War Kids ft. Bishop Briggs</td>
+</tr>
+<tr style="height: 20px;">
+<td style="overflow: hidden; padding: 0px 3px; vertical-align: bottom; font-family: &quot;Permanent Marker&quot;; font-size: 18pt; text-align: center;">32</td>
+<td style="overflow: hidden; padding: 0px 3px; vertical-align: bottom; font-family: Alegreya; font-size: 18pt;">Arkells</td>
+</tr>
+<tr style="height: 20px;">
+<td style="overflow: hidden; padding: 0px 3px; vertical-align: bottom; font-family: &quot;Permanent Marker&quot;; font-size: 18pt; text-align: center;">31</td>
+<td style="overflow: hidden; padding: 0px 3px; vertical-align: bottom; font-family: Alegreya; font-size: 18pt;">Nickelback</td>
+</tr>
+<tr style="height: 20px;">
+<td style="overflow: hidden; padding: 0px 3px; vertical-align: bottom; font-family: &quot;Permanent Marker&quot;; font-size: 18pt; text-align: center;">30</td>
+<td style="overflow: hidden; padding: 0px 3px; vertical-align: bottom; font-family: Alegreya; font-size: 18pt;">K. Flay</td>
+</tr>
+<tr style="height: 20px;">
+<td style="overflow: hidden; padding: 0px 3px; vertical-align: bottom; font-family: &quot;Permanent Marker&quot;; font-size: 18pt; text-align: center;">29</td>
+<td style="overflow: hidden; padding: 0px 3px; vertical-align: bottom; font-family: Alegreya; font-size: 18pt;">Rise Against</td>
+</tr>
+<tr style="height: 20px;">
+<td style="overflow: hidden; padding: 0px 3px; vertical-align: bottom; font-family: &quot;Permanent Marker&quot;; font-size: 18pt; text-align: center;">28</td>
+<td style="overflow: hidden; padding: 0px 3px; vertical-align: bottom; font-family: Alegreya; font-size: 18pt;">Weezer</td>
+</tr>
+<tr style="height: 20px;">
+<td style="overflow: hidden; padding: 0px 3px; vertical-align: bottom; font-family: &quot;Permanent Marker&quot;; font-size: 18pt; text-align: center;">27</td>
+<td style="overflow: hidden; padding: 0px 3px; vertical-align: bottom; font-family: Alegreya; font-size: 18pt;">Kings of Leon</td>
+</tr>
+<tr style="height: 20px;">
+<td style="overflow: hidden; padding: 0px 3px; vertical-align: bottom; font-family: &quot;Permanent Marker&quot;; font-size: 18pt; text-align: center;">26</td>
+<td style="overflow: hidden; padding: 0px 3px; vertical-align: bottom; font-family: Alegreya; font-size: 18pt;">Ghost</td>
+</tr>
+<tr style="height: 20px;">
+<td style="overflow: hidden; padding: 0px 3px; vertical-align: bottom; font-family: &quot;Permanent Marker&quot;; font-size: 18pt; text-align: center;">25</td>
+<td style="overflow: hidden; padding: 0px 3px; vertical-align: bottom; font-family: Alegreya; font-size: 18pt;">Alt J</td>
+</tr>
+<tr style="height: 20px;">
+<td style="overflow: hidden; padding: 0px 3px; vertical-align: bottom; font-family: &quot;Permanent Marker&quot;; font-size: 18pt; text-align: center;">24</td>
+<td style="overflow: hidden; padding: 0px 3px; vertical-align: bottom; font-family: Alegreya; font-size: 18pt;">Foo Fighters</td>
+</tr>
+<tr style="height: 20px;">
+<td style="overflow: hidden; padding: 0px 3px; vertical-align: bottom; font-family: &quot;Permanent Marker&quot;; font-size: 18pt; text-align: center;">23</td>
+<td style="overflow: hidden; padding: 0px 3px; vertical-align: bottom; font-family: Alegreya; font-size: 18pt;">Nothing More</td>
+</tr>
+<tr style="height: 20px;">
+<td style="overflow: hidden; padding: 0px 3px; vertical-align: bottom; font-family: &quot;Permanent Marker&quot;; font-size: 18pt; text-align: center;">22</td>
+<td style="overflow: hidden; padding: 0px 3px; vertical-align: bottom; font-family: Alegreya; font-size: 18pt;">Imagine Dragons</td>
+</tr>
+<tr style="height: 20px;">
+<td style="overflow: hidden; padding: 0px 3px; vertical-align: bottom; font-family: &quot;Permanent Marker&quot;; font-size: 18pt; text-align: center;">21</td>
+<td style="overflow: hidden; padding: 0px 3px; vertical-align: bottom; font-family: Alegreya; font-size: 18pt;">Dirty Heads</td>
+</tr>
+<tr style="height: 20px;">
+<td style="overflow: hidden; padding: 0px 3px; vertical-align: bottom; font-family: &quot;Permanent Marker&quot;; font-size: 18pt; text-align: center;">20</td>
+<td style="overflow: hidden; padding: 0px 3px; vertical-align: bottom; font-family: Alegreya; font-size: 18pt;">Royal Blood</td>
+</tr>
+<tr style="height: 20px;">
+<td style="overflow: hidden; padding: 0px 3px; vertical-align: bottom; font-family: &quot;Permanent Marker&quot;; font-size: 18pt; text-align: center;">19</td>
+<td style="overflow: hidden; padding: 0px 3px; vertical-align: bottom; font-family: Alegreya; font-size: 18pt;">Kaleo</td>
+</tr>
+<tr style="height: 20px;">
+<td style="overflow: hidden; padding: 0px 3px; vertical-align: bottom; font-family: &quot;Permanent Marker&quot;; font-size: 18pt; text-align: center;">18</td>
+<td style="overflow: hidden; padding: 0px 3px; vertical-align: bottom; font-family: Alegreya; font-size: 18pt;">New Politics</td>
+</tr>
+<tr style="height: 20px;">
+<td style="overflow: hidden; padding: 0px 3px; vertical-align: bottom; font-family: &quot;Permanent Marker&quot;; font-size: 18pt; text-align: center;">17</td>
+<td style="overflow: hidden; padding: 0px 3px; vertical-align: bottom; font-family: Alegreya; font-size: 18pt;">Tash Sultana</td>
+</tr>
+<tr style="height: 20px;">
+<td style="overflow: hidden; padding: 0px 3px; vertical-align: bottom; font-family: &quot;Permanent Marker&quot;; font-size: 18pt; text-align: center;">16</td>
+<td style="overflow: hidden; padding: 0px 3px; vertical-align: bottom; font-family: Alegreya; font-size: 18pt;">Fall Out Boy</td>
+</tr>
+<tr style="height: 20px;">
+<td style="overflow: hidden; padding: 0px 3px; vertical-align: bottom; font-family: &quot;Permanent Marker&quot;; font-size: 18pt; text-align: center;">15</td>
+<td style="overflow: hidden; padding: 0px 3px; vertical-align: bottom; font-family: Alegreya; font-size: 18pt;">Rag N Bone Man</td>
+</tr>
+<tr style="height: 20px;">
+<td style="overflow: hidden; padding: 0px 3px; vertical-align: bottom; font-family: &quot;Permanent Marker&quot;; font-size: 18pt; text-align: center;">14</td>
+<td style="overflow: hidden; padding: 0px 3px; vertical-align: bottom; font-family: Alegreya; font-size: 18pt;">Highly Suspect</td>
+</tr>
+<tr style="height: 20px;">
+<td style="overflow: hidden; padding: 0px 3px; vertical-align: bottom; font-family: &quot;Permanent Marker&quot;; font-size: 18pt; text-align: center;">13</td>
+<td style="overflow: hidden; padding: 0px 3px; vertical-align: bottom; font-family: Alegreya; font-size: 18pt;">Bleachers</td>
+</tr>
+<tr style="height: 20px;">
+<td style="overflow: hidden; padding: 0px 3px; vertical-align: bottom; font-family: &quot;Permanent Marker&quot;; font-size: 18pt; text-align: center;">12</td>
+<td style="overflow: hidden; padding: 0px 3px; vertical-align: bottom; font-family: Alegreya; font-size: 18pt;">Spoon</td>
+</tr>
+<tr style="height: 20px;">
+<td style="overflow: hidden; padding: 0px 3px; vertical-align: bottom; font-family: &quot;Permanent Marker&quot;; font-size: 18pt; text-align: center;">11</td>
+<td style="overflow: hidden; padding: 0px 3px; vertical-align: bottom; font-family: Alegreya; font-size: 18pt;">Imagine Dragons</td>
+</tr>
+<tr style="height: 20px;">
+<td style="overflow: hidden; padding: 0px 3px; vertical-align: bottom; font-family: &quot;Permanent Marker&quot;; font-size: 18pt; text-align: center;">10</td>
+<td style="overflow: hidden; padding: 0px 3px; vertical-align: bottom; font-family: Alegreya; font-size: 18pt;">AJR (ft. Rivers Cuomo)</td>
+</tr>
+<tr style="height: 20px;">
+<td style="overflow: hidden; padding: 0px 3px; vertical-align: bottom; font-family: &quot;Permanent Marker&quot;; font-size: 18pt; text-align: center;">9</td>
+<td style="overflow: hidden; padding: 0px 3px; vertical-align: bottom; font-family: Alegreya; font-size: 18pt;">Cage the Elephant</td>
+</tr>
+<tr style="height: 20px;">
+<td style="overflow: hidden; padding: 0px 3px; vertical-align: bottom; font-family: &quot;Permanent Marker&quot;; font-size: 18pt; text-align: center;">8</td>
+<td style="overflow: hidden; padding: 0px 3px; vertical-align: bottom; font-family: Alegreya; font-size: 18pt;">Foo Fighters</td>
+</tr>
+<tr style="height: 20px;">
+<td style="overflow: hidden; padding: 0px 3px; vertical-align: bottom; font-family: &quot;Permanent Marker&quot;; font-size: 18pt; text-align: center;">7</td>
+<td style="overflow: hidden; padding: 0px 3px; vertical-align: bottom; font-family: Alegreya; font-size: 18pt;">Alice Merton</td>
+</tr>
+<tr style="height: 20px;">
+<td style="overflow: hidden; padding: 0px 3px; vertical-align: bottom; font-family: &quot;Permanent Marker&quot;; font-size: 18pt; text-align: center;">6</td>
+<td style="overflow: hidden; padding: 0px 3px; vertical-align: bottom; font-family: Alegreya; font-size: 18pt;">Sir Sly</td>
+</tr>
+<tr style="height: 20px;">
+<td style="overflow: hidden; padding: 0px 3px; vertical-align: bottom; font-family: &quot;Permanent Marker&quot;; font-size: 18pt; text-align: center;">5</td>
+<td style="overflow: hidden; padding: 0px 3px; vertical-align: bottom; font-family: Alegreya; font-size: 18pt;">Papa Roach</td>
+</tr>
+<tr style="height: 20px;">
+<td style="overflow: hidden; padding: 0px 3px; vertical-align: bottom; font-family: &quot;Permanent Marker&quot;; font-size: 18pt; text-align: center;">4</td>
+<td style="overflow: hidden; padding: 0px 3px; vertical-align: bottom; font-family: Alegreya; font-size: 18pt;">The Killers</td>
+</tr>
+<tr style="height: 20px;">
+<td style="overflow: hidden; padding: 0px 3px; vertical-align: bottom; font-family: &quot;Permanent Marker&quot;; font-size: 18pt; text-align: center;">3</td>
+<td style="overflow: hidden; padding: 0px 3px; vertical-align: bottom; font-family: Alegreya; font-size: 18pt;">Twenty One Pilots</td>
+</tr>
+<tr style="height: 20px;">
+<td style="overflow: hidden; padding: 0px 3px; vertical-align: bottom; font-family: &quot;Permanent Marker&quot;; font-size: 18pt; text-align: center;">2</td>
+<td style="overflow: hidden; padding: 0px 3px; vertical-align: bottom; font-family: Alegreya; font-size: 18pt;">Portugal. The Man</td>
+</tr>
+<tr style="height: 20px;">
+<td style="overflow: hidden; padding: 0px 3px; vertical-align: bottom; font-family: &quot;Permanent Marker&quot;; font-size: 18pt; text-align: center;">1</td>
+<td style="overflow: hidden; padding: 0px 3px; vertical-align: bottom; font-family: Alegreya; font-size: 18pt;">Queens of the Stoneage</td>
+</tr>
+</tbody>
+</table>
+</div></td>
+</tr>
+
+
+
+</table>
+<span class="article_separator">&nbsp;</span>
+
+<table class="contentpaneopen">
+<tr>
+		<td class="contentheading" width="100%">
+				<a href="/index.php?option=com_content&amp;view=article&amp;id=643:fcc-public-inspection-file&amp;catid=1:fcc-public-inspection-file&amp;Itemid=19" class="contentpagetitle">
+			FCC Public Inspection File</a>
+			</td>
+	
+	
+	
+		</tr>
+</table>
+<table class="contentpaneopen">
+
+<tr>
+	<td width="70%"  valign="top" colspan="2">
+		<span class="small">
+			Written by Jordan Laird		</span>
+		&nbsp;&nbsp;
+	</td>
+</tr>
+
+<tr>
+	<td valign="top" colspan="2" class="createdate">
+		Tuesday, 18 April 2017 18:14	</td>
+</tr>
+
+
+<tr>
+<td valign="top" colspan="2">
+<p><strong><span style="font-size: large;"><span style="font-family: &quot;arial black&quot;, &quot;avant garde&quot;;">Here is a link to our FCC Public Inspection File!</span></span></strong></p>
+<p><strong><a id="m_-1694216112546512932LPlnk207467" href="https://publicfiles.fcc.gov/fm-profile/wbwc" target="_blank" style="color: #1155cc; font-family: Calibri, Helvetica, sans-serif; font-size: 16px;">https://publicfiles.fcc.gov/fm-profile/wbwc</a><br /></strong></p></td>
+</tr>
+
+
+
+</table>
+<span class="article_separator">&nbsp;</span>
+</td>
+														<td valign="top" width="50%" class="article_column column_separator">
+				
+<table class="contentpaneopen">
+<tr>
+		<td class="contentheading" width="100%">
+				<a href="/index.php?option=com_content&amp;view=article&amp;id=644:skelethon-giveaways&amp;catid=22:pages" class="contentpagetitle">
+			Skelethon Giveaways</a>
+			</td>
+	
+	
+	
+		</tr>
+</table>
+<table class="contentpaneopen">
+
+<tr>
+	<td width="70%"  valign="top" colspan="2">
+		<span class="small">
+			Written by Jordan Laird		</span>
+		&nbsp;&nbsp;
+	</td>
+</tr>
+
+<tr>
+	<td valign="top" colspan="2" class="createdate">
+		Friday, 20 October 2017 12:34	</td>
+</tr>
+
+
+<tr>
+<td valign="top" colspan="2">
+<p style="text-align: justify;"><span style="font-size: xx-large;">Hello lovely listeners!</span></p>
+<p style="text-align: justify;"> </p>
+<p style="text-align: justify;">Because 88.3 is a non-commercial college radio station, we have limited sources of income as we don’t see the ad revenue that a commercial station does. The money that we raise with our 2017 88.3 Skelethon will be used t<span style="font-size: 12.16px;">o update our equipment facilities, i</span><span style="font-size: 12.16px;">mprove our streaming services, and most importantly: e</span><span style="font-size: 12.16px;">nhance the student learning experience for years to come. </span></p>
+<p style="text-align: justify;"> </p>
+<p style="text-align: justify;"><span style="font-size: small;"><span style="font-family: &quot;arial black&quot;, &quot;avant garde&quot;;">Our goal is $2,500 after the four day period -- October 26th through October 30th. Below is our schedule for accepting calls for donations at 440-826-2145 or 440-826-8525.</span></span></p>
+<p style="text-align: justify;"><span style="text-decoration: underline;">Thursday, October 26<sup>th</sup></span>: <strong>PHONE-A-THON MARATHON! </strong>Donations taken ALL DAY from 6am-1am!<em> </em></p>
+<p style="text-align: justify;"><span style="text-decoration: underline;">Friday, October 27<sup>th</sup>:</span> Donations taken for Top 5 @ 5pm, Punk and Cover (8:00-10pm), The Metal Command (10pm-1am), Sound of the Underground (1am-3am)</p>
+<p style="text-align: justify;"><span style="text-decoration: underline;">Saturday, October 28<sup>th</sup></span>: Yellow Jacket Football vs. Capital (1:30-3:30pm), Rick O’Bannion Experience (7:00-9:00pm), Country Back Roads (9-11pm), Running Late (1-3am)</p>
+<p style="text-align: justify;"><span style="text-decoration: underline;">Sunday, October 29<sup>th</sup></span>: WWII Program (5-6pm), Golden Age of Rock and Roll (6-9pm), Sunday Night at The Oldies (9-12am)</p>
+<p style="text-align: justify;"><span style="text-decoration: underline;">Monday, October 30<sup>th</sup></span>:<strong> </strong>Island Time (10-1am)</p>
+<p style="text-align: justify;"> </p>
+<p style="text-align: justify;">By donating to our wonderful station, you could receive these following prizes:</p>
+<p style="text-align: justify;"> </p>
+<ul style="text-align: justify;">
+<li>$5-$9<span style="font-size: 12.16px; white-space: pre;"> <span style="white-space: pre;"> </span></span><span style="font-size: 12.16px;">Sting bumper sticker, mystery band sticker</span></li>
+<li>$10-$19<span style="font-size: 12.16px; white-space: pre;"> <span style="white-space: pre;"> </span></span><span style="font-size: 12.16px;">Bumper sticker, two CD’s </span><strong style="font-size: 12.16px;">or </strong><span style="font-size: 12.16px;">vinyl</span></li>
+<li>$20-$35<span style="white-space: pre;"> </span><span style="font-size: 12.16px;">Bumper sticker, two CD’s </span><strong style="font-size: 12.16px;">or </strong><span style="font-size: 12.16px;">vinyl, mystery band sticker, glow-in-the-dark wristband</span></li>
+<li>$36-$50<span style="white-space:pre"> <span style="white-space: pre;"> </span></span>Bumper sticker, three CD’s <strong style="font-size: 12.16px;">or </strong><span style="font-size: 12.16px;">vinyl, mystery band sticker, glow-in-the-dark wristband, Sting T-Shirt</span></li>
+<li>$51-$99<span style="white-space: pre;"> </span>Bumper sticker, four CD’s <strong style="font-size: 12.16px;">or </strong><span style="font-size: 12.16px;">vinyl, two mystery band stickers, two glow-in-the-dark wristbands, Sting T-Shirt</span></li>
+<li>$100 or more<span style="white-space:pre"> </span>Bumper sticker, four CD’s <strong style="font-size: 12.16px;">or </strong><span style="font-size: 12.16px;">vinyl, two mystery band stickers, glow-in-the-dark wristband, limited edition 60</span><sup>th</sup><span style="font-size: 12.16px;"> Anniversary hoodie</span></li>
+</ul>
+<div style="text-align: justify;"><span style="white-space:pre"> </span>As a special bonus, for every $5 you donate, you name with be entered in a raffle to win these amazing packages, and more!</div>
+<div style="text-align: justify;">
+<ul>
+<li>Six free months of membership, a bag, a free week of tanning, a lock, and earbuds from <strong>Planet Fitness</strong></li>
+<li>Shirt, stickers, $20 certificate, and two tickets to Beach Slang at <strong>The</strong> <strong>Grog Shop</strong></li>
+<li>Night in Berea: One free haircut &amp; style from <strong>Teri's Hair Design</strong>, a free manicure from <strong>Nails 4 U</strong>, and a $10 certificate to <strong>Mootown Creamery</strong></li>
+<li>Taste of the Town: $10 certificate to <strong>La Crepe</strong>, one <strong>Tree Huggers Cafe </strong>bag, a $10 certificate and one shirt from <strong>Campus Grille</strong>, and a coupon for an 8" cake from <strong>Dick's Bakery</strong></li>
+<li>Pumpin' Iron with The Metal Command: Two sweatshirts from <strong>Berea Rec Center</strong>, two free 6" subs from <strong>Subway</strong>, and one free cheese pizza (up to four toppings) from <strong>Marco's Pizza</strong></li>
+<li>The Experience: $20 certificate to <strong>Scene 75</strong>, one <strong>Tree Huggers </strong>bag, and a $5 certificate to <strong>Mootown Creamery</strong></li>
+<li>Dinner Date with Running Late:  $25 certificate to <strong>Liz Nails</strong>, $25 certificate to <strong>Aladdin's Eatery</strong>, and a $5 certificate to <strong>Mootown Creamery</strong></li>
+<li>Island Time: 150 tan dollars, bronzing mist, tanning lotion, 20 coupons for tans, and odor neutralizer from <strong>Palm Beach Tan</strong></li>
+<li>Game Night: $10 certificate to <strong>Scene 75</strong>, $30 certificate to <strong>Southland Lanes</strong>, and one free cheese pizza (up to four toppings) from <strong style="font-size: 12.16px;">Marco's Pizza</strong></li>
+<li>Food Delights: $10 certificate to <strong>Mootown Creamery</strong>, $25 certificate to <strong>Aladdin's Eatery</strong>, one <strong>Tree Huggers Cafe</strong> bag</li>
+<li>Appealing Apparel (2 packages): One sweatshirt from the <strong>Berea Rec Center</strong>, one hat from <strong>Legends Headwear</strong>, and one bag from <strong>Tree Huggers Cafe</strong></li>
+<li>Bad Hair Day: One free haircut and style from <strong>Teri's Hair Design</strong>, one hat from <strong>Legends Headwear</strong></li>
+<li>Odds and Ends: Two $5 certificates to <strong>Mootown Creamery</strong>, one free cheezybread from <strong>Marco's Pizza</strong>,one free sub from <strong>Subway</strong>, and one bag from <strong>Tree Huggers Cafe</strong></li>
+</ul>
+<div><span style="font-weight: bold; white-space: pre;"> </span>AND SO MANY MORE!</div>
+</div>
+<div style="text-align: justify;">Check out this list of over 300 possible CD's you can choose from when donating over $10 during our Skelethon:</div>
+<div style="text-align: justify;">
+<table style="border-collapse: collapse; width: 688px;" border="0" cellspacing="0" cellpadding="0">
+<colgroup><col style="mso-width-source: userset; mso-width-alt: 12714; width: 268pt;" width="358"></col> <col style="mso-width-source: userset; mso-width-alt: 9528; width: 201pt;" width="268"></col> <col style="mso-width-source: userset; mso-width-alt: 2218; width: 47pt;" width="62"></col> </colgroup> 
+<tbody>
+<tr style="height: 15.0pt;" height="20">
+<td class="xl65" style="height: 15.0pt; width: 268pt;" width="358" height="20"><strong>ARTIST</strong></td>
+<td class="xl65" style="width: 201pt;" width="268"><strong>ALBUM</strong></td>
+<td class="xl65" style="width: 47pt;" width="62"><strong>AMOUNT</strong></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Abandoning Sunday</td>
+<td>Flight</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Ablebody</td>
+<td>Adult Contemporaries</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Acid Tongue</td>
+<td>Babies</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Adam Ostrar</td>
+<td>Brawls In The Briar</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Aidan Knight</td>
+<td>Each Other</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Alex Cameron</td>
+<td>Forced Witness</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Algeirs</td>
+<td>The Underside of Power</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Allen Stone</td>
+<td>Radius</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">AM</td>
+<td>Precious Life</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Angelo De Augustine</td>
+<td>Swim Inside The Moon</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Angry Angles</td>
+<td>Angry Angles</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">ARG</td>
+<td>Music for Robot Revolution</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Arrica Rose &amp; The …'s</td>
+<td>Low As The Moon</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Bash &amp; Pop</td>
+<td>Anything Could Happen</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Basia Bulat</td>
+<td>Good Advice</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Beach House</td>
+<td>B-Sides &amp; Rarities</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Bearing Torches</td>
+<td>A Thousand Kisses Deep</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Belle Game</td>
+<td>Fear/Nothing</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Ben Brookes</td>
+<td>The Motor Car and The Weather Balloon</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Benchmarks</td>
+<td>Our Undivided Attention</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Berwanger</td>
+<td>Exorcism Rock</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Big Theif</td>
+<td>Masterpiece</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Black River Revue</td>
+<td>Just Can't Win</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Blaenavon</td>
+<td>That's Your Lot</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Blank Square</td>
+<td>Animal I</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Blue Sails</td>
+<td>Blue Sails</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Bodies Of Water</td>
+<td>Spear In The City</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Brenyama</td>
+<td>Euphoria Love</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Bristol</td>
+<td>Bristol</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">C2 And The Brothers Reed</td>
+<td>Weigh Station Tour</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Candlelight USA</td>
+<td>Beyond Extremes</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Canvas</td>
+<td>Sticktoitiveness</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Cardiknox</td>
+<td>Portrait</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Carmen Villain</td>
+<td>Infinite Avenue</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Caroline Says</td>
+<td>50,000,000 Elvis Fans Can't Be Wrong</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">CFM</td>
+<td>Dichotomy</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Chain Wallet</td>
+<td>Chain Wallet</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Charles Ellsworth</td>
+<td>Cesaréa</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Chase Gassaway</td>
+<td>A Fly Can't Bird</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Chastity Belt</td>
+<td>I Used To Spend So Much Time Alone</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Civilian</td>
+<td>You Wouldn't Believe What Privilege Costs</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">CJ Ramone</td>
+<td>American Beauty</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Clap Your Hands Say Yeah</td>
+<td>The Tourist</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Clockwork Revolution</td>
+<td>Clockwork Revolution</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Cold Specks</td>
+<td>Fool's Paradise</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Com Truise</td>
+<td>Iteration</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Common Deer</td>
+<td>II</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Cosmonauts</td>
+<td>A-Ok!</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Cranford Hollow</td>
+<td>Color/Sound/Renew/Revive</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Curse the Son</td>
+<td>Isolator</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Damaged Bug</td>
+<td>Bunker Funk</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Dan Croll</td>
+<td>Emerging Adulthood</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Daniel Ellsworth &amp; The Great Lakes</td>
+<td>Kid Tiger</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Danny &amp; The Darleans</td>
+<td>Bug Out</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Darkside</td>
+<td>Amber: Skeleton Journeys Through The Void</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">David Barbe</td>
+<td>10th of Seas</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Dead Label</td>
+<td>Throne of Bones</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Dead Rock West</td>
+<td>More Love</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Dead to Fall</td>
+<td>Are You Serious?</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Debris Of Titan</td>
+<td>Astron: The Fallen</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Dent May</td>
+<td>Across the Multiverse</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Devin Dazzle &amp; The Neon Fever</td>
+<td>Felix Da Housecat</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Diecast</td>
+<td>Internal Revolution</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Dinner!</td>
+<td>Psychic Lovers</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Dir En Grey</td>
+<td>Withering To Death</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Dom Kelly</td>
+<td>Everything is Just Enough</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Donoma</td>
+<td>Falling Forward</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Dopapod</td>
+<td>Megagem</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Downtown Boys</td>
+<td>Cost of Living</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Dream Machine</td>
+<td>The Illusion</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Duncan Lloyd</td>
+<td>IOUOME</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">EJ Ouellette</td>
+<td>Conjure Man, Conjure Man</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">El Vy</td>
+<td>Return To The Moon</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Elephant Revival</td>
+<td>Petals</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Eliot Lipp</td>
+<td>Skywave</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Elliott Brood</td>
+<td>Ghost Gardens</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Elliphant</td>
+<td>Living Life Golden</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Ephrata</td>
+<td>Ephatra</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Esp Evolution</td>
+<td>From Crib to Coliseum</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Ethan Daniel Davidson</td>
+<td>Crows</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Eureka</td>
+<td>Shackleton's Voyage</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Faintlife</td>
+<td>Ever Was</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Filament 38</td>
+<td>Unstable</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Filthy Friends</td>
+<td>Invitation</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Fishboy</td>
+<td>Art Guards</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Flat Worms</td>
+<td>Castle Face</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Folk Is People</td>
+<td>The Devil Always Comes</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Football, Etc.</td>
+<td>Corner</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Fragile Mortals</td>
+<td>The Dark Project</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Frontier Ruckus</td>
+<td>Enter The Kingdom</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Gabriel Wolfchild</td>
+<td>The Northern Light</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Gaby Moreno</td>
+<td>Ilusion</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Ghastly Menace</td>
+<td>Songs Of Ghastly Menace</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Girlpool</td>
+<td>Powerplant</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Gizmodrome</td>
+<td>Gizmodrome</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Gold Class</td>
+<td>Drum</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Gold Frankincense &amp; Myrrh</td>
+<td>Identity Crisis</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Gordi</td>
+<td>Reservoir</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Gothic Tropic</td>
+<td>Fast Or Feast</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Greg Graffin</td>
+<td>Millport</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Gregg Stewart</td>
+<td>Gregg Stewart</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Handsom Furs</td>
+<td>Sound Kapital</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Harts</td>
+<td>Smoke Fire Hope Desire</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Havoc Hate</td>
+<td>Cycle Of Pain</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Hazel English</td>
+<td>Just Give In/Never Going Home</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Heat</td>
+<td>Overnight</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Ho99o9</td>
+<td>United States of Horror</td>
+<td>2 copies</td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Hodera</td>
+<td>First Things First</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Honeyblood</td>
+<td>Babes Never Die</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Honus Honus</td>
+<td>I Use Your Delusion</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Hunger</td>
+<td>For Love</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Idle Bloom</td>
+<td>Little Deaths</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Indianapolis Jones</td>
+<td>Chaos And Light</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">James Raftery</td>
+<td>Everything</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">James Vincent McMorrow</td>
+<td>We Move</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Japanese Breakfast</td>
+<td>Soft Sounds From Another Planet</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Jena Irene Asciutto</td>
+<td>Cold Fame</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Jens Lekman</td>
+<td>Life Will See You Now</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Jerry Paper</td>
+<td>Carousel</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Jessica Lea Mayfield</td>
+<td>Sorry Is Gone</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">John Pagano Band</td>
+<td>One More Round</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">John Trudell</td>
+<td>AKA Grafitti Man</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Joseph Childress</td>
+<td>Empty Cellar</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Junior Astronomers</td>
+<td>Body Language</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Jupe Jupe</td>
+<td>Lonely Creatures</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Kaitlyn Aurelia Smith</td>
+<td>The Kid</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Kane Strang</td>
+<td>Two Hearts &amp; No Brain</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Keeping</td>
+<td>Ruin Value</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Kenny George Band</td>
+<td>Borrowed Trouble</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Kevin Morby</td>
+<td>City Music</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Ki: Theory</td>
+<td>Silence</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Kinlin</td>
+<td>The Last Stand</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Kishi Bashi</td>
+<td>Sonderlust</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Klangstof</td>
+<td>Close Eyes To Exit</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Knox Fortune</td>
+<td>Paradise</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Konrad</td>
+<td>Artbreak</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Land of Talk</td>
+<td>Life After Youth</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Last Flowers</td>
+<td>Love</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Lee Ranaldo</td>
+<td>Electric Trim</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Leif Vollebekk</td>
+<td>Twin Solitude</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Leopold And His Fiction</td>
+<td>Darling Destoryer</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Lil Yachty</td>
+<td>Teenage Emotions</td>
+<td>13 copies</td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Loney Dear</td>
+<td>Loney Dear</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Louise Burns</td>
+<td>Young Mopes</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">M. A. G. S.</td>
+<td>M. A. G. S.</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Major and the Monbacks</td>
+<td>Moonlight Anthems</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Mandy Rowden</td>
+<td>1000 Miles</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Manhattan Murder Mystery</td>
+<td>Dumb</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Margaret Glaspy</td>
+<td>Emotions &amp; Math</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Margo Price</td>
+<td>Midwest Farmer's Daught</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Marika Hackman</td>
+<td>I'm Not Your Man</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Mark Andrew Band</td>
+<td>The Eclectic Electric</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Marlon Chaplin</td>
+<td>Danger Danger</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Marnie</td>
+<td>Strange Words &amp; Weird Wars</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Mass Gothic</td>
+<td>Mass Gothic</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Matt &amp; Sam's Brother</td>
+<td>My Brain Hurts A Lot</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Medical Maps</td>
+<td>Soft on Crime</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Melt</td>
+<td>Riffer</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Merchandise</td>
+<td>A Corpse Wired For Sound</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Michael Chapman</td>
+<td class="xl66">50</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Michelle Blades</td>
+<td>Premature Love Songs</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Midnight Sister</td>
+<td>Saturn Over Sunset</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Mike Gordon</td>
+<td>Ogogo</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Modern English</td>
+<td>Take Me To The Trees</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Moonweather</td>
+<td>Sit Down Be Small</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Mutoid Man</td>
+<td>Bleeder</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Muuy Biien</td>
+<td>Age Of Uncertainty</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Muz Mool</td>
+<td>Implied Lines</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Nana Grizol</td>
+<td>Ursa Minor</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Nate J</td>
+<td>Patchwork Blue</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Natural Child</td>
+<td>Okey Dokey</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Ne-Hi</td>
+<td>Offers</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Nick Cave and the Bad Seeds</td>
+<td>Lovely Creatures</td>
+<td>2 copies</td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Nick Waterhouse</td>
+<td>Never Twice</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Nico</td>
+<td>Yaryan</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Nite Jewel</td>
+<td>Real High</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Nnamdi Ogbonnaya</td>
+<td>Drool</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Noga Erez</td>
+<td>Off The Radar</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Odesza</td>
+<td>A Moment Apart</td>
+<td>2 copies</td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Odonis Odonis</td>
+<td>No Pop</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Once &amp; Future Band</td>
+<td>Once &amp; Future Band</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">OnDeadWaves</td>
+<td>OnDeadWaves</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Overcoats</td>
+<td>Young</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">OWEL</td>
+<td>Dear Me</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Palm</td>
+<td>Shadow Expert</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Paris Combo</td>
+<td>Tako Tsubo</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Partner</td>
+<td>In Search Of Lost Time</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Paul Kelly</td>
+<td>Life is Fine</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Pearl Earl</td>
+<td>Pearl Earl</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Pegi Young &amp; The Survivors</td>
+<td>Lonely In A Crowed Room</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Pegi Young &amp; The Survivors</td>
+<td>Bracing For Impact</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Perfume Genius</td>
+<td>No Shape</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Pho</td>
+<td>Two</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Phoebe Bridgers</td>
+<td>Stranger In The Alps</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Phone Call</td>
+<td>Hang-Ups</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Quin Galavis</td>
+<td>The Battery Line</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Reduction Plan</td>
+<td>Somewhere</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Reuben Hollebon</td>
+<td>Terminal Nostalgia</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Rituals Of Mine</td>
+<td>Devoted</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Ron Gallo</td>
+<td>Heavy Meta</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Roz and The Rice Cakes</td>
+<td>Devotion</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Russ Still &amp; The Moonshiners</td>
+<td>Still Cookin</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Sallie Ford</td>
+<td>Slap Back</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Salt Petal</td>
+<td>Rare Hearts</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Sam Amidon</td>
+<td>The Following Mountain</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Sam Roberts Band</td>
+<td>Terraform</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Sam-C</td>
+<td>Days in July</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Satsang</td>
+<td>Pyramids</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Sextile</td>
+<td>Albeit Living</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Shannen Moser</td>
+<td>Oh, My Heart</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Shearwater</td>
+<td>Jet Plane And Oxbow</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">She-Devils</td>
+<td>She-Devils</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Shilpa Ray</td>
+<td>Door Girl</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Shira</td>
+<td>Till The Sun Comes</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Silent Revival</td>
+<td>The Kindness of Strangers</td>
+<td>3 copies</td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Simon Doom</td>
+<td>Babyman</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Skyesteele</td>
+<td>All That Light</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Sleeping With Sirens</td>
+<td>Madness</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Slow Burning Car</td>
+<td>Defecation</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Snowball II</td>
+<td>Doughnut Holes</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">S<span class="font5">óley</span></td>
+<td>Endless Summer</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Stars</td>
+<td>There Is No Love In Fluorescent Light</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Stefanie Keys</td>
+<td>Open Road</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Stolen Rhodes</td>
+<td>Bend With</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Stone Irr</td>
+<td>Sinner</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Sufjan Stevens/Nico Muhly/Bryce   Dessner/James Mcalister</td>
+<td>Planetarium</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Super Doppler</td>
+<td>Moonlight Anthems</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Swarming Beach</td>
+<td>Surreal Number</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Swear &amp; Shake</td>
+<td>The Sound of Letting Go</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Sweet Crude</td>
+<td>Créatures</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Sworn In</td>
+<td>The Lovers/The Devil</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Talking Under Water</td>
+<td>Talking Under Water</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Temples</td>
+<td>Volcano</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Tender</td>
+<td>Modern Addication</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Terry Anderson</td>
+<td>Jimmy's Arcade</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">The Autobiography</td>
+<td>Vin Mensa</td>
+<td>4 copies</td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">The Bad Signs</td>
+<td>Black Magic Moments</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">The Black Cadillacs</td>
+<td>Run</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">The Black Line</td>
+<td>Line Up</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">The Chordaes</td>
+<td>In Itinere</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">The Conniption Fits</td>
+<td>Misinformed Informant</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">The Contortionist</td>
+<td>Clairvoyant</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">The Crookes</td>
+<td>Lucky Ones</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">The Delta Riggs</td>
+<td>Active Galactic</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">The Dirty Clergy</td>
+<td>Rattlesnake</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">The Dirty Nil</td>
+<td>Higher Power</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">The Districts</td>
+<td>Popular Manipulations</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">The Dream Eaters</td>
+<td>We Are A Curse</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">The Final Cut</td>
+<td>Consumed</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">The Gods Themselves</td>
+<td>Be My Animal</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">The Gray Vines</td>
+<td>The Gray Vines</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">The Human Circuit</td>
+<td>Electric City</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">The Kickback</td>
+<td>Weddings &amp; Funerals</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">The Mantinée</td>
+<td>Dancing On Your Grave</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">The Moms</td>
+<td>Doing Asbestos We Can</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">The Naked Sun</td>
+<td>War With Shadows</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">The Olympians</td>
+<td>The Olympians</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">The O'Reillys &amp; The Paddyhats</td>
+<td>Sign of the Fighters</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">The Pack A. D.</td>
+<td>Positive Thinking</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">The Psychedelic Swamp</td>
+<td>Dr. Dog</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">The Regrettes</td>
+<td>Feel Your Feelings Fool!</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">The Safes</td>
+<td>Tasty Waves</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">The Seshen</td>
+<td>Flames &amp; Figures</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">The Speedbumps</td>
+<td>Soil to the Seed</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">The Stanleys</td>
+<td>The Stanleys</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">The Texas Gentlemen</td>
+<td>TX Jelly</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">The Truehearts</td>
+<td>Purgatory Emporium</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">The Vanishing Spies</td>
+<td>Free Radicals Align</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">The Velveteins</td>
+<td>Slow Wave</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">The Verve Pipe</td>
+<td>Overboard</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">The Wild Lips</td>
+<td>Shameless</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">The Wild!</td>
+<td>Wild at Heart</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">The Wolves of Chernobyl</td>
+<td>Eschatologies</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">The Wooden Sky</td>
+<td>Swimming in Strange Waters</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">The Worn Flints</td>
+<td>Clementine</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Thobbe England</td>
+<td>Sold My Soul</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Thunder Ann Crockett</td>
+<td>High Funtioning</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Timbre</td>
+<td>Sun &amp; Moon</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Tobin Sprout</td>
+<td>The Universe And Me</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Tons &amp; Tons</td>
+<td>Bright Outside</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Tops</td>
+<td>Sugar At The Cate</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Tori Amos</td>
+<td>Native Invader</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Trevor Sensor</td>
+<td>Andy Warhol's Dream</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Union Sound Treaty</td>
+<td>Next Year</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Vagabon</td>
+<td>Infite Worlds</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Van William</td>
+<td>The Revolution</td>
+<td>3 copies</td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Vox &amp; The Hound</td>
+<td>Aloha Shores</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">War For An Idea</td>
+<td>IKillYa</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Wayne Olivieri</td>
+<td>Electric Mind</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">White Lies</td>
+<td>Friends</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">William Crighton</td>
+<td>William Crighton</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">William Matheny</td>
+<td>Strange Constellations</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Within The Ruins</td>
+<td>Halfway Human</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Wyldlife</td>
+<td>Out On Your Block</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Zeal &amp; Ardor</td>
+<td>Devil Is Fine</td>
+<td></td>
+</tr>
+<tr>
+<td>Zoë Nutt</td>
+<td>Like You</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div style="text-align: justify;">AND our selection of vinyl as well!</div>
+<div style="text-align: justify;">
+<table style="border-collapse: collapse; width: 402px;" border="0" cellspacing="0" cellpadding="0">
+<colgroup><col style="mso-width-source: userset; mso-width-alt: 8305; width: 175pt;" width="234"></col><col style="mso-width-source: userset; mso-width-alt: 5973; width: 126pt;" width="168"></col></colgroup> 
+<tbody>
+<tr>
+<td><strong>ARTIST</strong></td>
+<td><strong>ALBUM</strong></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt; width: 175pt;" width="234" height="19">Slingshot Dakota</td>
+<td style="width: 126pt;" width="168">Grude</td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">No Vaction</td>
+<td>Summer Break singles</td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Full Flower</td>
+<td>Us and Us Only</td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">People Like You</td>
+<td>Verse</td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Queen Moo</td>
+<td>Mean Well</td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Roniia</td>
+<td>Roniia</td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Kuli</td>
+<td>Follow You &amp; Kubadiver</td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Happyness</td>
+<td>Write In</td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Osnen</td>
+<td>Earthquake Weather</td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Liam Gallagher</td>
+<td>As You Were</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 266.667px; width: 1px; height: 1px; overflow: hidden; text-align: justify;">
+<table style="border-collapse: collapse; width: 913px;" border="0" cellspacing="0" cellpadding="0">
+<colgroup><col style="mso-width-source: userset; mso-width-alt: 13966; width: 295pt;" width="393"></col> <col style="mso-width-source: userset; mso-width-alt: 16213; width: 342pt;" width="456"></col> <col style="width: 48pt;" width="64"></col> </colgroup> 
+<tbody>
+<tr style="height: 15.0pt;" height="20">
+<td class="xl63" style="height: 15.0pt; width: 295pt;" width="393" height="20">ARTIST</td>
+<td class="xl63" style="width: 342pt;" width="456">ALBUM</td>
+<td class="xl63" style="width: 48pt;" width="64"></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Abandoning Sunday</td>
+<td>Flight</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Ablebody</td>
+<td>Adult Contemporaries</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Acid Tongue</td>
+<td>Babies</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Adam Ostrar</td>
+<td>Brawls In The Briar</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Aidan Knight</td>
+<td>Each Other</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Alex Cameron</td>
+<td>Forced Witness</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Algeirs</td>
+<td>The Underside of Power</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Allen Stone</td>
+<td>Radius</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">AM</td>
+<td>Precious Life</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Angelo De Augustine</td>
+<td>Swim Inside The Moon</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Angry Angles</td>
+<td>Angry Angles</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">ARG</td>
+<td>Music for Robot Revolution</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Arrica Rose &amp; The …'s</td>
+<td>Low As The Moon</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Bash &amp; Pop</td>
+<td>Anything Could Happen</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Basia Bulat</td>
+<td>Good Advice</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Beach Fossils</td>
+<td>Somersault</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Beach House</td>
+<td>B-Sides &amp; Rarities</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Bearing Torches</td>
+<td>A Thousand Kisses Deep</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Belle Game</td>
+<td>Fear/Nothing</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Ben Brookes</td>
+<td>The Motor Car and The Weather Balloon</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Benchmarks</td>
+<td>Our Undivided Attention</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Berwanger</td>
+<td>Exorcism Rock</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Big Theif</td>
+<td>Masterpiece</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Black River Revue</td>
+<td>Just Can't Win</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Blaenavon</td>
+<td>That's Your Lot</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Blank Square</td>
+<td>Animal I</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Blue Sails</td>
+<td>Blue Sails</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Bodies Of Water</td>
+<td>Spear In The City</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Brenyama</td>
+<td>Euphoria Love</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Bristol</td>
+<td>Bristol</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">C2 And The Brothers Reed</td>
+<td>Weigh Station Tour</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Candlelight USA</td>
+<td>Beyond Extremes</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Canvas</td>
+<td>Sticktoitiveness</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Cardiknox</td>
+<td>Portrait</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Carmen Villain</td>
+<td>Infinite Avenue</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Caroline Says</td>
+<td>50,000,000 Elvis Fans Can't Be Wrong</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">CFM</td>
+<td>Dichotomy</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Chain Wallet</td>
+<td>Chain Wallet</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Charles Ellsworth</td>
+<td>Cesaréa</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Chase Gassaway</td>
+<td>A Fly Can't Bird</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Chastity Belt</td>
+<td>I Used To Spend So Much Time Alone</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Cities &amp; Coasts</td>
+<td>Postcards From The Great Lakes</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Civilian</td>
+<td>You Wouldn't Believe What Privilege Costs</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">CJ Ramone</td>
+<td>American Beauty</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Clap Your Hands Say Yeah</td>
+<td>The Tourist</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Clockwork Revolution</td>
+<td>Clockwork Revolution</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Cold Specks</td>
+<td>Fool's Paradise</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Com Truise</td>
+<td>Iteration</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Common Deer</td>
+<td>II</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Cosmonauts</td>
+<td>A-Ok!</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Cranford Hollow</td>
+<td>Color/Sound/Renew/Revive</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Curse the Son</td>
+<td>Isolator</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Damaged Bug</td>
+<td>Bunker Funk</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Dan Croll</td>
+<td>Emerging Adulthood</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Dan Miraldi</td>
+<td>Chaos, Destruction &amp; Dancing</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Daniel Ellsworth &amp; The Great Lakes</td>
+<td>Kid Tiger</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Danny &amp; The Darleans</td>
+<td>Bug Out</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Darkside</td>
+<td>Amber: Skeleton Journeys Through The Void</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">David Barbe</td>
+<td>10th of Seas</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Dead Label</td>
+<td>Throne of Bones</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Dead Rock West</td>
+<td>More Love</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Dead to Fall</td>
+<td>Are You Serious?</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Debris Of Titan</td>
+<td>Astron: The Fallen</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Dent May</td>
+<td>Across the Multiverse</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Devin Dazzle &amp; The Neon Fever</td>
+<td>Felix Da Housecat</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Diecast</td>
+<td>Internal Revolution</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Dinner!</td>
+<td>Psychic Lovers</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Dir En Grey</td>
+<td>Withering To Death</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Dom Kelly</td>
+<td>Everything is Just Enough</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Donoma</td>
+<td>Falling Forward</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Dopapod</td>
+<td>Megagem</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Downtown Boys</td>
+<td>Cost of Living</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Dream Machine</td>
+<td>The Illusion</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Duncan Lloyd</td>
+<td>IOUOME</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">EJ Ouellette</td>
+<td>Conjure Man, Conjure Man</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">El Vy</td>
+<td>Return To The Moon</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Elephant Revival</td>
+<td>Petals</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Eliot Lipp</td>
+<td>Skywave</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Elliott Brood</td>
+<td>Ghost Gardens</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Elliphant</td>
+<td>Living Life Golden</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Ephrata</td>
+<td>Ephatra</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Esp Evolution</td>
+<td>From Crib to Coliseum</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Ethan Daniel Davidson</td>
+<td>Crows</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Eureka</td>
+<td>Shackleton's Voyage</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Faintlife</td>
+<td>Ever Was</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Fastball</td>
+<td>Step Into Light</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Filament 38</td>
+<td>Unstable</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Filthy Friends</td>
+<td>Invitation</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Fishboy</td>
+<td>Art Guards</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Flat Worms</td>
+<td>Castle Face</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Folk Is People</td>
+<td>The Devil Always Comes</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Football, Etc.</td>
+<td>Corner</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Fragile Mortals</td>
+<td>The Dark Project</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Frontier Ruckus</td>
+<td>Enter The Kingdom</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Gabriel Wolfchild</td>
+<td>The Northern Light</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Gaby Moreno</td>
+<td>Ilusion</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Ghastly Menace</td>
+<td>Songs Of Ghastly Menace</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Girlpool</td>
+<td>Powerplant</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Gizmodrome</td>
+<td>Gizmodrome</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Gold Class</td>
+<td>Drum</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Gold Frankincense &amp; Myrrh</td>
+<td>Identity Crisis</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Gordi</td>
+<td>Reservoir</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Gothic Tropic</td>
+<td>Fast Or Feast</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Greg Graffin</td>
+<td>Millport</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Gregg Stewart</td>
+<td>Gregg Stewart</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Handsom Furs</td>
+<td>Sound Kapital</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Harts</td>
+<td>Smoke Fire Hope Desire</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Havoc Hate</td>
+<td>Cycle Of Pain</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Hazel English</td>
+<td>Just Give In/Never Going Home</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Heat</td>
+<td>Overnight</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Ho99o9</td>
+<td>United States of Horror</td>
+<td>2 copies</td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Hodera</td>
+<td>First Things First</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Honeyblood</td>
+<td>Babes Never Die</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Honus Honus</td>
+<td>I Use Your Delusion</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Hunger</td>
+<td>For Love</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Idle Bloom</td>
+<td>Little Deaths</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Indianapolis Jones</td>
+<td>Chaos And Light</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">James Raftery</td>
+<td>Everything</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">James Vincent McMorrow</td>
+<td>We Move</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Japanese Breakfast</td>
+<td>Soft Sounds From Another Planet</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Jena Irene Asciutto</td>
+<td>Cold Fame</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Jens Lekman</td>
+<td>Life Will See You Now</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Jerry Paper</td>
+<td>Carousel</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Jessica Lea Mayfield</td>
+<td>Sorry Is Gone</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">John Pagano Band</td>
+<td>One More Round</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">John Trudell</td>
+<td>AKA Grafitti Man</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Joseph Childress</td>
+<td>Empty Cellar</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Junior Astronomers</td>
+<td>Body Language</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Jupe Jupe</td>
+<td>Lonely Creatures</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Kaitlyn Aurelia Smith</td>
+<td>The Kid</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Kane Strang</td>
+<td>Two Hearts &amp; No Brain</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Keeping</td>
+<td>Ruin Value</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Kenny George Band</td>
+<td>Borrowed Trouble</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Kevin Morby</td>
+<td>City Music</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Ki: Theory</td>
+<td>Silence</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Kinlin</td>
+<td>The Last Stand</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Kishi Bashi</td>
+<td>Sonderlust</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Klangstof</td>
+<td>Close Eyes To Exit</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Knox Fortune</td>
+<td>Paradise</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Konrad</td>
+<td>Artbreak</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Land of Talk</td>
+<td>Life After Youth</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Last Flowers</td>
+<td>Love</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Lee Ranaldo</td>
+<td>Electric Trim</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Leif Vollebekk</td>
+<td>Twin Solitude</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Leopold And His Fiction</td>
+<td>Darling Destoryer</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Lil Yachty</td>
+<td>Teenage Emotions</td>
+<td>14 copies</td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Loney Dear</td>
+<td>Loney Dear</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Louise Burns</td>
+<td>Young Mopes</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">M. A. G. S.</td>
+<td>M. A. G. S.</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Major and the Monbacks</td>
+<td>Moonlight Anthems</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Mandy Rowden</td>
+<td>1000 Miles</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Manhattan Murder Mystery</td>
+<td>Dumb</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Margaret Glaspy</td>
+<td>Emotions &amp; Math</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Margo Price</td>
+<td>Midwest Farmer's Daught</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Marika Hackman</td>
+<td>I'm Not Your Man</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Mark Andrew Band</td>
+<td>The Eclectic Electric</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Mark Stoermer</td>
+<td>Filthy Apes And Lions</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Marlon Chaplin</td>
+<td>Danger Danger</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Marnie</td>
+<td>Strange Words &amp; Weird Wars</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Mass Gothic</td>
+<td>Mass Gothic</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Matt &amp; Sam's Brother</td>
+<td>My Brain Hurts A Lot</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Medical Maps</td>
+<td>Soft on Crime</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Melt</td>
+<td>Riffer</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Merchandise</td>
+<td>A Corpse Wired For Sound</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Michael Chapman</td>
+<td class="xl64">50</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Michelle Blades</td>
+<td>Premature Love Songs</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Midnight Sister</td>
+<td>Saturn Over Sunset</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Mike Gordon</td>
+<td>Ogogo</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Moby &amp; The Void Pacific Choir</td>
+<td>More Fast Songs About The Apocalypse</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Modern English</td>
+<td>Take Me To The Trees</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Mogwai</td>
+<td>Every Country's Sun</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Moonweather</td>
+<td>Sit Down Be Small</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Mutoid Man</td>
+<td>Bleeder</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Muuy Biien</td>
+<td>Age Of Uncertainty</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Muz Mool</td>
+<td>Implied Lines</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Nana Grizol</td>
+<td>Ursa Minor</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Nate J</td>
+<td>Patchwork Blue</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Natural Child</td>
+<td>Okey Dokey</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Ne-Hi</td>
+<td>Offers</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Nick Cage and the Bad Seeds</td>
+<td>Lovely Creatures</td>
+<td>3 copies</td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Nick Waterhouse</td>
+<td>Never Twice</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Nico</td>
+<td>Yaryan</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Nite Jewel</td>
+<td>Real High</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Nnamdi Ogbonnaya</td>
+<td>Drool</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Noga Erez</td>
+<td>Off The Radar</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Odesza</td>
+<td>A Moment Apart</td>
+<td>2 copies</td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Odonis Odonis</td>
+<td>No Pop</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Once &amp; Future Band</td>
+<td>Once &amp; Future Band</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">OnDeadWaves</td>
+<td>OnDeadWaves</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Overcoats</td>
+<td>Young</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">OWEL</td>
+<td>Dear Me</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Palm</td>
+<td>Shadow Expert</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Paris Combo</td>
+<td>Tako Tsubo</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Partner</td>
+<td>In Search Of Lost Time</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Paul Kelly</td>
+<td>Life is Fine</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Pearl Earl</td>
+<td>Pearl Earl</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Pegi Young &amp; The Survivors</td>
+<td>Lonely In A Crowed Room</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Pegi Young &amp; The Survivors</td>
+<td>Bracing For Impact</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Perfume Genius</td>
+<td>No Shape</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Pho</td>
+<td>Two</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Phoebe Bridgers</td>
+<td>Stranger In The Alps</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Phone Call</td>
+<td>Hang-Ups</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Quin Galavis</td>
+<td>The Battery Line</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Reduction Plan</td>
+<td>Somewhere</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Reuben Hollebon</td>
+<td>Terminal Nostalgia</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Rituals Of Mine</td>
+<td>Devoted</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Roadkill Ghost Choir</td>
+<td>False Youth Etcetera</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Ron Gallo</td>
+<td>Heavy Meta</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Roz and The Rice Cakes</td>
+<td>Devotion</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Russ Still &amp; The Moonshiners</td>
+<td>Still Cookin</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Sallie Ford</td>
+<td>Slap Back</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Salt Petal</td>
+<td>Rare Hearts</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Sam Amidon</td>
+<td>The Following Mountain</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Sam Roberts Band</td>
+<td>Terraform</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Sam-C</td>
+<td>Days in July</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Satsang</td>
+<td>Pyramids</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Sextile</td>
+<td>Albeit Living</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Shannen Moser</td>
+<td>Oh, My Heart</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Shearwater</td>
+<td>Jet Plane And Oxbow</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">She-Devils</td>
+<td>She-Devils</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Shilpa Ray</td>
+<td>Door Girl</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Shira</td>
+<td>Till The Sun Comes</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Silent Revival</td>
+<td>The Kindness of Strangers</td>
+<td>3 copies</td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Simon Doom</td>
+<td>Babyman</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Skyesteele</td>
+<td>All That Light</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Sleeping With Sirens</td>
+<td>Madness</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Slow Burning Car</td>
+<td>Defecation</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Snowball II</td>
+<td>Doughnut Holes</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">S<span class="font5">óley</span></td>
+<td>Endless Summer</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Stars</td>
+<td>There Is No Love In Fluorescent Light</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Stefanie Keys</td>
+<td>Open Road</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Stolen Rhodes</td>
+<td>Bend With</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Stone Irr</td>
+<td>Sinner</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Sufjan Stevens/Nico Muhly/Bryce   Dessner/James Mcalister</td>
+<td>Planetarium</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Super Doppler</td>
+<td>Moonlight Anthems</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Swarming Beach</td>
+<td>Surreal Number</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Swear &amp; Shake</td>
+<td>The Sound of Letting Go</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Sweet Crude</td>
+<td>Créatures</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Sworn In</td>
+<td>The Lovers/The Devil</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Talking Under Water</td>
+<td>Talking Under Water</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Temples</td>
+<td>Volcano</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Tender</td>
+<td>Modern Addication</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Terry Anderson</td>
+<td>Jimmy's Arcade</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">The Autobiography</td>
+<td>Vin Mensa</td>
+<td>4 copies</td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">The Bad Signs</td>
+<td>Black Magic Moments</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">The Black Cadillacs</td>
+<td>Run</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">The Black Line</td>
+<td>Line Up</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">The Chordaes</td>
+<td>In Itinere</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">The Conniption Fits</td>
+<td>Misinformed Informant</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">The Contortionist</td>
+<td>Clairvoyant</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">The Crookes</td>
+<td>Lucky Ones</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">The Delta Riggs</td>
+<td>Active Galactic</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">The Dirty Clergy</td>
+<td>Rattlesnake</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">The Dirty Nil</td>
+<td>Higher Power</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">The Districts</td>
+<td>Popular Manipulations</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">The Dream Eaters</td>
+<td>We Are A Curse</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">The Final Cut</td>
+<td>Consumed</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">The Gods Themselves</td>
+<td>Be My Animal</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">The Gray Vines</td>
+<td>The Gray Vines</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">The Human Circuit</td>
+<td>Electric City</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">The Kickback</td>
+<td>Weddings &amp; Funerals</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">The Mantinée</td>
+<td>Dancing On Your Grave</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">The Moms</td>
+<td>Doing Asbestos We Can</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">The Naked Sun</td>
+<td>War With Shadows</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">The Olympians</td>
+<td>The Olympians</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">The O'Reillys &amp; The Paddyhats</td>
+<td>Sign of the Fighters</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">The Pack A. D.</td>
+<td>Positive Thinking</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">The Psychedelic Swamp</td>
+<td>Dr. Dog</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">The Regrettes</td>
+<td>Feel Your Feelings Fool!</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">The Safes</td>
+<td>Tasty Waves</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">The Seshen</td>
+<td>Flames &amp; Figures</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">The Speedbumps</td>
+<td>Soil to the Seed</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">The Stanleys</td>
+<td>The Stanleys</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">The Texas Gentlemen</td>
+<td>TX Jelly</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">The Truehearts</td>
+<td>Purgatory Emporium</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">The Vanishing Spies</td>
+<td>Free Radicals Align</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">The Velveteins</td>
+<td>Slow Wave</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">The Verve Pipe</td>
+<td>Overboard</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">The Wild Lips</td>
+<td>Shameless</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">The Wild!</td>
+<td>Wild at Heart</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">The Wolves of Chernobyl</td>
+<td>Eschatologies</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">The Wooden Sky</td>
+<td>Swimming in Strange Waters</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">The Worn Flints</td>
+<td>Clementine</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Thobbe England</td>
+<td>Sold My Soul</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Thunder Ann Crockett</td>
+<td>High Funtioning</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Thundercat</td>
+<td>Drunk</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Timbre</td>
+<td>Sun &amp; Moon</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Tobin Sprout</td>
+<td>The Universe And Me</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Tons &amp; Tons</td>
+<td>Bright Outside</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Tops</td>
+<td>Sugar At The Cate</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Tori Amos</td>
+<td>Native Invader</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Trevor Sensor</td>
+<td>Andy Warhol's Dream</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Turnover</td>
+<td>Good Nature</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Union Sound Treaty</td>
+<td>Next Year</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Vagabon</td>
+<td>Infite Worlds</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Van William</td>
+<td>The Revolution</td>
+<td>3 copies</td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Vox &amp; The Hound</td>
+<td>Aloha Shores</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">War For An Idea</td>
+<td>IKillYa</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Wayne Olivieri</td>
+<td>Electric Mind</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">White Lies</td>
+<td>Friends</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">William Crighton</td>
+<td>William Crighton</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">William Matheny</td>
+<td>Strange Constellations</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Within The Ruins</td>
+<td>Halfway Human</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Wolf Parade</td>
+<td>Cry Cry Cry</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Wyldlife</td>
+<td>Out On Your Block</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Zeal &amp; Ardor</td>
+<td>Devil Is Fine</td>
+<td></td>
+</tr>
+<tr style="height: 14.4pt;" height="19">
+<td style="height: 14.4pt;" height="19">Zo<span class="font5">ë Nutt</span></td>
+<td>Like You</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</div></td>
+</tr>
+
+
+
+</table>
+<span class="article_separator">&nbsp;</span>
+
+<table class="contentpaneopen">
+<tr>
+		<td class="contentheading" width="100%">
+				<a href="/index.php?option=com_content&amp;view=article&amp;id=640:surround-sound-countdown-anouncement&amp;catid=1:fcc-public-inspection-file&amp;Itemid=19" class="contentpagetitle">
+			Surround Sound Countdown Concert</a>
+			</td>
+	
+	
+	
+		</tr>
+</table>
+<table class="contentpaneopen">
+
+<tr>
+	<td width="70%"  valign="top" colspan="2">
+		<span class="small">
+			Written by webmaster		</span>
+		&nbsp;&nbsp;
+	</td>
+</tr>
+
+<tr>
+	<td valign="top" colspan="2" class="createdate">
+		Tuesday, 01 November 2016 16:13	</td>
+</tr>
+
+
+<tr>
+<td valign="top" colspan="2">
+<h1><span style="color: #4b4f56; font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 14px;">The top 5 local bands that YOU voted for during our Surround Sound Countdown are performing at the World Famous Agora Theatre this Friday! Come to this free show to see some of the best upcoming bands Cleveland has to offer and meet the staff members from The Sting! </span><br style="color: #4b4f56; font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 14px;" /><br style="color: #4b4f56; font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 14px;" /><span style="color: #4b4f56; font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 14px;">The line-up is as follows:</span><br style="color: #4b4f56; font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 14px;" /><span style="color: #4b4f56; font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 14px;">1. FloorVVeed</span><br style="color: #4b4f56; font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 14px;" /><span style="color: #4b4f56; font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 14px;">2. Coldswell</span><br style="color: #4b4f56; font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 14px;" /><span style="color: #4b4f56; font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 14px;">3. AJ and The Woods</span><br style="color: #4b4f56; font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 14px;" /><span style="color: #4b4f56; font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 14px;">4. Hello Violet</span><br style="color: #4b4f56; font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 14px;" /><span style="color: #4b4f56; font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 14px;">5. Glowing Moses</span><br style="color: #4b4f56; font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 14px;" /><br style="color: #4b4f56; font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 14px;" /><span style="color: #4b4f56; font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 14px;">The show starts at 7pm, and is FREE to those over 21! Under 21 must pay a $4 entry fee. This is our first ever locals concert and will be a GREAT ONE so don't miss out!!</span></h1></td>
+</tr>
+
+
+
+</table>
+<span class="article_separator">&nbsp;</span>
+</td>
+								
+		</tr>
+		</table>
+	</td>
+</tr>
+<tr>
+	<td valign="top">
+		<div class="blog_more">
+			<div>
+	<strong>More Articles...</strong>
+</div>
+<ul>
+	<li>
+		<a class="blogsection" href="/index.php?option=com_content&amp;view=article&amp;id=636:clevelandcavs&amp;catid=1:fcc-public-inspection-file&amp;Itemid=19">
+			Congrats Cleveland!</a>
+	</li>
+	<li>
+		<a class="blogsection" href="/index.php?option=com_content&amp;view=article&amp;id=623:stingers">
+			Stingers!</a>
+	</li>
+	<li>
+		<a class="blogsection" href="/index.php?option=com_content&amp;view=article&amp;id=617:country-back-roads&amp;catid=46:country-back-roads&amp;Itemid=69">
+			Country Back Roads</a>
+	</li>
+	<li>
+		<a class="blogsection" href="/index.php?option=com_content&amp;view=article&amp;id=589:listen-to-wbwc-anywhere&amp;catid=1:fcc-public-inspection-file&amp;Itemid=19">
+			Listen to WBWC Anywhere!</a>
+	</li>
+</ul>
+		</div>
+	</td>
+</tr>
+
+<tr>
+	<td valign="top" align="center">
+		&lt;&lt; <span class="pagenav">Start</span> &lt; <span class="pagenav">Prev</span> <span class="pagenav">1</span> <a title="2" href="/index.php?limitstart=5" class="pagenav">2</a> <a title="Next" href="/index.php?limitstart=5" class="pagenav">Next</a> &gt; <a title="End" href="/index.php?limitstart=5" class="pagenav">End</a> &gt;&gt;		<br /><br />
+	</td>
+</tr>
+<tr>
+	<td valign="top" align="center">
+		Page 1 of 2	</td>
+</tr>
+</table>
+
+    						    					</div>
+					</div>
+					<!-- end maincolumn -->
+					<!-- begin sidecolumn -->
+											<div id="sidecol">
+							<div id="sidecol-padding">
+																		<div class="module">
+			<div>
+				<div>
+					<div>
+													<h3>Have Your Voice Heard! New Music Stingers</h3>
+											
+<div class="poll" style="border:none; padding:1px;">
+
+
+<div id="polldiv_1">
+
+<form action="/index.php" method="post" name="poll_vote_1" id="poll_vote_1">
+	<label for="mod_voteid50" class="sectiontableentry2" style="display:block; padding:2px;">
+		<input type="radio" name="voteid" id="mod_voteid50" value="50" alt="50"  />
+			Bob Moses - Back Down	</label>
+		<label for="mod_voteid51" class="sectiontableentry1" style="display:block; padding:2px;">
+		<input type="radio" name="voteid" id="mod_voteid51" value="51" alt="51"  />
+			Slash - Driving Rain	</label>
+		<label for="mod_voteid52" class="sectiontableentry2" style="display:block; padding:2px;">
+		<input type="radio" name="voteid" id="mod_voteid52" value="52" alt="52"  />
+			Billie Eilish - you should see me in a crown	</label>
+		<label for="mod_voteid53" class="sectiontableentry1" style="display:block; padding:2px;">
+		<input type="radio" name="voteid" id="mod_voteid53" value="53" alt="53"  />
+			Rubblebucket - Lemonade	</label>
+		<div style="padding:2px;" id="poll_buttons_1" >	
+	<input type="submit" id="submit_vote_1" name="task_button" class="button" value="Vote"  />
+	</div>	
+	<div id="poll_loading_1" style="display:none;">Processing....	</div>		
+
+	<input type="hidden" name="option" value="com_acepolls" />
+	<input type="hidden" name="id" value="1" />
+	    <input type="hidden" name="format" value="raw" />
+    <input type="hidden" name="view" value="poll" />
+	<div><input type="hidden" name="ba30f5625ff07c67de9543aac123dc62" value="1" /></div></form>
+
+
+<!-- End of #polldiv -->
+</div>
+<div id="poll_links" style="padding-top:5px; ">
+
+		
+	
+</div>
+</div>					</div>
+				</div>
+			</div>
+		</div>
+								</div>
+						</div>
+										<!-- end sidecolumn -->
+					<div class="clr"></div>
+				</div>
+			</div>
+			<!-- end mainbody -->
+			<!-- begin bottom section -->
+						<div id="mainbody-bottom">
+				<div id="mainbody-bottom2">
+					<div id="mainbody-bottom3">
+					</div>
+				</div>
+			</div>
+			<!-- end bottom section -->
+							<div align="center">
+				<div id="footer">
+							<div class="moduletable">
+					<p><a href="http://www.facebook.com/pages/Berea-OH/883-fm-The-Sting/26370610776" target="_blank" title="Facebook"><img src="/images/icons/fb.png" border="0" width="64" height="64" /> </a><a href="http://www.twitter.com/883thesting" target="_blank" title="Twitter"><img src="/images/icons/twitter.png" border="0" width="64" height="64" /></a></p>		</div>
+			<div class="moduletable">
+					<h4 style="text-align: center;"><span style="color: #ffffff;"><span style="font-size: small;"><strong><span style="font-size: large;">WBWC<br /></span></strong></span><span style="font-size: small;">275 Eastland Road<br /></span><span style="font-size: small; line-height: 1.3em;">Berea, OH 44017<br /> </span><span style="font-size: small;"><strong>Requests</strong>: <span style="font-weight: normal;">440-826-STING (7846)<br /></span></span><span style="font-weight: normal;"><span style="font-size: small;"> Office<span style="font-weight: normal;">: </span><span style="font-weight: normal;">440-826-2145</span></span></span></span></h4>		</div>
+	
+				</div>
+				</div>
+					</div>
+		<!-- end wrapper -->
+	
+			<script type="text/javascript">
+			var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+			document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+			</script>
+			<script type="text/javascript">
+			try {
+			var pageTracker = _gat._getTracker("UA-4215003-3");
+			pageTracker._trackPageview();
+			} catch(err) {}</script>
+			</body>
+</html>

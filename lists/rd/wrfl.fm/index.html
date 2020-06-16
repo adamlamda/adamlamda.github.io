@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>WRFL // Home</title>
+    <link href="https://fonts.googleapis.com/css?family=Catamaran:200|Merriweather+Sans:400,800" rel="stylesheet">
+    <link data-turbolinks-track="true" href="/assets/application-a8cafe3d36597643d6083c4f1b2e8e7ec55882a357baebc7a34c4a18f7464fde.css" media="all" rel="stylesheet" />
+    <script data-turbolinks-track="true" media="all" src="/assets/vendor-87872eb4eabada39d64834a8de8691441e73ea3cb316a11ae9dc87683f22982a.js"></script>
+    <script async="async" data-turbolinks-track="true" src="/assets/application-e0d6119be16cda93c19f417233a58208ea8949a437fd8de86a78a46b91640fdb.js"></script>
+    <meta content="authenticity_token" name="csrf-param" />
+<meta content="Dvda7s8tsm06vF8im7r+rS5GHocoZB/M2CIIK0zE9Ps=" name="csrf-token" />
+    <!-- "viewport" helps with mobile, for now -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <!-- opengraph (facebook) metadata -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="WRFL, Lexington 88.1 FM">
+    <meta property="og:description" content="Your only alternative left! Stream now!">
+    <meta property="og:image" content="http://wrfl.fm/assets/Logos/fb-logo-white-2eb6a0d1a92ffd785ae38850ce63562d15debef933c1089ebe25b194c3f2acab.png">
+    <meta property="og:url" content="http://wrfl.fm">
+    <!-- twitter metadata -->
+    <meta name="twitter:image" content="http://wrfl.fm/assets/Logos/tw-logo-white-59468c049213ec09d26426adec70e1548a65dfcd4592de6d2baf841b484cc389.jpg">
+    <meta name="twitter:card" content="summary">
+  </head>
+  
+  <body>
+    <header class="navbar navbar-wrfl navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="/">
+        <img alt="Wrfl color 74e3cf1ae29721ecb6b1974c13e621caeb50101291fc3f0765da03130f33baec" id="header-logo" src="/assets/Logos/wrfl-color-74e3cf1ae29721ecb6b1974c13e621caeb50101291fc3f0765da03130f33baec.png" />
+</a>      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-wrfl" aria-controls="navbar-wrfl" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- "header" navbar for public navigation -->
+      <div class="collapse navbar-collapse" id="navbar-wrfl">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-primary" href="/dj">join now</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/events">events</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/mission">mission</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/directors">contact</a>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <!-- stream bar -->
+    <nav class="navbar navbar-stream navbar-expand-lg navbar-dark" style="background-color:	#202020" data-turbolinks-permanent>
+      <span id="stream-now-text" class="navbar-center navbar-brand my-2 mx-auto pl-lg-5 text-lg-left">
+        <span class="mx-lg-5 px-lg-4"></span>
+        <span id="now-text" class="d-none d-sm-inline d-lg-none d-xl-inline">
+  <a class="light text-white" href="http://www.google.com/search?q=LEISURE" id="play-search-url">
+    <b><span id="play-track">got it bad</span></b> by
+    <b><span id="play-artist">LEISURE</spa></b>
+</a>  on
+</span>
+<span class="d-sm-none d-lg-inline d-xl-none">On Air: </span>
+<span>
+  <span id="now-on-air">
+    <a class="text-white" href="http://wrfl.fm/shows/groove-it-or-lose-it-0" id="play-show-url">
+      <span id="play-show">Groove it or Lose it</span>
+</a>  </span>
+</span>
+
+      </span>
+      <span class="navbar-brand"></span>
+    <button class="navbar-toggler py-2" type="button" data-toggle="collapse" data-target="#navbar-stream" aria-controls="navbar-stream" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbar-stream">
+      <!-- play/pause buttons -->
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item mx-lg-0 my-lg-0">
+          <a href="/stream" onclick="$toggle_stream(); return false;">
+            <img alt="Play a3176ab5e3d6ddb8c66d40e9b1756137ec61261d574e6fbd7aa91ac54c65fc12" class="nav-link mx-auto px-3" id="stream-play-icon" src="/assets/Stream/play-a3176ab5e3d6ddb8c66d40e9b1756137ec61261d574e6fbd7aa91ac54c65fc12.png" />
+            <img alt="Pause 0763a395f846e940f496ba7966dc04ff14feedae27dbdcb2eae66f019c46476d" class="nav-link mx-auto px-3" id="stream-pause-icon" src="/assets/Stream/pause-0763a395f846e940f496ba7966dc04ff14feedae27dbdcb2eae66f019c46476d.png" />
+            <p class="d-lg-none text-center mb-0">Listen Now</p>
+          </a>
+        </li>
+      </ul>
+      <!-- schedule/playlist link, has mobile compatibility embedded -->
+      <ul class="navbar-nav navbar-right">
+        <hr class="d-block d-lg-none w-100 border-white"/>
+        <li class="nav-item mx-lg-0 my-lg-0">
+          <a href="/broadcast">
+            <img alt="Schedule e0308bed17f87c809503380e41f9a6bc21519f0a904ca9f8cfae060086ac52e4" class="nav-link mx-auto" id="stream-schedule-icon" src="/assets/Stream/schedule-e0308bed17f87c809503380e41f9a6bc21519f0a904ca9f8cfae060086ac52e4.png" />
+            <p class="d-lg-none text-center mb-0">Show Schedule</p>
+</a>        </li>
+        <hr class="d-block d-lg-none w-100 border-white"/>
+        <li class="nav-item mx-lg-0 my-lg-0">
+          <a href="/plays">
+            <img alt="Playlist ac2abc5913d75669e8fb54bf6d2a914a6b2a280068f5a3251802e746aa0a1a17" class="nav-link mx-auto" id="stream-playlist-icon" src="/assets/Stream/playlist-ac2abc5913d75669e8fb54bf6d2a914a6b2a280068f5a3251802e746aa0a1a17.png" />
+            <p class="d-lg-none text-center mb-0">Recently Played</p>
+</a>        </li>
+        <form accept-charset="UTF-8" action="/search" id="omnisearch" method="get"><div style="display:none"><input name="utf8" type="hidden" value="&#x2713;" /></div>
+          <div class="input-group" style="height: 48px;">
+            <input type="text" class="form-control" placeholder="Search wrfl.fm" aria-label="Search" id="search-box" name="search[q]">
+            <div class="input-group-append">
+              <button class="btn btn-default" type="submit">Go</button>
+            </div>
+          </div>
+</form>      </ul>
+    </div>
+    </nav>
+
+    <div id="main" class="mx-auto border-0 bg-light">
+    <div id="image" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#image" data-slide-to="0" class="active"></li>
+    <li data-target="#image" data-slide-to="1"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <a href="dj">
+        <img alt="First slide" class="d-block w-100" src="/assets/Landing/diso_site-d9d71b95cdb41f53a48f3477d4e362ab37c64a9035d862d1776d8d0631bea896.png" />
+</a>    </div>
+      <div class="carousel-item">
+        <img alt="Second slide" class="d-block w-100" src="/assets/Landing/in_session_site-5590548462f320b77b6d1e599fe910544fe8e04e575c0c37208c54e9204f71da.png" />
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#image" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#image" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+</div>
+
+<div id="landing-under-video">
+  <div class="container-fluid">
+  <div class="row">
+    <div class="text-center h4 col-12 p-3 m-0" style="background-color: white;">For a complete list of all blogs, please visit <a href="http://news.wrfl.fm">news.wrfl.fm</a></div>
+      <div class="col-12 col-sm-6 col-lg-4 col-xl-3 p-0"><div class="card h-100">
+        <h4 class="card-header" style="background-color: #da9058;">WRFL News Director</h4>
+        <a href="http://news.wrfl.fm/the-ego-trippers-wrfl-live-review/">
+          <div class="card-body">
+            <h4 class="card-title">WRFL Live Review: The Ego Trippers</h4>
+          </div>
+          
+</a></div></div>      <div class="col-12 col-sm-6 col-lg-4 col-xl-3 p-0"><div class="card h-100">
+        <h4 class="card-header" style="background-color: #f946d4;">WRFL News Director</h4>
+        <a href="http://news.wrfl.fm/saint-jerrod-figgs-remembering-a-groovy-legend/">
+          <div class="card-body">
+            <h4 class="card-title">Saint Jerrod Figgs- Remembering a Groovy Legend</h4>
+          </div>
+          
+</a></div></div>      <div class="col-12 col-sm-6 col-lg-4 col-xl-3 p-0"><div class="card h-100">
+        <h4 class="card-header" style="background-color: #f27a00;">WRFL News Director</h4>
+        <a href="http://news.wrfl.fm/big-fresh-releasing-a-fresh-ep/">
+          <div class="card-body">
+            <h4 class="card-title">Big Fresh Releasing a Fresh EP</h4>
+          </div>
+          
+</a></div></div>      <div class="col-12 col-sm-6 col-lg-4 col-xl-3 p-0"><div class="card h-100">
+        <h4 class="card-header" style="background-color: #282df6;">WRFL News Director</h4>
+        <a href="http://news.wrfl.fm/wrfl-live-review-blood-handsome/">
+          <div class="card-body">
+            <h4 class="card-title">WRFL Live Review: Blood Handsome</h4>
+          </div>
+          
+</a></div></div>      <div class="col-12 col-sm-6 col-lg-4 col-xl-3 p-0"><div class="card h-100">
+        <h4 class="card-header" style="background-color: #68c292;">WRFL News Director</h4>
+        <a href="http://news.wrfl.fm/bunbury-2018-highs-and-lows/">
+          <div class="card-body">
+            <h4 class="card-title">Bunbury 2018: Highs and Lows</h4>
+          </div>
+          
+</a></div></div>      <div class="col-12 col-sm-6 col-lg-4 col-xl-3 p-0"><div class="card h-100">
+        <h4 class="card-header" style="background-color: #a4a36f;">WRFL News Director</h4>
+        <a href="http://news.wrfl.fm/wrfl-live-review-people-planet/">
+          <div class="card-body">
+            <h4 class="card-title">WRFL Live Review: People Planet</h4>
+          </div>
+          
+</a></div></div>      <div class="col-12 col-sm-6 col-lg-4 col-xl-3 p-0"><div class="card h-100">
+        <h4 class="card-header" style="background-color: #da14c4;">WRFL News Director</h4>
+        <a href="http://news.wrfl.fm/wrfl-live-review-johnny-conqueroo/">
+          <div class="card-body">
+            <h4 class="card-title">WRFL Live Review: Johnny Conqueroo</h4>
+          </div>
+          
+</a></div></div>      <div class="col-12 col-sm-6 col-lg-4 col-xl-3 p-0"><div class="card h-100">
+        <h4 class="card-header" style="background-color: #86349d;">WRFL News Director</h4>
+        <a href="http://news.wrfl.fm/wrfl-live-review-space-camp/">
+          <div class="card-body">
+            <h4 class="card-title">WRFL Live Review: Space Camp</h4>
+          </div>
+          
+</a></div></div>      <div class="col-12 col-sm-6 col-lg-4 col-xl-3 p-0"><div class="card h-100">
+        <h4 class="card-header" style="background-color: #61d2e5;">WRFL News Director</h4>
+        <a href="http://news.wrfl.fm/wrfl-live-review-blueprints-and-elements/">
+          <div class="card-body">
+            <h4 class="card-title">WRFL Live Review: Blueprints and Elements</h4>
+          </div>
+          
+</a></div></div>      <div class="col-12 col-sm-6 col-lg-4 col-xl-3 p-0"><div class="card h-100">
+        <h4 class="card-header" style="background-color: #bed57a;">WRFL News Director</h4>
+        <a href="http://news.wrfl.fm/devine-carama-makes-music-and-a-difference/">
+          <div class="card-body">
+            <h4 class="card-title">Devine Carama Makes Music and a Difference</h4>
+          </div>
+          
+</a></div></div>      <div class="col-12 col-sm-6 col-lg-4 col-xl-3 p-0"><div class="card h-100">
+        <h4 class="card-header" style="background-color: #2203ce;">WRFL News Director</h4>
+        <a href="http://news.wrfl.fm/wrfl-live-review-watkins/">
+          <div class="card-body">
+            <h4 class="card-title">WRFL Live Review: Watkins</h4>
+          </div>
+          
+</a></div></div>      <div class="col-12 col-sm-6 col-lg-4 col-xl-3 p-0"><div class="card h-100">
+        <h4 class="card-header" style="background-color: #0c1bb9;">WRFL News Director</h4>
+        <a href="http://news.wrfl.fm/wrfl-live-review-jack-holiday-the-westerners/">
+          <div class="card-body">
+            <h4 class="card-title">WRFL Live Review: Jack Holiday and the Westerners</h4>
+          </div>
+          
+</a></div></div>  </div>
+</div>
+
+</div>
+
+  </div>
+
+
+    <footer class="bg-dark p-4 text-white text-uppercase">
+      <div class="d-inline-block">
+        <p>WRFL, Radio Free Lexington, 2018<br/>
+        </p>
+        <p class="d-none d-md-block">
+        <span class="pr-1">Studio 859.257.9735</span> / <span class="px-1">Office 859.257.4636</span> /
+        <a class="text-white px-1" href="https://publicfiles.fcc.gov/fm-profile/wrfl">Public File Profile</a></p>
+        <p class="d-none d-md-block">
+        <a class="text-white pr-1" href="http://www.twitter.com/WRFL">Twitter</a>
+        <a class="text-white px-1" href="http://www.instagram.com/wrfl881">Instagram</a>
+        <a class="text-white px-1" href="http://www.facebook.com/wrfl881">Facebook</a>
+        <a class="text-white px-1" href="http://wrflmusic.tumblr.com">Tumblr</a>
+        </p>
+        <!-- Sign in links for triggering modal -->
+  <a class="text-white h4" href="#signInModal" data-toggle="modal" data-target="#signInModal">
+    SIGN IN
+  </a>
+
+<!-- Modal -->
+<div class="modal fade" id="signInModal" tabindex="-1" role="dialog" aria-labelledby="signInModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content text-dark">
+      <form accept-charset="UTF-8" action="/users/sign_in" class="new_user" id="new_user" method="post"><div style="display:none"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="Dvda7s8tsm06vF8im7r+rS5GHocoZB/M2CIIK0zE9Ps=" /></div>
+        <div class="modal-header">
+          <h5 class="modal-title" id="signInModalLabel">Sign in</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body" style="text-transform: none;">
+          <p>If you have trouble logging in email <a href="mailto:webmaster@wrfl.fm">webmaster@wrfl.fm</a> and write down your plays.</p>
+          <div class="form-group field">
+            <input autocomplete="off" autofocus="autofocus" class="form-control-lg my-2" id="user_username" name="user[username]" placeholder="username" type="text" />
+            <input autocomplete="off" class="form-control-lg my-2" id="user_password" name="user[password]" placeholder="password" type="password" />
+          </div>
+
+          <div id="login-submit" class="actions">
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <input class="btn btn-primary" name="commit" type="submit" value="sign in" />
+        </div>
+</form>    </div>
+  </div>
+</div>
+
+      </div>
+      <img alt="Wrfl white stamp ba7d17371b1a8d898198c55e48f53094348f869294e71a7896dbbf713ec55ac0" class="p-3" id="footer-logo" src="/assets/Logos/wrfl-white-stamp-ba7d17371b1a8d898198c55e48f53094348f869294e71a7896dbbf713ec55ac0.png" />
+    </footer>
+</body>
+ 
+
+
+
+<script>
+  window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+  ga('create', 'UA-39115384-2', 'auto');
+  ga('send', 'pageview');
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+
+
+</html>
+
+

@@ -1,0 +1,1161 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"VgYHV1dVGwIBVFlVBQU="};window.NREUM||(NREUM={}),__nr_require=function(t,n,e){function r(e){if(!n[e]){var o=n[e]={exports:{}};t[e][0].call(o.exports,function(n){var o=t[e][1][n];return r(o||n)},o,o.exports)}return n[e].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<e.length;o++)r(e[o]);return r}({1:[function(t,n,e){function r(t){try{s.console&&console.log(t)}catch(n){}}var o,i=t("ee"),a=t(15),s={};try{o=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(s.console=!0,o.indexOf("dev")!==-1&&(s.dev=!0),o.indexOf("nr_dev")!==-1&&(s.nrDev=!0))}catch(c){}s.nrDev&&i.on("internal-error",function(t){r(t.stack)}),s.dev&&i.on("fn-err",function(t,n,e){r(e.stack)}),s.dev&&(r("NR AGENT IN DEVELOPMENT MODE"),r("flags: "+a(s,function(t,n){return t}).join(", ")))},{}],2:[function(t,n,e){function r(t,n,e,r,s){try{p?p-=1:o(s||new UncaughtException(t,n,e),!0)}catch(f){try{i("ierr",[f,c.now(),!0])}catch(d){}}return"function"==typeof u&&u.apply(this,a(arguments))}function UncaughtException(t,n,e){this.message=t||"Uncaught error with no additional information",this.sourceURL=n,this.line=e}function o(t,n){var e=n?null:c.now();i("err",[t,e])}var i=t("handle"),a=t(16),s=t("ee"),c=t("loader"),f=t("gos"),u=window.onerror,d=!1,l="nr@seenError",p=0;c.features.err=!0,t(1),window.onerror=r;try{throw new Error}catch(h){"stack"in h&&(t(8),t(7),"addEventListener"in window&&t(5),c.xhrWrappable&&t(9),d=!0)}s.on("fn-start",function(t,n,e){d&&(p+=1)}),s.on("fn-err",function(t,n,e){d&&!e[l]&&(f(e,l,function(){return!0}),this.thrown=!0,o(e))}),s.on("fn-end",function(){d&&!this.thrown&&p>0&&(p-=1)}),s.on("internal-error",function(t){i("ierr",[t,c.now(),!0])})},{}],3:[function(t,n,e){t("loader").features.ins=!0},{}],4:[function(t,n,e){function r(t){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var o=t("ee"),i=t("handle"),a=t(8),s=t(7),c="learResourceTimings",f="addEventListener",u="resourcetimingbufferfull",d="bstResource",l="resource",p="-start",h="-end",m="fn"+p,w="fn"+h,v="bstTimer",y="pushState",g=t("loader");g.features.stn=!0,t(6);var b=NREUM.o.EV;o.on(m,function(t,n){var e=t[0];e instanceof b&&(this.bstStart=g.now())}),o.on(w,function(t,n){var e=t[0];e instanceof b&&i("bst",[e,n,this.bstStart,g.now()])}),a.on(m,function(t,n,e){this.bstStart=g.now(),this.bstType=e}),a.on(w,function(t,n){i(v,[n,this.bstStart,g.now(),this.bstType])}),s.on(m,function(){this.bstStart=g.now()}),s.on(w,function(t,n){i(v,[n,this.bstStart,g.now(),"requestAnimationFrame"])}),o.on(y+p,function(t){this.time=g.now(),this.startPath=location.pathname+location.hash}),o.on(y+h,function(t){i("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),f in window.performance&&(window.performance["c"+c]?window.performance[f](u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["c"+c]()},!1):window.performance[f]("webkit"+u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["webkitC"+c]()},!1)),document[f]("scroll",r,{passive:!0}),document[f]("keypress",r,!1),document[f]("click",r,!1)}},{}],5:[function(t,n,e){function r(t){for(var n=t;n&&!n.hasOwnProperty(u);)n=Object.getPrototypeOf(n);n&&o(n)}function o(t){s.inPlace(t,[u,d],"-",i)}function i(t,n){return t[1]}var a=t("ee").get("events"),s=t(18)(a,!0),c=t("gos"),f=XMLHttpRequest,u="addEventListener",d="removeEventListener";n.exports=a,"getPrototypeOf"in Object?(r(document),r(window),r(f.prototype)):f.prototype.hasOwnProperty(u)&&(o(window),o(f.prototype)),a.on(u+"-start",function(t,n){var e=t[1],r=c(e,"nr@wrapped",function(){function t(){if("function"==typeof e.handleEvent)return e.handleEvent.apply(e,arguments)}var n={object:t,"function":e}[typeof e];return n?s(n,"fn-",null,n.name||"anonymous"):e});this.wrapped=t[1]=r}),a.on(d+"-start",function(t){t[1]=this.wrapped||t[1]})},{}],6:[function(t,n,e){var r=t("ee").get("history"),o=t(18)(r);n.exports=r,o.inPlace(window.history,["pushState","replaceState"],"-")},{}],7:[function(t,n,e){var r=t("ee").get("raf"),o=t(18)(r),i="equestAnimationFrame";n.exports=r,o.inPlace(window,["r"+i,"mozR"+i,"webkitR"+i,"msR"+i],"raf-"),r.on("raf-start",function(t){t[0]=o(t[0],"fn-")})},{}],8:[function(t,n,e){function r(t,n,e){t[0]=a(t[0],"fn-",null,e)}function o(t,n,e){this.method=e,this.timerDuration=isNaN(t[1])?0:+t[1],t[0]=a(t[0],"fn-",this,e)}var i=t("ee").get("timer"),a=t(18)(i),s="setTimeout",c="setInterval",f="clearTimeout",u="-start",d="-";n.exports=i,a.inPlace(window,[s,"setImmediate"],s+d),a.inPlace(window,[c],c+d),a.inPlace(window,[f,"clearImmediate"],f+d),i.on(c+u,r),i.on(s+u,o)},{}],9:[function(t,n,e){function r(t,n){d.inPlace(n,["onreadystatechange"],"fn-",s)}function o(){var t=this,n=u.context(t);t.readyState>3&&!n.resolved&&(n.resolved=!0,u.emit("xhr-resolved",[],t)),d.inPlace(t,y,"fn-",s)}function i(t){g.push(t),h&&(x?x.then(a):w?w(a):(E=-E,O.data=E))}function a(){for(var t=0;t<g.length;t++)r([],g[t]);g.length&&(g=[])}function s(t,n){return n}function c(t,n){for(var e in t)n[e]=t[e];return n}t(5);var f=t("ee"),u=f.get("xhr"),d=t(18)(u),l=NREUM.o,p=l.XHR,h=l.MO,m=l.PR,w=l.SI,v="readystatechange",y=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],g=[];n.exports=u;var b=window.XMLHttpRequest=function(t){var n=new p(t);try{u.emit("new-xhr",[n],n),n.addEventListener(v,o,!1)}catch(e){try{u.emit("internal-error",[e])}catch(r){}}return n};if(c(p,b),b.prototype=p.prototype,d.inPlace(b.prototype,["open","send"],"-xhr-",s),u.on("send-xhr-start",function(t,n){r(t,n),i(n)}),u.on("open-xhr-start",r),h){var x=m&&m.resolve();if(!w&&!m){var E=1,O=document.createTextNode(E);new h(a).observe(O,{characterData:!0})}}else f.on("fn-end",function(t){t[0]&&t[0].type===v||a()})},{}],10:[function(t,n,e){function r(t){var n=this.params,e=this.metrics;if(!this.ended){this.ended=!0;for(var r=0;r<d;r++)t.removeEventListener(u[r],this.listener,!1);if(!n.aborted){if(e.duration=a.now()-this.startTime,4===t.readyState){n.status=t.status;var i=o(t,this.lastSize);if(i&&(e.rxSize=i),this.sameOrigin){var c=t.getResponseHeader("X-NewRelic-App-Data");c&&(n.cat=c.split(", ").pop())}}else n.status=0;e.cbTime=this.cbTime,f.emit("xhr-done",[t],t),s("xhr",[n,e,this.startTime])}}}function o(t,n){var e=t.responseType;if("json"===e&&null!==n)return n;var r="arraybuffer"===e||"blob"===e||"json"===e?t.response:t.responseText;return h(r)}function i(t,n){var e=c(n),r=t.params;r.host=e.hostname+":"+e.port,r.pathname=e.pathname,t.sameOrigin=e.sameOrigin}var a=t("loader");if(a.xhrWrappable){var s=t("handle"),c=t(11),f=t("ee"),u=["load","error","abort","timeout"],d=u.length,l=t("id"),p=t(14),h=t(13),m=window.XMLHttpRequest;a.features.xhr=!0,t(9),f.on("new-xhr",function(t){var n=this;n.totalCbs=0,n.called=0,n.cbTime=0,n.end=r,n.ended=!1,n.xhrGuids={},n.lastSize=null,p&&(p>34||p<10)||window.opera||t.addEventListener("progress",function(t){n.lastSize=t.loaded},!1)}),f.on("open-xhr-start",function(t){this.params={method:t[0]},i(this,t[1]),this.metrics={}}),f.on("open-xhr-end",function(t,n){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&n.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),f.on("send-xhr-start",function(t,n){var e=this.metrics,r=t[0],o=this;if(e&&r){var i=h(r);i&&(e.txSize=i)}this.startTime=a.now(),this.listener=function(t){try{"abort"===t.type&&(o.params.aborted=!0),("load"!==t.type||o.called===o.totalCbs&&(o.onloadCalled||"function"!=typeof n.onload))&&o.end(n)}catch(e){try{f.emit("internal-error",[e])}catch(r){}}};for(var s=0;s<d;s++)n.addEventListener(u[s],this.listener,!1)}),f.on("xhr-cb-time",function(t,n,e){this.cbTime+=t,n?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof e.onload||this.end(e)}),f.on("xhr-load-added",function(t,n){var e=""+l(t)+!!n;this.xhrGuids&&!this.xhrGuids[e]&&(this.xhrGuids[e]=!0,this.totalCbs+=1)}),f.on("xhr-load-removed",function(t,n){var e=""+l(t)+!!n;this.xhrGuids&&this.xhrGuids[e]&&(delete this.xhrGuids[e],this.totalCbs-=1)}),f.on("addEventListener-end",function(t,n){n instanceof m&&"load"===t[0]&&f.emit("xhr-load-added",[t[1],t[2]],n)}),f.on("removeEventListener-end",function(t,n){n instanceof m&&"load"===t[0]&&f.emit("xhr-load-removed",[t[1],t[2]],n)}),f.on("fn-start",function(t,n,e){n instanceof m&&("onload"===e&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=a.now()))}),f.on("fn-end",function(t,n){this.xhrCbStart&&f.emit("xhr-cb-time",[a.now()-this.xhrCbStart,this.onload,n],n)})}},{}],11:[function(t,n,e){n.exports=function(t){var n=document.createElement("a"),e=window.location,r={};n.href=t,r.port=n.port;var o=n.href.split("://");!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=n.hostname||e.hostname,r.pathname=n.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname);var i=!n.protocol||":"===n.protocol||n.protocol===e.protocol,a=n.hostname===document.domain&&n.port===e.port;return r.sameOrigin=i&&(!n.hostname||a),r}},{}],12:[function(t,n,e){function r(){}function o(t,n,e){return function(){return i(t,[f.now()].concat(s(arguments)),n?null:this,e),n?void 0:this}}var i=t("handle"),a=t(15),s=t(16),c=t("ee").get("tracer"),f=t("loader"),u=NREUM;"undefined"==typeof window.newrelic&&(newrelic=u);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",p=l+"ixn-";a(d,function(t,n){u[n]=o(l+n,!0,"api")}),u.addPageAction=o(l+"addPageAction",!0),u.setCurrentRouteName=o(l+"routeName",!0),n.exports=newrelic,u.interaction=function(){return(new r).get()};var h=r.prototype={createTracer:function(t,n){var e={},r=this,o="function"==typeof n;return i(p+"tracer",[f.now(),t,e],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],e),o)try{return n.apply(this,arguments)}catch(t){throw c.emit("fn-err",[arguments,this,t],e),t}finally{c.emit("fn-end",[f.now()],e)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,n){h[n]=o(p+n)}),newrelic.noticeError=function(t){"string"==typeof t&&(t=new Error(t)),i("err",[t,f.now()])}},{}],13:[function(t,n,e){n.exports=function(t){if("string"==typeof t&&t.length)return t.length;if("object"==typeof t){if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if(!("undefined"!=typeof FormData&&t instanceof FormData))try{return JSON.stringify(t).length}catch(n){return}}}},{}],14:[function(t,n,e){var r=0,o=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);o&&(r=+o[1]),n.exports=r},{}],15:[function(t,n,e){function r(t,n){var e=[],r="",i=0;for(r in t)o.call(t,r)&&(e[i]=n(r,t[r]),i+=1);return e}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],16:[function(t,n,e){function r(t,n,e){n||(n=0),"undefined"==typeof e&&(e=t?t.length:0);for(var r=-1,o=e-n||0,i=Array(o<0?0:o);++r<o;)i[r]=t[n+r];return i}n.exports=r},{}],17:[function(t,n,e){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],18:[function(t,n,e){function r(t){return!(t&&t instanceof Function&&t.apply&&!t[a])}var o=t("ee"),i=t(16),a="nr@original",s=Object.prototype.hasOwnProperty,c=!1;n.exports=function(t,n){function e(t,n,e,o){function nrWrapper(){var r,a,s,c;try{a=this,r=i(arguments),s="function"==typeof e?e(r,a):e||{}}catch(f){l([f,"",[r,a,o],s])}u(n+"start",[r,a,o],s);try{return c=t.apply(a,r)}catch(d){throw u(n+"err",[r,a,d],s),d}finally{u(n+"end",[r,a,c],s)}}return r(t)?t:(n||(n=""),nrWrapper[a]=t,d(t,nrWrapper),nrWrapper)}function f(t,n,o,i){o||(o="");var a,s,c,f="-"===o.charAt(0);for(c=0;c<n.length;c++)s=n[c],a=t[s],r(a)||(t[s]=e(a,f?s+o:o,i,s))}function u(e,r,o){if(!c||n){var i=c;c=!0;try{t.emit(e,r,o,n)}catch(a){l([a,e,r,o])}c=i}}function d(t,n){if(Object.defineProperty&&Object.keys)try{var e=Object.keys(t);return e.forEach(function(e){Object.defineProperty(n,e,{get:function(){return t[e]},set:function(n){return t[e]=n,n}})}),n}catch(r){l([r])}for(var o in t)s.call(t,o)&&(n[o]=t[o]);return n}function l(n){try{t.emit("internal-error",n)}catch(e){}}return t||(t=o),e.inPlace=f,e.flag=a,e}},{}],ee:[function(t,n,e){function r(){}function o(t){function n(t){return t&&t instanceof r?t:t?c(t,s,i):i()}function e(e,r,o,i){if(!l.aborted||i){t&&t(e,r,o);for(var a=n(o),s=h(e),c=s.length,f=0;f<c;f++)s[f].apply(a,r);var d=u[y[e]];return d&&d.push([g,e,r,a]),a}}function p(t,n){v[t]=h(t).concat(n)}function h(t){return v[t]||[]}function m(t){return d[t]=d[t]||o(e)}function w(t,n){f(t,function(t,e){n=n||"feature",y[e]=n,n in u||(u[n]=[])})}var v={},y={},g={on:p,emit:e,get:m,listeners:h,context:n,buffer:w,abort:a,aborted:!1};return g}function i(){return new r}function a(){(u.api||u.feature)&&(l.aborted=!0,u=l.backlog={})}var s="nr@context",c=t("gos"),f=t(15),u={},d={},l=n.exports=o();l.backlog=u},{}],gos:[function(t,n,e){function r(t,n,e){if(o.call(t,n))return t[n];var r=e();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(t,n,e){function r(t,n,e,r){o.buffer([t],r),o.emit(t,n,e)}var o=t("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(t,n,e){function r(t){var n=typeof t;return!t||"object"!==n&&"function"!==n?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");n.exports=r},{}],loader:[function(t,n,e){function r(){if(!x++){var t=b.info=NREUM.info,n=l.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&n))return u.abort();f(y,function(n,e){t[n]||(t[n]=e)}),c("mark",["onload",a()+b.offset],null,"api");var e=l.createElement("script");e.src="https://"+t.agent,n.parentNode.insertBefore(e,n)}}function o(){"complete"===l.readyState&&i()}function i(){c("mark",["domContent",a()+b.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(s=Math.max((new Date).getTime(),s))-b.offset}var s=(new Date).getTime(),c=t("handle"),f=t(15),u=t("ee"),d=window,l=d.document,p="addEventListener",h="attachEvent",m=d.XMLHttpRequest,w=m&&m.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:m,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1071.min.js"},g=m&&w&&w[p]&&!/CriOS/.test(navigator.userAgent),b=n.exports={offset:s,now:a,origin:v,features:{},xhrWrappable:g};t(12),l[p]?(l[p]("DOMContentLoaded",i,!1),d[p]("load",r,!1)):(l[h]("onreadystatechange",o),d[h]("onload",r)),c("mark",["firstbyte",s],null,"api");var x=0,E=t(17)},{}]},{},["loader",2,10,4,3]);</script>
+<link rel="shortcut icon" href="http://mediad.publicbroadcasting.net/p/wncw/files/201504/favicon_fid.ico" type="image/vnd.microsoft.icon" />
+<meta name="description" content="Public Radio from Spindale, North Carolina. Your source for news and music." />
+<link rel="alternate" type="application/rss+xml" title="RSS Feed" href="http://www.wncw.org/rss.xml" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<meta name="google-site-verification" content="HqWjAo_eBEolctneCwBDkF4e7yvEyYXUoPbv_ZEbWy4" />
+    <title>WNCW | Listener-Powered Radio</title>
+    <link type="text/css" rel="stylesheet" href="http://www.wncw.org/sites/wncw.org/files/css/css_zXr1pRkjUmFHX10b6Pv5_DqzyewvdLNQ8QgccGQIRQQ.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://www.wncw.org/sites/wncw.org/files/css/css_ORgdWMaHtIe0Qt4dEtAemOdPbL8nFrdoUfM_xdCWsaE.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://www.wncw.org/sites/wncw.org/files/css/css_uY1_bHNTrAu2UuUwumZ6AuPc2Egu5fV5FiJ2-fv7ySk.css" media="all" />
+<style type="text/css" media="all">
+<!--/*--><![CDATA[/*><!--*/
+.header-region-outer{background-color:#40121D;}.branding .tagline{color:#DEDEDE;}.branding .listen-live-toggle > a,.branding .header-utility > a,.branding .header-utility > a.trigger-nav{color:#111111;}@media screen and (min-width:641px){.branding .trigger-nav{background:#777777;}}@media screen and (max-width:640px){.branding .header-utility > a.trigger-nav,.active-menu .branding .header-utility > a.trigger-nav{color:#777777;}}#listen-live .listen-live-toggle{background-color:#DEDEDE;}#listen-live .listen-live-btn{background-color:transparent;color:#111111;}@media screen and (min-width:640px){#listen-live .listen-live-btn{background-color:#DEDEDE;}}.branding .give{background:#E78D03;}
+
+/*]]>*/-->
+</style>
+<link type="text/css" rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato:300,700,700italic,900,italic,regular&amp;subset=latin" media="all" />
+<link type="text/css" rel="stylesheet" href="http://www.wncw.org/sites/wncw.org/files/css/css_daEdpEyAJIa8b2VkCqSKcw8PaExcB6Qro80XNes_sHA.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://www.wncw.org/sites/wncw.org/files/css/css_SWo6tZlpCPjnhbZDAS4xgnCAofi51J7pbtu4SD2fIug.css" media="all" />
+    <script type="text/javascript" src="http://mediad.publicbroadcasting.net/p/wncw/files/js/js_xSpMA4ArVcBKOZ43sPqNRk0gxQZdDVifw27pIUCzWU0.js"></script>
+<script type="text/javascript" src="http://mediad.publicbroadcasting.net/p/wncw/files/js/js_exlly3cT5PMwSjSPuLbcphgU2TQwPVE1zybxhKB1IOQ.js"></script>
+<script type="text/javascript" src="http://mediad.publicbroadcasting.net/p/wncw/files/js/js_f_6-OzlFXjayKlsU5sJKLwjz7LFQvdIZDm-Mt6jKwyM.js"></script>
+<script type="text/javascript" src="http://mediad.publicbroadcasting.net/p/wncw/files/js/js__4npt0PuTlrK-GkTl821OR8Eb7aiGB9GvsSeu1tr7U4.js"></script>
+<script type="text/javascript" src="//www.googletagservices.com/tag/js/gpt.js"></script>
+<script type="text/javascript" src="http://mediad.publicbroadcasting.net/p/wncw/files/js/js_vsuCmtvZ8XGzOEK_0SuuEvo5PAPrB2Z4NkZ40AYmF6w.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+(function() {var ga = document.createElement("script");ga.type = "text/javascript";ga.async = true;ga.src="//stream.publicbroadcasting.net/analytics/aamf.js";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(ga, s);})();
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"responso","theme_token":"GgEVtnsiB3HbE5LKgdm04Zo8yfhhD7R-C2xXlMugpkw","js":{"0":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery\/1.8\/jquery.min.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/custom\/responsive_utilities\/js\/vendor\/foundation\/foundation.js":1,"sites\/all\/modules\/custom\/responsive_utilities\/js\/vendor\/foundation\/foundation.topbar.js":1,"sites\/all\/modules\/contrib\/google_cse\/google_cse.js":1,"sites\/all\/modules\/custom\/pi_media_types\/pi_audio\/js\/pi-audio.js":1,"sites\/all\/modules\/custom\/pi_hull\/js\/pi-hull.js":1,"sites\/all\/modules\/custom\/pi_hull\/js\/jquery.innerfade.js":1,"sites\/all\/modules\/custom\/pi_hull\/jplayer\/js\/jquery.jplayer.min.js":1,"sites\/all\/modules\/custom\/pi_hull\/jplayer\/js\/main.js":1,"\/\/www.googletagservices.com\/tag\/js\/gpt.js":1,"sites\/all\/modules\/custom\/responsive_ads\/js\/main.js":1,"sites\/all\/modules\/custom\/responsive_utilities\/js\/vendor\/modernizr.js":1,"sites\/all\/modules\/custom\/responsive_utilities\/js\/vendor\/media.match.min.js":1,"sites\/all\/modules\/custom\/responsive_utilities\/js\/vendor\/matchMedia.addListener.js":1,"sites\/all\/modules\/custom\/responsive_utilities\/js\/vendor\/enquire.min.js":1,"sites\/all\/modules\/custom\/responsive_utilities\/js\/vendor\/fastclick.js":1,"sites\/all\/modules\/custom\/responsive_utilities\/js\/responsive-utilities.mediaqueries.js":1,"sites\/all\/modules\/custom\/responsive_utilities\/js\/responsive-utilities.scripts.js":1,"sites\/all\/modules\/custom\/responsive_utilities\/js\/responsive-utilities.responsiveimages.js":1,"sites\/all\/modules\/custom\/responsive_utilities\/js\/responsive-utilities.js":1,"sites\/all\/modules\/custom\/npr_river\/assets\/npr-river.js":1,"sites\/all\/modules\/custom\/pi_guide\/js\/pi_listenlive.js":1,"sites\/all\/modules\/custom\/block_factory\/treatments\/promotional-small\/promotional-small.js":1,"1":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"sites\/all\/modules\/custom\/community_calendar\/assets\/community-calendar.css":1,"sites\/all\/modules\/contrib\/date\/date_api\/date.css":1,"sites\/all\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/contrib\/google_cse\/google_cse.css":1,"modules\/node\/node.css":1,"sites\/all\/modules\/custom\/pi_hull\/pi_outrigger\/css\/pi_outrigger.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/custom\/pi_guide\/css\/pi_guide.css":1,"sites\/all\/modules\/custom\/pi_hull\/jplayer\/css\/jplayer.npr.css":1,"sites\/all\/modules\/custom\/pi_npr_story\/css\/pi_npr_story.css":1,"sites\/all\/modules\/custom\/pi_views\/pi_reports_views\/css\/pi_reports.css":1,"sites\/all\/modules\/custom\/pi_menus\/css\/flexiMenu.css":1,"sites\/all\/modules\/custom\/responsive_footer\/responsive-footer.admin.css":1,"0":1,"http:\/\/fonts.googleapis.com\/css?family=Lato:300,700,700italic,900,italic,regular\u0026subset=latin":1,"sites\/all\/modules\/custom\/block_factory\/treatments\/promotional-small\/promotional-small.css":1,"sites\/all\/modules\/custom\/block_factory\/treatments\/promotional-large\/promotional-large.css":1,"sites\/all\/themes\/responso\/css\/icon-fonts.css":1,"sites\/all\/themes\/responso\/css\/screen.css":1}},"googleCSE":{"cx":"010251366440257945544:h8ekqous3j4","language":"","resultsWidth":600,"domain":"www.google.com","showWaterMark":true},"responsive_ads":{"networkCode":"15462153","prefix":"WNCW","adUnitTypes":{"leaderboard":{"note":"Only shows above 1024; shows 970x90 or 728x90.","sizes":[{"viewportSize":[0,0],"slotSize":[]},{"viewportSize":[1024,200],"slotSize":[[970,90],[970,50],[728,90]]}]},"medium":{"note":"Won't be served on screens smaller than 640x480.","sizes":[{"viewportSize":[0,0],"slotSize":[]},{"viewportSize":[640,200],"slotSize":[300,250]}]},"tablet":{"note":"Won't be served on screens smaller than 640x480 or larger than 1024x768","sizes":[{"viewportSize":[0,0],"slotSize":[]},{"viewportSize":[640,200],"slotSize":[728,90]},{"viewportSize":[1024,200],"slotSize":[]}]},"mobile":{"note":"Won't be served on screens larger than 640x480.","sizes":[{"viewportSize":[0,0],"slotSize":[320,50]},{"viewportSize":[640,200],"slotSize":[]}]}},"adUnits":[{"name":"leaderboard_1","type":"leaderboard","width":728,"height":90},{"name":"player_display","type":"leaderboard","width":728,"height":90},{"name":"medium_1","type":"medium","width":300,"height":250},{"name":"medium_2","type":"medium","width":300,"height":250},{"name":"medium_3","type":"medium","width":300,"height":250},{"name":"tablet_1","type":"tablet","width":728,"height":90},{"name":"mobile_1","type":"mobile","width":320,"height":50}],"placements":{"leaderboard_1":"main#content","medium_1":"#block-pi-responsive-ads-medium-1 .content","medium_2":"#block-pi-responsive-ads-medium-2 .content","medium_3":"#block-pi-responsive-ads-medium-3 .content","tablet_1":"main#content","mobile_1":"#block-pi-responsive-ads-mobile-1 .content"},"persistentPlacements":[],"targeting":{"type":"agg","agg":"homepage"}},"tms_meta":[],"streamCount":1,"streams":[{"stream_mp3":"\/listen-live","popup":"1","width":"1000","height":"1000","display":"1","weight":"0","streamName":"wncw","description":"Listen Live","ucs":"5187f56de1c8c6a808e91b8d"},{"stream_mp3":"\/listen-live","popup":"1","width":"1000","height":"1000","display":"1","weight":"0","streamName":"wncw","description":"Listen Live","ucs":"5187f56de1c8c6a808e91b8d"}],"responsive_utilities":{"body_classes":"html front not-logged-in no-sidebars page-homepage fixed-header","custom_vars":{"nid":{"name":"nid","slot":8,"scope_id":3},"pop":{"name":"pop","slot":9,"scope_id":3},"author":{"name":"author","slot":11,"scope_id":3},"keywords":{"name":"tags","slot":12,"scope_id":3},"org_id":{"name":"org_id","slot":13,"scope_id":3},"brand":{"name":"CP_Station","slot":14,"scope_id":2},"has_audio":{"name":"Has_Inline_Audio","slot":15,"scope_id":3},"programs":{"name":"Program","slot":16,"scope_id":3},"category":{"name":"Category","slot":10,"scope_id":3},"datePublished":{"name":"PublishedDate","slot":17,"scope_id":3},"wordCount":{"name":"WordCount","slot":18,"scope_id":3},"story_id":{"name":"API_Story_Id","slot":19,"scope_id":3},"pmp_guid":{"name":"pmp_guid","slot":20,"scope_id":3}},"pagetype_vars":[{"page_type":"Content\/About","regex_pattern":"\/about(-us)?\/?$","pattern_name":"Core Publisher About Page"},{"page_type":"Events","regex_pattern":"\/events(\/|$)","pattern_name":"Core Publisher Events Page"},{"page_type":"People","regex_pattern":"\/people(\/|$)","pattern_name":"Core Publisher People Page"},{"page_type":"Playlist","regex_pattern":"\/search_playlists\/?$","pattern_name":"Core Publisher Playlist Page"},{"page_type":"Program","regex_pattern":"\/programs(\/|$)","pattern_name":"Core Publisher Program Page"},{"page_type":"Schedule","regex_pattern":"\/schedule(\/|$)","pattern_name":"Core Publisher Schedule Page"},{"page_type":"Search","regex_pattern":"\/search\/google\/?","pattern_name":"Core Publisher Search GSA Page"},{"page_type":"Story","regex_pattern":"\/post\/|\/webclip\/","pattern_name":"Core Publisher Story Page"},{"page_type":"Streaming","regex_pattern":"\/listen(-live)?\/?(#|$)","pattern_name":"Core Publisher Listen Live Page"}],"media_queries":{"mobile":"all and (max-width: 40em)","tablet":"screen and (min-width: 40.063em) and (max-width: 64em)","desktop":"screen and (min-width: 64.063em)"}}});
+//--><!]]>
+</script>
+    <meta name="viewport" content="width=device-width">
+  </head>
+
+  <body class="html front not-logged-in page-homepage fixed-header has-sidebar" >
+    <header role="banner" class="header">
+  <div class="skiptocontent"><a href="#main-content">skip to main content</a></div>
+    <div class="region region-header">
+    <div id="block-baby-bear-baby-bear-header" class="block block-baby-bear">
+
+    
+  <div class="content">
+    
+<div class="header-region-outer">
+  <section class="header-region-inner row">
+    <div class="branding large-12 columns">
+      <div class="brand-inner-wrapper">
+        <a href="/" rel="home" class="logo" title="WNCW Home"><img typeof="foaf:Image" src="http://mediad.publicbroadcasting.net/p/wncw/files/201504/logo_fid.png" alt="WNCW logo" title="WNCW Home" /></a>         <div class="tagline">
+          Charlotte 101.3fm - Greenville 97.3fm Boone 92.9fm - WSIF Wilkesboro 90.9fm        </div>
+      </div>
+      <div class="header-utility">
+        <a class="trigger-nav" href="#">
+          <span class="icon-list"></span>
+          <span class="menu-text">Site Menu</span>
+        </a>
+        <a class="give" href="http://support.wncw.org/thankyougifts" >
+  Donate</a>
+      </div>
+    </div>
+  </section>
+</div>
+  </div>
+</div>
+  </div>
+</header>
+    <div class="nav-wrapper mobile">
+      <nav>
+        <div class="top-bar contain-to-grid" data-topbar>
+          <ul class="title-area">
+            <li class="toggle-topbar menu-icon">
+              <a href="#">Menu</a>
+            </li>
+          </ul>
+          <section class="top-bar-section">
+            <div class="table-queue" id="table-queue-fleximenu">
+  <ul  class="menu dropdown">
+<li class="active">
+<a href="/" class="active">Home</a>
+</li>
+<li class="dd has-dropdown not-click">
+<a href="/programming">Programming</a>
+<ul  class="dropdown">
+<li class="left">
+<a href="/people/capacity/hosts">Hosts</a>
+</li>
+<li class="left">
+<a href="http://wncw.org/new-releases-currently-being-featured-wncw">New Releases</a>
+</li>
+<li class="left">
+<a href="/playlist-search">Playlists</a>
+</li>
+<li class="left">
+<a href="/programs">Programs</a>
+</li>
+<li class="left">
+<a href="/schedule/week">Schedule</a>
+</li>
+<li class="left">
+<a href="http://wncw.org/term/studio-b">Studio B</a>
+</li>
+<li class="left">
+<a href="http://wncw.org/top-100-results">Top 100 Results</a>
+</li>
+</ul>
+</li>
+<li class="dd has-dropdown not-click">
+<a href="/support-0">Support</a>
+<ul  class="dropdown">
+<li class="left">
+<a href="http://support.wncw.org/thankyougifts">Membership - Donate/Payments</a>
+</li>
+<li class="left">
+<a href="http://www.membercard.com/wncw/">MemberCard Benefits</a>
+</li>
+<li class="left">
+<a href="/business-underwriting">Business Underwriting</a>
+</li>
+<li class="left">
+<a href="/media-sponsorship-application">Media Sponsorships</a>
+</li>
+<li class="left">
+<a href="/music-event-underwriting">Music Event Underwriting</a>
+</li>
+<li class="left">
+<a href="/planned-giving-give-lasting-gift-public-radio">Planned Giving</a>
+</li>
+<li class="left">
+<a href="http://wncw.org/paynow">Underwriters - Pay Online</a>
+</li>
+<li class="left">
+<a href="/vehicle-donation">Vehicle Donation</a>
+</li>
+<li class="left">
+<a href="/Volunteer">Volunteer</a>
+</li>
+</ul>
+</li>
+<li>
+<a href="/news">WNCW News</a>
+</li>
+<li class="dd has-dropdown not-click">
+<a href="/contact">Contact</a>
+<ul  class="dropdown">
+<li class="left">
+<a href="/people/capacity/staff">Staff</a>
+</li>
+<li class="left">
+<a href="/directions-wncw">Directions</a>
+</li>
+</ul>
+</li>
+<li>
+<a href="http://wncw.org/community-calendar">Events Calendar</a>
+</li>
+<li>
+<a href="http://wncw.org/current-giveaways">Giveaways</a>
+</li>
+<li>
+<a href="http://wncw.org/request">Request a Song</a>
+</li>
+<li>
+<a href="/search/google">Search</a>
+</li>
+</ul>
+</div>
+          </section>
+        </div>
+      </nav>
+    </div>
+        <div id="page-wrapper">
+            <div id="page-document" role="document" class="page">
+  <div class="nav-wrapper">
+    <nav>
+      <div class="top-bar contain-to-grid" data-topbar>
+        <ul class="title-area">
+          <li class="toggle-topbar menu-icon">
+            <a href="#">Menu</a>
+          </li>
+        </ul>
+        <section class="top-bar-section">
+          <div class="table-queue" id="table-queue-fleximenu">
+  <ul  class="menu dropdown">
+<li class="active">
+<a href="/" class="active">Home</a>
+</li>
+<li class="dd has-dropdown not-click">
+<a href="/programming">Programming</a>
+<ul  class="dropdown">
+<li class="left">
+<a href="/people/capacity/hosts">Hosts</a>
+</li>
+<li class="left">
+<a href="http://wncw.org/new-releases-currently-being-featured-wncw">New Releases</a>
+</li>
+<li class="left">
+<a href="/playlist-search">Playlists</a>
+</li>
+<li class="left">
+<a href="/programs">Programs</a>
+</li>
+<li class="left">
+<a href="/schedule/week">Schedule</a>
+</li>
+<li class="left">
+<a href="http://wncw.org/term/studio-b">Studio B</a>
+</li>
+<li class="left">
+<a href="http://wncw.org/top-100-results">Top 100 Results</a>
+</li>
+</ul>
+</li>
+<li class="dd has-dropdown not-click">
+<a href="/support-0">Support</a>
+<ul  class="dropdown">
+<li class="left">
+<a href="http://support.wncw.org/thankyougifts">Membership - Donate/Payments</a>
+</li>
+<li class="left">
+<a href="http://www.membercard.com/wncw/">MemberCard Benefits</a>
+</li>
+<li class="left">
+<a href="/business-underwriting">Business Underwriting</a>
+</li>
+<li class="left">
+<a href="/media-sponsorship-application">Media Sponsorships</a>
+</li>
+<li class="left">
+<a href="/music-event-underwriting">Music Event Underwriting</a>
+</li>
+<li class="left">
+<a href="/planned-giving-give-lasting-gift-public-radio">Planned Giving</a>
+</li>
+<li class="left">
+<a href="http://wncw.org/paynow">Underwriters - Pay Online</a>
+</li>
+<li class="left">
+<a href="/vehicle-donation">Vehicle Donation</a>
+</li>
+<li class="left">
+<a href="/Volunteer">Volunteer</a>
+</li>
+</ul>
+</li>
+<li>
+<a href="/news">WNCW News</a>
+</li>
+<li class="dd has-dropdown not-click">
+<a href="/contact">Contact</a>
+<ul  class="dropdown">
+<li class="left">
+<a href="/people/capacity/staff">Staff</a>
+</li>
+<li class="left">
+<a href="/directions-wncw">Directions</a>
+</li>
+</ul>
+</li>
+<li>
+<a href="http://wncw.org/community-calendar">Events Calendar</a>
+</li>
+<li>
+<a href="http://wncw.org/current-giveaways">Giveaways</a>
+</li>
+<li>
+<a href="http://wncw.org/request">Request a Song</a>
+</li>
+<li>
+<a href="/search/google">Search</a>
+</li>
+</ul>
+</div>
+        </section>
+      </div>
+    </nav>
+  </div>
+
+  <div id="player" class="player">
+    <div id="listen-live" class="listen-live">
+   <div class="listen-live-toggle"><a class="listen-live-btn" href="#"><span class="icon-arrow"></span>Listen Live </a></div>
+  <ul id="on-air-items" class="no-bullet">
+        		<li class="listen-live-streams">
+      <a target="_blank" id="now-on-0" href="/listen-live" class="xpopup">
+        <div class="stream_name">Listen Live</div>
+        <div class="program-text" ></div>
+      </a>
+    </li>
+
+    </ul>
+</div>
+  </div>
+
+  
+  
+  
+  
+  <div class="row">
+    <main id="content" role="main" class="main-content small-12 columns">
+      <article class="story">
+        <a id="main-content"></a>
+        
+                                    
+        
+                  <div class="regions-ab-outer">
+            <div class="regions-ab-inner">
+        
+                  <div class="region-a">
+              <div class="region region-region-a">
+    <div id="block-block-factory-block-factory-5b3a57e4e8710" class="block block-block-factory">
+
+    <h2 class="block-title">Online Ticket Giveaways</h2>
+  
+  <div class="content">
+    <style type="text/css">#promo-large-5b3a57e4e8710 .promo-large-treatment { background-color: #D4D4D4; } #promo-large-5b3a57e4e8710 .promo-large-heading { color: #000000; } #promo-large-5b3a57e4e8710 .promo-large-heading a { color: #000000; } #promo-large-5b3a57e4e8710 .promo-large-teaser { color: #000000; } #promo-large-5b3a57e4e8710 .promo-large-cta { border-color: #000000; color: #000000; opacity: 1; transition: all .15s ease; } #promo-large-5b3a57e4e8710 .promo-large-cta:hover { color: #000000; opacity: 0.65; }</style><div id="promo-large-5b3a57e4e8710">
+  <div class="promo-large-treatment clearfix" >
+      <figure class="promo-large-image">
+      <a href="http://www.wncw.org/giveaways" class="linked-image"><img typeof="foaf:Image" src="http://mediad.publicbroadcasting.net/p/wncw/files/styles/large/public/201808/gives_8.23.png" alt="" /></a>    </figure>
+  
+      <div class="promo-large-text-wrapper">
+      
+              <p class="promo-large-teaser">Alison Krauss | National Geographic Live | Brandi Carlile | Meet & Greet: Mountain Faith | Meet & Greet: Little Roy and Lizzy</p>
+      
+              <div class="promo-large-cta-wrapper">
+          <a href="http://www.wncw.org/giveaways" class="promo-large-cta">Enter To Win Online</a>        </div>
+          </div>
+    </div>
+</div>  </div>
+</div>
+<div id="block-block-factory-block-factory-55393e758e5a3" class="block block-block-factory">
+
+    <h2 class="block-title">STUDIO B - PRESENTED BY SIERRA NEVADA</h2>
+  
+  <div class="content">
+    <style type="text/css">#promo-small-55393e758e5a3 .promo-small-treatment { background-color: #222E26; } #promo-small-55393e758e5a3 .promo-small-heading { color: #E0E0E0; } #promo-small-55393e758e5a3 .promo-small-heading a { color: #E0E0E0; } #promo-small-55393e758e5a3 .promo-small-teaser { color: #E0E0E0; } #promo-small-55393e758e5a3 .promo-small-cta { border-color: #E0E0E0; color: #E0E0E0; opacity: 1; transition: all .15s ease; } #promo-small-55393e758e5a3 .promo-small-cta:hover { color: #E0E0E0; opacity: 0.6; }</style><div id="promo-small-55393e758e5a3">
+  <div class="promo-small-treatment clearfix" >
+          <figure class="promo-small-image">
+        <a href="http://www.sierranevada.com/" class="linked-image"><img typeof="foaf:Image" src="http://mediad.publicbroadcasting.net/p/wncw/files/styles/medium/public/201703/sierra_nevada_logo_2017.jpg" alt="" /></a>      </figure>
+    
+        <div class="promo-small-text-wrapper">
+              <h2 class="promo-small-heading"><a href="http://www.sierranevada.com/">Sierra Nevada Presents Studio B</a></h2>
+      
+      
+            </div>
+      </div>
+</div>
+  </div>
+</div>
+<div id="block-block-factory-block-factory-55393f3140cc9" class="block block-block-factory">
+
+    
+  <div class="content">
+    <div class="three-stories-treatment bf-outer-wrapper clearfix">
+  <div class="bf-inner-wrapper bf-hero">
+      <figure class="bf-image-wrapper  with-image">
+    <a href="/post/elonzo-wesley-live-friday-august-24th-between-11am-noon">
+<div class="card-image-container">
+  <figure>
+    <a title="" href="/post/elonzo-wesley-live-friday-august-24th-between-11am-noon" class="noexit">
+    <img class="multiple" src="http://mediad.publicbroadcasting.net/p/wncw/files/styles/medium/public/201808/elonzo_wesley.jpg" alt="Elonzo Wesley">
+          </a>
+
+      </figure>
+</div>
+</a>  </figure>
+
+<div class="bf-text-wrapper  with-image">
+  <h2 class="bf-post-title"><a href="/post/elonzo-wesley-live-friday-august-24th-between-11am-noon">Elonzo Wesley Live Friday August 24th between 11am & Noon</a></h2>
+  <div class="bf-body">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>Named after frontman Jeremy Davis' father, this Charlotte band was formerly more of an indie rock band under the name Elonzo. Davis now performs with a string band. After Studio B Friday morning, they head to CLT's Live on the Green for an evening with Front Country. They also play Boone on Saturday, and Saluda, NC on Thursday the 30th. Read more about Elonzo Wesley.</p></div></div></div>  </div>
+
+  <a href="/post/elonzo-wesley-live-friday-august-24th-between-11am-noon" class="bf-read-more">Read More</a>
+</div>
+
+<div class="content  with-image">
+  </div>
+  </div>
+  <div class="bf-inner-wrapper bf-sidekick-group">
+    <div class="bf-sidekick">
+        <figure class="bf-image-wrapper  with-image">
+    <a href="/post/slocan-ramblers-live-friday-august-24th-between-4-and-5pm">
+<div class="card-image-container">
+  <figure>
+    <a title="" href="/post/slocan-ramblers-live-friday-august-24th-between-4-and-5pm" class="noexit">
+    <img class="multiple" src="http://mediad.publicbroadcasting.net/p/wncw/files/styles/medium/public/201808/Slocan.jpg" alt="Slocan Ramblers">
+          </a>
+
+      </figure>
+</div>
+</a>  </figure>
+
+<h2 class="bf-post-title  with-image"><a href="/post/slocan-ramblers-live-friday-august-24th-between-4-and-5pm">Slocan Ramblers Live Friday August 24th between 4 and 5pm</a></h2>
+
+<div class="content">
+  </div>
+    </div>
+    <div class="bf-sidekick">
+          </div>
+  </div>
+</div>
+  </div>
+</div>
+<div id="block-block-factory-block-factory-5717dee95d018" class="block block-block-factory">
+
+    <h2 class="block-title">News</h2>
+  
+  <div class="content">
+    <div class="three-stories-treatment bf-outer-wrapper clearfix">
+  <div class="bf-inner-wrapper bf-hero">
+      <figure class="bf-image-wrapper  with-image">
+    <a href="/post/tall-grass-sunday-aug-26th-town-mountain-peter-rowan-kathy-kallick-cleverlys">
+<div class="card-image-container">
+  <figure>
+    <a title="Vicki Dameron" href="/post/tall-grass-sunday-aug-26th-town-mountain-peter-rowan-kathy-kallick-cleverlys" class="noexit">
+    <img class="multiple" src="http://mediad.publicbroadcasting.net/p/wncw/files/styles/medium/public/201808/tall_grass_cropped_4_018_by_vicki_dameron__1_of_1__0.jpg" alt="Image of man walking in tall grass, wearing a hat and carrying a banjo">
+          </a>
+
+        <div class="image-meta">
+      <figcaption>
+        <div class="credit">
+          Vicki Dameron        </div>
+      </figcaption>
+    </div>
+      </figure>
+</div>
+</a>  </figure>
+
+<div class="bf-text-wrapper  with-image">
+  <h2 class="bf-post-title"><a href="/post/tall-grass-sunday-aug-26th-town-mountain-peter-rowan-kathy-kallick-cleverlys">The Tall Grass SUNDAY, Aug. 26th TOWN MOUNTAIN | PETER ROWAN | KATHY KALLICK | THE CLEVERLYS </a></h2>
+  <div class="bf-body">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>Some great new tunes in The Tall Grass this week including music from Town Mountain, Peter Rowan, brand new tunes from Kathy Kallick, the Cleverlys plus a lot more. Come take a stroll with us in The Tall Grass, Sunday Evenings at 6pm with Host Joe Greene.</p></div></div></div>  </div>
+
+  <a href="/post/tall-grass-sunday-aug-26th-town-mountain-peter-rowan-kathy-kallick-cleverlys" class="bf-read-more">Read More</a>
+</div>
+
+<div class="content  with-image">
+  </div>
+  </div>
+  <div class="bf-inner-wrapper bf-sidekick-group">
+    <div class="bf-sidekick">
+        <figure class="bf-image-wrapper  with-image">
+    <a href="/post/jam-trees-august-24-25">
+<div class="card-image-container">
+  <figure>
+    <a title="" href="/post/jam-trees-august-24-25" class="noexit">
+    <img class="multiple" src="http://mediad.publicbroadcasting.net/p/wncw/files/styles/medium/public/201808/jam_in_the_trees.jpg" alt="Jam in the Trees">
+          </a>
+
+      </figure>
+</div>
+</a>  </figure>
+
+<h2 class="bf-post-title  with-image"><a href="/post/jam-trees-august-24-25">Jam in the Trees August 24 & 25</a></h2>
+
+<div class="content">
+  </div>
+    </div>
+    <div class="bf-sidekick">
+        <figure class="bf-image-wrapper  with-image">
+    <a href="/post/goin-across-mountain-saturday-aug-25th-jd-crowe-carter-stanley-clay-hess-band">
+<div class="card-image-container">
+  <figure>
+    <a title="Clay Hess Band" href="/post/goin-across-mountain-saturday-aug-25th-jd-crowe-carter-stanley-clay-hess-band" class="noexit">
+    <img class="multiple" src="http://mediad.publicbroadcasting.net/p/wncw/files/styles/medium/public/201808/clay_hess_just_another_story.jpg" alt="album cover of band sitting in chairs">
+          </a>
+
+        <div class="image-meta">
+      <figcaption>
+        <div class="credit">
+          Clay Hess Band        </div>
+      </figcaption>
+    </div>
+      </figure>
+</div>
+</a>  </figure>
+
+<h2 class="bf-post-title  with-image"><a href="/post/goin-across-mountain-saturday-aug-25th-jd-crowe-carter-stanley-clay-hess-band">Goin' Across The Mountain  SATURDAY Aug. 25th - JD CROWE | CARTER STANLEY | CLAY HESS BAND </a></h2>
+
+<div class="content">
+  </div>
+    </div>
+  </div>
+</div>
+  </div>
+</div>
+<div id="block-block-factory-block-factory-55393f8e76e9c" class="block block-block-factory">
+
+    <h2 class="block-title">New Tunes At Two</h2>
+  
+  <div class="content">
+    <style type="text/css">#promo-small-55393f8e76e9c .promo-small-treatment { background-color: #E6810D; } #promo-small-55393f8e76e9c .promo-small-heading { color: #404040; } #promo-small-55393f8e76e9c .promo-small-heading a { color: #404040; } #promo-small-55393f8e76e9c .promo-small-teaser { color: #404040; } #promo-small-55393f8e76e9c .promo-small-cta { border-color: #404040; color: #404040; opacity: 1; transition: all .15s ease; } #promo-small-55393f8e76e9c .promo-small-cta:hover { color: #404040; opacity: 0.6; }</style><div id="promo-small-55393f8e76e9c">
+  <div class="promo-small-treatment clearfix" >
+    
+        <div class="promo-small-text-wrapper">
+              <h2 class="promo-small-heading">New Tunes At Two </h2>
+      
+      
+            </div>
+      </div>
+</div>
+  </div>
+</div>
+<div id="block-block-factory-block-factory-55393ff2db8f8" class="block block-block-factory">
+
+    
+  <div class="content">
+    <style type="text/css">#promo-small-55393ff2db8f8 .promo-small-treatment { background-color: #FFFFFF; } #promo-small-55393ff2db8f8 .promo-small-heading { color: #404040; } #promo-small-55393ff2db8f8 .promo-small-heading a { color: #404040; } #promo-small-55393ff2db8f8 .promo-small-teaser { color: #404040; } #promo-small-55393ff2db8f8 .promo-small-cta { border-color: #404040; color: #404040; opacity: 1; transition: all .15s ease; } #promo-small-55393ff2db8f8 .promo-small-cta:hover { color: #404040; opacity: 0.6; }</style><div id="promo-small-55393ff2db8f8">
+  <div class="promo-small-treatment clearfix" >
+          <figure class="promo-small-image">
+        <a href="/" class="linked-image"><img typeof="foaf:Image" src="http://mediad.publicbroadcasting.net/p/wncw/files/styles/medium/public/201808/roger_miller_tribute.jpg" alt="" /></a>      </figure>
+    
+        <div class="promo-small-text-wrapper">
+              <h2 class="promo-small-heading">Monday, August 20</h2>
+      
+              <p class="promo-small-teaser">King of the Road: A Tribute to Roger Miller</p>
+      
+            </div>
+      </div>
+</div>
+  </div>
+</div>
+<div id="block-block-factory-block-factory-55393ffb2c10b" class="block block-block-factory">
+
+    
+  <div class="content">
+    <style type="text/css">#promo-small-55393ffb2c10b .promo-small-treatment { background-color: #FFFFFF; } #promo-small-55393ffb2c10b .promo-small-heading { color: #404040; } #promo-small-55393ffb2c10b .promo-small-heading a { color: #404040; } #promo-small-55393ffb2c10b .promo-small-teaser { color: #404040; } #promo-small-55393ffb2c10b .promo-small-cta { border-color: #404040; color: #404040; opacity: 1; transition: all .15s ease; } #promo-small-55393ffb2c10b .promo-small-cta:hover { color: #404040; opacity: 0.6; }</style><div id="promo-small-55393ffb2c10b">
+  <div class="promo-small-treatment clearfix" >
+          <figure class="promo-small-image">
+        <a href="/" class="linked-image"><img typeof="foaf:Image" src="http://mediad.publicbroadcasting.net/p/wncw/files/styles/medium/public/201808/kate_campbell_damn_sure_blue.jpg" alt="" /></a>      </figure>
+    
+        <div class="promo-small-text-wrapper">
+              <h2 class="promo-small-heading">Tuesday, August 21</h2>
+      
+              <p class="promo-small-teaser">Kate Campbell - Damn Sure Blue</p>
+      
+            </div>
+      </div>
+</div>
+  </div>
+</div>
+<div id="block-block-factory-block-factory-553940b6ed0f2" class="block block-block-factory">
+
+    
+  <div class="content">
+    <style type="text/css">#promo-small-553940b6ed0f2 .promo-small-treatment { background-color: #FFFFFF; } #promo-small-553940b6ed0f2 .promo-small-heading { color: #404040; } #promo-small-553940b6ed0f2 .promo-small-heading a { color: #404040; } #promo-small-553940b6ed0f2 .promo-small-teaser { color: #404040; } #promo-small-553940b6ed0f2 .promo-small-cta { border-color: #404040; color: #404040; opacity: 1; transition: all .15s ease; } #promo-small-553940b6ed0f2 .promo-small-cta:hover { color: #404040; opacity: 0.6; }</style><div id="promo-small-553940b6ed0f2">
+  <div class="promo-small-treatment clearfix" >
+          <figure class="promo-small-image">
+        <a href="/" class="linked-image"><img typeof="foaf:Image" src="http://mediad.publicbroadcasting.net/p/wncw/files/styles/medium/public/201808/alejandro_escovedo_crossing.jpg" alt="" /></a>      </figure>
+    
+        <div class="promo-small-text-wrapper">
+              <h2 class="promo-small-heading">Wednesday, August 22</h2>
+      
+              <p class="promo-small-teaser">Alejandro Escovedo – The Crossing</p>
+      
+            </div>
+      </div>
+</div>
+  </div>
+</div>
+<div id="block-block-factory-block-factory-553940d885c37" class="block block-block-factory">
+
+    
+  <div class="content">
+    <style type="text/css">#promo-small-553940d885c37 .promo-small-treatment { background-color: #FFFFFF; } #promo-small-553940d885c37 .promo-small-heading { color: #404040; } #promo-small-553940d885c37 .promo-small-heading a { color: #404040; } #promo-small-553940d885c37 .promo-small-teaser { color: #404040; } #promo-small-553940d885c37 .promo-small-cta { border-color: #404040; color: #404040; opacity: 1; transition: all .15s ease; } #promo-small-553940d885c37 .promo-small-cta:hover { color: #404040; opacity: 0.6; }</style><div id="promo-small-553940d885c37">
+  <div class="promo-small-treatment clearfix" >
+          <figure class="promo-small-image">
+        <a href="/" class="linked-image"><img typeof="foaf:Image" src="http://mediad.publicbroadcasting.net/p/wncw/files/styles/medium/public/201808/richard_thompson_13.jpg" alt="" /></a>      </figure>
+    
+        <div class="promo-small-text-wrapper">
+              <h2 class="promo-small-heading">Thursday, August 23</h2>
+      
+              <p class="promo-small-teaser">Richard Thompson – 13 Rivers</p>
+      
+            </div>
+      </div>
+</div>
+  </div>
+</div>
+<div id="block-block-factory-block-factory-555e3ebe5a350" class="block block-block-factory">
+
+    <h2 class="block-title">Peak of the Week: Every Thursday at 9 PM Sample A New Release</h2>
+  
+  <div class="content">
+    <style type="text/css">#promo-large-555e3ebe5a350 .promo-large-treatment { background-color: #E0E0E0; } #promo-large-555e3ebe5a350 .promo-large-heading { color: #404040; } #promo-large-555e3ebe5a350 .promo-large-heading a { color: #404040; } #promo-large-555e3ebe5a350 .promo-large-teaser { color: #404040; } #promo-large-555e3ebe5a350 .promo-large-cta { border-color: #404040; color: #404040; opacity: 1; transition: all .15s ease; } #promo-large-555e3ebe5a350 .promo-large-cta:hover { color: #404040; opacity: 0.65; }</style><div id="promo-large-555e3ebe5a350">
+  <div class="promo-large-treatment clearfix" >
+      <figure class="promo-large-image">
+      <a href="/" class="linked-image"><img typeof="foaf:Image" src="http://mediad.publicbroadcasting.net/p/wncw/files/styles/large/public/201808/travelin__mccourys.jpg" alt="" /></a>    </figure>
+  
+      <div class="promo-large-text-wrapper">
+              <h2 class="promo-large-heading">Thursday, August 23: Travelin’ McCourys – (self-titled) </h2>
+      
+              <p class="promo-large-teaser">Clever cover choices, and of course impeccable musicianship, from this band that we’ll catch at Black Mountain’s “Jam in the Trees” this Saturday!</p>
+      
+          </div>
+    </div>
+</div>  </div>
+</div>
+  </div>
+          </div>
+        
+                  <div class="region-b">
+              <div class="region region-region-b">
+    <div id="block-block-factory-block-factory-553948c4254ca" class="block block-block-factory">
+
+    <h2 class="block-title">Now Playing</h2>
+  
+  <div class="content">
+    <style type="text/css">#promo-small-553948c4254ca .promo-small-treatment { background-color: #E0E0E0; } #promo-small-553948c4254ca .promo-small-heading { color: #404040; } #promo-small-553948c4254ca .promo-small-heading a { color: #404040; } #promo-small-553948c4254ca .promo-small-teaser { color: #404040; } #promo-small-553948c4254ca .promo-small-cta { border-color: #404040; color: #404040; opacity: 1; transition: all .15s ease; } #promo-small-553948c4254ca .promo-small-cta:hover { color: #404040; opacity: 0.6; }</style><div id="promo-small-553948c4254ca">
+  <div class="promo-small-treatment clearfix" >
+    
+        <div class="promo-small-text-wrapper">
+      
+              <p class="promo-small-teaser">  <iframe src="http://composer.nprstations.org/widgets/iframe/now.html?station=5187f56de1c8c6a808e91b8d" width="100%" height="200" frameborder="0" seamless></iframe>   </p>
+      
+              <div class="promo-small-cta-wrapper">
+          <a href="http://wncw.org/listen-live" class="promo-small-cta">Listen Live</a>        </div>
+            </div>
+      </div>
+</div>
+  </div>
+</div>
+<div id="block-block-factory-block-factory-55394b1e1c72e" class="block block-block-factory">
+
+    
+  <div class="content">
+    <style type="text/css">#promo-large-55394b1e1c72e .promo-large-treatment { background-color: #404040; } #promo-large-55394b1e1c72e .promo-large-heading { color: #E0E0E0; } #promo-large-55394b1e1c72e .promo-large-heading a { color: #E0E0E0; } #promo-large-55394b1e1c72e .promo-large-teaser { color: #E0E0E0; } #promo-large-55394b1e1c72e .promo-large-cta { border-color: #E0E0E0; color: #E0E0E0; opacity: 1; transition: all .15s ease; } #promo-large-55394b1e1c72e .promo-large-cta:hover { color: #E0E0E0; opacity: 0.65; }</style><div id="promo-large-55394b1e1c72e">
+  <div class="promo-large-treatment clearfix" >
+      <figure class="promo-large-image">
+      <a href="http://www.prestigesubaru.com/" class="linked-image"><img typeof="foaf:Image" src="http://mediad.publicbroadcasting.net/p/wncw/files/styles/large/public/201504/Prestige_0.png" alt="" /></a>    </figure>
+  
+    </div>
+</div>  </div>
+</div>
+<div id="block-pi-responsive-ads-medium-1" class="block block-pi-responsive-ads">
+
+    
+  <div class="content">
+      </div>
+</div>
+<div id="block-block-factory-block-factory-553954643f635" class="block block-block-factory">
+
+    
+  <div class="content">
+    <style type="text/css">#promo-small-553954643f635 .promo-small-treatment { background-color: #E6810D; } #promo-small-553954643f635 .promo-small-heading { color: #404040; } #promo-small-553954643f635 .promo-small-heading a { color: #404040; } #promo-small-553954643f635 .promo-small-teaser { color: #404040; } #promo-small-553954643f635 .promo-small-cta { border-color: #404040; color: #404040; opacity: 1; transition: all .15s ease; } #promo-small-553954643f635 .promo-small-cta:hover { color: #404040; opacity: 0.6; }</style><div id="promo-small-553954643f635">
+  <div class="promo-small-treatment clearfix" >
+    
+        <div class="promo-small-text-wrapper">
+              <h2 class="promo-small-heading"><a href="https://support.wncw.org/sslpage.aspx?pid=290">WNCW e-News</a></h2>
+      
+              <p class="promo-small-teaser">Sign up for monthly updates!</p>
+      
+              <div class="promo-small-cta-wrapper">
+          <a href="https://support.wncw.org/sslpage.aspx?pid=290" class="promo-small-cta">Sign Up Now</a>        </div>
+            </div>
+      </div>
+</div>
+  </div>
+</div>
+<div id="block-block-factory-block-factory-5727a4f4717a6" class="block block-block-factory">
+
+    
+  <div class="content">
+    <style type="text/css">#promo-large-5727a4f4717a6 .promo-large-treatment { background-color: #FFFFFF; } #promo-large-5727a4f4717a6 .promo-large-heading { color: #404040; } #promo-large-5727a4f4717a6 .promo-large-heading a { color: #404040; } #promo-large-5727a4f4717a6 .promo-large-teaser { color: #404040; } #promo-large-5727a4f4717a6 .promo-large-cta { border-color: #404040; color: #404040; opacity: 1; transition: all .15s ease; } #promo-large-5727a4f4717a6 .promo-large-cta:hover { color: #404040; opacity: 0.65; }</style><div id="promo-large-5727a4f4717a6">
+  <div class="promo-large-treatment clearfix" >
+      <figure class="promo-large-image">
+      <a href="https://support.wncw.org/sustaining-member" class="linked-image"><img typeof="foaf:Image" src="http://mediad.publicbroadcasting.net/p/wncw/files/styles/large/public/201702/mic_patron.png" alt="" /></a>    </figure>
+  
+      <div class="promo-large-text-wrapper">
+              <h2 class="promo-large-heading"><a href="https://support.wncw.org/sustaining-member">Give Monthly To WNCW</a></h2>
+      
+      
+              <div class="promo-large-cta-wrapper">
+          <a href="https://support.wncw.org/sustaining-member" class="promo-large-cta">Sign Up Today!</a>        </div>
+          </div>
+    </div>
+</div>  </div>
+</div>
+<div id="block-block-factory-block-factory-55394520a25d4" class="block block-block-factory">
+
+    
+  <div class="content">
+    <style type="text/css">#promo-large-55394520a25d4 .promo-large-treatment { background-color: #E0E0E0; } #promo-large-55394520a25d4 .promo-large-heading { color: #404040; } #promo-large-55394520a25d4 .promo-large-heading a { color: #404040; } #promo-large-55394520a25d4 .promo-large-teaser { color: #404040; } #promo-large-55394520a25d4 .promo-large-cta { border-color: #404040; color: #404040; opacity: 1; transition: all .15s ease; } #promo-large-55394520a25d4 .promo-large-cta:hover { color: #404040; opacity: 0.65; }</style><div id="promo-large-55394520a25d4">
+  <div class="promo-large-treatment clearfix" >
+      <figure class="promo-large-image">
+      <a href="http://wncw.org/vehicle-donation" class="linked-image"><img typeof="foaf:Image" src="http://mediad.publicbroadcasting.net/p/wncw/files/styles/large/public/201705/Q3_600x280.gif" alt="" /></a>    </figure>
+  
+      <div class="promo-large-text-wrapper">
+              <h2 class="promo-large-heading"><a href="http://wncw.org/vehicle-donation">Donate Your Vehicle</a></h2>
+      
+      
+              <div class="promo-large-cta-wrapper">
+          <a href="http://wncw.org/vehicle-donation" class="promo-large-cta">Click here for details</a>        </div>
+          </div>
+    </div>
+</div>  </div>
+</div>
+<div id="block-block-factory-block-factory-5547b2f0148c5" class="block block-block-factory">
+
+    
+  <div class="content">
+    <style type="text/css">#promo-small-5547b2f0148c5 .promo-small-treatment { background-color: #40121D; } #promo-small-5547b2f0148c5 .promo-small-heading { color: #DEDEDE; } #promo-small-5547b2f0148c5 .promo-small-heading a { color: #DEDEDE; } #promo-small-5547b2f0148c5 .promo-small-teaser { color: #DEDEDE; } #promo-small-5547b2f0148c5 .promo-small-cta { border-color: #DEDEDE; color: #DEDEDE; opacity: 1; transition: all .15s ease; } #promo-small-5547b2f0148c5 .promo-small-cta:hover { color: #DEDEDE; opacity: 0.6; }</style><div id="promo-small-5547b2f0148c5">
+  <div class="promo-small-treatment clearfix" >
+    
+        <div class="promo-small-text-wrapper">
+              <h2 class="promo-small-heading"><a href="http://wncw.org/topic/wncw-fm-podcasts-0">Podcasts</a></h2>
+      
+              <p class="promo-small-teaser">Interviews and local features.</p>
+      
+              <div class="promo-small-cta-wrapper">
+          <a href="http://wncw.org/topic/wncw-fm-podcasts-0" class="promo-small-cta">Find a Podcast Now</a>        </div>
+            </div>
+      </div>
+</div>
+  </div>
+</div>
+<div id="block-block-factory-block-factory-553a44481a9af" class="block block-block-factory">
+
+    
+  <div class="content">
+    <style type="text/css">#promo-large-553a44481a9af .promo-large-treatment { background-color: #40121D; } #promo-large-553a44481a9af .promo-large-heading { color: #E0E0E0; } #promo-large-553a44481a9af .promo-large-heading a { color: #E0E0E0; } #promo-large-553a44481a9af .promo-large-teaser { color: #E0E0E0; } #promo-large-553a44481a9af .promo-large-cta { border-color: #E0E0E0; color: #E0E0E0; opacity: 1; transition: all .15s ease; } #promo-large-553a44481a9af .promo-large-cta:hover { color: #E0E0E0; opacity: 0.65; }</style><div id="promo-large-553a44481a9af">
+  <div class="promo-large-treatment clearfix" >
+  
+      <div class="promo-large-text-wrapper">
+              <h2 class="promo-large-heading"><a href="http://wncw.org/post/live-music-calendar-recordings">Live Music Calendar</a></h2>
+      
+      
+              <div class="promo-large-cta-wrapper">
+          <a href="http://wncw.org/post/live-music-calendar-recordings" class="promo-large-cta">Click here for details</a>        </div>
+          </div>
+    </div>
+</div>  </div>
+</div>
+<div id="block-block-factory-block-factory-5548fd92754f8" class="block block-block-factory">
+
+    
+  <div class="content">
+    <style type="text/css">#promo-large-5548fd92754f8 .promo-large-treatment { background-color: #40121D; } #promo-large-5548fd92754f8 .promo-large-heading { color: #E0E0E0; } #promo-large-5548fd92754f8 .promo-large-heading a { color: #E0E0E0; } #promo-large-5548fd92754f8 .promo-large-teaser { color: #E0E0E0; } #promo-large-5548fd92754f8 .promo-large-cta { border-color: #E0E0E0; color: #E0E0E0; opacity: 1; transition: all .15s ease; } #promo-large-5548fd92754f8 .promo-large-cta:hover { color: #E0E0E0; opacity: 0.65; }</style><div id="promo-large-5548fd92754f8">
+  <div class="promo-large-treatment clearfix" >
+  
+      <div class="promo-large-text-wrapper">
+              <h2 class="promo-large-heading"><a href="http://wncw.org/post/artbreak-recordings">Artbreak Calendar </a></h2>
+      
+      
+              <div class="promo-large-cta-wrapper">
+          <a href="http://wncw.org/post/artbreak-recordings" class="promo-large-cta">Click here for details</a>        </div>
+          </div>
+    </div>
+</div>  </div>
+</div>
+<div id="block-pi-responsive-ads-medium-2" class="block block-pi-responsive-ads">
+
+    
+  <div class="content">
+      </div>
+</div>
+<div id="block-pi-responsive-ads-medium-3" class="block block-pi-responsive-ads">
+
+    
+  <div class="content">
+      </div>
+</div>
+<div id="block-npr-river-npr-river-block-all" class="block block-npr-river">
+
+    
+  <div class="content">
+    
+<div class="npr-river-all">
+  
+<div id="node-86905" class="node-teaser node node-post node-promoted npr_river_card row" about="/post/studio-b-rewind-clarence-bucaro-david-ball-carolina-sound-sun-august-26th-7pm" typeof="sioc:Item foaf:Document">
+  <div class="large-12 columns">
+    <a class="mobile-teaser-link" href="/post/studio-b-rewind-clarence-bucaro-david-ball-carolina-sound-sun-august-26th-7pm"></a>
+    <div class='title-info'>
+      <h2  property="dc:title" datatype="" itemprop="name"><a href="/post/studio-b-rewind-clarence-bucaro-david-ball-carolina-sound-sun-august-26th-7pm">Studio B Rewind CLARENCE BUCARO | DAVID BALL &amp; THAT CAROLINA SOUND Sun. August 26th at 7pm</a></h2>
+              <div class="by-date">
+          <span class="submitted"><span property="dc:date dc:created" content="2018-08-25T11:30:56-04:00" datatype="xsd:dateTime" rel="sioc:has_creator"><span class="submitted-label">By</span> <span class="name">WNCW Staff</span></span></span>
+          <i class="bullet">&#8226;</i>
+          <span class="pub-date">Aug 25,  2018 </span>
+        </div>
+          </div>
+
+    <div class="content">
+      
+<div class="card-image-container">
+  <figure>
+    <a title="" href="/post/studio-b-rewind-clarence-bucaro-david-ball-carolina-sound-sun-august-26th-7pm" class="noexit">
+    <img class="multiple" src="http://mediad.publicbroadcasting.net/p/wncw/files/styles/medium/public/201808/clarence_bucaro.png" >
+          </a>
+
+      </figure>
+</div>
+<div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p><p> David Ball and that Carolina Sound re-create the magic of Uncle Walt's Band, the legendary Spartanburg outfit that became one of the most popular bands on the Austin Texas scene in the late 1970s and early 80s. Plus, singer/songwriter, and Appalachian Trail thru-hiker Clarence Bucaro plays tunes from his latest album <em>Passionate Kind,</em> a record that has prompted Rolling Stone magazine to name him one of its “Ten Artists To Watch.” Join Host Kim Clark every Sunday Evening at 7pm on Studio B Rewind.</p> <p> </p> </p></div></div></div>    </div>
+
+      </div>
+</div>
+
+<div id="node-86857" class="node-teaser node node-post node-promoted npr_river_card row" about="/post/goin-across-mountain-saturday-aug-25th-jd-crowe-carter-stanley-clay-hess-band" typeof="sioc:Item foaf:Document">
+  <div class="large-12 columns">
+    <a class="mobile-teaser-link" href="/post/goin-across-mountain-saturday-aug-25th-jd-crowe-carter-stanley-clay-hess-band"></a>
+    <div class='title-info'>
+      <h2  property="dc:title" datatype="" itemprop="name"><a href="/post/goin-across-mountain-saturday-aug-25th-jd-crowe-carter-stanley-clay-hess-band">Goin&#039; Across The Mountain  SATURDAY Aug. 25th - JD CROWE | CARTER STANLEY | CLAY HESS BAND </a></h2>
+              <div class="by-date">
+          <span class="submitted"><span property="dc:date dc:created" content="2018-08-23T15:51:10-04:00" datatype="xsd:dateTime" rel="sioc:has_creator"><span class="submitted-label">By</span> <span class="name">WNCW Staff</span></span></span>
+          <i class="bullet">&#8226;</i>
+          <span class="pub-date">Aug 23,  2018 </span>
+        </div>
+          </div>
+
+    <div class="content">
+      
+<div class="card-image-container">
+  <figure>
+    <a title="Clay Hess Band" href="/post/goin-across-mountain-saturday-aug-25th-jd-crowe-carter-stanley-clay-hess-band" class="noexit">
+    <img class="multiple" src="http://mediad.publicbroadcasting.net/p/wncw/files/styles/medium/public/201808/clay_hess_just_another_story.jpg" alt="album cover of band sitting in chairs">
+          </a>
+
+        <div class="image-meta">
+      <figcaption>
+        <div class="credit">
+          Clay Hess Band        </div>
+      </figcaption>
+    </div>
+      </figure>
+</div>
+<div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p><p>On our Bluegrass get-together today, we celebrate the birthdays of Alan Bibey, J. D. Crowe, the late Carter Stanley and some others. Plus, we'll feature the new CD from the Clay Hess Band titled  <em>Just Another Story.</em> Come on and ride the train! Join Joe Greene and Todd Baldwin every Saturday from 11am 'til 7pm on Goin' Across The Mountain!</p>  </p></div></div></div>    </div>
+
+      </div>
+</div>
+
+<div id="node-86850" class="node-teaser node node-post node-promoted npr_river_card row" about="/post/here-comes-sun-wncw-car-visor-and-vintage-goodie-bag" typeof="sioc:Item foaf:Document">
+  <div class="large-12 columns">
+    <a class="mobile-teaser-link" href="/post/here-comes-sun-wncw-car-visor-and-vintage-goodie-bag"></a>
+    <div class='title-info'>
+      <h2  property="dc:title" datatype="" itemprop="name"><a href="/post/here-comes-sun-wncw-car-visor-and-vintage-goodie-bag">Here Comes The Sun: WNCW Car Visor and Vintage Goodie Bag</a></h2>
+              <div class="by-date">
+          <span class="submitted"><span property="dc:date dc:created" content="2018-08-23T12:36:20-04:00" datatype="xsd:dateTime" rel="sioc:has_creator"><span class="submitted-label">By</span> <span class="name"><a href="/people/vicki-dameron" rel="author">Vicki Dameron</a></span></span></span>
+          <i class="bullet">&#8226;</i>
+          <span class="pub-date">Aug 23,  2018 </span>
+        </div>
+          </div>
+
+    <div class="content">
+      
+<div class="card-image-container">
+  <figure>
+    <a title="Photo by Vicki Dameron" href="/post/here-comes-sun-wncw-car-visor-and-vintage-goodie-bag" class="noexit">
+    <img class="multiple" src="http://mediad.publicbroadcasting.net/p/wncw/files/styles/medium/public/201808/car_visor_pic_photoshopped_edited-1.jpg" alt="WNCW Car Visor and Vintage Goodie Bag">
+          </a>
+
+        <div class="image-meta">
+      <figcaption>
+        <div class="credit">
+          Photo by Vicki Dameron        </div>
+      </figcaption>
+    </div>
+      </figure>
+</div>
+<div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p><p align="center">August 23rd - Thursday Only</p> <p align="center">Be cool <em>AND</em> keep your car cool while representing your favorite grassroots radio station, WNCW. We’re offering our fabulous WNCW Car Visor, along with an amazing bag of bonus vintage goodies, in a one day only, hot fun in the summertime blitz.</p></p></div></div></div>    </div>
+
+      </div>
+</div>
+
+<div id="node-86849" class="node-teaser node node-post node-promoted npr_river_card row" about="/post/tall-grass-sunday-aug-26th-town-mountain-peter-rowan-kathy-kallick-cleverlys" typeof="sioc:Item foaf:Document">
+  <div class="large-12 columns">
+    <a class="mobile-teaser-link" href="/post/tall-grass-sunday-aug-26th-town-mountain-peter-rowan-kathy-kallick-cleverlys"></a>
+    <div class='title-info'>
+      <h2  property="dc:title" datatype="" itemprop="name"><a href="/post/tall-grass-sunday-aug-26th-town-mountain-peter-rowan-kathy-kallick-cleverlys">The Tall Grass SUNDAY, Aug. 26th TOWN MOUNTAIN | PETER ROWAN | KATHY KALLICK | THE CLEVERLYS </a></h2>
+              <div class="by-date">
+          <span class="submitted"><span property="dc:date dc:created" content="2018-08-23T11:55:36-04:00" datatype="xsd:dateTime" rel="sioc:has_creator"><span class="submitted-label">By</span> <span class="name">WNCW Staff</span></span></span>
+          <i class="bullet">&#8226;</i>
+          <span class="pub-date">Aug 23,  2018 </span>
+        </div>
+          </div>
+
+    <div class="content">
+      
+<div class="card-image-container">
+  <figure>
+    <a title="Vicki Dameron" href="/post/tall-grass-sunday-aug-26th-town-mountain-peter-rowan-kathy-kallick-cleverlys" class="noexit">
+    <img class="multiple" src="http://mediad.publicbroadcasting.net/p/wncw/files/styles/medium/public/201808/tall_grass_cropped_4_018_by_vicki_dameron__1_of_1__0.jpg" alt="Image of man walking in tall grass, wearing a hat and carrying a banjo">
+          </a>
+
+        <div class="image-meta">
+      <figcaption>
+        <div class="credit">
+          Vicki Dameron        </div>
+      </figcaption>
+    </div>
+      </figure>
+</div>
+<div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p><p>Some great new tunes in The Tall Grass this week including music from Town Mountain, Peter Rowan, brand new tunes from Kathy Kallick, the Cleverlys plus a lot more. Come take a stroll with us in The Tall Grass, Sunday Evenings at 6pm with Host Joe Greene.</p>  </p></div></div></div>    </div>
+
+      </div>
+</div>
+
+<div id="node-86752" class="node-teaser node node-post node-promoted npr_river_card row" about="/post/brushfire-stankgrass-wednesday-august-22nd-11-1130-am" typeof="sioc:Item foaf:Document">
+  <div class="large-12 columns">
+    <a class="mobile-teaser-link" href="/post/brushfire-stankgrass-wednesday-august-22nd-11-1130-am"></a>
+    <div class='title-info'>
+      <h2  property="dc:title" datatype="" itemprop="name"><a href="/post/brushfire-stankgrass-wednesday-august-22nd-11-1130-am">Brushfire Stankgrass Wednesday, August 22nd, 11-11:30 am</a></h2>
+              <div class="by-date">
+          <span class="submitted"><span property="dc:date dc:created" content="2018-08-21T13:27:06-04:00" datatype="xsd:dateTime" rel="sioc:has_creator"><span class="submitted-label">By</span> <span class="name">Martin Anderson</span></span></span>
+          <i class="bullet">&#8226;</i>
+          <span class="pub-date">Aug 21,  2018 </span>
+        </div>
+          </div>
+
+    <div class="content">
+      
+<div class="card-image-container">
+  <figure>
+    <a title="" href="/post/brushfire-stankgrass-wednesday-august-22nd-11-1130-am" class="noexit">
+    <img class="multiple" src="http://mediad.publicbroadcasting.net/p/wncw/files/styles/medium/public/201808/barrel_house.png" alt="Wicked Weed Barrel House Sessions">
+          </a>
+
+      </figure>
+</div>
+<div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p><p>In our 2nd "Wicked Wednesday" Barrel-House Session from Wicked Weed Brewing's Funkatorium in Asheville, Martin Anderson talks with the band Brushfire Stankgrass, who's back and has some new songs to share with us -- including a great new state anthem for NC!</p> </p></div></div></div>    </div>
+
+      </div>
+</div>
+
+<div id="node-86748" class="node-teaser node node-post node-promoted npr_river_card row" about="/post/down-road-brmt-ola-belle-reed-brought-bluegrass-baltimore" typeof="sioc:Item foaf:Document">
+  <div class="large-12 columns">
+    <a class="mobile-teaser-link" href="/post/down-road-brmt-ola-belle-reed-brought-bluegrass-baltimore"></a>
+    <div class='title-info'>
+      <h2  property="dc:title" datatype="" itemprop="name"><a href="/post/down-road-brmt-ola-belle-reed-brought-bluegrass-baltimore">Down the Road BRMT | Ola Belle Reed Brought Bluegrass to Baltimore</a></h2>
+              <div class="by-date">
+          <span class="submitted"><span property="dc:date dc:created" content="2018-08-20T11:28:42-04:00" datatype="xsd:dateTime" rel="sioc:has_creator"><span class="submitted-label">By</span> <span class="name">WNCW Staff</span></span></span>
+          <i class="bullet">&#8226;</i>
+          <span class="pub-date">Aug 20,  2018 </span>
+        </div>
+          </div>
+
+    <div class="content">
+      
+<div class="card-image-container">
+  <figure>
+    <a title="http://www.blueridgeheritage.com" href="/post/down-road-brmt-ola-belle-reed-brought-bluegrass-baltimore" class="noexit">
+    <img class="multiple" src="http://mediad.publicbroadcasting.net/p/wncw/files/styles/medium/public/201808/300_ola-belle-reed.jpg" alt="Ola Belle Reed">
+          </a>
+
+        <div class="image-meta">
+      <figcaption>
+        <div class="credit">
+          http://www.blueridgeheritage.com        </div>
+      </figcaption>
+    </div>
+      </figure>
+</div>
+<div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p><p>Ola Belle Campbell was just a teenager in 1934 when her family moved from Ashe County, NC, to Maryland, but she was already a skilled mountain banjo player and singer. At her first radio gig in 1939, Ola Belle sang the “St. Louis Blues." Her voice overpowered the broadcasting equipment and knocked the station off the air. In 1949 she became <a href="http://www.blueridgeheritage.com/traditional-artist-directory/ola-belle-reed" target="_blank">Ola Belle Reed</a> when she married country musician Bud Reed. Their influence is still felt in the thriving bluegrass scene around Baltimore.</p>  </p></div></div></div>    </div>
+
+      </div>
+</div>
+
+<div id="node-86746" class="node-teaser node node-post node-promoted npr_river_card row" about="/post/jam-trees-august-24-25" typeof="sioc:Item foaf:Document">
+  <div class="large-12 columns">
+    <a class="mobile-teaser-link" href="/post/jam-trees-august-24-25"></a>
+    <div class='title-info'>
+      <h2  property="dc:title" datatype="" itemprop="name"><a href="/post/jam-trees-august-24-25">Jam in the Trees August 24 &amp; 25</a></h2>
+              <div class="by-date">
+          <span class="submitted"><span property="dc:date dc:created" content="2018-08-20T11:02:04-04:00" datatype="xsd:dateTime" rel="sioc:has_creator"><span class="submitted-label">By</span> <span class="name">WNCW Staff</span></span></span>
+          <i class="bullet">&#8226;</i>
+          <span class="pub-date">Aug 20,  2018 </span>
+        </div>
+          </div>
+
+    <div class="content">
+      
+<div class="card-image-container">
+  <figure>
+    <a title="" href="/post/jam-trees-august-24-25" class="noexit">
+    <img class="multiple" src="http://mediad.publicbroadcasting.net/p/wncw/files/styles/medium/public/201808/jam_in_the_trees.jpg" alt="Jam in the Trees">
+          </a>
+
+      </figure>
+</div>
+<div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p><p><a href="https://www.jaminthetrees.com/" target="_blank">Jam In The Trees</a> will be held on August 24th and 25th this year. The annual music festival returns with a diverse lineup for the third year to Pisgah Brewing Company in Black Mountain, North Carolina. The roster includes legendary artists The Travelin’ McCourys, Jerry Douglas, Shooter Jennings, Elizabeth Cook, Jane Kramer, Gangstagrass, The Stray Birds, Jim Lauderdale, The Steel Wheels, Fireside Collective, The Po’ Ramblin Boys, The Slocan Ramblers, and Andy Buckner.</p></p></div></div></div>    </div>
+
+      </div>
+</div>
+
+<div id="node-86703" class="node-teaser node node-post node-promoted npr_river_card row" about="/post/slocan-ramblers-live-friday-august-24th-between-4-and-5pm" typeof="sioc:Item foaf:Document">
+  <div class="large-12 columns">
+    <a class="mobile-teaser-link" href="/post/slocan-ramblers-live-friday-august-24th-between-4-and-5pm"></a>
+    <div class='title-info'>
+      <h2  property="dc:title" datatype="" itemprop="name"><a href="/post/slocan-ramblers-live-friday-august-24th-between-4-and-5pm">Slocan Ramblers Live Friday August 24th between 4 and 5pm</a></h2>
+              <div class="by-date">
+          <span class="submitted"><span property="dc:date dc:created" content="2018-08-20T10:37:06-04:00" datatype="xsd:dateTime" rel="sioc:has_creator"><span class="submitted-label">By</span> <span class="name">Martin Anderson</span></span></span>
+          <i class="bullet">&#8226;</i>
+          <span class="pub-date">Aug 20,  2018 </span>
+        </div>
+          </div>
+
+    <div class="content">
+      
+<div class="card-image-container">
+  <figure>
+    <a title="" href="/post/slocan-ramblers-live-friday-august-24th-between-4-and-5pm" class="noexit">
+    <img class="multiple" src="http://mediad.publicbroadcasting.net/p/wncw/files/styles/medium/public/201808/Slocan.jpg" alt="Slocan Ramblers">
+          </a>
+
+      </figure>
+</div>
+<div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p><p>They're one of our favorite new Appalachian-inspired stringbands, and they're from Toronto, Ontario! The <a href="http://slocanramblers.com/" target="_blank">Slocan Ramblers'</a> latest album <em>Queen City Jubilee </em>has fast become one of our favorites of the year, and they are in the area for this weekend's Jam in the Trees in Black Mountain.</p> </p></div></div></div>    </div>
+
+      </div>
+</div>
+
+<div id="node-86702" class="node-teaser node node-post node-promoted npr_river_card row" about="/post/elonzo-wesley-live-friday-august-24th-between-11am-noon" typeof="sioc:Item foaf:Document">
+  <div class="large-12 columns">
+    <a class="mobile-teaser-link" href="/post/elonzo-wesley-live-friday-august-24th-between-11am-noon"></a>
+    <div class='title-info'>
+      <h2  property="dc:title" datatype="" itemprop="name"><a href="/post/elonzo-wesley-live-friday-august-24th-between-11am-noon">Elonzo Wesley Live Friday August 24th between 11am &amp; Noon</a></h2>
+              <div class="by-date">
+          <span class="submitted"><span property="dc:date dc:created" content="2018-08-20T10:33:46-04:00" datatype="xsd:dateTime" rel="sioc:has_creator"><span class="submitted-label">By</span> <span class="name">Martin Anderson</span></span></span>
+          <i class="bullet">&#8226;</i>
+          <span class="pub-date">Aug 20,  2018 </span>
+        </div>
+          </div>
+
+    <div class="content">
+      
+<div class="card-image-container">
+  <figure>
+    <a title="" href="/post/elonzo-wesley-live-friday-august-24th-between-11am-noon" class="noexit">
+    <img class="multiple" src="http://mediad.publicbroadcasting.net/p/wncw/files/styles/medium/public/201808/elonzo_wesley.jpg" alt="Elonzo Wesley">
+          </a>
+
+      </figure>
+</div>
+<div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p><p>Named after frontman Jeremy Davis' father, this Charlotte band was formerly more of an indie rock band under the name Elonzo. Davis now performs with a string band. After Studio B Friday morning, they head to CLT's Live on the Green for an evening with Front Country. They also play Boone on Saturday, and Saluda, NC on Thursday the 30th.</p> <p><a href="http://www.elonzowesley.com/" target="_blank">Read more about Elonzo Wesley.</a></p> </p></div></div></div>    </div>
+
+      </div>
+</div>
+
+<div id="node-86745" class="node-teaser node node-post node-promoted npr_river_card contains-audio row" about="/post/friday-feature-happy-valley-fiddlers-convention" typeof="sioc:Item foaf:Document">
+  <div class="large-12 columns">
+    <a class="mobile-teaser-link" href="/post/friday-feature-happy-valley-fiddlers-convention"></a>
+    <div class='title-info'>
+      <h2  property="dc:title" datatype="" itemprop="name"><a href="/post/friday-feature-happy-valley-fiddlers-convention">Friday Feature: Happy Valley Fiddlers Convention</a></h2>
+              <div class="by-date">
+          <span class="submitted"><span property="dc:date dc:created" content="2018-08-20T10:24:35-04:00" datatype="xsd:dateTime" rel="sioc:has_creator"><span class="submitted-label">By</span> <span class="name">Paul Foster</span></span></span>
+          <i class="bullet">&#8226;</i>
+          <span class="pub-date">Aug 20,  2018 </span>
+        </div>
+          </div>
+
+    <div class="content">
+      
+<div class="card-image-container">
+  <figure>
+    <a title="" href="/post/friday-feature-happy-valley-fiddlers-convention" class="noexit">
+    <img class="multiple" src="http://mediad.publicbroadcasting.net/p/wncw/files/styles/medium/public/201808/happy_fiddlers.jpg" alt="Happy Valley Fiddlers Convention">
+          </a>
+
+      </figure>
+</div>
+<div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p><p><strong>An event that enters its 14th-year for providing music, storytellers, artist competitions, and family events is the <a href="https://www.happyvalleyfiddlers.org/" target="_blank">Happy Valley Fiddlers Convention</a> in Caldwell County, North Carolina.  Held on an old-family farm between Lenoir and Wilkesboro, the lineup of musicians plays old time and bluegrass music with a focus on the traditions and heritage of that area.  Being held Labor Day weekend.  Chairperson of the event- Tony Deal covers all the details.  Interview originally aired August 17, 2018.</strong></p></p></div></div></div>    </div>
+
+      </div>
+</div>
+</div><h2 class="element-invisible">Pages</h2><div class="item-list"><ul class="pager"><li class="pager-current first">1</li>
+<li class="pager-item"><a href="/homepage?page=1" title="Go to page 2" class="active">2</a></li>
+<li class="pager-item"><a href="/homepage?page=2" title="Go to page 3" class="active">3</a></li>
+<li class="pager-item"><a href="/homepage?page=3" title="Go to page 4" class="active">4</a></li>
+<li class="pager-ellipsis">…</li>
+<li class="pager-next"><a href="/homepage?page=1" title="Go to next page" class="active">next ›</a></li>
+<li class="pager-last last"><a href="/homepage?page=4653" title="Go to last page" class="active">last »</a></li>
+</ul></div>  </div>
+</div>
+  </div>
+          </div>
+        
+                    </div>
+          </div>
+        
+        
+              </article>
+    </main>
+  </div>
+
+      <section class="post-content">
+      <div>
+          <div class="region region-post-content">
+    <div id="block-pi-responsive-ads-mobile-1" class="block block-pi-responsive-ads">
+
+    
+  <div class="content">
+      </div>
+</div>
+  </div>
+      </div>
+    </section>
+  
+  <div class="bottom-ads">
+    <div class="bottom-ads-inner"></div>
+  </div>
+</div>
+
+<footer class="footer" role="contentinfo">
+  <div class="row">
+    <div class="footer-affiliate-container small-centered columns">
+                  <div class="region region-footer">
+    <div id="block-pi-table-queue-partnerfooter" class="block block-pi-table-queue">
+
+    
+  <div class="content">
+    <div class="table-queue" id="table-queue-partnerfooter">
+  <p class="partnerslabel">
+  </p>
+<div class="item-list"><ul class="partner-logos"><li class="first"><a href="http://www.isothermal.edu/" target="_blank"><img typeof="foaf:Image" src="http://mediad.publicbroadcasting.net/p/wncw/files/styles/partner_footer_logo/public/201504/isothermal-wordmark-white.png" alt="Isothermal Community College" title="Isothermal Community College" /></a></li>
+<li><a href="https://www.facebook.com/pages/WNCW/75290953316" target="_blank"><img typeof="foaf:Image" src="http://mediad.publicbroadcasting.net/p/wncw/files/styles/partner_footer_logo/public/201504/facebook-logo.png" alt="WNCW on Facebook" title="WNCW on Facebook" /></a></li>
+<li><a href="https://twitter.com/wncw" target="_blank"><img typeof="foaf:Image" src="http://mediad.publicbroadcasting.net/p/wncw/files/styles/partner_footer_logo/public/201504/twitter-logo.png" alt="WNCW on Twitter" title="WNCW on Twitter" /></a></li>
+<li><a href="https://instagram.com/wncw_radio/" target="_blank"><img typeof="foaf:Image" src="http://mediad.publicbroadcasting.net/p/wncw/files/styles/partner_footer_logo/public/201504/instagram-logo.png" alt="WNCW on Instagram" title="WNCW on Instagram" /></a></li>
+<li><a href="https://www.youtube.com/user/WNCWStudioB" target="_blank"><img typeof="foaf:Image" src="http://mediad.publicbroadcasting.net/p/wncw/files/styles/partner_footer_logo/public/201504/youtube-logo.png" alt="WNCW on You Tube" title="WNCW on You Tube" /></a></li>
+<li><a href="http://www.npr.org/" target="_self"><img typeof="foaf:Image" src="http://mediad.publicbroadcasting.net/p/wncw/files/styles/partner_footer_logo/public/201504/npr-logo.png" alt="NPR" title="NPR" /></a></li>
+<li class="last"><a href="http://www.americanpublicmedia.org/" target="_self"><img typeof="foaf:Image" src="http://mediad.publicbroadcasting.net/p/wncw/files/styles/partner_footer_logo/public/201504/apm-logo.png" alt="American Public Media" title="American Public Media" /></a></li>
+</ul></div></div>
+  </div>
+</div>
+<div id="block-pi-table-queue-auxiliarylinksfooter" class="block block-pi-table-queue">
+
+    
+  <div class="content">
+    <div class="table-queue" id="table-queue-auxiliarylinksfooter">
+  <div class="item-list"><ul class="auxiliary-links"><li class="first"><span>&copy; 2018 WNCW</span></li>
+<li><a href="http://wncw.org/submit-music" target="_self">Submit Music</a></li>
+<li><a href="http://wncw.org/psa-guidelines" target="_self">PSA Guidelines</a></li>
+<li><a href="http://wncw.org/directions-wncw" target="_self">Directions</a></li>
+<li><a href="http://wncw.org/history" target="_self">History</a></li>
+<li><a href="http://wncw.org/privacy" target="_self">Privacy</a></li>
+<li><a href="http://wncw.org/contests" target="_self">Contests</a></li>
+<li><a href="http://wncw.org/mission" target="_self">Mission</a></li>
+<li><a href="http://wncw.org/eeo" target="_self">EEO</a></li>
+<li><a href="http://wncw.org/local-content-and-services-report" target="_self">Local Content and Services Report</a></li>
+<li><a href="http://www.isothermal.edu/services/human-resources/employment-opportunities.html" target="_self">Jobs</a></li>
+<li><a href="http://wncw.org/internships" target="_self">Internships</a></li>
+<li><a href="http://wncw.org/contact" target="_self">Contact</a></li>
+<li><a href="http://wncw.convio.net/site/PageNavigator/WNCWDonationLandingPage.html" target="_self">Donate Now</a></li>
+<li><a href="http://wncw.org/wncwwsif-public-file" target="_self">WNCW/WSIF Public File</a></li>
+<li class="last"><a href="http://wncw.org/cpb-compliance" target="_self">CPB Compliance</a></li>
+</ul></div></div>
+  </div>
+</div>
+  </div>
+          </div>
+  </div>
+</footer>
+      <script type="text/javascript">
+<!--//--><![CDATA[//><!--
+ (function ($) { $(document).foundation({ topbar: { custom_back_text: true, back_text: 'back', mobile_show_parent_link: true } }); }(jQuery));
+//--><!]]>
+</script>
+    </div>
+  <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"15ba4da3e8","applicationID":"1108724","transactionName":"NlMBMhAECEZRAU1eDg8ZNhQLSg9bVAdBGREJRg==","queueTime":0,"applicationTime":13,"atts":"GhQCRFgeG0g=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

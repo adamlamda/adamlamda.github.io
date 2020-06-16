@@ -1,0 +1,244 @@
+
+<!DOCTYPE html>
+<html class="client-nojs" lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8"/>
+<title>Search results for "ecclesiastes bush" - Wikiquote</title>
+<script>document.documentElement.className="client-js";RLCONF={"wgBreakFrames":!1,"wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgRequestId":"ded0777c-18de-49c9-b8c2-49c8e2672273","wgCSPNonce":!1,"wgCanonicalNamespace":"Special","wgCanonicalSpecialPageName":"Search","wgNamespaceNumber":-1,"wgPageName":"Special:Search","wgTitle":"Search","wgCurRevisionId":0,"wgRevisionId":0,"wgArticleId":0,"wgIsArticle":!1,"wgIsRedirect":!1,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":[],"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgRelevantPageName":"Special:Search","wgRelevantArticleId":0,"wgIsProbablyEditable":!1,"wgRelevantPageIsProbablyEditable":!1,"wgMediaViewerOnClick":!0,"wgMediaViewerEnabledByDefault":!0,"wgVisualEditor":{"pageLanguageCode":"en",
+"pageLanguageDir":"ltr","pageVariantFallbacks":"en"},"wgMFDisplayWikibaseDescriptions":{"search":!0,"nearby":!0,"watchlist":!0,"tagline":!0},"wgWMESchemaEditAttemptStepOversample":!1,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikiquote","advancedSearch.mimeTypes":{"tiff":"image/tiff","png":"image/png","gif":"image/gif","jpg":"image/jpeg","webp":"image/webp","xcf":"image/x-xcf","pdf":"application/pdf","mid":"audio/midi","ogg":"application/ogg","svg":"image/svg+xml","djvu":"image/vnd.djvu","flac":"audio/x-flac","wav":"audio/x-wav","webm":"video/webm","mp3":"audio/mpeg","mpg":"video/mpeg"},"advancedSearch.tooltips":{"advancedsearch-help-plain":
+"\u003Cdl\u003E\u003Cdt\u003EDescription\u003C/dt\u003E\n\u003Cdd\u003ESearches for these words in the title or text.\u003C/dd\u003E\n\u003Cdt\u003EBe aware of the following\u003C/dt\u003E\n\u003Cdd\u003E\n\u003Cul\u003E\u003Cli\u003EMultiple words can be entered here.\u003C/li\u003E\n\u003Cli\u003EPunctuation marks and other non-alphanumeric characters (with exception of the colon and comma) will be ignored.\u003C/li\u003E\n\u003Cli\u003EThere may be results that do not contain one or more of your search terms.\u003C/li\u003E\n\u003Cli\u003EWord stemming is applied. Example: If \u003Ci\u003Ecar\u003C/i\u003E is entered, the search will also consider \u003Ci\u003Ecars\u003C/i\u003E. The word stemming is language specific.\u003C/li\u003E\u003C/ul\u003E\u003C/dd\u003E\u003C/dl\u003E\n\u003Cdl\u003E\u003Cdt\u003EHelp page\u003C/dt\u003E\n\u003Cdd\u003E\u003Ca class=\"external text\" href=\"https://www.mediawiki.org/wiki/Special:MyLanguage/Help:CirrusSearch#Full_text_search\"\u003EFull text search\u003C/a\u003E\u003C/dd\u003E\n\u003Cdt\u003ESyntax-equivalent in the normal search\u003C/dt\u003E\n\u003Cdd\u003E\u003Ccode\u003Esesame street car\u003C/code\u003E\u003C/dd\u003E\u003C/dl\u003E"
+,"advancedsearch-help-phrase":
+"\u003Cdl\u003E\u003Cdt\u003EDescription\u003C/dt\u003E\n\u003Cdd\u003ESearches for a specific sequence of characters. Punctuation marks are ignored.\u003C/dd\u003E\n\u003Cdt\u003EBe aware of the following\u003C/dt\u003E\n\u003Cdd\u003E(only valid when using quotation marks, see example below)\n\u003Cul\u003E\u003Cli\u003ESeparate the search phrases by comma or space e.g. \u003Ccode\u003E\"good morning\"\u003C/code\u003E, \u003Ccode\u003E\"hello friend!\"\u003C/code\u003E.\u003C/li\u003E\n\u003Cli\u003EPunctuation marks and other non-alphanumeric characters (with exception of the colon and comma) will be ignored.\u003C/li\u003E\n\u003Cli\u003ESearch is not case-sensitive.\u003C/li\u003E\n\u003Cli\u003EWord stemming is not applied.\u003C/li\u003E\u003C/ul\u003E\u003C/dd\u003E\u003C/dl\u003E\n\u003Cdl\u003E\u003Cdt\u003EHelp page\u003C/dt\u003E\n\u003Cdd\u003E\u003Ca class=\"external text\" href=\"https://www.mediawiki.org/wiki/Special:MyLanguage/Help:CirrusSearch#Words.2C_phrases.2C_and_modifiers\"\u003EWords, phrases, and modifiers\u003C/a\u003E\u003C/dd\u003E\n\u003Cdt\u003ESyntax-equivalent in the normal search\u003C/dt\u003E\n\u003Cdd\u003EWords in quotation marks, for example \u003Ccode\u003E\"Begin at the beginning\"\u003C/code\u003E.\u003C/dd\u003E\u003C/dl\u003E"
+,"advancedsearch-help-or":"\u003Cdl\u003E\u003Cdt\u003EDescription\u003C/dt\u003E\n\u003Cdd\u003EAt least one of the search terms has to be included in the page.\u003C/dd\u003E\n\u003Cdt\u003EHelp page\u003C/dt\u003E\n\u003Cdd\u003E\u003Ca class=\"external text\" href=\"https://www.mediawiki.org/wiki/Special:MyLanguage/Help:CirrusSearch#Words.2C_phrases.2C_and_modifiers\"\u003EWords, phrases, and modifiers\u003C/a\u003E\u003C/dd\u003E\n\u003Cdt\u003ESyntax-equivalent in the normal search\u003C/dt\u003E\n\u003Cdd\u003EWords with \u003Ccode\u003EOR\u003C/code\u003E in between them like \u003Ccode\u003ELaptop OR Notebook\u003C/code\u003E.\u003C/dd\u003E\u003C/dl\u003E","advancedsearch-help-not":
+"\u003Cdl\u003E\u003Cdt\u003EDescription\u003C/dt\u003E\n\u003Cdd\u003EExcludes pages containing these words from the search.\u003C/dd\u003E\n\u003Cdt\u003EBe aware of the following\u003C/dt\u003E\n\u003Cdd\u003E\n\u003Cul\u003E\u003Cli\u003EWord stemming is applied. Example: If \u003Ci\u003Ecar\u003C/i\u003E is entered, the search will also consider \u003Ci\u003Ecars\u003C/i\u003E. The word stemming is language specific.\u003C/li\u003E\u003C/ul\u003E\u003C/dd\u003E\u003C/dl\u003E\n\u003Cdl\u003E\u003Cdt\u003EHelp page\u003C/dt\u003E\n\u003Cdd\u003E\u003Ca class=\"external text\" href=\"https://www.mediawiki.org/wiki/Special:MyLanguage/Help:CirrusSearch#Words.2C_phrases.2C_and_modifiers\"\u003EWords, phrases, and modifiers\u003C/a\u003E\u003C/dd\u003E\n\u003Cdt\u003ESyntax-equivalent in the normal search\u003C/dt\u003E\n\u003Cdd\u003EWords with \u003Ccode\u003E-\u003C/code\u003E before them, for example \u003Ccode\u003E-elephant\u003C/code\u003E.\u003C/dd\u003E\u003C/dl\u003E",
+"advancedsearch-help-deepcategory":
+"\u003Cdl\u003E\u003Cdt\u003EDescription\u003C/dt\u003E\n\u003Cdd\u003ESearches for pages that are in these categories and subcategories.\u003C/dd\u003E\n\u003Cdt\u003EBe aware of the following\u003C/dt\u003E\n\u003Cdd\u003E\n\u003Cul\u003E\u003Cli\u003EOnly the first 5 subcategory levels will be included in your search.\u003C/li\u003E\n\u003Cli\u003EThe number of categories is limited to 256.\u003C/li\u003E\n\u003Cli\u003EYou can look for pages in multiple categories.\u003C/li\u003E\u003C/ul\u003E\u003C/dd\u003E\u003C/dl\u003E\n\u003Cdl\u003E\u003Cdt\u003EHelp page\u003C/dt\u003E\n\u003Cdd\u003E\u003Ca class=\"external text\" href=\"https://www.mediawiki.org/wiki/Special:MyLanguage/Help:CirrusSearch#Deepcategory\"\u003EDeepcategory\u003C/a\u003E\u003C/dd\u003E\n\u003Cdt\u003ESyntax-equivalent in the normal search\u003C/dt\u003E\n\u003Cdd\u003E\u003Ccode\u003Edeepcategory:\u003C/code\u003E followed by a category name like \u003Ccode\u003Edeepcategory:Help\u003C/code\u003E. Use double quotes if the name contains spaces: \u003Ccode\u003Edeepcategory:\"Hidden categories\"\u003C/code\u003E.\u003C/dd\u003E\u003C/dl\u003E"
+,"advancedsearch-help-hastemplate":
+"\u003Cdl\u003E\u003Cdt\u003EDescription\u003C/dt\u003E\n\u003Cdd\u003ESearches for pages that contain exactly these templates.\u003C/dd\u003E\n\u003Cdt\u003EBe aware of the following\u003C/dt\u003E\n\u003Cdd\u003E\n\u003Cul\u003E\u003Cli\u003EYou can find transcluded templates (templates consisting of other templates).\u003C/li\u003E\n\u003Cli\u003EThe autosuggest function can only find templates which start the same way as your search e.g. a search for \u003Ccode\u003E\"com...\"\u003C/code\u003E will suggest \u003Ci\u003E\"commons\"\u003C/i\u003E but not \u003Ci\u003E\"nowcommons\"\u003C/i\u003E.\u003C/li\u003E\u003C/ul\u003E\u003C/dd\u003E\u003C/dl\u003E\n\u003Cdl\u003E\u003Cdt\u003EHelp page\u003C/dt\u003E\n\u003Cdd\u003E\u003Ca class=\"external text\" href=\"https://www.mediawiki.org/wiki/Special:MyLanguage/Help:CirrusSearch#Hastemplate\"\u003EHastemplate\u003C/a\u003E\u003C/dd\u003E\n\u003Cdt\u003ESyntax-equivalent in the normal search\u003C/dt\u003E\n\u003Cdd\u003EWords in quotation marks with \u003Ccode\u003Ehastemplate:\u003C/code\u003E before them like \u003Ccode\u003Ehastemplate:\"missing information\"\u003C/code\u003E.\u003C/dd\u003E\u003C/dl\u003E"
+,"advancedsearch-help-inlanguage":
+"\u003Cdl\u003E\u003Cdt\u003EDescription\u003C/dt\u003E\n\u003Cdd\u003E\u003C/dd\u003E\u003C/dl\u003E\n\u003Cp\u003EWill only search in the language you choose.\n\u003C/p\u003E\n\u003Cdl\u003E\u003Cdt\u003EBe aware of the following\u003C/dt\u003E\n\u003Cdd\u003E\n\u003Cul\u003E\u003Cli\u003EYou can only search for pages in one language.\u003C/li\u003E\n\u003Cli\u003EThis field will only be visible in wikis that have the translatewiki extension enabled.\u003C/li\u003E\u003C/ul\u003E\u003C/dd\u003E\u003C/dl\u003E\n\u003Cdl\u003E\u003Cdt\u003EHelp page\u003C/dt\u003E\n\u003Cdd\u003E\u003Ca class=\"external text\" href=\"https://www.mediawiki.org/wiki/Special:MyLanguage/Help:CirrusSearch#Inlanguage\"\u003EInlanguage\u003C/a\u003E\u003C/dd\u003E\n\u003Cdt\u003ESyntax-equivalent in the normal search\u003C/dt\u003E\n\u003Cdd\u003E\u003Ccode\u003Einlanguage:\u003C/code\u003E followed by a language code like \u003Ccode\u003Einlanguage:es\u003C/code\u003E. You can exclude languages by adding a \u003Ccode\u003E-\u003C/code\u003E in front of the keyword e.g. \u003Ccode\u003E-inlanguage:en\u003C/code\u003E.\u003C/dd\u003E\u003C/dl\u003E"
+,"advancedsearch-help-intitle":
+"\u003Cdl\u003E\u003Cdt\u003EDescription\u003C/dt\u003E\n\u003Cdd\u003ESearches for pages with titles that contain this word\u003C/dd\u003E\n\u003Cdt\u003EBe aware of the following\u003C/dt\u003E\n\u003Cdd\u003E\n\u003Cul\u003E\u003Cli\u003EThe search includes redirects.\u003C/li\u003E\n\u003Cli\u003EWord stemming is applied. Example: If \u003Ci\u003Ecar\u003C/i\u003E is entered, the search will also consider \u003Ci\u003Ecars\u003C/i\u003E. The word stemming is language specific.\u003C/li\u003E\u003C/ul\u003E\u003C/dd\u003E\u003C/dl\u003E\n\u003Cdl\u003E\u003Cdt\u003EHelp page\u003C/dt\u003E\n\u003Cdd\u003E\u003Ca class=\"external text\" href=\"https://www.mediawiki.org/wiki/Special:MyLanguage/Help:CirrusSearch#Intitle_and_incategory\"\u003EIntitle and incategory\u003C/a\u003E\u003C/dd\u003E\n\u003Cdt\u003ESyntax-equivalent in the normal search\u003C/dt\u003E\n\u003Cdd\u003EWords with \u003Ccode\u003Eintitle:\u003C/code\u003E before them like \u003Ccode\u003Eintitle:queen\u003C/code\u003E.\u003C/dd\u003E\u003C/dl\u003E"
+,"advancedsearch-help-subpageof":
+"\u003Cdl\u003E\u003Cdt\u003EDescription\u003C/dt\u003E\n\u003Cdd\u003ESearches for pages that are subpages of this page.\u003C/dd\u003E\n\u003Cdt\u003EBe aware of the following\u003C/dt\u003E\n\u003Cdd\u003E\n\u003Cul\u003E\u003Cli\u003EYou can only search for subpages of one page at a time.\u003C/li\u003E\n\u003Cli\u003EDon’t forget to enable the namespaces you want to limit your search to in the namespace filter.\u003C/li\u003E\n\u003Cli\u003EDo not include the namespace in front of the page name like this: \u003Cdel\u003E\u003Ccode\u003EWikiquote:Redirect\u003C/code\u003E\u003C/del\u003E.\u003C/li\u003E\u003C/ul\u003E\u003C/dd\u003E\u003C/dl\u003E\n\u003Cdl\u003E\u003Cdt\u003EHelp page\u003C/dt\u003E\n\u003Cdd\u003E\u003Ca class=\"external text\" href=\"https://www.mediawiki.org/wiki/Special:MyLanguage/Help:CirrusSearch#subpageof\"\u003ESubpageof\u003C/a\u003E\u003C/dd\u003E\n\u003Cdt\u003ESyntax-equivalent in the normal search\u003C/dt\u003E\n\u003Cdd\u003E\u003Ccode\u003Esubpageof:\u003C/code\u003E followed by a page name like \u003Ccode\u003Esubpageof:Redirect\u003C/code\u003E. Use double quotes if the parent page contains spaces: \u003Ccode\u003Esubpageof:\"Requests for comment\"\u003C/code\u003E.\u003C/dd\u003E\u003C/dl\u003E"
+,"advancedsearch-help-filetype":
+"\u003Cdl\u003E\u003Cdt\u003EDescription\u003C/dt\u003E\n\u003Cdd\u003ESearches only for files of the selected type.\u003C/dd\u003E\n\u003Cdt\u003EBe aware of the following\u003C/dt\u003E\n\u003Cdd\u003E\n\u003Cul\u003E\u003Cli\u003EYou can only search for one file type.\u003C/li\u003E\n\u003Cli\u003EYou can only select the given file types from the drop-down menu.\u003C/li\u003E\u003C/ul\u003E\u003C/dd\u003E\u003C/dl\u003E\n\u003Cdl\u003E\u003Cdt\u003EHelp pages\u003C/dt\u003E\n\u003Cdd\u003E\u003Ca class=\"external text\" href=\"https://www.mediawiki.org/wiki/Special:MyLanguage/Help:CirrusSearch#filetype\"\u003EFiletype\u003C/a\u003E and \u003Ca class=\"external text\" href=\"https://www.mediawiki.org/wiki/Special:MyLanguage/Help:CirrusSearch#filemime\"\u003Efilemime\u003C/a\u003E\u003C/dd\u003E\n\u003Cdt\u003ESyntax-equivalent in the normal search\u003C/dt\u003E\n\u003Cdd\u003EWords with \u003Ccode\u003Efiletype:\u003C/code\u003E before them like \u003Ccode\u003Efiletype:ogg\u003C/code\u003E.\u003C/dd\u003E\u003C/dl\u003E"
+,"advancedsearch-help-filew":"\u003Cdl\u003E\u003Cdt\u003EDescription\u003C/dt\u003E\n\u003Cdd\u003EThese fields allow you to specify the width of the file.\u003C/dd\u003E\n\u003Cdt\u003EBe aware of the following\u003C/dt\u003E\n\u003Cdd\u003E\n\u003Cul\u003E\u003Cli\u003EThis is only applicable to file types that have width and height, like videos and images.\u003C/li\u003E\u003C/ul\u003E\u003C/dd\u003E\u003C/dl\u003E\n\u003Cdl\u003E\u003Cdt\u003EHelp page\u003C/dt\u003E\n\u003Cdd\u003E\u003Ca class=\"external text\" href=\"https://www.mediawiki.org/wiki/Special:MyLanguage/Help:CirrusSearch#File_measures\"\u003EFilemeasures\u003C/a\u003E\u003C/dd\u003E\n\u003Cdt\u003ESyntax-equivalent in the normal search\u003C/dt\u003E\n\u003Cdd\u003ENumbers with \u003Ccode\u003Efilew\u003C/code\u003E before them like \u003Ccode\u003Efilew:\u0026gt;800\u003C/code\u003E.\u003C/dd\u003E\u003C/dl\u003E","advancedsearch-help-fileh":
+"\u003Cdl\u003E\u003Cdt\u003EDescription\u003C/dt\u003E\n\u003Cdd\u003EThese fields allow you to specify the height of the file.\u003C/dd\u003E\n\u003Cdt\u003EBe aware of the following\u003C/dt\u003E\n\u003Cdd\u003E\n\u003Cul\u003E\u003Cli\u003EThis is only applicable to file types that have width and height, like videos and images.\u003C/li\u003E\u003C/ul\u003E\u003C/dd\u003E\u003C/dl\u003E\n\u003Cdl\u003E\u003Cdt\u003EHelp page\u003C/dt\u003E\n\u003Cdd\u003E\u003Ca class=\"external text\" href=\"https://www.mediawiki.org/wiki/Special:MyLanguage/Help:CirrusSearch#File_measures\"\u003EFilemeasures\u003C/a\u003E\u003C/dd\u003E\n\u003Cdt\u003ESyntax-equivalent in the normal search\u003C/dt\u003E\n\u003Cdd\u003ENumbers with \u003Ccode\u003Efileh\u003C/code\u003E before them like \u003Ccode\u003Efileh:\u0026gt;600\u003C/code\u003E.\u003C/dd\u003E\u003C/dl\u003E","advancedsearch-help-sort":
+"\u003Cdl\u003E\u003Cdt\u003EDescription\u003C/dt\u003E\n\u003Cdd\u003EChange the sorting order of results. The standard is that most relevant pages are placed on top of the results.\u003C/dd\u003E\n\u003Cdt\u003EHelp page\u003C/dt\u003E\n\u003Cdd\u003E\u003Ca class=\"external text\" href=\"https://www.mediawiki.org/wiki/Special:MyLanguage/Help:CirrusSearch#Explicit_sort_orders\"\u003EExplicit sort orders\u003C/a\u003E\u003C/dd\u003E\n\u003Cdt\u003ESyntax-equivalent in the normal search\u003C/dt\u003E\n\u003Cdd\u003EThis feature has no keyword that you can type in the search input field since the function is specified via a parameter in the URL.\u003C/dd\u003E\u003C/dl\u003E"},"advancedSearch.namespacePresets":{"defaultNamespaces":{"enabled":!0,"provider":"defaultNamespaces","label":"advancedsearch-namespaces-preset-default"},"discussion":{"enabled":!0,"provider":"discussion","label":"advancedsearch-namespaces-preset-discussion"},"generalHelp":{"enabled":!0,"namespaces":["4","12"
+],"label":"advancedsearch-namespaces-preset-general-help"},"all":{"enabled":!0,"provider":"all","label":"advancedsearch-namespaces-preset-all"}},"advancedSearch.deepcategoryEnabled":!0,"advancedSearch.searchableNamespaces":{"0":"(Main)","1":"Talk","2":"User","3":"User_talk","4":"Wikiquote","5":"Wikiquote_talk","6":"File","7":"File_talk","8":"MediaWiki","9":"MediaWiki_talk","10":"Template","11":"Template_talk","12":"Help","13":"Help_talk","14":"Category","15":"Category_talk","828":"Module","829":"Module_talk","2300":"Gadget","2301":"Gadget_talk","2302":"Gadget_definition","2303":"Gadget_definition_talk"},"searchTerm":"ecclesiastes bush","wgCirrusSearchRequestSetToken":"1la216yrjs2h1iox9033uwmul","wgIsSearchResultPage":!0,"wgCirrusTookMs":53,"wgCirrusElasticTime":-1,"wgCirrusSearchFallback":{"mainResults":{"name":"__main__","action":null},"querySuggestion":null},"wgCentralAuthMobileDomain":!1,"wgEditSubmitButtonLabelPublish":!0,"wgSiteNoticeId":"2.3"};RLSTATE={
+"ext.globalCssJs.user.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","ext.advancedSearch.searchtoken":"loading","ext.globalCssJs.user":"ready","user":"ready","user.options":"loading","ext.advancedSearch.initialstyles":"ready","mediawiki.helplink":"ready","mediawiki.special":"ready","mediawiki.special.search.styles":"ready","mediawiki.ui":"ready","mediawiki.ui.button":"ready","mediawiki.ui.input":"ready","mediawiki.widgets.SearchInputWidget.styles":"ready","oojs-ui-core.styles":"ready","oojs-ui.styles.indicators":"ready","mediawiki.widgets.styles":"ready","oojs-ui-core.icons":"ready","skins.vector.styles.legacy":"ready","ext.tmh.thumbnail.styles":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready","ext.dismissableSiteNotice.styles":"ready"};RLPAGEMODULES=["ext.advancedSearch.init","mediawiki.special.search","ext.cirrus.serp","site","mediawiki.page.startup","mediawiki.page.ready",
+"skins.vector.legacy.js","mw.MediaWikiPlayer.loader","mw.PopUpMediaTransform","ext.centralauth.centralautologin","mmv.head","mmv.bootstrap.autostart","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging","ext.wikimediaEvents","ext.navigationTiming","ext.uls.compactlinks","ext.uls.interface","ext.centralNotice.geoIP","ext.dismissableSiteNotice"];</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.loader.implement("ext.advancedSearch.searchtoken@1v7b7",function($,jQuery,require,module){/*@nomin*/mw.user.tokens.set("searchnamespaceToken","+\\");
+});mw.loader.implement("user.options@1hzgi",function($,jQuery,require,module){/*@nomin*/mw.user.tokens.set({"patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+});});</script>
+<link rel="stylesheet" href="https://en.wikiquote.org/w/load.php?lang=en&amp;modules=ext.advancedSearch.initialstyles%7Cext.dismissableSiteNotice.styles%7Cext.tmh.thumbnail.styles%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediaBadges%7Cmediawiki.helplink%2Cspecial%2Cui%7Cmediawiki.special.search.styles%7Cmediawiki.ui.button%2Cinput%7Cmediawiki.widgets.SearchInputWidget.styles%7Cmediawiki.widgets.styles%7Coojs-ui-core.icons%2Cstyles%7Coojs-ui.styles.indicators%7Cskins.vector.styles.legacy&amp;only=styles&amp;skin=vector"/>
+<script async="" src="https://en.wikiquote.org/w/load.php?lang=en&amp;modules=startup&amp;only=scripts&amp;raw=1&amp;skin=vector"></script>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="https://en.wikiquote.org/w/load.php?lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=vector"/>
+<meta name="generator" content="MediaWiki 1.35.0-wmf.36"/>
+<meta name="referrer" content="origin"/>
+<meta name="referrer" content="origin-when-crossorigin"/>
+<meta name="referrer" content="origin-when-cross-origin"/>
+<meta name="robots" content="noindex,nofollow"/>
+<link rel="shortcut icon" href="https://en.wikiquote.org/static/favicon/wikiquote.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="https://en.wikiquote.org/w/opensearch_desc.php" title="Wikiquote (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="https://en.wikiquote.org/w/api.php?action=rsd"/>
+<link rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/"/>
+<link rel="alternate" type="application/atom+xml" title="Wikiquote Atom feed" href="https://en.wikiquote.org/w/index.php?title=Special:RecentChanges&amp;feed=atom"/>
+<link rel="canonical" href="./index.php?search=ecclesiastes+bush&amp;title=Special:Search&amp;go=Go&amp;searchToken=9x3h580gryho7cccg6nrmpyyb"/>
+<link rel="dns-prefetch" href="https://login.wikimedia.org/"/>
+<!--[if lt IE 9]><script src="/w/resources/lib/html5shiv/html5shiv.js"></script><![endif]-->
+</head>
+<body class="mediawiki ltr sitedir-ltr mw-hide-empty-elt ns--1 ns-special mw-special-Search page-Special_Search rootpage-Special_Search skin-vector action-view skin-vector-legacy">
+<div id="mw-page-base" class="noprint"></div>
+<div id="mw-head-base" class="noprint"></div>
+<div id="content" class="mw-body" role="main">
+	<a id="top"></a>
+		<div id="siteNotice" class="mw-body-content"><!-- CentralNotice --><div id="mw-dismissablenotice-anonplace"></div><script>(function(){var node=document.getElementById("mw-dismissablenotice-anonplace");if(node){node.outerHTML="\u003Cdiv class=\"mw-dismissable-notice\"\u003E\u003Cdiv class=\"mw-dismissable-notice-close\"\u003E[\u003Ca tabindex=\"0\" role=\"button\"\u003Ehide\u003C/a\u003E]\u003C/div\u003E\u003Cdiv class=\"mw-dismissable-notice-body\"\u003E\u003Cdiv id=\"localNotice\" lang=\"en\" dir=\"ltr\"\u003E\u003Cdiv style=\"position:absolute; z-index:100; right:100px; top:-0px;\" class=\"metadata\" id=\"donate\"\u003E\n\u003Cdiv style=\"text-align:right; font-size:80%\"\u003E\u003Ci\u003EYour \u003Cb\u003E\u003Ca href=\"https://foundation.wikimedia.org/wiki/Fundraising\" class=\"extiw\" title=\"wikimedia:Fundraising\"\u003Econtinued donations\u003C/a\u003E\u003C/b\u003E keep Wikiquote running!\u003C/i\u003E\n\u003C/div\u003E\u003C/div\u003E\n\u003C/div\u003E\u003C/div\u003E\u003C/div\u003E";}}());</script></div>
+	<div class="mw-indicators mw-body-content">
+<div id="mw-indicator-mw-helplink" class="mw-indicator"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/Help:CirrusSearch" target="_blank" class="mw-helplink">Help</a></div>
+</div>
+
+	<h1 id="firstHeading" class="firstHeading" lang="en">Search results</h1>
+	
+	<div id="bodyContent" class="mw-body-content">
+		
+		<div id="contentSub"></div>
+		
+		
+		<div id="jump-to-nav"></div>
+		<a class="mw-jump-link" href="./index.php?search=ecclesiastes+bush&amp;title=Special:Search&amp;go=Go&amp;searchToken=9x3h580gryho7cccg6nrmpyyb#mw-head">Jump to navigation</a>
+		<a class="mw-jump-link" href="./index.php?search=ecclesiastes+bush&amp;title=Special:Search&amp;go=Go&amp;searchToken=9x3h580gryho7cccg6nrmpyyb#p-search">Jump to search</a>
+		<div id="mw-content-text"><div class="mw-search-spinner"><div class="mw-search-spinner-bounce"></div></div><div class="mw-search-form-wrapper"><form id="search" method="get" action="https://en.wikiquote.org/w/index.php"><div id="mw-search-top-table"><div class='oo-ui-layout oo-ui-fieldLayout oo-ui-fieldLayout-align-top oo-ui-actionFieldLayout'><div class='oo-ui-fieldLayout-body'><span class='oo-ui-fieldLayout-header'><label for='ooui-php-1' class='oo-ui-labelElement-label'></label></span><div class='oo-ui-fieldLayout-field'><div class='oo-ui-actionFieldLayout-input'><div id='searchText' aria-disabled='false' class='oo-ui-widget oo-ui-widget-enabled oo-ui-inputWidget oo-ui-iconElement oo-ui-textInputWidget oo-ui-textInputWidget-type-text oo-ui-textInputWidget-php mw-widget-titleInputWidget mw-widget-searchInputWidget' data-ooui='{"_":"mw.widgets.SearchInputWidget","performSearchOnClick":true,"dataLocation":"content","$overlay":true,"highlightFirst":false,"validateTitle":false,"name":"search","value":"ecclesiastes bush","inputId":"ooui-php-1","title":"Search Wikiquote","icon":"search"}'><input type='search' tabindex='0' aria-disabled='false' title='Search Wikiquote' name='search' value='ecclesiastes bush' id='ooui-php-1' class='oo-ui-inputWidget-input' /><span class='oo-ui-iconElement-icon oo-ui-icon-search'></span><span class='oo-ui-indicatorElement-indicator oo-ui-indicatorElement-noIndicator'></span></div></div><span class='oo-ui-actionFieldLayout-button'><span aria-disabled='false' class='oo-ui-widget oo-ui-widget-enabled oo-ui-inputWidget oo-ui-buttonElement oo-ui-buttonElement-framed oo-ui-labelElement oo-ui-flaggedElement-progressive oo-ui-flaggedElement-primary oo-ui-buttonInputWidget'><button type='submit' tabindex='0' aria-disabled='false' value='' class='oo-ui-inputWidget-input oo-ui-buttonElement-button'><span class='oo-ui-iconElement-icon oo-ui-iconElement-noIcon oo-ui-image-invert'></span><span class='oo-ui-labelElement-label'>Search</span><span class='oo-ui-indicatorElement-indicator oo-ui-indicatorElement-noIndicator oo-ui-image-invert'></span></button></span></span></div></div></div><div class="results-info" data-mw-num-results-offset="0" data-mw-num-results-total="17">Results <strong>1 – 17</strong> of <strong>17</strong></div><input type="hidden" value="Special:Search" name="title"/><input type="hidden" value="default" name="profile"/><input type="hidden" value="1" name="fulltext"/></div><div class='mw-search-visualclear'></div><div class='mw-search-profile-tabs'><div class='search-types'><ul><li class="current"><a href="https://en.wikiquote.org/w/index.php?title=Special:Search&amp;profile=default&amp;search=ecclesiastes+bush&amp;fulltext=1" title="Search in (Main)">Content pages</a></li><li class="normal"><a href="https://en.wikiquote.org/w/index.php?title=Special:Search&amp;profile=images&amp;search=ecclesiastes+bush&amp;fulltext=1" title="Search for files">Multimedia</a></li><li class="normal"><a href="https://en.wikiquote.org/w/index.php?title=Special:Search&amp;profile=all&amp;search=ecclesiastes+bush&amp;fulltext=1" title="Search all of content (including talk pages)">Everything</a></li><li class="normal"><a href="https://en.wikiquote.org/w/index.php?title=Special:Search&amp;profile=advanced&amp;search=ecclesiastes+bush&amp;fulltext=1" title="Search in custom namespaces">Advanced</a></li></ul></div><div style='clear:both'></div></div></form></div><div class="searchresults"><p class="mw-search-createlink">
+<strong>Create the page "<a href="https://en.wikiquote.org/w/index.php?title=Ecclesiastes_bush&amp;action=edit&amp;redlink=1" class="new" title="Ecclesiastes bush (page does not exist)">Ecclesiastes bush</a>" on this wiki!</strong> See also the search results found.</p><ul class='mw-search-results'><li class='mw-search-result'><div class='mw-search-result-heading'><a href="https://en.wikiquote.org/wiki/George_W._Bush" title="George W. Bush" data-serp-pos="0">George W. <span class="searchmatch">Bush</span></a>    </div><div class='searchresult'>George Walker <span class="searchmatch">Bush</span> (born 6 July 1946) is an American politician and businessman who served as the 43rd President of the United States from 2001 to 2009</div> <div class='mw-search-result-data'>387 KB (53,823 words) - 10:19, 12 June 2020</div></li><li class='mw-search-result'><div class='mw-search-result-heading'><a href="https://en.wikiquote.org/wiki/Kairos" title="Kairos" data-serp-pos="1">Kairos</a>    </div><div class='searchresult'>time to love, and a time to hate; a time of war, and a time of peace. <span class="searchmatch">Ecclesiastes</span> 3:1-8 (KJV) · Dual language presentations Whereas &quot;false stories&quot; can</div> <div class='mw-search-result-data'>13 KB (1,996 words) - 15:55, 13 January 2020</div></li><li class='mw-search-result'><div class='mw-search-result-heading'><a href="https://en.wikiquote.org/wiki/Storm" title="Storm" data-serp-pos="2">Storm</a>    </div><div class='searchresult'>in a letter to Thomas Jefferson (20 July 1776), quoting a phrase from <span class="searchmatch">Ecclesiastes</span> 9:11. Seventy-three men sailed in, from the San Francisco Bay, Rolled</div> <div class='mw-search-result-data'>12 KB (1,772 words) - 15:28, 21 February 2020</div></li><li class='mw-search-result'><div class='mw-search-result-heading'><a href="https://en.wikiquote.org/wiki/Birds" title="Birds" data-serp-pos="3">Birds</a>    </div><div class='searchresult'>Aves. See Robinson's Antiquities, Greek, Book III, Chapter XV. ad init. <span class="searchmatch">Ecclesiastes</span>. X. 20. There are people who love birds so much they free them. There</div> <div class='mw-search-result-data'>33 KB (4,913 words) - 05:43, 31 January 2020</div></li><li class='mw-search-result'><div class='mw-search-result-heading'><a href="https://en.wikiquote.org/wiki/September_11" title="September 11" data-serp-pos="4">September 11</a>    </div><div class='searchresult'>tragedy allows the release of love and grief never normally seen. ~ Kate <span class="searchmatch">Bush</span> selected by Kalki 2005 September 11 was, and remains, above all an immense</div> <div class='mw-search-result-data'>37 KB (2,504 words) - 20:07, 14 December 2019</div></li><li class='mw-search-result'><div class='mw-search-result-heading'><a href="https://en.wikiquote.org/wiki/Books" title="Books" data-serp-pos="5">Books</a>    </div><div class='searchresult'>many books there is no end; and much study is a weariness of the flesh. <span class="searchmatch">Ecclesiastes</span> 12:12, King James Version Books are not made to be believed, but to be</div> <div class='mw-search-result-data'>64 KB (10,085 words) - 04:50, 2 April 2020</div></li><li class='mw-search-result'><div class='mw-search-result-heading'><a href="https://en.wikiquote.org/wiki/Success" title="Success" data-serp-pos="6">Success</a>    </div><div class='searchresult'>I, p. 72 The race is not to the swift, nor the battle to the strong. <span class="searchmatch">Ecclesiastes</span>, IX. 11 If the single man plant himself indomitably on his instincts</div> <div class='mw-search-result-data'>43 KB (6,340 words) - 15:15, 27 May 2020</div></li><li class='mw-search-result'><div class='mw-search-result-heading'><a href="https://en.wikiquote.org/wiki/Wine" title="Wine" data-serp-pos="7">Wine</a>    </div><div class='searchresult'>wine with a joyful heart, for it is now that God favours what you do. <span class="searchmatch">Ecclesiastes</span> 9:7. Once... in the wilds of Afghanistan, I lost my corkscrew, and we</div> <div class='mw-search-result-data'>24 KB (3,856 words) - 03:09, 7 April 2020</div></li><li class='mw-search-result'><div class='mw-search-result-heading'><a href="https://en.wikiquote.org/wiki/Fear" title="Fear" data-serp-pos="8">Fear</a>    </div><div class='searchresult'>and keep his commandments: for this is the whole duty of man. Solomon, <span class="searchmatch">Ecclesiastes</span>, 12:13. Fear cannot be without hope nor hope without fear. Baruch Spinoza</div> <div class='mw-search-result-data'>66 KB (10,031 words) - 17:24, 16 April 2020</div></li><li class='mw-search-result'><div class='mw-search-result-heading'><a href="https://en.wikiquote.org/wiki/Trees" title="Trees" data-serp-pos="9">Trees</a>    </div><div class='searchresult'>Deuteronomy 20:19. In the place where the tree falleth, there it shall be. <span class="searchmatch">Ecclesiastes</span>, XI. 3. The tree is known by his fruit. Matthew, XII. 33. Spreading himself</div> <div class='mw-search-result-data'>50 KB (7,086 words) - 13:44, 18 May 2020</div></li><li class='mw-search-result'><div class='mw-search-result-heading'><a href="https://en.wikiquote.org/wiki/Stephen_Jay_Gould" title="Stephen Jay Gould" data-serp-pos="10">Stephen Jay Gould</a>    </div><div class='searchresult'>tantamount to intrinsic dignity. Of course I agree with the preacher of <span class="searchmatch">Ecclesiastes</span> that there is a time to love and a time to die - and when my skein runs</div> <div class='mw-search-result-data'>143 KB (22,374 words) - 00:51, 28 January 2020</div></li><li class='mw-search-result'><div class='mw-search-result-heading'><a href="https://en.wikiquote.org/wiki/Women" title="Women" data-serp-pos="11">Women</a>    </div><div class='searchresult'>thousand have I found; but a woman among all those have I not found. <span class="searchmatch">Ecclesiastes</span> 7, 26-29. Oh, woman, perfect woman! what distraction Was meant to mankind</div> <div class='mw-search-result-data'>132 KB (20,476 words) - 18:11, 1 June 2020</div></li><li class='mw-search-result'><div class='mw-search-result-heading'><a href="https://en.wikiquote.org/wiki/English_proverbs" title="English proverbs" data-serp-pos="12">English proverbs</a>    </div><div class='searchresult'>(1650). Solomonis Panaretos: Commentarie Upon the Books of Proverbs, <span class="searchmatch">Ecclesiastes</span>, and the Song of Songs. p. 128.  Curiosity killed the cat. &quot;Inquisitiveness</div> <div class='mw-search-result-data'>263 KB (32,582 words) - 05:40, 8 June 2020</div></li><li class='mw-search-result'><div class='mw-search-result-heading'><a href="https://en.wikiquote.org/wiki/Swedish_proverbs" title="Swedish proverbs" data-serp-pos="13">Swedish proverbs</a>    </div><div class='searchresult'>English equivalent: To everything there is a season. Note: From the Bible, <span class="searchmatch">Ecclesiastes</span> 3:1. Source: Söderbäck (1989), p. 42 Anfall är bästa försvar. Translation:</div> <div class='mw-search-result-data'>129 KB (18,362 words) - 11:27, 10 June 2020</div></li><li class='mw-search-result'><div class='mw-search-result-heading'><a href="https://en.wikiquote.org/wiki/Philosophical_pessimism" title="Philosophical pessimism" data-serp-pos="14">Philosophical pessimism</a>    </div><div class='searchresult'>are torture. It is better not to have been born. Voltaire, Précis of <span class="searchmatch">Ecclesiastes</span> (1760) Happiness is but a dream, and only pain is real. I have thought</div> <div class='mw-search-result-data'>52 KB (8,743 words) - 15:13, 4 June 2020</div></li><li class='mw-search-result'><div class='mw-search-result-heading'><a href="https://en.wikiquote.org/wiki/Antinatalism" title="Antinatalism" data-serp-pos="15">Antinatalism</a>    </div><div class='searchresult'> who hath not seen the evil work that is done under the sun. <span class="searchmatch">Ecclesiastes</span>, <span class="searchmatch">Ecclesiastes</span> 4:1-3, King James Version of the Bible, 1611 For through their</div> <div class='mw-search-result-data'>192 KB (30,818 words) - 11:54, 15 June 2020</div></li><li class='mw-search-result'><div class='mw-search-result-heading'><a href="https://en.wikiquote.org/wiki/Orthodoxy_(book)" title="Orthodoxy (book)" data-serp-pos="16">Orthodoxy (book)</a>    </div><div class='searchresult'>whole destiny—all that was to go. We were to hear no more the wail of <span class="searchmatch">Ecclesiastes</span> that humanity had no pre-eminence over the brute, or the awful cry of</div> <div class='mw-search-result-data'>110 KB (19,781 words) - 00:57, 11 June 2020</div></li></ul><div class="mw-search-visualclear"></div></div><noscript><img src="https://en.wikiquote.org/wiki/Special:CentralAutoLogin/start?type=1x1" alt="" title="" width="1" height="1" style="border: none; position: absolute;" /></noscript></div>
+		<div class="printfooter">Retrieved from "<a dir="ltr" href="https://en.wikiquote.org/wiki/Special:Search">https://en.wikiquote.org/wiki/Special:Search</a>"</div>
+		<div id="catlinks" class="catlinks catlinks-allhidden" data-mw="interface"></div>
+		<div class="visualClear"></div>
+		
+	</div>
+</div>
+
+<div id="mw-navigation">
+	<h2>Navigation menu</h2>
+	<div id="mw-head">
+		<div id="p-personal" class="vector-menu" aria-labelledby="p-personal-label" 
+	 >
+	<h3 id="p-personal-label">
+		<span>Personal tools</span>
+	</h3>
+	<!-- Please do not use the .body class, it is deprecated. -->
+	<div class="body vector-menu-content">
+		<!-- Please do not use the .menu class, it is deprecated. -->
+		<ul class="vector-menu-content-list"><li id="pt-anonuserpage">Not logged in</li><li id="pt-anontalk"><a href="https://en.wikiquote.org/wiki/Special:MyTalk" title="Discussion about edits from this IP address [n]" accesskey="n">Talk</a></li><li id="pt-anoncontribs"><a href="https://en.wikiquote.org/wiki/Special:MyContributions" title="A list of edits made from this IP address [y]" accesskey="y">Contributions</a></li><li id="pt-createaccount"><a href="https://en.wikiquote.org/w/index.php?title=Special:CreateAccount&amp;returnto=Special%3ASearch&amp;returntoquery=search%3Decclesiastes%2Bbush%26go%3DGo%26searchToken%3D9x3h580gryho7cccg6nrmpyyb%26ns0%3D1" title="You are encouraged to create an account and log in; however, it is not mandatory">Create account</a></li><li id="pt-login"><a href="https://en.wikiquote.org/w/index.php?title=Special:UserLogin&amp;returnto=Special%3ASearch&amp;returntoquery=search%3Decclesiastes%2Bbush%26go%3DGo%26searchToken%3D9x3h580gryho7cccg6nrmpyyb%26ns0%3D1" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o">Log in</a></li></ul>
+		
+	</div>
+</div>
+
+
+		<div id="left-navigation">
+			<div id="p-namespaces" class="vector-menu vector-menu-tabs vectorTabs" aria-labelledby="p-namespaces-label" 
+	 >
+	<h3 id="p-namespaces-label">
+		<span>Namespaces</span>
+	</h3>
+	<!-- Please do not use the .body class, it is deprecated. -->
+	<div class="body vector-menu-content">
+		<!-- Please do not use the .menu class, it is deprecated. -->
+		<ul class="vector-menu-content-list"><li id="ca-nstab-special" class="selected"><a href="./index.php?search=ecclesiastes+bush&amp;title=Special:Search&amp;go=Go&amp;searchToken=9x3h580gryho7cccg6nrmpyyb" title="This is a special page, and it cannot be edited">Special page</a></li></ul>
+		
+	</div>
+</div>
+
+
+			<div id="p-variants" class="vector-menu-empty emptyPortlet vector-menu vector-menu-dropdown vectorMenu" aria-labelledby="p-variants-label" 
+	 >
+	<input type="checkbox" class="vectorMenuCheckbox vector-menu-checkbox" aria-labelledby="p-variants-label" />
+	<h3 id="p-variants-label">
+		<span>Variants</span>
+	</h3>
+	<!-- Please do not use the .body class, it is deprecated. -->
+	<div class="body vector-menu-content">
+		<!-- Please do not use the .menu class, it is deprecated. -->
+		<ul class="menu vector-menu-content-list"></ul>
+		
+	</div>
+</div>
+
+
+		</div>
+		<div id="right-navigation">
+			<div id="p-views" class="vector-menu-empty emptyPortlet vector-menu vector-menu-tabs vectorTabs" aria-labelledby="p-views-label" 
+	 >
+	<h3 id="p-views-label">
+		<span>Views</span>
+	</h3>
+	<!-- Please do not use the .body class, it is deprecated. -->
+	<div class="body vector-menu-content">
+		<!-- Please do not use the .menu class, it is deprecated. -->
+		<ul class="vector-menu-content-list"></ul>
+		
+	</div>
+</div>
+
+
+			<div id="p-cactions" class="vector-menu-empty emptyPortlet vector-menu vector-menu-dropdown vectorMenu" aria-labelledby="p-cactions-label" 
+	 >
+	<input type="checkbox" class="vectorMenuCheckbox vector-menu-checkbox" aria-labelledby="p-cactions-label" />
+	<h3 id="p-cactions-label">
+		<span>More</span>
+	</h3>
+	<!-- Please do not use the .body class, it is deprecated. -->
+	<div class="body vector-menu-content">
+		<!-- Please do not use the .menu class, it is deprecated. -->
+		<ul class="menu vector-menu-content-list"></ul>
+		
+	</div>
+</div>
+
+
+			<div id="p-search" role="search">
+	<h3 >
+		<label for="searchInput">Search</label>
+	</h3>
+	<form action="https://en.wikiquote.org/w/index.php" id="searchform">
+		<div id="simpleSearch">
+			<input type="search" name="search" placeholder="Search Wikiquote" title="Search Wikiquote [f]" accesskey="f" id="searchInput"/>
+			<input type="hidden" name="title" value="Special:Search">
+			<input type="submit" name="fulltext" value="Search" title="Search the pages for this text" id="mw-searchButton" class="searchButton mw-fallbackSearchButton"/>
+			<input type="submit" name="go" value="Go" title="Go to a page with this exact name if it exists" id="searchButton" class="searchButton"/>
+		</div>
+	</form>
+</div>
+
+		</div>
+	</div>
+	
+<div id="mw-panel">
+	<div id="p-logo" role="banner">
+		<a  title="Visit the main page" class="mw-wiki-logo" href="https://en.wikiquote.org/wiki/Main_Page"></a>
+	</div>
+	<div id="p-navigation" class="vector-menu vector-menu-portal portal portal-first" aria-labelledby="p-navigation-label" 
+	 >
+	<h3 id="p-navigation-label">
+		<span>Navigation</span>
+	</h3>
+	<!-- Please do not use the .body class, it is deprecated. -->
+	<div class="body vector-menu-content">
+		<!-- Please do not use the .menu class, it is deprecated. -->
+		<ul class="vector-menu-content-list"><li id="n-mainpage-description"><a href="https://en.wikiquote.org/wiki/Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li><li id="n-portal"><a href="https://en.wikiquote.org/wiki/Wikiquote:Community_Portal" title="About the project, what you can do, where to find things">Community portal</a></li><li id="n-Village-pump"><a href="https://en.wikiquote.org/wiki/Wikiquote:Village_pump">Village pump</a></li><li id="n-recentchanges"><a href="https://en.wikiquote.org/wiki/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li><li id="n-randompage"><a href="https://en.wikiquote.org/wiki/Special:Random" title="Load a random page [x]" accesskey="x">Random page</a></li><li id="n-help"><a href="https://en.wikiquote.org/wiki/Help:Contents" title="The place to find out">Help</a></li><li id="n-sitesupport"><a href="https://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=C13_en.wikiquote.org&amp;uselang=en" title="Support us">Donate</a></li><li id="n-Contact-Wikiquote"><a href="https://en.wikiquote.org/wiki/Wikiquote:Contact_us">Contact Wikiquote</a></li></ul>
+		
+	</div>
+</div>
+
+
+	<div id="p-Wikiquote links" class="vector-menu vector-menu-portal portal" aria-labelledby="p-Wikiquote links-label" 
+	 >
+	<h3 id="p-Wikiquote links-label">
+		<span>Wikiquote links</span>
+	</h3>
+	<!-- Please do not use the .body class, it is deprecated. -->
+	<div class="body vector-menu-content">
+		<!-- Please do not use the .menu class, it is deprecated. -->
+		<ul class="vector-menu-content-list"><li id="n-People"><a href="https://en.wikiquote.org/wiki/List_of_people_by_name">People</a></li><li id="n-Literary-works"><a href="https://en.wikiquote.org/wiki/List_of_literary_works">Literary works</a></li><li id="n-Proverbs"><a href="https://en.wikiquote.org/wiki/Category:Proverbs">Proverbs</a></li><li id="n-Films"><a href="https://en.wikiquote.org/wiki/List_of_films">Films</a></li><li id="n-TV-shows"><a href="https://en.wikiquote.org/wiki/List_of_television_shows">TV shows</a></li><li id="n-Themes"><a href="https://en.wikiquote.org/wiki/Category:Themes">Themes</a></li><li id="n-Categories"><a href="https://en.wikiquote.org/wiki/Category:Categories">Categories</a></li></ul>
+		
+	</div>
+</div>
+
+<div id="p-tb" class="vector-menu vector-menu-portal portal" aria-labelledby="p-tb-label" 
+	 >
+	<h3 id="p-tb-label">
+		<span>Tools</span>
+	</h3>
+	<!-- Please do not use the .body class, it is deprecated. -->
+	<div class="body vector-menu-content">
+		<!-- Please do not use the .menu class, it is deprecated. -->
+		<ul class="vector-menu-content-list"><li id="t-upload"><a href="https://commons.wikimedia.org/wiki/Special:UploadWizard" title="Upload files [u]" accesskey="u">Upload file</a></li><li id="t-specialpages"><a href="https://en.wikiquote.org/wiki/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li><li id="t-print"><a href="https://en.wikiquote.org/w/index.php?title=Special:Search&amp;search=ecclesiastes+bush&amp;go=Go&amp;searchToken=9x3h580gryho7cccg6nrmpyyb&amp;ns0=1&amp;printable=yes" rel="alternate" title="Printable version of this page [p]" accesskey="p">Printable version</a></li></ul>
+		
+	</div>
+</div>
+
+
+</div>
+
+</div>
+
+<div id="footer" class="mw-footer" role="contentinfo" >
+	<ul id="footer-places" >
+		<li id="footer-places-privacy"><a href="https://foundation.wikimedia.org/wiki/Privacy_policy" class="extiw" title="wmf:Privacy policy">Privacy policy</a></li>
+		<li id="footer-places-about"><a href="https://en.wikiquote.org/wiki/Wikiquote:About" title="Wikiquote:About">About Wikiquote</a></li>
+		<li id="footer-places-disclaimer"><a href="https://en.wikiquote.org/wiki/Wikiquote:General_disclaimer" title="Wikiquote:General disclaimer">Disclaimers</a></li>
+		<li id="footer-places-developers"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/How_to_contribute">Developers</a></li>
+		<li id="footer-places-statslink"><a href="https://stats.wikimedia.org/#/en.wikiquote.org">Statistics</a></li>
+		<li id="footer-places-cookiestatement"><a href="https://foundation.wikimedia.org/wiki/Cookie_statement">Cookie statement</a></li>
+		<li id="footer-places-mobileview"><a href="https://en.m.wikiquote.org/w/index.php?title=Special:Search&amp;search=ecclesiastes+bush&amp;go=Go&amp;searchToken=9x3h580gryho7cccg6nrmpyyb&amp;ns0=1&amp;mobileaction=toggle_view_mobile" class="noprint stopMobileRedirectToggle">Mobile view</a></li>
+	</ul>
+	<ul id="footer-icons" class="noprint">
+		<li id="footer-copyrightico"><a href="https://wikimediafoundation.org/"><img src="https://en.wikiquote.org/static/images/wikimedia-button.png" srcset="https://en.wikiquote.org/static/images/wikimedia-button-1.5x.png 1.5x, https://en.wikiquote.org/static/images/wikimedia-button-2x.png 2x" width="88" height="31" alt="Wikimedia Foundation" loading="lazy" /></a></li>
+		<li id="footer-poweredbyico"><a href="https://www.mediawiki.org/"><img src="https://en.wikiquote.org/static/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" srcset="https://en.wikiquote.org/static/images/poweredby_mediawiki_132x47.png 1.5x, https://en.wikiquote.org/static/images/poweredby_mediawiki_176x62.png 2x" width="88" height="31"/></a></li>
+	</ul>
+	<div style="clear: both;"></div>
+</div>
+
+
+<script>(RLQ=window.RLQ||[]).push(function(){mw.log.warn("This page is using the deprecated ResourceLoader module \"mediawiki.ui\".\nPlease use OOUI instead.");mw.config.set({"wgBackendResponseTime":171,"wgHostname":"mw1355"});});</script></body></html>

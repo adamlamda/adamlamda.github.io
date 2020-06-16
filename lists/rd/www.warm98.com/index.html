@@ -1,0 +1,1113 @@
+<!DOCTYPE HTML><html lang="en-US" xmlns:og="http://ogp.me/ns#" xmlns:fb="http://ogp.me/ns/fb#">
+
+<head>
+<meta charset="UTF-8" />
+<link rel="profile" href="http://gmpg.org/xfn/11" />
+
+<!-- Title -->
+<title>80s 90s &amp; NOW | Warm 98.5 | WRRM-FM</title><link rel='dns-prefetch' href='//www.warm98.com' />
+<link rel='dns-prefetch' href='//see-p-elb-01.tritondigital.net' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="canonical" href="http://www.warm98.com/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.3\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.3\/svg\/","svgExt":".svg","source":{"wpemoji":"http:\/\/www.warm98.com\/wp-includes\/js\/wp-emoji.js?ver=4.9.1","twemoji":"http:\/\/www.warm98.com\/wp-includes\/js\/twemoji.js?ver=4.9.1"}};
+			( function( window, document, settings ) {
+	var src, ready, ii, tests;
+
+	/*
+	 * Create a canvas element for testing native browser support
+	 * of emoji.
+	 */
+	var canvas = document.createElement( 'canvas' );
+	var context = canvas.getContext && canvas.getContext( '2d' );
+
+	/**
+	 * Check if two sets of Emoji characters render the same.
+	 *
+	 * @param set1 array Set of Emoji characters.
+	 * @param set2 array Set of Emoji characters.
+	 * @returns {boolean} True if the two sets render the same.
+	 */
+	function emojiSetsRenderIdentically( set1, set2 ) {
+		var stringFromCharCode = String.fromCharCode;
+
+		// Cleanup from previous test.
+		context.clearRect( 0, 0, canvas.width, canvas.height );
+		context.fillText( stringFromCharCode.apply( this, set1 ), 0, 0 );
+		var rendered1 = canvas.toDataURL();
+
+		// Cleanup from previous test.
+		context.clearRect( 0, 0, canvas.width, canvas.height );
+		context.fillText( stringFromCharCode.apply( this, set2 ), 0, 0 );
+		var rendered2 = canvas.toDataURL();
+
+		return rendered1 === rendered2;
+	}
+
+	/**
+	 * Detect if the browser supports rendering emoji or flag emoji. Flag emoji are a single glyph
+	 * made of two characters, so some browsers (notably, Firefox OS X) don't support them.
+	 *
+	 * @since 4.2.0
+	 *
+	 * @param type {String} Whether to test for support of "flag" or "emoji".
+	 * @return {Boolean} True if the browser can render emoji, false if it cannot.
+	 */
+	function browserSupportsEmoji( type ) {
+		var isIdentical;
+
+		if ( ! context || ! context.fillText ) {
+			return false;
+		}
+
+		/*
+		 * Chrome on OS X added native emoji rendering in M41. Unfortunately,
+		 * it doesn't work when the font is bolder than 500 weight. So, we
+		 * check for bold rendering support to avoid invisible emoji in Chrome.
+		 */
+		context.textBaseline = 'top';
+		context.font = '600 32px Arial';
+
+		switch ( type ) {
+			case 'flag':
+				/*
+				 * Test for UN flag compatibility. This is the least supported of the letter locale flags,
+				 * so gives us an easy test for full support.
+				 *
+				 * To test for support, we try to render it, and compare the rendering to how it would look if
+				 * the browser doesn't render it correctly ([U] + [N]).
+				 */
+				isIdentical = emojiSetsRenderIdentically(
+					[ 55356, 56826, 55356, 56819 ],
+					[ 55356, 56826, 8203, 55356, 56819 ]
+				);
+
+				if ( isIdentical ) {
+					return false;
+				}
+
+				/*
+				 * Test for English flag compatibility. England is a country in the United Kingdom, it
+				 * does not have a two letter locale code but rather an five letter sub-division code.
+				 *
+				 * To test for support, we try to render it, and compare the rendering to how it would look if
+				 * the browser doesn't render it correctly (black flag emoji + [G] + [B] + [E] + [N] + [G]).
+				 */
+				isIdentical = emojiSetsRenderIdentically(
+					[ 55356, 57332, 56128, 56423, 56128, 56418, 56128, 56421, 56128, 56430, 56128, 56423, 56128, 56447 ],
+					[ 55356, 57332, 8203, 56128, 56423, 8203, 56128, 56418, 8203, 56128, 56421, 8203, 56128, 56430, 8203, 56128, 56423, 8203, 56128, 56447 ]
+				);
+
+				return ! isIdentical;
+			case 'emoji':
+				/*
+				 * Emoji 5 has fairies of all genders.
+				 *
+				 * To test for support, try to render a new emoji (fairy, male), then compares
+				 * it to how it would look if the browser doesn't render it correctly
+				 * (fairy + male sign).
+				 */
+				isIdentical = emojiSetsRenderIdentically(
+					[ 55358, 56794, 8205, 9794, 65039 ],
+					[ 55358, 56794, 8203, 9794, 65039 ]
+				);
+				return ! isIdentical;
+		}
+
+		return false;
+	}
+
+	function addScript( src ) {
+		var script = document.createElement( 'script' );
+
+		script.src = src;
+		script.defer = script.type = 'text/javascript';
+		document.getElementsByTagName( 'head' )[0].appendChild( script );
+	}
+
+	tests = Array( 'flag', 'emoji' );
+
+	settings.supports = {
+		everything: true,
+		everythingExceptFlag: true
+	};
+
+	for( ii = 0; ii < tests.length; ii++ ) {
+		settings.supports[ tests[ ii ] ] = browserSupportsEmoji( tests[ ii ] );
+
+		settings.supports.everything = settings.supports.everything && settings.supports[ tests[ ii ] ];
+
+		if ( 'flag' !== tests[ ii ] ) {
+			settings.supports.everythingExceptFlag = settings.supports.everythingExceptFlag && settings.supports[ tests[ ii ] ];
+		}
+	}
+
+	settings.supports.everythingExceptFlag = settings.supports.everythingExceptFlag && ! settings.supports.flag;
+
+	settings.DOMReady = false;
+	settings.readyCallback = function() {
+		settings.DOMReady = true;
+	};
+
+	if ( ! settings.supports.everything ) {
+		ready = function() {
+			settings.readyCallback();
+		};
+
+		if ( document.addEventListener ) {
+			document.addEventListener( 'DOMContentLoaded', ready, false );
+			window.addEventListener( 'load', ready, false );
+		} else {
+			window.attachEvent( 'onload', ready );
+			document.attachEvent( 'onreadystatechange', function() {
+				if ( 'complete' === document.readyState ) {
+					settings.readyCallback();
+				}
+			} );
+		}
+
+		src = settings.source || {};
+
+		if ( src.concatemoji ) {
+			addScript( src.concatemoji );
+		} else if ( src.wpemoji && src.twemoji ) {
+			addScript( src.twemoji );
+			addScript( src.wpemoji );
+		}
+	}
+
+} )( window, document, window._wpemojiSettings );
+		</script>
+		
+
+<!-- Stylesheets -->
+<link rel='stylesheet' id='headway-google-fonts' href='//fonts.googleapis.com/css?family=Oswald' type='text/css' media='all' />
+<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='bxslider-style-css'  href='http://www.warm98.com/wp-content/plugins/shared/js/bxslider/jquery.bxslider.css?ver=4.9.1' type='text/css' media='all' />
+<link rel='stylesheet' id='amp-promo-reel-widget-style-css'  href='http://www.warm98.com/wp-content/plugins/amp-promo-reel/includes/../css/widget.css?ver=4.9.1' type='text/css' media='all' />
+<link rel='stylesheet' id='headway-general-css'  href='http://www.warm98.com/wp-content/uploads/sites/581/headway/cache/general-27669af.css?ver=4.9.1' type='text/css' media='all' />
+<link rel='stylesheet' id='headway-layout-front_page-css'  href='http://www.warm98.com/wp-content/uploads/sites/581/headway/cache/layout-front_page-e5be3ce.css?ver=4.9.1' type='text/css' media='all' />
+<link rel='stylesheet' id='headway-responsive-grid-css'  href='http://www.warm98.com/wp-content/uploads/sites/581/headway/cache/responsive-grid-d2119e4.css?ver=4.9.1' type='text/css' media='all' />
+<meta name="builder-styles-css" content="" id="builder-styles-css">
+<link rel='stylesheet' id='amp-breaking-news-css'  href='http://www.warm98.com/wp-content/plugins/amp-breaking-news/public/css/public.css?ver=0.2.3' type='text/css' media='all' />
+<link rel='stylesheet' id='animate-style-css'  href='http://www.warm98.com/wp-content/plugins/shared/css/animate.css?ver=0.2.3' type='text/css' media='all' />
+<link rel='stylesheet' id='amp-styles-plugin-styles-css'  href='http://www.warm98.com/wp-content/plugins/amp-styles/css/public.css?ver=1.4.1' type='text/css' media='all' />
+<link rel='stylesheet' id='amp-events-calendar-styles-css'  href='http://www.warm98.com/wp-content/plugins/amp-events/css/calendar.css?ver=1.1.4' type='text/css' media='all' />
+<link rel='stylesheet' id='amp-events-export-styles-css'  href='http://www.warm98.com/wp-content/plugins/amp-events/css/public.css?ver=1.1.4' type='text/css' media='all' />
+<link rel='stylesheet' id='amp_feed-plugin-styles-css'  href='http://www.warm98.com/wp-content/plugins/amp-feeds/css/public.css?ver=0.4.0' type='text/css' media='all' />
+<link rel='stylesheet' id='amp-image-rotator-plugin-styles-css'  href='http://www.warm98.com/wp-content/plugins/amp-image-rotator/public/assets/css/public.css?ver=1.0.0' type='text/css' media='all' />
+<link rel='stylesheet' id='amp-listen-live-plugin-styles-css'  href='http://www.warm98.com/wp-content/plugins/amp-listen-live/public/assets/css/public.css?ver=1.4.4' type='text/css' media='all' />
+<link rel='stylesheet' id='amp-onair-plugin-styles-css'  href='http://www.warm98.com/wp-content/plugins/amp-onair/public/assets/css/public.css?ver=1.7.1' type='text/css' media='all' />
+<link rel='stylesheet' id='AMPPromoReel-plugin-styles-css'  href='http://www.warm98.com/wp-content/plugins/amp-promo-reel/css/public.css?ver=1.4.0' type='text/css' media='all' />
+<link rel='stylesheet' id='mediaelement-css'  href='http://www.warm98.com/wp-includes/js/mediaelement/mediaelementplayer-legacy.min.css?ver=4.2.6-78496d1' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-mediaelement-css'  href='http://www.warm98.com/wp-includes/js/mediaelement/wp-mediaelement.css?ver=4.9.1' type='text/css' media='all' />
+<link rel='stylesheet' id='amp-tabs-plugin-styles-css'  href='http://www.warm98.com/wp-content/plugins/amp-tabs/public/assets/css/public.css?ver=1.0.0' type='text/css' media='all' />
+<link rel='stylesheet' id='amp-header-rotator-css'  href='http://www.warm98.com/wp-content/themes/Headway-AMP_CMS/css/amp-header-rotator.css?ver=1.1.5' type='text/css' media='all' />
+<link rel="stylesheet" type="text/css" media="all" href="http://www.warm98.com/wp-content/themes/Headway-AMP_CMS/style.css" />
+
+<!-- Scripts -->
+<script type='text/javascript' src='http://www.warm98.com/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='http://www.warm98.com/wp-includes/js/jquery/jquery-migrate.js?ver=1.4.1'></script>
+<script type='text/javascript' src='http://www.warm98.com/wp-content/themes/headway/library/blocks/navigation/js/selectnav.js?ver=1533183780'></script>
+<script type='text/javascript' src='http://www.warm98.com/wp-content/themes/headway/library/media/js/jquery.hoverintent.js?ver=4.9.1'></script>
+<script type='text/javascript' src='http://www.warm98.com/wp-content/themes/headway/library/blocks/navigation/js/jquery.superfish.js?ver=4.9.1'></script>
+<script type='text/javascript' src='http://www.warm98.com/wp-content/uploads/sites/581/headway/cache/block-dynamic-js-layout-front_page-769a883.js?ver=4.9.1'></script>
+<script type='text/javascript' src='http://www.warm98.com/wp-content/plugins/shared/js/bxslider/jquery.bxslider.min.js?ver=4.9.1'></script>
+<script type='text/javascript' src='http://www.warm98.com/wp-content/plugins/amp-promo-reel/includes/../js/widget.js?ver=1.4.0'></script>
+<script type='text/javascript' src='http://www.warm98.com/wp-content/themes/headway/library/media/js/jquery.fitvids.js?ver=4.9.1'></script>
+<script type='text/javascript' src='http://www.warm98.com/wp-content/uploads/sites/581/headway/cache/responsive-grid-js-e6e6939.js?ver=4.9.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var _ampconfig = {"site_url":"http:\/\/www.warm98.com","site_id":"581","tz":"America\/New_York","tz_offset":"-4","ts":"1533183780","blog_name":"Warm 98.5 | WRRM-FM","client_name":"cumuluspro","user_ID":"","ts_offset":"1535350788","version":"2.47.0.3","env":"prod","settings":{"tenant_id":"see_10403","syn_site_name":false,"selector_logo":false,"selector_masthead":false,"selector_nav":false,"selector_rotator":false,"default_show_name":"Warm 98.5","default_show_img":"http:\/\/images.tritondigitalcms.com\/6616\/sites\/581\/2018\/08\/17092858\/wrrm-block.png","gtm_id":false,"vidible_company_key":"06125e55709b3c4ffdfe3c3f8a9ed8bd","client_name":false,"nielsen_provider":"cumulus","promoreel_priority":true}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.warm98.com/wp-content/plugins/shared/js/amp-common.js?ver=1533183780'></script>
+<script type='text/javascript' src='http://www.warm98.com/wp-content/plugins/amp-breaking-news/public/js/public.js?ver=0.2.3'></script>
+<script type='text/javascript' src='http://www.warm98.com/wp-content/plugins/amp-styles/js/public.js?ver=1.4.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var dates = {"start_of_week":"1","moment_date_format":"MMMM D, YYYY","moment_time_format":"h:mm a","calendar_date_format":"MMMM d, yyyy","calendar_time_format":"h:mm tt","date_format":"MM d, yy","time_format":"h:mm tt"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.warm98.com/wp-content/plugins/amp-events/js/calendar.js?ver=1.1.4'></script>
+<script type='text/javascript' src='http://www.warm98.com/wp-content/plugins/amp-events/js/public.js?ver=1.1.4'></script>
+<script type='text/javascript' src='http://www.warm98.com/wp-content/plugins/amp-feeds/js/jquery.totemticker.min.js?ver=0.4.0'></script>
+<script type='text/javascript' src='http://www.warm98.com/wp-includes/js/jquery/ui/core.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://www.warm98.com/wp-includes/js/jquery/ui/widget.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://www.warm98.com/wp-includes/js/jquery/ui/tabs.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://www.warm98.com/wp-content/plugins/amp-feeds/js/amp-feed.js?ver=0.4.0'></script>
+<script type='text/javascript' src='http://www.warm98.com/wp-content/plugins/amp-feeds/js/public.js?ver=0.4.0'></script>
+<script type='text/javascript' src='http://www.warm98.com/wp-content/plugins/amp-feeds/js/date.js?ver=0.4.0'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var _amplistenlive = {"blog_id":"581","callsign":"","mount_name":"WRRMFM","provider":"stream_the_world","gmt_offset":"-14400"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.warm98.com/wp-content/plugins/amp-listen-live/public/assets/js/public.js?ver=1.4.4'></script>
+<script type='text/javascript' src='http://www.warm98.com/wp-content/plugins/amp-onair/public/assets/js/public.js?ver=1.7.1'></script>
+<script type='text/javascript' src='//see-p-elb-01.tritondigital.net/widget/see_10403/see.js?ver=1.3.0'></script>
+<script type='text/javascript' src='http://www.warm98.com/wp-content/themes/Headway-AMP_CMS/js/amp-theme.js?ver=1.1.5'></script>
+
+<!--[if lt IE 9]>
+<script src="http://www.warm98.com/wp-content/themes/headway/library/media/js/html5shiv.js"></script>
+<![endif]-->
+
+<!--[if lt IE 8]>
+<script src="http://www.warm98.com/wp-content/themes/headway/library/media/js/ie8.js"></script>
+<![endif]-->
+
+<script type='text/javascript'>
+var googletag = googletag || {};
+googletag.cmd = googletag.cmd || [];
+(function() {
+var gads = document.createElement('script');
+gads.async = true;
+gads.type = 'text/javascript';
+var useSSL = 'https:' == document.location.protocol;
+gads.src = (useSSL ? 'https:' : 'http:') + 
+'//www.googletagservices.com/tag/js/gpt.js';
+var node = document.getElementsByTagName('script')[0];
+node.parentNode.insertBefore(gads, node);
+})();
+</script>
+<script type='text/javascript'>
+googletag.cmd.push(function() {
+
+var leaderboardSizeMap = googletag.sizeMapping()
+ .addSize([970, 0], [[728, 90], [970, 90]])
+ .addSize([750,0], [728,90])
+ .addSize([0, 0], [[320, 50], [320, 53]])
+ .build();
+
+googletag.defineSlot('/6717/cd.WRRM.FM', [[300, 250], [300, 600]], 'div-gpt-ad-1418849849333-0').addService(googletag.pubads())
+.setCollapseEmptyDiv(true).setTargeting("pos","mid");
+googletag.defineSlot('/6717/cd.WRRM.FM', [[728, 90], [970, 90]], 'div-gpt-ad-1418849849333-1').addService(googletag.pubads())
+.defineSizeMapping(leaderboardSizeMap).setCollapseEmptyDiv(true).setTargeting("pos","top");
+googletag.defineSlot('/6717/cd.WRRM.FM', [[728, 90], [970, 90]], 'div-gpt-ad-1418849849333-2').addService(googletag.pubads())
+.defineSizeMapping(leaderboardSizeMap).setCollapseEmptyDiv(true).setTargeting("pos","bot");
+googletag.defineSlot('/6717/cd.WRRM.FM', [[300, 250], [300, 600]], 'div-gpt-ad-1418849849333-3').addService(googletag.pubads())
+.setCollapseEmptyDiv(true).setTargeting("pos","mid2");
+googletag.defineSlot('/6717/cd.WRRM.FM', [[160, 600]], 'div-gpt-ad-1418849849333-4').addService(googletag.pubads())
+.setCollapseEmptyDiv(true).setTargeting("pos","left");
+googletag.defineSlot('/6717/cd.WRRM.FM', [[160, 600]], 'div-gpt-ad-1418849849333-5').addService(googletag.pubads())
+.setCollapseEmptyDiv(true).setTargeting("pos","right");
+googletag.defineSlot('/6717/cd.WRRM.FM', [[654, 70]], 'div-gpt-ad-1418849849333-6').addService(googletag.pubads())
+.setCollapseEmptyDiv(true).setTargeting("pos","rdioplayer");
+googletag.defineSlot('/6717/cd.WRRM.FM', [[300, 100]], 'div-gpt-ad-1418849849333-7').addService(googletag.pubads())
+.setCollapseEmptyDiv(true).setTargeting("pos","contest1");
+googletag.defineSlot('/6717/cd.WRRM.FM', [[300, 100]], 'div-gpt-ad-1418849849333-8').addService(googletag.pubads())
+.setCollapseEmptyDiv(true).setTargeting("pos","contest2");
+googletag.defineSlot('/6717/cd.WRRM.FM', [[300, 100]], 'div-gpt-ad-1418849849333-9').addService(googletag.pubads())
+.setCollapseEmptyDiv(true).setTargeting("pos","contest3");
+googletag.defineSlot('/6717/cd.WRRM.FM', [[100, 51]], 'div-gpt-ad-1418849849333-10').addService(googletag.pubads())
+.setCollapseEmptyDiv(true).setTargeting("pos","rdiobutton");
+googletag.defineSlot('/6717/cd.WRRM.FM', [[113, 23]], 'div-gpt-ad-1418849849333-11').addService(googletag.pubads())
+.setCollapseEmptyDiv(true).setTargeting("pos","feedsponsor1");
+googletag.defineSlot('/6717/cd.WRRM.FM', [[113, 23]], 'div-gpt-ad-1418849849333-12').addService(googletag.pubads())
+.setCollapseEmptyDiv(true).setTargeting("pos","feedsponsor2");
+googletag.defineSlot('/6717/cd.WRRM.FM', [[113, 23]], 'div-gpt-ad-1418849849333-13').addService(googletag.pubads())
+.setCollapseEmptyDiv(true).setTargeting("pos","feedsponsor3");
+googletag.defineSlot('/6717/cd.WRRM.FM', [[113, 23]], 'div-gpt-ad-1418849849333-14').addService(googletag.pubads())
+.setCollapseEmptyDiv(true).setTargeting("pos","feedsponsor4");
+googletag.defineSlot('/6717/cd.WRRM.FM', [[1, 1]],'div-gpt-ad-1418849849333-16').addService(googletag.pubads())
+.setTargeting("pos","wallpaper-ad");
+googletag.pubads().enableSingleRequest();
+googletag.enableServices();
+googletag.defineSlot('/6717/cd.wrrm.fm', [[300, 250], [300, 600]], 'div-gpt-ad-1418849849333-18').setCollapseEmptyDiv(true).addService(googletag.pubads())
+.setTargeting("pos","midresponsive");
+;
+
+});
+</script>
+
+<!--ONESTAT SCRIPTCODE START Embed Player-->
+  <script type="text/javascript">
+  <!--
+  jQuery(document).ready(function(){
+    var d=document;
+    var sid="wrrm-fm.cumulus";
+    var CONTENTSECTION="";
+    var osp_URL=d.URL;
+    var osp_Title=d.title;
+    var t=new Date();
+    var p="http"+(d.URL.indexOf('https:')==0?'s':'')+"://stat.onestat.com/stat.aspx?tagver=2&sid="+sid;
+    p+="&url="+escape(osp_URL);
+    p+="&ti="+escape(osp_Title);
+    p+="&section="+escape(CONTENTSECTION);
+    p+="&rf="+escape(parent==self?document.referrer:top.document.referrer);
+    p+="&tz="+escape(t.getTimezoneOffset());
+    p+="&ch="+escape(t.getHours());
+    p+="&js=1";
+    p+="&ul="+escape(navigator.appName=="Netscape"?navigator.language:navigator.userLanguage);
+    if(osp_URL!=d.URL) p+="&ol="+escape(d.URL);
+    if(typeof(screen)=="object"){
+       p+="&sr="+screen.width+"x"+screen.height;p+="&cd="+screen.colorDepth;
+       p+="&jo="+(navigator.javaEnabled()?"Yes":"No");
+    }
+
+    var imgTag = '<img border="0" height="0" width="0" id="ONESTAT_TAG" src="' + p + '">'
+    jQuery('body').append(imgTag);
+
+  })
+  //-->
+  </script> 
+<!--ONESTAT SCRIPTCODE END-->
+
+<!-- CINCINNATI LOCAL Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-TWZJF2');</script>
+<!-- End CINCINNATI LOCAL Google Tag Manager -->
+
+<!-- CORP Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','corpDataLayer','GTM-KVJRJ8');</script>
+<!-- End CORP Google Tag Manager -->
+
+<!-- BEGIN INFINITE FACEBOOK PIXEL -->
+<script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '181461212508101');
+  fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=181461212508101&ev=PageView&noscript=1"
+/></noscript>
+<!-- END INFINITE FACEBOOK PIXEL -->
+<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
+<link rel="alternate" type="application/rss+xml" title="Warm 98.5 | WRRM-FM &raquo; Feed" href="http://www.warm98.com/feed/" />
+<link rel='shortlink' href='http://www.warm98.com/' />
+			<script type="text/javascript">
+				var _gaq = _gaq || [];
+
+				
+									_gaq.push(['b._setAccount', 'UA-74219581-4']);
+					_gaq.push(['b._trackPageview']);
+				
+				(function() {
+				var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                				    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                				var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+				})();
+			</script>
+
+        <script type="text/javascript">var ajaxurl = "http://www.warm98.com/wp-admin/admin-ajax.php"</script><script type="text/javascript">var ajaxurl = "http://www.warm98.com/wp-admin/admin-ajax.php"</script>
+<!-- AMP CMS DFP custom tags -->
+<script type='text/javascript'>
+  googletag.cmd.push(function() {
+      googletag.pubads().setTargeting('cms-sname', 'Warm 985  WRRMFM');
+      googletag.pubads().setTargeting('cms-sgroup', ['All Sites', 'Format  AC', 'Market  Cincinnati OH']);
+      googletag.pubads().setTargeting('cms-ptitle', 'Home');
+  });
+</script>
+
+<!-- START - Facebook Open Graph, Google+ and Twitter Card Tags 2.0.4 -->
+ <!-- Facebook Open Graph -->
+  <meta property="og:locale" content="en_US"/>
+  <meta property="og:site_name" content="Warm 98.5 | WRRM-FM"/>
+  <meta property="og:title" content="Warm 98.5 | WRRM-FM"/>
+  <meta property="og:url" content="http://www.warm98.com"/>
+  <meta property="og:type" content="website"/>
+  <meta property="og:description" content="80s 90s &amp; NOW"/>
+ <!-- Google+ / Schema.org -->
+  <meta itemprop="name" content="Warm 98.5 | WRRM-FM"/>
+  <meta itemprop="description" content="80s 90s &amp; NOW"/>
+ <!-- Twitter Cards -->
+  <meta name="twitter:title" content="Warm 98.5 | WRRM-FM"/>
+  <meta name="twitter:url" content="http://www.warm98.com"/>
+  <meta name="twitter:description" content="80s 90s &amp; NOW"/>
+  <meta name="twitter:card" content="summary_large_image"/>
+ <!-- SEO -->
+ <!-- Misc. tags -->
+<!-- END - Facebook Open Graph, Google+ and Twitter Card Tags 2.0.4 -->
+
+
+</head><!-- End <head> -->
+
+<body class="home page-template-default page page-id-27 custom webkit iphone responsive-grid-enabled responsive-grid-active pageid-27 page-slug-home layout-front_page layout-using-front_page istouch builder-parallax-scrolling-active" itemscope itemtype="http://schema.org/WebPage">
+
+
+<div id="whitewrap">
+
+
+<div id="wrapper-8" class="wrapper wrapper-fluid wrapper-fixed-grid grid-fluid-24-32-10 responsive-grid wrapper-first wrapper-header" data-alias="Wrapper Header">
+
+<div class="grid-container clearfix">
+
+<section class="row row-1">
+
+<section class="column column-1 grid-left-0 grid-width-24">
+<div id="block-27" class="block block-type-custom-code block-fluid-height" data-alias="728x90 Leaderboard Ad">
+<div class="block-content">
+<div align="center">
+<div id='div-gpt-ad-1418849849333-1'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1418849849333-1'); });
+</script>
+</div>    
+</div>
+</div><!-- .block-content -->
+
+</div><!-- #block-27 -->
+
+</section><!-- .column -->
+
+</section><!-- .row -->
+
+
+<section class="row row-2">
+
+<section class="column column-1 grid-left-0 grid-width-7">
+<figure id="block-31" class="logo block block-type-image block-fixed-height" data-alias="Logo" itemscope="" itemtype="http://schema.org/ImageObject">
+<div class="block-content">
+<a href="/" class="image" ><img src="http://www.warm98.com/wp-content/uploads/sites/581/2016/09/WRRM-FM-sitelogo-20160908.png" alt="" title="" itemprop="contentURL"/></a>
+</div><!-- .block-content -->
+
+</figure><!-- #block-31 -->
+
+</section><!-- .column -->
+
+<section class="column column-2 grid-left-0 grid-width-14">
+
+<section class="sub-column sub-column-1 column column-1 grid-width-6 grid-left-0">
+<aside id="block-29" class="on-air block block-type-widget-area block-fluid-height" data-alias="Home - On Air Now" itemscope="" itemtype="http://schema.org/WPSideBar">
+<div class="block-content">
+<ul class="widget-area"><div class="amp-onair-widget" id="amp_onair_widget-2"
+	data-title-now=""
+	data-title-upcoming=""
+	data-title=""
+	data-type="nowplaying"
+	data-change-minutes="5"
+	data-change="0"
+	data-toggle-time="5"
+	data-fields="image,timeslot,excerpt"
+	data-ajaxurl="http://www.warm98.com/wp-admin/admin-ajax.php"
+	data-updateurl="http://www.warm98.com/shows/feed/?type=json"
+	data-memcached="1"
+	data-expiration="1535358600">
+	
+<div class="amp-onair-show nowplaying" >
+
+    <div class="amp-onair-widget-title js-widget-title"></div>
+
+        <div class="amp-onair-show-image">
+                    <img class="js-image amp-onair-show-image-img" src="http://images.tritondigitalcms.com/6616/sites/581/2018/08/22091640/Jim-and-Amanda-square.jpg"  />
+            </div>
+        
+    <div class="amp-onair-show-title">
+            <span class="js-title">The Warm Morning Show</span>
+        </div>
+    
+        <div class="amp-onair-show-timeslot js-timeslot" >5:30 a.m. - 8:30 a.m.</div>
+        
+        <div class="amp-onair-show-excerpt js-excerpt"></div>
+        
+    
+</div>
+</div></ul>
+</div><!-- .block-content -->
+
+</aside><!-- #block-29 -->
+
+</section><!-- .sub-column -->
+
+<section class="sub-column sub-column-2 column column-2 grid-width-8 grid-left-0">
+<section id="block-30" class="social-nav block block-type-social block-fixed-height" data-alias="Social Navigation">
+<div class="block-content">
+<div class="social-icons-container"><ul class="social-icons"><li><a href="#"><img src="http://www.warm98.com/wp-content/uploads/sites/581/2016/04/listen-live.png" title="Listen Live!!" class="img-1"  /></a></li><li><a href="/listen-live-with-alexa"><img src="http://images.tritondigitalcms.com/6616/sites/581/2018/01/08175642/Alexa-Social-Logo-MUSIC.png" alt="Alexa" class="img-2"  /></a></li><li><a href="https://www.facebook.com/warm98" target="_blank"><img src="http://cumulus.pro.poolb.tritondigitalcms.com/wrrm-fm/wp-content/uploads/sites/581/2014/10/facebook.png" title="Like us on Facebook!" class="img-3"  /></a></li><li><a href="https://twitter.com/warm985" target="_blank"><img src="http://cumulus.pro.poolb.tritondigitalcms.com/wrrm-fm/wp-content/uploads/sites/581/2014/10/twitter.png" title="Follow us on Twitter!" class="img-4"  /></a></li><li><a href="http://warm98.listenernetwork.com/" target="_blank"><img src="http://cumulus.pro.poolb.tritondigitalcms.com/wrrm-fm/wp-content/uploads/sites/581/2015/01/cumulus-vip.png" title="VIP" class="img-5"  /></a></li></ul></div><!-- .social-icons-container -->
+</div><!-- .block-content -->
+
+</section><!-- #block-30 -->
+
+</section><!-- .sub-column -->
+<nav id="block-32" class="main-nav block block-type-navigation block-fluid-height" data-alias="Main Navigation" itemscope="" itemtype="http://schema.org/SiteNavigationElement">
+<div class="block-content">
+<div class="nav-horizontal nav-align-left"><ul id="menu-main-navigation" class="menu"><li id="menu-item-61646" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-61646"><a>On Air</a>
+<ul class="sub-menu">
+	<li id="menu-item-991885" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-991885"><a href="http://www.warm98.com/the-warm-morning-show-with-jim-and-amanda/">The Warm Morning Show with Jim and Amanda</a></li>
+	<li id="menu-item-61652" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-61652"><a href="/2014/06/30/race-taylor/">Race Taylor</a></li>
+	<li id="menu-item-612955" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-612955"><a href="http://www.warm98.com/brian-demay/">Brian Demay</a></li>
+	<li id="menu-item-834868" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-834868"><a href="http://www.warm98.com/saturday-night-80s-takeover/">Cindy Patrick</a></li>
+	<li id="menu-item-61658" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-61658"><a href="/2012/11/14/your-weekend-with-jim-brickman/">Jim Brickman</a></li>
+	<li id="menu-item-61661" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-61661"><a href="/2012/12/04/angie-irick/">Angie Irick</a></li>
+	<li id="menu-item-61664" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-61664"><a href="/2013/01/04/backtrax-usa/">Backtrax USA</a></li>
+	<li id="menu-item-61667" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-61667"><a href="http://www.warm98.com/2013/12/11/john-tesh-intelligence-for-your-life/">John Tesh Radio Show</a></li>
+</ul>
+</li>
+<li id="menu-item-123" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-123"><a href="http://www.warm98.com/contests/">Contests</a>
+<ul class="sub-menu">
+	<li id="menu-item-991665" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-991665"><a href="http://www.warm98.com/2018/08/20/ultimate-labor-day/">Win 2k each week for the Ultimate Labor Day Party</a></li>
+	<li id="menu-item-991668" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-991668"><a href="http://www.warm98.com/wine-wednesday/">Wine Wednesday with Brian Demay</a></li>
+	<li id="menu-item-991666" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-991666"><a href="http://www.warm98.com/2018/08/22/workday-warm-up/">Workday Warm-Up</a></li>
+	<li id="menu-item-991667" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-991667"><a href="http://www.warm98.com/2018/07/13/4k-summer-4k-a-day/">4k Summer – $1000 Workday Payday</a></li>
+	<li id="menu-item-948641" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-948641"><a href="http://www.warm98.com/contest-rules-archive/">Contest Rules Archive</a></li>
+</ul>
+</li>
+<li id="menu-item-96777" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-96777"><a>Connect</a>
+<ul class="sub-menu">
+	<li id="menu-item-61670" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-61670"><a href="http://www.warm98.com/whats-happening/">What&#8217;s Happening</a></li>
+	<li id="menu-item-96783" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-96783"><a href="http://warm98.listenernetwork.com/">VIP Club</a></li>
+	<li id="menu-item-96780" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-96780"><a href="http://www.warm98.com/advertise-with-us/">Advertise With Us</a></li>
+	<li id="menu-item-64301" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-64301"><a href="/check-out-our-app/">Mobile App</a></li>
+</ul>
+</li>
+<li id="menu-item-61808" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-61808"><a>Features</a>
+<ul class="sub-menu">
+	<li id="menu-item-721761" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-721761"><a href="http://www.warm98.com/wine-wednesday/">Wine Wednesday with Brian Demay</a></li>
+	<li id="menu-item-129024" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-129024"><a href="http://www.warm98.com/gallery/?media_search=&#038;sort_by=date">Photo Galleries</a></li>
+	<li id="menu-item-66071" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-66071"><a href="http://wrrm.tunegenie.com/onair/">Playlist</a></li>
+	<li id="menu-item-63530" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-63530"><a href="http://www.warm98.com/2013/01/16/help-desk/">Community Help Desk</a></li>
+	<li id="menu-item-61805" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-61805"><a href="http://www.warm98.com/2013/11/25/weather-2/">Weather</a></li>
+</ul>
+</li>
+<li id="menu-item-327435" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-327435"><a href="https://www.facebook.com/pg/warm98/events/">Events</a></li>
+<li id="menu-item-117" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-117"><a target="_blank" href="http://cincinnati.sweetdealscumulus.com/">Sweet Deals</a></li>
+<li id="menu-item-700101" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-700101"><a href="http://wrrm-fm.mygameroom.com">Games</a></li>
+<li id="menu-item-951729" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-951729"><a target="_blank" href="http://www.cumulusdigital.com?market=Cincinnati">Digital│C-Suite</a></li>
+</ul></div><!-- .nav-horizontal nav-align-left -->
+</div><!-- .block-content -->
+
+</nav><!-- #block-32 -->
+
+</section><!-- .column -->
+
+<section class="column column-3 grid-left-0 grid-width-3">
+<div id="block-bwp5a8f04246bfce" class="gigya-actions block block-type-custom-code block-fluid-height" data-alias="Gigya Profile Actions">
+<div class="block-content">
+<div class="see-widget" data-see-type="regUi" data-see-loginbonus="false"></div>
+</div><!-- .block-content -->
+
+</div><!-- #block-bwp5a8f04246bfce -->
+<nav id="block-33" class="nav-search block block-type-navigation block-fluid-height" data-alias="Navigation Search" itemscope="" itemtype="http://schema.org/SiteNavigationElement">
+<div class="block-content">
+<div class="nav-horizontal nav-align-left nav-search-active nav-search-position-left"><div class="nav-search">
+		<form method="get" id="searchform" action="http://www.warm98.com/">
+			<label for="s" class="assistive-text">Search</label>
+			<input type="text" class="field" name="s" id="s" value="Search" onclick="if(this.value=='Search')this.value='';" onblur="if(this.value=='')this.value='Search';" />
+			<input type="submit" class="submit" name="searchsubmit" id="searchsubmit" value="Search" />
+		</form>
+	</div></div><!-- .nav-horizontal nav-align-left nav-search-active nav-search-position-left -->
+</div><!-- .block-content -->
+
+</nav><!-- #block-33 -->
+
+</section><!-- .column -->
+
+</section><!-- .row -->
+
+
+<section class="row row-3">
+
+<section class="column column-1 grid-left-0 grid-width-5">
+<div id="block-b8z54a44441b0250" class="takeover-left block block-type-custom-code block-fluid-height" data-alias="Skyscraper - Left">
+<div class="block-content">
+<div id='div-gpt-ad-1418849849333-4'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1418849849333-4'); });
+</script>
+</div>
+</div><!-- .block-content -->
+
+</div><!-- #block-b8z54a44441b0250 -->
+
+</section><!-- .column -->
+
+<section class="column column-2 grid-left-0 grid-width-5">
+<div id="block-b0b54a44441b2caa" class="takeover-right block block-type-custom-code block-fluid-height" data-alias="Skyscraper - Right">
+<div class="block-content">
+<div id='div-gpt-ad-1418849849333-5'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1418849849333-5'); });
+</script>
+</div>
+</div><!-- .block-content -->
+
+</div><!-- #block-b0b54a44441b2caa -->
+
+</section><!-- .column -->
+
+</section><!-- .row -->
+
+
+</div><!-- .grid-container -->
+
+</div><!-- .wrapper -->
+
+<div id="wrapper-9" class="wrapper wrapper-fluid wrapper-fixed-grid grid-fluid-24-32-10 responsive-grid wrapper-content" data-alias="Wrapper Content">
+
+<div class="grid-container clearfix">
+
+<section class="row row-1">
+
+<section class="column column-1 grid-left-0 grid-width-16">
+<aside id="block-35" class="promo-reel block block-type-widget-area block-fluid-height" data-alias="Home - Promo Reel" itemscope="" itemtype="http://schema.org/WPSideBar">
+<div class="block-content">
+<ul class="widget-area"><li id="amp_promo_reel-2" class="widget widget_amp_promo_reel sidebar_promo">
+<div class="sliderWrapper"><div class="sliderBody" style=""><div class="bxslider" data-navigation-arrows='1' data-rotation-time='5000' data-pager-type='none'><div class="sliderItem" style="background-image: url(http://images.tritondigitalcms.com/6616/sites/581/2016/12/25102553/TOTW-2017.jpg);background-color: #000;background-repeat: no-repeat;background-size: contain;background-position: 50% 50%;position: relative;height: 300px;cursor: pointer;" onclick="window.location='http://www.warm98.com/2018/08/27/teacher-of-the-week/'"><div class="promoCaption bottom"><div class="captionTitle">Teacher of the Week</div><div class="captionTeaser">Warm 98 honors Tri-State teachers with our “Teacher of the Week”! award</div></div></div><div class="sliderItem" style="background-image: url(http://images.tritondigitalcms.com/6616/sites/581/2018/08/21165423/Jim-and-Amanda-PR.jpg);background-color: #000;background-repeat: no-repeat;background-size: contain;background-position: 50% 50%;position: relative;height: 300px;cursor: pointer;" onclick="window.location='http://www.warm98.com/2018/08/22/the-warm-morning-show-with-jim-and-amanda/'"><div class="promoCaption bottom"><div class="captionTitle">The Warm Morning Show with Jim and Amanda</div></div></div><div class="sliderItem" style="background-image: url(http://images.tritondigitalcms.com/6616/sites/581/2018/06/18110804/Warmup-Weekday-newpapa.jpg);background-color: #000;background-repeat: no-repeat;background-size: contain;background-position: 50% 50%;position: relative;height: 300px;cursor: pointer;" onclick="window.location='http://www.warm98.com/2018/08/22/workday-warm-up/'"><div class="promoCaption bottom"><div class="captionTitle">Workday Warm-Up</div><div class="captionTeaser">Warm 98.5 wants to thank you for listening to us at work. That’s why every week we stop in with a delicious reward...</div></div></div><div class="sliderItem" style="background-image: url(http://images.tritondigitalcms.com/6616/sites/581/2018/08/17125523/WRRM-PR.jpg);background-color: #000;background-repeat: no-repeat;background-size: contain;background-position: 50% 50%;position: relative;height: 300px;cursor: pointer;" onclick="window.location='http://www.warm98.com/2018/08/22/passport-to-paradise-3/'"><div class="promoCaption bottom"><div class="captionTitle">Passport to Paradise!</div></div></div><div class="sliderItem" style="background-image: url(http://images.tritondigitalcms.com/6616/sites/581/2018/07/19132340/WorkdayPayday2018.jpg);background-color: #000;background-repeat: no-repeat;background-size: contain;background-position: 50% 50%;position: relative;height: 300px;cursor: pointer;" onclick="window.location='http://www.warm98.com/2018/07/13/4k-summer-4k-a-day/'"><div class="promoCaption bottom"><div class="captionTitle">4k Summer - $1000 Workday Payday</div><div class="captionTeaser">Listen Monday through Friday for the keyword and you could win $1,000!</div></div></div><div class="sliderItem" style="background-image: url(http://images.tritondigitalcms.com/6616/2018/07/18225307/4k-Live-PromoReel.jpg);background-color: #000;background-repeat: no-repeat;background-size: cover;background-position: 50% 50%;position: relative;height: 300px;cursor: pointer;" onclick="window.location='http://www.warm98.com/2018/07/13/4k-summer-4k-a-day'"><div class="promoCaption bottom"><div class="captionTitle">Enter to win $1k!</div></div></div><div class="sliderItem" style="background-image: url(http://images.tritondigitalcms.com/6616/2018/08/17193903/LaborDay-PromoReel.jpg);background-color: #000;background-repeat: no-repeat;background-size: cover;background-position: 50% 50%;position: relative;height: 300px;cursor: pointer;" onclick="window.location='http://www.warm98.com/2018/08/20/ultimate-labor-day/'"><div class="promoCaption bottom"><div class="captionTitle">Enter to win $2k!</div></div></div></div></div></div></li><!-- .widget -->
+</ul>
+</div><!-- .block-content -->
+
+</aside><!-- #block-35 -->
+<div id="block-75" class="mobile-only block block-type-custom-code block-fluid-height" data-alias="Responsive Ad">
+<div class="block-content">
+<div id='div-gpt-ad-1418849849333-18'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1418849849333-18'); });
+</script>
+</div>
+</div><!-- .block-content -->
+
+</div><!-- #block-75 -->
+<div id="block-9" class="300x250-ad-1-r block block-type-custom-code block-fluid-height responsive-block-hiding-device-smartphones responsive-block-hiding-device-tablets-landscape responsive-block-hiding-device-tablets-portrait responsive-block-hiding-device-computers" data-alias="">
+<div class="block-content">
+<p>There is no custom code to display.</p>
+</div><!-- .block-content -->
+
+</div><!-- #block-9 -->
+<div id="block-11" class="sweet-deals-ad-r block block-type-custom-code block-fluid-height responsive-block-hiding-device-smartphones responsive-block-hiding-device-tablets-landscape responsive-block-hiding-device-tablets-portrait responsive-block-hiding-device-computers" data-alias="">
+<div class="block-content">
+<p>There is no custom code to display.</p>
+</div><!-- .block-content -->
+
+</div><!-- #block-11 -->
+<div id="block-39" class="top-stories block block-type-content block-fluid-height" data-alias="Top Stories">
+<div class="block-content">
+<h1 class="block-title"><span>Top Stories</span></h1><div class="loop">
+
+<div class="entry-row">
+
+<article id="post-51223" class="post-51223 post type-post status-publish format-standard has-post-thumbnail hentry category-contests category-promo-reel category-top-stories author-jkief custom-query" itemscope itemtype="http://schema.org/BlogPosting">
+			<a href="http://www.warm98.com/2018/08/27/teacher-of-the-week/" class="post-thumbnail post-thumbnail-left">
+				<img src="http://images.tritondigitalcms.com/6616/sites/581/2016/12/25102553/TOTW-2017.jpg" alt="Teacher of the Week" width="auto" height="auto" itemprop="image" />
+			</a>
+		<header><h2 class="entry-title" itemprop="headline"><a href="http://www.warm98.com/2018/08/27/teacher-of-the-week/" title="Teacher of the Week" rel="bookmark">Teacher of the Week</a></h2></header><div class="entry-summary entry-content" itemprop="text"><p>Warm 98 honors Tri-State teachers with our “Teacher of the Week”! award<span class="more-link-ellipsis">&#8230;  </span><a href="http://www.warm98.com/2018/08/27/teacher-of-the-week/" class="more-link">More</a></p>
+</div><!-- .entry-summary.entry-content --></article><!-- #post-51223 --><article id="post-992364" class="post-992364 post type-post status-publish format-standard has-post-thumbnail hentry category-contests category-top-stories author-jkief alt custom-query" itemscope itemtype="http://schema.org/BlogPosting">
+			<a href="http://www.warm98.com/2018/08/23/weekend-movie-review/" class="post-thumbnail post-thumbnail-left">
+				<img src="http://images.tritondigitalcms.com/6616/sites/581/2018/02/20152144/movies.jpg" alt="Weekend  Movie Review" width="auto" height="auto" itemprop="image" />
+			</a>
+		<header><h2 class="entry-title" itemprop="headline"><a href="http://www.warm98.com/2018/08/23/weekend-movie-review/" title="Weekend  Movie Review" rel="bookmark">Weekend  Movie Review</a></h2></header><div class="entry-summary entry-content" itemprop="text"><p>Warm 98.5 has tickets to the movies you really want to see, with Jim and amanda’s Weekend Movie Review!<span class="more-link-ellipsis">&#8230;  </span><a href="http://www.warm98.com/2018/08/23/weekend-movie-review/" class="more-link">More</a></p>
+</div><!-- .entry-summary.entry-content --></article><!-- #post-992364 -->
+
+</div><!-- .entry-row -->
+
+
+
+<div class="entry-row">
+
+<article id="post-991596" class="post-991596 post type-post status-publish format-standard has-post-thumbnail hentry category-homepage category-promo-reel category-promoreel category-top-stories author-brian custom-query" itemscope itemtype="http://schema.org/BlogPosting">
+			<a href="http://www.warm98.com/2018/08/22/the-warm-morning-show-with-jim-and-amanda/" class="post-thumbnail post-thumbnail-left">
+				<img src="http://images.tritondigitalcms.com/6616/sites/581/2018/08/21165423/Jim-and-Amanda-PR.jpg" alt="The Warm Morning Show with Jim and Amanda" width="auto" height="auto" itemprop="image" />
+			</a>
+		<header><h2 class="entry-title" itemprop="headline"><a href="http://www.warm98.com/2018/08/22/the-warm-morning-show-with-jim-and-amanda/" title="The Warm Morning Show with Jim and Amanda" rel="bookmark">The Warm Morning Show with Jim and Amanda</a></h2></header><div class="entry-summary entry-content" itemprop="text"><p>The newest way to wake up in Cincinnati is the Warm Morning Show with Jim Day and Amanda Orlando! Listen weekdays from 5:30-10am for great music (80s, 90s NOW!) great prizes, and your shot at $1,000 at 9am during the 98 Minute Music Marathon! Call the show: 513-749-1098 Text The Show: 513-888-2985<span class="more-link-ellipsis">&#8230;  </span><a href="http://www.warm98.com/2018/08/22/the-warm-morning-show-with-jim-and-amanda/" class="more-link">More</a></p>
+</div><!-- .entry-summary.entry-content --></article><!-- #post-991596 --><article id="post-952588" class="post-952588 post type-post status-publish format-standard has-post-thumbnail hentry category-contests category-homepage category-promo-reel category-promoreel category-top-stories tag-arbys tag-brian-demay tag-cincinnati-radio tag-gold-star tag-warm-98 tag-workday-warmup tag-wrrm author-jkief alt custom-query" itemscope itemtype="http://schema.org/BlogPosting">
+			<a href="http://www.warm98.com/2018/08/22/workday-warm-up/" class="post-thumbnail post-thumbnail-left">
+				<img src="http://images.tritondigitalcms.com/6616/sites/581/2018/06/18110804/Warmup-Weekday-newpapa.jpg" alt="Workday Warm-Up" width="auto" height="auto" itemprop="image" />
+			</a>
+		<header><h2 class="entry-title" itemprop="headline"><a href="http://www.warm98.com/2018/08/22/workday-warm-up/" title="Workday Warm-Up" rel="bookmark">Workday Warm-Up</a></h2></header><div class="entry-summary entry-content" itemprop="text"><p>Warm 98.5 wants to thank you for listening to us at work. That’s why every week we stop in with a delicious reward&#8230;<span class="more-link-ellipsis">&#8230;  </span><a href="http://www.warm98.com/2018/08/22/workday-warm-up/" class="more-link">More</a></p>
+</div><!-- .entry-summary.entry-content --></article><!-- #post-952588 -->
+
+</div><!-- .entry-row -->
+
+
+
+<div class="entry-row">
+
+<article id="post-991990" class="post-991990 post type-post status-publish format-standard has-post-thumbnail hentry category-blogs category-brian category-homepage category-top-stories category-wine-wednesday tag-brian-demay tag-cincinnati-radio tag-matt-the-miller tag-red-wine tag-shebang tag-warm-98 tag-wine-wednesday tag-wrrm author-brian custom-query" itemscope itemtype="http://schema.org/BlogPosting">
+			<a href="http://www.warm98.com/2018/08/22/brian-demays-wine-wednesday-shebang-tenth-cuvee/" class="post-thumbnail post-thumbnail-left">
+				<img src="http://images.tritondigitalcms.com/6616/sites/581/2018/08/22145954/WW-Shebang.png" alt="Brian Demay&#8217;s Wine Wednesday: Shebang Tenth Cuvee" width="auto" height="auto" itemprop="image" />
+			</a>
+		<header><h2 class="entry-title" itemprop="headline"><a href="http://www.warm98.com/2018/08/22/brian-demays-wine-wednesday-shebang-tenth-cuvee/" title="Brian Demay&#8217;s Wine Wednesday: Shebang Tenth Cuvee" rel="bookmark">Brian Demay&#8217;s Wine Wednesday: Shebang Tenth Cuvee</a></h2></header><div class="entry-summary entry-content" itemprop="text"><p>My daughter at dinner recently said “Dad, you take wine too seriously!” She was annoyed because I made her move as I took a picture of this week’s featured wine, Shebang Tenth Cuvee, a California red blend from Sonoma’s Bedrock Winery. My wife and I found this one totally at random on our weekly trip to&hellip;<span class="more-link-ellipsis">&#8230;  </span><a href="http://www.warm98.com/2018/08/22/brian-demays-wine-wednesday-shebang-tenth-cuvee/" class="more-link">More</a></p>
+</div><!-- .entry-summary.entry-content --></article><!-- #post-991990 --><article id="post-990969" class="post-990969 post type-post status-publish format-standard has-post-thumbnail hentry category-contests category-promo-reel category-promoreel category-top-stories author-jkief alt custom-query" itemscope itemtype="http://schema.org/BlogPosting">
+			<a href="http://www.warm98.com/2018/08/22/passport-to-paradise-3/" class="post-thumbnail post-thumbnail-left">
+				<img src="http://images.tritondigitalcms.com/6616/sites/581/2018/08/17125523/WRRM-PR.jpg" alt="Passport to Paradise!" width="auto" height="auto" itemprop="image" />
+			</a>
+		<header><h2 class="entry-title" itemprop="headline"><a href="http://www.warm98.com/2018/08/22/passport-to-paradise-3/" title="Passport to Paradise!" rel="bookmark">Passport to Paradise!</a></h2></header><div class="entry-summary entry-content" itemprop="text"><p>REGISTER NOW! Official Rules<span class="more-link-ellipsis">&#8230;  </span><a href="http://www.warm98.com/2018/08/22/passport-to-paradise-3/" class="more-link">More</a></p>
+</div><!-- .entry-summary.entry-content --></article><!-- #post-990969 -->
+
+</div><!-- .entry-row -->
+
+</div>
+</div><!-- .block-content -->
+
+</div><!-- #block-39 -->
+
+<section class="sub-column sub-column-1 column column-1 grid-width-8 grid-left-0">
+<div id="block-48" class="facebook block block-type-custom-code block-fluid-height" data-alias="Facebook Widget">
+<div class="block-content">
+<div class="fb-page" data-href="https://www.facebook.com/warm98" data-width="310" data-height="448" data-hide-cover="false" data-show-facepile="false" data-show-posts="true"></div>
+</div><!-- .block-content -->
+
+</div><!-- #block-48 -->
+
+</section><!-- .sub-column -->
+
+<section class="sub-column sub-column-2 column column-2 grid-width-8 grid-left-0">
+<div id="block-49" class="twitter block block-type-custom-code block-fluid-height" data-alias="Twitter Widget">
+<div class="block-content">
+<a class="twitter-timeline" data-dnt="true" href="https://twitter.com/warm98cincy" data-widget-id="582983162566950912">Tweets by @warm98cincy</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+</div><!-- .block-content -->
+
+</div><!-- #block-49 -->
+
+</section><!-- .sub-column -->
+<div id="block-b3p564e1bc573d27" class="sweet-deals-ad-r block block-type-custom-code block-fluid-height responsive-block-hiding-device-smartphones responsive-block-hiding-device-tablets-landscape responsive-block-hiding-device-tablets-portrait responsive-block-hiding-device-computers" data-alias="">
+<div class="block-content">
+&nbsp;
+</div><!-- .block-content -->
+
+</div><!-- #block-b3p564e1bc573d27 -->
+
+<section class="sub-column sub-column-1 column column-1 grid-width-8 grid-left-0">
+<div id="block-bj3564e1bc5ad3b0" class="cnn block block-type-custom-code block-fluid-height" data-alias="National News">
+<div class="block-content">
+<h1 class="block-title"><span>National News</span></h1><script type='text/javascript' src='http://z.cdn.turner.com/cnn/van/resources/scripts/van-widgets.js'></script>
+<div data-cnnvangridwidget data-affiliate="cumuluscorporate" data-category="Nation" data-size="315" data-autostart="false" data-includeraw="false" data-rows="1"></div>
+</div><!-- .block-content -->
+
+</div><!-- #block-bj3564e1bc5ad3b0 -->
+
+</section><!-- .sub-column -->
+
+<section class="sub-column sub-column-2 column column-2 grid-width-8 grid-left-0">
+<div id="block-bqu564e1bc6e9e70" class="cnn block block-type-custom-code block-fluid-height" data-alias="World news">
+<div class="block-content">
+<h1 class="block-title"><span>World news</span></h1><script type='text/javascript' src='http://z.cdn.turner.com/cnn/van/resources/scripts/van-widgets.js'></script>
+<div data-cnnvangridwidget data-affiliate="cumuluscorporate" data-category="World" data-size="315" data-autostart="false" data-includeraw="false" data-rows="1"></div>
+</div><!-- .block-content -->
+
+</div><!-- #block-bqu564e1bc6e9e70 -->
+
+</section><!-- .sub-column -->
+
+</section><!-- .column -->
+
+<section class="column column-2 grid-left-0 grid-width-8">
+<div id="block-34" class="300x250-ad-1 block block-type-custom-code block-fluid-height" data-alias="300x250 Ad 1">
+<div class="block-content">
+<div id='div-gpt-ad-1418849849333-0'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1418849849333-0'); });
+</script>
+</div>
+</div><!-- .block-content -->
+
+</div><!-- #block-34 -->
+<div id="block-38" class="sweet-deals-ad block block-type-custom-code block-fluid-height" data-alias="Sweet Deals Ad">
+<div class="block-content">
+<a href="http://cincinnati.sweetdealscumulus.com/"><img src="/wp-content/uploads/sites/581/2014/10/sweetdeals.png"></a>
+</div><!-- .block-content -->
+
+</div><!-- #block-38 -->
+<div id="block-36" class="vip-club-ad block block-type-custom-code block-fluid-height" data-alias="VIP Club Ad">
+<div class="block-content">
+<div id='div-gpt-ad-1418849849333-7'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1418849849333-7'); });
+</script>
+</div>
+</div><!-- .block-content -->
+
+</div><!-- #block-36 -->
+<div id="block-bnj566b2c2a4c9f3" class="headlines block block-type-custom-code block-fluid-height" data-alias="Weather Widget">
+<div class="block-content">
+<a href="http://www.accuweather.com/en/us/cincinnati-oh/45229/weather-forecast/350126" class="aw-widget-legal">
+<!--
+By accessing and/or using this code snippet, you agree to AccuWeather’s terms and conditions (in English) which can be found at http://www.accuweather.com/en/free-weather-widgets/terms and AccuWeather’s Privacy Statement (in English) which can be found at http://www.accuweather.com/en/privacy.
+-->
+</a><div id="awcc1449863104667" class="aw-widget-current"  data-locationkey="350126" data-unit="f" data-language="en-us" data-useip="false" data-uid="awcc1449863104667"></div><script type="text/javascript" src="http://oap.accuweather.com/launch.js"></script>
+</div><!-- .block-content -->
+
+</div><!-- #block-bnj566b2c2a4c9f3 -->
+<div id="block-43" class="headlines block block-type-content block-fluid-height" data-alias="Headlines">
+<div class="block-content">
+<h1 class="block-title"><span>Headlines</span></h1><div class="loop">
+
+<div class="entry-row">
+
+<article id="post-993365" class="post-993365 feed_posts type-feed_posts status-publish has-post-thumbnail hentry category-cnn-entertainment custom-query" itemscope itemtype="http://schema.org/BlogPosting"><header><h2 class="entry-title" itemprop="headline"><a href="http://www.warm98.com/news/harvey-weinstein-facing-new-allegations-of-sex-trafficking/" title="Harvey Weinstein facing new allegations of sex trafficking" rel="bookmark">Harvey Weinstein facing new allegations of sex trafficking</a></h2></header></article><!-- #post-993365 --><article id="post-993366" class="post-993366 feed_posts type-feed_posts status-publish has-post-thumbnail hentry category-cnn-entertainment alt custom-query" itemscope itemtype="http://schema.org/BlogPosting"><header><h2 class="entry-title" itemprop="headline"><a href="http://www.warm98.com/news/next-season-of-big-bang-theory-will-be-its-last/" title="Next season of &#8216;Big Bang Theory&#8217; will be its last" rel="bookmark">Next season of &#8216;Big Bang Theory&#8217; will be its last</a></h2></header></article><!-- #post-993366 -->
+
+</div><!-- .entry-row -->
+
+
+
+<div class="entry-row">
+
+<article id="post-993367" class="post-993367 feed_posts type-feed_posts status-publish has-post-thumbnail hentry category-cnn-entertainment custom-query" itemscope itemtype="http://schema.org/BlogPosting"><header><h2 class="entry-title" itemprop="headline"><a href="http://www.warm98.com/news/magnum-p-i-hawaii-five-0-shut-down-production-ahead-of-hurricane-lane/" title="&#8216;Magnum P.I.,&#8217; &#8216;Hawaii Five-0&#8217; shut down production ahead of Hurricane Lane" rel="bookmark">&#8216;Magnum P.I.,&#8217; &#8216;Hawaii Five-0&#8217; shut down production ahead of Hurricane Lane</a></h2></header></article><!-- #post-993367 --><article id="post-993368" class="post-993368 feed_posts type-feed_posts status-publish has-post-thumbnail hentry category-cnn-entertainment alt custom-query" itemscope itemtype="http://schema.org/BlogPosting"><header><h2 class="entry-title" itemprop="headline"><a href="http://www.warm98.com/news/stevie-wonder-jennifer-hudson-among-performers-set-for-aretha-franklins-funeral/" title="Stevie Wonder, Jennifer Hudson among performers set for Aretha Franklin&#8217;s funeral" rel="bookmark">Stevie Wonder, Jennifer Hudson among performers set for Aretha Franklin&#8217;s funeral</a></h2></header></article><!-- #post-993368 -->
+
+</div><!-- .entry-row -->
+
+
+
+<div class="entry-row">
+
+<article id="post-993452" class="post-993452 feed_posts type-feed_posts status-publish has-post-thumbnail hentry category-cnn-entertainment custom-query" itemscope itemtype="http://schema.org/BlogPosting"><header><h2 class="entry-title" itemprop="headline"><a href="http://www.warm98.com/news/another-kevin-spacey-sexual-assault-case-under-review-in-los-angeles/" title="Another Kevin Spacey sexual assault case under review in Los Angeles" rel="bookmark">Another Kevin Spacey sexual assault case under review in Los Angeles</a></h2></header></article><!-- #post-993452 --><article id="post-993381" class="post-993381 feed_posts type-feed_posts status-publish has-post-thumbnail hentry category-cnn-entertainment alt custom-query" itemscope itemtype="http://schema.org/BlogPosting"><header><h2 class="entry-title" itemprop="headline"><a href="http://www.warm98.com/news/mario-batali-sued-by-woman-who-claims-he-groped-her-2/" title="Mario Batali sued by woman who claims he groped her" rel="bookmark">Mario Batali sued by woman who claims he groped her</a></h2></header></article><!-- #post-993381 -->
+
+</div><!-- .entry-row -->
+
+</div>
+</div><!-- .block-content -->
+
+</div><!-- #block-43 -->
+<div id="block-buo5535ced7381ce" class="headlines block block-type-custom-code block-fluid-height" data-alias="Playlist">
+<div class="block-content">
+<h1 class="block-title"><span>Just Played on WARM 98</span></h1><p><iframe align="top,left" frameborder="0" height="480" id="tunegenie-onair" marginheight="0" marginwidth="0" name="onair" scrolling="no" src="http://wrrm.tunegenie.com/plugins/onair/?branding=no&amp;colorscheme=light&amp;bg=ffffff" width="300"></iframe></p>
+</div><!-- .block-content -->
+
+</div><!-- #block-buo5535ced7381ce -->
+<div id="block-44" class="headlines block block-type-custom-code block-fluid-height" data-alias="Concert Calendar">
+<div class="block-content">
+<h1 class="block-title"><span>Concert Calendar</span></h1><p><iframe align="top,left" frameborder="0" height="480" id="tunegenie-concerts" marginheight="0" marginwidth="0" name="concerts" scrolling="no" src="http://wrrm.tunegenie.com/plugins/concerts/?colorscheme=light&amp;bg=ffffff" width="300"></iframe></p>
+</div><!-- .block-content -->
+
+</div><!-- #block-44 -->
+<aside id="block-bkm553e8abc73207" class="free-apps block block-type-widget-area block-fluid-height" data-alias="Right rail widget" itemscope="" itemtype="http://schema.org/WPSideBar">
+<div class="block-content">
+<ul class="widget-area"><li id="media_image-3" class="widget widget_media_image">
+<a href="http://www.warm985.com/medical-mondays-with-uc-health-listen-to-info-from-doctors"><img width="300" height="87" src="http://images.tritondigitalcms.com/6616/sites/581/2018/07/17134054/MedMonday-300x87.jpg" class="image wp-image-976972  attachment-medium size-medium" alt="" style="max-width: 100%; height: auto;" srcset="http://images.tritondigitalcms.com/6616/sites/581/2018/07/17134054/MedMonday-300x87.jpg 300w, http://images.tritondigitalcms.com/6616/sites/581/2018/07/17134054/MedMonday.jpg 654w" sizes="(max-width: 300px) 100vw, 300px" /></a></li><!-- .widget -->
+<li id="text-5" class="widget widget_text">
+			<div class="textwidget"><!-- Empty space to keep No Widgets! message from appearing on website --></div>
+		</li><!-- .widget -->
+</ul>
+</div><!-- .block-content -->
+
+</aside><!-- #block-bkm553e8abc73207 -->
+<aside id="block-45" class="free-apps block block-type-widget-area block-fluid-height" data-alias="Home - Free Apps" itemscope="" itemtype="http://schema.org/WPSideBar">
+<div class="block-content">
+<h1 class="block-title"><span>Free Apps</span></h1><ul class="widget-area"><li id="text-3" class="widget widget_text">
+			<div class="textwidget"><div align="center">
+<a href="https://itunes.apple.com/us/app/warm-98/id738054985?mt=8" target="_blank"><img src="/wp-content/uploads/sites/581/2014/10/appstore.png" border="0"></a>&nbsp;<a href="https://play.google.com/store/apps/details?id=com.airkast.WRRMFM" target="_blank"><img src="/wp-content/uploads/sites/581/2014/10/googleplay.png" border="0"></a>
+</div></div>
+		</li><!-- .widget -->
+</ul>
+</div><!-- .block-content -->
+
+</aside><!-- #block-45 -->
+<div id="block-46" class="300x250-ad-2 block block-type-custom-code block-fluid-height" data-alias="300x250 Ad 2">
+<div class="block-content">
+<div id='div-gpt-ad-1418849849333-3'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1418849849333-3'); });
+</script>
+</div>
+</div><!-- .block-content -->
+
+</div><!-- #block-46 -->
+<aside id="block-bg6577eb88bcd21f" class="headlines block block-type-widget-area block-fluid-height" data-alias="Right Rail - Bottom" itemscope="" itemtype="http://schema.org/WPSideBar">
+<div class="block-content">
+<ul class="widget-area"><li id="simpleimage-5" class="widget widget_simpleimage">
+
+
+	<p class="simple-image">
+		<a href="http://www.waltzbusiness.com/" target="_blank"><img width="263" height="133" src="http://www.warm98.com/wp-content/uploads/sites/581/2016/07/f68c99d7-9e02-42b2-ad50-19a6355629b8.jpg" class="attachment-full size-full" alt="" /></a>	</p>
+
+
+</li><!-- .widget -->
+</ul>
+</div><!-- .block-content -->
+
+</aside><!-- #block-bg6577eb88bcd21f -->
+
+</section><!-- .column -->
+
+</section><!-- .row -->
+
+
+</div><!-- .grid-container -->
+
+</div><!-- .wrapper -->
+
+<div id="wrapper-10" class="wrapper wrapper-fluid wrapper-fixed-grid grid-fluid-24-32-10 responsive-grid wrapper-last wrapper-footer" data-alias="Wrapper Footer">
+
+<div class="grid-container clearfix">
+
+<section class="row row-1">
+
+<section class="column column-1 grid-left-0 grid-width-6">
+<nav id="block-50" class="footer-nav block block-type-navigation block-fluid-height" data-alias="Footer Navigation" itemscope="" itemtype="http://schema.org/SiteNavigationElement">
+<div class="block-content">
+<div class="nav-vertical nav-align-left"><ul id="menu-footer-navigation" class="menu"><li id="menu-item-319623" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-319623"><a href="/1111/11/11/privacy-policy">Privacy Policy</a></li>
+<li id="menu-item-319626" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-319626"><a href="/1111/11/11/terms-of-service">Terms of Service</a></li>
+<li id="menu-item-319629" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-319629"><a href="/1111/11/11/contest-rules">Contest Rules</a></li>
+<li id="menu-item-137" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-137"><a href="http://www.warm98.com/advertise-with-us/">Advertise With Us</a></li>
+<li id="menu-item-139" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-139"><a href="http://www.warm98.com/station-information/">Station Information</a></li>
+<li id="menu-item-160378" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-160378"><a href="http://www.warm98.com/wp-content/uploads/sites/581/2018/06/CMP-Cincinnati-SEU-2018-PFR.pdf">EEO Public File Report</a></li>
+<li id="menu-item-141" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-141"><a href="http://www.cumulus.com/work-here/">Employment Opportunities</a></li>
+<li id="menu-item-761328" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-761328"><a target="_blank" href="https://publicfiles.fcc.gov/fm-profile/wrrm">FCC Public File</a></li>
+<li id="menu-item-948351" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-948351"><a target="_blank" href="https://www.cumulus.com">Cumulus Media Corporate</a></li>
+</ul></div><!-- .nav-vertical nav-align-left -->
+</div><!-- .block-content -->
+
+</nav><!-- #block-50 -->
+<div id="block-brb55ce0094d38a0" class="block block-type-custom-code block-fluid-height" data-alias="Wallpaper Ad">
+<div class="block-content">
+<div id='div-gpt-ad-1418849849333-16'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1418849849333-16'); });
+</script>
+</div>
+</div><!-- .block-content -->
+
+</div><!-- #block-brb55ce0094d38a0 -->
+
+</section><!-- .column -->
+
+<section class="column column-2 grid-left-0 grid-width-18">
+<div id="block-51" class="728x90-ad-2 block block-type-custom-code block-fluid-height" data-alias="728x90 Ad 2">
+<div class="block-content">
+<div class="footer-728x90-ad" align="right">
+<div id='div-gpt-ad-1418849849333-2'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1418849849333-2'); });
+</script>
+</div>
+</div>
+
+</div><!-- .block-content -->
+
+</div><!-- #block-51 -->
+<footer id="block-52" class="copyright block block-type-footer block-fluid-height" data-alias="Copyright" itemscope="" itemtype="http://schema.org/WPFooter">
+<div class="block-content">
+
+<div class="footer-container">
+
+<div class="footer">
+<p class="copyright footer-copyright">Copyright Cumulus Media / Cumulus Media is an equal opportunity employer / AA</p><p class="footer-responsive-grid-link-container footer-responsive-grid-link-disable-container"><a href="http://www.warm98.com/?full-site=true" rel="nofollow" class="footer-responsive-grid-link footer-responsive-grid-disable footer-link">View Full Site</a></p>
+</div><!-- .footer -->
+</div><!-- .footer-container -->
+</div><!-- .block-content -->
+
+</footer><!-- #block-52 -->
+
+</section><!-- .column -->
+
+</section><!-- .row -->
+
+
+</div><!-- .grid-container -->
+
+</div><!-- .wrapper -->
+
+
+
+<script>_AMP.theme.init();</script>
+<link rel='stylesheet' id='media_library_assistant-plugin-styles-css'  href='http://www.warm98.com/wp-content/plugins/media-library-assistant/includes/../css/prettyPhoto.css?ver=1.61' type='text/css' media='all' />
+<link rel='stylesheet' id='media_library_assistant-widget-styles-css'  href='http://www.warm98.com/wp-content/plugins/media-library-assistant/includes/../css/widget.css?ver=1.61' type='text/css' media='all' />
+<link rel='stylesheet' id='amp-polls-plugin-styles-css'  href='http://www.warm98.com/wp-content/plugins/amp-polls/css/widget.css?ver=4.9.1' type='text/css' media='all' />
+<link rel='stylesheet' id='themify-builder-990969-generated-css'  href='http://www.warm98.com/wp-content/uploads/sites/581/themify-css/themify-builder-990969-generated.css?ver=1534972768' type='text/css' media='all' />
+<script type='text/javascript'>
+/* <![CDATA[ */
+var themify_vars = {"version":"2.1.8","url":"http:\/\/www.warm98.com\/wp-content\/plugins\/themify-builder\/themify","map_key":null,"includesURL":"http:\/\/www.warm98.com\/wp-includes\/","isCached":null,"minify":{"css":{"themify-icons":false,"themify.framework":false,"lightbox":false,"themify-builder-style":false},"js":{"backstretch.themify-version":false,"bigvideo":false,"themify.dropdown":false,"themify.builder.script":false,"themify.scroll-highlight":false,"themify-youtube-bg":false,"themify.parallaxit":false,"themify.ticks":false}}};
+var tbLocalScript = {"isAnimationActive":"1","isParallaxActive":"1","isParallaxScrollActive":"1","animationInviewSelectors":[".module.wow",".module_row.wow",".builder-posts-wrap > .post.wow"],"backgroundSlider":{"autoplay":5000,"speed":2000},"animationOffset":"100","videoPoster":"http:\/\/www.warm98.com\/wp-content\/plugins\/themify-builder\/img\/blank.png","backgroundVideoLoop":"yes","builder_url":"http:\/\/www.warm98.com\/wp-content\/plugins\/themify-builder","framework_url":"http:\/\/www.warm98.com\/wp-content\/plugins\/themify-builder\/themify","version":"2.1.8","fullwidth_support":"","fullwidth_container":"body","loadScrollHighlight":"","addons":[],"breakpoints":{"tablet_landscape":[769,1024],"tablet":[681,768],"mobile":680},"ticks":{"tick":30,"ajaxurl":"http:\/\/www.warm98.com\/wp-admin\/admin-ajax.php","postID":27}};
+var themifyScript = {"lightbox":{"lightboxSelector":".themify_lightbox","lightboxOn":true,"lightboxContentImages":false,"lightboxContentImagesSelector":"","theme":"pp_default","social_tools":false,"allow_resize":true,"show_title":false,"overlay_gallery":false,"screenWidthNoLightbox":600,"deeplinking":false,"contentImagesAreas":"","gallerySelector":".gallery-icon > a","lightboxGalleryOn":true},"lightboxContext":"body"};
+var tbScrollHighlight = {"fixedHeaderSelector":"","speed":"900","navigation":"#main-nav","scrollOffset":"0"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.warm98.com/wp-content/plugins/themify-builder/themify/js/main.js?ver=2.1.8'></script>
+<script type='text/javascript'>
+var mejsL10n = {"language":"en","strings":{"mejs.install-flash":"You are using a browser that does not have Flash player enabled or installed. Please turn on your Flash player plugin or download the latest version from https:\/\/get.adobe.com\/flashplayer\/","mejs.fullscreen-off":"Turn off Fullscreen","mejs.fullscreen-on":"Go Fullscreen","mejs.download-video":"Download Video","mejs.fullscreen":"Fullscreen","mejs.time-jump-forward":["Jump forward 1 second","Jump forward %1 seconds"],"mejs.loop":"Toggle Loop","mejs.play":"Play","mejs.pause":"Pause","mejs.close":"Close","mejs.time-slider":"Time Slider","mejs.time-help-text":"Use Left\/Right Arrow keys to advance one second, Up\/Down arrows to advance ten seconds.","mejs.time-skip-back":["Skip back 1 second","Skip back %1 seconds"],"mejs.captions-subtitles":"Captions\/Subtitles","mejs.captions-chapters":"Chapters","mejs.none":"None","mejs.mute-toggle":"Mute Toggle","mejs.volume-help-text":"Use Up\/Down Arrow keys to increase or decrease volume.","mejs.unmute":"Unmute","mejs.mute":"Mute","mejs.volume-slider":"Volume Slider","mejs.video-player":"Video Player","mejs.audio-player":"Audio Player","mejs.ad-skip":"Skip ad","mejs.ad-skip-info":["Skip in 1 second","Skip in %1 seconds"],"mejs.source-chooser":"Source Chooser","mejs.stop":"Stop","mejs.speed-rate":"Speed Rate","mejs.live-broadcast":"Live Broadcast","mejs.afrikaans":"Afrikaans","mejs.albanian":"Albanian","mejs.arabic":"Arabic","mejs.belarusian":"Belarusian","mejs.bulgarian":"Bulgarian","mejs.catalan":"Catalan","mejs.chinese":"Chinese","mejs.chinese-simplified":"Chinese (Simplified)","mejs.chinese-traditional":"Chinese (Traditional)","mejs.croatian":"Croatian","mejs.czech":"Czech","mejs.danish":"Danish","mejs.dutch":"Dutch","mejs.english":"English","mejs.estonian":"Estonian","mejs.filipino":"Filipino","mejs.finnish":"Finnish","mejs.french":"French","mejs.galician":"Galician","mejs.german":"German","mejs.greek":"Greek","mejs.haitian-creole":"Haitian Creole","mejs.hebrew":"Hebrew","mejs.hindi":"Hindi","mejs.hungarian":"Hungarian","mejs.icelandic":"Icelandic","mejs.indonesian":"Indonesian","mejs.irish":"Irish","mejs.italian":"Italian","mejs.japanese":"Japanese","mejs.korean":"Korean","mejs.latvian":"Latvian","mejs.lithuanian":"Lithuanian","mejs.macedonian":"Macedonian","mejs.malay":"Malay","mejs.maltese":"Maltese","mejs.norwegian":"Norwegian","mejs.persian":"Persian","mejs.polish":"Polish","mejs.portuguese":"Portuguese","mejs.romanian":"Romanian","mejs.russian":"Russian","mejs.serbian":"Serbian","mejs.slovak":"Slovak","mejs.slovenian":"Slovenian","mejs.spanish":"Spanish","mejs.swahili":"Swahili","mejs.swedish":"Swedish","mejs.tagalog":"Tagalog","mejs.thai":"Thai","mejs.turkish":"Turkish","mejs.ukrainian":"Ukrainian","mejs.vietnamese":"Vietnamese","mejs.welsh":"Welsh","mejs.yiddish":"Yiddish"}};
+</script>
+<script type='text/javascript' src='http://www.warm98.com/wp-includes/js/mediaelement/mediaelement-and-player.js?ver=4.2.6-78496d1'></script>
+<script type='text/javascript' src='http://www.warm98.com/wp-includes/js/mediaelement/mediaelement-migrate.js?ver=4.9.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var _wpmejsSettings = {"pluginPath":"\/wp-includes\/js\/mediaelement\/","classPrefix":"mejs-","stretching":"responsive"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.warm98.com/wp-includes/js/mediaelement/wp-mediaelement.js?ver=4.9.1'></script>
+<script type='text/javascript' src='http://www.warm98.com/wp-content/plugins/media-library-assistant/includes/../js/jquery.prettyPhoto.js?ver=1.61'></script>
+<script type='text/javascript' src='http://www.warm98.com/wp-content/plugins/media-library-assistant/includes/../js/widget-front-end.js?ver=1533183780'></script>
+<script type='text/javascript' src='http://www.warm98.com/wp-content/plugins/amp-polls/js/widget-front-end.js?ver=4.9.1'></script>
+<script>
+window.tgmplibs="cumulus2,_append_www,_triton_see";
+</script>
+<script type="text/javascript" class="_tgmp_p">
+function onTuneGenieMediaPlayerLoaded() {
+    window.tgmp=new TuneGenieMediaPlayer('playerbar', {
+        brand: "wrrm",
+        zindex: 50000,
+        theme: ["#000000"],
+        position: "bottom",
+        debug: true,
+        ios_frame: 3,
+        autostart: false,
+        infoTrayOnLoad: true,
+        useTritonPlayer: true,
+        promptZag: false,
+    });
+    tgmp.go();
+    window.tgmp_rc = new TuneGenieRC(tgmp);
+    tgmp_rc.recentSongWidget(document.getElementById('tgrecent'),{});
+    tgmp_rc.nowPlayingWidget(document.getElementById('tgnowplaying'),{});
+}
+</script>
+<script type="text/javascript"  class="_tgmp_p" async src="https://mpl.tunegenie.com/js/loader2.min.js"></script>
+
+
+</div><!-- #whitewrap -->
+
+<!-- TGMP PLUGIN ENABLED 2016-08-05T01:40:40.329Z -->
+<!-- DISABLE TGMP INFO TRAY -->
+<!-- ADDED 2016-08-05T01:40:40.329Z -->
+<script>
+	if (window.top.tgmp) {
+		window.top.tgmp.updateOption('infoTrayOnLoad',false);
+	}
+</script>
+<!-- END DISABLE TGMP INFO TRAY -->
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.3";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<script type="text/javascript">
+//<![CDATA[
+(function() {
+var _analytics_scr = document.createElement('script');
+_analytics_scr.type = 'text/javascript'; _analytics_scr.async = true; _analytics_scr.src = '/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1194355742';
+var _analytics_elem = document.getElementsByTagName('script')[0]; _analytics_elem.parentNode.insertBefore(_analytics_scr, _analytics_elem);
+})();
+// ]]>
+</script></body>
+
+
+</html>
+<!--
+Performance optimized by W3 Total Cache. Learn more: https://www.w3-edge.com/products/
+
+Object Caching 3532/3823 objects using memcache
+Page Caching using memcache
+Database Caching 293/446 queries in 1.187 seconds using memcache
+
+Served from: www.1460wrad.com @ 2018-08-27 06:19:49 by W3 Total Cache
+-->

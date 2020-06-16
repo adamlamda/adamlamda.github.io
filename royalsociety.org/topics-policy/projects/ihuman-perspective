@@ -1,0 +1,1373 @@
+<!DOCTYPE html>
+<html lang="en-gb">
+	
+    <head id="head">
+        <!-- Google Tag Manager -->
+        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-549Q3H');</script>
+        <!-- End Google Tag Manager -->
+        
+        <meta charset="utf-8" /><meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, width=device-width" /><meta http-equiv="X-UA-Compatible" content="IE=edge" /><link rel="apple-touch-icon" sizes="57x57" href="https://royalsociety.org/apple-touch-icon-57x57.png" /><link rel="apple-touch-icon" sizes="60x60" href="https://royalsociety.org/apple-touch-icon-60x60.png" /><link rel="apple-touch-icon" sizes="72x72" href="https://royalsociety.org/apple-touch-icon-72x72.png" /><link rel="apple-touch-icon" sizes="76x76" href="https://royalsociety.org/apple-touch-icon-76x76.png" /><link rel="apple-touch-icon" sizes="114x114" href="https://royalsociety.org/apple-touch-icon-114x114.png" /><link rel="apple-touch-icon" sizes="120x120" href="https://royalsociety.org/apple-touch-icon-120x120.png" /><link rel="apple-touch-icon" sizes="144x144" href="https://royalsociety.org/apple-touch-icon-144x144.png" /><link rel="apple-touch-icon" sizes="152x152" href="https://royalsociety.org/apple-touch-icon-152x152.png" /><link rel="apple-touch-icon" sizes="180x180" href="https://royalsociety.org/apple-touch-icon-180x180.png" /><link rel="icon" type="image/png" href="https://royalsociety.org/favicon-32x32.png" sizes="32x32" /><link rel="icon" type="image/png" href="https://royalsociety.org/favicon-194x194.png" sizes="194x194" /><link rel="icon" type="image/png" href="https://royalsociety.org/favicon-96x96.png" sizes="96x96" /><link rel="icon" type="image/png" href="https://royalsociety.org/android-chrome-192x192.png" sizes="192x192" /><link rel="icon" type="image/png" href="https://royalsociety.org/favicon-16x16.png" sizes="16x16" /><link rel="manifest" href="https://royalsociety.org/manifest.json" /><meta name="msapplication-TileColor" content="#da532c" /><meta name="msapplication-TileImage" content="/mstile-144x144.png" /><meta name="theme-color" content="#ba0c2f" />
+
+<link rel="shortcut icon" type="image/x-icon" href="https://royalsociety.org/images/Main/favIcon.ico" />
+<link rel="canonical" href="ihuman-perspective" />
+
+
+  
+    <title>Neural interfaces – 2019 report | Royal Society | Royal Society </title>
+ 
+
+
+  
+   <meta property="fb:app_id" content="1227409314066422">
+
+    <meta property="og:url" content="https://royalsociety.org/topics-policy/projects/ihuman-perspective/">
+
+<meta property="og:type" content="website">
+     <meta property="og:title" content="Neural interfaces – 2019 report | Royal Society | Royal Society" />
+    <meta property="og:description" content="Read this report on neural and brain computer interfaces being used in 2019, the potential benefits and risks of devices that interact with the brain and nervous system, and the future of human-machine interaction." />
+
+    <meta property="og:image" content="https://royalsociety.org/images/Redesign2015/RSSocialShare.jpg">
+
+    <meta property="og:locale" content="en_GB">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@royalsociety">
+<meta name="twitter:creator" content="@royalsociety">
+
+
+    <meta name="twitter:url" content="https://royalsociety.org/topics-policy/projects/ihuman-perspective/">
+
+<meta name="twitter:title" content="Neural interfaces – 2019 report | Royal Society | Royal Society">
+
+<meta name="twitter:description" content="Read this report on neural and brain computer interfaces being used in 2019, the potential benefits and risks of devices that interact with the brain and nervous system, and the future of human-machine interaction.">
+
+<meta name="twitter:image" content="https://royalsociety.org/images/Redesign2015/RSSocialShare.jpg">
+
+<link href="https://plus.google.com/+RoyalSociety" rel="publisher">
+
+<meta itemprop="name" content="Neural interfaces – 2019 report | Royal Society | Royal Society">
+
+
+<meta name="RS:PageVersion" content="1" />
+<meta name="RS:PageUID" content="867d5c74-2f2c-4a3b-9729-71fc6e0c4f2e" />
+<meta name="RS:PageType" content="ResearchProjectPage" />
+<meta name="RS:ContentName" content="iHuman perspective: Neural interfaces" />
+<meta name="RS:PublishedDate" content="20190822" />
+
+
+<script type="application/ld+json">{"@context":"http://schema.org","@type":"ResearchProject","Name":"iHuman perspective: Neural interfaces","Summary":"","IsPastProject":"False","IsProject":"False","IsPubliclyVisible":"False","Image":"/-/media/policy/projects/ihuman/ihuman-visions-and-challenges-950-700.jpg","DownloadLinks":"","DownloadNames":"","Date":"10/09/2019"}</script>
+<link href="https://royalsociety.org/bundles/new/headCss?v=4-Aiqh4pmNWXRG17zCywNXV3exzuvt-a9l6X6UKyQsU1" rel="stylesheet"/>
+
+        <link href="https://royalsociety.org/bundles/new/headPrintCss?v=6bzLq_ZLtsg5k_fi4Xa5z63UjvFgD7uQp0k92aIapec1" rel="stylesheet" media="print" />
+        <!--[if lt IE 10]>
+	        <link rel="stylesheet" href="/css/Redesign2015/ie9.css" media="screen" />
+	    <![endif]-->
+	    <!--[if lt IE 9]>
+	        <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+	        <link rel="stylesheet" href="/css/Redesign2015/ie8.css" media="screen" />
+            <script src="/js/Redesign2015/respond.min.js"></script>
+	    <![endif]-->
+<!-- CSS required for funnelback TODO: decide if we release it-->
+    
+                     	 
+
+    <title>
+
+	</title><meta name="description" content="Read this report on neural and brain computer interfaces being used in 2019, the potential benefits and risks of devices that interact with the brain and nervous system, and the future of human-machine interaction." /><meta name="keywords" content="brain computer interfaces, neural interfaces, technology, artificial intelligence" /></head>
+    <body data-ng-app="rsApp">
+        
+   
+<!-- Google Tag Manager -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-549Q3H"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+<!-- End Google Tag Manager -->
+
+
+
+        <form method="post" action="ihuman-perspective" id="form1">
+<div class="aspNetHidden">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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" />
+</div>
+
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="8FB47DD7" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="8Lmu2zZciSCc4o2UtPE+wrcE9v3zBwazkWipNYWQikjB47kkpbqQdlhGx0E1Q66PUj0RfLKOKqnoLV9kzjFpPdUR0XeOA4wbQbnYgXL0o/VLbXNjAIWG1NRc2QsaeXvt" />
+</div>
+            <!-- Page wrap -->
+            <div class="pageWrap">
+                <a class="offScreen" href="ihuman-perspective#contentSkip">Skip to content</a>
+                <!-- Site container -->
+                <div class="siteContainer">
+                    
+
+<header class="globalHeader cf">
+    <div class="drawer ">
+        <div class="wrapper cf">
+            <div id="mainglobalheader_0_LoginPanel">
+	
+                
+</div>
+            <div id="mainglobalheader_0_SearchPanel">
+	
+                <article class="siteSearch right " hidden="hidden">
+                    <a id="mainglobalheader_0_SearchButton" class="btn btnJoined right" href="javascript:__doPostBack(&#39;mainglobalheader_0$SearchButton&#39;,&#39;&#39;)">Go</a>
+                    <label for="siteSearch" hidden="hidden">
+                        Search RoyalSociety.org
+                    </label>
+                    <div class="media">
+                        <input name="mainglobalheader_0$siteSearch" type="search" id="siteSearch" class="textbox textboxJoined" placeholder="Search RoyalSociety.org" />
+                    </div>
+                </article>
+            
+</div>
+        </div>
+    </div>
+
+    <div class="headerContainer">
+        <div class="wrapper cf">
+            <a class="headerLogo left" href="https://royalsociety.org/">
+                The Royal Society
+            </a>
+            <nav class="topLinks right">
+                <ul class="inlineList">
+                    
+                            <li class="additionalLink">
+                                <a href="https://royalsociety.org/venue-hire-central-london">Venue hire</a>
+                            </li>
+                        
+                            <li class="additionalLink">
+                                <a href="https://royalsociety.org/about-us/contact-us">Contact us</a>
+                            </li>
+                        
+                    
+
+                  
+                    <li class="additionalLink">
+                        <a href="https://royalsociety.org/login?returnurl=/fellows-dashboard" id="mainglobalheader_0_showLogin" class="icon iconKey">
+                            Fellow login
+                        </a>
+                    </li>
+                      
+                    
+                    <li><a id="showSearch" class="icon iconSearch" href="ihuman-perspective#"><span>
+                        Search
+                    </span></a></li>
+                    <li class="compactLink" hidden="hidden"><a id="showSideNav" class="icon iconMenu" href="ihuman-perspective#"><span class="offScreen">
+                        Show navigation
+                    </span></a></li>
+                </ul>
+            </nav>
+            <nav id="mainNav" class="fullClear">
+                <a class="left" href="https://royalsociety.org/">
+                    Home
+                </a>
+                <ul class="inlineList left">
+                    
+                            <li class="">
+                                <a href="https://royalsociety.org/fellows">Fellows</a>
+                            </li>
+                        
+                            <li class="">
+                                <a href="https://royalsociety.org/science-events-and-lectures">Events</a>
+                            </li>
+                        
+                            <li class="">
+                                <a href="https://royalsociety.org/grants-schemes-awards">Grants, Schemes & Awards</a>
+                            </li>
+                        
+                            <li class="">
+                                <a href="https://royalsociety.org/topics-policy">Topics & policy</a>
+                            </li>
+                        
+                            <li class="">
+                                <a href="https://royalsociety.org/journals">Journals</a>
+                            </li>
+                        
+                            <li class="">
+                                <a href="https://royalsociety.org/collections">Collections</a>
+                            </li>
+                        
+                            <li class="">
+                                <a href="https://royalsociety.org/about-us">About us</a>
+                            </li>
+                        
+                            <li class="">
+                                <a href="https://royalsociety.org/whats-new">What's new</a>
+                            </li>
+                        
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <nav id="mainNavLevel2" class="fullClear">
+        <div class="wrapper cf">
+            
+                    <ul class="level2Menu inlineList">
+                        
+                                <li class="">
+                                    <a href="https://royalsociety.org/fellows/fellows-directory">Search the Fellows Directory</a>
+                                </li>
+                            
+                                <li class="">
+                                    <a href="https://royalsociety.org/fellows/elections">About elections</a>
+                                </li>
+                            
+                                <li class="">
+                                    <a href="https://royalsocietypublishing.org/journal/rsbm">Biographical Memoirs</a>
+                                </li>
+                            
+                    </ul>
+                
+                    <ul class="level2Menu inlineList">
+                        
+                                <li class="">
+                                    <a href="https://royalsociety.org/science-events-and-lectures">Public events</a>
+                                </li>
+                            
+                                <li class="">
+                                    <a href="https://royalsociety.org/science-events-and-lectures/for-scientists">Scientific meetings</a>
+                                </li>
+                            
+                                <li class="">
+                                    <a href="https://royalsociety.org/science-events-and-lectures/you-and-the-planet">You and the planet</a>
+                                </li>
+                            
+                                <li class="">
+                                    <a href="https://royalsociety.org/science-events-and-lectures/2020/summer-science-exhibition">Summer Science Exhibition</a>
+                                </li>
+                            
+                    </ul>
+                
+                    <ul class="level2Menu inlineList">
+                        
+                                <li class="">
+                                    <a href="https://royalsociety.org/grants-schemes-awards/grants">Grants</a>
+                                </li>
+                            
+                                <li class="">
+                                    <a href="https://royalsociety.org/grants-schemes-awards/awards">Awards</a>
+                                </li>
+                            
+                                <li class="">
+                                    <a href="https://royalsociety.org/grants-schemes-awards/training-mentoring-partnership-schemes">Training, mentoring and partnership</a>
+                                </li>
+                            
+                                <li class="">
+                                    <a href="https://royalsociety.org/grants-schemes-awards/book-prizes">Book prizes</a>
+                                </li>
+                            
+                                <li class="">
+                                    <a href="https://grants.royalsociety.org/">Flexi-Grant®</a>
+                                </li>
+                            
+                                <li class="">
+                                    <a href="https://royalsociety.org/grants-schemes-awards/global-talent-visa">Global Talent visa</a>
+                                </li>
+                            
+                    </ul>
+                
+                    <ul class="level2Menu inlineList">
+                        
+                                <li class="">
+                                    <a href="https://royalsociety.org/topics-policy/#topiclisting">All topics</a>
+                                </li>
+                            
+                                <li class="">
+                                    <a href="https://royalsociety.org/topics-policy/projects">All projects</a>
+                                </li>
+                            
+                                <li class="">
+                                    <a href="https://royalsociety.org/topics-policy/publications">All reports & publications</a>
+                                </li>
+                            
+                                <li class="">
+                                    <a href="https://royalsociety.org/topics-policy/projects/brexit-uk-science">Brexit & UK science</a>
+                                </li>
+                            
+                    </ul>
+                
+                    <ul class="level2Menu inlineList">
+                        
+                                <li class="">
+                                    <a href="https://royalsociety.org/journals/#listing">All journals</a>
+                                </li>
+                            
+                                <li class="">
+                                    <a href="https://royalsociety.org/journals/authors">Authors</a>
+                                </li>
+                            
+                                <li class="">
+                                    <a href="https://royalsociety.org/journals/reviewers">Reviewers</a>
+                                </li>
+                            
+                                <li class="">
+                                    <a href="https://royalsociety.org/journals/librarians">Librarians</a>
+                                </li>
+                            
+                                <li class="">
+                                    <a href="https://royalsociety.org/journals/free-content">Free content</a>
+                                </li>
+                            
+                                <li class="">
+                                    <a href="https://royalsociety.org/journals/ethics-policies">Ethics and policies</a>
+                                </li>
+                            
+                                <li class="">
+                                    <a href="https://royalsociety.org/journals/publishing-metrics">Publishing metrics</a>
+                                </li>
+                            
+                                <li class="">
+                                    <a href="https://royalsociety.org/login/?loginType=journals-access">Fellows' access</a>
+                                </li>
+                            
+                    </ul>
+                
+                    <ul class="level2Menu inlineList">
+                        
+                                <li class="">
+                                    <a href="https://royalsociety.org/collections/visitors">Visitor information</a>
+                                </li>
+                            
+                                <li class="">
+                                    <a href="https://royalsociety.org/collections/catalogue-search">Search the catalogues</a>
+                                </li>
+                            
+                                <li class="">
+                                    <a href="https://royalsociety.org/collections/digital-resources">Digital resources</a>
+                                </li>
+                            
+                                <li class="">
+                                    <a href="https://prints.royalsociety.org/">Print shop</a>
+                                </li>
+                            
+                                <li class="">
+                                    <a href="https://royalsociety.org/collections/research">Research projects</a>
+                                </li>
+                            
+                    </ul>
+                
+                    <ul class="level2Menu inlineList">
+                        
+                                <li class="">
+                                    <a href="https://royalsociety.org/about-us/mission-priorities">Mission</a>
+                                </li>
+                            
+                                <li class="">
+                                    <a href="https://royalsociety.org/about-us/history">History</a>
+                                </li>
+                            
+                                <li class="">
+                                    <a href="https://royalsociety.org/about-us/programmes">Programmes</a>
+                                </li>
+                            
+                                <li class="">
+                                    <a href="https://royalsociety.org/about-us/international">International work</a>
+                                </li>
+                            
+                                <li class="">
+                                    <a href="https://royalsociety.org/about-us/funding-finances">Funding & finances</a>
+                                </li>
+                            
+                                <li class="">
+                                    <a href="https://royalsociety.org/about-us/governance">Governance</a>
+                                </li>
+                            
+                                <li class="">
+                                    <a href="https://royalsociety.org/about-us/committees">Committees</a>
+                                </li>
+                            
+                                <li class="">
+                                    <a href="https://royalsociety.org/about-us/Jobs-at-the-Royal-Society">Jobs</a>
+                                </li>
+                            
+                    </ul>
+                
+                    <ul class="level2Menu inlineList">
+                        
+                                <li class="">
+                                    <a href="https://royalsociety.org/blog">Blog</a>
+                                </li>
+                            
+                                <li class="">
+                                    <a href="https://royalsociety.org/search/?collection=website-meta&clive=news&query=">News</a>
+                                </li>
+                            
+                                <li class="">
+                                    <a href="https://royalsociety.org/whats-new/covid-19">COVID-19</a>
+                                </li>
+                            
+                    </ul>
+                
+            <div class="overflowMenu right">
+                <a class="overflowAccordion" href="ihuman-perspective#"><span class="icon iconNavigateDown">
+                    More
+                </span></a>
+                <ul></ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="stickyHeader cf" hidden="hidden">
+        <a class="headerLogo left" href="https://royalsociety.org/">
+            The Royal Society
+        </a>
+        <ul class="inlineList right">
+            <li><a id="stickyShowSearch" class="icon iconSearch" href="ihuman-perspective#"><span class="offScreen">
+                Search
+            </span></a></li>
+            <li class="compactLink"><a id="stickyShowSideNav" class="icon iconMenu" href="ihuman-perspective#"><span class="offScreen">
+                Show navigation
+            </span></a></li>
+        </ul>
+    </div>
+
+</header>
+
+                    <!-- Wrapper -->
+                    <div id="contentSkip" class="wrapper cf">
+                        <noscript>
+                            <p>You currently have JavaScript disabled in your web browser, please enable JavaScript to view our website as intended.</p>
+                            <p><a href="http://www.enable-javascript.com/">Here are the instructions of how to enable JavaScript in your browser.</a></p>
+                        </noscript>
+                        
+
+<section class="contentBox bottomGap cf">
+    <a id="mainlayout_0_pagecontainertoprightbutton_0_BackHyperLink" class="backBtn btn btnBordered right icon iconArrowLeft" href="https://royalsociety.org/topics-policy/projects">Policy projects</a>
+    <h1>
+        iHuman perspective: Neural interfaces
+    </h1>
+    
+    
+
+<div class="oneThirdWidth leftGutter right">
+    
+    <div class="illustration right">
+        <div class="lazyLoad threeQuarterRatio">
+            <noscript data-src="/-/media/policy/projects/ihuman/ihuman-visions-and-challenges-950-700.jpg" data-alt="Some people with paraplegia have been helped to walk again">
+	<img src="https://royalsociety.org/-/media/policy/projects/ihuman/ihuman-visions-and-challenges-950-700.jpg" alt="Some people with paraplegia have been helped to walk again" />
+</noscript>
+        </div>
+        <span class="caption">© Jamani Caillet / EPFL</span>
+    </div>
+
+
+    <article class="sideDownloads leftGutter">
+        <h3 class="noMargin">
+            Downloads
+        </h3>
+        <ul class="downloadList doubleBottomGap">
+            
+                    <li class="icon iconPdf">
+                        <p class="semi"><a href="https://royalsociety.org/-/media/policy/projects/ihuman/summary-neural-interfaces.pdf" onclick="javascript:ga('send', 'pageview', {'page': '/topics-policy/projects/ihuman-perspective/summary-neural-interfaces.pdf'});">Summary</a></p>
+                        <p class="smallText noMargin">PDF, 393.3KB</p>
+                    </li>
+                
+                    <li class="icon iconPdf">
+                        <p class="semi"><a href="https://royalsociety.org/-/media/policy/projects/ihuman/report-neural-interfaces.pdf" onclick="javascript:ga('send', 'pageview', {'page': '/topics-policy/projects/ihuman-perspective/report-neural-interfaces.pdf'});">iHuman Neural Interfaces Report</a></p>
+                        <p class="smallText noMargin">PDF, 2.3MB</p>
+                    </li>
+                
+        </ul>
+    </article>
+
+
+<nav id="subNav" class="bottomGap leftGutter right">
+    <a id="mainlayout_0_pagecontainercontent_0_onethirdwidthcontainer_2_TopLevelHyperLink" class="parentLink semi icon iconNavigateLeft" href="https://royalsociety.org/topics-policy/projects">Policy projects</a>
+
+    
+            <ul>
+        
+            <li><a href="https://royalsociety.org/topics-policy/projects/ihuman-perspective/supplementary-material">iHuman perspective: Supplementary material</a></li>
+        
+            </ul>
+        
+</nav>
+</div>
+
+<div class="twoThirdWidth bottomGap left">
+    
+
+<section class="cf">
+    <p><strong>10 September 2019</strong></p>
+
+    <div class="rteContent"></div>
+    
+    
+</section><div class="rteContent"><p>Neural interfaces, brain-computer interfaces and other devices that blur the lines between mind and machine have extraordinary potential.&nbsp;</p>
+<p>These technologies could transform medicine and fundamentally change how we interact with technology and each other. At the same time, neural interfaces raise critical ethical concerns over issues such as privacy, autonomy, human rights and equality of access.&nbsp;</p>
+<p>This Royal Society Perspective takes a future-facing look into possible applications of neural and brain-computer interfaces, exploring the potential benefits and risks of the technologies and setting out a course towards maximising the former and minimising the latter.&nbsp;</p>
+<style>
+    .embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+</style>
+<div class="embed-container"><iframe src="https://www.youtube.com/embed/K8uijjp6hfc" frameborder="0"></iframe></div>
+<p> </p>
+<blockquote class="quote bottomGap">
+<p>&ldquo;The applications for neural interfaces are as unimaginable today as the smartphone was a few decades ago.&rdquo; </p>
+<p>Chris Toumazou FREng FMedSci, FRS, co-chair</p>
+</blockquote>
+<p>Recent headline grabbing announcements from Neuralink, founded by Elon Musk FRS, which has the long-term goal of linking human brains and artificial intelligence, and Facebook, who are developing wearable technology that hopes to achieve &lsquo;typing by the brain&rsquo;, demonstrate the excitement surrounding the field. They also highlight that the major developments in neural interfaces are currently coming from the US. The report seeks to address this issue. It outlines why the UK is well placed to become a world-leader in the field and proposes the government use the field as a test case for a new regulatory approach to responsibly accelerate innovation and ensure the UK reaches this potential.</p>
+<p>Neural and brain-computer interfaces may challenge the very essence of what it is to be human. Working out how, and even if we want to use them requires an open and inclusive debate involving many voices and all sectors of society. The Royal Society proposes the public are given a clear voice in shaping how this technology is used and regulated over the coming years.&nbsp;</p>
+<p>An<a href="https://royalsociety.org/topics-policy/projects/ihuman-perspective/supplementary-material"> independent public dialogue</a> exercise commissioned by the Royal Society and conducted by Hopkins Van Mil found strong support for neural interfaces in situations where they enable patients to recover something that has been lost due to injury or a medical condition; but less support for the technology when it is used to enhance functions such as memory, concentration or physical skills among healthy people.</p>
+<p>For more information on the public dialogue and to download a selection of in-depth science papers on neural interfaces, visit: <a href="https://royalsociety.org/topics-policy/projects/ihuman-perspective/supplementary-material">iHuman Supplementary Material</a>.</p>
+<p>Click&nbsp;<a href="ihuman-perspective#timeline">here</a>&nbsp;to see an interactive timeline of the history of neural interfaces.</p>
+<h3>What are neural interfaces?</h3>
+<p>Neural interfaces are devices that interact with the nervous system. They are electronic devices placed on the outside or inside of the brain or nervous system to record or stimulate activity &ndash; or both. Interfaces placed inside the brain or body are known as internal, invasive or implanted technologies, as opposed to external, non-invasive or wearable devices &ndash; often called brain-computer interfaces.&nbsp;</p>
+<h3>How are neural and brain computer interfaces currently used?</h3>
+<p>Current technologies and applications include:</p>
+<ul>
+    <li>
+    Brain implants to treat Parkinson&rsquo;s disease and tremor;</li>
+    <li>
+    Electrical foot stimulators to aid stroke recovery;</li>
+    <li>
+    Cochlear implants to convey sounds to people with hearing loss;</li>
+    <li>
+    Brain computer interfaces, typically EEG (electroencephalography) headsets, used by gamers to control digital objects;&nbsp;</li>
+    <li>Transcranial stimulation used to boost memory or concentration.</li>
+</ul>
+<h3>How could neural and brain computer interfaces be used in the future?</h3>
+<p>Potential future applications may include:&nbsp;</p>
+<ul>
+    <li>
+    &lsquo;Typing by brain&rsquo; and use of a &lsquo;mental mouse&rsquo; to control computers and devices;</li>
+    <li>
+    Direct brain-to-brain communication, whether simple impulses or complex thoughts;</li>
+    <li>
+    Wider medical applications, such as for Alzheimer&rsquo;s Disease and mental health conditions;&nbsp;</li>
+    <li>
+    Monitoring of brain activity to support health, safety and security;</li>
+    <li>Augmentation of human memory, concentration and learning.</li>
+</ul>
+<h3>The report on neural interfaces includes information on: </h3>
+<ul>
+    <li>History of human-computer interfaces and how they work</li>
+    <li>
+    Examples of brain-computer devices currently in use</li>
+    <li>
+    Possible future applications of neural and brain-computer interfaces&nbsp;</li>
+    <li>
+    The important ethical questions the technologies raise</li>
+    <li>The potential benefits and risks of neural and brain computer interfaces and recommendations that set out a course towards maximising the former and minimising the latter.&nbsp;</li>
+</ul>
+<p>The summary of this report is also available in Chinese - 这份报告的概述还有中文版本<br />
+<a href="https://royalsociety.org/-/media/about-us/international/reports-zh/iHuman-neural-interfaces-summary-document_zh_CN.pdf?la=en-GB&amp;hash=41C6993138EB65BC5754D02105CD834C">iHuman-neural-interfaces-summary-document_zh_CN</a></p>
+<h2><a name="timeline" id="link-timeline-bottom"></a>Timeline</h2></div>
+</div>
+
+<div class="content">
+    <div class="grid stretch generic">
+        
+        <iframe src="https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1_xRaPL9B3BjcpSWMQKL-L7w8Ih2fQJFvD9iXdpWZPg8&amp;font=Default&amp;lang=en&amp;initial_zoom=2&amp;height=650" width="100%" height="650" frameborder="0"></iframe>
+    </div>
+</div>
+</section>
+
+<section class="contentBox cf">
+   
+      
+   <form action ="https://dev-sclive.royalsociety.org/api/Survey/Submit" method ="post" target="_blank" id= "feedbackForm">
+          <div id="feedtxt">Was this page useful?  <button type="button" class="btnYes" data-gtm-name="feedback-survey-yes" onclick="YesClick() ">Yes</button>
+              <button type="button" class="btnNo" data-gtm-name="feedback-survey-no" onclick ="Showfeedbackurl()">No</button>
+             
+          </div>
+  
+    
+      <div id ="Thankyou">
+        Thank you for your feedback
+    </div>
+
+    <div id ="TakeSurveyMsg" >
+        Thank you for your feedback. Please help us improve this page by taking our <a href="javascript:location.href=url()">short survey</a>. 
+        
+    </div>
+      <div id ="socialLogos"> 
+         
+    <p class="shareLinks left">
+        <span>
+            Share:
+        </span>
+    </p>
+
+
+<article class="signUpForm right">
+    
+    
+    <div class="signupUrl">
+        <a href="https://royalsociety.org/stay-in-touch/email-newsletters/">Sign up for newsletters</a>
+    </div>
+   
+</article>
+     </div>
+       </form>
+</section>
+
+
+<script>
+   
+    var feedbackurl = 'https://forms.royalsociety.org/s/your-website-feedback/?c=';
+    var cookievalue = document.cookie;
+    var res = cookievalue.slice(4, 31);
+    var pageUrl = window.location.toString();
+    var urlPart = pageUrl.slice(36)
+
+    function url() {
+        try{
+            u = feedbackurl + res + "&" + "p=" + urlPart;
+            return u
+
+        }
+        catch (err) {
+            return feedbackurl;
+        }
+            }
+    
+
+    function YesClick() {
+            if (document.getElementById('feedtxt')) {
+              
+                if (document.getElementById('feedtxt').style.display == 'none') {
+                    document.getElementById('feedtxt').style.display = 'block';
+                    document.getElementById('Thankyou').style.display = 'none';
+                }
+                else {
+                    document.getElementById('feedtxt').style.display = 'none';
+                    document.getElementById('Thankyou').style.display = 'block';
+                }
+            }
+        }
+
+
+  function Showfeedbackurl() {
+     
+            if (document.getElementById('socialLogos')) {
+
+                if (document.getElementById('socialLogos').style.display == 'none') {
+                    document.getElementById('socialLogos').style.display = 'block';
+                    document.getElementById('TakeSurveyMsg').style.display = 'none';
+           
+                }
+                else {
+                    document.getElementById('socialLogos').style.display = 'none';
+                    document.getElementById('TakeSurveyMsg').style.display = 'block';
+                    document.getElementById('feedtxt').style.display = 'none';
+                }
+            }
+        }
+
+       
+</script>
+
+
+                    </div>
+                    <!-- /Wrapper -->
+                    
+                    
+
+<footer class="footer-redesign">
+    <div class="footer-redesign-bottom">
+        <div class="bottom-first-line">
+            <div class="bottom-first-line-section">
+                
+                    
+                    <div class="section-item">
+                        <div class="section-item-title">
+                            ABOUT US
+                        </div>
+                        
+                        <div class="section-item-link">
+                           
+		                        <a href="https://royalsociety.org/about-us/mission-priorities" data-gtm-name="Footer">Our mission</a>
+		                
+               
+                        </div>
+                        
+                        <div class="section-item-link">
+                           
+		                        <a href="https://royalsociety.org/about-us/Jobs-at-the-Royal-Society" data-gtm-name="Footer">Work for us</a>
+		                
+               
+                        </div>
+                        
+                        <div class="section-item-link">
+                           
+		                        <a href="https://royalsociety.org/about-us/history" data-gtm-name="Footer">Our history</a>
+		                
+               
+                        </div>
+                        
+                        <div class="section-item-link">
+                           
+		                        <a href="https://royalsociety.org/oldsearch/#?contenttype=News&sort=date" data-gtm-name="Footer">Press releases</a>
+		                
+               
+                        </div>
+                        
+                        <div class="section-item-link">
+                           
+		                        <a href="https://royalsociety.org/about-us/terms-conditions-policies/modern-slavery-statement" data-gtm-name="Footer">Modern Slavery Statement</a>
+		                
+               
+                        </div>
+                        
+                    </div>
+                    
+                
+                    
+                    <div class="section-item">
+                        <div class="section-item-title">
+                            EVENTS
+                        </div>
+                        
+                        <div class="section-item-link">
+                           
+		                        <a href="https://royalsociety.org/science-events-and-lectures" data-gtm-name="Footer">Public events</a>
+		                
+               
+                        </div>
+                        
+                        <div class="section-item-link">
+                           
+		                        <a href="https://royalsociety.org/science-events-and-lectures/scientific-meetings" data-gtm-name="Footer">Scientific meetings</a>
+		                
+               
+                        </div>
+                        
+                        <div class="section-item-link">
+                           
+		                        <a href="https://royalsociety.org/science-events-and-lectures/2019/summer-science-exhibition" data-gtm-name="Footer">Summer Science Exhibition</a>
+		                
+               
+                        </div>
+                        
+                    </div>
+                    
+                
+                    
+                    <div class="section-item">
+                        <div class="section-item-title">
+                            GRANTS
+                        </div>
+                        
+                        <div class="section-item-link">
+                           
+		                        <a href="https://royalsociety.org/grants-schemes-awards/grants" data-gtm-name="Footer">All grants</a>
+		                
+               
+                        </div>
+                        
+                        <div class="section-item-link">
+                           
+		                        <a href="https://royalsociety.org/grants-schemes-awards" data-gtm-name="Footer">All open grants</a>
+		                
+               
+                        </div>
+                        
+                        <div class="section-item-link">
+                           
+                      
+			                    <a href="https://grants.royalsociety.org/" data-gtm-name="Footer"><span class="Icon  Key right keySymbol"></span>Flexi-Grant®</a>
+	                        
+               
+                        </div>
+                        
+                        <div class="section-item-link">
+                           
+		                        <a href="https://royalsociety.org/grants-schemes-awards/grants/applications" data-gtm-name="Footer">How to apply</a>
+		                
+               
+                        </div>
+                        
+                    </div>
+                    
+                
+                    
+                    <div class="section-item">
+                        <div class="section-item-title">
+                            AWARDS
+                        </div>
+                        
+                        <div class="section-item-link">
+                           
+		                        <a href="https://royalsociety.org/grants-schemes-awards/awards" data-gtm-name="Footer">All awards</a>
+		                
+               
+                        </div>
+                        
+                        <div class="section-item-link">
+                           
+		                        <a href="https://royalsociety.org/grants-schemes-awards/awards/premier-awards" data-gtm-name="Footer">Premier medals and awards</a>
+		                
+               
+                        </div>
+                        
+                        <div class="section-item-link">
+                           
+		                        <a href="https://royalsociety.org/grants-schemes-awards/awards/nominations" data-gtm-name="Footer">How to nominate</a>
+		                
+               
+                        </div>
+                        
+                    </div>
+                    
+                
+                    
+                    <div class="section-item">
+                        <div class="section-item-title">
+                            POLICY
+                        </div>
+                        
+                        <div class="section-item-link">
+                           
+		                        <a href="https://royalsociety.org/topics-policy/projects" data-gtm-name="Footer">All policy projects</a>
+		                
+               
+                        </div>
+                        
+                        <div class="section-item-link">
+                           
+		                        <a href="https://royalsociety.org/topics-policy/publications" data-gtm-name="Footer">All policy publications</a>
+		                
+               
+                        </div>
+                        
+                    </div>
+                    
+                
+                    
+                    <div class="section-item">
+                        <div class="section-item-title">
+                            TOPICS
+                        </div>
+                        
+                        <div class="section-item-link">
+                           
+		                        <a href="https://royalsociety.org/topics-policy/diversity-in-science" data-gtm-name="Footer">Diversity</a>
+		                
+               
+                        </div>
+                        
+                        <div class="section-item-link">
+                           
+		                        <a href="https://royalsociety.org/topics-policy/industry-innovation" data-gtm-name="Footer">Industry</a>
+		                
+               
+                        </div>
+                        
+                        <div class="section-item-link">
+                           
+		                        <a href="https://royalsociety.org/about-us/international" data-gtm-name="Footer">International</a>
+		                
+               
+                        </div>
+                        
+                        <div class="section-item-link">
+                           
+		                        <a href="https://royalsociety.org/topics-policy/education-skills/teacher-resources-and-opportunities" data-gtm-name="Footer">Schools engagement</a>
+		                
+               
+                        </div>
+                        
+                    </div>
+                    
+                
+                    
+                    <div class="section-item">
+                        <div class="section-item-title">
+                            COLLECTIONS
+                        </div>
+                        
+                        <div class="section-item-link">
+                           
+		                        <a href="https://royalsociety.org/collections/visitors" data-gtm-name="Footer">Visit the library</a>
+		                
+               
+                        </div>
+                        
+                        <div class="section-item-link">
+                           
+		                        <a href="https://royalsociety.org/collections/catalogue-search" data-gtm-name="Footer">Search the catalogues</a>
+		                
+               
+                        </div>
+                        
+                        <div class="section-item-link">
+                           
+		                        <a href="https://royalsociety.org/collections/digital-resources" data-gtm-name="Footer">Digital resources</a>
+		                
+               
+                        </div>
+                        
+                        <div class="section-item-link">
+                           
+		                        <a href="https://prints.royalsociety.org/" data-gtm-name="Footer">Print Shop</a>
+		                
+               
+                        </div>
+                        
+                    </div>
+                    
+                
+                    
+                    <div class="section-item">
+                        <div class="section-item-title">
+                            JOURNALS
+                        </div>
+                        
+                        <div class="section-item-link">
+                           
+		                        <a href="https://royalsociety.org/journals" data-gtm-name="Footer">All journals</a>
+		                
+               
+                        </div>
+                        
+                        <div class="section-item-link">
+                           
+		                        <a href="https://royalsocietypublishing.org/search/advanced" data-gtm-name="Footer">Search the journals</a>
+		                
+               
+                        </div>
+                        
+                        <div class="section-item-link">
+                           
+		                        <a href="https://royalsociety.org/journals/librarians" data-gtm-name="Footer">Librarians</a>
+		                
+               
+                        </div>
+                        
+                        <div class="section-item-link">
+                           
+		                        <a href="https://royalsociety.org/journals/authors" data-gtm-name="Footer">Authors</a>
+		                
+               
+                        </div>
+                        
+                    </div>
+                    
+                
+                    
+                    <div class="section-item">
+                        <div class="section-item-title">
+                            FELLOWS
+                        </div>
+                        
+                        <div class="section-item-link">
+                           
+		                        <a href="https://royalsociety.org/fellows/fellows-directory" data-gtm-name="Footer">Fellows Directory</a>
+		                
+               
+                        </div>
+                        
+                        <div class="section-item-link">
+                           
+                      
+			                    <a href="https://royalsociety.org/fellows-dashboard/" data-gtm-name="Footer"><span class="Icon  Key right keySymbol"></span>Fellows' Room</a>
+	                        
+               
+                        </div>
+                        
+                        <div class="section-item-link">
+                           
+                      
+			                    <a href="https://e-lect.royalsociety.org/" data-gtm-name="Footer"><span class="Icon  Key right keySymbol"></span>e-Lect</a>
+	                        
+               
+                        </div>
+                        
+                    </div>
+                    
+                
+                    
+                    <div class="section-item">
+                        <div class="section-item-title">
+                            VENUE HIRE
+                        </div>
+                        
+                        <div class="section-item-link">
+                           
+		                        <a href="https://royalsociety.org/venue-hire-central-london/make-an-enquiry" data-gtm-name="Footer">Make an enquiry</a>
+		                
+               
+                        </div>
+                        
+                        <div class="section-item-link">
+                           
+		                        <a href="https://royalsociety.org/venue-hire-central-london/discover-our-venue" data-gtm-name="Footer">Discover our venue</a>
+		                
+               
+                        </div>
+                        
+                    </div>
+                    
+                
+            </div>
+        </div>
+    </div>
+    <div class="footer-redesign-middle">
+
+    </div>
+    <div class="footer-redesign-top">
+        <div class="main">
+            <div class="main-top">
+                <div class="main-top-one">
+                    <div class="main-top-one-logo">
+                        <div class="main-top-one-logo-first">
+                            <img src="https://royalsociety.org/-/media/Redesign2015/footer-redesign/footer-logo.png"
+                                alt="Footer Logo" width="220">
+                        </div>
+                        <div class="main-top-one-logo-second">
+                            <img src="https://royalsociety.org/-/media/Redesign2015/footer-redesign/footer-title.png"
+                                alt="Footer Title" width="443">
+                        </div>
+                    </div>
+                    <div class="main-top-one-description">
+                        The Royal Society is a Fellowship of many of the world's most eminent
+scientists and is the oldest scientific academy in continuous existence.
+Registered charity number 207043
+                    </div>
+                    <div class="main-top-one-sharing-icons">
+                        <a href="http://www.facebook.com/theroyalsociety" data-gtm-name="Social-footer"><img src="https://royalsociety.org/-/media/Redesign2015/footer-redesign/icons/001-facebook.png"></a>
+                        <a href="https://twitter.com/royalsociety" data-gtm-name="Social-footer"><img src="https://royalsociety.org/-/media/Redesign2015/footer-redesign/icons/002-twitter.png"></a>
+                        <a href="https://www.linkedin.com/company/41589" data-gtm-name="Social-footer"><img src="https://royalsociety.org/-/media/Redesign2015/footer-redesign/icons/003-linkedin.png"></a>
+                        <a href="https://www.instagram.com/theroyalsociety/" data-gtm-name="Social-footer"><img src="https://royalsociety.org/-/media/Redesign2015/footer-redesign/icons/004-instagram.png"></a>
+                        <a href="http://www.youtube.com/royalsociety" data-gtm-name="Social-footer"><img src="https://royalsociety.org/-/media/Redesign2015/footer-redesign/icons/005-youtube.png"></a>
+                    </div>
+                </div>
+                <div class="main-top-two">
+                    <div class="main-top-two-contact-us">
+                        <div class="subsection-title">
+                            CONTACT US
+                        </div>
+                        <div class="subsection-description">
+                            <div class="phone-number">
+                                + 44 207 451 2500
+                            </div>
+                            <div class="additional-info">
+                                (Lines open Mon-Fri, 9:00-17:00. Excludes bank holidays)
+                            </div>
+                            <div class="address">
+                                6-9 Carlton House Terrace, London SW1Y 5AG
+                            </div>
+                            <div class="email-link">
+                                <a href="https://royalsociety.org/about-us/contact-us" data-gtm-name="Email-footer">Email us &#8594;</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main-top-two-subscribe">
+                        <div class="subsection-title">
+                            SUBSCRIBE
+                        </div>
+                        <div class="subsection-description subscribe-description">
+                            Subscribe to our newsletters to be updated with the latest news on innovation, events, articles and reports.
+                            <div class="subscribe-link">
+                                <a href="https://royalsociety.org/stay-in-touch/email-newsletters">Subscribe &#8594;</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-copyright">
+        <div class="footer-copyright-content">
+            <span>Copyright © 2020 The Royal Society. All rights reserved</span>
+            <div class="footer-copyright-floated-right">
+                <span><a href="https://royalsociety.org/about-us/terms-conditions-policies/privacy-policy">Privacy Policy</a></span>
+                <span><a href="https://royalsociety.org/about-us/terms-conditions-policies">Terms & Conditions</a></span>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+                </div>
+                <!-- /Site container -->
+                
+
+<nav id="offScreenNav" class="" aria-hidden="true">
+    <article class="loggedInUser cf">
+        
+    </article>
+
+    <ul>
+        <li class=""><a href="https://royalsociety.org/">
+            Home
+        </a></li>
+        
+                <li class="">
+                    <a href="https://royalsociety.org/fellows">Fellows</a>
+                    <ul class="level2Menu">
+                        
+                                <li class="">
+                                    <a href="https://royalsociety.org/fellows/fellows-directory">Search the Fellows Directory</a>
+                                </li>
+                            
+                                <li class="">
+                                    <a href="https://royalsociety.org/fellows/elections">About elections</a>
+                                </li>
+                            
+                                <li class="">
+                                    <a href="https://royalsocietypublishing.org/journal/rsbm">Biographical Memoirs</a>
+                                </li>
+                            
+                    </ul>
+                </li>
+            
+                <li class="">
+                    <a href="https://royalsociety.org/science-events-and-lectures">Events</a>
+                    <ul class="level2Menu">
+                        
+                                <li class="">
+                                    <a href="https://royalsociety.org/science-events-and-lectures">Public events</a>
+                                </li>
+                            
+                                <li class="">
+                                    <a href="https://royalsociety.org/science-events-and-lectures/for-scientists">Scientific meetings</a>
+                                </li>
+                            
+                                <li class="">
+                                    <a href="https://royalsociety.org/science-events-and-lectures/you-and-the-planet">You and the planet</a>
+                                </li>
+                            
+                                <li class="">
+                                    <a href="https://royalsociety.org/science-events-and-lectures/2020/summer-science-exhibition">Summer Science Exhibition</a>
+                                </li>
+                            
+                    </ul>
+                </li>
+            
+                <li class="">
+                    <a href="https://royalsociety.org/grants-schemes-awards">Grants, Schemes & Awards</a>
+                    <ul class="level2Menu">
+                        
+                                <li class="">
+                                    <a href="https://royalsociety.org/grants-schemes-awards/grants">Grants</a>
+                                </li>
+                            
+                                <li class="">
+                                    <a href="https://royalsociety.org/grants-schemes-awards/awards">Awards</a>
+                                </li>
+                            
+                                <li class="">
+                                    <a href="https://royalsociety.org/grants-schemes-awards/training-mentoring-partnership-schemes">Training, mentoring and partnership</a>
+                                </li>
+                            
+                                <li class="">
+                                    <a href="https://royalsociety.org/grants-schemes-awards/book-prizes">Book prizes</a>
+                                </li>
+                            
+                                <li class="">
+                                    <a href="https://grants.royalsociety.org/">Flexi-Grant®</a>
+                                </li>
+                            
+                                <li class="">
+                                    <a href="https://royalsociety.org/grants-schemes-awards/global-talent-visa">Global Talent visa</a>
+                                </li>
+                            
+                    </ul>
+                </li>
+            
+                <li class="">
+                    <a href="https://royalsociety.org/topics-policy">Topics & policy</a>
+                    <ul class="level2Menu">
+                        
+                                <li class="">
+                                    <a href="https://royalsociety.org/topics-policy/#topiclisting">All topics</a>
+                                </li>
+                            
+                                <li class="">
+                                    <a href="https://royalsociety.org/topics-policy/projects">All projects</a>
+                                </li>
+                            
+                                <li class="">
+                                    <a href="https://royalsociety.org/topics-policy/publications">All reports & publications</a>
+                                </li>
+                            
+                                <li class="">
+                                    <a href="https://royalsociety.org/topics-policy/projects/brexit-uk-science">Brexit & UK science</a>
+                                </li>
+                            
+                    </ul>
+                </li>
+            
+                <li class="">
+                    <a href="https://royalsociety.org/journals">Journals</a>
+                    <ul class="level2Menu">
+                        
+                                <li class="">
+                                    <a href="https://royalsociety.org/journals/#listing">All journals</a>
+                                </li>
+                            
+                                <li class="">
+                                    <a href="https://royalsociety.org/journals/authors">Authors</a>
+                                </li>
+                            
+                                <li class="">
+                                    <a href="https://royalsociety.org/journals/reviewers">Reviewers</a>
+                                </li>
+                            
+                                <li class="">
+                                    <a href="https://royalsociety.org/journals/librarians">Librarians</a>
+                                </li>
+                            
+                                <li class="">
+                                    <a href="https://royalsociety.org/journals/free-content">Free content</a>
+                                </li>
+                            
+                                <li class="">
+                                    <a href="https://royalsociety.org/journals/ethics-policies">Ethics and policies</a>
+                                </li>
+                            
+                                <li class="">
+                                    <a href="https://royalsociety.org/journals/publishing-metrics">Publishing metrics</a>
+                                </li>
+                            
+                                <li class="">
+                                    <a href="https://royalsociety.org/login/?loginType=journals-access">Fellows' access</a>
+                                </li>
+                            
+                    </ul>
+                </li>
+            
+                <li class="">
+                    <a href="https://royalsociety.org/collections">Collections</a>
+                    <ul class="level2Menu">
+                        
+                                <li class="">
+                                    <a href="https://royalsociety.org/collections/visitors">Visitor information</a>
+                                </li>
+                            
+                                <li class="">
+                                    <a href="https://royalsociety.org/collections/catalogue-search">Search the catalogues</a>
+                                </li>
+                            
+                                <li class="">
+                                    <a href="https://royalsociety.org/collections/digital-resources">Digital resources</a>
+                                </li>
+                            
+                                <li class="">
+                                    <a href="https://prints.royalsociety.org/">Print shop</a>
+                                </li>
+                            
+                                <li class="">
+                                    <a href="https://royalsociety.org/collections/research">Research projects</a>
+                                </li>
+                            
+                    </ul>
+                </li>
+            
+                <li class="">
+                    <a href="https://royalsociety.org/about-us">About us</a>
+                    <ul class="level2Menu">
+                        
+                                <li class="">
+                                    <a href="https://royalsociety.org/about-us/mission-priorities">Mission</a>
+                                </li>
+                            
+                                <li class="">
+                                    <a href="https://royalsociety.org/about-us/history">History</a>
+                                </li>
+                            
+                                <li class="">
+                                    <a href="https://royalsociety.org/about-us/programmes">Programmes</a>
+                                </li>
+                            
+                                <li class="">
+                                    <a href="https://royalsociety.org/about-us/international">International work</a>
+                                </li>
+                            
+                                <li class="">
+                                    <a href="https://royalsociety.org/about-us/funding-finances">Funding & finances</a>
+                                </li>
+                            
+                                <li class="">
+                                    <a href="https://royalsociety.org/about-us/governance">Governance</a>
+                                </li>
+                            
+                                <li class="">
+                                    <a href="https://royalsociety.org/about-us/committees">Committees</a>
+                                </li>
+                            
+                                <li class="">
+                                    <a href="https://royalsociety.org/about-us/Jobs-at-the-Royal-Society">Jobs</a>
+                                </li>
+                            
+                    </ul>
+                </li>
+            
+                <li class="">
+                    <a href="https://royalsociety.org/whats-new">What's new</a>
+                    <ul class="level2Menu">
+                        
+                                <li class="">
+                                    <a href="https://royalsociety.org/blog">Blog</a>
+                                </li>
+                            
+                                <li class="">
+                                    <a href="https://royalsociety.org/search/?collection=website-meta&clive=news&query=">News</a>
+                                </li>
+                            
+                                <li class="">
+                                    <a href="https://royalsociety.org/whats-new/covid-19">COVID-19</a>
+                                </li>
+                            
+                    </ul>
+                </li>
+            
+        
+                <li class="">
+                    <a href="https://royalsociety.org/venue-hire-central-london">Venue hire</a>
+                </li>
+            
+                <li class="">
+                    <a href="https://royalsociety.org/about-us/contact-us">Contact us</a>
+                </li>
+            
+        
+        <li class="">
+            <a href="https://royalsociety.org/login?ReturnUrl=fellows-dashboard"><span class="icon iconKey">
+                Fellow login
+            </span></a>
+        </li>
+        
+    </ul>
+    <div class="crest">
+        <div class="lazyLoad noRatio">
+            <noscript data-src="/-/media/Redesign2015/rs-crest-nav.png" data-alt="The Royal Society crest">
+	<img src="https://royalsociety.org/-/media/Redesign2015/rs-crest-nav.png" alt="The Royal Society crest" />
+</noscript>
+        </div>
+    </div>
+</nav>
+
+
+            </div>
+            <!-- /Page wrap -->
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+            
+                <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.9/angular.min.js"></script>
+            
+            <script src="https://royalsociety.org/bundles/new/bodyJs?v=dUPWm78LeiYZoFznG67WES6RaAzJdOWexo1H_rKLV_k1"></script>
+
+            <script src="https://royalsociety.org/bundles/bodyCustomJs?v=gKKQJ-HS3Z4KR5gezgG9pacUtx1xmEaHe75DLMQU6h41"></script>
+<script src="https://royalsociety.org/bundles/bodyAngularJs?v=0Vl5hGs3ZayXO2iExqzzta9b8TuL7ZUz7OPfmBHYu9Q1"></script>
+  
+            <!--[if lt IE 9]>
+                <script src="/js/Redesign2015/ie8.js"></script>
+	        <![endif]-->
+
+        
+
+<script type="text/javascript">
+//<![CDATA[
+var shareyServices = sharey.services(['facebook','twitter','linkedIn']);shareyConfig.services = shareyServices;sharey.mutateMarkup(shareyConfig);//]]>
+</script>
+</form>        
+    </body>
+
+</html>

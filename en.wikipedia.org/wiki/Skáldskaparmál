@@ -1,0 +1,357 @@
+
+<!DOCTYPE html>
+<html class="client-nojs" lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8"/>
+<title>Skáldskaparmál - Wikipedia</title>
+<script>document.documentElement.className="client-js";RLCONF={"wgBreakFrames":!1,"wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgRequestId":"f0cc1008-d067-4f32-a970-b3b5dae122dc","wgCSPNonce":!1,"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":!1,"wgNamespaceNumber":0,"wgPageName":"Skáldskaparmál","wgTitle":"Skáldskaparmál","wgCurRevisionId":955791880,"wgRevisionId":955791880,"wgArticleId":23713160,"wgIsArticle":!0,"wgIsRedirect":!1,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Articles lacking in-text citations from September 2015","All articles lacking in-text citations","CS1 maint: ref=harv","Sources of Norse mythology","Old Norse prose","Skaldic poetry","Nibelung tradition","Works by Snorri Sturluson"],"wgPageContentLanguage":"en","wgPageContentModel":
+"wikitext","wgRelevantPageName":"Skáldskaparmál","wgRelevantArticleId":23713160,"wgIsProbablyEditable":!0,"wgRelevantPageIsProbablyEditable":!0,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgMediaViewerOnClick":!0,"wgMediaViewerEnabledByDefault":!0,"wgPopupsReferencePreviews":!1,"wgPopupsConflictsWithNavPopupGadget":!1,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en"},"wgMFDisplayWikibaseDescriptions":{"search":!0,"nearby":!0,"watchlist":!0,"tagline":!1},"wgWMESchemaEditAttemptStepOversample":!1,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgWikibaseItemId":"Q178075","wgCentralAuthMobileDomain":!1,"wgEditSubmitButtonLabelPublish":!0};RLSTATE={"ext.globalCssJs.user.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","ext.globalCssJs.user":"ready","user":"ready","user.options":"loading","ext.cite.styles":"ready","jquery.makeCollapsible.styles":"ready",
+"mediawiki.toc.styles":"ready","skins.vector.styles.legacy":"ready","wikibase.client.init":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready"};RLPAGEMODULES=["ext.cite.ux-enhancements","ext.scribunto.logs","site","mediawiki.page.startup","mediawiki.page.ready","jquery.makeCollapsible","mediawiki.toc","skins.vector.legacy.js","ext.gadget.ReferenceTooltips","ext.gadget.charinsert","ext.gadget.extra-toolbar-buttons","ext.gadget.refToolbar","ext.gadget.switcher","ext.centralauth.centralautologin","mmv.head","mmv.bootstrap.autostart","ext.popups","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging","ext.wikimediaEvents","ext.navigationTiming","ext.uls.compactlinks","ext.uls.interface","ext.cx.eventlogging.campaigns","ext.quicksurveys.init","ext.centralNotice.geoIP","ext.centralNotice.startUp"];</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.loader.implement("user.options@1hzgi",function($,jQuery,require,module){/*@nomin*/mw.user.tokens.set({"patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+});});</script>
+<link rel="stylesheet" href="http://en.wikipedia.org/w/load.php?lang=en&amp;modules=ext.cite.styles%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediaBadges%7Cjquery.makeCollapsible.styles%7Cmediawiki.toc.styles%7Cskins.vector.styles.legacy%7Cwikibase.client.init&amp;only=styles&amp;skin=vector"/>
+<script async="" src="http://en.wikipedia.org/w/load.php?lang=en&amp;modules=startup&amp;only=scripts&amp;raw=1&amp;skin=vector"></script>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="http://en.wikipedia.org/w/load.php?lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=vector"/>
+<meta name="generator" content="MediaWiki 1.35.0-wmf.36"/>
+<meta name="referrer" content="origin"/>
+<meta name="referrer" content="origin-when-crossorigin"/>
+<meta name="referrer" content="origin-when-cross-origin"/>
+<meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/e/eb/Loki_and_Sif_by_A_Chase.jpg"/>
+<link rel="alternate" type="application/x-wiki" title="Edit this page" href="http://en.wikipedia.org/w/index.php?title=Sk%C3%A1ldskaparm%C3%A1l&amp;action=edit"/>
+<link rel="edit" title="Edit this page" href="http://en.wikipedia.org/w/index.php?title=Sk%C3%A1ldskaparm%C3%A1l&amp;action=edit"/>
+<link rel="apple-touch-icon" href="http://en.wikipedia.org/static/apple-touch/wikipedia.png"/>
+<link rel="shortcut icon" href="http://en.wikipedia.org/static/favicon/wikipedia.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="http://en.wikipedia.org/w/opensearch_desc.php" title="Wikipedia (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="http://en.wikipedia.org/w/api.php?action=rsd"/>
+<link rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/"/>
+<link rel="alternate" type="application/atom+xml" title="Wikipedia Atom feed" href="http://en.wikipedia.org/w/index.php?title=Special:RecentChanges&amp;feed=atom"/>
+<link rel="canonical" href="https://en.wikipedia.org/wiki/Sk%C3%A1ldskaparm%C3%A1l"/>
+<link rel="dns-prefetch" href="http://login.wikimedia.org/"/>
+<link rel="dns-prefetch" href="http://meta.wikimedia.org/" />
+<!--[if lt IE 9]><script src="/w/resources/lib/html5shiv/html5shiv.js"></script><![endif]-->
+</head>
+<body class="mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject mw-editable page-Skáldskaparmál rootpage-Skáldskaparmál skin-vector action-view skin-vector-legacy">
+<div id="mw-page-base" class="noprint"></div>
+<div id="mw-head-base" class="noprint"></div>
+<div id="content" class="mw-body" role="main">
+	<a id="top"></a>
+		<div id="siteNotice" class="mw-body-content"><!-- CentralNotice --></div>
+	<div class="mw-indicators mw-body-content">
+</div>
+
+	<h1 id="firstHeading" class="firstHeading" lang="en"><i>Skáldskaparmál</i></h1>
+	
+	<div id="bodyContent" class="mw-body-content">
+		<div id="siteSub" class="noprint">From Wikipedia, the free encyclopedia</div>
+		<div id="contentSub"></div>
+		
+		
+		<div id="jump-to-nav"></div>
+		<a class="mw-jump-link" href="Skáldskaparmál#mw-head">Jump to navigation</a>
+		<a class="mw-jump-link" href="Skáldskaparmál#p-search">Jump to search</a>
+		<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><div class="mw-parser-output"><table class="box-More_footnotes plainlinks metadata ambox ambox-style ambox-More_footnotes" role="presentation"><tbody><tr><td class="mbox-image"><div style="width:52px"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Text_document_with_red_question_mark.svg/40px-Text_document_with_red_question_mark.svg.png" decoding="async" width="40" height="40" srcset="http://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Text_document_with_red_question_mark.svg/60px-Text_document_with_red_question_mark.svg.png 1.5x, http://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Text_document_with_red_question_mark.svg/80px-Text_document_with_red_question_mark.svg.png 2x" data-file-width="48" data-file-height="48" /></div></td><td class="mbox-text"><div class="mbox-text-span">This article includes a <a href="./Wikipedia:Citing_sources" title="Wikipedia:Citing sources">list of references</a>, but <b>its sources remain unclear because it has insufficient <a href="./Wikipedia:Citing_sources#Inline_citations" title="Wikipedia:Citing sources">inline citations</a></b>.<span class="hide-when-compact"> Please help to <a href="http://en.wikipedia.org/wiki/Wikipedia:WikiProject_Fact_and_Reference_Check" class="mw-redirect" title="Wikipedia:WikiProject Fact and Reference Check">improve</a> this article by <a href="http://en.wikipedia.org/wiki/Wikipedia:When_to_cite" title="Wikipedia:When to cite">introducing</a> more precise citations.</span>  <small class="date-container"><i>(<span class="date">September 2015</span>)</i></small><small class="hide-when-compact"><i> (<a href="http://en.wikipedia.org/wiki/Help:Maintenance_template_removal" title="Help:Maintenance template removal">Learn how and when to remove this template message</a>)</i></small></div></td></tr></tbody></table>
+<div class="thumb tright"><div class="thumbinner" style="width:252px;"><a href="http://en.wikipedia.org/wiki/File:Loki_and_Sif_by_A_Chase.jpg" class="image"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Loki_and_Sif_by_A_Chase.jpg/250px-Loki_and_Sif_by_A_Chase.jpg" decoding="async" width="250" height="105" class="thumbimage" srcset="http://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Loki_and_Sif_by_A_Chase.jpg/375px-Loki_and_Sif_by_A_Chase.jpg 1.5x, http://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Loki_and_Sif_by_A_Chase.jpg/500px-Loki_and_Sif_by_A_Chase.jpg 2x" data-file-width="786" data-file-height="330" /></a>  <div class="thumbcaption"><div class="magnify"><a href="http://en.wikipedia.org/wiki/File:Loki_and_Sif_by_A_Chase.jpg" class="internal" title="Enlarge"></a></div>Near a wood, the goddess <a href="http://en.wikipedia.org/wiki/Sif" title="Sif">Sif</a> rests her head on a stump while the half-deity <a href="Loki" title="Loki">Loki</a> lurks behind, blade in hand. Loki intends to cut Sif's hair per a myth recounted in <i>Skáldskaparmál</i>.</div></div></div>
+<p><i><b>Skáldskaparmál</b></i> (<a href="Old_Norse" title="Old Norse">Old Norse</a>: 'The Language of Poetry';<sup id="cite_ref-FOOTNOTEOrchard1997149_1-0" class="reference"><a href="Skáldskaparmál#cite_note-FOOTNOTEOrchard1997149-1">&#91;1&#93;</a></sup> c. 50,000 words; <small>Old Norse pronunciation:&#160;</small><span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA"><a href="http://en.wikipedia.org/wiki/Help:IPA" title="Help:IPA">[ˈskaldskaparˌmɒːl]</a></span>; <small>Icelandic pronunciation:&#160;&#8203;</small><span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA"><a href="http://en.wikipedia.org/wiki/Help:IPA/Icelandic" title="Help:IPA/Icelandic">[ˈskaultskaparˌmauːl]</a></span>) is the second part of <a href="Snorri_Sturluson" title="Snorri Sturluson">Snorri Sturluson</a>'s <i><a href="Prose_Edda" title="Prose Edda">Prose Edda</a></i>.
+</p><p>It is a dialogue between <a href="http://en.wikipedia.org/wiki/%C3%86gir" title="Ægir">Ægir</a>, the divine personification of the sea, and <a href="http://en.wikipedia.org/wiki/Bragi" title="Bragi">Bragi</a>, the god of poetry, in which both <a href="Norse_mythology" title="Norse mythology">Norse mythology</a> and discourse on the nature of poetry are intertwined. The origin of a number of <i><a href="http://en.wikipedia.org/wiki/Kenning" title="Kenning">kennings</a></i> is given; then <a href="http://en.wikipedia.org/wiki/Bragi" title="Bragi">Bragi</a> delivers a systematic <a href="http://en.wikipedia.org/wiki/List_of_kennings" title="List of kennings">list of <i>kennings</i></a> for various people, places and things. He then goes on to discuss poetic language in some detail, in particular <i><a href="http://en.wikipedia.org/wiki/Heiti" title="Heiti">heiti</a></i>, the concept of poetical words which are <a href="http://en.wikipedia.org/wiki/Periphrasis" title="Periphrasis">non-periphrastic</a> (like <i>steed</i> for <i>horse</i>), and again systematises these. This in a way forms an early form of poetic <a href="http://en.wikipedia.org/wiki/Thesaurus" title="Thesaurus">thesaurus</a>.
+</p>
+<div id="toc" class="toc" role="navigation" aria-labelledby="mw-toc-heading"><input type="checkbox" role="button" id="toctogglecheckbox" class="toctogglecheckbox" style="display:none" /><div class="toctitle" lang="en" dir="ltr"><h2 id="mw-toc-heading">Contents</h2><span class="toctogglespan"><label class="toctogglelabel" for="toctogglecheckbox"></label></span></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="Skáldskaparmál#References"><span class="tocnumber">1</span> <span class="toctext">References</span></a>
+<ul>
+<li class="toclevel-2 tocsection-2"><a href="Skáldskaparmál#Bibliography"><span class="tocnumber">1.1</span> <span class="toctext">Bibliography</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-3"><a href="Skáldskaparmál#Further_reading"><span class="tocnumber">2</span> <span class="toctext">Further reading</span></a></li>
+<li class="toclevel-1 tocsection-4"><a href="Skáldskaparmál#External_Links"><span class="tocnumber">3</span> <span class="toctext">External Links</span></a></li>
+</ul>
+</div>
+
+<h2><span class="mw-headline" id="References">References</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="http://en.wikipedia.org/w/index.php?title=Sk%C3%A1ldskaparm%C3%A1l&amp;action=edit&amp;section=1" title="Edit section: References">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="reflist" style="list-style-type: decimal;">
+<div class="mw-references-wrap"><ol class="references">
+<li id="cite_note-FOOTNOTEOrchard1997149-1"><span class="mw-cite-backlink"><b><a href="Skáldskaparmál#cite_ref-FOOTNOTEOrchard1997149_1-0">^</a></b></span> <span class="reference-text"><a href="Skáldskaparmál#CITEREFOrchard1997">Orchard 1997</a>, p.&#160;149.</span>
+</li>
+</ol></div></div><div class="reflist" style="list-style-type: decimal;">
+</div>
+<h3><span class="mw-headline" id="Bibliography">Bibliography</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="http://en.wikipedia.org/w/index.php?title=Sk%C3%A1ldskaparm%C3%A1l&amp;action=edit&amp;section=2" title="Edit section: Bibliography">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<ul><li><cite id="CITEREFOrchard1997" class="citation book"><a href="http://en.wikipedia.org/wiki/Andy_Orchard" title="Andy Orchard">Orchard, Andy</a> (1997). <a rel="nofollow" class="external text" href="https://books.google.com/books?id=uIujQgAACAAJ"><i>Dictionary of Norse Myth and Legend</i></a>. Cassell. <a href="http://en.wikipedia.org/wiki/ISBN_(identifier)" class="mw-redirect" title="ISBN (identifier)">ISBN</a>&#160;<a href="http://en.wikipedia.org/wiki/Special:BookSources/978-0-304-34520-5" title="Special:BookSources/978-0-304-34520-5"><bdi>978-0-304-34520-5</bdi></a>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Dictionary+of+Norse+Myth+and+Legend&amp;rft.pub=Cassell&amp;rft.date=1997&amp;rft.isbn=978-0-304-34520-5&amp;rft.aulast=Orchard&amp;rft.aufirst=Andy&amp;rft_id=https%3A%2F%2Fbooks.google.com%2Fbooks%3Fid%3DuIujQgAACAAJ&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ASk%C3%A1ldskaparm%C3%A1l" class="Z3988"></span><span class="cs1-maint citation-comment">CS1 maint: ref=harv (<a href="http://en.wikipedia.org/wiki/Category:CS1_maint:_ref%3Dharv" title="Category:CS1 maint: ref=harv">link</a>)</span><style data-mw-deduplicate="TemplateStyles:r951705291">.mw-parser-output cite.citation{font-style:inherit}.mw-parser-output .citation q{quotes:"\"""\"""'""'"}.mw-parser-output .id-lock-free a,.mw-parser-output .citation .cs1-lock-free a{background-image:url("http://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Lock-green.svg/9px-Lock-green.svg.png");background-image:linear-gradient(transparent,transparent),url("http://upload.wikimedia.org/wikipedia/commons/6/65/Lock-green.svg");background-repeat:no-repeat;background-size:9px;background-position:right .1em center}.mw-parser-output .id-lock-limited a,.mw-parser-output .id-lock-registration a,.mw-parser-output .citation .cs1-lock-limited a,.mw-parser-output .citation .cs1-lock-registration a{background-image:url("http://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Lock-gray-alt-2.svg/9px-Lock-gray-alt-2.svg.png");background-image:linear-gradient(transparent,transparent),url("http://upload.wikimedia.org/wikipedia/commons/d/d6/Lock-gray-alt-2.svg");background-repeat:no-repeat;background-size:9px;background-position:right .1em center}.mw-parser-output .id-lock-subscription a,.mw-parser-output .citation .cs1-lock-subscription a{background-image:url("http://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Lock-red-alt-2.svg/9px-Lock-red-alt-2.svg.png");background-image:linear-gradient(transparent,transparent),url("http://upload.wikimedia.org/wikipedia/commons/a/aa/Lock-red-alt-2.svg");background-repeat:no-repeat;background-size:9px;background-position:right .1em center}.mw-parser-output .cs1-subscription,.mw-parser-output .cs1-registration{color:#555}.mw-parser-output .cs1-subscription span,.mw-parser-output .cs1-registration span{border-bottom:1px dotted;cursor:help}.mw-parser-output .cs1-ws-icon a{background-image:url("http://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Wikisource-logo.svg/12px-Wikisource-logo.svg.png");background-image:linear-gradient(transparent,transparent),url("http://upload.wikimedia.org/wikipedia/commons/4/4c/Wikisource-logo.svg");background-repeat:no-repeat;background-size:12px;background-position:right .1em center}.mw-parser-output code.cs1-code{color:inherit;background:inherit;border:inherit;padding:inherit}.mw-parser-output .cs1-hidden-error{display:none;font-size:100%}.mw-parser-output .cs1-visible-error{font-size:100%}.mw-parser-output .cs1-maint{display:none;color:#33aa33;margin-left:0.3em}.mw-parser-output .cs1-subscription,.mw-parser-output .cs1-registration,.mw-parser-output .cs1-format{font-size:95%}.mw-parser-output .cs1-kern-left,.mw-parser-output .cs1-kern-wl-left{padding-left:0.2em}.mw-parser-output .cs1-kern-right,.mw-parser-output .cs1-kern-wl-right{padding-right:0.2em}.mw-parser-output .citation .mw-selflink{font-weight:inherit}</style></li></ul>
+<h2><span class="mw-headline" id="Further_reading">Further reading</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="http://en.wikipedia.org/w/index.php?title=Sk%C3%A1ldskaparm%C3%A1l&amp;action=edit&amp;section=3" title="Edit section: Further reading">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul><li>Anthony Faulkes, <a rel="nofollow" class="external text" href="http://www.vsnrweb-publications.org.uk/Sources-of-Skaldskaparmal.pdf">"The sources of <i>Skáldskaparmál</i>: Snorri’s intellectual background"</a>, in: Alois Wolf (ed.), <i>Snorri Sturluson</i>, Volume 51 of ScriptOralia, Gunter Narr Verlag (1993), 59&#8211;76.</li></ul>
+<h2><span class="mw-headline" id="External_Links">External Links</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="http://en.wikipedia.org/w/index.php?title=Sk%C3%A1ldskaparm%C3%A1l&amp;action=edit&amp;section=4" title="Edit section: External Links">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<dl><dt>Editions</dt></dl>
+<ul><li>Sveinbjörn Egilsson (ed.) <i>Edda Snorra Sturlusonar:: eða Gylfaginníng, Skáldskaparmál og Háttatal</i> (1848), <a rel="nofollow" class="external text" href="https://archive.org/stream/eddasnorrasturl00egilgoog#page/n56/mode/2up">45</a>&#8211;143.</li>
+<li><a href="http://en.wikipedia.org/wiki/Gu%C3%B0ni_J%C3%B3nsson" title="Guðni Jónsson">Guðni Jónsson</a> (ed.), <i>Eddukvaeði</i>,Íslendingasagnaútgáfan  (1954) (<a rel="nofollow" class="external text" href="http://www.heimskringla.no/wiki/Skáldskaparmál">heimskringla.no</a>)</li>
+<li>Anthony Faulkes (ed.), <i>Edda; Skáldskaparmál</i>, 2 volumes: vol. 1: <i><a rel="nofollow" class="external text" href="http://www.vsnrweb-publications.org.uk/Edda-2a.pdf">Introduction, Text and Notes</a></i>, vol. 2: <i><a rel="nofollow" class="external text" href="http://www.vsnrweb-publications.org.uk/Edda-2b.pdf">Glossary and Index of Names</a></i>, London (1998; 2007).</li></ul>
+<dl><dt>Translations</dt></dl>
+<table role="presentation" class="mbox-small plainlinks sistersitebox" style="background-color:#f9f9f9;border:1px solid #aaa;color:#000">
+<tbody><tr>
+<td class="mbox-image"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Wikisource-logo.svg/38px-Wikisource-logo.svg.png" decoding="async" width="38" height="40" class="noviewer" srcset="http://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Wikisource-logo.svg/57px-Wikisource-logo.svg.png 1.5x, http://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Wikisource-logo.svg/76px-Wikisource-logo.svg.png 2x" data-file-width="410" data-file-height="430" /></td>
+<td class="mbox-text plainlist"><a href="http://en.wikipedia.org/wiki/Wikisource" title="Wikisource">Wikisource</a> has original text related to this article:
+<div style="margin-left: 10px;"><b><a href="https://en.wikisource.org/wiki/Prose_Edda/Sk%C3%A1ldskaparm%C3%A1l" class="extiw" title="wikisource:Prose Edda/Skáldskaparmál">Skáldskaparmál (trans. Anderson 1916)</a></b></div></td></tr>
+</tbody></table>
+<ul><li><a href="http://en.wikipedia.org/wiki/Rasmus_Bj%C3%B6rn_Anderson" class="mw-redirect" title="Rasmus Björn Anderson">Rasmus Björn Anderson</a> (trans.) (1872) (<a rel="nofollow" class="external text" href="http://www.germanicmythology.com/ProseEdda/ANDERSONSkaldskaparmal.html">germanicmythology.com</a>)</li>
+<li><a href="http://en.wikipedia.org/wiki/Arthur_Gilchrist_Brodeur" title="Arthur Gilchrist Brodeur">Arthur Gilchrist Brodeur</a> (trans.) (1916) (<a rel="nofollow" class="external text" href="http://www.germanicmythology.com/ProseEdda/BRODEURSkaldskaparmal.html">germanicmythology.com</a>)</li></ul>
+<p><br />
+</p>
+<div role="navigation" class="navbox" aria-labelledby="The_Prose_Edda" style="padding:3px"><table class="nowraplinks mw-collapsible autocollapse navbox-inner" style="border-spacing:0;background:transparent;color:inherit"><tbody><tr><th scope="col" class="navbox-title" colspan="2" style="background:#e7e7e7"><div class="plainlinks hlist navbar mini"><ul><li class="nv-view"><a href="http://en.wikipedia.org/wiki/Template:Prose_Edda" title="Template:Prose Edda"><abbr title="View this template" style="background:#e7e7e7;;background:none transparent;border:none;-moz-box-shadow:none;-webkit-box-shadow:none;box-shadow:none; padding:0;">v</abbr></a></li><li class="nv-talk"><a href="http://en.wikipedia.org/wiki/Template_talk:Prose_Edda" title="Template talk:Prose Edda"><abbr title="Discuss this template" style="background:#e7e7e7;;background:none transparent;border:none;-moz-box-shadow:none;-webkit-box-shadow:none;box-shadow:none; padding:0;">t</abbr></a></li><li class="nv-edit"><a class="external text" href="https://en.wikipedia.org/w/index.php?title=Template:Prose_Edda&amp;action=edit"><abbr title="Edit this template" style="background:#e7e7e7;;background:none transparent;border:none;-moz-box-shadow:none;-webkit-box-shadow:none;box-shadow:none; padding:0;">e</abbr></a></li></ul></div><div id="The_Prose_Edda" style="font-size:114%;margin:0 4em">The <i><a href="Prose_Edda" title="Prose Edda">Prose Edda</a></i></div></th></tr><tr><th scope="row" class="navbox-group" style="background:#e7e7e7;width:1%">Books</th><td class="navbox-list navbox-odd hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="http://en.wikipedia.org/wiki/Prologue_(Prose_Edda)" title="Prologue (Prose Edda)">Prologue</a></li>
+<li><i><a href="Gylfaginning" title="Gylfaginning">Gylfaginning</a></i>
+<ul><li><i><a href="http://en.wikipedia.org/wiki/Heimdalargaldr" title="Heimdalargaldr">Heimdalargaldr</a></i></li></ul></li>
+<li><i><a class="mw-selflink selflink">Skáldskaparmál</a></i>
+<ul><li><i><a href="http://en.wikipedia.org/wiki/Bjarkam%C3%A1l" title="Bjarkamál">Bjarkamál</a></i></li>
+<li><i><a href="http://en.wikipedia.org/wiki/Haustl%C3%B6ng" title="Haustlöng">Haustlöng</a></i></li>
+<li><i><a href="http://en.wikipedia.org/wiki/%C3%9E%C3%B3rsdr%C3%A1pa" title="Þórsdrápa">Þórsdrápa</a></i></li>
+<li><i><a href="http://en.wikipedia.org/wiki/Ragnarsdr%C3%A1pa" title="Ragnarsdrápa">Ragnarsdrápa</a></i></li>
+<li><i><a href="http://en.wikipedia.org/wiki/H%C3%BAsdr%C3%A1pa" title="Húsdrápa">Húsdrápa</a></i></li>
+<li><i><a href="Nafnaþulur" title="Nafnaþulur">Nafnaþulur</a></i></li></ul></li>
+<li><i><a href="http://en.wikipedia.org/wiki/H%C3%A1ttatal" title="Háttatal">Háttatal</a></i></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="background:#e7e7e7;width:1%">See also</th><td class="navbox-list navbox-even hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><i><a href="Poetic_Edda" title="Poetic Edda">Poetic Edda</a></i></li>
+<li><a href="Skald" title="Skald">Skald</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Lauf%C3%A1s-Edda" title="Laufás-Edda">Laufás-Edda</a></li></ul>
+</div></td></tr></tbody></table></div>
+<!-- 
+NewPP limit report
+Parsed by mw1395
+Cached time: 20200616133942
+Cache expiry: 2592000
+Dynamic content: false
+Complications: [vary‐revision‐sha1]
+CPU time usage: 0.176 seconds
+Real time usage: 0.267 seconds
+Preprocessor visited node count: 541/1000000
+Post‐expand include size: 16088/2097152 bytes
+Template argument size: 744/2097152 bytes
+Highest expansion depth: 13/40
+Expensive parser function count: 1/500
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 3230/5000000 bytes
+Number of Wikibase entities loaded: 0/400
+Lua time usage: 0.095/10.000 seconds
+Lua memory usage: 3.15 MB/50 MB
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%  236.163      1 -total
+ 34.14%   80.626      1 Template:More_footnotes
+ 31.45%   74.284      1 Template:Cite_book
+ 19.64%   46.392      1 Template:Ambox
+ 10.84%   25.598      1 Template:Sfn
+  8.15%   19.255      1 Template:Prose_Edda
+  7.18%   16.959      1 Template:Navbox
+  4.48%   10.585      1 Template:Wikisource
+  3.60%    8.491      1 Template:Sister_project
+  3.48%    8.209      2 Template:Reflist
+-->
+
+<!-- Saved in parser cache with key enwiki:pcache:idhash:23713160-0!canonical and timestamp 20200616133942 and revision id 955791880
+ -->
+</div><noscript><img src="http://en.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" alt="" title="" width="1" height="1" style="border: none; position: absolute;" /></noscript></div>
+		<div class="printfooter">Retrieved from "<a dir="ltr" href="https://en.wikipedia.org/w/index.php?title=Skáldskaparmál&amp;oldid=955791880">https://en.wikipedia.org/w/index.php?title=Skáldskaparmál&amp;oldid=955791880</a>"</div>
+		<div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="http://en.wikipedia.org/wiki/Help:Category" title="Help:Category">Categories</a>: <ul><li><a href="http://en.wikipedia.org/wiki/Category:Sources_of_Norse_mythology" title="Category:Sources of Norse mythology">Sources of Norse mythology</a></li><li><a href="http://en.wikipedia.org/wiki/Category:Old_Norse_prose" title="Category:Old Norse prose">Old Norse prose</a></li><li><a href="http://en.wikipedia.org/wiki/Category:Skaldic_poetry" title="Category:Skaldic poetry">Skaldic poetry</a></li><li><a href="http://en.wikipedia.org/wiki/Category:Nibelung_tradition" title="Category:Nibelung tradition">Nibelung tradition</a></li><li><a href="http://en.wikipedia.org/wiki/Category:Works_by_Snorri_Sturluson" title="Category:Works by Snorri Sturluson">Works by Snorri Sturluson</a></li></ul></div><div id="mw-hidden-catlinks" class="mw-hidden-catlinks mw-hidden-cats-hidden">Hidden categories: <ul><li><a href="http://en.wikipedia.org/wiki/Category:Articles_lacking_in-text_citations_from_September_2015" title="Category:Articles lacking in-text citations from September 2015">Articles lacking in-text citations from September 2015</a></li><li><a href="http://en.wikipedia.org/wiki/Category:All_articles_lacking_in-text_citations" title="Category:All articles lacking in-text citations">All articles lacking in-text citations</a></li><li><a href="http://en.wikipedia.org/wiki/Category:CS1_maint:_ref%3Dharv" title="Category:CS1 maint: ref=harv">CS1 maint: ref=harv</a></li></ul></div></div>
+		<div class="visualClear"></div>
+		
+	</div>
+</div>
+<div id='mw-data-after-content'>
+	<div class="read-more-container"></div>
+</div>
+
+<div id="mw-navigation">
+	<h2>Navigation menu</h2>
+	<div id="mw-head">
+		<div id="p-personal" class="vector-menu" aria-labelledby="p-personal-label" 
+	 >
+	<h3 id="p-personal-label">
+		<span>Personal tools</span>
+	</h3>
+	<!-- Please do not use the .body class, it is deprecated. -->
+	<div class="body vector-menu-content">
+		<!-- Please do not use the .menu class, it is deprecated. -->
+		<ul class="vector-menu-content-list"><li id="pt-anonuserpage">Not logged in</li><li id="pt-anontalk"><a href="http://en.wikipedia.org/wiki/Special:MyTalk" title="Discussion about edits from this IP address [n]" accesskey="n">Talk</a></li><li id="pt-anoncontribs"><a href="http://en.wikipedia.org/wiki/Special:MyContributions" title="A list of edits made from this IP address [y]" accesskey="y">Contributions</a></li><li id="pt-createaccount"><a href="http://en.wikipedia.org/w/index.php?title=Special:CreateAccount&amp;returnto=Sk%C3%A1ldskaparm%C3%A1l" title="You are encouraged to create an account and log in; however, it is not mandatory">Create account</a></li><li id="pt-login"><a href="http://en.wikipedia.org/w/index.php?title=Special:UserLogin&amp;returnto=Sk%C3%A1ldskaparm%C3%A1l" title="You&#039;re encouraged to log in; however, it&#039;s not mandatory. [o]" accesskey="o">Log in</a></li></ul>
+		
+	</div>
+</div>
+
+
+		<div id="left-navigation">
+			<div id="p-namespaces" class="vector-menu vector-menu-tabs vectorTabs" aria-labelledby="p-namespaces-label" 
+	 >
+	<h3 id="p-namespaces-label">
+		<span>Namespaces</span>
+	</h3>
+	<!-- Please do not use the .body class, it is deprecated. -->
+	<div class="body vector-menu-content">
+		<!-- Please do not use the .menu class, it is deprecated. -->
+		<ul class="vector-menu-content-list"><li id="ca-nstab-main" class="selected"><a href="Skáldskaparmál" title="View the content page [c]" accesskey="c">Article</a></li><li id="ca-talk"><a href="http://en.wikipedia.org/wiki/Talk:Sk%C3%A1ldskaparm%C3%A1l" rel="discussion" title="Discuss improvements to the content page [t]" accesskey="t">Talk</a></li></ul>
+		
+	</div>
+</div>
+
+
+			<div id="p-variants" class="vector-menu-empty emptyPortlet vector-menu vector-menu-dropdown vectorMenu" aria-labelledby="p-variants-label" 
+	 >
+	<input type="checkbox" class="vectorMenuCheckbox vector-menu-checkbox" aria-labelledby="p-variants-label" />
+	<h3 id="p-variants-label">
+		<span>Variants</span>
+	</h3>
+	<!-- Please do not use the .body class, it is deprecated. -->
+	<div class="body vector-menu-content">
+		<!-- Please do not use the .menu class, it is deprecated. -->
+		<ul class="menu vector-menu-content-list"></ul>
+		
+	</div>
+</div>
+
+
+		</div>
+		<div id="right-navigation">
+			<div id="p-views" class="vector-menu vector-menu-tabs vectorTabs" aria-labelledby="p-views-label" 
+	 >
+	<h3 id="p-views-label">
+		<span>Views</span>
+	</h3>
+	<!-- Please do not use the .body class, it is deprecated. -->
+	<div class="body vector-menu-content">
+		<!-- Please do not use the .menu class, it is deprecated. -->
+		<ul class="vector-menu-content-list"><li id="ca-view" class="collapsible selected"><a href="Skáldskaparmál">Read</a></li><li id="ca-edit" class="collapsible"><a href="http://en.wikipedia.org/w/index.php?title=Sk%C3%A1ldskaparm%C3%A1l&amp;action=edit" title="Edit this page [e]" accesskey="e">Edit</a></li><li id="ca-history" class="collapsible"><a href="http://en.wikipedia.org/w/index.php?title=Sk%C3%A1ldskaparm%C3%A1l&amp;action=history" title="Past revisions of this page [h]" accesskey="h">View history</a></li></ul>
+		
+	</div>
+</div>
+
+
+			<div id="p-cactions" class="vector-menu-empty emptyPortlet vector-menu vector-menu-dropdown vectorMenu" aria-labelledby="p-cactions-label" 
+	 >
+	<input type="checkbox" class="vectorMenuCheckbox vector-menu-checkbox" aria-labelledby="p-cactions-label" />
+	<h3 id="p-cactions-label">
+		<span>More</span>
+	</h3>
+	<!-- Please do not use the .body class, it is deprecated. -->
+	<div class="body vector-menu-content">
+		<!-- Please do not use the .menu class, it is deprecated. -->
+		<ul class="menu vector-menu-content-list"></ul>
+		
+	</div>
+</div>
+
+
+			<div id="p-search" role="search">
+	<h3 >
+		<label for="searchInput">Search</label>
+	</h3>
+	<form action="http://en.wikipedia.org/w/index.php" id="searchform">
+		<div id="simpleSearch">
+			<input type="search" name="search" placeholder="Search Wikipedia" title="Search Wikipedia [f]" accesskey="f" id="searchInput"/>
+			<input type="hidden" name="title" value="Special:Search">
+			<input type="submit" name="fulltext" value="Search" title="Search Wikipedia for this text" id="mw-searchButton" class="searchButton mw-fallbackSearchButton"/>
+			<input type="submit" name="go" value="Go" title="Go to a page with this exact name if it exists" id="searchButton" class="searchButton"/>
+		</div>
+	</form>
+</div>
+
+		</div>
+	</div>
+	
+<div id="mw-panel">
+	<div id="p-logo" role="banner">
+		<a  title="Visit the main page" class="mw-wiki-logo" href="http://en.wikipedia.org/wiki/Main_Page"></a>
+	</div>
+	<div id="p-navigation" class="vector-menu vector-menu-portal portal portal-first" aria-labelledby="p-navigation-label" 
+	 >
+	<h3 id="p-navigation-label">
+		<span>Navigation</span>
+	</h3>
+	<!-- Please do not use the .body class, it is deprecated. -->
+	<div class="body vector-menu-content">
+		<!-- Please do not use the .menu class, it is deprecated. -->
+		<ul class="vector-menu-content-list"><li id="n-mainpage-description"><a href="http://en.wikipedia.org/wiki/Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li><li id="n-contents"><a href="http://en.wikipedia.org/wiki/Wikipedia:Contents" title="Guides to browsing Wikipedia">Contents</a></li><li id="n-currentevents"><a href="http://en.wikipedia.org/wiki/Portal:Current_events" title="Find background information on current events">Current events</a></li><li id="n-randompage"><a href="http://en.wikipedia.org/wiki/Special:Random" title="Visit a randomly selected article [x]" accesskey="x">Random article</a></li><li id="n-aboutsite"><a href="http://en.wikipedia.org/wiki/Wikipedia:About" title="Learn about Wikipedia and how it works">About Wikipedia</a></li><li id="n-contactpage"><a href="http://en.wikipedia.org/wiki/Wikipedia:Contact_us" title="How to contact Wikipedia">Contact us</a></li><li id="n-sitesupport"><a href="https://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=C13_en.wikipedia.org&amp;uselang=en" title="Support us by donating to the Wikimedia Foundation">Donate</a></li><li id="n-shoplink"><a href="http://shop.wikimedia.org/" title="Visit the Wikipedia store">Wikipedia store</a></li></ul>
+		
+	</div>
+</div>
+
+
+	<div id="p-interaction" class="vector-menu vector-menu-portal portal" aria-labelledby="p-interaction-label" 
+	 >
+	<h3 id="p-interaction-label">
+		<span>Contribute</span>
+	</h3>
+	<!-- Please do not use the .body class, it is deprecated. -->
+	<div class="body vector-menu-content">
+		<!-- Please do not use the .menu class, it is deprecated. -->
+		<ul class="vector-menu-content-list"><li id="n-help"><a href="http://en.wikipedia.org/wiki/Help:Contents" title="Guidance on how to use and edit Wikipedia">Help</a></li><li id="n-portal"><a href="http://en.wikipedia.org/wiki/Wikipedia:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li><li id="n-recentchanges"><a href="http://en.wikipedia.org/wiki/Special:RecentChanges" title="A list of recent changes to Wikipedia [r]" accesskey="r">Recent changes</a></li><li id="n-upload"><a href="http://en.wikipedia.org/wiki/Wikipedia:File_Upload_Wizard" title="Add images or other media for use on Wikipedia">Upload file</a></li></ul>
+		
+	</div>
+</div>
+
+<div id="p-tb" class="vector-menu vector-menu-portal portal" aria-labelledby="p-tb-label" 
+	 >
+	<h3 id="p-tb-label">
+		<span>Tools</span>
+	</h3>
+	<!-- Please do not use the .body class, it is deprecated. -->
+	<div class="body vector-menu-content">
+		<!-- Please do not use the .menu class, it is deprecated. -->
+		<ul class="vector-menu-content-list"><li id="t-whatlinkshere"><a href="http://en.wikipedia.org/wiki/Special:WhatLinksHere/Sk%C3%A1ldskaparm%C3%A1l" title="List of all English Wikipedia pages containing links to this page [j]" accesskey="j">What links here</a></li><li id="t-recentchangeslinked"><a href="http://en.wikipedia.org/wiki/Special:RecentChangesLinked/Sk%C3%A1ldskaparm%C3%A1l" rel="nofollow" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li><li id="t-upload"><a href="http://en.wikipedia.org/wiki/Wikipedia:File_Upload_Wizard" title="Upload files [u]" accesskey="u">Upload file</a></li><li id="t-specialpages"><a href="http://en.wikipedia.org/wiki/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li><li id="t-permalink"><a href="http://en.wikipedia.org/w/index.php?title=Sk%C3%A1ldskaparm%C3%A1l&amp;oldid=955791880" title="Permanent link to this revision of this page">Permanent link</a></li><li id="t-info"><a href="http://en.wikipedia.org/w/index.php?title=Sk%C3%A1ldskaparm%C3%A1l&amp;action=info" title="More information about this page">Page information</a></li><li id="t-wikibase"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q178075" title="Structured data on this page hosted by Wikidata [g]" accesskey="g">Wikidata item</a></li><li id="t-cite"><a href="http://en.wikipedia.org/w/index.php?title=Special:CiteThisPage&amp;page=Sk%C3%A1ldskaparm%C3%A1l&amp;id=955791880&amp;wpFormIdentifier=titleform" title="Information on how to cite this page">Cite this page</a></li></ul>
+		
+	</div>
+</div>
+
+<div id="p-lang" class="vector-menu vector-menu-portal portal" aria-labelledby="p-lang-label" 
+	 >
+	<h3 id="p-lang-label">
+		<span>Languages</span>
+	</h3>
+	<!-- Please do not use the .body class, it is deprecated. -->
+	<div class="body vector-menu-content">
+		<!-- Please do not use the .menu class, it is deprecated. -->
+		<ul class="vector-menu-content-list"><li class="interlanguage-link interwiki-bg"><a href="https://bg.wikipedia.org/wiki/%D0%A1%D0%BA%D0%B0%D0%BB%D0%B4%D1%81%D0%BA%D0%B0%D0%BF%D0%B0%D1%80%D0%BC%D0%B0%D0%BB" title="Скалдскапармал – Bulgarian" lang="bg" hreflang="bg" class="interlanguage-link-target">Български</a></li><li class="interlanguage-link interwiki-da"><a href="https://da.wikipedia.org/wiki/Sk%C3%A1ldskaparm%C3%A1l" title="Skáldskaparmál – Danish" lang="da" hreflang="da" class="interlanguage-link-target">Dansk</a></li><li class="interlanguage-link interwiki-de"><a href="https://de.wikipedia.org/wiki/Sk%C3%A1ldskaparm%C3%A1l" title="Skáldskaparmál – German" lang="de" hreflang="de" class="interlanguage-link-target">Deutsch</a></li><li class="interlanguage-link interwiki-es"><a href="https://es.wikipedia.org/wiki/Sk%C3%A1ldskaparm%C3%A1l" title="Skáldskaparmál – Spanish" lang="es" hreflang="es" class="interlanguage-link-target">Español</a></li><li class="interlanguage-link interwiki-eo"><a href="https://eo.wikipedia.org/wiki/Sk%C3%A1ldskaparm%C3%A1l" title="Skáldskaparmál – Esperanto" lang="eo" hreflang="eo" class="interlanguage-link-target">Esperanto</a></li><li class="interlanguage-link interwiki-fa"><a href="https://fa.wikipedia.org/wiki/%D8%A7%D8%B3%DA%A9%D8%A7%D9%84%D8%AF%D8%B2%DA%A9%D8%A7%D9%BE%D8%A7%D8%B1%D9%85%D8%A7%D9%84" title="اسکالدزکاپارمال – Persian" lang="fa" hreflang="fa" class="interlanguage-link-target">فارسی</a></li><li class="interlanguage-link interwiki-fr"><a href="https://fr.wikipedia.org/wiki/Sk%C3%A1ldskaparm%C3%A1l" title="Skáldskaparmál – French" lang="fr" hreflang="fr" class="interlanguage-link-target">Français</a></li><li class="interlanguage-link interwiki-ko"><a href="https://ko.wikipedia.org/wiki/%EC%8B%9C%EC%96%B4%EB%B2%95" title="시어법 – Korean" lang="ko" hreflang="ko" class="interlanguage-link-target">한국어</a></li><li class="interlanguage-link interwiki-it"><a href="https://it.wikipedia.org/wiki/Sk%C3%A1ldskaparm%C3%A1l" title="Skáldskaparmál – Italian" lang="it" hreflang="it" class="interlanguage-link-target">Italiano</a></li><li class="interlanguage-link interwiki-nl"><a href="https://nl.wikipedia.org/wiki/Sk%C3%A1ldskaparm%C3%A1l" title="Skáldskaparmál – Dutch" lang="nl" hreflang="nl" class="interlanguage-link-target">Nederlands</a></li><li class="interlanguage-link interwiki-ja"><a href="https://ja.wikipedia.org/wiki/%E8%A9%A9%E8%AA%9E%E6%B3%95" title="詩語法 – Japanese" lang="ja" hreflang="ja" class="interlanguage-link-target">日本語</a></li><li class="interlanguage-link interwiki-no"><a href="https://no.wikipedia.org/wiki/Skaldskaparm%C3%A5l" title="Skaldskaparmål – Norwegian Bokmål" lang="nb" hreflang="nb" class="interlanguage-link-target">Norsk bokmål</a></li><li class="interlanguage-link interwiki-pt"><a href="https://pt.wikipedia.org/wiki/Sk%C3%A1ldskaparm%C3%A1l" title="Skáldskaparmál – Portuguese" lang="pt" hreflang="pt" class="interlanguage-link-target">Português</a></li><li class="interlanguage-link interwiki-ru"><a href="https://ru.wikipedia.org/wiki/%D0%AF%D0%B7%D1%8B%D0%BA_%D0%BF%D0%BE%D1%8D%D0%B7%D0%B8%D0%B8" title="Язык поэзии – Russian" lang="ru" hreflang="ru" class="interlanguage-link-target">Русский</a></li><li class="interlanguage-link interwiki-sv"><a href="https://sv.wikipedia.org/wiki/Skaldskapens_spr%C3%A5k" title="Skaldskapens språk – Swedish" lang="sv" hreflang="sv" class="interlanguage-link-target">Svenska</a></li><li class="interlanguage-link interwiki-uk"><a href="https://uk.wikipedia.org/wiki/%D0%9C%D0%BE%D0%B2%D0%B0_%D0%BF%D0%BE%D0%B5%D0%B7%D1%96%D1%97" title="Мова поезії – Ukrainian" lang="uk" hreflang="uk" class="interlanguage-link-target">Українська</a></li></ul>
+		<div class="after-portlet after-portlet-lang"><span class="wb-langlinks-edit wb-langlinks-link"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q178075#sitelinks-wikipedia" title="Edit interlanguage links" class="wbc-editpage">Edit links</a></span></div>
+	</div>
+</div>
+
+<div id="p-coll-print_export" class="vector-menu vector-menu-portal portal" aria-labelledby="p-coll-print_export-label" 
+	 >
+	<h3 id="p-coll-print_export-label">
+		<span>Print/export</span>
+	</h3>
+	<!-- Please do not use the .body class, it is deprecated. -->
+	<div class="body vector-menu-content">
+		<!-- Please do not use the .menu class, it is deprecated. -->
+		<ul class="vector-menu-content-list"><li id="coll-download-as-rl"><a href="http://en.wikipedia.org/w/index.php?title=Special:ElectronPdf&amp;page=Sk%C3%A1ldskaparm%C3%A1l&amp;action=show-download-screen" title="Download this page as a PDF file">Download as PDF</a></li><li id="t-print"><a href="http://en.wikipedia.org/w/index.php?title=Sk%C3%A1ldskaparm%C3%A1l&amp;printable=yes" title="Printable version of this page [p]" accesskey="p">Printable version</a></li></ul>
+		
+	</div>
+</div>
+
+
+</div>
+
+</div>
+
+<div id="footer" class="mw-footer" role="contentinfo" >
+	<ul id="footer-info" >
+		<li id="footer-info-lastmod"> This page was last edited on 9 May 2020, at 20:54<span class="anonymous-show">&#160;(UTC)</span>.</li>
+		<li id="footer-info-copyright">Text is available under the <a rel="license" href="http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License">Creative Commons Attribution-ShareAlike License</a><a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/" style="display:none;"></a>;
+additional terms may apply.  By using this site, you agree to the <a href="http://foundation.wikimedia.org/wiki/Terms_of_Use">Terms of Use</a> and <a href="http://foundation.wikimedia.org/wiki/Privacy_policy">Privacy Policy</a>. Wikipedia® is a registered trademark of the <a href="http://www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.</li>
+	</ul>
+	<ul id="footer-places" >
+		<li id="footer-places-privacy"><a href="https://foundation.wikimedia.org/wiki/Privacy_policy" class="extiw" title="wmf:Privacy policy">Privacy policy</a></li>
+		<li id="footer-places-about"><a href="http://en.wikipedia.org/wiki/Wikipedia:About" title="Wikipedia:About">About Wikipedia</a></li>
+		<li id="footer-places-disclaimer"><a href="http://en.wikipedia.org/wiki/Wikipedia:General_disclaimer" title="Wikipedia:General disclaimer">Disclaimers</a></li>
+		<li id="footer-places-contact"><a href="http://en.wikipedia.org/wiki/Wikipedia:Contact_us">Contact Wikipedia</a></li>
+		<li id="footer-places-developers"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/How_to_contribute">Developers</a></li>
+		<li id="footer-places-statslink"><a href="https://stats.wikimedia.org/#/en.wikipedia.org">Statistics</a></li>
+		<li id="footer-places-cookiestatement"><a href="https://foundation.wikimedia.org/wiki/Cookie_statement">Cookie statement</a></li>
+		<li id="footer-places-mobileview"><a href="http://en.m.wikipedia.org/w/index.php?title=Sk%C3%A1ldskaparm%C3%A1l&amp;mobileaction=toggle_view_mobile" class="noprint stopMobileRedirectToggle">Mobile view</a></li>
+	</ul>
+	<ul id="footer-icons" class="noprint">
+		<li id="footer-copyrightico"><a href="https://wikimediafoundation.org/"><img src="http://en.wikipedia.org/static/images/wikimedia-button.png" srcset="http://en.wikipedia.org/static/images/wikimedia-button-1.5x.png 1.5x, http://en.wikipedia.org/static/images/wikimedia-button-2x.png 2x" width="88" height="31" alt="Wikimedia Foundation" loading="lazy" /></a></li>
+		<li id="footer-poweredbyico"><a href="https://www.mediawiki.org/"><img src="http://en.wikipedia.org/static/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" srcset="http://en.wikipedia.org/static/images/poweredby_mediawiki_132x47.png 1.5x, http://en.wikipedia.org/static/images/poweredby_mediawiki_176x62.png 2x" width="88" height="31"/></a></li>
+	</ul>
+	<div style="clear: both;"></div>
+</div>
+
+
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.176","walltime":"0.267","ppvisitednodes":{"value":541,"limit":1000000},"postexpandincludesize":{"value":16088,"limit":2097152},"templateargumentsize":{"value":744,"limit":2097152},"expansiondepth":{"value":13,"limit":40},"expensivefunctioncount":{"value":1,"limit":500},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":3230,"limit":5000000},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%  236.163      1 -total"," 34.14%   80.626      1 Template:More_footnotes"," 31.45%   74.284      1 Template:Cite_book"," 19.64%   46.392      1 Template:Ambox"," 10.84%   25.598      1 Template:Sfn","  8.15%   19.255      1 Template:Prose_Edda","  7.18%   16.959      1 Template:Navbox","  4.48%   10.585      1 Template:Wikisource","  3.60%    8.491      1 Template:Sister_project","  3.48%    8.209      2 Template:Reflist"]},"scribunto":{"limitreport-timeusage":{"value":"0.095","limit":"10.000"},"limitreport-memusage":{"value":3307385,"limit":52428800},"limitreport-logs":"anchor_id_list = table#1 {\n  [\"CITEREFOrchard1997\"] = 1,\n}\ntemplate_list = table#1 {\n  [\"Cite book\"] = 1,\n  [\"DEFAULTSORT:Skaldskaparmal\"] = 1,\n  [\"IPA-is\"] = 1,\n  [\"IPA-non\"] = 1,\n  [\"Italic title\"] = 1,\n  [\"More footnotes\"] = 1,\n  [\"Prose Edda\"] = 1,\n  [\"Reflist\"] = 2,\n  [\"Sfn\"] = 1,\n  [\"Wikisource\"] = 1,\n}\narticle_whitelist = table#1 {\n}\n"},"cachereport":{"origin":"mw1395","timestamp":"20200616133942","ttl":2592000,"transientcontent":false}}});});</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"Sk\u00e1ldskaparm\u00e1l","url":"https:\/\/en.wikipedia.org\/wiki\/Sk%C3%A1ldskaparm%C3%A1l","sameAs":"http:\/\/www.wikidata.org\/entity\/Q178075","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q178075","author":{"@type":"Organization","name":"Contributors to Wikimedia projects"},"publisher":{"@type":"Organization","name":"Wikimedia Foundation, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2002-02-25T15:43:11Z","dateModified":"2020-05-09T20:54:41Z","image":"https:\/\/upload.wikimedia.org\/wikipedia\/commons\/e\/eb\/Loki_and_Sif_by_A_Chase.jpg","headline":"songs of Snorri the skald"}</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":397,"wgHostname":"mw1395"});});</script></body></html>

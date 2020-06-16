@@ -1,0 +1,2547 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8"><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(){}function o(e,t,n){return function(){return i(e,[f.now()].concat(u(arguments)),t?null:this,n),t?void 0:this}}var i=e("handle"),a=e(2),u=e(3),c=e("ee").get("tracer"),f=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,t){s[t]=o(d+t,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),t.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,t){var n={},r=this,o="function"==typeof t;return i(l+"tracer",[f.now(),e,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],n),o)try{return t.apply(this,arguments)}catch(e){throw c.emit("fn-err",[arguments,this,e],n),e}finally{c.emit("fn-end",[f.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){m[t]=o(l+t)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,f.now()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(o<0?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],4:[function(e,t,n){t.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?c(e,u,i):i()}function n(n,r,o,i){if(!d.aborted||i){e&&e(n,r,o);for(var a=t(o),u=m(n),c=u.length,f=0;f<c;f++)u[f].apply(a,r);var p=s[y[n]];return p&&p.push([b,n,r,a]),a}}function l(e,t){v[e]=m(e).concat(t)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(n)}function g(e,t){f(e,function(e,n){t=t||"feature",y[n]=t,t in s||(s[t]=[])})}var v={},y={},b={on:l,emit:n,get:w,listeners:m,context:t,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",c=e("gos"),f=e(2),s={},p={},d=t.exports=o();d.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!x++){var e=h.info=NREUM.info,t=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return s.abort();f(y,function(t,n){e[t]||(e[t]=n)}),c("mark",["onload",a()+h.offset],null,"api");var n=d.createElement("script");n.src="https://"+e.agent,t.parentNode.insertBefore(n,t)}}function o(){"complete"===d.readyState&&i()}function i(){c("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),c=e("handle"),f=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,SI:p.setImmediate,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1071.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=t.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),c("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="/sites/default/files/favicons-bw/favicon.ico"/>
+<link rel="apple-touch-icon" sizes="57x57" href="/sites/default/files/favicons-bw/apple-touch-icon-57x57.png"/>
+<link rel="apple-touch-icon" sizes="60x60" href="/sites/default/files/favicons-bw/apple-touch-icon-60x60.png"/>
+<link rel="apple-touch-icon" sizes="72x72" href="/sites/default/files/favicons-bw/apple-touch-icon-72x72.png"/>
+<link rel="apple-touch-icon" sizes="76x76" href="/sites/default/files/favicons-bw/apple-touch-icon-76x76.png"/>
+<link rel="apple-touch-icon" sizes="114x114" href="/sites/default/files/favicons-bw/apple-touch-icon-114x114.png"/>
+<link rel="apple-touch-icon" sizes="120x120" href="/sites/default/files/favicons-bw/apple-touch-icon-120x120.png"/>
+<link rel="apple-touch-icon" sizes="144x144" href="/sites/default/files/favicons-bw/apple-touch-icon-144x144.png"/>
+<link rel="apple-touch-icon" sizes="152x152" href="/sites/default/files/favicons-bw/apple-touch-icon-152x152.png"/>
+<link rel="apple-touch-icon" sizes="180x180" href="/sites/default/files/favicons-bw/apple-touch-icon-180x180.png"/>
+<link rel="icon" type="image/png" href="/sites/default/files/favicons-bw/favicon-32x32.png" sizes="32x32"/>
+<link rel="icon" type="image/png" href="/sites/default/files/favicons-bw/android-chrome-192x192.png" sizes="192x192"/>
+<link rel="icon" type="image/png" href="/sites/default/files/favicons-bw/favicon-96x96.png" sizes="96x96"/>
+<link rel="icon" type="image/png" href="/sites/default/files/favicons-bw/favicon-16x16.png" sizes="16x16"/>
+<link rel="manifest" href="/sites/default/files/favicons-bw/manifest.json"/>
+<link rel="mask-icon" href="/sites/default/files/favicons-bw/safari-pinned-tab.svg" color="#5bbad5"/>
+<meta name="msapplication-TileColor" content="#da532c"/>
+<meta name="msapplication-TileImage" content="/sites/default/files/favicons-bw/mstile-144x144.png"/>
+<meta name="msapplication-config" content="/browserconfig.xml"/>
+<meta name="theme-color" content="#ffffff"/>
+<meta name="msapplication-square70x70logo" content="tile-tiny.png"/>
+<meta name="msapplication-square150x150logo" content="tile-square.png"/>
+<meta name="msapplication-wide310x150logo" content="tile-wide.png"/>
+<meta name="msapplication-square310x310logo" content="tile-large.png"/>
+<meta name="description" content="In order to help you get your music on WWOZ, there are many things that you should think about. Here we answer some frequently asked questions about getting your CD played on the air. Does WWOZ play your kind of music? There are many styles of Louisiana music that we do play on WWOZ and some that we don&#039;t. Exploring our program schedule can give you an idea of where your music would fit in." />
+<meta name="generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="https://www.wwoz.org/getting-airplay-your-cd-wwoz" />
+<link rel="shortlink" href="https://www.wwoz.org/node/1938" />
+<meta property="og:site_name" content="WWOZ New Orleans 90.7 FM" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://www.wwoz.org/getting-airplay-your-cd-wwoz" />
+<meta property="og:title" content="Getting Airplay for Your CD on WWOZ" />
+<meta property="og:description" content="In order to help you get your music on WWOZ, there are many things that you should think about. Here we answer some frequently asked questions about getting your CD played on the air. Does WWOZ play your kind of music? There are many styles of Louisiana music that we do play on WWOZ and some that we don&#039;t. Exploring our program schedule can give you an idea of where your music would fit in." />
+<meta property="og:updated_time" content="2015-12-23T18:49:17-06:00" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:url" content="https://www.wwoz.org/getting-airplay-your-cd-wwoz" />
+<meta name="twitter:title" content="Getting Airplay for Your CD on WWOZ" />
+<meta name="twitter:description" content="In order to help you get your music on WWOZ, there are many things that you should think about. Here we answer some frequently asked questions about getting your CD played on the air. Does WWOZ play your kind of music? There are many styles of Louisiana music that we do play on WWOZ and some that we don&#039;t. Exploring our program schedule can give you an idea of where your music would fit in." />
+<meta property="article:published_time" content="2008-08-15T15:19:46-05:00" />
+<meta property="article:modified_time" content="2015-12-23T18:49:17-06:00" />
+
+
+  <title>
+    Getting Airplay for Your CD on WWOZ | WWOZ New Orleans 90.7 FM  </title>
+
+
+  <link type="text/css" rel="stylesheet" href="https://www.wwoz.org/sites/default/files/css/css_lQaZfjVpwP_oGNqdtWCSpJT1EMqXdMiU84ekLLxQnc4.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.wwoz.org/sites/default/files/css/css_UGtwVqp31jWj8xXqlcXQnUZ0HM2gmB8346BRsInogJs.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.wwoz.org/sites/default/files/css/css_NP4QKvii0NaBQn5ukb5CbhvzpRCYBjSaEKkbIpF_ls4.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.wwoz.org/sites/default/files/css/css_a9xljN1Kt-Vhk6WRC0AQHBiQh7k7o1vSoBWGd1-ztzE.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oxygen:700,regular|Patua+One:regular&amp;subset=latin" media="all" />
+
+
+    <!-- HTML5 element support for IE6-8 -->
+  <!--[if lt IE 9]><script src="https://www.wwoz.org/sites/all/themes/custom/wwozui/bower_components/html5shiv/dist/html5shiv.min.js"></script><![endif]-->
+
+
+  <script src="https://www.wwoz.org/sites/default/files/js/js_xvYJgU6LChHqbcSh4y1AvdXfD5QBIwT3GVGVUeuksbM.js"></script>
+<script src="https://www.wwoz.org/sites/default/files/js/js_H7q2xORKmR9AN8Qx5spKEIBp7R_wG2apAswJoCUZY7I.js"></script>
+<script src="https://ws.sharethis.com/button/buttons.js"></script>
+<script src="https://www.wwoz.org/sites/default/files/js/js_FJFNL_ukLR8Qv6vi8m4-_AK6ikXbG-Hvp-72S1GLnj4.js"></script>
+<script>(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","//www.google-analytics.com/analytics.js","ga");ga("create", "UA-3489936-1", {"cookieDomain":"auto"});ga("set", "dimension1", "anonymous user");ga("send", "pageview");</script>
+<script src="https://www.wwoz.org/sites/default/files/js/js__96kG38m7DykBD7nhcPPVwpfIES87e2r5mmH-47Evf0.js"></script>
+<script>jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"wwozui","theme_token":"wOhCC7mMxKViui6sU7MkuBOGN4qFwKVmZoDZ7rl09RY","js":{"sites\/all\/themes\/contrib\/bootstrap\/js\/bootstrap.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery\/1.10\/jquery.min.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/external\/jquery.cookie.js":1,"https:\/\/ws.sharethis.com\/button\/buttons.js":1,"sites\/all\/libraries\/colorbox\/jquery.colorbox-min.js":1,"sites\/all\/modules\/contrib\/popup_onload\/popup_onload.js":1,"sites\/all\/modules\/contrib\/google_analytics\/googleanalytics.js":1,"0":1,"sites\/all\/themes\/custom\/wwozui\/bower_components\/bootstrap\/js\/button.js":1,"sites\/all\/themes\/custom\/wwozui\/bower_components\/bootstrap\/js\/carousel.js":1,"sites\/all\/themes\/custom\/wwozui\/bower_components\/bootstrap\/js\/collapse.js":1,"sites\/all\/themes\/custom\/wwozui\/bower_components\/bootstrap\/js\/dropdown.js":1,"sites\/all\/themes\/custom\/wwozui\/bower_components\/bootstrap\/js\/tab.js":1,"sites\/all\/themes\/custom\/wwozui\/bower_components\/bootstrap-grid-columns-clearing\/js\/ie-row-fix.js":1,"sites\/all\/themes\/custom\/wwozui\/bower_components\/hammerjs\/hammer.min.js":1,"sites\/all\/themes\/custom\/wwozui\/bower_components\/transparency\/dist\/transparency.js":1,"sites\/all\/themes\/custom\/wwozui\/bower_components\/trunk8\/trunk8.js":1,"sites\/all\/themes\/custom\/wwozui\/js\/compiled\/c4\/boot.js":1,"sites\/all\/themes\/custom\/wwozui\/js\/compiled\/c4\/utilities\/timer.js":1,"sites\/all\/themes\/custom\/wwozui\/js\/compiled\/c4\/utilities\/touch.js":1,"sites\/all\/themes\/custom\/wwozui\/js\/compiled\/c4\/utilities\/truncate.js":1,"sites\/all\/themes\/custom\/wwozui\/js\/compiled\/c4\/utilities\/window.js":1,"sites\/all\/themes\/custom\/wwozui\/js\/compiled\/c4\/components\/base.js":1,"sites\/all\/themes\/custom\/wwozui\/js\/compiled\/c4\/components\/accordion.js":1,"sites\/all\/themes\/custom\/wwozui\/js\/compiled\/c4\/components\/dropdown.js":1,"sites\/all\/themes\/custom\/wwozui\/js\/compiled\/c4\/components\/carousel\/outside-indicators.js":1,"sites\/all\/themes\/custom\/wwozui\/js\/compiled\/c4\/components\/yamm.js":1,"sites\/all\/themes\/custom\/wwozui\/js\/compiled\/custom\/events\/tabs.js":1,"sites\/all\/themes\/custom\/wwozui\/js\/compiled\/custom\/promos\/carousel.js":1,"sites\/all\/themes\/custom\/wwozui\/js\/compiled\/custom\/station\/listen-now.js":1,"sites\/all\/themes\/custom\/wwozui\/js\/compiled\/custom\/station\/on-air.js":1,"sites\/all\/themes\/custom\/wwozui\/js\/compiled\/custom\/main.js":1,"sites\/all\/themes\/custom\/wwozui\/js\/colorbox.js":1},"css":{"modules\/system\/system.base.css":1,"sites\/all\/modules\/contrib\/date\/date_api\/date.css":1,"sites\/all\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"sites\/all\/modules\/contrib\/date\/date_repeat_field\/date_repeat_field.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/contrib\/logintoboggan\/logintoboggan.css":1,"sites\/all\/modules\/contrib\/mollom\/mollom.css":1,"modules\/node\/node.css":1,"sites\/all\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/ckeditor\/css\/ckeditor.css":1,"sites\/all\/modules\/contrib\/entity_embed\/css\/entity_embed.css":1,"sites\/all\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/contrib\/popup_onload\/popup_onload-colorbox.css":1,"sites\/all\/themes\/custom\/wwozui\/css\/style.css":1,"sites\/all\/themes\/custom\/wwozui\/bower_components\/bootstrap-grid-columns-clearing\/css\/multi-columns-row.css":1,"sites\/all\/themes\/custom\/wwozui\/bower_components\/fontawesome\/css\/font-awesome.css":1,"sites\/all\/themes\/custom\/wwozui\/bower_components\/yamm3\/yamm\/yamm.css":1,"https:\/\/fonts.googleapis.com\/css?family=Oxygen:700,regular|Patua+One:regular\u0026subset=latin":1}},"popup_onload":{"html":"\u003Cdiv class=\u0022entity entity-popup-onload popup-onload-popup-onload-basic clearfix\u0022\u003E\n\n  \n  \u003Cdiv class=\u0022content\u0022\u003E\n    \u003Cdiv class=\u0022field field-name-field-fake-body field-type-text field-label-hidden\u0022\u003E\u003Cdiv class=\u0022field-items\u0022\u003E\u003Cdiv class=\u0022field-item even\u0022\u003E\u003C!-- \u003Cdiv class=\u0022desktop-pledge-area hidden-xs\u0022\u003E\u003Ca href=\u0022\/donate\u0022 title=\u0022Pledge Now!\u0022\u003E\u0026nbsp;\u003C\/a\u003E\u003C\/div\u003E\n\u003Cdiv class=\u0022desktop-pledge hidden-xs\u0022\u003E\u003Ca href=\u0022\/donate\u0022 title=\u0022Pledge Now\u0022\u003E\u003Cimg src=\u0022\/sites\/all\/themes\/custom\/wwozui\/images\/membership-drives\/2017-spring\/pledge-now-button.png\u0022 alt=\u0022Pledge Now\u0022 \/\u003E\u003C\/a\u003E\u003C\/div\u003E\n\u003Cdiv class=\u0022desktop-go-to-site hidden-xs\u0022\u003E\u003Ca href=\u0022\/\u0022 title=\u0022Go to Site\u0022\u003E\u003Cimg src=\u0022\/sites\/all\/themes\/custom\/wwozui\/images\/membership-drives\/2017-spring\/dismiss-button.png\u0022 alt=\u0022Go To Site\u0022 \/\u003E\u003C\/a\u003E\u003C\/div\u003E\n\u003Cdiv class=\u0022mobile-pledge visible-xs\u0022\u003E\u003Ca href=\u0022\/donate\u0022 title=\u0022Pledge Now\u0022\u003E\u003Cimg src=\u0022\/sites\/all\/themes\/custom\/wwozui\/images\/membership-drives\/2017-spring\/mobile-pledge-now-button.png\u0022 alt=\u0022Pledge Now\u0022 \/\u003E\u003C\/a\u003E\u003C\/div\u003E\n\u003Cdiv class=\u0022mobile-phone-number visible-xs\u0022\u003Eor Pledge by phone\u003Cbr \/\u003E\u003Ca href=\u0022tel:+1-877-907-6999\u0022\u003E1-877-907-6999\u003C\/a\u003E\u003C\/div\u003E --\u003E\n\n\u003Cdiv class=\u0022hidden-xs\u0022\u003E\u003Ca href=\u0022http:\/\/join.wwoz.org\/site\/Donation2?df_id=3221\u0026amp;3221.donation=form1\u0026amp;s_src=G18W\u0022 target=\u0022_blank\u0022\u003E\u003Cimg style=\u0022max-width: 100%;\u0022 src=\u0022\/sites\/all\/themes\/custom\/wwozui\/images\/MembershipSplashAug2018Shirt.png\u0022 \/\u003E\u003C\/a\u003E\u003Cdiv style=\u0022position:absolute;bottom:57px;right:19px;\u0022\u003E\u003Ca href=\u0022\/\u0022 title=\u0022Go to Site\u0022\u003E\u003Cimg src=\u0022\/sites\/all\/themes\/custom\/wwozui\/images\/MembershipSplashAug2018orange-dismiss.png\u0022 alt=\u0022Go To Site\u0022 \/\u003E\u003C\/a\u003E\u003C\/div\u003E\u003C\/div\u003E\n\u003Cdiv class=\u0022visible-xs\u0022\u003E\u003Ca href=\u0022http:\/\/join.wwoz.org\/site\/Donation2?df_id=3221\u0026amp;3221.donation=form1\u0026amp;s_src=G18W\u0022 target=\u0022_blank\u0022\u003E\u003Cimg style=\u0022max-width: 100%;\u0022 src=\u0022\/sites\/all\/themes\/custom\/wwozui\/images\/MembershipSplashAug2018Shirt-mobile.png\u0022 \/\u003E\u003C\/a\u003E\u003Cdiv style=\u0022position:absolute;bottom:0px;right:0px;width:133px;\u0022\u003E\u003Ca href=\u0022\/\u0022 title=\u0022Go to Site\u0022\u003E\u003Cimg src=\u0022\/sites\/all\/themes\/custom\/wwozui\/images\/MembershipSplashAug2018orange-dismiss.png\u0022 alt=\u0022Go To Site\u0022 \/\u003E\u003C\/a\u003E\u003C\/div\u003E\u003C\/div\u003E\u003C\/div\u003E\u003C\/div\u003E\u003C\/div\u003E  \u003C\/div\u003E\n\u003C\/div\u003E\n","delay":"0","fixed":false,"popup_id":"1","className":"popup_onload","close":"","cookieName":"popup_onload_time","cookieLifetime":"86400"},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip"},"bootstrap":{"anchorsFix":1,"anchorsSmoothScrolling":1,"formHasError":1,"popoverEnabled":0,"popoverOptions":{"animation":1,"html":0,"placement":"right","selector":"","trigger":"click","triggerAutoclose":1,"title":"","content":"","delay":0,"container":"body"},"tooltipEnabled":0,"tooltipOptions":{"animation":1,"html":0,"placement":"auto left","selector":"","trigger":"hover focus","delay":0,"container":"body"}}});</script>
+</head>
+
+
+<body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-1938 node-type-basic-page" >
+  <div class="container-fluid">
+      </div>
+
+  <div class="container">
+    <div class="row relative">
+  <div class="col-md-10 main-body-container">
+      <div class="region region-header">
+    <div class="oz-header">
+  <nav class="navbar navbar-default navbar-static-top hidden-xs header-top"
+     role="navigation">
+
+  <div class="navbar-header">
+    <a href="/"
+       class="navbar-brand">
+
+      <img class="visible-sm header-logo"
+           src="/sites/all/themes/custom/wwozui/images/wwoz-header-sm.png"
+           alt="WWOZ"/>
+
+      <img class="visible-md header-logo"
+           src="/sites/all/themes/custom/wwozui/images/wwoz-header-sm.png"
+           alt="WWOZ"/>
+
+      <img class="visible-md header-tagline"
+           src="/sites/all/themes/custom/wwozui/images/wwoz-header-tagline-bw.png"
+           alt="WWOZ"/>
+
+      <img class="visible-lg header-logo"
+           src="/sites/all/themes/custom/wwozui/images/wwoz-header-lg.png"
+           alt="WWOZ"/>
+    </a>
+  </div>
+
+  <ul class="nav navbar-nav listen-on-air">
+    <li class="hidden-sm">
+
+    </li>
+
+    <li>
+      <button data-stream="one"
+        class="btn btn-default navbar-btn launch-player listen-now-btn">
+  Listen Now
+
+  <i class="play-arrow">
+    <img src="/sites/all/themes/custom/wwozui/images/listen-arrow.png"
+         alt="Listen Now" />
+  </i>
+</button>
+    </li>
+
+    <li class="on-air-text">
+      
+<p class="navbar-text on-air"
+  data-stream="one">
+
+      <span class="text-uppercase bold">
+      On Air:
+    </span>
+
+    <span class="song-artist">
+      <a href="/programs/overnight-music-monday"
+         class="text-capitalize"
+         data-bind="title-link">
+        Overnight Music - Monday      </a>
+    </span>
+  </p>
+    </li>
+
+    <li class="visible-sm support-dropdown">
+      
+  <div class="c4-dropdown">
+    <button
+
+     type="button"
+     class="btn btn-primary support-btn navbar-btn dropdown-toggle"
+     data-toggle="dropdown"
+     aria-expanded="false">
+    <span class="support-padding">Support </span>
+    <span class="caret support"></span>
+
+  </button>
+
+  <div class="dropdown-menu support-dropdown" role="menu">
+    <a class="join-renew-btn-link btn btn-default navbar-btn join-renew-btn" href="/donate">
+       Join/Renew Now
+    </a>
+    <div class="row">
+      <div class="col-md-3 nav-col">
+  <ul class="main-links">
+          <li>
+      <a href="/get-involved"
+         target="">
+        Get Involved at 'OZ      </a>
+    </li>
+          <li>
+      <a href="/wwoz-membership"
+         target="">
+        WWOZ Membership      </a>
+    </li>
+          <li>
+      <a href="http://wwoz.plannedgiving.org/"
+         target="">
+        Planned Giving      </a>
+    </li>
+          <li>
+      <a href="/member-discounts"
+         target="">
+        Member Discounts      </a>
+    </li>
+          <li>
+      <a href="/member-thank-you-gifts"
+         target="">
+        Thank You Gifts      </a>
+    </li>
+          <li>
+      <a href="/http%3A//www.wwoz.org/support/join%2Bwwoz/membership%2Bfaq"
+         target="">
+        Membership FAQ      </a>
+    </li>
+  </ul>
+</div>
+
+
+<div class="col-md-3 nav-col">
+  <ul class="main-links">
+          <li>
+      <a href="https://secure3.convio.net/wwoz/site/Donation2;jsessionid=00000000.app312a?df_id=3080&3080.donation=form1&s_src=EB17W&NONCE_TOKEN=6BB1A8C0AB558AA0A7C9885726BCD508"
+         target="">
+        Buy a Brass Pass for Jazz Fest      </a>
+    </li>
+          <li>
+      <a href="https://www.wwoz.org/brass-pass-how-we-do-jazz-fest"
+         target="">
+        Brass Pass Basics      </a>
+    </li>
+          <li>
+      <a href="https://www.wwoz.org/brass-pass-pickup-info"
+         target="">
+        Brass Pass Pickup      </a>
+    </li>
+          <li>
+      <a href="https://www.wwoz.org/brass-pass-details"
+         target="">
+        Using a Brass Pass      </a>
+    </li>
+          <li>
+      <a href="/support/car-donations"
+         target="">
+        Car Donation      </a>
+    </li>
+          <li>
+      <a href="/oz-funders"
+         target="">
+        'OZ Funders      </a>
+    </li>
+          <li>
+      <a href="https://www.wwoz.org/wwoz-volunteers"
+         target="">
+        Volunteer at WWOZ      </a>
+    </li>
+  </ul>
+</div>
+
+
+<div class="col-md-3 nav-col">
+  <ul class="main-links">
+          <li>
+      <a href="/sponsor-wwoz"
+         target="">
+        Sponsor WWOZ      </a>
+    </li>
+          <li>
+      <a href="/sponsorship-benefits"
+         target="">
+        Sponsorship Benefits      </a>
+    </li>
+          <li>
+      <a href="/sponsorship-opportunities"
+         target="">
+        Sponsorship Opportunities      </a>
+    </li>
+          <li>
+      <a href="/our-sponsors"
+         target="">
+        Our Sponsors      </a>
+    </li>
+          <li>
+      <a href="/sponsorship-guidelines"
+         target="">
+        Sponsorship Guidelines      </a>
+    </li>
+          <li>
+      <a href="/contact-wwoz"
+         target="">
+        Contact Us      </a>
+    </li>
+  </ul>
+</div>
+      <div class="col-md-3 oz-tiles hidden-xs nav-col">
+        
+<div class="dropdown-ad">
+
+  <h3>Sign up now</h3>
+
+  <a target="_blank" href="http://join.wwoz.org/site/PageServer?pagename=Register&autologin=true">
+    <img class="img-responsive"
+         src="/sites/all/themes/custom/wwozui/images/OZone-email.png"
+         alt="Get the 'OZone monthly newsletter" />
+  </a>
+
+  <p>Get the 'OZone monthly email newsletter</p>
+
+  <a target="_blank" href="http://join.wwoz.org/site/PageServer?pagename=Register&autologin=true">
+    <button class="btn btn-default">
+      Subscribe
+    </button>
+  </a>
+
+</div>      </div>
+    </div>
+  </div>
+
+  </div>
+
+    </li>
+  </ul>
+
+  <img class="nojhf-logo visible-lg"
+       src="/sites/all/themes/custom/wwozui/images/NOJHF-logo.png"
+       alt="WWOZ"/>
+</nav>
+  <nav class="navbar yamm navbar-default navbar-static-top margin-bottom-none visible-xs"
+     role="navigation">
+
+  <ul class="nav">
+    <li>
+      <a href="/"
+         class="navbar-brand">
+
+        <img alt="WWOZ"
+             src="/sites/all/themes/custom/wwozui/images/wwoz-header-sm.png"
+             class="header-logo" />
+      </a>
+
+      <div class="btn-toolbar" role="toolbar" aria-label="...">
+        <div class="btn-group" role="group" aria-label="...">
+          <button data-stream="one"
+        class="btn btn-default navbar-btn launch-player listen-now-btn">
+  Listen Now
+
+  <i class="play-arrow">
+    <img src="/sites/all/themes/custom/wwozui/images/listen-arrow.png"
+         alt="Listen Now" />
+  </i>
+</button>
+        </div>
+
+        <div class="btn-group dropdown">
+          
+  <div class="c4-dropdown">
+    <button
+
+     type="button"
+     class="btn btn-primary support-btn navbar-btn dropdown-toggle"
+     data-toggle="dropdown"
+     aria-expanded="false">
+    <span class="support-padding">Support </span>
+    <span class="caret support"></span>
+
+  </button>
+
+  <div class="dropdown-menu support-dropdown" role="menu">
+    <a class="join-renew-btn-link btn btn-default navbar-btn join-renew-btn" href="/donate">
+       Join/Renew Now
+    </a>
+    <div class="row">
+      <div class="col-md-3 nav-col">
+  <ul class="main-links">
+          <li>
+      <a href="/get-involved"
+         target="">
+        Get Involved at 'OZ      </a>
+    </li>
+          <li>
+      <a href="/wwoz-membership"
+         target="">
+        WWOZ Membership      </a>
+    </li>
+          <li>
+      <a href="http://wwoz.plannedgiving.org/"
+         target="">
+        Planned Giving      </a>
+    </li>
+          <li>
+      <a href="/member-discounts"
+         target="">
+        Member Discounts      </a>
+    </li>
+          <li>
+      <a href="/member-thank-you-gifts"
+         target="">
+        Thank You Gifts      </a>
+    </li>
+          <li>
+      <a href="/http%3A//www.wwoz.org/support/join%2Bwwoz/membership%2Bfaq"
+         target="">
+        Membership FAQ      </a>
+    </li>
+  </ul>
+</div>
+
+
+<div class="col-md-3 nav-col">
+  <ul class="main-links">
+          <li>
+      <a href="https://secure3.convio.net/wwoz/site/Donation2;jsessionid=00000000.app312a?df_id=3080&3080.donation=form1&s_src=EB17W&NONCE_TOKEN=6BB1A8C0AB558AA0A7C9885726BCD508"
+         target="">
+        Buy a Brass Pass for Jazz Fest      </a>
+    </li>
+          <li>
+      <a href="https://www.wwoz.org/brass-pass-how-we-do-jazz-fest"
+         target="">
+        Brass Pass Basics      </a>
+    </li>
+          <li>
+      <a href="https://www.wwoz.org/brass-pass-pickup-info"
+         target="">
+        Brass Pass Pickup      </a>
+    </li>
+          <li>
+      <a href="https://www.wwoz.org/brass-pass-details"
+         target="">
+        Using a Brass Pass      </a>
+    </li>
+          <li>
+      <a href="/support/car-donations"
+         target="">
+        Car Donation      </a>
+    </li>
+          <li>
+      <a href="/oz-funders"
+         target="">
+        'OZ Funders      </a>
+    </li>
+          <li>
+      <a href="https://www.wwoz.org/wwoz-volunteers"
+         target="">
+        Volunteer at WWOZ      </a>
+    </li>
+  </ul>
+</div>
+
+
+<div class="col-md-3 nav-col">
+  <ul class="main-links">
+          <li>
+      <a href="/sponsor-wwoz"
+         target="">
+        Sponsor WWOZ      </a>
+    </li>
+          <li>
+      <a href="/sponsorship-benefits"
+         target="">
+        Sponsorship Benefits      </a>
+    </li>
+          <li>
+      <a href="/sponsorship-opportunities"
+         target="">
+        Sponsorship Opportunities      </a>
+    </li>
+          <li>
+      <a href="/our-sponsors"
+         target="">
+        Our Sponsors      </a>
+    </li>
+          <li>
+      <a href="/sponsorship-guidelines"
+         target="">
+        Sponsorship Guidelines      </a>
+    </li>
+          <li>
+      <a href="/contact-wwoz"
+         target="">
+        Contact Us      </a>
+    </li>
+  </ul>
+</div>
+      <div class="col-md-3 oz-tiles hidden-xs nav-col">
+        
+<div class="dropdown-ad">
+
+  <h3>Sign up now</h3>
+
+  <a target="_blank" href="http://join.wwoz.org/site/PageServer?pagename=Register&autologin=true">
+    <img class="img-responsive"
+         src="/sites/all/themes/custom/wwozui/images/OZone-email.png"
+         alt="Get the 'OZone monthly newsletter" />
+  </a>
+
+  <p>Get the 'OZone monthly email newsletter</p>
+
+  <a target="_blank" href="http://join.wwoz.org/site/PageServer?pagename=Register&autologin=true">
+    <button class="btn btn-default">
+      Subscribe
+    </button>
+  </a>
+
+</div>      </div>
+    </div>
+  </div>
+
+  </div>
+
+        </div>
+
+        <div class="btn-group dropdown mobile-menu">
+  <button type="button"
+          class="btn btn-default navbar-btn dropdown-toggle mobile-menu-btn"
+          data-toggle="dropdown"
+          aria-expanded="false">
+
+    <i class="fa fa-bars"></i>
+    Menu
+    <span class="caret"></span>
+  </button>
+
+
+  <div class="dropdown-menu"
+       role="menu">
+
+    <div id="mobile-menu-accordion"
+         class="panel-group accordion-group">
+
+      <div class="panel panel-default cursor-pointer">
+        <div class="panel-heading"
+             data-toggle="collapse"
+             data-target="#mobile-menu-programs">
+
+          <h4 class="panel-title">
+            <a>Programs</a>
+          </h4>
+
+          <div id="mobile-menu-programs"
+               class="panel-collapse collapse">
+
+            <div class="panel-body">
+              <div class="col-md-3 nav-col">
+  <ul class="main-links">
+          <li>
+      <a href="/schedule"
+         target="">
+        Program Schedule      </a>
+    </li>
+          <li>
+      <a href="/programs/show-hosts"
+         target="">
+        Show Hosts      </a>
+    </li>
+          <li>
+      <a href="/song-history"
+         target="">
+        Song History      </a>
+    </li>
+          <li>
+      <a href="/programs/playlists"
+         target="">
+        Most Recent 100 Spins      </a>
+    </li>
+          <li>
+      <a href="/calendar/live-broadcast"
+         target="">
+        Live Event Broadcasts      </a>
+    </li>
+          <li>
+      <a href="http://www.wwoz.org/listen/archive/"
+         target="">
+        Two Week Archive      </a>
+    </li>
+          <li>
+      <a href="/new-music-spotlight"
+         target="">
+        New Music Spotlight      </a>
+    </li>
+          <li>
+      <a href="https://vimeo.com/wwoz/videos"
+         target="">
+        WWOZ Video on Vimeo      </a>
+    </li>
+          <li>
+      <a href="/762-wwozs-live-video-stream"
+         target="_blank">
+        Live Video Stream      </a>
+    </li>
+  </ul>
+</div>
+
+
+<div class="col-md-3 nav-col">
+  <ul class="">
+          <li>
+      <a href="http://www.wwoz.org/listen/player/flash/"
+         target="">
+        Old Flash Player      </a>
+    </li>
+          <li>
+      <a href="/programs/streams"
+         target="">
+        Streaming Help      </a>
+    </li>
+          <li>
+      <a href="/programs/wwoz-2-our-second-stream"
+         target="">
+        WWOZ-2      </a>
+    </li>
+          <li>
+      <a href="/topics/school-groove"
+         target="">
+        School Groove      </a>
+    </li>
+          <li>
+      <a href="/programs/new-orleans-calling"
+         target="">
+        New Orleans Calling      </a>
+    </li>
+          <li>
+      <a href="/programs/inthestreet"
+         target="">
+        Takin' It to the Streets      </a>
+    </li>
+          <li>
+      <a href="http://www.wwoz.org/wwoz-programs-programming#retiredshows"
+         target="">
+        Retired Programs      </a>
+    </li>
+          <li>
+      <a href="/user"
+         target="">
+        User Login      </a>
+    </li>
+  </ul>
+</div>
+
+
+<div class="col-md-3 oz-tiles programs-tile hidden-xs nav-col">
+  
+<div class="tile-header">
+  <h3>
+    Listen Now  </h3>
+</div>
+
+<div class="tile-image">
+  <a href="/listen/player/"
+    class="launch-player"
+      >
+
+    <img class="img-responsive"
+         src="/sites/all/themes/custom/wwozui/images/photos/two-week-stream.jpg"
+         alt="WWOZ"/>
+
+  </a>
+
+  <div class="tile-caption">
+    <div class="row">
+
+      <a href="/listen/player/"
+         class="launch-player"
+              >
+
+        Tune in live to 'OZ's primary stream
+      </a>
+      
+    </div>
+  </div>
+</div>
+
+<ul class="list-group">
+    <li class="list-group-item clearfix">
+    <div class="truncate tile-link" data-truncate-lines="2">
+
+      <a href="/listen/player/?stream=two"
+         class="launch-player"
+              >
+
+        Or tune in to Radio's second stream
+      </a>
+
+    </div>
+  </li>
+    <li class="list-group-item clearfix">
+    <div class="truncate tile-link" data-truncate-lines="2">
+
+      <a href="/listen/archive/"
+         class=""
+              >
+
+        Listen to the 2-week stream archive
+      </a>
+
+    </div>
+  </li>
+  </ul>
+</div>            </div>
+          </div>  
+        </div>
+      </div>
+
+
+      <div class="panel panel-default cursor-pointer">
+        <div class="panel-heading"
+             data-toggle="collapse"
+             data-target="#mobile-menu-new-orleans">
+
+          <h4 class="panel-title">
+            <a>New Orleans</a>
+          </h4>
+
+          <div id="mobile-menu-new-orleans"
+               class="panel-collapse collapse">
+
+            <div class="panel-body">
+              <div class="col-md-3 nav-col">
+  <ul class="main-links">
+          <li>
+      <a href="/calendar/livewire-music"
+         target="">
+        Livewire Music Calendar      </a>
+    </li>
+          <li>
+      <a href="/calendar/community"
+         target="">
+        Community Events      </a>
+    </li>
+          <li>
+      <a href="/programs/inthestreet"
+         target="">
+        Takin' It to the Streets      </a>
+    </li>
+          <li>
+      <a href="/blog"
+         target="">
+        Show Host Blog      </a>
+    </li>
+          <li>
+      <a href="/venues"
+         target="">
+        Music Venues      </a>
+    </li>
+          <li>
+      <a href="https://acloserwalknola.com/"
+         target="">
+        A Closer Walk music map      </a>
+    </li>
+  </ul>
+</div>
+
+
+<div class="col-md-3 nav-col">
+  <ul class="">
+          <li>
+      <a href="/wwoz-loves-jazz-fest"
+         target="">
+        Jazz Fest      </a>
+    </li>
+          <li>
+      <a href="/pianonight"
+         target="">
+        Piano Night      </a>
+    </li>
+          <li>
+      <a href="/brass-pass-details"
+         target="">
+        Brass Passes for Jazz Fest      </a>
+    </li>
+          <li>
+      <a href="/mardi-gras-2018"
+         target="">
+        Mardi Gras      </a>
+    </li>
+          <li>
+      <a href="/musician-resources"
+         target="">
+        Musician Resources      </a>
+    </li>
+  </ul>
+</div>
+
+
+<div class="col-md-3 nav-col">
+  <ul class="">
+          <li>
+      <a href="/station-content-types/ozone-newsletter-archive"
+         target="">
+        'OZone Newsletter Archive      </a>
+    </li>
+          <li>
+      <a href="https://secure3.convio.net/wwoz/site/SPageServer/;jsessionid=00000000.app314a?NONCE_TOKEN=D7A87CE163F68D03DA01D887C353E38A&autologin=true&pagename=Register"
+         target="">
+        Subscribe to the 'OZone      </a>
+    </li>
+          <li>
+      <a href="/topics/food"
+         target="">
+        Food      </a>
+    </li>
+          <li>
+      <a href="/topics/recipes"
+         target="">
+        Recipes      </a>
+    </li>
+          <li>
+      <a href="/topics/memoriam"
+         target="">
+        In Memoriam      </a>
+    </li>
+  </ul>
+</div>            </div>
+          </div>  
+        </div>
+      </div>
+
+
+      <div class="panel panel-default cursor-pointer">
+        <div class="panel-heading"
+             data-toggle="collapse"
+             data-parent="#mobile-menu-accordion"
+             data-target="#mobile-menu-events">
+
+          <h4 class="panel-title">
+            <a>Events</a>
+          </h4>
+
+          <div id="mobile-menu-events"
+               class="panel-collapse collapse">
+
+            <div class="panel-body">
+              <div class="col-md-3 nav-col">
+  <ul class="main-links">
+          <li>
+      <a href="/calendar/livewire-music"
+         target="">
+        Livewire Music Calendar®      </a>
+    </li>
+          <li>
+      <a href="/calendar/live-broadcast"
+         target="">
+        Live Event Broadcasts      </a>
+    </li>
+          <li>
+      <a href="/calendar/community"
+         target="">
+        Community Events      </a>
+    </li>
+          <li>
+      <a href="/submitting-community-events"
+         target="">
+        Submitting Events to WWOZ.ORG      </a>
+    </li>
+          <li>
+      <a href="/programs/inthestreet"
+         target="">
+        Takin' It to the Streets      </a>
+    </li>
+          <li>
+      <a href="/user/register"
+         target="">
+        Register      </a>
+    </li>
+  </ul>
+</div>            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="panel panel-default cursor-pointer">
+        <div class="panel-heading"
+             data-toggle="collapse"
+             data-parent="#mobile-menu-accordion"
+             data-target="#mobile-menu-explore">
+
+          <h4 class="panel-title">
+            <a>Explore</a>
+          </h4>
+
+          <div id="mobile-menu-explore"
+               class="panel-collapse collapse">
+
+            <div class="panel-body">
+              <div class="col-md-3 nav-col">
+  <ul class="main-links">
+          <li>
+      <a href="/about-wwoz"
+         target="">
+        About WWOZ      </a>
+    </li>
+          <li>
+      <a href="/history-wwoz"
+         target="">
+        WWOZ History      </a>
+    </li>
+          <li>
+      <a href="/wwoz-staff"
+         target="">
+        Staff      </a>
+    </li>
+          <li>
+      <a href="/wwoz-volunteers"
+         target="">
+        Volunteer      </a>
+    </li>
+          <li>
+      <a href="/wwozs-board-directors"
+         target="">
+        Board of Directors      </a>
+    </li>
+          <li>
+      <a href="/wwoz-community-advisory-board"
+         target="">
+        Community Advisory Board      </a>
+    </li>
+          <li>
+      <a href="/jobs-wwoz"
+         target="">
+        Jobs at 'OZ      </a>
+    </li>
+          <li>
+      <a href="/contact-wwoz"
+         target="">
+        Contact Us      </a>
+    </li>
+  </ul>
+</div>
+
+
+<div class="col-md-3 nav-col">
+  <ul class="">
+          <li>
+      <a href="/schedule"
+         target="">
+        Program Schedule      </a>
+    </li>
+          <li>
+      <a href="https://www.wwoz.org/sites/default/files/files/wwoz_2017_local_service_and_content_report.pdf"
+         target="">
+        Local Content & Service Report      </a>
+    </li>
+          <li>
+      <a href="/calendar/livewire-music"
+         target="">
+        Live Music Calendar      </a>
+    </li>
+          <li>
+      <a href="/programs/new-orleans-calling"
+         target="">
+        New Orleans Calling      </a>
+    </li>
+          <li>
+      <a href="/news"
+         target="">
+        WWOZ Latest      </a>
+    </li>
+  </ul>
+</div>
+
+
+<div class="col-md-3 nav-col">
+  <ul class="">
+          <li>
+      <a href="https://www.flickr.com/photos/wwoz/albums"
+         target="_blank">
+        Photos on Flickr      </a>
+    </li>
+          <li>
+      <a href="https://vimeo.com/wwoz"
+         target="">
+        WWOZ on Vimeo      </a>
+    </li>
+          <li>
+      <a href="/programs/wwoz-podcasts"
+         target="">
+        Podcasts      </a>
+    </li>
+          <li>
+      <a href="/blog"
+         target="">
+        Show Host Blog      </a>
+    </li>
+          <li>
+      <a href="/topics/food"
+         target="">
+        Food      </a>
+    </li>
+  </ul>
+</div>            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="panel panel-default cursor-pointer">
+        <div class="panel-heading accordion-support"
+             data-toggle="collapse"
+             data-parent="#mobile-menu-accordion"
+             data-target="#mobile-menu-support">
+
+          <h4 class="panel-title">
+            <a>Support 'OZ</a>
+          </h4>
+
+          <div id="mobile-menu-support"
+               class="panel-collapse collapse">
+
+            <div class="panel-body">
+              <div class="col-md-3 nav-col">
+  <ul class="main-links">
+          <li>
+      <a href="/get-involved"
+         target="">
+        Get Involved at 'OZ      </a>
+    </li>
+          <li>
+      <a href="/wwoz-membership"
+         target="">
+        WWOZ Membership      </a>
+    </li>
+          <li>
+      <a href="http://wwoz.plannedgiving.org/"
+         target="">
+        Planned Giving      </a>
+    </li>
+          <li>
+      <a href="/member-discounts"
+         target="">
+        Member Discounts      </a>
+    </li>
+          <li>
+      <a href="/member-thank-you-gifts"
+         target="">
+        Thank You Gifts      </a>
+    </li>
+          <li>
+      <a href="/http%3A//www.wwoz.org/support/join%2Bwwoz/membership%2Bfaq"
+         target="">
+        Membership FAQ      </a>
+    </li>
+  </ul>
+</div>
+
+
+<div class="col-md-3 nav-col">
+  <ul class="main-links">
+          <li>
+      <a href="https://secure3.convio.net/wwoz/site/Donation2;jsessionid=00000000.app312a?df_id=3080&3080.donation=form1&s_src=EB17W&NONCE_TOKEN=6BB1A8C0AB558AA0A7C9885726BCD508"
+         target="">
+        Buy a Brass Pass for Jazz Fest      </a>
+    </li>
+          <li>
+      <a href="https://www.wwoz.org/brass-pass-how-we-do-jazz-fest"
+         target="">
+        Brass Pass Basics      </a>
+    </li>
+          <li>
+      <a href="https://www.wwoz.org/brass-pass-pickup-info"
+         target="">
+        Brass Pass Pickup      </a>
+    </li>
+          <li>
+      <a href="https://www.wwoz.org/brass-pass-details"
+         target="">
+        Using a Brass Pass      </a>
+    </li>
+          <li>
+      <a href="/support/car-donations"
+         target="">
+        Car Donation      </a>
+    </li>
+          <li>
+      <a href="/oz-funders"
+         target="">
+        'OZ Funders      </a>
+    </li>
+          <li>
+      <a href="https://www.wwoz.org/wwoz-volunteers"
+         target="">
+        Volunteer at WWOZ      </a>
+    </li>
+  </ul>
+</div>
+
+
+<div class="col-md-3 nav-col">
+  <ul class="main-links">
+          <li>
+      <a href="/sponsor-wwoz"
+         target="">
+        Sponsor WWOZ      </a>
+    </li>
+          <li>
+      <a href="/sponsorship-benefits"
+         target="">
+        Sponsorship Benefits      </a>
+    </li>
+          <li>
+      <a href="/sponsorship-opportunities"
+         target="">
+        Sponsorship Opportunities      </a>
+    </li>
+          <li>
+      <a href="/our-sponsors"
+         target="">
+        Our Sponsors      </a>
+    </li>
+          <li>
+      <a href="/sponsorship-guidelines"
+         target="">
+        Sponsorship Guidelines      </a>
+    </li>
+          <li>
+      <a href="/contact-wwoz"
+         target="">
+        Contact Us      </a>
+    </li>
+  </ul>
+</div>
+<a class="join-renew-btn-link btn btn-default navbar-btn join-renew-btn" href="/donate">
+  Join/Renew Now
+</a>            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="dropdown-listen-now">
+        <button data-stream="one"
+        class="btn btn-default navbar-btn launch-player listen-now-btn">
+  Listen Now
+
+  <i class="play-arrow">
+    <img src="/sites/all/themes/custom/wwozui/images/listen-arrow.png"
+         alt="Listen Now" />
+  </i>
+</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+      </div>
+    </li>
+  </ul>
+  <span class="listen-on-air">
+    <span class="on-air-text">
+      
+<p class="navbar-text on-air"
+  data-stream="one">
+
+      <span class="text-uppercase bold">
+      On Air:
+    </span>
+
+    <span class="song-artist">
+      <a href="/programs/overnight-music-monday"
+         class="text-capitalize"
+         data-bind="title-link">
+        Overnight Music - Monday      </a>
+    </span>
+  </p>
+    </span>
+  </span>
+</nav>
+  <nav class="navbar yamm navbar-inverse navbar-static-top oz-navigation hidden-xs">
+  <div class="col-md-12 top-nav">
+    <ul class="nav navbar-nav navbar-right">
+      <li>
+        <a href="/"
+           class="navbar-brand">
+          <img
+            src="/sites/all/themes/custom/wwozui/images/shotgun-home.png"
+            alt="WWOZ"
+            class="home-link" />
+        </a>
+      </li>
+
+
+      <li class="dropdown c4-dropdown">
+        <a href="#"
+           class="dropdown-toggle"
+           data-toggle="dropdown"
+           role="button"
+           aria-expanded="false">
+          Programs
+          <span class="caret"></span>
+        </a>
+
+        <div class="dropdown-menu" role="menu">
+          <div class="dropdown-listen-now">
+            <button data-stream="one"
+        class="btn btn-default navbar-btn launch-player listen-now-btn">
+  Listen Now
+
+  <i class="play-arrow">
+    <img src="/sites/all/themes/custom/wwozui/images/listen-arrow.png"
+         alt="Listen Now" />
+  </i>
+</button>
+          </div>
+          <div class="row">
+            <div class="col-md-3 nav-col">
+  <ul class="main-links">
+          <li>
+      <a href="/schedule"
+         target="">
+        Program Schedule      </a>
+    </li>
+          <li>
+      <a href="/programs/show-hosts"
+         target="">
+        Show Hosts      </a>
+    </li>
+          <li>
+      <a href="/song-history"
+         target="">
+        Song History      </a>
+    </li>
+          <li>
+      <a href="/programs/playlists"
+         target="">
+        Most Recent 100 Spins      </a>
+    </li>
+          <li>
+      <a href="/calendar/live-broadcast"
+         target="">
+        Live Event Broadcasts      </a>
+    </li>
+          <li>
+      <a href="http://www.wwoz.org/listen/archive/"
+         target="">
+        Two Week Archive      </a>
+    </li>
+          <li>
+      <a href="/new-music-spotlight"
+         target="">
+        New Music Spotlight      </a>
+    </li>
+          <li>
+      <a href="https://vimeo.com/wwoz/videos"
+         target="">
+        WWOZ Video on Vimeo      </a>
+    </li>
+          <li>
+      <a href="/762-wwozs-live-video-stream"
+         target="_blank">
+        Live Video Stream      </a>
+    </li>
+  </ul>
+</div>
+
+
+<div class="col-md-3 nav-col">
+  <ul class="">
+          <li>
+      <a href="http://www.wwoz.org/listen/player/flash/"
+         target="">
+        Old Flash Player      </a>
+    </li>
+          <li>
+      <a href="/programs/streams"
+         target="">
+        Streaming Help      </a>
+    </li>
+          <li>
+      <a href="/programs/wwoz-2-our-second-stream"
+         target="">
+        WWOZ-2      </a>
+    </li>
+          <li>
+      <a href="/topics/school-groove"
+         target="">
+        School Groove      </a>
+    </li>
+          <li>
+      <a href="/programs/new-orleans-calling"
+         target="">
+        New Orleans Calling      </a>
+    </li>
+          <li>
+      <a href="/programs/inthestreet"
+         target="">
+        Takin' It to the Streets      </a>
+    </li>
+          <li>
+      <a href="http://www.wwoz.org/wwoz-programs-programming#retiredshows"
+         target="">
+        Retired Programs      </a>
+    </li>
+          <li>
+      <a href="/user"
+         target="">
+        User Login      </a>
+    </li>
+  </ul>
+</div>
+
+
+<div class="col-md-3 oz-tiles programs-tile hidden-xs nav-col">
+  
+<div class="tile-header">
+  <h3>
+    Listen Now  </h3>
+</div>
+
+<div class="tile-image">
+  <a href="/listen/player/"
+    class="launch-player"
+      >
+
+    <img class="img-responsive"
+         src="/sites/all/themes/custom/wwozui/images/photos/two-week-stream.jpg"
+         alt="WWOZ"/>
+
+  </a>
+
+  <div class="tile-caption">
+    <div class="row">
+
+      <a href="/listen/player/"
+         class="launch-player"
+              >
+
+        Tune in live to 'OZ's primary stream
+      </a>
+      
+    </div>
+  </div>
+</div>
+
+<ul class="list-group">
+    <li class="list-group-item clearfix">
+    <div class="truncate tile-link" data-truncate-lines="2">
+
+      <a href="/listen/player/?stream=two"
+         class="launch-player"
+              >
+
+        Or tune in to Radio's second stream
+      </a>
+
+    </div>
+  </li>
+    <li class="list-group-item clearfix">
+    <div class="truncate tile-link" data-truncate-lines="2">
+
+      <a href="/listen/archive/"
+         class=""
+              >
+
+        Listen to the 2-week stream archive
+      </a>
+
+    </div>
+  </li>
+  </ul>
+</div>          </div>
+        </div>
+      </li>
+
+
+      <li class="dropdown c4-dropdown">
+        <a href="#"
+           class="dropdown-toggle"
+           data-toggle="dropdown"
+           role="button"
+           aria-expanded="false">
+          New Orleans
+          <span class="caret"></span>
+        </a>
+
+        <div class="dropdown-menu" role="menu">
+          <div class="row">
+            <div class="col-md-3 nav-col">
+  <ul class="main-links">
+          <li>
+      <a href="/calendar/livewire-music"
+         target="">
+        Livewire Music Calendar      </a>
+    </li>
+          <li>
+      <a href="/calendar/community"
+         target="">
+        Community Events      </a>
+    </li>
+          <li>
+      <a href="/programs/inthestreet"
+         target="">
+        Takin' It to the Streets      </a>
+    </li>
+          <li>
+      <a href="/blog"
+         target="">
+        Show Host Blog      </a>
+    </li>
+          <li>
+      <a href="/venues"
+         target="">
+        Music Venues      </a>
+    </li>
+          <li>
+      <a href="https://acloserwalknola.com/"
+         target="">
+        A Closer Walk music map      </a>
+    </li>
+  </ul>
+</div>
+
+
+<div class="col-md-3 nav-col">
+  <ul class="">
+          <li>
+      <a href="/wwoz-loves-jazz-fest"
+         target="">
+        Jazz Fest      </a>
+    </li>
+          <li>
+      <a href="/pianonight"
+         target="">
+        Piano Night      </a>
+    </li>
+          <li>
+      <a href="/brass-pass-details"
+         target="">
+        Brass Passes for Jazz Fest      </a>
+    </li>
+          <li>
+      <a href="/mardi-gras-2018"
+         target="">
+        Mardi Gras      </a>
+    </li>
+          <li>
+      <a href="/musician-resources"
+         target="">
+        Musician Resources      </a>
+    </li>
+  </ul>
+</div>
+
+
+<div class="col-md-3 nav-col">
+  <ul class="">
+          <li>
+      <a href="/station-content-types/ozone-newsletter-archive"
+         target="">
+        'OZone Newsletter Archive      </a>
+    </li>
+          <li>
+      <a href="https://secure3.convio.net/wwoz/site/SPageServer/;jsessionid=00000000.app314a?NONCE_TOKEN=D7A87CE163F68D03DA01D887C353E38A&autologin=true&pagename=Register"
+         target="">
+        Subscribe to the 'OZone      </a>
+    </li>
+          <li>
+      <a href="/topics/food"
+         target="">
+        Food      </a>
+    </li>
+          <li>
+      <a href="/topics/recipes"
+         target="">
+        Recipes      </a>
+    </li>
+          <li>
+      <a href="/topics/memoriam"
+         target="">
+        In Memoriam      </a>
+    </li>
+  </ul>
+</div>          </div>
+        </div>
+      </li>
+
+
+      <li class="dropdown c4-dropdown">
+        <a href="#"
+           class="dropdown-toggle"
+           data-toggle="dropdown"
+           role="button"
+           aria-expanded="false">
+          Events
+          <span class="caret"></span>
+        </a>
+
+        <div class="dropdown-menu" role="menu">
+          <div class="row">
+            <div class="col-md-3 nav-col">
+  <ul class="main-links">
+          <li>
+      <a href="/calendar/livewire-music"
+         target="">
+        Livewire Music Calendar®      </a>
+    </li>
+          <li>
+      <a href="/calendar/live-broadcast"
+         target="">
+        Live Event Broadcasts      </a>
+    </li>
+          <li>
+      <a href="/calendar/community"
+         target="">
+        Community Events      </a>
+    </li>
+          <li>
+      <a href="/submitting-community-events"
+         target="">
+        Submitting Events to WWOZ.ORG      </a>
+    </li>
+          <li>
+      <a href="/programs/inthestreet"
+         target="">
+        Takin' It to the Streets      </a>
+    </li>
+          <li>
+      <a href="/user/register"
+         target="">
+        Register      </a>
+    </li>
+  </ul>
+</div>          </div>
+        </div>
+      </li>
+
+
+      <li class="dropdown c4-dropdown">
+        <a href="#"
+           class="dropdown-toggle"
+           data-toggle="dropdown"
+           role="button"
+           aria-expanded="false">
+          Explore
+          <span class="caret"></span>
+        </a>
+
+        <div class="dropdown-menu" role="menu">
+          <div class="row">
+            <div class="col-md-3 nav-col">
+  <ul class="main-links">
+          <li>
+      <a href="/about-wwoz"
+         target="">
+        About WWOZ      </a>
+    </li>
+          <li>
+      <a href="/history-wwoz"
+         target="">
+        WWOZ History      </a>
+    </li>
+          <li>
+      <a href="/wwoz-staff"
+         target="">
+        Staff      </a>
+    </li>
+          <li>
+      <a href="/wwoz-volunteers"
+         target="">
+        Volunteer      </a>
+    </li>
+          <li>
+      <a href="/wwozs-board-directors"
+         target="">
+        Board of Directors      </a>
+    </li>
+          <li>
+      <a href="/wwoz-community-advisory-board"
+         target="">
+        Community Advisory Board      </a>
+    </li>
+          <li>
+      <a href="/jobs-wwoz"
+         target="">
+        Jobs at 'OZ      </a>
+    </li>
+          <li>
+      <a href="/contact-wwoz"
+         target="">
+        Contact Us      </a>
+    </li>
+  </ul>
+</div>
+
+
+<div class="col-md-3 nav-col">
+  <ul class="">
+          <li>
+      <a href="/schedule"
+         target="">
+        Program Schedule      </a>
+    </li>
+          <li>
+      <a href="https://www.wwoz.org/sites/default/files/files/wwoz_2017_local_service_and_content_report.pdf"
+         target="">
+        Local Content & Service Report      </a>
+    </li>
+          <li>
+      <a href="/calendar/livewire-music"
+         target="">
+        Live Music Calendar      </a>
+    </li>
+          <li>
+      <a href="/programs/new-orleans-calling"
+         target="">
+        New Orleans Calling      </a>
+    </li>
+          <li>
+      <a href="/news"
+         target="">
+        WWOZ Latest      </a>
+    </li>
+  </ul>
+</div>
+
+
+<div class="col-md-3 nav-col">
+  <ul class="">
+          <li>
+      <a href="https://www.flickr.com/photos/wwoz/albums"
+         target="_blank">
+        Photos on Flickr      </a>
+    </li>
+          <li>
+      <a href="https://vimeo.com/wwoz"
+         target="">
+        WWOZ on Vimeo      </a>
+    </li>
+          <li>
+      <a href="/programs/wwoz-podcasts"
+         target="">
+        Podcasts      </a>
+    </li>
+          <li>
+      <a href="/blog"
+         target="">
+        Show Host Blog      </a>
+    </li>
+          <li>
+      <a href="/topics/food"
+         target="">
+        Food      </a>
+    </li>
+  </ul>
+</div>          </div>
+        </div>
+      </li>
+
+
+      
+  <li class="dropdown c4-dropdown hidden-sm">
+    <a href=""
+
+     type="button"
+     class="btn btn-primary support-btn  dropdown-toggle"
+     data-toggle="dropdown"
+     aria-expanded="false">
+    <span class="support-padding">Support </span>
+    <span class="caret support"></span>
+
+  </a>
+
+  <div class="dropdown-menu support-dropdown" role="menu">
+    <a class="join-renew-btn-link btn btn-default navbar-btn join-renew-btn" href="/donate">
+       Join/Renew Now
+    </a>
+    <div class="row">
+      <div class="col-md-3 nav-col">
+  <ul class="main-links">
+          <li>
+      <a href="/get-involved"
+         target="">
+        Get Involved at 'OZ      </a>
+    </li>
+          <li>
+      <a href="/wwoz-membership"
+         target="">
+        WWOZ Membership      </a>
+    </li>
+          <li>
+      <a href="http://wwoz.plannedgiving.org/"
+         target="">
+        Planned Giving      </a>
+    </li>
+          <li>
+      <a href="/member-discounts"
+         target="">
+        Member Discounts      </a>
+    </li>
+          <li>
+      <a href="/member-thank-you-gifts"
+         target="">
+        Thank You Gifts      </a>
+    </li>
+          <li>
+      <a href="/http%3A//www.wwoz.org/support/join%2Bwwoz/membership%2Bfaq"
+         target="">
+        Membership FAQ      </a>
+    </li>
+  </ul>
+</div>
+
+
+<div class="col-md-3 nav-col">
+  <ul class="main-links">
+          <li>
+      <a href="https://secure3.convio.net/wwoz/site/Donation2;jsessionid=00000000.app312a?df_id=3080&3080.donation=form1&s_src=EB17W&NONCE_TOKEN=6BB1A8C0AB558AA0A7C9885726BCD508"
+         target="">
+        Buy a Brass Pass for Jazz Fest      </a>
+    </li>
+          <li>
+      <a href="https://www.wwoz.org/brass-pass-how-we-do-jazz-fest"
+         target="">
+        Brass Pass Basics      </a>
+    </li>
+          <li>
+      <a href="https://www.wwoz.org/brass-pass-pickup-info"
+         target="">
+        Brass Pass Pickup      </a>
+    </li>
+          <li>
+      <a href="https://www.wwoz.org/brass-pass-details"
+         target="">
+        Using a Brass Pass      </a>
+    </li>
+          <li>
+      <a href="/support/car-donations"
+         target="">
+        Car Donation      </a>
+    </li>
+          <li>
+      <a href="/oz-funders"
+         target="">
+        'OZ Funders      </a>
+    </li>
+          <li>
+      <a href="https://www.wwoz.org/wwoz-volunteers"
+         target="">
+        Volunteer at WWOZ      </a>
+    </li>
+  </ul>
+</div>
+
+
+<div class="col-md-3 nav-col">
+  <ul class="main-links">
+          <li>
+      <a href="/sponsor-wwoz"
+         target="">
+        Sponsor WWOZ      </a>
+    </li>
+          <li>
+      <a href="/sponsorship-benefits"
+         target="">
+        Sponsorship Benefits      </a>
+    </li>
+          <li>
+      <a href="/sponsorship-opportunities"
+         target="">
+        Sponsorship Opportunities      </a>
+    </li>
+          <li>
+      <a href="/our-sponsors"
+         target="">
+        Our Sponsors      </a>
+    </li>
+          <li>
+      <a href="/sponsorship-guidelines"
+         target="">
+        Sponsorship Guidelines      </a>
+    </li>
+          <li>
+      <a href="/contact-wwoz"
+         target="">
+        Contact Us      </a>
+    </li>
+  </ul>
+</div>
+      <div class="col-md-3 oz-tiles hidden-xs nav-col">
+        
+<div class="dropdown-ad">
+
+  <h3>Sign up now</h3>
+
+  <a target="_blank" href="http://join.wwoz.org/site/PageServer?pagename=Register&autologin=true">
+    <img class="img-responsive"
+         src="/sites/all/themes/custom/wwozui/images/OZone-email.png"
+         alt="Get the 'OZone monthly newsletter" />
+  </a>
+
+  <p>Get the 'OZone monthly email newsletter</p>
+
+  <a target="_blank" href="http://join.wwoz.org/site/PageServer?pagename=Register&autologin=true">
+    <button class="btn btn-default">
+      Subscribe
+    </button>
+  </a>
+
+</div>      </div>
+    </div>
+  </div>
+
+  </li>
+
+    </ul>
+  </div>
+</nav>
+</div>
+  </div>
+
+    <div id="page-bg">
+      
+      
+      <div class="row relative margin-horizontal-none">
+
+        <div class="inner-bg col-lg-10">
+
+                    
+                                
+          
+          <h2 class="page-title">
+            Getting Airplay for Your CD on WWOZ          </h2>
+
+            <div class="region region-content">
+    <section id="block-system-main"
+     class="block block-system clearfix">
+
+        <h2 class="block-title">
+          </h2>
+    
+  <div id="node-1938"
+     class="node node-basic-page clearfix">
+
+        
+
+  
+
+  <div class="content">
+    
+    <div class="node-images">
+          </div>
+    
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even"><p>
+<i>In order to help you get your music on WWOZ, there are many things that you should think about. Here we answer some frequently asked questions about getting your CD played on the air. </i>
+</p>
+<h3>
+Does WWOZ play your kind of music?
+</h3>
+<p>
+There are many styles of Louisiana music that we do play on WWOZ and some that we don't. Exploring our <a href="/programs/schedule">program schedule</a> can give you an idea of where your music would fit in.
+</p>
+<h3>
+What shows on WWOZ play your kind of music?
+</h3>
+<p>
+If it is from an artist that lives in Louisiana, the "New Orleans Music Show" is a good start. To get more familiar with the specific musical focus of the different show hosts, have a look at some of their <a href="/programs/playlists">recent playlists</a>.
+</p>
+<h3>
+Can I send you an mp3, or have you visit my web site and get it there?
+</h3>
+<p>
+We generally don't play mp3s on the air, so a CD is what we are looking for. If the show host doesn't have to download it in order to put it on the air, it is much more likely that your music will get played.
+</p>
+<h3>
+Do I need to have a finished CD project?
+</h3>
+<p>
+Generally yes, but there are many musicians who will stop by to let people hear their latest recorded song before it is officially released. Your CD should ideally be the finished project, with a cover letter describing the CD and the way it came about, who is on it, where you are performing next and anything else you would like us to know. It's even better if the best cut on the CD is the first one, the cuts are numbered, and any profanities in songs are clearly marked so they won't get airplay.
+</p>
+<h3>
+My CD is done, who should I send it to?
+</h3>
+<p>
+Our mailing address is: WWOZ, P.O. Box 51840, New Orleans, LA 70151. If you want to drop off your CD, our physical address is: French Market Building, Second Floor, 1008 N. Peters, New Orleans.
+</p>
+<h3>
+Is one copy enough?
+</h3>
+<p>
+Not normally. If you really are serious about airplay, then you should be prepared to spread as many CDs around to the show hosts as possible. Does that mean one for every host? No, but at least one for each New Orleans Music Show host and any others who you think might play your Louisiana CD. If it is a jazz CD, there are a lot of shows that play jazz.
+</p>
+<h3>
+Will it help if I tell all my friends to call up and request my CD?       
+</h3>
+<p>
+While this might be a good tactic for some of the larger, commercial stations, WWOZ show hosts tend to be pretty familiar with their listener base and have a pretty good sense of when people are trying to "stuff the ballot box." 
+</p>
+<h3>What should I do when I hear my music played on the air? <br /></h3>
+<p>
+You might want to call up the host to say, "Thanks." Who knows? They may invite you on the show.
+</p>
+<hr size="2" width="100%" /><p>
+If you are a local musician or club with a gig to promote, you might be interested in reading about <a href="/new%2Borleans%2Bcommunity/submit%2Byour%2Bevent">how to submit your event to the Livewire Music Calendar</a>. 
+</p>
+</div></div></div><div class="field field-name-field-topic-tags field-type-taxonomy-term-reference field-label-inline clearfix"><div class="field-label">Topic tags:&nbsp;</div><div class="field-items"><div class="field-item even"><span class="textformatter-list"><a href="/topics/programs">Programs</a>, <a href="/topics/new-orleans-music">New Orleans Music</a>, <a href="/topics/help">Help</a></span></div></div></div>
+  </div>
+
+
+  
+<ul class="nav list-inline links">
+  </ul>
+  </div>
+</section>
+  </div>
+
+        </div>
+
+        <div class="inner-sidebar col-lg-2">
+            <div class="region region-sidebar">
+    <section id="block-radio-station-sidebar-ad-top"
+     class="block block-radio-station clearfix">
+
+        <h2 class="block-title">
+          </h2>
+    
+    <div class="visible-lg revive-sidebar image-responsive image-center-block margin-bottom">
+    <ins data-revive-zoneid="113 (condor)"
+     data-revive-id="e801b5ac8dc98ae1d11ea2c260a0ff0f"></ins>
+<script async src="//treehouse.wwoz.org/www/delivery/asyncjs.php"></script>
+  </div>
+
+
+  <div class="hidden-lg revive-sidebar image-responsive image-center-block margin-bottom">
+    <ins data-revive-zoneid="112 (condor)"
+     data-revive-id="e801b5ac8dc98ae1d11ea2c260a0ff0f"></ins>
+<script async src="//treehouse.wwoz.org/www/delivery/asyncjs.php"></script>
+  </div>
+</section>
+<section id="block-block-10"
+     class="block block-block clearfix">
+
+        <h2 class="block-title">
+          </h2>
+    
+  <div class="oz-fundraising">
+<div class="multi-columns-row">
+<div class="visible-lg&#10;            bg-primary&#10;            clip-bg&#10;            margin-bottom&#10;            fundraising-tile">
+<div class="fundraising-tile-image"><a href="http://join.wwoz.org/site/PageServer?pagename=Register&amp;autologin=true" target="_blank" title="Get the 'OZone monthly newsletter"><img alt="WWOZ" class="img-responsive" src="/sites/all/themes/custom/wwozui/images/OZone-email.png" /></a></div>
+
+<div class="fundraising-tile-text ">
+<div class="margin-bottom-xs margin-right-xs">Get the 'OZone monthly newsletter</div>
+
+<div class="row margin-horizontal-none"><a class="col-xs-9 btn btn-default" href="http://join.wwoz.org/site/PageServer?pagename=Register&amp;autologin=true" title="Get the 'OZone monthly newsletter">Follow 'OZ</a></div>
+</div>
+</div>
+
+<div class="hidden-lg&#10;            col-sm-6&#10;            bg-primary&#10;            clip-bg&#10;            margin-top&#10;            fundraising-tile">
+<div class="row">
+<div class="col-xs-6 fundraising-tile-image"><a href="http://join.wwoz.org/site/PageServer?pagename=Register&amp;autologin=true" target="_blank" title="Get the 'OZone monthly newsletter"><img alt="WWOZ" class="img-responsive" src="/sites/all/themes/custom/wwozui/images/OZone-email.png" /></a></div>
+
+<div class="col-xs-6 fundraising-tile-text ">
+<div class="margin-bottom-xs margin-right-xs">Get the 'OZone monthly newsletter</div>
+
+<div class="row margin-horizontal-none"><a class="col-xs-9 btn btn-default pull-right" href="http://join.wwoz.org/site/PageServer?pagename=Register&amp;autologin=true" title="Get the 'OZone monthly newsletter">Subscribe</a></div>
+</div>
+</div>
+</div>
+
+<div class="visible-lg&#10;            bg-primary&#10;            clip-bg&#10;            margin-bottom&#10;            fundraising-tile">
+<div class="fundraising-tile-image"><a href="https://www.facebook.com/wwozneworleans/" title="Facebook"><img alt="facebook logo" class="img-responsive" src="/sites/default/files/facebook-logo-90x90.png" style="width: 90px; height: 90px;" /></a></div>
+
+<div class="fundraising-tile-text ">
+<div class="margin-bottom-xs margin-right-xs">Like us on Facebook</div>
+
+<div class="row margin-horizontal-none"><a class="col-xs-9 btn btn-default" href="https://www.facebook.com/wwozneworleans/" style="background-image: none;" title="Facebook">Learn More</a></div>
+</div>
+</div>
+
+<div class="hidden-lg&#10;            col-sm-6&#10;            bg-primary&#10;            clip-bg&#10;            margin-top&#10;            fundraising-tile">
+<div class="row">
+<div class="col-xs-6 fundraising-tile-image"><a href="https://www.facebook.com/wwozneworleans/" title="Facebook"><img alt="Facebook logo" class="img-responsive" src="/sites/default/files/facebook-logo-90x90.png" style="width: 90px; height: 90px;" /></a></div>
+
+<div class="col-xs-6 fundraising-tile-text ">
+<div class="margin-bottom-xs margin-right-xs">Like us on Facebook</div>
+
+<div class="row margin-horizontal-none"><a class="col-xs-9 btn btn-default pull-right" href="https://www.facebook.com/wwozneworleans/" title="Facebook">Follow 'OZ</a></div>
+</div>
+</div>
+</div>
+
+<div class="visible-lg&#10;            bg-primary&#10;            clip-bg&#10;            margin-bottom&#10;            fundraising-tile">
+<div class="fundraising-tile-image"><a href="/wwoz-volunteers" target="_blank" title="Navy Guardians Tee"><img alt="Volunteer" class="img-responsive" src="/sites/default/files/volunteers-sidebar-90x90.jpg" style="width: 90px; height: 90px;" /></a></div>
+
+<div class="fundraising-tile-text ">
+<div class="margin-bottom-xs margin-right-xs">Volunteer at WWOZ</div>
+
+<div class="row margin-horizontal-none"><a class="col-xs-9 btn btn-default" href="/wwoz-volunteers" target="_blank" title="Volunteer">More</a></div>
+</div>
+</div>
+
+<div class="hidden-lg&#10;            col-sm-6&#10;            bg-primary&#10;            clip-bg&#10;            margin-top&#10;            fundraising-tile">
+<div class="row">
+<div class="col-xs-6 fundraising-tile-image"><a href="/wwoz-volunteers" target="_blank" title="Volunteer"><img alt="Volunteer" class="img-responsive" src="/sites/default/files/volunteers-sidebar-90x90.jpg" style="width: 90px; height: 90px;" /></a></div>
+
+<div class="col-xs-6 fundraising-tile-text ">
+<div class="margin-bottom-xs margin-right-xs">Volunteer at WWOZ</div>
+
+<div class="row margin-horizontal-none"><a class="col-xs-9 btn btn-default pull-right" href="/wwoz-volunteers" target="_blank" title="Volunteer">Learn More</a></div>
+</div>
+</div>
+</div>
+
+<div class="visible-lg&#10;            bg-primary&#10;            clip-bg&#10;            margin-bottom&#10;            fundraising-tile">
+<div class="fundraising-tile-image"><a href="/listen/player/" target="_blank" title="Listen Live"><img alt="WWOZ" class="img-responsive" src="/sites/default/files/headphones-90x90.jpg" style="width: 90px; height: 90px;" /></a></div>
+
+<div class="fundraising-tile-text ">
+<div class="margin-bottom-xs margin-right-xs">Hear it here!</div>
+
+<div class="row margin-horizontal-none"><a class="col-xs-9 btn btn-default" href="/listen/player/" target="_blank" title="Listen Live">Listen</a></div>
+</div>
+</div>
+
+<div class="hidden-lg&#10;            col-sm-6&#10;            bg-primary&#10;            clip-bg&#10;            margin-top&#10;            fundraising-tile">
+<div class="row">
+<div class="col-xs-6 fundraising-tile-image"><a href="/listen/player/" target="_blank" title="Listen Live"><img alt="WWOZ" class="img-responsive" src="/sites/default/files/headphones-90x90.jpg" style="width: 90px; height: 90px;" /></a></div>
+
+<div class="col-xs-6 fundraising-tile-text ">
+<div class="margin-bottom-xs margin-right-xs">Listen Live!</div>
+
+<div class="row margin-horizontal-none"><a class="col-xs-9 btn btn-default pull-right" href="/listen/player/" target="_blank" title="Listen Live">Hear us here</a></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="block-radio-station-sidebar-ad-bottom"
+     class="block block-radio-station clearfix">
+
+        <h2 class="block-title">
+          </h2>
+    
+    <div class="visible-lg revive-sidebar image-responsive image-center-block margin-bottom">
+    <ins data-revive-zoneid="116"
+     data-revive-id="e801b5ac8dc98ae1d11ea2c260a0ff0f"></ins>
+<script async src="//treehouse.wwoz.org/www/delivery/asyncjs.php"></script>
+  </div>
+
+
+  <div class="hidden-lg revive-sidebar image-responsive image-center-block margin-bottom">
+    <ins data-revive-zoneid="117"
+     data-revive-id="e801b5ac8dc98ae1d11ea2c260a0ff0f"></ins>
+<script async src="//treehouse.wwoz.org/www/delivery/asyncjs.php"></script>
+  </div>
+</section>
+  </div>
+        </div>
+      
+      </div>  
+
+      <div class="clear"></div>
+
+    </div>
+
+    <div class="region region-footer">
+    <div class="footer visible-md visible-lg">
+  <div class="row margin-bottom">
+  <div class="col-md-4 padding-right-none">
+    <hr/>
+  </div>
+
+  <div class="col-md-4 text-center social-icons padding-horizontal-none">
+    <a target="_blank" href="https://www.facebook.com/wwozneworleans" class="padding-left-none">
+      <img src="/sites/all/themes/custom/wwozui/images/social/facebook.png"
+           alt="WWOZ"/>
+    </a>
+
+    <a target="_blank" href="https://twitter.com/wwoz_neworleans">
+      <img src="/sites/all/themes/custom/wwozui/images/social/twitter.png"
+           alt="WWOZ"/>
+    </a>
+
+    <a target="_blank" href="http://www.flickr.com/photos/wwoz">
+      <img src="/sites/all/themes/custom/wwozui/images/social/flickr.png"
+           alt="WWOZ"/>
+    </a>
+
+    <a target="_blank" href="https://www.instagram.com/wwoz_neworleans">
+      <img src="/sites/all/themes/custom/wwozui/images/social/instagram.png"
+           alt="WWOZ"/>
+    </a>
+
+    <a target="_blank" href="http://pinterest.com/wwoz">
+      <img src="/sites/all/themes/custom/wwozui/images/social/pinterest.png"
+           alt="WWOZ"/>
+    </a>
+
+    <a target="_blank" href="http://www.youtube.com/user/wwozneworleans">
+      <img src="/sites/all/themes/custom/wwozui/images/social/you-tube.png"
+           alt="WWOZ"/>
+    </a>
+
+    <a target="_blank" href="https://vimeo.com/wwoz">
+      <img src="/sites/all/themes/custom/wwozui/images/social/vimeo.png"
+           alt="WWOZ"/>
+    </a>
+
+    <a target="_blank" href="http://join.wwoz.org/site/PageServer?pagename=Register&autologin=true" class="padding-right-none">
+      <img src="/sites/all/themes/custom/wwozui/images/social/email.png"
+           alt="WWOZ"/>
+    </a>
+  </div>
+
+  <div class="col-md-4 padding-left-none">
+    <hr/>
+  </div>
+</div>
+  <div class="row text-capitalize footer-links">
+  <div class="col-md-3 footer-col-1">
+    <button data-stream="one"
+       class="btn btn-info launch-player listen-now-btn margin-bottom">
+      Listen Now
+
+      <i class="play-arrow">
+        <img src="/sites/all/themes/custom/wwozui/images/listen-arrow.png"
+             alt="Listen Now"/>
+      </i>
+    </button>
+
+    <ul class="">
+          <li>
+      <a href="/"
+         target="">
+        Home      </a>
+    </li>
+          <li>
+      <a href="/schedule"
+         target="">
+        Program Schedule      </a>
+    </li>
+          <li>
+      <a href="/programs/show-hosts"
+         target="">
+        Show Hosts      </a>
+    </li>
+          <li>
+      <a href="/programs/playlists"
+         target="">
+        Most Recent 100 Songs      </a>
+    </li>
+          <li>
+      <a href="/calendar/live-broadcast"
+         target="">
+        Live Event Broadcasts      </a>
+    </li>
+          <li>
+      <a href="/programs/school-groove"
+         target="">
+        School Groove      </a>
+    </li>
+          <li>
+      <a href="https://vimeo.com/wwoz/videos"
+         target="">
+        WWOZ Video      </a>
+    </li>
+          <li>
+      <a href="/762-wwozs-live-video-stream"
+         target="_blank">
+        Live Video Stream      </a>
+    </li>
+  </ul>
+  </div>
+
+
+  <div class="col-md-3 footer-col-2">
+    <ul class="">
+          <li>
+      <a href="/calendar/livewire-music"
+         target="">
+        Livewire Music Calendar      </a>
+    </li>
+          <li>
+      <a href="/brass-pass-details"
+         target="">
+        Brass Passes for Jazz Fest      </a>
+    </li>
+          <li>
+      <a href="https://www.wwoz.org/station-content-types/ozone-newsletterr-archive"
+         target="">
+        'OZone Newsletter Archive      </a>
+    </li>
+          <li>
+      <a href="https://secure3.convio.net/wwoz/site/SPageServer/;jsessionid=00000000.app314a?NONCE_TOKEN=D7A87CE163F68D03DA01D887C353E38A&autologin=true&pagename=Register"
+         target="">
+        Subscribe to the 'OZone      </a>
+    </li>
+          <li>
+      <a href="/musician-resources"
+         target="">
+        Musician Resources      </a>
+    </li>
+          <li>
+      <a href="/programs/streams"
+         target="">
+        Streaming Help      </a>
+    </li>
+          <li>
+      <a href="http://www.wwoz.org/listen/player/flash/"
+         target="">
+        Old Flash Player      </a>
+    </li>
+          <li>
+      <a href="/contact-wwoz"
+         target="">
+        Contact      </a>
+    </li>
+  </ul>
+  </div>
+
+
+  <div class="col-md-3 footer-col-3">
+    <ul class="">
+          <li>
+      <a href="https://publicfiles.fcc.gov/fm-profile/wwoz"
+         target="">
+        FCC Public File      </a>
+    </li>
+          <li>
+      <a href="https://www.wwoz.org/sites/default/files/files/wwoz_2017_local_service_and_content_report.pdf"
+         target="">
+        Local Content & Service Report      </a>
+    </li>
+  </ul>
+  </div>
+
+
+  <div class="col-md-3 support clip-bg">
+    <ul class="">
+          <li>
+      <a href="https://www.wwoz.org/donate.php?src=footer"
+         target="">
+        Donate Now!      </a>
+    </li>
+          <li>
+      <a href="/brass-pass-how-we-do-jazz-fest"
+         target="">
+        Brass Pass      </a>
+    </li>
+          <li>
+      <a href="/brass-pass-pickup-info"
+         target="">
+        Brass Pass Pickup      </a>
+    </li>
+          <li>
+      <a href="/sponsor-wwoz"
+         target="">
+        Sponsor      </a>
+    </li>
+          <li>
+      <a href="/wwoz-volunteers"
+         target="">
+        Volunteer      </a>
+    </li>
+  </ul>
+  </div>
+</div>
+  <a href="http://www.jazzandheritage.org" target="_blank">
+<img class="center-block margin-bottom-sm presented-by"
+     src="/sites/all/themes/custom/wwozui/images/presented-by.png"
+     alt="WWOZ"/>
+</a>  <div class="text-center text-capitalize margin-bottom-sm">
+  <a href="/programs/streams">
+  help listening</a>
+
+  |
+
+  <a href="/about-wwoz">About WWOZ</a>
+  |
+
+  <a href="/contact-wwoz">Contact WWOZ</a>
+  |
+
+  <a href="/wwozorg-site-terms">Site Terms</a>
+  |
+
+  <a href="/wwozorg-privacy-policy">Privacy Policy</a>
+  |
+
+  <a href="/jobs-wwoz">Jobs</a></div>
+  <p class="text-center copyright">
+  All user-submitted content owned by the Poster.
+  Everything else is (C) 2001-2018 WWOZ New Orleans 90.7 FM.
+  All rights reserved.
+</p></div>
+  </div>
+
+  </div>
+  <div class="col-md-2 padding-horizontal-none oz-menu-container">
+      <div class="region region-menu">
+    
+<div class="oz-menu">
+  <ul class="nav
+           text-center-xs
+           text-center-sm
+           list-inline-xs
+           list-inline-sm
+           list-unstyled-md
+           list-unstyled-lg">
+      <li class="row hidden-xs hidden-sm ">
+  <a href="/calendar/livewire-music">
+    <span class="">
+      <div class="col-md-4">
+        <i class="toolbar-icon">
+          <img alt="WWOZ Calendar"
+               title="WWOZ Calendar"
+               src="/sites/all/themes/custom/wwozui/images/toolbar/calendar.png"
+               class=""/>
+        </i>
+      </div>
+
+      <div class="col-md-8 menu-toolbar-text">
+        <span class="toolbar-text">
+          Calendar        </span>
+      </div>
+    </span>
+  </a>
+</li>
+
+
+<li class="hidden-md hidden-lg ">
+  <a href="/calendar/livewire-music">
+    <i class="toolbar-icon">
+      <span class="">
+        <img alt="WWOZ Calendar"
+             src="/sites/all/themes/custom/wwozui/images/toolbar/calendar.png"
+             class=""/>
+      </span>
+    </i>
+  </a>
+</li>
+      <li class="row hidden-xs hidden-sm ">
+  <a href="/playlist">
+    <span class="">
+      <div class="col-md-4">
+        <i class="toolbar-icon">
+          <img alt="WWOZ Playlist"
+               title="WWOZ Playlist"
+               src="/sites/all/themes/custom/wwozui/images/toolbar/playlist.png"
+               class=""/>
+        </i>
+      </div>
+
+      <div class="col-md-8 menu-toolbar-text">
+        <span class="toolbar-text">
+          Playlist        </span>
+      </div>
+    </span>
+  </a>
+</li>
+
+
+<li class="hidden-md hidden-lg ">
+  <a href="/playlist">
+    <i class="toolbar-icon">
+      <span class="">
+        <img alt="WWOZ Playlist"
+             src="/sites/all/themes/custom/wwozui/images/toolbar/playlist.png"
+             class=""/>
+      </span>
+    </i>
+  </a>
+</li>
+      <li class="row hidden-xs hidden-sm ">
+  <a href="/donate">
+    <span class="">
+      <div class="col-md-4">
+        <i class="toolbar-icon">
+          <img alt="WWOZ Donate"
+               title="WWOZ Donate"
+               src="/sites/all/themes/custom/wwozui/images/toolbar/donate.png"
+               class=""/>
+        </i>
+      </div>
+
+      <div class="col-md-8 menu-toolbar-text">
+        <span class="toolbar-text">
+          Donate        </span>
+      </div>
+    </span>
+  </a>
+</li>
+
+
+<li class="hidden-md hidden-lg ">
+  <a href="/donate">
+    <i class="toolbar-icon">
+      <span class="">
+        <img alt="WWOZ Donate"
+             src="/sites/all/themes/custom/wwozui/images/toolbar/donate.png"
+             class=""/>
+      </span>
+    </i>
+  </a>
+</li>
+      <li class="row hidden-xs hidden-sm ">
+  <a href="#">
+    <span class="st_sharethis_custom">
+      <div class="col-md-4">
+        <i class="toolbar-icon">
+          <img alt="WWOZ Share"
+               title="WWOZ Share"
+               src="/sites/all/themes/custom/wwozui/images/toolbar/share.png"
+               class=""/>
+        </i>
+      </div>
+
+      <div class="col-md-8 menu-toolbar-text">
+        <span class="toolbar-text">
+          Share        </span>
+      </div>
+    </span>
+  </a>
+</li>
+
+
+<li class="hidden-md hidden-lg ">
+  <a href="#">
+    <i class="toolbar-icon">
+      <span class="st_sharethis_custom">
+        <img alt="WWOZ Share"
+             src="/sites/all/themes/custom/wwozui/images/toolbar/share.png"
+             class=""/>
+      </span>
+    </i>
+  </a>
+</li>
+      <li class="row hidden-xs hidden-sm ">
+  <a href="/search">
+    <span class="">
+      <div class="col-md-4">
+        <i class="toolbar-icon">
+          <img alt="WWOZ Search"
+               title="WWOZ Search"
+               src="/sites/all/themes/custom/wwozui/images/toolbar/search.png"
+               class=""/>
+        </i>
+      </div>
+
+      <div class="col-md-8 menu-toolbar-text">
+        <span class="toolbar-text">
+          Search        </span>
+      </div>
+    </span>
+  </a>
+</li>
+
+
+<li class="hidden-md hidden-lg ">
+  <a href="/search">
+    <i class="toolbar-icon">
+      <span class="">
+        <img alt="WWOZ Search"
+             src="/sites/all/themes/custom/wwozui/images/toolbar/search.png"
+             class=""/>
+      </span>
+    </i>
+  </a>
+</li>
+      <li class="row hidden-xs hidden-sm loggedout">
+  <a href="/user">
+    <span class="">
+      <div class="col-md-4">
+        <i class="toolbar-icon">
+          <img alt="WWOZ Login"
+               title="WWOZ Login"
+               src="/sites/all/themes/custom/wwozui/images/toolbar/login.png"
+               class=""/>
+        </i>
+      </div>
+
+      <div class="col-md-8 menu-toolbar-text">
+        <span class="toolbar-text">
+          Login        </span>
+      </div>
+    </span>
+  </a>
+</li>
+
+
+<li class="hidden-md hidden-lg loggedout">
+  <a href="/user">
+    <i class="toolbar-icon">
+      <span class="">
+        <img alt="WWOZ Login"
+             src="/sites/all/themes/custom/wwozui/images/toolbar/login.png"
+             class=""/>
+      </span>
+    </i>
+  </a>
+</li>
+      <li class="row hidden-xs hidden-sm loggedin">
+  <a href="/user">
+    <span class="">
+      <div class="col-md-4">
+        <i class="toolbar-icon">
+          <img alt="WWOZ Profile"
+               title="WWOZ Profile"
+               src="/sites/all/themes/custom/wwozui/images/toolbar/login.png"
+               class=""/>
+        </i>
+      </div>
+
+      <div class="col-md-8 menu-toolbar-text">
+        <span class="toolbar-text">
+          Profile        </span>
+      </div>
+    </span>
+  </a>
+</li>
+
+
+<li class="hidden-md hidden-lg loggedin">
+  <a href="/user">
+    <i class="toolbar-icon">
+      <span class="">
+        <img alt="WWOZ Profile"
+             src="/sites/all/themes/custom/wwozui/images/toolbar/login.png"
+             class=""/>
+      </span>
+    </i>
+  </a>
+</li>
+      <li class="row hidden-xs hidden-sm loggedin">
+  <a href="/user/logout">
+    <span class="">
+      <div class="col-md-4">
+        <i class="toolbar-icon">
+          <img alt="WWOZ Log out"
+               title="WWOZ Log out"
+               src="/sites/all/themes/custom/wwozui/images/toolbar/logout.png"
+               class=""/>
+        </i>
+      </div>
+
+      <div class="col-md-8 menu-toolbar-text">
+        <span class="toolbar-text">
+          Log out        </span>
+      </div>
+    </span>
+  </a>
+</li>
+
+
+<li class="hidden-md hidden-lg loggedin">
+  <a href="/user/logout">
+    <i class="toolbar-icon">
+      <span class="">
+        <img alt="WWOZ Log out"
+             src="/sites/all/themes/custom/wwozui/images/toolbar/logout.png"
+             class=""/>
+      </span>
+    </i>
+  </a>
+</li>
+  </ul>
+</div>
+  </div>
+  </div>
+</div>
+
+
+  </div>
+
+  <script src="https://www.wwoz.org/sites/default/files/js/js_L50O_PWoAuMOxVjnzZCkNSSmI0kFwhZsO1_KS8WnGKw.js"></script>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"ef610f51b2","applicationID":"23596624","transactionName":"ZgdWbUtZVhIDV0ZbWl9NdVpNUVcPTVpdVlBuElVeXGdOCAdD","queueTime":0,"applicationTime":170,"atts":"SkBVGwNDRRw=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+
+
+</html>

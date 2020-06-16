@@ -1,0 +1,245 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-gb" lang="en-gb" >
+<head>
+  <base href="http://www.wpfwfm.org/radio/about-us/contact-us" />
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="keywords" content="streaming jazz radio, streaming zydeco, streaming oldies, streaming latin jazz" />
+  <meta name="description" content="Washington DC, listener supported community radio station dedicated to Jazz and Justice streaming live." />
+  <meta name="generator" content="Joomla! - Open Source Content Management" />
+  <title>Contact Us</title>
+  <link rel="stylesheet" href="http://www.wpfwfm.org/radio/modules/mod_jt_menumatic/css/horizontal-menumatic.css" type="text/css" />
+  <script src="/radio/media/system/js/mootools-core.js" type="text/javascript"></script>
+  <script src="/radio/media/system/js/core.js" type="text/javascript"></script>
+  <script src="/radio/media/system/js/caption.js" type="text/javascript"></script>
+  <script src="/radio/templates/wpfwtemplatedefault/js/scripts.js" type="text/javascript"></script>
+  <script src="/radio/templates/wpfwtemplatedefault/js/my_son_of_suckerfish.js" type="text/javascript"></script>
+  <script src="/radio/includes/open_player.js" type="text/javascript"></script>
+  <script src="http://www.wpfwfm.org/radio/modules/mod_jt_menumatic/js/MenuMatic_0.68.3.js" type="text/javascript"></script>
+  <script type="text/javascript">
+window.addEvent('load', function() {
+				new JCaption('img.caption');
+			});
+  </script>
+
+<link rel="stylesheet" href="/radio/templates/system/css/system.css" type="text/css" />
+<link rel="stylesheet" href="/radio/templates/system/css/general.css" type="text/css" />
+<link rel="stylesheet" href="/radio/templates/wpfwtemplatedefault/css/template.css" type="text/css" />
+<link rel="stylesheet" href="/radio/templates/wpfwtemplatedefault/css/suckerfish.css" type="text/css" />
+<!--[if lt IE 9]>
+<script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE9.js"></script>/radio/templates/wpfwtemplatedefault/
+<![endif]-->
+</head>
+<body class="supportPage">
+	<div id="searchArea">
+		<a href="/radio/index.php"><img class="logo" src="/radio/templates/wpfwtemplatedefault/images/wpfwLogo.png" alt="WPFW Logo" /></a>
+		
+         <div style="float:right;padding:5px;"></div>
+        <!-- <form action="#"><p>
+			<input type="text" value="" class="searchBox" />
+			<input type="submit" value="Search" class="searchButton" /></p>
+		</form>-->
+	</div>
+<!--	<div id="gradLeft"></div>
+	<div id="gradRight"></div> -->
+	<div id="navBar">
+		<div id="top_menu">
+            
+
+<ul id="nav" class="menu">
+<li id="item-35"><a href="/radio/" >Home</a></li><li id="item-26" class="deeper parent"><a href="/radio/" >Listen!</a><ul><li id="item-3"><a href="javascript:win1()" >Listen Live! Flashplayer</a></li><li id="item-21"><a href="/radio/listen-live/listen-live-other-players" >Listen Live! Other Players  </a></li></ul></li><li id="item-4" class="deeper parent"><a href="#" >Programming</a><ul><li id="item-5"><a href="/radio/programming/schedule-grid" >Schedule Grid</a></li><li id="item-7"><a href="/radio/programming/archived-shows" >Archived Shows</a></li><li id="item-6"><a href="/radio/programming/playlists" >Playlists</a></li><li id="item-8"><a href="/radio/programming/todays-playlist" >Today's Playlist</a></li></ul></li><li id="item-10" class="deeper parent"><a href="/radio/support-us" >Support Us</a><ul><li id="item-139"><a href="/radio/support-us/donate" >Donate</a></li><li id="item-20"><a href="/radio/support-us/become-a-member" >Become a Member</a></li><li id="item-16"><a href="/radio/support-us/circle-of-excellence" >Circle of Excellence</a></li><li id="item-15"><a href="/radio/support-us/volunteer" >Volunteer</a></li><li id="item-11"><a href="/radio/support-us/vehicle-donation-program" >Vehicle Donation</a></li><li id="item-22"><a href="/radio/support-us/support-our-supporters" >Support our Supporters</a></li><li id="item-27"><a href="/radio/support-us/thank-you-gifts" >Thank You Gifts</a></li><li id="item-28"><a href="/radio/support-us/media-sponsorship" >Media Sponsorship</a></li></ul></li><li id="item-12" class="active deeper parent"><a href="#" >About Us</a><ul><li id="item-138"><a href="/radio/about-us/cpb-info" >CPB Information</a></li><li id="item-135"><a href="/radio/about-us/jobs" >Jobs</a></li><li id="item-136"><a href="/radio/about-us/donor-privacy-policy" >Donor Privacy and Refund Policy</a></li><li id="item-19" class="current active"><a href="/radio/about-us/contact-us" >Contact Us</a></li><li id="item-13"><a href="/radio/about-us/our-mission" >Our Mission</a></li><li id="item-17"><a href="/radio/about-us/our-history" >Our History</a></li><li id="item-23"><a href="/radio/about-us/local-station-board" >Local Station Board</a></li><li id="item-24"><a href="/radio/about-us/community-advisory-board" >Community Advisory Board</a></li><li id="item-25"><a href="/radio/about-us/eeo-public-file" >EEO Public File</a></li><li id="item-33"><a href="/radio/about-us/financials" >Financials</a></li></ul></li><li id="item-9" class="deeper parent"><a href="/radio/events" >Events &amp; Meetings</a><ul><li id="item-131"><a href="http://www.pacifica.org/pnb_calendar.php" target="_blank" >National Meetings</a></li><li id="item-132"><a href="/radio/events/local-station-board" >Local Station Board</a></li><li id="item-133"><a href="/radio/events/community-advisory-board" target="_blank" >Community Advisory Board</a></li><li id="item-31"><a href="/radio/lsb-elections/faq-lsb" >FAQ - LSB</a></li></ul></li></ul>
+<script type="text/javascript">
+        window.addEvent('domready', function() {            
+            var myMenu = new MenuMatic({ 
+				orientation:'horizontal',
+				opacity:'95',
+				hideDelay:'1000',				
+				duration:'600',
+				effect:'slide & fade',
+				physics:Fx.Transitions.Pow.easeOut			});         
+        });     
+</script>
+<div style="display:none"><a href="http://jtemplate.ru" target="_blank">jtemplate.ru - free extensions for joomla</a></div>
+
+		</div>
+	</div>
+	<div id="subNav">
+    
+		
+	</div>
+	<div id="wrapper">
+		<div id="leftCol">
+			<div id="pathway">
+				
+			</div>
+
+            <div class="item-page">
+
+	<h2>
+			Contact Us		</h2>
+
+
+
+
+
+
+
+
+<h3><strong>MAIL</strong></h3>
+<p>1990 K Street NW; Suite 14R<br />Washington DC 20006<br /><br />Make checks payable to:<br /> WPFW<br />Attn: Membership Department</p>
+<p>&nbsp;</p>
+<p><strong>Fax:</strong>(202) 296-3040</p>
+<p>PHONE (202) 588-0999 Ext. 344</p>
+<p><br />Main Office - Monday-Friday 9am-5pm:<br /> (202) 588-0999 Ext. 0</p>
+<p>&nbsp;</p>
+<p>On-The-Air Studio:<br />(202) 588-0893<br /><br />Membership Hot-Line:<br />(202) 588-0999 Ext. 344<br /><script type='text/javascript'>
+ <!--
+ var prefix = '&#109;a' + 'i&#108;' + '&#116;o';
+ var path = 'hr' + 'ef' + '=';
+ var addy57223 = 'm&#101;mb&#101;rsh&#105;p' + '&#64;';
+ addy57223 = addy57223 + 'wpfw' + '&#46;' + '&#111;rg';
+ var addy_text57223 = 'm&#101;mb&#101;rsh&#105;p' + '&#64;' + 'wpfw' + '&#46;' + '&#111;rg';
+ document.write('<a ' + path + '\'' + prefix + ':' + addy57223 + '\'>');
+ document.write(addy_text57223);
+ document.write('<\/a>');
+ //-->\n </script><script type='text/javascript'>
+ <!--
+ document.write('<span style=\'display: none;\'>');
+ //-->
+ </script>This email address is being protected from spambots. You need JavaScript enabled to view it.
+ <script type='text/javascript'>
+ <!--
+ document.write('</');
+ document.write('span>');
+ //-->
+ </script><br /><br /><a href="/radio/about-us/contact-us?id=16">Click here</a> <strong>for Complete Staff List</strong></p>
+<p>&nbsp;</p>
+<p>Like us on <a href="http://www.facebook.com/#%21/pages/WPFW/21123651187">Facebook.</a></p>
+<p>Follow us on <a href="http://twitter.com/#%21/WPFWDC"> Twitter</a></p>
+<p>&nbsp;</p>
+<p>** Submission of a PSA (public service announcement) must be made from an non-profit organzation only and submitted no later than 2-3 weeks prior to the event.</p>
+<p>&nbsp;</p>
+<h3>Calendars</h3>
+<p>&nbsp;</p>
+<p>Jazz Calendar: <br /><br />Blues Calendar: email: <script type='text/javascript'>
+ <!--
+ var prefix = '&#109;a' + 'i&#108;' + '&#116;o';
+ var path = 'hr' + 'ef' + '=';
+ var addy88805 = 'bl&#117;&#101;sc&#97;l&#101;nd&#97;r' + '&#64;';
+ addy88805 = addy88805 + 'c&#111;mc&#97;st' + '&#46;' + 'n&#101;t';
+ var addy_text88805 = 'bl&#117;&#101;sc&#97;l&#101;nd&#97;r' + '&#64;' + 'c&#111;mc&#97;st' + '&#46;' + 'n&#101;t';
+ document.write('<a ' + path + '\'' + prefix + ':' + addy88805 + '\'>');
+ document.write(addy_text88805);
+ document.write('<\/a>');
+ //-->\n </script><script type='text/javascript'>
+ <!--
+ document.write('<span style=\'display: none;\'>');
+ //-->
+ </script>This email address is being protected from spambots. You need JavaScript enabled to view it.
+ <script type='text/javascript'>
+ <!--
+ document.write('</');
+ document.write('span>');
+ //-->
+ </script><br /><br />R &amp; B Oldies Calendar: <script type='text/javascript'>
+ <!--
+ var prefix = '&#109;a' + 'i&#108;' + '&#116;o';
+ var path = 'hr' + 'ef' + '=';
+ var addy85204 = 'm&#105;ll&#105;&#101;wpfw' + '&#64;';
+ addy85204 = addy85204 + 'gm&#97;&#105;l' + '&#46;' + 'c&#111;m';
+ var addy_text85204 = 'm&#105;ll&#105;&#101;wpfw' + '&#64;' + 'gm&#97;&#105;l' + '&#46;' + 'c&#111;m';
+ document.write('<a ' + path + '\'' + prefix + ':' + addy85204 + '\'>');
+ document.write(addy_text85204);
+ document.write('<\/a>');
+ //-->\n </script><script type='text/javascript'>
+ <!--
+ document.write('<span style=\'display: none;\'>');
+ //-->
+ </script>This email address is being protected from spambots. You need JavaScript enabled to view it.
+ <script type='text/javascript'>
+ <!--
+ document.write('</');
+ document.write('span>');
+ //-->
+ </script><br /><br />Social Justice Calendar:&nbsp; <a href="http://www.ips-dc.org/socialjusticecalendar/">http://www.ips-dc.org/socialjusticecalendar/</a><br /><br />guidelines for submissions:</p>
+<p><a href="https://archive.org/download/WpfwSocialJusticeCalendar/GuidelinesForTheSocialJusticeCalendar.pdf" target="_blank">https://archive.org/download/WpfwSocialJusticeCalendar/GuidelinesForTheSocialJusticeCalendar.pdf</a></p>
+<p>&nbsp;</p>
+<p><strong>For information about visiting us by metro or bus</strong> please visit:<br /><a href="http://www.wmata.com/" target="_blank">http://www.wmata.com/</a></p>
+<p>&nbsp;</p>
+<p><br /> <strong><br /></strong></p> 
+	
+</div>
+
+           
+			
+		</div>
+		<div id="rightCol">
+        <script type="text/javascript">
+	function iFrameHeight() {
+		var h = 0;
+		if (!document.all) {
+			h = document.getElementById('blockrandom').contentDocument.height;
+			document.getElementById('blockrandom').style.height = h + 60 + 'px';
+		} else if (document.all) {
+			h = document.frames('blockrandom').document.body.scrollHeight;
+			document.all.blockrandom.style.height = h + 20 + 'px';
+		}
+	}
+</script>
+
+<iframe onload="iFrameHeight()"	id="blockrandom"
+	name=""
+	src="http://confessor.wpfwfm.org/playlist/pl_current_mod.php"
+	width="100%"
+	height="225"
+	scrolling="no"
+	frameborder="1"
+	class="wrapper" >
+	No Iframes</iframe>
+
+
+<div class="custom"  >
+	<p><a onmouseover="self.status='Open A Window'; return true;" href="javascript:win1()"><img src="/radio/images/stories/listenLive-2.png" alt="listenLive-2" width="289" height="58" /></a></p></div>
+
+        
+			
+			
+				
+			
+			
+		</div>
+
+	</div><!-- end of div#wrapper -->
+	<div id="footer">
+		
+
+<div class="custom"  >
+	<div>
+<table style="width: 100%;" border="0" cellspacing="5" cellpadding="5">
+<tbody>
+<tr>
+<td style="width: 33%;" align="center" valign="middle">
+<ul>
+<li><a href="/radio/programming/schedule-grid">Schedule</a></li>
+<li><a href="/radio/events/week.listevents/2018/08/27/-">Events</a></li>
+<li><a href="/radio/programming/playlists">Playlist</a></li>
+<li><a href="/radio/about-us/local-station-board">LSB</a></li>
+<li><a href="https://publicfiles.fcc.gov/fm-profile/wpfw">Online Public File</a></li>
+<li><a href="/radio/about-us/our-mission">About Us</a></li>
+<li><a href="/radio/about-us/contact-us">Contact Us</a></li>
+<li><a href="/radio/support-us/vehicle-donation-program">Donate</a></li>
+</ul>
+</td>
+<td style="width: 33%;" align="center" valign="middle">
+<p style="text-align: center;"><strong>WPFW 89.3 FM</strong><br />1990 K St NW; Suite 14R Washington, DC 20006</p>
+</td>
+<td style="width: 33%;" align="center" valign="middle"><a href="http://www.facebook.com/pages/Washington-DC/WPFW/21123651187" target="_blank"><img style="display: block; margin-left: auto; margin-right: auto;" src="/radio/images/stories/Facebook_logo.png" alt="Facebook_logo" width="59" height="59" border="0" /></a></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div><span><a href="http://www.facebook.com/pages/WPFW/108483672508771" target="_blank">&nbsp;</a><br /></span></div></div>
+
+	</div>
+	<script type="text/javascript"> Cufon.now(); </script>
+</body>
+</html>

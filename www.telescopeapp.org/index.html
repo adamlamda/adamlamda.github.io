@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if IE 8]> <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]> ><! <![endif]-->
+<html class='no-js' lang='en'>
+  <!-- <![endif] -->
+  <head>
+    <meta charset='utf-8'>
+    <meta name='google' value='notranslate'>
+    <meta content='en' http-equiv='Content-Language'>
+    <meta content='IE=edge,chrome=1' http-equiv='X-UA-Compatible'>
+    <title>Telescope: Build your own Hacker News, Reddit, or Product Hunt.</title>
+    <meta content='' name='description'>
+    <meta content='width=device-width, initial-scale=1.0' name='viewport'>
+    <link href='http://www.telescopeapp.org/images/favicon.ico' rel='shortcut icon'>
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,200italic,300italic,400italic,600italic,700italic,900italic' rel='stylesheet' type='text/css'>
+    <link href='http://www.telescopeapp.org/stylesheets/screen.css' rel='stylesheet'>
+    <link href='http://cdn.jsdelivr.net/chartist.js/latest/chartist.min.css' rel='stylesheet'>
+  </head>
+  <body class='home'>
+    <div class='top'>
+      <canvas id='space'></canvas>
+      <div class='header'>
+        <h2 class='header-logo'>
+          <a href='index.html'>
+            <img alt='Telescope' src='http://www.telescopeapp.org/images/telescope-logo-square.png'>
+          </a>
+        </h2>
+        <ul class='header-nav'>
+          <li>
+            <a href='https://github.com/TelescopeJS/Telescope'>GitHub</a>
+          </li>
+          <li>
+            <a href='http://slack.telescopeapp.org/'>Slack</a>
+          </li>
+          <li>
+            <a href='http://www.telescopeapp.org/blog'>Blog</a>
+          </li>
+          <li class='social-buttons'>
+            <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.telescopeapp.org" data-text="Telescope is a free open-source app that makes it easy to launch your own community" data-via="Telescopeapp" data-dnt="true">Tweet</a>
+            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+            
+            <iframe src="https://ghbtns.com/github-btn.html?user=telescopejs&repo=telescope&type=star&count=true" frameborder="0" scrolling="0" width="95px" height="20px"></iframe>
+          </li>
+        </ul>
+      </div>
+      <div class='hero'>
+        <div class='container hero-container'>
+          <h1 class='hero-logo'>
+            <img alt='Telescope' src='http://www.telescopeapp.org/images/logo.png'>
+            <span class='nova'>NOVA</span>
+          </h1>
+          <h2 class='hero-tagline'>The React + Meteor app platform</h2>
+          <div class='hero-actions'>
+            <div class='hero-action get-started'>
+              <a class='button hero-button' href='http://nova-docs.telescopeapp.org/'>
+                <span class='bg1'></span>
+                <span class='bg2'></span>
+                <span class='button-content'>
+                  <span class='action'>
+                    <span>Get Started</span>
+                  </span>
+                </span>
+              </a>
+            </div>
+            <div class='hero-action demo'>
+              <a class='button hero-button' href='http://demo.telescopeapp.org'>
+                <span class='bg1'></span>
+                <span class='bg2'></span>
+                <span class='button-content'>
+                  <span class='action'>
+                    <span>Launch Demo</span>
+                  </span>
+                </span>
+              </a>
+            </div>
+            <!-- .or -->
+            <!-- .hero-action.install -->
+            <!-- %pre -->
+            <!-- %code -->
+            <!-- meteor add telescope:core -->
+            <!-- .install-meteor Don't have Meteor? <a href="https://www.meteor.com/install">Get started here</a>. -->
+          </div>
+          <!-- .hero-screenshot -->
+          <!-- .inner -->
+          <!-- %img{src: "/images/home/watchjudge.jpg"} -->
+          <!-- .hero-legend -->
+          <!-- %a{href: "http://watchjudge.com/"} Watch Judge -->
+          <!-- is powered by Telescope. -->
+        </div>
+      </div>
+      <!-- =partial('partials/actions') -->
+    </div>
+    <div class='main'>
+      <section class='intro'>
+        <div class='container intro-container'>
+          <div class='intro-contents'>
+            <p>Telescope Nova is a <strong>free</strong>, <strong>open-source</strong> app platform built with <a href="https://facebook.github.io/react/">React</a> and powered by <a href="https://www.meteor.com/">Meteor</a> on the back-end. </p>
+            
+            <p>Nova provides simple building blocks such as posts, comments, forms, and modals, and makes it easy to quickly customize them to build modern, social web apps.</p>
+          </div>
+        </div>
+      </section>
+      <!-- =partial('partials/diagram') -->
+      <section class='features-section'>
+        <div class='container'>
+          <div class='section-heading'>Features</div>
+          <div class='features'>
+            <div class='feature'>
+              <h4 class='feature-name'>
+                Extensible Components
+              </h4>
+              <div class='feature-description'>
+                <p>Easily replace the entire front-end, or pick and choose which components to customize.</p>
+              </div>
+            </div>
+            <div class='feature'>
+              <h4 class='feature-name'>
+                Custom Fields
+              </h4>
+              <div class='feature-description'>
+                <p>Extend posts, comments, and users with your own custom fields.</p>
+              </div>
+            </div>
+            <div class='feature'>
+              <h4 class='feature-name'>
+                Callback Hooks
+              </h4>
+              <div class='feature-description'>
+                <p>Nova provides multiple callback hooks so you never have to modify its core.</p>
+              </div>
+            </div>
+            <div class='feature'>
+              <h4 class='feature-name'>
+                Internationalized
+              </h4>
+              <div class='feature-description'>
+                <p>Nova is internationalized using <a href="https://github.com/yahoo/react-intl">react-intl</a>.</p>
+              </div>
+            </div>
+            <div class='feature'>
+              <h4 class='feature-name'>
+                Auto-generated Forms
+              </h4>
+              <div class='feature-description'>
+                <p>Forms are generated from your data schema; no front-end coding required.</p>
+              </div>
+            </div>
+            <div class='feature'>
+              <h4 class='feature-name'>
+                Social Login
+              </h4>
+              <div class='feature-description'>
+                <p>Let users log in with all the most common oAuth providers.</p>
+              </div>
+            </div>
+            <div class='feature'>
+              <h4 class='feature-name'>
+                Built-in Emails
+              </h4>
+              <div class='feature-description'>
+                <p>Nova features a built-in email templating system for notifications and auto-generated newsletters.</p>
+              </div>
+            </div>
+            <div class='feature'>
+              <h4 class='feature-name'>
+                Reusable Front-end
+              </h4>
+              <div class='feature-description'>
+                <p>If you ever outgrow Nova, just keep your React components and switch in your own back-end.</p>
+              </div>
+            </div>
+            <div class='feature'>
+              <h4 class='feature-name'>
+                Powerful Filters
+              </h4>
+              <div class='feature-description'>
+                <p>Search your data by category, keyword, or date, or add your own custom filters.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- =partial('partials/screencasts') -->
+      <section class='examples'>
+        <div class='container examples-container'>
+          <h2 class='section-heading'>Built With Telescope</h2>
+          <h4 class='section-subheading'>A small selection of projects</h4>
+          <div class='sites'>
+            <div class='site'>
+              <div class='site-screenshot'>
+                <a href='http://crater.io/'>
+                  <img src='http://www.telescopeapp.org/images/showcase/crater2.jpg'>
+                </a>
+              </div>
+              <div class='site-content'>
+                <h4 class='site-title'>
+                  <a href='http://crater.io/'>Crater.io</a>
+                </h4>
+                <div class='site-description'>
+                  <p>A community to discuss all things Meteor.</p>
+                </div>
+                <div class='site-actions'></div>
+                <a class='button-simple' href='http://crater.io/'>Launch Site</a>
+                <!-- %a.button-simple{href: site.repo} Get Code -->
+              </div>
+            </div>
+            <div class='site'>
+              <div class='site-screenshot'>
+                <a href='http://sidebar.io/'>
+                  <img src='http://www.telescopeapp.org/images/showcase/sidebar2.png'>
+                </a>
+              </div>
+              <div class='site-content'>
+                <h4 class='site-title'>
+                  <a href='http://sidebar.io/'>Sidebar</a>
+                </h4>
+                <div class='site-description'>
+                  <p>Sidebar aggregates the five best design links of the day.</p>
+                </div>
+                <div class='site-actions'></div>
+                <a class='button-simple' href='http://sidebar.io/'>Launch Site</a>
+                <!-- %a.button-simple{href: site.repo} Get Code -->
+              </div>
+            </div>
+            <div class='site'>
+              <div class='site-screenshot'>
+                <a href='http://demo.citizenlab.co/'>
+                  <img src='http://www.telescopeapp.org/images/showcase/citizenlab.jpg'>
+                </a>
+              </div>
+              <div class='site-content'>
+                <h4 class='site-title'>
+                  <a href='http://demo.citizenlab.co/'>CitizenLab</a>
+                </h4>
+                <div class='site-description'>
+                  <p>Co-create your city</p>
+                </div>
+                <div class='site-actions'></div>
+                <a class='button-simple' href='http://demo.citizenlab.co/'>Launch Site</a>
+                <!-- %a.button-simple{href: site.repo} Get Code -->
+              </div>
+            </div>
+            <div class='site'>
+              <div class='site-screenshot'>
+                <a href='https://www.smarthosts.org/'>
+                  <img src='http://www.telescopeapp.org/images/showcase/smarthosts.png'>
+                </a>
+              </div>
+              <div class='site-content'>
+                <h4 class='site-title'>
+                  <a href='https://www.smarthosts.org/'>SmartHosts</a>
+                </h4>
+                <div class='site-description'>
+                  <p>Where the world&#39;s smartest vacation rental pros hangout.</p>
+                </div>
+                <div class='site-actions'></div>
+                <a class='button-simple' href='https://www.smarthosts.org/'>Launch Site</a>
+                <!-- %a.button-simple{href: site.repo} Get Code -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class='reactmeteor'>
+        <div class='container reactmeteor-container'>
+          <h2 class='section-heading'>Powered By Open-Source</h2>
+          <div class='technologies'>
+            <div class='technology react'>
+              <a class='technology-logo' href='https://facebook.github.io/react/'>
+                <img alt='React' src='http://www.telescopeapp.org/images/home/react-logo.png'>
+              </a>
+              <h3>React</h3>
+              <p>Telescope's front-end is built with React's modular, maintainable components.</p>
+            </div>
+            <div class='technology graphql'>
+              <a class='technology-logo' href='https://graphql.org'>
+                <img alt='GraphQL' src='http://www.telescopeapp.org/images/home/graphql-logo.png'>
+              </a>
+              <h3>GraphQL</h3>
+              <p>Telescope is built on top of a flexible GraphQL API.</p>
+            </div>
+            <div class='technology meteor'>
+              <a class='technology-logo' href='https://meteor.com'>
+                <img alt='Meteor' src='http://www.telescopeapp.org/images/home/meteor-logo.png'>
+              </a>
+              <h3>Meteor</h3>
+              <p>Meteor serves as Telescope's back-bone and built system.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- =partial('partials/use_cases') -->
+      <!-- %section.intro -->
+      <!-- %h3 What Is Telescope? -->
+      <!-- %p -->
+      <!-- Telescope is an open-source app that lets you easily set up your own online community. -->
+      <!-- It's built with <a href="http://meteor.com" target="_blank">Meteor</a>, a real-time Javascript framework, and you can use it to create your own discussion board, social news site (like <a href="http://news.ycombinator.com" target="_blank">Hacker News</a> or <a href="http://reddit.com">Reddit</a>), or collaboration space. -->
+      <section class='brick-by-brick-section'>
+        <div class='container'>
+          <div class='brick-by-brick'>
+            <h2 class='section-heading'>Our Free Guide To Building Awesome Communities</h2>
+            <div class='image'>
+              <a href='http://communitybuildingguide.com'>
+                <img alt='Brick by Brick: A free guide to building awesome communities' class='medium' src='http://www.telescopeapp.org/images/city2.svg'>
+              </a>
+            </div>
+            <div class='description'>
+              <p>Telescope will help you launch your site, but it&#39;s up to you to make it <em>successful</em>.</p>
+              
+              <p>That&#39;s why we&#39;ve written <em>Brick By Brick</em>, a <strong>free guide</strong> that will walk you through everything you need to do to grow an active, engaged community. </p>
+              <div class='actions'>
+                <a class='button-simple' href='http://communitybuildingguide.com'>Read It Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- =partial('partials/support') -->
+      <section class='faq-section'>
+        <div class='container'>
+          <div class='section-heading'>FAQ</div>
+          <div class='questions'>
+            <div class='question'>
+              <h3 class='question-heading'>What do I need to know to use Nova?</h3>
+              <div class='question-answer'>
+                <p>Nova makes building apps easier, but it does require some knowledge of  the Node and React ecosystems. You should also be comfortable with using the command line and Git. In other words, it&#39;s aimed at intermediate-level developers.</p>
+              </div>
+            </div>
+            <div class='question'>
+              <h3 class='question-heading'>What can I build with Nova?</h3>
+              <div class='question-answer'>
+                <p>The best use case for Nova is any type of app organized around  a feed or database of user-generated content. Think Instagram, Product Hunt, or even AirBnB.  That being said you can also use Nova&#39;s various modules to help build anything at all if  you know Meteor and React. </p>
+              </div>
+            </div>
+            <div class='question'>
+              <h3 class='question-heading'>How much does Nova cost to deploy?</h3>
+              <div class='question-answer'>
+                <p>You should budget around $10/month for a Digital Ocean droplet,  plus $20/month for MongoDB database hosting. Note that Nova <em>cannot</em> be hosted on shared hosting.</p>
+              </div>
+            </div>
+            <div class='question'>
+              <h3 class='question-heading'>Where can I get help with Nova?</h3>
+              <div class='question-answer'>
+                <p>Check out the <a href="http://slack.telescopeapp.org">Nova Slack group</a>. If you&#39;re looking to hire someone, you can post in the #jobs channels of the  Slack group or in the <a href="http://www.reactiflux.com/">Reactiflux chat</a> to find a React developer.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- =partial('partials/features') -->
+      <!-- %section.blog -->
+      <!-- %h3 The Telescope Blog -->
+      <!-- %p Keep up with the latest Telescope news on <a href="/blog">our blog</a>. -->
+      <!-- %section.discuss -->
+      <!-- %h3 Questions, Ideas, Feedback… -->
+      <!-- %p Discuss Telescope and file bugs over on <a href="https://github.com/SachaG/Telescope/issues?state=open">GitHub</a>. -->
+      <!-- =partial('partials/book') -->
+    </div>
+    <section class='footer'>
+      <div class='container footer-container'>
+        <div class='footer-content'>
+          <div class='footer-section'>
+            <h4 class='footer-heading'>About</h4>
+            <div class='footer-links'>
+              <ul>
+                <li>
+                  <a class='footer-link' href='http://www.telescopeapp.org/about'>About</a>
+                </li>
+                <li>
+                  <a class='footer-link' href='http://www.telescopeapp.org/team'>Team</a>
+                </li>
+                <li>
+                  <a class='footer-link' href='http://www.telescopeapp.org/blog'>Blog</a>
+                </li>
+                <li>
+                  <a class='footer-link' href='https://trello.com/b/dwPR0LTz/nova-roadmap'>Roadmap</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class='footer-section'>
+            <h4 class='footer-heading'>Community</h4>
+            <div class='footer-links'>
+              <ul>
+                <li>
+                  <a class='footer-link' href='http://slack.telescopeapp.org'>Telescope on Slack</a>
+                </li>
+                <li>
+                  <a class='footer-link' href='http://github.com/TelescopeJS/Telescope'>GitHub</a>
+                </li>
+                <li>
+                  <a class='footer-link' href='http://twitter.com/telescopeapp'>Follow on Twitter</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class='footer-section'>
+            <h4 class='footer-heading'>Resources</h4>
+            <div class='footer-links'>
+              <ul>
+                <li>
+                  <a class='footer-link' href='http://nova-docs.telescopeapp.org'>Documentation</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class='footer-section'>
+            <h4 class='footer-heading'>Credits</h4>
+            <p>Telescope lens icon by <a href="http://www.prekesh.com/">Prekesh Chavda</a>.</p>
+            
+            <p>Constellation background by <a href="http://codepen.io/acauamontiel/pen/mJdnw">Acauã Montiel</a>.</p>
+          </div>
+        </div>
+      </div>
+      <!-- .footer-chart -->
+      <!-- %h2.section-heading Project Stats -->
+      <!-- %h4.section-subheading For the last 60 days -->
+      <!-- .footer-chart-inner -->
+      <!-- %canvas#myChart{width: '600px', height: '150px'} -->
+      <!-- .chartjs-tooltips -->
+      <!-- .tooltip-divider -->
+      <!-- .tooltips -->
+      <!-- - (1..4).each_with_index do |e, i| -->
+      <!-- .tooltip -->
+      <!-- %span.tooltip-label -->
+      <!-- %span.tooltip-value -->
+    </section>
+    <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js'></script>
+    <!-- %script{:src => "/javascripts/vendor/jquery-1.8.0.min.js"} -->
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js'></script>
+    <script src='http://static.getclicky.com/js' type='text/javascript'></script>
+    <script>
+      window.jQuery || document.write('<script src="http://www.telescopeapp.org/js/vendor/jquery-1.8.0.min.js"><\/script>')
+      try{ clicky.init(100538336); }catch(e){}
+    </script>
+    <noscript>
+      <p>
+        <img alt='Clicky' height='1' src='http://in.getclicky.com/100538336ns.gif' width='1'>
+      </p>
+    </noscript>
+    <script src='http://www.telescopeapp.org/javascripts/vendor/jquery.fitvids.js'></script>
+    <script src='http://www.telescopeapp.org/javascripts/vendor/chart.js'></script>
+    <script src='http://www.telescopeapp.org/javascripts/vendor/moment.min.js'></script>
+    <script src='http://www.telescopeapp.org/javascripts/scripts.js'></script>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      
+      ga('create', 'UA-45269518-5', 'auto');
+      ga('send', 'pageview');
+    </script>
+  </body>
+</html>

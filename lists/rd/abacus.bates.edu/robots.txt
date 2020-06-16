@@ -1,0 +1,28 @@
+User-agent: *
+Disallow: /pubs/mag/00-Winter/navy.html
+Disallow: /pubs/mag/00-Winter/editor.html
+Disallow: /Faculty/wmarchive/Athos/Philotheou/images 
+Disallow: /Faculty/wmarchive
+Disallow: /Library/aboutladd/departments/special
+Disallow: /library/aboutladd/departments/special
+Disallow: /muskie-archives/rawXML
+Disallow: /Library-test
+Disallow: /Library/Includes
+Disallow: /library/Includes
+Disallow: /Library/Templates 
+Disallow: /library/Templates 
+Disallow: /Library/intranet
+Disallow: /library/intranet
+Disallow: /Library/Merge
+Disallow: /library/Merge
+Disallow: /Library/Forms 
+Disallow: /library/Forms 
+Disallow: /cgi-bin/
+Disallow: /php-bin/
+Disallow: /awk-bin/
+Disallow: /go/
+Disallow: /ils/intranet/helpdesk
+Disallow: *.LCK$
+
+User-agent: MOMspider           # The Multi-Owner Maintenance Spider
+Disallow: /cgi-bin/             #     Script files

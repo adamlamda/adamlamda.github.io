@@ -1,0 +1,1171 @@
+<!DOCTYPE HTML><html lang="en-US" xmlns:og="http://ogp.me/ns#" xmlns:fb="http://ogp.me/ns/fb#">
+
+<head>
+<meta charset="UTF-8" />
+<link rel="profile" href="http://gmpg.org/xfn/11" />
+
+<!-- Title -->
+<title>Hot 106.3 | WWKX-FM</title><link rel='dns-prefetch' href='//www.hot1063.com' />
+<link rel='dns-prefetch' href='//see-p-elb-01.tritondigital.net' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="canonical" href="http://www.hot1063.com/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.3\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.3\/svg\/","svgExt":".svg","source":{"wpemoji":"http:\/\/www.hot1063.com\/wp-includes\/js\/wp-emoji.js?ver=4.9.1","twemoji":"http:\/\/www.hot1063.com\/wp-includes\/js\/twemoji.js?ver=4.9.1"}};
+			( function( window, document, settings ) {
+	var src, ready, ii, tests;
+
+	/*
+	 * Create a canvas element for testing native browser support
+	 * of emoji.
+	 */
+	var canvas = document.createElement( 'canvas' );
+	var context = canvas.getContext && canvas.getContext( '2d' );
+
+	/**
+	 * Check if two sets of Emoji characters render the same.
+	 *
+	 * @param set1 array Set of Emoji characters.
+	 * @param set2 array Set of Emoji characters.
+	 * @returns {boolean} True if the two sets render the same.
+	 */
+	function emojiSetsRenderIdentically( set1, set2 ) {
+		var stringFromCharCode = String.fromCharCode;
+
+		// Cleanup from previous test.
+		context.clearRect( 0, 0, canvas.width, canvas.height );
+		context.fillText( stringFromCharCode.apply( this, set1 ), 0, 0 );
+		var rendered1 = canvas.toDataURL();
+
+		// Cleanup from previous test.
+		context.clearRect( 0, 0, canvas.width, canvas.height );
+		context.fillText( stringFromCharCode.apply( this, set2 ), 0, 0 );
+		var rendered2 = canvas.toDataURL();
+
+		return rendered1 === rendered2;
+	}
+
+	/**
+	 * Detect if the browser supports rendering emoji or flag emoji. Flag emoji are a single glyph
+	 * made of two characters, so some browsers (notably, Firefox OS X) don't support them.
+	 *
+	 * @since 4.2.0
+	 *
+	 * @param type {String} Whether to test for support of "flag" or "emoji".
+	 * @return {Boolean} True if the browser can render emoji, false if it cannot.
+	 */
+	function browserSupportsEmoji( type ) {
+		var isIdentical;
+
+		if ( ! context || ! context.fillText ) {
+			return false;
+		}
+
+		/*
+		 * Chrome on OS X added native emoji rendering in M41. Unfortunately,
+		 * it doesn't work when the font is bolder than 500 weight. So, we
+		 * check for bold rendering support to avoid invisible emoji in Chrome.
+		 */
+		context.textBaseline = 'top';
+		context.font = '600 32px Arial';
+
+		switch ( type ) {
+			case 'flag':
+				/*
+				 * Test for UN flag compatibility. This is the least supported of the letter locale flags,
+				 * so gives us an easy test for full support.
+				 *
+				 * To test for support, we try to render it, and compare the rendering to how it would look if
+				 * the browser doesn't render it correctly ([U] + [N]).
+				 */
+				isIdentical = emojiSetsRenderIdentically(
+					[ 55356, 56826, 55356, 56819 ],
+					[ 55356, 56826, 8203, 55356, 56819 ]
+				);
+
+				if ( isIdentical ) {
+					return false;
+				}
+
+				/*
+				 * Test for English flag compatibility. England is a country in the United Kingdom, it
+				 * does not have a two letter locale code but rather an five letter sub-division code.
+				 *
+				 * To test for support, we try to render it, and compare the rendering to how it would look if
+				 * the browser doesn't render it correctly (black flag emoji + [G] + [B] + [E] + [N] + [G]).
+				 */
+				isIdentical = emojiSetsRenderIdentically(
+					[ 55356, 57332, 56128, 56423, 56128, 56418, 56128, 56421, 56128, 56430, 56128, 56423, 56128, 56447 ],
+					[ 55356, 57332, 8203, 56128, 56423, 8203, 56128, 56418, 8203, 56128, 56421, 8203, 56128, 56430, 8203, 56128, 56423, 8203, 56128, 56447 ]
+				);
+
+				return ! isIdentical;
+			case 'emoji':
+				/*
+				 * Emoji 5 has fairies of all genders.
+				 *
+				 * To test for support, try to render a new emoji (fairy, male), then compares
+				 * it to how it would look if the browser doesn't render it correctly
+				 * (fairy + male sign).
+				 */
+				isIdentical = emojiSetsRenderIdentically(
+					[ 55358, 56794, 8205, 9794, 65039 ],
+					[ 55358, 56794, 8203, 9794, 65039 ]
+				);
+				return ! isIdentical;
+		}
+
+		return false;
+	}
+
+	function addScript( src ) {
+		var script = document.createElement( 'script' );
+
+		script.src = src;
+		script.defer = script.type = 'text/javascript';
+		document.getElementsByTagName( 'head' )[0].appendChild( script );
+	}
+
+	tests = Array( 'flag', 'emoji' );
+
+	settings.supports = {
+		everything: true,
+		everythingExceptFlag: true
+	};
+
+	for( ii = 0; ii < tests.length; ii++ ) {
+		settings.supports[ tests[ ii ] ] = browserSupportsEmoji( tests[ ii ] );
+
+		settings.supports.everything = settings.supports.everything && settings.supports[ tests[ ii ] ];
+
+		if ( 'flag' !== tests[ ii ] ) {
+			settings.supports.everythingExceptFlag = settings.supports.everythingExceptFlag && settings.supports[ tests[ ii ] ];
+		}
+	}
+
+	settings.supports.everythingExceptFlag = settings.supports.everythingExceptFlag && ! settings.supports.flag;
+
+	settings.DOMReady = false;
+	settings.readyCallback = function() {
+		settings.DOMReady = true;
+	};
+
+	if ( ! settings.supports.everything ) {
+		ready = function() {
+			settings.readyCallback();
+		};
+
+		if ( document.addEventListener ) {
+			document.addEventListener( 'DOMContentLoaded', ready, false );
+			window.addEventListener( 'load', ready, false );
+		} else {
+			window.attachEvent( 'onload', ready );
+			document.attachEvent( 'onreadystatechange', function() {
+				if ( 'complete' === document.readyState ) {
+					settings.readyCallback();
+				}
+			} );
+		}
+
+		src = settings.source || {};
+
+		if ( src.concatemoji ) {
+			addScript( src.concatemoji );
+		} else if ( src.wpemoji && src.twemoji ) {
+			addScript( src.twemoji );
+			addScript( src.wpemoji );
+		}
+	}
+
+} )( window, document, window._wpemojiSettings );
+		</script>
+		
+
+<!-- Stylesheets -->
+<link rel='stylesheet' id='headway-google-fonts' href='//fonts.googleapis.com/css?family=Oswald|Roboto+Condensed|Raleway' type='text/css' media='all' />
+<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='bxslider-style-css'  href='http://www.hot1063.com/wp-content/plugins/shared/js/bxslider/jquery.bxslider.css?ver=4.9.1' type='text/css' media='all' />
+<link rel='stylesheet' id='amp-promo-reel-widget-style-css'  href='http://www.hot1063.com/wp-content/plugins/amp-promo-reel/includes/../css/widget.css?ver=4.9.1' type='text/css' media='all' />
+<link rel='stylesheet' id='headway-general-css'  href='http://www.hot1063.com/wp-content/uploads/sites/11/headway/cache/general-c48e511.css?ver=4.9.1' type='text/css' media='all' />
+<link rel='stylesheet' id='headway-layout-front_page-css'  href='http://www.hot1063.com/wp-content/uploads/sites/11/headway/cache/layout-front_page-9f084d8.css?ver=4.9.1' type='text/css' media='all' />
+<link rel='stylesheet' id='headway-responsive-grid-css'  href='http://www.hot1063.com/wp-content/uploads/sites/11/headway/cache/responsive-grid-d2119e4.css?ver=4.9.1' type='text/css' media='all' />
+<meta name="builder-styles-css" content="" id="builder-styles-css">
+<link rel='stylesheet' id='amp-breaking-news-css'  href='http://www.hot1063.com/wp-content/plugins/amp-breaking-news/public/css/public.css?ver=0.2.3' type='text/css' media='all' />
+<link rel='stylesheet' id='animate-style-css'  href='http://www.hot1063.com/wp-content/plugins/shared/css/animate.css?ver=0.2.3' type='text/css' media='all' />
+<link rel='stylesheet' id='amp-styles-plugin-styles-css'  href='http://www.hot1063.com/wp-content/plugins/amp-styles/css/public.css?ver=1.4.1' type='text/css' media='all' />
+<link rel='stylesheet' id='amp-events-calendar-styles-css'  href='http://www.hot1063.com/wp-content/plugins/amp-events/css/calendar.css?ver=1.1.4' type='text/css' media='all' />
+<link rel='stylesheet' id='amp-events-export-styles-css'  href='http://www.hot1063.com/wp-content/plugins/amp-events/css/public.css?ver=1.1.4' type='text/css' media='all' />
+<link rel='stylesheet' id='amp_feed-plugin-styles-css'  href='http://www.hot1063.com/wp-content/plugins/amp-feeds/css/public.css?ver=0.4.0' type='text/css' media='all' />
+<link rel='stylesheet' id='amp-image-rotator-plugin-styles-css'  href='http://www.hot1063.com/wp-content/plugins/amp-image-rotator/public/assets/css/public.css?ver=1.0.0' type='text/css' media='all' />
+<link rel='stylesheet' id='amp-listen-live-plugin-styles-css'  href='http://www.hot1063.com/wp-content/plugins/amp-listen-live/public/assets/css/public.css?ver=1.4.4' type='text/css' media='all' />
+<link rel='stylesheet' id='amp-onair-plugin-styles-css'  href='http://www.hot1063.com/wp-content/plugins/amp-onair/public/assets/css/public.css?ver=1.7.1' type='text/css' media='all' />
+<link rel='stylesheet' id='AMPPromoReel-plugin-styles-css'  href='http://www.hot1063.com/wp-content/plugins/amp-promo-reel/css/public.css?ver=1.4.0' type='text/css' media='all' />
+<link rel='stylesheet' id='mediaelement-css'  href='http://www.hot1063.com/wp-includes/js/mediaelement/mediaelementplayer-legacy.min.css?ver=4.2.6-78496d1' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-mediaelement-css'  href='http://www.hot1063.com/wp-includes/js/mediaelement/wp-mediaelement.css?ver=4.9.1' type='text/css' media='all' />
+<link rel='stylesheet' id='amp-tabs-plugin-styles-css'  href='http://www.hot1063.com/wp-content/plugins/amp-tabs/public/assets/css/public.css?ver=1.0.0' type='text/css' media='all' />
+<link rel='stylesheet' id='amp-header-rotator-css'  href='http://www.hot1063.com/wp-content/themes/Headway-AMP_CMS/css/amp-header-rotator.css?ver=1.1.5' type='text/css' media='all' />
+<link rel="stylesheet" type="text/css" media="all" href="http://www.hot1063.com/wp-content/themes/Headway-AMP_CMS/style.css" />
+
+<!-- Scripts -->
+<script type='text/javascript' src='http://www.hot1063.com/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='http://www.hot1063.com/wp-includes/js/jquery/jquery-migrate.js?ver=1.4.1'></script>
+<script type='text/javascript' src='http://www.hot1063.com/wp-content/themes/headway/library/blocks/navigation/js/selectnav.js?ver=1533183780'></script>
+<script type='text/javascript' src='http://www.hot1063.com/wp-content/themes/headway/library/media/js/jquery.hoverintent.js?ver=4.9.1'></script>
+<script type='text/javascript' src='http://www.hot1063.com/wp-content/themes/headway/library/blocks/navigation/js/jquery.superfish.js?ver=4.9.1'></script>
+<script type='text/javascript' src='http://www.hot1063.com/wp-content/uploads/sites/11/headway/cache/block-dynamic-js-layout-front_page-769a883.js?ver=4.9.1'></script>
+<script type='text/javascript' src='http://www.hot1063.com/wp-content/plugins/shared/js/bxslider/jquery.bxslider.min.js?ver=4.9.1'></script>
+<script type='text/javascript' src='http://www.hot1063.com/wp-content/plugins/amp-promo-reel/includes/../js/widget.js?ver=1.4.0'></script>
+<script type='text/javascript' src='http://www.hot1063.com/wp-content/themes/headway/library/media/js/jquery.fitvids.js?ver=4.9.1'></script>
+<script type='text/javascript' src='http://www.hot1063.com/wp-content/uploads/sites/11/headway/cache/responsive-grid-js-e6e6939.js?ver=4.9.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var _ampconfig = {"site_url":"http:\/\/www.hot1063.com","site_id":"11","tz":"America\/New_York","tz_offset":"-4","ts":"1533183780","blog_name":"WWKX-FM","client_name":"cumuluspro","user_ID":"","ts_offset":"1535351117","version":"2.47.0.3","env":"prod","settings":{"tenant_id":"see_10217","vidible_company_key":"06125e55709b3c4ffdfe3c3f8a9ed8bd","client_name":false,"nielsen_provider":"cumulus","promoreel_priority":true}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.hot1063.com/wp-content/plugins/shared/js/amp-common.js?ver=1533183780'></script>
+<script type='text/javascript' src='http://www.hot1063.com/wp-content/plugins/amp-breaking-news/public/js/public.js?ver=0.2.3'></script>
+<script type='text/javascript' src='http://www.hot1063.com/wp-content/plugins/amp-styles/js/public.js?ver=1.4.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var dates = {"start_of_week":"1","moment_date_format":"MMMM D, YYYY","moment_time_format":"h:mm a","calendar_date_format":"MMMM d, yyyy","calendar_time_format":"h:mm tt","date_format":"MM d, yy","time_format":"h:mm tt"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.hot1063.com/wp-content/plugins/amp-events/js/calendar.js?ver=1.1.4'></script>
+<script type='text/javascript' src='http://www.hot1063.com/wp-content/plugins/amp-events/js/public.js?ver=1.1.4'></script>
+<script type='text/javascript' src='http://www.hot1063.com/wp-content/plugins/amp-feeds/js/jquery.totemticker.min.js?ver=0.4.0'></script>
+<script type='text/javascript' src='http://www.hot1063.com/wp-includes/js/jquery/ui/core.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://www.hot1063.com/wp-includes/js/jquery/ui/widget.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://www.hot1063.com/wp-includes/js/jquery/ui/tabs.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://www.hot1063.com/wp-content/plugins/amp-feeds/js/amp-feed.js?ver=0.4.0'></script>
+<script type='text/javascript' src='http://www.hot1063.com/wp-content/plugins/amp-feeds/js/public.js?ver=0.4.0'></script>
+<script type='text/javascript' src='http://www.hot1063.com/wp-content/plugins/amp-feeds/js/date.js?ver=0.4.0'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var _amplistenlive = {"blog_id":"11","callsign":"","mount_name":"WWKXFM","provider":"stream_the_world","gmt_offset":"-14400"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.hot1063.com/wp-content/plugins/amp-listen-live/public/assets/js/public.js?ver=1.4.4'></script>
+<script type='text/javascript' src='http://www.hot1063.com/wp-content/plugins/amp-onair/public/assets/js/public.js?ver=1.7.1'></script>
+<script type='text/javascript' src='//see-p-elb-01.tritondigital.net/widget/see_10217/see.js?ver=1.3.0'></script>
+<script type='text/javascript' src='http://www.hot1063.com/wp-content/themes/Headway-AMP_CMS/js/amp-theme.js?ver=1.1.5'></script>
+
+<!--[if lt IE 9]>
+<script src="http://www.hot1063.com/wp-content/themes/headway/library/media/js/html5shiv.js"></script>
+<![endif]-->
+
+<!--[if lt IE 8]>
+<script src="http://www.hot1063.com/wp-content/themes/headway/library/media/js/ie8.js"></script>
+<![endif]-->
+
+<script type='text/javascript'>
+var googletag = googletag || {};
+googletag.cmd = googletag.cmd || [];
+(function() {
+var gads = document.createElement('script');
+gads.async = true;
+gads.type = 'text/javascript';
+var useSSL = 'https:' == document.location.protocol;
+gads.src = (useSSL ? 'https:' : 'http:') + 
+'//www.googletagservices.com/tag/js/gpt.js';
+var node = document.getElementsByTagName('script')[0];
+node.parentNode.insertBefore(gads, node);
+})();
+</script>
+<script type='text/javascript'>
+googletag.cmd.push(function() {
+
+var leaderboardSizeMap = googletag.sizeMapping()
+ .addSize([970, 0], [[728, 90], [970, 90]])
+ .addSize([750,0], [728,90])
+ .addSize([0, 0], [[320, 50], [320, 53]])
+ .build();
+
+googletag.defineSlot('/6717/cd.WWKX.FM', [[300, 250], [300, 600]], 'div-gpt-ad-1418849849333-0').addService(googletag.pubads())
+.setCollapseEmptyDiv(true).setTargeting("pos","mid");
+googletag.defineSlot('/6717/cd.WWKX.FM', [[728, 90], [970, 90]], 'div-gpt-ad-1418849849333-1').addService(googletag.pubads())
+.defineSizeMapping(leaderboardSizeMap).setCollapseEmptyDiv(true).setTargeting("pos","top");
+googletag.defineSlot('/6717/cd.WWKX.FM', [[728, 90], [970, 90]], 'div-gpt-ad-1418849849333-2').addService(googletag.pubads())
+.defineSizeMapping(leaderboardSizeMap).setCollapseEmptyDiv(true).setTargeting("pos","bot");
+googletag.defineSlot('/6717/cd.WWKX.FM', [[300, 250], [300, 600]], 'div-gpt-ad-1418849849333-3').addService(googletag.pubads())
+.setCollapseEmptyDiv(true).setTargeting("pos","mid2");
+googletag.defineSlot('/6717/cd.WWKX.FM', [[160, 600]], 'div-gpt-ad-1418849849333-4').addService(googletag.pubads())
+.setCollapseEmptyDiv(true).setTargeting("pos","left");
+googletag.defineSlot('/6717/cd.WWKX.FM', [[160, 600]], 'div-gpt-ad-1418849849333-5').addService(googletag.pubads())
+.setCollapseEmptyDiv(true).setTargeting("pos","right");
+googletag.defineSlot('/6717/cd.WWKX.FM', [[654, 70]], 'div-gpt-ad-1418849849333-6').addService(googletag.pubads())
+.setCollapseEmptyDiv(true).setTargeting("pos","rdioplayer");
+googletag.defineSlot('/6717/cd.WWKX.FM', [[300, 100]], 'div-gpt-ad-1418849849333-7').addService(googletag.pubads())
+.setCollapseEmptyDiv(true).setTargeting("pos","contest1");
+googletag.defineSlot('/6717/cd.WWKX.FM', [[300, 100]], 'div-gpt-ad-1418849849333-8').addService(googletag.pubads())
+.setCollapseEmptyDiv(true).setTargeting("pos","contest2");
+googletag.defineSlot('/6717/cd.WWKX.FM', [[300, 100]], 'div-gpt-ad-1418849849333-9').addService(googletag.pubads())
+.setCollapseEmptyDiv(true).setTargeting("pos","contest3");
+googletag.defineSlot('/6717/cd.WWKX.FM', [[100, 51]], 'div-gpt-ad-1418849849333-10').addService(googletag.pubads())
+.setCollapseEmptyDiv(true).setTargeting("pos","rdiobutton");
+googletag.defineSlot('/6717/cd.WWKX.FM', [[113, 23]], 'div-gpt-ad-1418849849333-11').addService(googletag.pubads())
+.setCollapseEmptyDiv(true).setTargeting("pos","feedsponsor1");
+googletag.defineSlot('/6717/cd.WWKX.FM', [[113, 23]], 'div-gpt-ad-1418849849333-12').addService(googletag.pubads())
+.setCollapseEmptyDiv(true).setTargeting("pos","feedsponsor2");
+googletag.defineSlot('/6717/cd.WWKX.FM', [[113, 23]], 'div-gpt-ad-1418849849333-13').addService(googletag.pubads())
+.setCollapseEmptyDiv(true).setTargeting("pos","feedsponsor3");
+googletag.defineSlot('/6717/cd.WWKX.FM', [[113, 23]], 'div-gpt-ad-1418849849333-14').addService(googletag.pubads())
+.setCollapseEmptyDiv(true).setTargeting("pos","feedsponsor4");
+googletag.defineSlot('/6717/cd.WWKX.FM', [[1, 1]],'div-gpt-ad-1418849849333-16').addService(googletag.pubads())
+.setTargeting("pos","wallpaper-ad");
+googletag.pubads().enableSingleRequest();
+googletag.enableServices();
+googletag.defineSlot('/6717/cd.WWKX.fm', [[300, 250], [300, 600]], 'div-gpt-ad-1418849849333-18').setCollapseEmptyDiv(true).addService(googletag.pubads())
+.setTargeting("pos","midresponsive");
+
+});
+</script>
+
+<!--ONESTAT SCRIPTCODE START Embed Player-->
+  <script type="text/javascript">
+  <!--
+  jQuery(document).ready(function(){
+    var d=document;
+    var sid="wwkx-fm.cumulus";
+    var CONTENTSECTION="";
+    var osp_URL=d.URL;
+    var osp_Title=d.title;
+    var t=new Date();
+    var p="http"+(d.URL.indexOf('https:')==0?'s':'')+"://stat.onestat.com/stat.aspx?tagver=2&sid="+sid;
+    p+="&url="+escape(osp_URL);
+    p+="&ti="+escape(osp_Title);
+    p+="&section="+escape(CONTENTSECTION);
+    p+="&rf="+escape(parent==self?document.referrer:top.document.referrer);
+    p+="&tz="+escape(t.getTimezoneOffset());
+    p+="&ch="+escape(t.getHours());
+    p+="&js=1";
+    p+="&ul="+escape(navigator.appName=="Netscape"?navigator.language:navigator.userLanguage);
+    if(osp_URL!=d.URL) p+="&ol="+escape(d.URL);
+    if(typeof(screen)=="object"){
+       p+="&sr="+screen.width+"x"+screen.height;p+="&cd="+screen.colorDepth;
+       p+="&jo="+(navigator.javaEnabled()?"Yes":"No");
+    }
+
+    var imgTag = '<img border="0" height="0" width="0" id="ONESTAT_TAG" src="' + p + '">'
+    jQuery('body').append(imgTag);
+
+  })
+  //-->
+  </script> 
+<!--ONESTAT SCRIPTCODE END-->
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','corpDataLayer','GTM-TXSMSP');</script>
+<!-- End Google Tag Manager -->
+
+<!-- START GOOGLE ANALYTICS -->
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-41709712-5']);
+  _gaq.push(['_setDomainName', '.hot1063.com']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+<!-- END GOOGLE ANALYTICS -->
+
+<!-- Begin comScore Tag --><script>
+  var _comscore = _comscore || [];
+  _comscore.push({ c1: "2", c2: "16059128" });
+  (function() {
+    var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+    s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+    el.parentNode.insertBefore(s, el);
+  })();
+</script><noscript>
+  <img src="http://b.scorecardresearch.com/p?c1=2&c2=16059128&cv=2.0&cj=1" />
+</noscript><!-- End comScore Tag -->
+
+<!--Pinterest Analytics-->
+<meta name="p:domain_verify" content="c8ede67482a2d542c423bbc715c1d7f0"/>
+<!-- End Pinterest Analytics-->
+
+<!-- BEGIN INFINITE FACEBOOK PIXEL -->
+<script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '181461212508101');
+  fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=181461212508101&ev=PageView&noscript=1"
+/></noscript>
+<!-- END INFINITE FACEBOOK PIXEL -->
+<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
+<link rel="alternate" type="application/rss+xml" title="WWKX-FM &raquo; Feed" href="http://www.hot1063.com/feed/" />
+
+
+<!-- Favicon -->
+<link rel="shortcut icon" type="image/ico" href="http://cumulus.pro.poolb.tritondigitalcms.com/wwkx-fm/wp-content/uploads/sites/11/2014/06/favicon1.png" />
+
+
+<link rel='shortlink' href='http://www.hot1063.com/' />
+			<script type="text/javascript">
+				var _gaq = _gaq || [];
+
+				
+									_gaq.push(['b._setAccount', 'UA-70368566-1']);
+					_gaq.push(['b._trackPageview']);
+				
+				(function() {
+				var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                				    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                				var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+				})();
+			</script>
+
+        <script type="text/javascript">var ajaxurl = "http://www.hot1063.com/wp-admin/admin-ajax.php"</script><script type="text/javascript">var ajaxurl = "http://www.hot1063.com/wp-admin/admin-ajax.php"</script>
+<!-- AMP CMS DFP custom tags -->
+<script type='text/javascript'>
+  googletag.cmd.push(function() {
+      googletag.pubads().setTargeting('cms-sname', 'WWKXFM');
+      googletag.pubads().setTargeting('cms-sgroup', ['All Sites', 'Market  Providence RI', 'Format  Rhythmic CHR', 'Temporary Live Sites']);
+      googletag.pubads().setTargeting('cms-ptitle', 'Home');
+  });
+</script>
+
+<!-- START - Facebook Open Graph, Google+ and Twitter Card Tags 2.0.4 -->
+ <!-- Facebook Open Graph -->
+  <meta property="og:locale" content="en_US"/>
+  <meta property="og:site_name" content="WWKX-FM"/>
+  <meta property="og:title" content="WWKX-FM"/>
+  <meta property="og:url" content="http://www.hot1063.com"/>
+  <meta property="og:type" content="website"/>
+  <meta property="og:description" content="Hot 106.3"/>
+ <!-- Google+ / Schema.org -->
+  <meta itemprop="name" content="WWKX-FM"/>
+  <meta itemprop="description" content="Hot 106.3"/>
+ <!-- Twitter Cards -->
+  <meta name="twitter:title" content="WWKX-FM"/>
+  <meta name="twitter:url" content="http://www.hot1063.com"/>
+  <meta name="twitter:description" content="Hot 106.3"/>
+  <meta name="twitter:card" content="summary_large_image"/>
+ <!-- SEO -->
+ <!-- Misc. tags -->
+<!-- END - Facebook Open Graph, Google+ and Twitter Card Tags 2.0.4 -->
+
+
+</head><!-- End <head> -->
+
+<body class="home page-template-default page page-id-189 custom responsive-grid-enabled responsive-grid-active pageid-189 page-slug-home layout-front_page layout-using-front_page builder-parallax-scrolling-active" itemscope itemtype="http://schema.org/WebPage">
+
+
+<div id="whitewrap">
+
+
+<div id="wrapper-8" class="wrapper wrapper-fluid wrapper-fixed-grid grid-fluid-24-32-10 responsive-grid wrapper-first wrapper-header" data-alias="Wrapper Header">
+
+<div class="grid-container clearfix">
+
+<section class="row row-1">
+
+<section class="column column-1 grid-left-0 grid-width-24">
+<div id="block-27" class="block block-type-custom-code block-fluid-height" data-alias="728x90 Leaderboard Ad">
+<div class="block-content">
+<div align="center"><div id='div-gpt-ad-1418849849333-1'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1418849849333-1'); });
+</script>
+</div></div>
+</div><!-- .block-content -->
+
+</div><!-- #block-27 -->
+
+</section><!-- .column -->
+
+</section><!-- .row -->
+
+
+<section class="row row-2">
+
+<section class="column column-1 grid-left-0 grid-width-3">
+<figure id="block-31" class="logo block block-type-image block-fixed-height" data-alias="Logo" itemscope="" itemtype="http://schema.org/ImageObject">
+<div class="block-content">
+<a href="/" class="image" ><img src="http://www.hot1063.com/wp-content/uploads/sites/11/2015/01/headway-imported-image16.png" alt="" title="" itemprop="contentURL"/></a>
+</div><!-- .block-content -->
+
+</figure><!-- #block-31 -->
+
+</section><!-- .column -->
+
+<section class="column column-2 grid-left-0 grid-width-21">
+<div id="block-bw35a8f2b03152f7" class="block block-type-custom-code block-fluid-height" data-alias="Empty Spacer">
+<div class="block-content">
+<span></span>
+</div><!-- .block-content -->
+
+</div><!-- #block-bw35a8f2b03152f7 -->
+
+<section class="sub-column sub-column-1 column column-1 grid-width-8 grid-left-0">
+<aside id="block-29" class="on-air block block-type-widget-area block-fluid-height" data-alias="Home - On Air Now" itemscope="" itemtype="http://schema.org/WPSideBar">
+<div class="block-content">
+<ul class="widget-area"><div class="amp-onair-widget" id="amp_onair_widget-3"
+	data-title-now=""
+	data-title-upcoming=""
+	data-title=""
+	data-type="nowplaying"
+	data-change-minutes="5"
+	data-change="0"
+	data-toggle-time="10"
+	data-fields="image,timeslot"
+	data-ajaxurl="http://www.hot1063.com/wp-admin/admin-ajax.php"
+	data-updateurl="http://www.hot1063.com/shows/feed/?type=json"
+	data-memcached="1"
+	data-expiration="1535364000">
+	
+<div class="amp-onair-show nowplaying" >
+
+    <div class="amp-onair-widget-title js-widget-title"></div>
+
+        <div class="amp-onair-show-image">
+                    <img class="js-image amp-onair-show-image-img" src="http://images.tritondigitalcms.com/6616/sites/11/2014/07/20114522/hot-morning-show-basic.jpg"  />
+            </div>
+        
+    <div class="amp-onair-show-title">
+            <span class="js-title">The Hot Morning Show</span>
+        </div>
+    
+        <div class="amp-onair-show-timeslot js-timeslot" >6:00 a.m. - 10:00 a.m.</div>
+        
+        
+    
+</div>
+</div></ul>
+</div><!-- .block-content -->
+
+</aside><!-- #block-29 -->
+
+</section><!-- .sub-column -->
+
+<section class="sub-column sub-column-2 column column-2 grid-width-10 grid-left-0">
+<section id="block-30" class="social-nav block block-type-social block-fixed-height" data-alias="Social Navigation">
+<div class="block-content">
+<div class="social-icons-container"><ul class="social-icons"><li><a href="#"><img src="http://www.hot1063.com/wp-content/uploads/sites/11/2016/04/listen-live.png" title="Listen Live!!" class="img-1"  /></a></li><li><a href="/listen-live-with-alexa"><img src="http://images.tritondigitalcms.com/6616/sites/11/2018/01/02131357/Alexa-Social-Logo-MUSIC.png" alt="Alexa" class="img-2"  /></a></li><li><a href="https://www.facebook.com/hot106" target="_blank"><img src="http://www.hot1063.com/wp-content/uploads/sites/11/2015/01/headway-imported-image7.png" title="Like us on Facebook!" class="img-3"  /></a></li><li><a href="https://twitter.com/hot106" target="_blank"><img src="http://www.hot1063.com/wp-content/uploads/sites/11/2015/01/headway-imported-image8.png" title="Follow us on Twitter!" class="img-4"  /></a></li><li><a href="http://hot1063fm.listenernetwork.com/" target="_blank"><img src="http://www.hot1063.com/wp-content/uploads/sites/11/2015/01/headway-imported-image13.png" title="VIP" class="img-5"  /></a></li></ul></div><!-- .social-icons-container -->
+</div><!-- .block-content -->
+
+</section><!-- #block-30 -->
+
+</section><!-- .sub-column -->
+
+<section class="sub-column sub-column-3 column column-3 grid-width-3 grid-left-0">
+<div id="block-bf75a8f2b030f8ed" class="gigya-actions block block-type-custom-code block-fluid-height" data-alias="Gigya Profile Actions">
+<div class="block-content">
+<div class="see-widget" data-see-type="regUi" data-see-loginbonus="false"></div>
+</div><!-- .block-content -->
+
+</div><!-- #block-bf75a8f2b030f8ed -->
+
+</section><!-- .sub-column -->
+<div id="block-bw35a8f2b03152f7" class="block block-type-custom-code block-fluid-height block-mirrored block-mirroring-bw35a8f2b03152f7 block-original-bwp5a8f2b21bbae4" data-alias="Empty Spacer">
+<div class="block-content">
+<span></span>
+</div><!-- .block-content -->
+
+</div><!-- #block-bw35a8f2b03152f7 -->
+
+<section class="sub-column sub-column-1 column column-1 grid-width-18 grid-left-0">
+<nav id="block-32" class="main-nav block block-type-navigation block-fluid-height" data-alias="Main Navigation" itemscope="" itemtype="http://schema.org/SiteNavigationElement">
+<div class="block-content">
+<div class="nav-horizontal nav-align-left"><ul id="menu-main-navigation" class="menu"><li id="menu-item-4915" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-4915"><a href="/hot-106-3-on-air">Shows</a>
+<ul class="sub-menu">
+	<li id="menu-item-19357" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-19357"><a href="http://www.hot1063.com/morning-show/">The HOT Morning Show</a></li>
+	<li id="menu-item-19691" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-19691"><a href="http://www.hot1063.com/e-klass/">Ms. E-Klass</a></li>
+	<li id="menu-item-19449" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-19449"><a href="http://www.hot1063.com/nick-g/">Nick G</a></li>
+	<li id="menu-item-19703" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-19703"><a href="http://www.hot1063.com/big-stress/">Big Stress</a></li>
+</ul>
+</li>
+<li id="menu-item-19713" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-19713"><a href="http://www.hot1063.com/prizes/">Prizes</a>
+<ul class="sub-menu">
+	<li id="menu-item-19711" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-19711"><a href="http://www.hot1063.com/prizes/">Current Contests</a></li>
+	<li id="menu-item-10759" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-10759"><a target="_blank" href="#">Contest Rules</a></li>
+</ul>
+</li>
+<li id="menu-item-996482" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-996482"><a href="http://www.hot1063.com/category/all/">Blog</a></li>
+<li id="menu-item-10761" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-10761"><a href="#">Music &amp; Lifestyle</a>
+<ul class="sub-menu">
+	<li id="menu-item-19725" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-19725"><a href="http://www.hot1063.com/listen-live/">Listen Live</a></li>
+	<li id="menu-item-10775" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-10775"><a target="_blank" href="http://wwkx.tunegenie.com/">On-Air Song List</a></li>
+	<li id="menu-item-19797" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-19797"><a href="http://www.hot1063.com/hot-106-mobile-apps/">HOT 106 Mobile Apps</a></li>
+	<li id="menu-item-996425" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-996425"><a href="http://www.hot1063.com/category/hot-dish/">The Hot Dish with Bekah</a></li>
+	<li id="menu-item-1257915" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1257915"><a href="http://www.hot1063.com/2015/09/18/showcase-team-of-the-week/">Showcase Team of the Week</a></li>
+	<li id="menu-item-102899" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-102899"><a href="http://www.hot1063.com/newsfeed/cnn-entertainment/">Entertainment News</a></li>
+	<li id="menu-item-295" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-295"><a target="_blank" href="http://hot1063.eviesays.com/">Community Calendar</a></li>
+	<li id="menu-item-53197" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-53197"><a href="http://www.hot1063.com/traffic">Traffic Center</a></li>
+</ul>
+</li>
+<li id="menu-item-10763" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-10763"><a href="#">Connect</a>
+<ul class="sub-menu">
+	<li id="menu-item-19811" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-19811"><a href="http://www.hot1063.com/hot-106-mobile-email-club/">Mobile &amp; Email Club</a></li>
+	<li id="menu-item-10781" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-10781"><a href="#">Hot 106 Mobile Apps</a></li>
+	<li id="menu-item-19821" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-19821"><a href="http://www.hot1063.com/social-media/">Social Media</a></li>
+	<li id="menu-item-46993" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-46993"><a target="_blank" href="http://www.92profm.com/wp-content/uploads/sites/3/2015/01/Cumulus-Providence-2014-EEO-Public-File-Report-revised.pdf">EEO Report</a></li>
+</ul>
+</li>
+<li id="menu-item-1178100" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1178100"><a href="http://www.hot1063.com/newsfeed/cnn-tech/">NEWS</a>
+<ul class="sub-menu">
+	<li id="menu-item-1178208" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1178208"><a href="http://www.hot1063.com/category/hip-hop-rb-news/">HIP HOP HEADLINES</a></li>
+	<li id="menu-item-1178118" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1178118"><a href="http://www.hot1063.com/category/new-england-patriots-news/">New England Patriots</a></li>
+	<li id="menu-item-1178115" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1178115"><a href="http://www.hot1063.com/category/cnn-living/">AROUND THE WORLD</a></li>
+	<li id="menu-item-1178229" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1178229"><a href="http://www.hot1063.com/category/entertainment-news/">Entertainment News</a></li>
+	<li id="menu-item-1178223" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1178223"><a href="http://www.hot1063.com/category/health/">HEALTH</a></li>
+	<li id="menu-item-1178124" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1178124"><a href="http://www.hot1063.com/category/lifestyle/">Lifestyle</a></li>
+	<li id="menu-item-1178214" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1178214"><a href="http://www.hot1063.com/category/movie-news/">MOVIE NEWS</a></li>
+	<li id="menu-item-1178139" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1178139"><a href="http://www.hot1063.com/category/odd-news/">STRANGE</a></li>
+	<li id="menu-item-1178130" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1178130"><a href="http://www.hot1063.com/category/technology-news/">TECH</a></li>
+	<li id="menu-item-1178109" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1178109"><a href="http://www.hot1063.com/category/cnn-travel/">TRAVEL</a></li>
+	<li id="menu-item-1178217" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1178217"><a href="http://www.hot1063.com/category/horoscope/">HOROSCOPES</a></li>
+</ul>
+</li>
+<li id="menu-item-9709" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-9709"><a target="_blank" href="http://providence.sweetdealscumulus.com/">Sweet Deals</a></li>
+<li id="menu-item-1263663" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1263663"><a href="http://wwkx-fm.mygameroom.com">Games</a></li>
+</ul></div><!-- .nav-horizontal nav-align-left -->
+</div><!-- .block-content -->
+
+</nav><!-- #block-32 -->
+
+</section><!-- .sub-column -->
+
+<section class="sub-column sub-column-2 column column-2 grid-width-3 grid-left-0">
+<nav id="block-33" class="nav-search block block-type-navigation block-fluid-height" data-alias="Navigation Search" itemscope="" itemtype="http://schema.org/SiteNavigationElement">
+<div class="block-content">
+<div class="nav-horizontal nav-align-left nav-search-active nav-search-position-left"><div class="nav-search">
+		<form method="get" id="searchform" action="http://www.hot1063.com/">
+			<label for="s" class="assistive-text">Search</label>
+			<input type="text" class="field" name="s" id="s" value="Search" onclick="if(this.value=='Search')this.value='';" onblur="if(this.value=='')this.value='Search';" />
+			<input type="submit" class="submit" name="searchsubmit" id="searchsubmit" value="Search" />
+		</form>
+	</div></div><!-- .nav-horizontal nav-align-left nav-search-active nav-search-position-left -->
+</div><!-- .block-content -->
+
+</nav><!-- #block-33 -->
+
+</section><!-- .sub-column -->
+
+</section><!-- .column -->
+
+</section><!-- .row -->
+
+
+<section class="row row-3">
+
+<section class="column column-1 grid-left-0 grid-width-5">
+<div id="block-b8z54a44441b0250" class="takeover-left block block-type-custom-code block-fluid-height" data-alias="Skyscraper - Left">
+<div class="block-content">
+<div id='div-gpt-ad-1418849849333-4'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1418849849333-4'); });
+</script>
+</div>
+</div><!-- .block-content -->
+
+</div><!-- #block-b8z54a44441b0250 -->
+
+</section><!-- .column -->
+
+<section class="column column-2 grid-left-0 grid-width-5">
+<div id="block-b0b54a44441b2caa" class="takeover-right block block-type-custom-code block-fluid-height" data-alias="Skyscraper - Right">
+<div class="block-content">
+<div id='div-gpt-ad-1418849849333-5'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1418849849333-5'); });
+</script>
+</div>
+</div><!-- .block-content -->
+
+</div><!-- #block-b0b54a44441b2caa -->
+
+</section><!-- .column -->
+
+</section><!-- .row -->
+
+
+</div><!-- .grid-container -->
+
+</div><!-- .wrapper -->
+
+<div id="wrapper-9" class="wrapper wrapper-fluid wrapper-fixed-grid grid-fluid-24-32-10 responsive-grid wrapper-content" data-alias="Wrapper Content">
+
+<div class="grid-container clearfix">
+
+<section class="row row-1">
+
+<section class="column column-1 grid-left-0 grid-width-16">
+<aside id="block-35" class="promo-reel block block-type-widget-area block-fluid-height" data-alias="Home - Promo Reel" itemscope="" itemtype="http://schema.org/WPSideBar">
+<div class="block-content">
+<ul class="widget-area"><li id="amp_promo_reel-4" class="widget widget_amp_promo_reel sidebar_promo">
+<div class="sliderWrapper"><div class="sliderBody" style=""><div class="bxslider" data-navigation-arrows='0' data-rotation-time='5000' data-pager-type='none'><div class="sliderItem" style="background-image: url(http://images.tritondigitalcms.com/6616/sites/11/2018/08/09142232/RichTheKidHome.png);background-color: #000;background-repeat: no-repeat;background-size: contain;background-position: 50% 50%;position: relative;height: 300px;cursor: pointer;" onclick="window.open('http://hot1063fm.listenernetwork.com/Contest/DIIUQQ', '_blank')"></div><div class="sliderItem" style="background-image: url(http://images.tritondigitalcms.com/6616/sites/11/2016/10/20114107/HAILEE-STEINFELD-2.png);background-color: #000;background-repeat: no-repeat;background-size: contain;background-position: 50% 50%;position: relative;height: 300px;cursor: pointer;" onclick="window.location='http://www.hot1063.com/hot-mornings/'"></div><div class="sliderItem" style="background-image: url(http://images.tritondigitalcms.com/6616/2018/07/18225307/4k-Live-PromoReel.jpg);background-color: #000;background-repeat: no-repeat;background-size: cover;background-position: 50% 50%;position: relative;height: 300px;cursor: pointer;" onclick="window.location='http://www.hot1063.com/2018/07/13/4k-summer-4k-a-day'"></div><div class="sliderItem" style="background-image: url(http://images.tritondigitalcms.com/6616/2018/08/17193903/LaborDay-PromoReel.jpg);background-color: #000;background-repeat: no-repeat;background-size: cover;background-position: 50% 50%;position: relative;height: 300px;cursor: pointer;" onclick="window.location='http://www.hot1063.com/2018/08/20/ultimate-labor-day/'"></div></div></div></div></li><!-- .widget -->
+</ul>
+</div><!-- .block-content -->
+
+</aside><!-- #block-35 -->
+<div id="block-75" class="mobile-only block block-type-custom-code block-fluid-height" data-alias="Responsive Ad">
+<div class="block-content">
+<div id='div-gpt-ad-1418849849333-18'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1418849849333-18'); });
+</script>
+</div>
+</div><!-- .block-content -->
+
+</div><!-- #block-75 -->
+<div id="block-bdp5b75699aefde2" class="block block-type-custom-code block-fluid-height" data-alias="">
+<div class="block-content">
+<a class="spreaker-player" href="https://www.spreaker.com/show/hot-106" data-resource="show_id=2905921" data-theme="light" data-autoplay="false" data-playlist="show" data-cover="https://d3wo5wojvuv7l.cloudfront.net/images.spreaker.com/original/c419d7b1d09c4494e1f73c969f254b2a.jpg" data-width="100%" data-height="400px">Listen to "Hot 106" on Spreaker.</a><script async src="https://widget.spreaker.com/widgets.js"></script>
+</div><!-- .block-content -->
+
+</div><!-- #block-bdp5b75699aefde2 -->
+<div id="block-9" class="300x250-ad-1 block block-type-custom-code block-fluid-height responsive-block-hiding-device-smartphones responsive-block-hiding-device-tablets-landscape responsive-block-hiding-device-tablets-portrait responsive-block-hiding-device-computers" data-alias="">
+<div class="block-content">
+<p>There is no custom code to display.</p>
+</div><!-- .block-content -->
+
+</div><!-- #block-9 -->
+<div id="block-11" class="sweet-deals-ad block block-type-custom-code block-fluid-height responsive-block-hiding-device-smartphones responsive-block-hiding-device-tablets-landscape responsive-block-hiding-device-tablets-portrait responsive-block-hiding-device-computers" data-alias="">
+<div class="block-content">
+<p>There is no custom code to display.</p>
+</div><!-- .block-content -->
+
+</div><!-- #block-11 -->
+<div id="block-bzc5a2062774207b" class="block block-type-content block-fluid-height" data-alias="">
+<div class="block-content">
+<div class="loop">
+
+<div class="entry-row">
+
+<article id="post-1994042" class="post-1994042 post type-post status-publish format-standard has-post-thumbnail hentry category-bekah category-entertainment-news category-homepage category-content category-hot-dish category-morning-show category-uncategorized author-bekah custom-query" itemscope itemtype="http://schema.org/BlogPosting">
+			<a href="http://www.hot1063.com/2018/08/23/sons-of-anarchy-star-filming-in-fall-river/" class="post-thumbnail post-thumbnail-left">
+				<img src="http://images.tritondigitalcms.com/6616/sites/11/2018/08/23070425/Charlie_Hunnam_at_Berlinale_2017.jpeg#aqua_resizer_image_not_local" alt="Sons of Anarchy Star- Filming in Fall River" width="125" height="125" itemprop="image" />
+			</a>
+		<header><h2 class="entry-title" itemprop="headline"><a href="http://www.hot1063.com/2018/08/23/sons-of-anarchy-star-filming-in-fall-river/" title="Sons of Anarchy Star- Filming in Fall River" rel="bookmark">Sons of Anarchy Star- Filming in Fall River</a></h2><div class="entry-meta entry-meta-above">Posted on <time class="entry-date published updated" itemprop="datePublished" datetime="2018-08-23T06:55:00+00:00">August 23, 2018</time> by <span class="entry-author vcard" itemprop="author" itemscope itemtype="http://schema.org/Person"><a class="author-link fn nickname url" href="http://www.hot1063.com/author/bekah/" title="View all posts by Bekah" itemprop="url"><span class="entry-author-name" itemprop="name">Bekah</span></a></span> &bull; <a href="http://www.hot1063.com/2018/08/23/sons-of-anarchy-star-filming-in-fall-river/#respond" title="Sons of Anarchy Star- Filming in Fall River &ndash; Comments" class="entry-comments">0 Comments</a></div><!-- .entry-meta --></header><div class="entry-summary entry-content" itemprop="text"><p>Sons of Anarchy alum Charlie Hunam is filming a movie in Fall River, Ma.  The film, Jungleland, is in pre-production and shooting through the end of September.  Charlie has obliged local fans- taking photos with those who ask. Want to be an extra in the movie?  A post on My.Jobs says that production is looking for people&hellip;<span class="more-link-ellipsis">&#8230;  </span><a href="http://www.hot1063.com/2018/08/23/sons-of-anarchy-star-filming-in-fall-river/" class="more-link">Continue Reading</a></p>
+</div><!-- .entry-summary.entry-content --><footer class="entry-utility entry-utility-below entry-meta">Filed Under: <a href="http://www.hot1063.com/category/bekah/" rel="category tag">Bekah</a>, <a href="http://www.hot1063.com/category/entertainment-news/" rel="category tag">Entertainment News</a>, <a href="http://www.hot1063.com/category/homepage/" rel="category tag">Homepage</a>, <a href="http://www.hot1063.com/category/content/" rel="category tag">Homepage - Content</a>, <a href="http://www.hot1063.com/category/hot-dish/" rel="category tag">Hot Dish</a>, <a href="http://www.hot1063.com/category/morning-show/" rel="category tag">Morning Show</a>, <a href="http://www.hot1063.com/category/uncategorized/" rel="category tag">Uncategorized</a></footer><!-- .entry-utility --></article><!-- #post-1994042 --><article id="post-1993824" class="post-1993824 post type-post status-publish format-standard has-post-thumbnail hentry category-bekah category-entertainment-news category-homepage category-content category-hot-dish category-morning-show category-uncategorized author-bekah alt custom-query" itemscope itemtype="http://schema.org/BlogPosting">
+			<a href="http://www.hot1063.com/2018/08/22/nicki-minaj-futures-tour-cancelled-kind-of/" class="post-thumbnail post-thumbnail-left">
+				<img src="http://images.tritondigitalcms.com/6616/sites/11/2018/08/22063917/nicki-minaj-future.jpg#aqua_resizer_image_not_local" alt="Nicki Minaj + Future&#8217;s Tour: Cancelled (Kind of)" width="125" height="125" itemprop="image" />
+			</a>
+		<header><h2 class="entry-title" itemprop="headline"><a href="http://www.hot1063.com/2018/08/22/nicki-minaj-futures-tour-cancelled-kind-of/" title="Nicki Minaj + Future&#8217;s Tour: Cancelled (Kind of)" rel="bookmark">Nicki Minaj + Future&#8217;s Tour: Cancelled (Kind of)</a></h2><div class="entry-meta entry-meta-above">Posted on <time class="entry-date published updated" itemprop="datePublished" datetime="2018-08-22T06:39:27+00:00">August 22, 2018</time> by <span class="entry-author vcard" itemprop="author" itemscope itemtype="http://schema.org/Person"><a class="author-link fn nickname url" href="http://www.hot1063.com/author/bekah/" title="View all posts by Bekah" itemprop="url"><span class="entry-author-name" itemprop="name">Bekah</span></a></span> &bull; <a href="http://www.hot1063.com/2018/08/22/nicki-minaj-futures-tour-cancelled-kind-of/#respond" title="Nicki Minaj + Future&#8217;s Tour: Cancelled (Kind of) &ndash; Comments" class="entry-comments">0 Comments</a></div><!-- .entry-meta --></header><div class="entry-summary entry-content" itemprop="text"><p>Fresh off a wild episode of Queen Radio Nicki Minaj + Future have cancelled their North American leg of their NickiHndrxx tour. The tour was set to kick off next month but will instead begin in Europe in February.  All European dates remain as scheduled.  According to a statement, Nicki “decided to reevaluate elements of production” and “contribute more time&hellip;<span class="more-link-ellipsis">&#8230;  </span><a href="http://www.hot1063.com/2018/08/22/nicki-minaj-futures-tour-cancelled-kind-of/" class="more-link">Continue Reading</a></p>
+</div><!-- .entry-summary.entry-content --><footer class="entry-utility entry-utility-below entry-meta">Filed Under: <a href="http://www.hot1063.com/category/bekah/" rel="category tag">Bekah</a>, <a href="http://www.hot1063.com/category/entertainment-news/" rel="category tag">Entertainment News</a>, <a href="http://www.hot1063.com/category/homepage/" rel="category tag">Homepage</a>, <a href="http://www.hot1063.com/category/content/" rel="category tag">Homepage - Content</a>, <a href="http://www.hot1063.com/category/hot-dish/" rel="category tag">Hot Dish</a>, <a href="http://www.hot1063.com/category/morning-show/" rel="category tag">Morning Show</a>, <a href="http://www.hot1063.com/category/uncategorized/" rel="category tag">Uncategorized</a></footer><!-- .entry-utility --></article><!-- #post-1993824 -->
+
+</div><!-- .entry-row -->
+
+
+
+<div class="entry-row">
+
+<article id="post-1993843" class="post-1993843 post type-post status-publish format-standard has-post-thumbnail hentry category-bekah category-entertainment-news category-homepage category-content category-hot-dish author-bekah custom-query" itemscope itemtype="http://schema.org/BlogPosting">
+			<a href="http://www.hot1063.com/2018/08/21/nicki-minaj-performs-majesty-barbie-dreams-more-2018-video-music-awards/" class="post-thumbnail post-thumbnail-left">
+				<img src="http://images.tritondigitalcms.com/6616/sites/11/2018/08/21075226/nicki-performance.jpg#aqua_resizer_image_not_local" alt="Nicki Minaj Performs &#8216;Majesty&#8217;, &#8216;Barbie Dreams&#8217; &#038; More 2018 Video Music Awards" width="125" height="125" itemprop="image" />
+			</a>
+		<header><h2 class="entry-title" itemprop="headline"><a href="http://www.hot1063.com/2018/08/21/nicki-minaj-performs-majesty-barbie-dreams-more-2018-video-music-awards/" title="Nicki Minaj Performs &#8216;Majesty&#8217;, &#8216;Barbie Dreams&#8217; &#038; More 2018 Video Music Awards" rel="bookmark">Nicki Minaj Performs &#8216;Majesty&#8217;, &#8216;Barbie Dreams&#8217; &#038; More 2018 Video Music Awards</a></h2><div class="entry-meta entry-meta-above">Posted on <time class="entry-date published updated" itemprop="datePublished" datetime="2018-08-21T07:52:52+00:00">August 21, 2018</time> by <span class="entry-author vcard" itemprop="author" itemscope itemtype="http://schema.org/Person"><a class="author-link fn nickname url" href="http://www.hot1063.com/author/bekah/" title="View all posts by Bekah" itemprop="url"><span class="entry-author-name" itemprop="name">Bekah</span></a></span> &bull; <a href="http://www.hot1063.com/2018/08/21/nicki-minaj-performs-majesty-barbie-dreams-more-2018-video-music-awards/#respond" title="Nicki Minaj Performs &#8216;Majesty&#8217;, &#8216;Barbie Dreams&#8217; &#038; More 2018 Video Music Awards &ndash; Comments" class="entry-comments">0 Comments</a></div><!-- .entry-meta --></header><div class="entry-summary entry-content" itemprop="text"><p><span class="more-link-ellipsis">&#8230;  </span><a href="http://www.hot1063.com/2018/08/21/nicki-minaj-performs-majesty-barbie-dreams-more-2018-video-music-awards/" class="more-link">Continue Reading</a></p>
+</div><!-- .entry-summary.entry-content --><footer class="entry-utility entry-utility-below entry-meta">Filed Under: <a href="http://www.hot1063.com/category/bekah/" rel="category tag">Bekah</a>, <a href="http://www.hot1063.com/category/entertainment-news/" rel="category tag">Entertainment News</a>, <a href="http://www.hot1063.com/category/homepage/" rel="category tag">Homepage</a>, <a href="http://www.hot1063.com/category/content/" rel="category tag">Homepage - Content</a>, <a href="http://www.hot1063.com/category/hot-dish/" rel="category tag">Hot Dish</a></footer><!-- .entry-utility --></article><!-- #post-1993843 --><article id="post-1993400" class="post-1993400 post type-post status-publish format-standard has-post-thumbnail hentry category-bekah category-entertainment-news category-homepage category-content category-morning-show category-uncategorized author-bekah alt custom-query" itemscope itemtype="http://schema.org/BlogPosting">
+			<a href="http://www.hot1063.com/2018/08/21/jlo-video-vanguard-performance/" class="post-thumbnail post-thumbnail-left">
+				<img src="http://images.tritondigitalcms.com/6616/sites/11/2018/08/21063525/jlo-vv.jpg#aqua_resizer_image_not_local" alt="Jlo Video Vanguard Performance" width="125" height="125" itemprop="image" />
+			</a>
+		<header><h2 class="entry-title" itemprop="headline"><a href="http://www.hot1063.com/2018/08/21/jlo-video-vanguard-performance/" title="Jlo Video Vanguard Performance" rel="bookmark">Jlo Video Vanguard Performance</a></h2><div class="entry-meta entry-meta-above">Posted on <time class="entry-date published updated" itemprop="datePublished" datetime="2018-08-21T06:34:26+00:00">August 21, 2018</time> by <span class="entry-author vcard" itemprop="author" itemscope itemtype="http://schema.org/Person"><a class="author-link fn nickname url" href="http://www.hot1063.com/author/bekah/" title="View all posts by Bekah" itemprop="url"><span class="entry-author-name" itemprop="name">Bekah</span></a></span> &bull; <a href="http://www.hot1063.com/2018/08/21/jlo-video-vanguard-performance/#respond" title="Jlo Video Vanguard Performance &ndash; Comments" class="entry-comments">0 Comments</a></div><!-- .entry-meta --></header><div class="entry-summary entry-content" itemprop="text"><p><span class="more-link-ellipsis">&#8230;  </span><a href="http://www.hot1063.com/2018/08/21/jlo-video-vanguard-performance/" class="more-link">Continue Reading</a></p>
+</div><!-- .entry-summary.entry-content --><footer class="entry-utility entry-utility-below entry-meta">Filed Under: <a href="http://www.hot1063.com/category/bekah/" rel="category tag">Bekah</a>, <a href="http://www.hot1063.com/category/entertainment-news/" rel="category tag">Entertainment News</a>, <a href="http://www.hot1063.com/category/homepage/" rel="category tag">Homepage</a>, <a href="http://www.hot1063.com/category/content/" rel="category tag">Homepage - Content</a>, <a href="http://www.hot1063.com/category/morning-show/" rel="category tag">Morning Show</a>, <a href="http://www.hot1063.com/category/uncategorized/" rel="category tag">Uncategorized</a></footer><!-- .entry-utility --></article><!-- #post-1993400 -->
+
+</div><!-- .entry-row -->
+
+
+
+<div class="entry-row">
+
+<article id="post-1993373" class="post-1993373 post type-post status-publish format-standard has-post-thumbnail hentry category-bekah category-entertainment-news category-homepage category-content category-morning-show category-uncategorized author-bekah custom-query" itemscope itemtype="http://schema.org/BlogPosting">
+			<a href="http://www.hot1063.com/2018/08/17/warwick-pd-lipsync-challenge/" class="post-thumbnail post-thumbnail-left">
+				<img src="http://images.tritondigitalcms.com/6616/sites/11/2018/08/17063859/warwick-pd.jpg#aqua_resizer_image_not_local" alt="Warwick PD LipSync Challenge" width="125" height="125" itemprop="image" />
+			</a>
+		<header><h2 class="entry-title" itemprop="headline"><a href="http://www.hot1063.com/2018/08/17/warwick-pd-lipsync-challenge/" title="Warwick PD LipSync Challenge" rel="bookmark">Warwick PD LipSync Challenge</a></h2><div class="entry-meta entry-meta-above">Posted on <time class="entry-date published updated" itemprop="datePublished" datetime="2018-08-17T06:39:08+00:00">August 17, 2018</time> by <span class="entry-author vcard" itemprop="author" itemscope itemtype="http://schema.org/Person"><a class="author-link fn nickname url" href="http://www.hot1063.com/author/bekah/" title="View all posts by Bekah" itemprop="url"><span class="entry-author-name" itemprop="name">Bekah</span></a></span> &bull; <a href="http://www.hot1063.com/2018/08/17/warwick-pd-lipsync-challenge/#respond" title="Warwick PD LipSync Challenge &ndash; Comments" class="entry-comments">0 Comments</a></div><!-- .entry-meta --></header><div class="entry-summary entry-content" itemprop="text"><p><span class="more-link-ellipsis">&#8230;  </span><a href="http://www.hot1063.com/2018/08/17/warwick-pd-lipsync-challenge/" class="more-link">Continue Reading</a></p>
+</div><!-- .entry-summary.entry-content --><footer class="entry-utility entry-utility-below entry-meta">Filed Under: <a href="http://www.hot1063.com/category/bekah/" rel="category tag">Bekah</a>, <a href="http://www.hot1063.com/category/entertainment-news/" rel="category tag">Entertainment News</a>, <a href="http://www.hot1063.com/category/homepage/" rel="category tag">Homepage</a>, <a href="http://www.hot1063.com/category/content/" rel="category tag">Homepage - Content</a>, <a href="http://www.hot1063.com/category/morning-show/" rel="category tag">Morning Show</a>, <a href="http://www.hot1063.com/category/uncategorized/" rel="category tag">Uncategorized</a></footer><!-- .entry-utility --></article><!-- #post-1993373 --><article id="post-1993378" class="post-1993378 post type-post status-publish format-standard has-post-thumbnail hentry category-bekah category-entertainment-news category-homepage category-content category-hot-dish category-lifestyle category-morning-show category-uncategorized author-bekah alt custom-query" itemscope itemtype="http://schema.org/BlogPosting">
+			<a href="http://www.hot1063.com/2018/08/16/rip-aretha-franklin/" class="post-thumbnail post-thumbnail-left">
+				<img src="http://images.tritondigitalcms.com/6616/sites/11/2018/08/16100924/aretha-franklin1.jpg#aqua_resizer_image_not_local" alt="RIP Aretha Franklin" width="125" height="125" itemprop="image" />
+			</a>
+		<header><h2 class="entry-title" itemprop="headline"><a href="http://www.hot1063.com/2018/08/16/rip-aretha-franklin/" title="RIP Aretha Franklin" rel="bookmark">RIP Aretha Franklin</a></h2><div class="entry-meta entry-meta-above">Posted on <time class="entry-date published updated" itemprop="datePublished" datetime="2018-08-16T10:09:51+00:00">August 16, 2018</time> by <span class="entry-author vcard" itemprop="author" itemscope itemtype="http://schema.org/Person"><a class="author-link fn nickname url" href="http://www.hot1063.com/author/bekah/" title="View all posts by Bekah" itemprop="url"><span class="entry-author-name" itemprop="name">Bekah</span></a></span> &bull; <a href="http://www.hot1063.com/2018/08/16/rip-aretha-franklin/#respond" title="RIP Aretha Franklin &ndash; Comments" class="entry-comments">0 Comments</a></div><!-- .entry-meta --></header><div class="entry-summary entry-content" itemprop="text"><p>The Queen of Soul has passed.  Franklin, 76, died in her Detroit home under hospice care surrounded by loved ones.  She held the record for the most entries on the Hot 100 list of any female artist for nearly 40 years, only to be outdone by Nicki Minaj in 2017.  She is survived by four sons.  Read more&hellip;<span class="more-link-ellipsis">&#8230;  </span><a href="http://www.hot1063.com/2018/08/16/rip-aretha-franklin/" class="more-link">Continue Reading</a></p>
+</div><!-- .entry-summary.entry-content --><footer class="entry-utility entry-utility-below entry-meta">Filed Under: <a href="http://www.hot1063.com/category/bekah/" rel="category tag">Bekah</a>, <a href="http://www.hot1063.com/category/entertainment-news/" rel="category tag">Entertainment News</a>, <a href="http://www.hot1063.com/category/homepage/" rel="category tag">Homepage</a>, <a href="http://www.hot1063.com/category/content/" rel="category tag">Homepage - Content</a>, <a href="http://www.hot1063.com/category/hot-dish/" rel="category tag">Hot Dish</a>, <a href="http://www.hot1063.com/category/lifestyle/" rel="category tag">Lifestyle</a>, <a href="http://www.hot1063.com/category/morning-show/" rel="category tag">Morning Show</a>, <a href="http://www.hot1063.com/category/uncategorized/" rel="category tag">Uncategorized</a></footer><!-- .entry-utility --></article><!-- #post-1993378 -->
+
+</div><!-- .entry-row -->
+
+
+
+<div class="entry-row">
+
+<article id="post-1993356" class="post-1993356 post type-post status-publish format-standard has-post-thumbnail hentry category-bekah category-entertainment-news category-homepage category-content category-hot-dish category-life-style-news category-lifestyle category-morning-show category-uncategorized tag-cardi-b author-bekah custom-query" itemscope itemtype="http://schema.org/BlogPosting">
+			<a href="http://www.hot1063.com/2018/08/16/cardi-b-opening-the-mtv-vmas-kind-of/" class="post-thumbnail post-thumbnail-left">
+				<img src="http://images.tritondigitalcms.com/6616/sites/11/2018/08/16085554/Cardi-B-LHHNY-1.jpg#aqua_resizer_image_not_local" alt="Cardi B- Opening the MTV VMAs (Kind of)" width="125" height="125" itemprop="image" />
+			</a>
+		<header><h2 class="entry-title" itemprop="headline"><a href="http://www.hot1063.com/2018/08/16/cardi-b-opening-the-mtv-vmas-kind-of/" title="Cardi B- Opening the MTV VMAs (Kind of)" rel="bookmark">Cardi B- Opening the MTV VMAs (Kind of)</a></h2><div class="entry-meta entry-meta-above">Posted on <time class="entry-date published updated" itemprop="datePublished" datetime="2018-08-16T08:56:39+00:00">August 16, 2018</time> by <span class="entry-author vcard" itemprop="author" itemscope itemtype="http://schema.org/Person"><a class="author-link fn nickname url" href="http://www.hot1063.com/author/bekah/" title="View all posts by Bekah" itemprop="url"><span class="entry-author-name" itemprop="name">Bekah</span></a></span> &bull; <a href="http://www.hot1063.com/2018/08/16/cardi-b-opening-the-mtv-vmas-kind-of/#respond" title="Cardi B- Opening the MTV VMAs (Kind of) &ndash; Comments" class="entry-comments">0 Comments</a></div><!-- .entry-meta --></header><div class="entry-summary entry-content" itemprop="text"><p>MTV tweeted an announcement that would lead one to believe that Cardi B was making her first postpartum appearance at the MTV VMAs.  It took twitter only a few minutes to explode with negativty about how Cardi can drop out of Bruno&#8217;s tour but could perform at the VMAs.  Mama Cardi clarified the comments by saying she&hellip;<span class="more-link-ellipsis">&#8230;  </span><a href="http://www.hot1063.com/2018/08/16/cardi-b-opening-the-mtv-vmas-kind-of/" class="more-link">Continue Reading</a></p>
+</div><!-- .entry-summary.entry-content --><footer class="entry-utility entry-utility-below entry-meta">Filed Under: <a href="http://www.hot1063.com/category/bekah/" rel="category tag">Bekah</a>, <a href="http://www.hot1063.com/category/entertainment-news/" rel="category tag">Entertainment News</a>, <a href="http://www.hot1063.com/category/homepage/" rel="category tag">Homepage</a>, <a href="http://www.hot1063.com/category/content/" rel="category tag">Homepage - Content</a>, <a href="http://www.hot1063.com/category/hot-dish/" rel="category tag">Hot Dish</a>, <a href="http://www.hot1063.com/category/life-style-news/" rel="category tag">Life Style News</a>, <a href="http://www.hot1063.com/category/lifestyle/" rel="category tag">Lifestyle</a>, <a href="http://www.hot1063.com/category/morning-show/" rel="category tag">Morning Show</a>, <a href="http://www.hot1063.com/category/uncategorized/" rel="category tag">Uncategorized</a></footer><!-- .entry-utility --></article><!-- #post-1993356 --><article id="post-1993365" class="post-1993365 post type-post status-publish format-standard has-post-thumbnail hentry category-bekah category-entertainment-news category-homepage category-content category-hot-dish category-lifestyle category-morning-show author-bekah alt custom-query" itemscope itemtype="http://schema.org/BlogPosting">
+			<a href="http://www.hot1063.com/2018/08/10/mean-tweets-hip-hop-edition/" class="post-thumbnail post-thumbnail-left">
+				<img src="http://images.tritondigitalcms.com/6616/sites/11/2018/08/10080553/dj-khaled.jpg#aqua_resizer_image_not_local" alt="Mean Tweets: Hip Hop Edition" width="125" height="125" itemprop="image" />
+			</a>
+		<header><h2 class="entry-title" itemprop="headline"><a href="http://www.hot1063.com/2018/08/10/mean-tweets-hip-hop-edition/" title="Mean Tweets: Hip Hop Edition" rel="bookmark">Mean Tweets: Hip Hop Edition</a></h2><div class="entry-meta entry-meta-above">Posted on <time class="entry-date published updated" itemprop="datePublished" datetime="2018-08-10T08:06:29+00:00">August 10, 2018</time> by <span class="entry-author vcard" itemprop="author" itemscope itemtype="http://schema.org/Person"><a class="author-link fn nickname url" href="http://www.hot1063.com/author/bekah/" title="View all posts by Bekah" itemprop="url"><span class="entry-author-name" itemprop="name">Bekah</span></a></span> &bull; <a href="http://www.hot1063.com/2018/08/10/mean-tweets-hip-hop-edition/#respond" title="Mean Tweets: Hip Hop Edition &ndash; Comments" class="entry-comments">0 Comments</a></div><!-- .entry-meta --></header><div class="entry-summary entry-content" itemprop="text"><p><span class="more-link-ellipsis">&#8230;  </span><a href="http://www.hot1063.com/2018/08/10/mean-tweets-hip-hop-edition/" class="more-link">Continue Reading</a></p>
+</div><!-- .entry-summary.entry-content --><footer class="entry-utility entry-utility-below entry-meta">Filed Under: <a href="http://www.hot1063.com/category/bekah/" rel="category tag">Bekah</a>, <a href="http://www.hot1063.com/category/entertainment-news/" rel="category tag">Entertainment News</a>, <a href="http://www.hot1063.com/category/homepage/" rel="category tag">Homepage</a>, <a href="http://www.hot1063.com/category/content/" rel="category tag">Homepage - Content</a>, <a href="http://www.hot1063.com/category/hot-dish/" rel="category tag">Hot Dish</a>, <a href="http://www.hot1063.com/category/lifestyle/" rel="category tag">Lifestyle</a>, <a href="http://www.hot1063.com/category/morning-show/" rel="category tag">Morning Show</a></footer><!-- .entry-utility --></article><!-- #post-1993365 -->
+
+</div><!-- .entry-row -->
+
+
+
+<div class="entry-row">
+
+<article id="post-1993362" class="post-1993362 post type-post status-publish format-standard has-post-thumbnail hentry category-bekah category-entertainment-news category-homepage category-content category-lifestyle category-morning-show author-bekah custom-query" itemscope itemtype="http://schema.org/BlogPosting">
+			<a href="http://www.hot1063.com/2018/08/10/kanye-on-jimmy-kimmel/" class="post-thumbnail post-thumbnail-left">
+				<img src="http://images.tritondigitalcms.com/6616/sites/11/2018/08/10080300/kanye-on-kimmerl.jpg#aqua_resizer_image_not_local" alt="Kanye on Jimmy Kimmel" width="125" height="125" itemprop="image" />
+			</a>
+		<header><h2 class="entry-title" itemprop="headline"><a href="http://www.hot1063.com/2018/08/10/kanye-on-jimmy-kimmel/" title="Kanye on Jimmy Kimmel" rel="bookmark">Kanye on Jimmy Kimmel</a></h2><div class="entry-meta entry-meta-above">Posted on <time class="entry-date published updated" itemprop="datePublished" datetime="2018-08-10T08:03:09+00:00">August 10, 2018</time> by <span class="entry-author vcard" itemprop="author" itemscope itemtype="http://schema.org/Person"><a class="author-link fn nickname url" href="http://www.hot1063.com/author/bekah/" title="View all posts by Bekah" itemprop="url"><span class="entry-author-name" itemprop="name">Bekah</span></a></span> &bull; <a href="http://www.hot1063.com/2018/08/10/kanye-on-jimmy-kimmel/#respond" title="Kanye on Jimmy Kimmel &ndash; Comments" class="entry-comments">0 Comments</a></div><!-- .entry-meta --></header><div class="entry-summary entry-content" itemprop="text"><p>20 minutes.  Worth the watch. &nbsp;<span class="more-link-ellipsis">&#8230;  </span><a href="http://www.hot1063.com/2018/08/10/kanye-on-jimmy-kimmel/" class="more-link">Continue Reading</a></p>
+</div><!-- .entry-summary.entry-content --><footer class="entry-utility entry-utility-below entry-meta">Filed Under: <a href="http://www.hot1063.com/category/bekah/" rel="category tag">Bekah</a>, <a href="http://www.hot1063.com/category/entertainment-news/" rel="category tag">Entertainment News</a>, <a href="http://www.hot1063.com/category/homepage/" rel="category tag">Homepage</a>, <a href="http://www.hot1063.com/category/content/" rel="category tag">Homepage - Content</a>, <a href="http://www.hot1063.com/category/lifestyle/" rel="category tag">Lifestyle</a>, <a href="http://www.hot1063.com/category/morning-show/" rel="category tag">Morning Show</a></footer><!-- .entry-utility --></article><!-- #post-1993362 --><article id="post-1993349" class="post-1993349 post type-post status-publish format-standard has-post-thumbnail hentry category-bekah category-entertainment-news category-homepage category-content category-lifestyle category-morning-show category-uncategorized author-bekah alt custom-query" itemscope itemtype="http://schema.org/BlogPosting">
+			<a href="http://www.hot1063.com/2018/08/10/mary-halsey-aka-missy-elliotts-funky-white-sister-in-studio/" class="post-thumbnail post-thumbnail-left">
+				<img src="http://images.tritondigitalcms.com/6616/sites/11/2018/08/10065412/mhalsey08102018.jpg#aqua_resizer_image_not_local" alt="In-Studio: Internet Star Mary Halsey Who Got the Co-Sign from Missy Elliott" width="125" height="125" itemprop="image" />
+			</a>
+		<header><h2 class="entry-title" itemprop="headline"><a href="http://www.hot1063.com/2018/08/10/mary-halsey-aka-missy-elliotts-funky-white-sister-in-studio/" title="In-Studio: Internet Star Mary Halsey Who Got the Co-Sign from Missy Elliott" rel="bookmark">In-Studio: Internet Star Mary Halsey Who Got the Co-Sign from Missy Elliott</a></h2><div class="entry-meta entry-meta-above">Posted on <time class="entry-date published updated" itemprop="datePublished" datetime="2018-08-10T06:52:57+00:00">August 10, 2018</time> by <span class="entry-author vcard" itemprop="author" itemscope itemtype="http://schema.org/Person"><a class="author-link fn nickname url" href="http://www.hot1063.com/author/bekah/" title="View all posts by Bekah" itemprop="url"><span class="entry-author-name" itemprop="name">Bekah</span></a></span> &bull; <a href="http://www.hot1063.com/2018/08/10/mary-halsey-aka-missy-elliotts-funky-white-sister-in-studio/#respond" title="In-Studio: Internet Star Mary Halsey Who Got the Co-Sign from Missy Elliott &ndash; Comments" class="entry-comments">0 Comments</a></div><!-- .entry-meta --></header><div class="entry-summary entry-content" itemprop="text"><p>We had @MissyElliott’s #funkywhitesister, Mary Halsey, in studio today. She took the time to thank Missy, and everyone for sharing her video. Let’s get her on @TheEllenShow! @jtimberlake @barstoolsports @KFCBarstool @DavidSpade @PardonMyTake @stoolpresidente @jadapsmith #WorkIt pic.twitter.com/IqmBgJjqVT — Hot 106 (@Hot106) August 9, 2018<span class="more-link-ellipsis">&#8230;  </span><a href="http://www.hot1063.com/2018/08/10/mary-halsey-aka-missy-elliotts-funky-white-sister-in-studio/" class="more-link">Continue Reading</a></p>
+</div><!-- .entry-summary.entry-content --><footer class="entry-utility entry-utility-below entry-meta">Filed Under: <a href="http://www.hot1063.com/category/bekah/" rel="category tag">Bekah</a>, <a href="http://www.hot1063.com/category/entertainment-news/" rel="category tag">Entertainment News</a>, <a href="http://www.hot1063.com/category/homepage/" rel="category tag">Homepage</a>, <a href="http://www.hot1063.com/category/content/" rel="category tag">Homepage - Content</a>, <a href="http://www.hot1063.com/category/lifestyle/" rel="category tag">Lifestyle</a>, <a href="http://www.hot1063.com/category/morning-show/" rel="category tag">Morning Show</a>, <a href="http://www.hot1063.com/category/uncategorized/" rel="category tag">Uncategorized</a></footer><!-- .entry-utility --></article><!-- #post-1993349 -->
+
+</div><!-- .entry-row -->
+
+</div><div id="nav-below" class="loop-navigation loop-utility loop-utility-below" itemscope itemtype="http://schema.org/SiteNavigationElement"><div class="nav-previous" itemprop="url"><a href="http://www.hot1063.com/page/2/" ><span class="meta-nav">&larr;</span> Older posts</a></div><div class="nav-next" itemprop="url"></div></div><!-- #nav-below -->
+</div><!-- .block-content -->
+
+</div><!-- #block-bzc5a2062774207b -->
+
+<section class="sub-column sub-column-1 column column-1 grid-width-8 grid-left-0">
+<div id="block-b5a57d17be1cfb6d" class="facebook block block-type-custom-code block-fluid-height" data-alias="Facebook Widget">
+<div class="block-content">
+<div class="fb-page" data-href="https://www.facebook.com/hot106" data-tabs="timeline" data-height="450" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/hot106" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/hot106">Hot 106</a></blockquote></div>
+</div><!-- .block-content -->
+
+</div><!-- #block-b5a57d17be1cfb6d -->
+
+</section><!-- .sub-column -->
+
+<section class="sub-column sub-column-2 column column-2 grid-width-8 grid-left-0">
+<div id="block-bj757d17be1cb84a" class="twitter block block-type-custom-code block-fluid-height" data-alias="Twitter Widget">
+<div class="block-content">
+<a class="twitter-timeline" data-height="450" href="https://twitter.com/hot106">Tweets by HOT 106</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div><!-- .block-content -->
+
+</div><!-- #block-bj757d17be1cb84a -->
+
+</section><!-- .sub-column -->
+
+</section><!-- .column -->
+
+<section class="column column-2 grid-left-0 grid-width-8">
+<div id="block-34" class="300x250-ad-1 block block-type-custom-code block-fluid-height" data-alias="300x250 Ad 1">
+<div class="block-content">
+<div id='div-gpt-ad-1418849849333-0'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1418849849333-0'); });
+</script>
+</div>
+</div><!-- .block-content -->
+
+</div><!-- #block-34 -->
+<div id="block-38" class="sweet-deals-ad block block-type-custom-code block-fluid-height" data-alias="Sweet Deals Ad">
+<div class="block-content">
+<a href="http://providence.sweetdealscumulus.com/"><img src="/wp-content/uploads/sites/41/2014/10/sweetdeals.png"></a>
+</div><!-- .block-content -->
+
+</div><!-- #block-38 -->
+<div id="block-bbm54be8787647ca" class="block block-type-custom-code block-fluid-height" data-alias="Tunegenie">
+<div class="block-content">
+<h1 class="block-title"><span>Recently Played</span></h1><iframe name="onair" frameborder="0" align="top,left" marginheight="0" marginwidth="0" scrolling="no" width="300" height="350" src="http://wwkx.tunegenie.com/plugins/onair/?searchbar=on&streamfooter=on"></iframe>
+</div><!-- .block-content -->
+
+</div><!-- #block-bbm54be8787647ca -->
+
+<section class="sub-column sub-column-1 column column-1 grid-width-2 grid-left-0">
+<figure id="block-bbf54be8a16aafc4" class="block block-type-image block-fixed-height" data-alias="" itemscope="" itemtype="http://schema.org/ImageObject">
+<div class="block-content">
+<a href="https://www.facebook.com/hot106" class="image" target="_blank"><img src="http://www.hot1063.com/wp-content/uploads/sites/11/2015/01/Facebook1.jpg" alt="" title="" itemprop="contentURL"/></a>
+</div><!-- .block-content -->
+
+</figure><!-- #block-bbf54be8a16aafc4 -->
+
+</section><!-- .sub-column -->
+
+<section class="sub-column sub-column-2 column column-2 grid-width-2 grid-left-0">
+<figure id="block-bul54be8a16a6328" class="block block-type-image block-fixed-height" data-alias="" itemscope="" itemtype="http://schema.org/ImageObject">
+<div class="block-content">
+<a href="https://twitter.com/hot106" class="image" target="_blank"><img src="http://www.hot1063.com/wp-content/uploads/sites/11/2015/01/Twitter1.jpg" alt="" title="" itemprop="contentURL"/></a>
+</div><!-- .block-content -->
+
+</figure><!-- #block-bul54be8a16a6328 -->
+
+</section><!-- .sub-column -->
+
+<section class="sub-column sub-column-3 column column-3 grid-width-2 grid-left-0">
+<figure id="block-b3554be8a16a9833" class="block block-type-image block-fixed-height" data-alias="" itemscope="" itemtype="http://schema.org/ImageObject">
+<div class="block-content">
+<a href="https://www.youtube.com/user/HOT1063" class="image" target="_blank"><img src="http://www.hot1063.com/wp-content/uploads/sites/11/2015/01/YouTube1.jpg" alt="" title="" itemprop="contentURL"/></a>
+</div><!-- .block-content -->
+
+</figure><!-- #block-b3554be8a16a9833 -->
+
+</section><!-- .sub-column -->
+
+<section class="sub-column sub-column-4 column column-4 grid-width-2 grid-left-0">
+<figure id="block-bih54be8cf482871" class="block block-type-image block-fixed-height" data-alias="" itemscope="" itemtype="http://schema.org/ImageObject">
+<div class="block-content">
+<a href="http://hot1063fm.listenernetwork.com/" class="image" target="_blank"><img src="http://www.hot1063.com/wp-content/uploads/sites/11/2015/01/VIP1.jpg" alt="" title="" itemprop="contentURL"/></a>
+</div><!-- .block-content -->
+
+</figure><!-- #block-bih54be8cf482871 -->
+
+</section><!-- .sub-column -->
+<aside id="block-45" class="free-apps block block-type-widget-area block-fluid-height" data-alias="Home - Free Apps" itemscope="" itemtype="http://schema.org/WPSideBar">
+<div class="block-content">
+<h1 class="block-title"><span>Free Apps</span></h1><ul class="widget-area"><li id="text-5" class="widget widget_text">
+			<div class="textwidget"><p align="center">
+	<a href="https://itunes.apple.com/us/app/hot-106/id351827087?mt=8" target="_blank"><img src="http://cumulus.pro.poolb.tritondigitalcms.com/i93/wp-content/uploads/sites/11/2014/06/appstore.png" border="0"></a> &nbsp;<a href="https://play.google.com/store/apps/details?id=com.airkast.WWKXFM" target="_blank"><img src="http://cumulus.pro.poolb.tritondigitalcms.com/i93/wp-content/uploads/sites/11/2014/06/googleplay.png" border="0"></a> &nbsp;<a href="http://amazon.com/dp/B00FL23EJQ" target="_blank"><img src="http://cumulus.pro.poolb.tritondigitalcms.com/i93/wp-content/uploads/sites/11/2014/06/amazon.png" border="0"></a>
+</p></div>
+		</li><!-- .widget -->
+</ul>
+</div><!-- .block-content -->
+
+</aside><!-- #block-45 -->
+<div id="block-bmg56afb486192a4" class="block block-type-text block-fluid-height" data-alias="HSTOTW">
+<div class="block-content">
+<div class="entry-content"><p><a href="http://www.hot1063.com/2015/09/18/showcase-team-of-the-week/"><img src="http://www.hot1063.com/wp-content/uploads/sites/11/2016/02/team1-300x1513.jpg" alt=""></a></p></div><!-- .entry-content -->
+</div><!-- .block-content -->
+
+</div><!-- #block-bmg56afb486192a4 -->
+<div id="block-b1a550af1b76bd1b" class="twitter-ad block block-type-custom-code block-fluid-height" data-alias="Twitter Ad">
+<div class="block-content">
+<div id='div-gpt-ad-1418849849333-9'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1418849849333-9'); });
+</script>
+</div>
+</div><!-- .block-content -->
+
+</div><!-- #block-b1a550af1b76bd1b -->
+<div id="block-bef56f05c64c9ccd" class="headlines block block-type-custom-code block-fluid-height" data-alias="Community Calendar">
+<div class="block-content">
+<h1 class="block-title"><span>Community Calendar</span></h1><!-- eviesays.com calendar -->
+<iframe src="http://widget.eviesays.com/widget/render.php?site=hot1063&label=default" frameBorder="0" width="300" height="606" scrolling="no"></iframe>
+
+</div><!-- .block-content -->
+
+</div><!-- #block-bef56f05c64c9ccd -->
+<div id="block-bly550af1b769d7f" class="facebook-ad block block-type-custom-code block-fluid-height" data-alias="Facebook Ad">
+<div class="block-content">
+<div id='div-gpt-ad-1418849849333-8'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1418849849333-8'); });
+</script>
+</div>
+</div><!-- .block-content -->
+
+</div><!-- #block-bly550af1b769d7f -->
+
+</section><!-- .column -->
+
+</section><!-- .row -->
+
+
+</div><!-- .grid-container -->
+
+</div><!-- .wrapper -->
+
+<div id="wrapper-10" class="wrapper wrapper-fluid wrapper-fixed-grid grid-fluid-24-32-10 responsive-grid wrapper-last wrapper-footer" data-alias="Wrapper Footer">
+
+<div class="grid-container clearfix">
+
+<section class="row row-1">
+
+<section class="column column-1 grid-left-0 grid-width-6">
+<nav id="block-50" class="footer-nav block block-type-navigation block-fluid-height" data-alias="Footer Navigation" itemscope="" itemtype="http://schema.org/SiteNavigationElement">
+<div class="block-content">
+<div class="nav-vertical nav-align-left"><ul id="menu-footer-navigation" class="menu"><li id="menu-item-228522" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-228522"><a href="/1111/11/11/privacy-policy">Privacy Policy</a></li>
+<li id="menu-item-228525" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-228525"><a href="/1111/11/11/terms-of-service">Terms of Service</a></li>
+<li id="menu-item-228528" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-228528"><a href="/1111/11/11/contest-rules">Contest Rules</a></li>
+<li id="menu-item-183" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-183"><a href="http://www.hot1063.com/advertise-with-us/">Advertise With Us</a></li>
+<li id="menu-item-185" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-185"><a href="http://www.hot1063.com/station-information/">Contact</a></li>
+<li id="menu-item-277" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-277"><a target="_blank" href="http://www.cumulus.com/careers">Employment Opportunities</a></li>
+<li id="menu-item-46995" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-46995"><a target="_blank" href="http://www.92profm.com/wp-content/uploads/sites/3/2017/12/2017-EEO-Public-File-Report.pdf">EEO Report</a></li>
+<li id="menu-item-1361478" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1361478"><a target="_blank" href="https://publicfiles.fcc.gov/fm-profile/wwkx">FCC Public File</a></li>
+<li id="menu-item-1898138" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1898138"><a target="_blank" href="https://www.cumulus.com">Cumulus Media Corporate</a></li>
+</ul></div><!-- .nav-vertical nav-align-left -->
+</div><!-- .block-content -->
+
+</nav><!-- #block-50 -->
+<div id="block-b4355db66d06a8ba" class="block block-type-custom-code block-fluid-height" data-alias="Wallpaper Ad">
+<div class="block-content">
+<div id='div-gpt-ad-1418849849333-16'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1418849849333-16'); });
+</script>
+</div>
+</div><!-- .block-content -->
+
+</div><!-- #block-b4355db66d06a8ba -->
+
+</section><!-- .column -->
+
+<section class="column column-2 grid-left-0 grid-width-18">
+<div id="block-51" class="728x90-ad-2 block block-type-custom-code block-fluid-height" data-alias="728x90 Ad 2">
+<div class="block-content">
+<div class="footer-728x90-ad" align="right">
+<div id='div-gpt-ad-1418849849333-2'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1418849849333-2'); });
+</script>
+</div>
+</div>
+
+</div><!-- .block-content -->
+
+</div><!-- #block-51 -->
+<footer id="block-52" class="copyright block block-type-footer block-fluid-height" data-alias="Copyright" itemscope="" itemtype="http://schema.org/WPFooter">
+<div class="block-content">
+
+<div class="footer-container">
+
+<div class="footer">
+<p class="copyright footer-copyright">Copyright Cumulus Media / Cumulus Media is an equal opportunity employer / AA</p><p class="footer-responsive-grid-link-container footer-responsive-grid-link-disable-container"><a href="http://www.hot1063.com/?full-site=true" rel="nofollow" class="footer-responsive-grid-link footer-responsive-grid-disable footer-link">View Full Site</a></p>
+</div><!-- .footer -->
+</div><!-- .footer-container -->
+</div><!-- .block-content -->
+
+</footer><!-- #block-52 -->
+<div id="block-b5v567198199d6c7" class="block block-type-text block-fluid-height" data-alias="">
+<div class="block-content">
+<div class="entry-content"><p style="text-align: right;">
+	If you need help accessing the FCC Public File file due to a disability, please contact&nbsp;<a href="mailto:neil.larrimore@cumulus.com">neil.larrimore@cumulus.com</a>
+</p></div><!-- .entry-content -->
+</div><!-- .block-content -->
+
+</div><!-- #block-b5v567198199d6c7 -->
+
+</section><!-- .column -->
+
+</section><!-- .row -->
+
+
+</div><!-- .grid-container -->
+
+</div><!-- .wrapper -->
+
+
+
+<script>_AMP.theme.init();</script>
+<link rel='stylesheet' id='media_library_assistant-plugin-styles-css'  href='http://www.hot1063.com/wp-content/plugins/media-library-assistant/includes/../css/prettyPhoto.css?ver=1.61' type='text/css' media='all' />
+<link rel='stylesheet' id='media_library_assistant-widget-styles-css'  href='http://www.hot1063.com/wp-content/plugins/media-library-assistant/includes/../css/widget.css?ver=1.61' type='text/css' media='all' />
+<link rel='stylesheet' id='amp-polls-plugin-styles-css'  href='http://www.hot1063.com/wp-content/plugins/amp-polls/css/widget.css?ver=4.9.1' type='text/css' media='all' />
+<script type='text/javascript'>
+/* <![CDATA[ */
+var themify_vars = {"version":"2.1.8","url":"http:\/\/www.hot1063.com\/wp-content\/plugins\/themify-builder\/themify","map_key":null,"includesURL":"http:\/\/www.hot1063.com\/wp-includes\/","isCached":null,"minify":{"css":{"themify-icons":false,"themify.framework":false,"lightbox":false,"themify-builder-style":false},"js":{"backstretch.themify-version":false,"bigvideo":false,"themify.dropdown":false,"themify.builder.script":false,"themify.scroll-highlight":false,"themify-youtube-bg":false,"themify.parallaxit":false,"themify.ticks":false}}};
+var tbLocalScript = {"isAnimationActive":"1","isParallaxActive":"1","isParallaxScrollActive":"1","animationInviewSelectors":[".module.wow",".module_row.wow",".builder-posts-wrap > .post.wow"],"backgroundSlider":{"autoplay":5000,"speed":2000},"animationOffset":"100","videoPoster":"http:\/\/www.hot1063.com\/wp-content\/plugins\/themify-builder\/img\/blank.png","backgroundVideoLoop":"yes","builder_url":"http:\/\/www.hot1063.com\/wp-content\/plugins\/themify-builder","framework_url":"http:\/\/www.hot1063.com\/wp-content\/plugins\/themify-builder\/themify","version":"2.1.8","fullwidth_support":"","fullwidth_container":"body","loadScrollHighlight":"","addons":[],"breakpoints":{"tablet_landscape":[769,1024],"tablet":[681,768],"mobile":680},"ticks":{"tick":30,"ajaxurl":"http:\/\/www.hot1063.com\/wp-admin\/admin-ajax.php","postID":189}};
+var themifyScript = {"lightbox":{"lightboxSelector":".themify_lightbox","lightboxOn":true,"lightboxContentImages":false,"lightboxContentImagesSelector":"","theme":"pp_default","social_tools":false,"allow_resize":true,"show_title":false,"overlay_gallery":false,"screenWidthNoLightbox":600,"deeplinking":false,"contentImagesAreas":"","gallerySelector":".gallery-icon > a","lightboxGalleryOn":true},"lightboxContext":"body"};
+var tbScrollHighlight = {"fixedHeaderSelector":"","speed":"900","navigation":"#main-nav","scrollOffset":"0"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.hot1063.com/wp-content/plugins/themify-builder/themify/js/main.js?ver=2.1.8'></script>
+<script type='text/javascript'>
+var mejsL10n = {"language":"en","strings":{"mejs.install-flash":"You are using a browser that does not have Flash player enabled or installed. Please turn on your Flash player plugin or download the latest version from https:\/\/get.adobe.com\/flashplayer\/","mejs.fullscreen-off":"Turn off Fullscreen","mejs.fullscreen-on":"Go Fullscreen","mejs.download-video":"Download Video","mejs.fullscreen":"Fullscreen","mejs.time-jump-forward":["Jump forward 1 second","Jump forward %1 seconds"],"mejs.loop":"Toggle Loop","mejs.play":"Play","mejs.pause":"Pause","mejs.close":"Close","mejs.time-slider":"Time Slider","mejs.time-help-text":"Use Left\/Right Arrow keys to advance one second, Up\/Down arrows to advance ten seconds.","mejs.time-skip-back":["Skip back 1 second","Skip back %1 seconds"],"mejs.captions-subtitles":"Captions\/Subtitles","mejs.captions-chapters":"Chapters","mejs.none":"None","mejs.mute-toggle":"Mute Toggle","mejs.volume-help-text":"Use Up\/Down Arrow keys to increase or decrease volume.","mejs.unmute":"Unmute","mejs.mute":"Mute","mejs.volume-slider":"Volume Slider","mejs.video-player":"Video Player","mejs.audio-player":"Audio Player","mejs.ad-skip":"Skip ad","mejs.ad-skip-info":["Skip in 1 second","Skip in %1 seconds"],"mejs.source-chooser":"Source Chooser","mejs.stop":"Stop","mejs.speed-rate":"Speed Rate","mejs.live-broadcast":"Live Broadcast","mejs.afrikaans":"Afrikaans","mejs.albanian":"Albanian","mejs.arabic":"Arabic","mejs.belarusian":"Belarusian","mejs.bulgarian":"Bulgarian","mejs.catalan":"Catalan","mejs.chinese":"Chinese","mejs.chinese-simplified":"Chinese (Simplified)","mejs.chinese-traditional":"Chinese (Traditional)","mejs.croatian":"Croatian","mejs.czech":"Czech","mejs.danish":"Danish","mejs.dutch":"Dutch","mejs.english":"English","mejs.estonian":"Estonian","mejs.filipino":"Filipino","mejs.finnish":"Finnish","mejs.french":"French","mejs.galician":"Galician","mejs.german":"German","mejs.greek":"Greek","mejs.haitian-creole":"Haitian Creole","mejs.hebrew":"Hebrew","mejs.hindi":"Hindi","mejs.hungarian":"Hungarian","mejs.icelandic":"Icelandic","mejs.indonesian":"Indonesian","mejs.irish":"Irish","mejs.italian":"Italian","mejs.japanese":"Japanese","mejs.korean":"Korean","mejs.latvian":"Latvian","mejs.lithuanian":"Lithuanian","mejs.macedonian":"Macedonian","mejs.malay":"Malay","mejs.maltese":"Maltese","mejs.norwegian":"Norwegian","mejs.persian":"Persian","mejs.polish":"Polish","mejs.portuguese":"Portuguese","mejs.romanian":"Romanian","mejs.russian":"Russian","mejs.serbian":"Serbian","mejs.slovak":"Slovak","mejs.slovenian":"Slovenian","mejs.spanish":"Spanish","mejs.swahili":"Swahili","mejs.swedish":"Swedish","mejs.tagalog":"Tagalog","mejs.thai":"Thai","mejs.turkish":"Turkish","mejs.ukrainian":"Ukrainian","mejs.vietnamese":"Vietnamese","mejs.welsh":"Welsh","mejs.yiddish":"Yiddish"}};
+</script>
+<script type='text/javascript' src='http://www.hot1063.com/wp-includes/js/mediaelement/mediaelement-and-player.js?ver=4.2.6-78496d1'></script>
+<script type='text/javascript' src='http://www.hot1063.com/wp-includes/js/mediaelement/mediaelement-migrate.js?ver=4.9.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var _wpmejsSettings = {"pluginPath":"\/wp-includes\/js\/mediaelement\/","classPrefix":"mejs-","stretching":"responsive"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.hot1063.com/wp-includes/js/mediaelement/wp-mediaelement.js?ver=4.9.1'></script>
+<script type='text/javascript' src='http://www.hot1063.com/wp-content/plugins/media-library-assistant/includes/../js/jquery.prettyPhoto.js?ver=1.61'></script>
+<script type='text/javascript' src='http://www.hot1063.com/wp-content/plugins/media-library-assistant/includes/../js/widget-front-end.js?ver=1533183780'></script>
+<script type='text/javascript' src='http://www.hot1063.com/wp-content/plugins/amp-polls/js/widget-front-end.js?ver=4.9.1'></script>
+<script>
+window.tgmplibs="cumulus2,_append_www,_triton_see";
+</script>
+<script type="text/javascript" class="_tgmp_p">
+function onTuneGenieMediaPlayerLoaded() {
+    window.tgmp=new TuneGenieMediaPlayer('playerbar', {
+        brand: "wwkx",
+        zindex: 50000,
+        theme: ["#000000"],
+        position: "bottom",
+        debug: true,
+        ios_frame: 3,
+        autostart: false,
+        infoTrayOnLoad: true,
+        useTritonPlayer: true,
+        promptZag: false,
+    });
+    tgmp.go();
+    window.tgmp_rc = new TuneGenieRC(tgmp);
+    tgmp_rc.recentSongWidget(document.getElementById('tgrecent'),{});
+    tgmp_rc.nowPlayingWidget(document.getElementById('tgnowplaying'),{});
+}
+</script>
+<script type="text/javascript"  class="_tgmp_p" async src="https://mpl.tunegenie.com/js/loader2.min.js"></script>
+
+
+</div><!-- #whitewrap -->
+
+<!-- TGMP PLUGIN ENABLED 2016-08-06T19:39:32.702Z -->
+<!-- DISABLE TGMP INFO TRAY -->
+<!-- ADDED 2016-08-06T19:39:32.702Z -->
+<script>
+	if (window.top.tgmp) {
+		window.top.tgmp.updateOption('infoTrayOnLoad',false);
+	}
+</script>
+<!-- END DISABLE TGMP INFO TRAY -->
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.3";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<script type="text/javascript">
+//<![CDATA[
+(function() {
+var _analytics_scr = document.createElement('script');
+_analytics_scr.type = 'text/javascript'; _analytics_scr.async = true; _analytics_scr.src = '/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=152441970';
+var _analytics_elem = document.getElementsByTagName('script')[0]; _analytics_elem.parentNode.insertBefore(_analytics_scr, _analytics_elem);
+})();
+// ]]>
+</script></body>
+
+
+</html>
+<!--
+Performance optimized by W3 Total Cache. Learn more: https://www.w3-edge.com/products/
+
+Object Caching 4345/4527 objects using memcache
+Page Caching using memcache
+Database Caching 355/437 queries in 1.004 seconds using memcache
+
+Served from: www.1460wrad.com @ 2018-08-27 06:25:18 by W3 Total Cache
+-->

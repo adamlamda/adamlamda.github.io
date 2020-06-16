@@ -1,0 +1,791 @@
+
+<!DOCTYPE html>
+<html class="client-nojs" lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8"/>
+<title>Troilus and Criseyde - Wikipedia</title>
+<script>document.documentElement.className="client-js";RLCONF={"wgBreakFrames":!1,"wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgRequestId":"6735eb0a-4d1e-4b08-aaf1-4e147bc66922","wgCSPNonce":!1,"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":!1,"wgNamespaceNumber":0,"wgPageName":"Troilus_and_Criseyde","wgTitle":"Troilus and Criseyde","wgCurRevisionId":958778550,"wgRevisionId":958778550,"wgArticleId":855241,"wgIsArticle":!0,"wgIsRedirect":!1,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["EngvarB from September 2013","Use dmy dates from September 2013","1380s works","14th-century poems","Adaptations of works by Giovanni Boccaccio","Epic poems in English","Middle English poems","Poetry by Geoffrey Chaucer","Troilus and Cressida","Romance (genre)","Trojan War literature"
+,"Works based on Greek and Roman works","Love stories"],"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgRelevantPageName":"Troilus_and_Criseyde","wgRelevantArticleId":855241,"wgIsProbablyEditable":!0,"wgRelevantPageIsProbablyEditable":!0,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgMediaViewerOnClick":!0,"wgMediaViewerEnabledByDefault":!0,"wgPopupsReferencePreviews":!1,"wgPopupsConflictsWithNavPopupGadget":!1,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en"},"wgMFDisplayWikibaseDescriptions":{"search":!0,"nearby":!0,"watchlist":!0,"tagline":!1},"wgWMESchemaEditAttemptStepOversample":!1,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgWikibaseItemId":"Q2527101","wgCentralAuthMobileDomain":!1,"wgEditSubmitButtonLabelPublish":!0};RLSTATE={"ext.globalCssJs.user.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","ext.globalCssJs.user":"ready","user":
+"ready","user.options":"loading","ext.cite.styles":"ready","jquery.makeCollapsible.styles":"ready","mediawiki.toc.styles":"ready","skins.vector.styles.legacy":"ready","wikibase.client.init":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready"};RLPAGEMODULES=["ext.cite.ux-enhancements","site","mediawiki.page.startup","mediawiki.page.ready","jquery.makeCollapsible","mediawiki.toc","skins.vector.legacy.js","ext.gadget.ReferenceTooltips","ext.gadget.charinsert","ext.gadget.extra-toolbar-buttons","ext.gadget.refToolbar","ext.gadget.switcher","ext.centralauth.centralautologin","mmv.head","mmv.bootstrap.autostart","ext.popups","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging","ext.wikimediaEvents","ext.navigationTiming","ext.uls.compactlinks","ext.uls.interface","ext.cx.eventlogging.campaigns","ext.quicksurveys.init","ext.centralNotice.geoIP","ext.centralNotice.startUp"];</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.loader.implement("user.options@1hzgi",function($,jQuery,require,module){/*@nomin*/mw.user.tokens.set({"patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+});});</script>
+<link rel="stylesheet" href="http://en.wikipedia.org/w/load.php?lang=en&amp;modules=ext.cite.styles%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediaBadges%7Cjquery.makeCollapsible.styles%7Cmediawiki.toc.styles%7Cskins.vector.styles.legacy%7Cwikibase.client.init&amp;only=styles&amp;skin=vector"/>
+<script async="" src="http://en.wikipedia.org/w/load.php?lang=en&amp;modules=startup&amp;only=scripts&amp;raw=1&amp;skin=vector"></script>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="http://en.wikipedia.org/w/load.php?lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=vector"/>
+<meta name="generator" content="MediaWiki 1.35.0-wmf.36"/>
+<meta name="referrer" content="origin"/>
+<meta name="referrer" content="origin-when-crossorigin"/>
+<meta name="referrer" content="origin-when-cross-origin"/>
+<meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/e/ec/Chaucer_Troilus_frontispiece.jpg"/>
+<link rel="alternate" type="application/x-wiki" title="Edit this page" href="http://en.wikipedia.org/w/index.php?title=Troilus_and_Criseyde&amp;action=edit"/>
+<link rel="edit" title="Edit this page" href="http://en.wikipedia.org/w/index.php?title=Troilus_and_Criseyde&amp;action=edit"/>
+<link rel="apple-touch-icon" href="http://en.wikipedia.org/static/apple-touch/wikipedia.png"/>
+<link rel="shortcut icon" href="http://en.wikipedia.org/static/favicon/wikipedia.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="http://en.wikipedia.org/w/opensearch_desc.php" title="Wikipedia (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="http://en.wikipedia.org/w/api.php?action=rsd"/>
+<link rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/"/>
+<link rel="alternate" type="application/atom+xml" title="Wikipedia Atom feed" href="http://en.wikipedia.org/w/index.php?title=Special:RecentChanges&amp;feed=atom"/>
+<link rel="canonical" href="https://en.wikipedia.org/wiki/Troilus_and_Criseyde"/>
+<link rel="dns-prefetch" href="http://login.wikimedia.org/"/>
+<link rel="dns-prefetch" href="http://meta.wikimedia.org/" />
+<!--[if lt IE 9]><script src="/w/resources/lib/html5shiv/html5shiv.js"></script><![endif]-->
+</head>
+<body class="mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject mw-editable page-Troilus_and_Criseyde rootpage-Troilus_and_Criseyde skin-vector action-view skin-vector-legacy">
+<div id="mw-page-base" class="noprint"></div>
+<div id="mw-head-base" class="noprint"></div>
+<div id="content" class="mw-body" role="main">
+	<a id="top"></a>
+		<div id="siteNotice" class="mw-body-content"><!-- CentralNotice --></div>
+	<div class="mw-indicators mw-body-content">
+</div>
+
+	<h1 id="firstHeading" class="firstHeading" lang="en"><i>Troilus and Criseyde</i></h1>
+	
+	<div id="bodyContent" class="mw-body-content">
+		<div id="siteSub" class="noprint">From Wikipedia, the free encyclopedia</div>
+		<div id="contentSub"></div>
+		
+		
+		<div id="jump-to-nav"></div>
+		<a class="mw-jump-link" href="Troilus_and_Criseyde#mw-head">Jump to navigation</a>
+		<a class="mw-jump-link" href="Troilus_and_Criseyde#p-search">Jump to search</a>
+		<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><div class="mw-parser-output"><div role="note" class="hatnote navigation-not-searchable">For the Shakespeare play, see <a href="http://en.wikipedia.org/wiki/Troilus_and_Cressida" title="Troilus and Cressida">Troilus and Cressida</a>.</div>
+<p class="mw-empty-elt">
+
+</p>
+<div class="thumb tright"><div class="thumbinner" style="width:222px;"><a href="http://en.wikipedia.org/wiki/File:Chaucer_Troilus_frontispiece.jpg" class="image"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Chaucer_Troilus_frontispiece.jpg/220px-Chaucer_Troilus_frontispiece.jpg" decoding="async" width="220" height="409" class="thumbimage" srcset="http://upload.wikimedia.org/wikipedia/commons/e/ec/Chaucer_Troilus_frontispiece.jpg 1.5x" data-file-width="319" data-file-height="593" /></a>  <div class="thumbcaption"><div class="magnify"><a href="http://en.wikipedia.org/wiki/File:Chaucer_Troilus_frontispiece.jpg" class="internal" title="Enlarge"></a></div>Chaucer reciting <i>Troylus and Criseyde</i>: early 15th-century manuscript of the work at <a href="http://en.wikipedia.org/wiki/Corpus_Christi_College,_Cambridge" title="Corpus Christi College, Cambridge">Corpus Christi College, Cambridge</a></div></div></div>
+<p><i><b>Troilus and Criseyde</b></i> (<span class="rt-commentedText nowrap"><span class="IPA nopopups noexcerpt"><a href="./Help:IPA/English" title="Help:IPA/English">/<span style="border-bottom:1px dotted"><span title="/ˈ/: primary stress follows">ˈ</span><span title="&#39;t&#39; in &#39;tie&#39;">t</span><span title="&#39;r&#39; in &#39;rye&#39;">r</span><span title="/ɔɪ/: &#39;oi&#39; in &#39;choice&#39;">ɔɪ</span><span title="&#39;l&#39; in &#39;lie&#39;">l</span><span title="/ə/: &#39;a&#39; in &#39;about&#39;">ə</span><span title="&#39;s&#39; in &#39;sigh&#39;">s</span></span>&#8201;...<span class="wrap">&#8201;</span><span style="border-bottom:1px dotted"><span title="/ˈ/: primary stress follows">ˈ</span><span title="&#39;k&#39; in &#39;kind&#39;">k</span><span title="&#39;r&#39; in &#39;rye&#39;">r</span><span title="/ɛ/: &#39;e&#39; in &#39;dress&#39;">ɛ</span><span title="&#39;s&#39; in &#39;sigh&#39;">s</span><span title="/ɪ/: &#39;i&#39; in &#39;kit&#39;">ɪ</span><span title="&#39;d&#39; in &#39;dye&#39;">d</span><span title="/ə/: &#39;a&#39; in &#39;about&#39;">ə</span></span>/</a></span></span>) is an <a href="http://en.wikipedia.org/wiki/Epic_poem" class="mw-redirect" title="Epic poem">epic poem</a> by <a href="Geoffrey_Chaucer" title="Geoffrey Chaucer">Geoffrey Chaucer</a> which re-tells in <a href="http://en.wikipedia.org/wiki/Middle_English" title="Middle English">Middle English</a> the tragic story of the lovers <a href="http://en.wikipedia.org/wiki/Troilus" title="Troilus">Troilus</a> and <a href="http://en.wikipedia.org/wiki/Cressida" title="Cressida">Criseyde</a> set against a backdrop of war during the <a href="http://en.wikipedia.org/wiki/Siege_of_Troy" class="mw-redirect" title="Siege of Troy">Siege of Troy</a>. It was composed using <i><a href="http://en.wikipedia.org/wiki/Rhyme_royal" title="Rhyme royal">rime royale</a></i> and probably completed during the mid-1380s. Many Chaucer scholars regard it as the poet's finest work. As a finished <a href="http://en.wikipedia.org/wiki/Long_poem" title="Long poem">long poem</a> it is more self-contained than the better known but ultimately unfinished <i><a href="http://en.wikipedia.org/wiki/The_Canterbury_Tales" title="The Canterbury Tales">The Canterbury Tales</a></i>. This poem is often considered the source of the phrase: "all good things must come to an end" (3.615).
+</p><p>Although Troilus is a character from <a href="http://en.wikipedia.org/wiki/Ancient_Greek_literature" title="Ancient Greek literature">Ancient Greek literature</a>, the expanded story of him as a lover was of Medieval origin. The first known version is from <a href="http://en.wikipedia.org/wiki/Beno%C3%AEt_de_Sainte-Maure" title="Benoît de Sainte-Maure">Benoît de Sainte-Maure</a>'s poem <i><a href="http://en.wikipedia.org/wiki/Roman_de_Troie" title="Roman de Troie">Roman de Troie</a></i>, but Chaucer's principal source appears to have been <a href="http://en.wikipedia.org/wiki/Giovanni_Boccaccio" title="Giovanni Boccaccio">Boccaccio</a> who re-wrote the tale in his <i><a href="http://en.wikipedia.org/wiki/Il_Filostrato" title="Il Filostrato">Il Filostrato</a></i>. Chaucer attributes the story to a "Lollius" (whom he also mentions in <i><a href="http://en.wikipedia.org/wiki/The_House_of_Fame" title="The House of Fame">The House of Fame</a></i>), although no writer with this name is known.<sup id="cite_ref-1" class="reference"><a href="Troilus_and_Criseyde#cite_note-1">&#91;1&#93;</a></sup> Chaucer's version can be said to reflect a less cynical and less <a href="http://en.wikipedia.org/wiki/Misogynist" class="mw-redirect" title="Misogynist">misogynistic</a> world-view than <a href="http://en.wikipedia.org/wiki/Boccaccio" class="mw-redirect" title="Boccaccio">Boccaccio</a>'s, casting Criseyde as fearful and sincere rather than simply fickle and having been led astray by the eloquent and perfidious <a href="http://en.wikipedia.org/wiki/Pandarus" title="Pandarus">Pandarus</a>. It also inflects the sorrow of the story with humour.
+</p><p>The poem had an important legacy for later writers. <a href="http://en.wikipedia.org/wiki/Robert_Henryson" title="Robert Henryson">Robert Henryson</a>'s Scots poem <i><a href="http://en.wikipedia.org/wiki/The_Testament_of_Cresseid" title="The Testament of Cresseid">The Testament of Cresseid</a></i> imagined a tragic fate for Criseyde not given by Chaucer. In historical editions of the English <i>Troilus and Criseyde</i>, Henryson's distinct and separate work was sometimes included without accreditation as an "epilogue" to Chaucer's tale. Other texts, for example John Metham's <i><a href="http://en.wikipedia.org/wiki/Amoryus_and_Cleopes" title="Amoryus and Cleopes">Amoryus and Cleopes</a></i> (c. 1449), adapt language and authorship strategies from the famous predecessor poem.<sup id="cite_ref-2" class="reference"><a href="Troilus_and_Criseyde#cite_note-2">&#91;2&#93;</a></sup> <a href="William_Shakespeare" title="William Shakespeare">Shakespeare</a>'s tragedy <i><a href="http://en.wikipedia.org/wiki/Troilus_and_Cressida" title="Troilus and Cressida">Troilus and Cressida</a></i>, although much blacker in tone, was also based in part on the material.
+</p><p><i>Troilus and Criseyde</i> is usually considered to be a <a href="http://en.wikipedia.org/wiki/Courtly_romance" class="mw-redirect" title="Courtly romance">courtly romance</a>, although the generic classification is an area of significant debate in most <a href="http://en.wikipedia.org/wiki/Middle_English" title="Middle English">Middle English</a> literature. It is part of the <a href="http://en.wikipedia.org/wiki/Matter_of_Rome" title="Matter of Rome">Matter of Rome</a> cycle, a fact which Chaucer emphasizes.<sup id="cite_ref-3" class="reference"><a href="Troilus_and_Criseyde#cite_note-3">&#91;3&#93;</a></sup>
+</p>
+<div id="toc" class="toc" role="navigation" aria-labelledby="mw-toc-heading"><input type="checkbox" role="button" id="toctogglecheckbox" class="toctogglecheckbox" style="display:none" /><div class="toctitle" lang="en" dir="ltr"><h2 id="mw-toc-heading">Contents</h2><span class="toctogglespan"><label class="toctogglelabel" for="toctogglecheckbox"></label></span></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="Troilus_and_Criseyde#Characters"><span class="tocnumber">1</span> <span class="toctext">Characters</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="Troilus_and_Criseyde#Synopsis"><span class="tocnumber">2</span> <span class="toctext">Synopsis</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="Troilus_and_Criseyde#Inspiration"><span class="tocnumber">3</span> <span class="toctext">Inspiration</span></a></li>
+<li class="toclevel-1 tocsection-4"><a href="Troilus_and_Criseyde#References"><span class="tocnumber">4</span> <span class="toctext">References</span></a></li>
+<li class="toclevel-1 tocsection-5"><a href="Troilus_and_Criseyde#Further_reading"><span class="tocnumber">5</span> <span class="toctext">Further reading</span></a></li>
+<li class="toclevel-1 tocsection-6"><a href="Troilus_and_Criseyde#External_links"><span class="tocnumber">6</span> <span class="toctext">External links</span></a></li>
+</ul>
+</div>
+
+<h2><span class="mw-headline" id="Characters">Characters</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="http://en.wikipedia.org/w/index.php?title=Troilus_and_Criseyde&amp;action=edit&amp;section=1" title="Edit section: Characters">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul><li><a href="Achilles" title="Achilles">Achilles</a>, a Greek warrior</li>
+<li><a href="http://en.wikipedia.org/wiki/Antenor_(mythology)" title="Antenor (mythology)">Antenor</a>, a soldier held captive by the Greeks, traded for Criseyde's safety, eventually betrays Troy</li>
+<li><a href="http://en.wikipedia.org/wiki/Calchas" title="Calchas">Calchas</a>, a Trojan prophet who joins the Greeks</li>
+<li><a href="http://en.wikipedia.org/wiki/Cressida" title="Cressida">Criseyde</a>, Calchas' daughter</li>
+<li><a href="http://en.wikipedia.org/wiki/Diomedes" title="Diomedes">Diomede</a>, woos Criseyde in the Greek Camp</li>
+<li><a href="http://en.wikipedia.org/wiki/Helen_of_Troy" title="Helen of Troy">Helen</a>, wife to Menelaus, lover of Paris</li>
+<li><a href="http://en.wikipedia.org/wiki/Pandarus" title="Pandarus">Pandarus</a>, Criseyde's uncle, who advises Troilus in the wooing of Criseyde</li>
+<li><a href="Priam" title="Priam">Priam</a>, King of Troy</li>
+<li><a href="http://en.wikipedia.org/wiki/Cassandra" title="Cassandra">Cassandra</a>, Daughter of Priam, a prophetess at the temple of Apollo</li>
+<li><a href="Hector" title="Hector">Hector</a>, Prince of Troy, fierce warrior and leader of the Trojan armies</li>
+<li><a href="http://en.wikipedia.org/wiki/Troilus" title="Troilus">Troilus</a>, Youngest son of Priam, and wooer of Criseyde</li>
+<li><a href="Paris_(mythology)" title="Paris (mythology)">Paris</a>, Prince of Troy, lover of Helen</li>
+<li><a href="http://en.wikipedia.org/wiki/Deiphobus" title="Deiphobus">Deiphobus</a>, Prince of Troy, aids Troilus in the wooing of Criseyde</li></ul>
+<h2><span class="mw-headline" id="Synopsis">Synopsis</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="http://en.wikipedia.org/w/index.php?title=Troilus_and_Criseyde&amp;action=edit&amp;section=2" title="Edit section: Synopsis">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Calchas, a soothsayer, foresees the fall of Troy and abandons the city in favour of the Greeks; his daughter, Criseyde, receives some ill will on account of her father's betrayal. Troilus, a warrior of Troy, publicly mocks love and is punished by the God of Love by <a href="http://en.wikipedia.org/wiki/Love_at_first_sight" title="Love at first sight">being struck with</a> irreconcilable desire for Criseyde, whom he sees passing through the temple. With the help of sly Pandarus, Criseyde's uncle, Troilus and Criseyde begin to exchange letters. Eventually, Pandarus develops a plan to urge the two into bed together; Troilus swoons when he thinks the plan is going amiss, but Pandarus and Criseyde revive him. Pandarus leaves, and Troilus and Criseyde spend a night of bliss together. 
+</p><p>Calchas eventually persuades the Greeks to exchange a prisoner of war, Antenor, for his daughter Criseyde. Hector, of Troy, objects; as does Troilus, although he does not voice his concern. Troilus speaks to Criseyde and suggests they elope but she offers a logical argument as to why it would not be practical. Criseyde promises to deceive her father and return to Troy after ten days; Troilus leaves her with a sense of foreboding. Upon arriving in the Greek camp, Criseyde realizes the unlikeliness of her being able to keep her promise to Troilus. She writes dismissively in response to his letters and on the tenth day accepts a meeting with Diomede, and listens to him speak of love. Later, she accepts him as a lover. Pandarus and Troilus wait for Criseyde: Pandarus sees that she will not return and eventually Troilus realizes this as well. Troilus curses Fortune, even more so because he still loves Criseyde; Pandarus offers some condolences. The narrator, with an apology for giving women a bad name, bids farewell to his book, and briefly recounts Troilus's death in battle and his ascent to the eighth sphere, draws a moral about the transience of earthly joys and the inadequacy of paganism, dedicates his poem to <a href="http://en.wikipedia.org/wiki/John_Gower" title="John Gower">John Gower</a> and Strode, asks the protection of the Trinity, and prays that we be worthy of Christ's mercy.<sup id="cite_ref-4" class="reference"><a href="Troilus_and_Criseyde#cite_note-4">&#91;4&#93;</a></sup>
+</p>
+<h2><span class="mw-headline" id="Inspiration">Inspiration</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="http://en.wikipedia.org/w/index.php?title=Troilus_and_Criseyde&amp;action=edit&amp;section=3" title="Edit section: Inspiration">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>The <i>Canticus Troili</i> is heavily borrowed from <a href="http://en.wikipedia.org/wiki/Petrarch" title="Petrarch">Petrarch</a>'s Sonnet 88 from <i><a href="http://en.wikipedia.org/wiki/Il_Canzoniere" title="Il Canzoniere">Il Canzoniere</a></i>.<sup id="cite_ref-5" class="reference"><a href="Troilus_and_Criseyde#cite_note-5">&#91;5&#93;</a></sup>
+</p><p>Troilus' philosophical monologue in Book IV is from <a href="http://en.wikipedia.org/wiki/Boethius" title="Boethius">Boethius</a>' <i><a href="http://en.wikipedia.org/wiki/Consolation_of_Philosophy" class="mw-redirect" title="Consolation of Philosophy">Consolation of Philosophy</a></i>, a book that was extremely influential to Chaucer.
+</p>
+<h2><span class="mw-headline" id="References">References</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="http://en.wikipedia.org/w/index.php?title=Troilus_and_Criseyde&amp;action=edit&amp;section=4" title="Edit section: References">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="reflist" style="list-style-type: decimal;">
+<div class="mw-references-wrap"><ol class="references">
+<li id="cite_note-1"><span class="mw-cite-backlink"><b><a href="Troilus_and_Criseyde#cite_ref-1">^</a></b></span> <span class="reference-text"><cite id="CITEREFHornstein1948" class="citation journal">Hornstein, Lillian Herlands (1948). "Petrarch's Laelius, Chaucer's Lollius?". <i>Publications of the Modern Language Association of America</i>. <a href="http://en.wikipedia.org/wiki/Modern_Language_Association" title="Modern Language Association">Modern Language Association</a>. <b>63</b> (1): 64–84. <a href="http://en.wikipedia.org/wiki/JSTOR_(identifier)" class="mw-redirect" title="JSTOR (identifier)">JSTOR</a>&#160;<a rel="nofollow" class="external text" href="http://www.jstor.org/stable/459407">459407</a>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=Publications+of+the+Modern+Language+Association+of+America&amp;rft.atitle=Petrarch%27s+Laelius%2C+Chaucer%27s+Lollius%3F&amp;rft.volume=63&amp;rft.issue=1&amp;rft.pages=64-84&amp;rft.date=1948&amp;rft_id=%2F%2Fwww.jstor.org%2Fstable%2F459407&amp;rft.aulast=Hornstein&amp;rft.aufirst=Lillian+Herlands&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ATroilus+and+Criseyde" class="Z3988"></span><style data-mw-deduplicate="TemplateStyles:r951705291">.mw-parser-output cite.citation{font-style:inherit}.mw-parser-output .citation q{quotes:"\"""\"""'""'"}.mw-parser-output .id-lock-free a,.mw-parser-output .citation .cs1-lock-free a{background-image:url("http://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Lock-green.svg/9px-Lock-green.svg.png");background-image:linear-gradient(transparent,transparent),url("http://upload.wikimedia.org/wikipedia/commons/6/65/Lock-green.svg");background-repeat:no-repeat;background-size:9px;background-position:right .1em center}.mw-parser-output .id-lock-limited a,.mw-parser-output .id-lock-registration a,.mw-parser-output .citation .cs1-lock-limited a,.mw-parser-output .citation .cs1-lock-registration a{background-image:url("http://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Lock-gray-alt-2.svg/9px-Lock-gray-alt-2.svg.png");background-image:linear-gradient(transparent,transparent),url("http://upload.wikimedia.org/wikipedia/commons/d/d6/Lock-gray-alt-2.svg");background-repeat:no-repeat;background-size:9px;background-position:right .1em center}.mw-parser-output .id-lock-subscription a,.mw-parser-output .citation .cs1-lock-subscription a{background-image:url("http://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Lock-red-alt-2.svg/9px-Lock-red-alt-2.svg.png");background-image:linear-gradient(transparent,transparent),url("http://upload.wikimedia.org/wikipedia/commons/a/aa/Lock-red-alt-2.svg");background-repeat:no-repeat;background-size:9px;background-position:right .1em center}.mw-parser-output .cs1-subscription,.mw-parser-output .cs1-registration{color:#555}.mw-parser-output .cs1-subscription span,.mw-parser-output .cs1-registration span{border-bottom:1px dotted;cursor:help}.mw-parser-output .cs1-ws-icon a{background-image:url("http://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Wikisource-logo.svg/12px-Wikisource-logo.svg.png");background-image:linear-gradient(transparent,transparent),url("http://upload.wikimedia.org/wikipedia/commons/4/4c/Wikisource-logo.svg");background-repeat:no-repeat;background-size:12px;background-position:right .1em center}.mw-parser-output code.cs1-code{color:inherit;background:inherit;border:inherit;padding:inherit}.mw-parser-output .cs1-hidden-error{display:none;font-size:100%}.mw-parser-output .cs1-visible-error{font-size:100%}.mw-parser-output .cs1-maint{display:none;color:#33aa33;margin-left:0.3em}.mw-parser-output .cs1-subscription,.mw-parser-output .cs1-registration,.mw-parser-output .cs1-format{font-size:95%}.mw-parser-output .cs1-kern-left,.mw-parser-output .cs1-kern-wl-left{padding-left:0.2em}.mw-parser-output .cs1-kern-right,.mw-parser-output .cs1-kern-wl-right{padding-right:0.2em}.mw-parser-output .citation .mw-selflink{font-weight:inherit}</style></span>
+</li>
+<li id="cite_note-2"><span class="mw-cite-backlink"><b><a href="Troilus_and_Criseyde#cite_ref-2">^</a></b></span> <span class="reference-text">Richard Utz, "Writing Alternative Worlds: Rituals of Authorship and Authority in Late Medieval Theological and Literary Discourse." In: <i>Creations: Medieval Rituals, the Arts, and the Concept of Creation</i>. Ed. Sven Rune Havsteen, Nils Holger Petersen, <a href="http://en.wikipedia.org/wiki/Heinrich_W._Schwab" title="Heinrich W. Schwab">Heinrich W. Schwab</a>, and Eyolf Østrem. Turnhout: Brepols, 2007, pp. 121–38.</span>
+</li>
+<li id="cite_note-3"><span class="mw-cite-backlink"><b><a href="Troilus_and_Criseyde#cite_ref-3">^</a></b></span> <span class="reference-text"><a href="http://en.wikipedia.org/wiki/C._S._Lewis" title="C. S. Lewis">C. S. Lewis</a>, <i>Selected Literary Essays</i>, pp. 30–31, Cambridge: Cambridge UP, 1969.</span>
+</li>
+<li id="cite_note-4"><span class="mw-cite-backlink"><b><a href="Troilus_and_Criseyde#cite_ref-4">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://karolus.net/tranal.html"><i>Scene outline of Chaucer's Troilus</i>, by Donald R. Howard &amp; James Dean, eds., Signet edition, 1976.</a></span>
+</li>
+<li id="cite_note-5"><span class="mw-cite-backlink"><b><a href="Troilus_and_Criseyde#cite_ref-5">^</a></b></span> <span class="reference-text"><cite id="CITEREFBenson1987" class="citation book">Benson, Larry D. (1987). <i>The Riverside Chaucer</i> (3rd ed.). Houghton Mifflin Company. p.&#160;1028.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=The+Riverside+Chaucer&amp;rft.pages=1028&amp;rft.edition=3rd&amp;rft.pub=Houghton+Mifflin+Company&amp;rft.date=1987&amp;rft.aulast=Benson&amp;rft.aufirst=Larry+D.&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ATroilus+and+Criseyde" class="Z3988"></span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r951705291"/></span>
+</li>
+</ol></div></div>
+<h2><span class="mw-headline" id="Further_reading">Further reading</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="http://en.wikipedia.org/w/index.php?title=Troilus_and_Criseyde&amp;action=edit&amp;section=5" title="Edit section: Further reading">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul><li>Boitani, Piero and Jill Mann. <i>The Cambridge Companion to Chaucer</i>. 2nd ed. Cambridge: <a href="http://en.wikipedia.org/wiki/Cambridge_University_Press" title="Cambridge University Press">Cambridge University Press</a>, 2003.</li>
+<li>Brown, Peter, ed. <i>A Companion to Chaucer</i>. Oxford: Blackwell, 2000.</li>
+<li><a rel="nofollow" class="external text" href="https://www.gutenberg.org/ebooks/257">Chaucer, G. <i>Troilus and Criseyde</i>. Project Gutenberg.</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Carolyn_Dinshaw" title="Carolyn Dinshaw">Dinshaw, Carolyn</a>. <i>Chaucer's Sexual Poetics</i>. Madison: <a href="http://en.wikipedia.org/wiki/University_of_Wisconsin_Press" title="University of Wisconsin Press">University of Wisconsin Press</a>, 1989.</li>
+<li>Garrison, John, “One Mind, One Heart, One Purse: Integrating Friendship Traditions and the Case of Troilus and Criseyde,” in <i>Medievalia et Humanistica</i> 36 (2010), p.&#160;25–48.</li>
+<li>Hansen, Elaine Tuttle. <i>Chaucer and the Fictions of Gender</i>. Berkeley: <a href="http://en.wikipedia.org/wiki/University_of_California_Press" title="University of California Press">University of California Press</a>, 1992.</li>
+<li>Mann, Jill. <i>Feminizing Chaucer</i>. 2nd ed. Rochester, NY: D.S. Brewer, 2002.</li>
+<li>McAlpine, Monica. <i>The Genre of Troilus and Criseyde</i>. Ithaca: <a href="http://en.wikipedia.org/wiki/Cornell_University_Press" title="Cornell University Press">Cornell University Press</a>, 1978.</li>
+<li>Patterson, Lee. <i>Chaucer and the Subject of History</i>. Madison: <a href="http://en.wikipedia.org/wiki/University_of_Wisconsin_Press" title="University of Wisconsin Press">University of Wisconsin Press</a>, 1991.</li>
+<li>Robinson, Ian. <i>Chaucer and the English Tradition</i>. Cambridge: Cambridge University Press, 1972.</li>
+<li>Robinson, Ian. <i>Chaucer's Prosody: A Study of the Middle English Verse Tradition</i>. Cambridge: Cambridge University Press, 1971.</li>
+<li>Strohm, Paul. <i>Social Chaucer</i>. Cambridge: Harvard University Press, 1989.</li>
+<li>Wallace, David. <i>     Chaucerian polity: Absolutist Lineages and Associational Forms in England and Italy</i>. Stanford: <a href="http://en.wikipedia.org/wiki/Stanford_University_Press" title="Stanford University Press">Stanford University Press</a>, 1997.</li></ul>
+<h2><span class="mw-headline" id="External_links">External links</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="http://en.wikipedia.org/w/index.php?title=Troilus_and_Criseyde&amp;action=edit&amp;section=6" title="Edit section: External links">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<table role="presentation" class="mbox-small plainlinks sistersitebox" style="background-color:#f9f9f9;border:1px solid #aaa;color:#000">
+<tbody><tr>
+<td class="mbox-image"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Wikisource-logo.svg/38px-Wikisource-logo.svg.png" decoding="async" width="38" height="40" class="noviewer" srcset="http://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Wikisource-logo.svg/57px-Wikisource-logo.svg.png 1.5x, http://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Wikisource-logo.svg/76px-Wikisource-logo.svg.png 2x" data-file-width="410" data-file-height="430" /></td>
+<td class="mbox-text plainlist"><a href="http://en.wikipedia.org/wiki/Wikisource" title="Wikisource">Wikisource</a> has original text related to this article:
+<div style="margin-left: 10px;"><b><a href="https://en.wikisource.org/wiki/Troilus_and_Criseyde" class="extiw" title="wikisource:Troilus and Criseyde"><i>Troilus and Criseyde</i></a></b></div></td></tr>
+</tbody></table>
+<ul><li>Chaucer, Geoffrey. <i><a rel="nofollow" class="external text" href="http://mcllibrary.org/Troilus/">Troilus and Criseyde</a></i> via The Medieval and Classical Literature Library.</li>
+<li><cite class="citation"><a rel="nofollow" class="external text" href="http://www.bbc.co.uk/dna/h2g2/A1054027"><i>Troilus and Criseyde</i></a>, UK: BBC</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Troilus+and+Criseyde&amp;rft.place=UK&amp;rft.pub=BBC&amp;rft_id=http%3A%2F%2Fwww.bbc.co.uk%2Fdna%2Fh2g2%2FA1054027&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ATroilus+and+Criseyde" class="Z3988"></span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r951705291"/>.</li>
+<li><cite class="citation">"Modern Prose Translation of and Other Resources on Troilus and Criseyde", <a rel="nofollow" class="external text" href="http://www.umm.maine.edu/faculty/necastro/chaucer/tr"><i>eChaucer</i></a>, Maine</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=bookitem&amp;rft.atitle=Modern+Prose+Translation+of+and+Other+Resources+on+Troilus+and+Criseyde&amp;rft.btitle=eChaucer&amp;rft.pub=Maine&amp;rft_id=http%3A%2F%2Fwww.umm.maine.edu%2Ffaculty%2Fnecastro%2Fchaucer%2Ftr&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ATroilus+and+Criseyde" class="Z3988"></span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r951705291"/>.</li>
+<li><cite id="CITEREFKline" class="citation"><a href="http://en.wikipedia.org/w/index.php?title=A._S._Kline&amp;action=edit&amp;redlink=1" class="new" title="A. S. Kline (page does not exist)">Kline, A. S.</a>, <a rel="nofollow" class="external text" href="http://www.poetryintranslation.com/PITBR/English/Chaucerhome.htm"><i>Modern English Version</i></a>, Poetry in Translation</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Modern+English+Version&amp;rft.pub=Poetry+in+Translation&amp;rft.aulast=Kline&amp;rft.aufirst=A.+S.&amp;rft_id=http%3A%2F%2Fwww.poetryintranslation.com%2FPITBR%2FEnglish%2FChaucerhome.htm&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ATroilus+and+Criseyde" class="Z3988"></span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r951705291"/>.</li></ul>
+<div role="navigation" class="navbox" aria-labelledby="Geoffrey_Chaucer" style="padding:3px"><table class="nowraplinks hlist mw-collapsible autocollapse navbox-inner" style="border-spacing:0;background:transparent;color:inherit"><tbody><tr><th scope="col" class="navbox-title" colspan="3" style="background:#04aa06"><div class="plainlinks hlist navbar mini"><ul><li class="nv-view"><a href="http://en.wikipedia.org/wiki/Template:Geoffrey_Chaucer" title="Template:Geoffrey Chaucer"><abbr title="View this template" style=";background:#04aa06;background:none transparent;border:none;-moz-box-shadow:none;-webkit-box-shadow:none;box-shadow:none; padding:0;">v</abbr></a></li><li class="nv-talk"><a href="http://en.wikipedia.org/wiki/Template_talk:Geoffrey_Chaucer" title="Template talk:Geoffrey Chaucer"><abbr title="Discuss this template" style=";background:#04aa06;background:none transparent;border:none;-moz-box-shadow:none;-webkit-box-shadow:none;box-shadow:none; padding:0;">t</abbr></a></li><li class="nv-edit"><a class="external text" href="https://en.wikipedia.org/w/index.php?title=Template:Geoffrey_Chaucer&amp;action=edit"><abbr title="Edit this template" style=";background:#04aa06;background:none transparent;border:none;-moz-box-shadow:none;-webkit-box-shadow:none;box-shadow:none; padding:0;">e</abbr></a></li></ul></div><div id="Geoffrey_Chaucer" style="font-size:114%;margin:0 4em"><a href="Geoffrey_Chaucer" title="Geoffrey Chaucer">Geoffrey Chaucer</a></div></th></tr><tr><th scope="row" class="navbox-group" style="width:1%;background:#69fc6a">Works</th><td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em"></div><table class="nowraplinks navbox-subgroup" style="border-spacing:0"><tbody><tr><th scope="row" class="navbox-group" style="width:1%;background:#69fc6a"><i><a href="http://en.wikipedia.org/wiki/The_Canterbury_Tales" title="The Canterbury Tales">The<br />Canterbury<br />Tales</a></i></th><td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="http://en.wikipedia.org/wiki/General_Prologue" title="General Prologue">General Prologue</a></li>
+<li><a href="http://en.wikipedia.org/wiki/The_Knight%27s_Tale" title="The Knight&#39;s Tale">The Knight's Tale</a></li>
+<li><a href="http://en.wikipedia.org/wiki/The_Miller%27s_Tale" title="The Miller&#39;s Tale">The Miller's Tale</a></li>
+<li><a href="http://en.wikipedia.org/wiki/The_Reeve%27s_Tale" title="The Reeve&#39;s Tale">The Reeve's Tale</a></li>
+<li><a href="http://en.wikipedia.org/wiki/The_Cook%27s_Tale" title="The Cook&#39;s Tale">The Cook's Tale</a></li>
+<li><a href="http://en.wikipedia.org/wiki/The_Man_of_Law%27s_Tale" title="The Man of Law&#39;s Tale">The Man of Law's Tale</a></li>
+<li><a href="http://en.wikipedia.org/wiki/The_Wife_of_Bath%27s_Tale" title="The Wife of Bath&#39;s Tale">The Wife of Bath's Tale</a></li>
+<li><a href="http://en.wikipedia.org/wiki/The_Friar%27s_Tale" title="The Friar&#39;s Tale">The Friar's Tale</a></li>
+<li><a href="http://en.wikipedia.org/wiki/The_Summoner%27s_Tale" title="The Summoner&#39;s Tale">The Summoner's Tale</a></li>
+<li><a href="http://en.wikipedia.org/wiki/The_Clerk%27s_Tale" title="The Clerk&#39;s Tale">The Clerk's Tale</a></li>
+<li><a href="http://en.wikipedia.org/wiki/The_Merchant%27s_Tale" title="The Merchant&#39;s Tale">The Merchant's Tale</a></li>
+<li><a href="http://en.wikipedia.org/wiki/The_Squire%27s_Tale" title="The Squire&#39;s Tale">The Squire's Tale</a></li>
+<li><a href="http://en.wikipedia.org/wiki/The_Franklin%27s_Tale" title="The Franklin&#39;s Tale">The Franklin's Tale</a></li>
+<li><a href="http://en.wikipedia.org/wiki/The_Physician%27s_Tale" title="The Physician&#39;s Tale">The Physician's Tale</a></li>
+<li><a href="http://en.wikipedia.org/wiki/The_Pardoner%27s_Tale" title="The Pardoner&#39;s Tale">The Pardoner's Tale</a></li>
+<li><a href="http://en.wikipedia.org/wiki/The_Shipman%27s_Tale" title="The Shipman&#39;s Tale">The Shipman's Tale</a></li>
+<li><a href="http://en.wikipedia.org/wiki/The_Prioress%27s_Tale" title="The Prioress&#39;s Tale">The Prioress's Tale</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Sir_Thopas" title="Sir Thopas">Sir Thopas</a></li>
+<li><a href="http://en.wikipedia.org/wiki/The_Tale_of_Melibee" title="The Tale of Melibee">The Tale of Melibee</a></li>
+<li><a href="http://en.wikipedia.org/wiki/The_Monk%27s_Tale" title="The Monk&#39;s Tale">The Monk's Tale</a></li>
+<li><a href="http://en.wikipedia.org/wiki/The_Nun%27s_Priest%27s_Tale" title="The Nun&#39;s Priest&#39;s Tale">The Nun's Priest's Tale</a></li>
+<li><a href="http://en.wikipedia.org/wiki/The_Second_Nun%27s_Tale" title="The Second Nun&#39;s Tale">The Second Nun's Tale</a></li>
+<li><a href="http://en.wikipedia.org/wiki/The_Canon%27s_Yeoman%27s_Tale" title="The Canon&#39;s Yeoman&#39;s Tale">The Canon's Yeoman's Tale</a></li>
+<li><a href="http://en.wikipedia.org/wiki/The_Manciple%27s_Tale" title="The Manciple&#39;s Tale">The Manciple's Tale</a></li>
+<li><a href="http://en.wikipedia.org/wiki/The_Parson%27s_Tale" title="The Parson&#39;s Tale">The Parson's Tale</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Chaucer%27s_Retraction" title="Chaucer&#39;s Retraction">Chaucer's Retraction</a></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%;background:#69fc6a">Other works</th><td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><i><a href="http://en.wikipedia.org/wiki/The_Romaunt_of_the_Rose" title="The Romaunt of the Rose">The Romaunt of the Rose</a></i></li>
+<li><i><a href="http://en.wikipedia.org/wiki/The_Book_of_the_Duchess" title="The Book of the Duchess">The Book of the Duchess</a></i></li>
+<li><i><a href="http://en.wikipedia.org/wiki/The_House_of_Fame" title="The House of Fame">The House of Fame</a></i></li>
+<li><i><a href="http://en.wikipedia.org/wiki/Anelida_and_Arcite" title="Anelida and Arcite">Anelida and Arcite</a></i></li>
+<li><i><a href="http://en.wikipedia.org/wiki/Parlement_of_Foules" title="Parlement of Foules">The Parliament of Fowls</a></i></li>
+<li><i><a href="http://en.wikipedia.org/wiki/Boece_(Chaucer)" title="Boece (Chaucer)">Boece</a></i></li>
+<li><i><a class="mw-selflink selflink">Troilus and Criseyde</a></i></li>
+<li><i><a href="http://en.wikipedia.org/wiki/The_Legend_of_Good_Women" title="The Legend of Good Women">The Legend of Good Women</a></i></li>
+<li><i><a href="http://en.wikipedia.org/wiki/A_Treatise_on_the_Astrolabe" title="A Treatise on the Astrolabe">A Treatise on the Astrolabe</a></i></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%;background:#69fc6a">Spurious</th><td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><i><a href="http://en.wikipedia.org/wiki/John_Clanvowe#Works" title="John Clanvowe">The Cuckoo and the Nightingale</a></i></li>
+<li><i><a href="http://en.wikipedia.org/wiki/The_Complaint_of_the_Black_Knight" title="The Complaint of the Black Knight">The Complaint of the Black Knight</a></i></li>
+<li><i><a href="http://en.wikipedia.org/wiki/The_equatorie_of_the_planetis" title="The equatorie of the planetis">The equatorie of the planetis</a></i></li>
+<li><i><a href="http://en.wikipedia.org/wiki/The_Floure_and_the_Leafe" title="The Floure and the Leafe">The Floure and the Leafe</a></i></li>
+<li><i><a href="http://en.wikipedia.org/wiki/Pierce_the_Ploughman%27s_Crede" title="Pierce the Ploughman&#39;s Crede">Pierce the Ploughman's Crede</a></i></li>
+<li><i><a href="http://en.wikipedia.org/wiki/Jack_Upland" title="Jack Upland">Jack Upland</a></i></li></ul>
+<dl><dt>Tales</dt>
+<dd><a href="http://en.wikipedia.org/wiki/The_Tale_of_Gamelyn" title="The Tale of Gamelyn">The Tale of Gamelyn</a></dd>
+<dd><a href="http://en.wikipedia.org/wiki/Prologue_and_Tale_of_Beryn" title="Prologue and Tale of Beryn">Prologue and Tale of Beryn</a></dd>
+<dd><a href="http://en.wikipedia.org/wiki/The_Plowman%27s_Tale" title="The Plowman&#39;s Tale">The Plowman's Tale</a></dd>
+<dd><a href="http://en.wikipedia.org/wiki/The_Pilgrim%27s_Tale" title="The Pilgrim&#39;s Tale">The Pilgrim's Tale</a></dd></dl>
+</div></td></tr></tbody></table><div></div></td><td class="navbox-image" rowspan="3" style="width:1px;padding:0px 0px 0px 2px"><div><a href="http://en.wikipedia.org/wiki/File:Geoffrey_Chaucer_(17th_century).jpg" class="image"><img alt="Geoffrey Chaucer (17th century).jpg" src="http://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Geoffrey_Chaucer_%2817th_century%29.jpg/100px-Geoffrey_Chaucer_%2817th_century%29.jpg" decoding="async" width="100" height="127" srcset="http://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Geoffrey_Chaucer_%2817th_century%29.jpg/150px-Geoffrey_Chaucer_%2817th_century%29.jpg 1.5x, http://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Geoffrey_Chaucer_%2817th_century%29.jpg/200px-Geoffrey_Chaucer_%2817th_century%29.jpg 2x" data-file-width="4511" data-file-height="5743" /></a></div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%;background:#69fc6a">Language<br />and Texts</th><td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="http://en.wikipedia.org/wiki/Rhyme_royal" title="Rhyme royal">Rhyme royal</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Heroic_couplet" title="Heroic couplet">Heroic couplet</a></li>
+<li><a href="http://en.wikipedia.org/wiki/English_words_first_attested_in_Chaucer" title="English words first attested in Chaucer">English words first attested in Chaucer</a></li></ul>
+<dl><dt>MSS Tradition</dt>
+<dd><a href="http://en.wikipedia.org/wiki/Order_of_The_Canterbury_Tales" title="Order of The Canterbury Tales">Order of <i>The Canterbury Tales</i></a></dd>
+<dd><a href="http://en.wikipedia.org/wiki/Hengwrt_Chaucer" title="Hengwrt Chaucer">Hengwrt Chaucer</a></dd>
+<dd><a href="http://en.wikipedia.org/wiki/Ellesmere_Chaucer" title="Ellesmere Chaucer">Ellesmere Chaucer</a></dd>
+<dd><a href="http://en.wikipedia.org/wiki/Harley_MS._7334" class="mw-redirect" title="Harley MS. 7334">Harley MS. 7334</a></dd>
+<dd><a href="http://en.wikipedia.org/wiki/Adam_Pinkhurst" title="Adam Pinkhurst">Adam Pinkhurst</a></dd>
+<dd><a href="http://en.wikipedia.org/wiki/Scribe_D" title="Scribe D">Scribe D</a></dd></dl>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%;background:#69fc6a">Related</th><td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="http://en.wikipedia.org/wiki/Chaucer%27s_influence_on_fifteenth-century_Scottish_literature" class="mw-redirect" title="Chaucer&#39;s influence on fifteenth-century Scottish literature">Chaucer's influence on fifteenth-century Scottish literature</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Influence_of_Italian_humanism_on_Chaucer" title="Influence of Italian humanism on Chaucer">Influence of Italian humanism on Chaucer</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Philippa_Roet" title="Philippa Roet">Philippa Roet</a> (wife)</li>
+<li><a href="http://en.wikipedia.org/wiki/Katherine_Swynford" title="Katherine Swynford">Katherine Swynford</a> (wife's sister)</li>
+<li><a href="http://en.wikipedia.org/wiki/Thomas_Chaucer" title="Thomas Chaucer">Thomas Chaucer</a> (son)</li>
+<li><a href="http://en.wikipedia.org/wiki/Alice_de_la_Pole" class="mw-redirect" title="Alice de la Pole">Alice de la Pole</a> (granddaughter)</li></ul>
+</div></td></tr></tbody></table></div>
+<div role="navigation" class="navbox" aria-labelledby="William_Shakespeare&amp;#039;s_Romeo_and_Juliet" style="padding:3px"><table class="nowraplinks mw-collapsible mw-collapsed navbox-inner" style="border-spacing:0;background:transparent;color:inherit"><tbody><tr><th scope="col" class="navbox-title" colspan="2"><div class="plainlinks hlist navbar mini"><ul><li class="nv-view"><a href="http://en.wikipedia.org/wiki/Template:Romeo_and_Juliet" title="Template:Romeo and Juliet"><abbr title="View this template" style=";;background:none transparent;border:none;-moz-box-shadow:none;-webkit-box-shadow:none;box-shadow:none; padding:0;">v</abbr></a></li><li class="nv-talk"><a href="http://en.wikipedia.org/wiki/Template_talk:Romeo_and_Juliet" title="Template talk:Romeo and Juliet"><abbr title="Discuss this template" style=";;background:none transparent;border:none;-moz-box-shadow:none;-webkit-box-shadow:none;box-shadow:none; padding:0;">t</abbr></a></li><li class="nv-edit"><a class="external text" href="https://en.wikipedia.org/w/index.php?title=Template:Romeo_and_Juliet&amp;action=edit"><abbr title="Edit this template" style=";;background:none transparent;border:none;-moz-box-shadow:none;-webkit-box-shadow:none;box-shadow:none; padding:0;">e</abbr></a></li></ul></div><div id="William_Shakespeare&amp;#039;s_Romeo_and_Juliet" style="font-size:114%;margin:0 4em"><a href="William_Shakespeare" title="William Shakespeare">William Shakespeare</a>'s <i><a href="http://en.wikipedia.org/wiki/Romeo_and_Juliet" title="Romeo and Juliet">Romeo and Juliet</a></i></div></th></tr><tr><th scope="row" class="navbox-group" style="width:1%"><a href="Characters_in_Romeo_and_Juliet" title="Characters in Romeo and Juliet">Characters</a></th><td class="navbox-list navbox-odd hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="Romeo" title="Romeo">Romeo</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Juliet" title="Juliet">Juliet</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Mercutio" title="Mercutio">Mercutio</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Tybalt" title="Tybalt">Tybalt</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Benvolio" title="Benvolio">Benvolio</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Friar_Laurence" title="Friar Laurence">Friar Laurence</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Nurse_(Romeo_and_Juliet)" title="Nurse (Romeo and Juliet)">Nurse</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Count_Paris" title="Count Paris">Paris</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Rosaline" title="Rosaline">Rosaline</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Queen_Mab" title="Queen Mab">Queen Mab</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Atomy" class="mw-redirect" title="Atomy">Atomy</a></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">Sources</th><td class="navbox-list navbox-even hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><i><a href="http://en.wikipedia.org/wiki/The_Tragical_History_of_Romeus_and_Juliet" title="The Tragical History of Romeus and Juliet">The Tragical History of Romeus and Juliet</a></i></li>
+<li><i><a href="http://en.wikipedia.org/wiki/Pyramus_and_Thisbe" title="Pyramus and Thisbe">Pyramus and Thisbe</a></i></li>
+<li><i><a href="http://en.wikipedia.org/wiki/William_Painter_(author)" title="William Painter (author)">Palace of Pleasure</a></i></li>
+<li><i><a class="mw-selflink selflink">Troilus and Criseyde</a></i></li>
+<li><i><a href="http://en.wikipedia.org/wiki/Ephesiaca" class="mw-redirect" title="Ephesiaca">Ephesiaca</a></i></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">Ballets</th><td class="navbox-list navbox-odd hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><i><a href="http://en.wikipedia.org/wiki/Romeo_and_Juliet_(Prokofiev)" title="Romeo and Juliet (Prokofiev)">Romeo and Juliet</a></i> (1938, Prokofiev)</li>
+<li><i><a href="http://en.wikipedia.org/wiki/Romeo_and_Juliet_(Cranko)" title="Romeo and Juliet (Cranko)">Romeo and Juliet</a></i> (1962, Cranko)</li>
+<li><i><a href="http://en.wikipedia.org/wiki/Romeo_and_Juliet_(MacMillan)" title="Romeo and Juliet (MacMillan)">Romeo and Juliet</a></i> (1965, MacMillan)</li>
+<li><i><a href="http://en.wikipedia.org/wiki/Romeo_and_Juliet_(Nureyev)" title="Romeo and Juliet (Nureyev)">Romeo and Juliet</a></i> (1977, Nureyev)</li>
+<li><i><a href="http://en.wikipedia.org/wiki/Romeo_and_Juliet_(Lavery)" title="Romeo and Juliet (Lavery)">Romeo and Juliet</a></i> (1965, Lavery)</li>
+<li><i><a href="http://en.wikipedia.org/wiki/Radio_and_Juliet" title="Radio and Juliet">Radio and Juliet</a></i> (2005)</li>
+<li><i><a href="http://en.wikipedia.org/wiki/Romeo_%2B_Juliet_(ballet)" title="Romeo + Juliet (ballet)">Romeo + Juliet</a></i> (2007, Martins)</li>
+<li><i><a href="http://en.wikipedia.org/wiki/Romeo_and_Juliet_(Pastor)" title="Romeo and Juliet (Pastor)">Romeo and Juliet</a></i> (2008, Pastor)</li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">Operas</th><td class="navbox-list navbox-even hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><i><a href="http://en.wikipedia.org/wiki/Romeo_und_Julie" title="Romeo und Julie">Romeo und Julie</a></i> (1776, Benda)</li>
+<li><i><a href="http://en.wikipedia.org/wiki/Giulietta_e_Romeo_(Zingarelli)" title="Giulietta e Romeo (Zingarelli)">Giulietta e Romeo</a></i> (1796, Zingarelli)</li>
+<li><i><a href="http://en.wikipedia.org/wiki/Giulietta_e_Romeo_(Vaccai)" title="Giulietta e Romeo (Vaccai)">Giulietta e Romeo</a></i> (1825, Vaccai)</li>
+<li><i><a href="http://en.wikipedia.org/wiki/I_Capuleti_e_i_Montecchi" title="I Capuleti e i Montecchi">I Capuleti e i Montecchi</a></i> (1830, Bellini)</li>
+<li><i><a href="http://en.wikipedia.org/wiki/Gloria_(opera)" title="Gloria (opera)">Gloria</a></i> (1874, Cilea)</li>
+<li><i><a href="http://en.wikipedia.org/wiki/Rom%C3%A9o_et_Juliette" title="Roméo et Juliette">Roméo et Juliette</a></i> (1867, Gounod)</li>
+<li><i><a href="http://en.wikipedia.org/wiki/A_Village_Romeo_and_Juliet" title="A Village Romeo and Juliet">A Village Romeo and Juliet</a></i> (1907, Delius)</li>
+<li><i><a href="http://en.wikipedia.org/wiki/Romeo_und_Julia_(Sutermeister_opera)" title="Romeo und Julia (Sutermeister opera)">Romeo und Julia</a></i> (1940, Sutermeister)</li>
+<li><i><a href="http://en.wikipedia.org/wiki/Romeo_und_Julia_(Blacher_opera)" title="Romeo und Julia (Blacher opera)">Romeo und Julia</a></i> (1943, Blacher)</li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">Musicals</th><td class="navbox-list navbox-odd hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><i><a href="http://en.wikipedia.org/wiki/The_Belle_of_Mayfair" title="The Belle of Mayfair">The Belle of Mayfair</a></i> (1906)</li>
+<li><i><a href="http://en.wikipedia.org/wiki/West_Side_Story" title="West Side Story">West Side Story</a></i> (1957)</li>
+<li><i><a href="http://en.wikipedia.org/wiki/Once_on_This_Island" title="Once on This Island">Once on This Island</a></i> (1990)</li>
+<li><i><a href="http://en.wikipedia.org/wiki/Rom%C3%A9o_et_Juliette_(musical)" title="Roméo et Juliette (musical)">Roméo et Juliette, de la Haine à l'Amour</a></i> (2001)</li>
+<li><a href="http://en.wikipedia.org/wiki/Giulietta_e_Romeo_(musical)" title="Giulietta e Romeo (musical)"><i>Giulietta e Romeo</i></a> (2007)</li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">Classical</th><td class="navbox-list navbox-even hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="http://en.wikipedia.org/wiki/String_Quartet_No._1_(Beethoven)" title="String Quartet No. 1 (Beethoven)">Beethoven's String Quartet No. 1</a> (c. 1800)</li>
+<li><a href="http://en.wikipedia.org/wiki/Rom%C3%A9o_et_Juliette_(Berlioz)" title="Roméo et Juliette (Berlioz)"><i>Roméo et Juliette</i></a> (1839, Berlioz)</li>
+<li><a href="http://en.wikipedia.org/wiki/Romeo_and_Juliet_(Tchaikovsky)" title="Romeo and Juliet (Tchaikovsky)"><i>Romeo and Juliet</i></a> (1870, Tchaikovsky)</li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%"><a href="http://en.wikipedia.org/wiki/Romeo_and_Juliet_on_screen" title="Romeo and Juliet on screen">On screen</a></th><td class="navbox-list navbox-odd hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="http://en.wikipedia.org/wiki/Romeo_and_Juliet_(1900_film)" title="Romeo and Juliet (1900 film)">1900</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Romeo_and_Juliet_(1908_film)" title="Romeo and Juliet (1908 film)">1908</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Romeo_and_Juliet_(1916_Metro_Pictures_film)" title="Romeo and Juliet (1916 Metro Pictures film)">1916 Metro Pictures</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Romeo_and_Juliet_(1916_Fox_film)" title="Romeo and Juliet (1916 Fox film)">1916 Fox</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Romeo_and_Juliet_(1936_film)" title="Romeo and Juliet (1936 film)">1936</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Romeo_and_Juliet_(1940_film)" title="Romeo and Juliet (1940 film)">1940</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Romeo_and_Juliet_(1953_film)" title="Romeo and Juliet (1953 film)">1953</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Romeo_and_Juliet_(1954_film)" title="Romeo and Juliet (1954 film)">1954</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Romeo_and_Juliet_(1955_film)" title="Romeo and Juliet (1955 film)">1955</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Romeo_and_Juliet_(1964_film)" title="Romeo and Juliet (1964 film)">1964</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Romeo_and_Juliet_(1968_film)" title="Romeo and Juliet (1968 film)">1968</a></li>
+<li><a href="http://en.wikipedia.org/wiki/BBC_Television_Shakespeare#Romeo_&amp;_Juliet" title="BBC Television Shakespeare">1978</a> (TV)</li>
+<li><a href="http://en.wikipedia.org/wiki/Shakespeare:_The_Animated_Tales#Romeo_and_Juliet" title="Shakespeare: The Animated Tales">1992</a> (TV)</li>
+<li><a href="http://en.wikipedia.org/wiki/Romeo_%2B_Juliet" title="Romeo + Juliet">1996</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Romeo_and_Juliet_(2006_film)" title="Romeo and Juliet (2006 film)">2006</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Romeo_%26_Juliet_(2013_film)" title="Romeo &amp; Juliet (2013 film)">2013</a></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%"><a href="http://en.wikipedia.org/wiki/List_of_films_based_on_Romeo_and_Juliet" title="List of films based on Romeo and Juliet">Film<br />adaptations</a></th><td class="navbox-list navbox-odd hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em"></div><table class="nowraplinks navbox-subgroup" style="border-spacing:0"><tbody><tr><th scope="row" class="navbox-group" style="width:1%"><a href="http://en.wikipedia.org/wiki/English_language" title="English language">English</a></th><td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><i><a href="http://en.wikipedia.org/wiki/Beneath_the_12-Mile_Reef" title="Beneath the 12-Mile Reef">Beneath the 12-Mile Reef</a></i> (1953)</li>
+<li><i><a href="http://en.wikipedia.org/wiki/Romanoff_and_Juliet_(1961_film)" title="Romanoff and Juliet (1961 film)">Romanoff and Juliet</a></i> (1961)</li>
+<li><i><a href="http://en.wikipedia.org/wiki/West_Side_Story_(1961_film)" title="West Side Story (1961 film)">West Side Story</a></i> (1961)</li>
+<li><i><a href="http://en.wikipedia.org/wiki/Gonks_Go_Beat" title="Gonks Go Beat">Gonks Go Beat</a></i> (1965)</li>
+<li><i><a href="http://en.wikipedia.org/wiki/Lonesome_Cowboys" title="Lonesome Cowboys">Lonesome Cowboys</a></i> (1968)</li>
+<li><i><a href="http://en.wikipedia.org/wiki/Romie-0_and_Julie-8" title="Romie-0 and Julie-8">Romie-0 and Julie-8</a></i> (TV; 1979)</li>
+<li><a href="http://en.wikipedia.org/wiki/The_Tragedy_of_Romeo_and_Juliet_(film)" title="The Tragedy of Romeo and Juliet (film)"><i>The Tragedy of Romeo and Juliet</i></a> (1982)</li>
+<li><a href="http://en.wikipedia.org/wiki/Valley_Girl_(1983_film)" title="Valley Girl (1983 film)"><i>Valley Girl</i></a> (1983)</li>
+<li><i><a href="http://en.wikipedia.org/wiki/Bullies" title="Bullies">Bullies</a></i> (1986)</li>
+<li><i><a href="http://en.wikipedia.org/wiki/China_Girl_(1987_film)" title="China Girl (1987 film)">China Girl</a></i> (1987)</li>
+<li><i><a href="http://en.wikipedia.org/wiki/Romeo.Juliet" title="Romeo.Juliet">Romeo.Juliet</a></i> (1990)</li>
+<li><i><a href="http://en.wikipedia.org/wiki/Tromeo_and_Juliet" title="Tromeo and Juliet">Tromeo and Juliet</a></i> (1996)</li>
+<li><i><a href="http://en.wikipedia.org/wiki/Love_Is_All_There_Is" title="Love Is All There Is">Love Is All There Is</a></i> (1996)</li>
+<li><i><a href="http://en.wikipedia.org/wiki/Rose_by_Any_Other_Name..." title="Rose by Any Other Name...">Rose by Any Other Name...</a></i> (1997)</li>
+<li><i><a href="http://en.wikipedia.org/wiki/The_Lion_King_II:_Simba%27s_Pride" title="The Lion King II: Simba&#39;s Pride">The Lion King II: Simba's Pride</a></i> (1998)</li>
+<li><i><a href="http://en.wikipedia.org/wiki/Shakespeare_in_Love" title="Shakespeare in Love">Shakespeare in Love</a></i> (1998)</li>
+<li><i><a href="http://en.wikipedia.org/wiki/The_Magical_Legend_of_the_Leprechauns" title="The Magical Legend of the Leprechauns">The Magical Legend of the Leprechauns</a></i> (1999)</li>
+<li><i><a href="http://en.wikipedia.org/wiki/Romeo_Must_Die" title="Romeo Must Die">Romeo Must Die</a></i> (2000)</li>
+<li><i><a href="http://en.wikipedia.org/wiki/Brooklyn_Babylon" title="Brooklyn Babylon">Brooklyn Babylon</a></i> (2001)</li>
+<li><i><a href="http://en.wikipedia.org/wiki/Pizza_My_Heart_(film)" title="Pizza My Heart (film)">Pizza My Heart</a></i> (TV; 2005)</li>
+<li><i><a href="http://en.wikipedia.org/wiki/West_Bank_Story" title="West Bank Story">West Bank Story</a></i> (2005)</li>
+<li><i><a href="http://en.wikipedia.org/wiki/Life_and_Lyrics" title="Life and Lyrics">Life and Lyrics</a></i> (2006)</li>
+<li><i><a href="http://en.wikipedia.org/wiki/Romeo_%26_Juliet:_Sealed_with_a_Kiss" title="Romeo &amp; Juliet: Sealed with a Kiss">Romeo &amp; Juliet: Sealed with a Kiss</a></i> (2006)</li>
+<li><i><a href="http://en.wikipedia.org/wiki/Rome_%26_Jewel" title="Rome &amp; Jewel">Rome &amp; Jewel</a></i> (2006)</li>
+<li><i><a href="http://en.wikipedia.org/wiki/David_%26_Fatima" title="David &amp; Fatima">David &amp; Fatima</a></i> (2008)</li>
+<li><i><a href="http://en.wikipedia.org/wiki/The_Cross_Road" title="The Cross Road">The Cross Road</a></i> (2008)</li>
+<li><i><a href="http://en.wikipedia.org/wiki/Vicious_Circle_(2008_film)" title="Vicious Circle (2008 film)">Vicious Circle</a></i> (2008)</li>
+<li><i><a href="http://en.wikipedia.org/wiki/Gnomeo_%26_Juliet" title="Gnomeo &amp; Juliet">Gnomeo &amp; Juliet</a></i> (2011)</li>
+<li><i><a href="http://en.wikipedia.org/wiki/Private_Romeo" title="Private Romeo">Private Romeo</a></i> (2011)</li>
+<li><i><a href="http://en.wikipedia.org/wiki/Warm_Bodies_(film)" title="Warm Bodies (film)">Warm Bodies</a></i> (2013)</li>
+<li><i><a href="http://en.wikipedia.org/wiki/Make_Your_Move_(film)" title="Make Your Move (film)">Make Your Move</a></i> (2013)</li>
+<li><i><a href="http://en.wikipedia.org/wiki/Romeo_%26_Juliet_(2013_film)" title="Romeo &amp; Juliet (2013 film)">Romeo &amp; Juliet</a></i> (2013)</li>
+<li><i><a href="http://en.wikipedia.org/wiki/Sherlock_Gnomes" title="Sherlock Gnomes">Sherlock Gnomes</a></i> (2018)</li>
+<li><i><a href="http://en.wikipedia.org/wiki/West_Side_Story_(2020_film)" title="West Side Story (2020 film)">West Side Story</a></i> (2020)</li>
+<li><i><a href="http://en.wikipedia.org/wiki/Die_in_a_Gunfight" title="Die in a Gunfight">Die in a Gunfight</a></i> (TBA)</li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%"><a href="http://en.wikipedia.org/wiki/Hindi_language" class="mw-redirect" title="Hindi language">Hindi</a></th><td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><i><a href="http://en.wikipedia.org/wiki/Ek_Duuje_Ke_Liye" title="Ek Duuje Ke Liye">Ek Duuje Ke Liye</a></i> (1981)</li>
+<li><i><a href="http://en.wikipedia.org/wiki/Qayamat_Se_Qayamat_Tak" title="Qayamat Se Qayamat Tak">Qayamat Se Qayamat Tak</a></i> (1988)</li>
+<li><i><a href="http://en.wikipedia.org/wiki/Saudagar_(1991_film)" title="Saudagar (1991 film)">Saudagar</a></i> (1991)</li>
+<li><i><a href="http://en.wikipedia.org/wiki/Kuch_Tum_Kaho_Kuch_Hum_Kahein" title="Kuch Tum Kaho Kuch Hum Kahein">Kuch Tum Kaho Kuch Hum Kahein</a></i> (2002)</li>
+<li><i><a href="http://en.wikipedia.org/wiki/Bollywood_Queen" title="Bollywood Queen">Bollywood Queen</a></i> (2002)</li>
+<li><i><a href="http://en.wikipedia.org/wiki/Ishaqzaade" title="Ishaqzaade">Ishaqzaade</a></i> (2012)</li>
+<li><i><a href="http://en.wikipedia.org/wiki/Goliyon_Ki_Raasleela_Ram-Leela" title="Goliyon Ki Raasleela Ram-Leela">Goliyon Ki Raasleela Ram-Leela</a></i> (2013)</li>
+<li><i><a href="http://en.wikipedia.org/wiki/Issaq" title="Issaq">Issaq</a></i> (2013)</li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%"><a href="http://en.wikipedia.org/wiki/Tamil_language" title="Tamil language">Telugu</a></th><td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em"><i><a href="http://en.wikipedia.org/wiki/Maro_Charitra" title="Maro Charitra">Maro Charitra</a></i> (1978)
+<ul><li><i><a href="http://en.wikipedia.org/wiki/Akkada_Ammayi_Ikkada_Abbayi" title="Akkada Ammayi Ikkada Abbayi">Akkada Ammayi Ikkada Abbayi</a></i> (1996)</li>
+<li><i><a href="http://en.wikipedia.org/wiki/Kalisundam_Raa" title="Kalisundam Raa">Kalisundam Raa</a></i> (2000)</li>
+<li><i><a href="http://en.wikipedia.org/wiki/Maro_Charitra_(2010_film)" title="Maro Charitra (2010 film)">Maro Charitra</a></i> (2010)</li></ul></div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%"><a href="Spanish_language" title="Spanish language">Spanish</a></th><td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<li><i><a href="http://en.wikipedia.org/wiki/Romeo_and_Juliet_(1940_film)" title="Romeo and Juliet (1940 film)">Romeo and Juliet</a></i> (1940)</li>
+<li><i><a href="http://en.wikipedia.org/wiki/Los_Tarantos" title="Los Tarantos">Los Tarantos</a></i> (1963)</li>
+<li><i><a href="http://en.wikipedia.org/wiki/30:e_november" title="30:e november">30:e november</a></i> (Swedish/Spanish 1995)</li>
+<li><i><a href="http://en.wikipedia.org/wiki/Amar_te_duele" title="Amar te duele">Amar te duele</a></i> (2002)</li>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%"><a href="http://en.wikipedia.org/wiki/Italian_language" title="Italian language">Italian</a></th><td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><i><a href="http://en.wikipedia.org/wiki/Fury_of_Johnny_Kid" title="Fury of Johnny Kid">Fury of Johnny Kid</a></i> (1967)</li>
+<li><i><a href="http://en.wikipedia.org/wiki/Ma_che_musica_maestro" title="Ma che musica maestro">Ma che musica maestro</a></i> (1971)</li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%"><a href="http://en.wikipedia.org/wiki/Portuguese_language" title="Portuguese language">Portuguese</a></th><td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><i><a href="http://en.wikipedia.org/wiki/M%C3%B4nica_e_Cebolinha:_No_Mundo_de_Romeu_e_Julieta" title="Mônica e Cebolinha: No Mundo de Romeu e Julieta">Mônica e Cebolinha: No Mundo de Romeu e Julieta</a></i> (1979)</li>
+<li><i><a href="http://en.wikipedia.org/wiki/O_Casamento_de_Romeu_e_Julieta" title="O Casamento de Romeu e Julieta">O Casamento de Romeu e Julieta</a></i> (2005)</li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">Other</th><td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><i><a href="http://en.wikipedia.org/wiki/Ambikapathy_(1937_film)" title="Ambikapathy (1937 film)">Ambikapathy</a></i> (Tamil 1937)</li>
+<li><i><a href="http://en.wikipedia.org/wiki/Les_amants_de_V%C3%A9rone" class="mw-redirect" title="Les amants de Vérone">Les amants de Vérone</a></i> (French 1949)</li>
+<li><i><a href="http://en.wikipedia.org/wiki/Ambikapathy_(1957_film)" title="Ambikapathy (1957 film)">Ambikapathy</a></i> (Tamil 1957)</li>
+<li><i><a href="http://en.wikipedia.org/wiki/Romeo,_Juliet_and_Darkness" title="Romeo, Juliet and Darkness">Romeo, Juliet and Darkness</a></i> (Czech 1960)</li>
+<li><i><a href="http://en.wikipedia.org/wiki/The_Phantom_Lover" title="The Phantom Lover">The Phantom Lover</a></i> (Mandarin 1995)</li>
+<li><i><a href="http://en.wikipedia.org/wiki/Chicken_Rice_War" title="Chicken Rice War">Chicken Rice War</a></i> (Cantonese/English 2000)</li>
+<li><i><a href="http://en.wikipedia.org/wiki/Ondagona_Baa" title="Ondagona Baa">Ondagona Baa</a></i> (Kannada 2003)</li>
+<li><i><a href="http://en.wikipedia.org/wiki/Mamay_(film)" title="Mamay (film)">Mamay</a></i> (Ukrainian 2003)</li>
+<li><i><a href="http://en.wikipedia.org/wiki/The_District!" title="The District!">The District!</a></i> (Hungarian 2004)</li>
+<li><i><a href="http://en.wikipedia.org/wiki/In_Fair_Palestine:_A_Story_of_Romeo_and_Juliet" title="In Fair Palestine: A Story of Romeo and Juliet">In Fair Palestine: A Story of Romeo and Juliet</a></i> (2006)</li>
+<li><i><a href="http://en.wikipedia.org/wiki/The_Bubble_(2006_film)" title="The Bubble (2006 film)">The Bubble</a></i> (Hebrew/Arabic 2006)</li>
+<li><i><a href="http://en.wikipedia.org/wiki/Priyatama_(2014_film)" title="Priyatama (2014 film)">Priyatama</a></i> (Marathi 2014)</li>
+<li><i><a href="http://en.wikipedia.org/wiki/Arshinagar" title="Arshinagar">Arshinagar</a></i> (Bengali 2015)</li>
+<li><i><a href="http://en.wikipedia.org/wiki/Eeda" title="Eeda">Eeda</a></i> (Malayalam 2017)</li>
+<li><i><a href="http://en.wikipedia.org/wiki/The_Sea_Prince_and_the_Fire_Child" title="The Sea Prince and the Fire Child">The Sea Prince and the Fire Child</a></i> (Japanese 1981)</li></ul>
+</div></td></tr></tbody></table><div></div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">TV series</th><td class="navbox-list navbox-odd hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><i><a href="http://en.wikipedia.org/wiki/Sons_and_Daughters_(Australian_TV_series)" title="Sons and Daughters (Australian TV series)">Sons and Daughters</a></i> (1982)</li>
+<li><i><a href="http://en.wikipedia.org/wiki/Family_and_Friends_(Australian_TV_series)" title="Family and Friends (Australian TV series)">Family and Friends</a></i> (1990)</li>
+<li><i><a href="http://en.wikipedia.org/wiki/Villa_Quintana" title="Villa Quintana">Villa Quintana</a></i> (1995)</li>
+<li><i><a href="http://en.wikipedia.org/wiki/Yo_amo_a_Paquita_Gallego" title="Yo amo a Paquita Gallego">Yo amo a Paquita Gallego</a></i> (1998)</li>
+<li><i><a href="http://en.wikipedia.org/wiki/Skin_(TV_series)" title="Skin (TV series)">Skin</a></i> (2003)</li>
+<li><i><a href="http://en.wikipedia.org/wiki/A_Touch_Away_(TV_series)" title="A Touch Away (TV series)">A Touch Away</a></i> (2006)</li>
+<li><i><a href="http://en.wikipedia.org/wiki/Dangerous_(TV_series)" title="Dangerous (TV series)">Dangerous</a></i> (2007)</li>
+<li><i><a href="http://en.wikipedia.org/wiki/Romeo_%C3%97_Juliet" title="Romeo × Juliet">Romeo × Juliet</a></i> (2007)</li>
+<li><i><a href="http://en.wikipedia.org/wiki/Romeo_y_Julieta_(TV_series)" title="Romeo y Julieta (TV series)">Romeo y Julieta</a></i> (2007)</li>
+<li><i><a href="http://en.wikipedia.org/wiki/Saints_%26_Sinners_(2007_TV_series)" title="Saints &amp; Sinners (2007 TV series)">Saints &amp; Sinners</a></i> (2007)</li>
+<li><i><a href="http://en.wikipedia.org/wiki/Harina_de_otro_costal" title="Harina de otro costal">Harina de otro costal</a></i> (2010)</li>
+<li><i><a href="http://en.wikipedia.org/wiki/Villa_Quintana_(2013_TV_series)" title="Villa Quintana (2013 TV series)">Villa Quintana</a></i> (2013)</li>
+<li><i><a href="http://en.wikipedia.org/wiki/Westside_(TV_pilot)" class="mw-redirect" title="Westside (TV pilot)">Westside</a></i> (2013 pilot)</li>
+<li><i><a href="http://en.wikipedia.org/wiki/Star-Crossed_(TV_series)" title="Star-Crossed (TV series)">Star-Crossed</a></i> (2014)</li>
+<li><i><a href="http://en.wikipedia.org/wiki/Still_Star-Crossed" title="Still Star-Crossed">Still Star-Crossed</a></i> (2017)</li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">Plays</th><td class="navbox-list navbox-even hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><i><a href="http://en.wikipedia.org/wiki/Romanoff_and_Juliet_(play)" title="Romanoff and Juliet (play)">Romanoff and Juliet</a></i> (1956)</li>
+<li><i><a href="http://en.wikipedia.org/wiki/Romeo_and_Juliet_(2013_Broadway_play)" title="Romeo and Juliet (2013 Broadway play)">Romeo and Juliet</a></i> (2013)</li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">Songs</th><td class="navbox-list navbox-odd hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><i><a href="http://en.wikipedia.org/wiki/Lan_v%C3%A0_%C4%90i%E1%BB%87p" title="Lan và Điệp">Lan và Điệp</a></i> (1930s)</li>
+<li>"<a href="http://en.wikipedia.org/wiki/Montagues_and_Capulets" title="Montagues and Capulets">Montagues and Capulets</a>" (1935)</li>
+<li>"<a href="http://en.wikipedia.org/wiki/Fever_(Little_Willie_John_song)" title="Fever (Little Willie John song)">Fever</a>" (1956)</li>
+<li><a href="http://en.wikipedia.org/wiki/Love_Theme_from_Romeo_and_Juliet" title="Love Theme from Romeo and Juliet">Love Theme from Romeo and Juliet</a> (1968)</li>
+<li>"<a href="http://en.wikipedia.org/wiki/(Don%27t_Fear)_The_Reaper" title="(Don&#39;t Fear) The Reaper">(Don't Fear) The Reaper</a>" (1976)</li>
+<li><a href="http://en.wikipedia.org/wiki/Angelo_(song)" title="Angelo (song)">"Angelo"</a> (1978)</li>
+<li><a href="http://en.wikipedia.org/wiki/Romeo_and_Juliet_(Alec_R._Costandinos_song)" title="Romeo and Juliet (Alec R. Costandinos song)">"Romeo and Juliet"</a> (1978)</li>
+<li><a href="http://en.wikipedia.org/wiki/Romeo_and_Juliet_(Dire_Straits_song)" title="Romeo and Juliet (Dire Straits song)">"Romeo and Juliet"</a> (1981)</li>
+<li>"<a href="http://en.wikipedia.org/wiki/Cherish_(Madonna_song)" title="Cherish (Madonna song)">Cherish</a>" (1989)</li>
+<li>"<a href="http://en.wikipedia.org/wiki/Amor_Prohibido_(song)" title="Amor Prohibido (song)">Amor Prohibido</a>" (1994)</li>
+<li>"<a href="http://en.wikipedia.org/wiki/Kissing_You_(Des%27ree_song)" title="Kissing You (Des&#39;ree song)">Kissing You</a>" (1996)</li>
+<li>"<a href="http://en.wikipedia.org/wiki/Starcrossed_(song)" title="Starcrossed (song)">Starcrossed</a>" (2004)</li>
+<li>"<a href="http://en.wikipedia.org/wiki/Peut-%C3%AAtre_toi" title="Peut-être toi">Peut-être toi</a>" (2006)</li>
+<li>"<a href="http://en.wikipedia.org/wiki/Mademoiselle_Juliette" title="Mademoiselle Juliette">Mademoiselle Juliette</a>" (2007)</li>
+<li>"<a href="http://en.wikipedia.org/wiki/Love_Story_(Taylor_Swift_song)" title="Love Story (Taylor Swift song)">Love Story</a>" (2008)</li>
+<li>"<a href="http://en.wikipedia.org/wiki/Love_Me_Again_(song)" title="Love Me Again (song)">Love Me Again</a>"</li>
+<li>"<a href="http://en.wikipedia.org/wiki/Laal_Ishq" title="Laal Ishq">Laal Ishq</a>"</li>
+<li>"<a href="http://en.wikipedia.org/wiki/Mor_Bani_Thanghat_Kare" title="Mor Bani Thanghat Kare">Mor Bani Thanghat Kare</a>"</li>
+<li>"<a href="http://en.wikipedia.org/wiki/Nagada_Sang_Dhol" title="Nagada Sang Dhol">Nagada Sang Dhol</a>"</li>
+<li>"<a href="http://en.wikipedia.org/wiki/Ram_Chahe_Leela" title="Ram Chahe Leela">Ram Chahe Leela</a>" (2013)</li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">Albums</th><td class="navbox-list navbox-even hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><i><a href="http://en.wikipedia.org/wiki/Romeo_and_Juliet_(1968_film_soundtrack)" title="Romeo and Juliet (1968 film soundtrack)">Romeo and Juliet</a></i> (1968)</li>
+<li><i><a href="http://en.wikipedia.org/wiki/Romeo_%2B_Juliet_(soundtrack)" title="Romeo + Juliet (soundtrack)">Romeo + Juliet</a></i> (1996)</li>
+<li><i><a href="http://en.wikipedia.org/wiki/Romeo_%26_Julia" title="Romeo &amp; Julia">Romeo &amp; Julia</a></i> (2006)</li>
+<li><i><a href="http://en.wikipedia.org/wiki/Tragic_Lovers" title="Tragic Lovers">Tragic Lovers</a></i> (2008)</li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">Literature</th><td class="navbox-list navbox-odd hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><i><a href="http://en.wikipedia.org/wiki/Les_Chouans" title="Les Chouans">Les Chouans</a></i></li>
+<li><i><a href="http://en.wikipedia.org/wiki/The_Wandering_Jew_(Sue_novel)" title="The Wandering Jew (Sue novel)">The Wandering Jew</a></i> (1844)</li>
+<li><i><a href="http://en.wikipedia.org/wiki/The_Stolen_Dormouse" title="The Stolen Dormouse">The Stolen Dormouse</a></i> (1941)</li>
+<li><i><a href="http://en.wikipedia.org/wiki/The_Faraway_Lurs" title="The Faraway Lurs">The Faraway Lurs</a></i> (1963)</li>
+<li><i><a href="http://en.wikipedia.org/wiki/Alexander_Kazantsev" title="Alexander Kazantsev">The Destruction of Faena</a></i> (1989)</li>
+<li><i><a href="http://en.wikipedia.org/wiki/Romiette_and_Julio" title="Romiette and Julio">Romiette and Julio</a></i> (2001)</li>
+<li><i><a href="http://en.wikipedia.org/wiki/New_Moon_(novel)" title="New Moon (novel)">New Moon</a></i> (2006)</li>
+<li><i><a href="http://en.wikipedia.org/wiki/Warm_Bodies" title="Warm Bodies">Warm Bodies</a></i> (2010)</li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">Art</th><td class="navbox-list navbox-even hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><i><a href="http://en.wikipedia.org/wiki/Romeo_and_Juliet:_the_Tomb_Scene" title="Romeo and Juliet: the Tomb Scene">Romeo and Juliet: the Tomb Scene</a></i> (1790)</li>
+<li><i><a href="http://en.wikipedia.org/wiki/Romeo_and_Juliet_(Hebald)" title="Romeo and Juliet (Hebald)">Romeo and Juliet</a></i> (1978)</li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">Phrases</th><td class="navbox-list navbox-odd hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li>"<a href="http://en.wikipedia.org/wiki/Star-crossed" title="Star-crossed">Star-crossed</a>"</li>
+<li>"<a href="http://en.wikipedia.org/wiki/A_rose_by_any_other_name_would_smell_as_sweet" title="A rose by any other name would smell as sweet">A rose by any other name would smell as sweet</a>"</li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%"><a href="http://en.wikipedia.org/wiki/Story_within_a_story" title="Story within a story">Story within<br />a story</a></th><td class="navbox-list navbox-even hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><i><a href="http://en.wikipedia.org/wiki/Nicholas_Nickleby" title="Nicholas Nickleby">Nicholas Nickleby</a></i>
+<ul><li><a href="http://en.wikipedia.org/wiki/Nicholas_Nickleby_(1912_film)" title="Nicholas Nickleby (1912 film)">1912 film</a></li>
+<li><a href="http://en.wikipedia.org/wiki/The_Life_and_Adventures_of_Nicholas_Nickleby_(1947_film)" title="The Life and Adventures of Nicholas Nickleby (1947 film)">1947 film</a></li>
+<li><a href="http://en.wikipedia.org/wiki/The_Life_and_Adventures_of_Nicholas_Nickleby_(play)" title="The Life and Adventures of Nicholas Nickleby (play)">1980 play</a></li>
+<li><a href="http://en.wikipedia.org/wiki/The_Life_and_Adventures_of_Nicholas_Nickleby_(2001_film)" title="The Life and Adventures of Nicholas Nickleby (2001 film)">2001 film</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Nicholas_Nickleby_(2002_film)" title="Nicholas Nickleby (2002 film)">2002 film</a></li></ul></li>
+<li><i><a href="http://en.wikipedia.org/wiki/The_Picture_of_Dorian_Gray" title="The Picture of Dorian Gray">The Picture of Dorian Gray</a></i>
+<ul><li><a href="http://en.wikipedia.org/wiki/The_Picture_of_Dorian_Gray_(1910_film)" title="The Picture of Dorian Gray (1910 film)">1910 film</a></li>
+<li><a href="http://en.wikipedia.org/wiki/The_Picture_of_Dorian_Gray_(1913_film)" title="The Picture of Dorian Gray (1913 film)">1913 film</a></li>
+<li><a href="http://en.wikipedia.org/wiki/The_Picture_of_Dorian_Gray_(1915_film)" title="The Picture of Dorian Gray (1915 film)">1915 film</a></li>
+<li><a href="http://en.wikipedia.org/wiki/The_Picture_of_Dorian_Gray_(1916_film)" title="The Picture of Dorian Gray (1916 film)">1916 film</a></li>
+<li><a href="http://en.wikipedia.org/wiki/The_Picture_of_Dorian_Gray_(1917_film)" title="The Picture of Dorian Gray (1917 film)">1917 film</a></li>
+<li><a href="http://en.wikipedia.org/wiki/The_Picture_of_Dorian_Gray_(1918_film)" title="The Picture of Dorian Gray (1918 film)">1918 film</a></li>
+<li><a href="http://en.wikipedia.org/wiki/The_Picture_of_Dorian_Gray_(1945_film)" title="The Picture of Dorian Gray (1945 film)">1945 film</a></li>
+<li><a href="http://en.wikipedia.org/wiki/The_Picture_of_Dorian_Gray_(1976_TV)" title="The Picture of Dorian Gray (1976 TV)">1976 TV special</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Dorian_Gray_(2009_film)" title="Dorian Gray (2009 film)">2009 film</a></li></ul></li>
+<li><i><a href="http://en.wikipedia.org/wiki/Harlequinade_(Rattigan)" title="Harlequinade (Rattigan)">Harlequinade</a></i></li>
+<li><i><a href="http://en.wikipedia.org/wiki/W_Juliet" title="W Juliet">W Juliet</a></i></li>
+<li>"<a href="http://en.wikipedia.org/wiki/Nothing_Broken_but_My_Heart" title="Nothing Broken but My Heart">Nothing Broken but My Heart</a>"</li>
+<li><i><a href="http://en.wikipedia.org/wiki/Panic_Button_(1964_film)" title="Panic Button (1964 film)">Panic Button</a></i></li>
+<li><i><a href="http://en.wikipedia.org/wiki/Bare:_A_Pop_Opera" title="Bare: A Pop Opera">Bare: A Pop Opera</a></i></li>
+<li><i><a href="http://en.wikipedia.org/wiki/Bolji_%C5%BEivot" title="Bolji život">Bolji život</a></i></li>
+<li><i><a href="http://en.wikipedia.org/wiki/The_Sky_Is_Everywhere" title="The Sky Is Everywhere">The Sky Is Everywhere</a></i></li>
+<li><i><a href="http://en.wikipedia.org/wiki/Pay_as_You_Exit" title="Pay as You Exit">Pay as You Exit</a></i></li>
+<li><i><a href="http://en.wikipedia.org/wiki/The_White_Mercedes" title="The White Mercedes">The White Mercedes</a></i></li>
+<li><i><a href="http://en.wikipedia.org/wiki/She_Died_a_Lady" title="She Died a Lady">She Died a Lady</a></i></li>
+<li>"<a href="http://en.wikipedia.org/wiki/Moonshine_River" title="Moonshine River">Moonshine River</a>"</li>
+<li><i><a href="http://en.wikipedia.org/wiki/Rendez-vous_(1985_film)" title="Rendez-vous (1985 film)">Rendez-vous</a></i></li>
+<li><i><a href="http://en.wikipedia.org/wiki/Fame_(musical)" title="Fame (musical)">Fame</a></i></li>
+<li>"<a href="http://en.wikipedia.org/wiki/I_Am_Unicorn" title="I Am Unicorn">I Am Unicorn</a>"</li>
+<li><i><a href="http://en.wikipedia.org/wiki/The_Frog_Prince_(1984_film)" title="The Frog Prince (1984 film)">The Frog Prince</a></i></li>
+<li><i><a href="http://en.wikipedia.org/wiki/Molly_(1999_film)" title="Molly (1999 film)">Molly</a></i></li>
+<li><i><a href="http://en.wikipedia.org/wiki/Smart_Girls_Get_What_They_Want" title="Smart Girls Get What They Want">Smart Girls Get What They Want</a></i></li>
+<li><i><a href="http://en.wikipedia.org/wiki/Tumbleweeds_(1999_film)" title="Tumbleweeds (1999 film)">Tumbleweeds</a></i></li>
+<li>"<a href="http://en.wikipedia.org/wiki/The_Thief_of_Baghead" title="The Thief of Baghead">The Thief of Baghead</a>"</li>
+<li><i><a href="http://en.wikipedia.org/wiki/The_Songs_of_a_Sentimental_Bloke" title="The Songs of a Sentimental Bloke">The Songs of a Sentimental Bloke</a></i></li>
+<li><i><a href="http://en.wikipedia.org/wiki/Prince_Charming_(2001_film)" title="Prince Charming (2001 film)">Prince Charming</a></i></li>
+<li><i><a href="http://en.wikipedia.org/wiki/Km._0" title="Km. 0">Km. 0</a></i></li>
+<li><i><a href="http://en.wikipedia.org/wiki/Phileine_Says_Sorry" title="Phileine Says Sorry">Phileine Says Sorry</a></i></li>
+<li><i><a href="http://en.wikipedia.org/wiki/Hamateur_Night" title="Hamateur Night">Hamateur Night</a></i></li>
+<li>"<a href="http://en.wikipedia.org/wiki/Say_You%27ll_Be_Mine_(Steps_song)" title="Say You&#39;ll Be Mine (Steps song)">Say You'll Be Mine</a>"</li>
+<li><i><a href="http://en.wikipedia.org/wiki/Into_the_Gauntlet" title="Into the Gauntlet">Into the Gauntlet</a></i></li>
+<li><i><a href="http://en.wikipedia.org/wiki/Wandering_Son" title="Wandering Son">Wandering Son</a></i></li>
+<li><i><a href="http://en.wikipedia.org/wiki/K-On!" title="K-On!">K-On!</a></i></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">Other</th><td class="navbox-list navbox-odd hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><i><a href="http://en.wikipedia.org/wiki/Such_Tweet_Sorrow" title="Such Tweet Sorrow">Such Tweet Sorrow</a></i></li>
+<li><a href="http://en.wikipedia.org/wiki/Romeo_and_Juliet_effect" title="Romeo and Juliet effect">Romeo and Juliet effect</a></li>
+<li><i><a href="http://en.wikipedia.org/wiki/After_Juliet" title="After Juliet">After Juliet</a></i></li>
+<li>"<a href="http://en.wikipedia.org/wiki/Upper_West_Side_Story" title="Upper West Side Story">Upper West Side Story</a>" (2012)</li>
+<li><i><a href="http://en.wikipedia.org/wiki/Millennium_Dome_Show" title="Millennium Dome Show">Millennium Dome Show</a></i></li>
+<li><a href="http://en.wikipedia.org/wiki/Inge_Sylten_and_Heinz_Drosihn" title="Inge Sylten and Heinz Drosihn">Inge Sylten and Heinz Drosihn</a></li>
+<li><i><a href="http://en.wikipedia.org/wiki/Boys_Don%27t_Cry_(film)" title="Boys Don&#39;t Cry (film)">Boys Don't Cry</a></i></li>
+<li><i><a href="http://en.wikipedia.org/wiki/My_Wedding_and_Other_Secrets" title="My Wedding and Other Secrets">My Wedding and Other Secrets</a></i></li>
+<li><i><a href="http://en.wikipedia.org/wiki/Donkey_in_Lahore" title="Donkey in Lahore">Donkey in Lahore</a></i></li>
+<li><i><a href="http://en.wikipedia.org/wiki/Upside_Down_(2012_film)" title="Upside Down (2012 film)">Upside Down</a></i></li>
+<li><i><a href="http://en.wikipedia.org/wiki/Letters_to_Juliet" title="Letters to Juliet">Letters to Juliet</a></i></li>
+<li><i><a href="http://en.wikipedia.org/wiki/Sherlock_Gnomes" title="Sherlock Gnomes">Sherlock Gnomes</a></i></li>
+<li><i><a href="http://en.wikipedia.org/wiki/%26_Juliet" title="&amp; Juliet">&amp; Juliet</a></i></li></ul>
+</div></td></tr><tr><td class="navbox-abovebelow" colspan="2"><div><b><img alt="Wikipedia book" src="http://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Symbol_book_class2.svg/16px-Symbol_book_class2.svg.png" decoding="async" title="Wikipedia book" width="16" height="16" srcset="http://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Symbol_book_class2.svg/23px-Symbol_book_class2.svg.png 1.5x, http://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Symbol_book_class2.svg/31px-Symbol_book_class2.svg.png 2x" data-file-width="180" data-file-height="185" /> <a href="http://en.wikipedia.org/wiki/Book:Romeo_and_Juliet" title="Book:Romeo and Juliet">Book:Romeo and Juliet</a></b></div></td></tr></tbody></table></div>
+<div role="navigation" class="navbox" aria-labelledby="William_Shakespeare&amp;#039;s_Troilus_and_Cressida" style="padding:3px"><table class="nowraplinks mw-collapsible autocollapse navbox-inner" style="border-spacing:0;background:transparent;color:inherit"><tbody><tr><th scope="col" class="navbox-title" colspan="3"><div class="plainlinks hlist navbar mini"><ul><li class="nv-view"><a href="http://en.wikipedia.org/wiki/Template:Troilus_and_Cressida" title="Template:Troilus and Cressida"><abbr title="View this template" style=";;background:none transparent;border:none;-moz-box-shadow:none;-webkit-box-shadow:none;box-shadow:none; padding:0;">v</abbr></a></li><li class="nv-talk"><a href="http://en.wikipedia.org/wiki/Template_talk:Troilus_and_Cressida" title="Template talk:Troilus and Cressida"><abbr title="Discuss this template" style=";;background:none transparent;border:none;-moz-box-shadow:none;-webkit-box-shadow:none;box-shadow:none; padding:0;">t</abbr></a></li><li class="nv-edit"><a class="external text" href="https://en.wikipedia.org/w/index.php?title=Template:Troilus_and_Cressida&amp;action=edit"><abbr title="Edit this template" style=";;background:none transparent;border:none;-moz-box-shadow:none;-webkit-box-shadow:none;box-shadow:none; padding:0;">e</abbr></a></li></ul></div><div id="William_Shakespeare&amp;#039;s_Troilus_and_Cressida" style="font-size:114%;margin:0 4em"><a href="William_Shakespeare" title="William Shakespeare">William Shakespeare</a>'s <i><a href="http://en.wikipedia.org/wiki/Troilus_and_Cressida" title="Troilus and Cressida">Troilus and Cressida</a></i></div></th></tr><tr><th scope="row" class="navbox-group" style="width:1%"><a href="http://en.wikipedia.org/wiki/Troilus_and_Cressida#Characters" title="Troilus and Cressida">Characters</a></th><td class="navbox-list navbox-odd hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em"></div><table class="nowraplinks navbox-subgroup" style="border-spacing:0"><tbody><tr><th scope="row" class="navbox-group" style="width:1%"><a href="Troy" title="Troy">Trojans</a></th><td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="Priam" title="Priam">Priam</a></li>
+<li><a href="Hector" title="Hector">Hector</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Deiphobus" title="Deiphobus">Deiphobus</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Helenus" title="Helenus">Helenus</a></li>
+<li><a href="Paris_(mythology)" title="Paris (mythology)">Paris</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Troilus" title="Troilus">Troilus</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Cassandra" title="Cassandra">Cassandra</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Andromache" title="Andromache">Andromache</a></li>
+<li><a href="Aeneas" title="Aeneas">Aeneas</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Pandarus" title="Pandarus">Pandarus</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Cressida" title="Cressida">Cressida</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Calchas" title="Calchas">Calchas</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Helen_of_Troy" title="Helen of Troy">Helen</a></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%"><a href="http://en.wikipedia.org/wiki/Achaeans_(Homer)" title="Achaeans (Homer)">Greeks</a></th><td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="http://en.wikipedia.org/wiki/Agamemnon" title="Agamemnon">Agamemnon</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Menelaus" title="Menelaus">Menelaus</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Nestor_(mythology)" title="Nestor (mythology)">Nestor</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Odysseus" title="Odysseus">Ulysses</a></li>
+<li><a href="Achilles" title="Achilles">Achilles</a></li>
+<li><a href="Patroclus" title="Patroclus">Patroclus</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Diomedes" title="Diomedes">Diomedes</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Ajax_the_Great" title="Ajax the Great">Ajax</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Thersites" title="Thersites">Thersites</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Myrmidons" title="Myrmidons">Myrmidons</a></li></ul>
+</div></td></tr></tbody></table><div></div></td><td class="navbox-image" rowspan="4" style="width:1px;padding:0px 0px 0px 2px"><div><a href="http://en.wikipedia.org/wiki/File:A_Scene_from_Troilus_and_Cressida_-_Angelica_Kauffmann.jpg" class="image"><img alt="A Scene from Troilus and Cressida - Angelica Kauffmann.jpg" src="http://upload.wikimedia.org/wikipedia/commons/thumb/0/04/A_Scene_from_Troilus_and_Cressida_-_Angelica_Kauffmann.jpg/100px-A_Scene_from_Troilus_and_Cressida_-_Angelica_Kauffmann.jpg" decoding="async" width="100" height="80" srcset="http://upload.wikimedia.org/wikipedia/commons/thumb/0/04/A_Scene_from_Troilus_and_Cressida_-_Angelica_Kauffmann.jpg/150px-A_Scene_from_Troilus_and_Cressida_-_Angelica_Kauffmann.jpg 1.5x, http://upload.wikimedia.org/wikipedia/commons/thumb/0/04/A_Scene_from_Troilus_and_Cressida_-_Angelica_Kauffmann.jpg/200px-A_Scene_from_Troilus_and_Cressida_-_Angelica_Kauffmann.jpg 2x" data-file-width="7032" data-file-height="5598" /></a></div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%"><a href="http://en.wikipedia.org/wiki/Troilus_and_Cressida#Sources" title="Troilus and Cressida">Sources</a></th><td class="navbox-list navbox-odd hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><i><a class="mw-selflink selflink">Troilus and Criseyde</a></i></li>
+<li><i><a href="http://en.wikipedia.org/wiki/Troy_Book" title="Troy Book">Troy Book</a></i></li>
+<li><i><a href="http://en.wikipedia.org/wiki/Recuyell_of_the_Historyes_of_Troye" title="Recuyell of the Historyes of Troye">Recuyell of the Historyes of Troye</a></i></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">Adaptations</th><td class="navbox-list navbox-even hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><i><a href="http://en.wikipedia.org/wiki/The_Face_of_Love_(1954_film)" title="The Face of Love (1954 film)">The Face of Love</a></i> (1954, TV)</li>
+<li><i><a href="http://en.wikipedia.org/wiki/BBC_Television_Shakespeare#Troilus_and_Cressida" title="BBC Television Shakespeare">Troilus and Cressida</a></i> (1981, TV)</li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">Related</th><td class="navbox-list navbox-odd hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="http://en.wikipedia.org/wiki/Trojan_War" title="Trojan War">Trojan War</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Trojan_War_in_popular_culture" title="Trojan War in popular culture">Trojan War in popular culture</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Achilles_and_Patroclus" title="Achilles and Patroclus">Achilles and Patroclus</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Shakespearean_problem_play" title="Shakespearean problem play">Shakespearean problem play</a></li></ul>
+</div></td></tr></tbody></table></div>
+<div role="navigation" class="navbox" aria-labelledby="Geoffrey_Chaucer&amp;#039;s_Troilus_and_Criseyde" style="padding:3px"><table class="nowraplinks mw-collapsible autocollapse navbox-inner" style="border-spacing:0;background:transparent;color:inherit"><tbody><tr><th scope="col" class="navbox-title" colspan="2"><div class="plainlinks hlist navbar mini"><ul><li class="nv-view"><a href="http://en.wikipedia.org/wiki/Template:Troilus_and_Criseyde" title="Template:Troilus and Criseyde"><abbr title="View this template" style=";;background:none transparent;border:none;-moz-box-shadow:none;-webkit-box-shadow:none;box-shadow:none; padding:0;">v</abbr></a></li><li class="nv-talk"><a href="http://en.wikipedia.org/wiki/Template_talk:Troilus_and_Criseyde" title="Template talk:Troilus and Criseyde"><abbr title="Discuss this template" style=";;background:none transparent;border:none;-moz-box-shadow:none;-webkit-box-shadow:none;box-shadow:none; padding:0;">t</abbr></a></li><li class="nv-edit"><a class="external text" href="https://en.wikipedia.org/w/index.php?title=Template:Troilus_and_Criseyde&amp;action=edit"><abbr title="Edit this template" style=";;background:none transparent;border:none;-moz-box-shadow:none;-webkit-box-shadow:none;box-shadow:none; padding:0;">e</abbr></a></li></ul></div><div id="Geoffrey_Chaucer&amp;#039;s_Troilus_and_Criseyde" style="font-size:114%;margin:0 4em"><a href="Geoffrey_Chaucer" title="Geoffrey Chaucer">Geoffrey Chaucer</a>'s <i><a class="mw-selflink selflink">Troilus and Criseyde</a></i></div></th></tr><tr><th scope="row" class="navbox-group" style="width:1%">Characters</th><td class="navbox-list navbox-odd hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="http://en.wikipedia.org/wiki/Troilus" title="Troilus">Troilus</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Cressida" title="Cressida">Cressida</a></li>
+<li><a href="Achilles" title="Achilles">Achilles</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Antenor" title="Antenor">Antenor</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Calchas" title="Calchas">Calchas</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Diomedes" title="Diomedes">Diomede</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Helen_of_Troy" title="Helen of Troy">Helen</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Pandarus" title="Pandarus">Pandarus</a></li>
+<li><a href="Priam" title="Priam">Priam</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Cassandra" title="Cassandra">Cassandra</a></li>
+<li><a href="Hector" title="Hector">Hector</a></li>
+<li><a href="Paris_(mythology)" title="Paris (mythology)">Paris</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Deiphobus" title="Deiphobus">Deiphobus</a></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">Source</th><td class="navbox-list navbox-even hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><i><a href="http://en.wikipedia.org/wiki/Il_Filostrato" title="Il Filostrato">Il Filostrato</a></i> (14th century)</li>
+<li><i><a href="http://en.wikipedia.org/wiki/Roman_de_Troie" title="Roman de Troie">Roman de Troie</a></i> (12th century)</li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">Operas</th><td class="navbox-list navbox-odd hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><i><a href="http://en.wikipedia.org/wiki/Troilus_and_Cressida_(opera)" title="Troilus and Cressida (opera)">Troilus and Cressida</a></i> (1954)</li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">Plays</th><td class="navbox-list navbox-even hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><i><a href="http://en.wikipedia.org/wiki/Troilus_and_Cressida" title="Troilus and Cressida">Troilus and Cressida</a></i> (1602)</li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">Poetry</th><td class="navbox-list navbox-odd hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li>"<a href="http://en.wikipedia.org/wiki/The_Testament_of_Cresseid" title="The Testament of Cresseid">The Testament of Cresseid</a>" (15th century)</li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">Linguistic contributions</th><td class="navbox-list navbox-even hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="http://en.wikipedia.org/wiki/English_words_first_attested_in_Chaucer#Troilus_and_Criseyde" title="English words first attested in Chaucer">Words first used in</a></li>
+<li><i><a href="http://en.wikipedia.org/wiki/The_Oak_and_the_Reed" title="The Oak and the Reed">The Oak and the Reed</a></i></li>
+<li>"<a href="http://en.wikipedia.org/wiki/The_pot_calling_the_kettle_black" title="The pot calling the kettle black">The pot calling the kettle black</a>"</li>
+<li><a href="http://en.wikipedia.org/wiki/Cowbell" title="Cowbell">Cowbell</a></li>
+<li>"<a href="http://en.wikipedia.org/wiki/At_sixes_and_sevens" title="At sixes and sevens">At sixes and sevens</a>"</li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">Related</th><td class="navbox-list navbox-odd hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><i><a href="http://en.wikipedia.org/wiki/Sir_Giles_Goosecap" title="Sir Giles Goosecap">Sir Giles Goosecap</a></i></li>
+<li>"<a href="http://en.wikipedia.org/wiki/To_Her_Inconstant_Lover" title="To Her Inconstant Lover">To Her Inconstant Lover</a>"</li>
+<li><i><a href="http://en.wikipedia.org/wiki/Il_Canzoniere" title="Il Canzoniere">Il Canzoniere</a></i></li>
+<li><i><a href="http://en.wikipedia.org/wiki/Amoryus_and_Cleopes" title="Amoryus and Cleopes">Amoryus and Cleopes</a></i></li></ul>
+</div></td></tr></tbody></table></div>
+<!-- 
+NewPP limit report
+Parsed by mw1349
+Cached time: 20200528140708
+Cache expiry: 2592000
+Dynamic content: false
+Complications: [vary‐revision‐sha1]
+CPU time usage: 0.368 seconds
+Real time usage: 0.521 seconds
+Preprocessor visited node count: 1100/1000000
+Post‐expand include size: 121501/2097152 bytes
+Template argument size: 629/2097152 bytes
+Highest expansion depth: 13/40
+Expensive parser function count: 2/500
+Unstrip recursion depth: 1/20
+Unstrip post‐expand size: 17204/5000000 bytes
+Number of Wikibase entities loaded: 1/400
+Lua time usage: 0.160/10.000 seconds
+Lua memory usage: 4.78 MB/50 MB
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%  391.200      1 -total
+ 28.97%  113.326      1 Template:Reflist
+ 22.26%   87.076      1 Template:Cite_journal
+ 15.45%   60.439      7 Template:Navbox
+ 10.99%   43.007      1 Template:IPAc-en
+  9.07%   35.465      1 Template:For
+  7.87%   30.773      1 Template:EngvarB
+  7.63%   29.851      1 Template:Romeo_and_Juliet
+  7.07%   27.650      1 Template:Authority_control
+  6.61%   25.839      1 Template:Chaucer
+-->
+
+<!-- Saved in parser cache with key enwiki:pcache:idhash:855241-0!canonical and timestamp 20200528140707 and revision id 958778550
+ -->
+</div><noscript><img src="http://en.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" alt="" title="" width="1" height="1" style="border: none; position: absolute;" /></noscript></div>
+		<div class="printfooter">Retrieved from "<a dir="ltr" href="https://en.wikipedia.org/w/index.php?title=Troilus_and_Criseyde&amp;oldid=958778550">https://en.wikipedia.org/w/index.php?title=Troilus_and_Criseyde&amp;oldid=958778550</a>"</div>
+		<div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="http://en.wikipedia.org/wiki/Help:Category" title="Help:Category">Categories</a>: <ul><li><a href="http://en.wikipedia.org/wiki/Category:1380s_works" title="Category:1380s works">1380s works</a></li><li><a href="http://en.wikipedia.org/wiki/Category:14th-century_poems" title="Category:14th-century poems">14th-century poems</a></li><li><a href="http://en.wikipedia.org/wiki/Category:Adaptations_of_works_by_Giovanni_Boccaccio" title="Category:Adaptations of works by Giovanni Boccaccio">Adaptations of works by Giovanni Boccaccio</a></li><li><a href="http://en.wikipedia.org/wiki/Category:Epic_poems_in_English" title="Category:Epic poems in English">Epic poems in English</a></li><li><a href="http://en.wikipedia.org/wiki/Category:Middle_English_poems" title="Category:Middle English poems">Middle English poems</a></li><li><a href="http://en.wikipedia.org/wiki/Category:Poetry_by_Geoffrey_Chaucer" title="Category:Poetry by Geoffrey Chaucer">Poetry by Geoffrey Chaucer</a></li><li><a href="http://en.wikipedia.org/wiki/Category:Troilus_and_Cressida" title="Category:Troilus and Cressida">Troilus and Cressida</a></li><li><a href="http://en.wikipedia.org/wiki/Category:Romance_(genre)" title="Category:Romance (genre)">Romance (genre)</a></li><li><a href="http://en.wikipedia.org/wiki/Category:Trojan_War_literature" title="Category:Trojan War literature">Trojan War literature</a></li><li><a href="http://en.wikipedia.org/wiki/Category:Works_based_on_Greek_and_Roman_works" title="Category:Works based on Greek and Roman works">Works based on Greek and Roman works</a></li><li><a href="http://en.wikipedia.org/wiki/Category:Love_stories" title="Category:Love stories">Love stories</a></li></ul></div><div id="mw-hidden-catlinks" class="mw-hidden-catlinks mw-hidden-cats-hidden">Hidden categories: <ul><li><a href="http://en.wikipedia.org/wiki/Category:EngvarB_from_September_2013" title="Category:EngvarB from September 2013">EngvarB from September 2013</a></li><li><a href="http://en.wikipedia.org/wiki/Category:Use_dmy_dates_from_September_2013" title="Category:Use dmy dates from September 2013">Use dmy dates from September 2013</a></li></ul></div></div>
+		<div class="visualClear"></div>
+		
+	</div>
+</div>
+<div id='mw-data-after-content'>
+	<div class="read-more-container"></div>
+</div>
+
+<div id="mw-navigation">
+	<h2>Navigation menu</h2>
+	<div id="mw-head">
+		<div id="p-personal" class="vector-menu" aria-labelledby="p-personal-label" 
+	 >
+	<h3 id="p-personal-label">
+		<span>Personal tools</span>
+	</h3>
+	<!-- Please do not use the .body class, it is deprecated. -->
+	<div class="body vector-menu-content">
+		<!-- Please do not use the .menu class, it is deprecated. -->
+		<ul class="vector-menu-content-list"><li id="pt-anonuserpage">Not logged in</li><li id="pt-anontalk"><a href="http://en.wikipedia.org/wiki/Special:MyTalk" title="Discussion about edits from this IP address [n]" accesskey="n">Talk</a></li><li id="pt-anoncontribs"><a href="http://en.wikipedia.org/wiki/Special:MyContributions" title="A list of edits made from this IP address [y]" accesskey="y">Contributions</a></li><li id="pt-createaccount"><a href="http://en.wikipedia.org/w/index.php?title=Special:CreateAccount&amp;returnto=Troilus+and+Criseyde" title="You are encouraged to create an account and log in; however, it is not mandatory">Create account</a></li><li id="pt-login"><a href="http://en.wikipedia.org/w/index.php?title=Special:UserLogin&amp;returnto=Troilus+and+Criseyde" title="You&#039;re encouraged to log in; however, it&#039;s not mandatory. [o]" accesskey="o">Log in</a></li></ul>
+		
+	</div>
+</div>
+
+
+		<div id="left-navigation">
+			<div id="p-namespaces" class="vector-menu vector-menu-tabs vectorTabs" aria-labelledby="p-namespaces-label" 
+	 >
+	<h3 id="p-namespaces-label">
+		<span>Namespaces</span>
+	</h3>
+	<!-- Please do not use the .body class, it is deprecated. -->
+	<div class="body vector-menu-content">
+		<!-- Please do not use the .menu class, it is deprecated. -->
+		<ul class="vector-menu-content-list"><li id="ca-nstab-main" class="selected"><a href="Troilus_and_Criseyde" title="View the content page [c]" accesskey="c">Article</a></li><li id="ca-talk"><a href="http://en.wikipedia.org/wiki/Talk:Troilus_and_Criseyde" rel="discussion" title="Discuss improvements to the content page [t]" accesskey="t">Talk</a></li></ul>
+		
+	</div>
+</div>
+
+
+			<div id="p-variants" class="vector-menu-empty emptyPortlet vector-menu vector-menu-dropdown vectorMenu" aria-labelledby="p-variants-label" 
+	 >
+	<input type="checkbox" class="vectorMenuCheckbox vector-menu-checkbox" aria-labelledby="p-variants-label" />
+	<h3 id="p-variants-label">
+		<span>Variants</span>
+	</h3>
+	<!-- Please do not use the .body class, it is deprecated. -->
+	<div class="body vector-menu-content">
+		<!-- Please do not use the .menu class, it is deprecated. -->
+		<ul class="menu vector-menu-content-list"></ul>
+		
+	</div>
+</div>
+
+
+		</div>
+		<div id="right-navigation">
+			<div id="p-views" class="vector-menu vector-menu-tabs vectorTabs" aria-labelledby="p-views-label" 
+	 >
+	<h3 id="p-views-label">
+		<span>Views</span>
+	</h3>
+	<!-- Please do not use the .body class, it is deprecated. -->
+	<div class="body vector-menu-content">
+		<!-- Please do not use the .menu class, it is deprecated. -->
+		<ul class="vector-menu-content-list"><li id="ca-view" class="collapsible selected"><a href="Troilus_and_Criseyde">Read</a></li><li id="ca-edit" class="collapsible"><a href="http://en.wikipedia.org/w/index.php?title=Troilus_and_Criseyde&amp;action=edit" title="Edit this page [e]" accesskey="e">Edit</a></li><li id="ca-history" class="collapsible"><a href="http://en.wikipedia.org/w/index.php?title=Troilus_and_Criseyde&amp;action=history" title="Past revisions of this page [h]" accesskey="h">View history</a></li></ul>
+		
+	</div>
+</div>
+
+
+			<div id="p-cactions" class="vector-menu-empty emptyPortlet vector-menu vector-menu-dropdown vectorMenu" aria-labelledby="p-cactions-label" 
+	 >
+	<input type="checkbox" class="vectorMenuCheckbox vector-menu-checkbox" aria-labelledby="p-cactions-label" />
+	<h3 id="p-cactions-label">
+		<span>More</span>
+	</h3>
+	<!-- Please do not use the .body class, it is deprecated. -->
+	<div class="body vector-menu-content">
+		<!-- Please do not use the .menu class, it is deprecated. -->
+		<ul class="menu vector-menu-content-list"></ul>
+		
+	</div>
+</div>
+
+
+			<div id="p-search" role="search">
+	<h3 >
+		<label for="searchInput">Search</label>
+	</h3>
+	<form action="http://en.wikipedia.org/w/index.php" id="searchform">
+		<div id="simpleSearch">
+			<input type="search" name="search" placeholder="Search Wikipedia" title="Search Wikipedia [f]" accesskey="f" id="searchInput"/>
+			<input type="hidden" name="title" value="Special:Search">
+			<input type="submit" name="fulltext" value="Search" title="Search Wikipedia for this text" id="mw-searchButton" class="searchButton mw-fallbackSearchButton"/>
+			<input type="submit" name="go" value="Go" title="Go to a page with this exact name if it exists" id="searchButton" class="searchButton"/>
+		</div>
+	</form>
+</div>
+
+		</div>
+	</div>
+	
+<div id="mw-panel">
+	<div id="p-logo" role="banner">
+		<a  title="Visit the main page" class="mw-wiki-logo" href="http://en.wikipedia.org/wiki/Main_Page"></a>
+	</div>
+	<div id="p-navigation" class="vector-menu vector-menu-portal portal portal-first" aria-labelledby="p-navigation-label" 
+	 >
+	<h3 id="p-navigation-label">
+		<span>Navigation</span>
+	</h3>
+	<!-- Please do not use the .body class, it is deprecated. -->
+	<div class="body vector-menu-content">
+		<!-- Please do not use the .menu class, it is deprecated. -->
+		<ul class="vector-menu-content-list"><li id="n-mainpage-description"><a href="http://en.wikipedia.org/wiki/Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li><li id="n-contents"><a href="http://en.wikipedia.org/wiki/Wikipedia:Contents" title="Guides to browsing Wikipedia">Contents</a></li><li id="n-currentevents"><a href="http://en.wikipedia.org/wiki/Portal:Current_events" title="Find background information on current events">Current events</a></li><li id="n-randompage"><a href="http://en.wikipedia.org/wiki/Special:Random" title="Visit a randomly selected article [x]" accesskey="x">Random article</a></li><li id="n-aboutsite"><a href="http://en.wikipedia.org/wiki/Wikipedia:About" title="Learn about Wikipedia and how it works">About Wikipedia</a></li><li id="n-contactpage"><a href="http://en.wikipedia.org/wiki/Wikipedia:Contact_us" title="How to contact Wikipedia">Contact us</a></li><li id="n-sitesupport"><a href="https://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=C13_en.wikipedia.org&amp;uselang=en" title="Support us by donating to the Wikimedia Foundation">Donate</a></li><li id="n-shoplink"><a href="http://shop.wikimedia.org/" title="Visit the Wikipedia store">Wikipedia store</a></li></ul>
+		
+	</div>
+</div>
+
+
+	<div id="p-interaction" class="vector-menu vector-menu-portal portal" aria-labelledby="p-interaction-label" 
+	 >
+	<h3 id="p-interaction-label">
+		<span>Contribute</span>
+	</h3>
+	<!-- Please do not use the .body class, it is deprecated. -->
+	<div class="body vector-menu-content">
+		<!-- Please do not use the .menu class, it is deprecated. -->
+		<ul class="vector-menu-content-list"><li id="n-help"><a href="http://en.wikipedia.org/wiki/Help:Contents" title="Guidance on how to use and edit Wikipedia">Help</a></li><li id="n-portal"><a href="http://en.wikipedia.org/wiki/Wikipedia:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li><li id="n-recentchanges"><a href="http://en.wikipedia.org/wiki/Special:RecentChanges" title="A list of recent changes to Wikipedia [r]" accesskey="r">Recent changes</a></li><li id="n-upload"><a href="http://en.wikipedia.org/wiki/Wikipedia:File_Upload_Wizard" title="Add images or other media for use on Wikipedia">Upload file</a></li></ul>
+		
+	</div>
+</div>
+
+<div id="p-tb" class="vector-menu vector-menu-portal portal" aria-labelledby="p-tb-label" 
+	 >
+	<h3 id="p-tb-label">
+		<span>Tools</span>
+	</h3>
+	<!-- Please do not use the .body class, it is deprecated. -->
+	<div class="body vector-menu-content">
+		<!-- Please do not use the .menu class, it is deprecated. -->
+		<ul class="vector-menu-content-list"><li id="t-whatlinkshere"><a href="http://en.wikipedia.org/wiki/Special:WhatLinksHere/Troilus_and_Criseyde" title="List of all English Wikipedia pages containing links to this page [j]" accesskey="j">What links here</a></li><li id="t-recentchangeslinked"><a href="http://en.wikipedia.org/wiki/Special:RecentChangesLinked/Troilus_and_Criseyde" rel="nofollow" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li><li id="t-upload"><a href="http://en.wikipedia.org/wiki/Wikipedia:File_Upload_Wizard" title="Upload files [u]" accesskey="u">Upload file</a></li><li id="t-specialpages"><a href="http://en.wikipedia.org/wiki/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li><li id="t-permalink"><a href="http://en.wikipedia.org/w/index.php?title=Troilus_and_Criseyde&amp;oldid=958778550" title="Permanent link to this revision of this page">Permanent link</a></li><li id="t-info"><a href="http://en.wikipedia.org/w/index.php?title=Troilus_and_Criseyde&amp;action=info" title="More information about this page">Page information</a></li><li id="t-wikibase"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q2527101" title="Structured data on this page hosted by Wikidata [g]" accesskey="g">Wikidata item</a></li><li id="t-cite"><a href="http://en.wikipedia.org/w/index.php?title=Special:CiteThisPage&amp;page=Troilus_and_Criseyde&amp;id=958778550&amp;wpFormIdentifier=titleform" title="Information on how to cite this page">Cite this page</a></li></ul>
+		
+	</div>
+</div>
+
+<div id="p-lang" class="vector-menu vector-menu-portal portal" aria-labelledby="p-lang-label" 
+	 >
+	<h3 id="p-lang-label">
+		<span>Languages</span>
+	</h3>
+	<!-- Please do not use the .body class, it is deprecated. -->
+	<div class="body vector-menu-content">
+		<!-- Please do not use the .menu class, it is deprecated. -->
+		<ul class="vector-menu-content-list"><li class="interlanguage-link interwiki-br"><a href="https://br.wikipedia.org/wiki/Troilus_and_Criseyde" title="Troilus and Criseyde – Breton" lang="br" hreflang="br" class="interlanguage-link-target">Brezhoneg</a></li><li class="interlanguage-link interwiki-es"><a href="https://es.wikipedia.org/wiki/Troilo_y_Criseida_(Chaucer)" title="Troilo y Criseida (Chaucer) – Spanish" lang="es" hreflang="es" class="interlanguage-link-target">Español</a></li><li class="interlanguage-link interwiki-eo"><a href="https://eo.wikipedia.org/wiki/Troilo_kaj_Kresido" title="Troilo kaj Kresido – Esperanto" lang="eo" hreflang="eo" class="interlanguage-link-target">Esperanto</a></li><li class="interlanguage-link interwiki-fr"><a href="https://fr.wikipedia.org/wiki/Tro%C3%AFlus_et_Criseyde" title="Troïlus et Criseyde – French" lang="fr" hreflang="fr" class="interlanguage-link-target">Français</a></li><li class="interlanguage-link interwiki-it"><a href="https://it.wikipedia.org/wiki/Troilo_e_Criseide" title="Troilo e Criseide – Italian" lang="it" hreflang="it" class="interlanguage-link-target">Italiano</a></li><li class="interlanguage-link interwiki-he"><a href="https://he.wikipedia.org/wiki/%D7%98%D7%A8%D7%95%D7%99%D7%9C%D7%95%D7%A1_%D7%95%D7%A7%D7%A8%D7%A1%D7%99%D7%93%D7%94_(%D7%A4%D7%95%D7%90%D7%9E%D7%94)" title="טרוילוס וקרסידה (פואמה) – Hebrew" lang="he" hreflang="he" class="interlanguage-link-target">עברית</a></li><li class="interlanguage-link interwiki-nl"><a href="https://nl.wikipedia.org/wiki/Troilus_and_Criseyde" title="Troilus and Criseyde – Dutch" lang="nl" hreflang="nl" class="interlanguage-link-target">Nederlands</a></li><li class="interlanguage-link interwiki-no"><a href="https://no.wikipedia.org/wiki/Troilus_og_Criseyde" title="Troilus og Criseyde – Norwegian Bokmål" lang="nb" hreflang="nb" class="interlanguage-link-target">Norsk bokmål</a></li><li class="interlanguage-link interwiki-pl"><a href="https://pl.wikipedia.org/wiki/Troilus_i_Criseyda_(poemat)" title="Troilus i Criseyda (poemat) – Polish" lang="pl" hreflang="pl" class="interlanguage-link-target">Polski</a></li><li class="interlanguage-link interwiki-ru"><a href="https://ru.wikipedia.org/wiki/%D0%A2%D1%80%D0%BE%D0%B8%D0%BB_%D0%B8_%D0%9A%D1%80%D0%B5%D1%81%D1%81%D0%B8%D0%B4%D0%B0_(%D0%BF%D0%BE%D1%8D%D0%BC%D0%B0)" title="Троил и Крессида (поэма) – Russian" lang="ru" hreflang="ru" class="interlanguage-link-target">Русский</a></li></ul>
+		<div class="after-portlet after-portlet-lang"><span class="wb-langlinks-edit wb-langlinks-link"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q2527101#sitelinks-wikipedia" title="Edit interlanguage links" class="wbc-editpage">Edit links</a></span></div>
+	</div>
+</div>
+
+<div id="p-wikibase-otherprojects" class="vector-menu vector-menu-portal portal" aria-labelledby="p-wikibase-otherprojects-label" 
+	 >
+	<h3 id="p-wikibase-otherprojects-label">
+		<span>In other projects</span>
+	</h3>
+	<!-- Please do not use the .body class, it is deprecated. -->
+	<div class="body vector-menu-content">
+		<!-- Please do not use the .menu class, it is deprecated. -->
+		<ul class="vector-menu-content-list"><li class="wb-otherproject-link wb-otherproject-wikisource"><a href="https://en.wikisource.org/wiki/Troilus_and_Criseyde" hreflang="en">Wikisource</a></li></ul>
+		
+	</div>
+</div>
+
+<div id="p-coll-print_export" class="vector-menu vector-menu-portal portal" aria-labelledby="p-coll-print_export-label" 
+	 >
+	<h3 id="p-coll-print_export-label">
+		<span>Print/export</span>
+	</h3>
+	<!-- Please do not use the .body class, it is deprecated. -->
+	<div class="body vector-menu-content">
+		<!-- Please do not use the .menu class, it is deprecated. -->
+		<ul class="vector-menu-content-list"><li id="coll-download-as-rl"><a href="http://en.wikipedia.org/w/index.php?title=Special:ElectronPdf&amp;page=Troilus+and+Criseyde&amp;action=show-download-screen" title="Download this page as a PDF file">Download as PDF</a></li><li id="t-print"><a href="http://en.wikipedia.org/w/index.php?title=Troilus_and_Criseyde&amp;printable=yes" title="Printable version of this page [p]" accesskey="p">Printable version</a></li></ul>
+		
+	</div>
+</div>
+
+
+</div>
+
+</div>
+
+<div id="footer" class="mw-footer" role="contentinfo" >
+	<ul id="footer-info" >
+		<li id="footer-info-lastmod"> This page was last edited on 25 May 2020, at 17:36<span class="anonymous-show">&#160;(UTC)</span>.</li>
+		<li id="footer-info-copyright">Text is available under the <a rel="license" href="http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License">Creative Commons Attribution-ShareAlike License</a><a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/" style="display:none;"></a>;
+additional terms may apply.  By using this site, you agree to the <a href="http://foundation.wikimedia.org/wiki/Terms_of_Use">Terms of Use</a> and <a href="http://foundation.wikimedia.org/wiki/Privacy_policy">Privacy Policy</a>. Wikipedia® is a registered trademark of the <a href="http://www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.</li>
+	</ul>
+	<ul id="footer-places" >
+		<li id="footer-places-privacy"><a href="https://foundation.wikimedia.org/wiki/Privacy_policy" class="extiw" title="wmf:Privacy policy">Privacy policy</a></li>
+		<li id="footer-places-about"><a href="http://en.wikipedia.org/wiki/Wikipedia:About" title="Wikipedia:About">About Wikipedia</a></li>
+		<li id="footer-places-disclaimer"><a href="http://en.wikipedia.org/wiki/Wikipedia:General_disclaimer" title="Wikipedia:General disclaimer">Disclaimers</a></li>
+		<li id="footer-places-contact"><a href="http://en.wikipedia.org/wiki/Wikipedia:Contact_us">Contact Wikipedia</a></li>
+		<li id="footer-places-developers"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/How_to_contribute">Developers</a></li>
+		<li id="footer-places-statslink"><a href="https://stats.wikimedia.org/#/en.wikipedia.org">Statistics</a></li>
+		<li id="footer-places-cookiestatement"><a href="https://foundation.wikimedia.org/wiki/Cookie_statement">Cookie statement</a></li>
+		<li id="footer-places-mobileview"><a href="http://en.m.wikipedia.org/w/index.php?title=Troilus_and_Criseyde&amp;mobileaction=toggle_view_mobile" class="noprint stopMobileRedirectToggle">Mobile view</a></li>
+	</ul>
+	<ul id="footer-icons" class="noprint">
+		<li id="footer-copyrightico"><a href="https://wikimediafoundation.org/"><img src="http://en.wikipedia.org/static/images/wikimedia-button.png" srcset="http://en.wikipedia.org/static/images/wikimedia-button-1.5x.png 1.5x, http://en.wikipedia.org/static/images/wikimedia-button-2x.png 2x" width="88" height="31" alt="Wikimedia Foundation" loading="lazy" /></a></li>
+		<li id="footer-poweredbyico"><a href="https://www.mediawiki.org/"><img src="http://en.wikipedia.org/static/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" srcset="http://en.wikipedia.org/static/images/poweredby_mediawiki_132x47.png 1.5x, http://en.wikipedia.org/static/images/poweredby_mediawiki_176x62.png 2x" width="88" height="31"/></a></li>
+	</ul>
+	<div style="clear: both;"></div>
+</div>
+
+
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.368","walltime":"0.521","ppvisitednodes":{"value":1100,"limit":1000000},"postexpandincludesize":{"value":121501,"limit":2097152},"templateargumentsize":{"value":629,"limit":2097152},"expansiondepth":{"value":13,"limit":40},"expensivefunctioncount":{"value":2,"limit":500},"unstrip-depth":{"value":1,"limit":20},"unstrip-size":{"value":17204,"limit":5000000},"entityaccesscount":{"value":1,"limit":400},"timingprofile":["100.00%  391.200      1 -total"," 28.97%  113.326      1 Template:Reflist"," 22.26%   87.076      1 Template:Cite_journal"," 15.45%   60.439      7 Template:Navbox"," 10.99%   43.007      1 Template:IPAc-en","  9.07%   35.465      1 Template:For","  7.87%   30.773      1 Template:EngvarB","  7.63%   29.851      1 Template:Romeo_and_Juliet","  7.07%   27.650      1 Template:Authority_control","  6.61%   25.839      1 Template:Chaucer"]},"scribunto":{"limitreport-timeusage":{"value":"0.160","limit":"10.000"},"limitreport-memusage":{"value":5008122,"limit":52428800}},"cachereport":{"origin":"mw1349","timestamp":"20200528140708","ttl":2592000,"transientcontent":false}}});});</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"Troilus and Criseyde","url":"https:\/\/en.wikipedia.org\/wiki\/Troilus_and_Criseyde","sameAs":"http:\/\/www.wikidata.org\/entity\/Q2527101","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q2527101","author":{"@type":"Organization","name":"Contributors to Wikimedia projects"},"publisher":{"@type":"Organization","name":"Wikimedia Foundation, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2004-07-24T22:37:51Z","dateModified":"2020-05-25T17:36:18Z","image":"https:\/\/upload.wikimedia.org\/wikipedia\/commons\/e\/ec\/Chaucer_Troilus_frontispiece.jpg","headline":"Poem by Geoffrey Chaucer"}</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":111,"wgHostname":"mw1366"});});</script></body></html>

@@ -1,0 +1,960 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="/sites/default/files/favicons/favicon.ico"/>
+<link rel="apple-touch-icon" sizes="57x57" href="/sites/default/files/favicons/apple-touch-icon-57x57.png"/>
+<link rel="apple-touch-icon" sizes="60x60" href="/sites/default/files/favicons/apple-touch-icon-60x60.png"/>
+<link rel="apple-touch-icon" sizes="114x114" href="/sites/default/files/favicons/apple-touch-icon-114x114.png"/>
+<link rel="apple-touch-icon" sizes="120x120" href="/sites/default/files/favicons/apple-touch-icon-120x120.png"/>
+<link rel="apple-touch-icon" sizes="144x144" href="/sites/default/files/favicons/apple-touch-icon-144x144.png"/>
+<link rel="apple-touch-icon" sizes="152x152" href="/sites/default/files/favicons/apple-touch-icon-152x152.png"/>
+<link rel="icon" type="image/png" href="/sites/default/files/favicons/android-chrome-144x144.png" sizes="192x192"/>
+<meta name="msapplication-config" content="/browserconfig.xml"/>
+<meta name="theme-color" content="#ffffff"/>
+<meta name="msapplication-square70x70logo" content="mstile-70x70.png"/>
+<meta name="msapplication-square150x150logo" content="mstile-150x150.png"/>
+<meta name="msapplication-wide310x150logo" content="mstile-310x150.png"/>
+<meta name="msapplication-square310x310logo" content="mstile-310x310.png"/>
+<link rel="shortlink" href="/node/837" />
+<link rel="canonical" href="/kboo-staff-directory" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<meta name="description" content="For general questions contact the Front Desk at 503.231.8032. or fill out our online contact form. Or just come on over to 20 SE 8th Ave in Portland (next to the Jupiter Hotel, just east of the Burnside Bridge)! full address: KBOO Radio 20 SE 8th Ave. Portland OR 97214" />
+<meta name="robots" content="follow, index" />
+<meta name="news_keywords" content="portland, community, radio, police, oregon, racism, lgbt" />
+<meta name="generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="https://kboo.fm/kboo-staff-directory" />
+<link rel="shortlink" href="https://kboo.fm/node/837" />
+<meta property="og:site_name" content="KBOO" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="KBOO Staff Directory" />
+<meta property="og:url" content="https://kboo.fm/kboo-staff-directory" />
+<meta property="og:description" content="For general questions contact the Front Desk at 503.231.8032. or fill out our online contact form. Or just come on over to 20 SE 8th Ave in Portland (next to the Jupiter Hotel, just east of the Burnside Bridge)! full address: KBOO Radio 20 SE 8th Ave. Portland OR 97214" />
+<meta property="og:updated_time" content="2018-08-13T14:40:04-07:00" />
+<meta property="og:image" content="https://kboo.fm/sites/default/files/kboo_background_logo_horizontal_0.png" />
+<meta property="og:image:url" content="https://kboo.fm/sites/default/files/kboo_background_logo_horizontal_0.png" />
+<meta property="og:image:secure_url" content="https://kboo.fm/sites/default/files/kboo_background_logo_horizontal_0.png" />
+<meta property="og:image:type" content="image/jpeg" />
+<meta property="og:image:width" content="225" />
+<meta property="og:image:height" content="225" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@kboo" />
+<meta name="twitter:creator" content="@kboo" />
+<meta name="twitter:title" content="KBOO Staff Directory" />
+<meta name="twitter:url" content="https://kboo.fm/kboo-staff-directory" />
+<meta name="twitter:description" content="For general questions contact the Front Desk at 503.231.8032. or fill out our online contact form. Or just come on over to 20 SE 8th Ave in Portland (next to the Jupiter Hotel, just east of the" />
+<meta property="article:publisher" content="KBOORadio" />
+<meta property="article:author" content="http://facebook.com/kbooradio" />
+<meta name="twitter:image:alt" content="KBOO Radio" />
+<meta property="article:tag" content="community" />
+<meta property="article:tag" content="radio" />
+<meta property="article:published_time" content="2010-12-09T14:25:17-08:00" />
+<meta property="article:modified_time" content="2018-08-13T14:40:04-07:00" />
+
+
+  <title>
+    KBOO Staff Directory | KBOO  </title>
+
+
+  <style>
+@import url("https://kboo.fm/modules/system/system.base.css?pb158w");
+</style>
+<style>
+@import url("https://kboo.fm/sites/all/modules/contrib/date/date_api/date.css?pb158w");
+@import url("https://kboo.fm/sites/all/modules/contrib/date/date_popup/themes/datepicker.1.7.css?pb158w");
+@import url("https://kboo.fm/sites/all/modules/contrib/date/date_repeat_field/date_repeat_field.css?pb158w");
+@import url("https://kboo.fm/modules/field/theme/field.css?pb158w");
+@import url("https://kboo.fm/sites/all/modules/contrib/logintoboggan/logintoboggan.css?pb158w");
+@import url("https://kboo.fm/modules/node/node.css?pb158w");
+@import url("https://kboo.fm/sites/all/modules/contrib/simpleads/simpleads.css?pb158w");
+@import url("https://kboo.fm/sites/all/modules/contrib/views/css/views.css?pb158w");
+@import url("https://kboo.fm/sites/all/modules/contrib/ckeditor/css/ckeditor.css?pb158w");
+@import url("https://kboo.fm/sites/all/modules/contrib/entity_embed/css/entity_embed.css?pb158w");
+</style>
+<style>
+@import url("https://kboo.fm/sites/all/modules/colorbox/styles/default/colorbox_style.css?pb158w");
+@import url("https://kboo.fm/sites/all/modules/contrib/ctools/css/ctools.css?pb158w");
+</style>
+<style>
+@import url("https://kboo.fm/sites/all/themes/custom/kbooui/css/style.css?pb158w");
+@import url("https://kboo.fm/sites/all/themes/custom/kbooui/bower_components/bootstrap-grid-columns-clearing/css/multi-columns-row.css?pb158w");
+@import url("https://kboo.fm/sites/all/themes/custom/kbooui/bower_components/fontawesome/css/font-awesome.css?pb158w");
+</style>
+<link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:700,regular|Oswald:700,regular&amp;subset=latin" media="all" />
+
+
+    <!-- HTML5 element support for IE6-8 -->
+  <!--[if lt IE 9]><script src="https://kboo.fm/sites/all/themes/contrib/bootstrap/bower_components/html5shiv/dist/html5shiv.min.js"></script><![endif]-->
+
+
+  <script>window.google_analytics_domain_name = "none";window.google_analytics_uacct = "UA-398691-1";</script>
+<script src="https://kboo.fm/sites/default/files/js/js_xvYJgU6LChHqbcSh4y1AvdXfD5QBIwT3GVGVUeuksbM.js"></script>
+<script src="https://kboo.fm/sites/default/files/js/js_Xdp_56Kwrjh9XNxqhxmaYOwIKVvPB-7wqAz_R60LA6w.js"></script>
+<script src="https://kboo.fm/sites/default/files/js/js_0eZf6vZ9q2wV0BbPYYjSFcbukAFga6tCIH4pYqInA7M.js"></script>
+<script>(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","https://www.google-analytics.com/analytics.js","ga");ga("create", "UA-398691-1", {"cookieDomain":"auto","allowLinker":true});ga("require", "linker");ga("linker:autoLink", ["kboo.fm","kboo.org","kboo.com","kboo.rocks"]);ga("send", "pageview");</script>
+<script src="https://kboo.fm/sites/default/files/js/js_q17GoDubbU0cXT-3CvDt4NnntoCotHQbKPId2A9h8TU.js"></script>
+<script>jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"kbooui","theme_token":"VjARk73P8IMoPjM61YhbNAeMR-1uMwsCf349nzZOvZ4","js":{"modules\/statistics\/statistics.js":1,"sites\/all\/themes\/contrib\/bootstrap\/js\/bootstrap.js":1,"0":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery\/1.10\/jquery.min.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/contrib\/simpleads\/simpleads.js":1,"sites\/all\/libraries\/colorbox\/jquery.colorbox-min.js":1,"sites\/all\/modules\/colorbox\/js\/colorbox.js":1,"sites\/all\/modules\/colorbox\/styles\/default\/colorbox_style.js":1,"sites\/all\/modules\/colorbox\/js\/colorbox_load.js":1,"sites\/all\/modules\/colorbox\/js\/colorbox_inline.js":1,"sites\/all\/libraries\/jstorage\/jstorage.min.js":1,"sites\/all\/modules\/contrib\/google_analytics\/googleanalytics.js":1,"1":1,"sites\/all\/themes\/custom\/kbooui\/bower_components\/bootstrap\/js\/transition.js":1,"sites\/all\/themes\/custom\/kbooui\/bower_components\/bootstrap\/js\/collapse.js":1,"sites\/all\/themes\/custom\/kbooui\/bower_components\/bootstrap\/js\/dropdown.js":1,"sites\/all\/themes\/custom\/kbooui\/bower_components\/bootstrap\/js\/tab.js":1,"sites\/all\/themes\/custom\/kbooui\/bower_components\/bootstrap-grid-columns-clearing\/js\/ie-row-fix.js":1,"sites\/all\/themes\/custom\/kbooui\/bower_components\/transparency\/dist\/transparency.js":1,"sites\/all\/themes\/custom\/kbooui\/bower_components\/trunk8\/trunk8.js":1,"sites\/all\/themes\/custom\/kbooui\/js\/compiled\/c4\/boot.js":1,"sites\/all\/themes\/custom\/kbooui\/js\/compiled\/c4\/utilities\/timer.js":1,"sites\/all\/themes\/custom\/kbooui\/js\/compiled\/c4\/utilities\/truncate.js":1,"sites\/all\/themes\/custom\/kbooui\/js\/compiled\/c4\/utilities\/window.js":1,"sites\/all\/themes\/custom\/kbooui\/js\/compiled\/c4\/components\/base.js":1,"sites\/all\/themes\/custom\/kbooui\/js\/compiled\/custom\/station\/listen-now.js":1,"sites\/all\/themes\/custom\/kbooui\/js\/compiled\/custom\/station\/on-air.js":1,"sites\/all\/themes\/custom\/kbooui\/js\/compiled\/custom\/main.js":1},"css":{"modules\/system\/system.base.css":1,"sites\/all\/modules\/contrib\/date\/date_api\/date.css":1,"sites\/all\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"sites\/all\/modules\/contrib\/date\/date_repeat_field\/date_repeat_field.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/contrib\/logintoboggan\/logintoboggan.css":1,"modules\/node\/node.css":1,"sites\/all\/modules\/contrib\/simpleads\/simpleads.css":1,"sites\/all\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/ckeditor\/css\/ckeditor.css":1,"sites\/all\/modules\/contrib\/entity_embed\/css\/entity_embed.css":1,"sites\/all\/modules\/colorbox\/styles\/default\/colorbox_style.css":1,"sites\/all\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/all\/themes\/custom\/kbooui\/css\/style.css":1,"sites\/all\/themes\/custom\/kbooui\/bower_components\/bootstrap-grid-columns-clearing\/css\/multi-columns-row.css":1,"sites\/all\/themes\/custom\/kbooui\/bower_components\/fontawesome\/css\/font-awesome.css":1,"https:\/\/fonts.googleapis.com\/css?family=Montserrat:700,regular|Oswald:700,regular\u0026subset=latin":1}},"colorbox":{"opacity":"0.85","current":"{current} of {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"Close","maxWidth":"98%","maxHeight":"98%","fixed":true,"mobiledetect":true,"mobiledevicewidth":"480px"},"simpleads":{"url":{"ckeditor":"\/simpleads\/dashboard\/ckeditor"},"modulepath":"sites\/all\/modules\/contrib\/simpleads"},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip","trackColorbox":1,"trackDomainMode":2,"trackCrossDomains":["kboo.fm","kboo.org","kboo.com","kboo.rocks"]},"statistics":{"data":{"nid":"837"},"url":"\/modules\/statistics\/statistics.php"},"urlIsAjaxTrusted":{"\/kboo-staff-directory":true},"bootstrap":{"anchorsFix":0,"anchorsSmoothScrolling":0,"formHasError":1,"popoverEnabled":0,"popoverOptions":{"animation":1,"html":0,"placement":"right","selector":"","trigger":"click","triggerAutoclose":1,"title":"","content":"","delay":0,"container":"body"},"tooltipEnabled":0,"tooltipOptions":{"animation":1,"html":0,"placement":"auto left","selector":"","trigger":"hover focus","delay":0,"container":"body"}}});</script>
+</head>
+
+
+<body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-837 node-type-basic-page" >
+  <div class="container-fluid">
+      </div>
+
+  <div class="container main-body">
+    <header id="navbar"
+        role="banner"
+        class="navbar container navbar-default">
+
+  <div class="container">
+    <div class="navbar-header">
+              <a class="logo navbar-btn pull-left"
+           href="/"
+           title="Home">
+
+          <img src="https://kboo.fm/sites/all/themes/custom/kbooui/logo.png"
+               alt="Home" />
+        </a>
+      
+
+          </div>
+
+    <button data-stream="one"
+        class="btn btn-default navbar-btn launch-player listen-now-btn">
+  Listen Now
+</button>
+
+
+<button data-stream="one"
+        class="listen-icon btn btn-default navbar-btn launch-player">
+
+  <img src="/sites/all/themes/contrib/bootstrap/images/listen-icon.png"
+       alt="Listen Now" />
+</button>
+<p class="on-air margin-bottom-lg truncate"
+   data-stream="one"
+   data-type="on-air">
+
+      <span class="">
+      On Air:
+    </span>
+
+    <span class="song-artist">
+      <a href="/media/67426-nekropolis-082718"
+         class="text-capitalize"
+         data-bind="title-link">
+        Nekropolis      </a>
+
+              with
+
+        <a href="/profiles/love-jonze"
+           class="text-capitalize"
+           data-bind="showhost-link">
+          Love Jonze        </a>
+          </span>
+  </p>
+
+    <button type="button"
+            class="navbar-toggle"
+            data-toggle="collapse"
+            data-target=".navbar-collapse">
+
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+
+          <div class="navbar-collapse collapse z-top">
+        <nav role="navigation">
+                      <ul class="menu nav navbar-nav"><li class="first expanded dropdown"><a href="/program" title="" data-target="#" class="dropdown-toggle" data-toggle="dropdown">Audio <span class="caret"></span></a><ul class="dropdown-menu"><li class="first leaf"><a href="/audio" title="On-demand listening of KBOO programs">Latest audio</a></li>
+<li class="leaf"><a href="/program/playlists" title="Lists recently played songs heard on KBOO">Latest playlists</a></li>
+<li class="leaf"><a href="/program" title="Alphabetical list of KBOO programs">List of Programs</a></li>
+<li class="leaf"><a href="/program/web-only" title="">Podcasts</a></li>
+<li class="leaf"><a href="/pdfschedule">Printable schedule (PDF)</a></li>
+<li class="leaf"><a href="/schedule" title="KBOO On-Air Program Schedule">Radio Schedule</a></li>
+<li class="leaf"><a href="/national-syndication" title="">Syndication</a></li>
+<li class="last leaf"><a href="/kboo-videos">Videos</a></li>
+</ul></li>
+<li class="expanded dropdown"><a href="/" title="" data-target="#" class="dropdown-toggle" data-toggle="dropdown">Get Involved <span class="caret"></span></a><ul class="dropdown-menu"><li class="first leaf"><a href="/community-event-calendar">Event Calendar</a></li>
+<li class="leaf"><a href="/committees">Committees</a></li>
+<li class="leaf"><a href="/event-co-sponsorship-request">Promote your event</a></li>
+<li class="leaf"><a href="/get-involved-volunteer">Volunteer</a></li>
+<li class="leaf"><a href="/submit-your-music">Submit music</a></li>
+<li class="last leaf"><a href="/kboo-youth-collective">Youth Collective</a></li>
+</ul></li>
+<li class="expanded dropdown"><a href="/" title="" data-target="#" class="dropdown-toggle" data-toggle="dropdown">Support <span class="caret"></span></a><ul class="dropdown-menu"><li class="first leaf"><a href="/donate-your-car-get-tax-deduction" title="Help KBOO by donating a used vehicle!">Donate your vehicle</a></li>
+<li class="leaf"><a href="https://interland3.donorperfect.net/weblink/weblink.aspx?name=E9988&amp;id=1" title="Donate and become a member today!">Join now!</a></li>
+<li class="leaf"><a href="/kboo-thank-you-gifts-selected-previews" title="Some of the thank-yous we offer to members">Member Gifts</a></li>
+<li class="leaf"><a href="/memberbenefits">Member Benefits</a></li>
+<li class="leaf"><a href="/planned-giving-home" title="Put KBOO in your will">Planned Giving</a></li>
+<li class="last leaf"><a href="/kboos-wish-list" title="">Wish List</a></li>
+</ul></li>
+<li class="expanded active-trail active dropdown"><a href="/about-kboo" class="dropdown-toggle active-trail dropdown-toggle" data-target="#" data-toggle="dropdown">About <span class="caret"></span></a><ul class="dropdown-menu"><li class="first leaf"><a href="/about-kboo" title="">About KBOO</a></li>
+<li class="leaf"><a href="/board-directors">Board of Directors</a></li>
+<li class="leaf"><a href="/contact-us" title="Contact KBOO with comments or questions">Contact Us</a></li>
+<li class="leaf"><a href="/hosts" title="">Directory of On-Air Hosts and DJs</a></li>
+<li class="leaf active-trail active"><a href="/kboo-staff-directory" title="See KBOO&#039;s awesome hardworking staff" class="active-trail active">Directory of Staff</a></li>
+<li class="leaf"><a href="/cpbfcc-information" title="Documents and information required by FCC and CPB">FCC/CPB Information</a></li>
+<li class="leaf"><a href="/kboo-finances">Finances</a></li>
+<li class="leaf"><a href="/history-kboo" title="A brief history of the greatest station on earth">History</a></li>
+<li class="leaf"><a href="/policies" title="KBOO Policies">Policies</a></li>
+<li class="leaf"><a href="/blog/63935" title="">Public File</a></li>
+<li class="leaf"><a href="/resources">Resources</a></li>
+<li class="leaf"><a href="/2017-2020strategicplan">Strategic Plan</a></li>
+<li class="last leaf"><a href="/committees" title="">Committees</a></li>
+</ul></li>
+<li class="last expanded dropdown"><a href="/become-underwriter" title="" data-target="#" class="dropdown-toggle" data-toggle="dropdown">Sponsor <span class="caret"></span></a><ul class="dropdown-menu"><li class="first leaf"><a href="/advertise-your-work-kboofm" title="Advertise on the KBOO website">Advertise online</a></li>
+<li class="leaf"><a href="/become-underwriter" title="Learn about opportunities to underwrite KBOO&#039;s content">Be an underwriter</a></li>
+<li class="leaf"><a href="/event-co-sponsorship-request" title="Want KBOO to co-sponsor your event?">Event co-sponsorship</a></li>
+<li class="last leaf"><a href="/underwriters" title="We love our sponsors!">List of sponsors</a></li>
+</ul></li>
+</ul>                  </nav>
+      </div>
+    
+
+    <a class="donate-btn" href="/donate">
+  <img src="/sites/all/themes/contrib/bootstrap/images/donate.png"
+       alt="Donate Now" />
+</a>
+
+<a href="/donate"
+   class="btn btn-default donate-btn-mobile visible-xs visible-sm">
+  DONATE
+</a>  </div>
+</header>
+
+
+<div class="main-container container">
+
+  <header role="banner" id="page-header">
+    
+      </header> <!-- /#page-header -->
+
+
+  <div class="row">
+    <section class="col-sm-8" id="main-body">
+
+      
+      
+      <a id="main-content"></a>
+      
+              <h1 class="page-header">KBOO Staff Directory</h1>
+      
+            
+                    
+      
+      
+        <div class="region region-content">
+    <section id="block-system-main" class="block block-system clearfix">
+
+      
+  <div id="node-837"
+     class="node node-basic-page clearfix">
+
+        
+
+  
+
+  <div class="content">
+        <div class="node-images">
+          </div>
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even"><p>For general questions contact the Front Desk at <a href="tel:5032318032">503.231.8032</a>. or <a href="/contact-us">fill out our online contact form</a>.<br />
+Or just come on over to 20 SE 8th Ave in Portland (next to the Jupiter Hotel, just east of the Burnside Bridge)!<br />
+full address: KBOO Radio<br />
+20 SE 8th Ave. Portland OR 97214</p>
+
+<hr /><h2 class="name"><div class="media media-element-container media-default"><div id="file-40024" class="file file-image file-image-jpeg">
+
+        <h2 class="element-invisible"><a href="/files/macrae0jpg">macrae_0.jpg</a></h2>
+    
+  
+  <div class="content">
+    <a href="/sites/default/files/nodeimages/macrae_0.jpg"><img height="610" width="450" style="width: 150px; height: 203px;" class="media-element file-default img-responsive" src="/sites/default/files/nodeimages/macrae_0.jpg" alt="" /></a>  </div>
+
+  
+</div>
+</div></h2>
+
+<h2 class="name"><a href="/profiles/macrae-bogdanov">MacRae Bogdanov</a></h2>
+
+<h4>Finance Director</h4>
+
+<p><a href="mailto:accounting@kboo.fm">Contact by email</a> - accounting[at]kboo.fm</p>
+
+<p><a href="tel:5032318032">telephone: 503-231-8032 x208</a>pronouns: she/they</p>
+
+<p> </p>
+
+<hr /><p><img alt="photo, Zale Chadwick" src="/sites/default/files/userpics/picture-1293.jpg" style="width: 150px; height: 136px;" /></p>
+
+<h2 class="name"><a href="/profiles/zale-chadwick">Zale Chadwick</a></h2>
+
+<h4 class="title">Administrative Assistant</h4>
+
+<p><a href="/user/1293/contact">Contact by email</a> - admin[at]kboo.fm</p>
+
+<p><a href="tel:5032318032">telephone: 503-231-8032 x222</a></p>
+
+<p>pronouns: she/they</p>
+
+<p> </p>
+
+<hr /><!---
+<p><a href="/SelenaChau"><img src="/sites/default/files/styles/default_lead_1x/public/images/lead/blog_post/selena.jpg?itok=k_o73zaA" style="align:left; margin-top: 5px; margin-bottom: 5px; width: 201px; height: 150px;" /></a></p>
+
+<h2><a href="/SelenaChau">Selena Chau</a></h2>
+
+<h4>Resident Archivist</h4>
+
+<p><a href="/topics/archiving-resident">KBOO Archiving Resident Blog</a></p>
+
+<p><a href="/email/node/52224/field_email">Contact by email</a> - selena[at]kboo.fm</p>
+
+<p>telephone: 503-231-8032</p>
+
+<p>pronouns: she/her</p>
+
+<hr />---><p></p><div class="media media-element-container media-default"><div id="file-45703" class="file file-image file-image-png">
+
+        <h2 class="element-invisible"><a href="/files/miccrenshawpng">mic_crenshaw.png</a></h2>
+    
+  
+  <div class="content">
+    <a href="/sites/default/files/nodeimages/mic_crenshaw.png"><img height="240" width="440" style="width: 150px; height: 82px;" class="media-element file-default img-responsive" src="/sites/default/files/nodeimages/mic_crenshaw.png" alt="" /></a>  </div>
+
+  
+</div>
+</div>
+
+<h2 class="name"><a href="/profiles/mic-crenshaw">Mic Crenshaw</a></h2>
+
+<h4 class="title">Hip-Hop Outreach Coordinator</h4>
+
+<p><a href="mailto:mic@kboo.fm">Contact by email</a> - mic[at]kboo.fm</p>
+
+<p><a href="tel:5032318032">telephone: 503.231.8032 x219</a></p>
+
+<p>pronouns: he/him  </p>
+
+<hr /><h2> </h2>
+
+<p><img src="/sites/default/files/images/more/blog_post/del_feb_2017.jpg" width="200" /></p>
+
+<h2>Delphine Criscenzo</h2>
+
+<h4 class="title">Station manager</h4>
+
+<p><a href="/blog/stationmanager">Station manager's blog</a></p>
+
+<p><a href="mailto:del@kboo.fm">Contact by email </a>- delat]kboo.fm</p>
+
+<p><a href="tel:5032318032">telephone: 503-231-8032 ext. 246</a></p>
+
+<p>pronouns: she/her</p>
+
+<p> </p>
+
+<hr /><p><img src="/sites/default/files/derric.jpg" width="200px" /></p>
+
+<h2>Derric Crooks</h2>
+
+<p class="title">Morning News &amp; Public Affairs Director</p>
+
+<p><a href="mailto:amnews@kboo.fm">Contact by email </a>- amnews[at]kboo.fm</p>
+
+<p><a href="tel:5032318032">telephone: 503.231.8032 x202</a></p>
+
+<p>pronouns: he/him</p>
+
+<hr /><p><img alt="" src="/sites/default/files/userpics/picture-514.jpg" style="width: 150px; height: 113px;" /></p>
+
+<h2 class="name"><a href="/profiles/ani-haines-0">Ani Haines</a></h2>
+
+<h4 class="title">Volunteer &amp; Outreach Coordinator</h4>
+
+<p><a href="/Blogs/Staff/Volunteer">Volunteer Coordinator's Blog</a></p>
+
+<p><a href="mailto:volunteer@kboo.fm">Contact by email</a> - volunteer[at]kboo.fm</p>
+
+<p><a href="tel:5032318032">telephone: 503.231.8032 x213</a></p>
+
+<p>pronouns: she/her</p>
+
+<hr /><p><img alt="Tom Hood" src="/sites/default/files/nodeimages/tommy.jpg" width="100" /></p>
+
+<h2 class="name"><a href="/profiles/tom-hood">Tom Hood</a></h2>
+
+<h4 class="title">Chief Engineer</h4>
+
+<p><a href="/Blogs/Staff/Engineering">Engineering Department Blog</a></p>
+
+<p><a href="mailto:engineer@kboo.fm">Contact by email</a> - engineer[at]kboo.fm</p>
+
+<p><a href="tel:5032318032">telephone: 503.231.8032 x223</a></p>
+
+<p>pronouns: he/him</p>
+
+<hr /><p><img alt="photo, Serena Korn" src="/sites/default/files/serena-smaller.jpg" style="width: 150px;" /></p>
+
+<h2>Serena Imani Korn</h2>
+
+<h4>Director of Underwriting</h4>
+
+<p><a href="mailto:underwriting@kboo.fm">Contact by email</a> - underwriting[at]kboo.fm</p>
+
+<p><a href="tel:5032318032">telephone: 503.231.8032 x219</a></p>
+
+<p>pronouns: she/her or they/them</p>
+
+<hr /><p></p><div class="media media-element-container media-default"><div id="file-30515" class="file file-image file-image-jpeg">
+
+        <h2 class="element-invisible"><a href="/files/recordsjpg">records.jpg</a></h2>
+    
+  
+  <div class="content">
+    <a href="/sites/default/files/nodeimages/records.jpg"><img height="194" width="259" style="width: 150px; height: 112px;" class="media-element file-default img-responsive" src="/sites/default/files/nodeimages/records.jpg" alt="" /></a>  </div>
+
+  
+</div>
+</div>
+
+<h2 class="name"><a href="/profiles/brandon-lieberman-0">Brandon Lieberman</a></h2>
+
+<h4 class="title">Rock Music Director</h4>
+
+<p><a href="mailto:rockmd@kboo.fm">Contact by email</a> - rockmd[at]kboo.fm</p>
+
+<p><a href="tel:5032318032">telephone: 503.231.8032 x504</a></p>
+
+<p>pronouns: he/him</p>
+
+<hr /><!---<p>&nbsp; <a href="/profiles/zeloszelos-marchandt"><img height="158" src="/sites/default/files/headshot_collage.jpg" width="157" /></a></p>
+
+<h2 class="name"><a href="/profiles/zeloszelos-marchandt">Zeloszelos Marchandt</a></h2>
+
+<h4 class="title">Evening News &amp; Public Affairs Director</h4>
+
+<p><a href="/topics/news-director-blog">Evening News Director Blog</a></p>
+
+<p><a href="mailto:newsdirector@kboo.fm">Contact by email</a> - newsdirector[at]kboo.fm</p>
+
+<p><a href="tel:5032318032">telephone: 503-231-8032 x203</a></p>
+
+<p>pronouns: they/their</p>
+
+<hr />---><p></p><div class="media media-element-container media-default"><div id="file-41238" class="file file-image file-image-jpeg">
+
+        <h2 class="element-invisible"><a href="/files/beckymeiersprofilejpg">beckymeiersprofile.jpg</a></h2>
+    
+  
+  <div class="content">
+    <a href="/sites/default/files/nodeimages/beckymeiersprofile.jpg"><img height="900" width="601" style="width: 150px; height: 225px;" class="media-element file-default img-responsive" src="/sites/default/files/nodeimages/beckymeiersprofile.jpg" alt="" /></a>  </div>
+
+  
+</div>
+</div>
+
+<h2 class="name"><a href="/profiles/becky-meiers-0">Becky Meiers</a></h2>
+
+<h4 class="title">Development Director</h4>
+
+<p><a href="/Blogs/Staff/Development">Development Director's Blog</a></p>
+
+<p><a href="/content/theunionoftimethieves">Program: The Union of Time Thieves</a></p>
+
+<p><a href="mailto:development@kboo.fm">Contact by email</a> - development[at]kboo.fm</p>
+
+<p><a href="tel:5032318032">telephone: 503.231.8032 x209</a></p>
+
+<p>pronouns: she/they</p>
+
+<hr /><h2>Brendan Reyes</h2>
+
+<p>Urban Music Director</p>
+
+<p><a href="mailto:urbanmd@kboo.fm">Contact by email</a> - urbanmd[at]kboo.fm</p>
+
+<p><a href="tel:5032318032">telephone: 503-231-8032 ext. 222</a></p>
+
+<p>pronouns: he/him</p>
+
+<hr /><p><img alt="" src="/sites/default/files/alexander-roberts-sm.jpg" style="margin: 3px; width: 150px; height: 113px;" /></p>
+
+<h2 class="name"><a href="/profiles/alexander-roberts">Alexander Roberts</a></h2>
+
+<h4 class="title">Finance Assistant</h4>
+
+<p><a href="mailto:alex.roberts@kboo.fm">Contact by email</a> - finance[at]kboo.fm</p>
+
+<p><a href="tel:5032318032">telephone: 503.231.8032 x222</a></p>
+
+<p>pronouns: he/they</p>
+<!---
+<hr />
+<p><img alt="" height="142" src="/sites/default/files/nodeimages/pamela.png" width="107" /></p>
+
+<h2 class="title"><a href="/profiles/pamela-santos-0">Pamela Santos</a></h2>
+
+<p>Membership Director</p>
+
+<p><a href="/Blogs/Staff/Membership">Membership Department Blog</a></p>
+
+<p class="title"><a href="mailto:membership@kboo.fm">Contact by email</a> - membership[at]kboo.fm</p>
+
+<p><a href="tel:5032318032">telephone: 503.231.8032 x207</a></p>
+
+<p>pronouns: she/her</p>
+--->
+
+<hr /><p></p><div class="media media-element-container media-default"><div id="file-48810" class="file file-image file-image-jpeg">
+
+        <h2 class="element-invisible"><a href="/files/jenka-newsroomjpg">jenka-newsroom.jpg</a></h2>
+    
+  
+  <div class="content">
+    <a href="/sites/default/files/images/more/station_content/jenka-newsroom.jpg"><img height="114" width="150" style="width: 150px; height: 114px;" class="media-element file-default img-responsive" src="/sites/default/files/images/more/station_content/jenka-newsroom.jpg" alt="" /></a>  </div>
+
+  
+</div>
+</div>
+
+<h2 class="name"><a href="/profiles/jenka-soderberg">Jenka Soderberg</a></h2>
+
+<p class="title">Web/New Media Coordinator</p>
+
+<p><a href="mailto:web@kboo.fm">Contact by email</a> - web[at]kboo.fm</p>
+
+<p><a href="tel:5032318032">telephone: 503-231-8032 x201</a></p>
+
+<p>pronouns: she/they</p>
+
+<hr /><p><img alt="Erin Yanke" src="/sites/default/files/userpics/picture-924.jpg" style="width: 150px; height: 113px;" /></p>
+
+<h2 class="name"><a href="/profiles/erin-yanke-1">Erin Yanke</a></h2>
+
+<p class="title"><em>Program Director<br />
+Youth Advocate</em></p>
+
+<p><a href="/Blogs/Staff/Program">Program Director's Blog</a></p>
+
+<p><a href="mailto:program@kboo.fm">Contact by email</a> - program[at]kboo.fm</p>
+
+<p><a href="tel:5032318032">telephone: 503.231.8032 x221</a></p>
+
+<p>pronouns: she/her</p>
+
+<hr /><p> </p>
+</div></div></div>  </div>
+
+
+    </div>
+
+</section>
+<section id="block-block-12" class="block block-block clearfix">
+
+      
+  <div class="margin-top-sm">
+<span class="st_facebook"></span>
+<span class="st_twitter"></span>
+<span class="st_reddit"></span>
+<span class="st_email"></span>
+<span class="st_sharethis"></span>
+
+<script type="text/javascript">
+<!--//--><![CDATA[// ><!--
+var switchTo5x=true;
+//--><!]]>
+</script><script type="text/javascript" src="https://ws.sharethis.com/button/buttons.js"></script><script type="text/javascript">
+<!--//--><![CDATA[// ><!--
+stLight.options({publisher: "1b24b2e4-3526-4619-a8d0-090720cfcaf2", doNotHash: false, doNotCopy: false, hashAddressBar: false, onhover: false});
+//--><!]]>
+</script></div>
+
+</section>
+  </div>
+    </section>
+
+    <aside id="sidebar" class="col-sm-3 col-sm-offset-1" role="complementary">
+                <div class="region region-sidebar">
+    <section id="block-search-form" class="block block-search clearfix">
+
+      
+  <form class="form-search content-search" action="/kboo-staff-directory" method="post" id="search-block-form" accept-charset="UTF-8"><div><div>
+      <h2 class="element-invisible">Search form</h2>
+    <div class="input-group"><input title="Enter the terms you wish to search for." placeholder="Search" class="form-control form-text" type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" /><span class="input-group-btn"><button type="submit" class="btn btn-primary"><span class="icon glyphicon glyphicon-search" aria-hidden="true"></span>
+</button></span></div><div class="form-actions form-wrapper form-group" id="edit-actions"><button class="element-invisible btn btn-primary form-submit" type="submit" id="edit-submit" name="op" value="Search">Search</button>
+</div><input type="hidden" name="form_build_id" value="form-lBIbekzw2moueVsdMMSTcf3sIGnQI508h4utw03ug3I" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>
+</section>
+<section id="block-block-15" class="block block-block clearfix">
+
+        <h2 class="block-title">Follow KBOO on:</h2>
+    
+  <p><a border="0" href="http://facebook.com/kbooradio"><img src="/sites/default/files/facebook.png" /></a>  <a border="0" href="http://twitter.com/kboo"><img src="/sites/default/files/twitter.png" /></a>  <a border="0" href="http://instagram.com/kbooradio"><img src="/sites/default/files/instagram.png" /></a>  <a border="0" href="http://youtube.com/kbooradio"><img src="/sites/default/files/youtube.png" /></a>  <a border="0" href="http://flickr.com/kbooradio"><img src="/sites/default/files/flickr.png" /></a> </p>
+
+</section>
+<section id="block-block-6" class="block block-block clearfix">
+
+      
+  <p><a border="0" href="https://50yearsofkboo.fm" target="_blank"><img src="https://kboo.fm/sites/default/files/50yearsofkboofm-912x402.png" width="600" /></a><br /><br /><a border="0" href="http://kboo.fm/event"><img src="/sites/default/files/communityevents_smaller.png" /></a></p>
+<!-- p><a border="0" href="http://kboo.fm/program/portland-resistance-calendar" --><!-- p><img src="/sites/default/files/resistancecalendar_0.png" / --><!-- p><iframe frameborder="0" height="300" scrolling="no" src="https://calendar.google.com/calendar/embed?showDate=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;mode=AGENDA&amp;height=300&amp;wkst=1&amp;bgcolor=%23ffffff&amp;src=kboo.org_b5q5tdhblcje44sruoag5mf9r8%40group.calendar.google.com&amp;color=%23B1440E&amp;ctz=America%2FVancouver" style="border:solid 1px #777" width="220"></iframe></p> -->
+</section>
+<section id="block-simpleads-ad-groups-100" class="block block-simpleads clearfix">
+
+      
+  <div class="header">
+  <div class="ad-link"></div>
+</div>
+<div class="adslist">
+  <script type="text/javascript">
+    _simpelads_load('.simpleads-100', 100, 1);
+  </script>
+    <div class="simpleads-100"></div>
+
+    
+</div>
+
+</section>
+<section id="block-radio-station-sidebar-playlists" class="block block-radio-station clearfix">
+
+      
+  <h2 class="bg-info">
+  Recent Playlists
+</h2>
+
+
+  <p>
+    <span class="truncate">
+      The Confessional    </span>
+    <br />
+
+    <a href="/media/67425-confessional-082718"
+       class="truncate">
+      The Confessional on 08/27/18    </a>
+  </p>
+  <p>
+    <span class="truncate">
+      Nekropolis    </span>
+    <br />
+
+    <a href="/media/67426-nekropolis-082718"
+       class="truncate">
+      Nekropolis on 08/27/18    </a>
+  </p>
+  <p>
+    <span class="truncate">
+      Astral Traveling    </span>
+    <br />
+
+    <a href="/media/67417-astral-traveling-082618"
+       class="truncate">
+      Astral Traveling on 08/26/18    </a>
+  </p>
+  <p>
+    <span class="truncate">
+      Higher Reasoning Reggae Time    </span>
+    <br />
+
+    <a href="/media/67404-higher-reasoning-reggae-time-082618"
+       class="truncate">
+      Higher Reasoning Reggae Time on 08/26/18    </a>
+  </p>
+  <p>
+    <span class="truncate">
+      Portland Jewish Hour    </span>
+    <br />
+
+    <a href="/media/67411-portland-jewish-hour-082618"
+       class="truncate">
+      Portland Jewish Hour on 08/26/18    </a>
+  </p>
+  <p>
+    <span class="truncate">
+      Sounds Unsound    </span>
+    <br />
+
+    <a href="/media/67370-sounds-unsound-late-august-2018"
+       class="truncate">
+      Sounds Unsound late August 2018    </a>
+  </p>
+
+
+<p>
+  <a class="more-link bg-info"
+     href="/program/playlists">
+    More
+  </a>
+</p>
+
+</section>
+<section id="block-radio-station-sidebar-audio" class="block block-radio-station clearfix">
+
+      
+  <h2 class="bg-primary">
+  Latest Audio
+</h2>
+
+
+  <p>
+    <span class="truncate">
+      The Movement     </span>
+    <br />
+
+    <a href="/media/67421-movement-082618"
+       class="truncate">
+      The Movement  on 08/26/18    </a>
+  </p>
+  <p>
+    <span class="truncate">
+      One Two, One Two    </span>
+    <br />
+
+    <a href="/media/67420-one-two-one-two-082618"
+       class="truncate">
+      One Two, One Two on 08/26/18    </a>
+  </p>
+  <p>
+    <span class="truncate">
+      Astral Traveling    </span>
+    <br />
+
+    <a href="/media/67417-astral-traveling-082618"
+       class="truncate">
+      Astral Traveling on 08/26/18    </a>
+  </p>
+  <p>
+    <span class="truncate">
+      Domingos para Recordar    </span>
+    <br />
+
+    <a href="/media/67416-domingos-para-recordar-082618"
+       class="truncate">
+      Domingos para Recordar on 08/26/18    </a>
+  </p>
+  <p>
+    <span class="truncate">
+      La Voz de la Comunidad    </span>
+    <br />
+
+    <a href="/media/67415-la-voz-de-la-comunidad-082618"
+       class="truncate">
+      La Voz de la Comunidad on 08/26/18    </a>
+  </p>
+  <p>
+    <span class="truncate">
+      Armando Puentes    </span>
+    <br />
+
+    <a href="/media/67414-armando-puentes-082618"
+       class="truncate">
+      Armando Puentes on 08/26/18    </a>
+  </p>
+
+
+<p>
+  <a class="more-link bg-primary"
+     href="/audio">
+    More
+  </a>
+</p>
+
+
+</section>
+<section id="block-views-recent-blog-posts-block" class="block block-views clearfix">
+
+        <h2 class="block-title">Recent Blog Posts</h2>
+    
+  <div class="view view-recent-blog-posts view-id-recent_blog_posts view-display-id-block view-dom-id-993e202ced8d02ab558e9fc50647be90">
+        
+  
+  
+      <div class="view-content">
+      <div class="item-list">    <ul>          <li class="views-row views-row-1 views-row-odd views-row-first">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/blog/67423">OMSI &amp; KBOO--Insectuality:  Love Songs and Death Dances in the Panamanian Rain Forest</a></span>  </div></li>
+          <li class="views-row views-row-2 views-row-even">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/blog/67364">Call your mom! </a></span>  </div></li>
+          <li class="views-row views-row-3 views-row-odd">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/blog/67306">NEW in KBOO music library August 20, 2018</a></span>  </div></li>
+          <li class="views-row views-row-4 views-row-even views-row-last">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/blog/67185">NEW in KBOO music library August 13, 2018</a></span>  </div></li>
+      </ul></div>    </div>
+  
+  
+  
+  
+      <div class="view-footer">
+      <p><a class="more-link bg-primary" href="/recent-blog-posts">More</a></p>    </div>
+  
+  
+</div>
+</section>
+<section id="block-block-4" class="block block-block clearfix">
+
+      
+  <p> </p>
+
+<p><mediawrapper data=""><mediawrapper data=""><a href="https://itunes.apple.com/us/app/kboo-community-radio-app/id1063853988?mt=8"><img alt="KBOO Iphone App" class="media-element file-default" data-fid="48773" data-media-element="1" height="103" src="/sites/default/files/iphonewebappimg.jpg" title="KBOO Iphone App" width="210" /></a></mediawrapper><mediawrapper data=""><a href="https://play.google.com/store/apps/details?id=com.skyblue.pra.kboo#details-revie..."><img alt="Download KBOO app for Android" class="media-element file-default" data-fid="48522" data-media-element="1" height="103" src="/sites/default/files/androidkboo.png" title="Download KBOO app for Android" width="210" /></a></mediawrapper></mediawrapper></p>
+
+</section>
+<section id="block-block-9" class="block block-block clearfix">
+
+        <h2 class="block-title">News from the &#039;Boo</h2>
+    
+  <p><a href="https://kboo.fm/blog/55486" target="_blank">Apply to be a member of the Board of Directors!</a></p>
+
+<p>Monthly Board meetings are held the fourth Monday at 6 pm at KBOO  - 20 SE 8th Ave. Portland, and are open to the public.</p>
+
+<p><strong>We are a 501 (c) 3 nonprofit organization. Tax ID 23-7232987.</strong> Donations are tax deductible as allowed by law.</p>
+
+<p><a href="/board-directors">More information about the KBOO Board</a> of Directors and station governance.</p>
+
+</section>
+<section id="block-block-13" class="block block-block clearfix">
+
+        <h2 class="block-title">Email Newsletter</h2>
+    
+  <p><a href="http://visitor.r20.constantcontact.com/d.jsp?llr=d4gsamiab&amp;p=oi&amp;m=1108504812515&amp;sit=o64o94ngb&amp;f=f5ab1c48-ece4-41b1-bd4f-c1e045a652ee">Join our email list</a> for periodic updates and specials</p>
+
+<p><a href="/kboo-email-newsletters">Past newsletters</a></p>
+
+</section>
+<section id="block-block-8" class="block block-block clearfix">
+
+      
+  <p> </p>
+
+<p><mediawrapper data=""><a href="http://www.powells.com/?p_hp_5&amp;partnerID=34985" rel="nofollow"><img alt="KBOO Powells partnership" class="media-element file-default" data-fid="48776" data-media-element="1" height="207" src="/sites/default/files/kboopowells2_0.png" title="KBOO Powells partnership" width="210" /></a></mediawrapper></p>
+
+</section>
+<section id="block-block-2" class="block block-block clearfix">
+
+      
+  <p><a href="/user"><img src="/sites/all/themes/custom/kbooui/images/log-in.png" />   User login</a></p>
+
+</section>
+  </div>
+          </aside>
+
+  </div>
+</div>
+
+
+<footer class="footer container">
+  <div class="footer-menus">
+    <div class="footer-menu footer-left">
+        <div class="region region-footer-left">
+    <section id="block-block-10" class="block block-block clearfix">
+
+      
+  <h4>Follow KBOO on:</h4>
+
+<p><a border="0" href="http://facebook.com/kbooradio"><img src="/sites/default/files/facebook.png" /></a>  <a border="0" href="http://twitter.com/kboo"><img src="/sites/default/files/twitter.png" /></a>  <a border="0" href="http://instagram.com/kbooradio"><img src="/sites/default/files/instagram.png" /></a>  <a border="0" href="http://youtube.com/kbooradio"><img src="/sites/default/files/youtube.png" /></a>  <a border="0" href="http://flickr.com/kbooradio"><img src="/sites/default/files/flickr.png" /></a> </p>
+<!--<p class="rtecenter"><mediawrapper data=""><a href="http://facebook.com/kbooradio"><img alt="KBOO Facebook" class="media-element file-wysiwyg" data-fid="48778" data-media-element="1" height="23" src="/sites/default/files/fb_0.png" title="KBOO Facebook" width="22" /></a></mediawrapper>&nbsp; <mediawrapper data=""><a href="http://twitter.com/kboo"><img alt="KBOO Twitter" class="media-element file-wysiwyg" data-fid="48779" data-media-element="1" height="23" src="/sites/default/files/tw.png" title="KBOO Twitter" width="22" /></a></mediawrapper>&nbsp; <mediawrapper data=""><a href="http://instagram.com/kbooradio"><img alt="KBOO Instagram" class="media-element file-wysiwyg" data-fid="48780" data-media-element="1" height="23" src="/sites/default/files/instagram.png" title="KBOO Instagram" width="22" /></a>&nbsp; <mediawrapper data=""><a href="/syndication"><img alt="KBOO RSS Feed" class="media-element file-wysiwyg" data-fid="48781" data-media-element="1" height="23" src="/sites/default/files/rss.png" title="KBOO RSS Feed" width="22" /></a></mediawrapper></mediawrapper></p>-->
+</section>
+<section id="block-block-1" class="block block-block clearfix">
+
+      
+  <p><strong>90.7 FM Portland</strong><br />
+91.9 FM Hood River<br />
+104.3 FM Corvallis/Albany</p>
+
+<p>Office Phone: 503 231 8032<br />
+Studio Phone: 503 231 8187<br />
+Fax: 503 231 7145<br />
+20 SE 8th Avenue<br />
+Portland, OR 97214<br /><strong><a href="/contact-us">Contact Us!</a></strong></p>
+
+</section>
+  </div>
+    </div>
+
+    <div class="footer-menu footer-first">
+        <div class="region region-footer-first">
+    <section id="block-menu-menu-footer-menu-first" class="block block-menu clearfix">
+
+      
+  <ul class="menu nav"><li class="first leaf"><a href="/schedule" title="">Program Schedule</a></li>
+<li class="leaf"><a href="/program" title="">List of Programs</a></li>
+<li class="leaf"><a href="/program/playlists" title="">Recent Playlists</a></li>
+<li class="leaf"><a href="/audio" title="">Recent Audio</a></li>
+<li class="last leaf"><a href="/user" title="">Login/Register</a></li>
+</ul>
+</section>
+  </div>
+    </div>
+
+    <div class="footer-menu footer-second">
+        <div class="region region-footer-second">
+    <section id="block-menu-menu-footer-menu-second" class="block block-menu clearfix">
+
+      
+  <ul class="menu nav"><li class="first leaf"><a href="/get-involved-volunteer" title="">Volunteer</a></li>
+<li class="leaf"><a href="/trainings" title="">Trainings</a></li>
+<li class="leaf"><a href="/community-event-calendar" title="">Calendar</a></li>
+<li class="leaf"><a href="/kboo-youth-collective" title="">Youth Collective</a></li>
+<li class="last leaf"><a href="/committees" title="">Committees</a></li>
+</ul>
+</section>
+  </div>
+    </div>
+
+    <div class="footer-menu footer-third">
+        <div class="region region-footer-third">
+    <section id="block-menu-menu-footer-menu-third" class="block block-menu clearfix">
+
+      
+  <ul class="menu nav"><li class="first leaf"><a href="https://interland3.donorperfect.net/weblink/weblink.aspx?name=E9988&amp;id=1" title="">Join Now!</a></li>
+<li class="leaf"><a href="/kboo-thank-you-gifts-selected-previews" title="">Member Benefits</a></li>
+<li class="leaf"><a href="/donate-your-car-get-tax-deduction" title="">Donate Your Vehicle</a></li>
+<li class="leaf"><a href="/planned-giving-home" title="">Planned Giving</a></li>
+<li class="leaf"><a href="/become-underwriter" title="">Be an Underwriter</a></li>
+<li class="last leaf"><a href="/advertise-your-work-kboofm" title="">Advertise Online</a></li>
+</ul>
+</section>
+  </div>
+    </div>
+
+    <div class="footer-menu footer-fourth">
+        <div class="region region-footer-fourth">
+    <section id="block-menu-menu-footer-menu-fourth" class="block block-menu clearfix">
+
+      
+  <ul class="menu nav"><li class="first leaf"><a href="/about-kboo" title="">About KBOO</a></li>
+<li class="leaf"><a href="/resources" title="">Resources</a></li>
+<li class="leaf"><a href="/history-kboo" title="">KBOO History</a></li>
+<li class="leaf active-trail active"><a href="/kboo-staff-directory" title="" class="active-trail active">Staff Directory</a></li>
+<li class="leaf"><a href="/board-directors" title="">Board of Directors</a></li>
+<li class="leaf"><a href="/contact-us" title="">Contact Us</a></li>
+<li class="last leaf"><a href="/underwriters" title="">List of Sponsors</a></li>
+</ul>
+</section>
+  </div>
+    </div>
+  </div>
+
+    <div class="region region-copyright">
+    <section id="block-block-5" class="block block-block clearfix">
+
+      
+  <p align="center"> </p>
+
+<p align="center"><a href="http://creativecommons.org/licenses/by-nc/4.0/" rel="license"><img alt="Creative Commons License" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br /><br />
+Unless otherwise specified, all KBOO content is licensed under a <a href="http://creativecommons.org/licenses/by-nc/4.0/" rel="license">Creative Commons Attr-NonCom 4.0 International License.</a><br /><a href="/community-guidelines-kboo-website">Community guidelines</a> for posting on the KBOO website.<br /><a href="https://kboo.fm/agent-receive-notice-claimed-infringements" target="_blank">Copyright infringement/DMCA</a> | <a href="/cpbfcc-information">CPB/FCC Information</a> | <a href="https://kboo.fm/blog/63935" target="_blank">Public File</a></p>
+
+</section>
+  </div>
+</footer>
+  </div>
+
+  <script src="https://kboo.fm/sites/default/files/js/js_VU7P4CTgUZdF2SyFko5LLAg9ZK0OSVjXVaAFnTLgVt0.js"></script>
+<script src="https://kboo.fm/sites/default/files/js/js_FbpwIZNwgzwEuuL4Q2HOM07BOSCY5LxL_gwSK4ohQBM.js"></script>
+</body>
+
+
+</html>

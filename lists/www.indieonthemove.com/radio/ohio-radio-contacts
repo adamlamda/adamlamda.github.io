@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta property="fb:app_id" content="197769483626604"/>
+    <meta property="og:site_name" content="IOTM"/>
+    <meta property="og:image" content="https://www.indieonthemove.com/img/bus_128.png"/>
+    <meta property="og:title" content="  Ohio Radio Stations and Contacts List
+"/>
+    <meta property="og:url" content="https://www.indieonthemove.com/radio/ohio-radio-contacts"/>
+    <meta property="og:type" content="website"/>
+
+    
+    
+    <!-- CSRF Token -->
+    <meta name="csrf-token" content="bbxuRCVnejeFcEG4k1kqF6XFN4yy0EbgMhXMNKE7">
+
+    <title>  Ohio Radio Stations and Contacts List
+</title>
+    <meta name="description" content="  From Columbus' X106.7 to Toledo's 104.7 WIOT, find Ohio radio stations and contacts for promoting musicians' tours and albums.
+">
+    <meta name="keywords" content="">
+
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-MD79HJN');</script>
+    <!-- End Google Tag Manager -->
+
+    <!-- Styles -->
+    <link href="/css/app.css?id=43e70522c520fa74e355" rel="stylesheet">
+
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+        <style>
+    .nav-search {
+      margin-left: 0.5rem;
+      margin-right: 0.5rem;
+    }
+    .nav-search .btn, .nav-search .btn:active, .nav-search .btn:focus {
+      border: 1px solid rgba(255, 255, 255, 0.5);
+    }
+    .nav-search input, .nav-search input:active,
+    .nav-search input:hover, .nav-search input:focus {
+      border: 1px solid rgba(255, 255, 255, 0.5);
+    }
+  </style>
+
+  <style>
+    h2 {
+      font-size: 1.5rem !important;
+    }
+  </style>
+
+  
+
+          <script>
+var _rollbarConfig = {
+  accessToken: '123a6eaf206043a0b860be956a615433',
+  autoInstrument: true,
+  captureUncaught: true,
+  captureUnhandledRejections: true,
+  payload: {
+    environment: 'production',
+    client: {
+      javascript: {
+	source_map_enabled: true,
+	code_version: "1.0", //TODO Start tagging versions
+	// Optionally have Rollbar guess which frames the error was thrown from
+	// when the browser does not provide line and column numbers.
+	guess_uncaught_frames: true
+      }
+    }
+  }
+};
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/rollbar.js/2.4.2/rollbar.min.js"></script>
+
+    
+    <!-- Scripts -->
+    <script src="https://cdn.polyfill.io/v2/polyfill.min.js"></script>
+    <script>
+     window.Config = {"multiselect_search_result_count":30};
+      window.app = {"csrfToken":"bbxuRCVnejeFcEG4k1kqF6XFN4yy0EbgMhXMNKE7"};
+      window.User = false;
+      window.google_maps_js_key = "AIzaSyBLAyrwAjhvA1qmMk40sxBmxn9FJRk8uYY";
+    </script>
+  </head>
+  <body class="mt-2">
+    <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MD79HJN"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+      <div class="app" id="app">
+    <div class="content-above-footer">
+      <nav class="py-0 navbar navbar-expand-lg bg-dark navbar-dark fixed-top" id="navTop">
+  <div class="container position-relative bg-dark">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <!-- Branding Image -->
+    <a class="d-lg-none center-nav-logo" href="https://www.indieonthemove.com">
+      <img class="navbar-logo" src="https://www.indieonthemove.com/img/bus_105.png">
+    </a>
+    <a class="d-none d-lg-inline" href="https://www.indieonthemove.com">
+      <img class="navbar-logo" src="https://www.indieonthemove.com/img/bus_105.png">
+    </a>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto text-center">
+
+        <li class="nav-item nav-search">
+          <master-search inline-template>
+            <div class="input-group">
+              <input type="text" @keydown.enter="search" v-model="q" class="form-control" placeholder="Search for...">
+              <span class="input-group-btn">
+                <button @click="search" class="btn btn-primary border-radius-0" type="button">
+                  <i class="fa fa-search"></i>
+                </button>
+              </span>
+            </div>
+          </master-search>
+        </li>
+
+        
+                          <li class="nav-item d-lg-none">
+            <a class="nav-link" href="https://www.indieonthemove.com/professional-services">
+              Pro Services
+            </a>
+          </li>
+                  <li class="nav-item d-lg-none">
+            <a class="nav-link" href="https://www.indieonthemove.com/venues">
+              Venues &amp; QuickPitch
+            </a>
+          </li>
+                  <li class="nav-item d-lg-none">
+            <a class="nav-link" href="https://www.indieonthemove.com/college-university-show-booking-directory">
+              Colleges &amp; Universities
+            </a>
+          </li>
+                  <li class="nav-item d-lg-none">
+            <a class="nav-link" href="https://www.indieonthemove.com/music-festivals-and-conferences">
+              Festivals &amp; Conferences
+            </a>
+          </li>
+                  <li class="nav-item d-lg-none">
+            <a class="nav-link" href="https://www.indieonthemove.com/users">
+              Members
+            </a>
+          </li>
+                  <li class="nav-item d-lg-none">
+            <a class="nav-link" href="https://www.indieonthemove.com/show-availabilities">
+              Show Availabilities
+            </a>
+          </li>
+                  <li class="nav-item d-lg-none">
+            <a class="nav-link" href="https://www.indieonthemove.com/band-availabilities">
+              Band Availabilities
+            </a>
+          </li>
+                  <li class="nav-item d-lg-none">
+            <a class="nav-link" href="https://www.indieonthemove.com/classifieds">
+              Classifieds
+            </a>
+          </li>
+                  <li class="nav-item d-lg-none">
+            <a class="nav-link" href="https://www.indieonthemove.com/press-radio-promotion-resources-for-musicians">
+              Promotion
+            </a>
+          </li>
+                  <li class="nav-item d-lg-none">
+            <a class="nav-link" href="https://www.indieonthemove.com/blog">
+              Blog
+            </a>
+          </li>
+                  <li class="nav-item d-lg-none">
+            <a class="nav-link" href="https://www.indieonthemove.com">
+              Home
+            </a>
+          </li>
+                
+        
+                                      <li class="nav-item dropdown d-none d-lg-inline">
+              <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                Features
+              </a>
+              <div class="dropdown-menu">
+                                  <a class="dropdown-item" href="https://www.indieonthemove.com/professional-services">Pro Services</a>
+                                  <a class="dropdown-item" href="https://www.indieonthemove.com/venues">Music Venues Database</a>
+                                  <a class="dropdown-item" href="https://www.indieonthemove.com/quickpitch-emailing">QuickPitch Emailing</a>
+                                  <a class="dropdown-item" href="https://www.indieonthemove.com/college-university-show-booking-directory">Colleges &amp; Universities</a>
+                                  <a class="dropdown-item" href="https://www.indieonthemove.com/music-festivals-and-conferences">Festivals &amp; Conferences</a>
+                                  <a class="dropdown-item" href="https://www.indieonthemove.com/show-availabilities">Show Availabilities</a>
+                                  <a class="dropdown-item" href="https://www.indieonthemove.com/band-availabilities">Band Availabilities</a>
+                                  <a class="dropdown-item" href="https://www.indieonthemove.com/classifieds">Classifieds</a>
+                              </div>
+            </li>
+                                        <li class="nav-item d-none d-lg-inline">
+              <a class="nav-link" href="https://www.indieonthemove.com/users">
+                Members
+              </a>
+            </li>
+                                        <li class="nav-item d-none d-lg-inline">
+              <a class="nav-link" href="https://www.indieonthemove.com/pricing">
+                Account Benefits
+              </a>
+            </li>
+                                        <li class="nav-item d-none d-lg-inline">
+              <a class="nav-link" href="https://www.indieonthemove.com/blog">
+                Blog
+              </a>
+            </li>
+                                        <li class="nav-item d-none d-lg-inline">
+              <a class="nav-link" href="https://www.indieonthemove.com">
+                Home
+              </a>
+            </li>
+                          
+        <li class="nav-item">
+          <button class="w-100 no-border navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="p-0 nav-link">
+              <i class="fa small fa-arrow-up"></i>
+            </span>
+          </button>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Right Side fixed. not in dropdown-->
+    <div class="navbar-fixed-right">
+              <div style="margin-top: 0.1rem">
+  <a class="btn btn-outline-secondary" href="https://www.indieonthemove.com/login?intended=radio%2Fohio-radio-contacts">Login</a>
+  <a class="d-none d-sm-inline-block ml-2 btn btn-primary" href="https://www.indieonthemove.com/register">Sign Up</a>
+</div>
+          </div>
+
+  </div>
+</nav>
+
+
+      <div class="nav-spacing">
+          <div class="container mt-3">
+
+          <div class="row">
+        <div class="col-lg-8 col-xl-9">
+      
+      <div class="card">
+        <div class="card-header d-flex justify-content-between">
+          <h4>
+            Ohio Radio Contacts
+          </h4>
+          <div>
+            <span class="st_facebook_large" displaytext="Facebook"></span>
+            <span class="st_twitter_large" st_via="indieonthemove" displaytext="Tweet"></span>
+            <span class="st_googleplus_large" displaytext="Google +"></span>
+            <span class="st_pinterest_large" displaytext="Pinterest"></span>
+          </div>
+        </div>
+        <div class="card-body">
+
+
+          <div class="page-blog-style">
+            <p>
+	&nbsp;</p>
+<p>
+	<span style="font-size:14px;">Below you will find Indie on the Move's compiled listing of Ohio radio stations and contacts for bands and musicians seeking radio spins, interviews, and on-air performances to promote new albums, shows, and tours.</span></p>
+<br>
+<br>
+<p>
+	<span style="font-size:14px;"><strong>From Columbus' X106.7 to Toledo's 104.7 WIOT,&nbsp;</strong><strong>find everything you need for additional radio promotion and exposure in the state of Ohio</strong>.</span></p>
+<br>
+<br>
+<p>
+	<span style="font-size:14px;">And if these aren't enough, don't forget that Indie on the Move provides additional state by state and city by city listings for radio stations and contacts&nbsp;<a href="http://www.indieonthemove.com/radio" style="font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; line-height: 1.231; text-rendering: optimizelegibility; font-size: 13px; color: rgb(0, 102, 255); font-weight: inherit; text-decoration: none; -webkit-transition-property: all; -webkit-transition-duration: 250ms; -webkit-transition-timing-function: linear; -webkit-transition-delay: initial; ">HERE</a>.</span></p>
+<br>
+<br>
+<h2>
+	Radio Stations, Music Formats &amp; Contact Information</h2>
+<p>
+	<span style="font-size: 14px;">Akron - </span><a href="http://my1017.iheart.com/main.html" style="font-size: 14px;" target="_blank">101.7 WHOF</a><span style="font-size: 14px;"> - Adult Contemporary - </span><a href="http://my1017.iheart.com/contact/" style="font-size: 14px;" target="_blank">Contact</a></p>
+<p>
+	<span style="font-size: 14px;">Akron - </span><a href="http://wkdd.iheart.com/main.html" style="font-size: 14px;" target="_blank">98.1 WKDD</a><span style="font-size: 14px;"> - Adult Contemporary - </span><a href="http://wkdd.iheart.com/contact/" style="font-size: 14px;" target="_blank">Contact</a></p>
+<p>
+	<span style="font-size: 14px;">Akron - </span><a href="http://wrqk.iheart.com/main.html" style="font-size: 14px;" target="_blank">106.9 WRQK</a><span style="font-size: 14px;"> - Rock - </span><a href="http://wrqk.iheart.com/contact/" style="font-size: 14px;" target="_blank">Contact</a></p>
+<p>
+	<span style="font-size: 14px;">Ashland - </span><a href="http://1013wnco.iheart.com/main.html" style="font-size: 14px;" target="_blank">101.3 WNCO</a><span style="font-size: 14px;"> - Country - </span><a href="http://1013wnco.iheart.com/contact/" style="font-size: 14px;" target="_blank">Contact</a></p>
+<p>
+	<span style="font-size: 14px;">Athens - </span><a href="http://acrn.com/" style="font-size: 14px;" target="_blank">ACRN Internet Radio from Ohio University</a><span style="font-size: 14px;"> - </span><a href="https://acrn.com/about/" style="font-size: 14px;" target="_blank">Contact</a></p>
+<p>
+	<span style="font-size: 14px;">Berea - </span><a href="http://wbwc.com/" style="font-size: 14px;" target="_blank">Baldwin Wallace College Radio 88.3 WBWC</a><span style="font-size: 14px;"> - </span><a href="http://wbwc.com/index.php?option=com_content&amp;view=article&amp;id=169&amp;Itemid=36" style="font-size: 14px;" target="_blank">Contact</a></p>
+<p>
+	<span style="font-size: 14px;">Bowling Green - </span><a href="http://wbgufm.com/" style="font-size: 14px;" target="_blank">Bowling Green State University Radio 88.1 WBGU</a><span style="font-size: 14px;"> - </span><span style="font-size: 14px;">Contact Unknown</span></p>
+<p>
+	<span style="font-size: 14px;">Chillicothe - </span><a href="http://buckeyecountry105.iheart.com/" style="font-size: 14px;" target="_blank">105.5 WSRW</a><span style="font-size: 14px;"> - Country - </span><a href="http://buckeyecountry105.iheart.com/articles/wch-wchofm-contact-list-226277/station-contact-information-2874400/" style="font-size: 14px;" target="_blank">Contact</a></p>
+<p>
+	<span style="font-size: 14px;">Chillicothe - </span><a href="http://wkkj.iheart.com/" style="font-size: 14px;" target="_blank">94.3 WKKJ</a><span style="font-size: 14px;"> - Country - </span><a href="http://wkkj.iheart.com/contact/" style="font-size: 14px;" target="_blank">Contact</a></p>
+<p>
+	<span style="font-size: 14px;">Chillicothe - </span><a href="http://mix1065.iheart.com/" style="font-size: 14px;" target="_blank">106.5 WQLX</a><span style="font-size: 14px;"> - Adult Contemporary - </span><a href="http://mix1065.iheart.com/contact/" style="font-size: 14px;" target="_blank">Contact</a></p>
+<p>
+	<span style="font-size: 14px;">Cincinnati - </span><a href="http://www.purerock96.com" style="font-size: 14px;" target="_blank">96Rock</a><span style="font-size: 14px;"> - Rock - </span><a href="http://www.purerock96.com/station-information/" style="font-size: 14px;" target="_blank">Contact</a></p>
+<p>
+	<span style="font-size: 14px;">Cincinnati - </span><a href="http://www.wgrr.com" style="font-size: 14px;" target="_blank">103.5 WGRR</a><span style="font-size: 14px;"> - Classic Hits - </span><a href="http://www.wgrr.com/station-information/" style="font-size: 14px;" target="_blank">Contact</a></p>
+<p>
+	<span style="font-size: 14px;">Cincinnati - </span><a href="http://www.nashfm941.com/" target="_blank"><span style="font-size: 14px;">Nash 94.1</span></a><span style="font-size: 14px;"> - Country - </span><a href="http://www.nashfm941.com/station-information/" style="font-size: 14px;" target="_blank">Contact</a></p>
+<p>
+	<span style="font-size: 14px;">Cincinnati - </span><a href="http://kiss107.iheart.com/" style="font-size: 14px;" target="_blank">KISS 107</a><span style="font-size: 14px;"> - Adult Contemporary - </span><a href="http://kiss107.iheart.com/articles/contact-kiss107-446165/n-a-12861304/" style="font-size: 14px;" target="_blank">Contact</a></p>
+<p>
+	<span style="font-size: 14px;">Cincinnati - </span><a href="http://www.foxcincinnati.com" style="font-size: 14px;" target="_blank">The Fox 92.5</a><span style="font-size: 14px;"> - Classic Rock - </span><a href="http://www.foxcincinnati.com/station-information/" style="font-size: 14px;" target="_blank">Contact</a></p>
+<p>
+	<span style="font-size: 14px;">Cincinnati - </span><a href="http://www.warm98.com" style="font-size: 14px;" target="_blank">Warm 98</a><span style="font-size: 14px;"> - Variety - </span><a href="http://www.warm98.com/station-information/" style="font-size: 14px;" target="_blank">Contact</a></p>
+<p>
+	<span style="font-size: 14px;">Cleveland - </span><a href="http://www.wruw.org/" style="font-size: 14px;" target="_blank">Case Western Reserve University Radio 91.1 WRUW</a><span style="font-size: 14px;"> - </span><a href="http://www.wruw.org/contact-us" style="font-size: 14px;" target="_blank">Contact</a></p>
+<p>
+	<span style="font-size: 14px;">Cleveland - </span><a href="http://wgar.iheart.com/" style="font-size: 14px;" target="_blank">99.5 WGAR</a><span style="font-size: 14px;"> - Country - </span><a href="http://wgar.iheart.com/contact/" style="font-size: 14px;" target="_blank">Contact</a></p>
+<p>
+	<span style="font-size: 14px;">Cleveland - </span><a href="http://wcsb.org/" style="font-size: 14px;" target="_blank">Cleveland State University Radio 89.3 WCSB</a><span style="font-size: 14px;"> - Alternative - </span><a href="http://wcsb.org/staff/" style="font-size: 14px;" target="_blank">Contact</a></p>
+<p>
+	<span style="font-size:14px;">Cleveland - <a href="http://www.wjcu.org/" target="_blank">John Carroll University Radio 88.7 WJCU</a> - <a href="http://www.wjcu.org/contact" target="_blank">Contact</a></span></p>
+<p>
+	<span style="font-size: 14px;">Columbus - </span><a href="http://wcol.iheart.com/" style="font-size: 14px;" target="_blank">92.3 WCOL</a><span style="font-size: 14px;"> - Country - </span><a href="http://wcol.iheart.com/articles/contact-wcol-151754/ways-to-be-in-touch-with-7781680/" style="font-size: 14px;" target="_blank">Contact</a></p>
+<p>
+	<span style="font-size: 14px;">Columbus - </span><a href="http://cd1025.com/" style="font-size: 14px;" target="_blank">CD102.5</a><span style="font-size: 14px;"> - Alternative - </span><a href="http://cd1025.com/about/contact" style="font-size: 14px;" target="_blank">Contact</a></p>
+<p>
+	<span style="font-size: 14px;">Columbus - </span><a href="http://wcbe.org" style="font-size: 14px;" target="_blank">WCBE 90.5 FM</a><span style="font-size: 14px;"> - Folk, Indie, World - </span><a href="http://wcbe.org/contact" style="font-size: 14px;" target="_blank">Contact</a></p>
+<p>
+	<span style="font-size: 14px;">Columbus -&nbsp;</span><a href="http://thebeat1067.iheart.com/" style="font-size: 14px;" target="_blank">X106.7</a><span style="font-size: 14px;">&nbsp;- Hip Hop and R&amp;B -&nbsp;</span><a href="http://thebeat1067.iheart.com/features/advertise-with-us-725/" style="font-size: 14px;" target="_blank">Contact</a></p>
+<p>
+	<span style="font-size: 14px;">Dayton - </span><a href="http://www.dps.k12.oh.us/media-center/wdps-fm/" style="font-size: 14px;" target="_blank">Dayton Public Schools Radio 89.5 WDPS</a><span style="font-size: 14px;"> - Jazz - </span><a href="http://www.dps.k12.oh.us/media-center/wdps-fm/" style="font-size: 14px;" target="_blank">Contact</a></p>
+<p>
+	<span style="font-size: 14px;">Dayton - </span><a href="http://big1065.iheart.com/" style="font-size: 14px;" target="_blank">BIG 106.5</a><span style="font-size: 14px;"> - Adult Contemporary - </span><a href="http://big1065.iheart.com/articles/contact-us-107834/n-a-11911647/" style="font-size: 14px;" target="_blank">Contact</a></p>
+<p>
+	<span style="font-size: 14px;">Dayton - </span><a href="http://hotcountryb945.iheart.com/" target="_blank"><span style="font-size: 14px;">B94.5</span></a><span style="font-size: 14px;"> - Country - </span><a href="http://hotcountryb945.iheart.com/articles/contact-us-481711/n-a-11911647/" style="font-size: 14px;" target="_blank">Contact</a></p>
+<p>
+	<span style="font-size: 14px;">Dayton - </span><a href="http://wtue.iheart.com/" style="font-size: 14px;" target="_blank">104.7 WTUE</a><span style="font-size: 14px;"> - Rock - </span><a href="http://wtue.iheart.com/contact/" style="font-size: 14px;" target="_blank">Contact</a></p>
+<p>
+	<span style="font-size: 14px;">Dayton - </span><a href="http://altdayton.iheart.com/" style="font-size: 14px;" target="_blank">103.9 The X</a><span style="font-size: 14px;"> - Alternative - </span><a href="http://altdayton.iheart.com/articles/contact-us-468790/n-a-10738000/" style="font-size: 14px;" target="_blank">Contact</a></p>
+<p>
+	<span style="font-size: 14px;">Defiance - </span><a href="http://wndh1031.iheart.com/main.html" style="font-size: 14px;" target="_blank">103.1 WNDH</a><span style="font-size: 14px;"> - Classic Hits - </span><a href="http://wndh1031.iheart.com/contact/" style="font-size: 14px;" target="_blank">Contact</a></p>
+<p>
+	<span style="font-size: 14px;">Defiance - </span><a href="http://1057thebull.iheart.com/main.html" style="font-size: 14px;" target="_blank">105.7 The Bull</a><span style="font-size: 14px;"> - Country - </span><a href="http://1057thebull.iheart.com/contact/" style="font-size: 14px;" target="_blank">Contact</a></p>
+<p>
+	<span style="font-size: 14px;">Gambier - </span><a href="http://wkco.org/" style="font-size: 14px;" target="_blank">Kenyon College Radio WKCO</a><span style="font-size: 14px;"> - </span><a href="http://wkco.org/contact/" style="font-size: 14px;" target="_blank">Contact</a></p>
+<p>
+	<span style="font-size: 14px;">Granville - </span><a href="http://www.doobieradio.com/" style="font-size: 14px;" target="_blank">Denison University Radio 91.1 WDUB</a><span style="font-size: 14px;"> - </span><a href="http://www.doobieradio.com/new-page-1/" style="font-size: 14px;" target="_blank">Contact</a></p>
+<p>
+	<span style="font-size: 14px;">Lima - </span><a href="http://t102.iheart.com/main.html" style="font-size: 14px;" target="_blank">T102.1</a><span style="font-size: 14px;"> - Country - </span><a href="http://t102.iheart.com/contact/" style="font-size: 14px;" target="_blank">Contact</a></p>
+<p>
+	<span style="font-size: 14px;">Lima - </span><a href="http://kisslima.iheart.com/main.html" style="font-size: 14px;" target="_blank">93.9 KISS</a><span style="font-size: 14px;"> - Adult Contemporary - </span><a href="http://kisslima.iheart.com/contact/" style="font-size: 14px;" target="_blank">Contact</a></p>
+<p>
+	<span style="font-size: 14px;">Lima - </span><a href="http://1075wzrx.iheart.com/main.html" style="font-size: 14px;" target="_blank">107.5 WZRX</a><span style="font-size: 14px;"> - Rock - </span><a href="http://1075wzrx.iheart.com/contact/" style="font-size: 14px;" target="_blank">Contact</a></p>
+<p>
+	<span style="font-size: 14px;">Lima - </span><a href="http://www.wave96.net" style="font-size: 14px;" target="_blank">Wave 96</a><span style="font-size: 14px;"> - Mainstream, Alternative, Party - </span><a href="http://www.wave96.net/contact" style="font-size: 14px;" target="_blank">Contact</a></p>
+<p>
+	<span style="font-size: 14px;">Marion - </span><a href="http://majic959.iheart.com/main.html" style="font-size: 14px;" target="_blank">Majic 95.9</a><span style="font-size: 14px;"> - Adult Contemporary - </span><a href="http://majic959.iheart.com/articles/iheartmedia-marion-contact-info-125269/iheartmedia-marion-401145" style="font-size: 14px;" target="_blank">Contact</a></p>
+<p>
+	<span style="font-size: 14px;">Monroe - </span><a href="http://www.983nashicon.com/" target="_blank"><span style="font-size: 14px;">Nash 98.3</span></a><span style="font-size: 14px;"> - Country - </span><a href="http://www.983nashicon.com/station-information/" style="font-size: 14px;" target="_blank">Contact</a></p>
+<p>
+	<span style="font-size: 14px;">Oberlin - </span><a href="http://www.wobc.org/" style="font-size: 14px;" target="_blank">Oberlin College Community Radio WOBC</a><span style="font-size: 14px;"> - </span><a href="http://www.wobc.org/contact/" style="font-size: 14px;" target="_blank">Contact</a></p>
+<p>
+	<span style="font-size: 14px;">Oxford - </span><a href="https://www.facebook.com/redhawkradio" style="font-size: 14px;" target="_blank">Miami University Radio WMSR</a><span style="font-size: 14px;"> - </span><a href="https://www.facebook.com/redhawkradio" style="font-size: 14px;" target="_blank">Contact</a></p>
+<p>
+	<span style="font-size: 14px;">Toledo - </span><a href="http://www.wgte.org/wgte/" style="font-size: 14px;" target="_blank">91.3 WGTE Public Radio</a><span style="font-size: 14px;"> - </span><a href="http://www.wgte.org/contact-us" style="font-size: 14px;" target="_blank">Contact</a></p>
+<p>
+	<span style="font-size: 14px;">Toledo - </span><a href="http://www.935wrqn.com" style="font-size: 14px;" target="_blank">93.5 WRQN</a><span style="font-size: 14px;"> - Oldies - </span><a href="http://www.935wrqn.com/station-information/" style="font-size: 14px;" target="_blank">Contact</a></p>
+<p>
+	<span style="font-size: 14px;">Toledo - </span><a href="http://www.wxkr.com" style="font-size: 14px;" target="_blank">94.5 XKR</a><span style="font-size: 14px;"> - Classic Rock - </span><a href="http://www.wxkr.com/station-information/" style="font-size: 14px;" target="_blank">Contact</a></p>
+<p>
+	<span style="font-size: 14px;">Toledo - </span><a href="http://www.toledoszone.com" style="font-size: 14px;" target="notSet">100.7 The Zone</a><span style="font-size: 14px;"> - Alternative - </span><a href="http://www.toledoszone.com/station-information/" style="font-size: 14px;" target="_blank">Contact</a></p>
+<p>
+	<span style="font-size: 14px;">Toledo -&nbsp;</span><a href="http://1015theriver.iheart.com/main.html" style="font-size: 14px;" target="_blank">101.5 The River</a><span style="font-size: 14px;">&nbsp;- Soft Rock -&nbsp;</span><a href="http://1015theriver.iheart.com/contact/" style="font-size: 14px;" target="_blank">Contact</a></p>
+<p>
+	<span style="font-size: 14px;">Toledo - </span><a href="http://1037cky.iheart.com/main.html" style="font-size: 14px;" target="_blank">103.7 WCKY</a><span style="font-size: 14px;"> - Country - </span><a href="http://1037cky.iheart.com/contact/" style="font-size: 14px;" target="_blank">Contact</a></p>
+<p>
+	<span style="font-size: 14px;">Toledo - </span><a href="http://wiot.iheart.com/main.html" style="font-size: 14px;" target="_blank">104.7 WIOT</a><span style="font-size: 14px;"> - Rock - </span><a href="http://wiot.iheart.com/contact/" style="font-size: 14px;" target="_blank">Contact</a></p>
+<p>
+	<span style="font-size: 14px;">Toledo - </span><a href="http://www.k100country.com" style="font-size: 14px;" target="_blank">K 100</a><span style="font-size: 14px;"> - Country - </span><a href="http://www.k100country.com/station-information/" style="font-size: 14px;" target="_blank">Contact</a></p>
+<p>
+	<span style="font-size: 14px;">Toledo - </span><a href="http://www.q1055.com/" style="font-size: 14px;" target="_blank">Star 105</a><span style="font-size: 14px;"> - Pop - </span><a href="http://www.q1055.com/station-information/" style="font-size: 14px;" target="_blank">Contact</a></p>
+<p>
+	<span style="font-size: 14px;">Toledo - </span><a href="http://wxut.com/" style="font-size: 14px;" target="_blank">University of Toledo Radio 88.3 WXUT</a><span style="font-size: 14px;"> - </span><a href="http://www.wxut.com/index.php/contact/" style="font-size: 14px;" target="_blank">Contact</a></p>
+<p>
+	<span style="font-size: 14px;">Westerville - </span><a href="http://www.wobn.net" style="font-size: 14px;" target="_blank">Otterbein College Radio 97.5 WOBN</a><span style="font-size: 14px;"> - </span><a href="http://www.wobn.net/contact-us/" style="font-size: 14px;" target="_blank">Contact</a></p>
+<p>
+	<span style="font-size: 14px;">Youngstown - </span><a href="http://www.k105country.com" style="font-size: 14px;" target="notSet">K105</a><span style="font-size: 14px;"> - Country - </span><a href="http://www.k105country.com/station-information/" style="font-size: 14px;" target="_blank">Contact</a></p>
+<p>
+	<span style="font-size: 14px;">Youngstown - </span><a href="http://www.realrock104.com" style="font-size: 14px;" target="notSet">Rock 104</a><span style="font-size: 14px;"> - Rock - </span><a href="http://www.realrock104.com/station-information/" style="font-size: 14px;" target="_blank">Contact</a></p>
+<p>
+	<span style="font-size: 14px;">Youngstown - </span><a href="http://www.y-103.com" style="font-size: 14px;" target="notSet">Y103</a><span style="font-size: 14px;"> - Classic Rock - </span><a href="http://www.y-103.com/station-information/" style="font-size: 14px;" target="_blank">Contact</a></p>
+<p>
+	<span style="font-size: 14px;">Youngstown - </span><a href="http://wysu.org/" style="font-size: 14px;" target="_blank">Youngstown State University Radio 88.5 WYSU</a><span style="font-size: 14px;"> - Jazz and Classical - </span><a href="http://wysu.org/staff" style="font-size: 14px;" target="_blank">Contact</a></p>
+<p>
+	&nbsp;</p>
+<p>
+	&nbsp;</p>
+<p>
+	<span style="font-size:14px;">**Please Note: If for some reason one of the above links does not work, or if we have overlooked a radio station that should be added to this list, please inform us through the contact form located&nbsp;<a href="http://www.indieonthemove.com/contact">HERE</a>.</span></p>
+<div>
+	&nbsp;</div>
+          </div>
+        </div>
+      </div>
+
+              </div>
+        <div class="col-lg-4 col-xl-3">
+          <news></news>
+        </div>
+      </div>
+    
+  </div>
+      </div>
+
+    </div>
+    <div v-cloak>
+      <footer class="footer mt-3 p-3 bg-dark footer-bordered">
+  <div class="container">
+
+    <!-- small screens -->
+    <div class="d-sm-none text-secondary text-uppercase text-center">
+              <a  href="https://www.indieonthemove.com/about">
+          About
+        </a>
+                  |
+                      <a  href="https://www.indieonthemove.com/indie-on-the-move-101">
+          Features
+        </a>
+                  |
+                      <a  href="https://www.indieonthemove.com/pricing">
+          Pricing
+        </a>
+                  |
+                      <a  href="https://www.indieonthemove.com/testimonials">
+          Testimonials
+        </a>
+                  |
+                      <a  href="https://www.indieonthemove.com/contact">
+          Contact
+        </a>
+                  |
+                      <a  href="https://www.indieonthemove.com/newsletter/subscribe">
+          Newsletter
+        </a>
+                  |
+                      <a  href="https://www.indieonthemove.com/blog">
+          Blog
+        </a>
+                  |
+                      <a  href="https://www.indieonthemove.com/touring-tips-show-booking-advice-for-musicians">
+          Touring Tips
+        </a>
+                  |
+                      <a  href="https://www.indieonthemove.com/iotm-solutions-network">
+          Partners
+        </a>
+                  |
+                      <a  href="https://www.indieonthemove.com/terms-and-conditions">
+          Terms
+        </a>
+                  |
+                      <a  href="https://www.indieonthemove.com/privacy">
+          Privacy
+        </a>
+                  </div>
+
+    <!-- larger screens -->
+    <div class="justify-content-around d-none d-sm-flex text-secondary">
+      <ul>
+                  <li>
+            <a  href="https://www.indieonthemove.com/about">
+              About
+            </a>
+          </li>
+                  <li>
+            <a  href="https://www.indieonthemove.com/indie-on-the-move-101">
+              Features
+            </a>
+          </li>
+                  <li>
+            <a  href="https://www.indieonthemove.com/pricing">
+              Pricing
+            </a>
+          </li>
+                  <li>
+            <a  href="https://www.indieonthemove.com/testimonials">
+              Testimonials
+            </a>
+          </li>
+                  <li>
+            <a  href="https://www.indieonthemove.com/newsletter/subscribe">
+              Newsletter
+            </a>
+          </li>
+                  <li>
+            <a  href="https://www.indieonthemove.com/contact">
+              Contact IOTM
+            </a>
+          </li>
+              </ul>
+      <ul>
+                  <li>
+            <a  href="https://www.indieonthemove.com/users">
+              Members Directory
+            </a>
+          </li>
+                  <li>
+            <a  href="https://www.indieonthemove.com/blog">
+              Blog
+            </a>
+          </li>
+                  <li>
+            <a  href="https://www.indieonthemove.com/touring-tips-show-booking-advice-for-musicians">
+              Touring Tips
+            </a>
+          </li>
+                  <li>
+            <a  href="https://www.indieonthemove.com/iotm-solutions-network">
+              Strategic Partners
+            </a>
+          </li>
+                  <li>
+            <a  href="https://www.indieonthemove.com/terms-and-conditions">
+              Terms &amp; Conditions
+            </a>
+          </li>
+                  <li>
+            <a  href="https://www.indieonthemove.com/privacy">
+              Privacy Policy
+            </a>
+          </li>
+              </ul>
+      <ul>
+                  <li>
+            <a  href="https://www.indieonthemove.com/professional-services">
+              Professional Services
+            </a>
+          </li>
+                  <li>
+            <a  href="https://www.indieonthemove.com/venues">
+              Venues &amp; Quickpitch
+            </a>
+          </li>
+                  <li>
+            <a  href="https://www.indieonthemove.com/college-university-show-booking-directory">
+              Colleges &amp; Universities
+            </a>
+          </li>
+                  <li>
+            <a  href="https://www.indieonthemove.com/music-festivals-and-conferences">
+              Festivals &amp; Conferences
+            </a>
+          </li>
+                  <li>
+            <a  href="https://www.indieonthemove.com/show-availabilities">
+              Show Availabilities
+            </a>
+          </li>
+                  <li>
+            <a  href="https://www.indieonthemove.com/band-availabilities">
+              Band Availabilities
+            </a>
+          </li>
+                  <li>
+            <a  href="https://www.indieonthemove.com/classifieds">
+              Classifieds
+            </a>
+          </li>
+                  <li>
+            <a  href="https://www.indieonthemove.com/press">
+              Press Directory
+            </a>
+          </li>
+                  <li>
+            <a  href="https://www.indieonthemove.com/radio">
+              Radio Directory
+            </a>
+          </li>
+              </ul>
+    </div>
+
+    <!-- all screens -->
+    <div class="pt-3 text-center">
+      <div>
+        <a target="_blank" rel="noopener noreferrer" href="https://facebook.com/indieonthemovellc">
+          <i class="px-2 fa fa-2x fa-facebook"></i>
+        </a>
+        <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/indieonthemove">
+          <i class="px-2 fa fa-2x fa-twitter"></i>
+        </a>
+        <a target="_blank" rel="noopener noreferrer" href="https://plus.google.com/+indieonthemovellc">
+          <i class="px-2 fa fa-2x fa-google-plus"></i>
+        </a>
+
+      </div>
+
+      <a href="#" class="btn btn-link">
+        <i class="fa fa-arrow-circle-up"></i>
+        <span class="mb-1">Back To Top </span>
+      </a>
+
+      <p class="text-secondary">
+        © 2018 Indie on the Move. All rights reserved.
+      </p>
+    </div>
+
+  </div>
+</footer>
+
+    </div>
+  </div>
+
+    <!-- Scripts -->
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script src="https://js.stripe.com/v3/"></script>
+        <script src="/js/app.js?id=bb87c2c2608a0fee47c7"></script>
+      
+
+  <script type="text/javascript" src="//ws.sharethis.com/button/buttons.js"></script>
+  <script type="text/javascript">stLight.options({publisher: "5945aab2-6a71-4a33-9775-fdbe573195ca"});</script>
+  
+  </body>
+</html>

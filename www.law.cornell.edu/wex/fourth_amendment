@@ -1,0 +1,850 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-1734385-15"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() { dataLayer.push(arguments); }
+		gtag('js', new Date());
+
+		gtag('config', 'UA-1734385-15');
+	</script>
+
+	<meta charset="utf-8" />
+	<meta name="version" content="v5.9"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="https://www.law.cornell.edu/sites/www.law.cornell.edu/files/favicon_0.ico"
+		type="image/vnd.microsoft.icon" />
+	<link rel="canonical" href="fourth_amendment">
+
+	<meta property="og:site_name" content="LII / Legal Information Institute" />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="https://www.law.cornell.edu/wex/fourth_amendment" />
+	<meta property="og:title" content="Fourth Amendment" />
+	<meta property="og:image" content="https://www.law.cornell.edu/images/liibracketlogo.gif" />
+	<meta name="twitter:card" content="Wex - Fourth Amendment" />
+	<meta name="twitter:site" content="@LIICornell" />
+	<meta name="twitter:url" content="https://www.law.cornell.edu/wex/fourth_amendment" />
+	<meta name="twitter:title" content="Fourth Amendment" />
+	<meta name="twitter:image" content="https://www.law.cornell.edu/images/liibracketlogo.gif" />
+	<meta name="dcterms.title" content="Fourth Amendment" />
+
+
+	<title>Fourth Amendment | Wex | US Law | LII / Legal Information Institute</title>
+
+	<!-- schema.org metadata -->
+	<script type="application/ld+json">
+		{"@context": "http://schema.org", "@graph": [{"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "item": {"@id": "https://www.law.cornell.edu", "name": "LII"}}, {"@type": "ListItem", "position": 2, "item": {"@id": "https://www.law.cornell.edu/wex", "name": "Wex"}}, {"@type": "ListItem", "position": 3, "item": {"@id": "https://www.law.cornell.edu/wex/fourth_amendment", "name": "Fourth Amendment"}}]}, {"@type": "WebSite", "url": "https://www.law.cornell.edu/wex/fourth_amendment", "name": "Fourth Amendment", "author": {"@type": "Organization", "name": "LII", "url": "https://www.law.cornell.edu"}, "description": "Wex - Fourth Amendment", "publisher": {"@type": "Organization", "name": "LII / Legal Information Institute", "url": "https://www.law.cornell.edu"}}]}	
+	</script>
+	<!-- /schema.org -->
+
+	<!-- API url -->
+	<script>
+		SEARCH_URL = 'https://api.law.cornell.edu/lii/search';
+	</script>
+
+	<!-- Bootstrap Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+		integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous" />
+
+	<!-- jquery -->
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"
+		integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
+	<!-- /jquery -->
+
+	<!-- Bootstrap Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+		integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+		crossorigin="anonymous"></script>
+	<!-- /Bootstrap Latest compiled and minified JavaScript -->
+
+	<!-- Open sans -->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans" />
+	<!-- /Open sans -->
+
+	<!-- custom css -->
+	
+	<link rel="stylesheet" type="text/css" href="https://www.law.cornell.edu/staticsite_styles/lii_stylenator_v19.min.css" />
+	 
+	<!-- /custom css -->
+
+	
+
+	<!-- include adcode -->
+	<script type='text/javascript'>
+		!function (a) { var b = /iPhone/i, c = /iPod/i, d = /iPad/i, e = /(?=.*\bAndroid\b)(?=.*\bMobile\b)/i, f = /Android/i, g = /(?=.*\bAndroid\b)(?=.*\bSD4930UR\b)/i, h = /(?=.*\bAndroid\b)(?=.*\b(?:KFOT|KFTT|KFJWI|KFJWA|KFSOWI|KFTHWI|KFTHWA|KFAPWI|KFAPWA|KFARWI|KFASWI|KFSAWI|KFSAWA)\b)/i, i = /IEMobile/i, j = /(?=.*\bWindows\b)(?=.*\bARM\b)/i, k = /BlackBerry/i, l = /BB10/i, m = /Opera Mini/i, n = /(CriOS|Chrome)(?=.*\bMobile\b)/i, o = /(?=.*\bFirefox\b)(?=.*\bMobile\b)/i, p = new RegExp('(?:Nexus 7|BNTV250|Kindle Fire|Silk|GT-P1000)', 'i'), q = function (a, b) { return a.test(b) }, r = function (a) { var r = a || navigator.userAgent, s = r.split('[FBAN'); return 'undefined' != typeof s[1] && (r = s[0]), s = r.split('Twitter'), 'undefined' != typeof s[1] && (r = s[0]), this.apple = { phone: q(b, r), ipod: q(c, r), tablet: !q(b, r) && q(d, r), device: q(b, r) || q(c, r) || q(d, r) }, this.amazon = { phone: q(g, r), tablet: !q(g, r) && q(h, r), device: q(g, r) || q(h, r) }, this.android = { phone: q(g, r) || q(e, r), tablet: !q(g, r) && !q(e, r) && (q(h, r) || q(f, r)), device: q(g, r) || q(h, r) || q(e, r) || q(f, r) }, this.windows = { phone: q(i, r), tablet: q(j, r), device: q(i, r) || q(j, r) }, this.other = { blackberry: q(k, r), blackberry10: q(l, r), opera: q(m, r), firefox: q(o, r), chrome: q(n, r), device: q(k, r) || q(l, r) || q(m, r) || q(o, r) || q(n, r) }, this.seven_inch = q(p, r), this.any = this.apple.device || this.android.device || this.windows.device || this.other.device || this.seven_inch, this.phone = this.apple.phone || this.android.phone || this.windows.phone, this.tablet = this.apple.tablet || this.android.tablet || this.windows.tablet, 'undefined' == typeof window ? this : void 0 }, s = function () { var a = new r; return a.Class = r, a }; 'undefined' != typeof module && module.exports && 'undefined' == typeof window ? module.exports = r : 'undefined' != typeof module && module.exports && 'undefined' != typeof window ? module.exports = s() : 'function' == typeof define && define.amd ? define('isMobile', [], a.isMobile = s()) : a.isMobile = s() }(this);
+	</script>
+
+	<!-- mobile: vignettes and page-level -->
+	<script async src='https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js'>
+	</script>
+	<script>
+		(adsbygoogle = window.adsbygoogle || []).push({
+			google_ad_client: 'ca-pub-6351434937294517',
+			enable_page_level_ads: true,
+
+		});
+	</script>
+	<!-- /mobile: vignettes and page-level -->
+
+	<!-- adsense -->
+	<script type='text/javascript'>
+		var googletag = googletag || {};
+		googletag.cmd = googletag.cmd || [];
+		(function () {
+			var gads = document.createElement('script');
+			gads.async = true;
+			gads.type = 'text/javascript';
+			var useSSL = 'https:' == document.location.protocol;
+			gads.src = (useSSL ? 'https:' : 'http:') +
+				'//www.googletagservices.com/tag/js/gpt.js';
+			var node = document.getElementsByTagName('script')[0];
+			node.parentNode.insertBefore(gads, node);
+		})();
+	</script>
+
+	<script type='text/javascript'>
+		function makeDefs() {
+			var width = window.innerWidth || document.documentElement.clientWidth;
+			if (width >= 1200) {
+				var topsize = '[336,280]';
+				var midsize = '[[1,1],[336,280]]';
+				var bottomsize = '[[2,1],[728,90]]';
+				var sponsorcaptionsize = '[[3,1],[336,15]]';
+			}
+			else if ((width >= 992) && (width < 1199)) {
+				var topsize = '[336,280]';
+				var midsize = '[[1,1],[336,280]]';
+				var bottomsize = '[[2,1],[468,60]]';
+				var sponsorcaptionsize = '[[3,1],[336,15]]';
+			}
+			else if ((width >= 768) && (width < 992)) {
+				var topsize = '[300,250]';
+				var midsize = '[[1,1],[300,250]]';
+				var bottomsize = '[[2,1],[320,100],[320,50]]';
+				var sponsorcaptionsize = '[[3,1],[300,15]]';
+			}
+			else if ((width >= 576) && (width < 768)) {
+				var topsize = '[180,150]';
+				var midsize = '[[1,1],[180,150]]';
+				var bottomsize = '[[2,1],[320,100],[320,50]]';
+				var sponsorcaptionsize = '[[3,1],[180,15]]';
+			}
+			else if ((width >= 360) && (width < 576)) {
+				var topsize = '[336,280]';
+				var midsize = '[[1,1],[336,280]]';
+				var bottomsize = '[[2,1],[468,60]]';
+				var sponsorcaptionsize = '[[3,1],[336,15]]';
+			}
+			else {
+				var topsize = '[300,250]';
+				var midsize = '[[1,1],[300,250]]';
+				var bottomsize = '[[2,1],[300,250],[320,100],[320,50]]';
+				var sponsorcaptionsize = '[[3,1],[300,15]]';
+			}
+
+			var topdefp1 = 'googletag.defineSlot(';
+			var topdefp2 = "'/1519273/LII_DEFAULT_TopRight_300x250', ".concat(topsize, ',');
+			var topdef = topdefp1.concat(topdefp2, '\'', 'div-gpt-ad-top', '\'', ').addService(googletag.pubads());   ');
+
+			var middefp1 = 'googletag.defineSlot(';
+			var middefp2 = "'/1519273/LII_DEFAULT_MidRight_300x250', ".concat(midsize, ',');
+			var middef = middefp1.concat(middefp2, '\'', 'div-gpt-ad-middle', '\'', ').addService(googletag.pubads());   ');
+
+			var bottomdefp1 = 'googletag.defineSlot(';
+			var bottomdefp2 = "'/1519273/LII_DEFAULT_Footer_728x90', ".concat(bottomsize, ',');
+			var bottomdef = bottomdefp1.concat(bottomdefp2, '\'', 'div-gpt-ad-bottom', '\'', ').addService(googletag.pubads());   ');
+
+			var sponsorcaptiondefp1 = 'googletag.defineSlot(';
+			var sponsorcaptiondefp2 = "'/1519273/LII_DEFAULT_SponsorCaption', ".concat(sponsorcaptionsize, ',');
+			var sponsorcaptiondef = sponsorcaptiondefp1.concat(sponsorcaptiondefp2, '\'', 'div-gpt-ad-sponsorcaption', '\'', ').addService(googletag.pubads());   ');
+
+			var defs = topdef + middef + bottomdef + sponsorcaptiondef
+			return defs;
+
+		};
+
+
+
+		googletag.cmd.push(function () {
+			{
+				mydefs = makeDefs();
+				eval(mydefs);
+			};
+
+			googletag.pubads().enableSingleRequest();
+			googletag.enableServices();
+		});
+			//-->
+	</script>
+	<!-- /adsense -->
+	<!-- /include adcode -->
+
+	<!-- include JLD -->
+	<script src="https://justatic.com/v/20160725b/shared/js/widgets/find-a-lawyer.js">
+	</script>
+	<!-- /include JLD -->
+
+</head>
+
+<body>
+
+<div id="liisurveymodal" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="liisurveymodal" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+                <div class="modal-title-box">Please help us improve our site!</div>	
+            <div class="modal-header">
+                <button type="button" class="close" onclick="snooze_survey()" data-dismiss="modal">&times;</button>
+            </div>			
+            <div class="modal-body">	  
+                <iframe title="Survey Frame" class="survey-content" id="iframeHolder"></iframe>
+            </div>		
+            <div class="modal-footer">
+                <!-- <a href="#" data-dismiss="modal" class="btn" onclick="snooze_survey()">Maybe later</a> -->
+                <a href="fourth_amendment#" class="btn btn-primary" class="close" data-dismiss="modal" onclick="snooze_survey()">No thank you</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<header id="conannav" class="navbar navbar-fixed-top active">
+	<a href="fourth_amendment#content" class="skip">Skip to main content</a>
+		<!-- <a class="skip-main" href="#main">Skip to main content</a>
+		<h1>Skip to Main Content - Keyboard Accessible</h1> -->
+	<!-- include header -->
+	<div id="cu-identity">
+		<div class="container-fluid">
+			<a href="https://www.cornell.edu" id="insignialink" title="Cornell University">
+				<img class="img-responsive"
+					src="https://www.law.cornell.edu/sites/all/themes/liizenboot/images/insignia.gif"
+					alt="Cornell University insignia" />
+			</a>
+			<a href="http://www.lawschool.cornell.edu/" id="clslink" title="Cornell Law School">Cornell Law
+				School</a>
+			<a href="https://www.cornell.edu/search/" id="cusearch" title="Search Cornell University">Search
+				Cornell</a>
+		</div>
+	</div>
+	<!-- /cu-identity -->
+	<div id="lii-identity" class="col-12 identity-header">
+		<div id="liiheader" class="container-fluid">
+			<nav id="liiallnav" class="navbar" aria-label="Main">
+				<div id="liibanner" class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#liinav" href="#liinav">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<div id="liilogodiv">
+						<a id="liilogo" class="navbar-brand" href="https://www.law.cornell.edu/" aria-label="lii logo"></a>
+					</div>
+					<div class="navbar-right" id="liinavbarstuff">
+						<!-- remove when drupal settings for survey complete - jbp -->
+						<button id="survey" class="btn btn-primary icon-pencil icon-white"
+							style="display: none; margin-bottom: 10px; margin-top:-20px; height: 42px">Please help
+							us improve our site!</button>
+
+						<!-- liidonatewrap -->
+						<div id="liidonatewrap">
+							<a id="liidonate" class="navbar-link mdblueinv" href="https://www.law.cornell.edu/donate" aria-label="Donate to LII">
+								<span class="glyphicon glyphicon-gift"></span>
+								<span class="gltxt">Support Us!</span>
+							</a>
+						</div>
+						<!-- /#liisearchwrap -->
+						<div id="liisearchlinkwrap">
+							<a id="liisearchlink" href="fourth_amendment#" class="navbar-link cured" aria-label="Search LII">
+								<span class="glyphicon glyphicon-search"></span>
+								<span class="gltxt">Search</span>
+							</a>
+						</div>
+						<!-- /#liisearchlinkwrap -->
+						<div id="liisearch" href="#">
+							<div class="input-group" id="adv-search" role="search" >
+								<input label="Enter the terms you wish to search for."  placeholder="Search" 
+									class="form-control form-text" type="text" id="edit-keys" name="keys" value="" 
+									list="autocomplete_list" aria-label="Enter search terms text box">
+								<datalist id="autocomplete_list">
+								</datalist>
+								<div class="input-group-btn">
+									<div class="btn-group" role="group" aria-label="Filter and search buttons">
+										<div class="dropdown dropdown-lg">
+											<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false" aria-label="filter dropdown button"><span class="caret" role="button" aria-hidden="true"></span></button>
+											<div class="dropdown-menu dropdown-menu-right" role="menu">
+												<form class="form-horizontal">
+													<div class="form-group">
+													<label for="collectionSelector" type="submit">Filter by:</label>
+													<select class="form-control" type="submit" id="collectionSelector" onchange="handleSelectChange(event)" aria-label="Select corpous to search within" role="menuitem">
+                          <optgroup label="Corpuses to search by">
+														<option value="0" selected>All Collections</option>
+														<option value="1">Conan</option>
+														<option value="2">CFR</option>
+														<option value="3">US Code</option>
+														<option value="4">Constitution</option>
+														<option value="5">Federal Rules</option>
+														<option value="6">FRAP</option>
+														<option value="7">FRBP</option>
+														<option value="8">FRCP</option>
+														<option value="9">FRCMP</option>
+														<option value="10">FRE</option>
+														<option value="11">Supct</option>
+														<option value="12">UCC</option>
+														<option value="13">States</option>
+														<option value="14">World</option>
+														<option value="15">Uniform</option>
+														<option value="16">Wex</option>
+														<option value="17">Supreme Court</option>
+														<option value="18">Women And Justice</option>
+														<option value="19">LII Supreme Court Bulletin</option>
+														<option value="20">Wiki</option>
+                          </optgroup>
+													</select>
+													<input aria-label="Select" id="submit-button" type="submit" style="display: none;">
+													</div>
+												</form>
+											</div>
+										</div>
+										<button type="button" class="btn btn-primary" onclick="findNowClickEvent()" aria-label="Find now"><span class="glyphicon glyphicon-search" aria-hidden="true" role="button"></span></button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div id="liinav" class="collapse navbar-collapse" role="menu">
+						<ul id="liiheadernav" class="nav navbar-nav" role="menubar" aria-hidden="false">
+							<li role="menuitem" aria-haspopup="true" class="menu-item dropdown dropdown-submenu">
+								<a href="https://www.law.cornell.edu/lii/about/about_lii" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">About
+									LII</a>
+								<ul role="menu" aria-hidden="true" class="dropdown-menu sub-menu">
+									<li role="menuitem">
+										<a href="https://www.law.cornell.edu/lii/about/who_we_are">Who We Are</a>
+									</li>
+									<li role="menuitem">
+										<a href="https://www.law.cornell.edu/lii/about/what_we_do">What We Do</a>
+									</li>
+									<li role="menuitem">
+										<a href="https://www.law.cornell.edu/lii/about/who_pays_for_this">Who Pays For This</a>
+									</li>
+									<li role="menuitem">
+										<a href="https://www.law.cornell.edu/lii/about/contact_us">Contact Us</a>
+									</li>
+								</ul>
+							</li>
+							<li role="menuitem" aria-haspopup="true" class="menu-item dropdown dropdown-submenu">
+								<a href="https://www.law.cornell.edu/lii/get_the_law" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">Get the
+									law</a>
+								<ul role="menu" aria-hidden="true" class="dropdown-menu sub-menu">
+									<li role="menuitem">
+										<a title="U.S. Constitution" href="https://www.law.cornell.edu/constitution">Constitution</a>
+									</li>
+									<li role="menuitem">
+										<a title="Supreme Court" href="https://www.law.cornell.edu/supremecourt/text/home">Supreme Court</a>
+									</li>
+									<li role="menuitem">
+										<a title="U.S. Code" href="https://www.law.cornell.edu/uscode/text">U.S. Code</a>
+									</li>
+									<li role="menuitem">
+										<a title="C.F.R." href="https://www.law.cornell.edu/cfr/text">CFR</a>
+									</li>
+									<li role="menuitem" aria-haspopup="true" class="menu-item dropdown dropdown-submenu">
+										<a title="Federal Rules" href="https://www.law.cornell.edu/rules" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">Federal Rules</a>
+										<ul role="menu" aria-hidden="true" class="dropdown-menu submenu-menu">
+											<li role="menuitem">
+												<a href="https://www.law.cornell.edu/rules/frap">Federal Rules of Appellate Procedure</a>
+											</li>
+											<li role="menuitem">
+												<a href="https://www.law.cornell.edu/rules/frcp">Federal Rules of Civil Procedure</a>
+											</li>
+											<li role="menuitem">
+												<a href="https://www.law.cornell.edu/rules/frcrmp">Federal Rules of Criminal Procedure</a>
+											</li>
+											<li role="menuitem">
+												<a href="https://www.law.cornell.edu/rules/fre">Federal Rules of Evidence</a>
+											</li>
+											<li role="menuitem">
+												<a href="https://www.law.cornell.edu/rules/frbp">Federal Rules of Bankruptcy Procedure</a>
+											</li>
+										</ul>
+									</li>
+									<li role="menuitem">
+										<a title="U.C.C." href="https://www.law.cornell.edu/ucc">U.C.C.</a>
+									</li>
+									<li aria-haspopup="true" class="menu-item dropdown dropdown-submenu">
+										<a title="Law by jurisdiction" href="fourth_amendment#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">Law by jurisdiction</a>
+										<ul role="menu" class="dropdown-menu submenu-menu">
+											<li role="menuitem">
+												<a href="https://www.law.cornell.edu/states">State law</a>
+											</li>
+											<li role="menuitem">
+												<a href="https://www.law.cornell.edu/uniform">Uniform laws</a>
+											</li>
+											<li role="menuitem">
+												<a href="https://www.law.cornell.edu/federal">Federal law</a>
+											</li>
+											<li role="menuitem">
+												<a href="https://www.law.cornell.edu/world">World law</a>
+											</li>
+										</ul>
+									</li>
+								</ul>
+							</li>
+							<li role="menuitem">
+								<a href="https://lawyers.law.cornell.edu/">Lawyer directory</a>
+							</li>
+							<li role="menuitem" class="menu-item dropdown dropdown-submenu">
+								<a href="https://www.law.cornell.edu/wex" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">Legal encyclopedia</a>
+								<ul role="menu" class="dropdown-menu sub-menu">
+									<li role="menuitem">
+										<a href="https://www.law.cornell.edu/wex/category/business_law">Business law</a>
+									</li>
+									<li role="menuitem">
+										<a href="https://www.law.cornell.edu/wex/category/constitutional_law">Constitutional law</a>
+									</li>
+									<li role="menuitem">
+										<a href="https://www.law.cornell.edu/wex/category/criminal_law_and_procedure">Criminal law</a>
+									</li>
+									<li role="menuitem">
+										<a href="https://www.law.cornell.edu/wex/category/family_law">Family law</a>
+									</li>
+									<li role="menuitem">
+										<a href="https://www.law.cornell.edu/wex/category/employment_law">Employment law</a>
+									</li>
+									<li role="menuitem">
+										<a href="https://www.law.cornell.edu/wex/category/money_and_financial_problems">Money and Finances</a>
+									</li>
+
+									<li role="menuitem">
+										<a href="https://www.law.cornell.edu/wex/wex_articles">More...</a>
+									</li>
+								</ul>
+							</li>
+							<li role="menuitem" class="menu-item dropdown dropdown-submenu">
+								<a href="https://www.law.cornell.edu/lii/help_out" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">Help out</a>
+								<ul role="menu" class="dropdown-menu sub-menu">
+									<li role="menuitem" aria-hidden="true">
+										<a href="https://www.law.cornell.edu/donate">Give</a>
+									</li>
+									<li role="menuitem"aria-hidden="true">
+										<a href="https://www.law.cornell.edu/lii/help_out/sponsor">Sponsor</a>
+									</li>
+									<li role="menuitem">
+										<a href="https://www.law.cornell.edu/lii/help_out/advertise">Advertise</a>
+									</li>
+									<li role="menuitem">
+										<a href="https://www.law.cornell.edu/lii/help_out/create">Create</a>
+									</li>
+									<li role="menuitem">
+										<a href="https://www.law.cornell.edu/lii/help_out/promote">Promote</a>
+									</li>
+									<li role="menuitem">
+										<a href="https://www.law.cornell.edu/lii/help_out/join_directory">Join Lawyer Directory</a>
+									</li>
+								</ul>
+							</li>
+						</ul>
+						<ul id="liinavsoc" class="nav navbar-nav navbar-right">
+							<li>
+								<!-- Go to www.addthis.com/dashboard to customize your tools -->
+								<div class="addthis_horizontal_follow_toolbox"></div>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<!-- /liinavbarstuff -->
+			</nav>
+		</div>
+	</div>
+<!-- /include header -->
+<!-- /.container-->
+</header>
+<br><br>
+<!-- Corpus specific breadcrumb here -->
+<div id="breadcrumb" class="container-fluid">
+	<div class="row">
+		<div class="navbar-header">
+			<nav aria-label="breadcrumb" class="bc-icons-2">
+				<ol class="breadcrumb">
+					<!-- <li class="breadcrumb-item"><a href="/">LII</a></li>
+								<li class="breadcrumb-item"><a href="/wex">Wex</a></li>	 -->
+					
+					
+						
+							<li class="breadcrumb-item"><a href="https://www.law.cornell.edu">LII</a></li>
+						
+					 
+						
+							<li class="breadcrumb-item"><a href="https://www.law.cornell.edu/wex">Wex</a></li>
+						
+					 
+						 <!-- The LAST breadcrumb item does NOT get an 'ahref' applied to it. Also, add style so it is different -->
+							<li class="breadcrumb-item breadcrumb-last">Fourth Amendment</li>
+						
+					 
+				</ol>
+			</nav>
+		</div>
+	</div>
+</div>
+<!--End Corpus specific breadcrumb here -->
+
+<main id="main" class="container-fluid">
+	<div id="content" class="col-sm-8">
+		<div class="pagewrapper">
+			<div class="container-fluid">
+				<div class="row">
+					<!-- Definitions popover -->
+					<div title="Definitions Frame"></div>
+					
+					<!-- Corpus specific content here id="iframeDefinitionsHolder" -->
+					<div id="extracted-content">
+<a id="main-content"></a>
+<h1 class="title" id="page-title">Fourth Amendment</h1>
+<!-- here if we decide to print the summary in the page display 
+             -->
+<h2 class="element-invisible">Primary tabs</h2>
+<div id="content1">
+<article about="/wex/fourth_amendment" class="node-7100 node node-wex-cck en view-mode-full clearfix" typeof="sioc:Item foaf:Document">
+<header>
+<span class="rdf-meta element-hidden" content="Fourth Amendment" property="dc:title"></span>
+</header>
+<div class="field field-name-body field-type-text-with-summary field-label-hidden">
+<div class="field-items">
+<div class="field-item even" property="content:encoded"><h2>Overview</h2>
+<h3>I. INTERESTS PROTECTED</h3>
+<p>The <a aria-label="constitution - fourth amendment" href="https://www.law.cornell.edu/constitution/fourth_amendment">Fourth Amendment</a> of the <a aria-label="U.S. Constitution from LII" href="https://www.law.cornell.edu/constitution">U.S. Constitution</a> provides that "[t]he right of the people to be secure in their persons, houses, papers, and effects, against <a aria-label="wex - unreasonable search and seizure" href="https://www.law.cornell.edu/wex/unreasonable_search_and_seizure">unreasonable searches and seizures</a>, shall not be violated, and no <a aria-label="wex - warrant" href="https://www.law.cornell.edu/wex/warrant">Warrants</a> shall issue, but upon <a aria-label="wex - probable cause" href="https://www.law.cornell.edu/wex/probable_cause">probable cause</a>, supported by Oath or affirmation, and particularly describing the place to be <a aria-label="wex - search 0" href="https://www.law.cornell.edu/wex/search_0">searched</a>, and the persons or things to be <a aria-label="wex - seizure" href="https://www.law.cornell.edu/wex/seizure">seized</a>."</p>
+<p>The ultimate goal of this provision is to protect people’s <a aria-label="wex - right to privacy" href="https://www.law.cornell.edu/wex/right_to_privacy">right to privacy</a> and freedom from unreasonable intrusions by the government. However, the Fourth Amendment does not guarantee protection from all searches and seizures, but only those done by the government and deemed unreasonable under the law.</p>
+<p>To claim violation of Fourth Amendment as the basis for suppressing a relevant evidence, the court had long required that the claimant must prove that he himself was the victim of an invasion of privacy to have a valid <a aria-label="wex - standing" href="https://www.law.cornell.edu/wex/standing">standing</a> to claim protection under the Fourth Amendment. However, the Supreme Court has departed from such requirement, issue of exclusion is to be determined solely upon a resolution of the substantive question whether the claimant's Fourth Amendment rights have been violated, which in turn requires that the claimant demonstrates a justifiable <a aria-label="wex - expectation of privacy" href="https://www.law.cornell.edu/wex/expectation_of_privacy">expectation of privacy</a>, which was arbitrarily violated by the government.</p>
+<p>In general, most warrantless searches of private premises are prohibited under the Fourth Amendment, unless specific exception applies. For instance, a warrantless search may be lawful, if an officer has asked and is given consent to search; if the search is incident to a lawful arrest; if there is probable cause to search and there is exigent circumstance calling for the warrantless search. Exigent circumstances exist in situations where a situation where people are in imminent danger, where <a aria-label="Evidence (law)" href="https://en.wikipedia.org/wiki/Evidence_(law)" title="Evidence (law)">evidence</a> faces imminent destruction, or prior to a <a aria-label="Suspect" href="https://en.wikipedia.org/wiki/Suspect" title="Suspect">suspect</a>'s imminent escape.</p>
+<p>On the other hand, warrantless search and seizure of properties are not illegal, if the objects being searched are in plain view. Further, warrantless seizure of abandoned property, or of properties on an open field do not violate Fourth Amendment, because it is considered that having expectation of privacy right to an abandoned property or to properties on an open field is not reasonable.<br/>
+	However, in some states, there are some exception to this limitation, where some state authorities have granted protection to open fields. States can always establish higher standards for <a aria-label="wex - search and seizure" href="https://www.law.cornell.edu/wex/search_and_seizure">searches and seizures</a> protection than what is required by the Fourth Amendment, but states cannot allow conducts that violate the Fourth Amendment.</p>
+<p>Where there was a violation of one’s fourth amendment rights by federal officials, A <a aria-label="wex - bivens actions" href="https://www.law.cornell.edu/wex/bivens_actions">bivens action</a> can be filed against federal law enforcement officials for damages, resulting from an unlawful <a aria-label="wex - search and seizure" href="https://www.law.cornell.edu/wex/search_and_seizure">search and seizure</a>. Under the Bivens action, the claimant needs to prove that there has been a constitutional violation of the fourth amendment rights by federal officials acting under the color of law.</p>
+<p>However, the protection under the Fourth Amendment can be waived if one voluntarily <a aria-label="wex - consent%5d" href="https://www.law.cornell.edu/wex/consent%5d">consents</a> to or does not object to evidence collected during a <a aria-label="wex - warrant" href="https://www.law.cornell.edu/wex/warrant">warrantless</a> <a aria-label="wex - search and seizure" href="https://www.law.cornell.edu/wex/search_and_seizure">search or seizure</a>.</p>
+<h3>II. SEARCHES AND SEIZURES UNDER FOURTH AMENDMENT</h3>
+<p>The courts must determine what constitutes a <a aria-label="wex - search and seizure" href="https://www.law.cornell.edu/wex/search_and_seizure">search or seizure</a> under the Fourth Amendment. If the conduct challenged does not fall within the Fourth Amendment, the individual will not enjoy protection under Fourth Amendment.</p>
+<h4>A. Search</h4>
+<p>A <a aria-label="wex - search 0" href="https://www.law.cornell.edu/wex/search_0">search</a> under Fourth Amendment occurs when a governmental employee or agent of the government violates an individual's reasonable <a aria-label="wex - expectation of privacy" href="https://www.law.cornell.edu/wex/expectation_of_privacy">expectation of privacy</a>.</p>
+<p><a aria-label="wex - strip search" href="https://www.law.cornell.edu/wex/strip_search">Strip searches</a> and visual body cavity searches, including anal or genital inspections, constitute <a aria-label="wex - reasonable" href="https://www.law.cornell.edu/wex/reasonable">reasonable</a> searches under the Fourth Amendment when supported by <a aria-label="wex - probable cause" href="https://www.law.cornell.edu/wex/probable_cause">probable cause</a> and conducted in a <a aria-label="wex - reasonable" href="https://www.law.cornell.edu/wex/reasonable">reasonable</a> manner.</p>
+<p>A <a aria-label="wex - dog sniff inspection" href="https://www.law.cornell.edu/wex/dog_sniff_inspection">dog-sniff inspection</a> is invalid under the Fourth Amendment if the the inspection violates a reasonable <a aria-label="wex - expectation of privacy" href="https://www.law.cornell.edu/wex/expectation_of_privacy">expectation of privacy</a>. <a aria-label="wex - electronic surveillance" href="https://www.law.cornell.edu/wex/electronic_surveillance">Electronic surveillance</a> is also considered a <a aria-label="wex - search 0" href="https://www.law.cornell.edu/wex/search_0">search</a> under the Fourth Amendment.</p>
+<h4>B. Seizure of a Person</h4>
+<p>A <a aria-label="wex - seizure" href="https://www.law.cornell.edu/wex/seizure">seizure</a> of a person, within the meaning of the Fourth Amendment, occurs when the police's conduct would communicate to a <a aria-label="wex - reasonable person" href="https://www.law.cornell.edu/wex/reasonable_person">reasonable person</a>, taking into account the circumstances surrounding the encounter, that the person is not free to ignore the police presence and leave at his will.</p>
+<p>Two elements must be present to constitute a <a aria-label="wex - seizure" href="https://www.law.cornell.edu/wex/seizure">seizure</a> of a person. First, there must be a show of authority by the police officer. Presence of handcuffs or weapons, the use of forceful language, and physical contact are each strong indicators of authority. Second, the person being <a aria-label="wex - seizure" href="https://www.law.cornell.edu/wex/seizure">seized</a> must submit to the authority. An individual who ignores the officer’s request and walks away has not been <a aria-label="wex - seizure" href="https://www.law.cornell.edu/wex/seizure">seized</a> for Fourth Amendment purposes.</p>
+<p>An arrest warrant is preferred but not required to make a lawful <a aria-label="wex - arrest" href="https://www.law.cornell.edu/wex/arrest">arrest</a> under the Fourth Amendment. A <a aria-label="wex - warrant" href="https://www.law.cornell.edu/wex/warrant">warrantless</a> arrest may be justified where <a aria-label="wex - probable cause" href="https://www.law.cornell.edu/wex/probable_cause">probable cause</a> and urgent need are present prior to the arrest. <a aria-label="wex - probable cause" href="https://www.law.cornell.edu/wex/probable_cause">Probable cause</a> is present when the police officer has a <a aria-label="wex - reasonable belief" href="https://www.law.cornell.edu/wex/reasonable_belief">reasonable belief</a> in the guilt of the suspect based on the facts and information prior to the <a aria-label="wex - arrest" href="https://www.law.cornell.edu/wex/arrest">arrest</a>. For instance, a <a aria-label="wex - warrant" href="https://www.law.cornell.edu/wex/warrant">warrantless</a> <a aria-label="wex - arrest" href="https://www.law.cornell.edu/wex/arrest">arrest</a> may be legitimate in situations where a police officer has a probable belief that a suspect has either committed a crime or is a threat to the public security. Also, a police officer might arrest a suspect to prevent the suspect’s escape or to preserve evidence. A <a aria-label="wex - warrant" href="https://www.law.cornell.edu/wex/warrant">warrantless</a> arrest may be invalidated if the police officer fails to demonstrate <a aria-label="wex - exigent circumstances" href="https://www.law.cornell.edu/wex/exigent_circumstances">exigent circumstances</a>.</p>
+<p>The ability to make warrantless arrests are commonly limited by <a aria-label="wex - statute" href="https://www.law.cornell.edu/wex/statute">statutes</a> subject to the due process guaranty of the U.S. Constitution. A suspect arrested without a warrant is entitled to <a aria-label="wex - prompt judicial determination" href="https://www.law.cornell.edu/wex/prompt_judicial_determination">prompt judicial determination</a>, usually within 48 hours.</p>
+<p>There are <a aria-label="wex - investigatory stops" href="https://www.law.cornell.edu/wex/investigatory_stops">investigatory stops</a> that fall short of <a aria-label="wex - arrest" href="https://www.law.cornell.edu/wex/arrest">arrests</a>, but nonetheless, they fall within Fourth Amendment protection. For instance, police officers can perform a <a aria-label="wex - terry stop stop and frisk" href="https://www.law.cornell.edu/wex/terry_stop_stop_and_frisk">terry stop</a> or a <a aria-label="wex - traffic stop" href="https://www.law.cornell.edu/wex/traffic_stop">traffic stop</a>. Usually, these stops provide officers with less dominion and controlling power and impose less of an infringement of personal liberty for individual stopped. <a aria-label="wex - investigatory stops" href="https://www.law.cornell.edu/wex/investigatory_stops">Investigatory stops</a> must be temporary questioning for limited purposes and conducted in a manner necessary to fulfill the purpose.</p>
+<p>An officer’s <a aria-label="wex - reasonable suspicion" href="https://www.law.cornell.edu/wex/reasonable_suspicion">reasonable suspicion</a> is sufficient to justify brief stops and detentions. To determine if the officer has met the standard to justify the <a aria-label="wex - seizure" href="https://www.law.cornell.edu/wex/seizure">seizure</a>, the court takes into account the totality of the circumstances and examines whether the officer has a particularized and <a aria-label="wex - reasonable belief" href="https://www.law.cornell.edu/wex/reasonable_belief">reasonable belief</a> for suspecting the wrongdoing. <a aria-label="wex - probable cause" href="https://www.law.cornell.edu/wex/probable_cause">Probable cause</a> gained during stops or detentions might effectuate a subsequent <a aria-label="wex - warrant" href="https://www.law.cornell.edu/wex/warrant">warrantless</a> <a aria-label="wex - arrest" href="https://www.law.cornell.edu/wex/arrest">arrest</a>.</p>
+<h4>C. Seizure of Property</h4>
+<p>A <a aria-label="wex - seizure" href="https://www.law.cornell.edu/wex/seizure">seizure</a> of <a aria-label="wex - property" href="https://www.law.cornell.edu/wex/property">property</a>, within the meaning of the Fourth Amendment, occurs when there is some meaningful interference with an individual’s <a aria-label="wex - possessory interest" href="https://www.law.cornell.edu/wex/possessory_interest">possessory interests</a> in the property.</p>
+<p>In some circumstances, <a aria-label="wex - warrant" href="https://www.law.cornell.edu/wex/warrant">warrantless</a> <a aria-label="wex - seizure" href="https://www.law.cornell.edu/wex/seizure">seizures</a> of objects in <a aria-label="wex - plain view doctrine 0" href="https://www.law.cornell.edu/wex/plain_view_doctrine_0">plain view</a> do not constitute <a aria-label="wex - seizure" href="https://www.law.cornell.edu/wex/seizure">seizures</a> within the meaning of Fourth Amendment. When executing a <a aria-label="wex - search warrant" href="https://www.law.cornell.edu/wex/search_warrant">search warrant</a>, an officer might be able to <a aria-label="wex - seizure" href="https://www.law.cornell.edu/wex/seizure">seize</a> an item observed in <a aria-label="wex - plain view doctrine 0" href="https://www.law.cornell.edu/wex/plain_view_doctrine_0">plain view</a> even if it is not specified in the <a aria-label="wex - warrant" href="https://www.law.cornell.edu/wex/warrant">warrant</a>.</p>
+<h3>III. WARRANT REQUIREMENT</h3>
+<p>A <a aria-label="wex - search and seizure" href="https://www.law.cornell.edu/wex/search_and_seizure">search or seizure</a> is generally <a aria-label="wex - unreasonable search and seizure" href="https://www.law.cornell.edu/wex/unreasonable_search_and_seizure">unreasonable</a> and illegal without a <a aria-label="wex - warrant" href="https://www.law.cornell.edu/wex/warrant">warrant</a>, subject to only a few exceptions.</p>
+<p>To obtain a <a aria-label="wex - search warrant" href="https://www.law.cornell.edu/wex/search_warrant">search warrant</a> or <a aria-label="wex - arrest warrant" href="https://www.law.cornell.edu/wex/arrest_warrant">arrest warrant</a>, the law enforcement officer must demonstrate <a aria-label="wex - probable cause" href="https://www.law.cornell.edu/wex/probable_cause">probable cause</a> that a <a aria-label="wex - search and seizure" href="https://www.law.cornell.edu/wex/search_and_seizure">search or seizure</a> is justified. A court-authority, usually a <a aria-label="wex - magistrate" href="https://www.law.cornell.edu/wex/magistrate">magistrate</a>, will consider the totality of circumstances to determine whether to issue the <a aria-label="wex - warrant" href="https://www.law.cornell.edu/wex/warrant">warrant</a>.</p>
+<p>The <a aria-label="wex - warrant" href="https://www.law.cornell.edu/wex/warrant">warrant</a> requirement may be excused in <a aria-label="wex - exigent circumstances" href="https://www.law.cornell.edu/wex/exigent_circumstances">exigent circumstances</a> if an officer has <a aria-label="wex - probable cause" href="https://www.law.cornell.edu/wex/probable_cause">probable cause</a> and obtaining a <a aria-label="wex - warrant" href="https://www.law.cornell.edu/wex/warrant">warrant</a> is impractical in the particular situation. For instance, in State v. Helmbright, 990 N.E.2d 154, Ohio court held that a <a aria-label="wex - warrant" href="https://www.law.cornell.edu/wex/warrant">warrantless</a> <a aria-label="Wex: search and seizure" href="https://www.law.cornell.edu/wex/search_and_seizure">search</a> of probationer's person or his place of residence is not violation of the Fourth Amendment, if the officer who conducts the <a aria-label="wex - search 0" href="https://www.law.cornell.edu/wex/search_0">search</a> possesses “<a aria-label="wex - reasonable" href="https://www.law.cornell.edu/wex/reasonable">reasonable</a> grounds” to believe that the probationer has failed to comply with the terms of his <a aria-label="wex - probation" href="https://www.law.cornell.edu/wex/probation">probation</a>.</p>
+<p>Other well-established exceptions to the <a aria-label="wex - warrant" href="https://www.law.cornell.edu/wex/warrant">warrant</a> requirement include consensual searches, certain brief <a aria-label="wex - investigatory stops" href="https://www.law.cornell.edu/wex/investigatory_stops">investigatory stops</a>, searches incident to a valid <a aria-label="wex - arrest" href="https://www.law.cornell.edu/wex/arrest">arrest</a>, and seizures of items in <a aria-label="wex - plain view doctrine 0" href="https://www.law.cornell.edu/wex/plain_view_doctrine_0">plain view</a>.</p>
+<p>There is no general exception to the Fourth Amendment <a aria-label="wex - warrant" href="https://www.law.cornell.edu/wex/warrant">warrant</a> requirement in national security cases. Warrantless searches are generally not permitted in exclusively domestic security cases. In foreign security cases, court opinions might differ on whether to accept the foreign security exception to the warrant requirement generally and, if accepted, whether the exception should extend to both physical searches and to electronic surveillances.</p>
+<h3>IV. REASONABLENESS REQUIREMENT</h3>
+<p>All <a aria-label="wex - search and seizure" href="https://www.law.cornell.edu/wex/search_and_seizure">searches and seizures</a> under <a aria-label="constitution - fourth amendment" href="https://www.law.cornell.edu/constitution/fourth_amendment">Fourth Amendment </a>must be <a aria-label="wex - reasonable" href="https://www.law.cornell.edu/wex/reasonable">reasonable</a>. No <a aria-label="wex - excessive force" href="https://www.law.cornell.edu/wex/excessive_force">excessive force</a> shall be used. <a aria-label="wex - reasonable" href="https://www.law.cornell.edu/wex/reasonable">Reasonableness</a> is the ultimate measure of the constitutionality of a <a aria-label="wex - search and seizure" href="https://www.law.cornell.edu/wex/search_and_seizure">search or seizure</a>. <a aria-label="wex - search and seizure" href="https://www.law.cornell.edu/wex/search_and_seizure">Searches and seizures</a> with the <a aria-label="wex - warrant" href="https://www.law.cornell.edu/wex/warrant">warrant</a> must also satisfy the <a aria-label="wex - reasonable" href="https://www.law.cornell.edu/wex/reasonable">reasonableness</a> requirement.</p>
+<p>On the other hand, <a aria-label="wex - warrant" href="https://www.law.cornell.edu/wex/warrant">warrantless</a> <a aria-label="wex - search and seizure" href="https://www.law.cornell.edu/wex/search_and_seizure">searches and seizures</a> are <a aria-label="wex - presumption" href="https://www.law.cornell.edu/wex/presumption">presumed</a> to be <a aria-label="wex - unreasonable search and seizure" href="https://www.law.cornell.edu/wex/unreasonable_search_and_seizure">unreasonable</a>, unless they fall within the few exceptions.</p>
+<p>In cases of <a aria-label="wex - warrant" href="https://www.law.cornell.edu/wex/warrant">warrantless</a> <a aria-label="wex - search and seizure" href="https://www.law.cornell.edu/wex/search_and_seizure">searches and seizures</a>, the court will try to balance the degree of intrusion on the individual’s <a aria-label="wex - right to privacy" href="https://www.law.cornell.edu/wex/right_to_privacy">right to privacy</a> and the need to promote government interests and special needs in exigent circumstances. The court will examine the totality of the circumstances to determine if the <a aria-label="wex - search and seizure" href="https://www.law.cornell.edu/wex/search_and_seizure">search or seizure</a> was justified. When analyzing the <a aria-label="wex - reasonable" href="https://www.law.cornell.edu/wex/reasonable">reasonableness</a> standard, the court uses an objective assessment and considers factors including the degree of intrusion by the <a aria-label="wex - search and seizure" href="https://www.law.cornell.edu/wex/search_and_seizure">search or seizure</a> and the manner in which the <a aria-label="wex - search and seizure" href="https://www.law.cornell.edu/wex/search_and_seizure">search or seizure</a> is conducted.</p>
+<h3><br/>
+	V. EXCLUSIONARY RULE</h3>
+<p>Under the <a aria-label="wex - exclusionary rule" href="https://www.law.cornell.edu/wex/exclusionary_rule">exclusionary rule</a>, any evidence obtained in violation of the Fourth Amendment will be excluded from criminal proceedings. There are a few exceptions to this rule.</p>
+<h3>VI. ELECTRONIC SURVEILLANCE</h3>
+<p>In recent years, the Fourth Amendment's applicability in <a aria-label="wex - electronic surveillance" href="https://www.law.cornell.edu/wex/electronic_surveillance">electronic searches</a> and seizures has received much attention from the courts. With the advent of the internet and increased popularity of computers, there has been an increasing amount of crime occurring electronically. Consequently, evidence of such crime can often be found on computers, hard drives, or other electronic devices. The Fourth Amendment applies to the <a aria-label="wex - search 0" href="https://www.law.cornell.edu/wex/search_0">search</a><a aria-label="wex - search and seizure" href="https://www.law.cornell.edu/wex/search_and_seizure"> and seizure</a> of electronic devices.</p>
+<p>Many <a aria-label="wex - electronic surveillance" href="https://www.law.cornell.edu/wex/electronic_surveillance">electronic search</a> cases involve whether law enforcement can <a aria-label="wex - search 0" href="https://www.law.cornell.edu/wex/search_0">search</a> a company-owned computer that an employee uses to conduct business. Although the case law is split, the majority holds that employees do not have a legitimate <a aria-label="wex - expectation of privacy" href="https://www.law.cornell.edu/wex/expectation_of_privacy">expectation of privacy</a> with regard to information stored on a company-owned computer. In the 2010 case of <a aria-label="supremecourt - docket 08-1332.ZS" href="https://www.law.cornell.edu/supct/html/08-1332.ZS.html">City of Ontario v. Quon</a> (08-1332), the <a aria-label="wex - supreme court" href="https://www.law.cornell.edu/wex/supreme_court">Supreme Court</a> extended this lack of an <a aria-label="wex - expectation of privacy" href="https://www.law.cornell.edu/wex/expectation_of_privacy">expectation of privacy</a> to text messages sent and received on an employer-owned pager.</p>
+<p>Lately, <a aria-label="wex - electronic surveillance" href="https://www.law.cornell.edu/wex/electronic_surveillance">electronic surveillance and wiretapping</a> has also caused a significant amount of Fourth Amendment litigation.</p>
+<h3>VII. THE USA PATRIOT ACT</h3>
+<p>Following the September 11, 2001 attacks on the World Trade Center and the Pentagon, Congress and the President enacted legislation to strengthen the intelligence gathering community’s ability to combat domestic terrorism. Entitled the <a aria-label="wex - patriot act" href="https://www.law.cornell.edu/wex/patriot_act">USA Patriot Act</a>, the legislation’s provisions aimed to increase the ability of law enforcement to <a aria-label="wex - search 0" href="https://www.law.cornell.edu/wex/search_0">search</a> email and telephonic communications in addition to medical, financial, and library records.</p>
+<p>One provision permits law enforcement to obtain access to stored voicemails by obtaining a basic <a aria-label="wex - search warrant" href="https://www.law.cornell.edu/wex/search_warrant">search warrant</a> rather than a surveillance <a aria-label="wex - warrant" href="https://www.law.cornell.edu/wex/warrant">warrant</a>. Obtaining a basic <a aria-label="wex - search warrant" href="https://www.law.cornell.edu/wex/search_warrant">search warrant</a> requires a much lower evidentiary showing. A highly controversial provision of the Act includes permission for law enforcement to use sneak-and-peak warrants. A sneak-and-peak warrant is a warrant in which law enforcement can delay notifying the property owner about the warrant’s issuance. In an Oregon federal district court case that drew national attention, Judge Ann Aiken struck down the use of sneak-and-peak warrants as unconstitutional and in violation of the Fourth Amendment. See 504 F.Supp.2d 1023 (D. Or. 2007).</p>
+<p>The Patriot Act also expanded the practice of using <a aria-label="wex - national security letter" href="https://www.law.cornell.edu/wex/national_security_letter">National Security Letters (NSL)</a>. An NSL is an administrative <a aria-label="wex - subpoena" href="https://www.law.cornell.edu/wex/subpoena">subpoena</a> that requires certain persons, groups, organizations, or companies to provide documents about certain persons. These documents typically involve telephone, email, and financial records. NSLs also carry a <a aria-label="wex - gag order" href="https://www.law.cornell.edu/wex/gag_order">gag order</a>, meaning the person or persons responsible for complying cannot mention the existence of the NSL. Under the <a aria-label="wex - patriot act" href="https://www.law.cornell.edu/wex/patriot_act">Patriot Act</a> provisions, law enforcement can use NSLs when investigating U.S. citizens, even when law enforcement does not think the individual under investigation has committed a crime. The <a aria-label="wex - department of homeland security dhs" href="https://www.law.cornell.edu/wex/department_of_homeland_security_dhs">Department of Homeland Security</a> has used NSLs frequently since its inception. By using an <a aria-label="wex - national security letter" href="https://www.law.cornell.edu/wex/national_security_letter">NSL</a>, an agency has no responsibility to first obtain a <a aria-label="wex - warrant" href="https://www.law.cornell.edu/wex/warrant">warrant</a> or <a aria-label="wex - court order" href="https://www.law.cornell.edu/wex/court_order">court order</a> before conducting its <a aria-label="wex - search 0" href="https://www.law.cornell.edu/wex/search_0">search</a> of records.</p>
+<p>Another aspect of the Patriot Act, which has been highly confidential was the Telephone Metadata program, which under § 215 of the Patriot Act, had allowed the NSA to collect data about Americans’ telephone calls in bulk, was reviewed by the Second Circuit in <a aria-label="ACLU v. Clapper from www.courtlistener.com" href="https://www.courtlistener.com/opinion/2799236/aclu-v-clapper/">ACLU v. Clapper</a>, in which the court held the Telephone Metadata program illegal under the Congress’ original intent under the §215.</p>
+<p>The Patriot Act has expired in mid-2015, and since June 2nd, 2015 has been repackaged under the USA Freedom Act. Although it remains to be seen how the Freedom Act will be interpreted, with respect to the Fourth Amendment protections, the new Act selectively re-authorized the Patriot Act, while banning the bulk collection of data of American’s telephone records and internet metadata and limited the government’s data collection to the “greatest extent reasonably practical” meaning the government now cannot collect all data pertaining to a particular service provider or broad geographic region.</p>
+<h3>VIII. FORTH AMENDMENT AND SUPERVISED RELEASE/PAROLE</h3>
+<p>Probationers—convicted criminal offender who is released into the community under supervision of a probation officer in lieu of incarceration; or parolees—convicts who have served a portion of his judicially imposed sentence in penal institutions, and is released for the remainder of the sentence under supervision of a parole officer for good behavior—can also assert fourth amendment rights, creating a potential confrontation between fundamental constitutional guarantee and the society’s legitimate interest in correctional programs to prevent the convicts from lapsing back into a crime.</p>
+<p>Traditionally, courts have struggled with various theories of parole and probation to justify the complete denial of fourth amendment rights to the convicts on <a aria-label="uscode - 18 USC 3583" href="https://www.law.cornell.edu/uscode/text/18/3583">supervised release</a> or probation. The most prevalent of the theories was the “Custody Theory,” under which an offender was said to be entitled to no more liberty than he would have enjoyed had he been incarcerated. Recently, however, this rationale was rejected by <a aria-label="Morrissey v. Brewer from supreme.justia.com" href="https://supreme.justia.com/cases/federal/us/408/471/">Morrissey v. Brewer</a>, which emphasized that the parolee’s status more closely resembles that of an ordinary citizen than a prisoner. While the Court noted that since parole revocation only changed the type of penalty imposed on an already-convicted criminal, the Court need not afford the parolees “the full panoply of rights” available under the fourteenth amendment to a free man facing criminal prosecution, the Court held that certain procedural protections must be guaranteed to the parolees facing revocation of the parole. In general, the released offenders now have been afforded full Fourth Amendment protection with respect to searches performed by the law enforcement officials, and warrantless searches conducted by correctional officers at the request of the police have also been declared unlawful.</p>
+<p>However, in reviewing the searches undertaken by the correctional officers on their own initiative, some courts have modified the traditional Fourth Amendment protections to accommodate the correctional officers’ informational needs, developing a modified “Reasonable Belief” standard, under which the correctional officer is permitted to make a showing of less than probable cause in order to justify the intrusion of privacy into the released offender.</p>
+<p><em>Last Edited by Jonathan Kim, June 2017</em></p>
+</div>
+</div>
+</div>
+<div class="field field-name-field-resources field-type-text-long field-label-hidden">
+<div class="field-items">
+<div class="field-item even"><h2>menu of sources</h2>
+<h3>Federal Material</h3>
+<h4>U.S. Constitution and Federal Statutes</h4>
+<ul>
+<li><a aria-label="U.S. Constitution from LII" href="https://www.law.cornell.edu/constitution">U.S. Constitution</a></li>
+<li>U.S. Code: <a aria-label="uscode - 18 USC" href="https://www.law.cornell.edu/uscode/text/18">18 U.S.C.</a> - Crimes and Criminal Procedure</li>
+<li><a aria-label="anncon - index ?query=%22criminal%20procedure%22" href="https://www.law.cornell.edu/anncon/search/index.html?query=%22criminal%20procedure%22">CRS Annotated Constitution</a></li>
+</ul>
+<h4>Federal Court Rules</h4>
+<ul>
+<li><a aria-label="federal_rules - Criminal Procedure" href="https://www.law.cornell.edu/rules/frcrmp/">Federal Rules of Criminal Procedure</a></li>
+<li><a aria-label="federal_rules - Evidence" href="https://www.law.cornell.edu/rules/fre/">Federal Rules of Evidence</a></li>
+</ul>
+<h4>Federal Judicial Decisions</h4>
+<ul>
+<li>U.S. Supreme Court:
+		<ul>
+<li>Recent Criminal Procedure Decisions
+				<ul>
+<li><a aria-label="supremecourt - docket 06-8120.ZS" href="https://www.law.cornell.edu/supct/html/06-8120.ZS.html"><em>Brendlin v. California</em><em>, </em>551 U.S. ___ (2007) </a></li>
+<li><a aria-label="supremecourt - 547 U.S. 398" href="https://www.law.cornell.edu/supremecourt/text/547/398">Brigham City v. Stuart, 547 U.S. 398</a></li>
+<li><a aria-label="supremecourt - 547 U.S. 103" href="https://www.law.cornell.edu/supremecourt/text/547/103"><em>Georgia v. Randolph</em>, 547 U.S. 103 (2006)</a></li>
+<li><a aria-label="supremecourt - 547 U.S. 586" href="https://www.law.cornell.edu/supremecourt/text/547/586"><em>Hudson v. Michigan</em>, 547 U.S. 586 (2006)</a></li>
+<li><a aria-label="supremecourt - 547 U.S. 90" href="https://www.law.cornell.edu/supremecourt/text/547/90">United States v. Grubbs, 547 U.S. 90 (2006)</a></li>
+<li><a aria-label="supremecourt - index ?query=criminal+and+procedure" href="https://www.law.cornell.edu/supct/search/index.html?query=criminal+and+procedure">Important Criminal Procedure Decisions</a></li>
+</ul>
+</li>
+<li><a aria-label="supreme_court_bulletin - index ?query=criminal+and+procedure" href="https://www.law.cornell.edu/supct/cert/search/index.html?query=criminal+and+procedure">liibulletin Oral Argument Previews</a></li>
+</ul>
+</li>
+</ul>
+<h3>State Statutes</h3>
+<ul>
+<li>
+<p><a aria-label="topics - state statutes2  criminal procedure" href="https://www.law.cornell.edu/topics/state_statutes2.html#criminal_procedure">State criminal procedure statutes</a></p>
+</li>
+</ul>
+<h3>International Material</h3>
+<h4>Conventions and Treaties</h4>
+<ul>
+<li><a aria-label="Dealing with Human Rights from fletcher.tufts.edu" href="http://fletcher.tufts.edu/multi/humanRights.html">Dealing with Human Rights</a> (Including in the Criminal Justice Context)</li>
+</ul>
+<h3>Other References</h3>
+<h4>Key Internet Source</h4>
+<ul>
+<li><a aria-label="Rights of Suspects and Defendants from www.nolo.com" href="http://www.nolo.com/legal-encyclopedia/search-seizure/">Rights of Suspects and Defendants</a> (Nolo)</li>
+<li><a aria-label="ABA Criminal Justice Section, Committee on Criminal Procedure, Evidence and Police Practices Committee from www.abanet.org" href="http://www.abanet.org/dch/committee.cfm?com=CR207000">ABA Criminal Justice Section, Committee on Criminal Procedure, Evidence and Police Practices Committee</a></li>
+<li><a aria-label="Litigator's Internet Resource Guide: rules of court from www.llrx.com" href="http://www.llrx.com/courtrules">Litigator's Internet Resource Guide: rules of court</a></li>
+<li><a aria-label="Federal Judicial Center Publications from www.fjc.gov" href="http://www.fjc.gov/">Federal Judicial Center Publications</a></li>
+<li><a aria-label="Senate Judiciary Committee from judiciary.senate.gov" href="http://judiciary.senate.gov/">Senate Judiciary Committee</a></li>
+<li><a aria-label="House Judiciary Committee from judiciary.house.gov" href="http://judiciary.house.gov/">House Judiciary Committee</a></li>
+<li><a aria-label="Vera Institute of Justice from www.vera.org" href="http://www.vera.org/">Vera Institute of Justice</a></li>
+</ul>
+<h4>Useful Offnet (or Subscription - $) Sources</h4>
+<ul>
+<li>Good Starting Point in Print: Wayne R. LaFave &amp; Jerold H. Israel, <a aria-label="Hornbook on Criminal Procedure from west.thomson.com" href="http://west.thomson.com/productdetail/126964/17714897/productdetail.aspx"><em>Hornbook on Criminal Procedure</em></a>, West Group (2003)</li>
+</ul>
+<h2>other topics</h2>
+<ul>
+<li><a aria-label="wex - courts and procedure" href="https://www.law.cornell.edu/wex/category/courts_and_procedure">Category: Courts and Procedure</a></li>
+<li><a aria-label="wex - criminal justice" href="https://www.law.cornell.edu/wex/category/criminal_justice">Category: Criminal Justice</a></li>
+<li><a aria-label="wex - criminal procedure" href="https://www.law.cornell.edu/wex/criminal_procedure">Criminal Procedure</a></li>
+<li><a aria-label="wex - sentencing" href="https://www.law.cornell.edu/wex/sentencing">Sentencing</a></li>
+</ul></div>
+</div>
+</div>
+<div class="field field-name-taxonomy-vocabulary-7 field-type-taxonomy-term-reference field-label-above">
+<ul>
+<li class="field-label">wex    
+    <ul class="field-items">
+<li class="field-item even"><a aria-label="category: wex: CIVICS" datatype="" href="https://www.law.cornell.edu/wex/category/civics" property="rdfs:label skos:prefLabel" typeof="skos:Concept">CIVICS</a></li>
+<li class="field-item odd"><a aria-label="category: wex: the Constitution" datatype="" href="https://www.law.cornell.edu/wex/category/the_constitution" property="rdfs:label skos:prefLabel" typeof="skos:Concept">the Constitution</a></li>
+<li class="field-item even"><a aria-label="category: wex: THE LEGAL PROCESS" datatype="" href="https://www.law.cornell.edu/wex/category/the_legal_process" property="rdfs:label skos:prefLabel" typeof="skos:Concept">THE LEGAL PROCESS</a></li>
+<li class="field-item odd"><a aria-label="category: wex: courts" datatype="" href="https://www.law.cornell.edu/wex/category/courts" property="rdfs:label skos:prefLabel" typeof="skos:Concept">courts</a></li>
+<li class="field-item even"><a aria-label="category: wex: criminal procedure" datatype="" href="https://www.law.cornell.edu/wex/category/criminal_procedure" property="rdfs:label skos:prefLabel" typeof="skos:Concept">criminal procedure</a></li>
+<li class="field-item odd"><a aria-label="category: wex: civil procedure" datatype="" href="https://www.law.cornell.edu/wex/category/civil_procedure" property="rdfs:label skos:prefLabel" typeof="skos:Concept">civil procedure</a></li>
+<li class="field-item even"><a aria-label="category: wex: courts and procedure" datatype="" href="https://www.law.cornell.edu/wex/category/courts_and_procedure" property="rdfs:label skos:prefLabel" typeof="skos:Concept">courts and procedure</a></li>
+<li class="field-item odd"><a aria-label="category: wex: wex articles" datatype="" href="https://www.law.cornell.edu/wex/category/wex_articles" property="rdfs:label skos:prefLabel" typeof="skos:Concept">wex articles</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<ul class="links inline"><li class="translation_es first last"><a aria-label="wex - legislaci%C3%B3n sobre pesquisas y confiscaciones..." class="translation-link" href="https://www.law.cornell.edu/wex/es/legislaci%C3%B3n_sobre_pesquisas_y_confiscaciones_cuarta_enmienda" title="Legislación sobre pesquisas y confiscaciones cuarta enmienda">Español</a></li>
+</ul>
+</article>
+</div>
+</div>
+					<!--End Corpus specific content here -->
+				</div>
+			</div>
+		</div>
+		<!-- botton ad -->
+
+		<div id="page-bottom" aria-hidden="true">
+			<div class="region region-bottom">
+				<div id="block-liidfp-2" class="block block-liidfp first last odd">
+
+
+					<div class="gfs">
+						<div id="div-gpt-ad-bottom" data-google-query-id="CNH77Z7C7d8CFURLAQodp9oMpg">
+							<script type="text/javascript">
+								googletag.cmd.push(function () { googletag.display('div-gpt-ad-bottom'); });
+							</script>
+						</div>
+					</div><!-- /gfs -->
+				</div>
+			</div>
+		</div>
+
+		<!-- /bottom ad -->
+
+	</div>
+
+
+
+	<aside id="supersizeme" class="col-sm-4" aria-label="Sponser Listings and Toolbox panel">
+		<div class="block" id="toolbox">
+
+			<h2 class="title toolbox"><span class="glyphicon glyphicon-briefcase"></span> Wex Toolbox</h2>
+
+			<!-- Provide corpus specific toolbox items here -->
+			
+
+			<!-- Add This Button BEGIN -->
+			<!-- Go to www.addthis.com/dashboard to customize your tools -->
+			<div class="socSep">
+				<hr />
+			</div>
+			<!--/socSep-->
+
+			<div class="addthis_sharing_toolbox"></div>
+
+			<div class="socSep">
+				<hr />
+			</div>
+			<!--/socSep-->
+
+			<script type="text/javascript">
+				var addthis_config = {
+					data_track_addressbar: false,
+					data_track_clickback: true,
+					publid: 'liiadverts',
+					ui_tabindex: 0,
+					ui_508_compliant: true
+				};
+				var addthis_share = {
+					url_transforms: {
+						shorten: {
+							twitter: 'bitly'
+						}
+					},
+					shorteners: {
+						bitly: {
+							login: 'liicornell',
+							apiKey: 'R_75b99d95e1c3033c4dbea23ce04bf5d3'
+						}
+					},
+					passthrough: {
+						twitter: {
+							via: 'LIICornell'
+						}
+					}
+				};
+			</script>
+
+			<script type="text/javascript" src="../../s7.addthis.com/js/300/addthis_widget.js#pubid=liiadverts"
+				async="async"></script>
+
+			<!-- AddThis Button END -->
+
+		</div>
+
+		<div class="block" aria-hidden="true">
+			<div class="gfs">
+				<div id='div-gpt-ad-top'>
+					<script type='text/javascript'>
+						googletag.cmd.push(function () { googletag.display('div-gpt-ad-top'); });
+					</script>
+				</div>
+			</div>
+			<!-- /gfs -->
+		</div>
+
+		<div class="block" aria-hidden="true">
+			<div class="gfs">
+				<div id='div-gpt-ad-middle'>
+					<script type='text/javascript'>
+						googletag.cmd.push(function () { googletag.display('div-gpt-ad-middle'); });
+					</script>
+				</div>
+			</div>
+			<!-- /gfs -->
+		</div>
+
+		<div id="block-lii-justia-find-lawyers-sidebar" class="block block-lii last even">
+			<div id="block-lii-justia-lawyers" class="block block-lii last even">
+				<div class="sidebar">
+					<div class="results-sponsored">
+						<div data-directive="j-find-a-lawyer" data-crosslink="seemorelawyers"
+							data-domain="lawyers.law.cornell.edu"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</aside>
+	<!-- /.col-sm-4" -->
+
+</main><!-- /#main-->
+
+<!-- /.row -->
+<!-- /.container -->
+
+<!-- /pagewrapper-->
+<!-- include footer -->
+<footer id="liifooter" class="container-fluid">
+	<ul id="liifooternav" class="nav navbar-nav">
+		<li class="first">
+			<a href="https://www.law.cornell.edu/lii/about/accessibility" class="nav">Accessibility</a>
+		</li>
+		<li class="first">
+			<a href="https://www.law.cornell.edu/lii/about/about_lii" class="nav">About LII</a>
+		</li>
+		<li>
+			<a href="https://www.law.cornell.edu/lii/about/contact_us" class="nav">Contact us</a>
+		</li>
+		<li>
+			<a href="https://www.law.cornell.edu/lii/help_out/sponsor">Advertise here</a>
+		</li>
+		<li>
+			<a href="https://www.law.cornell.edu/lii/help" class="nav">Help</a>
+		</li>
+		<li>
+			<a href="https://www.law.cornell.edu/lii/terms/documentation" class="nav">Terms of use</a>
+		</li>
+		<li class="last">
+			<a href="https://www.law.cornell.edu/lii/terms/privacy_policy" class="nav">Privacy</a>
+		</li>
+	</ul>
+	<ul class="nav navbar-nav navbar-right">
+		<li>
+			<a href="https://www.law.cornell.edu/" title="LII home page">
+				<img width="62" height="43"
+					src="https://www.law.cornell.edu/sites/all/themes/liizenboot/images/LII_logo_footer.gif"
+					alt="LII logo">
+			</a>
+		</li>
+	</ul>
+</footer>
+<!-- /include footer -->
+
+<script>
+	jQuery(document).ready(function () {
+		jQuery("#liisearchlink").click(function () {
+			jQuery("#liisearch").toggle('slide');
+			jQuery("#liinavbarstuff").toggleClass('searchboxslid');
+		});
+	});
+
+	jQuery(document).ready(function () {
+		jQuery('[data-toggle="tooltip"]').each(function () {
+			var $elem = jQuery(this);
+			$elem.tooltip({
+				html: true,
+				container: $elem,
+				delay: { hide: 400 }
+			});
+		});
+	});
+</script>
+
+
+<script type="text/javascript" src="https://www.law.cornell.edu/staticsite_scripts/lii_scriptinator.min.js"> </script>
+ 
+
+</body>

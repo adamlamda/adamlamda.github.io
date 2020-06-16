@@ -1,0 +1,223 @@
+<!DOCTYPE html><html><head plat-control="head" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+        <meta name="msapplication-tap-highlight" content="no">
+        
+        <base href="/">
+        <link rel="stylesheet" type="text/css" href="dist/app.css">
+        <link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+        <link rel="icon" type="image/png" sizes="192x192" href="/images/favicon/android-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+        <link rel="manifest" href="/images/favicon/manifest.json">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+        <meta name="theme-color" content="#ffffff">
+        <title>Birmingham Mountain Radio</title><meta property="og:title" content="Birmingham Mountain Radio"><meta name="twitter:title" content="Birmingham Mountain Radio"><meta property="og:url" content="http://bhammountainradio.com/contact/"><meta name="twitter:url" content="http://bhammountainradio.com/contact/">
+    <script type="application/ld+json" data-sd-snippet="sd">{"@context":"http://schema.org","@type":"Organization","name":"Birmingham Mountain Radio","url":"http://bhammountainradio.com","logo":"https://websiteblob1.blob.core.windows.net/logos/9997310-logo","sameAs":["https://www.facebook.com/bhammountainradio","https://www.instagram.com/birminghammountainradio","https://www.twitter.com/BhamMtnRadio"]}</script></head>
+    <body style="overflow-x: hidden;">
+        <article class="full-page plat-drawer-root">
+            <nav plat-control="navbar"><!--Desktop Navigation-->
+<div class="navbar-logo-container">
+	<a plat-options="{ view: Home }" plat-control="plat-link" class="plat-gesture" href="http://bhammountainradio.com/">
+		<img src="/images/logos/bmr-logo.svg" alt="" class="navbar-logo">
+	</a>
+</div>
+<div class="navbar-menu-container hide-on-tab">
+	<ul plat-control="plat-foreach" plat-context="links" class="uppercase"><!--plat-foreach-@item: start node-->
+		<li>
+			<a class="plat-gesture" plat-options="{ view: view }" plat-control="plat-link" href="http://bhammountainradio.com/about">About Us</a>
+		</li>
+	<!--plat-foreach-@item: end node--><!--plat-foreach-@item: start node-->
+		<li>
+			<a class="plat-gesture" plat-options="{ view: view }" plat-control="plat-link" href="http://bhammountainradio.com/events">Events</a>
+		</li>
+	<!--plat-foreach-@item: end node--><!--plat-foreach-@item: start node-->
+		<li>
+			<a class="plat-gesture" plat-options="{ view: view }" plat-control="plat-link" href="http://bhammountainradio.com/sessions">Green Couch</a>
+		</li>
+	<!--plat-foreach-@item: end node--></ul>
+	<ul class="uppercase">
+		<li>
+			<a target="_blank" href="https://yellowhammer-creative.myshopify.com/products/birmingham-mountain-radio-t-shirt-1?variant=27706128577">Gear</a>
+		</li>
+		<a plat-options="{ view: contact}" plat-control="plat-link" class="plat-gesture" href="http://bhammountainradio.com/contact">
+			<li class="nav-button">Contact</li>
+		</a>
+	</ul>
+</div>
+
+<!--Mobile Navigation-->
+<div class="drawer-controller hamburger hide-above-tab plat-drawer-controller plat-horizontal plat-gesture" plat-control="plat-drawer-controller">
+	<span></span>
+	<span></span>
+	<span></span>
+</div></nav>
+            <section class="body scroll-y">
+                <div plat-control="plat-viewport"><div plat-control="contact-vc" class="plat-viewcontrol"><section id="contact" class="contact padding" plat-context="contactInfo">
+    <h2 class="main-header uppercase text-center">Drop Us A Line</h2>
+    <p class="text-center bold">We'd love to hear from you!</p>
+    <div class="contains">
+        <select plat-context="@rootContext.contactList" plat-bind="@rootContext.mailto" plat-control="plat-select" class="plat-select"><!--plat-select-@option: start node-->
+            <option value="Who is your email for?">Who is your email for?</option>
+        <!--plat-select-@option: end node--><!--plat-select-@option: start node-->
+            <option value="Dru">Dru</option>
+        <!--plat-select-@option: end node--><!--plat-select-@option: start node-->
+            <option value="John D">John D</option>
+        <!--plat-select-@option: end node--><!--plat-select-@option: start node-->
+            <option value="Reg">Reg</option>
+        <!--plat-select-@option: end node--><!--plat-select-@option: start node-->
+            <option value="Flipback">Flipback</option>
+        <!--plat-select-@option: end node--><!--plat-select-@option: start node-->
+            <option value="Sales">Sales</option>
+        <!--plat-select-@option: end node--><!--plat-select-@option: start node-->
+            <option value="Music">Music</option>
+        <!--plat-select-@option: end node--><!--plat-select-@option: start node-->
+            <option value="IT">IT</option>
+        <!--plat-select-@option: end node--></select>
+        <input required="" type="text" plat-bind="email" placeholder="Email">
+        <input required="" type="text" plat-bind="firstName" placeholder="First Name">
+        <input required="" type="text" plat-bind="lastName" placeholder="Last Name">
+        <textarea required="" name="" id="" rows="3" plat-bind="message" placeholder="Message"></textarea>
+        <button class="secondary-button plat-button plat-gesture" plat-tap="send" plat-control="plat-button">Submit</button>
+    </div>
+    <p class="text-center" plat-visible="false" style="display: none !important;"></p>
+</section></div></div>
+                <footer plat-control="footer"><section class="row contains main-foot uppercase">
+    <div class="text-center col-dsk-3 col-tab-3 col-phn-12">
+        <ul class="inline-ul">
+            <a href="https://twitter.com/BhamMtnRadio" target="_blank">
+                <li>
+                    <img class="footer-con inline" src="/images/icons/twitter.svg" alt="">
+                </li>
+            </a>
+            <a href="https://www.instagram.com/birminghammountainradio/" target="_blank">
+                <li>
+                    <img class="footer-con inline" src="/images/icons/insta.svg" alt="">
+                </li>
+            </a>
+        </ul>
+        <ul class="inline-ul">
+            <a href="https://www.facebook.com/bhammountainradio/?fref=ts" target="_blank">
+                <li>
+                    <img class="footer-con inline" src="/images/icons/fb.svg" alt="">
+                </li>
+            </a>
+            <a href="https://www.youtube.com/channel/UC-8Ss4lpsrQ-H6DvBuhKI9A" target="_blank">
+                <li>
+                    <img class="footer-con inline" src="/images/icons/youtube.svg" alt="">
+                </li>
+            </a>
+        </ul>
+    </div>
+    <div class="text-center col-dsk-3 col-tab-3 hide-on-phn">
+        <ul class="inline-block">
+            <li class="text-left">
+                <a plat-options="{view: '/about', isUrl: true}" plat-control="plat-link" class="plat-gesture" href="http://bhammountainradio.com/about">About Us</a>
+            </li>
+            <li class="text-left sub-link">
+                <a plat-options="{view: '/about/djs', isUrl: true}" plat-control="plat-link" class="plat-gesture" href="http://bhammountainradio.com/about/djs">Our DJS</a>
+            </li>
+            <li class="text-left sub-link">
+                <a plat-options="{view: '/about/shows', isUrl: true}" plat-control="plat-link" class="plat-gesture" href="http://bhammountainradio.com/about/shows">Specialty Shows</a>
+            </li>
+        </ul>
+    </div>
+    <div class="text-center col-dsk-3 col-tab-3 hide-on-phn">
+        <ul class="inline-block">
+            <li class="text-left">
+                <a plat-options="{view: '/events/bham', isUrl: true}" plat-control="plat-link" class="plat-gesture" href="http://bhammountainradio.com/events/bham">Events</a>
+            </li>
+            <li class="text-left">
+                <a plat-options="{view: '/sessions', isUrl: true}" plat-control="plat-link" class="plat-gesture" href="http://bhammountainradio.com/sessions">Green Couch</a>
+            </li>
+            <!--<li class="text-left">
+                <plat-link plat-options="{view: '/urbmr', isUrl: true}">U R BMR</plat-link>
+            </li>-->
+        </ul>
+    </div>
+    <div class="text-center col-dsk-3 col-tab-3 hide-on-phn">
+        <ul class="inline-block">
+            <a plat-options="{ view: '#contact', isUrl: true }" plat-control="plat-link" class="plat-gesture" href="http://bhammountainradio.com/#contact">
+                <li class="text-left">Contact &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                </li>
+            </a>
+            <a href="https://yellowhammer-creative.myshopify.com/products/birmingham-mountain-radio-t-shirt-1?variant=27706128577" target="_blank">
+                <li class="text-left">Gear</li>
+            </a>
+        </ul>
+    </div>
+</section>
+
+<section class="sub-footer row">
+    <span class="col-dsk-6 col-tab-12 uppercase">Copyright Birmingham Mountain Radio</span>
+    <span class="col-dsk-6 con-tab-12 uppercase">
+        <a target="_blank" rel="noopener noreferrer" href="https://platypi.io/">Powered by
+            <img src="images/logos/plat-footer.svg" alt="Digital Marketing by Platypi" class="small-logo">
+        </a>
+    </span>
+</section></footer>
+            </section>
+            <div plat-control="player"><section class="player">
+    <audio id="yourAudio">
+        <source src="http://ice6.securenetsystems.net:80/WBMR" type="audio/aac">
+        <source src="http://ice6.securenetsystems.net:80/WBMR" type="audio/mpeg">
+    </audio>
+    <div class="controls">
+        <div class="margin-top float-left play-pause">
+        <a plat-tap="muteToggle" class="plat-gesture">
+            <img plat-src="/images/icons/play.svg" class="player-icon-big" alt="" src="http://bhammountainradio.com/images/icons/play.svg">
+        </a>
+            <img src="/images/icons/music-note.svg" class="player-icon-small" alt="">
+            <span class="font-3">Listen Live!</span>
+        </div>
+        <div class="margin-top float-right volume hide-on-phn hide-on-tab">
+            <i class="fa fa-lg fa-volume- fa-volume-down"></i>
+            <div plat-react="sliderVolume" plat-options="{min: 0, max: 10}" plat-bind="slider" id="volumeMeter" plat-control="plat-slider" class="plat-slider plat-horizontal plat-gesture"><div class="plat-slider-container">
+    <div class="plat-slider-track" style="width: 34.8px;">
+        <div class="plat-knob"></div>
+    </div>
+</div></div>
+        </div>
+    </div>
+</section></div>
+        </article>
+        <nav plat-control="drawer"><div plat-options="{ position: 'right' }" plat-bind="visible" plat-control="plat-drawer" class="plat-drawer plat-right"><!--plat-drawer-@drawer: start node-->
+	<div class="drawer-container">
+		<ul class="drawer-menu" plat-control="plat-foreach" plat-context="links"><!--plat-foreach-@item: start node-->
+			<li class="">
+				<a class="bold plat-gesture" plat-options="{ view: view }" plat-control="plat-link" href="http://bhammountainradio.com/">Home</a>
+			</li>
+		<!--plat-foreach-@item: end node--><!--plat-foreach-@item: start node-->
+			<li class="">
+				<a class="bold plat-gesture" plat-options="{ view: view }" plat-control="plat-link" href="http://bhammountainradio.com/about">About</a>
+			</li>
+		<!--plat-foreach-@item: end node--><!--plat-foreach-@item: start node-->
+			<li class="">
+				<a class="bold plat-gesture" plat-options="{ view: view }" plat-control="plat-link" href="http://bhammountainradio.com/events">Events</a>
+			</li>
+		<!--plat-foreach-@item: end node--><!--plat-foreach-@item: start node-->
+			<li class="">
+				<a class="bold plat-gesture" plat-options="{ view: view }" plat-control="plat-link" href="http://bhammountainradio.com/sessions">Green Couch</a>
+			</li>
+		<!--plat-foreach-@item: end node--><!--plat-foreach-@item: start node-->
+			<li class="selected">
+				<a class="bold plat-gesture" plat-options="{ view: view }" plat-control="plat-link" href="http://bhammountainradio.com/contact">Contact</a>
+			</li>
+		<!--plat-foreach-@item: end node--></ul>
+	</div>
+<!--plat-drawer-@drawer: end node--></div></nav>
+        
+        
+    
+</body></html>

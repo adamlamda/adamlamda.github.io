@@ -1,0 +1,1106 @@
+<!DOCTYPE HTML><html lang="en-US" xmlns:og="http://ogp.me/ns#" xmlns:fb="http://ogp.me/ns/fb#">
+
+<head>
+<meta charset="UTF-8" />
+<link rel="profile" href="http://gmpg.org/xfn/11" />
+
+<!-- Title -->
+<title>Cumulus | KAYD-FM</title><link rel='dns-prefetch' href='//www.nashfm1017.com' />
+<link rel='dns-prefetch' href='//see-p-elb-01.tritondigital.net' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="canonical" href="http://www.nashfm1017.com/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.3\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.3\/svg\/","svgExt":".svg","source":{"wpemoji":"http:\/\/www.nashfm1017.com\/wp-includes\/js\/wp-emoji.js?ver=4.9.1","twemoji":"http:\/\/www.nashfm1017.com\/wp-includes\/js\/twemoji.js?ver=4.9.1"}};
+			( function( window, document, settings ) {
+	var src, ready, ii, tests;
+
+	/*
+	 * Create a canvas element for testing native browser support
+	 * of emoji.
+	 */
+	var canvas = document.createElement( 'canvas' );
+	var context = canvas.getContext && canvas.getContext( '2d' );
+
+	/**
+	 * Check if two sets of Emoji characters render the same.
+	 *
+	 * @param set1 array Set of Emoji characters.
+	 * @param set2 array Set of Emoji characters.
+	 * @returns {boolean} True if the two sets render the same.
+	 */
+	function emojiSetsRenderIdentically( set1, set2 ) {
+		var stringFromCharCode = String.fromCharCode;
+
+		// Cleanup from previous test.
+		context.clearRect( 0, 0, canvas.width, canvas.height );
+		context.fillText( stringFromCharCode.apply( this, set1 ), 0, 0 );
+		var rendered1 = canvas.toDataURL();
+
+		// Cleanup from previous test.
+		context.clearRect( 0, 0, canvas.width, canvas.height );
+		context.fillText( stringFromCharCode.apply( this, set2 ), 0, 0 );
+		var rendered2 = canvas.toDataURL();
+
+		return rendered1 === rendered2;
+	}
+
+	/**
+	 * Detect if the browser supports rendering emoji or flag emoji. Flag emoji are a single glyph
+	 * made of two characters, so some browsers (notably, Firefox OS X) don't support them.
+	 *
+	 * @since 4.2.0
+	 *
+	 * @param type {String} Whether to test for support of "flag" or "emoji".
+	 * @return {Boolean} True if the browser can render emoji, false if it cannot.
+	 */
+	function browserSupportsEmoji( type ) {
+		var isIdentical;
+
+		if ( ! context || ! context.fillText ) {
+			return false;
+		}
+
+		/*
+		 * Chrome on OS X added native emoji rendering in M41. Unfortunately,
+		 * it doesn't work when the font is bolder than 500 weight. So, we
+		 * check for bold rendering support to avoid invisible emoji in Chrome.
+		 */
+		context.textBaseline = 'top';
+		context.font = '600 32px Arial';
+
+		switch ( type ) {
+			case 'flag':
+				/*
+				 * Test for UN flag compatibility. This is the least supported of the letter locale flags,
+				 * so gives us an easy test for full support.
+				 *
+				 * To test for support, we try to render it, and compare the rendering to how it would look if
+				 * the browser doesn't render it correctly ([U] + [N]).
+				 */
+				isIdentical = emojiSetsRenderIdentically(
+					[ 55356, 56826, 55356, 56819 ],
+					[ 55356, 56826, 8203, 55356, 56819 ]
+				);
+
+				if ( isIdentical ) {
+					return false;
+				}
+
+				/*
+				 * Test for English flag compatibility. England is a country in the United Kingdom, it
+				 * does not have a two letter locale code but rather an five letter sub-division code.
+				 *
+				 * To test for support, we try to render it, and compare the rendering to how it would look if
+				 * the browser doesn't render it correctly (black flag emoji + [G] + [B] + [E] + [N] + [G]).
+				 */
+				isIdentical = emojiSetsRenderIdentically(
+					[ 55356, 57332, 56128, 56423, 56128, 56418, 56128, 56421, 56128, 56430, 56128, 56423, 56128, 56447 ],
+					[ 55356, 57332, 8203, 56128, 56423, 8203, 56128, 56418, 8203, 56128, 56421, 8203, 56128, 56430, 8203, 56128, 56423, 8203, 56128, 56447 ]
+				);
+
+				return ! isIdentical;
+			case 'emoji':
+				/*
+				 * Emoji 5 has fairies of all genders.
+				 *
+				 * To test for support, try to render a new emoji (fairy, male), then compares
+				 * it to how it would look if the browser doesn't render it correctly
+				 * (fairy + male sign).
+				 */
+				isIdentical = emojiSetsRenderIdentically(
+					[ 55358, 56794, 8205, 9794, 65039 ],
+					[ 55358, 56794, 8203, 9794, 65039 ]
+				);
+				return ! isIdentical;
+		}
+
+		return false;
+	}
+
+	function addScript( src ) {
+		var script = document.createElement( 'script' );
+
+		script.src = src;
+		script.defer = script.type = 'text/javascript';
+		document.getElementsByTagName( 'head' )[0].appendChild( script );
+	}
+
+	tests = Array( 'flag', 'emoji' );
+
+	settings.supports = {
+		everything: true,
+		everythingExceptFlag: true
+	};
+
+	for( ii = 0; ii < tests.length; ii++ ) {
+		settings.supports[ tests[ ii ] ] = browserSupportsEmoji( tests[ ii ] );
+
+		settings.supports.everything = settings.supports.everything && settings.supports[ tests[ ii ] ];
+
+		if ( 'flag' !== tests[ ii ] ) {
+			settings.supports.everythingExceptFlag = settings.supports.everythingExceptFlag && settings.supports[ tests[ ii ] ];
+		}
+	}
+
+	settings.supports.everythingExceptFlag = settings.supports.everythingExceptFlag && ! settings.supports.flag;
+
+	settings.DOMReady = false;
+	settings.readyCallback = function() {
+		settings.DOMReady = true;
+	};
+
+	if ( ! settings.supports.everything ) {
+		ready = function() {
+			settings.readyCallback();
+		};
+
+		if ( document.addEventListener ) {
+			document.addEventListener( 'DOMContentLoaded', ready, false );
+			window.addEventListener( 'load', ready, false );
+		} else {
+			window.attachEvent( 'onload', ready );
+			document.attachEvent( 'onreadystatechange', function() {
+				if ( 'complete' === document.readyState ) {
+					settings.readyCallback();
+				}
+			} );
+		}
+
+		src = settings.source || {};
+
+		if ( src.concatemoji ) {
+			addScript( src.concatemoji );
+		} else if ( src.wpemoji && src.twemoji ) {
+			addScript( src.twemoji );
+			addScript( src.wpemoji );
+		}
+	}
+
+} )( window, document, window._wpemojiSettings );
+		</script>
+		
+
+<!-- Stylesheets -->
+<link rel='stylesheet' id='headway-google-fonts' href='//fonts.googleapis.com/css?family=Oswald' type='text/css' media='all' />
+<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='bxslider-style-css'  href='http://www.nashfm1017.com/wp-content/plugins/shared/js/bxslider/jquery.bxslider.css?ver=4.9.1' type='text/css' media='all' />
+<link rel='stylesheet' id='amp-promo-reel-widget-style-css'  href='http://www.nashfm1017.com/wp-content/plugins/amp-promo-reel/includes/../css/widget.css?ver=4.9.1' type='text/css' media='all' />
+<link rel='stylesheet' id='headway-general-css'  href='http://www.nashfm1017.com/wp-content/uploads/sites/289/headway/cache/general-e9914a1.css?ver=4.9.1' type='text/css' media='all' />
+<link rel='stylesheet' id='headway-layout-front_page-css'  href='http://www.nashfm1017.com/wp-content/uploads/sites/289/headway/cache/layout-front_page-6bb6e27.css?ver=4.9.1' type='text/css' media='all' />
+<link rel='stylesheet' id='headway-responsive-grid-css'  href='http://www.nashfm1017.com/wp-content/uploads/sites/289/headway/cache/responsive-grid-d2119e4.css?ver=4.9.1' type='text/css' media='all' />
+<meta name="builder-styles-css" content="" id="builder-styles-css">
+<link rel='stylesheet' id='amp-breaking-news-css'  href='http://www.nashfm1017.com/wp-content/plugins/amp-breaking-news/public/css/public.css?ver=0.2.3' type='text/css' media='all' />
+<link rel='stylesheet' id='animate-style-css'  href='http://www.nashfm1017.com/wp-content/plugins/shared/css/animate.css?ver=0.2.3' type='text/css' media='all' />
+<link rel='stylesheet' id='amp-styles-plugin-styles-css'  href='http://www.nashfm1017.com/wp-content/plugins/amp-styles/css/public.css?ver=1.4.1' type='text/css' media='all' />
+<link rel='stylesheet' id='amp-events-calendar-styles-css'  href='http://www.nashfm1017.com/wp-content/plugins/amp-events/css/calendar.css?ver=1.1.4' type='text/css' media='all' />
+<link rel='stylesheet' id='amp-events-export-styles-css'  href='http://www.nashfm1017.com/wp-content/plugins/amp-events/css/public.css?ver=1.1.4' type='text/css' media='all' />
+<link rel='stylesheet' id='amp_feed-plugin-styles-css'  href='http://www.nashfm1017.com/wp-content/plugins/amp-feeds/css/public.css?ver=0.4.0' type='text/css' media='all' />
+<link rel='stylesheet' id='amp-image-rotator-plugin-styles-css'  href='http://www.nashfm1017.com/wp-content/plugins/amp-image-rotator/public/assets/css/public.css?ver=1.0.0' type='text/css' media='all' />
+<link rel='stylesheet' id='amp-listen-live-plugin-styles-css'  href='http://www.nashfm1017.com/wp-content/plugins/amp-listen-live/public/assets/css/public.css?ver=1.4.4' type='text/css' media='all' />
+<link rel='stylesheet' id='amp-onair-plugin-styles-css'  href='http://www.nashfm1017.com/wp-content/plugins/amp-onair/public/assets/css/public.css?ver=1.7.1' type='text/css' media='all' />
+<link rel='stylesheet' id='AMPPromoReel-plugin-styles-css'  href='http://www.nashfm1017.com/wp-content/plugins/amp-promo-reel/css/public.css?ver=1.4.0' type='text/css' media='all' />
+<link rel='stylesheet' id='mediaelement-css'  href='http://www.nashfm1017.com/wp-includes/js/mediaelement/mediaelementplayer-legacy.min.css?ver=4.2.6-78496d1' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-mediaelement-css'  href='http://www.nashfm1017.com/wp-includes/js/mediaelement/wp-mediaelement.css?ver=4.9.1' type='text/css' media='all' />
+<link rel='stylesheet' id='amp-tabs-plugin-styles-css'  href='http://www.nashfm1017.com/wp-content/plugins/amp-tabs/public/assets/css/public.css?ver=1.0.0' type='text/css' media='all' />
+<link rel='stylesheet' id='amp-header-rotator-css'  href='http://www.nashfm1017.com/wp-content/themes/Headway-AMP_CMS/css/amp-header-rotator.css?ver=1.1.5' type='text/css' media='all' />
+<link rel="stylesheet" type="text/css" media="all" href="http://www.nashfm1017.com/wp-content/themes/Headway-AMP_CMS/style.css" />
+
+<!-- Scripts -->
+<script type='text/javascript' src='http://www.nashfm1017.com/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='http://www.nashfm1017.com/wp-includes/js/jquery/jquery-migrate.js?ver=1.4.1'></script>
+<script type='text/javascript' src='http://www.nashfm1017.com/wp-content/themes/headway/library/media/js/jquery.hoverintent.js?ver=4.9.1'></script>
+<script type='text/javascript' src='http://www.nashfm1017.com/wp-content/themes/headway/library/blocks/navigation/js/jquery.superfish.js?ver=4.9.1'></script>
+<script type='text/javascript' src='http://www.nashfm1017.com/wp-content/themes/headway/library/blocks/navigation/js/selectnav.js?ver=1533183780'></script>
+<script type='text/javascript' src='http://www.nashfm1017.com/wp-content/uploads/sites/289/headway/cache/block-dynamic-js-layout-front_page-3f428ce.js?ver=4.9.1'></script>
+<script type='text/javascript' src='http://www.nashfm1017.com/wp-content/plugins/shared/js/bxslider/jquery.bxslider.min.js?ver=4.9.1'></script>
+<script type='text/javascript' src='http://www.nashfm1017.com/wp-content/plugins/amp-promo-reel/includes/../js/widget.js?ver=1.4.0'></script>
+<script type='text/javascript' src='http://www.nashfm1017.com/wp-content/themes/headway/library/media/js/jquery.fitvids.js?ver=4.9.1'></script>
+<script type='text/javascript' src='http://www.nashfm1017.com/wp-content/uploads/sites/289/headway/cache/responsive-grid-js-e6e6939.js?ver=4.9.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var _ampconfig = {"site_url":"http:\/\/www.nashfm1017.com","site_id":"289","tz":"America\/Chicago","tz_offset":"-5","ts":"1533183780","blog_name":"KAYD-FM","client_name":"cumuluspro","user_ID":"","ts_offset":"1535347797","version":"2.47.0.3","env":"prod","settings":{"tenant_id":"see_10411","syn_site_name":"KAYD-FM","selector_logo":false,"selector_masthead":false,"selector_nav":false,"selector_rotator":false,"default_show_name":false,"default_show_img":false,"gtm_id":false,"vidible_company_key":"06125e55709b3c4ffdfe3c3f8a9ed8bd","client_name":false,"nielsen_provider":"cumulus","promoreel_priority":true}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.nashfm1017.com/wp-content/plugins/shared/js/amp-common.js?ver=1533183780'></script>
+<script type='text/javascript' src='http://www.nashfm1017.com/wp-content/plugins/amp-breaking-news/public/js/public.js?ver=0.2.3'></script>
+<script type='text/javascript' src='http://www.nashfm1017.com/wp-content/plugins/amp-styles/js/public.js?ver=1.4.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var dates = {"start_of_week":"1","moment_date_format":"MMMM D, YYYY","moment_time_format":"h:mm a","calendar_date_format":"MMMM d, yyyy","calendar_time_format":"h:mm tt","date_format":"MM d, yy","time_format":"h:mm tt"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.nashfm1017.com/wp-content/plugins/amp-events/js/calendar.js?ver=1.1.4'></script>
+<script type='text/javascript' src='http://www.nashfm1017.com/wp-content/plugins/amp-events/js/public.js?ver=1.1.4'></script>
+<script type='text/javascript' src='http://www.nashfm1017.com/wp-content/plugins/amp-feeds/js/jquery.totemticker.min.js?ver=0.4.0'></script>
+<script type='text/javascript' src='http://www.nashfm1017.com/wp-includes/js/jquery/ui/core.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://www.nashfm1017.com/wp-includes/js/jquery/ui/widget.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://www.nashfm1017.com/wp-includes/js/jquery/ui/tabs.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://www.nashfm1017.com/wp-content/plugins/amp-feeds/js/amp-feed.js?ver=0.4.0'></script>
+<script type='text/javascript' src='http://www.nashfm1017.com/wp-content/plugins/amp-feeds/js/public.js?ver=0.4.0'></script>
+<script type='text/javascript' src='http://www.nashfm1017.com/wp-content/plugins/amp-feeds/js/date.js?ver=0.4.0'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var _amplistenlive = {"blog_id":"289","callsign":"","mount_name":"KAYDFM","provider":"stream_the_world","gmt_offset":"-18000"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.nashfm1017.com/wp-content/plugins/amp-listen-live/public/assets/js/public.js?ver=1.4.4'></script>
+<script type='text/javascript' src='http://www.nashfm1017.com/wp-content/plugins/amp-onair/public/assets/js/public.js?ver=1.7.1'></script>
+<script type='text/javascript' src='//see-p-elb-01.tritondigital.net/widget/see_10411/see.js?ver=1.3.0'></script>
+<script type='text/javascript' src='http://www.nashfm1017.com/wp-content/themes/Headway-AMP_CMS/js/amp-theme.js?ver=1.1.5'></script>
+
+<!--[if lt IE 9]>
+<script src="http://www.nashfm1017.com/wp-content/themes/headway/library/media/js/html5shiv.js"></script>
+<![endif]-->
+
+<!--[if lt IE 8]>
+<script src="http://www.nashfm1017.com/wp-content/themes/headway/library/media/js/ie8.js"></script>
+<![endif]-->
+
+<script type='text/javascript'>
+var googletag = googletag || {};
+googletag.cmd = googletag.cmd || [];
+(function() {
+var gads = document.createElement('script');
+gads.async = true;
+gads.type = 'text/javascript';
+var useSSL = 'https:' == document.location.protocol;
+gads.src = (useSSL ? 'https:' : 'http:') + 
+'//www.googletagservices.com/tag/js/gpt.js';
+var node = document.getElementsByTagName('script')[0];
+node.parentNode.insertBefore(gads, node);
+})();
+</script>
+<script type='text/javascript'>
+googletag.cmd.push(function() {
+
+var leaderboardSizeMap = googletag.sizeMapping()
+ .addSize([970, 0], [[728, 90], [970, 90]])
+ .addSize([750,0], [728,90])
+ .addSize([0, 0], [[320, 50], [320, 53]])
+ .build();
+
+googletag.defineSlot('/6717/cd.KAYD.FM', [[300, 250], [300, 600]], 'div-gpt-ad-1418849849333-0').addService(googletag.pubads())
+.setCollapseEmptyDiv(true).setTargeting("pos","mid");
+googletag.defineSlot('/6717/cd.KAYD.FM', [[728, 90], [970, 90]], 'div-gpt-ad-1418849849333-1').addService(googletag.pubads())
+.defineSizeMapping(leaderboardSizeMap).setCollapseEmptyDiv(true).setTargeting("pos","top");
+googletag.defineSlot('/6717/cd.KAYD.FM', [[728, 90], [970, 90]], 'div-gpt-ad-1418849849333-2').addService(googletag.pubads())
+.defineSizeMapping(leaderboardSizeMap).setCollapseEmptyDiv(true).setTargeting("pos","bot");
+googletag.defineSlot('/6717/cd.KAYD.FM', [[300, 250], [300, 600]], 'div-gpt-ad-1418849849333-3').addService(googletag.pubads())
+.setCollapseEmptyDiv(true).setTargeting("pos","mid2");
+googletag.defineSlot('/6717/cd.KAYD.FM', [[160, 600]], 'div-gpt-ad-1418849849333-4').addService(googletag.pubads())
+.setCollapseEmptyDiv(true).setTargeting("pos","left");
+googletag.defineSlot('/6717/cd.KAYD.FM', [[160, 600]], 'div-gpt-ad-1418849849333-5').addService(googletag.pubads())
+.setCollapseEmptyDiv(true).setTargeting("pos","right");
+googletag.defineSlot('/6717/cd.KAYD.FM', [[654, 70]], 'div-gpt-ad-1418849849333-6').addService(googletag.pubads())
+.setCollapseEmptyDiv(true).setTargeting("pos","rdioplayer");
+googletag.defineSlot('/6717/cd.KAYD.FM', [[300, 100]], 'div-gpt-ad-1418849849333-7').addService(googletag.pubads())
+.setCollapseEmptyDiv(true).setTargeting("pos","contest1");
+googletag.defineSlot('/6717/cd.KAYD.FM', [[300, 100]], 'div-gpt-ad-1418849849333-8').addService(googletag.pubads())
+.setCollapseEmptyDiv(true).setTargeting("pos","contest2");
+googletag.defineSlot('/6717/cd.KAYD.FM', [[300, 100]], 'div-gpt-ad-1418849849333-9').addService(googletag.pubads())
+.setCollapseEmptyDiv(true).setTargeting("pos","contest3");
+googletag.defineSlot('/6717/cd.KAYD.FM', [[100, 51]], 'div-gpt-ad-1418849849333-10').addService(googletag.pubads())
+.setCollapseEmptyDiv(true).setTargeting("pos","rdiobutton");
+googletag.defineSlot('/6717/cd.KAYD.FM', [[113, 23]], 'div-gpt-ad-1418849849333-11').addService(googletag.pubads())
+.setCollapseEmptyDiv(true).setTargeting("pos","feedsponsor1");
+googletag.defineSlot('/6717/cd.KAYD.FM', [[113, 23]], 'div-gpt-ad-1418849849333-12').addService(googletag.pubads())
+.setCollapseEmptyDiv(true).setTargeting("pos","feedsponsor2");
+googletag.defineSlot('/6717/cd.KAYD.FM', [[113, 23]], 'div-gpt-ad-1418849849333-13').addService(googletag.pubads())
+.setCollapseEmptyDiv(true).setTargeting("pos","feedsponsor3");
+googletag.defineSlot('/6717/cd.KAYD.FM', [[113, 23]], 'div-gpt-ad-1418849849333-14').addService(googletag.pubads())
+.setCollapseEmptyDiv(true).setTargeting("pos","feedsponsor4");
+googletag.defineSlot('/6717/cd.KAYD.fm', [[1, 1]],'div-gpt-ad-1418849849333-16').addService(googletag.pubads())
+.setTargeting("pos","wallpaper-ad");
+googletag.pubads().enableSingleRequest();
+googletag.enableServices();
+googletag.defineSlot('/6717/cd.KAYD.fm', [[300, 250], [300, 600]], 'div-gpt-ad-1418849849333-18').setCollapseEmptyDiv(true).addService(googletag.pubads())
+.setTargeting("pos","midresponsive");
+
+});
+</script>
+
+<!--ONESTAT SCRIPTCODE START Embed Player-->
+  <script type="text/javascript">
+  <!--
+  jQuery(document).ready(function(){
+    var d=document;
+    var sid="kayd-fm.cumulus";
+    var CONTENTSECTION="";
+    var osp_URL=d.URL;
+    var osp_Title=d.title;
+    var t=new Date();
+    var p="http"+(d.URL.indexOf('https:')==0?'s':'')+"://stat.onestat.com/stat.aspx?tagver=2&sid="+sid;
+    p+="&url="+escape(osp_URL);
+    p+="&ti="+escape(osp_Title);
+    p+="&section="+escape(CONTENTSECTION);
+    p+="&rf="+escape(parent==self?document.referrer:top.document.referrer);
+    p+="&tz="+escape(t.getTimezoneOffset());
+    p+="&ch="+escape(t.getHours());
+    p+="&js=1";
+    p+="&ul="+escape(navigator.appName=="Netscape"?navigator.language:navigator.userLanguage);
+    if(osp_URL!=d.URL) p+="&ol="+escape(d.URL);
+    if(typeof(screen)=="object"){
+       p+="&sr="+screen.width+"x"+screen.height;p+="&cd="+screen.colorDepth;
+       p+="&jo="+(navigator.javaEnabled()?"Yes":"No");
+    }
+
+    var imgTag = '<img border="0" height="0" width="0" id="ONESTAT_TAG" src="' + p + '">'
+    jQuery('body').append(imgTag);
+
+  })
+  //-->
+  </script> 
+<!--ONESTAT SCRIPTCODE END-->
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','corpDataLayer','GTM-5Z7RT7');</script>
+<!-- End Google Tag Manager -->
+
+<!-- BEGIN INFINITE FACEBOOK PIXEL -->
+<script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '181461212508101');
+  fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=181461212508101&ev=PageView&noscript=1"
+/></noscript>
+<!-- END INFINITE FACEBOOK PIXEL -->
+<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
+<link rel="alternate" type="application/rss+xml" title="KAYD-FM &raquo; Feed" href="http://www.nashfm1017.com/feed/" />
+<link rel='shortlink' href='http://www.nashfm1017.com/' />
+<script type="text/javascript">var ajaxurl = "http://www.nashfm1017.com/wp-admin/admin-ajax.php"</script><script type="text/javascript">var ajaxurl = "http://www.nashfm1017.com/wp-admin/admin-ajax.php"</script>
+<!-- AMP CMS DFP custom tags -->
+<script type='text/javascript'>
+  googletag.cmd.push(function() {
+      googletag.pubads().setTargeting('cms-sname', 'KAYDFM');
+      googletag.pubads().setTargeting('cms-sgroup', ['All Sites', 'Format  Country', 'Market  Beaumont TX', 'Format Country New']);
+      googletag.pubads().setTargeting('cms-ptitle', 'Home');
+  });
+</script>
+
+<!-- START - Facebook Open Graph, Google+ and Twitter Card Tags 2.0.4 -->
+ <!-- Facebook Open Graph -->
+  <meta property="og:locale" content="en_US"/>
+  <meta property="og:site_name" content="KAYD-FM"/>
+  <meta property="og:title" content="KAYD-FM"/>
+  <meta property="og:url" content="http://www.nashfm1017.com"/>
+  <meta property="og:type" content="website"/>
+  <meta property="og:description" content="Cumulus"/>
+ <!-- Google+ / Schema.org -->
+  <meta itemprop="name" content="KAYD-FM"/>
+  <meta itemprop="description" content="Cumulus"/>
+ <!-- Twitter Cards -->
+  <meta name="twitter:title" content="KAYD-FM"/>
+  <meta name="twitter:url" content="http://www.nashfm1017.com"/>
+  <meta name="twitter:description" content="Cumulus"/>
+  <meta name="twitter:card" content="summary_large_image"/>
+ <!-- SEO -->
+ <!-- Misc. tags -->
+<!-- END - Facebook Open Graph, Google+ and Twitter Card Tags 2.0.4 -->
+
+
+</head><!-- End <head> -->
+
+<body class="home page-template-default page page-id-27 custom responsive-grid-enabled responsive-grid-active pageid-27 page-slug-home layout-front_page layout-using-front_page builder-parallax-scrolling-active" itemscope itemtype="http://schema.org/WebPage">
+
+
+<div id="whitewrap">
+
+
+<div id="wrapper-8" class="wrapper wrapper-fluid wrapper-fixed-grid grid-fluid-24-32-10 responsive-grid wrapper-first wrapper-header" data-alias="Wrapper Header">
+
+<div class="grid-container clearfix">
+
+<section class="row row-1">
+
+<section class="column column-1 grid-left-0 grid-width-24">
+<div id="block-27" class="leaderboard-ad block block-type-custom-code block-fluid-height" data-alias="728x90 Leaderboard Ad">
+<div class="block-content">
+<div align="center">
+<div id='div-gpt-ad-1418849849333-1'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1418849849333-1'); });
+</script>
+</div>
+</div>
+</div><!-- .block-content -->
+
+</div><!-- #block-27 -->
+
+</section><!-- .column -->
+
+</section><!-- .row -->
+
+
+<section class="row row-2">
+
+<section class="column column-1 grid-left-0 grid-width-3">
+<figure id="block-31" class="logo block block-type-image block-fixed-height" data-alias="Logo" itemscope="" itemtype="http://schema.org/ImageObject">
+<div class="block-content">
+<a href="/" class="image" ><img src="http://images.tritondigitalcms.com/6616/sites/289/2017/08/02212858/KAYD-FM-KTSB-FM-sitelogo-REG.png" alt="" title="" itemprop="contentURL"/></a>
+</div><!-- .block-content -->
+
+</figure><!-- #block-31 -->
+
+</section><!-- .column -->
+
+<section class="column column-2 grid-left-0 grid-width-21">
+<div id="block-byq5a78d70430be5" class="block block-type-custom-code block-fluid-height" data-alias="Empty Spacer">
+<div class="block-content">
+&nbsp;
+</div><!-- .block-content -->
+
+</div><!-- #block-byq5a78d70430be5 -->
+
+<section class="sub-column sub-column-1 column column-1 grid-width-7 grid-left-0">
+<aside id="block-29" class="on-air block block-type-widget-area block-fluid-height" data-alias="Home - On Air Now" itemscope="" itemtype="http://schema.org/WPSideBar">
+<div class="block-content">
+<ul class="widget-area"><div class="amp-onair-widget" id="amp_onair_widget-2"
+	data-title-now=""
+	data-title-upcoming=""
+	data-title=""
+	data-type="nowplaying"
+	data-change-minutes="5"
+	data-change="0"
+	data-toggle-time="10"
+	data-fields="image,timeslot"
+	data-ajaxurl="http://www.nashfm1017.com/wp-admin/admin-ajax.php"
+	data-updateurl="http://www.nashfm1017.com/shows/feed/?type=json"
+	data-memcached="1"
+	data-expiration="1535364000">
+	
+<div class="amp-onair-show nowplaying" >
+
+    <div class="amp-onair-widget-title js-widget-title"></div>
+
+        <div class="amp-onair-show-image">
+                    <img class="js-image amp-onair-show-image-img" src="http://images.tritondigitalcms.com/6616/sites/289/2018/07/01114735/Don-Brake-Nash-FM.jpg"  />
+            </div>
+        
+    <div class="amp-onair-show-title">
+            <span class="js-title">The New NASH Morning Show with Don Brake</span>
+        </div>
+    
+        <div class="amp-onair-show-timeslot js-timeslot" >5:00 a.m. - 10:00 a.m.</div>
+        
+        
+    
+</div>
+</div></ul>
+</div><!-- .block-content -->
+
+</aside><!-- #block-29 -->
+
+</section><!-- .sub-column -->
+
+<section class="sub-column sub-column-2 column column-2 grid-width-5 grid-left-0">
+<nav id="block-33" class="nav-search block block-type-navigation block-fluid-height" data-alias="Navigation Search" itemscope="" itemtype="http://schema.org/SiteNavigationElement">
+<div class="block-content">
+<div class="nav-horizontal nav-align-left nav-search-active nav-search-position-left"><div class="nav-search">
+		<form method="get" id="searchform" action="http://www.nashfm1017.com/">
+			<label for="s" class="assistive-text">Search</label>
+			<input type="text" class="field" name="s" id="s" value="Type to search, then press enter" onclick="if(this.value=='Type to search, then press enter')this.value='';" onblur="if(this.value=='')this.value='Type to search, then press enter';" />
+			<input type="submit" class="submit" name="searchsubmit" id="searchsubmit" value="Search" />
+		</form>
+	</div></div><!-- .nav-horizontal nav-align-left nav-search-active nav-search-position-left -->
+</div><!-- .block-content -->
+
+</nav><!-- #block-33 -->
+
+</section><!-- .sub-column -->
+
+<section class="sub-column sub-column-3 column column-3 grid-width-6 grid-left-0">
+<section id="block-30" class="social-nav block block-type-social block-fixed-height" data-alias="Social Navigation">
+<div class="block-content">
+<div class="social-icons-container"><ul class="social-icons"><li><a href="#"><img src="http://www.nashfm1017.com/wp-content/uploads/sites/289/2016/04/ListenLive.png" title="Listen Live!!" class="img-1"  /></a></li><li><a href="https://www.facebook.com/pages/Nash-FM-1017/291270904331674" target="_blank"><img src="http://cumulus.pro.poolb.tritondigitalcms.com/kayd-fm/wp-content/uploads/sites/289/2014/10/facebook.png" title="Like us on Facebook!" class="img-2"  /></a></li><li><a href="http://nash1017.listenernetwork.com/" target="_blank"><img src="http://cumulus.pro.poolb.tritondigitalcms.com/kayd-fm/wp-content/uploads/sites/289/2015/01/cumulus-vip.png" title="VIP" class="img-3"  /></a></li></ul></div><!-- .social-icons-container -->
+</div><!-- .block-content -->
+
+</section><!-- #block-30 -->
+
+</section><!-- .sub-column -->
+
+<section class="sub-column sub-column-4 column column-4 grid-width-3 grid-left-0">
+<div id="block-bdo5a79e88b1aaf0" class="gigya-actions block block-type-custom-code block-fluid-height" data-alias="Gigya Profile Actions">
+<div class="block-content">
+<div class="see-widget" data-see-type="regUi" data-see-loginbonus="false"></div>
+</div><!-- .block-content -->
+
+</div><!-- #block-bdo5a79e88b1aaf0 -->
+
+</section><!-- .sub-column -->
+<div id="block-byq5a78d70430be5" class="block block-type-custom-code block-fluid-height block-mirrored block-mirroring-byq5a78d70430be5 block-original-b2u5a78d7102a49a" data-alias="Empty Spacer">
+<div class="block-content">
+&nbsp;
+</div><!-- .block-content -->
+
+</div><!-- #block-byq5a78d70430be5 -->
+<nav id="block-32" class="main-nav block block-type-navigation block-fluid-height" data-alias="Main Navigation" itemscope="" itemtype="http://schema.org/SiteNavigationElement">
+<div class="block-content">
+<div class="nav-horizontal nav-align-left"><ul id="menu-main-navigation" class="menu"><li id="menu-item-119" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-119"><a href="http://www.nashfm1017.com/shows/">Shows</a>
+<ul class="sub-menu">
+	<li id="menu-item-1301353" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1301353"><a href="http://www.nashfm1017.com/the-new-nash-morning-show-with-don-brake/">The New NASH Morning Show with Don Brake</a></li>
+	<li id="menu-item-38921" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-38921"><a href="http://www.nashfm1017.com/skeeter/">Skeeter</a></li>
+	<li id="menu-item-1246000" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1246000"><a href="http://www.nashfm1017.com/howdy-to-rowdy/">ROWDY</a></li>
+	<li id="menu-item-1301632" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1301632"><a href="http://www.nashfm1017.com/nash-nights-live-2/">Nash Nights Live</a></li>
+	<li id="menu-item-1307151" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1307151"><a href="http://www.nashfm1017.com/american-country-countdown-with-kix-brooks/">American Country Countdown with Kix Brooks</a></li>
+	<li id="menu-item-762654" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-762654"><a href="http://www.nashfm1017.com/the-blair-garner-show/">The Blair Garner Show</a></li>
+	<li id="menu-item-1307753" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1307753"><a href="http://www.nashfm1017.com/bob-kingsley/">Bob Kingsley</a></li>
+</ul>
+</li>
+<li id="menu-item-121" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-121"><a href="http://www.nashfm1017.com/features/">Features</a></li>
+<li id="menu-item-123" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-123"><a href="http://www.nashfm1017.com/contests/">Contests</a></li>
+<li id="menu-item-125" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-125"><a href="http://www.nashfm1017.com/news/">News</a>
+<ul class="sub-menu">
+	<li id="menu-item-567125" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-567125"><a href="http://www.nashfm1017.com/nash-country-daily/">NASH Country Daily</a></li>
+</ul>
+</li>
+<li id="menu-item-1269968" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1269968"><a href="http://www.nashfm1017.com/community-calendar/">Community Calendar</a></li>
+<li id="menu-item-210015" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-210015"><a target="_blank" href="http://kayd-fm.mygameroom.com">Games</a></li>
+<li id="menu-item-117" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-117"><a href="#">Sweet Deals</a></li>
+</ul></div><!-- .nav-horizontal nav-align-left -->
+</div><!-- .block-content -->
+
+</nav><!-- #block-32 -->
+
+</section><!-- .column -->
+
+</section><!-- .row -->
+
+
+<section class="row row-3">
+
+<section class="column column-1 grid-left-0 grid-width-5">
+<div id="block-bc454a18cd9472df" class="takeover-left block block-type-custom-code block-fluid-height" data-alias="Skyscraper - Left">
+<div class="block-content">
+<div id='div-gpt-ad-1418849849333-4'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1418849849333-4'); });
+</script>
+</div>
+
+</div><!-- .block-content -->
+
+</div><!-- #block-bc454a18cd9472df -->
+
+</section><!-- .column -->
+
+<section class="column column-2 grid-left-0 grid-width-5">
+<div id="block-bz254a18cd94a5b0" class="takeover-right block block-type-custom-code block-fluid-height" data-alias="Skyscraper - Right">
+<div class="block-content">
+<div id='div-gpt-ad-1418849849333-5'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1418849849333-5'); });
+</script>
+</div>
+
+</div><!-- .block-content -->
+
+</div><!-- #block-bz254a18cd94a5b0 -->
+
+</section><!-- .column -->
+
+</section><!-- .row -->
+
+
+</div><!-- .grid-container -->
+
+</div><!-- .wrapper -->
+
+<div id="wrapper-9" class="wrapper wrapper-fluid wrapper-fixed-grid grid-fluid-24-32-10 responsive-grid wrapper-content" data-alias="Wrapper Content">
+
+<div class="grid-container clearfix">
+
+<section class="row row-1">
+
+<section class="column column-1 grid-left-0 grid-width-16">
+<aside id="block-35" class="promo-reel block block-type-widget-area block-fluid-height" data-alias="Home - Promo Reel" itemscope="" itemtype="http://schema.org/WPSideBar">
+<div class="block-content">
+<ul class="widget-area"><li id="amp_promo_reel-2" class="widget widget_amp_promo_reel sidebar_promo">
+<div class="sliderWrapper"><div class="sliderBody" style=""><div class="bxslider" data-navigation-arrows='1' data-rotation-time='5000' data-pager-type='thumbnails'><div class="sliderItem" style="background-image: url(http://images.tritondigitalcms.com/6616/2018/08/05210042/NN18-PR-5-LOCAL-FINALISTS.jpg);background-color: #000;background-repeat: no-repeat;background-size: cover;background-position: 50% 50%;position: relative;height: 300px;cursor: pointer;" onclick="window.location='http://www.nashfm1017.com/2018/06/18/nash-next-2018'"><div class="promoCaption bottom"><div class="captionTitle">Do you have what it takes to be the NEXT Country Superstar?</div></div></div><div class="sliderItem" style="background-image: url(http://images.tritondigitalcms.com/6616/sites/289/2018/08/15134015/NASH_Lamar_6401.jpg);background-color: #000;background-repeat: no-repeat;background-size: contain;background-position: 50% 50%;position: relative;height: 300px;cursor: pointer;" onclick="window.open('http://www.nashfm1017.com/2018-lamar-tailgating/', '_blank')"><div class="promoCaption bottom"><div class="captionTitle">It's almost time for Lamar Tailgating</div></div></div><div class="sliderItem" style="background-image: url(http://images.tritondigitalcms.com/6616/sites/289/2018/05/23125616/101DaysofSummer6_615.jpg);background-color: #000;background-repeat: no-repeat;background-size: contain;background-position: 50% 50%;position: relative;height: 300px;" ><div class="promoCaption bottom"><div class="captionTitle">Get ready for 101 Days of Summer with NASH FM 1017</div><div class="captionTeaser">Schlitterbahn tickets, Moody Gardens family fun, concert tickets and more!  If it's happening this summer...we can get you in!</div></div></div><div class="sliderItem" style="background-image: url(http://images.tritondigitalcms.com/6616/sites/289/2018/06/07162813/BL-TX_Facebook-Cover-Image.jpg);background-color: #000;background-repeat: no-repeat;background-size: contain;background-position: 50% 50%;position: relative;height: 300px;cursor: pointer;" onclick="window.open('https://www.facebook.com/BudweiserUSA/videos/10155245416206688/', '_blank')"><div class="promoCaption bottom"><div class="captionTitle">NASH FM 1017 Studios Proudly Sponsored By Del Papa Distributing</div></div></div><div class="sliderItem" style="background-image: url(http://images.tritondigitalcms.com/6616/sites/289/2017/12/26112405/NASH_Promo_640.jpg);background-color: #000;background-repeat: no-repeat;background-size: contain;background-position: 50% 50%;position: relative;height: 300px;" ><div class="promoCaption bottom"><div class="captionTitle">Listen to NASH Fm 101.7 for all of your country favorites!</div></div></div><div class="sliderItem" style="background-image: url(http://images.tritondigitalcms.com/6616/2018/07/18225307/4k-Live-PromoReel.jpg);background-color: #000;background-repeat: no-repeat;background-size: cover;background-position: 50% 50%;position: relative;height: 300px;cursor: pointer;" onclick="window.location='http://www.nashfm1017.com/2018/07/13/4k-summer-4k-a-day'"><div class="promoCaption bottom"><div class="captionTitle">Enter to win $1k!</div></div></div><div class="sliderItem" style="background-image: url(http://images.tritondigitalcms.com/6616/2018/08/21155322/Miranda-PromoReel1.jpg);background-color: #000;background-repeat: no-repeat;background-size: cover;background-position: 50% 50%;position: relative;height: 300px;cursor: pointer;" onclick="window.location='http://www.nashfm1017.com/2018/08/24/miranda-t2w/'"><div class="promoCaption bottom"><div class="captionTitle">Text to Win!</div></div></div><div class="sliderItem" style="background-image: url(http://images.tritondigitalcms.com/6616/2018/08/17193903/LaborDay-PromoReel.jpg);background-color: #000;background-repeat: no-repeat;background-size: cover;background-position: 50% 50%;position: relative;height: 300px;cursor: pointer;" onclick="window.location='http://www.nashfm1017.com/2018/08/20/ultimate-labor-day/'"><div class="promoCaption bottom"><div class="captionTitle">Enter to win $2k!</div></div></div></div></div><div class="sliderThumbBar"><div class="sliderThumbViewport"><div class="sliderThumb wide selected"><div class="sliderThumbImage" style="background-image: url(http://images.tritondigitalcms.com/6616/2018/08/05210042/NN18-PR-5-LOCAL-FINALISTS-150x150.jpg);background-color: #000;background-size: cover;background-position: 50% 50%;background-repeat: no-repeat;position: relative;" data-slide-index="0"></div></div><div class="sliderThumb wide"><div class="sliderThumbImage" style="background-image: url(http://images.tritondigitalcms.com/6616/sites/289/2018/08/15134015/NASH_Lamar_6401-150x150.jpg);background-color: #000;background-size: contain;background-position: 50% 50%;background-repeat: no-repeat;position: relative;" data-slide-index="1"></div></div><div class="sliderThumb wide"><div class="sliderThumbImage" style="background-image: url(http://images.tritondigitalcms.com/6616/sites/289/2018/05/23125616/101DaysofSummer6_615-150x150.jpg);background-color: #000;background-size: contain;background-position: 50% 50%;background-repeat: no-repeat;position: relative;" data-slide-index="2"></div></div><div class="sliderThumb wide"><div class="sliderThumbImage" style="background-image: url(http://images.tritondigitalcms.com/6616/sites/289/2018/06/07162813/BL-TX_Facebook-Cover-Image-150x150.jpg);background-color: #000;background-size: contain;background-position: 50% 50%;background-repeat: no-repeat;position: relative;" data-slide-index="3"></div></div><div class="sliderThumb wide"><div class="sliderThumbImage" style="background-image: url(http://images.tritondigitalcms.com/6616/sites/289/2017/12/26112405/NASH_Promo_640-150x150.jpg);background-color: #000;background-size: contain;background-position: 50% 50%;background-repeat: no-repeat;position: relative;" data-slide-index="4"></div></div><div class="sliderThumb wide"><div class="sliderThumbImage" style="background-image: url(http://images.tritondigitalcms.com/6616/2018/07/18225307/4k-Live-PromoReel-150x150.jpg);background-color: #000;background-size: cover;background-position: 50% 50%;background-repeat: no-repeat;position: relative;" data-slide-index="5"></div></div><div class="sliderThumb wide"><div class="sliderThumbImage" style="background-image: url(http://images.tritondigitalcms.com/6616/2018/08/21155322/Miranda-PromoReel1-150x150.jpg);background-color: #000;background-size: cover;background-position: 50% 50%;background-repeat: no-repeat;position: relative;" data-slide-index="6"></div></div><div class="sliderThumb wide"><div class="sliderThumbImage" style="background-image: url(http://images.tritondigitalcms.com/6616/2018/08/17193903/LaborDay-PromoReel-150x150.jpg);background-color: #000;background-size: cover;background-position: 50% 50%;background-repeat: no-repeat;position: relative;" data-slide-index="7"></div></div></div></div></div></li><!-- .widget -->
+</ul>
+</div><!-- .block-content -->
+
+</aside><!-- #block-35 -->
+<div id="block-75" class="mobile-only block block-type-custom-code block-fluid-height" data-alias="Responsive Ad">
+<div class="block-content">
+<div id='div-gpt-ad-1418849849333-18'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1418849849333-18'); });
+</script>
+</div>
+</div><!-- .block-content -->
+
+</div><!-- #block-75 -->
+<div id="block-9" class="300x250-ad-1-r block block-type-custom-code block-fluid-height responsive-block-hiding-device-smartphones responsive-block-hiding-device-tablets-landscape responsive-block-hiding-device-tablets-portrait responsive-block-hiding-device-computers" data-alias="">
+<div class="block-content">
+<p>There is no custom code to display.</p>
+</div><!-- .block-content -->
+
+</div><!-- #block-9 -->
+<div id="block-11" class="sweet-deals-ad-r block block-type-custom-code block-fluid-height responsive-block-hiding-device-smartphones responsive-block-hiding-device-tablets-landscape responsive-block-hiding-device-tablets-portrait responsive-block-hiding-device-computers" data-alias="">
+<div class="block-content">
+<p>There is no custom code to display.</p>
+</div><!-- .block-content -->
+
+</div><!-- #block-11 -->
+<div id="block-39" class="top-stories block block-type-content block-fluid-height" data-alias="Top Stories">
+<div class="block-content">
+<h1 class="block-title"><span>Top Stories</span></h1><div class="loop">
+
+<div class="entry-row">
+
+<article id="post-1277202" class="post-1277202 post type-post status-publish format-standard has-post-thumbnail hentry category-homepage category-top-stories author-cmorgan custom-query" itemscope itemtype="http://schema.org/BlogPosting">
+			<a href="http://www.nashfm1017.com/2018/05/25/schlitterbahn/" class="post-thumbnail post-thumbnail-left">
+				<img src="http://images.tritondigitalcms.com/6616/sites/289/2018/05/23134206/NASH_Schlitterbahn2_600.jpg" alt="Schlitterbahn" width="auto" height="auto" itemprop="image" />
+			</a>
+		<header><h2 class="entry-title" itemprop="headline"><a href="http://www.nashfm1017.com/2018/05/25/schlitterbahn/" title="Schlitterbahn" rel="bookmark">Schlitterbahn</a></h2></header><div class="entry-summary entry-content" itemprop="text"><p>Schlitterbahn Waterpark Always the Hottest, Coolest Time Listen to NASH FM 1017 for your chance to win tickets!<span class="more-link-ellipsis">&#8230;  </span><a href="http://www.nashfm1017.com/2018/05/25/schlitterbahn/" class="more-link">More</a></p>
+</div><!-- .entry-summary.entry-content --></article><!-- #post-1277202 --><article id="post-525965" class="post-525965 post type-post status-publish format-standard has-post-thumbnail hentry category-homepage category-top-stories author-cmorgan alt custom-query" itemscope itemtype="http://schema.org/BlogPosting">
+			<a href="http://www.nashfm1017.com/2016/05/13/download-our-nash-fm-101-7-app/" class="post-thumbnail post-thumbnail-left">
+				<img src="http://www.nashfm1017.com/wp-content/uploads/sites/289/2016/05/nashaPP_600.jpg" alt="Download our NASH FM 101.7 App" width="auto" height="auto" itemprop="image" />
+			</a>
+		<header><h2 class="entry-title" itemprop="headline"><a href="http://www.nashfm1017.com/2016/05/13/download-our-nash-fm-101-7-app/" title="Download our NASH FM 101.7 App" rel="bookmark">Download our NASH FM 101.7 App</a></h2></header><div class="entry-summary entry-content" itemprop="text"><p>Discover a whole new world on our APP or use it to listen to NASH FM.<br />
+<span class="more-link-ellipsis">&#8230;  </span><a href="http://www.nashfm1017.com/2016/05/13/download-our-nash-fm-101-7-app/" class="more-link">More</a></p>
+</div><!-- .entry-summary.entry-content --></article><!-- #post-525965 -->
+
+</div><!-- .entry-row -->
+
+
+
+<div class="entry-row">
+
+<article id="post-32118" class="post-32118 post type-post status-publish format-standard has-post-thumbnail hentry category-homepage author-cnowicki custom-query" itemscope itemtype="http://schema.org/BlogPosting">
+			<a href="http://www.nashfm1017.com/2014/01/08/nash-nights-live/" class="post-thumbnail post-thumbnail-left">
+				<img src="http://www.nashfm1017.com/wp-content/uploads/sites/289/2014/01/NASHNights.jpg" alt="Nash Nights LIVE" width="auto" height="auto" itemprop="image" />
+			</a>
+		<header><h2 class="entry-title" itemprop="headline"><a href="http://www.nashfm1017.com/2014/01/08/nash-nights-live/" title="Nash Nights LIVE" rel="bookmark">Nash Nights LIVE</a></h2></header><div class="entry-summary entry-content" itemprop="text"><p>NASH NIGHTS LIVE is an exciting Country music and lifestyle show featuring Shawn Parr and Elaina Smith. The show airs live from Nashville&#039;s hottest new broadcasting comple&#8230;<span class="more-link-ellipsis">&#8230;  </span><a href="http://www.nashfm1017.com/2014/01/08/nash-nights-live/" class="more-link">More</a></p>
+</div><!-- .entry-summary.entry-content --></article><!-- #post-32118 -->
+
+</div><!-- .entry-row -->
+
+</div>
+</div><!-- .block-content -->
+
+</div><!-- #block-39 -->
+<div id="block-bfz5787fb34693c3" class="top-stories block block-type-content block-fluid-height" data-alias="Nash Country Daily">
+<div class="block-content">
+<h1 class="block-title"><span>Nash Country Daily</span></h1><div class="loop">
+
+<div class="entry-row">
+
+<article id="post-1309712" class="post-1309712 post type-post status-publish format-standard has-post-thumbnail hentry category-ncd-news tag-keith-urban tag-never-comin-down tag-video author-jcasey alt custom-query" itemscope itemtype="http://schema.org/BlogPosting">
+			<a href="http://www.nashfm1017.com/2018/08/23/keith-urban-drops-dance-happy-new-video-for-never-comin-down-watch/" class="post-thumbnail post-thumbnail-left">
+				<img src="http://images.tritondigitalcms.com/6616/sites/1446/2018/08/23131027/Keith-Urban-TA1.jpg" alt="Keith Urban Drops Dance-Happy New Video for &#8220;Never Comin&#8217; Down&#8221; [Watch]" width="auto" height="auto" itemprop="image" />
+			</a>
+		<header><h2 class="entry-title" itemprop="headline"><a href="http://www.nashfm1017.com/2018/08/23/keith-urban-drops-dance-happy-new-video-for-never-comin-down-watch/" title="Keith Urban Drops Dance-Happy New Video for &#8220;Never Comin&#8217; Down&#8221; [Watch]" rel="bookmark">Keith Urban Drops Dance-Happy New Video for &#8220;Never Comin&#8217; Down&#8221; [Watch]</a></h2></header><div class="entry-summary entry-content" itemprop="text"><p>After topping the Mediabase chart with “Coming Home” earlier this month, Keith Urban is “Never Comin’ Down.” Keith&#8217;s new single, which he co-penned with Josh Kerr, James Abrahart and Shy Carter, is the third single from his 2018 album, Graffiti U, following “Female” and the aforementioned “Coming Home.” Keith dropped a dance-happy new video for&hellip;<span class="more-link-ellipsis">&#8230;  </span><a href="http://www.nashfm1017.com/2018/08/23/keith-urban-drops-dance-happy-new-video-for-never-comin-down-watch/" class="more-link">More</a></p>
+</div><!-- .entry-summary.entry-content --></article><!-- #post-1309712 --><article id="post-1309694" class="post-1309694 post type-post status-publish format-standard has-post-thumbnail hentry category-ncd-news tag-acm-honors tag-chris-stapleton tag-darius-rucker tag-dierks-bentley tag-jon-pardi tag-kelsea-ballerini tag-kip-moore tag-lindsay-ell tag-morgan-evans tag-sam-hunt author-jcasey custom-query" itemscope itemtype="http://schema.org/BlogPosting">
+			<a href="http://www.nashfm1017.com/2018/08/23/highlights-from-the-acm-honors-ceremony-including-chris-stapleton-jon-pardi-lauren-alaina-sam-hunt-more-photo-gallery/" class="post-thumbnail post-thumbnail-left">
+				<img src="http://images.tritondigitalcms.com/6616/sites/1446/2018/08/23120021/Chris-Stapleton.jpg" alt="Highlights From the ACM Honors Ceremony, Including Chris Stapleton, Jon Pardi, Lauren Alaina, Sam Hunt &#038; More [Photo Gallery]" width="auto" height="auto" itemprop="image" />
+			</a>
+		<header><h2 class="entry-title" itemprop="headline"><a href="http://www.nashfm1017.com/2018/08/23/highlights-from-the-acm-honors-ceremony-including-chris-stapleton-jon-pardi-lauren-alaina-sam-hunt-more-photo-gallery/" title="Highlights From the ACM Honors Ceremony, Including Chris Stapleton, Jon Pardi, Lauren Alaina, Sam Hunt &#038; More [Photo Gallery]" rel="bookmark">Highlights From the ACM Honors Ceremony, Including Chris Stapleton, Jon Pardi, Lauren Alaina, Sam Hunt &#038; More [Photo Gallery]</a></h2></header><div class="entry-summary entry-content" itemprop="text"><p>The Academy of Country Music hosted the 12th annual ACM Honors ceremony on Aug. 22 at Nashville’s Ryman Auditorium to recognize the special honorees and off-camera category winners from the 53rd ACM Awards. Hosted by Lauren Alaina and Jon Pardi, the ceremony paid tribute to a number of artists for their specific achievements, including Alan&hellip;<span class="more-link-ellipsis">&#8230;  </span><a href="http://www.nashfm1017.com/2018/08/23/highlights-from-the-acm-honors-ceremony-including-chris-stapleton-jon-pardi-lauren-alaina-sam-hunt-more-photo-gallery/" class="more-link">More</a></p>
+</div><!-- .entry-summary.entry-content --></article><!-- #post-1309694 -->
+
+</div><!-- .entry-row -->
+
+
+
+<div class="entry-row">
+
+<article id="post-1309640" class="post-1309640 post type-post status-publish format-standard has-post-thumbnail hentry category-ncd-news tag-acm-honors tag-cam tag-cassadee-pope tag-darius-rucker tag-dierks-bentley tag-dustin-lynch tag-jon-pardi tag-kelsea-ballerini tag-lindsal-ell tag-morgan-evans author-jcasey alt custom-query" itemscope itemtype="http://schema.org/BlogPosting">
+			<a href="http://www.nashfm1017.com/2018/08/23/63-of-our-favorite-red-carpet-photos-from-the-acm-honors-including-dierks-darius-dustin-kelsea-kip-cam-more/" class="post-thumbnail post-thumbnail-left">
+				<img src="http://images.tritondigitalcms.com/6616/sites/1446/2018/08/23092311/Kelsea-Darius-Dustin.jpg" alt="63 of Our Favorite Red Carpet Photos From the ACM Honors, Including Dierks, Darius, Dustin, Kelsea, Kip, Cam &#038; More" width="auto" height="auto" itemprop="image" />
+			</a>
+		<header><h2 class="entry-title" itemprop="headline"><a href="http://www.nashfm1017.com/2018/08/23/63-of-our-favorite-red-carpet-photos-from-the-acm-honors-including-dierks-darius-dustin-kelsea-kip-cam-more/" title="63 of Our Favorite Red Carpet Photos From the ACM Honors, Including Dierks, Darius, Dustin, Kelsea, Kip, Cam &#038; More" rel="bookmark">63 of Our Favorite Red Carpet Photos From the ACM Honors, Including Dierks, Darius, Dustin, Kelsea, Kip, Cam &#038; More</a></h2></header><div class="entry-summary entry-content" itemprop="text"><p>Before the 12th annual ACM Honors ceremony kicked off in Nashville on Aug. 22, many country stars walked the red carpet outside the historic Ryman Auditorium. The evening was dedicated to the special honorees and off-camera category winners from the 53rd ACM Awards. The ACM Honors paid tribute to a number of artists for their specific&hellip;<span class="more-link-ellipsis">&#8230;  </span><a href="http://www.nashfm1017.com/2018/08/23/63-of-our-favorite-red-carpet-photos-from-the-acm-honors-including-dierks-darius-dustin-kelsea-kip-cam-more/" class="more-link">More</a></p>
+</div><!-- .entry-summary.entry-content --></article><!-- #post-1309640 --><article id="post-1309308" class="post-1309308 post type-post status-publish format-standard has-post-thumbnail hentry category-ncd-news tag-loretta-lynn tag-wouldnt-it-be-great author-jcasey custom-query" itemscope itemtype="http://schema.org/BlogPosting">
+			<a href="http://www.nashfm1017.com/2018/08/22/loretta-lynn-announces-sept-28-release-date-of-new-album-wouldnt-it-be-great/" class="post-thumbnail post-thumbnail-left">
+				<img src="http://images.tritondigitalcms.com/6616/sites/1446/2017/10/03121403/Loretta-Lynn.jpg" alt="Loretta Lynn Announces Sept. 28 Release Date of New Album, &#8220;Wouldn&#8217;t It Be Great&#8221; [Listen to Title Track]" width="auto" height="auto" itemprop="image" />
+			</a>
+		<header><h2 class="entry-title" itemprop="headline"><a href="http://www.nashfm1017.com/2018/08/22/loretta-lynn-announces-sept-28-release-date-of-new-album-wouldnt-it-be-great/" title="Loretta Lynn Announces Sept. 28 Release Date of New Album, &#8220;Wouldn&#8217;t It Be Great&#8221; [Listen to Title Track]" rel="bookmark">Loretta Lynn Announces Sept. 28 Release Date of New Album, &#8220;Wouldn&#8217;t It Be Great&#8221; [Listen to Title Track]</a></h2></header><div class="entry-summary entry-content" itemprop="text"><p>More than 15 months after suffering a stroke in May 2017, Loretta Lynn has announced plans to release her new studio album, Wouldn&#8217;t It Be Great, on Sept. 28. The album was originally slated to drop in August 2017, but Loretta&#8217;s recovery rightfully took priority. “This new record means so much to me, but this&hellip;<span class="more-link-ellipsis">&#8230;  </span><a href="http://www.nashfm1017.com/2018/08/22/loretta-lynn-announces-sept-28-release-date-of-new-album-wouldnt-it-be-great/" class="more-link">More</a></p>
+</div><!-- .entry-summary.entry-content --></article><!-- #post-1309308 -->
+
+</div><!-- .entry-row -->
+
+
+
+<div class="entry-row">
+
+<article id="post-1309276" class="post-1309276 post type-post status-publish format-standard has-post-thumbnail hentry category-ncd-news tag-ben-folds tag-brenda-lee tag-jeannie-seely tag-ray-stevens tag-walk-of-fame author-jcasey alt custom-query" itemscope itemtype="http://schema.org/BlogPosting">
+			<a href="http://www.nashfm1017.com/2018/08/22/ray-stevens-jeannie-seely-brenda-lee-ben-folds-inducted-into-music-city-walk-of-fame-photo-gallery/" class="post-thumbnail post-thumbnail-left">
+				<img src="http://images.tritondigitalcms.com/6616/sites/1446/2018/08/22112209/Ray-Stevens1.jpg" alt="Ray Stevens, Jeannie Seely, Brenda Lee &#038; Ben Folds Inducted Into Music City Walk of Fame [Photo Gallery]" width="auto" height="auto" itemprop="image" />
+			</a>
+		<header><h2 class="entry-title" itemprop="headline"><a href="http://www.nashfm1017.com/2018/08/22/ray-stevens-jeannie-seely-brenda-lee-ben-folds-inducted-into-music-city-walk-of-fame-photo-gallery/" title="Ray Stevens, Jeannie Seely, Brenda Lee &#038; Ben Folds Inducted Into Music City Walk of Fame [Photo Gallery]" rel="bookmark">Ray Stevens, Jeannie Seely, Brenda Lee &#038; Ben Folds Inducted Into Music City Walk of Fame [Photo Gallery]</a></h2></header><div class="entry-summary entry-content" itemprop="text"><p>The Music City Walk of Fame inducted four new members—Ben Folds, Brenda Lee, Jeannie Seely and Ray Stevens—during a ceremony on Aug. 21. The Music City Walk of Fame—created in 2006—is a tribute to artists of all genres who have contributed to the world through song and made a significant contribution to the music industry&hellip;<span class="more-link-ellipsis">&#8230;  </span><a href="http://www.nashfm1017.com/2018/08/22/ray-stevens-jeannie-seely-brenda-lee-ben-folds-inducted-into-music-city-walk-of-fame-photo-gallery/" class="more-link">More</a></p>
+</div><!-- .entry-summary.entry-content --></article><!-- #post-1309276 --><article id="post-1309231" class="post-1309231 post type-post status-publish format-standard has-post-thumbnail hentry category-ncd-news tag-abby-anderson tag-criminal tag-kristian-bush tag-lindsay-ell author-jcasey custom-query" itemscope itemtype="http://schema.org/BlogPosting">
+			<a href="http://www.nashfm1017.com/2018/08/22/watch-lindsay-ell-perform-criminal-with-kristian-bush-at-rooftop-concert/" class="post-thumbnail post-thumbnail-left">
+				<img src="http://images.tritondigitalcms.com/6616/sites/1446/2018/08/22094227/Lindsay-Ell-Kristin-Bush-TA.jpg" alt="Watch Lindsay Ell Perform &#8220;Criminal&#8221; With Kristian Bush at Rooftop Concert" width="auto" height="auto" itemprop="image" />
+			</a>
+		<header><h2 class="entry-title" itemprop="headline"><a href="http://www.nashfm1017.com/2018/08/22/watch-lindsay-ell-perform-criminal-with-kristian-bush-at-rooftop-concert/" title="Watch Lindsay Ell Perform &#8220;Criminal&#8221; With Kristian Bush at Rooftop Concert" rel="bookmark">Watch Lindsay Ell Perform &#8220;Criminal&#8221; With Kristian Bush at Rooftop Concert</a></h2></header><div class="entry-summary entry-content" itemprop="text"><p>Broadcast Music, Inc. (BMI) held its fifth of six Rooftop on the Row concerts on Aug. 21 in Nashville. Abby Anderson kicked off the night’s festivities atop the BMI building, before Lindsay Ell headlined the event with special guest Kristian Bush of Sugarland. Lindsay treated the concertgoers to a number of tunes from her 2017&hellip;<span class="more-link-ellipsis">&#8230;  </span><a href="http://www.nashfm1017.com/2018/08/22/watch-lindsay-ell-perform-criminal-with-kristian-bush-at-rooftop-concert/" class="more-link">More</a></p>
+</div><!-- .entry-summary.entry-content --></article><!-- #post-1309231 -->
+
+</div><!-- .entry-row -->
+
+
+
+<div class="entry-row">
+
+<article id="post-1309306" class="post-1309306 post type-post status-publish format-standard has-post-thumbnail hentry category-ncd-news tag-gretchen-wilson author-jcasey alt custom-query" itemscope itemtype="http://schema.org/BlogPosting">
+			<a href="http://www.nashfm1017.com/2018/08/22/gretchen-wilson-arrested-at-connecticut-airport-for-minor-disturbance/" class="post-thumbnail post-thumbnail-left">
+				<img src="http://images.tritondigitalcms.com/6616/sites/1446/2017/06/26082714/Gretchen-Wilson.jpg" alt="Gretchen Wilson Arrested at Connecticut Airport for Minor Disturbance" width="auto" height="auto" itemprop="image" />
+			</a>
+		<header><h2 class="entry-title" itemprop="headline"><a href="http://www.nashfm1017.com/2018/08/22/gretchen-wilson-arrested-at-connecticut-airport-for-minor-disturbance/" title="Gretchen Wilson Arrested at Connecticut Airport for Minor Disturbance" rel="bookmark">Gretchen Wilson Arrested at Connecticut Airport for Minor Disturbance</a></h2></header><div class="entry-summary entry-content" itemprop="text"><p>&#8220;Redneck Woman&#8221; singer Gretchen Wilson was arrested for &#8220;breach of peace&#8221; at Bradley International Airport in Windsor Locks, Connecticut, on Aug. 21. TMZ reports that the on-flight disturbance was the result of Gretchen trying to use an occupied bathroom—words and threatening hand gestures were exchanged in the aftermath. Gretchen was subsequently arrested and charged with&hellip;<span class="more-link-ellipsis">&#8230;  </span><a href="http://www.nashfm1017.com/2018/08/22/gretchen-wilson-arrested-at-connecticut-airport-for-minor-disturbance/" class="more-link">More</a></p>
+</div><!-- .entry-summary.entry-content --></article><!-- #post-1309306 --><article id="post-1309229" class="post-1309229 post type-post status-publish format-standard has-post-thumbnail hentry category-ncd-news tag-dustin-lynch tag-grand-ole-opry tag-trace-adkins author-jcasey custom-query" itemscope itemtype="http://schema.org/BlogPosting">
+			<a href="http://www.nashfm1017.com/2018/08/22/dustin-lynch-invited-to-join-the-grand-ole-opry/" class="post-thumbnail post-thumbnail-left">
+				<img src="http://images.tritondigitalcms.com/6616/sites/1446/2018/08/22084834/Dustin-Lynch_opry.jpg" alt="Dustin Lynch Invited to Join the Grand Ole Opry" width="auto" height="auto" itemprop="image" />
+			</a>
+		<header><h2 class="entry-title" itemprop="headline"><a href="http://www.nashfm1017.com/2018/08/22/dustin-lynch-invited-to-join-the-grand-ole-opry/" title="Dustin Lynch Invited to Join the Grand Ole Opry" rel="bookmark">Dustin Lynch Invited to Join the Grand Ole Opry</a></h2></header><div class="entry-summary entry-content" itemprop="text"><p>More than six years after making his Grand Ole Opry debut on March 2, 2012, Dustin Lynch was invited to join the esteemed organization during last night&#8217;s (Aug. 21) Opry showcase. Dustin received the surprise invite from Trace Adkins, who was celebrating his 15th anniversary as an Opry member. “Being a member of the Grand&hellip;<span class="more-link-ellipsis">&#8230;  </span><a href="http://www.nashfm1017.com/2018/08/22/dustin-lynch-invited-to-join-the-grand-ole-opry/" class="more-link">More</a></p>
+</div><!-- .entry-summary.entry-content --></article><!-- #post-1309229 -->
+
+</div><!-- .entry-row -->
+
+
+
+<div class="entry-row">
+
+<article id="post-1308954" class="post-1308954 post type-post status-publish format-standard has-post-thumbnail hentry category-ncd-news tag-brothers-osborne tag-shoot-me-straight author-jcasey alt custom-query" itemscope itemtype="http://schema.org/BlogPosting">
+			<a href="http://www.nashfm1017.com/2018/08/21/watch-brothers-osbornes-twisting-new-shoot-me-straight-video/" class="post-thumbnail post-thumbnail-left">
+				<img src="http://images.tritondigitalcms.com/6616/sites/1446/2018/01/03122402/Brothers-Osborne.jpg" alt="Watch Brothers Osborne&#8217;s Twisting New &#8220;Shoot Me Straight&#8221; Video" width="auto" height="auto" itemprop="image" />
+			</a>
+		<header><h2 class="entry-title" itemprop="headline"><a href="http://www.nashfm1017.com/2018/08/21/watch-brothers-osbornes-twisting-new-shoot-me-straight-video/" title="Watch Brothers Osborne&#8217;s Twisting New &#8220;Shoot Me Straight&#8221; Video" rel="bookmark">Watch Brothers Osborne&#8217;s Twisting New &#8220;Shoot Me Straight&#8221; Video</a></h2></header><div class="entry-summary entry-content" itemprop="text"><p>Following the released of their award-winning video for &#8220;It Ain&#8217;t My Fault,&#8221; John and TJ Osborne of Brothers Osborne are back with more hijinks in their new clip for &#8220;Shoot Me Straight.&#8221; Once again utilizing the directorial skills of Wes Edwards and Ryan Silver, the mockumentary-styled video for &#8220;Shoot Me Straight&#8221; features the Brothers rejecting&hellip;<span class="more-link-ellipsis">&#8230;  </span><a href="http://www.nashfm1017.com/2018/08/21/watch-brothers-osbornes-twisting-new-shoot-me-straight-video/" class="more-link">More</a></p>
+</div><!-- .entry-summary.entry-content --></article><!-- #post-1308954 --><article id="post-1308903" class="post-1308903 post type-post status-publish format-standard has-post-thumbnail hentry category-ncd-news tag-graffiti-u tag-keith-urban tag-never-comin-down author-jcasey custom-query" itemscope itemtype="http://schema.org/BlogPosting">
+			<a href="http://www.nashfm1017.com/2018/08/21/listen-to-keith-urbans-feel-good-new-single-never-comin-down/" class="post-thumbnail post-thumbnail-left">
+				<img src="http://images.tritondigitalcms.com/6616/sites/1446/2018/08/21092620/Keith-Urban-TA.jpg" alt="Listen to Keith Urban&#8217;s Feel-Good New Single, &#8220;Never Comin&#8217; Down&#8221;" width="auto" height="auto" itemprop="image" />
+			</a>
+		<header><h2 class="entry-title" itemprop="headline"><a href="http://www.nashfm1017.com/2018/08/21/listen-to-keith-urbans-feel-good-new-single-never-comin-down/" title="Listen to Keith Urban&#8217;s Feel-Good New Single, &#8220;Never Comin&#8217; Down&#8221;" rel="bookmark">Listen to Keith Urban&#8217;s Feel-Good New Single, &#8220;Never Comin&#8217; Down&#8221;</a></h2></header><div class="entry-summary entry-content" itemprop="text"><p>After topping the Mediabase chart with &#8220;Coming Home&#8221; earlier this month, Keith Urban is “Never Comin’ Down.” Keith shipped “Never Comin’ Down” to country radio as his new single, which is featured on his 2018 album, Graffiti U. The tune, which was penned by Keith, Josh Kerr, James Abrahart and Shy Carter, is the third&hellip;<span class="more-link-ellipsis">&#8230;  </span><a href="http://www.nashfm1017.com/2018/08/21/listen-to-keith-urbans-feel-good-new-single-never-comin-down/" class="more-link">More</a></p>
+</div><!-- .entry-summary.entry-content --></article><!-- #post-1308903 -->
+
+</div><!-- .entry-row -->
+
+</div>
+</div><!-- .block-content -->
+
+</div><!-- #block-bfz5787fb34693c3 -->
+
+</section><!-- .column -->
+
+<section class="column column-2 grid-left-0 grid-width-8">
+<div id="block-34" class="300x250-ad-1 block block-type-custom-code block-fluid-height" data-alias="300x250 Ad 1">
+<div class="block-content">
+<div id='div-gpt-ad-1418849849333-0'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1418849849333-0'); });
+</script>
+</div>
+</div><!-- .block-content -->
+
+</div><!-- #block-34 -->
+<div id="block-38" class="sweet-deals-ad block block-type-custom-code block-fluid-height" data-alias="Sweet Deals Ad">
+<div class="block-content">
+<a href="http://beaumont.sweetdealscumulus.com/"><img src="http://cumulus.pro.poolb.tritondigitalcms.com/kayd-fm/wp-content/uploads/sites/289/2014/10/sweetdeals.png"></a>
+</div><!-- .block-content -->
+
+</div><!-- #block-38 -->
+<div id="block-36" class="vip-club-ad block block-type-custom-code block-fluid-height" data-alias="VIP Club Ad">
+<div class="block-content">
+<div id='div-gpt-ad-1418849849333-7'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1418849849333-7'); });
+</script>
+</div>
+</div><!-- .block-content -->
+
+</div><!-- #block-36 -->
+<div id="block-bh355073aee43334" class="headlines block block-type-custom-code block-fluid-height" data-alias="playlist">
+<div class="block-content">
+<h1 class="block-title"><span>Playlist</span></h1><p><iframe align="top,left" frameborder="0" height="480" id="tunegenie-onair" marginheight="0" marginwidth="0" name="onair" scrolling="no" src="http://kayd.tunegenie.com/plugins/onair/?branding=no&amp;colorscheme=light&amp;bg=ffffff" width="310"></iframe></p>
+
+</div><!-- .block-content -->
+
+</div><!-- #block-bh355073aee43334 -->
+<div id="block-48" class="headlines block block-type-custom-code block-fluid-height" data-alias="Facebook Widget">
+<div class="block-content">
+<div class="fb-page" data-href="https://www.facebook.com/NASH-FM-1017-291270904331674/" data-tabs="timeline" data-height="450" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/NASH-FM-1017-291270904331674/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/NASH-FM-1017-291270904331674/">NASH FM 101.7</a></blockquote></div>
+</div><!-- .block-content -->
+
+</div><!-- #block-48 -->
+<div id="block-42" class="facebook-ad block block-type-custom-code block-fluid-height" data-alias="Facebook Ad">
+<div class="block-content">
+<div id='div-gpt-ad-1418849849333-8'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1418849849333-8'); });
+</script>
+</div>
+</div><!-- .block-content -->
+
+</div><!-- #block-42 -->
+<div id="block-43" class="headlines block block-type-content block-fluid-height" data-alias="Headlines">
+<div class="block-content">
+<h1 class="block-title"><span>Headlines</span></h1><div class="loop">
+
+<div class="entry-row">
+
+<article id="post-1308476" class="post-1308476 post type-post status-publish format-standard has-post-thumbnail hentry category-ncd-interviews category-ncd-news tag-elaina-smith tag-sarah-darling tag-women-want-to-hear-women author-esmith alt custom-query" itemscope itemtype="http://schema.org/BlogPosting"><header><h2 class="entry-title" itemprop="headline"><a href="http://www.nashfm1017.com/2018/08/20/women-want-to-hear-women-with-elaina-featuring-sarah-darling/" title="&#8220;Women Want to Hear Women With Elaina&#8221; Featuring Sarah Darling" rel="bookmark">&#8220;Women Want to Hear Women With Elaina&#8221; Featuring Sarah Darling</a></h2></header></article><!-- #post-1308476 --><article id="post-1308425" class="post-1308425 post type-post status-publish format-standard has-post-thumbnail hentry category-ncd-news category-ncd-podcasts tag-all-of-it tag-cole-swindell tag-dustin-lynch tag-lauren-alaina tag-reason-to-drink-another-tour author-jcasey custom-query" itemscope itemtype="http://schema.org/BlogPosting"><header><h2 class="entry-title" itemprop="headline"><a href="http://www.nashfm1017.com/2018/08/17/cole-swindell-talks-releasing-his-new-album-all-of-it-getting-back-to-his-songwriting-roots-touring-with-dustin-lynch-more/" title="Cole Swindell Talks Releasing His New Album &#8220;All of It,&#8221; Getting Back to His Songwriting Roots, Touring With Dustin Lynch &#038; More" rel="bookmark">Cole Swindell Talks Releasing His New Album &#8220;All of It,&#8221; Getting Back to His Songwriting Roots, Touring With Dustin Lynch &#038; More</a></h2></header></article><!-- #post-1308425 -->
+
+</div><!-- .entry-row -->
+
+
+
+<div class="entry-row">
+
+<article id="post-1308402" class="post-1308402 post type-post status-publish format-standard has-post-thumbnail hentry category-ncd-news category-ncd-podcasts tag-chris-young tag-kiss-somebody tag-losing-sleep-world-tour tag-morgan-evans author-jcasey alt custom-query" itemscope itemtype="http://schema.org/BlogPosting"><header><h2 class="entry-title" itemprop="headline"><a href="http://www.nashfm1017.com/2018/08/15/morgan-evans-talks-aussie-roots-upcoming-album-top-5-single-touring-with-chris-young-more/" title="Morgan Evans Talks Aussie Roots, Upcoming Album, Top 5 Single, Touring With Chris Young &#038; More" rel="bookmark">Morgan Evans Talks Aussie Roots, Upcoming Album, Top 5 Single, Touring With Chris Young &#038; More</a></h2></header></article><!-- #post-1308402 --><article id="post-1308362" class="post-1308362 post type-post status-publish format-standard has-post-thumbnail hentry category-ncd-interviews category-ncd-news tag-selfish tag-stephanie-quayle tag-women-want-to-hear-women author-esmith custom-query" itemscope itemtype="http://schema.org/BlogPosting"><header><h2 class="entry-title" itemprop="headline"><a href="http://www.nashfm1017.com/2018/08/10/women-want-to-hear-women-with-elaina-featuring-stephanie-quayle/" title="&#8220;Women Want to Hear Women With Elaina&#8221; Featuring Stephanie Quayle" rel="bookmark">&#8220;Women Want to Hear Women With Elaina&#8221; Featuring Stephanie Quayle</a></h2></header></article><!-- #post-1308362 -->
+
+</div><!-- .entry-row -->
+
+
+
+<div class="entry-row">
+
+<article id="post-1307735" class="post-1307735 post type-post status-publish format-standard has-post-thumbnail hentry category-ncd-interviews category-ncd-news tag-clare-dunn tag-make-you-feel-my-love tag-more author-esmith alt custom-query" itemscope itemtype="http://schema.org/BlogPosting"><header><h2 class="entry-title" itemprop="headline"><a href="http://www.nashfm1017.com/2018/08/03/women-want-to-hear-women-with-elaina-smith-featuring-clare-dunn/" title="&#8220;Women Want to Hear Women With Elaina Smith&#8221; Featuring Clare Dunn" rel="bookmark">&#8220;Women Want to Hear Women With Elaina Smith&#8221; Featuring Clare Dunn</a></h2></header></article><!-- #post-1307735 --><article id="post-1304027" class="post-1304027 post type-post status-publish format-standard has-post-thumbnail hentry category-ncd-interviews category-ncd-news tag-elaina-smith tag-i-know-how-to-make-a-boy-cry tag-tegan-marie tag-women-want-to-hear-women author-esmith custom-query" itemscope itemtype="http://schema.org/BlogPosting"><header><h2 class="entry-title" itemprop="headline"><a href="http://www.nashfm1017.com/2018/07/27/women-want-to-hear-women-with-elaina-smith-featuring-tegan-marie/" title="&#8220;Women Want to Hear Women With Elaina Smith&#8221; Featuring Tegan Marie" rel="bookmark">&#8220;Women Want to Hear Women With Elaina Smith&#8221; Featuring Tegan Marie</a></h2></header></article><!-- #post-1304027 -->
+
+</div><!-- .entry-row -->
+
+</div>
+</div><!-- .block-content -->
+
+</div><!-- #block-43 -->
+<div id="block-44" class="twitter-ad block block-type-custom-code block-fluid-height" data-alias="Twitter Ad">
+<div class="block-content">
+<div id='div-gpt-ad-1418849849333-9'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1418849849333-9'); });
+</script>
+</div>
+</div><!-- .block-content -->
+
+</div><!-- #block-44 -->
+<aside id="block-45" class="free-apps block block-type-widget-area block-fluid-height" data-alias="Home - Free Apps" itemscope="" itemtype="http://schema.org/WPSideBar">
+<div class="block-content">
+<h1 class="block-title"><span>Free Apps</span></h1><ul class="widget-area"><li id="text-3" class="widget widget_text">
+			<div class="textwidget"><div align="center">
+<a href="https://itunes.apple.com/us/app/nash-fm-101.7/id806995626?mt=8&amp;ign-mpt=uo=4" target="_blank"><img src="/wp-content/uploads/sites/289/2014/10/appstore.png" border="0"></a>&nbsp;<a href="https://play.google.com/store/apps/details?id=com.airkast.KAYDFM" target="_blank"><img src="/wp-content/uploads/sites/289/2014/10/googleplay.png" border="0"></a>&nbsp;<a href="http://amazon.com/dp/B00IZ01GZA" target="_blank"><img src="/wp-content/uploads/sites/289/2014/10/amazon.png" border="0"></a>
+</div></div>
+		</li><!-- .widget -->
+</ul>
+</div><!-- .block-content -->
+
+</aside><!-- #block-45 -->
+<div id="block-46" class="300x250-ad-2 block block-type-custom-code block-fluid-height" data-alias="300x250 Ad 2">
+<div class="block-content">
+<div id='div-gpt-ad-1418849849333-3'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1418849849333-3'); });
+</script>
+</div>
+</div><!-- .block-content -->
+
+</div><!-- #block-46 -->
+
+</section><!-- .column -->
+
+</section><!-- .row -->
+
+
+</div><!-- .grid-container -->
+
+</div><!-- .wrapper -->
+
+<div id="wrapper-10" class="wrapper wrapper-fluid wrapper-fixed-grid grid-fluid-24-32-10 responsive-grid wrapper-last wrapper-footer" data-alias="Wrapper Footer">
+
+<div class="grid-container clearfix">
+
+<section class="row row-1">
+
+<section class="column column-1 grid-left-0 grid-width-6">
+<nav id="block-50" class="footer-nav block block-type-navigation block-fluid-height" data-alias="Footer Navigation" itemscope="" itemtype="http://schema.org/SiteNavigationElement">
+<div class="block-content">
+<div class="nav-vertical nav-align-left"><ul id="menu-footer-navigation" class="menu"><li id="menu-item-253140" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-253140"><a href="/1111/11/11/privacy-policy">Privacy Policy</a></li>
+<li id="menu-item-253143" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-253143"><a href="/1111/11/11/terms-of-service">Terms of Service</a></li>
+<li id="menu-item-253146" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-253146"><a href="/1111/11/11/contest-rules">Contest Rules</a></li>
+<li id="menu-item-473919" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-473919"><a href="http://www.nashfm1017.com/acc-contest-rules/">ACC Contest Rules</a></li>
+<li id="menu-item-137" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-137"><a href="http://www.nashfm1017.com/advertise-with-us/">Advertise With Us</a></li>
+<li id="menu-item-139" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-139"><a href="http://www.nashfm1017.com/station-information/">Station Information</a></li>
+<li id="menu-item-141" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-141"><a href="https://cumulus.hrmdirect.com/employment/job-openings.php?search=true&#038;nohd">Employment Opportunities</a></li>
+<li id="menu-item-40940" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-40940"><a href="http://www.nashfm1017.com/eeoc/">EEOC</a></li>
+<li id="menu-item-1239254" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1239254"><a target="_blank" href="https://www.cumulus.com">Cumulus Media Corporate</a></li>
+<li id="menu-item-1266022" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1266022"><a href="https://publicfiles.fcc.gov/fm-profile/kayd-fm">KAYD Public Inspection File</a></li>
+</ul></div><!-- .nav-vertical nav-align-left -->
+</div><!-- .block-content -->
+
+</nav><!-- #block-50 -->
+<div id="block-bc655ca13d003de0" class="block block-type-custom-code block-fluid-height" data-alias="Wallpaper Ad">
+<div class="block-content">
+<div id='div-gpt-ad-1418849849333-16'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1418849849333-16'); });
+</script>
+</div>
+</div><!-- .block-content -->
+
+</div><!-- #block-bc655ca13d003de0 -->
+
+</section><!-- .column -->
+
+<section class="column column-2 grid-left-0 grid-width-18">
+<div id="block-51" class="728x90-ad-2 block block-type-custom-code block-fluid-height" data-alias="728x90 Ad 2">
+<div class="block-content">
+<div class="footer-728x90-ad" align="right">
+<div id='div-gpt-ad-1418849849333-2'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1418849849333-2'); });
+</script>
+</div>
+</div>
+
+</div><!-- .block-content -->
+
+</div><!-- #block-51 -->
+<footer id="block-52" class="copyright block block-type-footer block-fluid-height" data-alias="Copyright" itemscope="" itemtype="http://schema.org/WPFooter">
+<div class="block-content">
+
+<div class="footer-container">
+
+<div class="footer">
+<p class="copyright footer-copyright">Copyright Cumulus Media / Cumulus Media is an equal opportunity employer / AA</p><p class="footer-responsive-grid-link-container footer-responsive-grid-link-disable-container"><a href="http://www.nashfm1017.com/?full-site=true" rel="nofollow" class="footer-responsive-grid-link footer-responsive-grid-disable footer-link">View Full Site</a></p>
+</div><!-- .footer -->
+</div><!-- .footer-container -->
+</div><!-- .block-content -->
+
+</footer><!-- #block-52 -->
+
+</section><!-- .column -->
+
+</section><!-- .row -->
+
+
+</div><!-- .grid-container -->
+
+</div><!-- .wrapper -->
+
+
+
+<script>_AMP.theme.init();</script>
+<link rel='stylesheet' id='media_library_assistant-plugin-styles-css'  href='http://www.nashfm1017.com/wp-content/plugins/media-library-assistant/includes/../css/prettyPhoto.css?ver=1.61' type='text/css' media='all' />
+<link rel='stylesheet' id='media_library_assistant-widget-styles-css'  href='http://www.nashfm1017.com/wp-content/plugins/media-library-assistant/includes/../css/widget.css?ver=1.61' type='text/css' media='all' />
+<link rel='stylesheet' id='amp-polls-plugin-styles-css'  href='http://www.nashfm1017.com/wp-content/plugins/amp-polls/css/widget.css?ver=4.9.1' type='text/css' media='all' />
+<link rel='stylesheet' id='themify-builder-1309712-generated-css'  href='http://www.nashfm1017.com/wp-content/uploads/sites/289/themify-css/themify-builder-1309712-generated.css?ver=1535048424' type='text/css' media='all' />
+<link rel='stylesheet' id='themify-builder-1309694-generated-css'  href='http://www.nashfm1017.com/wp-content/uploads/sites/289/themify-css/themify-builder-1309694-generated.css?ver=1535044544' type='text/css' media='all' />
+<link rel='stylesheet' id='themify-builder-1309640-generated-css'  href='http://www.nashfm1017.com/wp-content/uploads/sites/289/themify-css/themify-builder-1309640-generated.css?ver=1535035046' type='text/css' media='all' />
+<link rel='stylesheet' id='themify-builder-1309308-generated-css'  href='http://www.nashfm1017.com/wp-content/uploads/sites/289/themify-css/themify-builder-1309308-generated.css?ver=1534964318' type='text/css' media='all' />
+<link rel='stylesheet' id='themify-builder-1309276-generated-css'  href='http://www.nashfm1017.com/wp-content/uploads/sites/289/themify-css/themify-builder-1309276-generated.css?ver=1534955641' type='text/css' media='all' />
+<link rel='stylesheet' id='themify-builder-1309231-generated-css'  href='http://www.nashfm1017.com/wp-content/uploads/sites/289/themify-css/themify-builder-1309231-generated.css?ver=1534949377' type='text/css' media='all' />
+<link rel='stylesheet' id='themify-builder-1309306-generated-css'  href='http://www.nashfm1017.com/wp-content/uploads/sites/289/themify-css/themify-builder-1309306-generated.css?ver=1534959963' type='text/css' media='all' />
+<link rel='stylesheet' id='themify-builder-1309229-generated-css'  href='http://www.nashfm1017.com/wp-content/uploads/sites/289/themify-css/themify-builder-1309229-generated.css?ver=1534960588' type='text/css' media='all' />
+<link rel='stylesheet' id='themify-builder-1308954-generated-css'  href='http://www.nashfm1017.com/wp-content/uploads/sites/289/themify-css/themify-builder-1308954-generated.css?ver=1534867685' type='text/css' media='all' />
+<script type='text/javascript'>
+/* <![CDATA[ */
+var themify_vars = {"version":"2.1.8","url":"http:\/\/www.nashfm1017.com\/wp-content\/plugins\/themify-builder\/themify","map_key":null,"includesURL":"http:\/\/www.nashfm1017.com\/wp-includes\/","isCached":null,"minify":{"css":{"themify-icons":false,"themify.framework":false,"lightbox":false,"themify-builder-style":false},"js":{"backstretch.themify-version":false,"bigvideo":false,"themify.dropdown":false,"themify.builder.script":false,"themify.scroll-highlight":false,"themify-youtube-bg":false,"themify.parallaxit":false,"themify.ticks":false}}};
+var tbLocalScript = {"isAnimationActive":"1","isParallaxActive":"1","isParallaxScrollActive":"1","animationInviewSelectors":[".module.wow",".module_row.wow",".builder-posts-wrap > .post.wow"],"backgroundSlider":{"autoplay":5000,"speed":2000},"animationOffset":"100","videoPoster":"http:\/\/www.nashfm1017.com\/wp-content\/plugins\/themify-builder\/img\/blank.png","backgroundVideoLoop":"yes","builder_url":"http:\/\/www.nashfm1017.com\/wp-content\/plugins\/themify-builder","framework_url":"http:\/\/www.nashfm1017.com\/wp-content\/plugins\/themify-builder\/themify","version":"2.1.8","fullwidth_support":"","fullwidth_container":"body","loadScrollHighlight":"","addons":[],"breakpoints":{"tablet_landscape":[769,1024],"tablet":[681,768],"mobile":680},"ticks":{"tick":30,"ajaxurl":"http:\/\/www.nashfm1017.com\/wp-admin\/admin-ajax.php","postID":27}};
+var themifyScript = {"lightbox":{"lightboxSelector":".themify_lightbox","lightboxOn":true,"lightboxContentImages":false,"lightboxContentImagesSelector":"","theme":"pp_default","social_tools":false,"allow_resize":true,"show_title":false,"overlay_gallery":false,"screenWidthNoLightbox":600,"deeplinking":false,"contentImagesAreas":"","gallerySelector":".gallery-icon > a","lightboxGalleryOn":true},"lightboxContext":"body"};
+var tbScrollHighlight = {"fixedHeaderSelector":"","speed":"900","navigation":"#main-nav","scrollOffset":"0"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.nashfm1017.com/wp-content/plugins/themify-builder/themify/js/main.js?ver=2.1.8'></script>
+<script type='text/javascript'>
+var mejsL10n = {"language":"en","strings":{"mejs.install-flash":"You are using a browser that does not have Flash player enabled or installed. Please turn on your Flash player plugin or download the latest version from https:\/\/get.adobe.com\/flashplayer\/","mejs.fullscreen-off":"Turn off Fullscreen","mejs.fullscreen-on":"Go Fullscreen","mejs.download-video":"Download Video","mejs.fullscreen":"Fullscreen","mejs.time-jump-forward":["Jump forward 1 second","Jump forward %1 seconds"],"mejs.loop":"Toggle Loop","mejs.play":"Play","mejs.pause":"Pause","mejs.close":"Close","mejs.time-slider":"Time Slider","mejs.time-help-text":"Use Left\/Right Arrow keys to advance one second, Up\/Down arrows to advance ten seconds.","mejs.time-skip-back":["Skip back 1 second","Skip back %1 seconds"],"mejs.captions-subtitles":"Captions\/Subtitles","mejs.captions-chapters":"Chapters","mejs.none":"None","mejs.mute-toggle":"Mute Toggle","mejs.volume-help-text":"Use Up\/Down Arrow keys to increase or decrease volume.","mejs.unmute":"Unmute","mejs.mute":"Mute","mejs.volume-slider":"Volume Slider","mejs.video-player":"Video Player","mejs.audio-player":"Audio Player","mejs.ad-skip":"Skip ad","mejs.ad-skip-info":["Skip in 1 second","Skip in %1 seconds"],"mejs.source-chooser":"Source Chooser","mejs.stop":"Stop","mejs.speed-rate":"Speed Rate","mejs.live-broadcast":"Live Broadcast","mejs.afrikaans":"Afrikaans","mejs.albanian":"Albanian","mejs.arabic":"Arabic","mejs.belarusian":"Belarusian","mejs.bulgarian":"Bulgarian","mejs.catalan":"Catalan","mejs.chinese":"Chinese","mejs.chinese-simplified":"Chinese (Simplified)","mejs.chinese-traditional":"Chinese (Traditional)","mejs.croatian":"Croatian","mejs.czech":"Czech","mejs.danish":"Danish","mejs.dutch":"Dutch","mejs.english":"English","mejs.estonian":"Estonian","mejs.filipino":"Filipino","mejs.finnish":"Finnish","mejs.french":"French","mejs.galician":"Galician","mejs.german":"German","mejs.greek":"Greek","mejs.haitian-creole":"Haitian Creole","mejs.hebrew":"Hebrew","mejs.hindi":"Hindi","mejs.hungarian":"Hungarian","mejs.icelandic":"Icelandic","mejs.indonesian":"Indonesian","mejs.irish":"Irish","mejs.italian":"Italian","mejs.japanese":"Japanese","mejs.korean":"Korean","mejs.latvian":"Latvian","mejs.lithuanian":"Lithuanian","mejs.macedonian":"Macedonian","mejs.malay":"Malay","mejs.maltese":"Maltese","mejs.norwegian":"Norwegian","mejs.persian":"Persian","mejs.polish":"Polish","mejs.portuguese":"Portuguese","mejs.romanian":"Romanian","mejs.russian":"Russian","mejs.serbian":"Serbian","mejs.slovak":"Slovak","mejs.slovenian":"Slovenian","mejs.spanish":"Spanish","mejs.swahili":"Swahili","mejs.swedish":"Swedish","mejs.tagalog":"Tagalog","mejs.thai":"Thai","mejs.turkish":"Turkish","mejs.ukrainian":"Ukrainian","mejs.vietnamese":"Vietnamese","mejs.welsh":"Welsh","mejs.yiddish":"Yiddish"}};
+</script>
+<script type='text/javascript' src='http://www.nashfm1017.com/wp-includes/js/mediaelement/mediaelement-and-player.js?ver=4.2.6-78496d1'></script>
+<script type='text/javascript' src='http://www.nashfm1017.com/wp-includes/js/mediaelement/mediaelement-migrate.js?ver=4.9.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var _wpmejsSettings = {"pluginPath":"\/wp-includes\/js\/mediaelement\/","classPrefix":"mejs-","stretching":"responsive"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.nashfm1017.com/wp-includes/js/mediaelement/wp-mediaelement.js?ver=4.9.1'></script>
+<script type='text/javascript' src='http://www.nashfm1017.com/wp-content/plugins/media-library-assistant/includes/../js/jquery.prettyPhoto.js?ver=1.61'></script>
+<script type='text/javascript' src='http://www.nashfm1017.com/wp-content/plugins/media-library-assistant/includes/../js/widget-front-end.js?ver=1533183780'></script>
+<script type='text/javascript' src='http://www.nashfm1017.com/wp-content/plugins/amp-polls/js/widget-front-end.js?ver=4.9.1'></script>
+<script>
+window.tgmplibs="cumulus2,_append_www,_triton_see";
+</script>
+<script type="text/javascript" class="_tgmp_p">
+function onTuneGenieMediaPlayerLoaded() {
+    window.tgmp=new TuneGenieMediaPlayer('playerbar', {
+        brand: "kayd",
+        zindex: 50000,
+        theme: ["#000000"],
+        position: "bottom",
+        debug: true,
+        ios_frame: 3,
+        autostart: false,
+        infoTrayOnLoad: true,
+        useTritonPlayer: true,
+        promptZag: false,
+    });
+    tgmp.go();
+    window.tgmp_rc = new TuneGenieRC(tgmp);
+    tgmp_rc.recentSongWidget(document.getElementById('tgrecent'),{});
+    tgmp_rc.nowPlayingWidget(document.getElementById('tgnowplaying'),{});
+}
+</script>
+<script type="text/javascript"  class="_tgmp_p" async src="https://mpl.tunegenie.com/js/loader2.min.js"></script>
+
+
+</div><!-- #whitewrap -->
+
+<!-- TGMP PLUGIN ENABLED 2016-08-04T22:15:36.357Z -->
+<!-- DISABLE TGMP INFO TRAY -->
+<!-- ADDED 2016-08-04T22:15:36.357Z -->
+<script>
+	if (window.top.tgmp) {
+		window.top.tgmp.updateOption('infoTrayOnLoad',false);
+	}
+</script>
+<!-- END DISABLE TGMP INFO TRAY -->
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.3";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<script type="text/javascript">
+//<![CDATA[
+(function() {
+var _analytics_scr = document.createElement('script');
+_analytics_scr.type = 'text/javascript'; _analytics_scr.async = true; _analytics_scr.src = '/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1810984462';
+var _analytics_elem = document.getElementsByTagName('script')[0]; _analytics_elem.parentNode.insertBefore(_analytics_scr, _analytics_elem);
+})();
+// ]]>
+</script></body>
+
+
+</html>
+<!--
+Performance optimized by W3 Total Cache. Learn more: https://www.w3-edge.com/products/
+
+Object Caching 4152/4549 objects using memcache
+Page Caching using memcache
+Database Caching 272/408 queries in 2.971 seconds using memcache
+
+Served from: www.1460wrad.com @ 2018-08-27 05:30:02 by W3 Total Cache
+-->

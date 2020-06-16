@@ -1,0 +1,1024 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='utf-8'>
+<meta content='width=device-width, initial-scale=1' name='viewport'>
+<link href='https://rettiwtkcuf.social/favicon.ico' rel='icon' type='image/x-icon'>
+<link href='https://rettiwtkcuf.social/apple-touch-icon.png' rel='apple-touch-icon' sizes='180x180'>
+<link color='#2B90D9' href='https://rettiwtkcuf.social/mask-icon.svg' rel='mask-icon'>
+<link href='https://rettiwtkcuf.social/manifest.json' rel='manifest'>
+<meta content='/browserconfig.xml' name='msapplication-config'>
+<meta content='#282c37' name='theme-color'>
+<meta content='yes' name='apple-mobile-web-app-capable'>
+<title>Adam Marshall Dobrin (@suzq@rettiwtkcuf.social) - Rettiwt Kcuf</title>
+<link rel="stylesheet" media="all" href="https://rettiwtkcuf.social/packs/css/common-655afacc.css" />
+<link rel="stylesheet" media="all" href="https://rettiwtkcuf.social/packs/css/default-d94088a6.chunk.css" />
+<script src="https://rettiwtkcuf.social/packs/js/common-6983242b038bcddfbf4f.js" crossorigin="anonymous"></script>
+<script src="https://rettiwtkcuf.social/packs/js/locale_en-e7c3cabb84de7a0425f9.chunk.js" crossorigin="anonymous"></script>
+<meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="dWZPw3oUepePHVJHTXSFAALGLpHgt24eAhCvIgLY7nLGAHK+SwRnJPbskaFjpJ4fV0bDIjAh+c8qcqBQ8jB/gQ==" />
+<link rel="stylesheet" media="all" href="https://rettiwtkcuf.social/inert.css" id="inert-style" />
+<link href='https://rettiwtkcuf.social/@suzq.rss' rel='alternate' type='application/rss+xml'>
+<link href='https://rettiwtkcuf.social/users/suzq' rel='alternate' type='application/activity+json'>
+<link href='https://rettiwtkcuf.social/@suzq?max_id=104343430135040255' rel='next'>
+<meta content="profile" property="og:type" />
+<meta content='854 Toots, 6 Following, 6 Followers Â· him, it, rarely why .. don&#39;t make me wyy' name='description'>
+<meta content="https://rettiwtkcuf.social/@suzq" property="og:url" />
+<meta content="Rettiwt Kcuf" property="og:site_name" />
+<meta content="Adam Marshall Dobrin (@suzq@rettiwtkcuf.social)" property="og:title" />
+<meta content="854 Toots, 6 Following, 6 Followers Â· him, it, rarely why .. don&#39;t make me wyy" property="og:description" />
+<meta content="https://rettiwtkcuf.social/system/accounts/avatars/000/045/773/original/03f277209e1efbe7.jpg?1586992618" property="og:image" />
+<meta content="120" property="og:image:width" />
+<meta content="120" property="og:image:height" />
+<meta content="summary" property="twitter:card" />
+<meta content="suzq@rettiwtkcuf.social" property="profile:username" />
+
+<script id="initial-state" type="application/json">{"meta":{"streaming_api_base_url":"wss://rettiwtkcuf.social","access_token":null,"locale":"en","domain":"rettiwtkcuf.social","title":"Rettiwt Kcuf","admin":null,"search_enabled":false,"repository":"tootsuite/mastodon","source_url":"https://github.com/tootsuite/mastodon","version":"3.1.4","invites_enabled":false,"mascot":null,"profile_directory":true,"trends":true,"auto_play_gif":false,"display_media":"default","reduce_motion":false,"use_blurhash":true,"crop_images":true},"compose":{"text":""},"accounts":{},"media_attachments":{"accept_content_types":[".jpg",".jpeg",".png",".gif",".webm",".mp4",".m4v",".mov",".ogg",".oga",".mp3",".wav",".flac",".opus",".aac",".m4a",".3gp",".wma","image/jpeg","image/png","image/gif","video/webm","video/mp4","video/quicktime","video/ogg","audio/wave","audio/wav","audio/x-wav","audio/x-pn-wave","audio/ogg","audio/mpeg","audio/mp3","audio/webm","audio/flac","audio/aac","audio/m4a","audio/x-m4a","audio/mp4","audio/3gpp","video/x-ms-asf"]},"settings":{"known_fediverse":true},"push_subscription":null}</script>
+<script src="https://rettiwtkcuf.social/packs/js/public-ab72aee1378bec71ced6.chunk.js" crossorigin="anonymous"></script>
+
+</head>
+<body class='with-modals theme-default no-reduce-motion'>
+<div class='public-layout'>
+<div class='container'>
+<nav class='header'>
+<div class='nav-left'>
+<a class="brand" href="https://rettiwtkcuf.social/"><svg viewBox="0 0 713.35878 175.8678"><use xlink:href="#mastodon-svg-logo-full" /></svg>
+</a><a class="nav-link optional" href="https://rettiwtkcuf.social/explore">Profile directory</a>
+<a class="nav-link optional" href="https://rettiwtkcuf.social/about/more">About</a>
+<a class="nav-link optional" href="https://joinmastodon.org/apps">Mobile apps</a>
+</div>
+<div class='nav-center'></div>
+<div class='nav-right'>
+<a class="webapp-btn nav-link nav-button" href="https://rettiwtkcuf.social/auth/sign_in">Log in</a>
+<a class="webapp-btn nav-link nav-button" href="https://rettiwtkcuf.social/auth/sign_up">Sign up</a>
+</div>
+</nav>
+</div>
+<div class='container'><div class='public-account-header'>
+<div class='public-account-header__image'>
+<img class="parallax" src="https://rettiwtkcuf.social/system/accounts/headers/000/045/773/original/5bb90f66a35d5765.jpg?1586992618" />
+</div>
+<div class='public-account-header__bar'>
+<a class="avatar" href="45773"><img id="profile_page_avatar" data-original="https://rettiwtkcuf.social/system/accounts/avatars/000/045/773/original/03f277209e1efbe7.jpg?1586992618" data-static="https://rettiwtkcuf.social/system/accounts/avatars/000/045/773/original/03f277209e1efbe7.jpg?1586992618" src="https://rettiwtkcuf.social/system/accounts/avatars/000/045/773/original/03f277209e1efbe7.jpg?1586992618" />
+</a><div class='public-account-header__tabs'>
+<div class='public-account-header__tabs__name'>
+<h1>
+Adam Marshall Dobrin
+<small>
+@suzq@rettiwtkcuf.social
+
+</small>
+</h1>
+</div>
+<div class='public-account-header__tabs__tabs'>
+<div class='details-counters'>
+<div class='active counter'>
+<a class="u-url u-uid" title="854" href="45773"><span class='counter-number'>854</span>
+<span class='counter-label'>Toots</span>
+</a></div>
+<div class='counter'>
+<a title="6" href="https://rettiwtkcuf.social/users/suzq/following"><span class='counter-number'>6</span>
+<span class='counter-label'>Following</span>
+</a></div>
+<div class='counter'>
+<a title="6" href="https://rettiwtkcuf.social/users/suzq/followers"><span class='counter-number'>6</span>
+<span class='counter-label'>Followers</span>
+</a></div>
+</div>
+<div class='spacer'></div>
+<div class='public-account-header__tabs__tabs__buttons'>
+<a class="button logo-button modal-button" target="_new" href="https://rettiwtkcuf.social/users/suzq/remote_follow"><svg viewBox="0 0 216.4144 232.00976"><use xlink:href="#mastodon-svg-logo" /></svg>Follow</a>
+</div>
+</div>
+</div>
+<div class='public-account-header__extra'>
+<div class='public-account-bio'>
+<div class='account__header__fields'>
+<dl>
+<dt class='emojify' title='yyy'>yyy</dt>
+<dd class='emojify' title='http://lamc.la'>
+<a href="http://lamc.la" rel="me nofollow noopener noreferrer" target="_blank"><span class="invisible">http://</span><span class="">lamc.la</span><span class="invisible"></span></a>
+</dd>
+</dl>
+<dl>
+<dt class='emojify' title='yiiiv'>yiiiv</dt>
+<dd class='emojify' title='http://fb.me/admdbrn'>
+<a href="../../../fb.me/admdbrn" rel="me nofollow noopener noreferrer" target="_blank"><span class="invisible">http://</span><span class="">fb.me/admdbrn</span><span class="invisible"></span></a>
+</dd>
+</dl>
+</div>
+
+<div class='account__header__content emojify'><p>him, it, rarely why .. don&apos;t make me wyy</p></div>
+<div class='public-account-bio__extra'>
+Joined Apr 2020
+</div>
+</div>
+
+<div class='public-account-header__extra__links'>
+<a href="https://rettiwtkcuf.social/users/suzq/following"><strong>6</strong>
+Following
+</a><a href="https://rettiwtkcuf.social/users/suzq/followers"><strong>6</strong>
+Followers
+</a></div>
+</div>
+</div>
+</div>
+
+<div class='grid'>
+<div class='column-0'>
+<div class='h-feed'>
+<data class='p-name' value='suzq on rettiwtkcuf.social'>
+<div class='account__section-headline'>
+<a class="active" href="45773">Toots</a>
+<a class="" href="https://rettiwtkcuf.social/@suzq/with_replies">Toots and replies</a>
+<a class="" href="https://rettiwtkcuf.social/@suzq/media">Media</a>
+</div>
+<div class='activity-stream activity-stream--under-tabs'>
+
+<div class='entry h-entry'>
+<div class='status'>
+<div class='status__info'>
+<a class="status__relative-time u-url u-uid" rel="noopener noreferrer" href="https://rettiwtkcuf.social/@suzq/104351199240767118"><time class='time-ago' datetime='2020-06-16T02:02:17Z' title='Jun 16, 2020, 02:02'>Jun 16, 2020, 02:02</time>
+</a><data class='dt-published' value='2020-06-16T02:02:17+00:00'></data>
+<div class='p-author h-card'>
+<a class="status__display-name u-url" rel="noopener noreferrer" href="45773"><div class='status__avatar'>
+<div>
+<img alt="" class="u-photo account__avatar" src="https://rettiwtkcuf.social/system/accounts/avatars/000/045/773/original/03f277209e1efbe7.jpg?1586992618" />
+</div>
+</div>
+<span class='display-name'>
+<bdi>
+<strong class='display-name__html p-name emojify'>Adam Marshall Dobrin</strong>
+</bdi>
+&nbsp;
+<span class='display-name__account'>
+@suzq@rettiwtkcuf.social
+
+</span>
+</span>
+</a></div>
+</div>
+<div class='status__content emojify'><div class='e-content' dir='ltr'>
+<p><a href="https://archive.vn/pUEQC" rel="nofollow noopener noreferrer" target="_blank"><span class="invisible">https://</span><span class="">archive.vn/pUEQC</span><span class="invisible"></span></a></p>
+</div></div>
+<div data-component="Card" data-props="{&quot;maxDescription&quot;:160,&quot;card&quot;:{&quot;url&quot;:&quot;https://archive.vn/pUEQC&quot;,&quot;title&quot;:&quot;nicolaiatans - Google Search&quot;,&quot;description&quot;:&quot;&quot;,&quot;type&quot;:&quot;link&quot;,&quot;author_name&quot;:&quot;&quot;,&quot;author_url&quot;:&quot;&quot;,&quot;provider_name&quot;:&quot;&quot;,&quot;provider_url&quot;:&quot;&quot;,&quot;html&quot;:&quot;&quot;,&quot;width&quot;:400,&quot;height&quot;:300,&quot;image&quot;:&quot;https://rettiwtkcuf.social/system/cache/preview_cards/images/000/028/366/original/e74e5b1d15b3c82e.png?1592272941&quot;,&quot;embed_url&quot;:&quot;&quot;}}"></div>
+<div class='status__action-bar'>
+<div class='status__action-bar__counter'>
+<a class="status__action-bar-button icon-button modal-button" href="https://rettiwtkcuf.social/interact/104351199240767118?type=reply"><i class="fa fa-reply fa-fw"></i>
+</a><div class='status__action-bar__counter__label'>0</div>
+</div>
+<a class="status__action-bar-button icon-button modal-button" href="https://rettiwtkcuf.social/interact/104351199240767118?type=reblog"><i class="fa fa-retweet fa-fw"></i>
+</a><a class="status__action-bar-button icon-button modal-button" href="https://rettiwtkcuf.social/interact/104351199240767118?type=favourite"><i class="fa fa-star fa-fw"></i>
+</a></div>
+</div>
+
+</div>
+<div class='entry h-entry'>
+<div class='status'>
+<div class='status__info'>
+<a class="status__relative-time u-url u-uid" rel="noopener noreferrer" href="https://rettiwtkcuf.social/@suzq/104351180596515058"><time class='time-ago' datetime='2020-06-16T01:57:33Z' title='Jun 16, 2020, 01:57'>Jun 16, 2020, 01:57</time>
+</a><data class='dt-published' value='2020-06-16T01:57:33+00:00'></data>
+<div class='p-author h-card'>
+<a class="status__display-name u-url" rel="noopener noreferrer" href="45773"><div class='status__avatar'>
+<div>
+<img alt="" class="u-photo account__avatar" src="https://rettiwtkcuf.social/system/accounts/avatars/000/045/773/original/03f277209e1efbe7.jpg?1586992618" />
+</div>
+</div>
+<span class='display-name'>
+<bdi>
+<strong class='display-name__html p-name emojify'>Adam Marshall Dobrin</strong>
+</bdi>
+&nbsp;
+<span class='display-name__account'>
+@suzq@rettiwtkcuf.social
+
+</span>
+</span>
+</a></div>
+</div>
+<div class='status__content emojify'><div class='e-content' dir='ltr'>
+<p>RT @JennyENicholson@twitter.com</p><p>If you MUST leave your home for supplies, please be courteous and wear an eccentric outfit to signal which genre of apocalyptic character you are:</p><p>- opulent slum queen<br />- cyberpunk biker<br />- an old man known only as &quot;Doc&quot;<br />- jumpsuited drone<br />- earth tones, with a vest</p>
+</div></div>
+<div class='status__action-bar'>
+<div class='status__action-bar__counter'>
+<a class="status__action-bar-button icon-button modal-button" href="https://rettiwtkcuf.social/interact/104351180596515058?type=reply"><i class="fa fa-reply fa-fw"></i>
+</a><div class='status__action-bar__counter__label'>0</div>
+</div>
+<a class="status__action-bar-button icon-button modal-button" href="https://rettiwtkcuf.social/interact/104351180596515058?type=reblog"><i class="fa fa-retweet fa-fw"></i>
+</a><a class="status__action-bar-button icon-button modal-button" href="https://rettiwtkcuf.social/interact/104351180596515058?type=favourite"><i class="fa fa-star fa-fw"></i>
+</a></div>
+</div>
+
+</div>
+<div class='entry h-entry'>
+<div class='status'>
+<div class='status__info'>
+<a class="status__relative-time u-url u-uid" rel="noopener noreferrer" href="https://rettiwtkcuf.social/@suzq/104351180526298393"><time class='time-ago' datetime='2020-06-16T01:57:32Z' title='Jun 16, 2020, 01:57'>Jun 16, 2020, 01:57</time>
+</a><data class='dt-published' value='2020-06-16T01:57:32+00:00'></data>
+<div class='p-author h-card'>
+<a class="status__display-name u-url" rel="noopener noreferrer" href="45773"><div class='status__avatar'>
+<div>
+<img alt="" class="u-photo account__avatar" src="https://rettiwtkcuf.social/system/accounts/avatars/000/045/773/original/03f277209e1efbe7.jpg?1586992618" />
+</div>
+</div>
+<span class='display-name'>
+<bdi>
+<strong class='display-name__html p-name emojify'>Adam Marshall Dobrin</strong>
+</bdi>
+&nbsp;
+<span class='display-name__account'>
+@suzq@rettiwtkcuf.social
+
+</span>
+</span>
+</a></div>
+</div>
+<div class='status__content emojify'><div class='e-content' dir='ltr'>
+<p>RT @KFILE@twitter.com</p><p>What a damning indictment of Fox News from the Post video team here.</p>
+</div></div>
+<div data-component="Video" data-props="{&quot;src&quot;:&quot;/system/media_attachments/files/000/060/756/original/f0508069add61012.mp4?1592272650&quot;,&quot;preview&quot;:&quot;/system/media_attachments/files/000/060/756/small/f0508069add61012.png?1592272650&quot;,&quot;blurhash&quot;:&quot;U34eZvt600bHofofj[WB00WV~qofWBj[ofay&quot;,&quot;sensitive&quot;:false,&quot;width&quot;:610,&quot;height&quot;:343,&quot;inline&quot;:true,&quot;alt&quot;:null}"><div class='attachment-list'>
+<div class='attachment-list__icon'>
+<i class="fa fa-link"></i>
+</div>
+<ul class='attachment-list__list'>
+<li>
+<a href="https://rettiwtkcuf.social/system/media_attachments/files/000/060/756/original/f0508069add61012.mp4?1592272650">f0508069add61012.mp4?1592272650</a>
+</li>
+</ul>
+</div>
+
+</div><div class='status__action-bar'>
+<div class='status__action-bar__counter'>
+<a class="status__action-bar-button icon-button modal-button" href="https://rettiwtkcuf.social/interact/104351180526298393?type=reply"><i class="fa fa-reply fa-fw"></i>
+</a><div class='status__action-bar__counter__label'>0</div>
+</div>
+<a class="status__action-bar-button icon-button modal-button" href="https://rettiwtkcuf.social/interact/104351180526298393?type=reblog"><i class="fa fa-retweet fa-fw"></i>
+</a><a class="status__action-bar-button icon-button modal-button" href="https://rettiwtkcuf.social/interact/104351180526298393?type=favourite"><i class="fa fa-star fa-fw"></i>
+</a></div>
+</div>
+
+</div>
+<div class='entry h-entry'>
+<div class='status'>
+<div class='status__info'>
+<a class="status__relative-time u-url u-uid" rel="noopener noreferrer" href="https://rettiwtkcuf.social/@suzq/104351171700573255"><time class='time-ago' datetime='2020-06-16T01:55:17Z' title='Jun 16, 2020, 01:55'>Jun 16, 2020, 01:55</time>
+</a><data class='dt-published' value='2020-06-16T01:55:17+00:00'></data>
+<div class='p-author h-card'>
+<a class="status__display-name u-url" rel="noopener noreferrer" href="45773"><div class='status__avatar'>
+<div>
+<img alt="" class="u-photo account__avatar" src="https://rettiwtkcuf.social/system/accounts/avatars/000/045/773/original/03f277209e1efbe7.jpg?1586992618" />
+</div>
+</div>
+<span class='display-name'>
+<bdi>
+<strong class='display-name__html p-name emojify'>Adam Marshall Dobrin</strong>
+</bdi>
+&nbsp;
+<span class='display-name__account'>
+@suzq@rettiwtkcuf.social
+
+</span>
+</span>
+</a></div>
+</div>
+<div class='status__content emojify'><div class='e-content' dir='ltr'>
+<p>RT @TheOnion@twitter.com</p><p>Buffalo Police Request Reinforcements Until Elderly-Man Rampages Fully Contained <a href="https://bit.ly/3dEwKJL" rel="nofollow noopener noreferrer" target="_blank"><span class="invisible">https://</span><span class="">bit.ly/3dEwKJL</span><span class="invisible"></span></a></p>
+</div></div>
+<div data-component="MediaGallery" data-props="{&quot;height&quot;:343,&quot;sensitive&quot;:false,&quot;autoplay&quot;:null,&quot;media&quot;:[{&quot;id&quot;:&quot;60755&quot;,&quot;type&quot;:&quot;image&quot;,&quot;url&quot;:&quot;https://rettiwtkcuf.social/system/media_attachments/files/000/060/755/original/a3a0be31ebb6cdac.jpg?1592272516&quot;,&quot;preview_url&quot;:&quot;https://rettiwtkcuf.social/system/media_attachments/files/000/060/755/small/a3a0be31ebb6cdac.jpg?1592272516&quot;,&quot;remote_url&quot;:null,&quot;text_url&quot;:&quot;https://rettiwtkcuf.social/media/Kz2ZAvKerKAS-BixZTs&quot;,&quot;meta&quot;:{&quot;original&quot;:{&quot;width&quot;:1200,&quot;height&quot;:675,&quot;size&quot;:&quot;1200x675&quot;,&quot;aspect&quot;:1.7777777777777777},&quot;small&quot;:{&quot;width&quot;:533,&quot;height&quot;:300,&quot;size&quot;:&quot;533x300&quot;,&quot;aspect&quot;:1.7766666666666666}},&quot;description&quot;:null,&quot;blurhash&quot;:&quot;UIF#?w?E4-D%~VaiIVNHVqs.-;ogxaR*bcM{&quot;}]}"><div class='attachment-list'>
+<div class='attachment-list__icon'>
+<i class="fa fa-link"></i>
+</div>
+<ul class='attachment-list__list'>
+<li>
+<a href="https://rettiwtkcuf.social/system/media_attachments/files/000/060/755/original/a3a0be31ebb6cdac.jpg?1592272516">a3a0be31ebb6cdac.jpg?1592272516</a>
+</li>
+</ul>
+</div>
+
+</div><div class='status__action-bar'>
+<div class='status__action-bar__counter'>
+<a class="status__action-bar-button icon-button modal-button" href="https://rettiwtkcuf.social/interact/104351171700573255?type=reply"><i class="fa fa-reply fa-fw"></i>
+</a><div class='status__action-bar__counter__label'>0</div>
+</div>
+<a class="status__action-bar-button icon-button modal-button" href="https://rettiwtkcuf.social/interact/104351171700573255?type=reblog"><i class="fa fa-retweet fa-fw"></i>
+</a><a class="status__action-bar-button icon-button modal-button" href="https://rettiwtkcuf.social/interact/104351171700573255?type=favourite"><i class="fa fa-star fa-fw"></i>
+</a></div>
+</div>
+
+</div>
+<div class='entry h-entry'>
+<div class='status'>
+<div class='status__info'>
+<a class="status__relative-time u-url u-uid" rel="noopener noreferrer" href="https://rettiwtkcuf.social/@suzq/104351154598605152"><time class='time-ago' datetime='2020-06-16T01:50:56Z' title='Jun 16, 2020, 01:50'>Jun 16, 2020, 01:50</time>
+</a><data class='dt-published' value='2020-06-16T01:50:56+00:00'></data>
+<div class='p-author h-card'>
+<a class="status__display-name u-url" rel="noopener noreferrer" href="45773"><div class='status__avatar'>
+<div>
+<img alt="" class="u-photo account__avatar" src="https://rettiwtkcuf.social/system/accounts/avatars/000/045/773/original/03f277209e1efbe7.jpg?1586992618" />
+</div>
+</div>
+<span class='display-name'>
+<bdi>
+<strong class='display-name__html p-name emojify'>Adam Marshall Dobrin</strong>
+</bdi>
+&nbsp;
+<span class='display-name__account'>
+@suzq@rettiwtkcuf.social
+
+</span>
+</span>
+</a></div>
+</div>
+<div class='status__content emojify'><div class='e-content' dir='ltr'>
+<p>RT @people@twitter.com</p><p>Howard Stern Addresses His Past Use of Blackface and N-Word: &apos;I Evolved and Changed&apos;​ <a href="https://people.com/tv/howard-stern-addresses-past-use-of-blackface-n-word/?utm_campaign=peoplemagazine&amp;utm_content=new&amp;utm_medium=social&amp;utm_source=twitter.com&amp;utm_term=5ee823e0cc071f00018dd35d" rel="nofollow noopener noreferrer" target="_blank"><span class="invisible">https://</span><span class="ellipsis">people.com/tv/howard-stern-add</span><span class="invisible">resses-past-use-of-blackface-n-word/?utm_campaign=peoplemagazine&amp;utm_content=new&amp;utm_medium=social&amp;utm_source=twitter.com&amp;utm_term=5ee823e0cc071f00018dd35d</span></a></p>
+</div></div>
+<div data-component="Card" data-props="{&quot;maxDescription&quot;:160,&quot;card&quot;:{&quot;url&quot;:&quot;https://people.com/tv/howard-stern-addresses-past-use-of-blackface-n-word/?utm_campaign=peoplemagazine&amp;utm_content=new&amp;utm_medium=social&amp;utm_source=twitter.com&amp;utm_term=5ee823e0cc071f00018dd35d&quot;,&quot;title&quot;:&quot;Howard Stern Addresses His Past Use of Blackface and N-Word: &#39;I Evolved and Changed&#39;&quot;,&quot;description&quot;:&quot;\&quot;I cringe when I look at myself 30 and 40 years ago ... and that was 27 years ago,\&quot; Howard Stern said on his SiriusXM show on Monday &quot;,&quot;type&quot;:&quot;link&quot;,&quot;author_name&quot;:&quot;&quot;,&quot;author_url&quot;:&quot;&quot;,&quot;provider_name&quot;:&quot;&quot;,&quot;provider_url&quot;:&quot;&quot;,&quot;html&quot;:&quot;&quot;,&quot;width&quot;:400,&quot;height&quot;:209,&quot;image&quot;:&quot;https://rettiwtkcuf.social/system/cache/preview_cards/images/000/028/364/original/da3a07c77cca8ddc.jpeg?1592272259&quot;,&quot;embed_url&quot;:&quot;&quot;}}"></div>
+<div class='status__action-bar'>
+<div class='status__action-bar__counter'>
+<a class="status__action-bar-button icon-button modal-button" href="https://rettiwtkcuf.social/interact/104351154598605152?type=reply"><i class="fa fa-reply fa-fw"></i>
+</a><div class='status__action-bar__counter__label'>0</div>
+</div>
+<a class="status__action-bar-button icon-button modal-button" href="https://rettiwtkcuf.social/interact/104351154598605152?type=reblog"><i class="fa fa-retweet fa-fw"></i>
+</a><a class="status__action-bar-button icon-button modal-button" href="https://rettiwtkcuf.social/interact/104351154598605152?type=favourite"><i class="fa fa-star fa-fw"></i>
+</a></div>
+</div>
+
+</div>
+<div class='entry h-entry'>
+<div class='status'>
+<div class='status__info'>
+<a class="status__relative-time u-url u-uid" rel="noopener noreferrer" href="https://rettiwtkcuf.social/@suzq/104351154506689253"><time class='time-ago' datetime='2020-06-16T01:50:55Z' title='Jun 16, 2020, 01:50'>Jun 16, 2020, 01:50</time>
+</a><data class='dt-published' value='2020-06-16T01:50:55+00:00'></data>
+<div class='p-author h-card'>
+<a class="status__display-name u-url" rel="noopener noreferrer" href="45773"><div class='status__avatar'>
+<div>
+<img alt="" class="u-photo account__avatar" src="https://rettiwtkcuf.social/system/accounts/avatars/000/045/773/original/03f277209e1efbe7.jpg?1586992618" />
+</div>
+</div>
+<span class='display-name'>
+<bdi>
+<strong class='display-name__html p-name emojify'>Adam Marshall Dobrin</strong>
+</bdi>
+&nbsp;
+<span class='display-name__account'>
+@suzq@rettiwtkcuf.social
+
+</span>
+</span>
+</a></div>
+</div>
+<div class='status__content emojify'><div class='e-content' dir='ltr'>
+<p>i&apos;d do you too, bill</p><p>RT @WilliamShatner@twitter.com</p><p>😳🤔 I’d do me! 😝😘</p>
+</div></div>
+<div data-component="MediaGallery" data-props="{&quot;height&quot;:343,&quot;sensitive&quot;:false,&quot;autoplay&quot;:null,&quot;media&quot;:[{&quot;id&quot;:&quot;60754&quot;,&quot;type&quot;:&quot;image&quot;,&quot;url&quot;:&quot;https://rettiwtkcuf.social/system/media_attachments/files/000/060/754/original/443477fe1bbd96b7.jpg?1592272253&quot;,&quot;preview_url&quot;:&quot;https://rettiwtkcuf.social/system/media_attachments/files/000/060/754/small/443477fe1bbd96b7.jpg?1592272253&quot;,&quot;remote_url&quot;:null,&quot;text_url&quot;:&quot;https://rettiwtkcuf.social/media/ZOAQJkiHSaUGj6t-8e0&quot;,&quot;meta&quot;:{&quot;original&quot;:{&quot;width&quot;:892,&quot;height&quot;:609,&quot;size&quot;:&quot;892x609&quot;,&quot;aspect&quot;:1.464696223316913},&quot;small&quot;:{&quot;width&quot;:484,&quot;height&quot;:330,&quot;size&quot;:&quot;484x330&quot;,&quot;aspect&quot;:1.4666666666666666}},&quot;description&quot;:null,&quot;blurhash&quot;:&quot;UNF5Qx9G0g%LI^xrocRokQjv%2ofIVn$xZWB&quot;}]}"><div class='attachment-list'>
+<div class='attachment-list__icon'>
+<i class="fa fa-link"></i>
+</div>
+<ul class='attachment-list__list'>
+<li>
+<a href="https://rettiwtkcuf.social/system/media_attachments/files/000/060/754/original/443477fe1bbd96b7.jpg?1592272253">443477fe1bbd96b7.jpg?1592272253</a>
+</li>
+</ul>
+</div>
+
+</div><div class='status__action-bar'>
+<div class='status__action-bar__counter'>
+<a class="status__action-bar-button icon-button modal-button" href="https://rettiwtkcuf.social/interact/104351154506689253?type=reply"><i class="fa fa-reply fa-fw"></i>
+</a><div class='status__action-bar__counter__label'>0</div>
+</div>
+<a class="status__action-bar-button icon-button modal-button" href="https://rettiwtkcuf.social/interact/104351154506689253?type=reblog"><i class="fa fa-retweet fa-fw"></i>
+</a><a class="status__action-bar-button icon-button modal-button" href="https://rettiwtkcuf.social/interact/104351154506689253?type=favourite"><i class="fa fa-star fa-fw"></i>
+</a></div>
+</div>
+
+</div>
+<div class='entry h-entry'>
+<div class='status'>
+<div class='status__info'>
+<a class="status__relative-time u-url u-uid" rel="noopener noreferrer" href="https://rettiwtkcuf.social/@suzq/104351051220671383"><time class='time-ago' datetime='2020-06-16T01:24:39Z' title='Jun 16, 2020, 01:24'>Jun 16, 2020, 01:24</time>
+</a><data class='dt-published' value='2020-06-16T01:24:39+00:00'></data>
+<div class='p-author h-card'>
+<a class="status__display-name u-url" rel="noopener noreferrer" href="45773"><div class='status__avatar'>
+<div>
+<img alt="" class="u-photo account__avatar" src="https://rettiwtkcuf.social/system/accounts/avatars/000/045/773/original/03f277209e1efbe7.jpg?1586992618" />
+</div>
+</div>
+<span class='display-name'>
+<bdi>
+<strong class='display-name__html p-name emojify'>Adam Marshall Dobrin</strong>
+</bdi>
+&nbsp;
+<span class='display-name__account'>
+@suzq@rettiwtkcuf.social
+
+</span>
+</span>
+</a></div>
+</div>
+<div class='status__content emojify'><div class='e-content' dir='ltr'>
+<p>RT @BarackObama@twitter.com</p><p>Today reminds us that progress might be slow. It might take decades. But no matter what things might look like today, it’s always possible. Happy Pride month, everybody.</p>
+</div></div>
+<div data-component="MediaGallery" data-props="{&quot;height&quot;:343,&quot;sensitive&quot;:false,&quot;autoplay&quot;:null,&quot;media&quot;:[{&quot;id&quot;:&quot;60753&quot;,&quot;type&quot;:&quot;image&quot;,&quot;url&quot;:&quot;https://rettiwtkcuf.social/system/media_attachments/files/000/060/753/original/2ce33ef90351762a.jpg?1592270678&quot;,&quot;preview_url&quot;:&quot;https://rettiwtkcuf.social/system/media_attachments/files/000/060/753/small/2ce33ef90351762a.jpg?1592270678&quot;,&quot;remote_url&quot;:null,&quot;text_url&quot;:&quot;https://rettiwtkcuf.social/media/jePjtIaeBwToCNWFmvw&quot;,&quot;meta&quot;:{&quot;original&quot;:{&quot;width&quot;:1200,&quot;height&quot;:800,&quot;size&quot;:&quot;1200x800&quot;,&quot;aspect&quot;:1.5},&quot;small&quot;:{&quot;width&quot;:490,&quot;height&quot;:327,&quot;size&quot;:&quot;490x327&quot;,&quot;aspect&quot;:1.4984709480122325}},&quot;description&quot;:null,&quot;blurhash&quot;:&quot;UN7LZzs_ILItcHbEnfaLD#RZxk$xsEaJSNkk&quot;}]}"><div class='attachment-list'>
+<div class='attachment-list__icon'>
+<i class="fa fa-link"></i>
+</div>
+<ul class='attachment-list__list'>
+<li>
+<a href="https://rettiwtkcuf.social/system/media_attachments/files/000/060/753/original/2ce33ef90351762a.jpg?1592270678">2ce33ef90351762a.jpg?1592270678</a>
+</li>
+</ul>
+</div>
+
+</div><div class='status__action-bar'>
+<div class='status__action-bar__counter'>
+<a class="status__action-bar-button icon-button modal-button" href="https://rettiwtkcuf.social/interact/104351051220671383?type=reply"><i class="fa fa-reply fa-fw"></i>
+</a><div class='status__action-bar__counter__label'>0</div>
+</div>
+<a class="status__action-bar-button icon-button modal-button" href="https://rettiwtkcuf.social/interact/104351051220671383?type=reblog"><i class="fa fa-retweet fa-fw"></i>
+</a><a class="status__action-bar-button icon-button modal-button" href="https://rettiwtkcuf.social/interact/104351051220671383?type=favourite"><i class="fa fa-star fa-fw"></i>
+</a></div>
+</div>
+
+</div>
+<div class='entry h-entry'>
+<div class='status'>
+<div class='status__info'>
+<a class="status__relative-time u-url u-uid" rel="noopener noreferrer" href="https://rettiwtkcuf.social/@suzq/104351042439346786"><time class='time-ago' datetime='2020-06-16T01:22:25Z' title='Jun 16, 2020, 01:22'>Jun 16, 2020, 01:22</time>
+</a><data class='dt-published' value='2020-06-16T01:22:25+00:00'></data>
+<div class='p-author h-card'>
+<a class="status__display-name u-url" rel="noopener noreferrer" href="45773"><div class='status__avatar'>
+<div>
+<img alt="" class="u-photo account__avatar" src="https://rettiwtkcuf.social/system/accounts/avatars/000/045/773/original/03f277209e1efbe7.jpg?1586992618" />
+</div>
+</div>
+<span class='display-name'>
+<bdi>
+<strong class='display-name__html p-name emojify'>Adam Marshall Dobrin</strong>
+</bdi>
+&nbsp;
+<span class='display-name__account'>
+@suzq@rettiwtkcuf.social
+
+</span>
+</span>
+</a></div>
+</div>
+<div class='status__content emojify'><div class='e-content' dir='ltr'>
+<p>RT @julcasagrande@twitter.com</p><p>Covid-19 is getting updates: </p><p>Covid-S20, Covid Max, Covid 4K, expansions and new maps are coming soon</p>
+</div></div>
+<div class='status__action-bar'>
+<div class='status__action-bar__counter'>
+<a class="status__action-bar-button icon-button modal-button" href="https://rettiwtkcuf.social/interact/104351042439346786?type=reply"><i class="fa fa-reply fa-fw"></i>
+</a><div class='status__action-bar__counter__label'>0</div>
+</div>
+<a class="status__action-bar-button icon-button modal-button" href="https://rettiwtkcuf.social/interact/104351042439346786?type=reblog"><i class="fa fa-retweet fa-fw"></i>
+</a><a class="status__action-bar-button icon-button modal-button" href="https://rettiwtkcuf.social/interact/104351042439346786?type=favourite"><i class="fa fa-star fa-fw"></i>
+</a></div>
+</div>
+
+</div>
+<div class='entry h-entry'>
+<div class='status'>
+<div class='status__info'>
+<a class="status__relative-time u-url u-uid" rel="noopener noreferrer" href="https://rettiwtkcuf.social/@suzq/104350901732997618"><time class='time-ago' datetime='2020-06-16T00:46:38Z' title='Jun 16, 2020, 00:46'>Jun 16, 2020, 00:46</time>
+</a><data class='dt-published' value='2020-06-16T00:46:38+00:00'></data>
+<div class='p-author h-card'>
+<a class="status__display-name u-url" rel="noopener noreferrer" href="45773"><div class='status__avatar'>
+<div>
+<img alt="" class="u-photo account__avatar" src="https://rettiwtkcuf.social/system/accounts/avatars/000/045/773/original/03f277209e1efbe7.jpg?1586992618" />
+</div>
+</div>
+<span class='display-name'>
+<bdi>
+<strong class='display-name__html p-name emojify'>Adam Marshall Dobrin</strong>
+</bdi>
+&nbsp;
+<span class='display-name__account'>
+@suzq@rettiwtkcuf.social
+
+</span>
+</span>
+</a></div>
+</div>
+<div class='status__content emojify'><div class='e-content' dir='ltr'>
+<p>RT @AuntCunt@twitter.com</p><p>Do you think horoscopes mean anything or are you sane?</p>
+</div></div>
+<div class='status__action-bar'>
+<div class='status__action-bar__counter'>
+<a class="status__action-bar-button icon-button modal-button" href="https://rettiwtkcuf.social/interact/104350901732997618?type=reply"><i class="fa fa-reply fa-fw"></i>
+</a><div class='status__action-bar__counter__label'>0</div>
+</div>
+<a class="status__action-bar-button icon-button modal-button" href="https://rettiwtkcuf.social/interact/104350901732997618?type=reblog"><i class="fa fa-retweet fa-fw"></i>
+</a><a class="status__action-bar-button icon-button modal-button" href="https://rettiwtkcuf.social/interact/104350901732997618?type=favourite"><i class="fa fa-star fa-fw"></i>
+</a></div>
+</div>
+
+</div>
+<div class='entry h-entry'>
+<div class='status'>
+<div class='status__info'>
+<a class="status__relative-time u-url u-uid" rel="noopener noreferrer" href="https://rettiwtkcuf.social/@suzq/104350901647066373"><time class='time-ago' datetime='2020-06-16T00:46:36Z' title='Jun 16, 2020, 00:46'>Jun 16, 2020, 00:46</time>
+</a><data class='dt-published' value='2020-06-16T00:46:36+00:00'></data>
+<div class='p-author h-card'>
+<a class="status__display-name u-url" rel="noopener noreferrer" href="45773"><div class='status__avatar'>
+<div>
+<img alt="" class="u-photo account__avatar" src="https://rettiwtkcuf.social/system/accounts/avatars/000/045/773/original/03f277209e1efbe7.jpg?1586992618" />
+</div>
+</div>
+<span class='display-name'>
+<bdi>
+<strong class='display-name__html p-name emojify'>Adam Marshall Dobrin</strong>
+</bdi>
+&nbsp;
+<span class='display-name__account'>
+@suzq@rettiwtkcuf.social
+
+</span>
+</span>
+</a></div>
+</div>
+<div class='status__content emojify'><div class='e-content' dir='ltr'>
+<p>RT @johnpavlovitz@twitter.com</p><p>@Jim_Jordan@twitter.com You&apos;re the Great White Dope.</p>
+</div></div>
+<div class='status__action-bar'>
+<div class='status__action-bar__counter'>
+<a class="status__action-bar-button icon-button modal-button" href="https://rettiwtkcuf.social/interact/104350901647066373?type=reply"><i class="fa fa-reply fa-fw"></i>
+</a><div class='status__action-bar__counter__label'>0</div>
+</div>
+<a class="status__action-bar-button icon-button modal-button" href="https://rettiwtkcuf.social/interact/104350901647066373?type=reblog"><i class="fa fa-retweet fa-fw"></i>
+</a><a class="status__action-bar-button icon-button modal-button" href="https://rettiwtkcuf.social/interact/104350901647066373?type=favourite"><i class="fa fa-star fa-fw"></i>
+</a></div>
+</div>
+
+</div>
+<div class='entry h-entry'>
+<div class='status'>
+<div class='status__info'>
+<a class="status__relative-time u-url u-uid" rel="noopener noreferrer" href="https://rettiwtkcuf.social/@suzq/104350901575655751"><time class='time-ago' datetime='2020-06-16T00:46:35Z' title='Jun 16, 2020, 00:46'>Jun 16, 2020, 00:46</time>
+</a><data class='dt-published' value='2020-06-16T00:46:35+00:00'></data>
+<div class='p-author h-card'>
+<a class="status__display-name u-url" rel="noopener noreferrer" href="45773"><div class='status__avatar'>
+<div>
+<img alt="" class="u-photo account__avatar" src="https://rettiwtkcuf.social/system/accounts/avatars/000/045/773/original/03f277209e1efbe7.jpg?1586992618" />
+</div>
+</div>
+<span class='display-name'>
+<bdi>
+<strong class='display-name__html p-name emojify'>Adam Marshall Dobrin</strong>
+</bdi>
+&nbsp;
+<span class='display-name__account'>
+@suzq@rettiwtkcuf.social
+
+</span>
+</span>
+</a></div>
+</div>
+<div class='status__content emojify'><div class='e-content' dir='ltr'>
+<p>RT @Jim_Jordan@twitter.com</p><p>Why the double standard? <a href="https://twitter.com/heminator/status/1272356179403059207" rel="nofollow noopener noreferrer" target="_blank"><span class="invisible">https://</span><span class="ellipsis">twitter.com/heminator/status/1</span><span class="invisible">272356179403059207</span></a></p>
+</div></div>
+<div class='status__action-bar'>
+<div class='status__action-bar__counter'>
+<a class="status__action-bar-button icon-button modal-button" href="https://rettiwtkcuf.social/interact/104350901575655751?type=reply"><i class="fa fa-reply fa-fw"></i>
+</a><div class='status__action-bar__counter__label'>0</div>
+</div>
+<a class="status__action-bar-button icon-button modal-button" href="https://rettiwtkcuf.social/interact/104350901575655751?type=reblog"><i class="fa fa-retweet fa-fw"></i>
+</a><a class="status__action-bar-button icon-button modal-button" href="https://rettiwtkcuf.social/interact/104350901575655751?type=favourite"><i class="fa fa-star fa-fw"></i>
+</a></div>
+</div>
+
+</div>
+<div class='entry h-entry'>
+<div class='status'>
+<div class='status__info'>
+<a class="status__relative-time u-url u-uid" rel="noopener noreferrer" href="https://rettiwtkcuf.social/@suzq/104350189666607312"><time class='time-ago' datetime='2020-06-15T21:45:32Z' title='Jun 15, 2020, 21:45'>Jun 15, 2020, 21:45</time>
+</a><data class='dt-published' value='2020-06-15T21:45:32+00:00'></data>
+<div class='p-author h-card'>
+<a class="status__display-name u-url" rel="noopener noreferrer" href="45773"><div class='status__avatar'>
+<div>
+<img alt="" class="u-photo account__avatar" src="https://rettiwtkcuf.social/system/accounts/avatars/000/045/773/original/03f277209e1efbe7.jpg?1586992618" />
+</div>
+</div>
+<span class='display-name'>
+<bdi>
+<strong class='display-name__html p-name emojify'>Adam Marshall Dobrin</strong>
+</bdi>
+&nbsp;
+<span class='display-name__account'>
+@suzq@rettiwtkcuf.social
+
+</span>
+</span>
+</a></div>
+</div>
+<div class='status__content emojify'><div class='e-content' dir='ltr'>
+<p>incase <a href="https://rettiwtkcuf.social/tags/unclear" class="mention hashtag" rel="tag">#<span>unclear</span></a> OSTRICH</p>
+</div></div>
+<a class="status__content__read-more-button" rel="noopener noreferrer" href="https://rettiwtkcuf.social/@suzq/104350189666607312">Show thread
+</a><div class='status__action-bar'>
+<div class='status__action-bar__counter'>
+<a class="status__action-bar-button icon-button modal-button" href="https://rettiwtkcuf.social/interact/104350189666607312?type=reply"><i class="fa fa-reply-all fa-fw"></i>
+</a><div class='status__action-bar__counter__label'>0</div>
+</div>
+<a class="status__action-bar-button icon-button modal-button" href="https://rettiwtkcuf.social/interact/104350189666607312?type=reblog"><i class="fa fa-retweet fa-fw"></i>
+</a><a class="status__action-bar-button icon-button modal-button" href="https://rettiwtkcuf.social/interact/104350189666607312?type=favourite"><i class="fa fa-star fa-fw"></i>
+</a></div>
+</div>
+
+</div>
+<div class='entry h-entry'>
+<div class='status'>
+<div class='status__info'>
+<a class="status__relative-time u-url u-uid" rel="noopener noreferrer" href="https://rettiwtkcuf.social/@suzq/104350189517352445"><time class='time-ago' datetime='2020-06-15T21:45:30Z' title='Jun 15, 2020, 21:45'>Jun 15, 2020, 21:45</time>
+</a><data class='dt-published' value='2020-06-15T21:45:30+00:00'></data>
+<div class='p-author h-card'>
+<a class="status__display-name u-url" rel="noopener noreferrer" href="45773"><div class='status__avatar'>
+<div>
+<img alt="" class="u-photo account__avatar" src="https://rettiwtkcuf.social/system/accounts/avatars/000/045/773/original/03f277209e1efbe7.jpg?1586992618" />
+</div>
+</div>
+<span class='display-name'>
+<bdi>
+<strong class='display-name__html p-name emojify'>Adam Marshall Dobrin</strong>
+</bdi>
+&nbsp;
+<span class='display-name__account'>
+@suzq@rettiwtkcuf.social
+
+</span>
+</span>
+</a></div>
+</div>
+<div class='status__content emojify'><div class='e-content' dir='ltr'>
+<p>says lady justice to the pinata--&quot;airs of the aura of the Slayer of electorism all around the world&quot;</p><p>RT @Alyssa_Milano@twitter.com</p><p>Make me a promise? Don’t look at the polls. Don’t believe the polls. We’ve got to make this election <a href="https://rettiwtkcuf.social/tags/TooBigToRig" class="mention hashtag" rel="tag">#<span>TooBigToRig</span></a> and the only way to do that is to think we are coming from behind.</p>
+</div></div>
+<div class='status__action-bar'>
+<div class='status__action-bar__counter'>
+<a class="status__action-bar-button icon-button modal-button" href="https://rettiwtkcuf.social/interact/104350189517352445?type=reply"><i class="fa fa-reply fa-fw"></i>
+</a><div class='status__action-bar__counter__label'>1</div>
+</div>
+<a class="status__action-bar-button icon-button modal-button" href="https://rettiwtkcuf.social/interact/104350189517352445?type=reblog"><i class="fa fa-retweet fa-fw"></i>
+</a><a class="status__action-bar-button icon-button modal-button" href="https://rettiwtkcuf.social/interact/104350189517352445?type=favourite"><i class="fa fa-star fa-fw"></i>
+</a></div>
+</div>
+
+</div>
+<div class='entry h-entry'>
+<div class='status'>
+<div class='status__info'>
+<a class="status__relative-time u-url u-uid" rel="noopener noreferrer" href="https://rettiwtkcuf.social/@suzq/104349518668403687"><time class='time-ago' datetime='2020-06-15T18:54:54Z' title='Jun 15, 2020, 18:54'>Jun 15, 2020, 18:54</time>
+</a><data class='dt-published' value='2020-06-15T18:54:54+00:00'></data>
+<div class='p-author h-card'>
+<a class="status__display-name u-url" rel="noopener noreferrer" href="45773"><div class='status__avatar'>
+<div>
+<img alt="" class="u-photo account__avatar" src="https://rettiwtkcuf.social/system/accounts/avatars/000/045/773/original/03f277209e1efbe7.jpg?1586992618" />
+</div>
+</div>
+<span class='display-name'>
+<bdi>
+<strong class='display-name__html p-name emojify'>Adam Marshall Dobrin</strong>
+</bdi>
+&nbsp;
+<span class='display-name__account'>
+@suzq@rettiwtkcuf.social
+
+</span>
+</span>
+</a></div>
+</div>
+<div class='status__content emojify'><div class='e-content' dir='ltr'>
+<p>RT @RBReich@twitter.com</p><p>Your reminder that tear gas is a chemical weapon banned in war.</p>
+</div></div>
+<div class='status__action-bar'>
+<div class='status__action-bar__counter'>
+<a class="status__action-bar-button icon-button modal-button" href="https://rettiwtkcuf.social/interact/104349518668403687?type=reply"><i class="fa fa-reply fa-fw"></i>
+</a><div class='status__action-bar__counter__label'>0</div>
+</div>
+<a class="status__action-bar-button icon-button modal-button" href="https://rettiwtkcuf.social/interact/104349518668403687?type=reblog"><i class="fa fa-retweet fa-fw"></i>
+</a><a class="status__action-bar-button icon-button modal-button" href="https://rettiwtkcuf.social/interact/104349518668403687?type=favourite"><i class="fa fa-star fa-fw"></i>
+</a></div>
+</div>
+
+</div>
+<div class='entry h-entry'>
+<div class='status'>
+<div class='status__info'>
+<a class="status__relative-time u-url u-uid" rel="noopener noreferrer" href="https://rettiwtkcuf.social/@suzq/104349292118250793"><time class='time-ago' datetime='2020-06-15T17:57:17Z' title='Jun 15, 2020, 17:57'>Jun 15, 2020, 17:57</time>
+</a><data class='dt-published' value='2020-06-15T17:57:17+00:00'></data>
+<div class='p-author h-card'>
+<a class="status__display-name u-url" rel="noopener noreferrer" href="45773"><div class='status__avatar'>
+<div>
+<img alt="" class="u-photo account__avatar" src="https://rettiwtkcuf.social/system/accounts/avatars/000/045/773/original/03f277209e1efbe7.jpg?1586992618" />
+</div>
+</div>
+<span class='display-name'>
+<bdi>
+<strong class='display-name__html p-name emojify'>Adam Marshall Dobrin</strong>
+</bdi>
+&nbsp;
+<span class='display-name__account'>
+@suzq@rettiwtkcuf.social
+
+</span>
+</span>
+</a></div>
+</div>
+<div class='status__content emojify'><div class='e-content' dir='ltr'>
+<p>RT @SpeakerShinjini@twitter.com</p><p>My message is the product ✍️🏽.</p>
+</div></div>
+<div class='status__action-bar'>
+<div class='status__action-bar__counter'>
+<a class="status__action-bar-button icon-button modal-button" href="https://rettiwtkcuf.social/interact/104349292118250793?type=reply"><i class="fa fa-reply fa-fw"></i>
+</a><div class='status__action-bar__counter__label'>0</div>
+</div>
+<a class="status__action-bar-button icon-button modal-button" href="https://rettiwtkcuf.social/interact/104349292118250793?type=reblog"><i class="fa fa-retweet fa-fw"></i>
+</a><a class="status__action-bar-button icon-button modal-button" href="https://rettiwtkcuf.social/interact/104349292118250793?type=favourite"><i class="fa fa-star fa-fw"></i>
+</a></div>
+</div>
+
+</div>
+<div class='entry h-entry'>
+<div class='status'>
+<div class='status__info'>
+<a class="status__relative-time u-url u-uid" rel="noopener noreferrer" href="https://rettiwtkcuf.social/@suzq/104349249659746040"><time class='time-ago' datetime='2020-06-15T17:46:29Z' title='Jun 15, 2020, 17:46'>Jun 15, 2020, 17:46</time>
+</a><data class='dt-published' value='2020-06-15T17:46:29+00:00'></data>
+<div class='p-author h-card'>
+<a class="status__display-name u-url" rel="noopener noreferrer" href="45773"><div class='status__avatar'>
+<div>
+<img alt="" class="u-photo account__avatar" src="https://rettiwtkcuf.social/system/accounts/avatars/000/045/773/original/03f277209e1efbe7.jpg?1586992618" />
+</div>
+</div>
+<span class='display-name'>
+<bdi>
+<strong class='display-name__html p-name emojify'>Adam Marshall Dobrin</strong>
+</bdi>
+&nbsp;
+<span class='display-name__account'>
+@suzq@rettiwtkcuf.social
+
+</span>
+</span>
+</a></div>
+</div>
+<div class='status__content emojify'><div class='e-content' dir='ltr'>
+<p>RT @lalamaguire@twitter.com</p><p>@mjasay@twitter.com A few gems - @IPFS@twitter.com, @libp2p@twitter.com, @textileio@twitter.com, @trufflesuite@twitter.com, @Filecoin@twitter.com</p>
+</div></div>
+<div class='status__action-bar'>
+<div class='status__action-bar__counter'>
+<a class="status__action-bar-button icon-button modal-button" href="https://rettiwtkcuf.social/interact/104349249659746040?type=reply"><i class="fa fa-reply fa-fw"></i>
+</a><div class='status__action-bar__counter__label'>0</div>
+</div>
+<a class="status__action-bar-button icon-button modal-button" href="https://rettiwtkcuf.social/interact/104349249659746040?type=reblog"><i class="fa fa-retweet fa-fw"></i>
+</a><a class="status__action-bar-button icon-button modal-button" href="https://rettiwtkcuf.social/interact/104349249659746040?type=favourite"><i class="fa fa-star fa-fw"></i>
+</a></div>
+</div>
+
+</div>
+<div class='entry h-entry'>
+<div class='status'>
+<div class='status__info'>
+<a class="status__relative-time u-url u-uid" rel="noopener noreferrer" href="https://rettiwtkcuf.social/@suzq/104344478963440506"><time class='time-ago' datetime='2020-06-14T21:33:14Z' title='Jun 14, 2020, 21:33'>Jun 14, 2020, 21:33</time>
+</a><data class='dt-published' value='2020-06-14T21:33:14+00:00'></data>
+<div class='p-author h-card'>
+<a class="status__display-name u-url" rel="noopener noreferrer" href="45773"><div class='status__avatar'>
+<div>
+<img alt="" class="u-photo account__avatar" src="https://rettiwtkcuf.social/system/accounts/avatars/000/045/773/original/03f277209e1efbe7.jpg?1586992618" />
+</div>
+</div>
+<span class='display-name'>
+<bdi>
+<strong class='display-name__html p-name emojify'>Adam Marshall Dobrin</strong>
+</bdi>
+&nbsp;
+<span class='display-name__account'>
+@suzq@rettiwtkcuf.social
+
+</span>
+</span>
+</a></div>
+</div>
+<div class='status__content emojify'><div class='e-content' dir='ltr'>
+<p>RT @henchbeaver@twitter.com</p><p>@OfHella@twitter.com &quot;I&apos;m a great listener&quot; is my next tramp stamp</p>
+</div></div>
+<div class='status__action-bar'>
+<div class='status__action-bar__counter'>
+<a class="status__action-bar-button icon-button modal-button" href="https://rettiwtkcuf.social/interact/104344478963440506?type=reply"><i class="fa fa-reply fa-fw"></i>
+</a><div class='status__action-bar__counter__label'>0</div>
+</div>
+<a class="status__action-bar-button icon-button modal-button" href="https://rettiwtkcuf.social/interact/104344478963440506?type=reblog"><i class="fa fa-retweet fa-fw"></i>
+</a><a class="status__action-bar-button icon-button modal-button" href="https://rettiwtkcuf.social/interact/104344478963440506?type=favourite"><i class="fa fa-star fa-fw"></i>
+</a></div>
+</div>
+
+</div>
+<div class='entry h-entry'>
+<div class='status'>
+<div class='status__info'>
+<a class="status__relative-time u-url u-uid" rel="noopener noreferrer" href="https://rettiwtkcuf.social/@suzq/104344428500575695"><time class='time-ago' datetime='2020-06-14T21:20:24Z' title='Jun 14, 2020, 21:20'>Jun 14, 2020, 21:20</time>
+</a><data class='dt-published' value='2020-06-14T21:20:24+00:00'></data>
+<div class='p-author h-card'>
+<a class="status__display-name u-url" rel="noopener noreferrer" href="45773"><div class='status__avatar'>
+<div>
+<img alt="" class="u-photo account__avatar" src="https://rettiwtkcuf.social/system/accounts/avatars/000/045/773/original/03f277209e1efbe7.jpg?1586992618" />
+</div>
+</div>
+<span class='display-name'>
+<bdi>
+<strong class='display-name__html p-name emojify'>Adam Marshall Dobrin</strong>
+</bdi>
+&nbsp;
+<span class='display-name__account'>
+@suzq@rettiwtkcuf.social
+
+</span>
+</span>
+</a></div>
+</div>
+<div class='status__content emojify'><div class='e-content' dir='ltr'>
+<p><a href="https://rettiwtkcuf.social/tags/gnu" class="mention hashtag" rel="tag">#<span>gnu</span></a> <a href="https://rettiwtkcuf.social/tags/rem" class="mention hashtag" rel="tag">#<span>rem</span></a> <a href="https://rettiwtkcuf.social/tags/ber" class="mention hashtag" rel="tag">#<span>ber</span></a> <a href="https://rettiwtkcuf.social/tags/geneva" class="mention hashtag" rel="tag">#<span>geneva</span></a></p><p><a href="https://twitter.com/notmymessiah/status/1272277196791410689?s=19" rel="nofollow noopener noreferrer" target="_blank"><span class="invisible">https://</span><span class="ellipsis">twitter.com/notmymessiah/statu</span><span class="invisible">s/1272277196791410689?s=19</span></a></p><p>RT @notmymessiah@twitter.com</p><p>@PobudkiewiczP@twitter.com @kieferrick@twitter.com @Dcembrrr@twitter.com @jewish_activist@twitter.com arguably those conscripted into the military are also prisoners just following orders. </p><p>I guess you draw the line at &quot;nationality&quot; or &quot;within Milosevic&apos;s borders&quot;</p><p>I don&apos;t think ... we should allow ... things like genocide or systemic inequality or systemic brutality anywhere ev</p>
+</div></div>
+<div class='status__action-bar'>
+<div class='status__action-bar__counter'>
+<a class="status__action-bar-button icon-button modal-button" href="https://rettiwtkcuf.social/interact/104344428500575695?type=reply"><i class="fa fa-reply fa-fw"></i>
+</a><div class='status__action-bar__counter__label'>0</div>
+</div>
+<a class="status__action-bar-button icon-button modal-button" href="https://rettiwtkcuf.social/interact/104344428500575695?type=reblog"><i class="fa fa-retweet fa-fw"></i>
+</a><a class="status__action-bar-button icon-button modal-button" href="https://rettiwtkcuf.social/interact/104344428500575695?type=favourite"><i class="fa fa-star fa-fw"></i>
+</a></div>
+</div>
+
+</div>
+<div class='entry h-entry'>
+<div class='status'>
+<div class='status__info'>
+<a class="status__relative-time u-url u-uid" rel="noopener noreferrer" href="https://rettiwtkcuf.social/@suzq/104343842450090850"><time class='time-ago' datetime='2020-06-14T18:51:21Z' title='Jun 14, 2020, 18:51'>Jun 14, 2020, 18:51</time>
+</a><data class='dt-published' value='2020-06-14T18:51:21+00:00'></data>
+<div class='p-author h-card'>
+<a class="status__display-name u-url" rel="noopener noreferrer" href="45773"><div class='status__avatar'>
+<div>
+<img alt="" class="u-photo account__avatar" src="https://rettiwtkcuf.social/system/accounts/avatars/000/045/773/original/03f277209e1efbe7.jpg?1586992618" />
+</div>
+</div>
+<span class='display-name'>
+<bdi>
+<strong class='display-name__html p-name emojify'>Adam Marshall Dobrin</strong>
+</bdi>
+&nbsp;
+<span class='display-name__account'>
+@suzq@rettiwtkcuf.social
+
+</span>
+</span>
+</a></div>
+</div>
+<div class='status__content emojify'><div class='e-content' dir='ltr'>
+<p>RT @OfHella@twitter.com</p><p>I&apos;m a great listener unless you&apos;re hot.</p>
+</div></div>
+<div class='status__action-bar'>
+<div class='status__action-bar__counter'>
+<a class="status__action-bar-button icon-button modal-button" href="https://rettiwtkcuf.social/interact/104343842450090850?type=reply"><i class="fa fa-reply fa-fw"></i>
+</a><div class='status__action-bar__counter__label'>0</div>
+</div>
+<a class="status__action-bar-button icon-button modal-button" href="https://rettiwtkcuf.social/interact/104343842450090850?type=reblog"><i class="fa fa-retweet fa-fw"></i>
+</a><a class="status__action-bar-button icon-button modal-button" href="https://rettiwtkcuf.social/interact/104343842450090850?type=favourite"><i class="fa fa-star fa-fw"></i>
+</a></div>
+</div>
+
+</div>
+<div class='entry h-entry'>
+<div class='status'>
+<div class='status__info'>
+<a class="status__relative-time u-url u-uid" rel="noopener noreferrer" href="https://rettiwtkcuf.social/@suzq/104343430135040255"><time class='time-ago' datetime='2020-06-14T17:06:30Z' title='Jun 14, 2020, 17:06'>Jun 14, 2020, 17:06</time>
+</a><data class='dt-published' value='2020-06-14T17:06:30+00:00'></data>
+<div class='p-author h-card'>
+<a class="status__display-name u-url" rel="noopener noreferrer" href="45773"><div class='status__avatar'>
+<div>
+<img alt="" class="u-photo account__avatar" src="https://rettiwtkcuf.social/system/accounts/avatars/000/045/773/original/03f277209e1efbe7.jpg?1586992618" />
+</div>
+</div>
+<span class='display-name'>
+<bdi>
+<strong class='display-name__html p-name emojify'>Adam Marshall Dobrin</strong>
+</bdi>
+&nbsp;
+<span class='display-name__account'>
+@suzq@rettiwtkcuf.social
+
+</span>
+</span>
+</a></div>
+</div>
+<div class='status__content emojify'><div class='e-content' dir='ltr'>
+<p>well &quot;he&apos;s not camera shy&quot; they said as I took several intake photos--candid and trying to act--as I walked into the place I just left, called @cleanrecovery@twitter.com (nice facility, in New Port Ritchie) ... Nor it appears am I so &quot;socially shy&quot; even with the pre… <a href="https://instagr.am/p/CBbCASlHEka/" rel="nofollow noopener noreferrer" target="_blank"><span class="invisible">https://</span><span class="">instagr.am/p/CBbCASlHEka/</span><span class="invisible"></span></a></p>
+</div></div>
+<div data-component="MediaGallery" data-props="{&quot;height&quot;:343,&quot;sensitive&quot;:false,&quot;autoplay&quot;:null,&quot;media&quot;:[{&quot;id&quot;:&quot;60741&quot;,&quot;type&quot;:&quot;image&quot;,&quot;url&quot;:&quot;https://rettiwtkcuf.social/system/media_attachments/files/000/060/741/original/bf3d2db5ae4c6bba.jpg?1592154389&quot;,&quot;preview_url&quot;:&quot;https://rettiwtkcuf.social/system/media_attachments/files/000/060/741/small/bf3d2db5ae4c6bba.jpg?1592154389&quot;,&quot;remote_url&quot;:null,&quot;text_url&quot;:&quot;https://rettiwtkcuf.social/media/oWoNM3b4Q3u0i--G7cY&quot;,&quot;meta&quot;:{&quot;original&quot;:{&quot;width&quot;:720,&quot;height&quot;:898,&quot;size&quot;:&quot;720x898&quot;,&quot;aspect&quot;:0.8017817371937639},&quot;small&quot;:{&quot;width&quot;:358,&quot;height&quot;:447,&quot;size&quot;:&quot;358x447&quot;,&quot;aspect&quot;:0.8008948545861297}},&quot;description&quot;:null,&quot;blurhash&quot;:&quot;UaHeXv0L%1M{.TxtIUjsJC%MWBayNdsntRt7&quot;}]}"><div class='attachment-list'>
+<div class='attachment-list__icon'>
+<i class="fa fa-link"></i>
+</div>
+<ul class='attachment-list__list'>
+<li>
+<a href="https://rettiwtkcuf.social/system/media_attachments/files/000/060/741/original/bf3d2db5ae4c6bba.jpg?1592154389">bf3d2db5ae4c6bba.jpg?1592154389</a>
+</li>
+</ul>
+</div>
+
+</div><div class='status__action-bar'>
+<div class='status__action-bar__counter'>
+<a class="status__action-bar-button icon-button modal-button" href="https://rettiwtkcuf.social/interact/104343430135040255?type=reply"><i class="fa fa-reply fa-fw"></i>
+</a><div class='status__action-bar__counter__label'>0</div>
+</div>
+<a class="status__action-bar-button icon-button modal-button" href="https://rettiwtkcuf.social/interact/104343430135040255?type=reblog"><i class="fa fa-retweet fa-fw"></i>
+</a><a class="status__action-bar-button icon-button modal-button" href="https://rettiwtkcuf.social/interact/104343430135040255?type=favourite"><i class="fa fa-star fa-fw"></i>
+</a></div>
+</div>
+
+</div>
+
+<div class='entry'><a class="load-more load-gap" href="https://rettiwtkcuf.social/@suzq?max_id=104343430135040255">Show more</a></div>
+</div>
+</div>
+</div>
+<div class='column-1'>
+<div class='public-account-bio'>
+<div class='account__header__fields'>
+<dl>
+<dt class='emojify' title='yyy'>yyy</dt>
+<dd class='emojify' title='http://lamc.la'>
+<a href="http://lamc.la" rel="me nofollow noopener noreferrer" target="_blank"><span class="invisible">http://</span><span class="">lamc.la</span><span class="invisible"></span></a>
+</dd>
+</dl>
+<dl>
+<dt class='emojify' title='yiiiv'>yiiiv</dt>
+<dd class='emojify' title='http://fb.me/admdbrn'>
+<a href="../../../fb.me/admdbrn" rel="me nofollow noopener noreferrer" target="_blank"><span class="invisible">http://</span><span class="">fb.me/admdbrn</span><span class="invisible"></span></a>
+</dd>
+</dl>
+</div>
+
+<div class='account__header__content emojify'><p>him, it, rarely why .. don&apos;t make me wyy</p></div>
+<div class='public-account-bio__extra'>
+Joined Apr 2020
+</div>
+</div>
+
+<div class='hero-widget'>
+<div class='hero-widget__img'>
+<img alt="Rettiwt Kcuf" src="https://rettiwtkcuf.social/packs/media/images/preview-9a17d32fc48369e8ccd910a75260e67d.jpg" />
+</div>
+<div class='hero-widget__text'>
+<p>The social network of the future: No ads, no corporate surveillance, ethical design, and decentralization! Own your data with Mastodon!</p>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+<div class='container'>
+<div class='footer'>
+<div class='grid'>
+<div class='column-0'>
+<h4>Resources</h4>
+<ul>
+<li><a href="https://rettiwtkcuf.social/terms">Terms of service</a></li>
+<li><a href="https://rettiwtkcuf.social/terms">Privacy policy</a></li>
+</ul>
+</div>
+<div class='column-1'>
+<h4>Developers</h4>
+<ul>
+<li><a href="https://docs.joinmastodon.org/">Documentation</a></li>
+<li><a href="https://docs.joinmastodon.org/client/intro/">API</a></li>
+</ul>
+</div>
+<div class='column-2'>
+<h4><a href="https://joinmastodon.org/">What is Mastodon?</a></h4>
+<a class="brand" href="https://rettiwtkcuf.social/"><svg viewBox="0 0 216.4144 232.00976"><use xlink:href="#mastodon-svg-logo" /></svg></a>
+</div>
+<div class='column-3'>
+<h4>rettiwtkcuf.social</h4>
+<ul>
+<li><a href="https://rettiwtkcuf.social/about/more">About</a></li>
+<li>v3.1.4</li>
+</ul>
+</div>
+<div class='column-4'>
+<h4>More…</h4>
+<ul>
+<li><a href="https://github.com/tootsuite/mastodon">Source code</a></li>
+<li><a href="https://joinmastodon.org/apps">Mobile apps</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class='logo-resources'>
+<svg xmlns="http://www.w3.org/2000/svg"><symbol id="mastodon-svg-logo" viewBox="0 0 216.4144 232.00976"><path d="M107.86523 0C78.203984.2425 49.672422 3.4535937 33.044922 11.089844c0 0-32.97656262 14.752031-32.97656262 65.082031 0 11.525-.224375 25.306175.140625 39.919925 1.19750002 49.22 9.02375002 97.72843 54.53124962 109.77343 20.9825 5.55375 38.99711 6.71547 53.505856 5.91797 26.31125-1.45875 41.08203-9.38867 41.08203-9.38867l-.86914-19.08984s-18.80171 5.92758-39.91796 5.20508c-20.921254-.7175-43.006879-2.25516-46.390629-27.94141-.3125-2.25625-.46875-4.66938-.46875-7.20313 0 0 20.536953 5.0204 46.564449 6.21289 15.915.73001 30.8393-.93343 45.99805-2.74218 29.07-3.47125 54.38125-21.3818 57.5625-37.74805 5.0125-25.78125 4.59961-62.916015 4.59961-62.916015 0-50.33-32.97461-65.082031-32.97461-65.082031C166.80539 3.4535938 138.255.2425 108.59375 0h-.72852zM74.296875 39.326172c12.355 0 21.710234 4.749297 27.896485 14.248047l6.01367 10.080078 6.01563-10.080078c6.185-9.49875 15.54023-14.248047 27.89648-14.248047 10.6775 0 19.28156 3.753672 25.85156 11.076172 6.36875 7.3225 9.53907 17.218828 9.53907 29.673828v60.941408h-24.14454V81.869141c0-12.46875-5.24453-18.798829-15.73828-18.798829-11.6025 0-17.41797 7.508516-17.41797 22.353516v32.375002H96.207031V85.423828c0-14.845-5.815468-22.353515-17.417969-22.353516-10.49375 0-15.740234 6.330079-15.740234 18.798829v59.148439H38.904297V80.076172c0-12.455 3.171016-22.351328 9.541015-29.673828 6.568751-7.3225 15.172813-11.076172 25.851563-11.076172z" /></symbol></svg>
+
+<svg xmlns="http://www.w3.org/2000/svg"><symbol id="mastodon-svg-logo-full" viewBox="0 0 713.35878 175.8678"><path d="M160.55476 105.43125c-2.4125 12.40625-21.5975 25.9825-43.63375 28.61375-11.49125 1.3725-22.80375 2.63125-34.8675 2.07875-19.73-.90375-35.2975-4.71-35.2975-4.71 0 1.92125.11875 3.75.355 5.46 2.565 19.47 19.3075 20.6375 35.16625 21.18125 16.00625.5475 30.2575-3.9475 30.2575-3.9475l.65875 14.4725s-11.19625 6.01125-31.14 7.11625c-10.99875.605-24.65375-.27625-40.56-4.485C6.99851 162.08 1.06601 125.31.15851 88-.11899 76.9225.05226 66.47625.05226 57.74125c0-38.1525 24.99625-49.335 24.99625-49.335C37.65226 2.6175 59.27976.18375 81.76351 0h.5525c22.48375.18375 44.125 2.6175 56.72875 8.40625 0 0 24.99625 11.1825 24.99625 49.335 0 0 .3125 28.1475-3.48625 47.69" fill="#3088d4"/><path d="M34.65751 48.494c0-5.55375 4.5025-10.055 10.055-10.055 5.55375 0 10.055 4.50125 10.055 10.055 0 5.5525-4.50125 10.055-10.055 10.055-5.5525 0-10.055-4.5025-10.055-10.055M178.86476 60.69975v46.195h-18.30125v-44.8375c0-9.4525-3.9775-14.24875-11.9325-14.24875-8.79375 0-13.2025 5.69125-13.2025 16.94375V89.2935h-18.19375V64.75225c0-11.2525-4.40875-16.94375-13.2025-16.94375-7.955 0-11.9325 4.79625-11.9325 14.24875v44.8375H73.79851v-46.195c0-9.44125 2.40375-16.94375 7.2325-22.495 4.98-5.55 11.50125-8.395 19.595-8.395 9.36625 0 16.45875 3.59875 21.14625 10.79875l4.56 7.6425 4.55875-7.6425c4.68875-7.2 11.78-10.79875 21.1475-10.79875 8.09375 0 14.61375 2.845 19.59375 8.395 4.82875 5.55125 7.2325 13.05375 7.2325 22.495M241.91276 83.663625c3.77625-3.99 5.595-9.015 5.595-15.075 0-6.06-1.81875-11.085-5.595-14.9275-3.63625-3.99125-8.25375-5.91125-13.84875-5.91125-5.59625 0-10.2125 1.92-13.84875 5.91125-3.6375 3.8425-5.45625 8.8675-5.45625 14.9275 0 6.06 1.81875 11.085 5.45625 15.075 3.63625 3.8425 8.2525 5.76375 13.84875 5.76375 5.595 0 10.2125-1.92125 13.84875-5.76375m5.595-52.025h18.04625v73.9h-18.04625v-8.72125c-5.455 7.2425-13.01 10.79-22.80125 10.79-9.3725 0-17.34625-3.695-24.06125-11.23375-6.57375-7.5375-9.93125-16.84875-9.93125-27.785 0-10.78875 3.3575-20.10125 9.93125-27.63875 6.715-7.5375 14.68875-11.38 24.06125-11.38 9.79125 0 17.34625 3.5475 22.80125 10.78875v-8.72zM326.26951 67.258625c5.315 3.99 7.97375 9.60625 7.83375 16.7 0 7.53875-2.65875 13.45-8.11375 17.58875-5.45625 3.99125-12.03 6.06-20.00375 6.06-14.40875 0-24.20125-5.9125-29.3775-17.58875l15.66875-9.31c2.0975 6.35375 6.71375 9.60625 13.70875 9.60625 6.43375 0 9.6525-2.07 9.6525-6.35625 0-3.10375-4.1975-5.91125-12.73-8.1275-3.21875-.8875-5.87625-1.77375-7.97375-2.51375-2.9375-1.18125-5.455-2.5125-7.55375-4.1375-5.17625-3.99-7.83375-9.3125-7.83375-16.11 0-7.2425 2.5175-13.00625 7.55375-17.145 5.17625-4.28625 11.47-6.355 19.025-6.355 12.03 0 20.84375 5.1725 26.5775 15.66625l-15.38625 8.8675c-2.23875-5.02375-6.015-7.53625-11.19125-7.53625-5.45625 0-8.11375 2.06875-8.11375 6.05875 0 3.10375 4.19625 5.91125 12.73 8.12875 6.575 1.4775 11.75 3.695 15.5275 6.50375M383.626635 49.966125h-15.8075v30.7425c0 3.695 1.4 5.91125 4.0575 6.945 1.95875.74 5.875.8875 11.75.59125v17.29375c-12.16875 1.4775-20.9825.295-26.15875-3.69625-5.175-3.8425-7.69375-10.93625-7.69375-21.13375v-30.7425h-12.17v-18.3275h12.17v-14.9275l18.045-5.76375v20.69125h15.8075v18.3275zM441.124885 83.2205c3.6375-3.84375 5.455-8.72125 5.455-14.6325 0-5.91125-1.8175-10.78875-5.455-14.63125-3.6375-3.84375-8.11375-5.76375-13.57-5.76375-5.455 0-9.93125 1.92-13.56875 5.76375-3.4975 3.99-5.31625 8.8675-5.31625 14.63125 0 5.765 1.81875 10.6425 5.31625 14.6325 3.6375 3.8425 8.11375 5.76375 13.56875 5.76375 5.45625 0 9.9325-1.92125 13.57-5.76375m-39.86875 13.15375c-7.13375-7.5375-10.63125-16.70125-10.63125-27.78625 0-10.9375 3.4975-20.1 10.63125-27.6375 7.13375-7.5375 15.9475-11.38 26.29875-11.38 10.3525 0 19.165 3.8425 26.3 11.38 7.135 7.5375 10.77125 16.84875 10.77125 27.6375 0 10.9375-3.63625 20.24875-10.77125 27.78625-7.135 7.53875-15.8075 11.2325-26.3 11.2325-10.49125 0-19.165-3.69375-26.29875-11.2325M524.92126 83.663625c3.6375-3.99 5.455-9.015 5.455-15.075 0-6.06-1.8175-11.085-5.455-14.9275-3.63625-3.99125-8.25375-5.91125-13.84875-5.91125-5.59625 0-10.2125 1.92-13.98875 5.91125-3.63625 3.8425-5.45625 8.8675-5.45625 14.9275 0 6.06 1.82 11.085 5.45625 15.075 3.77625 3.8425 8.5325 5.76375 13.98875 5.76375 5.595 0 10.2125-1.92125 13.84875-5.76375m5.455-81.585h18.04625v103.46h-18.04625v-8.72125c-5.315 7.2425-12.87 10.79-22.66125 10.79-9.3725 0-17.485-3.695-24.2-11.23375-6.575-7.5375-9.9325-16.84875-9.9325-27.785 0-10.78875 3.3575-20.10125 9.9325-27.63875 6.715-7.5375 14.8275-11.38 24.2-11.38 9.79125 0 17.34625 3.5475 22.66125 10.78875v-38.28zM611.79626 83.2205c3.63625-3.84375 5.455-8.72125 5.455-14.6325 0-5.91125-1.81875-10.78875-5.455-14.63125-3.6375-3.84375-8.11375-5.76375-13.57-5.76375-5.455 0-9.9325 1.92-13.56875 5.76375-3.49875 3.99-5.31625 8.8675-5.31625 14.63125 0 5.765 1.8175 10.6425 5.31625 14.6325 3.63625 3.8425 8.11375 5.76375 13.56875 5.76375 5.45625 0 9.9325-1.92125 13.57-5.76375m-39.86875 13.15375c-7.135-7.5375-10.63125-16.70125-10.63125-27.78625 0-10.9375 3.49625-20.1 10.63125-27.6375 7.135-7.5375 15.9475-11.38 26.29875-11.38 10.3525 0 19.165 3.8425 26.3 11.38 7.135 7.5375 10.77125 16.84875 10.77125 27.6375 0 10.9375-3.63625 20.24875-10.77125 27.78625-7.135 7.53875-15.8075 11.2325-26.3 11.2325-10.49125 0-19.16375-3.69375-26.29875-11.2325M713.35876 60.163875v45.37375h-18.04625v-43.00875c0-4.8775-1.25875-8.5725-3.77625-11.38-2.37875-2.5125-5.73625-3.84375-10.0725-3.84375-10.2125 0-15.3875 6.06-15.3875 18.3275v39.905h-18.04625v-73.89875h18.04625v8.27625c4.33625-6.94625 11.19-10.345 20.84375-10.345 7.69375 0 13.98875 2.66 18.885 8.12875 5.035 5.46875 7.55375 12.85875 7.55375 22.465"/></symbol></svg>
+
+</div>
+</body>
+</html>
+

@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><base href="http://www.wcur.org/">
+<meta charset="utf-8" /> 
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
+
+			<title>Contact Us &ndash; 91.7 WCUR - The Curve</title>
+			<meta name="keywords" content="" />
+			<meta name="description" content="">
+			
+<link rel="stylesheet" href="assets/css/bootstrap.min.css" type="text/css" />  
+<link rel="stylesheet" href="assets/css/style.css" type="text/css" />  
+<link rel="stylesheet" href="assets/css/media-queries.css" type="text/css" />  
+
+<!--[if IE]> 
+<script src="assets/js/html5.js"></script>
+<![endif]--> 
+
+<!--[if lte IE 7]> 
+<script src="assets/js/IE8.js" type="text/javascript"></script>
+<![endif]--> 
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/bjqs-1.3.js"></script>
+<script type="text/javascript">
+	function submitForm() {
+		var contact_name = $("#contact_name").val();
+		var contact_email = $("#contact_email").val();
+		var contact_subject = $("#contact_subject").val();
+		var contact_message = $("#contact_message").val();
+
+		var error = false;
+		var error_str = "Please fix the following errors: \n";
+
+		if (contact_name == '' || contact_name == 'Name') {
+			error = true;
+			error_str += "- missing name \n";
+		}
+		if (contact_email == '' || contact_email == 'Email') {
+			error = true;
+			error_str += "- missing email \n";
+		}
+		if (contact_subject == '' || contact_subject == 'Subject') {
+			error = true;
+			error_str += "- missing subject \n";
+		}
+		if (contact_message == '' || contact_message == 'Message') {
+			error = true;
+			error_str += "- missing message \n";
+		}
+
+		if (!error) {
+			var postdata = 'contact_name=' + contact_name + '&contact_email=' + contact_email + '&contact_subject=' + contact_subject + '&contact_message=' + contact_message + '&page=contactus';
+			$("#submit_p").hide();
+			$("#sending_p").show();
+			$.post("contact.php", postdata, function success(data){
+				if (data == 'SENT.') {
+					alert('Your message was successfully sent.');
+					$("#contact_name").val('Name');
+					$("#contact_email").val('Email');
+					$("#contact_subject").val('Subject');
+					$("#contact_message").val('Message');
+				}
+				else {
+					alert(data);
+				}
+				$("#submit_p").show();
+				$("#sending_p").hide();
+			});
+		} // end !error
+		else {
+			alert(error_str);
+		} // end else
+
+		return false;
+	} // end submitForm
+</script>
+
+</head>  
+
+<body> 
+
+
+<!-- header -->
+<header class="header_section">
+	<div class = "container container-wrapper">
+		<div class = "row clearfix">
+			<div class = "header-col col-md-3 col-sm-3">
+				<h1><a href="index.html"><img src="assets/images/logo.png" class = "img-responsive site-logo" /></a></h1>
+			</div>
+			<div class = "header-col col-md-6 col-sm-6">
+				<div class="livestream_col">
+<h2>NEXT SHOW</h2>
+			
+<div id="livestream-item1">
+	<p>The Ali Show</p>
+	<p><span>Ali Castronuovo</span></p>
+	<p>10-11am</p>
+<p>&nbsp;</p>
+<!--
+<OBJECT CLASSID="clsid:02BF25D5-8C17-4B23-BC80-D3488ABDDC6B" 
+CODEBASE="http://www.apple.com/qtactivex/qtplugin.cab" HEIGHT="16" WIDTH="200"> 
+<PARAM NAME="src" value="http://144.26.57.251:8000"> 
+<PARAM NAME="qtsrc" value="http://144.26.57.251:8000"> 
+<PARAM NAME="type" value="video/quicktime"> 
+<PARAM NAME="autoplay" value="false"> 
+<PARAM NAME="controller" value="true"> 
+<EMBED PLUGINSPAGE="http://www.apple.com/quicktime/download/" 
+   SRC="http://144.26.57.251:8000" 
+   QTSRC="http://144.26.57.251:8000" 
+   TYPE="video/quicktime" 
+   WIDTH="225" 
+   HEIGHT="16" 
+   SCALE="tofit" 
+   CONTROLLER="true" 
+   AUTOPLAY="false" 
+   KIOSKMODE="true"> 
+</OBJECT> 
+-->
+<p>Listen Live to WCUR</p>
+
+<audio controls name="media" style="height:35px; width:300px;">
+	<source src="http://144.26.87.77:8000" type="audio/mpeg">
+</audio>
+</div>
+				</div>
+			</div>
+			<div class = "header-col col-md-3 col-sm-3">
+				<div class="header-social">
+					<a href="https://www.facebook.com/WCUR917" target="_blank"><img src="assets/images/icon_fb.png"  /></a>&nbsp;&nbsp;
+					<a href="https://twitter.com/917wcur" target="_blank"><img src="assets/images/icon_twitter.png" /></a>&nbsp;&nbsp;
+					<a href="http://instagram.com/wcur917thecurve" target="_blank"><img src="assets/images/icon_instagram.png" /></a>
+				</div>
+			</div>
+		</div>
+	</div>
+</header>
+<!-- end header -->
+
+
+<!-- navigation -->
+<nav>
+	<ul>
+		<li><a href="index.html" >Home</a></li>
+		<li><a href="http://wcurmusicreviews.tumblr.com/" target="_blank">Music</a>
+			<div class="submenu">
+				<ul>
+					<li><a href="http://wcurmusicreviews.tumblr.com/" target="_blank">New Music</a></li>
+					<li><a href="music_livesessions.html">Live Sessions &amp; Interviews</a></li>
+				</ul>	
+			</div>
+		</li>
+		<li><a href="sports.html" >Sports</a></li>
+		<li><a href="events.html" >Events</a>
+			<div class="submenu">
+				<ul>
+					<li><a href="events.html">Need an Event</a></li>
+					<li><a href="events_spreadtheword.html">Spread the Word</a></li>
+					<li><a href="events_calendar.html">WCUR Calendar</a></li>
+				</ul>	
+			</div>
+		</li>
+		<li><a href="contact_us.html" class="active">Contact Us</a></li>
+	</ul>
+
+	<div class="clear"></div>
+</nav>
+<!-- end navigation -->
+
+<!-- content -->
+<section class="content_section">
+	<div class="container container-wrapper">
+		<div class="row-fluid clearfix">
+			<div class="subcontent_boxpanel">
+				<div class = "col-md-12">
+					<h3><!-- START GMSCMS --><p>
+	Keep in touch</p>
+<!-- END GMSCMS --></h3>
+
+					<br />
+				</div>
+				<div class = "col-md-5">
+
+					<div class="subcontent_leftboxpanel">
+		<!-- START GMSCMS --><p>
+	Please submit your music via mail, with attention to our Music Director, Ted Carroll.&nbsp;</p>
+<ul class="bulletlist">
+	<li>
+		<a href="mailto:wcur.gm@gmail.com">Ashley Parenti</a>, General Manager<br />
+		<em>Office hours: Tu 1:30-3:30pm, F&nbsp;2-4pm</em></li>
+	<li>
+		<a href="mailto:programmingwcur@gmail.com">Stephen Weber</a>, Programming Director&nbsp;<br />
+		<em>Office hours: M &amp; W 11am-12pm</em></li>
+	<li>
+		<a href="mailto:wcuradiobusiness@gmail.com">Sam&nbsp;Foess</a>, Business Manager<br />
+		<em>Office hours: M 1-3pm</em></li>
+	<li>
+		<a href="mailto:wcurmd@gmail.com">Ted Carroll</a>, Music Director<br />
+		<em>Office hours: Th 3-4pm, F 2-3pm</em></li>
+	<li>
+		<a href="mailto:productionmanager.wcur@gmail.com">Domenica Castro</a>, Production Manager&nbsp;<br />
+		<em>Office hours: Tu 4:30-5:30pm, W 5:45-6:45pm</em></li>
+	<li>
+		<a href="mailto:wcurevents@gmail.com">Ashley&nbsp;Greaves</a>,&nbsp;Events &amp; Promotions Director<br />
+		<em>Office hours: W 2-4pm</em></li>
+	<li>
+		<a href="mailto:wcurtraining@gmail.com">Colleen Devery</a>, Training Director<br />
+		<em>Office hours: Tu &amp; Th&nbsp;1-1:50pm</em></li>
+	<li>
+		<a href="mailto:wcursportsdirector@gmail.com">Matt Robinson</a>, Sports Director<br />
+		<em>Office hours: Tu 9-11am</em></li>
+	<li>
+		<a href="mailto:web.wcur@gmail.com">Francis Convery</a>, Webmaster<br />
+		<em>Office hours: W 2-4pm</em></li>
+	<li>
+		<a href="mailto:wcur.nd@gmail.com">Sarah Velehoski</a>, News Director.&nbsp;&nbsp;<br />
+		<em>Office hours: Th 5-6pm, 7-8pm</em></li>
+	<li>
+		<a href="mailto:wcursocmed@gmail.com">Julianne Mancuso</a>,&nbsp;Social Media Director.&nbsp;<br />
+		<em>Office hours: Tu 2-3pm, Th 2-3pm(by appointment)</em></li>
+	<li>
+		<a href="mailto:wcur.pn@gmail.com ">Gabe Sagherian</a>,&nbsp;Parliamentarian&nbsp;<span style="color: rgb(0, 0, 0); font-family: Arial; font-size: 13px; white-space: pre-wrap;"> </span><br />
+		<em>Office hours: Tu 1-3pm</em></li>
+	<li>
+		<a href="mailto:wcurlocal@gmail.com">Evan Cowgill</a>, Local Band Director<br />
+		<em>Office hours: F&nbsp;2-4pm&nbsp;</em></li>
+	<li>
+		<a href="mailto:wcursecretary1@gmail.com">Mike Quin</a>, Secretary&nbsp;<br />
+		<em>Office hours: M 3-5pm</em></li>
+</ul>
+<!-- END GMSCMS -->
+					</div>
+				</div>
+				<div class = "col-md-7">
+
+					<div class="subcontent_rightboxpanel">
+						<p>Please fill up the necessary fields.</p>
+						<br />
+						<table cellpadding="0" cellspacing="5" width="100%">
+							<tr>
+								<td><input type="text" name="contact_name" id="contact_name" class="form_textbox_half" placeholder="Name" value="Name" onFocus="if (this.value == 'Name') this.value = ''" onBlur="if (this.value == '') this.value = 'Name'" /></td>
+								<td><input type="text" name="contact_email" id="contact_email" class="form_textbox_half" placeholder="Email" value="Email" onFocus="if (this.value == 'Email') this.value = ''" onBlur="if (this.value == '') this.value = 'Email'" /></td>
+							</tr>
+							<tr>
+								<td colspan="2"><input type="text" name="contact_subject" id="contact_subject" class="form_textbox" placeholder="Subject" value="Subject" onFocus="if (this.value == 'Subject') this.value = ''" onBlur="if (this.value == '') this.value = 'Subject'" /></td>						
+							</tr>
+							<tr>
+								<td colspan="2"><textarea name="contact_message" id="contact_message" class="form_msgbox" placeholder="Message" onFocus="if (this.value == 'Message') this.value = ''" onBlur="if (this.value == '') this.value = 'Message'">Message</textarea></td>						
+							</tr>
+							<tr>
+								<td colspan="2">
+								<p id="submit_p"><a href="#" class="btn_style" onClick="return submitForm()">Send Message</a></p>
+								<p id="sending_p" style="display:none;">Sending...</p>
+								</td>
+							</tr>
+						</table>
+					</div>
+				</div>
+
+				<div class="clear"></div>
+
+			</div>
+		</div>
+
+		<div class="clear"></div>
+	</div>
+</section>
+<!-- end content -->
+
+
+<!-- footer -->
+<footer class="footer_section">
+	<div class = "container container-wrapper">
+		<div class = "row clearfix">
+			<div class = "col-md-12 col-sm-12">
+				<p>
+					<a href="/cms/"><img src="assets/images/img_djlogin.jpg" /></a>&nbsp; &nbsp;
+					<a href="http://www.wcupa.edu/" target="_blank"><img src="assets/images/img_wcu.jpg" /></a>
+				</p>
+				
+				<br />
+
+				<div class="footerlinks">
+					<p>
+						<a href="index.html">Home</a>&nbsp;|
+						<a href="http://wcurmusicreviews.tumblr.com/" target="_blank">Music</a>&nbsp;|
+						<a href="sports.html">Sports</a>&nbsp;|
+						<a href="events.html">Events</a>&nbsp;|
+						<a href="contact_us.html">Contact Us</a>
+					</p>
+				</div>
+
+				<br />
+				<p>All Rights Reserved 2018 WCUR the curve<br />
+		Website and hosting by <a href="http://www.homergroup.com" target="_blank">The Homer Group</a> and <a href="http://www.i76solutions.com" target="_blank">i76 Solutions</a></p>
+			</div>
+		</div>
+	</div>
+</footer>
+<!-- end footer -->
+		<script src="assets/js/scripts.js"></script>
+
+</body> 
+</html>

@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+	<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+	<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<title>Contact Us</title>
+					<meta name="title" content="Contact Us" />
+					<meta name="description" content="" />
+					<meta name="author" content="" />
+					<meta name="image" content="https://grcmc.org" />
+					<meta name="keywords" content="" />
+					<meta name="favicon" content="https://grcmc.org/images/favicon.ico" />
+					<meta name="appleicon" content="https://grcmc.org/images/apple-touch-icon.png" />
+					<meta name="google-site-verification" content="ydSDfDb2AWB7LhO5gRp9ATtLB1E5bT4Z_WtYG2l--u8" />
+					<meta name="facebookAppId" content="240073652764651" />
+					<meta name="type" content="website" />
+					<meta name="baseUrl" content="https://grcmc.org/" />
+					<meta name="_token" content="f5c5e72c7c12dd9d26861aa07dde5d1f" />
+		
+
+		<script src="/js/vendor/jquery.js" type="text/javascript" charset="utf-8"></script>
+		<script src="/js/jquery.fitvids.js"></script>
+		<script src="https://code.highcharts.com/highcharts.js"></script>
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+
+		<script src="/js/cmcCMS/Application.js" type="text/javascript" charset="utf-8"></script>
+					<script src="https://grcmc.org/resourceCache.php?javascript=/app/widgets/AlphaNavigation/javascript.js,/app/widgets/AlphaNavigation/javascriptNew.js,/app/widgets/UserAccountLogin/javascript.js,/app/widgets/Shopping/javascript.js&mt=1535364716" type="text/javascript" charset="utf-8"></script>
+		
+					<link rel="shortcut icon" href="https://grcmc.org/images/favicon.ico" type="image/x-icon" />
+			<link rel="apple-touch-icon" href="https://grcmc.org/images/apple-touch-icon.png" />
+							<link rel="image_src" href="https://grcmc.org" />
+		
+					<link rel="stylesheet" href="https://grcmc.org/resourceCache.php?css=css/jqueryui.css,css/foundation-icons.css,css/foundation.css,css/select2.jquery.css,css/common.css,css/dataTables.css,/app/widgets/TextWithImage/style.css,/app/widgets/AlphaNavigation/style.css,/app/widgets/UserAccountLogin/style.css,/app/widgets/Shopping/style.css,/app/widgets/SocialMedia/style.css,css/themes/wyce.css&mt=1535364716" />
+		
+					<meta property="og:description" content="" />
+							<meta property="og:title" content="Contact Us" />
+							<meta property="og:image" content="https://grcmc.org" />
+							<meta property="og:type" content="website" />
+					</head>
+	<body class="" data-cms-page-id="56">
+		
+				<div id="fb-root"></div>
+				<script>(function(d, s, id) {
+				  var js, fjs = d.getElementsByTagName(s)[0];
+				  if (d.getElementById(id)) return;
+				  js = d.createElement(s); js.id = id;
+				  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=240073652764651&version=v2.5";
+				  fjs.parentNode.insertBefore(js, fjs);
+				}(document, 'script', 'facebook-jssdk'));</script>
+			
+<header class="header">
+
+<div data-layout-row="navigation">
+
+<div data-layout-zone="navigation">
+<div class=" dynamicPageContentItem AlphaNavigation" data-js-handlers="UserAccountLogin,AlphaNavigation" data-cms-widget="AlphaNavigation" data-options="eyJpdGVtcyI6eyJlMDM5ODRhNS0zMzM5LTQwMDMtODU2NS04NGQ0ODAyYzc2ZWEiOnsidWlkIjoiZTAzOTg0YTUtMzMzOS00MDAzLTg1NjUtODRkNDgwMmM3NmVhIiwibGFiZWwiOiJNdXNpYyIsImxpbmsiOiIiLCJjaGlsZHJlbiI6eyJiNTkxZTc3Ny00YWI0LTRmMzItYTg1Ny1hYTQ0YmIzZWE0N2IiOnsidWlkIjoiYjU5MWU3NzctNGFiNC00ZjMyLWE4NTctYWE0NGJiM2VhNDdiIiwibGFiZWwiOiJUcmVuZGluZyIsImxpbmsiOiJ3eWNlXC9jaGFydHMifSwiMWIxYWNjNDAtOTZlYy00ZDRjLWJlZjEtNmQ1MTI4MjZmY2E4Ijp7InVpZCI6IjFiMWFjYzQwLTk2ZWMtNGQ0Yy1iZWYxLTZkNTEyODI2ZmNhOCIsImxhYmVsIjoiUmV2aWV3cyIsImxpbmsiOiJ3eWNlXC9yZXZpZXdzIn0sIjYwNTc5NTEzLWE4NjYtNDIzNS04N2M3LTg5NGMzMjljNGY0MCI6eyJ1aWQiOiI2MDU3OTUxMy1hODY2LTQyMzUtODdjNy04OTRjMzI5YzRmNDAiLCJsYWJlbCI6IkluLVN0dWRpbyBQZXJmb3JtYW5jZXMiLCJsaW5rIjoid3ljZVwvaW4tc3R1ZGlvIn0sIjU3OTMwMTg1LTU4ZjMtNDYyYi1iM2ZjLWVhMWZmNjU3Y2UzMyI6eyJ1aWQiOiI1NzkzMDE4NS01OGYzLTQ2MmItYjNmYy1lYTFmZjY1N2NlMzMiLCJsYWJlbCI6IlZpZGVvIiwibGluayI6Ind5Y2VcL3ZpZGVvIn0sImQ3Yzg3YmNhLTJhNzctNDQ1Ni1hMGVlLTgwMTljZWExOTIzNiI6eyJ1aWQiOiJkN2M4N2JjYS0yYTc3LTQ0NTYtYTBlZS04MDE5Y2VhMTkyMzYiLCJsYWJlbCI6IkFydGlzdCBvZiB0aGUgRGF5IiwibGluayI6Ind5Y2VcL211c2ljXC9hb3RkIn0sImNlNWRjOGYxLWI2MWEtNDIxMi1hMTVkLWFmNDk4MTc0OWMxMSI6eyJ1aWQiOiJjZTVkYzhmMS1iNjFhLTQyMTItYTE1ZC1hZjQ5ODE3NDljMTEiLCJsYWJlbCI6Ik11c2ljIExpYnJhcnkiLCJsaW5rIjoid3ljZVwvbXVzaWNcL2xpYnJhcnkifSwiYTZhY2RhN2YtNDY4Yy00ZTk2LTgzOTMtMDAyNWY3ZDhkNDY4Ijp7InVpZCI6ImE2YWNkYTdmLTQ2OGMtNGU5Ni04MzkzLTAwMjVmN2Q4ZDQ2OCIsImxhYmVsIjoiRnJlZSBEb3dubG9hZHMiLCJsaW5rIjoid3ljZVwvbXVzaWNcL2Rvd25sb2FkcyJ9LCJmZWViYzE2Ny0yZWQwLTRkYjQtOTg5Mi04ZTE2NGVjZWJiYjkiOnsidWlkIjoiZmVlYmMxNjctMmVkMC00ZGI0LTk4OTItOGUxNjRlY2ViYmI5IiwibGFiZWwiOiJNaXhUYXBlcyIsImxpbmsiOiJ3eWNlXC9taXh0YXBlcyJ9fX0sImJhZTRmODdmLWQ5NjctNDBlNi1iNGM1LTRhYWM3OThjNDg1YiI6eyJ1aWQiOiJiYWU0Zjg3Zi1kOTY3LTQwZTYtYjRjNS00YWFjNzk4YzQ4NWIiLCJsYWJlbCI6IkxvY2FsIiwibGluayI6IiIsImNoaWxkcmVuIjp7ImFmOTc3ZjA3LTkyZTQtNGM2OC1iOGEyLTQ5ZTM1NzAxM2I3YyI6eyJ1aWQiOiJhZjk3N2YwNy05MmU0LTRjNjgtYjhhMi00OWUzNTcwMTNiN2MiLCJsYWJlbCI6IkphbW1pZXMiLCJsaW5rIjoid3ljZVwvbG9jYWxcL2phbW1pZXMgIn0sImEzMjhlYTY5LWQ2MzktNDFlYi05Y2IwLTMyY2ExOTZlYTY4ZSI6eyJ1aWQiOiJhMzI4ZWE2OS1kNjM5LTQxZWItOWNiMC0zMmNhMTk2ZWE2OGUiLCJsYWJlbCI6IkxvY2FsIFNwaW5zIiwibGluayI6Ind5Y2VcL3Byb2dyYW1zXC9sb2NhbC1zcGlucyJ9LCIyOWZkNzVmNy0xZmQ2LTRiZjQtOTcwOS00YmYzM2ZkNTkzZGEiOnsidWlkIjoiMjlmZDc1ZjctMWZkNi00YmY0LTk3MDktNGJmMzNmZDU5M2RhIiwibGFiZWwiOiJDYXRhbHlzdCBSYWRpbyIsImxpbmsiOiJ3eWNlXC9wcm9ncmFtc1wvY2F0YWx5c3QtcmFkaW8ifSwiNzFiYzhhNDktNDk4ZC00MzVmLWE1MTAtNTI4ZDE5MGJhNzQzIjp7InVpZCI6IjcxYmM4YTQ5LTQ5OGQtNDM1Zi1hNTEwLTUyOGQxOTBiYTc0MyIsImxhYmVsIjoiTG9jYWwgQmFuZHMiLCJsaW5rIjoid3ljZVwvbG9jYWxcL2JhbmRzIn0sIjYxMjU3Y2U5LTY0ZWItNDEyYi1hYWUzLWFiZjZmNDQ3M2E2MCI6eyJ1aWQiOiI2MTI1N2NlOS02NGViLTQxMmItYWFlMy1hYmY2ZjQ0NzNhNjAiLCJsYWJlbCI6IlN1Ym1pdCBNdXNpYyIsImxpbmsiOiJ3eWNlXC9sb2NhbFwvc3VibWl0In19fSwiNTMxZGZlNTg2ZDY3YyI6eyJ1aWQiOiI1MzFkZmU1ODZkNjdjIiwibGFiZWwiOiJQcm9ncmFtbWluZyIsImxpbmsiOiIiLCJjaGlsZHJlbiI6eyI1MzFkZmU1ODZkZTRiIjp7InVpZCI6IjUzMWRmZTU4NmRlNGIiLCJsYWJlbCI6IlJlcXVlc3QiLCJsaW5rIjoid3ljZVwvcmVxdWVzdCJ9LCI1MzFkZmU1ODZlNjFiIjp7InVpZCI6IjUzMWRmZTU4NmU2MWIiLCJsYWJlbCI6IlBsYXlsaXN0cyIsImxpbmsiOiJ3eWNlXC9wbGF5bGlzdHMifSwiYWQ5Yjk0ODItNTA4YS00YjRiLWIzYTgtZWE2OWExNDRhYTc5Ijp7InVpZCI6ImFkOWI5NDgyLTUwOGEtNGI0Yi1iM2E4LWVhNjlhMTQ0YWE3OSIsImxhYmVsIjoiUGxheWxpc3QgVmlzdWFsaXphdGlvbiIsImxpbmsiOiJ3eWNlXC92aXN1YWwifSwiNTMxZGZlNTg2ZWRlYiI6eyJ1aWQiOiI1MzFkZmU1ODZlZGViIiwibGFiZWwiOiJTcGVjaWFsdHkgU2hvd3MiLCJsaW5rIjoid3ljZVwvcHJvZ3JhbXMifSwiNTMxZGZlNTg2ZmQ4ZCI6eyJ1aWQiOiI1MzFkZmU1ODZmZDhkIiwibGFiZWwiOiJPbi1BaXIgU2NoZWR1bGUiLCJsaW5rIjoid3ljZVwvcHJvZ3JhbW1lcnMifSwiNTMxZGZlNTg3MDU1ZCI6eyJ1aWQiOiI1MzFkZmU1ODcwNTVkIiwibGFiZWwiOiJQaGlsb3NvcGh5IiwibGluayI6Ind5Y2VcL3BoaWxvc29waHkifSwiNTMxZGZlNTg3MGQyYyI6eyJ1aWQiOiI1MzFkZmU1ODcwZDJjIiwibGFiZWwiOiJHZXQgT24gQWlyISIsImxpbmsiOiJ3eWNlXC9nZXQtb24tYWlyIn19fSwiNTMxZGZlNTg3MTRmYiI6eyJ1aWQiOiI1MzFkZmU1ODcxNGZiIiwibGFiZWwiOiJFdmVudHMiLCJsaW5rIjoid3ljZVwvY29uY2VydHMifSwiNTMxZGZlNTg3MmM2YiI6eyJ1aWQiOiI1MzFkZmU1ODcyYzZiIiwibGFiZWwiOiJTdXBwb3J0IiwibGluayI6Ind5Y2VcL3N1cHBvcnQiLCJjaGlsZHJlbiI6eyI1MzFkZmU1ODczNDNiIjp7InVpZCI6IjUzMWRmZTU4NzM0M2IiLCJsYWJlbCI6IkRvbmF0ZSIsImxpbmsiOiJ3eWNlXC9zdXBwb3J0In0sIjA5ZGM4NGY1LWQwYzEtNGZjMy1hMzRiLWEzOWI0NDUxYjY1NyI6eyJ1aWQiOiIwOWRjODRmNS1kMGMxLTRmYzMtYTM0Yi1hMzliNDQ1MWI2NTciLCJsYWJlbCI6IkFsYnVtIG9mIHRoZSBNb250aCBDbHViIiwibGluayI6Ind5Y2VcL3N1cHBvcnRcL2FsYnVtIn0sIjUzMWRmZTU4NzQzZGIiOnsidWlkIjoiNTMxZGZlNTg3NDNkYiIsImxhYmVsIjoiVW5kZXJ3cml0aW5nIiwibGluayI6Ind5Y2VcL3VuZGVyd3JpdGluZyJ9LCI1MzFkZmU1ODc0YmFjIjp7InVpZCI6IjUzMWRmZTU4NzRiYWMiLCJsYWJlbCI6IlZvbHVudGVlciIsImxpbmsiOiJ3eWNlXC92b2x1bnRlZXIifX19LCI1MzFkZmU1ODc1MzdiIjp7InVpZCI6IjUzMWRmZTU4NzUzN2IiLCJsYWJlbCI6IkNvbm5lY3QiLCJsaW5rIjoiIiwiY2hpbGRyZW4iOnsiNTMxZGZlNTg3NWI0YyI6eyJ1aWQiOiI1MzFkZmU1ODc1YjRjIiwibGFiZWwiOiJBYm91dCBXWUNFIiwibGluayI6Ind5Y2VcL2Fib3V0In0sIjUzMWRmZTU4NzYzMjAiOnsidWlkIjoiNTMxZGZlNTg3NjMyMCIsImxhYmVsIjoiQ29udGFjdCIsImxpbmsiOiJ3eWNlXC9jb250YWN0In0sIjk0ZjViNDQ2LTIwODYtNDFlOS1hZmM4LTQwYmE2NDVjOTU2MiI6eyJ1aWQiOiI5NGY1YjQ0Ni0yMDg2LTQxZTktYWZjOC00MGJhNjQ1Yzk1NjIiLCJsYWJlbCI6IkJsb2ciLCJsaW5rIjoid3ljZVwvbmV3cyJ9LCI1MzFkZmU1ODc3MmJiIjp7InVpZCI6IjUzMWRmZTU4NzcyYmIiLCJsYWJlbCI6IlN0YWZmIiwibGluayI6Ind5Y2VcL3N0YWZmIn0sIjUzMWRmZTU4NzdhOGMiOnsidWlkIjoiNTMxZGZlNTg3N2E4YyIsImxhYmVsIjoiSm9icyAmIEludGVybnNoaXAiLCJsaW5rIjoid3ljZVwvam9icyJ9LCJlNjA1NDRjYS00MDc5LTRkZTYtYTUzZS1hZTg4ZDM0ODgzMDMiOnsidWlkIjoiZTYwNTQ0Y2EtNDA3OS00ZGU2LWE1M2UtYWU4OGQzNDg4MzAzIiwibGFiZWwiOiJOZXdzbGV0dGVyIiwibGluayI6Ind5Y2VcL25ld3NsZXR0ZXIifSwiNTMxZGZlNTg3ODI1YiI6eyJ1aWQiOiI1MzFkZmU1ODc4MjViIiwibGFiZWwiOiJHZXQgb24gQWlyIiwibGluayI6Ind5Y2VcL2dldC1vbi1haXIifX19LCI1Mjc4ODM1Yi1iNjMwLTRlYWQtYTZjZS1jNWE4ZTJiNDM2MTAiOnsidWlkIjoiNTI3ODgzNWItYjYzMC00ZWFkLWE2Y2UtYzVhOGUyYjQzNjEwIiwibGFiZWwiOiJMaXN0ZW4hIiwibGluayI6IiIsImNoaWxkcmVuIjp7ImVlMThjYWYyLWM2N2UtNDJhNS04ODRiLWY4YWY4YzE5OWI0YyI6eyJ1aWQiOiJlZTE4Y2FmMi1jNjdlLTQyYTUtODg0Yi1mOGFmOGMxOTliNGMiLCJsYWJlbCI6IlN0cmVhbSBQbGF5ZXIiLCJsaW5rIjoiamF2YXNjcmlwdDogc2hvd1d5Y2VQbGF5ZXIoKTsifSwiZDNkZGI4ZjAtMTg4Yy00MWMzLTkzNmUtZWIzNDU0NmQwNTE5Ijp7InVpZCI6ImQzZGRiOGYwLTE4OGMtNDFjMy05MzZlLWViMzQ1NDZkMDUxOSIsImxhYmVsIjoiT3RoZXIgTGlzdGVuaW5nIE9wdGlvbnMiLCJsaW5rIjoiXC93eWNlXC9saXN0ZW4ifX19fSwidG9wbGV2ZWwiOiIiLCJsb2dvIjoid3ljZSIsImxvZ29MaW5rIjoid3ljZSIsInNob3dPZmZDYW52YXMiOnRydWUsImNvbG9yIjoiI0Q3MTYzNSIsImxvZ29TbWFsbFRleHQiOiI4OC4xRk0iLCJsb2dvTWFpblRleHQiOiJXWUNFIiwibG9jYWxTb2NpYWxOZXR3b3JrcyI6eyJmaXJzdCI6eyJuZXR3b3JrIjoiZmFjZWJvb2siLCJ1cmwiOiJodHRwczpcL1wvd3d3LmZhY2Vib29rLmNvbVwvV1lDRXJhZGlvIn0sInNlY29uZCI6eyJuZXR3b3JrIjoidHdpdHRlciIsInVybCI6Imh0dHBzOlwvXC90d2l0dGVyLmNvbVwvV1lDRXJhZGlvIn0sInRoaXJkIjp7Im5ldHdvcmsiOiJ0dW1ibHIiLCJ1cmwiOiJodHRwOlwvXC93eWNlcmFkaW8udHVtYmxyLmNvbVwvIn19LCJfY29udGV4dCI6Ind5Y2UifQ=="><div class="mobile-local-navigation section-container accordion" data-section="accordion">
+						<section class="active">
+				<p class="title" data-section-title><a href="#">Music</a></p>
+				<div class="content" data-section-content>
+									<ul>
+													<li><a href="http://grcmc.org/wyce/charts">Trending</a></li>
+													<li><a href="http://grcmc.org/wyce/reviews">Reviews</a></li>
+													<li><a href="http://grcmc.org/wyce/in-studio">In-Studio Performances</a></li>
+													<li><a href="http://grcmc.org/wyce/video">Video</a></li>
+													<li><a href="http://grcmc.org/wyce/music/aotd">Artist of the Day</a></li>
+													<li><a href="http://grcmc.org/wyce/music/library">Music Library</a></li>
+													<li><a href="http://grcmc.org/wyce/music/downloads">Free Downloads</a></li>
+													<li><a href="http://grcmc.org/wyce/mixtapes">MixTapes</a></li>
+											</ul>
+								</div>
+			</section>
+								<section class="active">
+				<p class="title" data-section-title><a href="#">Local</a></p>
+				<div class="content" data-section-content>
+									<ul>
+													<li><a href="http://grcmc.org/wyce/local/jammies ">Jammies</a></li>
+													<li><a href="http://grcmc.org/wyce/programs/local-spins">Local Spins</a></li>
+													<li><a href="http://grcmc.org/wyce/programs/catalyst-radio">Catalyst Radio</a></li>
+													<li><a href="http://grcmc.org/wyce/local/bands">Local Bands</a></li>
+													<li><a href="http://grcmc.org/wyce/local/submit">Submit Music</a></li>
+											</ul>
+								</div>
+			</section>
+								<section class="active">
+				<p class="title" data-section-title><a href="#">Programming</a></p>
+				<div class="content" data-section-content>
+									<ul>
+													<li><a href="http://grcmc.org/wyce/request">Request</a></li>
+													<li><a href="http://grcmc.org/wyce/playlists">Playlists</a></li>
+													<li><a href="http://grcmc.org/wyce/visual">Playlist Visualization</a></li>
+													<li><a href="http://grcmc.org/wyce/programs">Specialty Shows</a></li>
+													<li><a href="http://grcmc.org/wyce/programmers">On-Air Schedule</a></li>
+													<li><a href="http://grcmc.org/wyce/philosophy">Philosophy</a></li>
+													<li><a href="http://grcmc.org/wyce/get-on-air">Get On Air!</a></li>
+											</ul>
+								</div>
+			</section>
+								<a href="http://grcmc.org/wyce/concerts" class="no-children">Events</a>								<section class="active">
+				<p class="title" data-section-title><a href="#">Support</a></p>
+				<div class="content" data-section-content>
+									<ul>
+													<li><a href="http://grcmc.org/wyce/support">Donate</a></li>
+													<li><a href="http://grcmc.org/wyce/support/album">Album of the Month Club</a></li>
+													<li><a href="http://grcmc.org/wyce/underwriting">Underwriting</a></li>
+													<li><a href="http://grcmc.org/wyce/volunteer">Volunteer</a></li>
+											</ul>
+								</div>
+			</section>
+								<section class="active">
+				<p class="title" data-section-title><a href="#">Connect</a></p>
+				<div class="content" data-section-content>
+									<ul>
+													<li><a href="http://grcmc.org/wyce/about">About WYCE</a></li>
+													<li><a href="http://grcmc.org/wyce/contact">Contact</a></li>
+													<li><a href="http://grcmc.org/wyce/news">Blog</a></li>
+													<li><a href="http://grcmc.org/wyce/staff">Staff</a></li>
+													<li><a href="http://grcmc.org/wyce/jobs">Jobs & Internship</a></li>
+													<li><a href="http://grcmc.org/wyce/newsletter">Newsletter</a></li>
+													<li><a href="http://grcmc.org/wyce/get-on-air">Get on Air</a></li>
+											</ul>
+								</div>
+			</section>
+								<section class="active">
+				<p class="title" data-section-title><a href="#">Listen!</a></p>
+				<div class="content" data-section-content>
+									<ul>
+													<li><a href="javascript: showWycePlayer();">Stream Player</a></li>
+													<li><a href="http://grcmc.org//wyce/listen">Other Listening Options</a></li>
+											</ul>
+								</div>
+			</section>
+				<div class="mobile-local-social">&nbsp;
+									<a href="https://www.facebook.com/WYCEradio">
+					<i class="fi-social-facebook"></i>
+				</a>
+												<a href="https://twitter.com/WYCEradio">
+					<i class="fi-social-twitter"></i>
+				</a>
+												<a href="http://wyceradio.tumblr.com/">
+					<i class="fi-social-tumblr"></i>
+				</a>
+						</div>
+</div>
+<div class="alpha-navigation">
+	<a class="logo-wrapper" href="http://grcmc.org/wyce">
+		<img src="https://grcmc.org/images/logos/wyce_white_transparent.png" onerror="this.src='https://grcmc.org/images/default.png';"  data-orginal-media="https://grcmc.org/images/logos/wyce_white_transparent.png"  />				<div>
+			<em>88.1FM</em>
+			<span>WYCE</span>
+		</div>
+			</a>
+	<ul class="local-navigation">
+		<li class="mobile-toggle">
+			<i class="fi-list"></i>
+		</li>
+					<li class="with-child-navigation">
+				<a class="menu-toggle-item">Music</a>
+									<ul>
+																	  		<li><a href="http://grcmc.org/wyce/charts">Trending</a></li>
+											  		<li><a href="http://grcmc.org/wyce/reviews">Reviews</a></li>
+											  		<li><a href="http://grcmc.org/wyce/in-studio">In-Studio Performances</a></li>
+											  		<li><a href="http://grcmc.org/wyce/video">Video</a></li>
+											  		<li><a href="http://grcmc.org/wyce/music/aotd">Artist of the Day</a></li>
+											  		<li><a href="http://grcmc.org/wyce/music/library">Music Library</a></li>
+											  		<li><a href="http://grcmc.org/wyce/music/downloads">Free Downloads</a></li>
+											  		<li><a href="http://grcmc.org/wyce/mixtapes">MixTapes</a></li>
+											</ul>
+							</li>
+					<li class="with-child-navigation">
+				<a class="menu-toggle-item">Local</a>
+									<ul>
+																	  		<li><a href="http://grcmc.org/wyce/local/jammies ">Jammies</a></li>
+											  		<li><a href="http://grcmc.org/wyce/programs/local-spins">Local Spins</a></li>
+											  		<li><a href="http://grcmc.org/wyce/programs/catalyst-radio">Catalyst Radio</a></li>
+											  		<li><a href="http://grcmc.org/wyce/local/bands">Local Bands</a></li>
+											  		<li><a href="http://grcmc.org/wyce/local/submit">Submit Music</a></li>
+											</ul>
+							</li>
+					<li class="with-child-navigation">
+				<a class="menu-toggle-item">Programming</a>
+									<ul>
+																	  		<li><a href="http://grcmc.org/wyce/request">Request</a></li>
+											  		<li><a href="http://grcmc.org/wyce/playlists">Playlists</a></li>
+											  		<li><a href="http://grcmc.org/wyce/visual">Playlist Visualization</a></li>
+											  		<li><a href="http://grcmc.org/wyce/programs">Specialty Shows</a></li>
+											  		<li><a href="http://grcmc.org/wyce/programmers">On-Air Schedule</a></li>
+											  		<li><a href="http://grcmc.org/wyce/philosophy">Philosophy</a></li>
+											  		<li><a href="http://grcmc.org/wyce/get-on-air">Get On Air!</a></li>
+											</ul>
+							</li>
+					<li class="">
+				<a href="http://grcmc.org/wyce/concerts">Events</a>
+							</li>
+					<li class="with-child-navigation">
+				<a class="menu-toggle-item">Support</a>
+									<ul>
+																	  		<li><a href="http://grcmc.org/wyce/support">Donate</a></li>
+											  		<li><a href="http://grcmc.org/wyce/support/album">Album of the Month Club</a></li>
+											  		<li><a href="http://grcmc.org/wyce/underwriting">Underwriting</a></li>
+											  		<li><a href="http://grcmc.org/wyce/volunteer">Volunteer</a></li>
+											</ul>
+							</li>
+					<li class="with-child-navigation">
+				<a class="menu-toggle-item">Connect</a>
+									<ul>
+																	  		<li><a href="http://grcmc.org/wyce/about">About WYCE</a></li>
+											  		<li><a href="http://grcmc.org/wyce/contact">Contact</a></li>
+											  		<li><a href="http://grcmc.org/wyce/news">Blog</a></li>
+											  		<li><a href="http://grcmc.org/wyce/staff">Staff</a></li>
+											  		<li><a href="http://grcmc.org/wyce/jobs">Jobs & Internship</a></li>
+											  		<li><a href="http://grcmc.org/wyce/newsletter">Newsletter</a></li>
+											  		<li><a href="http://grcmc.org/wyce/get-on-air">Get on Air</a></li>
+											</ul>
+							</li>
+					<li class="with-child-navigation">
+				<a class="menu-toggle-item">Listen!</a>
+									<ul>
+																	  		<li><a href="javascript: showWycePlayer();">Stream Player</a></li>
+											  		<li><a href="http://grcmc.org//wyce/listen">Other Listening Options</a></li>
+											</ul>
+							</li>
+			</ul>
+
+	<div class="user-account-control with-child-navigation">
+		<i class="fi-torso"></i>
+		<ul>
+						<li class="white compact-login-wrapper">
+				<div class="compact-login user-account-sub-wrapper add-widget-events">
+	<p><strong class="white">sign in or sign up...</strong></p>
+	<button class="compact-user-login-facebook-btn expand">
+		<span> ...with facebook <i class="fi-social-facebook"></i> </span></button>
+	<strong class="login-or-heading"><span>OR</span></strong>
+	<span>...with your email address</span>
+	<form class="user-compact-login-form">
+		<input class="user-account-control-username" tabindex="1" type="email" placeholder="email@address.com" name="email">
+		<label class="white clear-after">
+			<input onclick="$(this).next().focus();" value="signin" type="radio" name="accountState" style="float:left;">
+			<input name="password" class="user-account-control-password password-field" tabindex="2" type="password" placeholder="I have a password">
+		</label>
+
+		<label>
+			<input type="radio" value="signup" name="accountState">
+			sign up for a new account
+		</label>
+
+		<input style="display:none" type="text" placeholder="first name" name="first_name" />
+		<input style="display:none" type="text" placeholder="last name" name="last_name" />
+		<input style="display:none" type="text" placeholder="choose a password" name="new_password" />
+		<button class="compact-email-login-btn expand">sign in</button>
+			</form>
+</div>
+				<a href="https://grcmc.org/login" class="alt-login-btn">or visit our secure sign-in page</a>			</li>
+			</ul>	</div>
+	<div class="local-social">&nbsp;
+									<a href="https://www.facebook.com/WYCEradio">
+					<i class="fi-social-facebook"></i>
+				</a>
+												<a href="https://twitter.com/WYCEradio">
+					<i class="fi-social-twitter"></i>
+				</a>
+												<a href="http://wyceradio.tumblr.com/">
+					<i class="fi-social-tumblr"></i>
+				</a>
+						</div>
+	<div class="search-wrapper">
+		<i class="fi-magnifying-glass"></i>
+	</div>
+		<div class="offcanvas-toggle">
+		<img src="https://grcmc.org/images/logos/cmc_black_and_white.png" onerror="this.src='https://grcmc.org/images/default.png';"  data-orginal-media="https://grcmc.org/images/logos/cmc_black_and_white.png"  />	</div>
+	</div>
+
+<div class="offcanvas-menu">
+	<div class="offcanvas-heading">Community Media Center</div>
+
+	<div class="off-canvas-content">
+		<div class="section-container accordion" data-section="accordion">
+			<a href="http://grcmc.org/" class="no-children">Home</a>			<a href="http://grcmc.org/wyce" class="no-children">WYCE</a>			<a href="http://grcmc.org/theatre" class="no-children">Wealthy Theatre</a>			<a href="http://grcmc.org/grtv" class="no-children">GRTV</a>			<a href="http://grcmc.org/rapidian" class="no-children">The Rapidian</a>			<section class="active">
+				<p class="title" data-section-title="" style="left: 0px; font-weight:bold;">
+					<a href="http://grcmc.org/nonprofits" class="no-children">Nonprofit Services</a>				</p>
+				<div class="content" data-section-content="">
+					<a href="http://grcmc.org/nonprofits" class="no-children">About</a>					<a href="http://grcmc.org/IT" class="no-children">Web Development</a>					<a href="http://grcmc.org/education" class="no-children">Education & Training</a>					<a href="http://grcmc.org/grtv/cms" class="no-children">Media Production</a>				</div>
+			</section>
+		</div>
+
+		<form style="padding-top:18px; border-top: 1px solid white;" action="https://grcmc.org/search" method="get" class="row collapse">
+			<div class="large-10 small-10 columns">
+				<input placeholder="Search" type="text" name="q" />
+			</div>
+			<div class="large-2 small-2 columns">
+				<button class="postfix"><i class="fi-magnifying-glass"></i></button>
+			</div>
+		</form>
+
+		<div class="global-social">
+			<a href="https://www.facebook.com/grcmc">
+				<i class="fi-social-facebook"></i>
+			</a>
+			<a href="https://twitter.com/grcmc">
+				<i class="fi-social-twitter"></i>
+			</a>
+			<a href="https://www.youtube.com/user/GRCMC/">
+				<i class="fi-social-youtube"></i>
+			</a>
+		</div>
+	</div>
+</div>
+<div id="navigation-search-form-wrapper">
+	<form action="https://grcmc.org/search" method="get" class="row collapse">
+		<input type="hidden" value="f5c5e72c7c12dd9d26861aa07dde5d1f" name="_token" />
+		<div class="large-11 small-10 columns">
+			<input id="navigation-search-input" name="q" type="text" value="" />
+		</div>
+		<div class="large-1 small-2 columns">
+			<button type="submit" class="prefix"><i class="fi-magnifying-glass"></i></button>
+		</div>
+	</form>
+</div>
+
+<style>
+/* theme, color of hover on primary and user account links */
+.local-navigation li:hover > a,
+.user-account-control li:hover > a,
+.local-social i:hover,
+.search-wrapper i:hover,
+.user-account-control:hover > i,
+.mobile-local-navigation p.title a:hover,
+.mobile-local-navigation section .content li a:hover,
+.mobile-local-navigation a.no-children:hover,
+.off-canvas-content a.no-children:hover,
+.user-account-control li:hover ul li a
+{
+   color: #D71635 !important;
+}
+.logo-wrapper {
+    background-color: #D71635;
+}
+</style></div>
+</div>
+
+</div>
+
+</header>
+
+<div class="pageContentWrapper">
+
+<div data-layout-row="primaryContent" class="row">
+
+<div data-layout-zone="primary" class="columns large-8 small-12">
+<div class=" dynamicPageContentItem TextWithImage" data-js-handlers="TextWithImage" data-cms-widget="TextWithImage" data-options="eyJoZWFkaW5nIjoiQ29udGFjdCIsImhlYWRpbmdUYWciOiJoMSIsInRleHQiOiIiLCJpbWFnZVBvc2l0aW9uIjoibGVmdCIsImltYWdlIjoiIiwibGlnaHRib3giOmZhbHNlLCJsaW5rIjpmYWxzZSwibGlua0hlYWRpbmciOmZhbHNlLCJwYW5lbCI6ZmFsc2UsImNhcHRpb24iOiIiLCJfY29udGV4dCI6Ind5Y2UifQ=="><h1>Contact</h1></div><div class=" dynamicPageContentItem Html" data-js-handlers="Html" data-cms-widget="Html" data-options="eyJodG1sIjoiPGlmcmFtZSBzcmM9XCJodHRwczpcL1wvd3d3Lmdvb2dsZS5jb21cL21hcHNcL2VtYmVkP3BiPSExbTE4ITFtMTIhMW0zITFkNTgzOC43NTkzNjQ5MTYyMzMhMmQtODUuNjg2NDY2NjEyNjY5NTMhM2Q0Mi45NzAyNzUwMDU3NjAxITJtMyExZjAhMmYwITNmMCEzbTIhMWkxMDI0ITJpNzY4ITRmMTMuMSEzbTMhMW0yITFzMHg4ODE5YWU3OGVjNTRhMmEzJTNBMHg3N2NmNjVmNGQxY2MwMmYyITJzNzExK0JyaWRnZStTdCtOVyE1ZTAhM20yITFzZW4hMnN1cyE0djEzOTMzNDgzNjE4OTdcIiBzdHlsZT1cImJvcmRlcjowXCIgZnJhbWVib3JkZXI9XCIwXCIgaGVpZ2h0PVwiMjUwXCIgd2lkdGg9XCIxMDAlXCI+PFwvaWZyYW1lPiIsIl9jb250ZXh0Ijoid3ljZSJ9"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5838.759364916233!2d-85.68646661266953!3d42.9702750057601!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8819ae78ec54a2a3%3A0x77cf65f4d1cc02f2!2s711+Bridge+St+NW!5e0!3m2!1sen!2sus!4v1393348361897" style="border:0" frameborder="0" height="250" width="100%"></iframe></div><div class=" dynamicPageContentItem TextWithImage" data-js-handlers="TextWithImage" data-cms-widget="TextWithImage" data-options="eyJoZWFkaW5nIjoiV1lDRSIsImhlYWRpbmdUYWciOiJoMiIsInRleHQiOiI8cD43MTEgQnJpZGdlIFN0cmVldCBOVzxiciBcLz5cbkdyYW5kIFJhcGlkcywgTUkgNDk1MDQ8XC9wPlxuXG48cD48ZW0+TWFpbiBvZmZpY2U6PFwvZW0+IDxhIGhyZWY9XCJ0ZWw6NjE2LTQ1OS00Nzg4XCI+NjE2LjQ1OS40Nzg4PFwvYT48YnIgXC8+XG48ZW0+RmF4OjxcL2VtPiA2MTYuNzQyLjA1OTk8XC9wPlxuXG48cD4mbmJzcDs8XC9wPlxuIiwiaW1hZ2VQb3NpdGlvbiI6ImxlZnQiLCJpbWFnZSI6IiIsImxpZ2h0Ym94IjpmYWxzZSwibGluayI6ZmFsc2UsImxpbmtIZWFkaW5nIjpmYWxzZSwicGFuZWwiOmZhbHNlLCJjYXB0aW9uIjoiIiwiX2NvbnRleHQiOiJ3eWNlIn0="><h2>WYCE</h2><p>711 Bridge Street NW<br />
+Grand Rapids, MI 49504</p>
+
+<p><em>Main office:</em> <a href="tel:616-459-4788">616.459.4788</a><br />
+<em>Fax:</em> 616.742.0599</p>
+
+<p>&nbsp;</p>
+</div><div class=" dynamicPageContentItem TextWithImage" data-js-handlers="TextWithImage" data-cms-widget="TextWithImage" data-options="eyJoZWFkaW5nIjoiUmVxdWVzdHMiLCJoZWFkaW5nVGFnIjoiaDIiLCJ0ZXh0IjoiPHA+PGVtPlN0dWRpbyBMaW5lOjxcL2VtPiA8YSBocmVmPVwidGVsOjYxNi03NDItOTkyM1wiPjYxNi03NDItOTkyMzxcL2E+PGJyIFwvPlxuICA8YSBocmVmPVwid3ljZVwvcmVxdWVzdFwiPk9ubGluZSByZXF1ZXN0IGZvcm08XC9hPjxcL3A+XG4iLCJpbWFnZVBvc2l0aW9uIjoibGVmdCIsImltYWdlIjoiIiwibGlnaHRib3giOiIwIiwibGluayI6IiIsImxpbmtIZWFkaW5nIjoiMCIsInBhbmVsIjoiMCIsImNhcHRpb24iOiIiLCJfY29udGV4dCI6Ind5Y2UifQ=="><h2>Requests</h2><p><em>Studio Line:</em> <a href="tel:616-742-9923">616-742-9923</a><br />
+  <a href="wyce/request">Online request form</a></p>
+</div>
+</div>
+
+<div data-layout-zone="sidebar" class="columns large-4 small-12">
+
+</div>
+
+</div>
+
+</div>
+
+<footer class="main_footer">
+
+<div data-layout-row="footer" class="row">
+
+<div data-layout-zone="footer" class="columns large-3 small-12">
+<div class=" dynamicPageContentItem Html" data-js-handlers="Html" data-cms-widget="Html" data-options="eyJodG1sIjoiPGlmcmFtZSBzcmM9XCJodHRwczpcL1wvd3d3Lmdvb2dsZS5jb21cL21hcHNcL2VtYmVkP3BiPSExbTE4ITFtMTIhMW0zITFkNTgzOC43NTkzNjQ5MTYyMzMhMmQtODUuNjg2NDY2NjEyNjY5NTMhM2Q0Mi45NzAyNzUwMDU3NjAxITJtMyExZjAhMmYwITNmMCEzbTIhMWkxMDI0ITJpNzY4ITRmMTMuMSEzbTMhMW0yITFzMHg4ODE5YWU3OGVjNTRhMmEzJTNBMHg3N2NmNjVmNGQxY2MwMmYyITJzNzExK0JyaWRnZStTdCtOVyE1ZTAhM20yITFzZW4hMnN1cyE0djEzOTMzNDgzNjE4OTdcIiBzdHlsZT1cImJvcmRlcjowXCIgZnJhbWVib3JkZXI9XCIwXCIgaGVpZ2h0PVwiMTUwXCIgd2lkdGg9XCIxMDAlXCI+PFwvaWZyYW1lPiIsIl9jb250ZXh0Ijoid3ljZSJ9"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5838.759364916233!2d-85.68646661266953!3d42.9702750057601!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8819ae78ec54a2a3%3A0x77cf65f4d1cc02f2!2s711+Bridge+St+NW!5e0!3m2!1sen!2sus!4v1393348361897" style="border:0" frameborder="0" height="150" width="100%"></iframe></div>
+</div>
+
+<div data-layout-zone="footer2" class="columns large-3 small-12">
+<div class=" dynamicPageContentItem TextWithImage" data-js-handlers="TextWithImage" data-cms-widget="TextWithImage" data-options="eyJoZWFkaW5nIjoiODguMUZNIFdZQ0UiLCJoZWFkaW5nVGFnIjoiaDUiLCJ0ZXh0IjoiPHA+NzExIEJyaWRnZSBTdHJlZXQgTlc8YnIgXC8+XG5HcmFuZCBSYXBpZHMsIE1JIDQ5NTA0PFwvcD5cblxuPHA+TWFpbiBvZmZpY2U6Jm5ic3A7PGEgaHJlZj1cInRlbDo2MTYtNDU5LTQ3ODhcIj42MTYuNDU5LjQ3ODg8XC9hPjxiciBcLz5cbjxlbT5GYXg6PFwvZW0+Jm5ic3A7NjE2Ljc0Mi4wNTk5PFwvcD5cbiIsImltYWdlUG9zaXRpb24iOiJsZWZ0IiwiaW1hZ2UiOiIiLCJsaWdodGJveCI6IjAiLCJsaW5rIjoiIiwibGlua0hlYWRpbmciOiIwIiwicGFuZWwiOiIwIiwiY2FwdGlvbiI6IiIsIl9jb250ZXh0Ijoid3ljZSJ9"><h5>88.1FM WYCE</h5><p>711 Bridge Street NW<br />
+Grand Rapids, MI 49504</p>
+
+<p>Main office:&nbsp;<a href="tel:616-459-4788">616.459.4788</a><br />
+<em>Fax:</em>&nbsp;616.742.0599</p>
+</div>
+</div>
+
+<div data-layout-zone="footer3" class="columns large-3 small-12">
+<div class=" dynamicPageContentItem TextWithImage" data-js-handlers="TextWithImage" data-cms-widget="TextWithImage" data-options="eyJoZWFkaW5nIjoiUmVxdWVzdHMiLCJoZWFkaW5nVGFnIjoiaDUiLCJ0ZXh0IjoiPHA+U3R1ZGlvIExpbmU6Jm5ic3A7PGEgaHJlZj1cInRlbDo2MTYtNzQyLTk5MjNcIj42MTYtNzQyLTk5MjM8XC9hPjxiciBcLz5cbjxhIGhyZWY9XCJ3eWNlXC9yZXF1ZXN0XCI+T25saW5lIHJlcXVlc3QgZm9ybTxcL2E+PFwvcD5cbiIsImltYWdlUG9zaXRpb24iOiJsZWZ0IiwiaW1hZ2UiOiIiLCJsaWdodGJveCI6IjAiLCJsaW5rIjoiIiwibGlua0hlYWRpbmciOiIwIiwicGFuZWwiOiIwIiwiY2FwdGlvbiI6IiIsIl9jb250ZXh0Ijoid3ljZSJ9"><h5>Requests</h5><p>Studio Line:&nbsp;<a href="tel:616-742-9923">616-742-9923</a><br />
+<a href="wyce/request">Online request form</a></p>
+</div>
+</div>
+
+<div data-layout-zone="footer4" class="columns large-3 small-12">
+<div class=" dynamicPageContentItem Html" data-js-handlers="Html" data-cms-widget="Html" data-options="eyJodG1sIjoiPGEgaHJlZj1cInd5Y2VcL3N1cHBvcnRcIiBjbGFzcz1cInBhZ2UtdG9wLXN1cHBvcnQgcm91bmRcIj5Eb25hdGUgPGkgY2xhc3M9XCJmaS1oZWFydFwiPjxcL2k+PFwvYT4iLCJfY29udGV4dCI6Ind5Y2UifQ=="><a href="wyce/support" class="page-top-support round">Donate <i class="fi-heart"></i></a></div><div class=" dynamicPageContentItem SocialMedia" data-js-handlers="SocialMedia" data-cms-widget="SocialMedia" data-options="eyJibG9ja3MiOiIxIiwibmV0d29ya3MiOnsiZmFjZWJvb2siOiJodHRwOlwvXC9mYWNlYm9vay5jb21cL3d5Y2VyYWRpbyIsInR3aXR0ZXIiOiJodHRwOlwvXC90d2l0dGVyLmNvbVwvd3ljZXJhZGlvIiwieW91dHViZSI6IiIsInZpbWVvIjoiIiwiZ29vZ2xlLXBsdXMiOiIiLCJ0dW1ibHIiOiJodHRwOlwvXC93eWNlcmFkaW8udHVtYmxyLmNvbVwvIiwiZmxpY2tyIjoiIiwibXlzcGFjZSI6IiIsImZvdXJzcXVhcmUiOiIiLCJpbnN0YWdyYW0iOiJodHRwOlwvXC9pbnN0YWdyYW0uY29tXC93eWNlcmFkaW8ifSwiaGVhZGluZyI6IiIsImhlYWRpbmdUYWciOiJoMSIsInRleHQiOiIiLCJfY29udGV4dCI6Ind5Y2UifQ=="><a target="_new" href="//facebook.com/wyceradio" class="oneSocialBanner facebook inline">
+	<i class="fi-social-facebook"></i>
+</a><a target="_new" href="//twitter.com/wyceradio" class="oneSocialBanner twitter inline">
+	<i class="fi-social-twitter"></i>
+</a><a target="_new" href="//wyceradio.tumblr.com/" class="oneSocialBanner tumblr inline">
+	<i class="fi-social-tumblr"></i>
+</a><a target="_new" href="//instagram.com/wyceradio" class="oneSocialBanner instagram inline">
+	<i class="fi-social-instagram"></i>
+</a></div>
+</div>
+
+</div>
+
+</footer>
+
+<div data-layout-row="common" class="row">
+
+<div data-layout-zone="common" class="columns large-12 small-12">
+<div class=" dynamicPageContentItem Developer" data-js-handlers="Developer" data-cms-widget="Developer" data-options="eyJfY29udGV4dCI6Ind5Y2UifQ=="></div><div class=" dynamicPageContentItem Developer" data-js-handlers="Developer" data-cms-widget="Developer" data-options="eyJfY29udGV4dCI6Ind5Y2UifQ=="></div><div class=" dynamicPageContentItem Shopping" data-js-handlers="Shopping" data-cms-widget="Shopping" data-options="eyJfY29udGV4dCI6Ind5Y2UifQ=="><div style="display:none;" id="ShoppingWrapper">
+	<div class="closer"><i class="fi-x"></i></div>
+    <div class="totalWrapper"><i class="medium-icon cartIcon fi-shopping-cart"></i> <span class="total"></span></div>
+    <div class="item-count"></div>
+    <a href="cart" class="button shopping-cart-checkout-button">checkout</a>
+    <button class="shopping-cart-clear-button">clear</button>
+</div></div><div class="Developer" data-js-handlers="Developer" data-cms-widget="Developer" data-options="eyJfY29udGV4dCI6Ind5Y2UifQ=="></div>
+</div>
+
+</div>
+<!-- page css --><style></style><!-- page javascript --><script type="text/javascript"></script>
+				<script>
+				var fbInitInterval = false;
+				function fbInitCheck() {
+					if (typeof FB == "undefined" || typeof FB.init == "undefined") {
+						return true;
+					}
+					clearInterval(fbInitInterval);
+					FB.init({
+						appId   : "240073652764651",
+						cookie  : true,
+						version : "v2.5"
+					});
+				}
+				$(document).ready(function () {
+					fbInitInterval = setInterval(fbInitCheck, 1000);
+				});
+				</script>
+			
+				<script type="text/javascript">
+					Application.ready(function () {
+						// set up Google analytics
+						(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+						(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+						m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+						})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+						$(document).ready(function () {
+							ga('create', 'UA-22691442-1', 'auto');
+							ga('send', 'pageview');
+						});
+					});
+				</script>
+								<script src="https://grcmc.org/resourceCache.php?javascript=js/vendor/modernizr.js,js/vendor/jquery-ui.js,js/foundation/foundation.js,js/foundation/foundation.abide.js,js/foundation/foundation.accordion.js,js/foundation/foundation.alert.js,js/foundation/foundation.clearing.js,js/foundation/foundation.dropdown.js,js/foundation/foundation.equalizer.js,js/foundation/foundation.interchange.js,js/foundation/foundation.joyride.js,js/foundation/foundation.magellan.js,js/foundation/foundation.offcanvas.js,js/foundation/foundation.orbit.js,js/foundation/foundation.reveal.js,js/foundation/foundation.slider.js,js/foundation/foundation.tab.js,js/foundation/foundation.tooltip.js,js/foundation/foundation.topbar.js,js/foundation/jquery.cookie.js,js/vendor/jquery.cookie.js,js/vendor/placeholder.js,js/vendor/dropzone.js,js/vendor/select2.jquery.js,js/vendor/jquery-timepicker.js,js/vendor/jquery.form.js,js/vendor/ckeditor/ckeditor.js,js/custom/general.js,js/vendor/jquery.dataTables.min.js,.js&mt=1535364716" type="text/javascript" charset="utf-8" defer="defer" ></script>
+			</body>
+</html>

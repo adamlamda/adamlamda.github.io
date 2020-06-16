@@ -1,0 +1,994 @@
+<!DOCTYPE HTML><html lang="en-US" xmlns:og="http://ogp.me/ns#" xmlns:fb="http://ogp.me/ns/fb#">
+
+<head>
+<meta charset="UTF-8" />
+<link rel="profile" href="http://gmpg.org/xfn/11" />
+
+<!-- Title -->
+<title>Station Information | WGKX-FM</title><link rel='dns-prefetch' href='//www.kix106.com' />
+<link rel='dns-prefetch' href='//see-p-elb-01.tritondigital.net' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="canonical" href="http://www.kix106.com/station-information/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.3\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.3\/svg\/","svgExt":".svg","source":{"wpemoji":"http:\/\/www.kix106.com\/wp-includes\/js\/wp-emoji.js?ver=4.9.1","twemoji":"http:\/\/www.kix106.com\/wp-includes\/js\/twemoji.js?ver=4.9.1"}};
+			( function( window, document, settings ) {
+	var src, ready, ii, tests;
+
+	/*
+	 * Create a canvas element for testing native browser support
+	 * of emoji.
+	 */
+	var canvas = document.createElement( 'canvas' );
+	var context = canvas.getContext && canvas.getContext( '2d' );
+
+	/**
+	 * Check if two sets of Emoji characters render the same.
+	 *
+	 * @param set1 array Set of Emoji characters.
+	 * @param set2 array Set of Emoji characters.
+	 * @returns {boolean} True if the two sets render the same.
+	 */
+	function emojiSetsRenderIdentically( set1, set2 ) {
+		var stringFromCharCode = String.fromCharCode;
+
+		// Cleanup from previous test.
+		context.clearRect( 0, 0, canvas.width, canvas.height );
+		context.fillText( stringFromCharCode.apply( this, set1 ), 0, 0 );
+		var rendered1 = canvas.toDataURL();
+
+		// Cleanup from previous test.
+		context.clearRect( 0, 0, canvas.width, canvas.height );
+		context.fillText( stringFromCharCode.apply( this, set2 ), 0, 0 );
+		var rendered2 = canvas.toDataURL();
+
+		return rendered1 === rendered2;
+	}
+
+	/**
+	 * Detect if the browser supports rendering emoji or flag emoji. Flag emoji are a single glyph
+	 * made of two characters, so some browsers (notably, Firefox OS X) don't support them.
+	 *
+	 * @since 4.2.0
+	 *
+	 * @param type {String} Whether to test for support of "flag" or "emoji".
+	 * @return {Boolean} True if the browser can render emoji, false if it cannot.
+	 */
+	function browserSupportsEmoji( type ) {
+		var isIdentical;
+
+		if ( ! context || ! context.fillText ) {
+			return false;
+		}
+
+		/*
+		 * Chrome on OS X added native emoji rendering in M41. Unfortunately,
+		 * it doesn't work when the font is bolder than 500 weight. So, we
+		 * check for bold rendering support to avoid invisible emoji in Chrome.
+		 */
+		context.textBaseline = 'top';
+		context.font = '600 32px Arial';
+
+		switch ( type ) {
+			case 'flag':
+				/*
+				 * Test for UN flag compatibility. This is the least supported of the letter locale flags,
+				 * so gives us an easy test for full support.
+				 *
+				 * To test for support, we try to render it, and compare the rendering to how it would look if
+				 * the browser doesn't render it correctly ([U] + [N]).
+				 */
+				isIdentical = emojiSetsRenderIdentically(
+					[ 55356, 56826, 55356, 56819 ],
+					[ 55356, 56826, 8203, 55356, 56819 ]
+				);
+
+				if ( isIdentical ) {
+					return false;
+				}
+
+				/*
+				 * Test for English flag compatibility. England is a country in the United Kingdom, it
+				 * does not have a two letter locale code but rather an five letter sub-division code.
+				 *
+				 * To test for support, we try to render it, and compare the rendering to how it would look if
+				 * the browser doesn't render it correctly (black flag emoji + [G] + [B] + [E] + [N] + [G]).
+				 */
+				isIdentical = emojiSetsRenderIdentically(
+					[ 55356, 57332, 56128, 56423, 56128, 56418, 56128, 56421, 56128, 56430, 56128, 56423, 56128, 56447 ],
+					[ 55356, 57332, 8203, 56128, 56423, 8203, 56128, 56418, 8203, 56128, 56421, 8203, 56128, 56430, 8203, 56128, 56423, 8203, 56128, 56447 ]
+				);
+
+				return ! isIdentical;
+			case 'emoji':
+				/*
+				 * Emoji 5 has fairies of all genders.
+				 *
+				 * To test for support, try to render a new emoji (fairy, male), then compares
+				 * it to how it would look if the browser doesn't render it correctly
+				 * (fairy + male sign).
+				 */
+				isIdentical = emojiSetsRenderIdentically(
+					[ 55358, 56794, 8205, 9794, 65039 ],
+					[ 55358, 56794, 8203, 9794, 65039 ]
+				);
+				return ! isIdentical;
+		}
+
+		return false;
+	}
+
+	function addScript( src ) {
+		var script = document.createElement( 'script' );
+
+		script.src = src;
+		script.defer = script.type = 'text/javascript';
+		document.getElementsByTagName( 'head' )[0].appendChild( script );
+	}
+
+	tests = Array( 'flag', 'emoji' );
+
+	settings.supports = {
+		everything: true,
+		everythingExceptFlag: true
+	};
+
+	for( ii = 0; ii < tests.length; ii++ ) {
+		settings.supports[ tests[ ii ] ] = browserSupportsEmoji( tests[ ii ] );
+
+		settings.supports.everything = settings.supports.everything && settings.supports[ tests[ ii ] ];
+
+		if ( 'flag' !== tests[ ii ] ) {
+			settings.supports.everythingExceptFlag = settings.supports.everythingExceptFlag && settings.supports[ tests[ ii ] ];
+		}
+	}
+
+	settings.supports.everythingExceptFlag = settings.supports.everythingExceptFlag && ! settings.supports.flag;
+
+	settings.DOMReady = false;
+	settings.readyCallback = function() {
+		settings.DOMReady = true;
+	};
+
+	if ( ! settings.supports.everything ) {
+		ready = function() {
+			settings.readyCallback();
+		};
+
+		if ( document.addEventListener ) {
+			document.addEventListener( 'DOMContentLoaded', ready, false );
+			window.addEventListener( 'load', ready, false );
+		} else {
+			window.attachEvent( 'onload', ready );
+			document.attachEvent( 'onreadystatechange', function() {
+				if ( 'complete' === document.readyState ) {
+					settings.readyCallback();
+				}
+			} );
+		}
+
+		src = settings.source || {};
+
+		if ( src.concatemoji ) {
+			addScript( src.concatemoji );
+		} else if ( src.wpemoji && src.twemoji ) {
+			addScript( src.twemoji );
+			addScript( src.wpemoji );
+		}
+	}
+
+} )( window, document, window._wpemojiSettings );
+		</script>
+		<script id="amp-minify-js-header">
+var themify_vars = {"version":"2.1.8","url":"http:\/\/www.kix106.com\/wp-content\/plugins\/themify-builder\/themify","map_key":null,"includesURL":"http:\/\/www.kix106.com\/wp-includes\/","isCached":null,"minify":{"css":{"themify-icons":false,"themify.framework":false,"lightbox":false,"themify-builder-style":false},"js":{"backstretch.themify-version":false,"bigvideo":false,"themify.dropdown":false,"themify.builder.script":false,"themify.scroll-highlight":false,"themify-youtube-bg":false,"themify.parallaxit":false,"themify.ticks":false}}};
+var tbLocalScript = {"isAnimationActive":"1","isParallaxActive":"1","isParallaxScrollActive":"1","animationInviewSelectors":[".module.wow",".module_row.wow",".builder-posts-wrap > .post.wow"],"backgroundSlider":{"autoplay":5000,"speed":2000},"animationOffset":"100","videoPoster":"http:\/\/www.kix106.com\/wp-content\/plugins\/themify-builder\/img\/blank.png","backgroundVideoLoop":"yes","builder_url":"http:\/\/www.kix106.com\/wp-content\/plugins\/themify-builder","framework_url":"http:\/\/www.kix106.com\/wp-content\/plugins\/themify-builder\/themify","version":"2.1.8","fullwidth_support":"","fullwidth_container":"body","loadScrollHighlight":"","addons":[],"breakpoints":{"tablet_landscape":[769,1024],"tablet":[681,768],"mobile":680},"ticks":{"tick":30,"ajaxurl":"http:\/\/www.kix106.com\/wp-admin\/admin-ajax.php","postID":95}};
+var themifyScript = {"lightbox":{"lightboxSelector":".themify_lightbox","lightboxOn":true,"lightboxContentImages":false,"lightboxContentImagesSelector":"","theme":"pp_default","social_tools":false,"allow_resize":true,"show_title":false,"overlay_gallery":false,"screenWidthNoLightbox":600,"deeplinking":false,"contentImagesAreas":"","gallerySelector":".gallery-icon > a","lightboxGalleryOn":true},"lightboxContext":"body"};
+var tbScrollHighlight = {"fixedHeaderSelector":"","speed":"900","navigation":"#main-nav","scrollOffset":"0"};
+var _ampconfig = {"site_url":"http:\/\/www.kix106.com","site_id":"951","tz":"America\/Chicago","tz_offset":"-5","ts":"1533183780","blog_name":"WGKX-FM","client_name":"cumuluspro","user_ID":"","ts_offset":"1535347720","version":"2.47.0.3","env":"prod","settings":{"tenant_id":"see_10630","syn_site_name":"WGKX-FM","selector_logo":false,"selector_masthead":false,"selector_nav":false,"selector_rotator":false,"default_show_name":false,"default_show_img":false,"gtm_id":false,"vidible_company_key":"06125e55709b3c4ffdfe3c3f8a9ed8bd","client_name":false,"nielsen_provider":"cumulus","promoreel_priority":true}};
+var dates = {"start_of_week":"1","moment_date_format":"MMMM D, YYYY","moment_time_format":"h:mm a","calendar_date_format":"MMMM d, yyyy","calendar_time_format":"h:mm tt","date_format":"MM d, yy","time_format":"h:mm tt"};
+var _amplistenlive = {"blog_id":"951","callsign":"","mount_name":"WGKXFM","provider":"stream_the_world","gmt_offset":"-18000"};
+
+</script>
+
+
+<!-- Stylesheets -->
+<link rel='stylesheet' id='headway-google-fonts' href='//fonts.googleapis.com/css?family=Oswald' type='text/css' media='all' />
+<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='amp-minify-css-header-css'  href='http://www.kix106.com/wp-content/uploads/amp-minify/1479154842.951.header.css' type='text/css' media='all' />
+<link rel='stylesheet' id='headway-general-css'  href='http://www.kix106.com/wp-content/uploads/sites/951/headway/cache/general-8b4a3a7.css?ver=4.9.1' type='text/css' media='all' />
+<link rel='stylesheet' id='headway-layout-single-css'  href='http://www.kix106.com/wp-content/uploads/sites/951/headway/cache/layout-single-0290ca6.css?ver=4.9.1' type='text/css' media='all' />
+<link rel='stylesheet' id='headway-responsive-grid-css'  href='http://www.kix106.com/wp-content/uploads/sites/951/headway/cache/responsive-grid-d2119e4.css?ver=4.9.1' type='text/css' media='all' />
+<meta name="builder-styles-css" content="" id="builder-styles-css">
+<link rel="stylesheet" type="text/css" media="all" href="http://www.kix106.com/wp-content/themes/Headway-AMP_CMS/style.css" />
+
+<!-- Scripts -->
+<script type='text/javascript' src='http://www.kix106.com/wp-content/uploads/amp-minify/1479154842.951.header.js'></script>
+<script type='text/javascript' src='http://www.kix106.com/wp-includes/js/jquery/jquery-migrate.js?ver=1.4.1'></script>
+<script type='text/javascript' src='http://www.kix106.com/wp-content/uploads/sites/951/headway/cache/block-dynamic-js-layout-single-769a883.js?ver=4.9.1'></script>
+<script type='text/javascript' src='http://www.kix106.com/wp-content/uploads/sites/951/headway/cache/responsive-grid-js-e6e6939.js?ver=4.9.1'></script>
+<script type='text/javascript' src='//see-p-elb-01.tritondigital.net/widget/see_10630/see.js?ver=1.3.0'></script>
+
+<!--[if lt IE 9]>
+<script src="http://www.kix106.com/wp-content/themes/headway/library/media/js/html5shiv.js"></script>
+<![endif]-->
+
+<!--[if lt IE 8]>
+<script src="http://www.kix106.com/wp-content/themes/headway/library/media/js/ie8.js"></script>
+<![endif]-->
+
+<script type='text/javascript'>
+var googletag = googletag || {};
+googletag.cmd = googletag.cmd || [];
+(function() {
+var gads = document.createElement('script');
+gads.async = true;
+gads.type = 'text/javascript';
+var useSSL = 'https:' == document.location.protocol;
+gads.src = (useSSL ? 'https:' : 'http:') + 
+'//www.googletagservices.com/tag/js/gpt.js';
+var node = document.getElementsByTagName('script')[0];
+node.parentNode.insertBefore(gads, node);
+})();
+</script>
+<script type='text/javascript'>
+googletag.cmd.push(function() {
+
+var leaderboardSizeMap = googletag.sizeMapping()
+ .addSize([970, 0], [[728, 90], [970, 90]])
+ .addSize([750,0], [728,90])
+ .addSize([0, 0], [[320, 50], [320, 53]])
+ .build();
+
+googletag.defineSlot('/6717/cd.WGKX.FM', [[300, 250], [300, 600]], 'div-gpt-ad-1418849849333-0').addService(googletag.pubads())
+.setCollapseEmptyDiv(true).setTargeting("pos","mid");
+googletag.defineSlot('/6717/cd.WGKX.FM', [[728, 90], [970, 90]], 'div-gpt-ad-1418849849333-1').addService(googletag.pubads())
+.defineSizeMapping(leaderboardSizeMap).setCollapseEmptyDiv(true).setTargeting("pos","top");
+googletag.defineSlot('/6717/cd.WGKX.FM', [[728, 90], [970, 90]], 'div-gpt-ad-1418849849333-2').addService(googletag.pubads())
+.defineSizeMapping(leaderboardSizeMap).setCollapseEmptyDiv(true).setTargeting("pos","bot");
+googletag.defineSlot('/6717/cd.WGKX.FM', [[300, 250], [300, 600]], 'div-gpt-ad-1418849849333-3').addService(googletag.pubads())
+.setCollapseEmptyDiv(true).setTargeting("pos","mid2");
+googletag.defineSlot('/6717/cd.WGKX.FM', [[160, 600]], 'div-gpt-ad-1418849849333-4').addService(googletag.pubads())
+.setCollapseEmptyDiv(true).setTargeting("pos","left");
+googletag.defineSlot('/6717/cd.WGKX.FM', [[160, 600]], 'div-gpt-ad-1418849849333-5').addService(googletag.pubads())
+.setCollapseEmptyDiv(true).setTargeting("pos","right");
+googletag.defineSlot('/6717/cd.WGKX.FM', [[654, 70]], 'div-gpt-ad-1418849849333-6').addService(googletag.pubads())
+.setCollapseEmptyDiv(true).setTargeting("pos","rdioplayer");
+googletag.defineSlot('/6717/cd.WGKX.FM', [[300, 100]], 'div-gpt-ad-1418849849333-7').addService(googletag.pubads())
+.setCollapseEmptyDiv(true).setTargeting("pos","contest1");
+googletag.defineSlot('/6717/cd.WGKX.FM', [[300, 100]], 'div-gpt-ad-1418849849333-8').addService(googletag.pubads())
+.setCollapseEmptyDiv(true).setTargeting("pos","contest2");
+googletag.defineSlot('/6717/cd.WGKX.FM', [[300, 100]], 'div-gpt-ad-1418849849333-9').addService(googletag.pubads())
+.setCollapseEmptyDiv(true).setTargeting("pos","contest3");
+googletag.defineSlot('/6717/cd.WGKX.FM', [[100, 51]], 'div-gpt-ad-1418849849333-10').addService(googletag.pubads())
+.setCollapseEmptyDiv(true).setTargeting("pos","rdiobutton");
+googletag.defineSlot('/6717/cd.WGKX.FM', [[113, 23]], 'div-gpt-ad-1418849849333-11').addService(googletag.pubads())
+.setCollapseEmptyDiv(true).setTargeting("pos","feedsponsor1");
+googletag.defineSlot('/6717/cd.WGKX.FM', [[113, 23]], 'div-gpt-ad-1418849849333-12').addService(googletag.pubads())
+.setCollapseEmptyDiv(true).setTargeting("pos","feedsponsor2");
+googletag.defineSlot('/6717/cd.WGKX.FM', [[113, 23]], 'div-gpt-ad-1418849849333-13').addService(googletag.pubads())
+.setCollapseEmptyDiv(true).setTargeting("pos","feedsponsor3");
+googletag.defineSlot('/6717/cd.WGKX.FM', [[113, 23]], 'div-gpt-ad-1418849849333-14').addService(googletag.pubads())
+.setCollapseEmptyDiv(true).setTargeting("pos","feedsponsor4");
+googletag.defineSlot('/6717/cd.WGKX.FM', [[1, 1]],'div-gpt-ad-1418849849333-16').addService(googletag.pubads())
+.setTargeting("pos","wallpaper-ad");
+googletag.pubads().enableSingleRequest();
+googletag.enableServices();
+googletag.defineSlot('/6717/cd.WGKX.FM', [[300, 250], [300, 600]], 'div-gpt-ad-1418849849333-18').setCollapseEmptyDiv(true).addService(googletag.pubads())
+.setTargeting("pos","midresponsive");
+});
+</script>
+
+<!--ONESTAT SCRIPTCODE START Embed Player-->
+  <script type="text/javascript">
+  <!--
+  jQuery(document).ready(function(){
+    var d=document;
+    var sid="wgkx-fm.cumulus";
+    var CONTENTSECTION="";
+    var osp_URL=d.URL;
+    var osp_Title=d.title;
+    var t=new Date();
+    var p="http"+(d.URL.indexOf('https:')==0?'s':'')+"://stat.onestat.com/stat.aspx?tagver=2&sid="+sid;
+    p+="&url="+escape(osp_URL);
+    p+="&ti="+escape(osp_Title);
+    p+="&section="+escape(CONTENTSECTION);
+    p+="&rf="+escape(parent==self?document.referrer:top.document.referrer);
+    p+="&tz="+escape(t.getTimezoneOffset());
+    p+="&ch="+escape(t.getHours());
+    p+="&js=1";
+    p+="&ul="+escape(navigator.appName=="Netscape"?navigator.language:navigator.userLanguage);
+    if(osp_URL!=d.URL) p+="&ol="+escape(d.URL);
+    if(typeof(screen)=="object"){
+       p+="&sr="+screen.width+"x"+screen.height;p+="&cd="+screen.colorDepth;
+       p+="&jo="+(navigator.javaEnabled()?"Yes":"No");
+    }
+
+    var imgTag = '<img border="0" height="0" width="0" id="ONESTAT_TAG" src="' + p + '">'
+    jQuery('body').append(imgTag);
+
+  })
+  //-->
+  </script> 
+<!--ONESTAT SCRIPTCODE END-->
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','corpDataLayer','GTM-5Q7P7M');</script>
+<!-- End Google Tag Manager -->
+
+<!-- BEGIN INFINITE FACEBOOK PIXEL -->
+<script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '181461212508101');
+  fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=181461212508101&ev=PageView&noscript=1"
+/></noscript>
+<!-- END INFINITE FACEBOOK PIXEL -->
+<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
+<link rel="alternate" type="application/rss+xml" title="WGKX-FM &raquo; Feed" href="http://www.kix106.com/feed/" />
+<link rel='shortlink' href='http://www.kix106.com/?p=95' />
+<script type="text/javascript">var ajaxurl = "http://www.kix106.com/wp-admin/admin-ajax.php"</script><script type="text/javascript">var ajaxurl = "http://www.kix106.com/wp-admin/admin-ajax.php"</script>
+<!-- AMP CMS DFP custom tags -->
+<script type='text/javascript'>
+  googletag.cmd.push(function() {
+      googletag.pubads().setTargeting('cms-sname', 'WGKXFM');
+      googletag.pubads().setTargeting('cms-sgroup', ['All Sites', 'Format  Country', 'Market  Memphis TN', 'Format Country New']);
+      googletag.pubads().setTargeting('cms-ptitle', 'Station Information');
+  });
+</script>
+
+<!-- START - Facebook Open Graph, Google+ and Twitter Card Tags 2.0.4 -->
+ <!-- Facebook Open Graph -->
+  <meta property="og:locale" content="en_US"/>
+  <meta property="og:site_name" content="WGKX-FM"/>
+  <meta property="og:title" content="Station Information"/>
+  <meta property="og:url" content="http://www.kix106.com/station-information/"/>
+  <meta property="og:type" content="article"/>
+  <meta property="og:description" content="Prize Pick-Up:
+8:30am - 5:30pm
+*see holiday schedule below
+
+Mailing Address:
+KIX 106 (WGKX-FM)
+Cumulus Memphis
+5629 Murray Road
+Memphis, TN 38119
+
+Request/Contest Line
+901-541-2106
+
+Front Desk:
+901-682-1106
+
+Advertising:
+Morgan Bohannon
+
+EEO
+
+
+*Holiday Schedule:
+OFFICE CLOSED"/>
+ <!-- Google+ / Schema.org -->
+  <meta itemprop="name" content="Station Information"/>
+  <meta itemprop="description" content="Prize Pick-Up:
+8:30am - 5:30pm
+*see holiday schedule below
+
+Mailing Address:
+KIX 106 (WGKX-FM)
+Cumulus Memphis
+5629 Murray Road
+Memphis, TN 38119
+
+Request/Contest Line
+901-541-2106
+
+Front Desk:
+901-682-1106
+
+Advertising:
+Morgan Bohannon
+
+EEO
+
+
+*Holiday Schedule:
+OFFICE CLOSED"/>
+ <!-- Twitter Cards -->
+  <meta name="twitter:title" content="Station Information"/>
+  <meta name="twitter:url" content="http://www.kix106.com/station-information/"/>
+  <meta name="twitter:description" content="Prize Pick-Up:
+8:30am - 5:30pm
+*see holiday schedule below
+
+Mailing Address:
+KIX 106 (WGKX-FM)
+Cumulus Memphis
+5629 Murray Road
+Memphis, TN 38119
+
+Request/Contest Line
+901-541-2106
+
+Front Desk:
+901-682-1106
+
+Advertising:
+Morgan Bohannon
+
+EEO
+
+
+*Holiday Schedule:
+OFFICE CLOSED"/>
+  <meta name="twitter:card" content="summary_large_image"/>
+ <!-- SEO -->
+ <!-- Misc. tags -->
+<!-- END - Facebook Open Graph, Google+ and Twitter Card Tags 2.0.4 -->
+
+
+</head><!-- End <head> -->
+
+<body class="page-template-default page page-id-95 custom responsive-grid-enabled responsive-grid-active pageid-95 page-slug-station-information layout-single-page-95 layout-using-single builder-parallax-scrolling-active" itemscope itemtype="http://schema.org/WebPage">
+
+
+<div id="whitewrap">
+
+
+<div id="wrapper-48" class="wrapper wrapper-fluid wrapper-fixed-grid grid-fluid-24-32-10 responsive-grid wrapper-mirroring-8 wrapper-first wrapper-header" data-alias="Wrapper Header">
+
+<div class="grid-container clearfix">
+
+<section class="row row-1">
+
+<section class="column column-1 grid-left-0 grid-width-24">
+<div id="block-27" class="block block-type-custom-code block-fluid-height" data-alias="728x90 Leaderboard Ad">
+<div class="block-content">
+<div align="center">
+<div id='div-gpt-ad-1418849849333-1'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1418849849333-1'); });
+</script>
+</div>    
+</div>
+</div><!-- .block-content -->
+
+</div><!-- #block-27 -->
+
+</section><!-- .column -->
+
+</section><!-- .row -->
+
+
+<section class="row row-2">
+
+<section class="column column-1 grid-left-0 grid-width-6">
+<figure id="block-31" class="logo block block-type-image block-fixed-height" data-alias="Logo" itemscope="" itemtype="http://schema.org/ImageObject">
+<div class="block-content">
+<a href="/" class="image" ><img src="http://cumulus.pro.poolb.tritondigitalcms.com/wgkx-fm/wp-content/uploads/sites/951/2015/05/site-logo.png" alt="" title="" itemprop="contentURL"/></a>
+</div><!-- .block-content -->
+
+</figure><!-- #block-31 -->
+
+</section><!-- .column -->
+
+<section class="column column-2 grid-left-0 grid-width-18">
+
+<section class="sub-column sub-column-1 column column-1 grid-width-6 grid-left-0">
+<aside id="block-29" class="on-air block block-type-widget-area block-fluid-height" data-alias="Home - On Air Now" itemscope="" itemtype="http://schema.org/WPSideBar">
+<div class="block-content">
+<ul class="widget-area"><div class="amp-onair-widget" id="amp_onair_widget-2"
+	data-title-now=""
+	data-title-upcoming=""
+	data-title=""
+	data-type="nowplaying"
+	data-change-minutes="5"
+	data-change="0"
+	data-toggle-time="10"
+	data-fields="image,timeslot"
+	data-ajaxurl="http://www.kix106.com/wp-admin/admin-ajax.php"
+	data-updateurl="http://www.kix106.com/shows/feed/?type=json"
+	data-memcached="1"
+	data-expiration="1535364000">
+	
+<div class="amp-onair-show nowplaying" >
+
+    <div class="amp-onair-widget-title js-widget-title"></div>
+
+        <div class="amp-onair-show-image">
+                    <img class="js-image amp-onair-show-image-img" src="http://www.kix106.com/wp-content/uploads/sites/951/2015/05/41-DnAthumb.jpg"  />
+            </div>
+        
+    <div class="amp-onair-show-title">
+            <span class="js-title">Duane and Abby </span>
+        </div>
+    
+        <div class="amp-onair-show-timeslot js-timeslot" >5:00 a.m. - 10:00 a.m.</div>
+        
+        
+    
+</div>
+</div></ul>
+</div><!-- .block-content -->
+
+</aside><!-- #block-29 -->
+
+</section><!-- .sub-column -->
+
+<section class="sub-column sub-column-2 column column-2 grid-width-9 grid-left-0">
+<section id="block-30" class="social-nav block block-type-social block-fixed-height" data-alias="Social Navigation">
+<div class="block-content">
+<div class="social-icons-container"><ul class="social-icons"><li><a href="#"><img src="http://www.kix106.com/wp-content/uploads/sites/951/2016/02/listen-live.png" title="Listen Live!!" class="img-1"  /></a></li><li><a href="/listen-live-with-alexa"><img src="http://images.tritondigitalcms.com/6616/sites/951/2018/01/02160829/Alexa-Social-Logo-MUSIC.png" alt="Alexa" class="img-2"  /></a></li><li><a href="https://www.facebook.com/kix106" target="_blank"><img src="http://cumulus.pro.poolb.tritondigitalcms.com/wgkx-fm/wp-content/uploads/sites/951/2014/10/facebook.png" title="Like us on Facebook!" class="img-3"  /></a></li><li><a href="https://twitter.com/KIX106" target="_blank"><img src="http://cumulus.pro.poolb.tritondigitalcms.com/wgkx-fm/wp-content/uploads/sites/951/2014/10/twitter.png" title="Follow us on Twitter!" class="img-4"  /></a></li><li><a href="http://kix106fm.listenernetwork.com/" target="_blank"><img src="http://cumulus.pro.poolb.tritondigitalcms.com/wgkx-fm/wp-content/uploads/sites/951/2015/01/cumulus-vip.png" title="VIP" class="img-5"  /></a></li></ul></div><!-- .social-icons-container -->
+</div><!-- .block-content -->
+
+</section><!-- #block-30 -->
+
+</section><!-- .sub-column -->
+
+<section class="sub-column sub-column-3 column column-3 grid-width-3 grid-left-0">
+<div id="block-bix5a8f27b642f1c" class="gigya-actions block block-type-custom-code block-fluid-height" data-alias="Gigya Profile Actions">
+<div class="block-content">
+<div class="see-widget" data-see-type="regUi" data-see-loginbonus="false"></div>
+</div><!-- .block-content -->
+
+</div><!-- #block-bix5a8f27b642f1c -->
+
+</section><!-- .sub-column -->
+<div id="block-bmn5a8f27b647c1f" class="block block-type-custom-code block-fluid-height" data-alias="Empty Spacer">
+<div class="block-content">
+<span></span>
+</div><!-- .block-content -->
+
+</div><!-- #block-bmn5a8f27b647c1f -->
+
+<section class="sub-column sub-column-1 column column-1 grid-width-15 grid-left-0">
+<nav id="block-32" class="main-nav block block-type-navigation block-fluid-height" data-alias="Main Navigation" itemscope="" itemtype="http://schema.org/SiteNavigationElement">
+<div class="block-content">
+<div class="nav-horizontal nav-align-left"><ul id="menu-main-navigation" class="menu"><li id="menu-item-107361" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-107361"><a href="/2015/06/05/on-air-schedule/">Shows</a>
+<ul class="sub-menu">
+	<li id="menu-item-107385" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-107385"><a href="/2012/12/05/duane-and-abby-in-the-morning/">Duane and Abby: 5am-10am</a></li>
+	<li id="menu-item-107424" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-107424"><a href="/2012/12/05/kay-manley/">Kay Manley: 10am-3pm</a></li>
+	<li id="menu-item-1320890" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1320890"><a href="http://www.kix106.com/shows/country-cory/">Country Cory: 3pm-7pm</a></li>
+	<li id="menu-item-726158" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-726158"><a href="http://www.kix106.com/nash-nights-live-with-shawn-parr/">Nash Nights with Shawn Parr: 7pm-12am</a></li>
+	<li id="menu-item-1174015" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1174015"><a href="http://www.kix106.com/2017/05/18/the-blair-garner-show/">Blair Garner: 12am-5am</a></li>
+	<li id="menu-item-1295005" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1295005"><a href="http://www.kix106.com/2017/08/21/citycurrent/">cityCURRENT: Sundays 7am</a></li>
+</ul>
+</li>
+<li id="menu-item-1355168" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1355168"><a href="http://www.kix106.com/2018/06/20/1355138/">KIX 106 Assistant</a></li>
+<li id="menu-item-197943" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-197943"><a href="http://www.kix106.com/category/contests/">Contests</a></li>
+<li id="menu-item-127" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-127"><a href="/category/events/">Events</a></li>
+<li id="menu-item-198417" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-198417"><a>News</a>
+<ul class="sub-menu">
+	<li id="menu-item-198441" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-198441"><a href="/newsfeed/483486/">WMC Action News 5</a></li>
+	<li id="menu-item-198414" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-198414"><a href="/nash-country-daily/">NASH Country Daily</a></li>
+	<li id="menu-item-253779" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-253779"><a href="http://www.kixbrooksradio.com/category/country-news/">American Country Countdown</a></li>
+	<li id="menu-item-198432" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-198432"><a href="/newsfeed/cnn-us/">National News</a></li>
+	<li id="menu-item-402652" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-402652"><a href="http://www.kix106.com/1111/11/11/cnn-news/">CNN News</a></li>
+</ul>
+</li>
+<li id="menu-item-107364" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children menu-item-107364"><a>About Us</a>
+<ul class="sub-menu">
+	<li id="menu-item-107373" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-107373"><a>Call Us: 541-2106</a></li>
+	<li id="menu-item-108204" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-108204"><a href="/category/community/">Community</a></li>
+	<li id="menu-item-107376" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-107376"><a href="http://kix106fm.listenernetwork.com/">VIP Club</a></li>
+	<li id="menu-item-107370" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item menu-item-107370"><a href="/station-information/">Station Information</a></li>
+	<li id="menu-item-107367" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-107367"><a href="/category/contest-rules/">Contest Rules</a>
+	<ul class="sub-menu">
+		<li id="menu-item-1355144" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1355144"><a href="http://www.kix106.com/1111/11/11/contest-rules/">General Contest Rules</a></li>
+	</ul>
+</li>
+	<li id="menu-item-107379" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-107379"><a href="/category/meet-the-clients/">Meet The Clients</a></li>
+	<li id="menu-item-402646" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-402646"><a href="http://wgkx-fm.mygameroom.com">Games</a></li>
+</ul>
+</li>
+<li id="menu-item-117" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-117"><a href="http://memphis.sweetdealscumulus.com/">Sweet Deals</a></li>
+</ul></div><!-- .nav-horizontal nav-align-left -->
+</div><!-- .block-content -->
+
+</nav><!-- #block-32 -->
+
+</section><!-- .sub-column -->
+
+<section class="sub-column sub-column-2 column column-2 grid-width-3 grid-left-0">
+<nav id="block-33" class="nav-search block block-type-navigation block-fluid-height" data-alias="Navigation Search" itemscope="" itemtype="http://schema.org/SiteNavigationElement">
+<div class="block-content">
+<div class="nav-horizontal nav-align-left nav-search-active nav-search-position-left"><div class="nav-search">
+		<form method="get" id="searchform" action="http://www.kix106.com/">
+			<label for="s" class="assistive-text">Search</label>
+			<input type="text" class="field" name="s" id="s" value="Search" onclick="if(this.value=='Search')this.value='';" onblur="if(this.value=='')this.value='Search';" />
+			<input type="submit" class="submit" name="searchsubmit" id="searchsubmit" value="Search" />
+		</form>
+	</div></div><!-- .nav-horizontal nav-align-left nav-search-active nav-search-position-left -->
+</div><!-- .block-content -->
+
+</nav><!-- #block-33 -->
+
+</section><!-- .sub-column -->
+
+</section><!-- .column -->
+
+</section><!-- .row -->
+
+
+<section class="row row-3">
+
+<section class="column column-1 grid-left-0 grid-width-5">
+<div id="block-b8z54a44441b0250" class="takeover-left block block-type-custom-code block-fluid-height" data-alias="Skyscraper - Left">
+<div class="block-content">
+<div id='div-gpt-ad-1418849849333-4'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1418849849333-4'); });
+</script>
+</div>
+</div><!-- .block-content -->
+
+</div><!-- #block-b8z54a44441b0250 -->
+
+</section><!-- .column -->
+
+<section class="column column-2 grid-left-0 grid-width-5">
+<div id="block-b0b54a44441b2caa" class="takeover-right block block-type-custom-code block-fluid-height" data-alias="Skyscraper - Right">
+<div class="block-content">
+<div id='div-gpt-ad-1418849849333-5'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1418849849333-5'); });
+</script>
+</div>
+</div><!-- .block-content -->
+
+</div><!-- #block-b0b54a44441b2caa -->
+
+</section><!-- .column -->
+
+</section><!-- .row -->
+
+
+</div><!-- .grid-container -->
+
+</div><!-- .wrapper -->
+
+<div id="wrapper-49" class="wrapper wrapper-fluid wrapper-fixed-grid grid-fluid-24-32-10 responsive-grid wrapper-content" data-alias="Wrapper Content">
+
+<div class="grid-container clearfix">
+
+<section class="row row-1">
+
+<section class="column column-1 grid-left-0 grid-width-16">
+<div id="block-130" class="block block-type-content block-fluid-height" data-alias="">
+<div class="block-content">
+<div class="loop"><article id="post-95" class="post-95 page type-page status-publish hentry author-tritonadmin " itemscope itemtype="http://schema.org/BlogPosting"><header><h1 class="entry-title" itemprop="headline">Station Information</h1></header><div class="entry-content" itemprop="text"><div><strong>Prize Pick-Up:</strong></div>
+<div>8:30am &#8211; 5:30pm</div>
+<div>*see holiday schedule below</div>
+<div></div>
+<div><strong>Mailing Address:</strong></div>
+<div>KIX 106 (WGKX-FM)</div>
+<div>Cumulus Memphis</div>
+<div>5629 Murray Road</div>
+<div>Memphis, TN 38119</div>
+<div>
+<div><b>Request/Contest Line</b></div>
+<div>901-541-2106</div>
+</div>
+<div><strong>Front Desk:</strong></div>
+<div>901-682-1106</div>
+<div></div>
+<div><strong>Advertising:</strong></div>
+<div>Morgan Bohannon</div>
+<div></div>
+<div><span style="text-decoration: underline;"><a href="http://www.kix106.com/wp-content/uploads/sites/951/2014/10/Cumulus-Memphis-2016-EEO-final.pdf" target="_blank">EEO</a></span></div>
+<div></div>
+<div>
+<div><strong>*Holiday Schedule:</strong></div>
+<div><span style="text-decoration: underline;"><strong>OFFICE CLOSED</strong></span><br />
+Monday, January 15th &#8211; Martin Luther King Jr. Day<br />
+Monday, February 19th &#8211; President&#8217;s Day<br />
+Monday, May 28th &#8211; Memorial Day<br />
+Wednesday, July 4th &#8211; Independence Day<br />
+Monday, September 3rd &#8211; Labor Day<br />
+Thursday, November 22nd &#8211; Thanksgiving Day<br />
+Friday, November 23rd &#8211; Day after Thanksgiving<br />
+Tuesday, December 25th &#8211; Christmas Day</p>
+<p><span style="text-decoration: underline;"><strong>OFFICE CLOSING AT 2PM</strong></span><br />
+Friday, January 12th<br />
+Friday, February 16th<br />
+Friday, May 25th<br />
+Tuesday, July 3rd<br />
+Friday, August 31st<br />
+Wednesday, November 21st<br />
+Monday, December 24th</div>
+</div>
+<div id="themify_builder_content-95" data-postid="95" class="themify_builder_content themify_builder_content-95 themify_builder">
+
+    </div>
+<!-- /themify_builder_content --></div><!-- .entry-content --></article><!-- #post-95 --></div>
+</div><!-- .block-content -->
+
+</div><!-- #block-130 -->
+
+</section><!-- .column -->
+
+<section class="column column-2 grid-left-0 grid-width-8">
+<div id="block-34" class="300x250-ad-1 block block-type-custom-code block-fluid-height responsive-block-hiding-device-smartphones block-mirrored block-mirroring-bgz5499e7ebd2120 block-original-65" data-alias="300x250 Ad 1">
+<div class="block-content">
+<div id='div-gpt-ad-1418849849333-0'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1418849849333-0'); });
+</script>
+</div>
+</div><!-- .block-content -->
+
+</div><!-- #block-34 -->
+<div id="block-38" class="sweet-deals-ad block block-type-custom-code block-fluid-height responsive-block-hiding-device-smartphones block-mirrored block-mirroring-bqk5499e7ebd6bb4 block-original-68" data-alias="Sweet Deals Ad">
+<div class="block-content">
+<a href="http://memphis.sweetdealscumulus.com/"><img src="/wp-content/uploads/sites/951/2014/10/sweetdeals.png"></a>
+</div><!-- .block-content -->
+
+</div><!-- #block-38 -->
+<div id="block-36" class="vip-club-ad block block-type-custom-code block-fluid-height block-mirrored block-mirroring-b6c5499e7ebd52a8 block-original-67" data-alias="VIP Club Ad">
+<div class="block-content">
+<div id='div-gpt-ad-1418849849333-7'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1418849849333-7'); });
+</script>
+</div>
+</div><!-- .block-content -->
+
+</div><!-- #block-36 -->
+<div id="block-70" class="blogs block block-type-content block-fluid-height" data-alias="Blogs">
+<div class="block-content">
+<h1 class="block-title"><span>Blogs</span></h1><div class="loop"></div>
+</div><!-- .block-content -->
+
+</div><!-- #block-70 -->
+<div id="block-42" class="facebook-ad block block-type-custom-code block-fluid-height block-mirrored block-mirroring-bxz5499e7ebdb200 block-original-71" data-alias="Facebook Ad">
+<div class="block-content">
+<div id='div-gpt-ad-1418849849333-8'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1418849849333-8'); });
+</script>
+</div>
+</div><!-- .block-content -->
+
+</div><!-- #block-42 -->
+<div id="block-43" class="headlines block block-type-content block-fluid-height block-mirrored block-mirroring-bch5499e7ebdc8c7 block-original-72" data-alias="Headlines">
+<div class="block-content">
+<h1 class="block-title"><span>Headlines</span></h1><div class="loop">
+
+<div class="entry-row">
+
+<article id="post-1396363" class="post-1396363 post type-post status-publish format-standard has-post-thumbnail hentry category-ncd-interviews category-ncd-news tag-elaina-smith tag-sarah-darling tag-women-want-to-hear-women author-esmith alt custom-query" itemscope itemtype="http://schema.org/BlogPosting"><header><h2 class="entry-title" itemprop="headline"><a href="http://www.kix106.com/2018/08/20/women-want-to-hear-women-with-elaina-featuring-sarah-darling/" title="&#8220;Women Want to Hear Women With Elaina&#8221; Featuring Sarah Darling" rel="bookmark">&#8220;Women Want to Hear Women With Elaina&#8221; Featuring Sarah Darling</a></h2></header></article><!-- #post-1396363 --><article id="post-1395851" class="post-1395851 post type-post status-publish format-standard has-post-thumbnail hentry category-ncd-news category-ncd-podcasts tag-all-of-it tag-cole-swindell tag-dustin-lynch tag-lauren-alaina tag-reason-to-drink-another-tour author-jcasey custom-query" itemscope itemtype="http://schema.org/BlogPosting"><header><h2 class="entry-title" itemprop="headline"><a href="http://www.kix106.com/2018/08/17/cole-swindell-talks-releasing-his-new-album-all-of-it-getting-back-to-his-songwriting-roots-touring-with-dustin-lynch-more/" title="Cole Swindell Talks Releasing His New Album &#8220;All of It,&#8221; Getting Back to His Songwriting Roots, Touring With Dustin Lynch &#038; More" rel="bookmark">Cole Swindell Talks Releasing His New Album &#8220;All of It,&#8221; Getting Back to His Songwriting Roots, Touring With Dustin Lynch &#038; More</a></h2></header></article><!-- #post-1395851 -->
+
+</div><!-- .entry-row -->
+
+
+
+<div class="entry-row">
+
+<article id="post-1395511" class="post-1395511 post type-post status-publish format-standard has-post-thumbnail hentry category-ncd-news category-ncd-podcasts tag-chris-young tag-kiss-somebody tag-losing-sleep-world-tour tag-morgan-evans author-jcasey alt custom-query" itemscope itemtype="http://schema.org/BlogPosting"><header><h2 class="entry-title" itemprop="headline"><a href="http://www.kix106.com/2018/08/15/morgan-evans-talks-aussie-roots-upcoming-album-top-5-single-touring-with-chris-young-more/" title="Morgan Evans Talks Aussie Roots, Upcoming Album, Top 5 Single, Touring With Chris Young &#038; More" rel="bookmark">Morgan Evans Talks Aussie Roots, Upcoming Album, Top 5 Single, Touring With Chris Young &#038; More</a></h2></header></article><!-- #post-1395511 --><article id="post-1394602" class="post-1394602 post type-post status-publish format-standard has-post-thumbnail hentry category-ncd-interviews category-ncd-news tag-selfish tag-stephanie-quayle tag-women-want-to-hear-women author-esmith custom-query" itemscope itemtype="http://schema.org/BlogPosting"><header><h2 class="entry-title" itemprop="headline"><a href="http://www.kix106.com/2018/08/10/women-want-to-hear-women-with-elaina-featuring-stephanie-quayle/" title="&#8220;Women Want to Hear Women With Elaina&#8221; Featuring Stephanie Quayle" rel="bookmark">&#8220;Women Want to Hear Women With Elaina&#8221; Featuring Stephanie Quayle</a></h2></header></article><!-- #post-1394602 -->
+
+</div><!-- .entry-row -->
+
+
+
+<div class="entry-row">
+
+<article id="post-1392735" class="post-1392735 post type-post status-publish format-standard has-post-thumbnail hentry category-ncd-interviews category-ncd-news tag-clare-dunn tag-make-you-feel-my-love tag-more author-esmith alt custom-query" itemscope itemtype="http://schema.org/BlogPosting"><header><h2 class="entry-title" itemprop="headline"><a href="http://www.kix106.com/2018/08/03/women-want-to-hear-women-with-elaina-smith-featuring-clare-dunn/" title="&#8220;Women Want to Hear Women With Elaina Smith&#8221; Featuring Clare Dunn" rel="bookmark">&#8220;Women Want to Hear Women With Elaina Smith&#8221; Featuring Clare Dunn</a></h2></header></article><!-- #post-1392735 --><article id="post-1387138" class="post-1387138 post type-post status-publish format-standard has-post-thumbnail hentry category-ncd-interviews category-ncd-news tag-elaina-smith tag-i-know-how-to-make-a-boy-cry tag-tegan-marie tag-women-want-to-hear-women author-esmith custom-query" itemscope itemtype="http://schema.org/BlogPosting"><header><h2 class="entry-title" itemprop="headline"><a href="http://www.kix106.com/2018/07/27/women-want-to-hear-women-with-elaina-smith-featuring-tegan-marie/" title="&#8220;Women Want to Hear Women With Elaina Smith&#8221; Featuring Tegan Marie" rel="bookmark">&#8220;Women Want to Hear Women With Elaina Smith&#8221; Featuring Tegan Marie</a></h2></header></article><!-- #post-1387138 -->
+
+</div><!-- .entry-row -->
+
+</div>
+</div><!-- .block-content -->
+
+</div><!-- #block-43 -->
+<div id="block-44" class="twitter-ad block block-type-custom-code block-fluid-height block-mirrored block-mirroring-bm65499e7ebde2f1 block-original-73" data-alias="Twitter Ad">
+<div class="block-content">
+<div id='div-gpt-ad-1418849849333-9'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1418849849333-9'); });
+</script>
+</div>
+</div><!-- .block-content -->
+
+</div><!-- #block-44 -->
+<aside id="block-45" class="free-apps block block-type-widget-area block-fluid-height block-mirrored block-mirroring-bcg5499e7ebdfbb2 block-original-74" data-alias="Home - Free Apps" itemscope="" itemtype="http://schema.org/WPSideBar">
+<div class="block-content">
+<h1 class="block-title"><span>Free Apps</span></h1><ul class="widget-area"><li id="text-3" class="widget widget_text">
+			<div class="textwidget"><div align="center">
+<a href="https://itunes.apple.com/us/app/kix-106/id464192204?mt=8" target="_blank"><img src="/wp-content/uploads/sites/951/2014/10/appstore.png" border="0"></a>&nbsp;<a href="https://play.google.com/store/apps/details?id=com.airkast.WGKXFM" target="_blank"><img src="/wp-content/uploads/sites/951/2014/10/googleplay.png" border="0"></a>&nbsp;<a href="http://amazon.com/dp/B00FL3MHXO" target="_blank"><img src="/wp-content/uploads/sites/951/2014/10/amazon.png" border="0"></a>
+</div></div>
+		</li><!-- .widget -->
+</ul>
+</div><!-- .block-content -->
+
+</aside><!-- #block-45 -->
+<div id="block-46" class="300x250-ad-2 block block-type-custom-code block-fluid-height block-mirrored block-mirroring-bll5499e7ebe1218 block-original-79" data-alias="300x250 Ad 2">
+<div class="block-content">
+<div id='div-gpt-ad-1418849849333-3'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1418849849333-3'); });
+</script>
+</div>
+</div><!-- .block-content -->
+
+</div><!-- #block-46 -->
+
+</section><!-- .column -->
+
+</section><!-- .row -->
+
+
+</div><!-- .grid-container -->
+
+</div><!-- .wrapper -->
+
+<div id="wrapper-50" class="wrapper wrapper-fluid wrapper-fixed-grid grid-fluid-24-32-10 responsive-grid wrapper-mirroring-10 wrapper-last wrapper-footer" data-alias="Wrapper Footer">
+
+<div class="grid-container clearfix">
+
+<section class="row row-1">
+
+<section class="column column-1 grid-left-0 grid-width-6">
+<nav id="block-50" class="footer-nav block block-type-navigation block-fluid-height" data-alias="Footer Navigation" itemscope="" itemtype="http://schema.org/SiteNavigationElement">
+<div class="block-content">
+<div class="nav-vertical nav-align-left"><ul id="menu-footer-navigation" class="menu"><li id="menu-item-326568" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-326568"><a href="/1111/11/11/privacy-policy">Privacy Policy</a></li>
+<li id="menu-item-326571" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-326571"><a href="/1111/11/11/terms-of-service">Terms of Service</a></li>
+<li id="menu-item-326574" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-326574"><a href="/category/contest-rules/">Contest Rules</a></li>
+<li id="menu-item-137" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-137"><a href="http://www.kix106.com/advertise-with-us/">Advertise With Us</a></li>
+<li id="menu-item-139" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-95 current_page_item menu-item-139"><a href="http://www.kix106.com/station-information/">Station Information</a></li>
+<li id="menu-item-141" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-141"><a href="http://www.cumulus.com/careers/">Employment Opportunities</a></li>
+<li id="menu-item-1320500" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1320500"><a target="_blank" href="https://www.cumulus.com">Cumulus Media Corporate</a></li>
+<li id="menu-item-1336103" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1336103"><a href="http://www.kix106.com/2018/03/01/fcc-online-public-file/">FCC Online Public File</a></li>
+</ul></div><!-- .nav-vertical nav-align-left -->
+</div><!-- .block-content -->
+
+</nav><!-- #block-50 -->
+<div id="block-b6e55e983ad7d597" class="block block-type-custom-code block-fluid-height" data-alias="Wallpaper Ad">
+<div class="block-content">
+<div id='div-gpt-ad-1418849849333-16'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1418849849333-16'); });
+</script>
+</div>
+</div><!-- .block-content -->
+
+</div><!-- #block-b6e55e983ad7d597 -->
+
+</section><!-- .column -->
+
+<section class="column column-2 grid-left-0 grid-width-18">
+<div id="block-51" class="728x90-ad-2 block block-type-custom-code block-fluid-height" data-alias="728x90 Ad 2">
+<div class="block-content">
+<div class="footer-728x90-ad" align="right">
+<div id='div-gpt-ad-1418849849333-2'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1418849849333-2'); });
+</script>
+</div>
+</div>
+
+</div><!-- .block-content -->
+
+</div><!-- #block-51 -->
+<footer id="block-52" class="copyright block block-type-footer block-fluid-height" data-alias="Copyright" itemscope="" itemtype="http://schema.org/WPFooter">
+<div class="block-content">
+
+<div class="footer-container">
+
+<div class="footer">
+<p class="copyright footer-copyright">Copyright Cumulus Media / Cumulus Media is an equal opportunity employer / AA</p><p class="footer-responsive-grid-link-container footer-responsive-grid-link-disable-container"><a href="http://www.kix106.com/station-information/?full-site=true" rel="nofollow" class="footer-responsive-grid-link footer-responsive-grid-disable footer-link">View Full Site</a></p>
+</div><!-- .footer -->
+</div><!-- .footer-container -->
+</div><!-- .block-content -->
+
+</footer><!-- #block-52 -->
+
+</section><!-- .column -->
+
+</section><!-- .row -->
+
+
+</div><!-- .grid-container -->
+
+</div><!-- .wrapper -->
+
+
+
+<script>_AMP.theme.init();</script>
+<script id="amp-minify-js-footer">
+var _wpmejsSettings = {"pluginPath":"\/wp-includes\/js\/mediaelement\/","classPrefix":"mejs-","stretching":"responsive"};
+
+</script>
+<link rel='stylesheet' id='amp-minify-css-footer-css'  href='http://www.kix106.com/wp-content/uploads/amp-minify/1479154842.951.footer.css' type='text/css' media='all' />
+<script type='text/javascript' src='http://www.kix106.com/wp-content/uploads/amp-minify/1479154842.951.footer.js'></script>
+<script>
+window.tgmplibs="cumulus2,_append_www,_triton_see";
+</script>
+<script type="text/javascript" class="_tgmp_p">
+function onTuneGenieMediaPlayerLoaded() {
+    window.tgmp=new TuneGenieMediaPlayer('playerbar', {
+        brand: "wgkx",
+        zindex: 50000,
+        theme: ["#000000"],
+        position: "bottom",
+        debug: true,
+        ios_frame: 3,
+        autostart: false,
+        infoTrayOnLoad: true,
+        useTritonPlayer: true,
+        promptZag: false,
+    });
+    tgmp.go();
+    window.tgmp_rc = new TuneGenieRC(tgmp);
+    tgmp_rc.recentSongWidget(document.getElementById('tgrecent'),{});
+    tgmp_rc.nowPlayingWidget(document.getElementById('tgnowplaying'),{});
+}
+</script>
+<script type="text/javascript"  class="_tgmp_p" async src="https://mpl.tunegenie.com/js/loader2.min.js"></script>
+
+
+</div><!-- #whitewrap -->
+
+<!-- TGMP PLUGIN ENABLED 2016-08-05T16:55:29.200Z -->
+<!-- DISABLE TGMP INFO TRAY -->
+<!-- ADDED 2016-08-05T16:55:29.200Z -->
+<script>
+	if (window.top.tgmp) {
+		window.top.tgmp.updateOption('infoTrayOnLoad',false);
+	}
+</script>
+<!-- END DISABLE TGMP INFO TRAY -->
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.3";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<script type="text/javascript">
+//<![CDATA[
+(function() {
+var _analytics_scr = document.createElement('script');
+_analytics_scr.type = 'text/javascript'; _analytics_scr.async = true; _analytics_scr.src = '/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=2&cb=650364636';
+var _analytics_elem = document.getElementsByTagName('script')[0]; _analytics_elem.parentNode.insertBefore(_analytics_scr, _analytics_elem);
+})();
+// ]]>
+</script></body>
+
+
+</html>
+<!--
+Performance optimized by W3 Total Cache. Learn more: https://www.w3-edge.com/products/
+
+Object Caching 2489/2621 objects using memcache
+Page Caching using memcache
+Database Caching 297/318 queries in 0.600 seconds using memcache
+
+Served from: www.1460wrad.com @ 2018-08-27 05:28:41 by W3 Total Cache
+-->

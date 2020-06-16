@@ -1,0 +1,1151 @@
+<!DOCTYPE HTML><html lang="en-US" xmlns:og="http://ogp.me/ns#" xmlns:fb="http://ogp.me/ns/fb#">
+
+<head>
+<meta charset="UTF-8" />
+<link rel="profile" href="http://gmpg.org/xfn/11" />
+
+<!-- Title -->
+<title>94.9 The Outlaw | KOLI-FM</title><link rel='dns-prefetch' href='//www.949theoutlaw.com' />
+<link rel='dns-prefetch' href='//see-p-elb-01.tritondigital.net' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="canonical" href="http://www.949theoutlaw.com/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.3\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.3\/svg\/","svgExt":".svg","source":{"wpemoji":"http:\/\/www.949theoutlaw.com\/wp-includes\/js\/wp-emoji.js?ver=4.9.1","twemoji":"http:\/\/www.949theoutlaw.com\/wp-includes\/js\/twemoji.js?ver=4.9.1"}};
+			( function( window, document, settings ) {
+	var src, ready, ii, tests;
+
+	/*
+	 * Create a canvas element for testing native browser support
+	 * of emoji.
+	 */
+	var canvas = document.createElement( 'canvas' );
+	var context = canvas.getContext && canvas.getContext( '2d' );
+
+	/**
+	 * Check if two sets of Emoji characters render the same.
+	 *
+	 * @param set1 array Set of Emoji characters.
+	 * @param set2 array Set of Emoji characters.
+	 * @returns {boolean} True if the two sets render the same.
+	 */
+	function emojiSetsRenderIdentically( set1, set2 ) {
+		var stringFromCharCode = String.fromCharCode;
+
+		// Cleanup from previous test.
+		context.clearRect( 0, 0, canvas.width, canvas.height );
+		context.fillText( stringFromCharCode.apply( this, set1 ), 0, 0 );
+		var rendered1 = canvas.toDataURL();
+
+		// Cleanup from previous test.
+		context.clearRect( 0, 0, canvas.width, canvas.height );
+		context.fillText( stringFromCharCode.apply( this, set2 ), 0, 0 );
+		var rendered2 = canvas.toDataURL();
+
+		return rendered1 === rendered2;
+	}
+
+	/**
+	 * Detect if the browser supports rendering emoji or flag emoji. Flag emoji are a single glyph
+	 * made of two characters, so some browsers (notably, Firefox OS X) don't support them.
+	 *
+	 * @since 4.2.0
+	 *
+	 * @param type {String} Whether to test for support of "flag" or "emoji".
+	 * @return {Boolean} True if the browser can render emoji, false if it cannot.
+	 */
+	function browserSupportsEmoji( type ) {
+		var isIdentical;
+
+		if ( ! context || ! context.fillText ) {
+			return false;
+		}
+
+		/*
+		 * Chrome on OS X added native emoji rendering in M41. Unfortunately,
+		 * it doesn't work when the font is bolder than 500 weight. So, we
+		 * check for bold rendering support to avoid invisible emoji in Chrome.
+		 */
+		context.textBaseline = 'top';
+		context.font = '600 32px Arial';
+
+		switch ( type ) {
+			case 'flag':
+				/*
+				 * Test for UN flag compatibility. This is the least supported of the letter locale flags,
+				 * so gives us an easy test for full support.
+				 *
+				 * To test for support, we try to render it, and compare the rendering to how it would look if
+				 * the browser doesn't render it correctly ([U] + [N]).
+				 */
+				isIdentical = emojiSetsRenderIdentically(
+					[ 55356, 56826, 55356, 56819 ],
+					[ 55356, 56826, 8203, 55356, 56819 ]
+				);
+
+				if ( isIdentical ) {
+					return false;
+				}
+
+				/*
+				 * Test for English flag compatibility. England is a country in the United Kingdom, it
+				 * does not have a two letter locale code but rather an five letter sub-division code.
+				 *
+				 * To test for support, we try to render it, and compare the rendering to how it would look if
+				 * the browser doesn't render it correctly (black flag emoji + [G] + [B] + [E] + [N] + [G]).
+				 */
+				isIdentical = emojiSetsRenderIdentically(
+					[ 55356, 57332, 56128, 56423, 56128, 56418, 56128, 56421, 56128, 56430, 56128, 56423, 56128, 56447 ],
+					[ 55356, 57332, 8203, 56128, 56423, 8203, 56128, 56418, 8203, 56128, 56421, 8203, 56128, 56430, 8203, 56128, 56423, 8203, 56128, 56447 ]
+				);
+
+				return ! isIdentical;
+			case 'emoji':
+				/*
+				 * Emoji 5 has fairies of all genders.
+				 *
+				 * To test for support, try to render a new emoji (fairy, male), then compares
+				 * it to how it would look if the browser doesn't render it correctly
+				 * (fairy + male sign).
+				 */
+				isIdentical = emojiSetsRenderIdentically(
+					[ 55358, 56794, 8205, 9794, 65039 ],
+					[ 55358, 56794, 8203, 9794, 65039 ]
+				);
+				return ! isIdentical;
+		}
+
+		return false;
+	}
+
+	function addScript( src ) {
+		var script = document.createElement( 'script' );
+
+		script.src = src;
+		script.defer = script.type = 'text/javascript';
+		document.getElementsByTagName( 'head' )[0].appendChild( script );
+	}
+
+	tests = Array( 'flag', 'emoji' );
+
+	settings.supports = {
+		everything: true,
+		everythingExceptFlag: true
+	};
+
+	for( ii = 0; ii < tests.length; ii++ ) {
+		settings.supports[ tests[ ii ] ] = browserSupportsEmoji( tests[ ii ] );
+
+		settings.supports.everything = settings.supports.everything && settings.supports[ tests[ ii ] ];
+
+		if ( 'flag' !== tests[ ii ] ) {
+			settings.supports.everythingExceptFlag = settings.supports.everythingExceptFlag && settings.supports[ tests[ ii ] ];
+		}
+	}
+
+	settings.supports.everythingExceptFlag = settings.supports.everythingExceptFlag && ! settings.supports.flag;
+
+	settings.DOMReady = false;
+	settings.readyCallback = function() {
+		settings.DOMReady = true;
+	};
+
+	if ( ! settings.supports.everything ) {
+		ready = function() {
+			settings.readyCallback();
+		};
+
+		if ( document.addEventListener ) {
+			document.addEventListener( 'DOMContentLoaded', ready, false );
+			window.addEventListener( 'load', ready, false );
+		} else {
+			window.attachEvent( 'onload', ready );
+			document.attachEvent( 'onreadystatechange', function() {
+				if ( 'complete' === document.readyState ) {
+					settings.readyCallback();
+				}
+			} );
+		}
+
+		src = settings.source || {};
+
+		if ( src.concatemoji ) {
+			addScript( src.concatemoji );
+		} else if ( src.wpemoji && src.twemoji ) {
+			addScript( src.twemoji );
+			addScript( src.wpemoji );
+		}
+	}
+
+} )( window, document, window._wpemojiSettings );
+		</script>
+		
+
+<!-- Stylesheets -->
+<link rel='stylesheet' id='headway-google-fonts' href='//fonts.googleapis.com/css?family=Oswald' type='text/css' media='all' />
+<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='bxslider-style-css'  href='http://www.949theoutlaw.com/wp-content/plugins/shared/js/bxslider/jquery.bxslider.css?ver=4.9.1' type='text/css' media='all' />
+<link rel='stylesheet' id='amp-promo-reel-widget-style-css'  href='http://www.949theoutlaw.com/wp-content/plugins/amp-promo-reel/includes/../css/widget.css?ver=4.9.1' type='text/css' media='all' />
+<link rel='stylesheet' id='headway-general-css'  href='http://www.949theoutlaw.com/wp-content/uploads/sites/341/headway/cache/general-9ca8329.css?ver=4.9.1' type='text/css' media='all' />
+<link rel='stylesheet' id='headway-layout-front_page-css'  href='http://www.949theoutlaw.com/wp-content/uploads/sites/341/headway/cache/layout-front_page-9952b3c.css?ver=4.9.1' type='text/css' media='all' />
+<link rel='stylesheet' id='headway-responsive-grid-css'  href='http://www.949theoutlaw.com/wp-content/uploads/sites/341/headway/cache/responsive-grid-d2119e4.css?ver=4.9.1' type='text/css' media='all' />
+<meta name="builder-styles-css" content="" id="builder-styles-css">
+<link rel='stylesheet' id='amp-breaking-news-css'  href='http://www.949theoutlaw.com/wp-content/plugins/amp-breaking-news/public/css/public.css?ver=0.2.3' type='text/css' media='all' />
+<link rel='stylesheet' id='animate-style-css'  href='http://www.949theoutlaw.com/wp-content/plugins/shared/css/animate.css?ver=0.2.3' type='text/css' media='all' />
+<link rel='stylesheet' id='amp-styles-plugin-styles-css'  href='http://www.949theoutlaw.com/wp-content/plugins/amp-styles/css/public.css?ver=1.4.1' type='text/css' media='all' />
+<link rel='stylesheet' id='amp-events-calendar-styles-css'  href='http://www.949theoutlaw.com/wp-content/plugins/amp-events/css/calendar.css?ver=1.1.4' type='text/css' media='all' />
+<link rel='stylesheet' id='amp-events-export-styles-css'  href='http://www.949theoutlaw.com/wp-content/plugins/amp-events/css/public.css?ver=1.1.4' type='text/css' media='all' />
+<link rel='stylesheet' id='amp_feed-plugin-styles-css'  href='http://www.949theoutlaw.com/wp-content/plugins/amp-feeds/css/public.css?ver=0.4.0' type='text/css' media='all' />
+<link rel='stylesheet' id='amp-image-rotator-plugin-styles-css'  href='http://www.949theoutlaw.com/wp-content/plugins/amp-image-rotator/public/assets/css/public.css?ver=1.0.0' type='text/css' media='all' />
+<link rel='stylesheet' id='amp-listen-live-plugin-styles-css'  href='http://www.949theoutlaw.com/wp-content/plugins/amp-listen-live/public/assets/css/public.css?ver=1.4.4' type='text/css' media='all' />
+<link rel='stylesheet' id='amp-onair-plugin-styles-css'  href='http://www.949theoutlaw.com/wp-content/plugins/amp-onair/public/assets/css/public.css?ver=1.7.1' type='text/css' media='all' />
+<link rel='stylesheet' id='AMPPromoReel-plugin-styles-css'  href='http://www.949theoutlaw.com/wp-content/plugins/amp-promo-reel/css/public.css?ver=1.4.0' type='text/css' media='all' />
+<link rel='stylesheet' id='mediaelement-css'  href='http://www.949theoutlaw.com/wp-includes/js/mediaelement/mediaelementplayer-legacy.min.css?ver=4.2.6-78496d1' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-mediaelement-css'  href='http://www.949theoutlaw.com/wp-includes/js/mediaelement/wp-mediaelement.css?ver=4.9.1' type='text/css' media='all' />
+<link rel='stylesheet' id='amp-tabs-plugin-styles-css'  href='http://www.949theoutlaw.com/wp-content/plugins/amp-tabs/public/assets/css/public.css?ver=1.0.0' type='text/css' media='all' />
+<link rel='stylesheet' id='amp-header-rotator-css'  href='http://www.949theoutlaw.com/wp-content/themes/Headway-AMP_CMS/css/amp-header-rotator.css?ver=1.1.5' type='text/css' media='all' />
+<link rel="stylesheet" type="text/css" media="all" href="http://www.949theoutlaw.com/wp-content/themes/Headway-AMP_CMS/style.css" />
+
+<!-- Scripts -->
+<script type='text/javascript' src='http://www.949theoutlaw.com/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='http://www.949theoutlaw.com/wp-includes/js/jquery/jquery-migrate.js?ver=1.4.1'></script>
+<script type='text/javascript' src='http://www.949theoutlaw.com/wp-content/themes/headway/library/media/js/jquery.hoverintent.js?ver=4.9.1'></script>
+<script type='text/javascript' src='http://www.949theoutlaw.com/wp-content/themes/headway/library/blocks/navigation/js/jquery.superfish.js?ver=4.9.1'></script>
+<script type='text/javascript' src='http://www.949theoutlaw.com/wp-content/themes/headway/library/blocks/navigation/js/selectnav.js?ver=1533183780'></script>
+<script type='text/javascript' src='http://www.949theoutlaw.com/wp-content/uploads/sites/341/headway/cache/block-dynamic-js-layout-front_page-6e05346.js?ver=4.9.1'></script>
+<script type='text/javascript' src='http://www.949theoutlaw.com/wp-content/plugins/shared/js/bxslider/jquery.bxslider.min.js?ver=4.9.1'></script>
+<script type='text/javascript' src='http://www.949theoutlaw.com/wp-content/plugins/amp-promo-reel/includes/../js/widget.js?ver=1.4.0'></script>
+<script type='text/javascript' src='http://www.949theoutlaw.com/wp-content/themes/headway/library/media/js/jquery.fitvids.js?ver=4.9.1'></script>
+<script type='text/javascript' src='http://www.949theoutlaw.com/wp-content/uploads/sites/341/headway/cache/responsive-grid-js-e6e6939.js?ver=4.9.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var _ampconfig = {"site_url":"http:\/\/www.949theoutlaw.com","site_id":"341","tz":"America\/Chicago","tz_offset":"-5","ts":"1533183780","blog_name":"KOLI-FM","client_name":"cumuluspro","user_ID":"","ts_offset":"1535347869","version":"2.47.0.3","env":"prod","settings":{"tenant_id":"see_10420","syn_site_name":"","selector_logo":"","selector_masthead":"","selector_nav":"","selector_rotator":"","default_show_name":"Outlaw Country ","default_show_img":"","vidible_company_key":"06125e55709b3c4ffdfe3c3f8a9ed8bd","client_name":false,"nielsen_provider":"cumulus","promoreel_priority":true}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.949theoutlaw.com/wp-content/plugins/shared/js/amp-common.js?ver=1533183780'></script>
+<script type='text/javascript' src='http://www.949theoutlaw.com/wp-content/plugins/amp-breaking-news/public/js/public.js?ver=0.2.3'></script>
+<script type='text/javascript' src='http://www.949theoutlaw.com/wp-content/plugins/amp-styles/js/public.js?ver=1.4.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var dates = {"start_of_week":"1","moment_date_format":"MMMM D, YYYY","moment_time_format":"h:mm a","calendar_date_format":"MMMM d, yyyy","calendar_time_format":"h:mm tt","date_format":"MM d, yy","time_format":"h:mm tt"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.949theoutlaw.com/wp-content/plugins/amp-events/js/calendar.js?ver=1.1.4'></script>
+<script type='text/javascript' src='http://www.949theoutlaw.com/wp-content/plugins/amp-events/js/public.js?ver=1.1.4'></script>
+<script type='text/javascript' src='http://www.949theoutlaw.com/wp-content/plugins/amp-feeds/js/jquery.totemticker.min.js?ver=0.4.0'></script>
+<script type='text/javascript' src='http://www.949theoutlaw.com/wp-includes/js/jquery/ui/core.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://www.949theoutlaw.com/wp-includes/js/jquery/ui/widget.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://www.949theoutlaw.com/wp-includes/js/jquery/ui/tabs.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://www.949theoutlaw.com/wp-content/plugins/amp-feeds/js/amp-feed.js?ver=0.4.0'></script>
+<script type='text/javascript' src='http://www.949theoutlaw.com/wp-content/plugins/amp-feeds/js/public.js?ver=0.4.0'></script>
+<script type='text/javascript' src='http://www.949theoutlaw.com/wp-content/plugins/amp-feeds/js/date.js?ver=0.4.0'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var _amplistenlive = {"blog_id":"341","callsign":"","mount_name":"KOLIFM","provider":"stream_the_world","gmt_offset":"-18000"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.949theoutlaw.com/wp-content/plugins/amp-listen-live/public/assets/js/public.js?ver=1.4.4'></script>
+<script type='text/javascript' src='http://www.949theoutlaw.com/wp-content/plugins/amp-onair/public/assets/js/public.js?ver=1.7.1'></script>
+<script type='text/javascript' src='//see-p-elb-01.tritondigital.net/widget/see_10420/see.js?ver=1.3.0'></script>
+<script type='text/javascript' src='http://www.949theoutlaw.com/wp-content/themes/Headway-AMP_CMS/js/amp-theme.js?ver=1.1.5'></script>
+
+<!--[if lt IE 9]>
+<script src="http://www.949theoutlaw.com/wp-content/themes/headway/library/media/js/html5shiv.js"></script>
+<![endif]-->
+
+<!--[if lt IE 8]>
+<script src="http://www.949theoutlaw.com/wp-content/themes/headway/library/media/js/ie8.js"></script>
+<![endif]-->
+
+<script type='text/javascript'>
+var googletag = googletag || {};
+googletag.cmd = googletag.cmd || [];
+(function() {
+var gads = document.createElement('script');
+gads.async = true;
+gads.type = 'text/javascript';
+var useSSL = 'https:' == document.location.protocol;
+gads.src = (useSSL ? 'https:' : 'http:') + 
+'//www.googletagservices.com/tag/js/gpt.js';
+var node = document.getElementsByTagName('script')[0];
+node.parentNode.insertBefore(gads, node);
+})();
+</script>
+<script type='text/javascript'>
+googletag.cmd.push(function() {
+
+var leaderboardSizeMap = googletag.sizeMapping()
+ .addSize([970, 0], [[728, 90], [970, 90]])
+ .addSize([750,0], [728,90])
+ .addSize([0, 0], [[320, 50], [320, 53]])
+ .build();
+
+googletag.defineSlot('/6717/cd.KOLI.FM', [[300, 250], [300, 600]], 'div-gpt-ad-1418849849333-0').addService(googletag.pubads())
+.setCollapseEmptyDiv(true).setTargeting("pos","mid");
+googletag.defineSlot('/6717/cd.KOLI.FM', [[728, 90], [970, 90]], 'div-gpt-ad-1418849849333-1').addService(googletag.pubads())
+.defineSizeMapping(leaderboardSizeMap).setCollapseEmptyDiv(true).setTargeting("pos","top");
+googletag.defineSlot('/6717/cd.KOLI.FM', [[728, 90], [970, 90]], 'div-gpt-ad-1418849849333-2').addService(googletag.pubads())
+.defineSizeMapping(leaderboardSizeMap).setCollapseEmptyDiv(true).setTargeting("pos","bot");
+googletag.defineSlot('/6717/cd.KOLI.FM', [[300, 250], [300, 600]], 'div-gpt-ad-1418849849333-3').addService(googletag.pubads())
+.setCollapseEmptyDiv(true).setTargeting("pos","mid2");
+googletag.defineSlot('/6717/cd.KOLI.FM', [[160, 600]], 'div-gpt-ad-1418849849333-4').addService(googletag.pubads())
+.setCollapseEmptyDiv(true).setTargeting("pos","left");
+googletag.defineSlot('/6717/cd.KOLI.FM', [[160, 600]], 'div-gpt-ad-1418849849333-5').addService(googletag.pubads())
+.setCollapseEmptyDiv(true).setTargeting("pos","right");
+googletag.defineSlot('/6717/cd.KOLI.FM', [[654, 70]], 'div-gpt-ad-1418849849333-6').addService(googletag.pubads())
+.setCollapseEmptyDiv(true).setTargeting("pos","rdioplayer");
+googletag.defineSlot('/6717/cd.KOLI.FM', [[300, 100]], 'div-gpt-ad-1418849849333-7').addService(googletag.pubads())
+.setCollapseEmptyDiv(true).setTargeting("pos","contest1");
+googletag.defineSlot('/6717/cd.KOLI.FM', [[300, 100]], 'div-gpt-ad-1418849849333-8').addService(googletag.pubads())
+.setCollapseEmptyDiv(true).setTargeting("pos","contest2");
+googletag.defineSlot('/6717/cd.KOLI.FM', [[300, 100]], 'div-gpt-ad-1418849849333-9').addService(googletag.pubads())
+.setCollapseEmptyDiv(true).setTargeting("pos","contest3");
+googletag.defineSlot('/6717/cd.KOLI.FM', [[100, 51]], 'div-gpt-ad-1418849849333-10').addService(googletag.pubads())
+.setCollapseEmptyDiv(true).setTargeting("pos","rdiobutton");
+googletag.defineSlot('/6717/cd.KOLI.FM', [[113, 23]], 'div-gpt-ad-1418849849333-11').addService(googletag.pubads())
+.setCollapseEmptyDiv(true).setTargeting("pos","feedsponsor1");
+googletag.defineSlot('/6717/cd.KOLI.FM', [[113, 23]], 'div-gpt-ad-1418849849333-12').addService(googletag.pubads())
+.setCollapseEmptyDiv(true).setTargeting("pos","feedsponsor2");
+googletag.defineSlot('/6717/cd.KOLI.FM', [[113, 23]], 'div-gpt-ad-1418849849333-13').addService(googletag.pubads())
+.setCollapseEmptyDiv(true).setTargeting("pos","feedsponsor3");
+googletag.defineSlot('/6717/cd.KOLI.FM', [[113, 23]], 'div-gpt-ad-1418849849333-14').addService(googletag.pubads())
+.setCollapseEmptyDiv(true).setTargeting("pos","feedsponsor4");
+googletag.defineSlot('/6717/cd.KOLI.fm', [[1, 1]],'div-gpt-ad-1418849849333-16').addService(googletag.pubads())
+.setTargeting("pos","wallpaper-ad");
+googletag.pubads().enableSingleRequest();
+googletag.enableServices();
+googletag.defineSlot('/6717/cd.KOLI.fm', [[300, 250], [300, 600]], 'div-gpt-ad-1418849849333-18').setCollapseEmptyDiv(true).addService(googletag.pubads())
+.setTargeting("pos","midresponsive");
+
+});
+</script>
+
+<!--ONESTAT SCRIPTCODE START Embed Player-->
+  <script type="text/javascript">
+  <!--
+  jQuery(document).ready(function(){
+    var d=document;
+    var sid="koli-fm.cumulus";
+    var CONTENTSECTION="";
+    var osp_URL=d.URL;
+    var osp_Title=d.title;
+    var t=new Date();
+    var p="http"+(d.URL.indexOf('https:')==0?'s':'')+"://stat.onestat.com/stat.aspx?tagver=2&sid="+sid;
+    p+="&url="+escape(osp_URL);
+    p+="&ti="+escape(osp_Title);
+    p+="&section="+escape(CONTENTSECTION);
+    p+="&rf="+escape(parent==self?document.referrer:top.document.referrer);
+    p+="&tz="+escape(t.getTimezoneOffset());
+    p+="&ch="+escape(t.getHours());
+    p+="&js=1";
+    p+="&ul="+escape(navigator.appName=="Netscape"?navigator.language:navigator.userLanguage);
+    if(osp_URL!=d.URL) p+="&ol="+escape(d.URL);
+    if(typeof(screen)=="object"){
+       p+="&sr="+screen.width+"x"+screen.height;p+="&cd="+screen.colorDepth;
+       p+="&jo="+(navigator.javaEnabled()?"Yes":"No");
+    }
+
+    var imgTag = '<img border="0" height="0" width="0" id="ONESTAT_TAG" src="' + p + '">'
+    jQuery('body').append(imgTag);
+
+  })
+  //-->
+  </script> 
+<!--ONESTAT SCRIPTCODE END-->
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','corpDataLayer','GTM-NCB5SB');</script>
+<!-- End Google Tag Manager -->
+
+<!-- BEGIN INFINITE FACEBOOK PIXEL -->
+<script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '181461212508101');
+  fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=181461212508101&ev=PageView&noscript=1"
+/></noscript>
+<!-- END INFINITE FACEBOOK PIXEL -->
+<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
+<link rel="alternate" type="application/rss+xml" title="KOLI-FM &raquo; Feed" href="http://www.949theoutlaw.com/feed/" />
+<link rel='shortlink' href='http://www.949theoutlaw.com/' />
+<!-- Customization: Default -->
+<style style="text/css" id="customize-styles">
+#whitewrap {background-image: url(http://images.tritondigitalcms.com/6616/sites/341/2016/12/27083914/outlaw-background.jpg) !important;
+}
+#whitewrap > .wrapper-header {background-color: #1d1d1d !important; 
+background-image: none !important;
+}
+#whitewrap > .wrapper-content {background-color: transparent !important; background-image: none !important;}
+#whitewrap > .wrapper-footer {background-color: #1d1d1d !important; 
+background-image: none !important;
+}
+body {background-color: #FFFFFF !important; 
+}
+
+</style>
+<script>_AMP.theme.data = [];</script>
+<script type="text/javascript">var ajaxurl = "http://www.949theoutlaw.com/wp-admin/admin-ajax.php"</script><script type="text/javascript">var ajaxurl = "http://www.949theoutlaw.com/wp-admin/admin-ajax.php"</script>
+<!-- AMP CMS DFP custom tags -->
+<script type='text/javascript'>
+  googletag.cmd.push(function() {
+      googletag.pubads().setTargeting('cms-sname', 'KOLIFM');
+      googletag.pubads().setTargeting('cms-sgroup', ['All Sites', 'Format  Country', 'Market  Wichita Falls TX', 'Format Country New']);
+      googletag.pubads().setTargeting('cms-ptitle', 'Home');
+  });
+</script>
+
+<!-- START - Facebook Open Graph, Google+ and Twitter Card Tags 2.0.4 -->
+ <!-- Facebook Open Graph -->
+  <meta property="og:locale" content="en_US"/>
+  <meta property="og:site_name" content="KOLI-FM"/>
+  <meta property="og:title" content="KOLI-FM"/>
+  <meta property="og:url" content="http://www.949theoutlaw.com"/>
+  <meta property="og:type" content="website"/>
+  <meta property="og:description" content="94.9 The Outlaw"/>
+ <!-- Google+ / Schema.org -->
+  <meta itemprop="name" content="KOLI-FM"/>
+  <meta itemprop="description" content="94.9 The Outlaw"/>
+ <!-- Twitter Cards -->
+  <meta name="twitter:title" content="KOLI-FM"/>
+  <meta name="twitter:url" content="http://www.949theoutlaw.com"/>
+  <meta name="twitter:description" content="94.9 The Outlaw"/>
+  <meta name="twitter:card" content="summary_large_image"/>
+ <!-- SEO -->
+ <!-- Misc. tags -->
+<!-- END - Facebook Open Graph, Google+ and Twitter Card Tags 2.0.4 -->
+
+
+</head><!-- End <head> -->
+
+<body class="home page-template-default page page-id-27 custom responsive-grid-enabled responsive-grid-active pageid-27 page-slug-home layout-front_page layout-using-front_page builder-parallax-scrolling-active" itemscope itemtype="http://schema.org/WebPage">
+
+
+<div id="whitewrap">
+
+
+<div id="wrapper-8" class="wrapper wrapper-fluid wrapper-fixed-grid grid-fluid-24-32-10 responsive-grid wrapper-first wrapper-header" data-alias="Wrapper Header">
+
+<div class="grid-container clearfix">
+
+<section class="row row-1">
+
+<section class="column column-1 grid-left-0 grid-width-24">
+<div id="block-27" class="block block-type-custom-code block-fluid-height" data-alias="728x90 Leaderboard Ad">
+<div class="block-content">
+<div align="center"><div id='div-gpt-ad-1418849849333-1'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1418849849333-1'); });
+</script>
+</div></div>
+</div><!-- .block-content -->
+
+</div><!-- #block-27 -->
+
+</section><!-- .column -->
+
+</section><!-- .row -->
+
+
+<section class="row row-2">
+
+<section class="column column-1 grid-left-0 grid-width-5">
+<figure id="block-31" class="logo block block-type-image block-fixed-height" data-alias="Logo" itemscope="" itemtype="http://schema.org/ImageObject">
+<div class="block-content">
+<a href="/" class="image" ><img src="http://cumulus.pro.poolb.tritondigitalcms.com/koli-fm/wp-content/uploads/sites/341/2015/03/site-logo.png#aqua_resizer_image_not_local" alt="" title="" itemprop="contentURL"/></a>
+</div><!-- .block-content -->
+
+</figure><!-- #block-31 -->
+<div id="block-b8z54a44441b0250" class="takeover-left block block-type-custom-code block-fluid-height" data-alias="Skyscraper - Left">
+<div class="block-content">
+<div id='div-gpt-ad-1418849849333-4'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1418849849333-4'); });
+</script>
+</div>
+</div><!-- .block-content -->
+
+</div><!-- #block-b8z54a44441b0250 -->
+
+</section><!-- .column -->
+
+<section class="column column-2 grid-left-0 grid-width-19">
+
+<section class="sub-column sub-column-1 column column-1 grid-width-9 grid-left-0">
+<aside id="block-29" class="on-air block block-type-widget-area block-fluid-height" data-alias="Home - On Air Now" itemscope="" itemtype="http://schema.org/WPSideBar">
+<div class="block-content">
+<ul class="widget-area"><div class="amp-onair-widget" id="amp_onair_widget-2"
+	data-title-now=""
+	data-title-upcoming=""
+	data-title=""
+	data-type="nowplaying"
+	data-change-minutes="5"
+	data-change="0"
+	data-toggle-time="10"
+	data-fields="image,timeslot"
+	data-ajaxurl="http://www.949theoutlaw.com/wp-admin/admin-ajax.php"
+	data-updateurl="http://www.949theoutlaw.com/shows/feed/?type=json"
+	data-memcached="1"
+	data-expiration="1535349600">
+	
+<div class="amp-onair-show nowplaying" >
+
+    <div class="amp-onair-widget-title js-widget-title"></div>
+
+        <div class="amp-onair-show-image">
+                    <img class="js-image amp-onair-show-image-img" src=""  style="display: none" />
+            </div>
+        
+    <div class="amp-onair-show-title">
+            <span class="js-title">Outlaw Country </span>
+        </div>
+    
+        <div class="amp-onair-show-timeslot js-timeslot" >9:00 p.m. - 6:00 a.m.</div>
+        
+        
+    
+</div>
+</div></ul>
+</div><!-- .block-content -->
+
+</aside><!-- #block-29 -->
+
+</section><!-- .sub-column -->
+
+<section class="sub-column sub-column-2 column column-2 grid-width-7 grid-left-0">
+<section id="block-30" class="social-nav block block-type-social block-fixed-height" data-alias="Social Navigation">
+<div class="block-content">
+<div class="social-icons-container"><ul class="social-icons"><li><a href="#"><img src="http://www.949theoutlaw.com/wp-content/uploads/sites/341/2016/05/listen-live.png" title="Listen Live!!" class="img-1"  /></a></li><li><a href="/listen-live-with-alexa"><img src="http://images.tritondigitalcms.com/6616/sites/341/2018/01/02123724/Alexa-Social-Logo-MUSIC.png" alt="Alexa" class="img-2"  /></a></li><li><a href="https://www.facebook.com/pages/949-The-Outlaw/163656098643" target="_blank"><img src="http://cumulus.pro.poolb.tritondigitalcms.com/koli-fm/wp-content/uploads/sites/341/2014/10/facebook.png" title="Like us on Facebook!" class="img-3"  /></a></li><li><a href="https://twitter.com/949theoutlaw" target="_blank"><img src="http://www.949theoutlaw.com/wp-content/uploads/sites/341/2014/10/twitter.png" title="Twitter" class="img-4"  /></a></li><li><a href="http://949theoutlaw.listenernetwork.com/" target="_blank"><img src="http://cumulus.pro.poolb.tritondigitalcms.com/koli-fm/wp-content/uploads/sites/341/2015/01/cumulus-vip.png" title="VIP" class="img-5"  /></a></li></ul></div><!-- .social-icons-container -->
+</div><!-- .block-content -->
+
+</section><!-- #block-30 -->
+
+</section><!-- .sub-column -->
+
+<section class="sub-column sub-column-3 column column-3 grid-width-3 grid-left-0">
+<div id="block-bsx5a7230bc358ee" class="gigya-actions block block-type-custom-code block-fluid-height" data-alias="Gigya Profile Actions">
+<div class="block-content">
+<div class="see-widget" data-see-type="regUi" data-see-loginbonus="false"></div>
+</div><!-- .block-content -->
+
+</div><!-- #block-bsx5a7230bc358ee -->
+
+</section><!-- .sub-column -->
+
+<section class="sub-column sub-column-1 column column-1 grid-width-7 grid-left-12">
+<nav id="block-33" class="nav-search block block-type-navigation block-fluid-height" data-alias="Navigation Search" itemscope="" itemtype="http://schema.org/SiteNavigationElement">
+<div class="block-content">
+<div class="nav-horizontal nav-align-left nav-search-active nav-search-position-left"><div class="nav-search">
+		<form method="get" id="searchform" action="http://www.949theoutlaw.com/">
+			<label for="s" class="assistive-text">Search</label>
+			<input type="text" class="field" name="s" id="s" value="Type to search, then press enter" onclick="if(this.value=='Type to search, then press enter')this.value='';" onblur="if(this.value=='')this.value='Type to search, then press enter';" />
+			<input type="submit" class="submit" name="searchsubmit" id="searchsubmit" value="Search" />
+		</form>
+	</div></div><!-- .nav-horizontal nav-align-left nav-search-active nav-search-position-left -->
+</div><!-- .block-content -->
+
+</nav><!-- #block-33 -->
+
+</section><!-- .sub-column -->
+<nav id="block-32" class="main-nav block block-type-navigation block-fluid-height" data-alias="Main Navigation" itemscope="" itemtype="http://schema.org/SiteNavigationElement">
+<div class="block-content">
+<div class="nav-horizontal nav-align-left"><ul id="menu-main-navigation" class="menu"><li id="menu-item-119" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-119"><a href="http://www.949theoutlaw.com/shows/">Shows</a></li>
+<li id="menu-item-330009" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-330009"><a href="http://www.949theoutlaw.com/around-town/">Around Town</a></li>
+<li id="menu-item-473481" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-473481"><a href="http://www.949theoutlaw.com/category/contests/">Contests</a>
+<ul class="sub-menu">
+	<li id="menu-item-478560" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-478560"><a href="http://www.949theoutlaw.com/category/949-the-outlaw-contest-rules/">949 The Outlaw Contest Rules</a></li>
+</ul>
+</li>
+<li id="menu-item-173373" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-173373"><a href="http://www.949theoutlaw.com/concerts/">Concerts</a></li>
+<li id="menu-item-250376" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-250376"><a href="http://www.949theoutlaw.com/category/news/">News</a></li>
+<li id="menu-item-184816" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-184816"><a href="http://www.949theoutlaw.com/texoma-weather/">Texoma Weather</a></li>
+<li id="menu-item-117" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-117"><a href="http://wichitafalls.sweetdealscumulus.com/">Sweet Deals</a></li>
+<li id="menu-item-310878" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-310878"><a href="http://koli-fm.mygameroom.com">Games</a></li>
+</ul></div><!-- .nav-horizontal nav-align-left -->
+</div><!-- .block-content -->
+
+</nav><!-- #block-32 -->
+
+</section><!-- .column -->
+
+</section><!-- .row -->
+
+
+<section class="row row-3">
+
+<section class="column column-1 grid-left-5 grid-width-5">
+<div id="block-b0b54a44441b2caa" class="takeover-right block block-type-custom-code block-fluid-height" data-alias="Skyscraper - Right">
+<div class="block-content">
+<div id='div-gpt-ad-1418849849333-5'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1418849849333-5'); });
+</script>
+</div>
+</div><!-- .block-content -->
+
+</div><!-- #block-b0b54a44441b2caa -->
+
+</section><!-- .column -->
+
+</section><!-- .row -->
+
+
+</div><!-- .grid-container -->
+
+</div><!-- .wrapper -->
+
+<div id="wrapper-9" class="wrapper wrapper-fluid wrapper-fixed-grid grid-fluid-24-32-10 responsive-grid wrapper-content" data-alias="Wrapper Content">
+
+<div class="grid-container clearfix">
+
+<section class="row row-1">
+
+<section class="column column-1 grid-left-0 grid-width-16">
+<aside id="block-35" class="promo-reel block block-type-widget-area block-fluid-height" data-alias="Home - Promo Reel" itemscope="" itemtype="http://schema.org/WPSideBar">
+<div class="block-content">
+<ul class="widget-area"><li id="amp_promo_reel-2" class="widget widget_amp_promo_reel sidebar_promo">
+<div class="sliderWrapper"><div class="sliderBody" style=""><div class="bxslider" data-navigation-arrows='1' data-rotation-time='5000' data-pager-type='none'><div class="sliderItem" style="background-image: url(http://images.tritondigitalcms.com/6616/sites/341/2018/08/19203720/casey2.jpg);background-color: #000;background-repeat: no-repeat;background-size: contain;background-position: 50% 50%;position: relative;height: 300px;cursor: pointer;" onclick="window.location='http://www.949theoutlaw.com/?p=493229'"><div class="promoCaption bottom"><div class="captionTitle">Casey Donahew Is Coming To Wichita Falls!</div><div class="captionTeaser">We've Got Your Chance To Win Tickets!</div></div></div><div class="sliderItem" style="background-image: url(http://images.tritondigitalcms.com/6616/sites/341/2015/03/27090334/photo-20130917022621.jpg);background-color: #000;background-repeat: no-repeat;background-size: contain;background-position: 50% 50%;position: relative;height: 300px;cursor: pointer;" onclick="window.location='http://www.949theoutlaw.com/shows/james-cook-and-the-way-too-early-show/'"><div class="promoCaption bottom"><div class="captionTitle">Wake Up With The Way Too Early Show!</div><div class="captionTeaser">Weekdays Mornings 6-10!</div></div></div><div class="sliderItem" style="background-image: url(http://images.tritondigitalcms.com/6616/sites/341/2016/12/27083841/big2.jpg);background-color: #000;background-repeat: no-repeat;background-size: contain;background-position: 50% 50%;position: relative;height: 300px;cursor: pointer;" onclick="window.location='http://www.949theoutlaw.com/shows/big-jim-russell-3/'"><div class="promoCaption bottom"><div class="captionTitle">Wrap Up Your Workday And Ride Home With Big Jim!</div><div class="captionTeaser">Listen Every Afternoon 2-6! </div></div></div><div class="sliderItem" style="background-image: url(http://images.tritondigitalcms.com/6616/sites/341/2017/06/20134309/wfdowntown.jpg);background-color: #000;background-repeat: no-repeat;background-size: contain;background-position: 50% 50%;position: relative;height: 300px;cursor: pointer;" onclick="window.location='http://www.949theoutlaw.com/texoma-weather/'"><div class="promoCaption bottom"><div class="captionTitle">TEXOMA WEATHER</div><div class="captionTeaser">Check Texoma Radar Weather Here!</div></div></div><div class="sliderItem" style="background-image: url(http://images.tritondigitalcms.com/6616/sites/341/2018/08/06101455/jerrodmedulla1.jpg);background-color: #000;background-repeat: no-repeat;background-size: contain;background-position: 50% 50%;position: relative;height: 300px;cursor: pointer;" onclick="window.open('http://www.texasregionalradio.com/top100.asp', '_blank')"><div class="promoCaption bottom"><div class="captionTitle">Texas Regional Radio Report</div><div class="captionTeaser">Jerrod Medulla Checks In This Week At #1!</div></div></div><div class="sliderItem" style="background-image: url(http://images.tritondigitalcms.com/6616/2018/08/21155322/Miranda-PromoReel1.jpg);background-color: #000;background-repeat: no-repeat;background-size: cover;background-position: 50% 50%;position: relative;height: 300px;cursor: pointer;" onclick="window.location='http://www.949theoutlaw.com/2018/08/24/miranda-t2w/'"><div class="promoCaption bottom"><div class="captionTitle">Text to Win!</div></div></div><div class="sliderItem" style="background-image: url(http://images.tritondigitalcms.com/6616/2018/08/17193903/LaborDay-PromoReel.jpg);background-color: #000;background-repeat: no-repeat;background-size: cover;background-position: 50% 50%;position: relative;height: 300px;cursor: pointer;" onclick="window.location='http://www.949theoutlaw.com/2018/08/20/ultimate-labor-day/'"><div class="promoCaption bottom"><div class="captionTitle">Enter to win $2k!</div></div></div></div></div></div></li><!-- .widget -->
+</ul>
+</div><!-- .block-content -->
+
+</aside><!-- #block-35 -->
+<div id="block-75" class="mobile-only block block-type-custom-code block-fluid-height" data-alias="Responsive Ad">
+<div class="block-content">
+<div id='div-gpt-ad-1418849849333-18'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1418849849333-18'); });
+</script>
+</div>
+</div><!-- .block-content -->
+
+</div><!-- #block-75 -->
+<div id="block-9" class="300x250-ad-1-r block block-type-custom-code block-fluid-height responsive-block-hiding-device-smartphones responsive-block-hiding-device-tablets-landscape responsive-block-hiding-device-tablets-portrait responsive-block-hiding-device-computers" data-alias="">
+<div class="block-content">
+<p>There is no custom code to display.</p>
+</div><!-- .block-content -->
+
+</div><!-- #block-9 -->
+<div id="block-11" class="sweet-deals-ad-r block block-type-custom-code block-fluid-height responsive-block-hiding-device-smartphones responsive-block-hiding-device-tablets-landscape responsive-block-hiding-device-tablets-portrait responsive-block-hiding-device-computers" data-alias="">
+<div class="block-content">
+<p>There is no custom code to display.</p>
+</div><!-- .block-content -->
+
+</div><!-- #block-11 -->
+<div id="block-39" class="top-stories block block-type-content block-fluid-height" data-alias="Top Stories">
+<div class="block-content">
+<h1 class="block-title"><span>Top Stories</span></h1><div class="loop">
+
+<div class="entry-row">
+
+<article id="post-493666" class="post-493666 post type-post status-publish format-standard has-post-thumbnail hentry category-top-stories category-uncategorized author-lauraliles custom-query" itemscope itemtype="http://schema.org/BlogPosting">
+			<a href="http://www.949theoutlaw.com/2018/08/23/see-shooter-jennings-rowdy-bound-ta-git-down-on-conan/" class="post-thumbnail post-thumbnail-left">
+				<img src="http://images.tritondigitalcms.com/6616/sites/341/2018/03/08122716/shootergetty.jpg" alt="See Shooter Jennings’ Rowdy ‘Bound Ta Git Down’ On ‘Conan’" width="auto" height="auto" itemprop="image" />
+			</a>
+		<header><h2 class="entry-title" itemprop="headline"><a href="http://www.949theoutlaw.com/2018/08/23/see-shooter-jennings-rowdy-bound-ta-git-down-on-conan/" title="See Shooter Jennings’ Rowdy ‘Bound Ta Git Down’ On ‘Conan’" rel="bookmark">See Shooter Jennings’ Rowdy ‘Bound Ta Git Down’ On ‘Conan’</a></h2></header><div class="entry-summary entry-content" itemprop="text"><p>Fresh from releasing his new album Shooter on August 10th, Shooter Jennings stopped by ConanTuesday night for an amped-up performance of “Bound Ta Git Down,” which shares its name with his new North American tour. Watch his performance here.<span class="more-link-ellipsis">&#8230;  </span><a href="http://www.949theoutlaw.com/2018/08/23/see-shooter-jennings-rowdy-bound-ta-git-down-on-conan/" class="more-link">More</a></p>
+</div><!-- .entry-summary.entry-content --></article><!-- #post-493666 --><article id="post-493242" class="post-493242 post type-post status-publish format-standard has-post-thumbnail hentry category-top-stories category-uncategorized author-lauraliles alt custom-query" itemscope itemtype="http://schema.org/BlogPosting">
+			<a href="http://www.949theoutlaw.com/2018/08/20/cody-jinks-loud-and-heavy-fest-is-outlaw-alternative-to-status-quo/" class="post-thumbnail post-thumbnail-left">
+				<img src="http://images.tritondigitalcms.com/6616/sites/341/2018/08/20105059/codygetty.jpg" alt="Cody Jinks’ Loud And Heavy Fest Is Outlaw Alternative to Status Quo" width="auto" height="auto" itemprop="image" />
+			</a>
+		<header><h2 class="entry-title" itemprop="headline"><a href="http://www.949theoutlaw.com/2018/08/20/cody-jinks-loud-and-heavy-fest-is-outlaw-alternative-to-status-quo/" title="Cody Jinks’ Loud And Heavy Fest Is Outlaw Alternative to Status Quo" rel="bookmark">Cody Jinks’ Loud And Heavy Fest Is Outlaw Alternative to Status Quo</a></h2></header><div class="entry-summary entry-content" itemprop="text"><p>Cody Jinks started to let loose as his inaugural Loud and Heavy Fest wound down in Fort Worth, Texas, on Saturday night. With his hometown skyline for a backdrop, the 38-year-old country singer wanted his fans to join in on a song that may as well be his anthem, “Cast No Stones.” “Alright, your turn!” Jinks&hellip;<span class="more-link-ellipsis">&#8230;  </span><a href="http://www.949theoutlaw.com/2018/08/20/cody-jinks-loud-and-heavy-fest-is-outlaw-alternative-to-status-quo/" class="more-link">More</a></p>
+</div><!-- .entry-summary.entry-content --></article><!-- #post-493242 -->
+
+</div><!-- .entry-row -->
+
+
+
+<div class="entry-row">
+
+<article id="post-493154" class="post-493154 post type-post status-publish format-standard has-post-thumbnail hentry category-top-stories category-uncategorized author-lauraliles custom-query" itemscope itemtype="http://schema.org/BlogPosting">
+			<a href="http://www.949theoutlaw.com/2018/08/14/how-shooter-jennings-mixes-outlaw-country-nerdy-cool-on-new-album/" class="post-thumbnail post-thumbnail-left">
+				<img src="http://images.tritondigitalcms.com/6616/sites/341/2018/03/08122716/shootergetty.jpg" alt="How Shooter Jennings Mixes Outlaw Country, Nerdy Cool On New Album" width="auto" height="auto" itemprop="image" />
+			</a>
+		<header><h2 class="entry-title" itemprop="headline"><a href="http://www.949theoutlaw.com/2018/08/14/how-shooter-jennings-mixes-outlaw-country-nerdy-cool-on-new-album/" title="How Shooter Jennings Mixes Outlaw Country, Nerdy Cool On New Album" rel="bookmark">How Shooter Jennings Mixes Outlaw Country, Nerdy Cool On New Album</a></h2></header><div class="entry-summary entry-content" itemprop="text"><p>Shooter Jennings wants to tour with robots. Which, if you’ve been following the songwriter’s eclectic career, makes complete and perfect sense. While he may be the son of leather-and-lace country couple Waylon Jennings and Jessi Colter, the 39-year-old is less inspired by the outlaw Seventies than he is the outsized Eighties. He’s obsessed with vintage video&hellip;<span class="more-link-ellipsis">&#8230;  </span><a href="http://www.949theoutlaw.com/2018/08/14/how-shooter-jennings-mixes-outlaw-country-nerdy-cool-on-new-album/" class="more-link">More</a></p>
+</div><!-- .entry-summary.entry-content --></article><!-- #post-493154 --><article id="post-485966" class="post-485966 post type-post status-publish format-standard has-post-thumbnail hentry category-top-stories category-uncategorized author-lauraliles alt custom-query" itemscope itemtype="http://schema.org/BlogPosting">
+			<a href="http://www.949theoutlaw.com/2018/06/15/hear-cody-jinks-brooding-new-song-must-be-the-whiskey/" class="post-thumbnail post-thumbnail-left">
+				<img src="http://images.tritondigitalcms.com/6616/sites/341/2018/06/15140318/cody.jpg" alt="Hear Cody Jinks&#8217; Brooding New Song &#8216;Must Be The Whiskey&#8217;" width="auto" height="auto" itemprop="image" />
+			</a>
+		<header><h2 class="entry-title" itemprop="headline"><a href="http://www.949theoutlaw.com/2018/06/15/hear-cody-jinks-brooding-new-song-must-be-the-whiskey/" title="Hear Cody Jinks&#8217; Brooding New Song &#8216;Must Be The Whiskey&#8217;" rel="bookmark">Hear Cody Jinks&#8217; Brooding New Song &#8216;Must Be The Whiskey&#8217;</a></h2></header><div class="entry-summary entry-content" itemprop="text"><p>Cody Jinks is never one for pretense, but he cuts to the quick on moody slow-burner &#8220;Must Be the Whiskey,&#8221; the no-nonsense new single from his just announced LP, Lifers. The first song to receive an official release from Lifers – the eighth album from the thrash-metal singer turned indie-country outlaw – chugs along with a martial, and&hellip;<span class="more-link-ellipsis">&#8230;  </span><a href="http://www.949theoutlaw.com/2018/06/15/hear-cody-jinks-brooding-new-song-must-be-the-whiskey/" class="more-link">More</a></p>
+</div><!-- .entry-summary.entry-content --></article><!-- #post-485966 -->
+
+</div><!-- .entry-row -->
+
+
+
+<div class="entry-row">
+
+<article id="post-481978" class="post-481978 post type-post status-publish format-standard has-post-thumbnail hentry category-top-stories category-uncategorized author-lauraliles custom-query" itemscope itemtype="http://schema.org/BlogPosting">
+			<a href="http://www.949theoutlaw.com/2018/04/26/hear-cody-canada-and-the-departeds-biting-new-song-lipstick/" class="post-thumbnail post-thumbnail-left">
+				<img src="http://images.tritondigitalcms.com/6616/sites/341/2018/04/26131221/codyyoutube.jpg" alt="Hear Cody Canada And The Departed&#8217;s Biting New Song &#8216;Lipstick&#8217;" width="auto" height="auto" itemprop="image" />
+			</a>
+		<header><h2 class="entry-title" itemprop="headline"><a href="http://www.949theoutlaw.com/2018/04/26/hear-cody-canada-and-the-departeds-biting-new-song-lipstick/" title="Hear Cody Canada And The Departed&#8217;s Biting New Song &#8216;Lipstick&#8217;" rel="bookmark">Hear Cody Canada And The Departed&#8217;s Biting New Song &#8216;Lipstick&#8217;</a></h2></header><div class="entry-summary entry-content" itemprop="text"><p>Cody Canada, a poster child of the Red Dirt scene as the front man of Cross Canadian Ragweed, is returning to the fray with his band the Departed and their first LP of new material in three years, 3. With the news comes the album&#8217;s first song, a winding country rocker called &#8220;Lipstick.&#8221; Read more about&hellip;<span class="more-link-ellipsis">&#8230;  </span><a href="http://www.949theoutlaw.com/2018/04/26/hear-cody-canada-and-the-departeds-biting-new-song-lipstick/" class="more-link">More</a></p>
+</div><!-- .entry-summary.entry-content --></article><!-- #post-481978 --><article id="post-480753" class="post-480753 post type-post status-publish format-standard has-post-thumbnail hentry category-top-stories category-uncategorized author-lauraliles alt custom-query" itemscope itemtype="http://schema.org/BlogPosting">
+			<a href="http://www.949theoutlaw.com/2018/04/10/hear-jason-bolands-honky-tonk-love-song-with-sunny-sweeney-i-dont-deserve-you/" class="post-thumbnail post-thumbnail-left">
+				<img src="http://images.tritondigitalcms.com/6616/sites/341/2018/04/10124704/jasonbolandgetty.jpg" alt="Hear Jason Boland&#8217;s Honky-Tonk Love Song With Sunny Sweeney &#8216;I Don&#8217;t Deserve You&#8217;" width="auto" height="auto" itemprop="image" />
+			</a>
+		<header><h2 class="entry-title" itemprop="headline"><a href="http://www.949theoutlaw.com/2018/04/10/hear-jason-bolands-honky-tonk-love-song-with-sunny-sweeney-i-dont-deserve-you/" title="Hear Jason Boland&#8217;s Honky-Tonk Love Song With Sunny Sweeney &#8216;I Don&#8217;t Deserve You&#8217;" rel="bookmark">Hear Jason Boland&#8217;s Honky-Tonk Love Song With Sunny Sweeney &#8216;I Don&#8217;t Deserve You&#8217;</a></h2></header><div class="entry-summary entry-content" itemprop="text"><p>Red Dirt country singer Jason Boland is thankful for all the good things that have come his way during his 20-year career – especially his wife Mandy, the inspiration behind his atypical honky-tonk love song &#8220;I Don&#8217;t Deserve You.&#8221; Rather than take the tried-and-true approach to a love song, Boland singles out not the things&hellip;<span class="more-link-ellipsis">&#8230;  </span><a href="http://www.949theoutlaw.com/2018/04/10/hear-jason-bolands-honky-tonk-love-song-with-sunny-sweeney-i-dont-deserve-you/" class="more-link">More</a></p>
+</div><!-- .entry-summary.entry-content --></article><!-- #post-480753 -->
+
+</div><!-- .entry-row -->
+
+
+
+<div class="entry-row">
+
+<article id="post-480409" class="post-480409 post type-post status-publish format-standard has-post-thumbnail hentry category-top-stories category-uncategorized author-lauraliles custom-query" itemscope itemtype="http://schema.org/BlogPosting">
+			<a href="http://www.949theoutlaw.com/2018/04/02/jason-isbell-billy-joe-shaver-lead-country-music-hall-of-fame-outlaws-concert/" class="post-thumbnail post-thumbnail-left">
+				<img src="http://images.tritondigitalcms.com/6616/sites/341/2018/04/02130440/jasonisbellgetty.jpg" alt="Jason Isbell, Billy Joe Shaver Lead Country Music Hall Of Fame &#8216;Outlaws&#8217; Concert" width="auto" height="auto" itemprop="image" />
+			</a>
+		<header><h2 class="entry-title" itemprop="headline"><a href="http://www.949theoutlaw.com/2018/04/02/jason-isbell-billy-joe-shaver-lead-country-music-hall-of-fame-outlaws-concert/" title="Jason Isbell, Billy Joe Shaver Lead Country Music Hall Of Fame &#8216;Outlaws&#8217; Concert" rel="bookmark">Jason Isbell, Billy Joe Shaver Lead Country Music Hall Of Fame &#8216;Outlaws&#8217; Concert</a></h2></header><div class="entry-summary entry-content" itemprop="text"><p>The expansive new Outlaws &amp; Armadillos: Country&#8217;s Roaring &#8217;70s exhibit at the Country Music Hall of Fame and Museum will launch this May with the help of an all-star concert organized by Dave Cobb and Shooter Jennings. Among the performers: Jason Isbell, Billy Joe Shaver, Bobby Bare and Jamey Johnson. Set to open May 25th,&hellip;<span class="more-link-ellipsis">&#8230;  </span><a href="http://www.949theoutlaw.com/2018/04/02/jason-isbell-billy-joe-shaver-lead-country-music-hall-of-fame-outlaws-concert/" class="more-link">More</a></p>
+</div><!-- .entry-summary.entry-content --></article><!-- #post-480409 --><article id="post-479933" class="post-479933 post type-post status-publish format-standard has-post-thumbnail hentry category-top-stories category-uncategorized author-lauraliles alt custom-query" itemscope itemtype="http://schema.org/BlogPosting">
+			<a href="http://www.949theoutlaw.com/2018/03/27/josh-abbott-band-drops-new-lyric-video-girl-down-in-texas/" class="post-thumbnail post-thumbnail-left">
+				<img src="http://images.tritondigitalcms.com/6616/sites/341/2018/03/27104116/joshabbottbandalbumcover-300x300.jpg" alt="Josh Abbott Band Drops New Lyric Video, &#8220;Girl Down In Texas&#8221;" width="auto" height="auto" itemprop="image" />
+			</a>
+		<header><h2 class="entry-title" itemprop="headline"><a href="http://www.949theoutlaw.com/2018/03/27/josh-abbott-band-drops-new-lyric-video-girl-down-in-texas/" title="Josh Abbott Band Drops New Lyric Video, &#8220;Girl Down In Texas&#8221;" rel="bookmark">Josh Abbott Band Drops New Lyric Video, &#8220;Girl Down In Texas&#8221;</a></h2></header><div class="entry-summary entry-content" itemprop="text"><p>Josh Abbott Band dropped their new lyric video for their latest single &#8220;Girl Down In Texas&#8221;.  The video features Texas native and A&amp;M alum, Emily Herren. Herren is a Katy, Texas native and after graduation moved back to the Houston area where she writes a fashion blog. Josh and the guys are still in the&hellip;<span class="more-link-ellipsis">&#8230;  </span><a href="http://www.949theoutlaw.com/2018/03/27/josh-abbott-band-drops-new-lyric-video-girl-down-in-texas/" class="more-link">More</a></p>
+</div><!-- .entry-summary.entry-content --></article><!-- #post-479933 -->
+
+</div><!-- .entry-row -->
+
+</div>
+</div><!-- .block-content -->
+
+</div><!-- #block-39 -->
+<div id="block-b2y578cfecb682c2" class="top-stories block block-type-content block-fluid-height" data-alias="Nash Country Daily">
+<div class="block-content">
+<h1 class="block-title"><span>Nash Country Daily</span></h1><div class="loop">
+
+<div class="entry-row">
+
+<article id="post-493698" class="post-493698 post type-post status-publish format-standard has-post-thumbnail hentry category-ncd-news tag-keith-urban tag-never-comin-down tag-video author-jcasey custom-query" itemscope itemtype="http://schema.org/BlogPosting">
+			<a href="http://www.949theoutlaw.com/2018/08/23/keith-urban-drops-dance-happy-new-video-for-never-comin-down-watch/" class="post-thumbnail post-thumbnail-left">
+				<img src="http://images.tritondigitalcms.com/6616/sites/1446/2018/08/23131027/Keith-Urban-TA1.jpg" alt="Keith Urban Drops Dance-Happy New Video for &#8220;Never Comin&#8217; Down&#8221; [Watch]" width="auto" height="auto" itemprop="image" />
+			</a>
+		<header><h2 class="entry-title" itemprop="headline"><a href="http://www.949theoutlaw.com/2018/08/23/keith-urban-drops-dance-happy-new-video-for-never-comin-down-watch/" title="Keith Urban Drops Dance-Happy New Video for &#8220;Never Comin&#8217; Down&#8221; [Watch]" rel="bookmark">Keith Urban Drops Dance-Happy New Video for &#8220;Never Comin&#8217; Down&#8221; [Watch]</a></h2></header><div class="entry-summary entry-content" itemprop="text"><p>After topping the Mediabase chart with “Coming Home” earlier this month, Keith Urban is “Never Comin’ Down.” Keith&#8217;s new single, which he co-penned with Josh Kerr, James Abrahart and Shy Carter, is the third single from his 2018 album, Graffiti U, following “Female” and the aforementioned “Coming Home.” Keith dropped a dance-happy new video for&hellip;<span class="more-link-ellipsis">&#8230;  </span><a href="http://www.949theoutlaw.com/2018/08/23/keith-urban-drops-dance-happy-new-video-for-never-comin-down-watch/" class="more-link">More</a></p>
+</div><!-- .entry-summary.entry-content --></article><!-- #post-493698 --><article id="post-493691" class="post-493691 post type-post status-publish format-standard has-post-thumbnail hentry category-ncd-news tag-acm-honors tag-chris-stapleton tag-darius-rucker tag-dierks-bentley tag-jon-pardi tag-kelsea-ballerini tag-kip-moore tag-lindsay-ell tag-morgan-evans tag-sam-hunt author-jcasey alt custom-query" itemscope itemtype="http://schema.org/BlogPosting">
+			<a href="http://www.949theoutlaw.com/2018/08/23/highlights-from-the-acm-honors-ceremony-including-chris-stapleton-jon-pardi-lauren-alaina-sam-hunt-more-photo-gallery/" class="post-thumbnail post-thumbnail-left">
+				<img src="http://images.tritondigitalcms.com/6616/sites/1446/2018/08/23120021/Chris-Stapleton.jpg" alt="Highlights From the ACM Honors Ceremony, Including Chris Stapleton, Jon Pardi, Lauren Alaina, Sam Hunt &#038; More [Photo Gallery]" width="auto" height="auto" itemprop="image" />
+			</a>
+		<header><h2 class="entry-title" itemprop="headline"><a href="http://www.949theoutlaw.com/2018/08/23/highlights-from-the-acm-honors-ceremony-including-chris-stapleton-jon-pardi-lauren-alaina-sam-hunt-more-photo-gallery/" title="Highlights From the ACM Honors Ceremony, Including Chris Stapleton, Jon Pardi, Lauren Alaina, Sam Hunt &#038; More [Photo Gallery]" rel="bookmark">Highlights From the ACM Honors Ceremony, Including Chris Stapleton, Jon Pardi, Lauren Alaina, Sam Hunt &#038; More [Photo Gallery]</a></h2></header><div class="entry-summary entry-content" itemprop="text"><p>The Academy of Country Music hosted the 12th annual ACM Honors ceremony on Aug. 22 at Nashville’s Ryman Auditorium to recognize the special honorees and off-camera category winners from the 53rd ACM Awards. Hosted by Lauren Alaina and Jon Pardi, the ceremony paid tribute to a number of artists for their specific achievements, including Alan&hellip;<span class="more-link-ellipsis">&#8230;  </span><a href="http://www.949theoutlaw.com/2018/08/23/highlights-from-the-acm-honors-ceremony-including-chris-stapleton-jon-pardi-lauren-alaina-sam-hunt-more-photo-gallery/" class="more-link">More</a></p>
+</div><!-- .entry-summary.entry-content --></article><!-- #post-493691 -->
+
+</div><!-- .entry-row -->
+
+
+
+<div class="entry-row">
+
+<article id="post-493679" class="post-493679 post type-post status-publish format-standard has-post-thumbnail hentry category-ncd-news tag-acm-honors tag-cam tag-cassadee-pope tag-darius-rucker tag-dierks-bentley tag-dustin-lynch tag-jon-pardi tag-kelsea-ballerini tag-lindsal-ell tag-morgan-evans author-jcasey custom-query" itemscope itemtype="http://schema.org/BlogPosting">
+			<a href="http://www.949theoutlaw.com/2018/08/23/63-of-our-favorite-red-carpet-photos-from-the-acm-honors-including-dierks-darius-dustin-kelsea-kip-cam-more/" class="post-thumbnail post-thumbnail-left">
+				<img src="http://images.tritondigitalcms.com/6616/sites/1446/2018/08/23092311/Kelsea-Darius-Dustin.jpg" alt="63 of Our Favorite Red Carpet Photos From the ACM Honors, Including Dierks, Darius, Dustin, Kelsea, Kip, Cam &#038; More" width="auto" height="auto" itemprop="image" />
+			</a>
+		<header><h2 class="entry-title" itemprop="headline"><a href="http://www.949theoutlaw.com/2018/08/23/63-of-our-favorite-red-carpet-photos-from-the-acm-honors-including-dierks-darius-dustin-kelsea-kip-cam-more/" title="63 of Our Favorite Red Carpet Photos From the ACM Honors, Including Dierks, Darius, Dustin, Kelsea, Kip, Cam &#038; More" rel="bookmark">63 of Our Favorite Red Carpet Photos From the ACM Honors, Including Dierks, Darius, Dustin, Kelsea, Kip, Cam &#038; More</a></h2></header><div class="entry-summary entry-content" itemprop="text"><p>Before the 12th annual ACM Honors ceremony kicked off in Nashville on Aug. 22, many country stars walked the red carpet outside the historic Ryman Auditorium. The evening was dedicated to the special honorees and off-camera category winners from the 53rd ACM Awards. The ACM Honors paid tribute to a number of artists for their specific&hellip;<span class="more-link-ellipsis">&#8230;  </span><a href="http://www.949theoutlaw.com/2018/08/23/63-of-our-favorite-red-carpet-photos-from-the-acm-honors-including-dierks-darius-dustin-kelsea-kip-cam-more/" class="more-link">More</a></p>
+</div><!-- .entry-summary.entry-content --></article><!-- #post-493679 --><article id="post-493568" class="post-493568 post type-post status-publish format-standard has-post-thumbnail hentry category-ncd-news tag-loretta-lynn tag-wouldnt-it-be-great author-jcasey alt custom-query" itemscope itemtype="http://schema.org/BlogPosting">
+			<a href="http://www.949theoutlaw.com/2018/08/22/loretta-lynn-announces-sept-28-release-date-of-new-album-wouldnt-it-be-great/" class="post-thumbnail post-thumbnail-left">
+				<img src="http://images.tritondigitalcms.com/6616/sites/1446/2017/10/03121403/Loretta-Lynn.jpg" alt="Loretta Lynn Announces Sept. 28 Release Date of New Album, &#8220;Wouldn&#8217;t It Be Great&#8221; [Listen to Title Track]" width="auto" height="auto" itemprop="image" />
+			</a>
+		<header><h2 class="entry-title" itemprop="headline"><a href="http://www.949theoutlaw.com/2018/08/22/loretta-lynn-announces-sept-28-release-date-of-new-album-wouldnt-it-be-great/" title="Loretta Lynn Announces Sept. 28 Release Date of New Album, &#8220;Wouldn&#8217;t It Be Great&#8221; [Listen to Title Track]" rel="bookmark">Loretta Lynn Announces Sept. 28 Release Date of New Album, &#8220;Wouldn&#8217;t It Be Great&#8221; [Listen to Title Track]</a></h2></header><div class="entry-summary entry-content" itemprop="text"><p>More than 15 months after suffering a stroke in May 2017, Loretta Lynn has announced plans to release her new studio album, Wouldn&#8217;t It Be Great, on Sept. 28. The album was originally slated to drop in August 2017, but Loretta&#8217;s recovery rightfully took priority. “This new record means so much to me, but this&hellip;<span class="more-link-ellipsis">&#8230;  </span><a href="http://www.949theoutlaw.com/2018/08/22/loretta-lynn-announces-sept-28-release-date-of-new-album-wouldnt-it-be-great/" class="more-link">More</a></p>
+</div><!-- .entry-summary.entry-content --></article><!-- #post-493568 -->
+
+</div><!-- .entry-row -->
+
+
+
+<div class="entry-row">
+
+<article id="post-493551" class="post-493551 post type-post status-publish format-standard has-post-thumbnail hentry category-ncd-news tag-ben-folds tag-brenda-lee tag-jeannie-seely tag-ray-stevens tag-walk-of-fame author-jcasey custom-query" itemscope itemtype="http://schema.org/BlogPosting">
+			<a href="http://www.949theoutlaw.com/2018/08/22/ray-stevens-jeannie-seely-brenda-lee-ben-folds-inducted-into-music-city-walk-of-fame-photo-gallery/" class="post-thumbnail post-thumbnail-left">
+				<img src="http://images.tritondigitalcms.com/6616/sites/1446/2018/08/22112209/Ray-Stevens1.jpg" alt="Ray Stevens, Jeannie Seely, Brenda Lee &#038; Ben Folds Inducted Into Music City Walk of Fame [Photo Gallery]" width="auto" height="auto" itemprop="image" />
+			</a>
+		<header><h2 class="entry-title" itemprop="headline"><a href="http://www.949theoutlaw.com/2018/08/22/ray-stevens-jeannie-seely-brenda-lee-ben-folds-inducted-into-music-city-walk-of-fame-photo-gallery/" title="Ray Stevens, Jeannie Seely, Brenda Lee &#038; Ben Folds Inducted Into Music City Walk of Fame [Photo Gallery]" rel="bookmark">Ray Stevens, Jeannie Seely, Brenda Lee &#038; Ben Folds Inducted Into Music City Walk of Fame [Photo Gallery]</a></h2></header><div class="entry-summary entry-content" itemprop="text"><p>The Music City Walk of Fame inducted four new members—Ben Folds, Brenda Lee, Jeannie Seely and Ray Stevens—during a ceremony on Aug. 21. The Music City Walk of Fame—created in 2006—is a tribute to artists of all genres who have contributed to the world through song and made a significant contribution to the music industry&hellip;<span class="more-link-ellipsis">&#8230;  </span><a href="http://www.949theoutlaw.com/2018/08/22/ray-stevens-jeannie-seely-brenda-lee-ben-folds-inducted-into-music-city-walk-of-fame-photo-gallery/" class="more-link">More</a></p>
+</div><!-- .entry-summary.entry-content --></article><!-- #post-493551 --><article id="post-493545" class="post-493545 post type-post status-publish format-standard has-post-thumbnail hentry category-ncd-news tag-abby-anderson tag-criminal tag-kristian-bush tag-lindsay-ell author-jcasey alt custom-query" itemscope itemtype="http://schema.org/BlogPosting">
+			<a href="http://www.949theoutlaw.com/2018/08/22/watch-lindsay-ell-perform-criminal-with-kristian-bush-at-rooftop-concert/" class="post-thumbnail post-thumbnail-left">
+				<img src="http://images.tritondigitalcms.com/6616/sites/1446/2018/08/22094227/Lindsay-Ell-Kristin-Bush-TA.jpg" alt="Watch Lindsay Ell Perform &#8220;Criminal&#8221; With Kristian Bush at Rooftop Concert" width="auto" height="auto" itemprop="image" />
+			</a>
+		<header><h2 class="entry-title" itemprop="headline"><a href="http://www.949theoutlaw.com/2018/08/22/watch-lindsay-ell-perform-criminal-with-kristian-bush-at-rooftop-concert/" title="Watch Lindsay Ell Perform &#8220;Criminal&#8221; With Kristian Bush at Rooftop Concert" rel="bookmark">Watch Lindsay Ell Perform &#8220;Criminal&#8221; With Kristian Bush at Rooftop Concert</a></h2></header><div class="entry-summary entry-content" itemprop="text"><p>Broadcast Music, Inc. (BMI) held its fifth of six Rooftop on the Row concerts on Aug. 21 in Nashville. Abby Anderson kicked off the night’s festivities atop the BMI building, before Lindsay Ell headlined the event with special guest Kristian Bush of Sugarland. Lindsay treated the concertgoers to a number of tunes from her 2017&hellip;<span class="more-link-ellipsis">&#8230;  </span><a href="http://www.949theoutlaw.com/2018/08/22/watch-lindsay-ell-perform-criminal-with-kristian-bush-at-rooftop-concert/" class="more-link">More</a></p>
+</div><!-- .entry-summary.entry-content --></article><!-- #post-493545 -->
+
+</div><!-- .entry-row -->
+
+
+
+<div class="entry-row">
+
+<article id="post-493566" class="post-493566 post type-post status-publish format-standard has-post-thumbnail hentry category-ncd-news tag-gretchen-wilson author-jcasey custom-query" itemscope itemtype="http://schema.org/BlogPosting">
+			<a href="http://www.949theoutlaw.com/2018/08/22/gretchen-wilson-arrested-at-connecticut-airport-for-minor-disturbance/" class="post-thumbnail post-thumbnail-left">
+				<img src="http://images.tritondigitalcms.com/6616/sites/1446/2017/06/26082714/Gretchen-Wilson.jpg" alt="Gretchen Wilson Arrested at Connecticut Airport for Minor Disturbance" width="auto" height="auto" itemprop="image" />
+			</a>
+		<header><h2 class="entry-title" itemprop="headline"><a href="http://www.949theoutlaw.com/2018/08/22/gretchen-wilson-arrested-at-connecticut-airport-for-minor-disturbance/" title="Gretchen Wilson Arrested at Connecticut Airport for Minor Disturbance" rel="bookmark">Gretchen Wilson Arrested at Connecticut Airport for Minor Disturbance</a></h2></header><div class="entry-summary entry-content" itemprop="text"><p>&#8220;Redneck Woman&#8221; singer Gretchen Wilson was arrested for &#8220;breach of peace&#8221; at Bradley International Airport in Windsor Locks, Connecticut, on Aug. 21. TMZ reports that the on-flight disturbance was the result of Gretchen trying to use an occupied bathroom—words and threatening hand gestures were exchanged in the aftermath. Gretchen was subsequently arrested and charged with&hellip;<span class="more-link-ellipsis">&#8230;  </span><a href="http://www.949theoutlaw.com/2018/08/22/gretchen-wilson-arrested-at-connecticut-airport-for-minor-disturbance/" class="more-link">More</a></p>
+</div><!-- .entry-summary.entry-content --></article><!-- #post-493566 --><article id="post-493541" class="post-493541 post type-post status-publish format-standard has-post-thumbnail hentry category-ncd-news tag-dustin-lynch tag-grand-ole-opry tag-trace-adkins author-jcasey alt custom-query" itemscope itemtype="http://schema.org/BlogPosting">
+			<a href="http://www.949theoutlaw.com/2018/08/22/dustin-lynch-invited-to-join-the-grand-ole-opry/" class="post-thumbnail post-thumbnail-left">
+				<img src="http://images.tritondigitalcms.com/6616/sites/1446/2018/08/22084834/Dustin-Lynch_opry.jpg" alt="Dustin Lynch Invited to Join the Grand Ole Opry" width="auto" height="auto" itemprop="image" />
+			</a>
+		<header><h2 class="entry-title" itemprop="headline"><a href="http://www.949theoutlaw.com/2018/08/22/dustin-lynch-invited-to-join-the-grand-ole-opry/" title="Dustin Lynch Invited to Join the Grand Ole Opry" rel="bookmark">Dustin Lynch Invited to Join the Grand Ole Opry</a></h2></header><div class="entry-summary entry-content" itemprop="text"><p>More than six years after making his Grand Ole Opry debut on March 2, 2012, Dustin Lynch was invited to join the esteemed organization during last night&#8217;s (Aug. 21) Opry showcase. Dustin received the surprise invite from Trace Adkins, who was celebrating his 15th anniversary as an Opry member. “Being a member of the Grand&hellip;<span class="more-link-ellipsis">&#8230;  </span><a href="http://www.949theoutlaw.com/2018/08/22/dustin-lynch-invited-to-join-the-grand-ole-opry/" class="more-link">More</a></p>
+</div><!-- .entry-summary.entry-content --></article><!-- #post-493541 -->
+
+</div><!-- .entry-row -->
+
+</div>
+</div><!-- .block-content -->
+
+</div><!-- #block-b2y578cfecb682c2 -->
+
+<section class="sub-column sub-column-1 column column-1 grid-width-8 grid-left-0">
+<div id="block-48" class="facebook block block-type-custom-code block-fluid-height" data-alias="Facebook Widget">
+<div class="block-content">
+<div class="fb-page" data-href="https://www.facebook.com/pages/949-The-Outlaw/163656098643" data-width="310" data-height="448" data-hide-cover="true" data-show-facepile="false" data-show-posts="true"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/pages/949-The-Outlaw/163656098643"><a href="https://www.facebook.com/pages/949-The-Outlaw/163656098643">94.9 The Outlaw</a></blockquote></div></div>
+</div><!-- .block-content -->
+
+</div><!-- #block-48 -->
+
+</section><!-- .sub-column -->
+
+<section class="sub-column sub-column-2 column column-2 grid-width-8 grid-left-0">
+<div id="block-49" class="twitter block block-type-custom-code block-fluid-height" data-alias="Twitter Widget">
+<div class="block-content">
+<a class="twitter-timeline" data-height="450" href="https://twitter.com/949theoutlaw">Tweets by 949theoutlaw</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div><!-- .block-content -->
+
+</div><!-- #block-49 -->
+
+</section><!-- .sub-column -->
+
+</section><!-- .column -->
+
+<section class="column column-2 grid-left-0 grid-width-8">
+<div id="block-34" class="300x250-ad-1 block block-type-custom-code block-fluid-height" data-alias="300x250 Ad 1">
+<div class="block-content">
+<div id='div-gpt-ad-1418849849333-0'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1418849849333-0'); });
+</script>
+</div>
+</div><!-- .block-content -->
+
+</div><!-- #block-34 -->
+<div id="block-38" class="sweet-deals-ad block block-type-custom-code block-fluid-height" data-alias="Sweet Deals Ad">
+<div class="block-content">
+<a href="http://wichitafalls.sweetdealscumulus.com/"><img src="/wp-content/uploads/sites/341/2014/10/sweetdeals.png"></a>
+</div><!-- .block-content -->
+
+</div><!-- #block-38 -->
+<div id="block-36" class="vip-club-ad block block-type-custom-code block-fluid-height" data-alias="VIP Club Ad">
+<div class="block-content">
+<div id='div-gpt-ad-1418849849333-7'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1418849849333-7'); });
+</script>
+</div>
+</div><!-- .block-content -->
+
+</div><!-- #block-36 -->
+<div id="block-bxz554cf5c9067df" class="blogs block block-type-custom-code block-fluid-height" data-alias="playlist">
+<div class="block-content">
+<h1 class="block-title"><span>Recently Played</span></h1><p><iframe align="top,left" frameborder="0" height="480" id="tunegenie-onair" marginheight="0" marginwidth="0" name="onair" scrolling="no" src="http://koli.tunegenie.com/plugins/onair/?branding=no&amp;colorscheme=light&amp;bg=ffffff" width="310"></iframe></p>
+
+</div><!-- .block-content -->
+
+</div><!-- #block-bxz554cf5c9067df -->
+<div id="block-b2l5afb40134b65d" class="headlines block block-type-custom-code block-fluid-height" data-alias="Sports Videos">
+<div class="block-content">
+<div class='s2nPlayer k-7fz9pzIC' data-type='float'></div><script type='text/javascript' src='//embed.sendtonews.com/player3/embedcode.js?fk=7fz9pzIC&cid=5573&offsetx=0&offsety=80&floatwidth=400&floatposition=bottom-right' data-type='s2nScript'></script>
+</div><!-- .block-content -->
+
+</div><!-- #block-b2l5afb40134b65d -->
+<div id="block-42" class="facebook-ad block block-type-custom-code block-fluid-height" data-alias="Facebook Ad">
+<div class="block-content">
+<div id='div-gpt-ad-1418849849333-8'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1418849849333-8'); });
+</script>
+</div>
+</div><!-- .block-content -->
+
+</div><!-- #block-42 -->
+<div id="block-43" class="headlines block block-type-content block-fluid-height" data-alias="Headlines">
+<div class="block-content">
+<h1 class="block-title"><span>Headlines</span></h1><div class="loop">
+
+<div class="entry-row">
+
+<article id="post-493283" class="post-493283 post type-post status-publish format-standard has-post-thumbnail hentry category-ncd-interviews category-ncd-news tag-elaina-smith tag-sarah-darling tag-women-want-to-hear-women author-esmith custom-query" itemscope itemtype="http://schema.org/BlogPosting"><header><h2 class="entry-title" itemprop="headline"><a href="http://www.949theoutlaw.com/2018/08/20/women-want-to-hear-women-with-elaina-featuring-sarah-darling/" title="&#8220;Women Want to Hear Women With Elaina&#8221; Featuring Sarah Darling" rel="bookmark">&#8220;Women Want to Hear Women With Elaina&#8221; Featuring Sarah Darling</a></h2></header></article><!-- #post-493283 --><article id="post-493205" class="post-493205 post type-post status-publish format-standard has-post-thumbnail hentry category-ncd-news category-ncd-podcasts tag-all-of-it tag-cole-swindell tag-dustin-lynch tag-lauren-alaina tag-reason-to-drink-another-tour author-jcasey alt custom-query" itemscope itemtype="http://schema.org/BlogPosting"><header><h2 class="entry-title" itemprop="headline"><a href="http://www.949theoutlaw.com/2018/08/17/cole-swindell-talks-releasing-his-new-album-all-of-it-getting-back-to-his-songwriting-roots-touring-with-dustin-lynch-more/" title="Cole Swindell Talks Releasing His New Album &#8220;All of It,&#8221; Getting Back to His Songwriting Roots, Touring With Dustin Lynch &#038; More" rel="bookmark">Cole Swindell Talks Releasing His New Album &#8220;All of It,&#8221; Getting Back to His Songwriting Roots, Touring With Dustin Lynch &#038; More</a></h2></header></article><!-- #post-493205 -->
+
+</div><!-- .entry-row -->
+
+
+
+<div class="entry-row">
+
+<article id="post-493184" class="post-493184 post type-post status-publish format-standard has-post-thumbnail hentry category-ncd-news category-ncd-podcasts tag-chris-young tag-kiss-somebody tag-losing-sleep-world-tour tag-morgan-evans author-jcasey custom-query" itemscope itemtype="http://schema.org/BlogPosting"><header><h2 class="entry-title" itemprop="headline"><a href="http://www.949theoutlaw.com/2018/08/15/morgan-evans-talks-aussie-roots-upcoming-album-top-5-single-touring-with-chris-young-more/" title="Morgan Evans Talks Aussie Roots, Upcoming Album, Top 5 Single, Touring With Chris Young &#038; More" rel="bookmark">Morgan Evans Talks Aussie Roots, Upcoming Album, Top 5 Single, Touring With Chris Young &#038; More</a></h2></header></article><!-- #post-493184 --><article id="post-493099" class="post-493099 post type-post status-publish format-standard has-post-thumbnail hentry category-ncd-interviews category-ncd-news tag-selfish tag-stephanie-quayle tag-women-want-to-hear-women author-esmith alt custom-query" itemscope itemtype="http://schema.org/BlogPosting"><header><h2 class="entry-title" itemprop="headline"><a href="http://www.949theoutlaw.com/2018/08/10/women-want-to-hear-women-with-elaina-featuring-stephanie-quayle/" title="&#8220;Women Want to Hear Women With Elaina&#8221; Featuring Stephanie Quayle" rel="bookmark">&#8220;Women Want to Hear Women With Elaina&#8221; Featuring Stephanie Quayle</a></h2></header></article><!-- #post-493099 -->
+
+</div><!-- .entry-row -->
+
+
+
+<div class="entry-row">
+
+<article id="post-492860" class="post-492860 post type-post status-publish format-standard has-post-thumbnail hentry category-ncd-interviews category-ncd-news tag-clare-dunn tag-make-you-feel-my-love tag-more author-esmith custom-query" itemscope itemtype="http://schema.org/BlogPosting"><header><h2 class="entry-title" itemprop="headline"><a href="http://www.949theoutlaw.com/2018/08/03/women-want-to-hear-women-with-elaina-smith-featuring-clare-dunn/" title="&#8220;Women Want to Hear Women With Elaina Smith&#8221; Featuring Clare Dunn" rel="bookmark">&#8220;Women Want to Hear Women With Elaina Smith&#8221; Featuring Clare Dunn</a></h2></header></article><!-- #post-492860 --><article id="post-491801" class="post-491801 post type-post status-publish format-standard has-post-thumbnail hentry category-ncd-interviews category-ncd-news tag-elaina-smith tag-i-know-how-to-make-a-boy-cry tag-tegan-marie tag-women-want-to-hear-women author-esmith alt custom-query" itemscope itemtype="http://schema.org/BlogPosting"><header><h2 class="entry-title" itemprop="headline"><a href="http://www.949theoutlaw.com/2018/07/27/women-want-to-hear-women-with-elaina-smith-featuring-tegan-marie/" title="&#8220;Women Want to Hear Women With Elaina Smith&#8221; Featuring Tegan Marie" rel="bookmark">&#8220;Women Want to Hear Women With Elaina Smith&#8221; Featuring Tegan Marie</a></h2></header></article><!-- #post-491801 -->
+
+</div><!-- .entry-row -->
+
+</div>
+</div><!-- .block-content -->
+
+</div><!-- #block-43 -->
+<div id="block-44" class="twitter-ad block block-type-custom-code block-fluid-height" data-alias="Twitter Ad">
+<div class="block-content">
+<div id='div-gpt-ad-1418849849333-9'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1418849849333-9'); });
+</script>
+</div>
+</div><!-- .block-content -->
+
+</div><!-- #block-44 -->
+<aside id="block-45" class="free-apps block block-type-widget-area block-fluid-height" data-alias="Home - Free Apps" itemscope="" itemtype="http://schema.org/WPSideBar">
+<div class="block-content">
+<h1 class="block-title"><span>Free Apps</span></h1><ul class="widget-area"><li id="text-3" class="widget widget_text">
+			<div class="textwidget"><div align="center">
+<a href="https://itunes.apple.com/us/app/94.9-the-outlaw/id807002835?mt=8&amp;ign-mpt=uo=4" target="_blank"><img src="/wp-content/uploads/sites/341/2014/10/appstore.png" border="0"></a>&nbsp;<a href="https://play.google.com/store/apps/details?id=com.airkast.KOLIFM" target="_blank"><img src="/wp-content/uploads/sites/341/2014/10/googleplay.png" border="0"></a>&nbsp;<a href="http://amazon.com/dp/B00IYXSJE4" target="_blank"><img src="/wp-content/uploads/sites/341/2014/10/amazon.png" border="0"></a>
+</div></div>
+		</li><!-- .widget -->
+	
+<div class="js-amp-poll" data-post-id="" data-poll-id="poll_widget-2" data-max-choices="">
+
+
+<!-- @brian.crigler: before widget, but shouldn't be outside of main container, right? not sure how/why this is necessarsy -->
+<li id="poll_widget-2" class="widget widget_poll_widget">
+
+<!--  before title info -->
+<h3 class="widget-title"><span class="widget-inner">
+<!--  rendered title -->
+New title
+<!--  after title text -->
+</span></h3>
+
+<div class="td-empty-poll">
+<i class="fa fa-clock-o"></i>
+<span>Come back soon to participate in our next poll!</span>
+</div>
+
+</li><!-- .widget -->
+</div>
+</ul>
+</div><!-- .block-content -->
+
+</aside><!-- #block-45 -->
+<div id="block-46" class="300x250-ad-2 block block-type-custom-code block-fluid-height" data-alias="300x250 Ad 2">
+<div class="block-content">
+<div id='div-gpt-ad-1418849849333-3'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1418849849333-3'); });
+</script>
+</div>
+</div><!-- .block-content -->
+
+</div><!-- #block-46 -->
+
+</section><!-- .column -->
+
+</section><!-- .row -->
+
+
+</div><!-- .grid-container -->
+
+</div><!-- .wrapper -->
+
+<div id="wrapper-10" class="wrapper wrapper-fluid wrapper-fixed-grid grid-fluid-24-32-10 responsive-grid wrapper-last wrapper-footer" data-alias="Wrapper Footer">
+
+<div class="grid-container clearfix">
+
+<section class="row row-1">
+
+<section class="column column-1 grid-left-0 grid-width-6">
+<nav id="block-50" class="footer-nav block block-type-navigation block-fluid-height" data-alias="Footer Navigation" itemscope="" itemtype="http://schema.org/SiteNavigationElement">
+<div class="block-content">
+<div class="nav-vertical nav-align-left"><ul id="menu-footer-navigation" class="menu"><li id="menu-item-174444" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-174444"><a href="/1111/11/11/privacy-policy">Privacy Policy</a></li>
+<li id="menu-item-174447" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-174447"><a href="/1111/11/11/terms-of-service">Terms of Service</a></li>
+<li id="menu-item-174450" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-174450"><a href="/1111/11/11/contest-rules">Contest Rules</a></li>
+<li id="menu-item-137" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-137"><a href="http://www.949theoutlaw.com/advertise-with-us/">Advertise With Us</a></li>
+<li id="menu-item-139" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-139"><a href="http://www.949theoutlaw.com/station-information/">Station Information</a></li>
+<li id="menu-item-476854" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-476854"><a href="https://publicfiles.fcc.gov/fm-profile/koli">949 The Outlaw&#8217;s Public File</a></li>
+<li id="menu-item-476855" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-476855"><a href="https://publicfiles.fcc.gov/fm-profile/koli/equal-employment-opportunity-records/">EEO Reports</a></li>
+<li id="menu-item-141" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-141"><a href="https://www.cumulus.com/work-here/">Employment Opportunities</a>
+<ul class="sub-menu">
+	<li id="menu-item-485248" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-485248"><a href="http://www.949theoutlaw.com/category/local-employment-opportunities/">Local Employment Opportunities</a></li>
+</ul>
+</li>
+<li id="menu-item-471386" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-471386"><a target="_blank" href="https://www.cumulus.com">Cumulus Media Corporate</a></li>
+</ul></div><!-- .nav-vertical nav-align-left -->
+</div><!-- .block-content -->
+
+</nav><!-- #block-50 -->
+<div id="block-bqs55cc9bbdb3fa3" class="block block-type-custom-code block-fluid-height" data-alias="Wallpaper Ad">
+<div class="block-content">
+<div id='div-gpt-ad-1418849849333-16'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1418849849333-16'); });
+</script>
+</div>
+</div><!-- .block-content -->
+
+</div><!-- #block-bqs55cc9bbdb3fa3 -->
+
+</section><!-- .column -->
+
+<section class="column column-2 grid-left-0 grid-width-18">
+<div id="block-51" class="728x90-ad-2 block block-type-custom-code block-fluid-height" data-alias="728x90 Ad 2">
+<div class="block-content">
+<div class="footer-728x90-ad" align="right">
+<div id='div-gpt-ad-1418849849333-2'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1418849849333-2'); });
+</script>
+</div>
+</div>
+
+</div><!-- .block-content -->
+
+</div><!-- #block-51 -->
+<footer id="block-52" class="copyright block block-type-footer block-fluid-height" data-alias="Copyright" itemscope="" itemtype="http://schema.org/WPFooter">
+<div class="block-content">
+
+<div class="footer-container">
+
+<div class="footer">
+<p class="copyright footer-copyright">Copyright Cumulus Media / Cumulus Media is an equal opportunity employer / AA</p><p class="footer-responsive-grid-link-container footer-responsive-grid-link-disable-container"><a href="http://www.949theoutlaw.com/?full-site=true" rel="nofollow" class="footer-responsive-grid-link footer-responsive-grid-disable footer-link">View Full Site</a></p>
+</div><!-- .footer -->
+</div><!-- .footer-container -->
+</div><!-- .block-content -->
+
+</footer><!-- #block-52 -->
+
+</section><!-- .column -->
+
+</section><!-- .row -->
+
+
+</div><!-- .grid-container -->
+
+</div><!-- .wrapper -->
+
+
+
+<script>_AMP.theme.init();</script>
+<link rel='stylesheet' id='media_library_assistant-plugin-styles-css'  href='http://www.949theoutlaw.com/wp-content/plugins/media-library-assistant/includes/../css/prettyPhoto.css?ver=1.61' type='text/css' media='all' />
+<link rel='stylesheet' id='media_library_assistant-widget-styles-css'  href='http://www.949theoutlaw.com/wp-content/plugins/media-library-assistant/includes/../css/widget.css?ver=1.61' type='text/css' media='all' />
+<link rel='stylesheet' id='amp-polls-plugin-styles-css'  href='http://www.949theoutlaw.com/wp-content/plugins/amp-polls/css/widget.css?ver=4.9.1' type='text/css' media='all' />
+<link rel='stylesheet' id='themify-builder-493698-generated-css'  href='http://www.949theoutlaw.com/wp-content/uploads/sites/341/themify-css/themify-builder-493698-generated.css?ver=1535048452' type='text/css' media='all' />
+<link rel='stylesheet' id='themify-builder-493691-generated-css'  href='http://www.949theoutlaw.com/wp-content/uploads/sites/341/themify-css/themify-builder-493691-generated.css?ver=1535044586' type='text/css' media='all' />
+<link rel='stylesheet' id='themify-builder-493679-generated-css'  href='http://www.949theoutlaw.com/wp-content/uploads/sites/341/themify-css/themify-builder-493679-generated.css?ver=1535035090' type='text/css' media='all' />
+<link rel='stylesheet' id='themify-builder-493568-generated-css'  href='http://www.949theoutlaw.com/wp-content/uploads/sites/341/themify-css/themify-builder-493568-generated.css?ver=1534963502' type='text/css' media='all' />
+<link rel='stylesheet' id='themify-builder-493551-generated-css'  href='http://www.949theoutlaw.com/wp-content/uploads/sites/341/themify-css/themify-builder-493551-generated.css?ver=1534955675' type='text/css' media='all' />
+<link rel='stylesheet' id='themify-builder-493545-generated-css'  href='http://www.949theoutlaw.com/wp-content/uploads/sites/341/themify-css/themify-builder-493545-generated.css?ver=1534949427' type='text/css' media='all' />
+<link rel='stylesheet' id='themify-builder-493566-generated-css'  href='http://www.949theoutlaw.com/wp-content/uploads/sites/341/themify-css/themify-builder-493566-generated.css?ver=1534959999' type='text/css' media='all' />
+<link rel='stylesheet' id='themify-builder-493541-generated-css'  href='http://www.949theoutlaw.com/wp-content/uploads/sites/341/themify-css/themify-builder-493541-generated.css?ver=1534961230' type='text/css' media='all' />
+<script type='text/javascript'>
+/* <![CDATA[ */
+var themify_vars = {"version":"2.1.8","url":"http:\/\/www.949theoutlaw.com\/wp-content\/plugins\/themify-builder\/themify","map_key":null,"includesURL":"http:\/\/www.949theoutlaw.com\/wp-includes\/","isCached":null,"minify":{"css":{"themify-icons":false,"themify.framework":false,"lightbox":false,"themify-builder-style":false},"js":{"backstretch.themify-version":false,"bigvideo":false,"themify.dropdown":false,"themify.builder.script":false,"themify.scroll-highlight":false,"themify-youtube-bg":false,"themify.parallaxit":false,"themify.ticks":false}}};
+var tbLocalScript = {"isAnimationActive":"1","isParallaxActive":"1","isParallaxScrollActive":"1","animationInviewSelectors":[".module.wow",".module_row.wow",".builder-posts-wrap > .post.wow"],"backgroundSlider":{"autoplay":5000,"speed":2000},"animationOffset":"100","videoPoster":"http:\/\/www.949theoutlaw.com\/wp-content\/plugins\/themify-builder\/img\/blank.png","backgroundVideoLoop":"yes","builder_url":"http:\/\/www.949theoutlaw.com\/wp-content\/plugins\/themify-builder","framework_url":"http:\/\/www.949theoutlaw.com\/wp-content\/plugins\/themify-builder\/themify","version":"2.1.8","fullwidth_support":"","fullwidth_container":"body","loadScrollHighlight":"","addons":[],"breakpoints":{"tablet_landscape":[769,1024],"tablet":[681,768],"mobile":680},"ticks":{"tick":30,"ajaxurl":"http:\/\/www.949theoutlaw.com\/wp-admin\/admin-ajax.php","postID":27}};
+var themifyScript = {"lightbox":{"lightboxSelector":".themify_lightbox","lightboxOn":true,"lightboxContentImages":false,"lightboxContentImagesSelector":"","theme":"pp_default","social_tools":false,"allow_resize":true,"show_title":false,"overlay_gallery":false,"screenWidthNoLightbox":600,"deeplinking":false,"contentImagesAreas":"","gallerySelector":".gallery-icon > a","lightboxGalleryOn":true},"lightboxContext":"body"};
+var tbScrollHighlight = {"fixedHeaderSelector":"","speed":"900","navigation":"#main-nav","scrollOffset":"0"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.949theoutlaw.com/wp-content/plugins/themify-builder/themify/js/main.js?ver=2.1.8'></script>
+<script type='text/javascript'>
+var mejsL10n = {"language":"en","strings":{"mejs.install-flash":"You are using a browser that does not have Flash player enabled or installed. Please turn on your Flash player plugin or download the latest version from https:\/\/get.adobe.com\/flashplayer\/","mejs.fullscreen-off":"Turn off Fullscreen","mejs.fullscreen-on":"Go Fullscreen","mejs.download-video":"Download Video","mejs.fullscreen":"Fullscreen","mejs.time-jump-forward":["Jump forward 1 second","Jump forward %1 seconds"],"mejs.loop":"Toggle Loop","mejs.play":"Play","mejs.pause":"Pause","mejs.close":"Close","mejs.time-slider":"Time Slider","mejs.time-help-text":"Use Left\/Right Arrow keys to advance one second, Up\/Down arrows to advance ten seconds.","mejs.time-skip-back":["Skip back 1 second","Skip back %1 seconds"],"mejs.captions-subtitles":"Captions\/Subtitles","mejs.captions-chapters":"Chapters","mejs.none":"None","mejs.mute-toggle":"Mute Toggle","mejs.volume-help-text":"Use Up\/Down Arrow keys to increase or decrease volume.","mejs.unmute":"Unmute","mejs.mute":"Mute","mejs.volume-slider":"Volume Slider","mejs.video-player":"Video Player","mejs.audio-player":"Audio Player","mejs.ad-skip":"Skip ad","mejs.ad-skip-info":["Skip in 1 second","Skip in %1 seconds"],"mejs.source-chooser":"Source Chooser","mejs.stop":"Stop","mejs.speed-rate":"Speed Rate","mejs.live-broadcast":"Live Broadcast","mejs.afrikaans":"Afrikaans","mejs.albanian":"Albanian","mejs.arabic":"Arabic","mejs.belarusian":"Belarusian","mejs.bulgarian":"Bulgarian","mejs.catalan":"Catalan","mejs.chinese":"Chinese","mejs.chinese-simplified":"Chinese (Simplified)","mejs.chinese-traditional":"Chinese (Traditional)","mejs.croatian":"Croatian","mejs.czech":"Czech","mejs.danish":"Danish","mejs.dutch":"Dutch","mejs.english":"English","mejs.estonian":"Estonian","mejs.filipino":"Filipino","mejs.finnish":"Finnish","mejs.french":"French","mejs.galician":"Galician","mejs.german":"German","mejs.greek":"Greek","mejs.haitian-creole":"Haitian Creole","mejs.hebrew":"Hebrew","mejs.hindi":"Hindi","mejs.hungarian":"Hungarian","mejs.icelandic":"Icelandic","mejs.indonesian":"Indonesian","mejs.irish":"Irish","mejs.italian":"Italian","mejs.japanese":"Japanese","mejs.korean":"Korean","mejs.latvian":"Latvian","mejs.lithuanian":"Lithuanian","mejs.macedonian":"Macedonian","mejs.malay":"Malay","mejs.maltese":"Maltese","mejs.norwegian":"Norwegian","mejs.persian":"Persian","mejs.polish":"Polish","mejs.portuguese":"Portuguese","mejs.romanian":"Romanian","mejs.russian":"Russian","mejs.serbian":"Serbian","mejs.slovak":"Slovak","mejs.slovenian":"Slovenian","mejs.spanish":"Spanish","mejs.swahili":"Swahili","mejs.swedish":"Swedish","mejs.tagalog":"Tagalog","mejs.thai":"Thai","mejs.turkish":"Turkish","mejs.ukrainian":"Ukrainian","mejs.vietnamese":"Vietnamese","mejs.welsh":"Welsh","mejs.yiddish":"Yiddish"}};
+</script>
+<script type='text/javascript' src='http://www.949theoutlaw.com/wp-includes/js/mediaelement/mediaelement-and-player.js?ver=4.2.6-78496d1'></script>
+<script type='text/javascript' src='http://www.949theoutlaw.com/wp-includes/js/mediaelement/mediaelement-migrate.js?ver=4.9.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var _wpmejsSettings = {"pluginPath":"\/wp-includes\/js\/mediaelement\/","classPrefix":"mejs-","stretching":"responsive"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.949theoutlaw.com/wp-includes/js/mediaelement/wp-mediaelement.js?ver=4.9.1'></script>
+<script type='text/javascript' src='http://www.949theoutlaw.com/wp-content/plugins/media-library-assistant/includes/../js/jquery.prettyPhoto.js?ver=1.61'></script>
+<script type='text/javascript' src='http://www.949theoutlaw.com/wp-content/plugins/media-library-assistant/includes/../js/widget-front-end.js?ver=1533183780'></script>
+<script type='text/javascript' src='http://www.949theoutlaw.com/wp-content/plugins/amp-polls/js/widget-front-end.js?ver=4.9.1'></script>
+<script>
+window.tgmplibs="cumulus2,_append_www,_triton_see";
+</script>
+<script type="text/javascript" class="_tgmp_p">
+function onTuneGenieMediaPlayerLoaded() {
+    window.tgmp=new TuneGenieMediaPlayer('playerbar', {
+        brand: "koli",
+        zindex: 50000,
+        theme: ["#000000"],
+        position: "bottom",
+        debug: true,
+        ios_frame: 3,
+        autostart: false,
+        infoTrayOnLoad: true,
+        useTritonPlayer: true,
+        promptZag: false,
+    });
+    tgmp.go();
+    window.tgmp_rc = new TuneGenieRC(tgmp);
+    tgmp_rc.recentSongWidget(document.getElementById('tgrecent'),{});
+    tgmp_rc.nowPlayingWidget(document.getElementById('tgnowplaying'),{});
+}
+</script>
+<script type="text/javascript"  class="_tgmp_p" async src="https://mpl.tunegenie.com/js/loader2.min.js"></script>
+
+
+</div><!-- #whitewrap -->
+
+<!-- TGMP PLUGIN ENABLED 2016-08-07T09:48:00.300Z -->
+
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.3";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<script type="text/javascript">
+//<![CDATA[
+(function() {
+var _analytics_scr = document.createElement('script');
+_analytics_scr.type = 'text/javascript'; _analytics_scr.async = true; _analytics_scr.src = '/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1300790651';
+var _analytics_elem = document.getElementsByTagName('script')[0]; _analytics_elem.parentNode.insertBefore(_analytics_scr, _analytics_elem);
+})();
+// ]]>
+</script></body>
+
+
+</html>
+<!--
+Performance optimized by W3 Total Cache. Learn more: https://www.w3-edge.com/products/
+
+Object Caching 4243/4734 objects using memcache
+Page Caching using memcache
+Database Caching 331/464 queries in 3.157 seconds using memcache
+
+Served from: www.1460wrad.com @ 2018-08-27 05:31:14 by W3 Total Cache
+-->

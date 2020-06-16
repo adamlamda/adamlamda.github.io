@@ -1,0 +1,297 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+	<title>Contact | About | CD102.5 - The Alternative Station - Columbus, OH</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(){}function o(e,t,n){return function(){return i(e,[f.now()].concat(u(arguments)),t?null:this,n),t?void 0:this}}var i=e("handle"),a=e(2),u=e(3),c=e("ee").get("tracer"),f=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,t){s[t]=o(d+t,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),t.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,t){var n={},r=this,o="function"==typeof t;return i(l+"tracer",[f.now(),e,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],n),o)try{return t.apply(this,arguments)}catch(e){throw c.emit("fn-err",[arguments,this,e],n),e}finally{c.emit("fn-end",[f.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){m[t]=o(l+t)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,f.now()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(o<0?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],4:[function(e,t,n){t.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?c(e,u,i):i()}function n(n,r,o,i){if(!d.aborted||i){e&&e(n,r,o);for(var a=t(o),u=m(n),c=u.length,f=0;f<c;f++)u[f].apply(a,r);var p=s[y[n]];return p&&p.push([b,n,r,a]),a}}function l(e,t){v[e]=m(e).concat(t)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(n)}function g(e,t){f(e,function(e,n){t=t||"feature",y[n]=t,t in s||(s[t]=[])})}var v={},y={},b={on:l,emit:n,get:w,listeners:m,context:t,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",c=e("gos"),f=e(2),s={},p={},d=t.exports=o();d.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!x++){var e=h.info=NREUM.info,t=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return s.abort();f(y,function(t,n){e[t]||(e[t]=n)}),c("mark",["onload",a()+h.offset],null,"api");var n=d.createElement("script");n.src="https://"+e.agent,t.parentNode.insertBefore(n,t)}}function o(){"complete"===d.readyState&&i()}function i(){c("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),c=e("handle"),f=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,SI:p.setImmediate,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1071.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=t.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),c("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+    <!--<meta http-equiv="Content-Security-Policy" content="child-src http://*.cd1025.com https://*.cd1025.com https://www.youtube.com  http://*.facebook.com https://*.facebook.com http://*.google.com https://*.google.com http://www.google-analytics.com https://www.google-analytics.com http://ajax.googleapis.com https://ajax.googleapis.com;">-->
+	<meta name="description" content="Independent alternative rock station CD102.5 (WWCD) in Columbus, OH. Bringing you new music from today's up in coming artists first." />
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+			
+	<!-- FACEBOOK -->
+	<meta property="fb:admins" content="1400470849"/>
+	<meta property="fb:app_id" content="305508376153475">
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="Contact | About | CD102.5 - The Alternative Station - Columbus, OH" />
+	<meta property="og:url" content="http://cd1025.com/about/contact" />
+	<meta property="og:image" content="http://cd1025.com/www/img/1025-ohio-logo.png" />
+	<!-- / FACEBOOK -->
+
+	<link rel="shortcut icon" href="/www/img/favicon.png" />
+		
+	<link rel="stylesheet" type="text/css" href="/www/site-assets/css/cd1025.min.css" media="all" />
+    
+    <script type="text/javascript" src="/www/site-assets/js/vendor.min.js"></script>
+    <script type="text/javascript" src="/www/site-assets/js/dynamit.min.js"></script>    
+    <script type="text/javascript" src="/www/site-assets/js/cd1025.app.min.js?20180827"></script>
+    <script type='text/javascript'>var _merchantSettings=_merchantSettings || [];_merchantSettings.push(['AT', 'ZNq4qbmC']);(function(){var autolink=document.createElement('script');autolink.type='text/javascript';autolink.async=true; autolink.src= ('https:' == document.location.protocol) ? 'https://autolinkmaker.itunes.apple.com/js/itunes_autolinkmaker.js' : 'http://autolinkmaker.itunes.apple.com/js/itunes_autolinkmaker.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(autolink, s);})();</script>
+	
+
+<link rel='stylesheet' type='text/css' href='/www/assets/a/art-makes-test/style.css' />
+<script type='text/javascript' src='/www/assets/a/art-makes-test/script.js'></script>
+
+  </head>
+  <body>
+  
+	<div id="header">
+		<div class="in">
+			<a id="logo" href="/">CD102.5</a>
+			<a href="#footer" id="mobile_menu"></a>
+			<ul id="nav">
+    			<a href="#" id="mobile_close"></a>
+				<li class="about"><a href="/about">About 102.5</a></li>
+<li class="big-room"><a href="/the-big-room">The Big Room</a></li>
+<li class="events"><a href="/events">Events</a></li>
+<li class="photos"><a href="/photos">Media</a></li>
+<li class="artists"><a href="/artists">Artists</a></li>
+<li class="store"><a href="http://cd102-5.myshopify.com" target="blank">Store</a></li>
+<li class="contact active"><a href="/about/contact">Contact Us</a></li>
+<li class="lounge mobile-only"><a href="/lounge" target="_blank">Lounge</a></li>
+<li class="social-icons mobile-only">
+    <a href="https://www.facebook.com/CD102.5" target="_blank"><img src="/www/img/social/64-facebook.png" height="24" width="24"></a>&nbsp;
+    <a href="https://twitter.com/CD1025FM" target="_blank"><img src="/www/img/social/64-twitter.png" height="24" width="24"></a>&nbsp;
+    <a href="https://www.instagram.com/cd1025fm/" target="_blank"><img src="/www/img/social/64-instagram.png" height="24" width="24"></a>&nbsp;
+    <a href="https://www.youtube.com/user/CD1025FM" target="_blank"><img src="/www/img/social/64-youtube.png" height="24" width="24"></a>        	
+</li>
+			</ul>
+			<div class="clear"></div>
+		</div>
+		<div id="aux">
+			<div class="in">
+				<div id="search">
+					<form method="get" id="frm_search" action="/search">
+						<input type="text" id="q" name="q" placeholder="Search for big rooms, events, or artists" autocomplete="off" />
+						<a href="javascript:void(0);" class="go">Go</a>
+						<div id="results" style="display: none;"></div>
+					</form>	
+				</div>
+								<div id="nowplaying">
+					<div class="sponsor">
+					    <a href="#live" class="listen-live"><img src="/www/img/listen-live-now-playing.png"></a>
+										
+										
+					</div>
+					<a class="btn" href="javascript:void(0);"></a>
+					<ul id="nowplaying-list">
+						
+					<li data-artist-id='6825' data-album-id='24449'>
+						
+						<a  class='art'><img src='/www/assets/album-art/[60]_album-24449.jpg' class='thumb' /></a>
+						<span class='artist'><strong>Artist:</strong> <a href='/artist/albert-hammond-jr-1'>ALBERT HAMMOND JR.</a></span>
+						<span class='song'><strong>Song:</strong> FAR AWAY TRUTHS (IT'S JUST A MOMENT)</span>
+						<a href='https://itunes.apple.com/us/album/francis-trouble/1332930283' class='iTunes' target='_blank'><img style='padding-bottom:4px;' src='/www/img/btn-itunes.png' title='View in iTunes' /></a> <a target="_blank" href="http://www.amazon.com/dp/B07895XRQ4/?tag=cd150c-20"><img height="20px" src="/www/img/btn-amazon.gif" title="View at Amazon"/></a>
+					</li>
+					
+					<li data-artist-id='32' data-album-id='263'>
+						
+						<a  class='art'><img src='/www/assets/album-art/[60]_album-263.jpg' class='thumb' /></a>
+						<span class='artist'><strong>Artist:</strong> <a href='/artist/weezer'>WEEZER</a></span>
+						<span class='song'><strong>Song:</strong> PORK AND BEANS</span>
+						<a href='https://itunes.apple.com/us/album/weezer-red-album-deluxe-edition/id281528949' class='iTunes' target='_blank'><img style='padding-bottom:4px;' src='/www/img/btn-itunes.png' title='View in iTunes' /></a> <a target="_blank" href="http://www.amazon.com/dp/B001872MDM/?tag=cd150c-20"><img height="20px" src="/www/img/btn-amazon.gif" title="View at Amazon"/></a>
+					</li>
+					
+					<li data-artist-id='46' data-album-id='24508'>
+						
+						<a  class='art'><img src='/www/img/album-art/default.jpg' class='thumb' /></a>
+						<span class='artist'><strong>Artist:</strong> <a href='/artist/the-kooks'>THE KOOKS</a></span>
+						<span class='song'><strong>Song:</strong> FOUR LEAF CLOVER</span>
+						<a href='https://itunes.apple.com/us/album/lets-go-to-the-beach/319484998?uo=4' class='iTunes' target='_blank'><img style='padding-bottom:4px;' src='/www/img/btn-itunes.png' title='View in iTunes' /></a> <a target="_blank" href="http://www.amazon.com/dp/B001872MDM/?tag=cd150c-20"><img height="20px" src="/www/img/btn-amazon.gif" title="View at Amazon"/></a>
+					</li>
+										</ul>
+					<div class="clear"></div>
+					<a href="/about/playlists/now-playing" class="more">See all recently played on 102.5</a>
+				</div>
+                <script>
+                    $(function() {
+                       $('a.listen-live').click(function(evt) {
+                           evt.preventDefault();
+                           window.open ("http://www.mainstreamnetwork.com/listen/player.asp?station=wwcd-fm","streaming","menubar=0,resizable=1,width=870,height=500");
+                       });
+                    });
+                </script>
+				
+				<a id="lounge" href="/lounge" target="_blank"><img src="/www/img/hd-lounge.png" /></a>				
+			</div>	
+		</div>
+	</div>
+	<div id="head_sub"><div class="in"></div></div>
+	<div id="head_sub_bar"><div class="in"></div></div>
+
+	<div id="content" class="about">
+		<div class="in">
+			
+			<div id="content-main">
+						
+
+<h2>Contact Us</h2>
+
+<div id="contact-info">
+
+	<ul>
+		<li class="phone"><span></span>(614) 221-1025 (On Air)<br/>(614) 221-9923 (Office)</li>
+		<li class="hours"><span></span>M-F 8:30am - 5:30 pm</li>
+		<li class="email"><span></span><a href="mailto:webmaster@cd1025.com">webmaster@cd1025.com</a></li>
+		<li class="address"><span></span><a target="_map" href="https://maps.google.com/maps?q=1036+S.+Front+St+Columbus,+OH+43206&ie=UTF-8&hq=&hnear=0x88388f53c38a57ff:0x7cfd62ccc67ee17d,1036+S+Front+St,+Columbus,+OH+43206&gl=us&ei=GSLfT_W-HdP82gWvpKziAQ&ved=0CAsQ8gEwAA">1036 S. Front St.<br />Columbus, OH 43206</a></li>
+
+        <li class="social" style="padding-top:15px;">
+            <span style="background: none;"></span> 
+                <a href="https://www.facebook.com/CD102.5" target="_blank"><img src="/www/img/social/64-facebook.png" height="24" width="24"></a>&nbsp;
+    <a href="https://twitter.com/CD1025FM" target="_blank"><img src="/www/img/social/64-twitter.png" height="24" width="24"></a>&nbsp;
+    <a href="https://www.instagram.com/cd1025fm/" target="_blank"><img src="/www/img/social/64-instagram.png" height="24" width="24"></a>&nbsp;
+    <a href="https://www.youtube.com/user/CD1025FM" target="_blank"><img src="/www/img/social/64-youtube.png" height="24" width="24"></a>        </li>
+	</ul>
+	
+	<div class="map">
+		<iframe width="100%" height="213" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=1036+South+Front+Street,+Columbus,+OH+43206&amp;aq=0&amp;oq=1036+S.+Front+St.+Columbus,+OH+43206&amp;sll=37.0625,-95.677068&amp;sspn=44.25371,91.757813&amp;ie=UTF8&amp;hq=&amp;hnear=1036+S+Front+St,+Columbus,+Franklin,+Ohio+43206&amp;t=m&amp;ll=39.940673,-82.997589&amp;spn=0.014017,0.031672&amp;z=14&amp;iwloc=A&amp;output=embed"></iframe>
+	</div>
+	
+	<div class="clear"></div>
+</div>
+
+<div class="hr"></div>
+
+<div id="contact-form">
+	
+	<br />
+	<h4><span class="pre"><img src="/www/img/contact-form-hd.png" /></span><span class="mid">Write To Us</span><span class="post"><img src="/www/img/contact-form-hd.png" /></span></h4>
+	
+	<br /><br />
+	
+	<form id="frm_contact" method="post" action="/about/contact?">
+		<input type="hidden" name="process" value="1" />
+		<input type="hidden" name="form_key" value="20240c1d0a3beb7a99f5bbdb9163eb88" />
+		
+		<div class="form">
+    		<label for="recipient">Send To</label>
+			<select id="recipient" name="recipient">
+				<option value='8'>Events</option><option value='6'>Green Team</option><option value='5'>Internships</option><option value='9'>Program Director</option><option value='3'>Station Management</option><option value='4'>Stress Breaks</option><option value='2'>Webmaster</option>			</select>
+			<label for="c_name">Your Name</label>
+			<input type="text" id="c_name" name="c_name" class="text" placeholder="Name" />
+			<label for="c_email">Your Email</label>
+			<input type="text" id="c_email" name="c_email" class="text" placeholder="Email" />
+			<label for="c_email">Your Message/Question</label>			
+			<textarea id="message" name="message"></textarea>
+            <div style='display:none;'><input type="text" id="email_address" name="email_address" class="text" /></div>
+		</div>
+
+		<div class="submit"><a href="#submit" class="button submit">Send Message</a></div>		
+		
+		
+	</form>
+
+</div>
+			</div><!-- / content-main -->
+			
+			<div id="content-side">
+
+				<ul id="subnav">
+				<li class=' '><a href='/about/our-story'><span class='icon'></span>Our Story</a></li><li class=' children'><a href='/about/playlists'><span class='icon'></span>Playlists</a><ul class='child' id='subnav-child'><li ><a href='/about/playlists/current-playlist' class='child'>Current Playlist</a><li ><a href='/about/playlists/now-playing' class='child'>Now Playing</a><li ><a href='/about/playlists/top-102-of-2014' class='child'>Top 102 of 2014</a><li ><a href='/about/playlists/top-1025-of-2015' class='child'>Top 102.5 of 2015</a><li ><a href='/about/playlists/2016' class='child'>Top 102.5 of 2016</a></ul></li><li class=' '><a href='/about/soundtrack-of-our-lives'><span class='icon'></span>Soundtrack of Our Lives</a></li><li class=' children'><a href='/about/shows'><span class='icon'></span>CD102.5 Programs</a><ul class='child' id='subnav-child'><li ><a href='/about/shows/frontstage' class='child'>Frontstage</a><li ><a href='/about/shows/guest-dj' class='child'>Guest DJ</a><li ><a href='/about/shows/independent-playground' class='child'>Independent Playground</a><li ><a href='/about/shows/invisible-hits' class='child'>Invisible Hits</a></ul></li><li class=' children'><a href='/about/in-the-community'><span class='icon'></span>In The Community</a><ul class='child' id='subnav-child'><li ><a href='/about/in-the-community/the-scene-team' class='child'>The CD102.5 Scene Team</a><li ><a href='/about/in-the-community/stress-breaks' class='child'>Stress Breaks</a><li ><a href='/about/in-the-community/the-green-team' class='child'>The Green Team</a><li ><a href='/about/in-the-community/cd1025-for-the-kids' class='child'>CD102.5 for the Kids</a></ul></li><li class='active '><a href='/about/contact'><span class='icon'></span>Contact</a></li><li class=' '><a href='/about/jocks'><span class='icon'></span>Jocks</a></li><li class=' children'><a href='/about/the-lounge'><span class='icon'></span>The Lounge</a><ul class='child' id='subnav-child'><li ><a href='/about/the-lounge/what-is-the-lounge' class='child'>What is The Lounge?</a><li ><a href='/about/the-lounge/the-lounge-login' class='child'>The Lounge Login</a><li ><a href='/about/the-lounge/lounge-rules' class='child'>Lounge Rules</a></ul></li><li class=' children'><a href='/about/press-room'><span class='icon'></span>Press Room</a><ul class='child' id='subnav-child'><li ><a href='/about/press-room/media-info' class='child'>Media Info</a><li ><a href='/about/press-room/press' class='child'>Press</a><li ><a href='/about/press-room/logos' class='child'>Logos</a></ul></li><li class=' '><a href='/about/jobs-internships'><span class='icon'></span>Jobs &amp; Internships</a></li><li class=' '><a href='/about/investors'><span class='icon'></span>CD102.5 Investors</a></li><li class=' '><a href='/about/stream'><span class='icon'></span>CD102.5's Stream - FAQ</a></li><li class=' '><a href='/about/fcc-public-file-for-wwcd'><span class='icon'></span>FCC Public File for WWCD</a></li>				</ul>
+				
+				<br /><br /><br /><br />				
+				<div class="ad">
+					<small>ADVERTISEMENT</small>
+					<div class="a mr">
+									<a class="js-track-imp js-track-click" href="/a/click.dT/1/480" target="_blank" alt="Riffe Creating Identity"><img src="/www/assets/a/create-2018.jpg" alt="Riffe Creating Identity"/></a>
+								</div>
+					<div class="holder mr"></div>
+				</div>
+				
+			</div>
+			
+			<div class="clear"></div>
+
+		</div><!-- / in -->
+	</div><!-- / content -->
+
+	
+	<div id="footer">
+		<div class="in">
+			<div class="site">
+				<div class="get-around">
+					<h5>Get Around</h5>
+					<ul>
+						<li class="about"><a href="/about">About 102.5</a></li>
+<li class="big-room"><a href="/the-big-room">The Big Room</a></li>
+<li class="events"><a href="/events">Events</a></li>
+<li class="photos"><a href="/photos">Media</a></li>
+<li class="artists"><a href="/artists">Artists</a></li>
+<li class="store"><a href="http://cd102-5.myshopify.com" target="blank">Store</a></li>
+<li class="contact active"><a href="/about/contact">Contact Us</a></li>
+<li class="lounge mobile-only"><a href="/lounge" target="_blank">Lounge</a></li>
+<li class="social-icons mobile-only">
+    <a href="https://www.facebook.com/CD102.5" target="_blank"><img src="/www/img/social/64-facebook.png" height="24" width="24"></a>&nbsp;
+    <a href="https://twitter.com/CD1025FM" target="_blank"><img src="/www/img/social/64-twitter.png" height="24" width="24"></a>&nbsp;
+    <a href="https://www.instagram.com/cd1025fm/" target="_blank"><img src="/www/img/social/64-instagram.png" height="24" width="24"></a>&nbsp;
+    <a href="https://www.youtube.com/user/CD1025FM" target="_blank"><img src="/www/img/social/64-youtube.png" height="24" width="24"></a>        	
+</li>
+					</ul>
+					<div class="clear"></div>
+				</div>
+				<div class="other-stuff">
+					<h5>Other Stuff</h5>
+					<ul>
+                        <li><a href="/about/stream">Streaming FAQ</a></li>
+						<li><a href="/about/press-room">Press Room</a></li>
+					</ul>
+					<div class="clear"></div>
+				</div>
+				<div class="clear"></div>			
+			</div>
+			
+			<div class="copy"><a href="https://publicfiles.fcc.gov/fm-profile/wwcd" target="_blank" style="color: #9a9a9a;">Public FCC File</a> | Copyright &copy; 2012-2018. WWCD 102.5 The Alternative Station. All rights reserved.</div>
+			
+			<div class="social">
+				<ul>
+					<li id="ft-instagram"><a href="http://www.instagram.com/cd1025fm/" target="_blank"><div class="icon"></div><span class="bg"></span></a></li>	
+					<li id="ft-youtube"><a href="http://www.youtube.com/cd1025fm" target="_blank"><div class="icon"></div><span class="bg"></span></a></li>
+					<li id="ft-twitter"><a href="https://twitter.com/CD1025FM" target="_blank"><div class="icon"></div><span class="bg"></span></a></li>					
+					<li id="ft-facebook"><a href="http://www.facebook.com/CD102.5" target="_blank"><div class="icon"></div><span class="bg"></span></a></li>
+				</ul>
+				<div class="clear"></div>
+			</div>
+		</div>		
+	</div>
+
+    
+    <script type="text/javascript">
+    	var _gaq = _gaq || [];
+    	_gaq.push(['_setAccount', 'UA-35265923-1']);
+    	_gaq.push(['_trackPageview']);
+    	
+    	(function() {
+    	var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    	ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    	var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    	})();	
+	</script>	
+						<div id="fb-root"></div>
+					<script>
+					  window.fbAsyncInit = function() {
+					    FB.init({
+					      appId      : '305508376153475', // App ID
+					      channelUrl : '//www.cd1025.com', // Channel File
+					      status     : true, // check login status
+					      cookie     : true, // enable cookies to allow the server to access the session
+					      xfbml      : true  // parse XFBML
+					    });
+					
+					    // Additional initialization code here
+					  };
+					
+					  // Load the SDK Asynchronously
+					  (function(d){
+					     var js, id = 'facebook-jssdk', ref = d.getElementsByTagName('script')[0];
+					     if (d.getElementById(id)) {return;}
+					     js = d.createElement('script'); js.id = id; js.async = true;
+					     js.src = "//connect.facebook.net/en_US/all.js";
+					     ref.parentNode.insertBefore(js, ref);
+					   }(document));
+					</script>
+	<script type="text/javascript">
+		$(function() { 
+			$('ul#subnav li:last-child').addClass('last');
+		});
+	</script>
+					
+  <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"c580e16dd7","applicationID":"37113127","transactionName":"ZgBRZkYDWUUAWhYNWF9KZkBdTV5YBVwaSkdZFQ==","queueTime":0,"applicationTime":108,"atts":"SkdSEA4ZSks=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

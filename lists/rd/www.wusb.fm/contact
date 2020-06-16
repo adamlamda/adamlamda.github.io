@@ -1,0 +1,244 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <title>Contact | WUSB 90.1 FM Stony Brook, NY</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="/misc/favicon.ico" type="image/x-icon" />
+    <style type="text/css" media="all">@import "/./modules/calendar/calendar.css";</style>
+<style type="text/css" media="all">@import "/modules/cck/content.css";</style>
+<style type="text/css" media="all">@import "/modules/date/date.css";</style>
+<style type="text/css" media="all">@import "/modules/event/event.css";</style>
+<style type="text/css" media="all">@import "/modules/logintoboggan/logintoboggan.css";</style>
+<style type="text/css" media="all">@import "/modules/modules/poll/poll.css";</style>
+<style type="text/css" media="all">@import "/modules/node/node.css";</style>
+<style type="text/css" media="all">@import "/modules/simplenews/simplenews.css";</style>
+<style type="text/css" media="all">@import "/modules/system/defaults.css";</style>
+<style type="text/css" media="all">@import "/modules/system/system.css";</style>
+<style type="text/css" media="all">@import "/modules/user/user.css";</style>
+<style type="text/css" media="all">@import "/modules/calendar/calendar.css";</style>
+<style type="text/css" media="all">@import "/modules/cck/fieldgroup.css";</style>
+<style type="text/css" media="all">@import "/modules/devel/devel.css";</style>
+<style type="text/css" media="all">@import "/themes/wusb/style.css";</style>
+    <script type="text/javascript" src="/misc/jquery.js"></script>
+<script type="text/javascript" src="/misc/drupal.js"></script>
+<script type="text/javascript" src="/modules/jquery_update/compat.js"></script>
+<script type="text/javascript" src="/misc/textarea.js"></script>
+<script type="text/javascript">
+  $(function() {
+      if (Drupal.jsEnabled) {
+        $("#toboggan-login").hide();
+      }
+    }
+  );
+  function toggleboggan() {
+    if (Drupal.jsEnabled) {
+      $("#toboggan-login").toggle();
+    }
+  }
+  </script>
+    <style type="text/css" media="print">@import "/themes/wusb/print.css";</style>
+    <!--[if lt IE 7]>
+    <style type="text/css" media="all">@import "/themes/wusb/fix-ie.css";</style>
+    <![endif]-->
+ 
+    <script type="text/javascript"><!--
+    	$("div.station-sch-box").ready(function(){
+		if($(this).height() < ($("div.schedule-items", this).height() + 22)){
+						$(".station-sch-title", this).css('font-size', "10pt");
+		}
+	});
+$(document).ready(function() {
+	
+
+		$("div.station-sch-box").hover(
+function() {
+			if(!$(this).attr('storedHeight')){
+			$(this).attr('storedHeight', $(this).height());
+		}
+			 if($(this).attr('storedHeight') < ($("div.schedule-items", this).height() + 22)){ 
+			 	
+					$(this).animate({ 
+        height:  $("div.schedule-items", this).height() + 28 + "px",
+      }, 300 );
+
+}
+},
+function()  {
+					if($(this).attr('storedHeight') < ($("div.schedule-items", this).height() + 22)){ 
+
+					$(this).animate({ 
+      
+        height: $(this).attr('storedHeight')+"px",
+      }, 450 );    
+  }
+				} );
+			
+			
+				}
+				);
+-->
+	</script>
+	
+  </head>
+  
+<body>
+<div id="main">
+	<div id="floater" onClick="document.location = '/'">
+	</div>
+	<div id="top">
+		  <div id="block-station-0" class="clear-block block block-station">
+
+  <h2>On Air</h2>
+
+  <div class="content"><a href="http://www.wusb.fm/node/54">Medicine Unplugged</a><br /><div class="top-alt">-alt-</div><a href="http://www.wusb.fm/node/50217">Rock Nation</a><br /><div class="stream">Tune in:  <a href="http://stream.wusb.stonybrook.edu:8090/listen.pls">High</a> <a href="http://stream.wusb.stonybrook.edu:8080/listen.pls">Low</a></div></div>
+</div>
+	</div>
+	<table class="table-main"><tr class="table-main">
+	<td id="sidebar-left"><div id="block-block-6" class="clear-block block block-block">
+
+
+  <div class="content"><script type="text/javascript" src="http://www.museter.com/mrp.js"></script><script type="text/javascript">
+MRP.insert({
+'url':'http://stream.wusb.stonybrook.edu:8090/;',
+'codec':'mp3',
+'volume':100,
+'autoplay':false,
+'buffering':5,
+'title':'WUSB Player',
+'welcome':'WELCOME TO',
+'bgcolor':'#990000',
+'skin':'tiny',
+'width':130,
+'height':60
+});
+</script></div>
+</div>
+<div id="block-user-1" class="clear-block block block-user">
+
+
+  <div class="content">
+<ul class="menu">
+<li class="leaf"><a href="/about" title="About WUSB">About</a></li>
+<li class="leaf"><a href="/station/schedule/week">Schedule</a></li>
+<li class="collapsed"><a href="/station/playlists">Playlists</a></li>
+<li class="leaf"><a href="http://goo.gl/forms/lNfFjgzRnF" title="Pledge to WUSB">Pledge!</a></li>
+<li class="expanded"><a href="/contact" class="active">Contact</a>
+<ul class="menu">
+<li class="leaf"><a href="http://www.facebook.com/home.php?ref=logo#/pages/WUSB/10689664807?ref=ts" title="Become a fan!">Facebook Page</a></li>
+<li class="leaf"><a href="http://www.twitter.com/wusbradio" title="Follow us!">Twitter</a></li>
+
+</ul>
+</li>
+<li class="leaf"><a href="/cbb">Concert Billboard</a></li>
+<li class="leaf"><a href="/node/add">Create content</a></li>
+<li class="leaf"><a href="http://sbradiosports.blogspot.com/" title="WUSB Sports Dept.">Sports</a></li>
+<li class="leaf"><a href="http://cb.sailthru.com/join/2bh/signup" title="Sign up for our email newsletter">Newsletter Sign Up</a></li>
+<li class="leaf"><a href="/streamhelp" title="Having trouble with the stream?">Stream Help</a></li>
+
+</ul>
+</div>
+</div>
+<div id="block-user-0" class="clear-block block block-user">
+
+  <h2>User login</h2>
+
+  <div class="content"><form action="/contact?destination=contact"  method="post" id="user-login-form">
+<div><div id="toboggan-container" class="toboggan-container"><div class="toboggan-login-link"><a href="/user/login" onclick="toggleboggan();this.blur();return false;">Login/Register</a></div><div id="toboggan-login" class="user-login-block"><div class="form-item">
+ <label for="edit-name">Username: <span class="form-required" title="This field is required.">*</span></label>
+ <input type="text" maxlength="60" name="name" id="edit-name"  size="15" value="" tabindex="1" class="form-text required" />
+</div>
+<div class="form-item">
+ <label for="edit-pass">Password: <span class="form-required" title="This field is required.">*</span></label>
+ <input type="password" name="pass" id="edit-pass"  maxlength="60"  size="15"  tabindex="2" class="form-text required" />
+</div>
+<input type="submit" name="op" id="edit-submit" value="Log in"  tabindex="3" class="form-submit" />
+<div class="item-list"><ul><li><a href="/user/register" title="Create a new user account.">Create new account</a></li><li><a href="/user/password" title="Request new password via e-mail.">Request new password</a></li></ul></div><input type="hidden" name="form_id" id="edit-user-login-block" value="user_login_block"  />
+</div></div>
+</div></form>
+</div>
+</div>
+</td>
+	<td id="right_main">
+		<div id="under_head">
+		  <div class="breadcrumb"><a href="/">Home</a></div>		</div>
+		
+		  <div id="content">
+		      
+          <h2>Contact</h2>          
+                               		  <form action="/contact"  method="post" id="contact-mail-page">
+<div>
+
+<p>Call the studio at 631-632-WUSB<br>
+ <br>Please contact us by email using the drop down menu and contact form below.</p>
+<a href="http://www.twitter.com/wusbradio">Twitter Feed</a><br>
+<a href="http://www.facebook.com/pages/WUSB/10689664807">Facebook Page</a><br>
+&nbsp;</p>
+<p><b>Office Lines:</b> Please leave a 
+voicemail if no one is available to answer your call. <br>
+<br>
+Program Director: 631-632-6501<br>
+Music Director: 631-632-6500<br>
+<br>
+Music submissions can be emailed to
+<a href="mailto:md@wusb.fm">md@wusb.fm</a> or sent below to <br>
+<br>
+WUSB Radio<br>
+Attn: Music Director<br>
+2nd Floor West Side Dining<br>
+Stony Brook University<br>
+Stony Brook, NY 11794-3200<br>
+<br>
+You can also leave a message using the contact form below.</p>
+<div class="form-item">
+ <label for="edit-name">Your name: <span class="form-required" title="This field is required.">*</span></label>
+ <input type="text" maxlength="255" name="name" id="edit-name"  size="60" value="" class="form-text required" />
+</div>
+<div class="form-item">
+ <label for="edit-mail">Your e-mail address: <span class="form-required" title="This field is required.">*</span></label>
+ <input type="text" maxlength="255" name="mail" id="edit-mail"  size="60" value="" class="form-text required" />
+</div>
+<div class="form-item">
+ <label for="edit-subject">Subject: <span class="form-required" title="This field is required.">*</span></label>
+ <input type="text" maxlength="255" name="subject" id="edit-subject"  size="60" value="" class="form-text required" />
+</div>
+<div class="form-item">
+ <label for="edit-cid">Category: <span class="form-required" title="This field is required.">*</span></label>
+ <select name="cid" class="form-select required" id="edit-cid" ><option value="1" selected="selected">General Information</option><option value="4">General Manager </option><option value="7">Radiothon</option><option value="2">Program Director</option><option value="5">Music Director </option><option value="8">News Director </option><option value="9">Public Service Announcements</option><option value="3">Website Feedback</option><option value="6">Concert Billboard</option></select>
+</div>
+<div class="form-item">
+ <label for="edit-message">Message: <span class="form-required" title="This field is required.">*</span></label>
+ <textarea cols="60" rows="5" name="message" id="edit-message"  class="form-textarea resizable required"></textarea>
+</div>
+<input type="submit" name="op" id="edit-submit" value="Send e-mail"  class="form-submit" />
+<input type="hidden" name="form_id" id="edit-contact-mail-page" value="contact_mail_page"  />
+<input type="hidden" name="seed" id="edit-seed" value="ef7ccc7951b04bb4a4ce4296833cf986"  />
+<img src="/mycaptcha/image/ef7ccc7951b04bb4a4ce4296833cf986" /><div class="form-item">
+ <label for="edit-captcha-answer">Answer: <span class="form-required" title="This field is required.">*</span></label>
+ <input type="text" maxlength="128" name="captcha_answer" id="edit-captcha-answer"  size="25" value="" class="form-text required" />
+ <div class="description">To combat spam, please enter the code in the image.</div>
+</div>
+
+</div></form>
+		  </div>
+
+	</td>
+	</tr>
+	</table>
+		<div id="footer">
+	&copy; WUSB Stony Brook
+	</div>
+
+</div>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-808585-1");
+pageTracker._initData();
+pageTracker._trackPageview();
+</script>
+</body>
+</html>

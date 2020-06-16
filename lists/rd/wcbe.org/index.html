@@ -1,0 +1,1371 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"VgYHV1dVGwIBVFlVBQU="};window.NREUM||(NREUM={}),__nr_require=function(t,n,e){function r(e){if(!n[e]){var o=n[e]={exports:{}};t[e][0].call(o.exports,function(n){var o=t[e][1][n];return r(o||n)},o,o.exports)}return n[e].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<e.length;o++)r(e[o]);return r}({1:[function(t,n,e){function r(t){try{s.console&&console.log(t)}catch(n){}}var o,i=t("ee"),a=t(15),s={};try{o=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(s.console=!0,o.indexOf("dev")!==-1&&(s.dev=!0),o.indexOf("nr_dev")!==-1&&(s.nrDev=!0))}catch(c){}s.nrDev&&i.on("internal-error",function(t){r(t.stack)}),s.dev&&i.on("fn-err",function(t,n,e){r(e.stack)}),s.dev&&(r("NR AGENT IN DEVELOPMENT MODE"),r("flags: "+a(s,function(t,n){return t}).join(", ")))},{}],2:[function(t,n,e){function r(t,n,e,r,s){try{p?p-=1:o(s||new UncaughtException(t,n,e),!0)}catch(f){try{i("ierr",[f,c.now(),!0])}catch(d){}}return"function"==typeof u&&u.apply(this,a(arguments))}function UncaughtException(t,n,e){this.message=t||"Uncaught error with no additional information",this.sourceURL=n,this.line=e}function o(t,n){var e=n?null:c.now();i("err",[t,e])}var i=t("handle"),a=t(16),s=t("ee"),c=t("loader"),f=t("gos"),u=window.onerror,d=!1,l="nr@seenError",p=0;c.features.err=!0,t(1),window.onerror=r;try{throw new Error}catch(h){"stack"in h&&(t(8),t(7),"addEventListener"in window&&t(5),c.xhrWrappable&&t(9),d=!0)}s.on("fn-start",function(t,n,e){d&&(p+=1)}),s.on("fn-err",function(t,n,e){d&&!e[l]&&(f(e,l,function(){return!0}),this.thrown=!0,o(e))}),s.on("fn-end",function(){d&&!this.thrown&&p>0&&(p-=1)}),s.on("internal-error",function(t){i("ierr",[t,c.now(),!0])})},{}],3:[function(t,n,e){t("loader").features.ins=!0},{}],4:[function(t,n,e){function r(t){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var o=t("ee"),i=t("handle"),a=t(8),s=t(7),c="learResourceTimings",f="addEventListener",u="resourcetimingbufferfull",d="bstResource",l="resource",p="-start",h="-end",m="fn"+p,w="fn"+h,v="bstTimer",y="pushState",g=t("loader");g.features.stn=!0,t(6);var b=NREUM.o.EV;o.on(m,function(t,n){var e=t[0];e instanceof b&&(this.bstStart=g.now())}),o.on(w,function(t,n){var e=t[0];e instanceof b&&i("bst",[e,n,this.bstStart,g.now()])}),a.on(m,function(t,n,e){this.bstStart=g.now(),this.bstType=e}),a.on(w,function(t,n){i(v,[n,this.bstStart,g.now(),this.bstType])}),s.on(m,function(){this.bstStart=g.now()}),s.on(w,function(t,n){i(v,[n,this.bstStart,g.now(),"requestAnimationFrame"])}),o.on(y+p,function(t){this.time=g.now(),this.startPath=location.pathname+location.hash}),o.on(y+h,function(t){i("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),f in window.performance&&(window.performance["c"+c]?window.performance[f](u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["c"+c]()},!1):window.performance[f]("webkit"+u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["webkitC"+c]()},!1)),document[f]("scroll",r,{passive:!0}),document[f]("keypress",r,!1),document[f]("click",r,!1)}},{}],5:[function(t,n,e){function r(t){for(var n=t;n&&!n.hasOwnProperty(u);)n=Object.getPrototypeOf(n);n&&o(n)}function o(t){s.inPlace(t,[u,d],"-",i)}function i(t,n){return t[1]}var a=t("ee").get("events"),s=t(18)(a,!0),c=t("gos"),f=XMLHttpRequest,u="addEventListener",d="removeEventListener";n.exports=a,"getPrototypeOf"in Object?(r(document),r(window),r(f.prototype)):f.prototype.hasOwnProperty(u)&&(o(window),o(f.prototype)),a.on(u+"-start",function(t,n){var e=t[1],r=c(e,"nr@wrapped",function(){function t(){if("function"==typeof e.handleEvent)return e.handleEvent.apply(e,arguments)}var n={object:t,"function":e}[typeof e];return n?s(n,"fn-",null,n.name||"anonymous"):e});this.wrapped=t[1]=r}),a.on(d+"-start",function(t){t[1]=this.wrapped||t[1]})},{}],6:[function(t,n,e){var r=t("ee").get("history"),o=t(18)(r);n.exports=r,o.inPlace(window.history,["pushState","replaceState"],"-")},{}],7:[function(t,n,e){var r=t("ee").get("raf"),o=t(18)(r),i="equestAnimationFrame";n.exports=r,o.inPlace(window,["r"+i,"mozR"+i,"webkitR"+i,"msR"+i],"raf-"),r.on("raf-start",function(t){t[0]=o(t[0],"fn-")})},{}],8:[function(t,n,e){function r(t,n,e){t[0]=a(t[0],"fn-",null,e)}function o(t,n,e){this.method=e,this.timerDuration=isNaN(t[1])?0:+t[1],t[0]=a(t[0],"fn-",this,e)}var i=t("ee").get("timer"),a=t(18)(i),s="setTimeout",c="setInterval",f="clearTimeout",u="-start",d="-";n.exports=i,a.inPlace(window,[s,"setImmediate"],s+d),a.inPlace(window,[c],c+d),a.inPlace(window,[f,"clearImmediate"],f+d),i.on(c+u,r),i.on(s+u,o)},{}],9:[function(t,n,e){function r(t,n){d.inPlace(n,["onreadystatechange"],"fn-",s)}function o(){var t=this,n=u.context(t);t.readyState>3&&!n.resolved&&(n.resolved=!0,u.emit("xhr-resolved",[],t)),d.inPlace(t,y,"fn-",s)}function i(t){g.push(t),h&&(x?x.then(a):w?w(a):(E=-E,O.data=E))}function a(){for(var t=0;t<g.length;t++)r([],g[t]);g.length&&(g=[])}function s(t,n){return n}function c(t,n){for(var e in t)n[e]=t[e];return n}t(5);var f=t("ee"),u=f.get("xhr"),d=t(18)(u),l=NREUM.o,p=l.XHR,h=l.MO,m=l.PR,w=l.SI,v="readystatechange",y=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],g=[];n.exports=u;var b=window.XMLHttpRequest=function(t){var n=new p(t);try{u.emit("new-xhr",[n],n),n.addEventListener(v,o,!1)}catch(e){try{u.emit("internal-error",[e])}catch(r){}}return n};if(c(p,b),b.prototype=p.prototype,d.inPlace(b.prototype,["open","send"],"-xhr-",s),u.on("send-xhr-start",function(t,n){r(t,n),i(n)}),u.on("open-xhr-start",r),h){var x=m&&m.resolve();if(!w&&!m){var E=1,O=document.createTextNode(E);new h(a).observe(O,{characterData:!0})}}else f.on("fn-end",function(t){t[0]&&t[0].type===v||a()})},{}],10:[function(t,n,e){function r(t){var n=this.params,e=this.metrics;if(!this.ended){this.ended=!0;for(var r=0;r<d;r++)t.removeEventListener(u[r],this.listener,!1);if(!n.aborted){if(e.duration=a.now()-this.startTime,4===t.readyState){n.status=t.status;var i=o(t,this.lastSize);if(i&&(e.rxSize=i),this.sameOrigin){var c=t.getResponseHeader("X-NewRelic-App-Data");c&&(n.cat=c.split(", ").pop())}}else n.status=0;e.cbTime=this.cbTime,f.emit("xhr-done",[t],t),s("xhr",[n,e,this.startTime])}}}function o(t,n){var e=t.responseType;if("json"===e&&null!==n)return n;var r="arraybuffer"===e||"blob"===e||"json"===e?t.response:t.responseText;return h(r)}function i(t,n){var e=c(n),r=t.params;r.host=e.hostname+":"+e.port,r.pathname=e.pathname,t.sameOrigin=e.sameOrigin}var a=t("loader");if(a.xhrWrappable){var s=t("handle"),c=t(11),f=t("ee"),u=["load","error","abort","timeout"],d=u.length,l=t("id"),p=t(14),h=t(13),m=window.XMLHttpRequest;a.features.xhr=!0,t(9),f.on("new-xhr",function(t){var n=this;n.totalCbs=0,n.called=0,n.cbTime=0,n.end=r,n.ended=!1,n.xhrGuids={},n.lastSize=null,p&&(p>34||p<10)||window.opera||t.addEventListener("progress",function(t){n.lastSize=t.loaded},!1)}),f.on("open-xhr-start",function(t){this.params={method:t[0]},i(this,t[1]),this.metrics={}}),f.on("open-xhr-end",function(t,n){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&n.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),f.on("send-xhr-start",function(t,n){var e=this.metrics,r=t[0],o=this;if(e&&r){var i=h(r);i&&(e.txSize=i)}this.startTime=a.now(),this.listener=function(t){try{"abort"===t.type&&(o.params.aborted=!0),("load"!==t.type||o.called===o.totalCbs&&(o.onloadCalled||"function"!=typeof n.onload))&&o.end(n)}catch(e){try{f.emit("internal-error",[e])}catch(r){}}};for(var s=0;s<d;s++)n.addEventListener(u[s],this.listener,!1)}),f.on("xhr-cb-time",function(t,n,e){this.cbTime+=t,n?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof e.onload||this.end(e)}),f.on("xhr-load-added",function(t,n){var e=""+l(t)+!!n;this.xhrGuids&&!this.xhrGuids[e]&&(this.xhrGuids[e]=!0,this.totalCbs+=1)}),f.on("xhr-load-removed",function(t,n){var e=""+l(t)+!!n;this.xhrGuids&&this.xhrGuids[e]&&(delete this.xhrGuids[e],this.totalCbs-=1)}),f.on("addEventListener-end",function(t,n){n instanceof m&&"load"===t[0]&&f.emit("xhr-load-added",[t[1],t[2]],n)}),f.on("removeEventListener-end",function(t,n){n instanceof m&&"load"===t[0]&&f.emit("xhr-load-removed",[t[1],t[2]],n)}),f.on("fn-start",function(t,n,e){n instanceof m&&("onload"===e&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=a.now()))}),f.on("fn-end",function(t,n){this.xhrCbStart&&f.emit("xhr-cb-time",[a.now()-this.xhrCbStart,this.onload,n],n)})}},{}],11:[function(t,n,e){n.exports=function(t){var n=document.createElement("a"),e=window.location,r={};n.href=t,r.port=n.port;var o=n.href.split("://");!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=n.hostname||e.hostname,r.pathname=n.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname);var i=!n.protocol||":"===n.protocol||n.protocol===e.protocol,a=n.hostname===document.domain&&n.port===e.port;return r.sameOrigin=i&&(!n.hostname||a),r}},{}],12:[function(t,n,e){function r(){}function o(t,n,e){return function(){return i(t,[f.now()].concat(s(arguments)),n?null:this,e),n?void 0:this}}var i=t("handle"),a=t(15),s=t(16),c=t("ee").get("tracer"),f=t("loader"),u=NREUM;"undefined"==typeof window.newrelic&&(newrelic=u);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",p=l+"ixn-";a(d,function(t,n){u[n]=o(l+n,!0,"api")}),u.addPageAction=o(l+"addPageAction",!0),u.setCurrentRouteName=o(l+"routeName",!0),n.exports=newrelic,u.interaction=function(){return(new r).get()};var h=r.prototype={createTracer:function(t,n){var e={},r=this,o="function"==typeof n;return i(p+"tracer",[f.now(),t,e],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],e),o)try{return n.apply(this,arguments)}catch(t){throw c.emit("fn-err",[arguments,this,t],e),t}finally{c.emit("fn-end",[f.now()],e)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,n){h[n]=o(p+n)}),newrelic.noticeError=function(t){"string"==typeof t&&(t=new Error(t)),i("err",[t,f.now()])}},{}],13:[function(t,n,e){n.exports=function(t){if("string"==typeof t&&t.length)return t.length;if("object"==typeof t){if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if(!("undefined"!=typeof FormData&&t instanceof FormData))try{return JSON.stringify(t).length}catch(n){return}}}},{}],14:[function(t,n,e){var r=0,o=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);o&&(r=+o[1]),n.exports=r},{}],15:[function(t,n,e){function r(t,n){var e=[],r="",i=0;for(r in t)o.call(t,r)&&(e[i]=n(r,t[r]),i+=1);return e}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],16:[function(t,n,e){function r(t,n,e){n||(n=0),"undefined"==typeof e&&(e=t?t.length:0);for(var r=-1,o=e-n||0,i=Array(o<0?0:o);++r<o;)i[r]=t[n+r];return i}n.exports=r},{}],17:[function(t,n,e){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],18:[function(t,n,e){function r(t){return!(t&&t instanceof Function&&t.apply&&!t[a])}var o=t("ee"),i=t(16),a="nr@original",s=Object.prototype.hasOwnProperty,c=!1;n.exports=function(t,n){function e(t,n,e,o){function nrWrapper(){var r,a,s,c;try{a=this,r=i(arguments),s="function"==typeof e?e(r,a):e||{}}catch(f){l([f,"",[r,a,o],s])}u(n+"start",[r,a,o],s);try{return c=t.apply(a,r)}catch(d){throw u(n+"err",[r,a,d],s),d}finally{u(n+"end",[r,a,c],s)}}return r(t)?t:(n||(n=""),nrWrapper[a]=t,d(t,nrWrapper),nrWrapper)}function f(t,n,o,i){o||(o="");var a,s,c,f="-"===o.charAt(0);for(c=0;c<n.length;c++)s=n[c],a=t[s],r(a)||(t[s]=e(a,f?s+o:o,i,s))}function u(e,r,o){if(!c||n){var i=c;c=!0;try{t.emit(e,r,o,n)}catch(a){l([a,e,r,o])}c=i}}function d(t,n){if(Object.defineProperty&&Object.keys)try{var e=Object.keys(t);return e.forEach(function(e){Object.defineProperty(n,e,{get:function(){return t[e]},set:function(n){return t[e]=n,n}})}),n}catch(r){l([r])}for(var o in t)s.call(t,o)&&(n[o]=t[o]);return n}function l(n){try{t.emit("internal-error",n)}catch(e){}}return t||(t=o),e.inPlace=f,e.flag=a,e}},{}],ee:[function(t,n,e){function r(){}function o(t){function n(t){return t&&t instanceof r?t:t?c(t,s,i):i()}function e(e,r,o,i){if(!l.aborted||i){t&&t(e,r,o);for(var a=n(o),s=h(e),c=s.length,f=0;f<c;f++)s[f].apply(a,r);var d=u[y[e]];return d&&d.push([g,e,r,a]),a}}function p(t,n){v[t]=h(t).concat(n)}function h(t){return v[t]||[]}function m(t){return d[t]=d[t]||o(e)}function w(t,n){f(t,function(t,e){n=n||"feature",y[e]=n,n in u||(u[n]=[])})}var v={},y={},g={on:p,emit:e,get:m,listeners:h,context:n,buffer:w,abort:a,aborted:!1};return g}function i(){return new r}function a(){(u.api||u.feature)&&(l.aborted=!0,u=l.backlog={})}var s="nr@context",c=t("gos"),f=t(15),u={},d={},l=n.exports=o();l.backlog=u},{}],gos:[function(t,n,e){function r(t,n,e){if(o.call(t,n))return t[n];var r=e();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(t,n,e){function r(t,n,e,r){o.buffer([t],r),o.emit(t,n,e)}var o=t("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(t,n,e){function r(t){var n=typeof t;return!t||"object"!==n&&"function"!==n?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");n.exports=r},{}],loader:[function(t,n,e){function r(){if(!x++){var t=b.info=NREUM.info,n=l.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&n))return u.abort();f(y,function(n,e){t[n]||(t[n]=e)}),c("mark",["onload",a()+b.offset],null,"api");var e=l.createElement("script");e.src="https://"+t.agent,n.parentNode.insertBefore(e,n)}}function o(){"complete"===l.readyState&&i()}function i(){c("mark",["domContent",a()+b.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(s=Math.max((new Date).getTime(),s))-b.offset}var s=(new Date).getTime(),c=t("handle"),f=t(15),u=t("ee"),d=window,l=d.document,p="addEventListener",h="attachEvent",m=d.XMLHttpRequest,w=m&&m.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:m,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1071.min.js"},g=m&&w&&w[p]&&!/CriOS/.test(navigator.userAgent),b=n.exports={offset:s,now:a,origin:v,features:{},xhrWrappable:g};t(12),l[p]?(l[p]("DOMContentLoaded",i,!1),d[p]("load",r,!1)):(l[h]("onreadystatechange",o),d[h]("onload",r)),c("mark",["firstbyte",s],null,"api");var x=0,E=t(17)},{}]},{},["loader",2,10,4,3]);</script>
+<meta name="description" content="" />
+<link rel="shortcut icon" href="/sites/all/themes/pilot/favicon.ico" type="image/vnd.microsoft.icon" />
+<link rel="alternate" type="application/rss+xml" title="RSS Feed" href="http://www.wcbe.org/rss.xml" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<meta name="google-site-verification" content="VLBHLsMNOYNDdlq9IJfchcYNlT9d__iLxkZVK_FEgoU" />
+    <title>WCBE 90.5 FM | Central Ohio's NPR Station - Innovative, Provocative, Real</title>
+    <link type="text/css" rel="stylesheet" href="http://www.wcbe.org/sites/wcbe.org/files/css/css_zXr1pRkjUmFHX10b6Pv5_DqzyewvdLNQ8QgccGQIRQQ.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://www.wcbe.org/sites/wcbe.org/files/css/css_ZFlaYqkiQzTmlBPX4mQeT33IFQX3nR-zpGlyqFhtTNM.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://www.wcbe.org/sites/wcbe.org/files/css/css_PV0HBDBtTWS7oiEnFpozcEeThn_X5umpjVSdbNSQIRI.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://www.wcbe.org/sites/wcbe.org/files/css/css_uY1_bHNTrAu2UuUwumZ6AuPc2Egu5fV5FiJ2-fv7ySk.css" media="all" />
+<style type="text/css" media="all">
+<!--/*--><![CDATA[/*><!--*/
+.header-region-outer{background-color:#186A8F;}@media screen and (min-width:1024px){.header-region-outer{background-image:url(http://mediad.publicbroadcasting.net/p/wcbe/files/201803/new_header_1.jpg);background-position:center bottom;background-size:cover;background-repeat:no-repeat;}}.branding .tagline{color:#000;}.branding .listen-live-toggle > a,.branding .header-utility > a,.branding .header-utility > a.trigger-nav{color:#DEDEDE;}@media screen and (min-width:641px){.branding .trigger-nav{background:#777777;}}@media screen and (max-width:640px){.branding .header-utility > a.trigger-nav,.active-menu .branding .header-utility > a.trigger-nav{color:#777777;}}#listen-live .listen-live-toggle{background-color:#1E3E4D;}#listen-live .listen-live-btn{background-color:transparent;color:#DEDEDE;}@media screen and (min-width:640px){#listen-live .listen-live-btn{background-color:#1E3E4D;}}.branding .give{background:#A32B19;}
+
+/*]]>*/-->
+</style>
+<link type="text/css" rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato:300,700,700italic,900,italic,regular&amp;subset=latin" media="all" />
+<link type="text/css" rel="stylesheet" href="http://www.wcbe.org/sites/wcbe.org/files/css/css_0SDacQ2g4fA0V0Pl9Xx54meIEZaQ9e20iqI0eFZ6nm4.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://www.wcbe.org/sites/wcbe.org/files/css/css_SWo6tZlpCPjnhbZDAS4xgnCAofi51J7pbtu4SD2fIug.css" media="all" />
+    <script type="text/javascript" src="http://mediad.publicbroadcasting.net/p/wcbe/files/js/js_xSpMA4ArVcBKOZ43sPqNRk0gxQZdDVifw27pIUCzWU0.js"></script>
+<script type="text/javascript" src="http://mediad.publicbroadcasting.net/p/wcbe/files/js/js_uQACNz-q46biHdzuzAdQkVZaYioI6VTDeluEJ1apVwI.js"></script>
+<script type="text/javascript" src="http://mediad.publicbroadcasting.net/p/wcbe/files/js/js_f_6-OzlFXjayKlsU5sJKLwjz7LFQvdIZDm-Mt6jKwyM.js"></script>
+<script type="text/javascript" src="http://mediad.publicbroadcasting.net/p/wcbe/files/js/js__4npt0PuTlrK-GkTl821OR8Eb7aiGB9GvsSeu1tr7U4.js"></script>
+<script type="text/javascript" src="//www.googletagservices.com/tag/js/gpt.js"></script>
+<script type="text/javascript" src="http://mediad.publicbroadcasting.net/p/wcbe/files/js/js_jkt7EOQun5Xv6yIRbpr0uEvTGkCQorxDcSkU9SlN6eU.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+(function() {var ga = document.createElement("script");ga.type = "text/javascript";ga.async = true;ga.src="//stream.publicbroadcasting.net/analytics/aabx.js";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(ga, s);})();
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://mediad.publicbroadcasting.net/p/wcbe/files/js/js_yXlS33NQjP7sM3z_EmCiiPl-M-UILqOo9fg9anfS09s.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"responso","theme_token":"5IEPWv878ZJtkss_gZxEjJ8OS1w8ebfZNrC5MlbyIqM","js":{"http:\/\/widgets.listenlive.co\/1.0\/tdwidgets.min.js":1,"0":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery\/1.8\/jquery.min.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/custom\/responsive_utilities\/js\/vendor\/foundation\/foundation.js":1,"sites\/all\/modules\/custom\/responsive_utilities\/js\/vendor\/foundation\/foundation.topbar.js":1,"sites\/all\/libraries\/magnific-popup\/jquery.magnific-popup.min.js":1,"sites\/all\/modules\/contrib\/google_cse\/google_cse.js":1,"sites\/all\/modules\/custom\/pi_media_types\/pi_audio\/js\/pi-audio.js":1,"sites\/all\/modules\/custom\/pi_hull\/js\/pi-hull.js":1,"sites\/all\/modules\/custom\/pi_hull\/js\/jquery.innerfade.js":1,"sites\/all\/modules\/custom\/pi_hull\/jplayer\/js\/jquery.jplayer.min.js":1,"sites\/all\/modules\/custom\/pi_hull\/jplayer\/js\/main.js":1,"\/\/www.googletagservices.com\/tag\/js\/gpt.js":1,"sites\/all\/modules\/custom\/responsive_ads\/js\/main.js":1,"sites\/all\/modules\/custom\/triton_player\/js\/td-player\/td-player.js":1,"sites\/all\/modules\/custom\/pi_hull\/pi_outrigger\/js\/shared-cache-roundtrip.js":1,"sites\/all\/modules\/custom\/triton_player\/js\/td-player\/composer2.js":1,"sites\/all\/modules\/custom\/pi_ajax_links_api\/nprogress\/nprogress.js":1,"sites\/all\/modules\/custom\/pi_ajax_links_api\/pi_ajax_links_api.js":1,"sites\/all\/modules\/custom\/npr_entities\/npr_fields\/npr_image_gallery\/js\/npr-image-gallery.js":1,"sites\/all\/modules\/custom\/pi_assets\/plugins\/images\/js\/popup.js":1,"sites\/all\/modules\/custom\/npr_river\/assets\/npr-river.js":1,"sites\/all\/modules\/custom\/pi_guide\/js\/pi_guide_schedule_selector.js":1,"sites\/all\/modules\/custom\/pi_content_types\/pi_live_event\/js\/iframe.js":1,"sites\/all\/modules\/custom\/responsive_utilities\/js\/vendor\/modernizr.js":1,"sites\/all\/modules\/custom\/responsive_utilities\/js\/vendor\/media.match.min.js":1,"sites\/all\/modules\/custom\/responsive_utilities\/js\/vendor\/matchMedia.addListener.js":1,"sites\/all\/modules\/custom\/responsive_utilities\/js\/vendor\/enquire.min.js":1,"sites\/all\/modules\/custom\/responsive_utilities\/js\/vendor\/fastclick.js":1,"sites\/all\/modules\/custom\/block_factory\/treatments\/promotional-small\/promotional-small.js":1,"1":1,"sites\/all\/modules\/custom\/pi_content_types\/pi_program\/treatments\/program-promo\/program-promo.js":1,"sites\/all\/modules\/custom\/responsive_utilities\/js\/responsive-utilities.mediaqueries.js":1,"sites\/all\/modules\/custom\/responsive_utilities\/js\/responsive-utilities.scripts.js":1,"sites\/all\/modules\/custom\/responsive_utilities\/js\/responsive-utilities.responsiveimages.js":1,"sites\/all\/modules\/custom\/community_calendar\/lib\/datetimepicker\/jquery.timepicker.min.js":1,"sites\/all\/modules\/custom\/community_calendar\/lib\/datetimepicker\/bootstrap-datepicker.min.js":1,"sites\/all\/modules\/custom\/community_calendar\/lib\/datetimepicker\/jquery.datepair.min.js":1,"sites\/all\/modules\/custom\/community_calendar\/lib\/validation\/jquery.mask.min.js":1,"sites\/all\/modules\/custom\/community_calendar\/lib\/validation\/jquery.validate.min.js":1,"sites\/all\/modules\/custom\/community_calendar\/lib\/typeahead\/typeahead.js":1,"sites\/all\/modules\/custom\/community_calendar\/assets\/community-calendar.helpers.js":1,"sites\/all\/modules\/custom\/community_calendar\/assets\/community-calendar.js":1,"sites\/all\/modules\/custom\/community_calendar\/assets\/community-calendar.filters.js":1,"sites\/all\/modules\/custom\/community_calendar\/assets\/community-calendar.event.js":1,"sites\/all\/modules\/custom\/responsive_utilities\/js\/responsive-utilities.js":1,"sites\/all\/modules\/custom\/responsive_utilities\/js\/responsive-utilities.tag.js":1,"sites\/all\/modules\/custom\/community_calendar\/assets\/community-calendar.location.js":1,"sites\/all\/modules\/custom\/community_calendar\/assets\/community-calendar.organization.js":1,"sites\/all\/modules\/custom\/community_calendar\/assets\/community-calendar.recurrence.js":1,"sites\/all\/modules\/custom\/community_calendar\/assets\/community-calendar.category.js":1,"sites\/all\/modules\/custom\/community_calendar\/assets\/community-calendar.image.js":1,"sites\/all\/modules\/custom\/community_calendar\/assets\/community-calendar.sponsor.js":1,"sites\/all\/modules\/custom\/community_calendar\/assets\/community-calendar.validation.js":1,"sites\/all\/modules\/custom\/responsive_utilities\/js\/responsive-utilities.overrides.js":1,"sites\/all\/modules\/contrib\/disqus\/disqus.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"sites\/all\/libraries\/magnific-popup\/magnific-popup.css":1,"sites\/all\/modules\/contrib\/date\/date_api\/date.css":1,"sites\/all\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/contrib\/google_cse\/google_cse.css":1,"modules\/node\/node.css":1,"sites\/all\/modules\/custom\/pi_hull\/pi_outrigger\/css\/pi_outrigger.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/custom\/pi_guide\/css\/pi_guide.css":1,"sites\/all\/modules\/custom\/pi_hull\/jplayer\/css\/jplayer.npr.css":1,"sites\/all\/modules\/custom\/pi_npr_story\/css\/pi_npr_story.css":1,"sites\/all\/modules\/custom\/pi_views\/pi_reports_views\/css\/pi_reports.css":1,"sites\/all\/modules\/custom\/pi_menus\/css\/flexiMenu.css":1,"sites\/all\/modules\/custom\/responsive_footer\/responsive-footer.admin.css":1,"0":1,"http:\/\/fonts.googleapis.com\/css?family=Lato:300,700,700italic,900,italic,regular\u0026subset=latin":1,"sites\/all\/modules\/custom\/triton_player\/css\/td-player.css":1,"sites\/all\/modules\/custom\/pi_ajax_links_api\/pi_ajax_links_api.css":1,"sites\/all\/modules\/custom\/pi_ajax_links_api\/nprogress\/nprogress.css":1,"sites\/all\/modules\/custom\/pi_content_types\/pi_program\/treatments\/program-promo\/program-promo.css":1,"sites\/all\/modules\/custom\/community_calendar\/lib\/typeahead\/typeahead.css":1,"sites\/all\/modules\/custom\/community_calendar\/lib\/datetimepicker\/jquery.timepicker.css":1,"sites\/all\/modules\/custom\/community_calendar\/lib\/datetimepicker\/bootstrap-datepicker3.standalone.min.css":1,"sites\/all\/modules\/custom\/npr_entities\/npr_fields\/npr_image_gallery\/css\/npr-image-gallery.css":1,"sites\/all\/modules\/custom\/community_calendar\/assets\/community-calendar.css":1,"sites\/all\/modules\/custom\/block_factory\/treatments\/promotional-small\/promotional-small.css":1,"sites\/all\/modules\/custom\/block_factory\/treatments\/one-story\/one-story.css":1,"sites\/all\/modules\/custom\/block_factory\/treatments\/promotional-large\/promotional-large.css":1,"sites\/all\/themes\/responso\/css\/icon-fonts.css":1,"sites\/all\/themes\/responso\/css\/screen.css":1}},"googleCSE":{"cx":"010251366440257945544:t-yuttz1x8e","language":"","resultsWidth":600,"domain":"www.google.com","showWaterMark":true},"responsive_ads":{"networkCode":"6703910","prefix":"wcbe","adUnitTypes":{"leaderboard":{"note":"Only shows above 1024; shows 970x90 or 728x90.","sizes":[{"viewportSize":[0,0],"slotSize":[]},{"viewportSize":[1024,200],"slotSize":[[970,90],[970,50],[728,90]]}]},"medium":{"note":"Won't be served on screens smaller than 640x480.","sizes":[{"viewportSize":[0,0],"slotSize":[]},{"viewportSize":[640,200],"slotSize":[300,250]}]},"tablet":{"note":"Won't be served on screens smaller than 640x480 or larger than 1024x768","sizes":[{"viewportSize":[0,0],"slotSize":[]},{"viewportSize":[640,200],"slotSize":[728,90]},{"viewportSize":[1024,200],"slotSize":[]}]},"mobile":{"note":"Won't be served on screens larger than 640x480.","sizes":[{"viewportSize":[0,0],"slotSize":[320,50]},{"viewportSize":[640,200],"slotSize":[]}]}},"adUnits":[{"name":"leaderboard_1","type":"leaderboard","width":728,"height":90},{"name":"player_display","type":"leaderboard","width":728,"height":90},{"name":"medium_1","type":"medium","width":300,"height":250},{"name":"medium_2","type":"medium","width":300,"height":250},{"name":"medium_3","type":"medium","width":300,"height":250},{"name":"tablet_1","type":"tablet","width":728,"height":90},{"name":"mobile_1","type":"mobile","width":320,"height":50}],"placements":{"leaderboard_1":"main#content","medium_1":"#block-pi-responsive-ads-medium-1 .content","medium_2":"#block-pi-responsive-ads-medium-2 .content","medium_3":"#block-pi-responsive-ads-medium-3 .content","tablet_1":"main#content","mobile_1":"#block-pi-responsive-ads-mobile-1 .content","player_display":".companionLeaderBoard"},"persistentPlacements":{"player_display":".companionLeaderBoard"},"targeting":{"type":"agg","agg":"homepage"}},"tms_meta":[],"responsive_utilities":{"body_classes":"html front not-logged-in no-sidebars page-homepage fixed-header","custom_vars":{"nid":{"name":"nid","slot":8,"scope_id":3},"pop":{"name":"pop","slot":9,"scope_id":3},"author":{"name":"author","slot":11,"scope_id":3},"keywords":{"name":"tags","slot":12,"scope_id":3},"org_id":{"name":"org_id","slot":13,"scope_id":3},"brand":{"name":"CP_Station","slot":14,"scope_id":2},"has_audio":{"name":"Has_Inline_Audio","slot":15,"scope_id":3},"programs":{"name":"Program","slot":16,"scope_id":3},"category":{"name":"Category","slot":10,"scope_id":3},"datePublished":{"name":"PublishedDate","slot":17,"scope_id":3},"wordCount":{"name":"WordCount","slot":18,"scope_id":3},"story_id":{"name":"API_Story_Id","slot":19,"scope_id":3},"pmp_guid":{"name":"pmp_guid","slot":20,"scope_id":3}},"pagetype_vars":[{"page_type":"Content\/About","regex_pattern":"\/about(-us)?\/?$","pattern_name":"Core Publisher About Page"},{"page_type":"Events","regex_pattern":"\/events(\/|$)","pattern_name":"Core Publisher Events Page"},{"page_type":"People","regex_pattern":"\/people(\/|$)","pattern_name":"Core Publisher People Page"},{"page_type":"Playlist","regex_pattern":"\/search_playlists\/?$","pattern_name":"Core Publisher Playlist Page"},{"page_type":"Program","regex_pattern":"\/programs(\/|$)","pattern_name":"Core Publisher Program Page"},{"page_type":"Schedule","regex_pattern":"\/schedule(\/|$)","pattern_name":"Core Publisher Schedule Page"},{"page_type":"Search","regex_pattern":"\/search\/google\/?","pattern_name":"Core Publisher Search GSA Page"},{"page_type":"Story","regex_pattern":"\/post\/|\/webclip\/","pattern_name":"Core Publisher Story Page"},{"page_type":"Streaming","regex_pattern":"\/listen(-live)?\/?(#|$)","pattern_name":"Core Publisher Listen Live Page"}],"media_queries":{"mobile":"all and (max-width: 40em)","tablet":"screen and (min-width: 40.063em) and (max-width: 64em)","desktop":"screen and (min-width: 64.063em)"}},"pi_ajax_links_api":{"selector":"#page-document","trigger":"a.ajax-link,#page-wrapper a,a.logo,a.mobile-teaser-link,.dropdown a","negative_triggers":".dropdown .back a,.mobile .not-click \u003e a,#toolbar a,a.lightbox,.jp-interface a,.header .not-click \u003e a,.page-admin a,.page-block-factory a,a.give,.social-share a,#change-station,#rss-tablequeue a,a[href^=\"mailto:\"],.popup,a[href^=\"#\"],a:not([href]),ul.tabs\u003eli\u003ea,ul.contextual-links a,#table-queue-fleximenu a[target=\"_blank\"],.delete-button","scripts_included":0,"html5":1,"vpager":1}});
+//--><!]]>
+</script>
+    <meta name="viewport" content="width=device-width">
+  </head>
+
+  <body class="html front not-logged-in page-homepage fixed-header has-sidebar" >
+    <header role="banner" class="header">
+  <div class="skiptocontent"><a href="#main-content">skip to main content</a></div>
+    <div class="region region-header">
+    <div id="block-baby-bear-baby-bear-header" class="block block-baby-bear">
+
+    
+  <div class="content">
+    
+<div class="header-region-outer">
+  <section class="header-region-inner row">
+    <div class="branding large-12 columns">
+      <div class="brand-inner-wrapper">
+        <a href="/" rel="home" class="logo" title="WCBE 90.5 FM Home"><img typeof="foaf:Image" src="http://mediad.publicbroadcasting.net/p/wcbe/files/201803/wcbe.org_blue-b_w.png" alt="WCBE 90.5 FM logo" title="WCBE 90.5 FM Home" /></a>         <div class="tagline">
+                  </div>
+      </div>
+      <div class="header-utility">
+        <a class="trigger-nav" href="#">
+          <span class="icon-list"></span>
+          <span class="menu-text">Site Menu</span>
+        </a>
+        <a class="give" href="https://wcbe.blackbaudondemand.com/sslpage.aspx?pid=298" >
+  DONATE</a>
+      </div>
+    </div>
+  </section>
+</div>
+  </div>
+</div>
+  </div>
+</header>
+    <div class="nav-wrapper mobile">
+      <nav>
+        <div class="top-bar contain-to-grid" data-topbar>
+          <ul class="title-area">
+            <li class="toggle-topbar menu-icon">
+              <a href="#">Menu</a>
+            </li>
+          </ul>
+          <section class="top-bar-section">
+            <div class="table-queue" id="table-queue-fleximenu">
+  <ul  class="menu dropdown">
+<li class="dd has-dropdown not-click">
+<a href="http://wcbe.org/schedule/week/wcbe">Listen &amp; Watch</a>
+<ul  class="dropdown">
+<li class="left">
+<a href="http://wcbe.org/schedule/wcbe">On Air Schedule</a>
+</li>
+<li class="left">
+<a href="http://wcbe.org/programs">All Programs</a>
+</li>
+<li class="left">
+<a href="http://wcbe.org/programs/category/14529">Locally Produced Programs</a>
+</li>
+<li class="left">
+<a href="http://wcbe.org/search_playlists">What We&#039;re Playing</a>
+</li>
+<li class="left">
+<a href="https://www.youtube.com/channel/UCwi7_Y_956xv-dpfVg4KP_g">Youtube Channel</a>
+</li>
+</ul>
+</li>
+<li class="dd has-dropdown not-click">
+<a href="/news">News</a>
+<ul  class="dropdown">
+<li class="left">
+<a href="http://wcbe.org/news">WCBE News</a>
+</li>
+<li class="left">
+<a href="http://wcbe.org/npr-news">NPR News</a>
+</li>
+<li class="left">
+<a href="/term/business">Business</a>
+</li>
+<li class="left">
+<a href="/term/education-0">Education</a>
+</li>
+<li class="left">
+<a href="/term/health">Health</a>
+</li>
+<li class="left">
+<a href="/term/science-technology">Science &amp; Technology</a>
+</li>
+<li class="left">
+<a href="/term/sports">Sports</a>
+</li>
+</ul>
+</li>
+<li class="dd has-dropdown not-click">
+<a href="/category/music">Music</a>
+<ul  class="dropdown">
+<li class="left">
+<a href="/topic/studio-sessions">Coming Live To Studio A</a>
+</li>
+<li class="left">
+<a href="http://wcbe.org/programs/live-studio-replay">Live From Studio A: REPLAY</a>
+</li>
+<li class="left">
+<a href="/search_playlists"> WCBE Playlists</a>
+</li>
+<li class="left">
+<a href="/category/music">News &amp; Reviews</a>
+</li>
+<li class="left">
+<a href="https://www.youtube.com/playlist?list=PLJeDW_C0KOTTExle8HH-dl_UTI0rKO_Oj">Live From Studio A On Youtube</a>
+</li>
+</ul>
+</li>
+<li class="dd has-dropdown not-click">
+<a href="/term/arts">Arts &amp; Life</a>
+<ul  class="dropdown">
+<li class="left">
+<a href="/term/food">Food</a>
+</li>
+<li class="left">
+<a href="/term/games-leisure">Games &amp; Leisure</a>
+</li>
+<li class="left">
+<a href="/term/literature">Literature</a>
+</li>
+<li class="left">
+<a href="/term/movies">Movies</a>
+</li>
+</ul>
+</li>
+<li class="dd has-dropdown not-click">
+<a href="http://wcbe.org/post/shop-support-page">Support WCBE</a>
+<ul  class="dropdown">
+<li class="left">
+<a href="http://wcbe.blackbaudondemand.com/page.aspx?pid=298">Donate/ Become A Member</a>
+</li>
+<li class="left">
+<a href="http://wcbe.org/post/sustaining-memberships">Sustaining Memberships</a>
+</li>
+<li class="left">
+<a href="http://wcbe.org/program-sponsorship-page">Program Sponsorship</a>
+</li>
+<li class="left">
+<a href="http://wcbe.drupal.publicbroadcasting.net/post/sponsorship-digital-packages">Sponsorship &amp; Digital Packages</a>
+</li>
+<li class="left">
+<a href="http://wcbe.org/post/spring-2018-warp-drive-donation-levels">Membership Levels</a>
+</li>
+<li class="left">
+<a href="http://wcbe.blackbaudondemand.com/page.aspx?pid=290">Member Login</a>
+</li>
+<li class="left">
+<a href="/topic/membership-news">Membership News</a>
+</li>
+<li class="left">
+<a href="/topic/vip-benefits">VIP Benefits</a>
+</li>
+<li class="left">
+<a href="http://wcbe.org/post/volunteer-wcbe">Volunteer </a>
+</li>
+<li class="left">
+<a href="http://wcbe.org/post/shop-support-page">Shop &amp; Support</a>
+</li>
+<li class="left">
+<a href="http://www.cardonationwizard.com/wcbe/info/car-donation-columbus-oh.html">Donate Your Car</a>
+</li>
+</ul>
+</li>
+<li class="dd has-dropdown not-click">
+<a href="/about">About</a>
+<ul  class="dropdown">
+<li class="left">
+<a href="http://wcbe.org/about-us">WCBE&#039;s History</a>
+</li>
+<li class="left">
+<a href="http://wcbe.org/people/capacity/wcbe-staff">Staff &amp; Management </a>
+</li>
+<li class="left">
+<a href="http://wcbe.org/community-calendar#stream/0">Community Events Calendar</a>
+</li>
+<li class="left">
+<a href="/contact">Contact</a>
+</li>
+<li class="left">
+<a href="/Directions">Directions</a>
+</li>
+<li class="left">
+<a href="http://wcbe.org/additional-station-information">Financial Information/Audit</a>
+</li>
+</ul>
+</li>
+<li>
+<a href="/search/google">Search</a>
+</li>
+</ul>
+</div>
+          </section>
+        </div>
+      </nav>
+    </div>
+      <div class="region region-persistent">
+    <div id="block-triton-player-triton-player" class="block block-triton-player">
+
+    
+  <div class="content">
+    <div id="triton-player" class="triton-wrapper">
+  <div class="triton-player-container">
+    <div class="triton-left">
+      <td-player
+  id="td-player"
+  type="bar"
+  autostart="false"
+  station="WCBEFM"
+  renderingmode="Flash,Html5"
+  geotargeting="false"
+  primarycolor="#bbccdd"
+  secondarycolor="#4a565f"
+  highlightcolor="#5599bb"
+  leaderboard="companionLeaderBoard"
+  onappready="appReady"
+  onstreamstart="onStreamStart"
+  onstreamstopped="onStreamStopped">
+</td-player>
+<div class="stream-program-container">
+  <div class="stream-program-box">
+    <div class="stream-program-header">Listen</div>
+    <div class="stream-program-name"></div>
+    <div class="stream-program-nextinfo"></div>
+  </div>
+</div>
+    </div>
+    <div class="triton-more-toggle">
+      <div class="triton-player-btn" role="button" aria-label="Expand/Collapse">
+        <svg xmlns="http://www.w3.org/2000/svg" id="btn-open" class="toggle-arrow open" width="20px" height="11.7px" viewBox="0 0 20 11.7" preserveAspectRatio="xMinYMin">
+          <path fill="#7F95A4" d="M19.5,3.4c-0.7,0.7-8.1,7.8-8.1,7.8c-0.4,0.4-0.9,0.6-1.4,0.6c-0.5,0-1-0.2-1.4-0.6c0,0-7.4-7-8.1-7.8
+    c-0.7-0.7-0.8-2,0-2.8c0.8-0.8,1.8-0.8,2.7,0L10,7.1l6.7-6.5c0.9-0.8,2-0.8,2.7,0C20.2,1.4,20.2,2.7,19.5,3.4z"></path>
+        </svg>
+      </div>
+    </div>
+  </div>
+  <div class="stream-selector-container">
+    <div class="row collapse">
+      <div class="stream-song-container">
+        <div class="stream-song-box">
+          <div class="stream-song-artwork"></div>
+          <div class="stream-song-trackname"></div>
+          <div class="stream-song-artist"></div>
+          <div class="stream-song-collection"></div>
+        </div>
+      </div>
+      <div class="stream-selector-links small-12 column">
+        <ul class="stream-list">
+                      <li>
+  <a href="" class="triton-stream-selector-link"
+     data-stream-name="Listen"
+     data-stream-key="WCBEFM"
+     data-stream-ucs="5187efb6e1c85479698fb0cf">
+    <div class="stream-indicator">
+      <div class="triton-stream-inactive" title="not-playing"></div>
+      <div class="triton-stream-active" title="playing">
+        <span class="stream-activebar"></span>
+        <span class="stream-activebar"></span>
+        <span class="stream-activebar"></span>
+      </div>
+    </div>
+    <div class="stream-selector-stream-summary">
+      <div class="stream-selector-stream-name">
+        Listen      </div>
+      <div class="stream-selector-program-name"></div>
+    </div>
+  </a>
+</li>
+                  </ul>
+      </div>
+    </div>
+    <div class="companion-leaderboard-container">
+  <div class="row">
+    <div class="small-12 column">
+              <div id="companionLeaderBoard" class="companionLeaderBoard"></div>
+          </div>
+  </div>
+</div>  </div>
+</div>
+  </div>
+</div>
+  </div>
+    <div id="page-wrapper">
+            <div id="page-document" role="document" class="page">
+  <div class="nav-wrapper">
+    <nav>
+      <div class="top-bar contain-to-grid" data-topbar>
+        <ul class="title-area">
+          <li class="toggle-topbar menu-icon">
+            <a href="#">Menu</a>
+          </li>
+        </ul>
+        <section class="top-bar-section">
+          <div class="table-queue" id="table-queue-fleximenu">
+  <ul  class="menu dropdown">
+<li class="dd has-dropdown not-click">
+<a href="http://wcbe.org/schedule/week/wcbe">Listen &amp; Watch</a>
+<ul  class="dropdown">
+<li class="left">
+<a href="http://wcbe.org/schedule/wcbe">On Air Schedule</a>
+</li>
+<li class="left">
+<a href="http://wcbe.org/programs">All Programs</a>
+</li>
+<li class="left">
+<a href="http://wcbe.org/programs/category/14529">Locally Produced Programs</a>
+</li>
+<li class="left">
+<a href="http://wcbe.org/search_playlists">What We&#039;re Playing</a>
+</li>
+<li class="left">
+<a href="https://www.youtube.com/channel/UCwi7_Y_956xv-dpfVg4KP_g">Youtube Channel</a>
+</li>
+</ul>
+</li>
+<li class="dd has-dropdown not-click">
+<a href="/news">News</a>
+<ul  class="dropdown">
+<li class="left">
+<a href="http://wcbe.org/news">WCBE News</a>
+</li>
+<li class="left">
+<a href="http://wcbe.org/npr-news">NPR News</a>
+</li>
+<li class="left">
+<a href="/term/business">Business</a>
+</li>
+<li class="left">
+<a href="/term/education-0">Education</a>
+</li>
+<li class="left">
+<a href="/term/health">Health</a>
+</li>
+<li class="left">
+<a href="/term/science-technology">Science &amp; Technology</a>
+</li>
+<li class="left">
+<a href="/term/sports">Sports</a>
+</li>
+</ul>
+</li>
+<li class="dd has-dropdown not-click">
+<a href="/category/music">Music</a>
+<ul  class="dropdown">
+<li class="left">
+<a href="/topic/studio-sessions">Coming Live To Studio A</a>
+</li>
+<li class="left">
+<a href="http://wcbe.org/programs/live-studio-replay">Live From Studio A: REPLAY</a>
+</li>
+<li class="left">
+<a href="/search_playlists"> WCBE Playlists</a>
+</li>
+<li class="left">
+<a href="/category/music">News &amp; Reviews</a>
+</li>
+<li class="left">
+<a href="https://www.youtube.com/playlist?list=PLJeDW_C0KOTTExle8HH-dl_UTI0rKO_Oj">Live From Studio A On Youtube</a>
+</li>
+</ul>
+</li>
+<li class="dd has-dropdown not-click">
+<a href="/term/arts">Arts &amp; Life</a>
+<ul  class="dropdown">
+<li class="left">
+<a href="/term/food">Food</a>
+</li>
+<li class="left">
+<a href="/term/games-leisure">Games &amp; Leisure</a>
+</li>
+<li class="left">
+<a href="/term/literature">Literature</a>
+</li>
+<li class="left">
+<a href="/term/movies">Movies</a>
+</li>
+</ul>
+</li>
+<li class="dd has-dropdown not-click">
+<a href="http://wcbe.org/post/shop-support-page">Support WCBE</a>
+<ul  class="dropdown">
+<li class="left">
+<a href="http://wcbe.blackbaudondemand.com/page.aspx?pid=298">Donate/ Become A Member</a>
+</li>
+<li class="left">
+<a href="http://wcbe.org/post/sustaining-memberships">Sustaining Memberships</a>
+</li>
+<li class="left">
+<a href="http://wcbe.org/program-sponsorship-page">Program Sponsorship</a>
+</li>
+<li class="left">
+<a href="http://wcbe.drupal.publicbroadcasting.net/post/sponsorship-digital-packages">Sponsorship &amp; Digital Packages</a>
+</li>
+<li class="left">
+<a href="http://wcbe.org/post/spring-2018-warp-drive-donation-levels">Membership Levels</a>
+</li>
+<li class="left">
+<a href="http://wcbe.blackbaudondemand.com/page.aspx?pid=290">Member Login</a>
+</li>
+<li class="left">
+<a href="/topic/membership-news">Membership News</a>
+</li>
+<li class="left">
+<a href="/topic/vip-benefits">VIP Benefits</a>
+</li>
+<li class="left">
+<a href="http://wcbe.org/post/volunteer-wcbe">Volunteer </a>
+</li>
+<li class="left">
+<a href="http://wcbe.org/post/shop-support-page">Shop &amp; Support</a>
+</li>
+<li class="left">
+<a href="http://www.cardonationwizard.com/wcbe/info/car-donation-columbus-oh.html">Donate Your Car</a>
+</li>
+</ul>
+</li>
+<li class="dd has-dropdown not-click">
+<a href="/about">About</a>
+<ul  class="dropdown">
+<li class="left">
+<a href="http://wcbe.org/about-us">WCBE&#039;s History</a>
+</li>
+<li class="left">
+<a href="http://wcbe.org/people/capacity/wcbe-staff">Staff &amp; Management </a>
+</li>
+<li class="left">
+<a href="http://wcbe.org/community-calendar#stream/0">Community Events Calendar</a>
+</li>
+<li class="left">
+<a href="/contact">Contact</a>
+</li>
+<li class="left">
+<a href="/Directions">Directions</a>
+</li>
+<li class="left">
+<a href="http://wcbe.org/additional-station-information">Financial Information/Audit</a>
+</li>
+</ul>
+</li>
+<li>
+<a href="/search/google">Search</a>
+</li>
+</ul>
+</div>
+        </section>
+      </div>
+    </nav>
+  </div>
+
+  <div id="player" class="player">
+      </div>
+
+  
+  
+  
+  
+  <div class="row">
+    <main id="content" role="main" class="main-content small-12 columns">
+      <article class="story">
+        <a id="main-content"></a>
+        
+                                    
+        
+                  <div class="regions-ab-outer">
+            <div class="regions-ab-inner">
+        
+                  <div class="region-a">
+              <div class="region region-region-a">
+    <div id="block-block-factory-block-factory-55d5d8da7e20c" class="block block-block-factory">
+
+    <h2 class="block-title">Lead Story</h2>
+  
+  <div class="content">
+    <div class="one-story-treatment bf-outer-wrapper clearfix">
+  <div class="bf-inner-wrapper bf-hero">
+      <figure class="bf-image-wrapper  with-image">
+    <a href="/post/archbishop-alleges-pope-francis-long-knew-about-abuse-calls-him-resign">
+<div class="card-image-container">
+  <figure>
+    <a title="" href="/post/archbishop-alleges-pope-francis-long-knew-about-abuse-calls-him-resign" class="noexit">
+    <img class="multiple" src="http://mediad.publicbroadcasting.net/p/shared/npr/styles/medium/nprshared/201808/642065416.jpg" >
+            <div class="launch">
+        <i class="icon-popup"></i>
+      </div>
+          </a>
+
+      </figure>
+</div>
+</a>  </figure>
+
+<div class="bf-text-wrapper  with-image">
+  <h2 class="bf-post-title"><a href="/post/archbishop-alleges-pope-francis-long-knew-about-abuse-calls-him-resign">Archbishop Alleges Pope Francis Long Knew About Abuse, Calls On Him To Resign</a></h2>
+  <div class="bf-body">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>A former Vatican ambassador to the United States alleges in a 7,000 word letter that top Catholic Church officials, including Pope Benedict XVI and Pope Francis, were long aware of sexual misconduct allegations against former D.C. archbishop Cardinal Theodore McCarrick. Last month, McCarrick resigned amid claims he sexually abused seminarians. The scathing 11-page letter written by Archbishop Carlo Maria Viganò, a conservative critic of Pope Francis who was removed from his position in 2016,...</p></div></div></div>  </div>
+
+  <a href="/post/archbishop-alleges-pope-francis-long-knew-about-abuse-calls-him-resign" class="bf-read-more">Read More</a>
+</div>
+
+<div class="content  with-image">
+  </div>
+  </div>
+</div>
+  </div>
+</div>
+<div id="block-npr-river-npr-river-block-all" class="block block-npr-river">
+
+    
+  <div class="content">
+    
+<div class="npr-river-all">
+  
+<div id="node-128947" class="node-teaser node node-post node-promoted npr_river_card row" about="/post/attorneys-say-if-meyer-deleted-text-messages-its-illegal" typeof="sioc:Item foaf:Document">
+  <div class="large-12 columns">
+    <a class="mobile-teaser-link" href="/post/attorneys-say-if-meyer-deleted-text-messages-its-illegal"></a>
+    <div class='title-info'>
+      <h2  property="dc:title" datatype="" itemprop="name"><a href="/post/attorneys-say-if-meyer-deleted-text-messages-its-illegal">Attorneys Say If Meyer Deleted Text Messages, It&#039;s Illegal</a></h2>
+              <div class="by-date">
+          <span class="submitted"><span property="dc:date dc:created" content="2018-08-27T05:22:32-04:00" datatype="xsd:dateTime" rel="sioc:has_creator"><span class="submitted-label">By</span> <span class="name"><a href="/people/associated-press" rel="author">Associated Press</a></span></span></span>
+          <i class="bullet">&#8226;</i>
+          <span class="pub-date">29 minutes ago</span>
+        </div>
+          </div>
+
+    <div class="content">
+      
+<div class="card-image-container">
+  <figure>
+    <a title="solveyourtech.com" href="/post/attorneys-say-if-meyer-deleted-text-messages-its-illegal" class="noexit">
+    <img class="multiple" src="http://mediad.publicbroadcasting.net/p/wcbe/files/styles/medium/public/201808/dtmjpg.jpg" >
+          </a>
+
+        <div class="image-meta">
+      <figcaption>
+        <div class="credit">
+          solveyourtech.com        </div>
+      </figcaption>
+    </div>
+      </figure>
+</div>
+<div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p><p>Open records experts say any attempt by Ohio State football coach Urban Meyer to eliminate older text messages from his phone to hide information would be without question illegal. </p> <p></p></div></div></div>    </div>
+
+      </div>
+</div>
+
+<div id="node-128946" class="node-teaser node node-post node-promoted npr_river_card row" about="/post/ohio-native-tim-conway-has-dementia" typeof="sioc:Item foaf:Document">
+  <div class="large-12 columns">
+    <a class="mobile-teaser-link" href="/post/ohio-native-tim-conway-has-dementia"></a>
+    <div class='title-info'>
+      <h2  property="dc:title" datatype="" itemprop="name"><a href="/post/ohio-native-tim-conway-has-dementia">Ohio Native Tim Conway Has Dementia</a></h2>
+              <div class="by-date">
+          <span class="submitted"><span property="dc:date dc:created" content="2018-08-27T05:19:31-04:00" datatype="xsd:dateTime" rel="sioc:has_creator"><span class="submitted-label">By</span> <span class="name"><a href="/people/jim-letizia" rel="author">Jim Letizia</a></span></span></span>
+          <i class="bullet">&#8226;</i>
+          <span class="pub-date">32 minutes ago</span>
+        </div>
+          </div>
+
+    <div class="content">
+      
+<div class="card-image-container">
+  <figure>
+    <a title="wikipedia" href="/post/ohio-native-tim-conway-has-dementia" class="noexit">
+    <img class="multiple" src="http://mediad.publicbroadcasting.net/p/wcbe/files/styles/medium/public/201808/tc.jpg" >
+          </a>
+
+        <div class="image-meta">
+      <figcaption>
+        <div class="credit">
+          wikipedia        </div>
+      </figcaption>
+    </div>
+      </figure>
+</div>
+<div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p><p>Legendary comedian <a href="https://en.wikipedia.org/wiki/Tim_Conway">Tim Conway</a> is battling dementia.  </p> <p></p></div></div></div>    </div>
+
+      </div>
+</div>
+
+<div id="node-128945" class="node-teaser node node-post node-promoted npr_river_card row" about="/post/two-local-weekend-shootings-leave-two-people-dead" typeof="sioc:Item foaf:Document">
+  <div class="large-12 columns">
+    <a class="mobile-teaser-link" href="/post/two-local-weekend-shootings-leave-two-people-dead"></a>
+    <div class='title-info'>
+      <h2  property="dc:title" datatype="" itemprop="name"><a href="/post/two-local-weekend-shootings-leave-two-people-dead">Two Local Weekend Shootings Leave Two People Dead</a></h2>
+              <div class="by-date">
+          <span class="submitted"><span property="dc:date dc:created" content="2018-08-27T05:16:15-04:00" datatype="xsd:dateTime" rel="sioc:has_creator"><span class="submitted-label">By</span> <span class="name"><a href="/people/jim-letizia" rel="author">Jim Letizia</a></span></span></span>
+          <i class="bullet">&#8226;</i>
+          <span class="pub-date">36 minutes ago</span>
+        </div>
+          </div>
+
+    <div class="content">
+      
+<div class="card-image-container">
+  <figure>
+    <a title="" href="/post/two-local-weekend-shootings-leave-two-people-dead" class="noexit">
+    <img class="multiple" src="http://mediad.publicbroadcasting.net/p/wcbe/files/styles/medium/public/201605/cs_0.jpeg" >
+          </a>
+
+      </figure>
+</div>
+<div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p><p>Columbus police have identified the teen girl shot on Saturday night. </p> <p></p></div></div></div>    </div>
+
+      </div>
+</div>
+
+<div id="node-128944" class="node-teaser node node-post node-promoted npr_river_card row" about="/post/ginther-declines-sign-legislation-studying-creation-municipal-id-system" typeof="sioc:Item foaf:Document">
+  <div class="large-12 columns">
+    <a class="mobile-teaser-link" href="/post/ginther-declines-sign-legislation-studying-creation-municipal-id-system"></a>
+    <div class='title-info'>
+      <h2  property="dc:title" datatype="" itemprop="name"><a href="/post/ginther-declines-sign-legislation-studying-creation-municipal-id-system">Ginther Declines To Sign Legislation Studying Creation Of Municipal ID System</a></h2>
+              <div class="by-date">
+          <span class="submitted"><span property="dc:date dc:created" content="2018-08-27T05:13:02-04:00" datatype="xsd:dateTime" rel="sioc:has_creator"><span class="submitted-label">By</span> <span class="name"><a href="/people/jim-letizia" rel="author">Jim Letizia</a></span></span></span>
+          <i class="bullet">&#8226;</i>
+          <span class="pub-date">39 minutes ago</span>
+        </div>
+          </div>
+
+    <div class="content">
+      
+<div class="card-image-container">
+  <figure>
+    <a title="columbus.gov" href="/post/ginther-declines-sign-legislation-studying-creation-municipal-id-system" class="noexit">
+    <img class="multiple" src="http://mediad.publicbroadcasting.net/p/wcbe/files/styles/medium/public/201804/ag.jpg" >
+          </a>
+
+        <div class="image-meta">
+      <figcaption>
+        <div class="credit">
+          columbus.gov        </div>
+      </figcaption>
+    </div>
+      </figure>
+</div>
+<div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p><p>Columbus Mayor Andy Ginther has failed to sign legislation approved by City Council in July to fund a feasibility study into a municipal ID program. </p> <p></p></div></div></div>    </div>
+
+      </div>
+</div>
+
+<div id="node-128949" class="node-teaser node node-post node-promoted npr_river_card row" about="/post/one-kind-john-mccains-indelible-place-american-politics" typeof="sioc:Item foaf:Document">
+  <div class="large-12 columns">
+    <a class="mobile-teaser-link" href="/post/one-kind-john-mccains-indelible-place-american-politics"></a>
+    <div class='title-info'>
+      <h2  property="dc:title" datatype="" itemprop="name"><a href="/post/one-kind-john-mccains-indelible-place-american-politics">One Of A Kind: John McCain&#039;s Indelible Place In American Politics</a></h2>
+              <div class="by-date">
+          <span class="submitted"><span property="dc:date dc:created" content="2018-08-27T05:00:00-04:00" datatype="xsd:dateTime" rel="sioc:has_creator"><span class="submitted-label">By</span> <span class="name"><a href="/people/jessica-taylor" rel="author">Jessica Taylor</a></span></span></span>
+          <i class="bullet">&#8226;</i>
+          <span class="pub-date">52 minutes ago</span>
+        </div>
+          </div>
+
+    <div class="content">
+      
+<div class="card-image-container">
+  <figure>
+    <a title="" href="/post/one-kind-john-mccains-indelible-place-american-politics" class="noexit">
+    <img class="multiple" src="http://mediad.publicbroadcasting.net/p/shared/npr/styles/medium/nprshared/201808/642081917.jpg" >
+            <div class="launch">
+        <i class="icon-popup"></i>
+      </div>
+          </a>
+
+      </figure>
+</div>
+<div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p><p></p><div class="flex-video">    <iframe class="youtube-player" type="text/html" width="440" height="330" src="http://www.youtube.com/embed/JIjenjANqAk" allowfullscreen="" frameborder="0"> </iframe></div>  <p></p><div class="flex-video">    <iframe class="youtube-player" type="text/html" width="440" height="330" src="http://www.youtube.com/embed/Cw4RqZAKa5A" allowfullscreen="" frameborder="0"> </iframe></div>  <p>Just under a month before Election Day 2008, a woman stood up at a rally and told Republican nominee John McCain a major concern she had about his White House opponent. </p></p></div></div></div>    </div>
+
+      </div>
+</div>
+
+<div id="node-128950" class="node-teaser node node-post node-promoted npr_river_card row" about="/post/coal-country-epa-plan-short-term-boost-no-solution-industry-decline" typeof="sioc:Item foaf:Document">
+  <div class="large-12 columns">
+    <a class="mobile-teaser-link" href="/post/coal-country-epa-plan-short-term-boost-no-solution-industry-decline"></a>
+    <div class='title-info'>
+      <h2  property="dc:title" datatype="" itemprop="name"><a href="/post/coal-country-epa-plan-short-term-boost-no-solution-industry-decline">Coal Country: EPA Plan Is Short Term Boost, No Solution For Industry Decline</a></h2>
+              <div class="by-date">
+          <span class="submitted"><span property="dc:date dc:created" content="2018-08-27T05:00:00-04:00" datatype="xsd:dateTime" rel="sioc:has_creator"><span class="submitted-label">By</span> <span class="name">Cooper McKim</span></span></span>
+          <i class="bullet">&#8226;</i>
+          <span class="pub-date">52 minutes ago</span>
+        </div>
+          </div>
+
+    <div class="content">
+      
+<div class="card-image-container">
+  <figure>
+    <a title="" href="/post/coal-country-epa-plan-short-term-boost-no-solution-industry-decline" class="noexit">
+    <img class="multiple" src="http://mediad.publicbroadcasting.net/p/shared/npr/styles/medium/nprshared/201808/641865407.jpg" >
+          </a>
+
+      </figure>
+</div>
+<div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p><p>The Trump's administration's <a href="https://www.epa.gov/sites/production/files/2018-08/documents/utilities_ria_proposed_ace_2018-08.pdf">proposal</a> to relax regulations on carbon emissions is welcome news in coal producing states like Wyoming, even as people in the industry acknowledge its impact would be limited. </p></p></div></div></div>    </div>
+
+      </div>
+</div>
+
+<div id="node-128953" class="node-teaser node node-post node-promoted npr_river_card row" about="/post/following-disputed-election-mnangagwa-sworn-zimbabwes-president" typeof="sioc:Item foaf:Document">
+  <div class="large-12 columns">
+    <a class="mobile-teaser-link" href="/post/following-disputed-election-mnangagwa-sworn-zimbabwes-president"></a>
+    <div class='title-info'>
+      <h2  property="dc:title" datatype="" itemprop="name"><a href="/post/following-disputed-election-mnangagwa-sworn-zimbabwes-president">Following Disputed Election, Mnangagwa Sworn In As Zimbabwe&#039;s President</a></h2>
+              <div class="by-date">
+          <span class="submitted"><span property="dc:date dc:created" content="2018-08-27T04:57:00-04:00" datatype="xsd:dateTime" rel="sioc:has_creator"><span class="submitted-label">By</span> <span class="name"><a href="/people/eyder-peralta" rel="author">Eyder Peralta</a></span></span></span>
+          <i class="bullet">&#8226;</i>
+          <span class="pub-date">55 minutes ago</span>
+        </div>
+          </div>
+
+    <div class="content">
+      
+<div class="card-image-container">
+  <figure>
+    <a title="" href="/post/following-disputed-election-mnangagwa-sworn-zimbabwes-president" class="noexit">
+    <img class="multiple" src="http://mediad.publicbroadcasting.net/p/shared/npr/styles/medium/nprshared/201808/642157867.jpg" >
+          </a>
+
+      </figure>
+</div>
+<div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p><p>The stands at Zimbabwe's national stadium were filled with tens of thousands of people celebrating the victory of President Emmerson Mnangagwa. </p><p>Many of the women wore wraps printed with Mnangagwa's smiling face. The men wore his signature scarf: Red, green, yellow, white and black, like the colors of the country's flag. </p><p>Mnangagwa sat alongside the presidents of South Africa, Rwanda, Democratic Republic Congo and Zambia, smiling, seemingly relieved that this tense, historic process was at least legally over. </p></p></div></div></div>    </div>
+
+      </div>
+</div>
+
+<div id="node-128943" class="node-teaser node node-post node-promoted npr_river_card row" about="/post/neil-simon-preeminent-and-prolific-playwright-and-screenwriter-has-died-91" typeof="sioc:Item foaf:Document">
+  <div class="large-12 columns">
+    <a class="mobile-teaser-link" href="/post/neil-simon-preeminent-and-prolific-playwright-and-screenwriter-has-died-91"></a>
+    <div class='title-info'>
+      <h2  property="dc:title" datatype="" itemprop="name"><a href="/post/neil-simon-preeminent-and-prolific-playwright-and-screenwriter-has-died-91">Neil Simon, Preeminent And Prolific Playwright And Screenwriter, Has Died At 91</a></h2>
+              <div class="by-date">
+          <span class="submitted"><span property="dc:date dc:created" content="2018-08-27T01:29:04-04:00" datatype="xsd:dateTime" rel="sioc:has_creator"><span class="submitted-label">By</span> <span class="name">Jon Kalish</span></span></span>
+          <i class="bullet">&#8226;</i>
+          <span class="pub-date">4 hours ago</span>
+        </div>
+          </div>
+
+    <div class="content">
+      
+<div class="card-image-container">
+  <figure>
+    <a title="" href="/post/neil-simon-preeminent-and-prolific-playwright-and-screenwriter-has-died-91" class="noexit">
+    <img class="multiple" src="http://mediad.publicbroadcasting.net/p/shared/npr/styles/medium/nprshared/201808/621433043.jpg" >
+          </a>
+
+      </figure>
+</div>
+<div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p><p>Neil Simon, the enormously productive comic playwright who often adapted his work into screenplays,<strong> </strong>died on early Sunday morning. He was 91. The cause of death was complications from pneumonia, according to Bill Evans, his longtime friend and publicist. </p><p>Among the most prolific playwrights in American theater from the 1960s through the 1990s, he won the Pulitzer Prize in 1991 for <em>Lost in Yonkers</em>, which he said was his deepest play. But Neil Simon was better known for being funny. </p></p></div></div></div>    </div>
+
+      </div>
+</div>
+
+<div id="node-128938" class="node-teaser node node-post node-promoted npr_river_card row" about="/post/archbishop-alleges-pope-francis-long-knew-about-abuse-calls-him-resign" typeof="sioc:Item foaf:Document">
+  <div class="large-12 columns">
+    <a class="mobile-teaser-link" href="/post/archbishop-alleges-pope-francis-long-knew-about-abuse-calls-him-resign"></a>
+    <div class='title-info'>
+      <h2  property="dc:title" datatype="" itemprop="name"><a href="/post/archbishop-alleges-pope-francis-long-knew-about-abuse-calls-him-resign">Archbishop Alleges Pope Francis Long Knew About Abuse, Calls On Him To Resign</a></h2>
+              <div class="by-date">
+          <span class="submitted"><span property="dc:date dc:created" content="2018-08-26T17:09:00-04:00" datatype="xsd:dateTime" rel="sioc:has_creator"><span class="submitted-label">By</span> <span class="name"><a href="/people/gabriela-saldivia" rel="author">Gabriela Saldivia</a></span></span></span>
+          <i class="bullet">&#8226;</i>
+          <span class="pub-date">12 hours ago</span>
+        </div>
+          </div>
+
+    <div class="content">
+      
+<div class="card-image-container">
+  <figure>
+    <a title="" href="/post/archbishop-alleges-pope-francis-long-knew-about-abuse-calls-him-resign" class="noexit">
+    <img class="multiple" src="http://mediad.publicbroadcasting.net/p/shared/npr/styles/medium/nprshared/201808/642065416.jpg" >
+            <div class="launch">
+        <i class="icon-popup"></i>
+      </div>
+          </a>
+
+      </figure>
+</div>
+<div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p><p>A former Vatican ambassador to the United States alleges in a 7,000 word letter that top Catholic Church officials, including Pope Benedict XVI and Pope Francis, were long aware of sexual misconduct allegations against former D.C. archbishop Cardinal Theodore McCarrick. </p><p>Last month, McCarrick resigned amid claims he sexually abused seminarians. </p></p></div></div></div>    </div>
+
+      </div>
+</div>
+
+<div id="node-128937" class="node-teaser node node-post node-promoted npr_river_card row" about="/post/sheriff-multiple-fatalities-after-shooting-downtown-jacksonville" typeof="sioc:Item foaf:Document">
+  <div class="large-12 columns">
+    <a class="mobile-teaser-link" href="/post/sheriff-multiple-fatalities-after-shooting-downtown-jacksonville"></a>
+    <div class='title-info'>
+      <h2  property="dc:title" datatype="" itemprop="name"><a href="/post/sheriff-multiple-fatalities-after-shooting-downtown-jacksonville">3 Dead Including Suspected Gunman After Shooting At Jacksonville Gaming Tournament</a></h2>
+              <div class="by-date">
+          <span class="submitted"><span property="dc:date dc:created" content="2018-08-26T14:58:00-04:00" datatype="xsd:dateTime" rel="sioc:has_creator"><span class="submitted-label">By</span> <span class="name"><a href="/people/merrit-kennedy" rel="author">Merrit Kennedy</a></span></span></span>
+          <i class="bullet">&#8226;</i>
+          <span class="pub-date">14 hours ago</span>
+        </div>
+          </div>
+
+    <div class="content">
+      
+<div class="card-image-container">
+  <figure>
+    <a title="" href="/post/sheriff-multiple-fatalities-after-shooting-downtown-jacksonville" class="noexit">
+    <img class="multiple" src="http://mediad.publicbroadcasting.net/p/shared/npr/styles/medium/nprshared/201808/642061592.jpg" >
+          </a>
+
+      </figure>
+</div>
+<div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p><p><strong>Updated at 9:19 p.m. ET Sunday </strong> </p><p>A 24-year-old male opened fire during a video game tournament at a mall in Jacksonville, Fla., on Sunday afternoon, killing three people, including himself, according to the local sheriff. </p><p>Sheriff Mike Williams says the suspect has been identified as David Katz from Baltimore. The gunman used at least one handgun and was a participant in the tournament, according to the sheriff. Authorities planned to release more information about the suspect later on Sunday. </p></p></div></div></div>    </div>
+
+      </div>
+</div>
+</div><h2 class="element-invisible">Pages</h2><div class="item-list"><ul class="pager"><li class="pager-current first">1</li>
+<li class="pager-item"><a href="/homepage?page=1" title="Go to page 2" class="active">2</a></li>
+<li class="pager-item"><a href="/homepage?page=2" title="Go to page 3" class="active">3</a></li>
+<li class="pager-item"><a href="/homepage?page=3" title="Go to page 4" class="active">4</a></li>
+<li class="pager-ellipsis">…</li>
+<li class="pager-next"><a href="/homepage?page=1" title="Go to next page" class="active">next ›</a></li>
+<li class="pager-last last"><a href="/homepage?page=11007" title="Go to last page" class="active">last »</a></li>
+</ul></div>  </div>
+</div>
+  </div>
+          </div>
+        
+                  <div class="region-b">
+              <div class="region region-region-b">
+    <div id="block-block-factory-block-factory-55db0371426ce" class="block block-block-factory">
+
+    
+  <div class="content">
+    <style type="text/css">#promo-small-55db0371426ce .promo-small-treatment { background-color: #FFFFFF; } #promo-small-55db0371426ce .promo-small-heading { color: #404040; } #promo-small-55db0371426ce .promo-small-heading a { color: #404040; } #promo-small-55db0371426ce .promo-small-teaser { color: #404040; } #promo-small-55db0371426ce .promo-small-cta { border-color: #404040; color: #404040; opacity: 1; transition: all .15s ease; } #promo-small-55db0371426ce .promo-small-cta:hover { color: #404040; opacity: 0.6; }</style><div id="promo-small-55db0371426ce">
+  <div class="promo-small-treatment clearfix" >
+          <figure class="promo-small-image">
+        <a href="http://wcbe.org/post/connect-wcbe#stream/0" class="linked-image"><img typeof="foaf:Image" src="http://mediad.publicbroadcasting.net/p/wcbe/files/styles/medium/public/201508/social_media_favicons2.jpg" alt="" /></a>      </figure>
+    
+        <div class="promo-small-text-wrapper">
+      
+              <p class="promo-small-teaser"><b>Connect With WCBE</b></p>
+      
+            </div>
+      </div>
+</div>
+  </div>
+</div>
+<div id="block-block-factory-block-factory-5993434e0e079" class="block block-block-factory">
+
+    <h2 class="block-title">Local </h2>
+  
+  <div class="content">
+    <div class="rss-treatment bf-outer-wrapper clearfix">
+        <div class="item-list"><ul><li class="first"><a href="http://wcbe.drupal.publicbroadcasting.net/post/attorneys-say-if-meyer-deleted-text-messages-its-illegal">Attorneys Say If Meyer Deleted Text Messages, It&#039;s Illegal</a></li>
+<li><a href="http://wcbe.drupal.publicbroadcasting.net/post/ohio-native-tim-conway-has-dementia">Ohio Native Tim Conway Has Dementia</a></li>
+<li><a href="http://wcbe.drupal.publicbroadcasting.net/post/two-local-weekend-shootings-leave-two-people-dead">Two Local Weekend Shootings Leave Two People Dead</a></li>
+<li><a href="http://wcbe.drupal.publicbroadcasting.net/post/ginther-declines-sign-legislation-studying-creation-municipal-id-system">Ginther Declines To Sign Legislation Studying Creation Of Municipal ID System</a></li>
+<li class="last"><a href="http://wcbe.drupal.publicbroadcasting.net/post/youtune-insight-ep-50">YouTune: Insight-Ep. 50</a></li>
+</ul></div></div>
+  </div>
+</div>
+<div id="block-block-factory-block-factory-5b6daa5ac25a3" class="block block-block-factory">
+
+    <h2 class="block-title"><a href="http://www.wcbe.org/post/get-graphic-wcbe-art-contest">Get Graphic For WCBE Art Contest</a></h2>
+  
+  <div class="content">
+    <style type="text/css">#promo-large-5b6daa5ac25a3 .promo-large-treatment { background-color: #FFFFFF; } #promo-large-5b6daa5ac25a3 .promo-large-heading { color: #404040; } #promo-large-5b6daa5ac25a3 .promo-large-heading a { color: #404040; } #promo-large-5b6daa5ac25a3 .promo-large-teaser { color: #404040; } #promo-large-5b6daa5ac25a3 .promo-large-cta { border-color: #404040; color: #404040; opacity: 1; transition: all .15s ease; } #promo-large-5b6daa5ac25a3 .promo-large-cta:hover { color: #404040; opacity: 0.65; }</style><div id="promo-large-5b6daa5ac25a3">
+  <div class="promo-large-treatment clearfix" >
+      <figure class="promo-large-image">
+      <a href="http://www.wcbe.org/post/get-graphic-wcbe-art-contest" class="linked-image"><img typeof="foaf:Image" src="http://mediad.publicbroadcasting.net/p/wcbe/files/styles/large/public/201808/get_graphic_500x500_0.jpg" alt="" /></a>    </figure>
+  
+    </div>
+</div>  </div>
+</div>
+<div id="block-block-factory-block-factory-5ac7db69f3759" class="block block-block-factory">
+
+    
+  <div class="content">
+    <style type="text/css">#promo-large-5ac7db69f3759 .promo-large-treatment { background-color: #FFFFFF; } #promo-large-5ac7db69f3759 .promo-large-heading { color: #404040; } #promo-large-5ac7db69f3759 .promo-large-heading a { color: #404040; } #promo-large-5ac7db69f3759 .promo-large-teaser { color: #404040; } #promo-large-5ac7db69f3759 .promo-large-cta { border-color: #404040; color: #404040; opacity: 1; transition: all .15s ease; } #promo-large-5ac7db69f3759 .promo-large-cta:hover { color: #404040; opacity: 0.65; }</style><div id="promo-large-5ac7db69f3759">
+  <div class="promo-large-treatment clearfix" >
+      <figure class="promo-large-image">
+      <a href="http://wcbe.drupal.publicbroadcasting.net/post/2nd-annual-cruise-fort-car-show" class="linked-image"><img typeof="foaf:Image" src="http://mediad.publicbroadcasting.net/p/wcbe/files/styles/large/public/201807/business_first_-_car_show_0.jpg" alt="" /></a>    </figure>
+  
+      <div class="promo-large-text-wrapper">
+      
+              <p class="promo-large-teaser">Click here to start your engine & get the details!</p>
+      
+          </div>
+    </div>
+</div>  </div>
+</div>
+<div id="block-pi-responsive-ads-medium-1" class="block block-pi-responsive-ads">
+
+    
+  <div class="content">
+      </div>
+</div>
+<div id="block-block-factory-block-factory-5b747d3011de3" class="block block-block-factory">
+
+    <h2 class="block-title"><a href="/wcbe.org">Hidden Brain</a></h2>
+  
+  <div class="content">
+    <style type="text/css">#promo-large-5b747d3011de3 .promo-large-treatment { background-color: #FFFFFF; } #promo-large-5b747d3011de3 .promo-large-heading { color: #404040; } #promo-large-5b747d3011de3 .promo-large-heading a { color: #404040; } #promo-large-5b747d3011de3 .promo-large-teaser { color: #404040; } #promo-large-5b747d3011de3 .promo-large-cta { border-color: #404040; color: #404040; opacity: 1; transition: all .15s ease; } #promo-large-5b747d3011de3 .promo-large-cta:hover { color: #404040; opacity: 0.65; }</style><div id="promo-large-5b747d3011de3">
+  <div class="promo-large-treatment clearfix" >
+      <figure class="promo-large-image">
+      <a href="/wcbe.org" class="linked-image"><img typeof="foaf:Image" src="http://mediad.publicbroadcasting.net/p/wcbe/files/styles/large/public/201808/hidden_brain_-_300x300.png" alt="" /></a>    </figure>
+  
+      <div class="promo-large-text-wrapper">
+              <h2 class="promo-large-heading"><a href="/wcbe.org">New Program On WCBE</a></h2>
+      
+      
+          </div>
+    </div>
+</div>  </div>
+</div>
+<div id="block-pi-responsive-ads-medium-2" class="block block-pi-responsive-ads">
+
+    
+  <div class="content">
+      </div>
+</div>
+<div id="block-block-factory-block-factory-5b633880898a6" class="block block-block-factory">
+
+    
+  <div class="content">
+    <style type="text/css">#promo-large-5b633880898a6 .promo-large-treatment { background-color: #FFFFFF; } #promo-large-5b633880898a6 .promo-large-heading { color: #404040; } #promo-large-5b633880898a6 .promo-large-heading a { color: #404040; } #promo-large-5b633880898a6 .promo-large-teaser { color: #404040; } #promo-large-5b633880898a6 .promo-large-cta { border-color: #404040; color: #404040; opacity: 1; transition: all .15s ease; } #promo-large-5b633880898a6 .promo-large-cta:hover { color: #404040; opacity: 0.65; }</style><div id="promo-large-5b633880898a6">
+  <div class="promo-large-treatment clearfix" >
+      <figure class="promo-large-image">
+      <a href="/wcbe.org" class="linked-image"><img typeof="foaf:Image" src="http://mediad.publicbroadcasting.net/p/wcbe/files/styles/large/public/201808/20180726_atc_merged_website_jpg.jpg" alt="" /></a>    </figure>
+  
+      <div class="promo-large-text-wrapper">
+      
+              <p class="promo-large-teaser">Tune in for All Things Considered, weekdays at 4pm on 90.5 FM WCBE</p>
+      
+          </div>
+    </div>
+</div>  </div>
+</div>
+<div id="block-block-factory-block-factory-5a25b54f3850b" class="block block-block-factory">
+
+    <h2 class="block-title"><a href="http://www.wcbe.org/post/vip-member-events-august-2018">VIP Member Events For August 2018</a></h2>
+  
+  <div class="content">
+    <style type="text/css">#promo-large-5a25b54f3850b .promo-large-treatment { background-color: #FFFFFF; } #promo-large-5a25b54f3850b .promo-large-heading { color: #404040; } #promo-large-5a25b54f3850b .promo-large-heading a { color: #404040; } #promo-large-5a25b54f3850b .promo-large-teaser { color: #404040; } #promo-large-5a25b54f3850b .promo-large-cta { border-color: #404040; color: #404040; opacity: 1; transition: all .15s ease; } #promo-large-5a25b54f3850b .promo-large-cta:hover { color: #404040; opacity: 0.65; }</style><div id="promo-large-5a25b54f3850b">
+  <div class="promo-large-treatment clearfix" >
+      <figure class="promo-large-image">
+      <a href="http://www.wcbe.org/post/vip-member-events-august-2018" class="linked-image"><img typeof="foaf:Image" src="http://mediad.publicbroadcasting.net/p/wcbe/files/styles/large/public/201808/nikki_hill.jpg" alt="" /></a>    </figure>
+  
+      <div class="promo-large-text-wrapper">
+      
+              <p class="promo-large-teaser">Nikki Hill, Nicole Atkins, Gym Glass Heroes, Jon Stickley Trio, and more!</p>
+      
+          </div>
+    </div>
+</div>  </div>
+</div>
+<div id="block-block-factory-block-factory-55d5ddaeee6fd" class="block block-block-factory">
+
+    <h2 class="block-title">Live From Studio A</h2>
+  
+  <div class="content">
+    <div class="one-story-treatment bf-outer-wrapper clearfix">
+  <div class="bf-inner-wrapper bf-hero">
+      </div>
+</div>
+  </div>
+</div>
+<div id="block-block-factory-block-factory-5a2aecaccd58c" class="block block-block-factory">
+
+    <h2 class="block-title"><a href="https://www.youtube.com/watch?v=YQn7ijyH7TU">Check Out Our YouTube Channel!</a></h2>
+  
+  <div class="content">
+    <style type="text/css">#promo-large-5a2aecaccd58c .promo-large-treatment { background-color: #FFFFFF; } #promo-large-5a2aecaccd58c .promo-large-heading { color: #404040; } #promo-large-5a2aecaccd58c .promo-large-heading a { color: #404040; } #promo-large-5a2aecaccd58c .promo-large-teaser { color: #404040; } #promo-large-5a2aecaccd58c .promo-large-cta { border-color: #404040; color: #404040; opacity: 1; transition: all .15s ease; } #promo-large-5a2aecaccd58c .promo-large-cta:hover { color: #404040; opacity: 0.65; }</style><div id="promo-large-5a2aecaccd58c">
+  <div class="promo-large-treatment clearfix" >
+      <figure class="promo-large-image">
+      <a href="https://www.youtube.com/watch?v=YQn7ijyH7TU" class="linked-image"><img typeof="foaf:Image" src="http://mediad.publicbroadcasting.net/p/wcbe/files/styles/large/public/201712/youtube_screenshot.png" alt="" /></a>    </figure>
+  
+    </div>
+</div>  </div>
+</div>
+<div id="block-block-factory-block-factory-5a09d98fe9c82" class="block block-block-factory">
+
+    <h2 class="block-title">WCBE's Twitter Feed</h2>
+  
+  <div class="content">
+    <style type="text/css">#promo-small-5a09d98fe9c82 .promo-small-treatment { background-color: #FFFFFF; } #promo-small-5a09d98fe9c82 .promo-small-heading { color: #404040; } #promo-small-5a09d98fe9c82 .promo-small-heading a { color: #404040; } #promo-small-5a09d98fe9c82 .promo-small-teaser { color: #404040; } #promo-small-5a09d98fe9c82 .promo-small-cta { border-color: #404040; color: #404040; opacity: 1; transition: all .15s ease; } #promo-small-5a09d98fe9c82 .promo-small-cta:hover { color: #404040; opacity: 0.6; }</style><div id="promo-small-5a09d98fe9c82">
+  <div class="promo-small-treatment clearfix" >
+    
+        <div class="promo-small-text-wrapper">
+      
+              <p class="promo-small-teaser"><a class="twitter-timeline" data-height="600" href="https://twitter.com/WCBE905Columbus?ref_src=twsrc%5Etfw">Tweets by WCBE905Columbus</a> <script async src="https://platform.twitter.com/widgets.js" c</p>
+      
+            </div>
+      </div>
+</div>
+  </div>
+</div>
+<div id="block-block-factory-block-factory-5a32e3c00f81d" class="block block-block-factory">
+
+    <h2 class="block-title"><a href="http://wcbe.org/planned-giving">Donate Stocks</a></h2>
+  
+  <div class="content">
+    <style type="text/css">#promo-large-5a32e3c00f81d .promo-large-treatment { background-color: #FFFFFF; } #promo-large-5a32e3c00f81d .promo-large-heading { color: #404040; } #promo-large-5a32e3c00f81d .promo-large-heading a { color: #404040; } #promo-large-5a32e3c00f81d .promo-large-teaser { color: #404040; } #promo-large-5a32e3c00f81d .promo-large-cta { border-color: #404040; color: #404040; opacity: 1; transition: all .15s ease; } #promo-large-5a32e3c00f81d .promo-large-cta:hover { color: #404040; opacity: 0.65; }</style><div id="promo-large-5a32e3c00f81d">
+  <div class="promo-large-treatment clearfix" >
+      <figure class="promo-large-image">
+      <a href="http://wcbe.org/planned-giving" class="linked-image"><img typeof="foaf:Image" src="http://mediad.publicbroadcasting.net/p/wcbe/files/styles/large/public/201712/stock_donations.jpg" alt="" /></a>    </figure>
+  
+    </div>
+</div>  </div>
+</div>
+<div id="block-block-factory-block-factory-59c424fb8bf9f" class="block block-block-factory">
+
+    
+  <div class="content">
+    <style type="text/css">#promo-large-59c424fb8bf9f .promo-large-treatment { background-color: #FFFFFF; } #promo-large-59c424fb8bf9f .promo-large-heading { color: #404040; } #promo-large-59c424fb8bf9f .promo-large-heading a { color: #404040; } #promo-large-59c424fb8bf9f .promo-large-teaser { color: #404040; } #promo-large-59c424fb8bf9f .promo-large-cta { border-color: #404040; color: #404040; opacity: 1; transition: all .15s ease; } #promo-large-59c424fb8bf9f .promo-large-cta:hover { color: #404040; opacity: 0.65; }</style><div id="promo-large-59c424fb8bf9f">
+  <div class="promo-large-treatment clearfix" >
+      <figure class="promo-large-image">
+      <a href="http://wcbe.org/post/volunteer-wcbe" class="linked-image"><img typeof="foaf:Image" src="http://mediad.publicbroadcasting.net/p/wcbe/files/styles/large/public/201709/get_involed_heart.jpg" alt="" /></a>    </figure>
+  
+    </div>
+</div>  </div>
+</div>
+<div id="block-block-factory-block-factory-598e0bd9ce12a" class="block block-block-factory">
+
+    <h2 class="block-title">Coming Up On The World Cafe</h2>
+  
+  <div class="content">
+    <style type="text/css">#promo-large-598e0bd9ce12a .promo-large-treatment { background-color: #FFFFFF; } #promo-large-598e0bd9ce12a .promo-large-heading { color: #404040; } #promo-large-598e0bd9ce12a .promo-large-heading a { color: #404040; } #promo-large-598e0bd9ce12a .promo-large-teaser { color: #404040; } #promo-large-598e0bd9ce12a .promo-large-cta { border-color: #404040; color: #404040; opacity: 1; transition: all .15s ease; } #promo-large-598e0bd9ce12a .promo-large-cta:hover { color: #404040; opacity: 0.65; }</style><div id="promo-large-598e0bd9ce12a">
+  <div class="promo-large-treatment clearfix" >
+  
+      <div class="promo-large-text-wrapper">
+      
+              <p class="promo-large-teaser"><!-- START NPR WORLD CAFE MODULE --> <script src="http://www.npr.org/forstations/wc/wc.js"></script> <!-- END NPR WORLD CAFE MODULE --></p>
+      
+          </div>
+    </div>
+</div>  </div>
+</div>
+<div id="block-block-factory-block-factory-594ac918585ef" class="block block-block-factory">
+
+    <h2 class="block-title"><a href="https://www.cardonationwizard.com/wcbe/info/car-donation-columbus-oh.html">Car Talk Vehicle Donation Program</a></h2>
+  
+  <div class="content">
+    <style type="text/css">#promo-large-594ac918585ef .promo-large-treatment { background-color: #FFFFFF; } #promo-large-594ac918585ef .promo-large-heading { color: #404040; } #promo-large-594ac918585ef .promo-large-heading a { color: #404040; } #promo-large-594ac918585ef .promo-large-teaser { color: #404040; } #promo-large-594ac918585ef .promo-large-cta { border-color: #404040; color: #404040; opacity: 1; transition: all .15s ease; } #promo-large-594ac918585ef .promo-large-cta:hover { color: #404040; opacity: 0.65; }</style><div id="promo-large-594ac918585ef">
+  <div class="promo-large-treatment clearfix" >
+      <figure class="promo-large-image">
+      <a href="https://www.cardonationwizard.com/wcbe/info/car-donation-columbus-oh.html" class="linked-image"><img typeof="foaf:Image" src="http://mediad.publicbroadcasting.net/p/wcbe/files/styles/large/public/201802/ctvds_valentines_2015_car_equals_programs_300x250.jpg" alt="" /></a>    </figure>
+  
+    </div>
+</div>  </div>
+</div>
+<div id="block-block-factory-block-factory-55db044f4dbd2" class="block block-block-factory">
+
+    
+  <div class="content">
+    <style type="text/css">#promo-large-55db044f4dbd2 .promo-large-treatment { background-color: #FFFFFF; } #promo-large-55db044f4dbd2 .promo-large-heading { color: #404040; } #promo-large-55db044f4dbd2 .promo-large-heading a { color: #404040; } #promo-large-55db044f4dbd2 .promo-large-teaser { color: #404040; } #promo-large-55db044f4dbd2 .promo-large-cta { border-color: #404040; color: #404040; opacity: 1; transition: all .15s ease; } #promo-large-55db044f4dbd2 .promo-large-cta:hover { color: #404040; opacity: 0.65; }</style><div id="promo-large-55db044f4dbd2">
+  <div class="promo-large-treatment clearfix" >
+      <figure class="promo-large-image">
+      <a href="http://wcbe.org/post/connect-wcbe#stream/0" class="linked-image"><img typeof="foaf:Image" src="http://mediad.publicbroadcasting.net/p/wcbe/files/styles/large/public/201508/social_media_favicons2_0.jpg" alt="" /></a>    </figure>
+  
+      <div class="promo-large-text-wrapper">
+      
+              <p class="promo-large-teaser"><b>Connect With WCBE</b></p>
+      
+          </div>
+    </div>
+</div>  </div>
+</div>
+<div id="block-block-factory-block-factory-55db4c937f735" class="block block-block-factory">
+
+    
+  <div class="content">
+    <style type="text/css">#promo-small-55db4c937f735 .promo-small-treatment { background-color: #FFFFFF; } #promo-small-55db4c937f735 .promo-small-heading { color: #404040; } #promo-small-55db4c937f735 .promo-small-heading a { color: #404040; } #promo-small-55db4c937f735 .promo-small-teaser { color: #404040; } #promo-small-55db4c937f735 .promo-small-cta { border-color: #404040; color: #404040; opacity: 1; transition: all .15s ease; } #promo-small-55db4c937f735 .promo-small-cta:hover { color: #404040; opacity: 0.6; }</style><div id="promo-small-55db4c937f735">
+  <div class="promo-small-treatment clearfix" >
+          <figure class="promo-small-image">
+        <a href="http://wcbe.org/community-calendar#stream/0" class="linked-image"><img typeof="foaf:Image" src="http://mediad.publicbroadcasting.net/p/wcbe/files/styles/medium/public/201508/calendar_icon.jpg" alt="" /></a>      </figure>
+    
+        <div class="promo-small-text-wrapper">
+              <h2 class="promo-small-heading"><a href="http://wcbe.org/community-calendar#stream/0">WCBE Events Calendar</a></h2>
+      
+              <p class="promo-small-teaser">Check out what's happening in Columbus.</p>
+      
+            </div>
+      </div>
+</div>
+  </div>
+</div>
+<div id="block-block-factory-block-factory-55db3a4b46f5d" class="block block-block-factory">
+
+    
+  <div class="content">
+    <style type="text/css">#promo-small-55db3a4b46f5d .promo-small-treatment { background-color: #FFFFFF; } #promo-small-55db3a4b46f5d .promo-small-heading { color: #404040; } #promo-small-55db3a4b46f5d .promo-small-heading a { color: #404040; } #promo-small-55db3a4b46f5d .promo-small-teaser { color: #404040; } #promo-small-55db3a4b46f5d .promo-small-cta { border-color: #404040; color: #404040; opacity: 1; transition: all .15s ease; } #promo-small-55db3a4b46f5d .promo-small-cta:hover { color: #404040; opacity: 0.6; }</style><div id="promo-small-55db3a4b46f5d">
+  <div class="promo-small-treatment clearfix" >
+    
+        <div class="promo-small-text-wrapper">
+              <h2 class="promo-small-heading"><a href="https://wcbe.blackbaudondemand.com/sslpage.aspx?pid=290">Member Login</a></h2>
+      
+              <p class="promo-small-teaser">Keep track of your gifts through our member portal. </p>
+      
+              <div class="promo-small-cta-wrapper">
+          <a href="https://wcbe.blackbaudondemand.com/sslpage.aspx?pid=290" class="promo-small-cta">Login</a>        </div>
+            </div>
+      </div>
+</div>
+  </div>
+</div>
+<div id="block-block-factory-block-factory-55f31b8ee9527" class="block block-block-factory">
+
+    <h2 class="block-title">Live From Studio A Pic of the Week</h2>
+  
+  <div class="content">
+    <style type="text/css">#promo-large-55f31b8ee9527 .promo-large-treatment { background-color: #3B494F; } #promo-large-55f31b8ee9527 .promo-large-heading { color: #FFFFFF; } #promo-large-55f31b8ee9527 .promo-large-heading a { color: #FFFFFF; } #promo-large-55f31b8ee9527 .promo-large-teaser { color: #FFFFFF; } #promo-large-55f31b8ee9527 .promo-large-cta { border-color: #FFFFFF; color: #FFFFFF; opacity: 1; transition: all .15s ease; } #promo-large-55f31b8ee9527 .promo-large-cta:hover { color: #FFFFFF; opacity: 0.65; }</style><div id="promo-large-55f31b8ee9527">
+  <div class="promo-large-treatment clearfix" >
+  
+    </div>
+</div>  </div>
+</div>
+  </div>
+          </div>
+        
+                    </div>
+          </div>
+        
+                  <div class="region-c">
+              <div class="region region-region-c">
+    <div id="block-block-factory-block-factory-55d5df1d80f35" class="block block-block-factory">
+
+    <h2 class="block-title">Arts & Life</h2>
+  
+  <div class="content">
+    <div class="three-stories-treatment bf-outer-wrapper clearfix">
+  <div class="bf-inner-wrapper bf-hero">
+      <figure class="bf-image-wrapper  with-image">
+    <a href="/post/neil-simon-preeminent-and-prolific-playwright-and-screenwriter-has-died-91">
+<div class="card-image-container">
+  <figure>
+    <a title="" href="/post/neil-simon-preeminent-and-prolific-playwright-and-screenwriter-has-died-91" class="noexit">
+    <img class="multiple" src="http://mediad.publicbroadcasting.net/p/shared/npr/styles/medium/nprshared/201808/621433043.jpg" >
+          </a>
+
+      </figure>
+</div>
+</a>  </figure>
+
+<div class="bf-text-wrapper  with-image">
+  <h2 class="bf-post-title"><a href="/post/neil-simon-preeminent-and-prolific-playwright-and-screenwriter-has-died-91">Neil Simon, Preeminent And Prolific Playwright And Screenwriter, Has Died At 91</a></h2>
+  <div class="bf-body">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>Neil Simon, the enormously productive comic playwright who often adapted his work into screenplays, died on early Sunday morning. He was 91. The cause of death was complications from pneumonia, according to Bill Evans, his longtime friend and publicist. Among the most prolific playwrights in American theater from the 1960s through the 1990s, he won the Pulitzer Prize in 1991 for Lost in Yonkers , which he said was his deepest play. But Neil Simon was better known for being funny. Born Marvin...</p></div></div></div>  </div>
+
+  <a href="/post/neil-simon-preeminent-and-prolific-playwright-and-screenwriter-has-died-91" class="bf-read-more">Read More</a>
+</div>
+
+<div class="content  with-image">
+  </div>
+  </div>
+  <div class="bf-inner-wrapper bf-sidekick-group">
+    <div class="bf-sidekick">
+        <figure class="bf-image-wrapper  with-image">
+    <a href="/post/george-walker-trailblazing-american-composer-dies-96">
+<div class="card-image-container">
+  <figure>
+    <a title="" href="/post/george-walker-trailblazing-american-composer-dies-96" class="noexit">
+    <img class="multiple" src="http://mediad.publicbroadcasting.net/p/shared/npr/styles/medium/nprshared/201808/641639977.jpg" >
+          </a>
+
+      </figure>
+</div>
+</a>  </figure>
+
+<h2 class="bf-post-title  with-image"><a href="/post/george-walker-trailblazing-american-composer-dies-96">George Walker, Trailblazing American Composer, Dies At 96 </a></h2>
+
+<div class="content">
+  </div>
+    </div>
+    <div class="bf-sidekick">
+        <figure class="bf-image-wrapper  with-image contains-audio">
+    <a href="/post/he-wants-help-army-fight-terrorism-was-discharged-he-got-chance">
+<div class="card-image-container">
+  <figure>
+    <a title="" href="/post/he-wants-help-army-fight-terrorism-was-discharged-he-got-chance" class="noexit">
+    <img class="multiple" src="http://mediad.publicbroadcasting.net/p/shared/npr/styles/medium/nprshared/201808/641885709.jpg" >
+          </a>
+
+      </figure>
+</div>
+</a>  </figure>
+
+<h2 class="bf-post-title  with-image contains-audio"><a href="/post/he-wants-help-army-fight-terrorism-was-discharged-he-got-chance">He Wants To Help The Army Fight Terrorism, But Was Discharged Before He Got A Chance</a></h2>
+
+<div class="content">
+  </div>
+    </div>
+  </div>
+</div>
+  </div>
+</div>
+<div id="block-block-factory-block-factory-55d5de88f35f6" class="block block-block-factory">
+
+    <h2 class="block-title">Science, Technology & Environment</h2>
+  
+  <div class="content">
+    <div class="three-stories-treatment bf-outer-wrapper clearfix">
+  <div class="bf-inner-wrapper bf-hero">
+      <figure class="bf-image-wrapper  with-image">
+    <a href="/post/no-amount-alcohol-good-your-health-global-study-says">
+<div class="card-image-container">
+  <figure>
+    <a title="" href="/post/no-amount-alcohol-good-your-health-global-study-says" class="noexit">
+    <img class="multiple" src="http://mediad.publicbroadcasting.net/p/shared/npr/styles/medium/nprshared/201808/641630977.jpg" >
+          </a>
+
+      </figure>
+</div>
+</a>  </figure>
+
+<div class="bf-text-wrapper  with-image">
+  <h2 class="bf-post-title"><a href="/post/no-amount-alcohol-good-your-health-global-study-says">No Amount Of Alcohol Is Good For Your Health, Global Study Says</a></h2>
+  <div class="bf-body">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>Countless scientific studies have espoused the idea that a glass of red wine a day can be good for the heart, but a new, sweeping global study published in The Lancet on Friday rejects the notion that any drinking can be healthy. No amount of alcohol is safe, according to The Global Burden of Diseases study, which analyzed levels of alcohol use and its health effects in 195 countries from 1990 to 2016. While the study's authors say that moderate drinking may safeguard people against heart...</p></div></div></div>  </div>
+
+  <a href="/post/no-amount-alcohol-good-your-health-global-study-says" class="bf-read-more">Read More</a>
+</div>
+
+<div class="content  with-image">
+  </div>
+  </div>
+  <div class="bf-inner-wrapper bf-sidekick-group">
+    <div class="bf-sidekick">
+        <figure class="bf-image-wrapper  with-image">
+    <a href="/post/so-far-more-heat-waves-do-not-mean-more-heat-deaths">
+<div class="card-image-container">
+  <figure>
+    <a title="" href="/post/so-far-more-heat-waves-do-not-mean-more-heat-deaths" class="noexit">
+    <img class="multiple" src="http://mediad.publicbroadcasting.net/p/shared/npr/styles/medium/nprshared/201808/641046572.jpg" >
+          </a>
+
+      </figure>
+</div>
+</a>  </figure>
+
+<h2 class="bf-post-title  with-image"><a href="/post/so-far-more-heat-waves-do-not-mean-more-heat-deaths">So Far, More Heat Waves Do Not Mean More Heat Deaths</a></h2>
+
+<div class="content">
+  </div>
+    </div>
+    <div class="bf-sidekick">
+        <figure class="bf-image-wrapper  with-image">
+    <a href="/post/survival-sluggish-scientists-find-upside-low-metabolism">
+<div class="card-image-container">
+  <figure>
+    <a title="" href="/post/survival-sluggish-scientists-find-upside-low-metabolism" class="noexit">
+    <img class="multiple" src="http://mediad.publicbroadcasting.net/p/shared/npr/styles/medium/nprshared/201808/641719845.jpg" >
+          </a>
+
+      </figure>
+</div>
+</a>  </figure>
+
+<h2 class="bf-post-title  with-image"><a href="/post/survival-sluggish-scientists-find-upside-low-metabolism">Survival Of The Sluggish: Scientists Find An Upside To A Low Metabolism</a></h2>
+
+<div class="content">
+  </div>
+    </div>
+  </div>
+</div>
+  </div>
+</div>
+  </div>
+          </div>
+        
+              </article>
+    </main>
+  </div>
+
+      <section class="post-content">
+      <div>
+          <div class="region region-post-content">
+    <div id="block-pi-responsive-ads-mobile-1" class="block block-pi-responsive-ads">
+
+    
+  <div class="content">
+      </div>
+</div>
+  </div>
+      </div>
+    </section>
+  
+  <div class="bottom-ads">
+    <div class="bottom-ads-inner"></div>
+  </div>
+</div>
+
+<footer class="footer" role="contentinfo">
+  <div class="row">
+    <div class="footer-affiliate-container small-centered columns">
+                  <div class="region region-footer">
+    <div id="block-pi-table-queue-partnerfooter" class="block block-pi-table-queue">
+
+    
+  <div class="content">
+    <div class="table-queue" id="table-queue-partnerfooter">
+  <p class="partnerslabel">
+  </p>
+<div class="item-list"><ul class="partner-logos"><li class="first"><a href="http://www.americanpublicmedia.org/" target="_blank"><img typeof="foaf:Image" src="http://mediad.publicbroadcasting.net/p/wcbe/files/styles/partner_footer_logo/public/201508/apm-logo.png" alt="American Public Media" title="American Public Media" /></a></li>
+<li><a href="http://www.bbc.co.uk/worldserviceradio" target="_blank"><img typeof="foaf:Image" src="http://mediad.publicbroadcasting.net/p/wcbe/files/styles/partner_footer_logo/public/201508/bbc-logo.png" alt="BBC World Service" title="BBC World Service" /></a></li>
+<li><a href="http://www.cpb.org/" target="_blank"><img typeof="foaf:Image" src="http://mediad.publicbroadcasting.net/p/wcbe/files/styles/partner_footer_logo/public/201508/cpb-logo.png" alt="Corporation For Public Broadcasting" title="Corporation For Public Broadcasting" /></a></li>
+<li><a href="http://www.npr.org/" target="_blank"><img typeof="foaf:Image" src="http://mediad.publicbroadcasting.net/p/wcbe/files/styles/partner_footer_logo/public/201508/npr-logo.png" alt="National Public Radio" title="National Public Radio" /></a></li>
+<li><a href="http://www.pri.org/" target="_blank"><img typeof="foaf:Image" src="http://mediad.publicbroadcasting.net/p/wcbe/files/styles/partner_footer_logo/public/201508/pri-logo.png" alt="Public Radio International" title="Public Radio International" /></a></li>
+<li class="last"><a href="http://www.prx.org/" target="_blank"><img typeof="foaf:Image" src="http://mediad.publicbroadcasting.net/p/wcbe/files/styles/partner_footer_logo/public/201508/prx-logo.png" alt="Public Radio Exchange" title="Public Radio Exchange" /></a></li>
+</ul></div></div>
+  </div>
+</div>
+<div id="block-pi-table-queue-auxiliarylinksfooter" class="block block-pi-table-queue">
+
+    
+  <div class="content">
+    <div class="table-queue" id="table-queue-auxiliarylinksfooter">
+  <div class="item-list"><ul class="auxiliary-links"><li class="first"><span>&copy; 2018 WCBE 90.5 FM</span></li>
+<li><a href="http://wcbe.org/about-us#stream/0" target="_blank">About</a></li>
+<li><a href="http://wcbe.org/contact#stream/0" target="_blank">Contact</a></li>
+<li><a href="http://wcbe.org/eeo#stream/0" target="_blank">EEO</a></li>
+<li><a href="http://wcbe.org/employment#stream/0" target="_blank">Employment</a></li>
+<li><a href="http://wcbe.org/internships#stream/0" target="_blank">Internships</a></li>
+<li class="last"><a href="http://wcbe.org/privacy#stream/0" target="_blank">Privacy</a></li>
+</ul></div></div>
+  </div>
+</div>
+  </div>
+          </div>
+  </div>
+</footer>
+      <script type="text/javascript" src="http://widgets.listenlive.co/1.0/tdwidgets.min.js?pcdue8"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+ (function ($) { $(document).foundation({ topbar: { custom_back_text: true, back_text: 'back', mobile_show_parent_link: true } }); }(jQuery));
+//--><!]]>
+</script>
+    </div>
+  <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"15ba4da3e8","applicationID":"1108724","transactionName":"NlMBMhAECEZRAU1eDg8ZIgUWDAlbHw5YTg4UQgYIBQwIUG8KVloEEVcEAw==","queueTime":0,"applicationTime":1571,"atts":"GhQCRFgeG0g=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

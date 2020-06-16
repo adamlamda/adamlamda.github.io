@@ -1,0 +1,127 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Contact | WHSN 89.3 FM Bangor's Rock Alternative</title>
+<meta name="keywords" content=""/><meta name="description" content=""/><link rel="stylesheet" type="text/css" href="/css/style.css" /><link rel="stylesheet" type="text/css" href="/css/site/style.css" /><link rel="stylesheet" type="text/css" href="/css/site/thickbox.css" /><script src="/js/jquery-1.3.2.js" type="text/javascript"></script>
+<script src="/js/site/jquery.innerfade.js" type="text/javascript"></script>
+<script src="/js/site/thecall.js" type="text/javascript"></script>  
+<script type="text/javascript" src="/js/site/thickbox.js"></script>
+<script src="/js/site/scripts.js" type="text/javascript"></script>
+<!--[if lte IE 7 ]>
+  <link href="/css/site/ie.css" rel="stylesheet" type="text/css">
+<![endif]-->
+<!--[if IE 6 ]>
+  <style type="text/css">
+  #topRight {
+float:right;
+position:absolute;
+left:545px;
+top:0px;
+}
+  </style>
+<![endif]-->
+</head>
+<body>
+<div id="container">
+	<div id="topNav">
+		<div id="topNav_links">
+			<div id="nav">
+				<ul id="navigation" class="nav">
+					<li><a href="/">Home</a></li>
+					<!--<li><a href="/listen-live">Listen Live</a></li>-->
+					<!-- <li><a href="http://radio.securenetsystems.net/radio_player_large.cfm?stationCallSign=WHSN" target="_blank">Listen Live</a></li> -->
+					<li><a onclick="window.open('http://radio.securenetsystems.net/radio_player_large.cfm?stationCallSign=WHSN', '', 'width=940, height=630')">Listen Live</a></li>
+			 		<li><a href="/on-air">On-Air</a>
+			 			<ul>
+				 			<li><a href="/dj-profiles">DJ Profiles</a></li>
+				 			<li><a href="/features">Features</a></li>
+				 			<li><a href="/sports">WHSN Sports</a></li>
+			 			</ul>
+			 		</li>
+<!-- 		Removed per Mark Nason's Support Request on April 10th, 2018 	 		<li><a href="/events">Events</a></li> -->
+					<li><a href="/about">About</a></li>
+					<li><a href="https://publicfiles.fcc.gov/fm-profile/whsn" target="_blank">Public File</a></li>
+			 		<li><a href="/contact">Contact</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div id="wrapper">
+   		<div id="slideshow">
+			<ul id="innerfade">
+<div class="border">   
+
+
+
+
+<div class="border">   
+<img src="/assets/dash_this.jpg" alt="1" height="280"/>
+ 
+</div>
+<div class="border">   
+<img src="/assets/mobile.jpg" alt="2" height="280"/>
+ 
+</div>
+
+<div class="border">   
+<img src="/assets/enabling.jpg" alt="3" height="280"/>
+ 
+</div>
+
+
+
+</ul>		</div> 
+		<div id="topRight">
+			<a class="twitter-timeline" width="424" height="307" data-dnt="true" href="https://twitter.com/WHSN" data-widget-id="407506028029165569">Tweets by @WHSN</a>
+			<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+
+		</div>
+ 	</div>
+<div id="bottomWrapper">
+ 	<div id="wrapper2">
+    	<div id="contentLint">
+							<div id="dAForm">
+		<div class="dAFormIntro">
+		<h1>Contact Us</h1>
+<br />
+
+Email: <a href="mailto:whsn@husson.edu">whsn@husson.edu</a> <br />
+<br />
+            Mailing Address:<br>
+              WHSN 89.3 FM <br>
+                1 College Circle<br>
+                Bangor, ME 04401
+<br />
+              <p>Request Line: 207-941-7116<br>
+        Business Office Line: 207-973-1011<br>
+        Fax: 207-947-3987</p>
+<br />
+            <p>Program Director: Mark Nason <a href="mailto:nasonm@husson.edu">nasonm@husson.edu</a><br>
+        News Director: Jeffrey Hope <a href="mailto:hopej@husson.edu">hopej@husson.edu</a><br>
+       	</div>
+			<form method="post" action="/contact"><fieldset style="display:none;"><input type="hidden" name="_method" value="POST" /></fieldset><input type="hidden" name="data[fields][1][name]" type="hidden" value="Name" id="AreaName" /><div class="input text"><label for="fields1Value">Name</label><input name="data[fields][1][value]" type="text" maxlength="20" rows="" options="" value="" id="fields1Value" /></div><input type="hidden" name="data[fields][2][name]" type="hidden" value="Phone #" id="AreaName" /><div class="input text"><label for="fields2Value">Phone #</label><input name="data[fields][2][value]" type="text" maxlength="12" rows="" options="" value="" id="fields2Value" /></div><input type="hidden" name="data[fields][3][name]" type="hidden" value="Email address" id="AreaName" /><div class="input text"><label for="fields3Value">Email address</label><input name="data[fields][3][value]" type="text" maxlength="40" rows="" options="" value="" id="fields3Value" /></div><input type="hidden" name="data[fields][4][name]" type="hidden" value="Town/City" id="AreaName" /><div class="input text"><label for="fields4Value">Town/City</label><input name="data[fields][4][value]" type="text" maxlength="15" rows="" options="" value="" id="fields4Value" /></div><input type="hidden" name="data[fields][5][name]" type="hidden" value="Enter Comments Below" id="AreaName" /><div class="input textarea"><label for="fields5Value">Enter Comments Below</label><textarea name="data[fields][5][value]" cols="30" rows="25" maxlength="" options="" id="fields5Value" ></textarea></div><script type="text/javascript" src="http://api.recaptcha.net/challenge?k=6Le0zgcAAAAAAKMpygzPDrEA4tlgq3JDb0OFMKnC"></script>
+
+	<noscript>
+  		<iframe src="http://api.recaptcha.net/noscript?k=6Le0zgcAAAAAAKMpygzPDrEA4tlgq3JDb0OFMKnC" height="300" width="500" frameborder="0"></iframe><br/>
+  		<textarea name="recaptcha_challenge_field" rows="3" cols="40"></textarea>
+  		<input type="hidden" name="recaptcha_response_field" value="manual_challenge"/>
+	</noscript><div class="submit"><input type="submit" value="Submit" /></div></form></div>
+		</div>
+		
+		</div>
+
+
+    <div id="footer"><a href="/">Home</a> | <a onclick="window.open('http://radio.securenetsystems.net/radio_player_large.cfm?stationCallSign=WHSN', '', 'width=940, height=630')">Listen Live</a> | <a href="/on-air">On-Air</a> | <a href="/events">Events</a> | <a href="/about">About</a> | <a href="/contact">Contact</a>&nbsp;&nbsp;</div>
+    
+	<div id="footer">
+		<div id="copyright">&copy;2000-2018 whsn. All rights reserved.</div>
+		<div id="cms">Content managed with <a href="http://www.datavenger.com" target="_blank">datAvenger</a> &trade; by <a href="http://www.sephone.com" target="_blank">sephone</a>.</div>    
+	</div>
+	</div>
+</div>
+</div>
+<!-- place this code right before the </body> tag at the end of your page's HTML code -->
+<script type="application/javascript">if(window===top){var CE_Player=new Object({stationCallSign:'WHSN',position:'bottom',autostart:false,playerlocation:'streamdb3web',fullPlayer:'v5'});document.write('<script src="http://streamdb3web.securenetsystems.net/ce/js/playerwidget.min.js?'+Math.random()+'"><\/script>');}</script>
+</body>
+</html>

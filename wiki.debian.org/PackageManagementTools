@@ -1,0 +1,192 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" href="https://wiki.debian.org/htdocs/favicon.ico">
+<script type="text/javascript" src="https://wiki.debian.org/htdocs/bugstatus.js"></script>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+<meta name="robots" content="index,nofollow">
+
+<title>PackageManagementTools - Debian Wiki</title>
+<script type="text/javascript" src="https://wiki.debian.org/htdocs/common/js/common.js"></script>
+
+<script type="text/javascript">
+<!--
+var search_hint = "Search";
+//-->
+</script>
+
+
+<link rel="stylesheet" type="text/css" charset="utf-8" media="all" href="https://wiki.debian.org/htdocs/debwiki/css/common.css">
+<link rel="stylesheet" type="text/css" charset="utf-8" media="screen" href="https://wiki.debian.org/htdocs/debwiki/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="utf-8" media="print" href="https://wiki.debian.org/htdocs/debwiki/css/print.css">
+<link rel="stylesheet" type="text/css" charset="utf-8" media="projection" href="https://wiki.debian.org/htdocs/debwiki/css/projection.css">
+<link rel="stylesheet" type="text/css" charset="utf-8" media="all" href="https://wiki.debian.org/htdocs/debian-wiki-1.0.css">
+
+<!-- css only for MS IE6/IE7 browsers -->
+<!--[if lt IE 8]>
+   <link rel="stylesheet" type="text/css" charset="utf-8" media="all" href="/htdocs/debwiki/css/msie.css">
+<![endif]-->
+
+
+<link rel="alternate" title="Debian Wiki: PackageManagementTools" href="https://wiki.debian.org/PackageManagementTools?diffs=1&amp;show_att=1&amp;action=rss_rc&amp;unique=0&amp;page=PackageManagementTools&amp;ddiffs=1" type="application/rss+xml">
+
+
+<link rel="Start" href="https://wiki.debian.org/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="https://wiki.debian.org/PackageManagementTools?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="https://wiki.debian.org/PackageManagementTools?action=print">
+<link rel="Search" href="https://wiki.debian.org/FindPage">
+<link rel="Index" href="https://wiki.debian.org/TitleIndex">
+<link rel="Glossary" href="https://wiki.debian.org/WordIndex">
+<link rel="Help" href="https://wiki.debian.org/HelpOnFormatting">
+</head>
+
+<body  lang="en" dir="ltr">
+<div id="logo"><a href="https://www.debian.org" title="Debian Homepage"><img src="https://www.debian.org/Pics/openlogo-50.png" alt="Debian" width="50" height="61"></a></div>
+<div id="header">
+<div id="wikisection">
+<p class="section"><a href="https://wiki.debian.org/FrontPage" title="Debian Wiki Homepage">Wiki</a></p>
+<div id="username"><a href="https://wiki.debian.org/PackageManagementTools?action=login" id="login" rel="nofollow">Login</a></div>
+</div>
+<div id="navbar">
+
+<ul id="navibar">
+<li class="wikilink"><a href="https://wiki.debian.org/FrontPage">FrontPage</a></li><li class="wikilink"><a href="https://wiki.debian.org/RecentChanges">RecentChanges</a></li><li class="wikilink"><a href="https://wiki.debian.org/FindPage">FindPage</a></li><li class="wikilink"><a href="https://wiki.debian.org/HelpContents">HelpContents</a></li><li class="current"><a href="PackageManagementTools">PackageManagementTools</a></li>
+</ul>
+
+</div>
+
+<form id="searchform" method="get" action="PackageManagementTools">
+<div>
+<input type="hidden" name="action" value="fullsearch">
+<input type="hidden" name="context" value="180">
+<label for="searchinput">Search:</label>
+<input id="searchinput" type="text" name="value" value="" size="20"
+    onfocus="searchFocus(this)" onblur="searchBlur(this)"
+    onkeyup="searchChange(this)" onchange="searchChange(this)" alt="Search">
+<input id="titlesearch" name="titlesearch" type="submit"
+    value="Titles" alt="Search Titles">
+<input id="fullsearch" name="fullsearch" type="submit"
+    value="Text" alt="Search Full Text">
+</div>
+</form>
+<script type="text/javascript">
+<!--// Initialize search form
+var f = document.getElementById('searchform');
+f.getElementsByTagName('label')[0].style.display = 'none';
+var e = document.getElementById('searchinput');
+searchChange(e);
+searchBlur(e);
+//-->
+</script>
+
+<div id="logo"><a href="https://www.debian.org" title="Debian Homepage"><img src="https://www.debian.org/Pics/openlogo-50.png" alt="Debian" width="50" height="61"></a></div>
+
+<div id="breadcrumbs"><a href="https://wiki.debian.org/FrontPage" title="Debian Wiki Homepage">Wiki</a><span class="sep">/</span>
+
+</div>
+
+<ul class="editbar"><li><a href="https://wiki.debian.org/PackageManagementTools?action=login" id="login-1" rel="nofollow">Login</a></li><li class="toggleCommentsButton" style="display:none;"><a href="PackageManagementTools#" class="nbcomment" onClick="toggleComments();return false;">Comments</a></li><li><a class="nbinfo" href="https://wiki.debian.org/PackageManagementTools?action=info" rel="nofollow">Info</a></li><li><a class="nbattachments" href="https://wiki.debian.org/PackageManagementTools?action=AttachFile" rel="nofollow">Attachments</a></li><li>
+<form class="actionsmenu" method="GET" action="PackageManagementTools">
+<div>
+    <label>More Actions:</label>
+    <select name="action"
+        onchange="if ((this.selectedIndex != 0) &&
+                      (this.options[this.selectedIndex].disabled == false)) {
+                this.form.submit();
+            }
+            this.selectedIndex = 0;">
+        <option value="raw">Raw Text</option>
+<option value="print">Print View</option>
+<option value="RenderAsDocbook">Render as Docbook</option>
+<option value="refresh">Delete Cache</option>
+<option value="show" disabled class="disabled">------------------------</option>
+<option value="SpellCheck">Check Spelling</option>
+<option value="LikePages">Like Pages</option>
+<option value="LocalSiteMap">Local Site Map</option>
+<option value="show" disabled class="disabled">------------------------</option>
+<option value="RenamePage" disabled class="disabled">Rename Page</option>
+<option value="DeletePage" disabled class="disabled">Delete Page</option>
+<option value="show" disabled class="disabled">------------------------</option>
+<option value="show" disabled class="disabled">Subscribe User</option>
+<option value="show" disabled class="disabled">------------------------</option>
+<option value="show" disabled class="disabled">Remove Spam</option>
+<option value="show" disabled class="disabled">Revert to this revision</option>
+<option value="PackagePages">Package Pages</option>
+<option value="show" disabled class="disabled">------------------------</option>
+<option value="Load">Load</option>
+<option value="Save">Save</option>
+<option value="SlideShow">SlideShow</option>
+    </select>
+    <input type="submit" value="Do">
+    
+</div>
+<script type="text/javascript">
+<!--// Init menu
+actionsMenuInit('More Actions:');
+//-->
+</script>
+</form>
+</li></ul>
+
+<h1 id="locationline">
+
+
+<ul id="pagelocation">
+<li><a href="PackageManagementTools">PackageManagementTools</a></li>
+</ul>
+
+</h1>
+</div>
+
+<div id="page" lang="en" dir="ltr">
+<div dir="ltr" id="content" lang="en"><span class="anchor" id="top"></span>
+<span class="anchor" id="line-1"></span><span class="anchor" id="line-2"></span><span class="anchor" id="line-3"></span><span class="anchor" id="line-4"></span><span class="anchor" id="line-5"></span><div><table style="&amp;quot; width: 100%; &amp;quot;"><tbody><tr>  <td style="&amp;quot; border: 0px hidden&amp;quot;"><p class="line891"><small><a href="https://wiki.debian.org/DebianWiki/EditorGuide#translation">Translation(s)</a>: English - <a href="https://wiki.debian.org/es/PackageManagement/PkgTools">Español</a> - <a href="https://wiki.debian.org/fr/PackageManagement/PkgTools">Français</a> - <a href="https://wiki.debian.org/it/PackageManagementTools">Italiano</a> - <a href="https://wiki.debian.org/ko/PackageManagement/PkgTools">한국어(Korean)</a></td>
+</tr>
+</tbody></table></div><span class="anchor" id="line-6"></span><span class="anchor" id="line-7"></span><p class="line867"><hr /><p class="line874"> <span class="anchor" id="line-8"></span><span class="anchor" id="line-9"></span><p class="line862">Many tools available on a Debian system can be used for <a href="PackageManagement">PackageManagement</a>. Commonly used ones include: <span class="anchor" id="line-10"></span><span class="anchor" id="line-11"></span><p class="line867"><strong><a href="https://wiki.debian.org/CommandLineInterface">command-line</a>:</strong> <span class="anchor" id="line-12"></span><span class="anchor" id="line-13"></span><ul><li><p class="line891"><a href="AptCLI">apt</a> - The main command-line package management tool <span class="anchor" id="line-14"></span></li><li><p class="line891"><a href="https://wiki.debian.org/aptitude">aptitude</a> - command-line and <a class="interwiki" href="https://en.wikipedia.org/wiki/Text-based%2520user%2520interface" title="WikiPedia">text-based interface</a> (ncurses) for Apt <span class="anchor" id="line-15"></span><span class="anchor" id="line-16"></span></li></ul><p class="line867"><strong><a class="interwiki" href="https://en.wikipedia.org/wiki/Graphical_user_interface" title="WikiPedia">graphical</a>:</strong> <span class="anchor" id="line-17"></span><span class="anchor" id="line-18"></span><ul><li><p class="line891"><a href="https://wiki.debian.org/Synaptic">Synaptic</a> - Graphical package manager <span class="anchor" id="line-19"></span></li><li><p class="line891"><a class="interwiki" href="https://packages.debian.org/gdebi" title="DebPkg">gdebi</a> - Graphical installer for standalone <a href="https://wiki.debian.org/DebianPackage">DebianPackage</a>s <span class="anchor" id="line-20"></span></li><li><p class="line891"><a class="interwiki" href="https://packages.debian.org/gnome-software" title="DebPkg">gnome-software</a> - Software Center for GNOME  <span class="anchor" id="line-21"></span><span class="anchor" id="line-22"></span></li></ul><p class="line874">This page tries to list all software related to Debian package management. <span class="anchor" id="line-23"></span><span class="anchor" id="line-24"></span><p class="line867"><hr /><p class="line874"> <span class="anchor" id="line-25"></span><span class="anchor" id="line-26"></span><p class="line867"><div class="table-of-contents"><p class="table-of-contents-heading">Contents<ol><li>
+<a href="PackageManagementTools#Full_list_of_package_management_tools">Full list of package management tools</a><ol><li>
+<a href="PackageManagementTools#apt">apt</a></li><li>
+<a href="PackageManagementTools#dpkg">dpkg</a></li><li>
+<a href="PackageManagementTools#apt-utils">apt-utils</a></li><li>
+<a href="PackageManagementTools#devscripts">devscripts</a></li><li>
+<a href="PackageManagementTools#dpkg-dev">dpkg-dev</a></li><li>
+<a href="PackageManagementTools#TODO_unsorted">TODO unsorted</a></li></ol></li><li>
+<a href="PackageManagementTools#Tools_for_managing_a_package_repository">Tools for managing a package repository</a></li><li>
+<a href="PackageManagementTools#Other">Other</a><ol><li>
+<a href="PackageManagementTools#See_also">See also</a></li></ol></li></ol></li></ol></div> <span class="anchor" id="line-27"></span><span class="anchor" id="line-28"></span><p class="line867">
+<h2 id="Full_list_of_package_management_tools">Full list of package management tools</h2>
+<span class="anchor" id="line-29"></span><span class="anchor" id="line-30"></span><p class="line867">
+<h3 id="apt">apt</h3>
+<span class="anchor" id="line-31"></span><span class="anchor" id="line-32"></span><p class="line862">The <a class="interwiki" href="../packages.debian.org/apt" title="DebPkg">apt</a> package provides commandline tools for searching, managing, and querying information about packages, and access all features of the libapt-pkg library: <span class="anchor" id="line-33"></span><span class="anchor" id="line-34"></span><ul><li><p class="line891"><strong><a href="AptCLI">apt</a></strong> - high-level commandline interface for the package management system. <span class="anchor" id="line-35"></span></li><li><p class="line891"><a class="interwiki" href="https://manpages.debian.org/man/apt-cache" title="DebianMan">apt-cache</a> - performs a variety of operations on APT's package cache. <span class="anchor" id="line-36"></span></li><li><p class="line891"><a class="interwiki" href="https://manpages.debian.org/man/apt-cdrom" title="DebianMan">apt-cdrom</a> - used to add a new CD-ROM to APT's list of available sources. <span class="anchor" id="line-37"></span></li><li><p class="line891"><a class="interwiki" href="https://manpages.debian.org/man/apt-config" title="DebianMan">apt-config</a> - This program is used by the other apt utilities to provide a standard interface to the apt configuration settings. <span class="anchor" id="line-38"></span></li><li><p class="line891"><a href="https://wiki.debian.org/apt-get">apt-get</a> - command-line tool for handling packages <span class="anchor" id="line-39"></span></li><li><p class="line891"><a class="interwiki" href="https://manpages.debian.org/man/apt-key" title="DebianMan">apt-key</a> - manage the list of keys used by apt to authenticate packages. <span class="anchor" id="line-40"></span><span class="anchor" id="line-41"></span></li></ul><p class="line867">
+<h3 id="dpkg">dpkg</h3>
+<span class="anchor" id="line-42"></span><span class="anchor" id="line-43"></span><p class="line862">The <a class="interwiki" href="https://packages.debian.org/dpkg" title="DebPkg">dpkg</a> package provides low-level infrastructure for handling the installation and removal of Debian software packages: <span class="anchor" id="line-44"></span><span class="anchor" id="line-45"></span><ul><li><p class="line891"><a class="interwiki" href="https://manpages.debian.org/man/dpkg" title="DebianMan">dpkg</a> - a tool to install, build, remove and manage Debian packages. <span class="anchor" id="line-46"></span></li><li><p class="line891"><a class="interwiki" href="https://manpages.debian.org/man/dpkg-deb" title="DebianMan">dpkg-deb</a> - Debian package archive (.deb) manipulation tool <span class="anchor" id="line-47"></span></li><li><p class="line891"><a class="interwiki" href="https://manpages.debian.org/man/dpkg-divert" title="DebianMan">dpkg-divert</a> - override a package's version of a file <span class="anchor" id="line-48"></span></li><li><p class="line891"><a class="interwiki" href="https://manpages.debian.org/man/dpkg-maintscript-helper" title="DebianMan">dpkg-maintscript-helper</a> - works around known dpkg limitations in maintainer scripts <span class="anchor" id="line-49"></span></li><li><p class="line891"><a class="interwiki" href="https://manpages.debian.org/man/dpkg-query" title="DebianMan">dpkg-query</a> - show information about packages listed in the dpkg database. <span class="anchor" id="line-50"></span></li><li><p class="line891"><a class="interwiki" href="https://manpages.debian.org/man/dpkg-split" title="DebianMan">dpkg-split</a> - splits binary packages into smaller files and reassembles them(storage of large package files on small media) <span class="anchor" id="line-51"></span></li><li><p class="line891"><a class="interwiki" href="https://manpages.debian.org/man/dpkg-statoverride" title="DebianMan">dpkg-statoverride</a> - override ownership and mode of files <span class="anchor" id="line-52"></span></li><li><p class="line891"><a class="interwiki" href="https://manpages.debian.org/man/dpkg-trigger" title="DebianMan">dpkg-trigger</a> - a tool to explicitly activate dpkg triggers <span class="anchor" id="line-53"></span></li><li><p class="line891"><a class="interwiki" href="https://manpages.debian.org/man/update-alternatives" title="DebianMan">update-alternatives</a> - maintain symbolic links determining default commands <span class="anchor" id="line-54"></span><span class="anchor" id="line-55"></span></li></ul><p class="line867">
+<h3 id="apt-utils">apt-utils</h3>
+<span class="anchor" id="line-56"></span><span class="anchor" id="line-57"></span><p class="line867"><a class="interwiki" href="https://packages.debian.org/apt-utils" title="DebPkg">apt-utils</a> contains some less used commandline utilities related to package management with APT. <span class="anchor" id="line-58"></span><span class="anchor" id="line-59"></span><p class="line867">
+<h3 id="devscripts">devscripts</h3>
+<span class="anchor" id="line-60"></span><span class="anchor" id="line-61"></span><p class="line867"><a class="interwiki" href="https://packages.debian.org/devscripts" title="DebPkg">devscripts</a> provides several scripts to make the life of a Debian Package maintainer easier <span class="anchor" id="line-62"></span><span class="anchor" id="line-63"></span><ul><li><p class="line891"><a class="interwiki" href="https://manpages.debian.org/man/debuild" title="DebianMan">debuild</a> - This tool is used for rebuilding packages <span class="anchor" id="line-64"></span><span class="anchor" id="line-65"></span></li></ul><p class="line867">
+<h3 id="dpkg-dev">dpkg-dev</h3>
+<span class="anchor" id="line-66"></span><span class="anchor" id="line-67"></span><p class="line867"><a class="interwiki" href="https://packages.debian.org/dpkg-dev" title="DebPkg">dpkg-dev</a> provides the development tools (including dpkg-source) required to unpack, build and upload Debian source packages. <span class="anchor" id="line-68"></span><span class="anchor" id="line-69"></span><ul><li><p class="line891"><a class="interwiki" href="https://manpages.debian.org/man/dpkg-scanpackages" title="DebianMan">dpkg-scanpackages</a> - create Debian Packages index files from binary packages (.deb and variants) <span class="anchor" id="line-70"></span></li><li><p class="line891"><a class="interwiki" href="https://manpages.debian.org/man/dpkg-scansources" title="DebianMan">dpkg-scansources</a> - create Debian Sources index files from source packages (.dsc) <span class="anchor" id="line-71"></span><span class="anchor" id="line-72"></span></li></ul><p class="line867">
+<h3 id="TODO_unsorted">TODO unsorted</h3>
+<span class="anchor" id="line-73"></span><span class="anchor" id="line-74"></span><ul><li><p class="line891"><a class="interwiki" href="https://packages.debian.org/apt-file" title="DebianPkg">apt-file</a> - This tool searches for a filename installed by any package in the contents of sources.list. <span class="anchor" id="line-75"></span></li><li><p class="line891"><a class="interwiki" href="https://packages.debian.org/apt-listchanges" title="DebianPkg">apt-listchanges</a> - This tool displays the relevant changelog entries whenever a package is upgraded. <span class="anchor" id="line-76"></span></li><li><p class="line891"><a class="interwiki" href="https://packages.debian.org/apt-build" title="DebianPkg">apt-build</a> - Used to build packages from the source files <span class="anchor" id="line-77"></span></li><li><p class="line891"><a class="interwiki" href="https://packages.debian.org/apt-cdrom-setup" title="DebPkg">apt-cdrom-setup</a> - This tool allows <a href="https://wiki.debian.org/CDROM">cdrom</a> based sources to be included in the package sources list. <span class="anchor" id="line-78"></span></li><li><p class="line891"><a class="interwiki" href="https://packages.debian.org/apt-rdepends" title="DebianPkg">apt-rdepends</a> - This tool generates recursive dependency trees for a package. <span class="anchor" id="line-79"></span></li><li><p class="line891"><a class="interwiki" href="https://packages.debian.org/apt-show-versions" title="DebianPkg">apt-show-versions</a> - shows all available versions of a package (allows wildcards), or all packages, and displays upgrade information where applicable. <span class="anchor" id="line-80"></span></li><li><p class="line891"><a class="interwiki" href="https://manpages.debian.org/man/dpkg-reconfigure" title="DebianMan">dpkg-reconfigure</a> - Allows a package to be reconfigured based on preferences (the same questions that are asked when the package is first installed). <span class="anchor" id="line-81"></span></li><li><p class="line891"><a class="interwiki" href="https://packages.debian.org/apt-show-source" title="DebianPkg">apt-show-source</a> - This is a variant of &quot;apt-cache show&quot; that shows information against the named source package, rather than the binary package. <span class="anchor" id="line-82"></span></li><li><p class="line891"><a class="interwiki" href="https://packages.debian.org/apt-listbugs" title="DebianPkg">apt-listbugs</a> - This tool shows known critical bugs in named packages. <span class="anchor" id="line-83"></span></li><li><p class="line891"><a class="interwiki" href="https://manpages.debian.org/man/apt-sortpkgs" title="DebianMan">apt-sortpkgs</a> - Sorts records and fields within the sources and packages files. <span class="anchor" id="line-84"></span></li><li><p class="line891"><a class="interwiki" href="https://manpages.debian.org/man/apt-extracttemplates" title="DebianMan">apt-extracttemplates</a> - Extracts templates and install scripts from packages. <span class="anchor" id="line-85"></span></li><li><p class="line891"><a class="interwiki" href="https://packages.debian.org/apt-setup" title="DebianPkg">apt-setup</a> - This tool configures the sources.list file. <span class="anchor" id="line-86"></span></li><li><p class="line891"><a class="interwiki" href="https://packages.debian.org/apt-offline" title="DebianPkg">apt-offline</a> - Offline Package Management <span class="anchor" id="line-87"></span></li><li><p class="line891"><a class="interwiki" href="https://packages.debian.org/deborphan" title="DebianPkg">deborphan</a> - This tool scans the package database for unused or redundant packages <span class="anchor" id="line-88"></span></li><li><p class="line891"><a class="interwiki" href="https://packages.debian.org/dpkg-www" title="DebPkg">dpkg-www</a> - Debian package management web interface - browse Debian packages on a local or remote host using a normal web browser. <span class="anchor" id="line-89"></span></li><li><p class="line891"><a class="interwiki" href="https://packages.debian.org/apt-xapian-index" title="DebPkg">apt-xapian-index</a> - a tool to maintain a <a class="interwiki" href="https://en.wikipedia.org/wiki/Xapian" title="WikiPedia">Xapian</a> index of Debian package information and a command line search tool that uses the index. <span class="anchor" id="line-90"></span></li><li><p class="line891"><a class="nonexistent" href="https://wiki.debian.org/wajig">?</a>wajig - wrapper tool for apt-get, dpkg, apt-cache, wget, and others <span class="anchor" id="line-91"></span><span class="anchor" id="line-92"></span></li></ul><p class="line867">
+<h2 id="Tools_for_managing_a_package_repository">Tools for managing a package repository</h2>
+<span class="anchor" id="line-93"></span><span class="anchor" id="line-94"></span><ul><li><p class="line891"><a class="interwiki" href="https://packages.debian.org/apt-cacher" title="DebianPkg">apt-cacher</a> - This is an alternative tool to apt-proxy. <span class="anchor" id="line-95"></span></li><li><p class="line891"><a class="interwiki" href="https://manpages.debian.org/man/apt-ftparchive" title="DebianMan">apt-ftparchive</a> - generates, from a directory of packages, the Packages and Sources control files used for an apt repository. <span class="anchor" id="line-96"></span></li><li><p class="line891"><a class="interwiki" href="https://packages.debian.org/apt-move" title="DebianPkg">apt-move</a> - Moves a collection of Debian packages into a proper pool directory hierarchy as used by a package repository. <span class="anchor" id="line-97"></span></li><li><p class="line891"><a class="interwiki" href="https://packages.debian.org/apt-transport-https" title="DebianPkg">apt-transport-https</a> - Allows apt to be configured to use https <span class="anchor" id="line-98"></span><span class="anchor" id="line-99"></span></li></ul><p class="line867">
+<h2 id="Other">Other</h2>
+<span class="anchor" id="line-100"></span><ul><li><p class="line891"><a class="interwiki" href="https://packages.debian.org/dselect" title="DebPkg">dselect</a> - Deprecated: superseded by aptitude <span class="anchor" id="line-101"></span></li><li><p class="line891"><a href="https://wiki.debian.org/tasksel">tasksel</a> – Tool for selecting tasks for installation on Debian systems  <span class="anchor" id="line-102"></span></li><li><p class="line891"><a href="https://wiki.debian.org/PackageKit">PackageKit</a> - Distro-agnostic frontend under developement <span class="anchor" id="line-103"></span><span class="anchor" id="line-104"></span></li></ul><p class="line867">
+<h3 id="See_also">See also</h3>
+<span class="anchor" id="line-105"></span><span class="anchor" id="line-106"></span><ul><li><p class="line862">Get a list of package management tools (requires <a class="interwiki" href="https://packages.debian.org/debtags" title="DebPkg">debtags</a>): <tt class="backtick">aptitude&nbsp;search&nbsp;'~Gadmin::package-management~Gsuite::debian'</tt> <span class="anchor" id="line-107"></span></li><li><p class="line891"><a href="https://wiki.debian.org/Packaging">Packaging</a> <span class="anchor" id="line-108"></span></li><li><p class="line891"><a class="https" href="https://www.linux.com/news/housekeeping-utilities-debian-packages/">Housekeeping utilities for Debian packages</a> (<a class="interwiki" href="https://packages.debian.org/debfoster" title="DebianPkg">debfoster</a>, <a class="interwiki" href="https://packages.debian.org/deborphan" title="DebianPkg">deborphan</a>, <a class="interwiki" href="https://packages.debian.org/debsecan" title="DebianPkg">debsecan</a>) <span class="anchor" id="line-109"></span><span class="anchor" id="line-110"></span></li></ul><p class="line867"><hr /><p class="line874"> <span class="anchor" id="line-111"></span><span class="anchor" id="line-112"></span><p class="line867"><strong>TODO:</strong> add links to each command's manpage <span class="anchor" id="line-113"></span><span class="anchor" id="line-114"></span><span class="anchor" id="line-115"></span><p class="line867"><hr /><p class="line874"> <span class="anchor" id="line-116"></span><span class="anchor" id="line-117"></span><p class="line867"><a href="https://wiki.debian.org/CategoryPackageManagement">CategoryPackageManagement</a> | <a href="https://wiki.debian.org/CategorySoftware">CategorySoftware</a> <span class="anchor" id="line-118"></span><span class="anchor" id="bottom"></span></div><div id="pagebottom"></div>
+</div>
+
+
+<div id="footer">
+<p id="pageinfo" class="info" lang="en" dir="ltr">PackageManagementTools  (<a class="nbinfo" href="https://wiki.debian.org/PackageManagementTools?action=info" rel="nofollow">last modified 2020-01-03 02:32:42</a>)</p>
+
+<ul id="credits">
+<li><a href="https://www.debian.org/legal/privacy">Debian privacy policy</a><br></li><li><a href="https://moinmo.in/" title="This site uses the MoinMoin Wiki software.">MoinMoin Powered</a></li><li><a href="https://moinmo.in/Python" title="MoinMoin is written in Python.">Python Powered</a></li><li>Debian Wiki <a href="https://wiki.debian.org/Teams/DebianWiki">team</a>, <a href="https://bugs.debian.org/wiki.debian.org">bugs</a> and <a href="https://salsa.debian.org/debian/wiki.debian.org">config</a> available.</li><li>Hosting provided by <a href="https://www.man-da.de/">Metropolitan Area Network Darmstadt</a></li>
+</ul>
+
+
+</div>
+</body>
+</html>
+

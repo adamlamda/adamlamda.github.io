@@ -1,0 +1,832 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8" >
+<meta name="viewport" id="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no" />
+
+
+
+<link rel="shortcut icon" href="http://x96dev.wpengine.com/wp-content/uploads/2015/11/x96_fav_y.png" /><link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="https://x96.com/feed/" />
+<link rel="alternate" type="text/xml" title="RSS .92" href="https://x96.com/feed/rss/" />
+<link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="https://x96.com/feed/atom/" />
+<link rel="pingback" href="https://x96.com/xmlrpc.php" />
+
+
+<meta property="og:description" content="Utah&#039;s Original Alternative" />
+
+
+<link type="text/css" media="all" href="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/cache/autoptimize/css/autoptimize_1fed7dac2a82ef19d9869d6caa353b8e.css" rel="stylesheet" /><title>Contact X96 &#8211; X96</title>
+<link rel='dns-prefetch' href='//netdna.bootstrapcdn.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="X96 &raquo; Feed" href="https://x96.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="X96 &raquo; Comments Feed" href="https://x96.com/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="X96 &raquo; Contact X96 Comments Feed" href="https://x96.com/contact/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11\/svg\/","svgExt":".svg","source":{"wpemoji":"https:\/\/x96.com\/wp-includes\/js\/wp-emoji.js?ver=4.9.8","twemoji":"https:\/\/x96.com\/wp-includes\/js\/twemoji.js?ver=4.9.8"}};
+			( function( window, document, settings ) {
+	var src, ready, ii, tests;
+
+	/*
+	 * Create a canvas element for testing native browser support
+	 * of emoji.
+	 */
+	var canvas = document.createElement( 'canvas' );
+	var context = canvas.getContext && canvas.getContext( '2d' );
+
+	/**
+	 * Check if two sets of Emoji characters render the same.
+	 *
+	 * @param set1 array Set of Emoji characters.
+	 * @param set2 array Set of Emoji characters.
+	 * @returns {boolean} True if the two sets render the same.
+	 */
+	function emojiSetsRenderIdentically( set1, set2 ) {
+		var stringFromCharCode = String.fromCharCode;
+
+		// Cleanup from previous test.
+		context.clearRect( 0, 0, canvas.width, canvas.height );
+		context.fillText( stringFromCharCode.apply( this, set1 ), 0, 0 );
+		var rendered1 = canvas.toDataURL();
+
+		// Cleanup from previous test.
+		context.clearRect( 0, 0, canvas.width, canvas.height );
+		context.fillText( stringFromCharCode.apply( this, set2 ), 0, 0 );
+		var rendered2 = canvas.toDataURL();
+
+		return rendered1 === rendered2;
+	}
+
+	/**
+	 * Detect if the browser supports rendering emoji or flag emoji. Flag emoji are a single glyph
+	 * made of two characters, so some browsers (notably, Firefox OS X) don't support them.
+	 *
+	 * @since 4.2.0
+	 *
+	 * @param type {String} Whether to test for support of "flag" or "emoji".
+	 * @return {Boolean} True if the browser can render emoji, false if it cannot.
+	 */
+	function browserSupportsEmoji( type ) {
+		var isIdentical;
+
+		if ( ! context || ! context.fillText ) {
+			return false;
+		}
+
+		/*
+		 * Chrome on OS X added native emoji rendering in M41. Unfortunately,
+		 * it doesn't work when the font is bolder than 500 weight. So, we
+		 * check for bold rendering support to avoid invisible emoji in Chrome.
+		 */
+		context.textBaseline = 'top';
+		context.font = '600 32px Arial';
+
+		switch ( type ) {
+			case 'flag':
+				/*
+				 * Test for UN flag compatibility. This is the least supported of the letter locale flags,
+				 * so gives us an easy test for full support.
+				 *
+				 * To test for support, we try to render it, and compare the rendering to how it would look if
+				 * the browser doesn't render it correctly ([U] + [N]).
+				 */
+				isIdentical = emojiSetsRenderIdentically(
+					[ 55356, 56826, 55356, 56819 ],
+					[ 55356, 56826, 8203, 55356, 56819 ]
+				);
+
+				if ( isIdentical ) {
+					return false;
+				}
+
+				/*
+				 * Test for English flag compatibility. England is a country in the United Kingdom, it
+				 * does not have a two letter locale code but rather an five letter sub-division code.
+				 *
+				 * To test for support, we try to render it, and compare the rendering to how it would look if
+				 * the browser doesn't render it correctly (black flag emoji + [G] + [B] + [E] + [N] + [G]).
+				 */
+				isIdentical = emojiSetsRenderIdentically(
+					[ 55356, 57332, 56128, 56423, 56128, 56418, 56128, 56421, 56128, 56430, 56128, 56423, 56128, 56447 ],
+					[ 55356, 57332, 8203, 56128, 56423, 8203, 56128, 56418, 8203, 56128, 56421, 8203, 56128, 56430, 8203, 56128, 56423, 8203, 56128, 56447 ]
+				);
+
+				return ! isIdentical;
+			case 'emoji':
+				/*
+				 * She's the hero Emoji deserves, but not the one it needs right now.
+				 *
+				 * To test for support, try to render a new emoji (female superhero),
+				 * then compare it to how it would look if the browser doesn't render it correctly
+				 * (superhero + female sign).
+				 */
+				isIdentical = emojiSetsRenderIdentically(
+					[55358, 56760, 9792, 65039],
+					[55358, 56760, 8203, 9792, 65039]
+				);
+				return ! isIdentical;
+		}
+
+		return false;
+	}
+
+	function addScript( src ) {
+		var script = document.createElement( 'script' );
+
+		script.src = src;
+		script.defer = script.type = 'text/javascript';
+		document.getElementsByTagName( 'head' )[0].appendChild( script );
+	}
+
+	tests = Array( 'flag', 'emoji' );
+
+	settings.supports = {
+		everything: true,
+		everythingExceptFlag: true
+	};
+
+	for( ii = 0; ii < tests.length; ii++ ) {
+		settings.supports[ tests[ ii ] ] = browserSupportsEmoji( tests[ ii ] );
+
+		settings.supports.everything = settings.supports.everything && settings.supports[ tests[ ii ] ];
+
+		if ( 'flag' !== tests[ ii ] ) {
+			settings.supports.everythingExceptFlag = settings.supports.everythingExceptFlag && settings.supports[ tests[ ii ] ];
+		}
+	}
+
+	settings.supports.everythingExceptFlag = settings.supports.everythingExceptFlag && ! settings.supports.flag;
+
+	settings.DOMReady = false;
+	settings.readyCallback = function() {
+		settings.DOMReady = true;
+	};
+
+	if ( ! settings.supports.everything ) {
+		ready = function() {
+			settings.readyCallback();
+		};
+
+		if ( document.addEventListener ) {
+			document.addEventListener( 'DOMContentLoaded', ready, false );
+			window.addEventListener( 'load', ready, false );
+		} else {
+			window.attachEvent( 'onload', ready );
+			document.attachEvent( 'onreadystatechange', function() {
+				if ( 'complete' === document.readyState ) {
+					settings.readyCallback();
+				}
+			} );
+		}
+
+		src = settings.source || {};
+
+		if ( src.concatemoji ) {
+			addScript( src.concatemoji );
+		} else if ( src.wpemoji && src.twemoji ) {
+			addScript( src.twemoji );
+			addScript( src.wpemoji );
+		}
+	}
+
+} )( window, document, window._wpemojiSettings );
+		</script>
+		
+
+
+
+
+
+
+
+
+
+
+<link rel='stylesheet' id='mvp-fontawesome-css'  href='//netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css?ver=4.9.8' type='text/css' media='all' />
+
+<!--[if lt IE 10]>
+<link rel='stylesheet' id='mvp-iecss-css'  href='https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/themes/flex-mag-child/css/iecss.css?ver=4.9.8' type='text/css' media='all' />
+<![endif]-->
+
+
+
+
+
+
+
+
+
+
+
+
+<script type='text/javascript' src='https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-includes/js/jquery/jquery-migrate.js?ver=1.4.1'></script>
+<script type='text/javascript' src='https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/plugins/photo-gallery/js/bwg_frontend.js?ver=2.2.100'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var bwg_objectsL10n = {"bwg_select_tag":"Select Tag."};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/plugins/photo-gallery/js/jquery.sumoselect.min.js?ver=2.2.100'></script>
+<script type='text/javascript' src='https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/plugins/photo-gallery/js/jquery.mobile.js?ver=2.2.100'></script>
+<script type='text/javascript' src='https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/plugins/photo-gallery/js/jquery.mCustomScrollbar.concat.min.js?ver=2.2.100'></script>
+<script type='text/javascript' src='https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/plugins/photo-gallery/js/jquery.fullscreen-0.4.1.js?ver=0.4.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var bwg_objectL10n = {"bwg_field_required":"field is required.","bwg_mail_validation":"This is not a valid email address.","bwg_search_result":"There are no images matching your search."};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/plugins/photo-gallery/js/bwg_gallery_box.js?ver=2.2.100'></script>
+<script type='text/javascript' src='https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/plugins/photo-gallery/js/jquery.raty.js?ver=2.5.2'></script>
+<script type='text/javascript' src='https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/plugins/photo-gallery/js/jquery.featureCarousel.js?ver=2.2.100'></script>
+<script type='text/javascript' src='https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/plugins/photo-gallery/js/3DEngine/3DEngine.js?ver=1.0.0'></script>
+<script type='text/javascript' src='https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/plugins/photo-gallery/js/3DEngine/Sphere.js?ver=1.0.0'></script>
+<script type='text/javascript' src='https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.tools.min.js?ver=5.4.8'></script>
+<script type='text/javascript' src='https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.revolution.min.js?ver=5.4.8'></script>
+<link rel='https://api.w.org/' href='https://x96.com/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://x96.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://x96.com/wp-includes/wlwmanifest.xml" /> 
+<link rel="canonical" href="https://x96.com/contact/" />
+<link rel='shortlink' href='https://x96.com/?p=25660' />
+<link rel="alternate" type="application/json+oembed" href="https://x96.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fx96.com%2Fcontact%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://x96.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fx96.com%2Fcontact%2F&#038;format=xml" />
+<meta name="apple-itunes-app" content="app-id=655730921">
+<meta name="google-play-app" content="app-id=com.commotion.KXRK">
+<meta name="author" content="Broadway Media">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--WPEventPlus 2.3.9-->
+
+	
+
+
+<meta name="generator" content="Powered by WPBakery Page Builder - drag and drop page builder for WordPress."/>
+<!--[if lte IE 9]><link rel="stylesheet" type="text/css" href="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/plugins/js_composer/assets/css/vc_lte_ie9.min.css" media="screen"><![endif]--><meta name="generator" content="Powered by Slider Revolution 5.4.8 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface." />
+                <script type="text/javascript">function setREVStartSize(e){									
+						try{ e.c=jQuery(e.c);var i=jQuery(window).width(),t=9999,r=0,n=0,l=0,f=0,s=0,h=0;
+							if(e.responsiveLevels&&(jQuery.each(e.responsiveLevels,function(e,f){f>i&&(t=r=f,l=e),i>f&&f>r&&(r=f,n=e)}),t>r&&(l=n)),f=e.gridheight[l]||e.gridheight[0]||e.gridheight,s=e.gridwidth[l]||e.gridwidth[0]||e.gridwidth,h=i/s,h=h>1?1:h,f=Math.round(h*f),"fullscreen"==e.sliderLayout){var u=(e.c.width(),jQuery(window).height());if(void 0!=e.fullScreenOffsetContainer){var c=e.fullScreenOffsetContainer.split(",");if (c) jQuery.each(c,function(e,i){u=jQuery(i).length>0?u-jQuery(i).outerHeight(!0):u}),e.fullScreenOffset.split("%").length>1&&void 0!=e.fullScreenOffset&&e.fullScreenOffset.length>0?u-=jQuery(window).height()*parseInt(e.fullScreenOffset,0)/100:void 0!=e.fullScreenOffset&&e.fullScreenOffset.length>0&&(u-=parseInt(e.fullScreenOffset,0))}f=u}else void 0!=e.minHeight&&f<e.minHeight&&(f=e.minHeight);e.c.closest(".rev_slider_wrapper").css({height:f})					
+						}catch(d){console.log("Failure at Presize of Slider:"+d)}						
+					};</script>
+<noscript><style type="text/css"> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript>
+<!--BROADWAY UPDATE-->
+<script type='text/javascript'>
+  var googletag = googletag || {};
+  googletag.cmd = googletag.cmd || [];
+  (function() {
+    var gads = document.createElement('script');
+    gads.async = true;
+    gads.type = 'text/javascript';
+    var useSSL = 'https:' == document.location.protocol;
+    gads.src = (useSSL ? 'https:' : 'http:') +
+      '//www.googletagservices.com/tag/js/gpt.js';
+    var node = document.getElementsByTagName('script')[0];
+    node.parentNode.insertBefore(gads, node);
+  })();
+</script>
+
+<script type='text/javascript'>
+  googletag.cmd.push(function() {
+
+var Leaderboard = googletag.sizeMapping().
+ addSize([1400, 768], [1200, 90]).
+ addSize([980, 400], [970, 90]).
+ addSize([740, 400], [728, 90]).
+ addSize([0, 0], [320, 50]).
+ build();
+
+var Middlebox = googletag.sizeMapping().
+ addSize([1500, 768], [500, 300]).
+ addSize([0, 0], [300, 250]).
+ build();
+
+var Middlebox2 = googletag.sizeMapping().
+ addSize([1500, 768], [500, 300]).
+ addSize([0, 0], [300, 250]).
+ build();
+	  
+var Events = googletag.sizeMapping().
+ addSize([1400, 768], [1200, 300]).
+ addSize([740, 400], [728, 90]).
+ addSize([0,0], [300, 250]).
+ build();
+
+    googletag.defineSlot('/133996388/X96_300x250_Home', [300, 250], 'div-gpt-ad-1449615311021-0').addService(googletag.pubads());
+    googletag.defineSlot('/133996388/X96_300x250_Sidebar', [300, 250], 'div-gpt-ad-1449615311021-1')
+	.addService(googletag.pubads())
+	.setTargeting("postID", "25660");
+    googletag.defineSlot('/133996388/X96_BigBlock_500x300', [[500, 300], [300, 250]], 'div-gpt-ad-1449615311021-2').defineSizeMapping(Middlebox).addService(googletag.pubads());
+    googletag.defineSlot('/133996388/X96_Leaderboard_1200x90', [[1200, 90], [970, 90], [728, 90], [320, 50]], 'div-gpt-ad-1449615311021-3').defineSizeMapping(Leaderboard).addService(googletag.pubads());
+    googletag.defineSlot('/133996388/X96_Monster_300x600', [300, 600], 'div-gpt-ad-1449615311021-4')
+	.addService(googletag.pubads())
+	.setTargeting("postID", "25660");
+	  googletag.defineSlot('/133996388/X96_EventsPage', [[1200, 300], [728, 90], [300, 250]], 'div-gpt-ad-1532976127368-0').defineSizeMapping(Events).addService(googletag.pubads());
+    googletag.pubads().enableSingleRequest();
+    googletag.enableServices();
+  });
+</script>
+<!--End Google DoubleClick-->
+
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-57PN8L"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-57PN8L');</script>
+<!-- End Google Tag Manager -->
+
+
+
+<!-- Facebook Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','https://connect.facebook.net/en_US/fbevents.js');
+
+fbq('init', '1692510571022926');
+fbq('track', "PageView");
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=1692510571022926&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Facebook Pixel Code -->
+<!--END BROADWAY UPDATE-->
+
+</head>
+
+<body class="page-template page-template-page-fullwidth page-template-page-fullwidth-php page page-id-25660 siteorigin-panels siteorigin-panels-before-js wpb-js-composer js-comp-ver-5.4.7 vc_responsive">
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8&appId=1245125238836718";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+	<div id="site" class="left relative">
+		<div id="site-wrap" class="left relative">
+				<div id="wallpaper">
+					<!--BROADWAY UPDATEEND BROADWAY UPDATE-->
+				</div><!--wallpaper-->
+			<div id="fly-wrap">
+	<div class="fly-wrap-out">
+		<div class="fly-side-wrap">
+			<ul class="fly-bottom-soc left relative">
+									<li class="fb-soc">
+						<a href="https://www.facebook.com/X96Music/" target="_blank">
+						<i class="fa fa-facebook-square fa-2"></i>
+						</a>
+					</li>
+													<li class="twit-soc">
+						<a href="http://www.twitter.com/x96" target="_blank">
+						<i class="fa fa-twitter fa-2"></i>
+						</a>
+					</li>
+																	<li class="inst-soc">
+						<a href="https://instagram.com/x96fm/" target="_blank">
+						<i class="fa fa-instagram fa-2"></i>
+						</a>
+					</li>
+																	<li class="yt-soc">
+						<a href="https://www.youtube.com/user/kxrkx96" target="_blank">
+						<i class="fa fa-youtube-play fa-2"></i>
+						</a>
+					</li>
+																					<li class="rss-soc">
+						<a href="https://x96.com/feed/rss/" target="_blank">
+						<i class="fa fa-rss fa-2"></i>
+						</a>
+					</li>
+							</ul>
+		</div><!--fly-side-wrap-->
+		<div class="fly-wrap-in">
+			<div id="fly-menu-wrap">
+				<nav class="fly-nav-menu left relative">
+					<div class="menu-primary-menu-container"><ul id="menu-primary-menu" class="menu"><li id="menu-item-93548" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-93548"><a href="http://www.x96.com/radio-from-hell">Radio From Hell</a></li>
+<li id="menu-item-27946" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-27946"><a href="https://x96.com/contests/">Win</a></li>
+<li id="menu-item-25711" class="green menu-item menu-item-type-custom menu-item-object-custom menu-item-25711"><a href="https://x96.com/events">Events</a></li>
+<li id="menu-item-27982" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-27982"><a href="https://x96.com/on-air/">DJs</a></li>
+<li id="menu-item-27991" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-27991"><a href="https://x96.com/blog/">Latest News</a></li>
+<li id="menu-item-25717" class="green menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-25717"><a href="#">Media</a>
+<ul class="sub-menu">
+	<li id="menu-item-90956" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-90956"><a href="https://x96.com/video/">X96 Video</a></li>
+	<li id="menu-item-44156" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-44156"><a href="https://x96.com/live">X96 Live Video Feed</a></li>
+	<li id="menu-item-25762" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-25762"><a href="https://x96.com/photos/">Photos</a></li>
+	<li id="menu-item-25699" class="green menu-item menu-item-type-post_type menu-item-object-page menu-item-25699"><a href="https://x96.com/podcasts/">Podcasts</a></li>
+	<li id="menu-item-27970" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-27970"><a href="https://x96.com/apps/">X96 Mobile App</a></li>
+</ul>
+</li>
+<li id="menu-item-25750" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-25750"><a href="https://x96.com/features/">Features</a>
+<ul class="sub-menu">
+	<li id="menu-item-42521" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-42521"><a href="http://www.x96.com/tag/xposed">Xposed (New music weeknights at 8)</a></li>
+	<li id="menu-item-44359" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-44359"><a href="http://www.x96.com/tag/XposedFeat">Xposed Featured Tracks</a></li>
+	<li id="menu-item-44502" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-44502"><a href="http://www.x96.com/tag/freshx">Fresh X (new music blog)</a></li>
+	<li id="menu-item-42515" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-42515"><a href="http://www.x96.com/tag/ipo">X96 IPO (A full hour a new alternative Sundays nights at 9)</a></li>
+	<li id="menu-item-43722" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-43722"><a href="http://www.x96.com/tag/slcpunx">SLC Punx (an hour of punk music every Sunday at 10pm)</a></li>
+	<li id="menu-item-42524" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-42524"><a href="http://www.x96.com/tag/coreycal">Corey O&#8217;Brien&#8217;s Concert &#038; Event Calendar</a></li>
+	<li id="menu-item-42545" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-42545"><a href="https://x96.com/tag/loungex">Lounge X</a></li>
+	<li id="menu-item-25744" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-25744"><a href="https://x96.com/liveandlocal/">X96 Live And Local</a></li>
+	<li id="menu-item-43267" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-43267"><a href="http://geekshowpodcast.com">Geekshow Podcast</a></li>
+	<li id="menu-item-28024" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-28024"><a href="http://theletsgoeatshow.com/">The Let&#8217;s Go Eat Podcast</a></li>
+	<li id="menu-item-35420" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-35420"><a href="https://x96.com/801punx/">801PUNX</a></li>
+</ul>
+</li>
+<li id="menu-item-33921" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-33921"><a href="https://x96.com/workersunion/">X96 Worker&#8217;s Union Card</a></li>
+<li id="menu-item-42509" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-42509"><a href="http://www.x96.com/mobile">X96 Mobile Updates</a></li>
+</ul></div>				</nav>
+			</div><!--fly-menu-wrap-->
+		</div><!--fly-wrap-in-->
+	</div><!--fly-wrap-out-->
+</div><!--fly-wrap-->			<div id="head-main-wrap" class="left relative">
+				<div id="head-main-top" class="left relative">
+																																<div class="logo-wide-wrap left relative">
+							<!--BROADWAY UPDATE--><h1 class="header-logo"><!--END BROADWAY UPDATE-->
+															<a itemprop="url" href="https://x96.com/"><img itemprop="logo" src="http://x96dev.wpengine.com/wp-content/uploads/2015/12/X96Header_Logo_172.png" alt="X96" /></a>
+														</h1>
+							<!--BROADWAY UPDATE--><div class="right relative"><a href="javascript:tgmp.playStream()" onclick="ga('send', 'event', 'Stream Top', 'play');"><img src="https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/uploads/2016/01/ListenLiveButtonv3.png" style="margin-top:-15px"></a></div><!--END BROADWAY UPDATE-->
+						</div><!--logo-wide-wrap-->
+									</div><!--head-main-top-->
+				<div id="main-nav-wrap">
+					<div class="nav-out">
+						<div class="nav-in">
+							<div id="main-nav-cont" class="left" itemscope itemtype="http://schema.org/Organization">
+								<div class="nav-logo-out">
+									<div class="nav-left-wrap left relative">
+										<div class="fly-but-wrap left relative">
+											<span></span>
+											<span></span>
+											<span></span>
+											<span></span>
+										</div><!--fly-but-wrap-->
+																					<div class="nav-logo-fade left">
+																									<a href="https://x96.com/"><img src="http://x96dev.wpengine.com/wp-content/uploads/2015/12/x96-logo-site3.png" alt="X96" /></a>
+																							</div><!--nav-logo-fade-->
+																			</div><!--nav-left-wrap-->
+									<div class="nav-logo-in">
+										<div class="nav-menu-out">
+											<div class="nav-menu-in">
+												<nav class="main-menu-wrap left">
+													<div class="menu-primary-menu-container"><ul id="menu-primary-menu-1" class="menu"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-93548"><a href="http://www.x96.com/radio-from-hell">Radio From Hell</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-27946"><a href="https://x96.com/contests/">Win</a></li>
+<li class="green menu-item menu-item-type-custom menu-item-object-custom menu-item-25711"><a href="https://x96.com/events">Events</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-27982"><a href="https://x96.com/on-air/">DJs</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-27991"><a href="https://x96.com/blog/">Latest News</a></li>
+<li class="green menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-25717"><a href="#">Media</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-90956"><a href="https://x96.com/video/">X96 Video</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-44156"><a href="https://x96.com/live">X96 Live Video Feed</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-25762"><a href="https://x96.com/photos/">Photos</a></li>
+	<li class="green menu-item menu-item-type-post_type menu-item-object-page menu-item-25699"><a href="https://x96.com/podcasts/">Podcasts</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-27970"><a href="https://x96.com/apps/">X96 Mobile App</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-25750"><a href="https://x96.com/features/">Features</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-42521"><a href="http://www.x96.com/tag/xposed">Xposed (New music weeknights at 8)</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-44359"><a href="http://www.x96.com/tag/XposedFeat">Xposed Featured Tracks</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-44502"><a href="http://www.x96.com/tag/freshx">Fresh X (new music blog)</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-42515"><a href="http://www.x96.com/tag/ipo">X96 IPO (A full hour a new alternative Sundays nights at 9)</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-43722"><a href="http://www.x96.com/tag/slcpunx">SLC Punx (an hour of punk music every Sunday at 10pm)</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-42524"><a href="http://www.x96.com/tag/coreycal">Corey O&#8217;Brien&#8217;s Concert &#038; Event Calendar</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-42545"><a href="https://x96.com/tag/loungex">Lounge X</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-25744"><a href="https://x96.com/liveandlocal/">X96 Live And Local</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-43267"><a href="http://geekshowpodcast.com">Geekshow Podcast</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-28024"><a href="http://theletsgoeatshow.com/">The Let&#8217;s Go Eat Podcast</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-35420"><a href="https://x96.com/801punx/">801PUNX</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-33921"><a href="https://x96.com/workersunion/">X96 Worker&#8217;s Union Card</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-42509"><a href="http://www.x96.com/mobile">X96 Mobile Updates</a></li>
+</ul></div>												</nav>
+											</div><!--nav-menu-in-->
+											<div class="nav-right-wrap relative">
+												<div class="nav-search-wrap left relative">
+													<span class="nav-search-but left"><i class="fa fa-search fa-2"></i></span>
+													<div class="search-fly-wrap">
+														<form method="get" id="searchform" action="https://x96.com/">
+	<input type="text" name="s" id="s" value="Type search term and press enter" onfocus='if (this.value == "Type search term and press enter") { this.value = ""; }' onblur='if (this.value == "") { this.value = "Type search term and press enter"; }' />
+	<input type="hidden" id="searchsubmit" value="Search" />
+</form>													</div><!--search-fly-wrap-->
+												</div><!--nav-search-wrap-->
+																									<a href="https://www.facebook.com/X96Music/" target="_blank">
+													<span class="nav-soc-but"><i class="fa fa-facebook fa-2"></i></span>
+													</a>
+																																					<a href="http://www.twitter.com/x96" target="_blank">
+													<span class="nav-soc-but"><i class="fa fa-twitter fa-2"></i></span>
+													</a>
+																							</div><!--nav-right-wrap-->
+										</div><!--nav-menu-out-->
+									</div><!--nav-logo-in-->
+								</div><!--nav-logo-out-->
+							</div><!--main-nav-cont-->
+						</div><!--nav-in-->
+					</div><!--nav-out-->
+				</div><!--main-nav-wrap-->
+			</div><!--head-main-wrap-->
+										<div id="body-main-wrap" class="left relative">
+															<div class="body-main-out relative">
+					<div class="body-main-in">
+						<div id="body-main-cont" class="left relative">
+																			<div id="leader-wrap" class="left relative">
+								<!-- /133996388/X96_Leaderboard_1200x90 -->
+<div id='div-gpt-ad-1449615311021-3'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1449615311021-3'); });
+</script>
+</div>							</div><!--leader-wrap-->
+												<div id="post-main-wrap" class="left relative" itemscope itemtype="http://schema.org/Article">
+			<div id="post-left-col" class="relative">
+			<article id="post-area" class="post-25660 page type-page status-publish hentry">
+				<div id="post-header">
+					<h1 class="post-title left" itemprop="name headline">Contact X96</h1>
+				</div><!--post-header-->
+								<div id="content-area" itemprop="articleBody" class="post-25660 page type-page status-publish hentry">
+					<div id="content-main" class="left relative">
+						<div id="pl-25660"  class="panel-layout" ><div id="pg-25660-0"  class="panel-grid panel-no-style" ><div id="pgc-25660-0-0"  class="panel-grid-cell" ><div id="panel-25660-0-0-0" class="so-panel widget widget_sow-google-map panel-first-child panel-last-child" data-index="0" ><div class="so-widget-sow-google-map so-widget-sow-google-map-base">
+<div class="sow-google-map-canvas"
+     style="height:400px;"
+     id="map-canvas-07217f52306f5838d27ea9fc382df487"
+     data-options="{&quot;address&quot;:&quot;50 West Broadway Salt Lake City, UT&quot;,&quot;zoom&quot;:14,&quot;scrollZoom&quot;:true,&quot;draggable&quot;:true,&quot;disableUi&quot;:false,&quot;keepCentered&quot;:false,&quot;markerIcon&quot;:&quot;&quot;,&quot;markersDraggable&quot;:false,&quot;markerAtCenter&quot;:true,&quot;markerInfoDisplay&quot;:&quot;click&quot;,&quot;markerInfoMultiple&quot;:true,&quot;markerPositions&quot;:&quot;&quot;,&quot;mapName&quot;:&quot;&quot;,&quot;mapStyles&quot;:&quot;&quot;,&quot;directions&quot;:&quot;&quot;,&quot;apiKey&quot;:&quot;&quot;}"
+     data-fallback-image="{&quot;img&quot;:&quot;&quot;}"></div>
+</div></div></div></div><div id="pg-25660-1"  class="panel-grid panel-no-style" ><div id="pgc-25660-1-0"  class="panel-grid-cell" ><div id="panel-25660-1-0-0" class="so-panel widget widget_text panel-first-child panel-last-child" data-index="1" ><h3 class="widget-title">Contact Info</h3>			<div class="textwidget">50 West Broadway #200<br>
+Salt Lake City, UT 84101<br>
+<b>Receptionist:</b> 801-524-2600<br>
+9am - 5pm<br>
+Monday - Friday</div>
+		</div></div><div id="pgc-25660-1-1"  class="panel-grid-cell" ><div id="panel-25660-1-1-0" class="so-panel widget panel-first-child panel-last-child" data-index="2" ></div></div></div><div id="pg-25660-2"  class="panel-grid panel-no-style" ><div id="pgc-25660-2-0"  class="panel-grid-cell" ><div id="panel-25660-2-0-0" class="so-panel widget widget_text panel-first-child panel-last-child" data-index="3" ><h3 class="widget-title">Send Us A Message</h3>			<div class="textwidget"><b>Station Phone:</b> 877-602-9696<br>
+<b>Text:</b>33986
+<b>Program Director:</b> Todd Nuke'em - <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="20544f444460425741594d454449410e434f4d">[email&#160;protected]</a><br><br>
+<div role="form" class="wpcf7" id="wpcf7-f27949-p25660-o1" lang="en-US" dir="ltr">
+<div class="screen-reader-response"></div>
+<form action="/contact/#wpcf7-f27949-p25660-o1" method="post" class="wpcf7-form" novalidate="novalidate">
+<div style="display: none;">
+<input type="hidden" name="_wpcf7" value="27949" />
+<input type="hidden" name="_wpcf7_version" value="5.0.2" />
+<input type="hidden" name="_wpcf7_locale" value="en_US" />
+<input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f27949-p25660-o1" />
+<input type="hidden" name="_wpcf7_container_post" value="25660" />
+</div>
+<p><span class="wpcf7-form-control-wrap your-name"><input type="text" name="your-name" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Your Name" /></span> </p>
+<p><span class="wpcf7-form-control-wrap your-email"><input type="email" name="your-email" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" aria-required="true" aria-invalid="false" placeholder="Email" /></span> </p>
+<p><span class="wpcf7-form-control-wrap phone"><input type="tel" name="phone" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-tel wpcf7-validates-as-required wpcf7-validates-as-tel" aria-required="true" aria-invalid="false" placeholder="Phone Number" /></span></p>
+<p><span class="wpcf7-form-control-wrap your-message"><textarea name="your-message" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea" aria-invalid="false" placeholder="Message"></textarea></span> </p>
+<p><input type="submit" value="Send" class="wpcf7-form-control wpcf7-submit" /></p>
+<div class="wpcf7-response-output wpcf7-display-none"></div></form></div></div>
+		</div></div><div id="pgc-25660-2-1"  class="panel-grid-cell" ><div id="panel-25660-2-1-0" class="so-panel widget widget_text panel-first-child panel-last-child" data-index="4" ><h3 class="widget-title">Advertise with Us!</h3>			<div class="textwidget"><b>Sales Manager:</b> Mike Lund<br>
+801-325-3161<br>
+<a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="4d20213823290d2f3a2c34202829242c632e2220">[email&#160;protected]</a><br><br>
+<div role="form" class="wpcf7" id="wpcf7-f27961-p25660-o2" lang="en-US" dir="ltr">
+<div class="screen-reader-response"></div>
+<form action="/contact/#wpcf7-f27961-p25660-o2" method="post" class="wpcf7-form" novalidate="novalidate">
+<div style="display: none;">
+<input type="hidden" name="_wpcf7" value="27961" />
+<input type="hidden" name="_wpcf7_version" value="5.0.2" />
+<input type="hidden" name="_wpcf7_locale" value="en_US" />
+<input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f27961-p25660-o2" />
+<input type="hidden" name="_wpcf7_container_post" value="25660" />
+</div>
+<p><span class="wpcf7-form-control-wrap your-name"><input type="text" name="your-name" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Your Name" /></span> </p>
+<p><span class="wpcf7-form-control-wrap your-email"><input type="email" name="your-email" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" aria-required="true" aria-invalid="false" placeholder="Email" /></span> </p>
+<p><span class="wpcf7-form-control-wrap phone"><input type="tel" name="phone" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-tel wpcf7-validates-as-tel" aria-invalid="false" placeholder="Phone Number" /></span></p>
+<p><span class="wpcf7-form-control-wrap Company"><input type="text" name="Company" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Company" /></span></p>
+<p>Which products are you interested in?<br><br />
+<span class="wpcf7-form-control-wrap products"><span class="wpcf7-form-control wpcf7-checkbox"><span class="wpcf7-list-item first"><input type="checkbox" name="products[]" value="Radio" /><span class="wpcf7-list-item-label">Radio</span></span><span class="wpcf7-list-item"><input type="checkbox" name="products[]" value="Online" /><span class="wpcf7-list-item-label">Online</span></span><span class="wpcf7-list-item last"><input type="checkbox" name="products[]" value="Billboards" /><span class="wpcf7-list-item-label">Billboards</span></span></span></span></p>
+<p><span class="wpcf7-form-control-wrap message"><textarea name="message" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea" aria-invalid="false" placeholder="Message"></textarea></span></p>
+<p><input type="submit" value="Send" class="wpcf7-form-control wpcf7-submit" /></p>
+<div class="wpcf7-response-output wpcf7-display-none"></div></form></div></div>
+		</div></div></div><div id="pg-25660-3"  class="panel-grid panel-no-style" ><div id="pgc-25660-3-0"  class="panel-grid-cell" ><div id="panel-25660-3-0-0" class="so-panel widget widget_sow-editor panel-first-child panel-last-child" data-index="5" ><div class="so-widget-sow-editor so-widget-sow-editor-base"><h3 class="widget-title">Prize Pickup Info</h3>
+<div class="siteorigin-widget-tinymce textwidget">
+	<p>If you have won a prize, congratulations! To make your prize pickup go as smoothly as possible, please follow these rules:</p>
+<ul>
+<li>You MUST bring a photo ID</li>
+<li>Someone else can pick up for you as long as they have a copy of your photo ID</li>
+<li>You can pick up your prize between 9am - 5pm, Monday - Friday</li>
+<li>Call 801-524-2600 for any questions</li>
+</ul>
+</div>
+</div></div></div></div><div id="pg-25660-4"  class="panel-grid panel-no-style" ><div id="pgc-25660-4-0"  class="panel-grid-cell" ><div id="panel-25660-4-0-0" class="so-panel widget widget_sow-editor panel-first-child panel-last-child" data-index="6" ><div class="so-widget-sow-editor so-widget-sow-editor-base"><h3 class="widget-title">Job Openings</h3>
+<div class="siteorigin-widget-tinymce textwidget">
+	<p>Coming soon...</p>
+</div>
+</div></div></div></div></div>												<div class="posts-nav-link">
+													</div><!--posts-nav-link-->
+											</div><!--content-main-->
+				</div><!--content-area-->
+			</article>
+		</div><!--post-left-col-->
+	</div><!--post-main-wrap-->
+											</div><!--body-main-cont-->
+				</div><!--body-main-in-->
+			</div><!--body-main-out-->
+			<footer id="foot-wrap" class="left relative">
+				<div id="foot-top-wrap" class="left relative">
+					<!--BROADWAY UPDATE
+					<div class="body-main-out relative">
+						<div class="body-main-in">
+							<div id="foot-widget-wrap" class="left relative">
+																							</div><!--foot-widget-wrap--*>
+						</div><!--body-main-in--*>
+					</div>
+					END BROADWAY UPDATE-->
+					<!--body-main-out-->
+				</div><!--foot-top-->
+				<div id="foot-bot-wrap" class="left relative">
+					<div class="body-main-out relative">
+						<div class="body-main-in">
+							<div id="foot-bot" class="left relative">
+								<div class="foot-menu relative">
+									<div class="menu-footer-container"><ul id="menu-footer" class="menu"><li id="menu-item-27805" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-27805"><a href="https://x96.com/terms-conditions/">Terms &#038; Conditions</a></li>
+<li id="menu-item-27796" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-27796"><a href="https://x96.com/copyright-policy/">Copyright Policy</a></li>
+<li id="menu-item-27799" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-27799"><a href="https://x96.com/eeo-report/">EEO Report</a></li>
+<li id="menu-item-27802" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-27802"><a href="https://x96.com/privacy-policy/">Privacy Policy</a></li>
+<li id="menu-item-27955" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-27955"><a href="https://x96.com/contest-rules/">Contest Rules</a></li>
+<li id="menu-item-28039" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-25660 current_page_item menu-item-28039"><a href="https://x96.com/contact/">Contact X96</a></li>
+<li id="menu-item-96116" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-96116"><a href="https://x96.com/jobs/">Jobs</a></li>
+</ul></div>								</div><!--foot-menu-->
+								<div class="foot-copy relative">
+									<p>Copyright © 2017 Broadway Media <br>
+Built by <a href="http://realmediaslc.com" target="_blank">Real Media SLC</a>.</p>
+								</div><!--foot-copy-->
+							</div><!--foot-bot-->
+						</div><!--body-main-in-->
+					</div><!--body-main-out-->
+				</div><!--foot-bot-->
+			</footer>
+		</div><!--body-main-wrap-->
+	</div><!--site-wrap-->
+</div><!--site-->
+<div class="fly-to-top back-to-top">
+	<i class="fa fa-angle-up fa-3"></i>
+	<span class="to-top-text">To Top</span>
+</div><!--fly-to-top-->
+<div class="fly-fade">
+</div><!--fly-fade-->
+		<div data-theiaStickySidebar-sidebarSelector='"#post-sidebar-wrap, #sidebar-wrap"'
+		     data-theiaStickySidebar-options='{"containerSelector":"#content-main, #home-main-wrap","additionalMarginTop":80,"additionalMarginBottom":0,"updateSidebarHeight":false,"minWidth":0,"sidebarBehavior":"modern","disableOnResponsiveLayouts":true}'></div>
+		<div id="wps-bt-background-takeover-id" data-background-takeover-id="72"></div>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="text/javascript">
+jQuery(document).ready(function($) {
+
+	// Back to Top Button
+    	var duration = 500;
+    	$('.back-to-top').click(function(event) {
+          event.preventDefault();
+          $('html, body').animate({scrollTop: 0}, duration);
+          return false;
+	});
+
+	// Main Menu Dropdown Toggle
+	$('.menu-item-has-children a').click(function(event){
+	  event.stopPropagation();
+	  location.href = this.href;
+  	});
+
+	$('.menu-item-has-children').click(function(){
+    	  $(this).addClass('toggled');
+    	  if($('.menu-item-has-children').hasClass('toggled'))
+    	  {
+    	  $(this).children('ul').toggle();
+	  $('.fly-nav-menu').getNiceScroll().resize();
+	  }
+	  $(this).toggleClass('tog-minus');
+    	  return false;
+  	});
+
+	// Main Menu Scroll
+	$(window).load(function(){
+	  $('.fly-nav-menu').niceScroll({cursorcolor:"#888",cursorwidth: 7,cursorborder: 0,zindex:999999});
+	});
+
+	  	$(".comment-click").on("click", function(){
+  	  $(".com-click-id-25660").show();
+  	  $("#disqus_thread").show();
+  	  $(".com-but-click").hide();
+  	});
+	
+	// Infinite Scroll
+	$('.infinite-content').infinitescroll({
+	  navSelector: ".nav-links",
+	  nextSelector: ".nav-links a:first",
+	  itemSelector: ".infinite-post",
+	  loading: {
+		msgText: "Loading more posts...",
+		finishedMsg: "Sorry, no more posts"
+	  },
+	  errorCallback: function(){ $(".inf-more-but").css("display", "none") }
+	});
+	$(window).unbind('.infscr');
+	$(".inf-more-but").click(function(){
+   		$('.infinite-content').infinitescroll('retrieve');
+        	return false;
+	});
+	$(window).load(function(){
+		if ($('.nav-links a').length) {
+			$('.inf-more-but').css('display','inline-block');
+		} else {
+			$('.inf-more-but').css('display','none');
+		}
+	});
+
+$(window).load(function() {
+  // The slider being synced must be initialized first
+  $('.post-gallery-bot').flexslider({
+    animation: "slide",
+    controlNav: false,
+    animationLoop: true,
+    slideshow: false,
+    itemWidth: 80,
+    itemMargin: 10,
+    asNavFor: '.post-gallery-top'
+  });
+
+  $('.post-gallery-top').flexslider({
+    animation: "fade",
+    controlNav: false,
+    animationLoop: true,
+    slideshow: false,
+    	  prevText: "&lt;",
+          nextText: "&gt;",
+    sync: ".post-gallery-bot"
+  });
+});
+
+});
+
+</script>
+
+<script>window._popup_data = {"ajaxurl":"","do":"get_data","ajax_data":{"request_uri":"\/contact\/"}};</script>
+<script type='text/javascript' src='https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-includes/js/jquery/ui/core.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-includes/js/comment-reply.js?ver=4.9.8'></script>
+<script type='text/javascript' src='https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/plugins/appbanners/lib/smartbanner/jquery.smartbanner.min.js?ver=4.9.8'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var appBannersConfig = {"title":"X96","author":"Broadway Media","price":"Free","appStoreLanguage":"US","inAppStore":"On the App Store","inGooglePlay":"In Google Play","inAmazonAppStore":"In the Amazon Appstore","inWindowsStore":"In the Windows Store","GooglePlayParams":null,"icon":"https:\/\/is5-ssl.mzstatic.com\/image\/thumb\/Purple3\/v4\/0a\/2c\/a1\/0a2ca15e-c4af-51a3-f621-b5bbae76e893\/mzl.ohuzqlqy.png\/340x340bb-80.png","iconGloss":"","url":"","button":"Download","scale":"auto","speedIn":"300","speedOut":"400","daysHidden":"0","daysReminder":"0","force":null,"hideOnInstall":"1","layer":"","iOSUniversalApp":"1","appendToSelector":"body","printViewPort":"1","pushSelector":"html"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/plugins/appbanners/js/config.min.js?ver=4.9.8'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wpcf7 = {"apiSettings":{"root":"https:\/\/x96.com\/wp-json\/contact-form-7\/v1","namespace":"contact-form-7\/v1"},"recaptcha":{"messages":{"empty":"Please verify that you are not a robot."}},"cached":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=5.0.2'></script>
+<script type='text/javascript' src='https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/plugins/theia-sticky-sidebar/js/theia-sticky-sidebar.js?ver=1.6.3'></script>
+<script type='text/javascript' src='https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/plugins/theia-sticky-sidebar/js/main.js?ver=1.6.3'></script>
+<script type='text/javascript' src='https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/themes/flex-mag/js/scripts.js?ver=4.9.8'></script>
+<script type='text/javascript' src='https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/themes/flex-mag/js/jquery.infinitescroll.min.js?ver=4.9.8'></script>
+<script type='text/javascript' src='https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/themes/flex-mag/js/retina.js?ver=4.9.8'></script>
+<script type='text/javascript' src='https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/plugins/wpeventplus/assets/js/excanvas.js?ver=1.0.0'></script>
+<script type='text/javascript' src='https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/plugins/wpeventplus/assets/js/jquery.knob.min.js?ver=1.0.0'></script>
+<script type='text/javascript' src='https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/plugins/wpeventplus/assets/js/jquery.ba-throttle-debounce.min.js?ver=1.0.0'></script>
+<script type='text/javascript' src='https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/plugins/wpeventplus/assets/js/jquery.redcountdown.min.js?ver=1.0.0'></script>
+<script type='text/javascript' src='https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/plugins/wpeventplus/assets/front/evrplus_public_script.js?ver=1535365931'></script>
+<script type='text/javascript' src='https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/plugins/wpeventplus/assets/scripts/fancybox/jquery.easing-1.3.pack.js?ver=1.0.0'></script>
+<script type='text/javascript' src='https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/plugins/wpeventplus/assets/scripts/fancybox/jquery.mousewheel-3.0.4.pack.js?ver=1.0.0'></script>
+<script type='text/javascript' src='https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/plugins/bj-lazy-load/js/bj-lazy-load.min.js?ver=2'></script>
+<script type='text/javascript' src='https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/plugins/popover/inc/external/wpmu-lib/js/wpmu-ui.3.min.js?ver=4.9.8'></script>
+<script type='text/javascript' src='https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/plugins/popover/js/public.min.js?ver=4.9.8'></script>
+<script type='text/javascript' src='https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-includes/js/wp-embed.js?ver=4.9.8'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var soWidgetsGoogleMap = {"geocode":{"noResults":"There were no results for the place you entered. Please try another."}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/plugins/so-widgets-bundle/js/sow.google.map.min.js?ver=1.11.8'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wpsite_clickable_data = {"prefix_dash":"wps-bt-","ajaxurl":"https:\/\/x96.com\/wp-admin\/admin-ajax.php","link_left":"http:\/\/www.ticketfly.com\/event\/1733381-x96-toyota-big-ass-show-salt-lake-city\/","link_right":"http:\/\/www.ticketfly.com\/event\/1733381-x96-toyota-big-ass-show-salt-lake-city\/","link_both":"","link_option":"0","link_url_left_target":"_blank","link_url_right_target":"_blank","dom_element":"#wallpaper"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://1w5n8s20evgs15e7ckue11c1-wpengine.netdna-ssl.com/wp-content/plugins/wpsite-background-takeover/js/wpsite_clickable.js?ver=4.9.8'></script>
+<script type="text/javascript">document.body.className = document.body.className.replace("siteorigin-panels-before-js","");</script><script type="text/javascript" class="_tgmp_p">
+function onTuneGenieMediaPlayerLoaded() {
+    window.tgmp=new TuneGenieMediaPlayer('playerbar', {
+        brand: "kxrk",
+    });
+    tgmp.go();
+    window.tgmp_rc = new TuneGenieRC(tgmp);
+    tgmp_rc.recentSongWidget(document.getElementById('tgrecent'),{});
+    tgmp_rc.nowPlayingWidget(document.getElementById('tgnowplaying'),{});
+}
+</script>
+<script type="text/javascript"  class="_tgmp_p" async src="//mpl.tunegenie.com/js/loader2.min.js"></script>
+<!-- Google Code for Remarketing Tag -->
+<!--------------------------------------------------
+Remarketing tags may not be associated with personally identifiable information or placed on pages related to sensitive categories. See more information and instructions on how to setup the tag on: http://google.com/ads/remarketingsetup --------------------------------------------------->
+<script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = 971886214;
+var google_custom_params = window.google_tag_params;
+var google_remarketing_only = true;
+/* ]]> */
+</script>
+<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+</script>
+<noscript>
+<div style="display:inline;">
+<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/971886214/?value=0&amp;guid=ON&amp;script=0"/>
+</div>
+</noscript>
+</body>
+</html>

@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="lt-ie9"  lang="en" dir="ltr"><![endif]-->
+<!--[if (gte IE 9)|(gt IEMobile 7)]><!--><html  lang="en" dir="ltr" prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article# book: http://ogp.me/ns/book# profile: http://ogp.me/ns/profile# video: http://ogp.me/ns/video# product: http://ogp.me/ns/product# content: http://purl.org/rss/1.0/modules/content/ dc: http://purl.org/dc/terms/ foaf: http://xmlns.com/foaf/0.1/ rdfs: http://www.w3.org/2000/01/rdf-schema# sioc: http://rdfs.org/sioc/ns# sioct: http://rdfs.org/sioc/types# skos: http://www.w3.org/2004/02/skos/core# xsd: http://www.w3.org/2001/XMLSchema#"><!--<![endif]-->
+
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <!--[if IE]><![endif]-->
+<!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<![endif]--><meta charset="utf-8" /><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(){}function o(e,t,n){return function(){return i(e,[f.now()].concat(u(arguments)),t?null:this,n),t?void 0:this}}var i=e("handle"),a=e(2),u=e(3),c=e("ee").get("tracer"),f=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,t){s[t]=o(d+t,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),t.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,t){var n={},r=this,o="function"==typeof t;return i(l+"tracer",[f.now(),e,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],n),o)try{return t.apply(this,arguments)}catch(e){throw c.emit("fn-err",[arguments,this,e],n),e}finally{c.emit("fn-end",[f.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){m[t]=o(l+t)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,f.now()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(o<0?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],4:[function(e,t,n){t.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?c(e,u,i):i()}function n(n,r,o,i){if(!d.aborted||i){e&&e(n,r,o);for(var a=t(o),u=m(n),c=u.length,f=0;f<c;f++)u[f].apply(a,r);var p=s[y[n]];return p&&p.push([b,n,r,a]),a}}function l(e,t){v[e]=m(e).concat(t)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(n)}function g(e,t){f(e,function(e,n){t=t||"feature",y[n]=t,t in s||(s[t]=[])})}var v={},y={},b={on:l,emit:n,get:w,listeners:m,context:t,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",c=e("gos"),f=e(2),s={},p={},d=t.exports=o();d.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!x++){var e=h.info=NREUM.info,t=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return s.abort();f(y,function(t,n){e[t]||(e[t]=n)}),c("mark",["onload",a()+h.offset],null,"api");var n=d.createElement("script");n.src="https://"+e.agent,t.parentNode.insertBefore(n,t)}}function o(){"complete"===d.readyState&&i()}function i(){c("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),c=e("handle"),f=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,SI:p.setImmediate,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1071.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=t.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),c("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+<link rel="shortcut icon" href="https://www.bentley.edu/files/bentley-favicon_1.ico" type="image/vnd.microsoft.icon" />
+<script>(function() {
+  var _fbq = window._fbq || (window._fbq = []);
+  if (!_fbq.loaded) {
+    var fbds = document.createElement('script');
+    fbds.async = true;
+    fbds.src = '//connect.facebook.net/en_US/fbds.js';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(fbds, s);
+    _fbq.loaded = true;
+  }
+  _fbq.push(['addPixelId', '766692573417884']);
+})();
+window._fbq = window._fbq || [];
+window._fbq.push(['track', 'PixelInitialized', {}]);
+</script>
+<noscript><img height="1" width="1" alt="" style="display:none" src="https://www.facebook.com/tr?id=766692573417884&amp;ev=PixelInitialized" /></noscript><script src="//platform.twitter.com/oct.js" type="text/javascript"></script>
+<script type="text/javascript">
+twttr.conversion.trackPid('l5bzt');</script>
+<noscript>
+<img height="1" width="1" style="display:none;" alt="" src="https://analytics.twitter.com/i/adsct?txn_id=l5bzt&p_id=Twitter" />
+<img height="1" width="1" style="display:none;" alt="" src="//t.co/i/adsct?txn_id=l5bzt&p_id=Twitter" /></noscript><meta name="description" content="Bentley University in Massachusetts is one of the nation’s leading business schools with undergraduate offerings, MBA programs and seven MS degrees. Among universities in Boston, Bentley is recognized for its accounting programs, IT degrees, college technology and experiential learning opportunities." />
+<meta name="generator" content="Drupal" />
+  <title>WBTY — Bentley University Radio | Bentley University</title>
+
+      <meta name="MobileOptimized" content="width">
+    <meta name="HandheldFriendly" content="true">
+    <meta name="viewport" content="width=device-width">
+    <meta http-equiv="cleartype" content="on">
+
+  <link type="text/css" rel="stylesheet" href="https://www.bentley.edu/files/advagg_css/css__DUw9Ph_eWvEbrLoSuGPowdgpcgZwUan_LGE_bMxAbwk__X8g8KVSZ4s3ZJ-u_4E-l2DJvhVgJFAjf2E8mO_Yp2Dw__D5KNZ7g12aH8r62PkuOjVFfqfS-rSIGU-lRaoT6tebE.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.bentley.edu/files/advagg_css/css__h4WkNMACQN066ogzUk_p1wDnyHS_Ea6sC7hTKzlcEwM__SAlzIuetikmuKuQKt1guT9GxK1fLDYtkHL2R4bhcUsg__D5KNZ7g12aH8r62PkuOjVFfqfS-rSIGU-lRaoT6tebE.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.bentley.edu/files/advagg_css/css__j_UcEsTNC2Caddv_yHIgRmuoeMu5wlNyyS5eX5pgS1c__JihpE9s-_89DP-fdNKlHlTf3h7cCVrtodB_WnqcHbTA__D5KNZ7g12aH8r62PkuOjVFfqfS-rSIGU-lRaoT6tebE.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.bentley.edu/files/advagg_css/css__jec4gPhWb9C81ZyKtR-4Qj0h-mGGhso3S0dsOEgRiao__zAHZQPe_4mWYZrB-4_FFiED_KZ0ewsWjkHjXHoxjij4__D5KNZ7g12aH8r62PkuOjVFfqfS-rSIGU-lRaoT6tebE.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.bentley.edu/files/advagg_css/css__vZQw32du-q8VaMWfzkQSjAymOhs5wJe6bnMD6YGG98o__OjCbO3V_l9X3loYp18tINfZkRSqgedK3DcytKPXiyG0__D5KNZ7g12aH8r62PkuOjVFfqfS-rSIGU-lRaoT6tebE.css" media="all" />
+
+<!--[if lte IE 8]>
+<link type="text/css" rel="stylesheet" href="https://www.bentley.edu/files/advagg_css/css__q9zCJe5GMCUGen9ZRkxC_x1xK2hF5B89_YQBLKTAiQQ__XFaFi2o1jlRPGqTUP-rNlNbZMMj0QcCcmnJSXbAM1Kw__D5KNZ7g12aH8r62PkuOjVFfqfS-rSIGU-lRaoT6tebE.css" media="all" />
+<![endif]-->
+  <script src="https://www.bentley.edu/sites/all/libraries/modernizr/modernizr.min.js?pdvrhq"></script>
+<script>document.cookie='adaptive_image='+Math.max(screen.width,screen.height)+';</script>
+<script src="https://www.bentley.edu/files/advagg_js/js___yODOEkhoMsfrA_xhfn1oLtls-EV8oSyo5XbvrdMdhw__YlYl-Vue8ARZ-73HVlZJRoEjjdFXOEcQWQn3NXp-XSg__D5KNZ7g12aH8r62PkuOjVFfqfS-rSIGU-lRaoT6tebE.js"></script>
+<script>jQuery.extend(Drupal.settings,{basePath:"\/",pathPrefix:"",ajaxPageState:{theme:"bentley_campuslife",theme_token:"fjuSF_ZXySZOylcY-cNJvQr7RasoWjCZKKwkAQqMx_0",css:{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"misc\/ui\/jquery.ui.core.css":1,"misc\/ui\/jquery.ui.theme.css":1,"misc\/ui\/jquery.ui.accordion.css":1,"misc\/ui\/jquery.ui.tabs.css":1,"misc\/ui\/jquery.ui.menu.css":1,"misc\/ui\/jquery.ui.autocomplete.css":1,"sites\/all\/modules\/contrib\/adaptive_image\/css\/adaptive-image.css":1,"sites\/all\/modules\/custom\/bentley_tweaks\/css\/bentley_tweaks.css":1,"sites\/all\/modules\/contrib\/ContentLEAD-ContentLead-Drupal7-Module-b881825\/videojs.css":1,"modules\/comment\/comment.css":1,"sites\/all\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/contrib\/google_cse\/google_cse.css":1,"sites\/all\/modules\/contrib\/mollom\/mollom.css":1,"modules\/node\/node.css":1,"modules\/poll\/poll.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/apachesolr_autocomplete\/apachesolr_autocomplete.css":1,"sites\/all\/modules\/contrib\/apachesolr_autocomplete\/jquery-autocomplete\/jquery.autocomplete.css":1,"sites\/all\/modules\/contrib\/colorbox\/styles\/default\/colorbox_style.css":1,"sites\/all\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/contrib\/panels\/css\/panels.css":1,"sites\/all\/modules\/contrib\/views_slideshow\/views_slideshow.css":1,"sites\/all\/libraries\/fontawesome\/css\/font-awesome.css":1,"sites\/all\/themes\/bentley_campuslife\/css\/countdown.css":1,"sites\/all\/modules\/custom\/bentley_tweaks\/css\/bentley_tweaks_charcounter.css":1,"sites\/all\/libraries\/superfish\/css\/superfish.css":1,"sites\/all\/libraries\/superfish\/css\/superfish-smallscreen.css":1,"sites\/all\/libraries\/superfish\/style\/default.css":1,"sites\/all\/themes\/bentley_core\/system.menus.css":1,"sites\/all\/themes\/bentley_core\/css\/normalize.css":1,"sites\/all\/themes\/bentley_core\/css\/wireframes.css":1,"sites\/all\/themes\/bentley_core\/css\/layouts\/responsive-sidebars.css":1,"sites\/all\/themes\/bentley_core\/css\/page-backgrounds.css":1,"sites\/all\/themes\/bentley_core\/css\/tabs.css":1,"sites\/all\/themes\/bentley_core\/css\/header.css":1,"sites\/all\/themes\/bentley_core\/css\/pages.css":1,"sites\/all\/themes\/bentley_core\/css\/ecosystem.css":1,"sites\/all\/themes\/bentley_core\/css\/blocks.css":1,"sites\/all\/themes\/bentley_core\/css\/navigation.css":1,"sites\/all\/themes\/bentley_core\/css\/views-styles.css":1,"sites\/all\/themes\/bentley_core\/css\/nodes.css":1,"sites\/all\/themes\/bentley_core\/css\/comments.css":1,"sites\/all\/themes\/bentley_core\/css\/forms.css":1,"sites\/all\/themes\/bentley_core\/css\/fields.css":1,"sites\/all\/themes\/bentley_core\/css\/print.css":1,"sites\/all\/themes\/bentley_core\/css\/date.css":1,"sites\/all\/themes\/bentley_campuslife\/css\/campuslife.css":1,"sites\/all\/themes\/bentley_core\/css\/lte-ie8.css":1},js:{"sites\/all\/libraries\/modernizr\/modernizr.min.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery\/1.8\/jquery.min.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/contrib\/equalheights\/jquery.equalheights.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.core.min.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.widget.min.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/external\/jquery.cookie.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.accordion.min.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.tabs.min.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.position.min.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.menu.min.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.autocomplete.min.js":1,"sites\/all\/modules\/contrib\/apachesolr_sort\/apachesolr_sort.js":1,"sites\/all\/modules\/contrib\/ContentLEAD-ContentLead-Drupal7-Module-b881825\/video.js":1,"sites\/all\/modules\/contrib\/apachesolr_autocomplete\/apachesolr_autocomplete.js":1,"sites\/all\/modules\/contrib\/apachesolr_autocomplete\/jquery-autocomplete\/jquery.autocomplete.js":1,"sites\/all\/modules\/contrib\/behavior_weights\/behavior_weights.js":1,"sites\/all\/libraries\/colorbox\/jquery.colorbox-min.js":1,"sites\/all\/modules\/contrib\/colorbox\/js\/colorbox.js":1,"sites\/all\/modules\/contrib\/colorbox\/styles\/default\/colorbox_style.js":1,"sites\/all\/modules\/contrib\/colorbox\/js\/colorbox_load.js":1,"sites\/all\/modules\/contrib\/colorbox\/js\/colorbox_inline.js":1,"sites\/all\/modules\/contrib\/views_slideshow\/js\/views_slideshow.js":1,"sites\/all\/libraries\/scotchPanels\/scotchPanels.min.js":1,"sites\/all\/libraries\/jquery.charactercounter\/jquery.charactercounter.js":1,"sites\/all\/libraries\/imagesloaded\/jquery.imagesloaded.min.js":1,"sites\/all\/themes\/bentley_campuslife\/js\/countdown-alum.js":1,"sites\/all\/themes\/bentley_campuslife\/js\/countdown-alum_plugins.js":1,"sites\/all\/modules\/custom\/bentley_graduate_hobson_form\/js\/script.js":1,"sites\/all\/modules\/custom\/bentley_tweaks\/js\/bentley_tweaks_charcounter.js":1,"sites\/all\/modules\/custom\/bentley_tweaks\/js\/ckeditor_tweaks.js":1,"sites\/all\/modules\/contrib\/equalheights\/equalheights.js":1,"sites\/all\/libraries\/jquery.columnizer\/jquery.columnizer.js":1,"sites\/all\/libraries\/jquery.columnizer\/jquery.columnizer.min.js":1,"sites\/all\/libraries\/superfish\/jquery.hoverIntent.minified.js":1,"sites\/all\/libraries\/superfish\/sfsmallscreen.js":1,"sites\/all\/libraries\/superfish\/superfish.js":1,"sites\/all\/libraries\/superfish\/supersubs.js":1,"sites\/all\/modules\/contrib\/superfish\/superfish.js":1,"sites\/all\/themes\/bentley_core\/js\/script.js":1,"sites\/all\/themes\/bentley_core\/js\/jquery.formalize.min.js":1,"sites\/all\/themes\/bentley_core\/js\/jquery.best-ampersand.min.js":1,"sites\/all\/themes\/bentley_core\/js\/jquery.flexslider-min.js":1,"sites\/all\/themes\/bentley_campuslife\/js\/campuslife.js":1}},apachesolr_autocomplete:{path:"\/apachesolr_autocomplete",forms:{"search-block-form":{id:"search-block-form",path:"\/apachesolr_autocomplete_callback\/apachesolr_search_page%3Acore_search"},"search-block-form--2":{id:"search-block-form--2",path:"\/apachesolr_autocomplete_callback\/apachesolr_search_page%3Acore_search"}}},colorbox:{transition:"elastic",speed:"350",opacity:"0.85",slideshow:false,slideshowAuto:true,slideshowSpeed:"2500",slideshowStart:"start slideshow",slideshowStop:"stop slideshow",current:"{current} of {total}",previous:"\u00ab Prev",next:"Next \u00bb",close:"Close",overlayClose:true,maxWidth:"70%",maxHeight:"70%",initialWidth:"300",initialHeight:"250",fixed:true,scrolling:true,mobiledetect:false,mobiledevicewidth:"480px"},googleCSE:{cx:"001466136811193572445:w6c7u1dlq-8",language:"",resultsWidth:0,domain:"www.google.com"},equalHeightsModule:{classes:[{selector:"#uga-slider .flexslider\u003Eul\u003Eli",mediaquery:"(min-width:39em)",minheight:"",maxheight:"",overflow:"visible"},{selector:"#uga-news .view-content\u003Ediv",mediaquery:"(min-width:39em)",minheight:"",maxheight:"",overflow:"visible"},{selector:"#uga-bloggers .field-name-field-uga-blogger\u003E.field-items\u003E.field-item",mediaquery:"(min-width:39em)",minheight:"",maxheight:"",overflow:"visible"},{selector:"body.node-type-academic-departments-group .academics-home-boxes .panel-pane:first-child + div + div, body.node-type-academic-departments-group .academics-home-boxes .panel-pane:first-child + div + div + div",mediaquery:"(min-width:768px)",minheight:"",maxheight:"",overflow:"hidden"},{selector:"body.node-type-academic-departments-group .academics-home-boxes .panel-pane:first-child, body.node-type-academic-departments-group .academics-home-boxes .panel-pane:first-child + div",mediaquery:"(min-width:768px)",minheight:"",maxheight:"",overflow:"hidden"},{selector:"body.page-alumni-alumni-careers .panel-pane#row-1",mediaquery:"(min-width:768px)",minheight:"",maxheight:"",overflow:"hidden"},{selector:"body.page-alumni-alumni-careers .panel-pane#row-2",mediaquery:"(min-width:768px)",minheight:"",maxheight:"",overflow:"hidden"},{selector:"#hp-sections .hp-section-title",mediaquery:"(min-width:39em)",minheight:"",maxheight:"",overflow:"visible"},{selector:"#hp-sections .item-list",mediaquery:"(min-width:39em)",minheight:"",maxheight:"",overflow:"auto"},{selector:"#flexslider-1 .flex-wrapper",mediaquery:"(max-width:39em)",minheight:"",maxheight:"",overflow:"visible"},{selector:".bentley-adv .field-type-field-collection\u003E.field-items\u003E.field-item",mediaquery:"(min-width:768px)",minheight:"",maxheight:"",overflow:"visible"},{selector:".field-name-field-masterminds-overview, .view-grad-programs-home-news",mediaquery:"(min-width:928px)",minheight:"",maxheight:"",overflow:"auto"},{selector:".page-alumni-parents-and-families .panel-col-first .pane-node:first-child, .page-alumni-parents-and-families .panel-col-last .pane-node:first-child",mediaquery:"(min-width:768px)",minheight:"",maxheight:"",overflow:"visible"}],imagesloaded_ie8:1},urlIsAjaxTrusted:{"\/campus-life\/student-organizations\/wbty-%e2%80%94-bentley-university-radio":true},superfish:{"1":{id:"1",sf:{animation:{opacity:"show"},speed:"fast"},plugins:{smallscreen:{mode:"window_width",breakpointUnit:"px",title:"Campus Life Nav"},supersubs:true}}}});</script>
+    
+</head>
+<body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-171136 node-type-student-organization section-campus-life page-panels no-sub-sidebars" >
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-KH6MTP" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script type="text/javascript">(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0];var j=d.createElement(s);var dl=l!='dataLayer'?'&l='+l:'';j.src='//www.googletagmanager.com/gtm.js?id='+i+dl;j.type='text/javascript';j.async=true;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-KH6MTP');</script>
+<!-- End Google Tag Manager -->
+<!--[if lt IE 9]>
+<p style="color: #fff; background-color: #000; font-size: 1.5em;margin:0;padding:1em;line-height:2em;">
+  Your browser (Internet Explorer 8) is out of date.
+  For an optimized experience, please use an updated browser such as Chrome or Firefox.
+  If you are an internal user, please contact the Bentley Help Desk at ext. 2854
+  for questions or assistance.
+</p>
+<![endif]-->
+      <p id="skip-link">
+      <a href="#main-menu" class="element-invisible element-focusable">Jump to navigation</a>
+    </p>
+      <div class="region region-page-top">
+    <script charset="utf-8" src="//js.hsforms.net/forms/current.js"></script>
+<script type="text/javascript">
+  hbspt.forms.create({
+    portalId: '444541',
+    formId: '9de4762a-7b82-44b9-959a-1f9a10df0e2e',
+target: '#hubspot-newcontainer'
+  });
+</script>  </div><!-- /.region -->
+  
+<div id="page">
+  
+
+  <div class="header wrapper">
+
+    <header id="header" role="banner">
+
+      <div id="tab">
+
+                  <div class="lockup-container">
+              <div class="region region-logo">
+    <div id="block-block-66" class="block block-block first last odd">
+
+      
+  <p class="logo"><a href="/"><img src="/sites/all/themes/bentley_core/images/logo/bentley_main_logo_stacked.svg"></a></p>
+</div><!-- /.block -->
+  </div><!-- /.region -->
+          </div>
+        
+                  <div class="links-container">
+              <div class="region region-links">
+    <div id="block-block-2946" class="block block-block first last odd">
+
+      
+  <h1 class="subhead"><a href="/campus-life">Campus Life</a></h1>
+</div><!-- /.block -->
+  </div><!-- /.region -->
+          </div>
+        
+                  <div class="search-container">
+              <div class="region region-search">
+    <div id="block-search-form" class="block block-search first last odd" role="search">
+
+      
+  <form action="/campus-life/student-organizations/wbty-%e2%80%94-bentley-university-radio" method="post" id="search-block-form" accept-charset="UTF-8"><div>
+<div>
+      <h2 class="element-invisible">Search form</h2>
+  <div id="above-search"> <a href="/directory-az">Directory A-Z</a>  </div>
+  <div id="quicklinks-toggle">Quick Links ☰</div>
+
+  <div id="search-form">
+    <div class="form-item form-type-textfield form-item-search-block-form">
+  <input title="Enter the terms you wish to search for." class="apachesolr-autocomplete form-text" data-apachesolr-autocomplete-id="search-block-form" placeholder="Search Bentley" type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="25" maxlength="128" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Search" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-__vodJx6OibBqE001BMrITe9UUKcRIs9dbRm2YyFPK0" />
+<input type="hidden" name="form_id" value="search_block_form" />
+  </div>
+
+<!--<div class="header-search-form-context-links">
+      <ul class="header-search-form-context-links-list">
+          <li id="search-title-blue"> TOP SEARCHES:</li>
+          <li><a href="https://blackboard.bentley.edu">Blackboard</a></li>
+          <li><a href="http://bentley.bncollege.com">Bookstore</a></li>
+          <li><a href="http://www.bentley.edu/about/map">Campus Map</a></li>
+          <li><a href="http://career-services.bentley.edu">Career Services</a></li>
+          <li><a href="http://www.bentley.edu/offices/financial-assistance">Financial Aid</a></li>
+          <li><a href="/campus-life/residential-center-dining">Housing</a></li>
+          <li><a href="http://www.bentley.edu/offices/human-resources">Human Resources</a></li>
+          <li><a href="http://library.bentley.edu">Library</a></li>
+          <li><a href="http://www.bentley.edu/offices/registrar">Registrar</a></li>
+          <li><a href="/campus-life/safety-transit/shuttle-schedule">Shuttle</a></li>
+          <li><a href="http://www.bentley.edu/offices/student-employment">Student Employment</a></li>
+          <li><a href="http://www.bentley.edu/offices/international-education">Study Abroad</a></li>
+          <li><a href="/undergraduate/tuition-financial-aid">Tuition</a></li>
+          <li><a href="http://www.bentley.edu/offices/facilities-management/work-order-request">Work Order</a></li>
+      </ul>
+  </div>-->
+</div></div></form>
+</div><!-- /.block -->
+  </div><!-- /.region -->
+          </div>
+        
+        <div class="mobile-menu">
+          <a href="#" class="mobile-menu-toggle"></a>
+        </div>
+
+      </div><!-- /.tab -->
+
+      <div id="subheader">
+
+        
+        
+        </div><!-- /#subheader -->
+
+    </header>
+
+  </div><!-- /.wrapper .header-->
+
+  <div class="wrapper navigation clearfix">
+    <div id="navigation">
+
+        <div class="region region-navigation">
+    <form action="/campus-life/student-organizations/wbty-%e2%80%94-bentley-university-radio" method="post" id="search-block-form--2" accept-charset="UTF-8"><div>
+<div>
+      <h2 class="element-invisible">Search form</h2>
+  <div id="above-search"> <a href="/directory-az">Directory A-Z</a>  </div>
+  <div id="quicklinks-toggle">Quick Links ☰</div>
+
+  <div id="search-form">
+    <div class="form-item form-type-textfield form-item-search-block-form">
+  <input title="Enter the terms you wish to search for." class="apachesolr-autocomplete form-text" data-apachesolr-autocomplete-id="search-block-form--2" placeholder="Search Bentley" type="text" id="edit-search-block-form--4" name="search_block_form" value="" size="25" maxlength="128" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions--2"><input type="submit" id="edit-submit--2" name="op" value="Search" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-APegvlGTVYxut12BJVCRym2BCspbRrhLv6YxtntLLZQ" />
+<input type="hidden" name="form_id" value="search_block_form" />
+  </div>
+
+<!--<div class="header-search-form-context-links">
+      <ul class="header-search-form-context-links-list">
+          <li id="search-title-blue"> TOP SEARCHES:</li>
+          <li><a href="https://blackboard.bentley.edu">Blackboard</a></li>
+          <li><a href="http://bentley.bncollege.com">Bookstore</a></li>
+          <li><a href="http://www.bentley.edu/about/map">Campus Map</a></li>
+          <li><a href="http://career-services.bentley.edu">Career Services</a></li>
+          <li><a href="http://www.bentley.edu/offices/financial-assistance">Financial Aid</a></li>
+          <li><a href="/campus-life/residential-center-dining">Housing</a></li>
+          <li><a href="http://www.bentley.edu/offices/human-resources">Human Resources</a></li>
+          <li><a href="http://library.bentley.edu">Library</a></li>
+          <li><a href="http://www.bentley.edu/offices/registrar">Registrar</a></li>
+          <li><a href="/campus-life/safety-transit/shuttle-schedule">Shuttle</a></li>
+          <li><a href="http://www.bentley.edu/offices/student-employment">Student Employment</a></li>
+          <li><a href="http://www.bentley.edu/offices/international-education">Study Abroad</a></li>
+          <li><a href="/undergraduate/tuition-financial-aid">Tuition</a></li>
+          <li><a href="http://www.bentley.edu/offices/facilities-management/work-order-request">Work Order</a></li>
+      </ul>
+  </div>-->
+</div></div></form><div id="block-superfish-1" class="block block-superfish even">
+
+        <h2 class="block__title block-title">Main Menu</h2>
+    
+  <ul  id="superfish-1" class="menu sf-menu sf-menu-campus-life-menu sf-horizontal sf-style-default sf-total-items-6 sf-parent-items-6 sf-single-items-0"><li id="menu-11566-1" class="first odd sf-item-1 sf-depth-1 sf-total-children-6 sf-parent-children-4 sf-single-children-2 menuparent"><a href="/campus-life/student-life" class="sf-depth-1 menuparent">Student Life</a><ul><li id="menu-11601-1" class="first odd sf-item-1 sf-depth-2 sf-total-children-4 sf-parent-children-0 sf-single-children-4 menuparent"><a href="/campus-life/student-life/campus-involvement-and-leadership" class="sf-depth-2 menuparent">Campus Involvement &amp; Leadership</a><ul><li id="menu-12186-1" class="first odd sf-item-1 sf-depth-3 sf-no-children"><a href="/campus-life/student-life/campus-involvement-and-leadership/student-organizations" class="sf-depth-3">Student Organizations</a></li><li id="menu-12191-1" class="middle even sf-item-2 sf-depth-3 sf-no-children"><a href="/campus-life/student-life/campus-involvement-and-leadership/campus-events-and-traditions" class="sf-depth-3">Campus Events and Traditions</a></li><li id="menu-12196-1" class="middle odd sf-item-3 sf-depth-3 sf-no-children"><a href="/campus-life/student-life/campus-involvement-and-leadership/falcon-society" class="sf-depth-3">Falcon Society</a></li><li id="menu-12201-1" class="last even sf-item-4 sf-depth-3 sf-no-children"><a href="/campus-life/student-life/campus-involvement-and-leadership/fraternity-sorority-life" class="sf-depth-3">Fraternity &amp; Sorority Life</a></li></ul></li><li id="menu-11606-1" class="middle even sf-item-2 sf-depth-2 sf-no-children"><a href="/campus-life/student-life/arts" class="sf-depth-2">The Arts</a></li><li id="menu-11611-1" class="middle odd sf-item-3 sf-depth-2 sf-no-children"><a href="/campus-life/student-life/student-center" class="sf-depth-2">Student Center</a></li><li id="menu-12096-1" class="middle even sf-item-4 sf-depth-2 sf-total-children-7 sf-parent-children-1 sf-single-children-6 menuparent"><a href="/campus-life/student-life/division-student-affairs" class="sf-depth-2 menuparent">Division of Student Affairs</a><ul><li id="menu-44526-1" class="first odd sf-item-1 sf-depth-3 sf-no-children"><a href="/campus-life/student-life/division-student-affairs/office-dean-student-affairs" class="sf-depth-3">Office of the Dean of Student Affairs</a></li><li id="menu-23666-1" class="middle even sf-item-2 sf-depth-3 sf-total-children-6 sf-parent-children-0 sf-single-children-6 menuparent"><a href="/campus-life/student-life/division-student-affairs/bentley-cares" class="sf-depth-3 menuparent">Bentley CARES</a><ul><li id="menu-72006-1" class="first odd sf-item-1 sf-depth-4 sf-no-children"><a href="/campus-life/student-life/division-student-affairs/meet-our-care-team" class="sf-depth-4">CARE Team</a></li><li id="menu-72011-1" class="middle even sf-item-2 sf-depth-4 sf-no-children"><a href="/campus-life/student-life/division-student-affairs/submit-care-report" class="sf-depth-4">CARE Report</a></li><li id="menu-72016-1" class="middle odd sf-item-3 sf-depth-4 sf-no-children"><a href="/campus-life/student-life/division-student-affairs/forms/request-care-training" class="sf-depth-4">Request Training</a></li><li id="menu-72021-1" class="middle even sf-item-4 sf-depth-4 sf-no-children"><a href="/campus-life/student-life/division-student-affairs/resources" class="sf-depth-4">Resources</a></li><li id="menu-72026-1" class="middle odd sf-item-5 sf-depth-4 sf-no-children"><a href="/campus-life/student-life/division-student-affairs/care-faqs" class="sf-depth-4">FAQs</a></li><li id="menu-72071-1" class="last even sf-item-6 sf-depth-4 sf-no-children"><a href="/campus-life/student-life/division-student-affairs/types-behavior-report" class="sf-depth-4">Types of Behavior to Report</a></li></ul></li><li id="menu-71476-1" class="middle odd sf-item-3 sf-depth-3 sf-no-children"><a href="/campus-life/bias-incident-response-team" class="sf-depth-3">Bias Incident Response Team</a></li><li id="menu-35986-1" class="middle even sf-item-4 sf-depth-3 sf-no-children"><a href="/campus-life/student-life/division-student-affairs/the-student-handbook" class="sf-depth-3">Student Handbook</a></li><li id="menu-40871-1" class="middle odd sf-item-5 sf-depth-3 sf-no-children"><a href="/campus-life/student-life/division-student-affairs/ferpa-information" class="sf-depth-3">FERPA Information</a></li><li id="menu-71521-1" class="middle even sf-item-6 sf-depth-3 sf-no-children"><a href="/campus-life/student-life/division-student-affairs/strengths-bentley" class="sf-depth-3">Strengths at Bentley</a></li><li id="menu-44531-1" class="last odd sf-item-7 sf-depth-3 sf-no-children"><a href="/campus-life/student-life/division-student-affairs/staff" class="sf-depth-3">Staff</a></li></ul></li><li id="menu-63791-1" class="middle odd sf-item-5 sf-depth-2 sf-total-children-2 sf-parent-children-0 sf-single-children-2 menuparent"><a href="/campus-life/student-life/policy" class="sf-depth-2 menuparent">Policy</a><ul><li id="menu-37836-1" class="first odd sf-item-1 sf-depth-3 sf-no-children"><a href="/campus-life/student-life/policy/title-ix-and-gender-based-discrimination-policy" class="sf-depth-3">Title IX and Gender-Based Discrimination Policy</a></li><li id="menu-11626-1" class="last even sf-item-2 sf-depth-3 sf-no-children"><a href="/campus-life/student-life/policy/leave-absence-or-withdrawal" class="sf-depth-3">Leave of Absence / Withdrawal</a></li></ul></li><li id="menu-11621-1" class="last even sf-item-6 sf-depth-2 sf-total-children-2 sf-parent-children-1 sf-single-children-1 menuparent"><a href="/campus-life/student-life/code-conduct" class="sf-depth-2 menuparent">Code of Conduct</a><ul><li id="menu-71486-1" class="first odd sf-item-1 sf-depth-3 sf-no-children"><a href="/campus-life/policies-and-sanctions" class="sf-depth-3">Policies and Sanctions</a></li><li id="menu-71491-1" class="last even sf-item-2 sf-depth-3 sf-total-children-4 sf-parent-children-0 sf-single-children-4 menuparent"><a href="/campus-life/student-life/policy/conduct-system" class="sf-depth-3 menuparent">Conduct System</a><ul><li id="menu-71496-1" class="first odd sf-item-1 sf-depth-4 sf-no-children"><a href="/campus-life/student-life/conduct-process" class="sf-depth-4">Process</a></li><li id="menu-71501-1" class="middle even sf-item-2 sf-depth-4 sf-no-children"><a href="/campus-life/conduct-system/appeals-process" class="sf-depth-4">Appeals</a></li><li id="menu-71506-1" class="middle odd sf-item-3 sf-depth-4 sf-no-children"><a href="/campus-life/student-conduct-boards" class="sf-depth-4">Boards</a></li><li id="menu-72001-1" class="last even sf-item-4 sf-depth-4 sf-no-children"><a href="/campus-life/student-life/resources" class="sf-depth-4">Resources</a></li></ul></li></ul></li></ul></li><li id="menu-63771-1" class="middle even sf-item-2 sf-depth-1 sf-total-children-5 sf-parent-children-5 sf-single-children-0 menuparent"><a href="/campus-life/culture-diversity" class="sf-depth-1 menuparent">Culture &amp; Diversity</a><ul><li id="menu-11596-1" class="first odd sf-item-1 sf-depth-2 sf-total-children-5 sf-parent-children-0 sf-single-children-5 menuparent"><a href="/campus-life/culture-diversity/spiritual-life" class="sf-depth-2 menuparent">Spiritual Life</a><ul><li id="menu-12166-1" class="first odd sf-item-1 sf-depth-3 sf-no-children"><a href="/campus-life/culture-diversity/spiritual-life/sacred-space" class="sf-depth-3">The Sacred Space</a></li><li id="menu-12181-1" class="middle even sf-item-2 sf-depth-3 sf-no-children"><a href="/campus-life/culture-diversity/spiritual-life/spiritual-life-programs" class="sf-depth-3">Spiritual Life Programs</a></li><li id="menu-14126-1" class="middle odd sf-item-3 sf-depth-3 sf-no-children"><a href="/campus-life/culture-diversity/spiritual-life/religious-observances-calendar" class="sf-depth-3">Religious Observances Calendar</a></li><li id="menu-12171-1" class="middle even sf-item-4 sf-depth-3 sf-no-children"><a href="/campus-life/culture-diversity/spiritual-life/local-congregations" class="sf-depth-3">Local Congregations</a></li><li id="menu-12176-1" class="last odd sf-item-5 sf-depth-3 sf-no-children"><a href="/campus-life/culture-diversity/spiritual-life/staff" class="sf-depth-3">Staff</a></li></ul></li><li id="menu-47361-1" class="middle even sf-item-2 sf-depth-2 sf-total-children-4 sf-parent-children-0 sf-single-children-4 menuparent"><a href="/campus-life/culture-diversity/multicultural-center" class="sf-depth-2 menuparent">Multicultural Center</a><ul><li id="menu-12216-1" class="first odd sf-item-1 sf-depth-3 sf-no-children"><a href="/campus-life/culture-diversity/multicultural-center/programs" class="sf-depth-3">Programs</a></li><li id="menu-12221-1" class="middle even sf-item-2 sf-depth-3 sf-no-children"><a href="/campus-life/culture-diversity/multicultural-center/scholarships" class="sf-depth-3">Scholarships</a></li><li id="menu-27876-1" class="middle odd sf-item-3 sf-depth-3 sf-no-children"><a href="/campus-life/culture-diversity/multicultural-center/multicultural-center-s-students" class="sf-depth-3">Student Spotlight</a></li><li id="menu-58716-1" class="last even sf-item-4 sf-depth-3 sf-no-children"><a href="/campus-life/culture-diversity/multicultural-center/staff" class="sf-depth-3">Staff</a></li></ul></li><li id="menu-11631-1" class="middle odd sf-item-3 sf-depth-2 sf-total-children-6 sf-parent-children-1 sf-single-children-5 menuparent"><a href="/campus-life/culture-diversity/international-students-and-scholars" class="sf-depth-2 menuparent">International Students &amp; Scholars</a><ul><li id="menu-12076-1" class="first odd sf-item-1 sf-depth-3 sf-no-children"><a href="/campus-life/culture-diversity/international-students-and-scholars/new-students" class="sf-depth-3">New Students</a></li><li id="menu-12071-1" class="middle even sf-item-2 sf-depth-3 sf-no-children"><a href="/campus-life/culture-diversity/international-students-and-scholars/current-students" class="sf-depth-3">Current Students &amp; Scholars</a></li><li id="menu-12086-1" class="middle odd sf-item-3 sf-depth-3 sf-no-children"><a href="/campus-life/culture-diversity/international-students-and-scholars/get-connected" class="sf-depth-3">Get Connected</a></li><li id="menu-12081-1" class="middle even sf-item-4 sf-depth-3 sf-total-children-3 sf-parent-children-0 sf-single-children-3 menuparent"><a href="/campus-life/culture-diversity/international-students-and-scholars/employment" class="sf-depth-3 menuparent">Employment</a><ul><li id="menu-63916-1" class="first odd sf-item-1 sf-depth-4 sf-no-children"><a href="/campus-life/culture-diversity/international-students-and-scholars/curricular-practical-training-cpt" class="sf-depth-4">Curricular Practical Training</a></li><li id="menu-63911-1" class="middle even sf-item-2 sf-depth-4 sf-no-children"><a href="/campus-life/culture-diversity/international-students-and-scholars/optional-practical-training-opt" class="sf-depth-4">Optional Practical Training</a></li><li id="menu-70801-1" class="last odd sf-item-3 sf-depth-4 sf-no-children"><a href="/campus-life/culture-diversity/international-students-and-scholars/how-apply-on-campus-job" class="sf-depth-4">On Campus Employment</a></li></ul></li><li id="menu-12091-1" class="middle odd sf-item-5 sf-depth-3 sf-no-children"><a href="/campus-life/culture-diversity/international-students-and-scholars/forms" class="sf-depth-3">Forms</a></li><li id="menu-35756-1" class="last even sf-item-6 sf-depth-3 sf-no-children"><a href="/campus-life/culture-diversity/international-students-and-scholars/staff" class="sf-depth-3">About Us</a></li></ul></li><li id="menu-12226-1" class="middle even sf-item-4 sf-depth-2 sf-total-children-2 sf-parent-children-0 sf-single-children-2 menuparent"><a href="/campus-life/culture-diversity/lgbtq" class="sf-depth-2 menuparent">LGBTQ</a><ul><li id="menu-12231-1" class="first odd sf-item-1 sf-depth-3 sf-no-children"><a href="/campus-life/culture-diversity/lgbtq/allies" class="sf-depth-3">Allies</a></li><li id="menu-12236-1" class="last even sf-item-2 sf-depth-3 sf-no-children"><a href="/campus-life/culture-diversity/lgbtq/lgbtq-resources" class="sf-depth-3">Resources</a></li></ul></li><li id="menu-64156-1" class="last odd sf-item-5 sf-depth-2 sf-total-children-3 sf-parent-children-0 sf-single-children-3 menuparent"><a href="/campus-life/culture-diversity/equity-center" class="sf-depth-2 menuparent">Equity Center</a><ul><li id="menu-64266-1" class="first odd sf-item-1 sf-depth-3 sf-no-children"><a href="/campus-life/culture-diversity/equity-center/leadership-opportunities" class="sf-depth-3">Leadership Opportunities</a></li><li id="menu-64271-1" class="middle even sf-item-2 sf-depth-3 sf-no-children"><a href="/campus-life/culture-diversity/equity-center/trainings-and-workshops" class="sf-depth-3">Trainings, Workshops, and Bulletin Boards</a></li><li id="menu-64276-1" class="last odd sf-item-3 sf-depth-3 sf-no-children"><a href="/campus-life/culture-diversity/equity-center/programs-and-initiatives" class="sf-depth-3">Programs and Initiatives</a></li></ul></li></ul></li><li id="menu-11576-1" class="middle odd sf-item-3 sf-depth-1 sf-total-children-5 sf-parent-children-3 sf-single-children-2 menuparent"><a href="/campus-life/safety-transit" class="sf-depth-1 menuparent">Safety &amp; Transit</a><ul><li id="menu-11636-1" class="first odd sf-item-1 sf-depth-2 sf-total-children-7 sf-parent-children-1 sf-single-children-6 menuparent"><a href="/campus-life/safety-transit/university-police" class="sf-depth-2 menuparent">University Police</a><ul><li id="menu-59921-1" class="first odd sf-item-1 sf-depth-3 sf-no-children"><a href="/campus-life/professional-standards-complaints-compliments" class="sf-depth-3">Professional Standards</a></li><li id="menu-59916-1" class="middle even sf-item-2 sf-depth-3 sf-no-children"><a href="/forms/bentley-university-police-department-civilian-complaint-report" class="sf-depth-3">Civilian Complaint Form</a></li><li id="menu-59911-1" class="middle odd sf-item-3 sf-depth-3 sf-no-children"><a href="/forms/bentley-university-police-department-civilian-compliment-report" class="sf-depth-3">Civilian Compliment Form</a></li><li id="menu-12026-1" class="middle even sf-item-4 sf-depth-3 sf-no-children"><a href="/campus-life/safety-transit/university-police/crime-reporting-prevention" class="sf-depth-3">Crime Reporting &amp; Prevention</a></li><li id="menu-12031-1" class="middle odd sf-item-5 sf-depth-3 sf-total-children-5 sf-parent-children-0 sf-single-children-5 menuparent"><a href="/campus-life/safety-transit/university-police/emergency-alerts" class="sf-depth-3 menuparent">Emergency Alerts</a><ul><li id="menu-66936-1" class="first odd sf-item-1 sf-depth-4 sf-no-children"><a href="/campus-life/safety-transit/what-do-emergency" class="sf-depth-4">What to do in an Emergency</a></li><li id="menu-35996-1" class="middle even sf-item-2 sf-depth-4 sf-no-children"><a href="/campus-life/safety-transit/university-police/resources" class="sf-depth-4">Resources</a></li><li id="menu-36001-1" class="middle odd sf-item-3 sf-depth-4 sf-no-children"><a href="/campus-life/safety-transit/university-police/inclement-weather-information" class="sf-depth-4">Inclement Weather</a></li><li id="menu-35991-1" class="middle even sf-item-4 sf-depth-4 sf-no-children"><a href="/campus-life/safety-transit/university-police/emergency-information-0" class="sf-depth-4">Emergency Info</a></li><li id="menu-36006-1" class="last odd sf-item-5 sf-depth-4 sf-no-children"><a href="/campus-life/safety-transit/university-police/emergency-preparedness-plan" class="sf-depth-4">Emergency Preparedness Plan</a></li></ul></li><li id="menu-12036-1" class="middle even sf-item-6 sf-depth-3 sf-no-children"><a href="/campus-life/safety-transit/university-police/security-and-fire-safety-report" class="sf-depth-3">Annual Campus Security &amp; Fire Safety Report</a></li><li id="menu-52051-1" class="last odd sf-item-7 sf-depth-3 sf-no-children"><a href="/campus-life/safety-transit/policy-on-use-drones-and-uavs-on-campus" class="sf-depth-3">Drone Policy</a></li></ul></li><li id="menu-11641-1" class="middle even sf-item-2 sf-depth-2 sf-total-children-4 sf-parent-children-0 sf-single-children-4 menuparent"><a href="/campus-life/safety-transit/parking-driving" class="sf-depth-2 menuparent">Parking and Driving</a><ul><li id="menu-12041-1" class="first odd sf-item-1 sf-depth-3 sf-no-children"><a href="/campus-life/safety-transit/parking-driving/rules-and-regulations" class="sf-depth-3">Rules and Regulations</a></li><li id="menu-12046-1" class="middle even sf-item-2 sf-depth-3 sf-no-children"><a href="/campus-life/safety-transit/parking-driving/international-students" class="sf-depth-3">International Students</a></li><li id="menu-12051-1" class="middle odd sf-item-3 sf-depth-3 sf-no-children"><a href="/campus-life/safety-transit/parking-driving/tickets-citations" class="sf-depth-3">Tickets and Citations</a></li><li id="menu-12061-1" class="last even sf-item-4 sf-depth-3 sf-no-children"><a href="/campus-life/safety-transit/parking-driving/zipcar" class="sf-depth-3">Zipcar</a></li></ul></li><li id="menu-11646-1" class="middle odd sf-item-3 sf-depth-2 sf-total-children-1 sf-parent-children-0 sf-single-children-1 menuparent"><a href="/campus-life/safety-transit/card-office" class="sf-depth-2 menuparent">Card Office</a><ul><li id="menu-64296-1" class="firstandlast odd sf-item-1 sf-depth-3 sf-no-children"><a href="/campus-life/safety-transit/card-office/staff-and-faculty-key-policy" class="sf-depth-3">Staff &amp; Faculty Key Policy</a></li></ul></li><li id="menu-11651-1" class="middle even sf-item-4 sf-depth-2 sf-no-children"><a href="/campus-life/safety-transit/safety-programs-services" class="sf-depth-2">Safety Programs &amp; Services</a></li><li id="menu-12066-1" class="last odd sf-item-5 sf-depth-2 sf-no-children"><a href="/campus-life/safety-transit/shuttle-schedule" class="sf-depth-2">Shuttle Schedule</a></li></ul></li><li id="menu-11581-1" class="middle even sf-item-4 sf-depth-1 sf-total-children-7 sf-parent-children-6 sf-single-children-1 menuparent"><a href="/campus-life/health-and-wellness" class="sf-depth-1 menuparent">Health &amp; Wellness</a><ul><li id="menu-11656-1" class="first odd sf-item-1 sf-depth-2 sf-total-children-9 sf-parent-children-0 sf-single-children-9 menuparent"><a href="/campus-life/health-and-wellness/center-health-and-wellness" class="sf-depth-2 menuparent">Health Center</a><ul><li id="menu-11681-1" class="first odd sf-item-1 sf-depth-3 sf-no-children"><a href="/campus-life/health-and-wellness/center-health-and-wellness/services" class="sf-depth-3">Services</a></li><li id="menu-11676-1" class="middle even sf-item-2 sf-depth-3 sf-no-children"><a href="/campus-life/health-and-wellness/center-health-and-wellness/appointments" class="sf-depth-3">Appointments</a></li><li id="menu-12101-1" class="middle odd sf-item-3 sf-depth-3 sf-no-children"><a href="/campus-life/health-and-wellness/center-health-and-wellness/new-students" class="sf-depth-3">New Students</a></li><li id="menu-15881-1" class="middle even sf-item-4 sf-depth-3 sf-no-children"><a href="/campus-life/health-wellness/center-health-and-wellness/health-and-dental-insurance" class="sf-depth-3">Student Insurance</a></li><li id="menu-12106-1" class="middle odd sf-item-5 sf-depth-3 sf-no-children"><a href="/campus-life/health-and-wellness/center-health-and-wellness/emergencies-and-campus-care" class="sf-depth-3">Emergencies &amp; Off Campus Care</a></li><li id="menu-12111-1" class="middle even sf-item-6 sf-depth-3 sf-no-children"><a href="/campus-life/health-and-wellness/center-health-and-wellness/confidentiality-and-patient-rights" class="sf-depth-3">Confidentiality &amp; Patient Rights</a></li><li id="menu-36016-1" class="middle odd sf-item-7 sf-depth-3 sf-no-children"><a href="/campus-life/health-and-wellness/center-health-and-wellness/center-health-and-wellness-staff" class="sf-depth-3">Staff</a></li><li id="menu-36021-1" class="middle even sf-item-8 sf-depth-3 sf-no-children"><a href="/campus-life/health-and-wellness/center-health-and-wellness/faqs" class="sf-depth-3">FAQs</a></li><li id="menu-35816-1" class="last odd sf-item-9 sf-depth-3 sf-no-children"><a href="/campus-life/health-and-wellness/center-health-and-wellness/contact-us" class="sf-depth-3">Contact Us</a></li></ul></li><li id="menu-11661-1" class="middle even sf-item-2 sf-depth-2 sf-total-children-9 sf-parent-children-0 sf-single-children-9 menuparent"><a href="/campus-life/health-and-wellness/counseling" class="sf-depth-2 menuparent">Counseling Center</a><ul><li id="menu-13406-1" class="first odd sf-item-1 sf-depth-3 sf-no-children"><a href="/campus-life/health-and-wellness/counseling/staff" class="sf-depth-3">About Us</a></li><li id="menu-12121-1" class="middle even sf-item-2 sf-depth-3 sf-no-children"><a href="/campus-life/health-and-wellness/counseling/services" class="sf-depth-3">Services</a></li><li id="menu-11686-1" class="middle odd sf-item-3 sf-depth-3 sf-no-children"><a href="/campus-life/health-and-wellness/counseling/emergencies" class="sf-depth-3">Emergencies</a></li><li id="menu-11691-1" class="middle even sf-item-4 sf-depth-3 sf-no-children"><a href="/campus-life/health-and-wellness/counseling/confidentiality" class="sf-depth-3">Confidentiality</a></li><li id="menu-12126-1" class="middle odd sf-item-5 sf-depth-3 sf-no-children"><a href="/campus-life/health-and-wellness/counseling/resources" class="sf-depth-3">Resources</a></li><li id="menu-12136-1" class="middle even sf-item-6 sf-depth-3 sf-no-children"><a href="/campus-life/health-and-wellness/counseling/faculty-and-staff" class="sf-depth-3">For Faculty &amp; Staff</a></li><li id="menu-64696-1" class="middle odd sf-item-7 sf-depth-3 sf-no-children"><a href="/campus-life/health-and-wellness/counseling/parents-and-families" class="sf-depth-3">For Parents &amp; Families</a></li><li id="menu-64701-1" class="middle even sf-item-8 sf-depth-3 sf-no-children"><a href="/campus-life/health-and-wellness/counseling/faqs" class="sf-depth-3">FAQs</a></li><li id="menu-12141-1" class="last odd sf-item-9 sf-depth-3 sf-no-children"><a href="/campus-life/health-and-wellness/counseling/clinical-training-program" class="sf-depth-3">Clinical Training Program</a></li></ul></li><li id="menu-11666-1" class="middle odd sf-item-3 sf-depth-2 sf-total-children-6 sf-parent-children-0 sf-single-children-6 menuparent"><a href="/campus-life/health-and-wellness/wellness" class="sf-depth-2 menuparent">Wellness &amp; Health Promotion</a><ul><li id="menu-12146-1" class="first odd sf-item-1 sf-depth-3 sf-no-children"><a href="/campus-life/health-and-wellness/wellness-and-education/student-wellness-programs" class="sf-depth-3">Peer Education</a></li><li id="menu-11671-1" class="middle even sf-item-2 sf-depth-3 sf-no-children"><a href="/campus-life/health-and-wellness/wellness-and-education/fitness" class="sf-depth-3">Fitness</a></li><li id="menu-11701-1" class="middle odd sf-item-3 sf-depth-3 sf-no-children"><a href="/campus-life/health-and-wellness/wellness-and-education/bystander-and-awareness-campaigns" class="sf-depth-3">Social Spotting</a></li><li id="menu-12151-1" class="middle even sf-item-4 sf-depth-3 sf-no-children"><a href="/campus-life/health-and-wellness/wellness-and-education/alcohol-and-drugs-education" class="sf-depth-3">Alcohol &amp; Drugs Education</a></li><li id="menu-11696-1" class="middle odd sf-item-5 sf-depth-3 sf-no-children"><a href="/alcoholedu/haven" class="sf-depth-3">New Student Requirements</a></li><li id="menu-12156-1" class="last even sf-item-6 sf-depth-3 sf-no-children"><a href="/campus-life/health-and-wellness/wellness-and-education/wellness-resources" class="sf-depth-3">Wellness Resources</a></li></ul></li><li id="menu-11616-1" class="middle even sf-item-4 sf-depth-2 sf-total-children-7 sf-parent-children-0 sf-single-children-7 menuparent"><a href="/campus-life/health-and-wellness/disability-services" class="sf-depth-2 menuparent">Disability Services</a><ul><li id="menu-12646-1" class="first odd sf-item-1 sf-depth-3 sf-no-children"><a href="/campus-life/health-and-wellness/disability-services/documentation" class="sf-depth-3">Documentation</a></li><li id="menu-12651-1" class="middle even sf-item-2 sf-depth-3 sf-no-children"><a href="/campus-life/health-and-wellness/disability-services/academic-accommodations" class="sf-depth-3">Academic Accommodations</a></li><li id="menu-13281-1" class="middle odd sf-item-3 sf-depth-3 sf-no-children"><a href="/campus-life/health-and-wellness/disability-services/campus-accessibility" class="sf-depth-3">Campus Accessibility</a></li><li id="menu-12671-1" class="middle even sf-item-4 sf-depth-3 sf-no-children"><a href="/campus-life/health-and-wellness/disability-services/legal-compliance" class="sf-depth-3">Legal Compliance</a></li><li id="menu-12676-1" class="middle odd sf-item-5 sf-depth-3 sf-no-children"><a href="/campus-life/health-and-wellness/disability-services/grievance-procedure" class="sf-depth-3">Grievance Procedure</a></li><li id="menu-12681-1" class="middle even sf-item-6 sf-depth-3 sf-no-children"><a href="/campus-life/health-and-wellness/disability-services/new-student-admission" class="sf-depth-3">New Student Admission</a></li><li id="menu-12686-1" class="last odd sf-item-7 sf-depth-3 sf-no-children"><a href="/campus-life/health-and-wellness/disability-services/faculty-resources" class="sf-depth-3">Faculty Resources</a></li></ul></li><li id="menu-59816-1" class="middle odd sf-item-5 sf-depth-2 sf-total-children-4 sf-parent-children-0 sf-single-children-4 menuparent"><a href="/campus-life/health-and-wellness/smoke-free-bentley" class="sf-depth-2 menuparent">Bentley Smoking Cessation</a><ul><li id="menu-59826-1" class="first odd sf-item-1 sf-depth-3 sf-no-children"><a href="/campus-life/health-and-wellness/smoke-free-bentley/community-education-and-events" class="sf-depth-3">Community Education and Events</a></li><li id="menu-59821-1" class="middle even sf-item-2 sf-depth-3 sf-no-children"><a href="/campus-life/health-and-wellness/smoke-free-bentley/cessation" class="sf-depth-3">Cessation Resources</a></li><li id="menu-59831-1" class="middle odd sf-item-3 sf-depth-3 sf-no-children"><a href="/campus-life/health-and-wellness/smoke-free-bentley/policy-compliance" class="sf-depth-3">Policy &amp; Compliance</a></li><li id="menu-59841-1" class="last even sf-item-4 sf-depth-3 sf-no-children"><a href="/campus-life/health-and-wellness/smoke-free-bentley/smoking-policy-frequently-asked-questions" class="sf-depth-3">Frequently Asked Questions</a></li></ul></li><li id="menu-12161-1" class="middle even sf-item-6 sf-depth-2 sf-no-children"><a href="/campus-life/health-and-wellness/forms" class="sf-depth-2">Forms</a></li><li id="menu-59851-1" class="last odd sf-item-7 sf-depth-2 sf-total-children-7 sf-parent-children-2 sf-single-children-5 menuparent"><a href="/campus-life/health-and-wellness/sexual-assault-and-relationship-violence" class="sf-depth-2 menuparent">Sexual Assault &amp; Relationship Violence</a><ul><li id="menu-59856-1" class="first odd sf-item-1 sf-depth-3 sf-total-children-4 sf-parent-children-0 sf-single-children-4 menuparent"><a href="/campus-life/health-and-wellness/sexual-assault-and-relationship-violence/sexual-assault" class="sf-depth-3 menuparent">Sexual Assault</a><ul><li id="menu-36086-1" class="first odd sf-item-1 sf-depth-4 sf-no-children"><a href="/campus-life/health-and-wellness/sexual-assault-and-relationship-violence/sexual-assault/if-you-have-experienced-rape-or-sexual-assault" class="sf-depth-4">If You Have Experienced Rape or Sexual Assault</a></li><li id="menu-36091-1" class="middle even sf-item-2 sf-depth-4 sf-no-children"><a href="/campus-life/health-and-wellness/sexual-assault-and-relationship-violence/sexual-assault/medical-care" class="sf-depth-4">Medical Care</a></li><li id="menu-36096-1" class="middle odd sf-item-3 sf-depth-4 sf-no-children"><a href="/campus-life/health-and-wellness/sexual-assault-and-relationship-violence/sexual-assault/helping-someone-who-has-been-assaulted" class="sf-depth-4">Helping Someone Who Has Been Assaulted</a></li><li id="menu-36101-1" class="last even sf-item-4 sf-depth-4 sf-no-children"><a href="/campus-life/health-and-wellness/sexual-assault-and-relationship-violence/sexual-assault/statistics-website-and-prevention" class="sf-depth-4">Statistics, Websites, and Prevention</a></li></ul></li><li id="menu-36106-1" class="middle even sf-item-2 sf-depth-3 sf-total-children-4 sf-parent-children-0 sf-single-children-4 menuparent"><a href="/campus-life/health-and-wellness/sexual-assault-and-relationship-violence/relationship-violence" class="sf-depth-3 menuparent">Relationship Violence</a><ul><li id="menu-36111-1" class="first odd sf-item-1 sf-depth-4 sf-no-children"><a href="/campus-life/health-and-wellness/sexual-assault-and-relationship-violence/relationship-violence/assess-your-relationship-quiz" class="sf-depth-4">Assess Your Relationship Quiz</a></li><li id="menu-36116-1" class="middle even sf-item-2 sf-depth-4 sf-no-children"><a href="/campus-life/health-and-wellness/sexual-assault-and-relationship-violence/relationship-violence/signs-unhealthy-relationship" class="sf-depth-4">Signs of an Unhealthy Relationship</a></li><li id="menu-36121-1" class="middle odd sf-item-3 sf-depth-4 sf-no-children"><a href="/campus-life/health-and-wellness/sexual-assault-and-relationship-violence/relationship-violence/what-healthy-relationship" class="sf-depth-4">What Is a Healthy Relationship?</a></li><li id="menu-36126-1" class="last even sf-item-4 sf-depth-4 sf-no-children"><a href="/campus-life/health-and-wellness/sexual-assault-and-relationship-violence/relationship-violence/statistics-and-prevention" class="sf-depth-4">Statistics and Prevention</a></li></ul></li><li id="menu-36131-1" class="middle odd sf-item-3 sf-depth-3 sf-no-children"><a href="/campus-life/health-and-wellness/sexual-assault-and-relationship-violence/information-faculty-and-staff" class="sf-depth-3">Information for Faculty and Staff</a></li><li id="menu-58091-1" class="middle even sf-item-4 sf-depth-3 sf-no-children"><a href="/campus-life/health-and-wellness/sexual-assault-and-relationship-violence/climate-survey-results" class="sf-depth-3">Campus Climate Survey</a></li><li id="menu-36136-1" class="middle odd sf-item-5 sf-depth-3 sf-no-children"><a href="/campus-life/health-and-wellness/sexual-assault-and-relationship-violence/campus-and-community-resources" class="sf-depth-3">Campus and Community Resources</a></li><li id="menu-36141-1" class="middle even sf-item-6 sf-depth-3 sf-no-children"><a href="/campus-life/health-and-wellness/sexual-assault-and-relationship-violence/recovery-and-healing" class="sf-depth-3">Recovery and Healing</a></li><li id="menu-38191-1" class="last odd sf-item-7 sf-depth-3 sf-no-children"><a href="/campus-life/health-and-wellness/sexual-assault-and-relationship-violence/programming-and-education" class="sf-depth-3">Programming and Education</a></li></ul></li></ul></li><li id="menu-11586-1" class="middle odd sf-item-5 sf-depth-1 sf-total-children-4 sf-parent-children-1 sf-single-children-3 menuparent"><a href="/campus-life/residential-center-dining" class="sf-depth-1 menuparent">Residential Center &amp; Dining</a><ul><li id="menu-11721-1" class="first odd sf-item-1 sf-depth-2 sf-total-children-7 sf-parent-children-3 sf-single-children-4 menuparent"><a href="/campus-life/residential-center-dining/living-bentley" class="sf-depth-2 menuparent">Housing</a><ul><li id="menu-12741-1" class="first odd sf-item-1 sf-depth-3 sf-no-children"><a href="/campus-life/residential-center-dining/first-year-student-information" class="sf-depth-3">First Year Student Information</a></li><li id="menu-12731-1" class="middle even sf-item-2 sf-depth-3 sf-no-children"><a href="/campus-life/residential-center-dining/graduate-housing" class="sf-depth-3">Graduate Housing</a></li><li id="menu-59901-1" class="middle odd sf-item-3 sf-depth-3 sf-no-children"><a href="/campus-life/residential-center-dining/additional-housing-options" class="sf-depth-3">Additional Housing Options</a></li><li id="menu-11711-1" class="middle even sf-item-4 sf-depth-3 sf-total-children-2 sf-parent-children-0 sf-single-children-2 menuparent"><a href="/campus-life/residential-center-dining/living-and-learning" class="sf-depth-3 menuparent">Living and Learning</a><ul><li id="menu-12736-1" class="first odd sf-item-1 sf-depth-4 sf-no-children"><a href="/campus-life/residential-center-dining/defined-communities" class="sf-depth-4">Defined Communities</a></li><li id="menu-11716-1" class="last even sf-item-2 sf-depth-4 sf-no-children"><a href="/campus-life/residential-center-dining/housing-policies" class="sf-depth-4">Residential Education</a></li></ul></li><li id="menu-22211-1" class="middle odd sf-item-5 sf-depth-3 sf-total-children-1 sf-parent-children-0 sf-single-children-1 menuparent"><a href="/campus-life/residential-center-dining/housing-processes" class="sf-depth-3 menuparent">Housing Processes and Policies</a><ul><li id="menu-23561-1" class="firstandlast odd sf-item-1 sf-depth-4 sf-no-children"><a href="/campus-life/residential-center-dining/returning-student-housing-selection-process" class="sf-depth-4">Housing and Meal Plan Exemption</a></li></ul></li><li id="menu-61961-1" class="middle even sf-item-6 sf-depth-3 sf-no-children"><a href="/campus-life/residential-center-dining/meet-staff" class="sf-depth-3">Meet the Staff</a></li><li id="menu-70341-1" class="last odd sf-item-7 sf-depth-3 sf-total-children-2 sf-parent-children-0 sf-single-children-2 menuparent"><a href="/campus-life/residential-center-dining/employment-and-involvement" class="sf-depth-3 menuparent">Employment and Involvement</a><ul><li id="menu-13181-1" class="first odd sf-item-1 sf-depth-4 sf-no-children"><a href="/campus-life/residential-center-dining/living-bentley/resident-assistants" class="sf-depth-4">Resident Assistants</a></li><li id="menu-13196-1" class="last even sf-item-2 sf-depth-4 sf-no-children"><a href="/campus-life/residential-center-dining/living-bentley/residential-education" class="sf-depth-4">Residence Hall Association</a></li></ul></li></ul></li><li id="menu-11706-1" class="middle even sf-item-2 sf-depth-2 sf-no-children"><a href="/campus-life/residential-center-dining/dining-services" class="sf-depth-2">Dining Services</a></li><li id="menu-14296-1" class="middle odd sf-item-3 sf-depth-2 sf-no-children"><a href="/campus-life/residential-center-dining/forms-and-applications" class="sf-depth-2">Forms and Applications</a></li><li id="menu-38201-1" class="last even sf-item-4 sf-depth-2 sf-no-children"><a href="/campus-life/residential-center-dining/frequently-asked-questions" class="sf-depth-2">Frequently Asked Questions</a></li></ul></li><li id="menu-64151-1" class="last even sf-item-6 sf-depth-1 sf-total-children-2 sf-parent-children-2 sf-single-children-0 menuparent"><a href="/campus-life/milestones" class="sf-depth-1 menuparent">Milestones</a><ul><li id="menu-63781-1" class="first odd sf-item-1 sf-depth-2 sf-total-children-2 sf-parent-children-1 sf-single-children-1 menuparent"><a href="/campus-life/milestones/first-year" class="sf-depth-2 menuparent">New Student Experience</a><ul><li id="menu-11731-1" class="first odd sf-item-1 sf-depth-3 sf-total-children-6 sf-parent-children-0 sf-single-children-6 menuparent"><a href="/campus-life/milestones/first-year/new-student-orientation" class="sf-depth-3 menuparent">Orientation</a><ul><li id="menu-64221-1" class="first odd sf-item-1 sf-depth-4 sf-no-children"><a href="/campus-life/milestones/first-year/new-student-orientation/webcasts" class="sf-depth-4">Webcasts and Newsletters</a></li><li id="menu-13201-1" class="middle even sf-item-2 sf-depth-4 sf-no-children"><a href="/campus-life/milestones/first-year/new-student-orientation/onlineorientation" class="sf-depth-4">Online Orientation</a></li><li id="menu-13361-1" class="middle odd sf-item-3 sf-depth-4 sf-no-children"><a href="/campus-life/milestones/first-year/new-student-orientation/academics" class="sf-depth-4">Academics</a></li><li id="menu-13206-1" class="middle even sf-item-4 sf-depth-4 sf-no-children"><a href="/campus-life/milestones/first-year/new-student-orientation/orientation-leaders" class="sf-depth-4">Orientation Leaders</a></li><li id="menu-13211-1" class="middle odd sf-item-5 sf-depth-4 sf-no-children"><a href="/campus-life/milestones/first-year/new-student-orientation/transfer-orientation" class="sf-depth-4">Transfer Orientation</a></li><li id="menu-13216-1" class="last even sf-item-6 sf-depth-4 sf-no-children"><a href="/campus-life/milestones/first-year/new-student-orientation/family-resources" class="sf-depth-4">Family Resources</a></li></ul></li><li id="menu-13231-1" class="last even sf-item-2 sf-depth-3 sf-no-children"><a href="/campus-life/milestones/first-year/convocation" class="sf-depth-3">Convocation</a></li></ul></li><li id="menu-63786-1" class="last even sf-item-2 sf-depth-2 sf-total-children-2 sf-parent-children-1 sf-single-children-1 menuparent"><a href="/campus-life/milestones/graduation" class="sf-depth-2 menuparent">Graduation</a><ul><li id="menu-13221-1" class="first odd sf-item-1 sf-depth-3 sf-no-children"><a href="/campus-life/milestones/graduation/baccalaureate" class="sf-depth-3">Baccalaureate</a></li><li id="menu-11726-1" class="last even sf-item-2 sf-depth-3 sf-total-children-2 sf-parent-children-0 sf-single-children-2 menuparent"><a href="/campus-life/milestones/graduation/commencement-week" class="sf-depth-3 menuparent">Commencement Week</a><ul><li id="menu-13236-1" class="first odd sf-item-1 sf-depth-4 sf-no-children"><a href="/campus-life/milestones/graduation/commencement-week/registration" class="sf-depth-4">Registration</a></li><li id="menu-13241-1" class="last even sf-item-2 sf-depth-4 sf-no-children"><a href="/campus-life/milestones/graduation/commencement-week/schedule-events" class="sf-depth-4">Schedule of Events</a></li></ul></li></ul></li></ul></li></ul>
+</div><!-- /.block -->
+<div id="block-menu-menu-mobile-quick-links-menu" class="block block-menu last odd" role="navigation">
+
+      
+  <ul class="menu"><li class="menu__item is-leaf first leaf"><span class="menu__link nolink">PROSPECTIVE UNDERGRADUATE STUDENTS</span></li>
+<li class="menu__item is-leaf leaf"><a href="/undergraduate-programs" class="menu__link">Majors/Minors</a></li>
+<li class="menu__item is-leaf leaf"><a href="/undergraduate/tuition-financial-aid" class="menu__link">Tuition/Financial Aid</a></li>
+<li class="menu__item is-leaf leaf"><a href="https://www.bentley.edu/undergraduate/visiting" class="menu__link">Visiting</a></li>
+<li class="menu__item is-leaf leaf"><a href="https://www.bentley.edu/offices/international-education/are-you-prepared" class="menu__link">Study Abroad</a></li>
+<li class="menu__item is-leaf leaf"><span class="menu__link nolink">PROSPECTIVE GRADUATE STUDENTS</span></li>
+<li class="menu__item is-leaf leaf"><a href="/graduate/admission-financial-aid/application-process" class="menu__link">Applying</a></li>
+<li class="menu__item is-leaf leaf"><a href="/graduate/ms-programs/overview" class="menu__link">MS Programs</a></li>
+<li class="menu__item is-leaf leaf"><a href="/graduate/mba-programs/overview" class="menu__link">MBA Programs</a></li>
+<li class="menu__item is-leaf leaf"><a href="/graduate/admission-financial-aid/tuition-financial-aid" class="menu__link">Tuition/Financial Aid</a></li>
+<li class="menu__item is-leaf leaf"><span class="menu__link nolink">CURRENT STUDENTS, STAFF &amp; FACULTY</span></li>
+<li class="menu__item is-leaf leaf"><a href="https://blackboard.bentley.edu/" class="menu__link">Blackboard</a></li>
+<li class="menu__item is-leaf leaf"><a href="/calendar" class="menu__link">Calendars</a></li>
+<li class="menu__item is-leaf leaf"><a href="https://www.bentley.edu/about/directory" class="menu__link">Faculty/Staff Directory</a></li>
+<li class="menu__item is-leaf leaf"><a href="http://library.bentley.edu/" class="menu__link">Library</a></li>
+<li class="menu__item is-leaf leaf"><a href="https://my.bentley.edu/" class="menu__link">MyBentley</a></li>
+<li class="menu__item is-leaf leaf"><a href="https://owa.bentley.edu/owa" class="menu__link">Outlook</a></li>
+<li class="menu__item is-leaf leaf"><a href="https://www.bentley.edu/campus-life/safety-transit/shuttle-schedule" class="menu__link">Shuttle</a></li>
+<li class="menu__item is-leaf leaf"><a href="/campus-life/safety-transit/university-police/emergency-alerts" class="menu__link">Emergency Info</a></li>
+<li class="menu__item is-leaf leaf"><a href="http://www.bentley.edu/social-media-directory" class="menu__link">Social Menu</a></li>
+<li class="menu__item is-leaf leaf"><a href="http://www.bentley.edu/about/map" class="menu__link">Campus Map</a></li>
+<li class="menu__item is-leaf last leaf"><a href="https://www.bentley.edu/academics/departments" class="menu__link">Departments</a></li>
+</ul>
+</div><!-- /.block -->
+  </div><!-- /.region -->
+
+    </div><!-- /#navigation -->
+  </div><!-- /.wrapper .navigation-->
+
+      <div class="wrapper banner">
+      <div id="banner-container">
+        <div id="banner">
+
+            <div class="region region-banner">
+    <div id="block-block-2511" class="block block-block first last odd">
+
+      
+  <p><img height="220" width="1187" class="media-element file-default" typeof="foaf:Image" src="https://www.bentley.edu/files/2015/08/21/campus-life_header.jpg" alt="" title="" /></p>
+</div><!-- /.block -->
+  </div><!-- /.region -->
+
+        </div><!-- /#banner -->
+      </div><!-- /#banner-container -->
+    </div><!-- /.wrapper .banner -->
+  
+  <div class="wrapper main">
+    <div id="main">
+
+      
+      <div id="content" class="column" role="main">
+                                                <h2 class="element-invisible">You are here</h2><div class="breadcrumb"><span class="inline odd first last"><a href="/">Home</a></span></div>        <a id="main-content"></a>
+                          <h1 class="title" id="page-title">WBTY — Bentley University Radio</h1>
+                        
+
+
+<article class="node-171136 node node-student-organization view-mode-full clearfix" about="/campus-life/student-organizations/wbty-%E2%80%94-bentley-university-radio" typeof="sioc:Item foaf:Document">
+
+      <header>
+                  <span property="dc:title" content="WBTY — Bentley University Radio" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
+      
+          </header>
+  
+  <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>WBTY-Bentley is the university's own radio station. From DJ'ing events, broadcasting sports games, to providing the campus with music 24 hours a day, WBTY is the place to be. Whether you like to listen to hip-hop, rock, jazz, WBTY is bound to have a show for you. Listen to us on our FM channel 105.3 FM and of course on our website at <a href="http://radiobentley.com/">www.radiobentley.com</a>.</p></div></div></div><div class="field field-name-field-org-url field-type-text field-label-hidden"><div class="field-items"><div class="field-item even">mailto:ga_wbty@bentley.edu</div></div></div>
+  
+  
+</article><!-- /.node -->
+<!-- block__no_wrapper -->
+<!-- region__no_wrapper -->
+              </div><!-- /#content -->
+
+      
+      
+    </div><!-- /#main -->
+  </div><!-- /.wrapper .main-->
+
+  
+  
+  
+  
+  <div class="wrapper footer">
+    <div id="footer">
+    <div class="footer-one">
+        <div class="region region-footer-one">
+    <div id="block-block-961" class="block block-block first last odd">
+
+      
+  <div class="footer-left"><p class="logo"><span class="first-word">Bentley</span> University</p><p>175 Forest Street<br />Waltham, Massachusetts 02452<br />+1.781.891.2000</p><ul class="footer-menu"><li class="first leaf"><a href="/copyright">Copyright</a></li><li class="leaf"><a href="/privacy">Privacy</a></li></ul><ul class="footer-menu"><li class="leaf"><a href="http://www.bentley.edu/policies">Policies</a></li><li class="last leaf"><a href="http://www.bentley.edu/newsroom">Newsroom</a></li></ul></div><p> </p>
+</div><!-- /.block -->
+  </div><!-- /.region -->
+    </div><!-- /.footer_one -->
+      <div class="footer-two">
+      <div class="region region-footer-two">
+    <div id="block-block-966" class="block block-block first last odd">
+
+      
+  <div class="follow">
+<h2>Follow Us:</h2>
+<a class="social-facebook" href="http://www.facebook.com/bentleyuniversity">&nbsp;</a> <a class="social-twitter" href="http://www.twitter.com/bentleyu">&nbsp;</a> <a class="social-youtube" href="http://www.youtube.com/bentleyuniversity">&nbsp;</a></div>
+<div class="visit">
+<h2>Visit Us:</h2>
+<p><a href="http://www.bentley.edu/about/directions">Map &amp; Directions</a><br> <a href="http://www.bentley.edu/about/visiting-campus">Plan Your Visit<br> </a><a href="http://www.bentley.edu/virtualtour/">Virtual Tour</a></p>
+</div>
+</div><!-- /.block -->
+  </div><!-- /.region -->
+      </div><!--- /.footer-two -->
+    <div class="footer-three">
+        <div class="region region-footer-three">
+    <div id="block-block-971" class="block block-block first last odd">
+
+      
+  <div class="support"><h2>Support Us:</h2><p><a class="gift-button" href="https://www.bentley.edu/alumni/annual-giving-bentley">Make a Gift</a></p></div><div class="work"><h2>Work With Us:</h2><p><a href="https://www.bentley.edu/offices/human-resources/careers" target="_blank">View Jobs</a></p></div>
+</div><!-- /.block -->
+  </div><!-- /.region -->
+    </div><!--- /.footer-three -->
+    <div class="footer-four">
+        <div class="region region-footer-four">
+    <div id="block-menu-menu-footer-resources" class="block block-menu two-col first last odd" role="navigation">
+
+        <h2 class="block__title block-title">Resources &amp; Links</h2>
+    
+  <ul class="menu"><li class="menu__item is-leaf first leaf"><a href="http://library.bentley.edu" class="menu__link">Library</a></li>
+<li class="menu__item is-leaf leaf"><a href="http://blackboard.bentley.edu" class="menu__link">Blackboard</a></li>
+<li class="menu__item is-leaf leaf"><a href="https://www.bentley.edu/campus-life/sexual-assault/title-ix-and-gender-based-discrimination-policy" class="menu__link">Title IX</a></li>
+<li class="menu__item is-leaf leaf"><a href="https://my.bentley.edu" class="menu__link">MyBentley</a></li>
+<li class="menu__item is-leaf leaf"><a href="http://www.bentley.edu/offices/registrar" class="menu__link">Registrar</a></li>
+<li class="menu__item is-leaf leaf"><a href="https://www.bentley.edu/campus-life/safety-transit/university-police/emergency-alerts" class="menu__link">Emergency Info</a></li>
+<li class="menu__item is-leaf last leaf"><a href="https://www.bentley.edu/campus-life/health-and-wellness/disability-services" class="menu__link">Disability Services</a></li>
+</ul>
+</div><!-- /.block -->
+  </div><!-- /.region -->
+    </div><!---/.footer-four -->
+  </div><!---/#footer-->
+  </div><!-- /.wrapper .footer-->
+
+      <div class="wrapper sub-footer">
+      <div id="sub-footer">
+
+        <div id="sub-footer-content">
+            <div class="region region-sub-footer">
+    <div id="block-panels-mini-quick-links-full-version" class="block block-panels-mini first last odd">
+
+      
+  <section class="panel-display panel-1col-clean clearfix mini-panel-quick_links_full_version" id="mini-panel-quick_links_full_version">
+  <section class="quicklinks-full-wrapper">      <section class="panel-pane pane-block pane-menu-menu-quick-links panel-pane quicklinks-full" >      
+              <h2 class="pane-title">QUICK LINKS</h2>
+        
+    
+          <ul class="menu"><li class="menu__item is-leaf first leaf"><span class="menu__link nolink">PROSPECTIVE UNDERGRADUATE STUDENTS</span></li>
+<li class="menu__item is-leaf leaf"><a href="/undergraduate-programs" id="majors_minors" class="menu__link">Majors/Minors</a></li>
+<li class="menu__item is-leaf leaf"><a href="/undergraduate/tuition-financial-aid" id="financial_aid_undergrad" class="menu__link">Tuition/Financial Aid</a></li>
+<li class="menu__item is-leaf leaf"><a href="https://www.bentley.edu/undergraduate/visiting" id="visiting" class="menu__link">Visiting</a></li>
+<li class="menu__item is-leaf leaf"><span class="menu__link nolink">PROSPECTIVE GRADUATE STUDENTS</span></li>
+<li class="menu__item is-leaf leaf"><a href="/graduate/admission-financial-aid/application-process" id="applying_grad" class="menu__link">Applying</a></li>
+<li class="menu__item is-leaf leaf"><a href="/graduate/ms-programs/overview" id="ms_programs" class="menu__link">MS Programs</a></li>
+<li class="menu__item is-leaf leaf"><a href="/graduate/mba-programs/overview" id="mba_programs" class="menu__link">MBA Programs</a></li>
+<li class="menu__item is-leaf leaf"><a href="/graduate/admission-financial-aid/tuition-financial-aid" id="financial_aid_grad" class="menu__link">Tuition/Financial Aid</a></li>
+<li class="menu__item is-leaf leaf"><span class="menu__link nolink">CURRENT STUDENTS</span></li>
+<li class="menu__item is-leaf leaf"><a href="/current-graduate-students" class="menu__link">Current Graduate Students</a></li>
+<li class="menu__item is-leaf leaf"><a href="/current-undergraduate-students" class="menu__link">Current Undergraduate Students</a></li>
+<li class="menu__item is-leaf leaf"><a href="/calendar" id="calendars" class="menu__link">Calendars</a></li>
+<li class="menu__item is-leaf leaf"><span class="menu__link nolink">PARENTS</span></li>
+<li class="menu__item is-leaf leaf"><a href="/alumni/parents-and-families/family-events-and-news-link" id="family_news_events" class="menu__link">Family News &amp; Events</a></li>
+<li class="menu__item is-leaf leaf"><a href="/alumni/parents-and-families/resources-prospective-parents" id="resources" class="menu__link">Resources</a></li>
+<li class="menu__item is-leaf leaf"><span class="menu__link nolink">FACULTY &amp; STAFF</span></li>
+<li class="menu__item is-leaf leaf"><a href="https://www.bentley.edu/academics/departments" class="menu__link">Departments</a></li>
+<li class="menu__item is-leaf leaf"><a href="https://www.bentley.edu/about/directory" id="faculty_staff_directory" class="menu__link">Faculty/Staff Directory</a></li>
+<li class="menu__item is-leaf leaf"><a href="/calendar" id="calendars" class="menu__link">Calendars</a></li>
+<li class="menu__item is-leaf last leaf"><a href="https://login.microsoftonline.com/?whr=bentley.edu" id="outlook" class="menu__link">Bentley O365 Email</a></li>
+</ul>    
+    
+      </section><section class="panel-pane pane-fieldable-panels-pane pane-fpid-131 panel-pane quicklinks-full-social" >      
+              <h2 class="pane-title">CONNECT WITH US</h2>
+        
+    
+          <div class="fieldable-panels-pane">
+    <div class="field field-name-field-pane-link field-type-link-field field-label-hidden"><div class="field-items"><div class="field-item even"><a href="http://www.twitter.com/bentleyu" target="_blank">Twitter</a></div><div class="field-item odd"><a href="http://www.facebook.com/bentleyuniversity" target="_blank">Facebook</a></div><div class="field-item even"><a href="http://www.youtube.com/bentleyuniversity" target="_blank">YouTube</a></div><div class="field-item odd"><a href="https://www.bentley.edu/newsroom/feed" target="_blank">RSS</a></div><div class="field-item even"><a href="https://www.linkedin.com/edu/bentley-university-18454" target="_blank">LinkedIn</a></div></div></div></div>
+    
+    
+      </section><div class="panel-pane pane-fieldable-panels-pane pane-fpid-151 panel-pane" >      
+            
+    
+          <div class="fieldable-panels-pane">
+    <div class="field field-name-field-pane-link field-type-link-field field-label-hidden"><div class="field-items"><div class="field-item even"><a href="https://www.bentley.edu/newsroom">Newsroom</a></div></div></div></div>
+    
+    
+      </div>  </section></div>
+
+</div><!-- /.block -->
+  </div><!-- /.region -->
+        </div><!-- /#sub-footer-content -->
+
+      </div><!-- /#sub-footer -->
+    </div><!-- /.wrapper .sub-footer -->
+  
+  </div><!-- /#page -->
+
+
+  <script>(function(w,d,t,r,u){var f,n,i;w[u]=w[u]||[],f=function(){var o={ti:"5188183"};o.q=w[u],w[u]=new UET(o),w[u].push("pageLoad")},n=d.createElement(t),n.src=r,n.async=1,n.onload=n.onreadystatechange=function(){var s=this.readyState;s&&s!=="loaded"&&s!=="complete"||(f(),n.onload=n.onreadystatechange=null)},i=d.getElementsByTagName(t)[0],i.parentNode.insertBefore(n,i)})(window,document,"script","//bat.bing.com/bat.js","uetq");</script><noscript><img src="//bat.bing.com/action/0?ti=5188183&Ver=2" height="0" width="0" style="display:none; visibility: hidden;" /></noscript><script type="text/javascript">
+  (function() {
+    window._pa = window._pa || {};
+    // _pa.orderId = "myOrderId"; // OPTIONAL: attach unique conversion identifier to conversions
+    // _pa.revenue = "19.99"; // OPTIONAL: attach dynamic purchase values to conversions
+    // _pa.productId = "myProductId"; // OPTIONAL: Include product ID for use with dynamic ads
+    var pa = document.createElement('script'); pa.type = 'text/javascript'; pa.async = true;
+    pa.src = ('https:' == document.location.protocol ? 'https:' : 'http:') + "//tag.perfectaudience.com/serve/5513943237dd2e83210000a1.js";
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(pa, s);
+  })();
+</script><!-- Start of Async HubSpot Analytics Code --> 
+<script type="text/javascript"> 
+(function(d,s,i,r) { 
+if (d.getElementById(i)){return;} 
+var n=d.createElement(s),e=d.getElementsByTagName(s)[0]; 
+n.id=i;n.src='//js.hs-analytics.net/analytics/'+(Math.ceil(new Date()/r)*r)+'/444541.js'; 
+e.parentNode.insertBefore(n, e); 
+})(document,"script","hs-analytics",300000); 
+</script> 
+<!-- End of Async HubSpot Analytics Code -->
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"bca08de886","applicationID":"51791026","transactionName":"NFFVbEtTXBAEUUAKVg0bdltNW10NSkJVBFw8WVZWWFVXETpcWwdcPEJeXU5tQgICVw==","queueTime":0,"applicationTime":556,"atts":"GBZWGgNJTx4=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

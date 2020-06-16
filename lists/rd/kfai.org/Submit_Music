@@ -1,0 +1,550 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr">
+
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="icon" href="/fav.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="/fav.ico" type="image/x-icon" />
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,700,300,600' rel='stylesheet' type='text/css'>
+    
+    <title>Submit Music for Airplay | KFAI</title>
+    <meta name="description" content="">
+    <link type="text/css" rel="stylesheet" href="http://kfai.org/sites/default/files/css/css_xE-rWrJf-fncB6ztZfd2huxqgxu4WO-qwma6Xer30m4.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://kfai.org/sites/default/files/css/css_SlFzk-5tps9sx4XZviMm7K9q5vf-MFzzjXmkoY5w05c.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://kfai.org/sites/default/files/css/css_V0FfYdDBIATOxaptWkcEzuwD0SrCN26jnzm1L7JGvtw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://kfai.org/sites/default/files/css/css_zcxKHnN_GXnDq0TZhMwTJcsMR7-jLHHT4vvrukY58Q8.css" media="screen" />
+    <script type="text/javascript" src="http://kfai.org/sites/default/files/google_tag/google_tag.script.js?pe467p"></script>
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+window.jQuery || document.write("<script src='/sites/all/modules/jquery_update/replace/jquery/1.5/jquery.min.js'>\x3C/script>")
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://kfai.org/misc/jquery.once.js?v=1.2"></script>
+<script type="text/javascript" src="http://kfai.org/misc/drupal.js?pe467p"></script>
+<script type="text/javascript" src="http://kfai.org/sites/all/libraries/audio-player/audio-player.js?pe467p"></script>
+<script type="text/javascript" src="http://kfai.org/sites/all/modules/google_analytics/googleanalytics.js?pe467p"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","https://www.google-analytics.com/analytics.js","ga");ga("create", "UA-164527-1", {"cookieDomain":"auto"});ga("send", "pageview");
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"kfaiNew","theme_token":"cnIt9CqNcTJoFJ1Eb-mjen5GCPJP39I4qsQseLiATtE","js":{"public:\/\/google_tag\/google_tag.script.js":1,"\/\/ajax.googleapis.com\/ajax\/libs\/jquery\/1.5.2\/jquery.min.js":1,"0":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/libraries\/audio-player\/audio-player.js":1,"sites\/all\/modules\/google_analytics\/googleanalytics.js":1,"1":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/comment\/comment.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_repeat_field\/date_repeat_field.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/logintoboggan\/logintoboggan.css":1,"sites\/all\/modules\/mollom\/mollom.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/tpc_general\/tpc_general.css":1,"sites\/all\/themes\/kfaiNew\/css\/reset.css":1,"sites\/all\/themes\/kfaiNew\/css\/style.css":1,"sites\/all\/themes\/kfaiNew\/css\/responsive.css":1,"sites\/all\/themes\/kfaiNew\/css\/flexslider.css":1,"sites\/all\/themes\/kfaiNew\/css\/views.css":1}},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip"},"urlIsAjaxTrusted":{"\/Submit_Music":true}});
+//--><!]]>
+</script>
+   
+    <link rel="stylesheet" href="/sites/all/themes/kfaiNew/css/transitions.css" />
+    <link rel="stylesheet" href="/sites/all/themes/kfaiNew/css/collegeplus.css" />
+    <link rel="stylesheet" href="/sites/all/themes/kfaiNew/css/slicknav.css" />
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+	<script src="/sites/all/themes/kfaiNew/scripts/jquery.slicknav.js"></script>
+	<script src="/sites/all/themes/kfaiNew/scripts/jquery.flexslider.js"></script>
+	<script src="/sites/all/themes/kfaiNew/scripts/jquery.collagePlus.js"></script>
+	<script src="/sites/all/themes/kfaiNew/scripts/jquery.collageCaption.js"></script>
+	<script src="/sites/all/themes/kfaiNew/scripts/jquery.removeWhitespace.js"></script>
+	<script type="text/javascript" src="/sites/all/libraries/jplayer/jquery.jplayer.min.js"></script>
+	
+    <script>
+	$(document).ready(function(){
+		$('#mainmenu').slicknav({prependTo:'.header'});
+	});
+	</script>
+</head>
+
+<body class="html not-front not-logged-in one-sidebar sidebar-first page-node page-node- page-node-27309 node-type-page" >
+
+	
+
+    <div class="region region-page-top">
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T5QVDF" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>  </div>
+  <script>
+	$(document).ready(function(){
+		$('.field-name-field-duration').hide();
+		$('.field_duration').hide();
+	});
+
+</script>
+<!-- start header-->
+<div class="backgroundRed stickyNav">
+    <div class="contain">
+        <div class="left">
+            <div class="left homeLink">
+            <a href="/"><div class="icon home"></div> HOME</a>
+            </div>
+            <div class="left">
+            SUPPORT: 
+            </div>
+            <div class="left supportLinks">
+            <h2 class="element-invisible">Support menu</h2><ul id="user-menu" class="links clearfix"><li class="menu-3759 first"><a href="http://kfai.org/node/46434" target="_blank">Donate</a></li>
+<li class="menu-3760"><a href="/volunteer" title="">Volunteer</a></li>
+<li class="menu-3761 last"><a href="/underwriting" title="">Underwrite</a></li>
+</ul>           
+            </div>
+            <div class="clear"></div>
+        </div>
+        <div class="right">
+            <div class="right searchBox">
+              <div class="region region-search">
+    <div id="block-search-form" class="block block-search">
+
+    
+  <div class="content">
+    <form action="/Submit_Music" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+      <h2 class="element-invisible">Search form</h2>
+    <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Search" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-TJ5YcW1Rq8BJl3axubKSeTwthyHIFqenIK4t3E00Q3k" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>  </div>
+</div>
+  </div>
+            </div>
+            <div class="right socialLinks">
+              <div class="region region-socialmedia">
+    <div id="block-block-2" class="block block-block">
+
+    
+  <div class="content">
+    <p><a href="http://www.facebook.com/pages/KFAI-903-FM-Minneapolis-1067-FM-St-Paul/53240416076" target="_blank"><img alt="Facebook" src="http://kfai.org/sites/all/themes/kfaiNew/images/icon-fb.png" /></a> <a href="https://twitter.com/#!/kfaifmradio" target="_blank"><img alt="Twitter" src="http://kfai.org/sites/all/themes/kfaiNew/images/icon-tw.png" /></a> <a href="http://kfai.org/rss.xml"><img alt="RSS" src="http://kfai.org/sites/all/themes/kfaiNew/images/icon-rss.png" /></a> <a href="http://kfai.org/about/contact"><img alt="Contact" src="http://kfai.org/sites/all/themes/kfaiNew/images/icon-phone.png" /></a></p>
+  </div>
+</div>
+  </div>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <div class="clear"></div>
+    </div>
+</div>
+<div class="stickyNavOffset"></div>
+
+<div class="backgroundWhite header">
+    <div class="contain logocontain">
+        <div class="left logo"><a href="/"><img src="/sites/all/themes/kfaiNew/images/logo.png" alt=""/></a></div>
+        <div class="right headerbuttons font15">        	
+            <a href="/sites/default/stream/jplayer.html" class="kfai_edit-listen_now_link google-tag-link" target="_blank" 
+            onclick="window.open('/sites/default/stream/jplayer.html', '_blank', 'toolbar=0,location=0,menubar=0,width=420,height=200'); return false;">
+                <div class="left button backgroundOrange live"><div class="icon"></div>Listen Now</div>
+            </a>
+            <a href="/archive">
+                <div class="left button backgroundBlue demand"><div class="icon"></div>On Demand</div>
+            </a>
+            <a href="/support-us">
+                <div class="left button backgroundGreen donate"><div class="icon"></div>Support Us</div>
+            </a>
+            <div class="clear"></div> 
+        </div>
+        <div class="clear"></div>      
+    </div>
+    <div class="contain navigation font20">
+        
+        <h2 class="element-invisible"></h2><ul id="mainmenu"><li class="menu-3751 first"><a href="/programs" title="KFAI Programs">Programs</a></li>
+<li class="menu-3753"><a href="/personalities">Personalities</a></li>
+<li class="menu-3777"><a href="/news" title="">News</a></li>
+<li class="menu-3755"><a href="/events" title="KFAI Events">Events</a></li>
+<li class="menu-3756"><a href="/about" title="About KFAI">About</a></li>
+<li class="menu-3757 last"><a href="/schedule" title="KFAI&#039;s Schedule">Schedule</a></li>
+</ul>        <div class="clear"></div> 
+    </div>
+</div>
+<!-- end header-->
+    
+    
+    
+<div class="backgroundWhite main">
+	<div class="contain">
+    
+    
+    	<div class="row">
+        	<div class="three-fourth right">
+            	<div id="content" class="column"><div class="section">
+                  <a id="main-content"></a>
+                                                        <h1 class="title" id="page-title">Submit Music for Airplay</h1>
+                                                                                                              <div class="region region-content">
+    <div id="block-system-main" class="block block-system">
+
+    
+  <div class="content">
+    
+<div id="node-27309" class="node node-page">
+
+  
+      
+  
+  <div class="content clearfix">
+    <div class="field field-name-field-image field-type-image field-label-hidden"><div class="field-items"><div class="field-item even"><img src="http://kfai.org/sites/default/files/styles/medium/public/v_3records.jpg?itok=lEZKSSGG" width="230" height="240" alt="" /></div></div></div><div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even"><p><strong><span class="caps">KFAI</span> Welcomes Your Music Submissions</strong></p>
+<p>To submit music to <span class="caps">KFAI'</span>s general library, please send CDs and records to:</p>
+<p><span class="caps">KFAI</span><br />
+	Attn: Music Department<br />
+	1808 Riverside Avenue<br />
+	Minneapolis, MN 55454</p>
+<p>You can also send music directly to a particular <span class="caps">KFAI </span>program. Just place the name of the program in the address. For a complete list of <span class="caps">KFAI </span>programs, visit the <a href="http://kfai.org/station/schedule"><span class="caps">KFAI </span>program schedule page</a>.</p>
+<p>For more information about what to do to get your music played on the radio, check out these <a href="http://www.kexp.org/programming/airplay.asp">tips</a> from <span class="caps">KEXP </span>in Seattle.</p>
+<p><br class="clear" /></p>
+</div></div></div>  </div>
+
+  <div class="clearfix">
+          <div class="links"></div>
+    
+      </div>
+
+</div>
+  </div>
+</div>
+  </div>
+                </div></div><!-- /.section, /#content -->
+            </div>
+
+        	<div class="one-fourth left sidebar">
+            	  <div class="region region-sidebar-first">
+    <div id="block-menu-menu-kfai-footer" class="block block-menu">
+
+    <h2>About Us</h2>
+  
+  <div class="content">
+    <ul class="menu"><li class="first leaf"><a href="/about" title="">Mission/Vision</a></li>
+<li class="leaf"><a href="/about/history" title="">History</a></li>
+<li class="leaf"><a href="/node/27294/board-of-directors" title="">Board of Directors</a></li>
+<li class="leaf"><a href="/about/station-news" title="">Press/News Releases</a></li>
+<li class="leaf"><a href="/about/jobs-internships" title="">Jobs/Internships</a></li>
+<li class="leaf"><a href="/about/directions" title="">Directions</a></li>
+<li class="leaf"><a href="/about/contact" title="">Contact</a></li>
+<li class="leaf"><a href="/programcommittee">Content Advisory Committee</a></li>
+<li class="leaf"><a href="/about/feedback">Feedback</a></li>
+<li class="leaf"><a href="/mobileapp">Mobile App</a></li>
+<li class="leaf"><a href="/about/newsletter">Newsletter Signup</a></li>
+<li class="last leaf active-trail"><a href="/Submit_Music" class="active-trail active">Submit Music</a></li>
+</ul>  </div>
+</div>
+<div id="block-block-15" class="block block-block">
+
+    <h2>Ad</h2>
+  
+  <div class="content">
+    <p><img alt="" src="http://kfai.org/sites/default/files/styles/160/public/default_images/default_program.jpg?itok=pSzCjqZE" style="width: 160px; height: 160px;" /></p>
+  </div>
+</div>
+<div id="block-views-events-block-3" class="block block-views">
+
+    <h2>Upcoming Events</h2>
+  
+  <div class="content">
+    <div class="view view-events view-id-events view-display-id-block_3 view-dom-id-ba5f89d4350ed2972553d4944c83242a">
+        
+  
+  
+      <div class="view-content">
+      <div class="full">    <ul>          <li class="views-row views-row-1 views-row-odd views-row-first">  
+  <span class="blue bold italic">        <span><span class="date-display-single">September 6, 2018</span></span>  </span>  
+  <span class="views-field views-field-title">        <span class="field-content"><a href="/events/community-events/graywolf-literary-salon-voices-for-time">Graywolf Literary Salon: Voices for our Time</a></span>  </span></li>
+          <li class="views-row views-row-2 views-row-even">  
+  <span class="blue bold italic">        <span><span class="date-display-range"><span class="date-display-start">September 8, 2018</span> to <span class="date-display-end">September 9, 2018</span></span></span>  </span>  
+  <span class="views-field views-field-title">        <span class="field-content"><a href="/events/community-events/nokomis-days">Nokomis Days</a></span>  </span></li>
+          <li class="views-row views-row-3 views-row-odd views-row-last">  
+  <span class="blue bold italic">        <span><span class="date-display-single">September 8, 2018</span></span>  </span>  
+  <span class="views-field views-field-title">        <span class="field-content"><a href="/events/community-events/book-signing%C2%A0good-rosie%C2%A0by-kate-dicamillo-harry-bliss">Book Signing: Good Rosie! by Kate DiCamillo and Harry Bliss</a></span>  </span></li>
+      </ul></div>    </div>
+  
+  
+  
+      
+<div class="more-link">
+  <a href="/events">
+    More events  </a>
+</div>
+  
+  
+  
+</div>  </div>
+</div>
+<div id="block-views-news-block-2" class="block block-views">
+
+    <h2>Recent News</h2>
+  
+  <div class="content">
+    <div class="view view-news view-id-news view-display-id-block_2 view-dom-id-be764784f0557ae6625ed5339582acc0">
+        
+  
+  
+      <div class="view-content">
+      <div class="full">    <ul>          <li class="views-row views-row-1 views-row-odd views-row-first">  
+  <span class="blue bold italic">        <span>August 20, 2018</span>  </span>  
+  <span class="views-field views-field-title">        <span class="field-content"><a href="/news/2018/08/68366">Aug. 20th Hormone Harmony - Dr. Alicia Stanton on Health Notes</a></span>  </span></li>
+          <li class="views-row views-row-2 views-row-even">  
+  <span class="blue bold italic">        <span>August 1, 2018</span>  </span>  
+  <span class="views-field views-field-title">        <span class="field-content"><a href="/news/2018/08/68064">KFAI Listens to Listeners!</a></span>  </span></li>
+          <li class="views-row views-row-3 views-row-odd views-row-last">  
+  <span class="blue bold italic">        <span>August 25, 2018</span>  </span>  
+  <span class="views-field views-field-title">        <span class="field-content"><a href="/news/2018/08/68445">KFAI Board of Directors meeting notice and agenda for Aug. 27, 2018</a></span>  </span></li>
+      </ul></div>    </div>
+  
+  
+  
+  
+  
+  
+</div>  </div>
+</div>
+  </div>
+            </div>
+            <div class="clear"></div> 
+        </div>
+        <div class="clear"></div> 
+        
+
+        
+    </div>
+</div>
+
+
+
+
+
+<!-- start footer-->
+<div class="backgroundBlack footer">
+<div class="contain">
+    <div class="footermenu row">
+        <div class='fifthx fourth left'>
+            <h3 class="white"><a href="/programs">Programs</a></h3>
+            <div class="view view-program-terms-menu view-id-program_terms_menu view-display-id-block view-dom-id-406cee4afe29e009d1a04845feb044ca">
+        
+  
+  
+      <div class="view-content">
+          <ul class="links">          <li class="views-row views-row-1 views-row-odd views-row-first"><a href="/program-categories/arts-culture">Arts &amp; Culture</a></li>
+          <li class="views-row views-row-2 views-row-even"><a href="/program-categories/blues">Blues</a></li>
+          <li class="views-row views-row-3 views-row-odd"><a href="/program-categories/eclectic">Eclectic</a></li>
+          <li class="views-row views-row-4 views-row-even"><a href="/program-categories/hip-hop-electronica">Hip Hop &amp; Electronica</a></li>
+          <li class="views-row views-row-5 views-row-odd"><a href="/program-categories/international-community">International Community</a></li>
+          <li class="views-row views-row-6 views-row-even"><a href="/program-categories/jazz">Jazz</a></li>
+          <li class="views-row views-row-7 views-row-odd"><a href="/program-categories/metal">Metal</a></li>
+          <li class="views-row views-row-8 views-row-even"><a href="/program-categories/news">News</a></li>
+          <li class="views-row views-row-9 views-row-odd"><a href="/program-categories/public-affairs">Public Affairs</a></li>
+          <li class="views-row views-row-10 views-row-even"><a href="/program-categories/rock">Rock</a></li>
+          <li class="views-row views-row-11 views-row-odd"><a href="/program-categories/roots">Roots</a></li>
+          <li class="views-row views-row-12 views-row-even"><a href="/webexclusive">Web Exclusive</a></li>
+          <li class="views-row views-row-13 views-row-odd views-row-last"><a href="/program-categories/world-music">World Music</a></li>
+      </ul>    </div>
+  
+  
+  
+  
+  
+  
+</div>        </div>
+        <div class='fifthx fourth left' style="margin:0;">
+            <h3 class="white">
+            <a href="/support-us" 
+            target="_blank">Support Us</a>
+            </h3>
+            <h2 class="element-invisible">Support menu</h2><ul id="user-menu" class="links clearfix"><li class="menu-3759 first"><a href="http://kfai.org/node/46434" target="_blank">Donate</a></li>
+<li class="menu-3760"><a href="/volunteer" title="">Volunteer</a></li>
+<li class="menu-3761 last"><a href="/underwriting" title="">Underwrite</a></li>
+</ul>			
+        </div>
+        <div class='fifthx fourth left'>
+            <h3 class="white"><a href="/about">About Us</a></h3>
+            <h2 class="element-invisible">Support menu</h2><ul id="user-menu" class="links clearfix"><li class="menu-3769 first"><a href="/about" title="">Mission/Vision</a></li>
+<li class="menu-3765"><a href="/about/history" title="">History</a></li>
+<li class="menu-3768"><a href="/node/27294/board-of-directors" title="">Board of Directors</a></li>
+<li class="menu-3770"><a href="/about/station-news" title="">Press/News Releases</a></li>
+<li class="menu-3764"><a href="/about/jobs-internships" title="">Jobs/Internships</a></li>
+<li class="menu-3763"><a href="/about/directions" title="">Directions</a></li>
+<li class="menu-3767"><a href="/about/contact" title="">Contact</a></li>
+<li class="menu-4234"><a href="/programcommittee">Content Advisory Committee</a></li>
+<li class="menu-4405"><a href="/about/feedback">Feedback</a></li>
+<li class="menu-4233"><a href="/mobileapp">Mobile App</a></li>
+<li class="menu-6588"><a href="/about/newsletter">Newsletter Signup</a></li>
+<li class="menu-4232 active-trail last active"><a href="/Submit_Music" class="active-trail active">Submit Music</a></li>
+</ul>        </div>
+        <div class='fifth left' style="display:none;">
+            <h3 class="white"><a href="/communities">Communities</a></h3>
+            <div class="view view-communities view-id-communities view-display-id-block view-dom-id-d9555582e8cff34504ef3fc372f8a2d5">
+        
+  
+  
+      <div class="view-content">
+      <div class="item-list">    <ul>          <li class="views-row views-row-1 views-row-odd views-row-first">  
+          <a href="/communities/african-american">African American</a>  </li>
+          <li class="views-row views-row-2 views-row-even">  
+          <a href="/communities/arts">Arts</a>  </li>
+          <li class="views-row views-row-3 views-row-odd">  
+          <a href="/communities/disabled-proud">Disabled &amp; Proud</a>  </li>
+          <li class="views-row views-row-4 views-row-even">  
+          <a href="/communities/health-wellness">Health &amp; Wellness</a>  </li>
+          <li class="views-row views-row-5 views-row-odd">  
+          <a href="/communities/hmong">Hmong</a>  </li>
+          <li class="views-row views-row-6 views-row-even">  
+          <a href="/communities/latino">Latino</a>  </li>
+          <li class="views-row views-row-7 views-row-odd">  
+          <a href="/communities/lgbt">LGBT</a>  </li>
+          <li class="views-row views-row-8 views-row-even">  
+          <a href="/communities/oromo">Oromo</a>  </li>
+          <li class="views-row views-row-9 views-row-odd">  
+          <a href="/communities/somali">Somali</a>  </li>
+          <li class="views-row views-row-10 views-row-even views-row-last">  
+          <a href="/communities/vietnamese">Vietnamese</a>  </li>
+      </ul></div>    </div>
+  
+  
+  
+  
+  
+  
+</div>        </div>
+        <div class='fifthx fourth left'>
+            <h3 class="white"><a href="/events">Upcoming</a></h3>
+            <div class="view view-events view-id-events view-display-id-block_2 view-dom-id-e8dfeefd83f6ef6050eb9a972bd7fc25">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first">
+      
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/events/community-events/graywolf-literary-salon-voices-for-time">Graywolf Literary Salon: Voices for our Time</a></span>  </div>  </div>
+  <div class="views-row views-row-2 views-row-even">
+      
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/events/community-events/nokomis-days">Nokomis Days</a></span>  </div>  </div>
+  <div class="views-row views-row-3 views-row-odd">
+      
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/events/community-events/book-signing%C2%A0good-rosie%C2%A0by-kate-dicamillo-harry-bliss">Book Signing: Good Rosie! by Kate DiCamillo and Harry Bliss</a></span>  </div>  </div>
+  <div class="views-row views-row-4 views-row-even">
+      
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/events/community-events/reading-kelly-forsythes-perennial">Reading: Kelly Forsythe&#039;s Perennial</a></span>  </div>  </div>
+  <div class="views-row views-row-5 views-row-odd views-row-last">
+      
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/events/community-events/milkweed-books-reading-kelly-forsythe%E2%80%99s%C2%A0perennial">Milkweed Books Reading: Kelly Forsythe’s Perennial</a></span>  </div>  </div>
+    </div>
+  
+  
+  
+      
+<div class="more-link">
+  <a href="/events">
+    More events  </a>
+</div>
+  
+  
+  
+</div>            
+        </div>
+        <div class="clear"></div>
+    </div>
+    <div class="clear"></div>
+    <div>
+          <div class="region region-search">
+      <div class="region region-search">
+    <div id="block-search-form" class="block block-search">
+
+    
+  <div class="content">
+    <form action="/Submit_Music" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+      <h2 class="element-invisible">Search form</h2>
+    <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Search" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-TJ5YcW1Rq8BJl3axubKSeTwthyHIFqenIK4t3E00Q3k" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>  </div>
+</div>
+  </div>
+  </div>
+    </div>
+    <div>
+          <div class="region region-footer">
+    <div id="block-block-1" class="block block-block">
+
+    
+  <div class="content">
+    <p style="text-align: center;"><a href="http://kfai.org/about/privacy" style="text-decoration: underline;">Privacy Statement</a></p>
+<p style="text-align: center;"><a href="https://publicfiles.fcc.gov/fm-profile/kfai">LINK FOR KFAI PUBLIC FILE</a></p>
+<p style="text-align: center;">© KFAI, 1808 Riverside Avenue, Minneapolis, MN 55454 Tel: 612-341-3144</p>
+  </div>
+</div>
+  </div>
+     </div>
+</div>
+</div>
+<!-- end footer -->
+<script>
+	$(window).load(function(){
+		$('.sticky-enabled tr').each(function() {
+			var old = parseInt($(this).find('.field-name-field-duration .field-item').html());
+			var minutes = Math.floor(old/60);
+			var seconds = old % 60;
+			if(seconds < 10)
+				seconds = "0" + seconds.toString();
+			$(this).find('.field-name-field-duration .field-item').html(minutes + ':' + seconds);
+		});
+	});
+	
+//Form Submit
+$('#webform-client-form-42820').bind('submit', function (event) {
+	var error_msg = "", error_status = 0;
+	$("#error-message").html("");
+	$("#error-message").hide();
+	var emailReg = /^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/;
+	if($("#edit-submitted-first-name").val().length < 2) {
+		error_msg = error_msg + "First name is required<br/>";
+		error_status = 1;
+	}
+	if($("#edit-submitted-last-name").val().length < 2) {
+		error_msg = error_msg + "Last name is required<br/>";
+		error_status = 1;
+	}
+    if($("#edit-submitted-phone-number").val().length < 9) {
+		error_msg = error_msg + "Phone Number must be of length 9 or more<br/>";
+		error_status = 1;
+	}
+	if(!emailReg.test($("#edit-submitted-email-address").val())) {
+		error_msg = error_msg + "Email address entered is invalid<br/>";
+		error_status = 1;
+	}
+	if($("#edit-submitted-address").val().length < 2) {
+		error_msg = error_msg + "Address is required<br/>";
+		error_status = 1;
+	}
+	if($("#edit-submitted-city").val().length < 2) {
+		error_msg = error_msg + "City is required<br/>";
+		error_status = 1;
+	}
+	if($("#edit-submitted-state").val() == "") {
+		error_msg = error_msg + "Please select a state<br/>";
+		error_status = 1;
+	}
+	if($("#edit-submitted-zip").val().length < 5) {
+		error_msg = error_msg + "Zip code must be of length 5<br/>";
+		error_status = 1;
+	}
+	if(error_status == 1) {
+		$("#error-message").html(error_msg);
+		$("#error-message").show();
+		return false;
+	}
+	});
+</script>
+ <script type="text/javascript">
+    /*$(document).ready(function(){
+     // console.log($('.jp-playlist-first a').attr('href'));
+     $(".jp-interface").jPlayer({
+        ready: function () {
+          $(this).jPlayer("setMedia", {
+            mp3: $('.jp-playlist-first a').attr('href')
+          });
+        },
+        swfPath: "/sites/all/libraries/jplayer/Jplayer.swf",
+        supplied: "mp3",
+      });
+    });*/
+</script>
+
+</body>
+</html>

@@ -1,0 +1,1 @@
+/var/lib/mysql/it/300.dump

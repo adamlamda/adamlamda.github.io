@@ -1,0 +1,153 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd" >
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr">
+<head>
+<meta http-equiv="pragma" content="no-cache" />
+<meta http-equiv="Cache-Control" content="no-cache, must-revalidate" />
+<meta name="License" content="GNU Affero General Public License, http://www.gnu.org/licenses/agpl.html" />
+<meta name="Author" content="Michiel Dethmers - http://www.phplist.com" />
+<meta name="Copyright" content="Michiel Dethmers, phpList Ltd - http://phplist.com" />
+<meta name="Powered-By" content="phplist version 3.2.6" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="SHORTCUT ICON" id="favicon" href="./images/phplist.ico" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<link rel="stylesheet" href="ui/dressprow/css/all.min.css?v=1478120591" />
+
+<title>phpList :: phpList :: Send the queue</title><link rel="icon" href="./images/phplist.ico" type="image/x-icon" />
+<link rel="apple-touch-icon" href="./images/phplist-touch-icon.png" />
+<link rel="apple-touch-icon-precomposed" href="./images/phplist-touch-icon.png" />
+</head>
+<body class="login">
+<div id="dialog"></div><div id="hiddendiv"></div>
+
+<div id="container" class="container_24 container">
+	<div id="header" class="grid_24 sixteen columns">
+		<div id="logo"><a href="http://www.phplist.com" target="_blank"><img src="ui/dressprow/images/branding.png" alt="phpList, email newsletter manager, logo" title="phpList, the world's most popular Open Source newsletter manager" /></a></div>
+		<div id="logged">
+<a id="login" href="./?page=home">Login</a> 		</div>
+	</div>
+	<!-- end .grid_24 -->
+	<div class="clear"></div>
+	<div id="navigation" class="grid_24 sixteen columns">
+<div id="main-menu" class=" fourteen columns alpha">
+</div>
+<div class="two columns omega">
+<span id="menu-button"><span>Menu</span></span>
+</div>
+</div>
+<div id="globalhelp">
+    <div class="content">
+        <div class="text">
+            <p>Please login to continue</p>
+        </div>
+    </div>
+    <div class="buttonhelp open">HELP</div>
+    <div class="buttonhelp close">HELP</div>
+</div>
+<div class="clear"></div>
+<div id="content" class="grid_20 twelve columns">
+<div id="wrapp">
+<div id="progressbar"></div>
+<!-- content start here -->
+<h4 class="pagetitle">send the queue</h4><div class="hidden"><a href="./?page=home&amp;tk=998" title="Go to the dashboard page">Dashboard</a></div><noscript><div class="note d533fc9acf638d1"><a href="./?page=login&amp;action=hidenote&amp;note=d533fc9acf638d1" class="hide ajaxable" title="Close this box">Hide</a><p>phpList will work without Javascript, but it will be easier to use if you switch it on.</p></div></noscript><div ></div>
+
+<script language="Javascript" type="text/javascript">
+    //<![CDATA[
+    if (!navigator.cookieEnabled) {
+        document.writeln('<div class="error">In order to login, you need to enable cookies in your browser<\/div>');
+    }
+    //]]>
+</script>
+<form method="post" id="login-form" action="">
+  <input type="hidden" name="page" value="processqueue" />
+  <table class="loginPassUpdate" width="100%" border="0" cellpadding="2" cellspacing="0">
+    <tr><td><span class="general">Name:</span></td></tr>
+    <tr><td><input type="text" name="login" value="" size="30"  autofocus="autofocus" /></td></tr>    <tr><td><span class="general">Password:</span></td></tr>    <tr><td><input type="password" name="password" value="" size="30" /></td></tr>    <tr><td><input class="submit" type="submit" name="process" value="Continue" /></td></tr>  </table></form><form method="post" id="forgotpassword-form" action=""><div class="login"><p>Forgot Password? Enter your email address: </p><input type="text" name="forgotpassword" value="" size="30" />  <input class="submit" type="submit" name="process" value="Send Password" />  <div class="clear"></div></div></form>
+
+<!---->	    </div>
+    </div> <!-- end #content -->
+
+    <div id="right-bar" class="grid_4 four columns">
+            <div id="context-menu" class="menutableright block">
+            <h3>Navigation</h3>
+            <ul class="contextmenu"><li class="shade0"><a href="./?page=home&amp;tk=998" title="Go to the dashboard page">Dashboard</a><br /></li><li class="shade0"><a href="./?page=about&amp;tk=998" title="More information about the phpList application">about phpList</a><br /></li></ul>        </div>
+        <div id="recent" class="menutableright block">
+                    </div>
+	    <div id="language">
+            
+ <div id="languageswitcher">
+       <form name="languageswitchform" method="post" action="">
+           <select name="setlanguage" onchange="document.languageswitchform.submit()">
+                 <option value="ar" >العربية</option>
+                 <option value="bg" >Bulgarian</option>
+                 <option value="ca" >Català</option>
+                 <option value="cs" >Česky</option>
+                 <option value="da" >danske</option>
+                 <option value="de" >Deutsch</option>
+                 <option value="el" >ελληνικά</option>
+                 <option value="en" selected="selected">english</option>
+                 <option value="es" >espa&ntilde;ol</option>
+                 <option value="es_AR" >espa&ntilde;ol (Argentina)</option>
+                 <option value="fa" >فارسی</option>
+                 <option value="fi" >suomi</option>
+                 <option value="fr" >française</option>
+                 <option value="gl" >Galician</option>
+                 <option value="he" >עברית</option>
+                 <option value="hr" >Croatian</option>
+                 <option value="hu" >magyar</option>
+                 <option value="is" >Icelandic</option>
+                 <option value="it" >italiano</option>
+                 <option value="ja" >日本語</option>
+                 <option value="lt" >Lithuanian</option>
+                 <option value="lv" >Latvian</option>
+                 <option value="nb" >Norwegian</option>
+                 <option value="nl" >Nederlands</option>
+                 <option value="nl_BE" >Vlaams</option>
+                 <option value="pl" >polski</option>
+                 <option value="pt" >Portuguese</option>
+                 <option value="pt_BR" >portugu&ecirc;s (Brazil)</option>
+                 <option value="ro" >Romanian</option>
+                 <option value="ru" >русский</option>
+                 <option value="sk" >Slovak</option>
+                 <option value="sl" >Slovenian</option>
+                 <option value="sq" >Albanian</option>
+                 <option value="sr" >Srpski</option>
+                 <option value="sv" >svenska</option>
+                 <option value="tr" >Turkish</option>
+                 <option value="vi" >Việt</option>
+                 <option value="zh_CN" >简体中文</option>
+                 <option value="zh_TW" >Traditional Chinese</option>
+            </select>
+       </form>
+ </div>        </div>
+	<div class="clear"></div>
+<div id="newsfeed" class="menutableright block">
+<h3>phpList community news</h3>
+<ul><li>
+    <div class="publisheddate">Tue, 14 Feb 2017  </div> <a href="https://www.phplist.org/newslist/phplist-3-3-1-released-first-update-for-phplist-3-3/?utm_source=phplist-3.2.6&utm_medium=newspanel&utm_content=phpList+3.3.1+released%3A+First+update+for+phpList+3.3&utm_campaign=newspanel" target="_blank">phpList 3.3.1 released: First update for phpList 3.3</a>
+    
+    </li><li>
+    <div class="publisheddate">Sun, 05 Feb 2017  </div> <a href="https://www.phplist.org/newslist/phplist-3-3-0-sleeker-faster-safer/?utm_source=phplist-3.2.6&utm_medium=newspanel&utm_content=phpList+3.3.0+%E2%80%93+Sleeker.+Faster.+Safer.&utm_campaign=newspanel" target="_blank">phpList 3.3.0 – Sleeker. Faster. Safer.</a>
+    
+    </li><li>
+    <div class="publisheddate">Sun, 05 Feb 2017  </div> <a href="https://www.phplist.org/newslist/phplist-3-3-0-release-notes/?utm_source=phplist-3.2.6&utm_medium=newspanel&utm_content=phpList+3.3.0+Released%3A+Major+update+with+new+user+interface&utm_campaign=newspanel" target="_blank">phpList 3.3.0 Released: Major update with new user interface</a>
+    
+    </li></ul>
+</div>  
+	</div><!-- end #right-bar -->
+	
+	<div class="clear"></div>
+
+</div> <!-- end #container -->
+
+<div id="footer">
+    <div class="container">
+            <a target="_blank" href="https://phplist.com">&copy; phpList ltd.</a> - v3.2.6        <div class="right">
+            <a target="_blank" href="https://resources.phplist.com">Resources</a>&nbsp; |  
+            <a target="_blank" href="http://twitter.com/phplist"><img src="ui/dressprow/images/twitter.png" alt="phpList twitter" /></a>
+        </div>
+    </div>
+</div>
+<script language="Javascript" type="text/javascript" src="ui/dressprow/js/all.min.js?v=1478120591"></script>
+
+
+</body></html>

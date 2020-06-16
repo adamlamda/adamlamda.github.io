@@ -1,0 +1,1220 @@
+<!DOCTYPE HTML><html lang="en-US" xmlns:og="http://ogp.me/ns#" xmlns:fb="http://ogp.me/ns/fb#">
+
+<head>
+<meta charset="UTF-8" />
+<link rel="profile" href="http://gmpg.org/xfn/11" />
+
+<!-- Title -->
+<title>Cumulus | WLEV-FM</title><link rel='dns-prefetch' href='//www.wlevradio.com' />
+<link rel='dns-prefetch' href='//see-p-elb-01.tritondigital.net' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="canonical" href="http://www.wlevradio.com/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.3\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.3\/svg\/","svgExt":".svg","source":{"wpemoji":"http:\/\/www.wlevradio.com\/wp-includes\/js\/wp-emoji.js?ver=4.9.1","twemoji":"http:\/\/www.wlevradio.com\/wp-includes\/js\/twemoji.js?ver=4.9.1"}};
+			( function( window, document, settings ) {
+	var src, ready, ii, tests;
+
+	/*
+	 * Create a canvas element for testing native browser support
+	 * of emoji.
+	 */
+	var canvas = document.createElement( 'canvas' );
+	var context = canvas.getContext && canvas.getContext( '2d' );
+
+	/**
+	 * Check if two sets of Emoji characters render the same.
+	 *
+	 * @param set1 array Set of Emoji characters.
+	 * @param set2 array Set of Emoji characters.
+	 * @returns {boolean} True if the two sets render the same.
+	 */
+	function emojiSetsRenderIdentically( set1, set2 ) {
+		var stringFromCharCode = String.fromCharCode;
+
+		// Cleanup from previous test.
+		context.clearRect( 0, 0, canvas.width, canvas.height );
+		context.fillText( stringFromCharCode.apply( this, set1 ), 0, 0 );
+		var rendered1 = canvas.toDataURL();
+
+		// Cleanup from previous test.
+		context.clearRect( 0, 0, canvas.width, canvas.height );
+		context.fillText( stringFromCharCode.apply( this, set2 ), 0, 0 );
+		var rendered2 = canvas.toDataURL();
+
+		return rendered1 === rendered2;
+	}
+
+	/**
+	 * Detect if the browser supports rendering emoji or flag emoji. Flag emoji are a single glyph
+	 * made of two characters, so some browsers (notably, Firefox OS X) don't support them.
+	 *
+	 * @since 4.2.0
+	 *
+	 * @param type {String} Whether to test for support of "flag" or "emoji".
+	 * @return {Boolean} True if the browser can render emoji, false if it cannot.
+	 */
+	function browserSupportsEmoji( type ) {
+		var isIdentical;
+
+		if ( ! context || ! context.fillText ) {
+			return false;
+		}
+
+		/*
+		 * Chrome on OS X added native emoji rendering in M41. Unfortunately,
+		 * it doesn't work when the font is bolder than 500 weight. So, we
+		 * check for bold rendering support to avoid invisible emoji in Chrome.
+		 */
+		context.textBaseline = 'top';
+		context.font = '600 32px Arial';
+
+		switch ( type ) {
+			case 'flag':
+				/*
+				 * Test for UN flag compatibility. This is the least supported of the letter locale flags,
+				 * so gives us an easy test for full support.
+				 *
+				 * To test for support, we try to render it, and compare the rendering to how it would look if
+				 * the browser doesn't render it correctly ([U] + [N]).
+				 */
+				isIdentical = emojiSetsRenderIdentically(
+					[ 55356, 56826, 55356, 56819 ],
+					[ 55356, 56826, 8203, 55356, 56819 ]
+				);
+
+				if ( isIdentical ) {
+					return false;
+				}
+
+				/*
+				 * Test for English flag compatibility. England is a country in the United Kingdom, it
+				 * does not have a two letter locale code but rather an five letter sub-division code.
+				 *
+				 * To test for support, we try to render it, and compare the rendering to how it would look if
+				 * the browser doesn't render it correctly (black flag emoji + [G] + [B] + [E] + [N] + [G]).
+				 */
+				isIdentical = emojiSetsRenderIdentically(
+					[ 55356, 57332, 56128, 56423, 56128, 56418, 56128, 56421, 56128, 56430, 56128, 56423, 56128, 56447 ],
+					[ 55356, 57332, 8203, 56128, 56423, 8203, 56128, 56418, 8203, 56128, 56421, 8203, 56128, 56430, 8203, 56128, 56423, 8203, 56128, 56447 ]
+				);
+
+				return ! isIdentical;
+			case 'emoji':
+				/*
+				 * Emoji 5 has fairies of all genders.
+				 *
+				 * To test for support, try to render a new emoji (fairy, male), then compares
+				 * it to how it would look if the browser doesn't render it correctly
+				 * (fairy + male sign).
+				 */
+				isIdentical = emojiSetsRenderIdentically(
+					[ 55358, 56794, 8205, 9794, 65039 ],
+					[ 55358, 56794, 8203, 9794, 65039 ]
+				);
+				return ! isIdentical;
+		}
+
+		return false;
+	}
+
+	function addScript( src ) {
+		var script = document.createElement( 'script' );
+
+		script.src = src;
+		script.defer = script.type = 'text/javascript';
+		document.getElementsByTagName( 'head' )[0].appendChild( script );
+	}
+
+	tests = Array( 'flag', 'emoji' );
+
+	settings.supports = {
+		everything: true,
+		everythingExceptFlag: true
+	};
+
+	for( ii = 0; ii < tests.length; ii++ ) {
+		settings.supports[ tests[ ii ] ] = browserSupportsEmoji( tests[ ii ] );
+
+		settings.supports.everything = settings.supports.everything && settings.supports[ tests[ ii ] ];
+
+		if ( 'flag' !== tests[ ii ] ) {
+			settings.supports.everythingExceptFlag = settings.supports.everythingExceptFlag && settings.supports[ tests[ ii ] ];
+		}
+	}
+
+	settings.supports.everythingExceptFlag = settings.supports.everythingExceptFlag && ! settings.supports.flag;
+
+	settings.DOMReady = false;
+	settings.readyCallback = function() {
+		settings.DOMReady = true;
+	};
+
+	if ( ! settings.supports.everything ) {
+		ready = function() {
+			settings.readyCallback();
+		};
+
+		if ( document.addEventListener ) {
+			document.addEventListener( 'DOMContentLoaded', ready, false );
+			window.addEventListener( 'load', ready, false );
+		} else {
+			window.attachEvent( 'onload', ready );
+			document.attachEvent( 'onreadystatechange', function() {
+				if ( 'complete' === document.readyState ) {
+					settings.readyCallback();
+				}
+			} );
+		}
+
+		src = settings.source || {};
+
+		if ( src.concatemoji ) {
+			addScript( src.concatemoji );
+		} else if ( src.wpemoji && src.twemoji ) {
+			addScript( src.twemoji );
+			addScript( src.wpemoji );
+		}
+	}
+
+} )( window, document, window._wpemojiSettings );
+		</script>
+		
+
+<!-- Stylesheets -->
+<link rel='stylesheet' id='headway-google-fonts' href='//fonts.googleapis.com/css?family=Oswald' type='text/css' media='all' />
+<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='bxslider-style-css'  href='http://www.wlevradio.com/wp-content/plugins/shared/js/bxslider/jquery.bxslider.css?ver=4.9.1' type='text/css' media='all' />
+<link rel='stylesheet' id='amp-promo-reel-widget-style-css'  href='http://www.wlevradio.com/wp-content/plugins/amp-promo-reel/includes/../css/widget.css?ver=4.9.1' type='text/css' media='all' />
+<link rel='stylesheet' id='headway-general-css'  href='http://www.wlevradio.com/wp-content/uploads/sites/500/headway/cache/general-61d593c.css?ver=4.9.1' type='text/css' media='all' />
+<link rel='stylesheet' id='headway-layout-front_page-css'  href='http://www.wlevradio.com/wp-content/uploads/sites/500/headway/cache/layout-front_page-9952b3c.css?ver=4.9.1' type='text/css' media='all' />
+<link rel='stylesheet' id='headway-responsive-grid-css'  href='http://www.wlevradio.com/wp-content/uploads/sites/500/headway/cache/responsive-grid-d2119e4.css?ver=4.9.1' type='text/css' media='all' />
+<meta name="builder-styles-css" content="" id="builder-styles-css">
+<link rel='stylesheet' id='amp-breaking-news-css'  href='http://www.wlevradio.com/wp-content/plugins/amp-breaking-news/public/css/public.css?ver=0.2.3' type='text/css' media='all' />
+<link rel='stylesheet' id='animate-style-css'  href='http://www.wlevradio.com/wp-content/plugins/shared/css/animate.css?ver=0.2.3' type='text/css' media='all' />
+<link rel='stylesheet' id='amp-styles-plugin-styles-css'  href='http://www.wlevradio.com/wp-content/plugins/amp-styles/css/public.css?ver=1.4.1' type='text/css' media='all' />
+<link rel='stylesheet' id='amp-events-calendar-styles-css'  href='http://www.wlevradio.com/wp-content/plugins/amp-events/css/calendar.css?ver=1.1.4' type='text/css' media='all' />
+<link rel='stylesheet' id='amp-events-export-styles-css'  href='http://www.wlevradio.com/wp-content/plugins/amp-events/css/public.css?ver=1.1.4' type='text/css' media='all' />
+<link rel='stylesheet' id='amp_feed-plugin-styles-css'  href='http://www.wlevradio.com/wp-content/plugins/amp-feeds/css/public.css?ver=0.4.0' type='text/css' media='all' />
+<link rel='stylesheet' id='amp-image-rotator-plugin-styles-css'  href='http://www.wlevradio.com/wp-content/plugins/amp-image-rotator/public/assets/css/public.css?ver=1.0.0' type='text/css' media='all' />
+<link rel='stylesheet' id='amp-listen-live-plugin-styles-css'  href='http://www.wlevradio.com/wp-content/plugins/amp-listen-live/public/assets/css/public.css?ver=1.4.4' type='text/css' media='all' />
+<link rel='stylesheet' id='amp-onair-plugin-styles-css'  href='http://www.wlevradio.com/wp-content/plugins/amp-onair/public/assets/css/public.css?ver=1.7.1' type='text/css' media='all' />
+<link rel='stylesheet' id='AMPPromoReel-plugin-styles-css'  href='http://www.wlevradio.com/wp-content/plugins/amp-promo-reel/css/public.css?ver=1.4.0' type='text/css' media='all' />
+<link rel='stylesheet' id='mediaelement-css'  href='http://www.wlevradio.com/wp-includes/js/mediaelement/mediaelementplayer-legacy.min.css?ver=4.2.6-78496d1' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-mediaelement-css'  href='http://www.wlevradio.com/wp-includes/js/mediaelement/wp-mediaelement.css?ver=4.9.1' type='text/css' media='all' />
+<link rel='stylesheet' id='amp-tabs-plugin-styles-css'  href='http://www.wlevradio.com/wp-content/plugins/amp-tabs/public/assets/css/public.css?ver=1.0.0' type='text/css' media='all' />
+<link rel='stylesheet' id='amp-header-rotator-css'  href='http://www.wlevradio.com/wp-content/themes/Headway-AMP_CMS/css/amp-header-rotator.css?ver=1.1.5' type='text/css' media='all' />
+<link rel="stylesheet" type="text/css" media="all" href="http://www.wlevradio.com/wp-content/themes/Headway-AMP_CMS/style.css" />
+
+<!-- Scripts -->
+<script type='text/javascript' src='http://www.wlevradio.com/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='http://www.wlevradio.com/wp-includes/js/jquery/jquery-migrate.js?ver=1.4.1'></script>
+<script type='text/javascript' src='http://www.wlevradio.com/wp-content/themes/headway/library/blocks/navigation/js/selectnav.js?ver=1533183780'></script>
+<script type='text/javascript' src='http://www.wlevradio.com/wp-content/themes/headway/library/media/js/jquery.hoverintent.js?ver=4.9.1'></script>
+<script type='text/javascript' src='http://www.wlevradio.com/wp-content/themes/headway/library/blocks/navigation/js/jquery.superfish.js?ver=4.9.1'></script>
+<script type='text/javascript' src='http://www.wlevradio.com/wp-content/uploads/sites/500/headway/cache/block-dynamic-js-layout-front_page-769a883.js?ver=4.9.1'></script>
+<script type='text/javascript' src='http://www.wlevradio.com/wp-content/plugins/shared/js/bxslider/jquery.bxslider.min.js?ver=4.9.1'></script>
+<script type='text/javascript' src='http://www.wlevradio.com/wp-content/plugins/amp-promo-reel/includes/../js/widget.js?ver=1.4.0'></script>
+<script type='text/javascript' src='http://www.wlevradio.com/wp-content/themes/headway/library/media/js/jquery.fitvids.js?ver=4.9.1'></script>
+<script type='text/javascript' src='http://www.wlevradio.com/wp-content/uploads/sites/500/headway/cache/responsive-grid-js-e6e6939.js?ver=4.9.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var _ampconfig = {"site_url":"http:\/\/www.wlevradio.com","site_id":"500","tz":"America\/New_York","tz_offset":"-4","ts":"1533183780","blog_name":"WLEV-FM","client_name":"cumuluspro","user_ID":"","ts_offset":"1535350971","version":"2.47.0.3","env":"prod","settings":{"tenant_id":"see_10437","syn_site_name":"WLEV-FM","selector_logo":false,"selector_masthead":false,"selector_nav":false,"selector_rotator":false,"default_show_name":"100.7 LEV - 80\\\\\\'s-90\\\\\\'s-NOW!","default_show_img":"http:\/\/images.tritondigitalcms.com\/6616\/sites\/500\/2017\/06\/19142221\/2017-LEV-WEBSITE-logo-80s90sNOW.png","gtm_id":false,"vidible_company_key":"06125e55709b3c4ffdfe3c3f8a9ed8bd","client_name":false,"nielsen_provider":"cumulus","promoreel_priority":true}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.wlevradio.com/wp-content/plugins/shared/js/amp-common.js?ver=1533183780'></script>
+<script type='text/javascript' src='http://www.wlevradio.com/wp-content/plugins/amp-breaking-news/public/js/public.js?ver=0.2.3'></script>
+<script type='text/javascript' src='http://www.wlevradio.com/wp-content/plugins/amp-styles/js/public.js?ver=1.4.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var dates = {"start_of_week":"1","moment_date_format":"MMMM D, YYYY","moment_time_format":"h:mm a","calendar_date_format":"MMMM d, yyyy","calendar_time_format":"h:mm tt","date_format":"MM d, yy","time_format":"h:mm tt"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.wlevradio.com/wp-content/plugins/amp-events/js/calendar.js?ver=1.1.4'></script>
+<script type='text/javascript' src='http://www.wlevradio.com/wp-content/plugins/amp-events/js/public.js?ver=1.1.4'></script>
+<script type='text/javascript' src='http://www.wlevradio.com/wp-content/plugins/amp-feeds/js/jquery.totemticker.min.js?ver=0.4.0'></script>
+<script type='text/javascript' src='http://www.wlevradio.com/wp-includes/js/jquery/ui/core.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://www.wlevradio.com/wp-includes/js/jquery/ui/widget.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://www.wlevradio.com/wp-includes/js/jquery/ui/tabs.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://www.wlevradio.com/wp-content/plugins/amp-feeds/js/amp-feed.js?ver=0.4.0'></script>
+<script type='text/javascript' src='http://www.wlevradio.com/wp-content/plugins/amp-feeds/js/public.js?ver=0.4.0'></script>
+<script type='text/javascript' src='http://www.wlevradio.com/wp-content/plugins/amp-feeds/js/date.js?ver=0.4.0'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var _amplistenlive = {"blog_id":"500","callsign":"","mount_name":"WLEVFM","provider":"stream_the_world","gmt_offset":"-14400"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.wlevradio.com/wp-content/plugins/amp-listen-live/public/assets/js/public.js?ver=1.4.4'></script>
+<script type='text/javascript' src='http://www.wlevradio.com/wp-content/plugins/amp-onair/public/assets/js/public.js?ver=1.7.1'></script>
+<script type='text/javascript' src='//see-p-elb-01.tritondigital.net/widget/see_10437/see.js?ver=1.3.0'></script>
+<script type='text/javascript' src='http://www.wlevradio.com/wp-content/themes/Headway-AMP_CMS/js/amp-theme.js?ver=1.1.5'></script>
+
+<!--[if lt IE 9]>
+<script src="http://www.wlevradio.com/wp-content/themes/headway/library/media/js/html5shiv.js"></script>
+<![endif]-->
+
+<!--[if lt IE 8]>
+<script src="http://www.wlevradio.com/wp-content/themes/headway/library/media/js/ie8.js"></script>
+<![endif]-->
+
+<script type='text/javascript'>
+var googletag = googletag || {};
+googletag.cmd = googletag.cmd || [];
+(function() {
+var gads = document.createElement('script');
+gads.async = true;
+gads.type = 'text/javascript';
+var useSSL = 'https:' == document.location.protocol;
+gads.src = (useSSL ? 'https:' : 'http:') + 
+'//www.googletagservices.com/tag/js/gpt.js';
+var node = document.getElementsByTagName('script')[0];
+node.parentNode.insertBefore(gads, node);
+})();
+</script>
+<script type='text/javascript'>
+googletag.cmd.push(function() {
+
+var leaderboardSizeMap = googletag.sizeMapping()
+ .addSize([970, 0], [[728, 90], [970, 90]])
+ .addSize([750,0], [728,90])
+ .addSize([0, 0], [[320, 50], [320, 53]])
+ .build();
+
+googletag.defineSlot('/6717/cd.WLEV.FM', [[300, 250], [300, 600]], 'div-gpt-ad-1418849849333-0').addService(googletag.pubads())
+.setCollapseEmptyDiv(true).setTargeting("pos","mid");
+googletag.defineSlot('/6717/cd.WLEV.FM', [[728, 90], [970, 90]], 'div-gpt-ad-1418849849333-1').addService(googletag.pubads())
+.defineSizeMapping(leaderboardSizeMap).setCollapseEmptyDiv(true).setTargeting("pos","top");
+googletag.defineSlot('/6717/cd.WLEV.FM', [[728, 90], [970, 90]], 'div-gpt-ad-1418849849333-2').addService(googletag.pubads())
+.defineSizeMapping(leaderboardSizeMap).setCollapseEmptyDiv(true).setTargeting("pos","bot");
+googletag.defineSlot('/6717/cd.WLEV.FM', [[300, 250], [300, 600]], 'div-gpt-ad-1418849849333-3').addService(googletag.pubads())
+.setCollapseEmptyDiv(true).setTargeting("pos","mid2");
+googletag.defineSlot('/6717/cd.WLEV.FM', [[160, 600]], 'div-gpt-ad-1418849849333-4').addService(googletag.pubads())
+.setCollapseEmptyDiv(true).setTargeting("pos","left");
+googletag.defineSlot('/6717/cd.WLEV.FM', [[160, 600]], 'div-gpt-ad-1418849849333-5').addService(googletag.pubads())
+.setCollapseEmptyDiv(true).setTargeting("pos","right");
+googletag.defineSlot('/6717/cd.WLEV.FM', [[654, 70]], 'div-gpt-ad-1418849849333-6').addService(googletag.pubads())
+.setCollapseEmptyDiv(true).setTargeting("pos","rdioplayer");
+googletag.defineSlot('/6717/cd.WLEV.FM', [[300, 100]], 'div-gpt-ad-1418849849333-7').addService(googletag.pubads())
+.setCollapseEmptyDiv(true).setTargeting("pos","contest1");
+googletag.defineSlot('/6717/cd.WLEV.FM', [[300, 100]], 'div-gpt-ad-1418849849333-8').addService(googletag.pubads())
+.setCollapseEmptyDiv(true).setTargeting("pos","contest2");
+googletag.defineSlot('/6717/cd.WLEV.FM', [[300, 100]], 'div-gpt-ad-1418849849333-9').addService(googletag.pubads())
+.setCollapseEmptyDiv(true).setTargeting("pos","contest3");
+googletag.defineSlot('/6717/cd.WLEV.FM', [[100, 51]], 'div-gpt-ad-1418849849333-10').addService(googletag.pubads())
+.setCollapseEmptyDiv(true).setTargeting("pos","rdiobutton");
+googletag.defineSlot('/6717/cd.WLEV.FM', [[113, 23]], 'div-gpt-ad-1418849849333-11').addService(googletag.pubads())
+.setCollapseEmptyDiv(true).setTargeting("pos","feedsponsor1");
+googletag.defineSlot('/6717/cd.WLEV.FM', [[113, 23]], 'div-gpt-ad-1418849849333-12').addService(googletag.pubads())
+.setCollapseEmptyDiv(true).setTargeting("pos","feedsponsor2");
+googletag.defineSlot('/6717/cd.WLEV.FM', [[113, 23]], 'div-gpt-ad-1418849849333-13').addService(googletag.pubads())
+.setCollapseEmptyDiv(true).setTargeting("pos","feedsponsor3");
+googletag.defineSlot('/6717/cd.WLEV.FM', [[113, 23]], 'div-gpt-ad-1418849849333-14').addService(googletag.pubads())
+.setCollapseEmptyDiv(true).setTargeting("pos","feedsponsor4");
+googletag.defineSlot('/6717/cd.WLEV.fm', [[1, 1]],'div-gpt-ad-1418849849333-16').addService(googletag.pubads())
+.setTargeting("pos","wallpaper-ad");
+googletag.pubads().enableSingleRequest();
+googletag.enableServices();
+googletag.defineSlot('/6717/cd.WLEV.fm', [[300, 250], [300, 600]], 'div-gpt-ad-1418849849333-18').setCollapseEmptyDiv(true).addService(googletag.pubads())
+.setTargeting("pos","midresponsive");
+});
+</script>
+
+<!--ONESTAT SCRIPTCODE START Embed Player-->
+  <script type="text/javascript">
+  <!--
+  jQuery(document).ready(function(){
+    var d=document;
+    var sid="wlev-fm.cumulus";
+    var CONTENTSECTION="";
+    var osp_URL=d.URL;
+    var osp_Title=d.title;
+    var t=new Date();
+    var p="http"+(d.URL.indexOf('https:')==0?'s':'')+"://stat.onestat.com/stat.aspx?tagver=2&sid="+sid;
+    p+="&url="+escape(osp_URL);
+    p+="&ti="+escape(osp_Title);
+    p+="&section="+escape(CONTENTSECTION);
+    p+="&rf="+escape(parent==self?document.referrer:top.document.referrer);
+    p+="&tz="+escape(t.getTimezoneOffset());
+    p+="&ch="+escape(t.getHours());
+    p+="&js=1";
+    p+="&ul="+escape(navigator.appName=="Netscape"?navigator.language:navigator.userLanguage);
+    if(osp_URL!=d.URL) p+="&ol="+escape(d.URL);
+    if(typeof(screen)=="object"){
+       p+="&sr="+screen.width+"x"+screen.height;p+="&cd="+screen.colorDepth;
+       p+="&jo="+(navigator.javaEnabled()?"Yes":"No");
+    }
+
+    var imgTag = '<img border="0" height="0" width="0" id="ONESTAT_TAG" src="' + p + '">'
+    jQuery('body').append(imgTag);
+
+  })
+  //-->
+  </script> 
+<!--ONESTAT SCRIPTCODE END-->
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','corpDataLayer','GTM-5LZBPK');</script>
+<!-- End Google Tag Manager -->
+
+<!-- BEGIN INFINITE FACEBOOK PIXEL -->
+<script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '181461212508101');
+  fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=181461212508101&ev=PageView&noscript=1"
+/></noscript>
+<!-- END INFINITE FACEBOOK PIXEL -->
+<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
+<link rel="alternate" type="application/rss+xml" title="WLEV-FM &raquo; Feed" href="http://www.wlevradio.com/feed/" />
+<link rel='shortlink' href='http://www.wlevradio.com/' />
+<!-- Customization: Default -->
+<style style="text/css" id="customize-styles">
+.block-title, .block-title a {background-color: #e59927 !important; 
+background-image: none !important;
+}
+
+</style>
+<script>_AMP.theme.data = [];</script>
+<script type="text/javascript">var ajaxurl = "http://www.wlevradio.com/wp-admin/admin-ajax.php"</script><script type="text/javascript">var ajaxurl = "http://www.wlevradio.com/wp-admin/admin-ajax.php"</script>
+<!-- AMP CMS DFP custom tags -->
+<script type='text/javascript'>
+  googletag.cmd.push(function() {
+      googletag.pubads().setTargeting('cms-sname', 'WLEVFM');
+      googletag.pubads().setTargeting('cms-sgroup', ['All Sites', 'Format  AC', 'Market  AllentownBethlehem PA']);
+      googletag.pubads().setTargeting('cms-ptitle', 'Home');
+  });
+</script>
+
+<!-- START - Facebook Open Graph, Google+ and Twitter Card Tags 2.0.4 -->
+ <!-- Facebook Open Graph -->
+  <meta property="og:locale" content="en_US"/>
+  <meta property="og:site_name" content="WLEV-FM"/>
+  <meta property="og:title" content="WLEV-FM"/>
+  <meta property="og:url" content="http://www.wlevradio.com"/>
+  <meta property="og:type" content="website"/>
+  <meta property="og:description" content="Cumulus"/>
+ <!-- Google+ / Schema.org -->
+  <meta itemprop="name" content="WLEV-FM"/>
+  <meta itemprop="description" content="Cumulus"/>
+ <!-- Twitter Cards -->
+  <meta name="twitter:title" content="WLEV-FM"/>
+  <meta name="twitter:url" content="http://www.wlevradio.com"/>
+  <meta name="twitter:description" content="Cumulus"/>
+  <meta name="twitter:card" content="summary_large_image"/>
+ <!-- SEO -->
+ <!-- Misc. tags -->
+<!-- END - Facebook Open Graph, Google+ and Twitter Card Tags 2.0.4 -->
+
+
+</head><!-- End <head> -->
+
+<body class="home page-template-default page page-id-27 custom responsive-grid-enabled responsive-grid-active pageid-27 page-slug-home layout-front_page layout-using-front_page builder-parallax-scrolling-active" itemscope itemtype="http://schema.org/WebPage">
+
+
+<div id="whitewrap">
+
+
+<div id="wrapper-8" class="wrapper wrapper-fluid wrapper-fixed-grid grid-fluid-24-32-10 responsive-grid wrapper-first wrapper-header" data-alias="Wrapper Header">
+
+<div class="grid-container clearfix">
+
+<section class="row row-1">
+
+<section class="column column-1 grid-left-0 grid-width-24">
+<div id="block-27" class="block block-type-custom-code block-fluid-height" data-alias="728x90 Leaderboard Ad">
+<div class="block-content">
+<div align="center">
+<div id='div-gpt-ad-1418849849333-1'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1418849849333-1'); });
+</script>
+</div>    
+</div>
+</div><!-- .block-content -->
+
+</div><!-- #block-27 -->
+
+</section><!-- .column -->
+
+</section><!-- .row -->
+
+
+<section class="row row-2">
+
+<section class="column column-1 grid-left-0 grid-width-5">
+<figure id="block-31" class="logo block block-type-image block-fixed-height" data-alias="Logo" itemscope="" itemtype="http://schema.org/ImageObject">
+<div class="block-content">
+<a href="/" class="image" ><img src="http://images.tritondigitalcms.com/6616/sites/500/2017/04/11132044/WLEV-FM-sitelogo-80s90sNOW-COMPRESSED.png" alt="" title="" itemprop="contentURL"/></a>
+</div><!-- .block-content -->
+
+</figure><!-- #block-31 -->
+<div id="block-b8z54a44441b0250" class="takeover-left block block-type-custom-code block-fluid-height" data-alias="Skyscraper - Left">
+<div class="block-content">
+<div id='div-gpt-ad-1418849849333-4'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1418849849333-4'); });
+</script>
+</div>
+</div><!-- .block-content -->
+
+</div><!-- #block-b8z54a44441b0250 -->
+
+</section><!-- .column -->
+
+<section class="column column-2 grid-left-0 grid-width-19">
+<div id="block-ban5a8c45f6e6993" class="block block-type-custom-code block-fluid-height" data-alias="Empty Spacer">
+<div class="block-content">
+&nbsp;
+</div><!-- .block-content -->
+
+</div><!-- #block-ban5a8c45f6e6993 -->
+
+<section class="sub-column sub-column-1 column column-1 grid-width-7 grid-left-0">
+<aside id="block-29" class="on-air block block-type-widget-area block-fluid-height" data-alias="Home - On Air Now" itemscope="" itemtype="http://schema.org/WPSideBar">
+<div class="block-content">
+<ul class="widget-area"><div class="amp-onair-widget" id="amp_onair_widget-2"
+	data-title-now=""
+	data-title-upcoming=""
+	data-title=""
+	data-type="nowplaying"
+	data-change-minutes="5"
+	data-change="0"
+	data-toggle-time="10"
+	data-fields="image,timeslot"
+	data-ajaxurl="http://www.wlevradio.com/wp-admin/admin-ajax.php"
+	data-updateurl="http://www.wlevradio.com/shows/feed/?type=json"
+	data-memcached="1"
+	data-expiration="1535364000">
+	
+<div class="amp-onair-show nowplaying" >
+
+    <div class="amp-onair-widget-title js-widget-title"></div>
+
+        <div class="amp-onair-show-image">
+                    <img class="js-image amp-onair-show-image-img" src="http://images.tritondigitalcms.com/6616/sites/500/2016/10/24135200/SELENA-AND-CROCKETT296x300.png"  />
+            </div>
+        
+    <div class="amp-onair-show-title">
+            <span class="js-title">Selena &amp; Crockett</span>
+        </div>
+    
+        <div class="amp-onair-show-timeslot js-timeslot" >5:00 a.m. - 10:00 a.m.</div>
+        
+        
+    
+</div>
+</div></ul>
+</div><!-- .block-content -->
+
+</aside><!-- #block-29 -->
+
+</section><!-- .sub-column -->
+
+<section class="sub-column sub-column-2 column column-2 grid-width-9 grid-left-0">
+<section id="block-30" class="social-nav block block-type-social block-fixed-height" data-alias="Social Navigation">
+<div class="block-content">
+<div class="social-icons-container"><ul class="social-icons"><li><a href="#"><img src="http://www.wlevradio.com/wp-content/uploads/sites/500/2016/04/listen-live.png" title="Listen Live!!" class="img-1"  /></a></li><li><a href="/listen-live-with-alexa"><img src="http://images.tritondigitalcms.com/6616/sites/500/2018/01/08131005/Alexa-Social-Logo-MUSIC.png" alt="Alexa" class="img-2"  /></a></li><li><a href="https://www.facebook.com/1007lev" target="_blank"><img src="http://cumulus.pro.poolb.tritondigitalcms.com/wlev-fm/wp-content/uploads/sites/500/2014/10/facebook.png" title="Like us on Facebook!" class="img-3"  /></a></li><li><a href="https://twitter.com/1007WLEV" target="_blank"><img src="http://cumulus.pro.poolb.tritondigitalcms.com/wlev-fm/wp-content/uploads/sites/500/2014/10/twitter.png" title="Follow us on Twitter!" class="img-4"  /></a></li><li><a href="https://www.instagram.com/1007wlev" target="_blank"><img src="http://www.wlevradio.com/wp-content/uploads/sites/500/2016/05/instagramicon.png" title="Instagram" class="img-5"  /></a></li><li><a href="http://wlevradio.listenernetwork.com/" target="_blank"><img src="http://cumulus.pro.poolb.tritondigitalcms.com/wlev-fm/wp-content/uploads/sites/500/2015/01/cumulus-vip.png" title="VIP" class="img-6"  /></a></li></ul></div><!-- .social-icons-container -->
+</div><!-- .block-content -->
+
+</section><!-- #block-30 -->
+
+</section><!-- .sub-column -->
+
+<section class="sub-column sub-column-3 column column-3 grid-width-3 grid-left-0">
+<div id="block-bvt5a8c45f6ee285" class="gigya-actions block block-type-custom-code block-fluid-height" data-alias="Gigya Profile Actions">
+<div class="block-content">
+<div class="see-widget" data-see-type="regUi" data-see-loginbonus="false"></div>
+</div><!-- .block-content -->
+
+</div><!-- #block-bvt5a8c45f6ee285 -->
+
+</section><!-- .sub-column -->
+
+<section class="sub-column sub-column-1 column column-1 grid-width-13 grid-left-0">
+<div id="block-ban5a8c45f6e6993" class="block block-type-custom-code block-fluid-height block-mirrored block-mirroring-ban5a8c45f6e6993 block-original-bex5a8c46012c976" data-alias="Empty Spacer">
+<div class="block-content">
+&nbsp;
+</div><!-- .block-content -->
+
+</div><!-- #block-ban5a8c45f6e6993 -->
+
+</section><!-- .sub-column -->
+
+<section class="sub-column sub-column-2 column column-2 grid-width-6 grid-left-0">
+<nav id="block-33" class="nav-search block block-type-navigation block-fluid-height" data-alias="Navigation Search" itemscope="" itemtype="http://schema.org/SiteNavigationElement">
+<div class="block-content">
+<div class="nav-horizontal nav-align-left nav-search-active nav-search-position-left"><div class="nav-search">
+		<form method="get" id="searchform" action="http://www.wlevradio.com/">
+			<label for="s" class="assistive-text">Search</label>
+			<input type="text" class="field" name="s" id="s" value="Type to search, then press enter" onclick="if(this.value=='Type to search, then press enter')this.value='';" onblur="if(this.value=='')this.value='Type to search, then press enter';" />
+			<input type="submit" class="submit" name="searchsubmit" id="searchsubmit" value="Search" />
+		</form>
+	</div></div><!-- .nav-horizontal nav-align-left nav-search-active nav-search-position-left -->
+</div><!-- .block-content -->
+
+</nav><!-- #block-33 -->
+
+</section><!-- .sub-column -->
+<nav id="block-32" class="main-nav block block-type-navigation block-fluid-height" data-alias="Main Navigation" itemscope="" itemtype="http://schema.org/SiteNavigationElement">
+<div class="block-content">
+<div class="nav-horizontal nav-align-left"><ul id="menu-main-navigation" class="menu"><li id="menu-item-996592" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-996592"><a href="http://www.wlevradio.com/on-air/">On-Air</a>
+<ul class="sub-menu">
+	<li id="menu-item-712311" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-712311"><a href="http://www.wlevradio.com/selena-crockett/">Selena &#038; Crockett</a></li>
+	<li id="menu-item-619999" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-619999"><a href="http://www.wlevradio.com/jolana/">Jolana</a></li>
+	<li id="menu-item-65888" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-65888"><a href="http://www.wlevradio.com/joshgears/">Josh Gears</a></li>
+	<li id="menu-item-65897" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-65897"><a href="http://www.wlevradio.com/kristy-obrian/">Kristy O&#8217;Brian</a></li>
+	<li id="menu-item-65900" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-65900"><a href="http://www.wlevradio.com/backtrax-usa-with-kid-kelly/">Backtrax USA with Kid Kelly</a></li>
+	<li id="menu-item-65906" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-65906"><a href="http://www.wlevradio.com/the-daly-download-with-carson-daly/">The Daly Download with Carson Daly</a></li>
+</ul>
+</li>
+<li id="menu-item-125" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-125"><a href="http://www.wlevradio.com/news/">News</a>
+<ul class="sub-menu">
+	<li id="menu-item-65909" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-65909"><a href="http://www.wlevradio.com/traffic/">Lehigh Valley Traffic</a></li>
+	<li id="menu-item-299412" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-299412"><a href="http://www.wlevradio.com/1111/11/11/cnn-news/">CNN News</a></li>
+	<li id="menu-item-66689" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-66689"><a href="http://www.wlevradio.com/category/cnn-entertainment/">Entertainment News</a></li>
+	<li id="menu-item-66680" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-66680"><a href="http://www.wlevradio.com/category/cnn-health/">Health News</a></li>
+	<li id="menu-item-299409" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-299409"><a href="http://www.wlevradio.com/1111/11/11/sports-news/">Sports News</a></li>
+</ul>
+</li>
+<li id="menu-item-121" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-121"><a href="http://www.wlevradio.com/features/">Features</a>
+<ul class="sub-menu">
+	<li id="menu-item-66752" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-66752"><a href="http://www.wlevradio.com/way-back-lunch/">Lunchtime Rewind</a></li>
+	<li id="menu-item-66701" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-66701"><a href="http://www.wlevradio.com/ask-the-experts/">Ask the Experts</a></li>
+	<li id="menu-item-189426" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-189426"><a href="http://www.wlevradio.com/features/photo-gallery-test/">Photo Gallery</a></li>
+</ul>
+</li>
+<li id="menu-item-127" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-127"><a href="/amp-events/">Events</a>
+<ul class="sub-menu">
+	<li id="menu-item-130854" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-130854"><a href="http://www.wlevradio.com/lev-events/">LEV Events</a></li>
+	<li id="menu-item-67637" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-67637"><a href="http://www.wlevradio.com/lev-concerts-2/">LEV Welcomes</a></li>
+	<li id="menu-item-66785" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-66785"><a href="http://www.wlevradio.com/community-events/">What&#8217;s Up This Weekend</a></li>
+	<li id="menu-item-167203" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-167203"><a href="http://www.wlevradio.com/work/">Lehigh Valley Job Fair</a></li>
+</ul>
+</li>
+<li id="menu-item-123" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-123"><a href="http://www.wlevradio.com/contests/">Contests</a>
+<ul class="sub-menu">
+	<li id="menu-item-66797" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-66797"><a href="http://www.wlevradio.com/weekly-prizes/">Weekly Prizes</a></li>
+	<li id="menu-item-66830" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-66830"><a href="http://www.wlevradio.com/join-the-100-7-lev-text-club/">Join the 100.7 LEV Text Club!</a></li>
+	<li id="menu-item-949193" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-949193"><a href="http://www.wlevradio.com/general-contest-rules-for-100-7-wlev/">General Contest Rules for 100.7 WLEV</a></li>
+</ul>
+</li>
+<li id="menu-item-117" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-117"><a href="http://allentown.sweetdealscumulus.com/">Sweet Deals</a></li>
+<li id="menu-item-671516" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-671516"><a href="http://www.wlevradio.com/advertise-with-us/">Advertise With Us</a>
+<ul class="sub-menu">
+	<li id="menu-item-945411" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-945411"><a href="http://www.wlevradio.com/2017/06/13/cmail/">CMAIL</a></li>
+</ul>
+</li>
+<li id="menu-item-711720" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-711720"><a href="http://wlev-fm.mygameroom.com">Games</a></li>
+</ul></div><!-- .nav-horizontal nav-align-left -->
+</div><!-- .block-content -->
+
+</nav><!-- #block-32 -->
+
+<section class="sub-column sub-column-1 column column-1 grid-width-5 grid-left-0">
+<div id="block-b0b54a44441b2caa" class="takeover-right block block-type-custom-code block-fluid-height" data-alias="Skyscraper - Right">
+<div class="block-content">
+<div id='div-gpt-ad-1418849849333-5'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1418849849333-5'); });
+</script>
+</div>
+</div><!-- .block-content -->
+
+</div><!-- #block-b0b54a44441b2caa -->
+
+</section><!-- .sub-column -->
+
+</section><!-- .column -->
+
+</section><!-- .row -->
+
+
+</div><!-- .grid-container -->
+
+</div><!-- .wrapper -->
+
+<div id="wrapper-9" class="wrapper wrapper-fluid wrapper-fixed-grid grid-fluid-24-32-10 responsive-grid wrapper-content" data-alias="Wrapper Content">
+
+<div class="grid-container clearfix">
+
+<section class="row row-1">
+
+<section class="column column-1 grid-left-0 grid-width-16">
+<aside id="block-35" class="promo-reel block block-type-widget-area block-fluid-height" data-alias="Home - Promo Reel" itemscope="" itemtype="http://schema.org/WPSideBar">
+<div class="block-content">
+<ul class="widget-area"><li id="amp_promo_reel-2" class="widget widget_amp_promo_reel sidebar_promo">
+<div class="sliderWrapper"><div class="sliderBody" style=""><div class="bxslider" data-navigation-arrows='0' data-rotation-time='3000' data-pager-type='thumbnails'><div class="sliderItem" style="background-image: url(http://images.tritondigitalcms.com/6616/sites/500/2018/06/29104519/TABLE-FOR-TWOSDAY-654X5151.jpg);background-color: #000;background-repeat: no-repeat;background-size: contain;background-position: 50% 50%;position: relative;height: 300px;cursor: pointer;" onclick="window.location='http://www.wlevradio.com/?p=961117'"><div class="promoCaption bottom"><div class="captionTitle">Listen Tuesday at 8:20, 9:20, 3:20 and 4:20 to WIN a $50 to Queen City Bar-B-Q!</div><div class="captionTeaser">Buy a $50 Gift Certificate for Just $25! On-Sale Thursday at 9am! </div></div></div><div class="sliderItem" style="background-image: url(http://images.tritondigitalcms.com/6616/sites/500/2018/05/14095112/Selena-and-Crockett-in-the-Community-654x515.jpg);background-color: #000;background-repeat: no-repeat;background-size: contain;background-position: 50% 50%;position: relative;height: 300px;cursor: pointer;" onclick="window.open('http://www.wlevradio.com/?p=952134', '_blank')"><div class="promoCaption bottom"><div class="captionTitle"> </div></div></div><div class="sliderItem" style="background-image: url(http://images.tritondigitalcms.com/6616/sites/500/2018/06/21110032/PET-OF-THE-WEEK-654X5151.jpg);background-color: #000;background-repeat: no-repeat;background-size: contain;background-position: 50% 50%;position: relative;height: 300px;cursor: pointer;" onclick="window.location='http://www.wlevradio.com/?p=953719'"><div class="promoCaption bottom"><div class="captionTitle"> </div><div class="captionTeaser"> Join Selena & Crockett on Facebook Live each week!</div></div></div><div class="sliderItem" style="background-image: url(http://images.tritondigitalcms.com/6616/2018/07/18225456/Thousand-Dollar-Payoff-Live-PromoReel.jpg);background-color: #000;background-repeat: no-repeat;background-size: cover;background-position: 50% 50%;position: relative;height: 300px;cursor: pointer;" onclick="window.location='http://www.wlevradio.com/2018/07/13/4k-summer-thousand-dollar-payoff'"><div class="promoCaption bottom"><div class="captionTitle">Enter to win $1k!</div></div></div><div class="sliderItem" style="background-image: url(http://images.tritondigitalcms.com/6616/2018/08/17193903/LaborDay-PromoReel.jpg);background-color: #000;background-repeat: no-repeat;background-size: cover;background-position: 50% 50%;position: relative;height: 300px;cursor: pointer;" onclick="window.location='http://www.wlevradio.com/2018/08/20/ultimate-labor-day/'"><div class="promoCaption bottom"><div class="captionTitle">Enter to win $2k!</div></div></div></div></div><div class="sliderThumbBar"><div class="sliderThumbViewport"><div class="sliderThumb selected"><div class="sliderThumbImage" style="background-image: url(http://images.tritondigitalcms.com/6616/sites/500/2018/06/29104519/TABLE-FOR-TWOSDAY-654X5151-150x150.jpg);background-color: #000;background-size: contain;background-position: 50% 50%;background-repeat: no-repeat;position: relative;" data-slide-index="0"></div></div><div class="sliderThumb"><div class="sliderThumbImage" style="background-image: url(http://images.tritondigitalcms.com/6616/sites/500/2018/05/14095112/Selena-and-Crockett-in-the-Community-654x515-150x150.jpg);background-color: #000;background-size: contain;background-position: 50% 50%;background-repeat: no-repeat;position: relative;" data-slide-index="1"></div></div><div class="sliderThumb"><div class="sliderThumbImage" style="background-image: url(http://images.tritondigitalcms.com/6616/sites/500/2018/06/21110032/PET-OF-THE-WEEK-654X5151-150x150.jpg);background-color: #000;background-size: contain;background-position: 50% 50%;background-repeat: no-repeat;position: relative;" data-slide-index="2"></div></div><div class="sliderThumb"><div class="sliderThumbImage" style="background-image: url(http://images.tritondigitalcms.com/6616/2018/07/18225456/Thousand-Dollar-Payoff-Live-PromoReel-150x150.jpg);background-color: #000;background-size: cover;background-position: 50% 50%;background-repeat: no-repeat;position: relative;" data-slide-index="3"></div></div><div class="sliderThumb"><div class="sliderThumbImage" style="background-image: url(http://images.tritondigitalcms.com/6616/2018/08/17193903/LaborDay-PromoReel-150x150.jpg);background-color: #000;background-size: cover;background-position: 50% 50%;background-repeat: no-repeat;position: relative;" data-slide-index="4"></div></div></div></div></div></li><!-- .widget -->
+</ul>
+</div><!-- .block-content -->
+
+</aside><!-- #block-35 -->
+<div id="block-75" class="mobile-only block block-type-custom-code block-fluid-height" data-alias="Responsive Ad">
+<div class="block-content">
+<div id='div-gpt-ad-1418849849333-18'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1418849849333-18'); });
+</script>
+</div>
+</div><!-- .block-content -->
+
+</div><!-- #block-75 -->
+<div id="block-9" class="300x250-ad-1-r block block-type-custom-code block-fluid-height responsive-block-hiding-device-smartphones responsive-block-hiding-device-tablets-landscape responsive-block-hiding-device-tablets-portrait responsive-block-hiding-device-computers" data-alias="">
+<div class="block-content">
+<p>There is no custom code to display.</p>
+</div><!-- .block-content -->
+
+</div><!-- #block-9 -->
+<div id="block-11" class="sweet-deals-ad-r block block-type-custom-code block-fluid-height responsive-block-hiding-device-smartphones responsive-block-hiding-device-tablets-landscape responsive-block-hiding-device-tablets-portrait responsive-block-hiding-device-computers" data-alias="">
+<div class="block-content">
+<p>There is no custom code to display.</p>
+</div><!-- .block-content -->
+
+</div><!-- #block-11 -->
+<div id="block-b4w552c223b49110" class="top-stories block block-type-content block-fluid-height" data-alias="Lev Contest">
+<div class="block-content">
+<h1 class="block-title"><span>Lev Contest</span></h1><div class="loop">
+
+<div class="entry-row">
+
+<article id="post-995911" class="post-995911 post type-post status-publish format-standard has-post-thumbnail hentry category-contests category-lev-welcomes author-bdawson custom-query" itemscope itemtype="http://schema.org/BlogPosting">
+			<a href="http://www.wlevradio.com/2018/08/20/100-7-lev-welcomes-gavin-degraw-phillip-phillips-to-mount-airy-casino-resort/" class="post-thumbnail post-thumbnail-left">
+				<img src="http://images.tritondigitalcms.com/6616/sites/500/2018/08/20113840/GAVIN-DEGRAW-PHILLIP-PHILLIPS-300X200.jpg" alt="100.7 LEV Welcomes Gavin Degraw &#038; Phillip Phillips to Mount Airy Casino Resort" width="auto" height="auto" itemprop="image" />
+			</a>
+		<header><h2 class="entry-title" itemprop="headline"><a href="http://www.wlevradio.com/2018/08/20/100-7-lev-welcomes-gavin-degraw-phillip-phillips-to-mount-airy-casino-resort/" title="100.7 LEV Welcomes Gavin Degraw &#038; Phillip Phillips to Mount Airy Casino Resort" rel="bookmark">100.7 LEV Welcomes Gavin Degraw &#038; Phillip Phillips to Mount Airy Casino Resort</a></h2></header><div class="entry-summary entry-content" itemprop="text"><p>LISTEN TO SELENA &amp; CROCKETT THIS WEEK AT 7:40 TO WIN A PAIR OF TICKETS! PHILLIP PHILLIPS &amp; GAVIN DEGRAW Thursday, August 30 7PM • DOORS AT 5PM • OUTDOOR SUMMER STAGE TICKETS $65 / $50 / $35 BUY TICKETS<span class="more-link-ellipsis">&#8230;  </span><a href="http://www.wlevradio.com/2018/08/20/100-7-lev-welcomes-gavin-degraw-phillip-phillips-to-mount-airy-casino-resort/" class="more-link">More</a></p>
+</div><!-- .entry-summary.entry-content --></article><!-- #post-995911 --><article id="post-995826" class="post-995826 post type-post status-publish format-standard has-post-thumbnail hentry category-contests category-national-contests tag-contest tag-enter-2-win tag-enter-to-win tag-enter2win tag-labor-day author-dvena alt custom-query" itemscope itemtype="http://schema.org/BlogPosting">
+			<a href="http://www.wlevradio.com/2018/08/20/ultimate-labor-day/" class="post-thumbnail post-thumbnail-left">
+				<img src="http://images.tritondigitalcms.com/6616/2018/08/07174106/LaborDay-FeaturedImage.jpg" alt="Win 2k each week for the Ultimate Labor Day Party" width="auto" height="auto" itemprop="image" />
+			</a>
+		<header><h2 class="entry-title" itemprop="headline"><a href="http://www.wlevradio.com/2018/08/20/ultimate-labor-day/" title="Win 2k each week for the Ultimate Labor Day Party" rel="bookmark">Win 2k each week for the Ultimate Labor Day Party</a></h2></header><div class="entry-summary entry-content" itemprop="text"><p>Being the hostess with the mostess is a cinch, when you’ve got an extra $2000 in your pocket!<span class="more-link-ellipsis">&#8230;  </span><a href="http://www.wlevradio.com/2018/08/20/ultimate-labor-day/" class="more-link">More</a></p>
+</div><!-- .entry-summary.entry-content --></article><!-- #post-995826 -->
+
+</div><!-- .entry-row -->
+
+
+
+<div class="entry-row">
+
+<article id="post-961117" class="post-961117 post type-post status-publish format-standard has-post-thumbnail hentry category-contests category-uncategorized author-bdawson custom-query" itemscope itemtype="http://schema.org/BlogPosting">
+			<a href="http://www.wlevradio.com/2018/07/22/table-for-twos-day/" class="post-thumbnail post-thumbnail-left">
+				<img src="http://images.tritondigitalcms.com/6616/sites/500/2015/04/11102035/TABLE-FOR-TWOSDAY-300X200.jpg" alt="Table for TWOs-day" width="auto" height="auto" itemprop="image" />
+			</a>
+		<header><h2 class="entry-title" itemprop="headline"><a href="http://www.wlevradio.com/2018/07/22/table-for-twos-day/" title="Table for TWOs-day" rel="bookmark">Table for TWOs-day</a></h2></header><div class="entry-summary entry-content" itemprop="text"><p>Listen Tuesday at 8:20/9:20/3:20/4:20 Win a $50 gift certificate to Queen City BBQ! CLICK ↓ FOR ALL OF THE CURRENT DEALS!<span class="more-link-ellipsis">&#8230;  </span><a href="http://www.wlevradio.com/2018/07/22/table-for-twos-day/" class="more-link">More</a></p>
+</div><!-- .entry-summary.entry-content --></article><!-- #post-961117 --><article id="post-973899" class="post-973899 post type-post status-publish format-standard has-post-thumbnail hentry category-contests tag-4k-a-day tag-contest tag-fast-money-keyword tag-summer-fun-payoff tag-t2w tag-text-2-win tag-text-to-win tag-text2win tag-thousand-dollar-payoff tag-thousand-dollar-summer tag-weekday-payday tag-workday-payday author-dvena alt custom-query" itemscope itemtype="http://schema.org/BlogPosting">
+			<a href="http://www.wlevradio.com/2018/07/13/4k-summer-thousand-dollar-payoff/" class="post-thumbnail post-thumbnail-left">
+				<img src="http://images.tritondigitalcms.com/6616/2018/07/12201708/Thousand-Dollar-Payoff-Teaser-FeaturedImage.jpg" alt="4k Summer &#8211; Thousand Dollar Payoff" width="auto" height="auto" itemprop="image" />
+			</a>
+		<header><h2 class="entry-title" itemprop="headline"><a href="http://www.wlevradio.com/2018/07/13/4k-summer-thousand-dollar-payoff/" title="4k Summer &#8211; Thousand Dollar Payoff" rel="bookmark">4k Summer &#8211; Thousand Dollar Payoff</a></h2></header><div class="entry-summary entry-content" itemprop="text"><p>Listen Monday through Friday for the keyword and you could win $1,000!<span class="more-link-ellipsis">&#8230;  </span><a href="http://www.wlevradio.com/2018/07/13/4k-summer-thousand-dollar-payoff/" class="more-link">More</a></p>
+</div><!-- .entry-summary.entry-content --></article><!-- #post-973899 -->
+
+</div><!-- .entry-row -->
+
+
+
+<div class="entry-row">
+
+<article id="post-944649" class="post-944649 post type-post status-publish format-standard has-post-thumbnail hentry category-contests category-lev-welcomes author-bdawson custom-query" itemscope itemtype="http://schema.org/BlogPosting">
+			<a href="http://www.wlevradio.com/2017/09/15/niall-horan-coming-to-the-great-allentown-fair-in-2018/" class="post-thumbnail post-thumbnail-left">
+				<img src="http://images.tritondigitalcms.com/6616/sites/500/2017/09/16091221/NiallHoran-Maren300X200.jpg" alt="Niall Horan Coming to the Great Allentown Fair in 2018!" width="auto" height="auto" itemprop="image" />
+			</a>
+		<header><h2 class="entry-title" itemprop="headline"><a href="http://www.wlevradio.com/2017/09/15/niall-horan-coming-to-the-great-allentown-fair-in-2018/" title="Niall Horan Coming to the Great Allentown Fair in 2018!" rel="bookmark">Niall Horan Coming to the Great Allentown Fair in 2018!</a></h2></header><div class="entry-summary entry-content" itemprop="text"><p>NIALL HORAN WEEKEND! TEXT: SLOW TO 68683 FOR A CHANCE TO WIN A PAIR OF TICKETS! (Msg&amp;DataRatesMayApply/MUST BE 18 TO ENTER/Deadline to text is 11:59pm on 8/17/18) Niall Horan: Flicker World Tour 2018 Please note Price includes admission to Fair. This event is rain or shine. No refunds, exchanges or upgrades are given for tickets. This&hellip;<span class="more-link-ellipsis">&#8230;  </span><a href="http://www.wlevradio.com/2017/09/15/niall-horan-coming-to-the-great-allentown-fair-in-2018/" class="more-link">More</a></p>
+</div><!-- .entry-summary.entry-content --></article><!-- #post-944649 -->
+
+</div><!-- .entry-row -->
+
+</div>
+</div><!-- .block-content -->
+
+</div><!-- #block-b4w552c223b49110 -->
+<div id="block-bkl552c229b358a1" class="top-stories block block-type-content block-fluid-height" data-alias="What’s Happening">
+<div class="block-content">
+<h1 class="block-title"><span>What’s Happening</span></h1><div class="loop">
+
+<div class="entry-row">
+
+<article id="post-995278" class="post-995278 post type-post status-publish format-standard has-post-thumbnail hentry category-homepage category-top-stories category-whats-happening author-bdawson alt custom-query" itemscope itemtype="http://schema.org/BlogPosting">
+			<a href="http://www.wlevradio.com/2018/08/03/2018-can-jam-for-hunger/" class="post-thumbnail post-thumbnail-left">
+				<img src="http://images.tritondigitalcms.com/6616/sites/497/2018/08/03150154/can-jam-300x200.jpg" alt="2018 CAN JAM FOR HUNGER" width="auto" height="auto" itemprop="image" />
+			</a>
+		<header><h2 class="entry-title" itemprop="headline"><a href="http://www.wlevradio.com/2018/08/03/2018-can-jam-for-hunger/" title="2018 CAN JAM FOR HUNGER" rel="bookmark">2018 CAN JAM FOR HUNGER</a></h2></header><div class="entry-summary entry-content" itemprop="text"><p>THE FIRST EVER CIOCCA SUBARU CAN JAM FOR HUNGER IS HAPPENING ON SEPT. 21st AND 22nd AT THE HAMILTON CROSSINGS SHOPPING CENTER. WE WILL BE THERE BOTH DAYS, COLLECTING CANNED GOODS AND MONEY FOR THE SECOND HARVEST FOOD BANK. LIVE MUSIC: NASHVILLE ARTIST &#8216;EVERETT&#8216; ON FRIDAY AT 2PM ERIN KELLY ON FRIDAY (TIME TBD) FOOD, FUN,&hellip;<span class="more-link-ellipsis">&#8230;  </span><a href="http://www.wlevradio.com/2018/08/03/2018-can-jam-for-hunger/" class="more-link">More</a></p>
+</div><!-- .entry-summary.entry-content --></article><!-- #post-995278 --><article id="post-958193" class="post-958193 post type-post status-publish format-standard has-post-thumbnail hentry category-homepage category-top-stories category-uncategorized author-bdawson custom-query" itemscope itemtype="http://schema.org/BlogPosting">
+			<a href="http://www.wlevradio.com/2018/06/18/regal-summer-movie-express/" class="post-thumbnail post-thumbnail-left">
+				<img src="http://images.tritondigitalcms.com/6616/sites/500/2018/06/21095504/Email-Marquee-520x434-300x250-1.jpg" alt="Regal Summer Movie Express" width="auto" height="auto" itemprop="image" />
+			</a>
+		<header><h2 class="entry-title" itemprop="headline"><a href="http://www.wlevradio.com/2018/06/18/regal-summer-movie-express/" title="Regal Summer Movie Express" rel="bookmark">Regal Summer Movie Express</a></h2></header><div class="entry-summary entry-content" itemprop="text"><p>Find Big Deals at the Big Screen, all summer long &#8211; during Regal Cinemas’ Summer Movie Express! Every Tuesday and Wednesday morning at 10 catch a G or PG-rated movie for just $1 at select Regal theatres! Bring the kids for all their favorites, like The Lego Movie, Despicable Me, Sing, Alvin and the Chipmunks, Boss Baby, Kung Fu Panda 3&hellip;<span class="more-link-ellipsis">&#8230;  </span><a href="http://www.wlevradio.com/2018/06/18/regal-summer-movie-express/" class="more-link">More</a></p>
+</div><!-- .entry-summary.entry-content --></article><!-- #post-958193 -->
+
+</div><!-- .entry-row -->
+
+</div>
+</div><!-- .block-content -->
+
+</div><!-- #block-bkl552c229b358a1 -->
+<div id="block-bj4552c229d7928b" class="top-stories block block-type-content block-fluid-height" data-alias="LEV Welcomes">
+<div class="block-content">
+<h1 class="block-title"><span>LEV Welcomes</span></h1><div class="loop">
+
+<div class="entry-row">
+
+<article id="post-995911" class="post-995911 post type-post status-publish format-standard has-post-thumbnail hentry category-contests category-lev-welcomes author-bdawson alt custom-query" itemscope itemtype="http://schema.org/BlogPosting">
+			<a href="http://www.wlevradio.com/2018/08/20/100-7-lev-welcomes-gavin-degraw-phillip-phillips-to-mount-airy-casino-resort/" class="post-thumbnail post-thumbnail-left">
+				<img src="http://images.tritondigitalcms.com/6616/sites/500/2018/08/20113840/GAVIN-DEGRAW-PHILLIP-PHILLIPS-300X200.jpg" alt="100.7 LEV Welcomes Gavin Degraw &#038; Phillip Phillips to Mount Airy Casino Resort" width="auto" height="auto" itemprop="image" />
+			</a>
+		<header><h2 class="entry-title" itemprop="headline"><a href="http://www.wlevradio.com/2018/08/20/100-7-lev-welcomes-gavin-degraw-phillip-phillips-to-mount-airy-casino-resort/" title="100.7 LEV Welcomes Gavin Degraw &#038; Phillip Phillips to Mount Airy Casino Resort" rel="bookmark">100.7 LEV Welcomes Gavin Degraw &#038; Phillip Phillips to Mount Airy Casino Resort</a></h2></header><div class="entry-summary entry-content" itemprop="text"><p>LISTEN TO SELENA &amp; CROCKETT THIS WEEK AT 7:40 TO WIN A PAIR OF TICKETS! PHILLIP PHILLIPS &amp; GAVIN DEGRAW Thursday, August 30 7PM • DOORS AT 5PM • OUTDOOR SUMMER STAGE TICKETS $65 / $50 / $35 BUY TICKETS<span class="more-link-ellipsis">&#8230;  </span><a href="http://www.wlevradio.com/2018/08/20/100-7-lev-welcomes-gavin-degraw-phillip-phillips-to-mount-airy-casino-resort/" class="more-link">More</a></p>
+</div><!-- .entry-summary.entry-content --></article><!-- #post-995911 --><article id="post-995853" class="post-995853 post type-post status-publish format-standard has-post-thumbnail hentry category-lev-welcomes author-bdawson custom-query" itemscope itemtype="http://schema.org/BlogPosting">
+			<a href="http://www.wlevradio.com/2018/08/13/100-7-lev-welcomes-carlos-mencia-to-sands-bethlehem-event-center/" class="post-thumbnail post-thumbnail-left">
+				<img src="http://images.tritondigitalcms.com/6616/sites/500/2018/08/13113637/Carlos-Mencia-300x200.jpg" alt="100.7 LEV Welcomes Carlos Mencia to Sands Bethlehem Event Center" width="auto" height="auto" itemprop="image" />
+			</a>
+		<header><h2 class="entry-title" itemprop="headline"><a href="http://www.wlevradio.com/2018/08/13/100-7-lev-welcomes-carlos-mencia-to-sands-bethlehem-event-center/" title="100.7 LEV Welcomes Carlos Mencia to Sands Bethlehem Event Center" rel="bookmark">100.7 LEV Welcomes Carlos Mencia to Sands Bethlehem Event Center</a></h2></header><div class="entry-summary entry-content" itemprop="text"><p>Carlos Mencia – Friday, September 28th at 8:00pm. Ticket prices will be $49.50, $39.50, and $29.50. Tickets go on-sale Friday, August 10th at 10am. A pre-sale for Music Insiders Club Members will take place on Thursday, August 9th from 10a-10p. The Music Insiders Club can be joined at www.SandsEventCenter.com.<span class="more-link-ellipsis">&#8230;  </span><a href="http://www.wlevradio.com/2018/08/13/100-7-lev-welcomes-carlos-mencia-to-sands-bethlehem-event-center/" class="more-link">More</a></p>
+</div><!-- .entry-summary.entry-content --></article><!-- #post-995853 -->
+
+</div><!-- .entry-row -->
+
+
+
+<div class="entry-row">
+
+<article id="post-970864" class="post-970864 post type-post status-publish format-standard has-post-thumbnail hentry category-lev-welcomes author-bdawson alt custom-query" itemscope itemtype="http://schema.org/BlogPosting">
+			<a href="http://www.wlevradio.com/2018/07/10/straight-up-paula-at-sands-bethlehem-event-center/" class="post-thumbnail post-thumbnail-left">
+				<img src="http://images.tritondigitalcms.com/6616/sites/500/2018/07/13105349/VX_Vu2Jw.jpg" alt="Straight Up Paula! at Sands Bethlehem Event Center" width="auto" height="auto" itemprop="image" />
+			</a>
+		<header><h2 class="entry-title" itemprop="headline"><a href="http://www.wlevradio.com/2018/07/10/straight-up-paula-at-sands-bethlehem-event-center/" title="Straight Up Paula! at Sands Bethlehem Event Center" rel="bookmark">Straight Up Paula! at Sands Bethlehem Event Center</a></h2></header><div class="entry-summary entry-content" itemprop="text"><p>The Sands Bethlehem Event Center is proud to announce the following show&#8230; Paula Abdul&#8217;s STRAIGHT UP PAULA! on Tuesday, October 23rd at 8:00pm! Paula Julie Abdul is an American singer, songwriter, voice actress, dancer, choreographer, actress and television personality. She began her career as a cheerleader for the Los Angeles Lakers at the age of&hellip;<span class="more-link-ellipsis">&#8230;  </span><a href="http://www.wlevradio.com/2018/07/10/straight-up-paula-at-sands-bethlehem-event-center/" class="more-link">More</a></p>
+</div><!-- .entry-summary.entry-content --></article><!-- #post-970864 --><article id="post-952145" class="post-952145 post type-post status-publish format-standard has-post-thumbnail hentry category-lev-welcomes author-bdawson custom-query" itemscope itemtype="http://schema.org/BlogPosting">
+			<a href="http://www.wlevradio.com/2018/01/24/just-announced-100-7-lev-welcomes-sir-elton-john-to-the-ppl-center/" class="post-thumbnail post-thumbnail-left">
+				<img src="http://images.tritondigitalcms.com/6616/sites/500/2018/01/24143855/EltonJohn-2018-300x200.jpg" alt="JUST ANNOUNCED: 100.7 LEV Welcomes Sir Elton John to the PPL Center" width="auto" height="auto" itemprop="image" />
+			</a>
+		<header><h2 class="entry-title" itemprop="headline"><a href="http://www.wlevradio.com/2018/01/24/just-announced-100-7-lev-welcomes-sir-elton-john-to-the-ppl-center/" title="JUST ANNOUNCED: 100.7 LEV Welcomes Sir Elton John to the PPL Center" rel="bookmark">JUST ANNOUNCED: 100.7 LEV Welcomes Sir Elton John to the PPL Center</a></h2></header><div class="entry-summary entry-content" itemprop="text"><p>ELTON JOHN FAREWELL YELLOW BRICK ROAD TOUR SATURDAY, SEPTEMBER 8 PPL CENTER ALLENTOWN, PA TICKETS CAN BE PURCHASED AT THE QNB BOX OFFICE, PPLCENTER.COM, OR CHARGE BY PHONE AT 610-347-TIXX [8499] ELTON JOHN BIDS FAREWELL TO THE ROAD Epic Three-Year Final “Farewell Yellow Brick Road” Tour Dates Announced Tickets go on sale for the General&hellip;<span class="more-link-ellipsis">&#8230;  </span><a href="http://www.wlevradio.com/2018/01/24/just-announced-100-7-lev-welcomes-sir-elton-john-to-the-ppl-center/" class="more-link">More</a></p>
+</div><!-- .entry-summary.entry-content --></article><!-- #post-952145 -->
+
+</div><!-- .entry-row -->
+
+
+
+<div class="entry-row">
+
+<article id="post-952090" class="post-952090 post type-post status-publish format-standard has-post-thumbnail hentry category-lev-welcomes author-bdawson alt custom-query" itemscope itemtype="http://schema.org/BlogPosting">
+			<a href="http://www.wlevradio.com/2018/01/23/just-announced-100-7-lev-welcomes-britney-spears-to-sands-bethlehem-event-center/" class="post-thumbnail post-thumbnail-left">
+				<img src="http://images.tritondigitalcms.com/6616/sites/500/2018/01/23083651/BritneySpears-300x200_preview.jpg" alt="100.7 LEV Welcomes Britney Spears to Sands Bethlehem Event Center" width="auto" height="auto" itemprop="image" />
+			</a>
+		<header><h2 class="entry-title" itemprop="headline"><a href="http://www.wlevradio.com/2018/01/23/just-announced-100-7-lev-welcomes-britney-spears-to-sands-bethlehem-event-center/" title="100.7 LEV Welcomes Britney Spears to Sands Bethlehem Event Center" rel="bookmark">100.7 LEV Welcomes Britney Spears to Sands Bethlehem Event Center</a></h2></header><div class="entry-summary entry-content" itemprop="text"><p>Tuesday |  July 17, 2018 Lobby Doors: 6:00 pm   |   Showtime: 8:00 pm CLICK HERE FOR MORE INFO<span class="more-link-ellipsis">&#8230;  </span><a href="http://www.wlevradio.com/2018/01/23/just-announced-100-7-lev-welcomes-britney-spears-to-sands-bethlehem-event-center/" class="more-link">More</a></p>
+</div><!-- .entry-summary.entry-content --></article><!-- #post-952090 -->
+
+</div><!-- .entry-row -->
+
+</div>
+</div><!-- .block-content -->
+
+</div><!-- #block-bj4552c229d7928b -->
+<div id="block-b2b552c22cbaff99" class="top-stories block block-type-content block-fluid-height" data-alias="LEV Cares">
+<div class="block-content">
+<h1 class="block-title"><span>LEV Cares</span></h1><div class="loop">
+
+<div class="entry-row">
+
+<article id="post-995890" class="post-995890 post type-post status-publish format-standard has-post-thumbnail hentry category-cat-cares category-lev-cares author-bdawson custom-query" itemscope itemtype="http://schema.org/BlogPosting">
+			<a href="http://www.wlevradio.com/2018/08/17/camelot-shindig/" class="post-thumbnail post-thumbnail-left">
+				<img src="http://images.tritondigitalcms.com/6616/sites/497/2018/08/17095319/Camelot-Shindig-300x200.png" alt="Camelot-Shindig" width="auto" height="auto" itemprop="image" />
+			</a>
+		<header><h2 class="entry-title" itemprop="headline"><a href="http://www.wlevradio.com/2018/08/17/camelot-shindig/" title="Camelot-Shindig" rel="bookmark">Camelot-Shindig</a></h2></header><div class="entry-summary entry-content" itemprop="text"><p>Join the annual Shindig to benefit Camelot for Children. This year’s party is going to be a blast with costumes optional, but highly suggested!  It is being held on Saturday, October 13th from7-11pm at the Allentown Fairgrounds’ Agri-Plex. The event will feature the award-winning Philadelphia Funk Authority. The Shindig is certain to be an evening filled with fun, friends&hellip;<span class="more-link-ellipsis">&#8230;  </span><a href="http://www.wlevradio.com/2018/08/17/camelot-shindig/" class="more-link">More</a></p>
+</div><!-- .entry-summary.entry-content --></article><!-- #post-995890 --><article id="post-995829" class="post-995829 post type-post status-publish format-standard has-post-thumbnail hentry category-cat-cares category-lev-cares author-bdawson alt custom-query" itemscope itemtype="http://schema.org/BlogPosting">
+			<a href="http://www.wlevradio.com/2018/08/08/1028492/" class="post-thumbnail post-thumbnail-left">
+				<img src="http://images.tritondigitalcms.com/6616/sites/497/2018/08/08082223/AFSP-300x200.jpg" alt="Out of the Darkness Walk" width="auto" height="auto" itemprop="image" />
+			</a>
+		<header><h2 class="entry-title" itemprop="headline"><a href="http://www.wlevradio.com/2018/08/08/1028492/" title="Out of the Darkness Walk" rel="bookmark">Out of the Darkness Walk</a></h2></header><div class="entry-summary entry-content" itemprop="text"><p>Join Cat Country 96 and 100.7 LEV in the Lehigh Parkway in Allentown on October 7th at 10am! Out of the Darkness Greater Lehigh Valley Walk Walk Date: 10/07/2018 Walk Location: Lehigh Parkway &#8211; Allentown, PA Check-in/Registration Time: 10/07/2018 at 10:00 am Walk Begins: 12:00 pm Walk Ends: 3:00 pm CLICK HERE FOR MORE INFO!<span class="more-link-ellipsis">&#8230;  </span><a href="http://www.wlevradio.com/2018/08/08/1028492/" class="more-link">More</a></p>
+</div><!-- .entry-summary.entry-content --></article><!-- #post-995829 -->
+
+</div><!-- .entry-row -->
+
+
+
+<div class="entry-row">
+
+<article id="post-984696" class="post-984696 post type-post status-publish format-standard has-post-thumbnail hentry category-lev-cares category-uncategorized author-bdawson custom-query" itemscope itemtype="http://schema.org/BlogPosting">
+			<a href="http://www.wlevradio.com/2018/07/23/save-the-date/" class="post-thumbnail post-thumbnail-left">
+				<img src="http://images.tritondigitalcms.com/6616/sites/500/2018/07/23124147/LPD-SAVE-THE-DATE-300X200.jpg" alt="Save the Date!" width="auto" height="auto" itemprop="image" />
+			</a>
+		<header><h2 class="entry-title" itemprop="headline"><a href="http://www.wlevradio.com/2018/07/23/save-the-date/" title="Save the Date!" rel="bookmark">Save the Date!</a></h2></header><div class="entry-summary entry-content" itemprop="text"><p><span class="more-link-ellipsis">&#8230;  </span><a href="http://www.wlevradio.com/2018/07/23/save-the-date/" class="more-link">More</a></p>
+</div><!-- .entry-summary.entry-content --></article><!-- #post-984696 --><article id="post-953719" class="post-953719 post type-post status-publish format-standard has-post-thumbnail hentry category-homepage category-lev-cares author-bdawson alt custom-query" itemscope itemtype="http://schema.org/BlogPosting">
+			<a href="http://www.wlevradio.com/2018/03/02/pet-of-the-week/" class="post-thumbnail post-thumbnail-left">
+				<img src="http://images.tritondigitalcms.com/6616/sites/500/2018/03/21105650/PET-OF-THE-WEEK-300X2001.jpg" alt="Pet of the Week!" width="auto" height="auto" itemprop="image" />
+			</a>
+		<header><h2 class="entry-title" itemprop="headline"><a href="http://www.wlevradio.com/2018/03/02/pet-of-the-week/" title="Pet of the Week!" rel="bookmark">Pet of the Week!</a></h2></header><div class="entry-summary entry-content" itemprop="text"><p>&nbsp; Join Selena and Crockett Monday Mornings at 9:30 AM for their Facebook Live Pet of the Week!!!! Selena and Crockett showcasing pets looking for their forever homes.  They all come from different animal rescues from the Lehigh Valley and Poconos!  Participating Rescues Include: Boomer&#8217;s Angels The Sanctuary at Haafsville &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Road&hellip;<span class="more-link-ellipsis">&#8230;  </span><a href="http://www.wlevradio.com/2018/03/02/pet-of-the-week/" class="more-link">More</a></p>
+</div><!-- .entry-summary.entry-content --></article><!-- #post-953719 -->
+
+</div><!-- .entry-row -->
+
+</div>
+</div><!-- .block-content -->
+
+</div><!-- #block-b2b552c22cbaff99 -->
+
+<section class="sub-column sub-column-1 column column-1 grid-width-8 grid-left-0">
+<div id="block-48" class="facebook block block-type-custom-code block-fluid-height" data-alias="Facebook Widget">
+<div class="block-content">
+<iframe src="//www.facebook.com/plugins/likebox.php?href=https://www.facebook.com/1007lev&amp;width=310&amp;height=448&amp;colorscheme=light&amp;show_faces=true&amp;border_color&amp;stream=true&amp;header=true" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:310px; height:448px; background: #fff;" allowtransparency="true"></iframe>
+</div><!-- .block-content -->
+
+</div><!-- #block-48 -->
+
+</section><!-- .sub-column -->
+
+<section class="sub-column sub-column-2 column column-2 grid-width-8 grid-left-0">
+<div id="block-49" class="twitter block block-type-custom-code block-fluid-height" data-alias="Twitter Widget">
+<div class="block-content">
+<a class="twitter-timeline" data-dnt="true" href="https://twitter.com/1007WLEV" data-widget-id="580029096492687360">Tweets by @1007WLEV</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+<iframe src="http://rss.bloople.net/?url=statetheatre.org%2Fiheartradio%2Fstatetheatre_show_sched_2.xml&showicon=true&showempty=true&type=html"></iframe>
+</div><!-- .block-content -->
+
+</div><!-- #block-49 -->
+
+</section><!-- .sub-column -->
+
+</section><!-- .column -->
+
+<section class="column column-2 grid-left-0 grid-width-8">
+<div id="block-34" class="300x250-ad-1 block block-type-custom-code block-fluid-height" data-alias="300x250 Ad 1">
+<div class="block-content">
+<div id='div-gpt-ad-1418849849333-0'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1418849849333-0'); });
+</script>
+</div>
+</div><!-- .block-content -->
+
+</div><!-- #block-34 -->
+<div id="block-38" class="sweet-deals-ad block block-type-custom-code block-fluid-height" data-alias="Sweet Deals Ad">
+<div class="block-content">
+<a href="http://allentown.sweetdealscumulus.com/"><img src="/wp-content/uploads/sites/500/2014/10/sweetdeals.png"></a>
+</div><!-- .block-content -->
+
+</div><!-- #block-38 -->
+<div id="block-36" class="vip-club-ad block block-type-custom-code block-fluid-height" data-alias="VIP Club Ad">
+<div class="block-content">
+<div id='div-gpt-ad-1418849849333-7'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1418849849333-7'); });
+</script>
+</div>
+</div><!-- .block-content -->
+
+</div><!-- #block-36 -->
+<div id="block-42" class="facebook-ad block block-type-custom-code block-fluid-height" data-alias="Facebook Ad">
+<div class="block-content">
+<div id='div-gpt-ad-1418849849333-8'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1418849849333-8'); });
+</script>
+</div>
+
+
+
+</div><!-- .block-content -->
+
+</div><!-- #block-42 -->
+<div id="block-43" class="headlines block block-type-content block-fluid-height" data-alias="Headlines">
+<div class="block-content">
+<h1 class="block-title"><span>Headlines</span></h1><div class="loop">
+
+<div class="entry-row">
+
+<article id="post-997943" class="post-997943 feed_posts type-feed_posts status-publish has-post-thumbnail hentry category-cnn-entertainment custom-query" itemscope itemtype="http://schema.org/BlogPosting"><header><h2 class="entry-title" itemprop="headline"><a href="http://www.wlevradio.com/news/neil-simon-comedy-giant-who-straddled-the-worlds-of-theater-movies-tv/" title="Neil Simon: Comedy giant who straddled the worlds of theater, movies, TV" rel="bookmark">Neil Simon: Comedy giant who straddled the worlds of theater, movies, TV</a></h2></header></article><!-- #post-997943 --><article id="post-997944" class="post-997944 feed_posts type-feed_posts status-publish has-post-thumbnail hentry category-cnn-entertainment alt custom-query" itemscope itemtype="http://schema.org/BlogPosting"><header><h2 class="entry-title" itemprop="headline"><a href="http://www.wlevradio.com/news/sharp-objects-twisty-finish-cant-redeem-flawed-run/" title="&#8216;Sharp Objects&#8217; twisty finish can&#8217;t redeem flawed run" rel="bookmark">&#8216;Sharp Objects&#8217; twisty finish can&#8217;t redeem flawed run</a></h2></header></article><!-- #post-997944 -->
+
+</div><!-- .entry-row -->
+
+
+
+<div class="entry-row">
+
+<article id="post-997787" class="post-997787 feed_posts type-feed_posts status-publish has-post-thumbnail hentry category-cnn-entertainment custom-query" itemscope itemtype="http://schema.org/BlogPosting"><header><h2 class="entry-title" itemprop="headline"><a href="http://www.wlevradio.com/news/some-dude-bolted-toward-jay-z-and-beyonce-at-their-atlanta-show-he-didnt-get-far/" title="Some dude bolted toward Jay-Z and Beyoncé at their Atlanta show. (He didn&#8217;t get far)" rel="bookmark">Some dude bolted toward Jay-Z and Beyoncé at their Atlanta show. (He didn&#8217;t get far)</a></h2></header></article><!-- #post-997787 --><article id="post-997836" class="post-997836 feed_posts type-feed_posts status-publish has-post-thumbnail hentry category-cnn-entertainment alt custom-query" itemscope itemtype="http://schema.org/BlogPosting"><header><h2 class="entry-title" itemprop="headline"><a href="http://www.wlevradio.com/news/neil-simon-pulitzer-prize-winning-playwright-dies-at-91/" title="Neil Simon, Pulitzer Prize-winning playwright, dies at 91" rel="bookmark">Neil Simon, Pulitzer Prize-winning playwright, dies at 91</a></h2></header></article><!-- #post-997836 -->
+
+</div><!-- .entry-row -->
+
+
+
+<div class="entry-row">
+
+<article id="post-997716" class="post-997716 feed_posts type-feed_posts status-publish has-post-thumbnail hentry category-cnn-entertainment custom-query" itemscope itemtype="http://schema.org/BlogPosting"><header><h2 class="entry-title" itemprop="headline"><a href="http://www.wlevradio.com/news/kyle-pavone-vocalist-for-we-came-as-romans-dies-at-28/" title="Kyle Pavone, vocalist for We Came as Romans, dies at 28" rel="bookmark">Kyle Pavone, vocalist for We Came as Romans, dies at 28</a></h2></header></article><!-- #post-997716 --><article id="post-997950" class="post-997950 feed_posts type-feed_posts status-publish has-post-thumbnail hentry category-cnn-entertainment alt custom-query" itemscope itemtype="http://schema.org/BlogPosting"><header><h2 class="entry-title" itemprop="headline"><a href="http://www.wlevradio.com/news/mario-batali-sued-by-woman-who-claims-he-groped-her/" title="Mario Batali sued by woman who claims he groped her" rel="bookmark">Mario Batali sued by woman who claims he groped her</a></h2></header></article><!-- #post-997950 -->
+
+</div><!-- .entry-row -->
+
+</div>
+</div><!-- .block-content -->
+
+</div><!-- #block-43 -->
+<div id="block-bcw58126f9549561" class="headlines block block-type-custom-code block-fluid-height" data-alias="State Theatre">
+<div class="block-content">
+<h1 class="block-title"><span>State Theatre</span></h1><!-- start sw-rss-feed code --> 
+<script type="text/javascript"> 
+<!-- 
+rssfeed_url = new Array(); 
+rssfeed_url[0]="statetheatre.org/iheartradio/statetheatre_show_sched_2.xml";  
+rssfeed_frame_width="300"; 
+rssfeed_frame_height="400"; 
+rssfeed_scroll="on"; 
+rssfeed_scroll_step="6"; 
+rssfeed_scroll_bar="off"; 
+rssfeed_target="_blank"; 
+rssfeed_font_size="12"; 
+rssfeed_font_face="Oswald"; 
+rssfeed_border="on"; 
+rssfeed_css_url=""; 
+rssfeed_title="off"; 
+rssfeed_title_name=""; 
+rssfeed_title_bgcolor="#3366ff"; 
+rssfeed_title_color="#fff"; 
+rssfeed_title_bgimage="http://"; 
+rssfeed_footer="off"; 
+rssfeed_footer_name="rss feed"; 
+rssfeed_footer_bgcolor="#fff"; 
+rssfeed_footer_color="#333"; 
+rssfeed_footer_bgimage="http://"; 
+rssfeed_item_title_length="50"; 
+rssfeed_item_title_color="#666"; 
+rssfeed_item_bgcolor="#fff"; 
+rssfeed_item_bgimage="http://"; 
+rssfeed_item_border_bottom="on"; 
+rssfeed_item_source_icon="off"; 
+rssfeed_item_date="off"; 
+rssfeed_item_description="on"; 
+rssfeed_item_description_length="120"; 
+rssfeed_item_description_color="#666"; 
+rssfeed_item_description_link_color="#333"; 
+rssfeed_item_description_tag="off"; 
+rssfeed_no_items="0"; 
+rssfeed_cache = "9f50adeb8eb9db6418843eec1b81d97d"; 
+//--> 
+</script> 
+<script type="text/javascript" src="http://feed.surfing-waves.com/js/rss-feed.js"></script> 
+<!-- The link below helps keep this service FREE, and helps other people find the SW widget. Please be cool and keep it! Thanks. --> 
+<div style="text-align:right; width:300px;"><a href="http://www.surfing-waves.com/feed.htm" target="_blank" style="color:#fff;font-size:10px">widget @</a> <a href="http://www.surfing-waves.com" target="_blank" style="color:#fff;font-size:10px">surfing-waves.com</a></div> 
+<!-- end sw-rss-feed code -->
+</div><!-- .block-content -->
+
+</div><!-- #block-bcw58126f9549561 -->
+<div id="block-44" class="twitter-ad block block-type-custom-code block-fluid-height" data-alias="Twitter Ad">
+<div class="block-content">
+<div id='div-gpt-ad-1418849849333-9'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1418849849333-9'); });
+</script>
+</div>
+</div><!-- .block-content -->
+
+</div><!-- #block-44 -->
+<aside id="block-45" class="free-apps block block-type-widget-area block-fluid-height" data-alias="Home - Free Apps" itemscope="" itemtype="http://schema.org/WPSideBar">
+<div class="block-content">
+<h1 class="block-title"><span>Free Apps</span></h1><ul class="widget-area"><li id="text-3" class="widget widget_text">
+			<div class="textwidget"><div align="center">
+<a href="https://itunes.apple.com/us/app/100.7-wlev/id395133322?mt=8" target="_blank"><img src="/wp-content/uploads/sites/500/2014/10/appstore.png" border="0"></a>&nbsp;<a href="https://play.google.com/store/apps/details?id=com.airkast.WLEVFM" target="_blank"><img src="/wp-content/uploads/sites/500/2014/10/googleplay.png" border="0"></a>&nbsp;<a href="http://amazon.com/dp/B00FJWHODA" target="_blank"><img src="/wp-content/uploads/sites/500/2014/10/amazon.png" border="0"></a>
+</div></div>
+		</li><!-- .widget -->
+</ul>
+</div><!-- .block-content -->
+
+</aside><!-- #block-45 -->
+<div id="block-46" class="300x250-ad-2 block block-type-custom-code block-fluid-height" data-alias="300x250 Ad 2">
+<div class="block-content">
+<div id='div-gpt-ad-1418849849333-3'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1418849849333-3'); });
+</script>
+</div>
+</div><!-- .block-content -->
+
+</div><!-- #block-46 -->
+
+</section><!-- .column -->
+
+</section><!-- .row -->
+
+
+</div><!-- .grid-container -->
+
+</div><!-- .wrapper -->
+
+<div id="wrapper-10" class="wrapper wrapper-fluid wrapper-fixed-grid grid-fluid-24-32-10 responsive-grid wrapper-last wrapper-footer" data-alias="Wrapper Footer">
+
+<div class="grid-container clearfix">
+
+<section class="row row-1">
+
+<section class="column column-1 grid-left-0 grid-width-6">
+<nav id="block-50" class="footer-nav block block-type-navigation block-fluid-height" data-alias="Footer Navigation" itemscope="" itemtype="http://schema.org/SiteNavigationElement">
+<div class="block-content">
+<div class="nav-vertical nav-align-left"><ul id="menu-footer-navigation" class="menu"><li id="menu-item-327111" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-327111"><a href="/1111/11/11/privacy-policy">Privacy Policy</a></li>
+<li id="menu-item-327114" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-327114"><a href="/1111/11/11/terms-of-service">Terms of Service</a></li>
+<li id="menu-item-327117" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-327117"><a href="/1111/11/11/contest-rules">Contest Rules</a></li>
+<li id="menu-item-137" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-137"><a href="http://www.wlevradio.com/advertise-with-us/">Advertise With Us</a></li>
+<li id="menu-item-139" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-139"><a href="http://www.wlevradio.com/station-information/">Station Information</a></li>
+<li id="menu-item-141" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-141"><a href="http://www.cumulus.com/careers/">Employment Opportunities</a></li>
+<li id="menu-item-949174" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-949174"><a target="_blank" href="https://www.cumulus.com">Cumulus Media Corporate</a></li>
+<li id="menu-item-953318" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-953318"><a href="http://www.wlevradio.com/fcc-online-public-file/">FCC Online Public File</a></li>
+</ul></div><!-- .nav-vertical nav-align-left -->
+</div><!-- .block-content -->
+
+</nav><!-- #block-50 -->
+<div id="block-bz155d22a98e3416" class="block block-type-custom-code block-fluid-height" data-alias="Wallpaper Ad">
+<div class="block-content">
+<div id='div-gpt-ad-1418849849333-16'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1418849849333-16'); });
+</script>
+</div>
+</div><!-- .block-content -->
+
+</div><!-- #block-bz155d22a98e3416 -->
+
+</section><!-- .column -->
+
+<section class="column column-2 grid-left-0 grid-width-18">
+<div id="block-51" class="728x90-ad-2 block block-type-custom-code block-fluid-height" data-alias="728x90 Ad 2">
+<div class="block-content">
+<div class="footer-728x90-ad" align="right">
+<div id='div-gpt-ad-1418849849333-2'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1418849849333-2'); });
+</script>
+</div>
+</div>
+
+</div><!-- .block-content -->
+
+</div><!-- #block-51 -->
+<footer id="block-52" class="copyright block block-type-footer block-fluid-height" data-alias="Copyright" itemscope="" itemtype="http://schema.org/WPFooter">
+<div class="block-content">
+
+<div class="footer-container">
+
+<div class="footer">
+<p class="copyright footer-copyright">Copyright Cumulus Media / Cumulus Media is an equal opportunity employer / AA</p><p class="footer-responsive-grid-link-container footer-responsive-grid-link-disable-container"><a href="http://www.wlevradio.com/?full-site=true" rel="nofollow" class="footer-responsive-grid-link footer-responsive-grid-disable footer-link">View Full Site</a></p>
+</div><!-- .footer -->
+</div><!-- .footer-container -->
+</div><!-- .block-content -->
+
+</footer><!-- #block-52 -->
+
+</section><!-- .column -->
+
+</section><!-- .row -->
+
+
+</div><!-- .grid-container -->
+
+</div><!-- .wrapper -->
+
+
+
+<script>_AMP.theme.init();</script>
+<link rel='stylesheet' id='media_library_assistant-plugin-styles-css'  href='http://www.wlevradio.com/wp-content/plugins/media-library-assistant/includes/../css/prettyPhoto.css?ver=1.61' type='text/css' media='all' />
+<link rel='stylesheet' id='media_library_assistant-widget-styles-css'  href='http://www.wlevradio.com/wp-content/plugins/media-library-assistant/includes/../css/widget.css?ver=1.61' type='text/css' media='all' />
+<link rel='stylesheet' id='amp-polls-plugin-styles-css'  href='http://www.wlevradio.com/wp-content/plugins/amp-polls/css/widget.css?ver=4.9.1' type='text/css' media='all' />
+<script type='text/javascript'>
+/* <![CDATA[ */
+var themify_vars = {"version":"2.1.8","url":"http:\/\/www.wlevradio.com\/wp-content\/plugins\/themify-builder\/themify","map_key":null,"includesURL":"http:\/\/www.wlevradio.com\/wp-includes\/","isCached":null,"minify":{"css":{"themify-icons":false,"themify.framework":false,"lightbox":false,"themify-builder-style":false},"js":{"backstretch.themify-version":false,"bigvideo":false,"themify.dropdown":false,"themify.builder.script":false,"themify.scroll-highlight":false,"themify-youtube-bg":false,"themify.parallaxit":false,"themify.ticks":false}}};
+var tbLocalScript = {"isAnimationActive":"1","isParallaxActive":"1","isParallaxScrollActive":"1","animationInviewSelectors":[".module.wow",".module_row.wow",".builder-posts-wrap > .post.wow"],"backgroundSlider":{"autoplay":5000,"speed":2000},"animationOffset":"100","videoPoster":"http:\/\/www.wlevradio.com\/wp-content\/plugins\/themify-builder\/img\/blank.png","backgroundVideoLoop":"yes","builder_url":"http:\/\/www.wlevradio.com\/wp-content\/plugins\/themify-builder","framework_url":"http:\/\/www.wlevradio.com\/wp-content\/plugins\/themify-builder\/themify","version":"2.1.8","fullwidth_support":"","fullwidth_container":"body","loadScrollHighlight":"","addons":[],"breakpoints":{"tablet_landscape":[769,1024],"tablet":[681,768],"mobile":680},"ticks":{"tick":30,"ajaxurl":"http:\/\/www.wlevradio.com\/wp-admin\/admin-ajax.php","postID":27}};
+var themifyScript = {"lightbox":{"lightboxSelector":".themify_lightbox","lightboxOn":true,"lightboxContentImages":false,"lightboxContentImagesSelector":"","theme":"pp_default","social_tools":false,"allow_resize":true,"show_title":false,"overlay_gallery":false,"screenWidthNoLightbox":600,"deeplinking":false,"contentImagesAreas":"","gallerySelector":".gallery-icon > a","lightboxGalleryOn":true},"lightboxContext":"body"};
+var tbScrollHighlight = {"fixedHeaderSelector":"","speed":"900","navigation":"#main-nav","scrollOffset":"0"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.wlevradio.com/wp-content/plugins/themify-builder/themify/js/main.js?ver=2.1.8'></script>
+<script type='text/javascript'>
+var mejsL10n = {"language":"en","strings":{"mejs.install-flash":"You are using a browser that does not have Flash player enabled or installed. Please turn on your Flash player plugin or download the latest version from https:\/\/get.adobe.com\/flashplayer\/","mejs.fullscreen-off":"Turn off Fullscreen","mejs.fullscreen-on":"Go Fullscreen","mejs.download-video":"Download Video","mejs.fullscreen":"Fullscreen","mejs.time-jump-forward":["Jump forward 1 second","Jump forward %1 seconds"],"mejs.loop":"Toggle Loop","mejs.play":"Play","mejs.pause":"Pause","mejs.close":"Close","mejs.time-slider":"Time Slider","mejs.time-help-text":"Use Left\/Right Arrow keys to advance one second, Up\/Down arrows to advance ten seconds.","mejs.time-skip-back":["Skip back 1 second","Skip back %1 seconds"],"mejs.captions-subtitles":"Captions\/Subtitles","mejs.captions-chapters":"Chapters","mejs.none":"None","mejs.mute-toggle":"Mute Toggle","mejs.volume-help-text":"Use Up\/Down Arrow keys to increase or decrease volume.","mejs.unmute":"Unmute","mejs.mute":"Mute","mejs.volume-slider":"Volume Slider","mejs.video-player":"Video Player","mejs.audio-player":"Audio Player","mejs.ad-skip":"Skip ad","mejs.ad-skip-info":["Skip in 1 second","Skip in %1 seconds"],"mejs.source-chooser":"Source Chooser","mejs.stop":"Stop","mejs.speed-rate":"Speed Rate","mejs.live-broadcast":"Live Broadcast","mejs.afrikaans":"Afrikaans","mejs.albanian":"Albanian","mejs.arabic":"Arabic","mejs.belarusian":"Belarusian","mejs.bulgarian":"Bulgarian","mejs.catalan":"Catalan","mejs.chinese":"Chinese","mejs.chinese-simplified":"Chinese (Simplified)","mejs.chinese-traditional":"Chinese (Traditional)","mejs.croatian":"Croatian","mejs.czech":"Czech","mejs.danish":"Danish","mejs.dutch":"Dutch","mejs.english":"English","mejs.estonian":"Estonian","mejs.filipino":"Filipino","mejs.finnish":"Finnish","mejs.french":"French","mejs.galician":"Galician","mejs.german":"German","mejs.greek":"Greek","mejs.haitian-creole":"Haitian Creole","mejs.hebrew":"Hebrew","mejs.hindi":"Hindi","mejs.hungarian":"Hungarian","mejs.icelandic":"Icelandic","mejs.indonesian":"Indonesian","mejs.irish":"Irish","mejs.italian":"Italian","mejs.japanese":"Japanese","mejs.korean":"Korean","mejs.latvian":"Latvian","mejs.lithuanian":"Lithuanian","mejs.macedonian":"Macedonian","mejs.malay":"Malay","mejs.maltese":"Maltese","mejs.norwegian":"Norwegian","mejs.persian":"Persian","mejs.polish":"Polish","mejs.portuguese":"Portuguese","mejs.romanian":"Romanian","mejs.russian":"Russian","mejs.serbian":"Serbian","mejs.slovak":"Slovak","mejs.slovenian":"Slovenian","mejs.spanish":"Spanish","mejs.swahili":"Swahili","mejs.swedish":"Swedish","mejs.tagalog":"Tagalog","mejs.thai":"Thai","mejs.turkish":"Turkish","mejs.ukrainian":"Ukrainian","mejs.vietnamese":"Vietnamese","mejs.welsh":"Welsh","mejs.yiddish":"Yiddish"}};
+</script>
+<script type='text/javascript' src='http://www.wlevradio.com/wp-includes/js/mediaelement/mediaelement-and-player.js?ver=4.2.6-78496d1'></script>
+<script type='text/javascript' src='http://www.wlevradio.com/wp-includes/js/mediaelement/mediaelement-migrate.js?ver=4.9.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var _wpmejsSettings = {"pluginPath":"\/wp-includes\/js\/mediaelement\/","classPrefix":"mejs-","stretching":"responsive"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.wlevradio.com/wp-includes/js/mediaelement/wp-mediaelement.js?ver=4.9.1'></script>
+<script type='text/javascript' src='http://www.wlevradio.com/wp-content/plugins/media-library-assistant/includes/../js/jquery.prettyPhoto.js?ver=1.61'></script>
+<script type='text/javascript' src='http://www.wlevradio.com/wp-content/plugins/media-library-assistant/includes/../js/widget-front-end.js?ver=1533183780'></script>
+<script type='text/javascript' src='http://www.wlevradio.com/wp-content/plugins/amp-polls/js/widget-front-end.js?ver=4.9.1'></script>
+<script>
+window.tgmplibs="cumulus2,_append_www,_triton_see";
+</script>
+<script type="text/javascript" class="_tgmp_p">
+function onTuneGenieMediaPlayerLoaded() {
+    window.tgmp=new TuneGenieMediaPlayer('playerbar', {
+        brand: "wlev",
+        zindex: 50000,
+        theme: ["#000000"],
+        position: "bottom",
+        debug: true,
+        ios_frame: 3,
+        autostart: false,
+        infoTrayOnLoad: true,
+        useTritonPlayer: true,
+        promptZag: false,
+    });
+    tgmp.go();
+    window.tgmp_rc = new TuneGenieRC(tgmp);
+    tgmp_rc.recentSongWidget(document.getElementById('tgrecent'),{});
+    tgmp_rc.nowPlayingWidget(document.getElementById('tgnowplaying'),{});
+}
+</script>
+<script type="text/javascript"  class="_tgmp_p" async src="https://mpl.tunegenie.com/js/loader2.min.js"></script>
+
+
+</div><!-- #whitewrap -->
+
+<!-- TGMP PLUGIN ENABLED 2016-08-04T21:19:39.386Z -->
+
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.3";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<script type="text/javascript">
+//<![CDATA[
+(function() {
+var _analytics_scr = document.createElement('script');
+_analytics_scr.type = 'text/javascript'; _analytics_scr.async = true; _analytics_scr.src = '/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1951075462';
+var _analytics_elem = document.getElementsByTagName('script')[0]; _analytics_elem.parentNode.insertBefore(_analytics_scr, _analytics_elem);
+})();
+// ]]>
+</script></body>
+
+
+</html>
+<!--
+Performance optimized by W3 Total Cache. Learn more: https://www.w3-edge.com/products/
+
+Object Caching 4446/5184 objects using memcache
+Page Caching using memcache
+Database Caching 284/573 queries in 5.150 seconds using memcache
+
+Served from: www.1460wrad.com @ 2018-08-27 06:22:57 by W3 Total Cache
+-->

@@ -1,0 +1,375 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Blog KMNR 89.7FM - Free Format College Radio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+<meta name="google-site-verification" content="KvzmLW4BpmCwnOxe5Rw027dWY1tFt8P3Z31ALNe5Hag" />
+
+    <!-- Le styles -->
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans|Roboto' rel='stylesheet' type='text/css'>
+    <link href="https://media.kmnr.org/css/bootstrap.css?rev=02" rel="stylesheet">
+    <link href="https://media.kmnr.org/css/datepicker.css" rel="stylesheet">
+    <link href="https://media.kmnr.org/css/kmnr.css?rev=04" rel="stylesheet">
+    <style>
+      body {
+        padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
+      }
+      .masonry-box
+      {
+        margin-bottom: 20px;
+        padding: 15px;
+        border-radius: 4px;
+        background-color: #f3f3f3;
+        -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+        -webkit-box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.075) !important;
+        -moz-box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.075) !important;
+        box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.075) !important;
+      }
+      .divider
+      {
+        font-size: 10px;
+        text-align: right;
+      }
+      audio::-webkit-media-controls-panel {
+        background: transparent;
+      }
+      #webplayer {
+        width: 250px;
+      }
+    </style>
+    <link href="https://media.kmnr.org/css/bootstrap-responsive.css" rel="stylesheet">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="https://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!-- Le fav and touch icons -->
+    <link rel="shortcut icon" href="/favicon.ico">
+    <!-- The promo for snapman, the current show and the next show for facebook -->
+    <meta property="og:image" content="https://media.kmnr.org/thumbnail/300/300/img/twitter.png" />
+    <link rel="image_src" href="https://media.kmnr.org/thumbnail/300/300/img/twitter.png" />
+    
+    <meta property="fb:app_id" content="123162307745900" />
+    <meta property="fb:admins" content="scj7t4" />
+    <meta property="og:title" content="KMNR 89.7 FM Rolla" />
+    <meta property="og:type" content="music.radio_station" />
+    <meta property="og:url" content="https://kmnr.org/" />
+    <meta property="og:description" content="Student run, free format college radio from Missouri S&T. 50 years of playing none of the hits. Listen online and view the schedule at KMNR.org" />
+    
+  </head>
+
+  <body>
+
+  <div id="pjax-container">
+  <div id="fb-root"></div>
+  <div id="userbox_target">
+    
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </a>
+          <a class="brand" href="/" id='kmnr'>KMNR</a>
+          <div class="nav-collapse">
+            <ul class="nav">
+              <li id='blog' class=''>
+              <a href='/'>Blog</a>
+              </li>
+              <li id='shows' class=''>
+              <a href='/shows/'>Schedule</a>
+              </li>
+              <li id='discjockeys' class=''>
+              <a href='/discjockeys/'>DJs</a>
+              </li>
+              <li id ='townandcampus' class=''>
+              <a href='/townandcampus/'>Town &amp; Campus News</a>
+              </li>
+              <li id ='charts' class=''>
+              <a href='/charts/'>Charts</a>
+              </li>
+              <li id='playlists' class=''>
+              <a href='/playlists/'>Playlists</a>
+              </li>
+              <li id='about' class=''>
+              <a href='/about/'>About</a>
+              </li>
+            </ul>
+            <ul class="nav pull-right">
+
+              
+              <!--<li><a href='/login/facebook'><img src='https://media.kmnr.org/img/facebook-login.png' title='Login via Facebook'></a></li>-->
+              <li><a href='/users/login/'>Login</a></li>
+                <li><div class='btn-group'>
+                  <a class='btn btn-small btn-inverse' href='https://support.kmnr.org/' target='_blank' rel='tooltip' title='Report Problems'><i class='icon-white icon-question-sign'></i></a>  
+                </div></li>
+              
+            
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+    <div class='ajaxcontent' style='margin-bottom: 50px'>
+      
+
+<div class='hero-area container-default'><div class='container container-hero'>
+<div class='row-fluid'>
+<div id="myCarousel" class="carousel slide">
+  <!-- Carousel items -->
+  <div class="carousel-inner">
+    <div class="active item">
+      <img src="https://media.kmnr.org/img/Boombox.png">
+      <div class='carousel-caption'><h1>Listen In Your Browser</h1>
+      <p class='lead'>Listen to KMNR in your browser or favorite player from anywhere. Just
+        press the play button at the bottom of the screen to start listening. Other
+        listening options are available by clicking the listen drop down next to the button.
+        And, don't be afraid to have a look around while you listen, most browsers will
+        keep playing as you navigate the site!</p>
+      <br />
+      <p style='text-align: right'><button class='btn btn-primary btn-large' onclick="document.getElementById('webplayer').play()">Listen In!</button></p>
+      </div>
+    </div>
+    <div class="item">
+      <img src="https://media.kmnr.org/img/coverage-area.png">
+      <div class='carousel-caption'><h1>History</h1>
+        <p>For 50 years KMNR has been bringing free format college radio to the Missouri S&amp;T campus and the surrounding community. Completely run and staffed by student volunteers, we love our music and want to share it with you. We don't put any restrictions on what our DJs do or play. You can hear anything, anytime. We broadcast 1850 Watts of college radio to Rolla, Missouri. If you don't live nearby, you can always listen to us on our webstream. Hit the play button to start listening from anywhere.</p>
+        <p style='text-align: right'><a href='#tourModal' role='button' class='btn btn-primary' data-toggle='modal'>Take A Tour Of KMNR.org</a></p>
+
+    </div>
+    </div>
+    <div class="item">
+      <img src="https://media.kmnr.org/img/masquerave-poster.png">
+      <div class='carousel-caption'><h2>Follow Us</h2>
+        <p>Follow us on facebook and twitter for special updates about our programming, staff and events.</p>
+        <p style='text-align: right'>
+        <a href='https://www.facebook.com/kmnr89.7' class='btn btn-primary'>KMNR 89.7 on Facebook</a>
+        <a href='https://www.twitter.com/kmnr' class='btn btn-info'>@kmnr on Twitter</a>
+        </p>
+      </div>
+    </div>
+    <div class="item">
+      <img src="https://media.kmnr.org/img/sidewalk-chalk.jpg">
+      <div class='carousel-caption'><h2>Look Who Is On Air Now</h2>
+        <p>Be sure to look at our schedule to see who is on air when. Find a DJ who plays what you like and enjoy! KMNR DJ's are encouraged to play whatever they like so tune in to hear the music you love and to ear something new.</p>
+        <p style='text-align: right'>
+          <a href='/shows/' class='btn btn-primary'>KMNR Show Schedule</a>
+        </p>
+      </div>
+    </div>
+  </div>
+  <!-- Carousel nav -->
+  <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+  <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+</div>
+</div>
+</div>
+</div>
+
+
+      <div class='container-default'>
+        <div class='container'>
+          
+          
+          <div id='content'>
+            
+<div class='row-fluid'>
+<div class='span12' style=''>
+<h1>Blog <small>Check out what's going on with KMNR</small></h1>
+<div class='masonry' id='blog-posts'>
+<div class='masonry-box'>
+<!--iframe src="https://www.google.com/calendar/embed?title=KMNR%20Events%20Caldendar&amp;mode=AGENDA&amp;height=250&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=e5bju0tulc0cbd3deopdhiiqmh72e25d%40import.calendar.google.com&amp;color=%23875509&amp;ctz=America%2FChicago" style=" border-width:0 " width="100%" height="250" frameborder="0"
+scrolling="no"></iframe-->
+<iframe
+src="https://www.google.com/calendar/embed?title=KMNR%20Events%20Calendar&amp;showCalendars=0&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=on_air%40kmnr.org&amp;color=%23333333&amp;ctz=America%2FChicago" style=" border-width:0 " width="100%" height="250" frameborder="0" scrolling="no"></iframe>
+</div>
+  
+    <div class='masonry-box image-content'> 
+    
+    
+    <img src='https://78.media.tumblr.com/f48762f81da93da8e48ebe395b8306eb/tumblr_o5p36hJ5u21qj8i3ao1_1280.jpg'>
+    
+    <p>Station Manager Oscar Owens explores #KMNR&rsquo;s extensive vinyl library in preparation for tomorrow&rsquo;s #vinylthon, brought to you by @collegeradioday</p>
+    <div class='divider'>Posted April 15, 2016, 4:47 p.m. to <a href='http://kmnr897.tumblr.com/post/142863497564/station-manager-oscar-owens-explores-kmnrs'>KMNR Blog (Tumblr)</a> - <a href='/blog/558/'>Permalink</a></div>
+</div>
+ 
+  
+    <div class='masonry-box image-content'> 
+    
+    
+    <img src='https://78.media.tumblr.com/d0518081e9b23dae285bdfbab68c8af6/tumblr_o5hrnx37CF1qj8i3ao1_1280.jpg'>
+    
+    <p>Get ready for the #KMNR Vinylthon on April 16th! Sponsored by College Radio Day, this celebration of all things vinyl coincides with 2016&rsquo;s Record Store Day.</p>
+    <div class='divider'>Posted April 11, 2016, 5:55 p.m. to <a href='http://kmnr897.tumblr.com/post/142653368999/get-ready-for-the-kmnr-vinylthon-on-april-16th'>KMNR Blog (Tumblr)</a> - <a href='/blog/557/'>Permalink</a></div>
+</div>
+ 
+  
+    <div class='masonry-box image-content'> 
+    
+    
+    <img src='https://56.media.tumblr.com/2bb7e828f96ae8c0eae0db4b0aadb857/tumblr_o3aq2l4Uip1qj8i3ao1_1280.jpg'>
+    
+    <p>The trainees have arrived!</p>
+    <div class='divider'>Posted Feb. 29, 2016, 12:30 a.m. to <a href='http://kmnr897.tumblr.com/post/140199396704/the-trainees-have-arrived'>KMNR Blog (Tumblr)</a> - <a href='/blog/556/'>Permalink</a></div>
+</div>
+ 
+  
+    <div class='masonry-box image-content'> 
+    
+    
+    <img src='https://78.media.tumblr.com/2f755b753014a7483b49f4d85bca0a02/tumblr_o2cky3GX3J1qj8i3ao1_1280.jpg'>
+    
+    <p>Explore the depths of indie music during A Dandy Guy in Space with DJ Dandy! This two-hour journey starts at 4pm each Wednesday on #KMNR, baby</p>
+    <div class='divider'>Posted Feb. 10, 2016, 2:01 p.m. to <a href='http://kmnr897.tumblr.com/post/139066362674/explore-the-depths-of-indie-music-during-a-dandy'>KMNR Blog (Tumblr)</a> - <a href='/blog/555/'>Permalink</a></div>
+</div>
+ 
+  
+    <div class='masonry-box image-content'> 
+    
+    
+    <img src='https://40.media.tumblr.com/33a31421764b5cae435185507415a14b/tumblr_o2aj0xcMei1qj8i3ao1_500.jpg'>
+    
+    <p>Every Tuesday at noon, tune in for an hour of indie, punk, and 80s brought to you by DJ Mamasutra! (at KMNR 89.7 FM)</p>
+    <div class='divider'>Posted Feb. 9, 2016, 11:24 a.m. to <a href='http://kmnr897.tumblr.com/post/138997380539/every-tuesday-at-noon-tune-in-for-an-hour-of'>KMNR Blog (Tumblr)</a> - <a href='/blog/554/'>Permalink</a></div>
+</div>
+ 
+  
+    <div class='masonry-box image-content'> 
+    
+    
+    <img src='https://78.media.tumblr.com/3fa01d0ada16bc2bffe68e6b03536ed8/tumblr_o255riSv6v1qj8i3ao1_1280.jpg'>
+    
+    <p>Tune in to #KMNR every Saturday at 4pm for two hours of polite good times with DJ Canada! You have to bring your own poutine, though.  (at KMNR 89.7 FM)</p>
+    <div class='divider'>Posted Feb. 6, 2016, 1:50 p.m. to <a href='http://kmnr897.tumblr.com/post/138807898279/tune-in-to-kmnr-every-saturday-at-4pm-for-two'>KMNR Blog (Tumblr)</a> - <a href='/blog/553/'>Permalink</a></div>
+</div>
+ 
+  
+</div>
+</div>
+<div class='row-fluid'>
+<div class='span12'>
+<div class='pagination pagination-centered'>
+<ul><li class='active'><a href='/?page=1'>1</a></li> <li class=''><a href='/?page=2'>2</a></li> <li class=''><a href='/?page=3'>3</a></li> <li class=''><a href='/?page=4'>4</a></li> <li class=''><a href='/?page=5'>5</a></li><li class='disabled'><a href='#'>...</a></li><li class=''><a href='/?page=85'>85</a></li> <li class=''><a href='/?page=86'>86</a></li> <li class=''><a href='/?page=87'>87</a></li> <li class=''><a href='/?page=88'>88</a></li> <li class=''><a href='/?page=89'>89</a></li> <li><a href='?page=2'>Next Page</a></li></ul>
+</div>
+</div>
+</div>
+</div>
+<div id='tourModal' class='modal hide fade' tabindex='-1' role="dialog" aria-labelledby="tourModalLabel" aria-hidden="true">
+  <div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
+    <h3 id="tourModalLabel">Take A Tour Of KMNR</h3>
+  </div>
+  <div class='modal-body'>
+  <iframe width=530 height=330 src=https://www.youtube.com/embed/PtZWqtdZLG4 frameborder=0 allowfullscreen></iframe>
+    
+  </div>
+  <div class='modal-footer'>
+    <button class='btn' data-dismiss="modal" aria-hidden="true">Close</button>
+  </div>
+</div>
+
+          </div>
+          <div id="requestpath" style='display: none;'>/</div>
+          
+          </div>
+          
+        </div>
+      </div>
+    </div>
+  <div id="page_title" style='display: none; height: 0px;'>
+Blog KMNR 89.7FM - Free Format College Radio
+  </div>
+
+
+    <div class="navbar navbar-inverse navbar-fixed-bottom">
+      <div class="navbar-inner">
+        <div class="container">
+            <ul class="nav">
+              <li class='dropdown'>
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" rel="tooltip-top" title="Click to listen to KMNR in your favorite media player">Listen<b class='caret'></b></a>
+                <ul class="dropdown-menu">
+                  <li><a href='https://boombox.kmnr.org/webstream-low.ogg.m3u'>Low Quality Ogg (64 kbps)</a></li>
+                  <li><a href='https://boombox.kmnr.org/webstream.ogg.m3u'>High Quality Ogg (128 kbps)</a></li>
+                  <li><a href='https://boombox.kmnr.org/webstream.mp3.m3u'>High Quality MP3 (128 kbps)</a></li>
+                </ul>
+              </li>
+              <li style='padding-top: 3px'>
+<!-- <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="200" height="32" id='webstreamplayer'>
+<param name="movie" value="https://media.kmnr.org/player/muses.swf" />
+<param name="flashvars" value="url=https://boombox.kmnr.org/webstream.mp3&lang=en&codec=mp3&volume=70&introurl=&tracking=true&jsevents=true&buffering=5&skin=https://media.kmnr.org/player/kmnr-glyph.xml&title=KMNR%2089.7fm" />
+<param name="wmode" value="window" />
+<param name="allowscriptaccess" value="always" />
+<param name="scale" value="noscale" />
+<embed src="https://media.kmnr.org/player/muses.swf" flashvars="url=https://boombox.kmnr.org/webstream.mp3&lang=en&codec=mp3&volume=70&introurl=&tracking=true&jsevents=true&buffering=5&skin=https://media.kmnr.org/player/kmnr-glyph.xml&title=KMNR%2089.7fm" width="200" scale="noscale" height="32" wmode="transparent" allowscriptaccess="always" type="application/x-shockwave-flash" name='webstreamplayer' />
+</object> -->
+
+            <audio controls="" id="webplayer">
+              <source src="http://boombox.kmnr.org:7000/webstream.mp3" type="audio/mpeg"/>
+            </audio>
+          </li>
+          <li id='current_show' style='max-width: 500px; overflow: hidden'>
+          <a id='current_show_link' href='/shows/'>
+          
+          Current Show: Automation
+           - DJ Binary Swag</a></span></li>
+            </ul>
+            <ul class="nav pull-right">
+              <li style='padding-top: 10px; padding-left: 7px;'>
+<iframe src="//www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Fkmnr89.7&amp;width=30&amp;height=21&amp;colorscheme=light&amp;layout=button_count&amp;action=like&amp;show_faces=false&amp;send=false&amp;appId=123162307745900" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:80px; height:21px;" allowTransparency="true"></iframe>            
+              </li>
+              <li style='padding-top: 10px; padding-left: 7px'>
+<a href="https://twitter.com/kmnr" class="twitter-follow-button" data-show-count="false">Follow @kmnr</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+              </li> 
+              <li><a><i class='icon-bullhorn icon-white'></i> <strong>Requests? Comments? Call or Text 504-656-6735</a></strong></li>
+            </ul>
+        </div>
+      </div>
+    </div>
+    <!-- /container -->
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script type="text/javascript" src="https://www.google.com/recaptcha/api/js/recaptcha_ajax.js"></script> 
+    <script src="https://media.kmnr.org/js/jquery.js?rev=01"></script>
+    <script src="https://media.kmnr.org/js/bootstrap.js"></script>
+    <script src="https://media.kmnr.org/js/bootstrap-datepicker.js"></script>
+    <script src="https://media.kmnr.org/js/jquery.masonry.min.js"></script>
+    <script src="https://media.kmnr.org/js/kmnr.js?rev=13"></script>
+    <script src="https://media.kmnr.org/js/jquery.pjax.js"></script>
+    
+    <script>
+    $(document).pjax('a', '#pjax-container')
+    $(document).on("pjax:timeout", function() { return false; });
+    window.fbAsyncInit = function() {
+        FB.init({
+            appId  : '123162307745900',
+            status : true, // check login status
+            cookie : true, // enable cookies to allow the server to access the session
+            xfbml  : true  // parse XFBML
+            });
+    };
+
+    (function() {
+        var e = document.createElement('script');
+        e.src = document.location.protocol + '//connect.facebook.net/en_US/all.js';
+        e.async = true;
+        document.getElementById('fb-root').appendChild(e);
+    }());
+    </script>
+    <script>
+    </script>
+  </body>
+</html>
+

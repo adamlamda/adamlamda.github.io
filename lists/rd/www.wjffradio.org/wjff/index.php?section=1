@@ -1,0 +1,670 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+   "http://www.w3.org/TR/html4/loose.dtd">
+   
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<html>
+<head>
+<title>WJFF 90.5FM Radio Catskill</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" >
+	<meta name="Generator" content="Exponent Content Management System - 0.98.0.20101105" >
+	<meta name="Keywords" content="" />
+	<meta name="Description" content="" >
+	<!--[if IE 6]><style type="text/css"> img { behavior: url(external/png-opacity.htc); } body { behavior: url(external/csshover.htc); }</style><![endif]-->
+	<link rel="stylesheet" type="text/css" href="http://www.wjffradio.org/wjff/tmp/css/exp-styles-min.css" >
+	<script type="text/javascript" src="http://www.wjffradio.org/wjff/external/yui/build/yuiloader-dom-event/yuiloader-dom-event.js"></script>
+	<script type="text/javascript" src="http://www.wjffradio.org/wjff/exponent.js.php"></script>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-3948027-3']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<link rel="stylesheet" title="default" href="http://www.wjffradio.org/wjff/themes/wjfftheme/style.css" />
+</head>
+<body onLoad="exponentJSinitialize();">
+<div id="outer" >
+<div id="container" >
+<div id="header">
+
+<div id="logo"><img src="themes/wjfftheme/images/new_splash.gif" alt="WJFF 90.5fm Radio Catskill" height="101" width="800"/></div>
+<div id="listen_now" > 
+<div title="tool tip" onclick="window.open('/wjff/themes/wjfftheme/external/jwplayer/WJFF_flash.htm', 'StatusBar', 'toolbar=n,resizable=no,scrollbars=no,width=300,height=180,left=0,top=0');" href="#" style="width:130px; height:40px;top:-40px;position:absolute; cursor:pointer"></div>
+<!--<img src="http://www.wjffradio.org/images/ListenNow.gif" alt="Listen Online"><br />-->
+<ul class="f_nav">
+<!--<li><a href="http://www.wjffradio.org/webstream/wjff.m3u">MP3</a>::</li><li><a href="http://www.wjffradio.org/webstream/radiocatskill.ram">RealAudio</a>::</li><li><a href="http://www.wjffradio.org/wjff/index.php?section=21">Help</a></li>-->
+<!-- POPUP Window 
+<a title="tool tip" onclick="window.open('/wjff/alert.html', 'StatusBar', 'toolbar=n,resizable=yes,scrollbars=no,width=300,height=300,left=0,top=0');" href="http://www.wjffradio.org/webstream/wjff.m3u">
+-->
+<li><a title="tool tip" onclick="window.open('/wjff/themes/wjfftheme/external/jwplayer/WJFF_flash.htm', 'StatusBar', 'toolbar=n,resizable=no,scrollbars=no,width=300,height=180,left=0,top=0');" href="#">Flash</a>::</li>
+<li><a href="http://www.wjffradio.org/webstream/wjff.m3u">MP3</a>::</li><!--<li><a href="http://www.wjffradio.org/webstream/radiocatskill.ram">RealAudio</a></li>--><li><a  href="http://www.wjffradio.org/wjff/index.php?section=21">Webstream Help</a></li>
+</ul>
+<!-- ProgWidget Begins -->
+			<div id="progwidget_lo">
+			<div id="skypeUsPlaceholder"></div>
+				<!--<iframe src="http://www.wjffradio.org/now_playing/progwidget_lo.html" id="progwidget" marginwidth="0" marginheight="0" class="progwidget" allowtransparency="true" frameborder="0" height="20" scrolling="no" width="100%">
+				</iframe>-->
+  		</div>
+<!-- ProgWidget ends -->
+</div><!-- jb close listen_now -->
+</div><!-- jb close header -->
+<div id="top_nav"> 
+<ul class="top_nav">
+	<li>&nbsp;::
+								
+							<a href="http://www.wjffradio.org/wjff/">Home</a>
+						::
+																																																																																																																																																																	
+							<a href="http://www.wjffradio.org/wjff/index.php?section=4">Programs</a>
+						::
+																																					
+							<a href="http://www.wjffradio.org/wjff/index.php?section=38">Audio Archive</a>
+						::
+																	
+							<a href="http://www.wjffradio.org/wjff/index.php?section=20">Soundings</a>
+						::
+													
+							<a href="http://www.wjffradio.org/gallery/">Gallery</a>
+						::
+													
+							<a href="http://www.wjffradio.org/wjff/index.php?section=23">Donate</a>
+						::
+																					
+							<a href="http://www.wjffradio.org/wjff/index.php?section=17">Volunteer</a>
+						::
+																									
+							<a href="http://www.wjffradio.org/wjff/index.php?section=19">Hydropowered</a>
+						::
+													
+							<a href="http://www.wjffradio.org/wjff/index.php?section=56">Underwriters</a>
+						::
+													
+							<a href="http://www.wjffradio.org/wjff/index.php?section=2">Contact / About Us</a>
+						::
+														</li>
+</ul></div>
+<div class="pageTitle">Home</div><div id="wrapper">
+<div id="content">
+
+	
+
+
+
+
+
+
+				<a name="mod_1124"></a> 
+				<div class="textmodule default">
+	<div class="text_moduletitle"><span class="gradient_moduletitle">WJFF WEBSITE HAS MOVED</span></div>
+	
+		<div class="moduleactions">
+							</div>
+			
+	<div class="bodycopy">
+					<p><a href="https://www.wjffradio.org/staging/">&#160;</a></p>
+<p><a href="https://www.wjffradio.org/staging/">PLEASE GO TO OUR NEW WEBSITE</a></p>
+<p></p>
+<p></p>
+<p>This website will be removed once our audio archiving software has been updated. Please adjust your bookmarks.</p>
+<p></p>
+<p><a href="https://wjffradio.org/staging"><img src="http://ohmygoff.tv/wp-content/uploads/2017/01/MOVING.png" alt="We have moved" /></a></p>
+<p></p>
+<p></p>
+			</div>
+</div>
+	
+			
+
+								<a name="mod_1119"></a> 
+				<div class="textmodule default">
+	
+	
+		<div class="moduleactions">
+							</div>
+			
+	<div class="bodycopy">
+					<p><img src="/wjff/files/mission_statement.png" alt="" width="350" height="83" /></p>
+<p>WJFF is a non-commercial educational radio broadcaster whose mission is to make available to its community a broad range of ideas and ideals useful to a full and enlightened life. It also aims to involve the community in preserving and transmitting the community’s cultural heritage and artistic expressions in addition to those of the global community and to promote understanding among people of diverse social and cultural backgrounds.</p>
+			</div>
+</div>
+	
+			
+
+								<a name="mod_1120"></a> 
+				<div class="textmodule default">
+	
+	
+		<div class="moduleactions">
+							</div>
+			
+	<div class="bodycopy">
+					<p><img src="/wjff/files/newsie.png" width="95" height="105" alt="" />Radio Catskill has a big announcement!</p>
+<p>After a year of investigation and consideration, the WJFF Board of Trustees has voted to move our offices and main studios from Jeffersonville to our new property in Liberty at 2758 Route 52.  This property was generously donated to us by a long-time friend of the station, Barbara Martinsons.  We took ownership of the property in October of 2016.</p>
+<p>The move, which will take many months to plan, orchestrate and complete will not affect our broadcast.  The location of our transmitter will remain the same and so our signal/coverage will remain the same. Our satellite studio in Honesdale will also remain online in its location.</p>
+<p>We look forward to the opportunities this new site will offer us to involve a wider community as we work to achieve the vision of our Strategic Plan, “to connect, reflect and involve diverse communities through enlightening, informative and entertaining content.”</p>
+			</div>
+</div>
+	
+			
+
+								<a name="mod_1001"></a> 
+				<div class="textmodule default">
+	<div class="text_moduletitle"><span class="gradient_moduletitle">Join the WJFF Volunteer Team!</span></div>
+	
+		<div class="moduleactions">
+							</div>
+			
+	<div class="bodycopy">
+					<p><strong>We have a PLACE FOR YOU!</strong><br />
+There are multiple opportunities at WJFF for new volunteers.</p>
+<p></p>
+<p><u><strong>CALL THE STATION at (845) 482-4141 or email volunteer@wjffradio.org</strong></u></p>
+<p><br />
+<strong>OFF-AIR VOLUNTEERING				</strong><br />
+•	Graphic Designing. (Design marketing material including note cards, t-shirts, flyers).<br />
+•	Administrative (Help in the office with paperwork, filing, copies, data entry…)<br />
+•	Gardening/Landscaping (Mowing, planting, weeding…)<br />
+•	Storytelling/Archiving (Collecting memories; digitally and printed- photos, news clippings, interviews)<br />
+•	Storage Elves (Organizing and maintaining donations for music sale and auction in our storage house.)</p>
+<p><br />
+<strong>ON-AIR VOLUNTEERING				</strong><br />
+(All tasks and responsibilities include training.)<br />
+•	Hold a board shift.  (Regular 2-3 hour commitment filling breaks with Station ID, weather, Public Service announcements). PARTICULARY OPENING SHIFTS 6 – 9 AM.<br />
+•	Host a show (after a minimum of 3 months board operating).<br />
+•	Contribute to a local program (field reporting, etc.).</p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+			</div>
+</div>
+	
+			
+
+								<a name="mod_943"></a> 
+				<div class="textmodule default">
+	<div class="text_moduletitle"><span class="gradient_moduletitle">Proposed Policies and Budgets</span></div>
+	
+		<div class="moduleactions">
+							</div>
+			
+	<div class="bodycopy">
+					<p>WJFF's Board of Trustees periodically proposes new policies or changes to existing policies.&#160;</p>
+<p><span style="color: rgb(255, 255, 255);">.</span></p>
+<p></p>
+<p><a href="http://www.wjffradio.org/wjff/index.php?section=95">Click here to view proposed policies and bylaws changes.</a></p>
+<p><span style="color: rgb(255, 255, 255);">.</span></p>
+<p></p>
+<p>Feedback is requested in writing to <a href="mailto:feedback@wjffradio.org">feedback@wjffradio.org</a> or by mail to PO Box 546, Jeffersonville NY 12748.</p>
+			</div>
+</div>
+	
+			
+
+								<a name="mod_1004"></a> 
+				<div class="textmodule default">
+	<div class="text_moduletitle"><span class="gradient_moduletitle">The Kingfisher Project</span></div>
+	
+		<div class="moduleactions">
+							</div>
+			
+	<div class="bodycopy">
+					<p><img width="107" hspace="10" height="150" align="left" src="/wjff/files/kingfisher.jpg" alt="" />MARCH 7, 2015 - "Community radio station WJFF Radio Catskill is the recipient of a $5,000 Nonprofit Innovation Award, issued by the Nonprofit Leadership Summit on Wednesday, March 4.</p>
+<p><span style="color: rgb(255, 255, 255);">.</span></p>
+<p>WJFF Kingfisher Innovation Award 2 The grant was awarded to WJFF for its Kingfisher Project, a series of public forums, interviews and on-air documentaries focused on the growing heroin and narcotics abuse problem in WJFF’s broadcast area.."</p>
+<p><a href="http://thecatskillchronicle.com/2015/03/07/wjff-kingfisher-project-wins-non-profit-innovation-award/">click here</a> to read the full article on The Catskill Chronicle</p>
+<p><span style="color: rgb(255, 255, 255);">.</span></p>
+<p><strong>The Kingfisher Project</strong> is a community information and radio project providing "information against heroin." It airs regularly on <em>Making Waves</em> (Monday nights at 8).  You can hear past episodes at <a href="http://www.thekingfisherproject.com"><strong>thekingfisherproject.com</strong></a></p>
+<p>WJFF's Kingfisher Project was one of three programs nominated for the Innovation Award at the 2015 Nonprofit Leadership Conference.  The judges selected WJFF and The Kingfisher Project as the winner of the $5,000 prize. The prize brings awareness  to the extent and impact of heroin &amp; opiate addiction in local communities.</p>
+<p>For more information or to learn how you can get involved visit <a href="http://www.thekingfisherproject.com"><strong>thekingfisherproject.com</strong></a></p>
+<p></p>
+			</div>
+</div>
+	
+			
+
+								<a name="mod_930"></a> 
+				<div class="textmodule default">
+	<div class="text_moduletitle"><span class="gradient_moduletitle">More Ways to Donate!</span></div>
+	
+		<div class="moduleactions">
+							</div>
+			
+	<div class="bodycopy">
+					<p style="width: 100%; text-align: center"><img src="/wjff/files/WAYS_TO_DONATE.jpg" width="345" height="147" alt="Ways to Donate!" /></p>
+<p>Did you know that writing a check isn't the only way to support <em>your</em> community radio station?</p>
+<p>Give away an old car, running or not!  All you need is the title.</p>
+<p>Give us your LPs, CDs, instruments, stereo gear, sheet music and more for our music sale.</p>
+<p>Anything you can give, whether time or something else, can make a big difference to WJFF!</p>
+			</div>
+</div>
+	
+			
+
+								<a name="mod_924"></a> 
+				
+	
+			
+
+								<a name="mod_880"></a> 
+				<div class="textmodule default">
+	<div class="text_moduletitle"><span class="gradient_moduletitle">WJFF Smartphone App</span></div>
+	
+		<div class="moduleactions">
+							</div>
+			
+	<div class="bodycopy">
+					<p style="text-align: left;"><img width="360" height="324" src="/wjff/files/app_graphic.jpg" alt="" /></p>
+<p style="text-align: left;"></p>
+<p style="text-align: left;">Now you can listen to WJFF anywhere!&#160; Download the WJFF Smartphone App and use it to stream WJFF's signal from anywhere you have a data connection (standard data rates apply).&#160; <strong><em><u><br />
+To download The App: </u></em></strong>Just open the iTunes or Google Play Store on your Apple or Android phone and search for "WJFF" install The App and listen to your heart's content!</p>
+<p style="text-align: left;"><br />
+Special thanks to Paul Starkey and <a href="http://www.eachscape.com/">Eachscape</a> for their help building this app.</p>
+			</div>
+</div>
+	
+			
+
+								<a name="mod_822"></a> 
+				
+	
+			
+
+								<a name="mod_739"></a> 
+				<div class="textmodule border-bottom">
+	<div class="text_moduletitle"><span class="gradient_moduletitle">Expanded Local News</span></div>
+	
+		<div class="moduleactions">
+							</div>
+			
+	<div class="bodycopy">
+					<p style="text-align: left;"><span style="font-size: small;"><span style="display: none;" id="1318859722464S">&#160;</span></span></p>
+<p style="text-align: left;"><span style="font-size: larger;"><font face="Arial">Expanded Local News  Coverage</font></span></p>
+<div style="text-align: left;"><span style="font-size: larger;"><font face="Arial">on&#160;WJFF 90.5FM</font></span></div>
+<div style="text-align: left;"><span style="font-size: small;">&#160;</span></div>
+<div style="text-align: left;"><span style="font-size: small;"><font face="Arial">Listen for local news from New York  on</font></span></div>
+<div style="text-align: left;"><span style="font-size: small;"><font face="Arial">Saturdays at 9AM and Sundays at  5PM</font></span></div>
+<div style="text-align: left;"><span style="font-size: small;">&#160;</span></div>
+<div style="text-align: left;"><span style="font-size: small;"><font face="Arial">Listen for local news from  Pennsylvania on</font></span></div>
+<div style="text-align: left;"><span style="font-size: small;"><font face="Arial">Saturdays at 5PM and Sundays at  9AM</font></span></div>
+			</div>
+</div>
+	
+			
+
+								<a name="mod_613"></a> 
+				
+	
+			
+
+				
+
+
+
+</div><!--jb close content-->
+</div><!--jb close wrapper-->
+<div id="left_clm">
+
+	
+
+
+
+
+
+
+				<a name="mod_682"></a> 
+				<div class="textmodule default">
+	
+	
+		<div class="moduleactions">
+							</div>
+			
+	<div class="bodycopy">
+					<p style="text-align: center;"><img src="/wjff/files/SoundSupporter.jpg" alt="" height="0" width="0" /></p>
+<p style="text-align: center;"></p>
+<p style="text-align: center;"><a href="https://npo1.networkforgood.org/Donate/Donate.aspx?npoSubscriptionId=2729"><img alt="" src="/wjff/files/PledgeToday.jpg" height="61" width="152" /></a><span style="color: rgb(255, 255, 255);">.</span></p>
+<p style="text-align: center;"><a href="https://donatenow.networkforgood.org/WJFFSoundSupporter"><img class="display:none" alt="" src="/wjff/files/Yes_Badge_180px.png" height="0" width="0" /></a></p>
+<p style="text-align: center;"></p>
+<p style="text-align: center;"></p>
+<p style="text-align: center;"><a href="https://donatenow.networkforgood.org/WJFFSoundSupporter"><img src="/wjff/files/SoundSupporter.jpg  " alt="" height="62" width="153" /></a><img class="display:none" alt="" src="/wjff/files/Yes_Badge_180px.png" height="0" width="0" /></p>
+			</div>
+</div>
+	
+			
+
+								<a name="mod_890"></a> 
+				<div class="textmodule grey_border">
+	<div class="moduletitle page_moduletitle">WJFF Email List</div>			<div class="moduleactions">
+							</div>
+			
+	<div class="bodycopy bottom_gradient">
+					<p><br />
+<style type="text/css">span.label,span.spacer,span.multiple span {width:120px;float:left;} span.multiple {float:left;} span.button {padding-left:120px;} div.clear {clear:both;padding-top:5px;} div.email_form {text-align: left;padding-bottom:3px;}.email_form_input {font-size:12px; font-family:Trebuchet MS,Verdana,Arial,sans-serif;color:#555;"</style></p>
+<!-- Form -->
+<form method="post" action="http://wjffradio.createsend.com/t/r/s/ydidty/">
+    <div class="email_form"><span><input type="text" class="email_form_input" maxlength="100" onfocus="this.value='';" size="15" value=" Name" id="name" name="cm-name" /></span></div>
+    <div class="email_form"><span><input type="text" maxlength="100" onfocus="this.value='';" size="15" value=" Email Address" id="ydidty-ydidty" name="cm-ydidty-ydidty" class="email_form_input" /></span></div>
+    <div class="email_form"><span class="email_submit_button"><input type="submit" value="Subscribe" style="font-size: 0.8em;" /></span></div>
+</form>
+			</div>
+</div>
+	
+			
+
+								<a name="mod_637"></a> 
+				<div class="textmodule grey_border">
+	<div class="moduletitle page_moduletitle">Send Us Feedback</div>			<div class="moduleactions">
+							</div>
+			
+	<div class="bodycopy">
+					<p style="text-align: center; "><a href="mailto:feedback@wjffradio.org"><img src="/wjff/files/full_height_iphone_for_feed.jpg" width="165" alt="Your Station Your Voice Your Feedback" /></a></p>
+			</div>
+</div>
+	
+			
+
+								<a name="mod_439"></a> 
+				<div class="textmodule grey_border">
+	<div class="moduletitle page_moduletitle">Contact Us</div>			<div class="moduleactions">
+							</div>
+			
+	<div class="bodycopy bottom_gradient">
+					<center>
+<h3 style="font-size: 1.4em"><strong><br />
+<img alt="WJFF 90.5fm" src="/wjff/files/WJFF_logo_color_150x27.jpg" width="139" height="25" /></strong></h3>
+</center>
+<div style="line-height: 1.2"><center>P.O. Box 546<br />
+4765 State Route 52<br />
+Jeffersonville, NY 12748 <br />
+Tel. 845.482.4141<br />
+<br />
+<br type="_moz" />
+</center></div>
+			</div>
+</div>
+	
+			
+
+				
+
+
+
+</div><!-- jb close "left_clm" -->
+<div id="right_clm">
+
+	
+
+
+
+
+
+
+				<a name="mod_716"></a> 
+				<div class="searchmodule grey_background">
+<div class="permissions">
+			
+</div>
+
+<div class="moduletitle search_moduletitle">Search the Website</div>
+<div class="inset">
+<form method="get" action="">
+<input type="hidden" name="module" value="searchmodule" />
+<input type="hidden" name="src" value="@random4df42c25c9461" />
+<input type="hidden" name="action" value="search" />
+<input type="text" name="search_string" size="13" />
+<input type="submit" value="Search" style="font-size: .8em" />
+</form>
+</div>
+</div>
+	
+			
+
+								<a name="mod_1103"></a> 
+				<div class="pagemodule grey_background">
+
+<div class="moduletitle page_moduletitle">Now Playing</div><div class="inset">
+<html>
+	<head>
+<style>
+.now_playing ul, .now_playing ul li ul  {list-style: none outside none; font-weight: normal;}
+.now_playing li {font-weight: bold;margin-bottom: 6px;}
+.now_playing li li {font-weight: 400;padding-left: .5em;margin-bottom: 0px;}
+</style>
+<link rel="stylesheet" href="/fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script type="text/javascript" src="/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+<script>
+$.ajax({
+        url: '/parchive/fullcalendar/on_the_air_server.php',
+        dataType: 'html',
+        success: function(data) {
+            $("#now_playing").html(data);
+            }
+    })
+
+</script>
+</head> 
+<div id="now_playing"></div>
+<script type="text/javascript">
+	$(document).ready(function() {
+		$(".fancybox").fancybox();
+	});
+</script>
+</html>
+
+</div>
+</div>
+	
+			
+
+								<a name="mod_776"></a> 
+				<div class="textmodule grey_border">
+	<div class="moduletitle page_moduletitle">Publicize Your Event</div>			<div class="moduleactions">
+							</div>
+			
+	<div class="bodycopy">
+					<p style="text-align: center;"><a href="http://www.wjffradio.org/wjff/index.php?section=79"><img width="172" vspace="5" height="46" src="http://www.wjffradio.org/wjff/files/submit_a_psa_sm.png" alt="" /></a></p>
+			</div>
+</div>
+	
+			
+
+								<a name="mod_769"></a> 
+				<div class="grey_background">
+<div class="moduletitle calendar_moduletitle">Event Calendar</div><div class="itemtitle calendar_itemtitle">
+<ul class="calendar_itemtitle">
+	<i>No upcoming events.</i><br />
+<p>
+<a href="http://www.wjffradio.org/wjff/index.php?_common=1&amp;view=Monthly+List&amp;action=show_view&amp;time=1535365018&amp;module=calendarmodule&amp;src=@random479a92ba65908" class="more_news">View More...</a>
+</p>
+</div>
+</div>
+	
+			
+
+								<a name="mod_726"></a> 
+				<div class="" style="">
+
+<div class="" style="width: 144px;margin-left:auto;margin-right:auto">
+ <div style="clear:both"></div>
+ <script language="JavaScript" type="text/javascript">
+//<!--
+function do_down(id)
+{
+	var str = "pa_dodown.php?id=" + id;
+	window.open(str,"","height=1,width=1,left=0,top=0,location=no,menubar=no,resizable=no,status=no,toolbar=no,titlebar=no");
+	var foo = 1;
+	return(false);
+}
+
+function checkChange(obj)
+{
+	if(obj.name == 'shokey')
+	{
+		obj.form.submit();
+		return true;
+	}
+	else
+		return false;
+}
+//-->
+</script>
+
+<div style="background-image: url(images/local_news_badge_top.png);background-repeat:no-repeat;height: 56px;width:144px;margin: 12px 0 0px 0;"></div><div style="background-image: url(images/local_news_badge_back.png);background-repeat:repeat-y;padding: 0px 3px;"><table class="" style="position:relative;text-align:center;">
+
+<tr class="d1"><td class=showdate style="padding:2px 6px 3px 6px;"><span class=showname style="font-size:.8em;">Local News - New York Focus
+</span><center>
+<!-- Mini Player -->
+
+<object type="application/x-shockwave-flash" data="http://flash-mp3-player.net/medias/player_mp3_maxi.swf" width="124" height="16">
+    <param name="movie" value="http://flash-mp3-player.net/medias/player_mp3_maxi.swf" />
+    <param name="bgcolor" value="#ffffff" />
+    <param name="FlashVars" value="mp3=http://www.wjffradio.org/parchive/mp3/180825_090000nynews.MP3&amp;width=124&amp;height=14&amp;volume=50&amp;showvolume=1&amp;sliderwidth=16&amp;sliderheight=8&amp;sliderovercolor=888888&amp;buttonovercolor=888888&amp;loadingcolor=FFFFFF" />
+</object>
+<!-- End Mini Player --></center>
+</td></tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<tr class="d1"><td class=showdate style="padding:2px 6px 3px 6px;"><span class=showname style="font-size:.8em;">Local News - Pennsylvania Focus
+</span><center>
+<!-- Mini Player -->
+
+<object type="application/x-shockwave-flash" data="http://flash-mp3-player.net/medias/player_mp3_maxi.swf" width="124" height="16">
+    <param name="movie" value="http://flash-mp3-player.net/medias/player_mp3_maxi.swf" />
+    <param name="bgcolor" value="#ffffff" />
+    <param name="FlashVars" value="mp3=http://www.wjffradio.org/parchive/mp3/180825_170003panews.MP3&amp;width=124&amp;height=14&amp;volume=50&amp;showvolume=1&amp;sliderwidth=16&amp;sliderheight=8&amp;sliderovercolor=888888&amp;buttonovercolor=888888&amp;loadingcolor=FFFFFF" />
+</object>
+<!-- End Mini Player --></center>
+</td></tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</table></div><div style="background-image: url(images/local_news_badge_bottom.png);background-repeat:no-repeat;height: 4px;width:144px;margin: 0px 0 12px 0;"></div> 
+
+</div>
+</div>
+	
+			
+
+								<a name="mod_1045"></a> 
+				<div class="textmodule grey_border">
+	<div class="moduletitle page_moduletitle">Reception Problems?</div>			<div class="moduleactions">
+							</div>
+			
+	<div class="bodycopy">
+					<p style="text-align: left;">Since we moved our transmitter, some listeners have noticed a drop in signal quality.&#160; If you're experiencing this, check out <a href="http://www.northcountrypublicradio.org/about/reception.html"><span style="color: rgb(128, 0, 0);">Radio Bob's Reception Tips!</span></a><span style="color: rgb(128, 0, 0);">&#160;</span><strong> </strong></p>
+			</div>
+</div>
+	
+			
+
+				
+
+
+
+</div><!-- jb close "right_clm" -->
+<div id="footer">
+<div id="f_nav">
+ 
+
+	<ul class="f_nav">
+		<li>
+		&nbsp;::
+								
+							<a class="navlink" href="http://www.wjffradio.org/wjff/">Home</a>
+						::
+																																																																																																																																																																	
+							<a class="navlink" href="http://www.wjffradio.org/wjff/index.php?section=4">Programs</a>
+						::
+																																					
+							<a class="navlink" href="http://www.wjffradio.org/wjff/index.php?section=38">Audio Archive</a>
+						::
+																	
+							<a class="navlink" href="http://www.wjffradio.org/wjff/index.php?section=20">Soundings</a>
+						::
+													
+							<a class="navlink" href="http://www.wjffradio.org/gallery/">Gallery</a>
+						::
+													
+							<a class="navlink" href="http://www.wjffradio.org/wjff/index.php?section=23">Donate</a>
+						::
+																					
+							<a class="navlink" href="http://www.wjffradio.org/wjff/index.php?section=17">Volunteer</a>
+						::
+																									
+							<a class="navlink" href="http://www.wjffradio.org/wjff/index.php?section=19">Hydropowered</a>
+						::
+													
+							<a class="navlink" href="http://www.wjffradio.org/wjff/index.php?section=56">Underwriters</a>
+						::
+													
+							<a class="navlink" href="http://www.wjffradio.org/wjff/index.php?section=2">Contact / About Us</a>
+						::
+															</li>
+	</ul></div>
+</div><!-- jb close footer -->
+</div><!-- jb close container -->
+</div><!-- jb close wrapper -->
+<div class="" style="width: 800px; text-align: right; padding: 6px 20px 6px 0px; margin-left:auto;margin-right:auto;"> 
+<form method="post" action="">
+<input type="hidden" name="action" value="login" />
+<input type="hidden" name="module" value="loginmodule" />
+<input type="text" name="username" id="login_username" size="15" />
+<input type="password" name="password" id="login_password" size="15" />
+<input type="submit" value="Log In" />
+</form>
+</div>
+<!-- Start of StatCounter Code -->
+  <script type="text/javascript" language="javascript">
+       var sc_project=247063; var sc_invisible=1; </script>
+  <script type="text/javascript" language="javascript" src="http://www.statcounter.com/counter/counter.js"></script>
+  <noscript>
+   <a href="http://www.statcounter.com" target="_blank">
+    <img  src="http://c1.statcounter.com/counter.php?sc_project=247063&amp;java=0" alt="hit counter" border="0">
+   </a>
+  </noscript>
+  <!-- End of StatCounter Code -->
+	<script type="text/javascript">
+</script>
+</div>
+
+</body>
+</html>

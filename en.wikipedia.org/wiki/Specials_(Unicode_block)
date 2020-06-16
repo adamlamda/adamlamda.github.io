@@ -1,0 +1,890 @@
+
+<!DOCTYPE html>
+<html class="client-nojs" lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8"/>
+<title>Specials (Unicode block) - Wikipedia</title>
+<script>document.documentElement.className="client-js";RLCONF={"wgBreakFrames":!1,"wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgRequestId":"46f11be4-2efb-48e9-9e89-1acc16ca8555","wgCSPNonce":!1,"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":!1,"wgNamespaceNumber":0,"wgPageName":"Specials_(Unicode_block)","wgTitle":"Specials (Unicode block)","wgCurRevisionId":962355260,"wgRevisionId":962355260,"wgArticleId":11664019,"wgIsArticle":!0,"wgIsRedirect":!1,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Articles with short description","Articles needing additional references from April 2010","All articles needing additional references","All articles with vague or ambiguous time","Vague or ambiguous time from August 2019","Unicode blocks"],"wgPageContentLanguage":"en",
+"wgPageContentModel":"wikitext","wgRelevantPageName":"Specials_(Unicode_block)","wgRelevantArticleId":11664019,"wgIsProbablyEditable":!0,"wgRelevantPageIsProbablyEditable":!0,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgMediaViewerOnClick":!0,"wgMediaViewerEnabledByDefault":!0,"wgPopupsReferencePreviews":!1,"wgPopupsConflictsWithNavPopupGadget":!1,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en"},"wgMFDisplayWikibaseDescriptions":{"search":!0,"nearby":!0,"watchlist":!0,"tagline":!1},"wgWMESchemaEditAttemptStepOversample":!1,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgWikibaseItemId":"Q2494081","wgCentralAuthMobileDomain":!1,"wgEditSubmitButtonLabelPublish":!0};RLSTATE={"ext.globalCssJs.user.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","ext.globalCssJs.user":"ready","user":"ready","user.options":"loading","ext.cite.styles":"ready",
+"jquery.makeCollapsible.styles":"ready","mediawiki.toc.styles":"ready","skins.vector.styles.legacy":"ready","wikibase.client.init":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready"};RLPAGEMODULES=["ext.cite.ux-enhancements","site","mediawiki.page.startup","mediawiki.page.ready","jquery.makeCollapsible","mediawiki.toc","skins.vector.legacy.js","ext.gadget.ReferenceTooltips","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.centralauth.centralautologin","mmv.head","mmv.bootstrap.autostart","ext.popups","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging","ext.wikimediaEvents","ext.navigationTiming","ext.uls.compactlinks","ext.uls.interface","ext.cx.eventlogging.campaigns","ext.quicksurveys.init","ext.centralNotice.geoIP","ext.centralNotice.startUp"];</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.loader.implement("user.options@1hzgi",function($,jQuery,require,module){/*@nomin*/mw.user.tokens.set({"patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+});});</script>
+<link rel="stylesheet" href="https://en.wikipedia.org/w/load.php?lang=en&amp;modules=ext.cite.styles%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediaBadges%7Cjquery.makeCollapsible.styles%7Cmediawiki.toc.styles%7Cskins.vector.styles.legacy%7Cwikibase.client.init&amp;only=styles&amp;skin=vector"/>
+<script async="" src="https://en.wikipedia.org/w/load.php?lang=en&amp;modules=startup&amp;only=scripts&amp;raw=1&amp;skin=vector"></script>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="https://en.wikipedia.org/w/load.php?lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=vector"/>
+<meta name="generator" content="MediaWiki 1.35.0-wmf.36"/>
+<meta name="referrer" content="origin"/>
+<meta name="referrer" content="origin-when-crossorigin"/>
+<meta name="referrer" content="origin-when-cross-origin"/>
+<link rel="alternate" type="application/x-wiki" title="Edit this page" href="https://en.wikipedia.org/w/index.php?title=Specials_(Unicode_block)&amp;action=edit"/>
+<link rel="edit" title="Edit this page" href="https://en.wikipedia.org/w/index.php?title=Specials_(Unicode_block)&amp;action=edit"/>
+<link rel="apple-touch-icon" href="https://en.wikipedia.org/static/apple-touch/wikipedia.png"/>
+<link rel="shortcut icon" href="https://en.wikipedia.org/static/favicon/wikipedia.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="https://en.wikipedia.org/w/opensearch_desc.php" title="Wikipedia (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="https://en.wikipedia.org/w/api.php?action=rsd"/>
+<link rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/"/>
+<link rel="alternate" type="application/atom+xml" title="Wikipedia Atom feed" href="https://en.wikipedia.org/w/index.php?title=Special:RecentChanges&amp;feed=atom"/>
+<link rel="canonical" href="Specials_(Unicode_block)"/>
+<link rel="dns-prefetch" href="https://login.wikimedia.org/"/>
+<link rel="dns-prefetch" href="https://meta.wikimedia.org/" />
+<!--[if lt IE 9]><script src="/w/resources/lib/html5shiv/html5shiv.js"></script><![endif]-->
+</head>
+<body class="mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject mw-editable page-Specials_Unicode_block rootpage-Specials_Unicode_block skin-vector action-view skin-vector-legacy">
+<div id="mw-page-base" class="noprint"></div>
+<div id="mw-head-base" class="noprint"></div>
+<div id="content" class="mw-body" role="main">
+	<a id="top"></a>
+		<div id="siteNotice" class="mw-body-content"><!-- CentralNotice --></div>
+	<div class="mw-indicators mw-body-content">
+</div>
+
+	<h1 id="firstHeading" class="firstHeading" lang="en">Specials (Unicode block)</h1>
+	
+	<div id="bodyContent" class="mw-body-content">
+		<div id="siteSub" class="noprint">From Wikipedia, the free encyclopedia</div>
+		<div id="contentSub"></div>
+		
+		
+		<div id="jump-to-nav"></div>
+		<a class="mw-jump-link" href="Specials_(Unicode_block)#mw-head">Jump to navigation</a>
+		<a class="mw-jump-link" href="Specials_(Unicode_block)#p-search">Jump to search</a>
+		<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><div class="mw-parser-output"><div class="shortdescription nomobile noexcerpt noprint searchaux" style="display:none">Unicode block containing some special codepoints and two non-characters</div>
+<table class="box-More_citations_needed plainlinks metadata ambox ambox-content ambox-Refimprove" role="presentation"><tbody><tr><td class="mbox-image"><div style="width:52px"><a href="https://en.wikipedia.org/wiki/File:Question_book-new.svg" class="image"><img alt="" src="https://upload.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/50px-Question_book-new.svg.png" decoding="async" width="50" height="39" srcset="https://upload.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/75px-Question_book-new.svg.png 1.5x, https://upload.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/100px-Question_book-new.svg.png 2x" data-file-width="512" data-file-height="399" /></a></div></td><td class="mbox-text"><div class="mbox-text-span">This article <b>needs additional citations for <a href="./Wikipedia:Verifiability" title="Wikipedia:Verifiability">verification</a></b>.<span class="hide-when-compact"> Please help <a class="external text" href="https://en.wikipedia.org/w/index.php?title=Specials_(Unicode_block)&amp;action=edit">improve this article</a> by <a href="https://en.wikipedia.org/wiki/Help:Referencing_for_beginners" title="Help:Referencing for beginners">adding citations to reliable sources</a>. Unsourced material may be challenged and removed.<br /><small><span class="plainlinks"><i>Find sources:</i>&#160;<a rel="nofollow" class="external text" href="https://www.google.com/search?as_eq=wikipedia&amp;q=%22Specials%22+Unicode+block">"Specials"&#160;Unicode block</a>&#160;–&#160;<a rel="nofollow" class="external text" href="https://www.google.com/search?tbm=nws&amp;q=%22Specials%22+Unicode+block+-wikipedia">news</a>&#160;<b>·</b> <a rel="nofollow" class="external text" href="https://www.google.com/search?&amp;q=%22Specials%22+Unicode+block+site:news.google.com/newspapers&amp;source=newspapers">newspapers</a>&#160;<b>·</b> <a rel="nofollow" class="external text" href="https://www.google.com/search?tbs=bks:1&amp;q=%22Specials%22+Unicode+block+-wikipedia">books</a>&#160;<b>·</b> <a rel="nofollow" class="external text" href="https://scholar.google.com/scholar?q=%22Specials%22+Unicode+block">scholar</a>&#160;<b>·</b> <a rel="nofollow" class="external text" href="https://www.jstor.org/action/doBasicSearch?Query=%22Specials%22+Unicode+block&amp;acc=on&amp;wc=on">JSTOR</a></span></small></span>  <small class="date-container"><i>(<span class="date">April 2010</span>)</i></small><small class="hide-when-compact"><i> (<a href="./Help:Maintenance_template_removal" title="Help:Maintenance template removal">Learn how and when to remove this template message</a>)</i></small></div></td></tr></tbody></table>
+<table class="infobox" style="width:22em"><tbody><tr><th colspan="2" style="text-align:center;font-size:125%;font-weight:bold;background:#CCE;&#32;;">Specials</th></tr><tr><th scope="row">Range</th><td>U+FFF0..U+FFFF<br />(16 code points)</td></tr><tr><th scope="row">Plane</th><td><a href="https://en.wikipedia.org/wiki/Basic_Multilingual_Plane" class="mw-redirect" title="Basic Multilingual Plane">BMP</a></td></tr><tr><th scope="row">Scripts</th><td><a href="https://en.wikipedia.org/wiki/Script_(Unicode)#Special_script_property_values" title="Script (Unicode)">Common</a></td></tr><tr><th scope="row">Assigned</th><td>5 code points</td></tr><tr><th scope="row">Unused</th><td>9 reserved code points <br />2 non-characters</td></tr><tr><th colspan="2" style="text-align:center">Unicode version history</th></tr><tr><td colspan="2" style="text-align:center"></td></tr><tr><th scope="row">1.0.0</th><td>1 (+1)</td></tr><tr><th scope="row">2.1</th><td>2 (+1)</td></tr><tr><th scope="row">3.0</th><td>5 (+3)</td></tr><tr style="display:none"><td colspan="2">
+</td></tr><tr><td colspan="2" style="text-align:center"><b>Note</b>: <sup id="cite_ref-1" class="reference"><a href="Specials_(Unicode_block)#cite_note-1">&#91;1&#93;</a></sup><sup id="cite_ref-2" class="reference"><a href="Specials_(Unicode_block)#cite_note-2">&#91;2&#93;</a></sup></td></tr></tbody></table>
+<p><b>Specials</b> is a short <a href="https://en.wikipedia.org/wiki/Unicode" title="Unicode">Unicode</a> block allocated at the very end of the <a href="https://en.wikipedia.org/wiki/Basic_Multilingual_Plane" class="mw-redirect" title="Basic Multilingual Plane">Basic Multilingual Plane</a>, at U+FFF0&#8211;FFFF. Of these 16 code points, five have been assigned since Unicode 3.0:
+</p>
+<ul><li><span class="nowrap"><style data-mw-deduplicate="TemplateStyles:r886049734">.mw-parser-output .monospaced{font-family:monospace,monospace}</style><span class="monospaced">U+FFF9</span></span>&#x20; <style data-mw-deduplicate="TemplateStyles:r920966791">.mw-parser-output span.smallcaps{font-variant:small-caps}.mw-parser-output span.smallcaps-smaller{font-size:85%}</style><span class="smallcaps smallcaps-smaller">INTERLINEAR ANNOTATION ANCHOR</span>, marks start of <a href="https://en.wikipedia.org/wiki/Interlinear_gloss" title="Interlinear gloss">annotated text</a></li>
+<li><span class="nowrap"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r886049734"/><span class="monospaced">U+FFFA</span></span>&#x20; <link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r920966791"/><span class="smallcaps smallcaps-smaller">INTERLINEAR ANNOTATION SEPARATOR</span>, marks start of annotating character(s)</li>
+<li><span class="nowrap"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r886049734"/><span class="monospaced">U+FFFB</span></span>&#x20; <link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r920966791"/><span class="smallcaps smallcaps-smaller">INTERLINEAR ANNOTATION TERMINATOR</span>, marks end of annotation block</li>
+<li><span id="OBJ"><span class="nowrap"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r886049734"/><span class="monospaced">U+FFFC</span></span>&#x20;<span style="font-size:125%;line-height:1em">&#xfffc;</span> <link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r920966791"/><span class="smallcaps smallcaps-smaller">OBJECT REPLACEMENT CHARACTER</span></span>, placeholder in the text for another unspecified object, for example in a <a href="https://en.wikipedia.org/wiki/Compound_document" title="Compound document">compound document</a>.</li>
+<li><span class="nowrap"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r886049734"/><span class="monospaced">U+FFFD</span></span>&#x20;<span style="font-size:125%;line-height:1em">&#xfffd;</span> <link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r920966791"/><span class="smallcaps smallcaps-smaller">REPLACEMENT CHARACTER</span> used to replace an unknown, unrecognized or unrepresentable character</li>
+<li><span class="nowrap"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r886049734"/><span class="monospaced">U+FFFE</span></span>&#x20;<span style="font-size:small">&lt;noncharacter-FFFE&gt;</span> not a character.</li>
+<li><span class="nowrap"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r886049734"/><span class="monospaced">U+FFFF</span></span>&#x20;<span style="font-size:small">&lt;noncharacter-FFFF&gt;</span> not a character.</li></ul>
+<p>FFFE and FFFF are not unassigned in the usual sense, but <a href="https://en.wikipedia.org/wiki/Universal_Character_Set_characters#Non-characters" title="Universal Character Set characters">guaranteed not to be Unicode characters at all</a>. They can be used to guess a text's encoding scheme, since any text containing these is by definition not a correctly encoded Unicode text. Unicode's <span class="nowrap"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r886049734"/><span class="monospaced">U+FEFF</span></span>&#x20; <link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r920966791"/><span class="smallcaps smallcaps-smaller"><a href="https://en.wikipedia.org/wiki/BYTE_ORDER_MARK" class="mw-redirect" title="BYTE ORDER MARK">BYTE ORDER MARK</a></span> character can be inserted at the beginning of a Unicode text to signal its <a href="https://en.wikipedia.org/wiki/Endianness" title="Endianness">endianness</a>: a program reading such a text and encountering 0xFFFE would then know that it should switch the byte order for all the following characters.
+</p>
+<div id="toc" class="toc" role="navigation" aria-labelledby="mw-toc-heading"><input type="checkbox" role="button" id="toctogglecheckbox" class="toctogglecheckbox" style="display:none" /><div class="toctitle" lang="en" dir="ltr"><h2 id="mw-toc-heading">Contents</h2><span class="toctogglespan"><label class="toctogglelabel" for="toctogglecheckbox"></label></span></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="Specials_(Unicode_block)#Replacement_character"><span class="tocnumber">1</span> <span class="toctext">Replacement character</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="Specials_(Unicode_block)#Unicode_chart"><span class="tocnumber">2</span> <span class="toctext">Unicode chart</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="Specials_(Unicode_block)#History"><span class="tocnumber">3</span> <span class="toctext">History</span></a></li>
+<li class="toclevel-1 tocsection-4"><a href="Specials_(Unicode_block)#See_also"><span class="tocnumber">4</span> <span class="toctext">See also</span></a></li>
+<li class="toclevel-1 tocsection-5"><a href="Specials_(Unicode_block)#References"><span class="tocnumber">5</span> <span class="toctext">References</span></a></li>
+</ul>
+</div>
+
+<h2><span class="mw-headline" id="Replacement_character">Replacement character</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="https://en.wikipedia.org/w/index.php?title=Specials_(Unicode_block)&amp;action=edit&amp;section=1" title="Edit section: Replacement character">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="thumb tright"><div class="thumbinner" style="width:222px;"><a href="https://en.wikipedia.org/wiki/File:Replacement_character.svg" class="image"><img alt="" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Replacement_character.svg/220px-Replacement_character.svg.png" decoding="async" width="220" height="220" class="thumbimage" srcset="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Replacement_character.svg/330px-Replacement_character.svg.png 1.5x, https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Replacement_character.svg/440px-Replacement_character.svg.png 2x" data-file-width="200" data-file-height="200" /></a>  <div class="thumbcaption"><div class="magnify"><a href="https://en.wikipedia.org/wiki/File:Replacement_character.svg" class="internal" title="Enlarge"></a></div>Replacement character</div></div></div>
+<p>The <b>replacement character</b> � (often a black diamond with a white question mark or an empty square box) is a symbol found in the <a href="https://en.wikipedia.org/wiki/Unicode" title="Unicode">Unicode</a> standard at code point U+FFFD in the <i>Specials</i> table. It is used to indicate problems when a system is unable to render a stream of data to a correct symbol. It is usually seen when the data is invalid and does not match any character:
+</p><p>Consider a text file containing the German word "für" (meaning "for") in the <a href="https://en.wikipedia.org/wiki/ISO-8859-1" class="mw-redirect" title="ISO-8859-1">ISO-8859-1</a> encoding (<code>0x66 0xFC 0x72</code>). This file is now opened with a text editor that assumes the input is <a href="https://en.wikipedia.org/wiki/UTF-8" title="UTF-8">UTF-8</a>. The first and last byte are valid UTF-8 encodings of ASCII, but the middle byte (<code>0xFC</code>) is not a valid byte in UTF-8. Therefore, a text editor could replace this byte with the replacement character symbol to produce a valid string of Unicode <a href="https://en.wikipedia.org/wiki/Code_point" title="Code point">code points</a>. The whole string now displays like this: "f�r".
+</p><p>A poorly implemented text editor might save the replacement in UTF-8 form; the text file data will then look like this: <code>0x66 0xEF 0xBF 0xBD 0x72</code>, which will be displayed in ISO-8859-1 as "fï¿½r" (see <a href="https://en.wikipedia.org/wiki/Mojibake" title="Mojibake">mojibake</a>). Since the replacement is the same for all errors this makes it impossible to recover the original character. A better (but harder to implement) design is to preserve the original bytes, including the error, and only convert to the replacement when <i>displaying</i> the text. This will allow the text editor to save the original byte sequence, while still showing the error indicator to the user.
+</p><p>It has become increasingly common<sup class="noprint Inline-Template" style="white-space:nowrap;">&#91;<i><a href="https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style/Dates_and_numbers#Chronological_items" title="Wikipedia:Manual of Style/Dates and numbers"><span title="The time period mentioned near this tag is ambiguous. (August 2019)">when?</span></a></i>&#93;</sup> for software to interpret invalid UTF-8 by guessing the bytes are in another byte-based encoding such as ISO-8859-1. This allows correct display of both valid and invalid UTF-8 pasted together. If a web page uses ISO-8859-1 (or <a href="https://en.wikipedia.org/wiki/Windows-1252" title="Windows-1252">Windows-1252</a>) but specifies the encoding as UTF-8, most web browsers used to display all non-ASCII characters as �, but newer browsers<sup class="noprint Inline-Template" style="white-space:nowrap;">&#91;<i><a href="https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style/Dates_and_numbers#Chronological_items" title="Wikipedia:Manual of Style/Dates and numbers"><span title="The time period mentioned near this tag is ambiguous. (August 2019)">when?</span></a></i>&#93;</sup> translate the erroneous bytes individually to characters in Windows-1252, so the replacement character is less frequently seen.
+</p>
+<h2><span class="mw-headline" id="Unicode_chart">Unicode chart</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="https://en.wikipedia.org/w/index.php?title=Specials_(Unicode_block)&amp;action=edit&amp;section=2" title="Edit section: Unicode chart">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<table class="wikitable nounderlines" style="border-collapse:collapse;background:#FFFFFF;font-size:large;text-align:center">
+<tbody><tr>
+<td colspan="17" style="background:#F8F8F8;font-size:small"><b><a class="mw-selflink selflink">Specials</a></b><sup class="reference" id="ref_UFFF0_as_of_Unicode_version"><a href="Specials_(Unicode_block)#endnote_UFFF0_as_of_Unicode_version">[1]</a></sup><sup class="reference" id="ref_UFFF0_grey"><a href="Specials_(Unicode_block)#endnote_UFFF0_grey">[2]</a></sup><sup class="reference" id="ref_UFFF0_black"><a href="Specials_(Unicode_block)#endnote_UFFF0_black">[3]</a></sup><br /><a rel="nofollow" class="external text" href="https://www.unicode.org/charts/PDF/UFFF0.pdf">Official Unicode Consortium code chart</a> (PDF)
+</td></tr>
+<tr style="background:#F8F8F8;font-size:small">
+<td style="width:45pt">&#160;</td>
+<td style="width:20pt">0</td>
+<td style="width:20pt">1</td>
+<td style="width:20pt">2</td>
+<td style="width:20pt">3</td>
+<td style="width:20pt">4</td>
+<td style="width:20pt">5</td>
+<td style="width:20pt">6</td>
+<td style="width:20pt">7</td>
+<td style="width:20pt">8</td>
+<td style="width:20pt">9</td>
+<td style="width:20pt">A</td>
+<td style="width:20pt">B</td>
+<td style="width:20pt">C</td>
+<td style="width:20pt">D</td>
+<td style="width:20pt">E</td>
+<td style="width:20pt">F
+</td></tr>
+<tr>
+<td style="background:#F8F8F8;font-size:small">U+FFFx
+</td>
+<td title="Reserved" style="background-color:#CCCCCC;">
+</td>
+<td title="Reserved" style="background-color:#CCCCCC;">
+</td>
+<td title="Reserved" style="background-color:#CCCCCC;">
+</td>
+<td title="Reserved" style="background-color:#CCCCCC;">
+</td>
+<td title="Reserved" style="background-color:#CCCCCC;">
+</td>
+<td title="Reserved" style="background-color:#CCCCCC;">
+</td>
+<td title="Reserved" style="background-color:#CCCCCC;">
+</td>
+<td title="Reserved" style="background-color:#CCCCCC;">
+</td>
+<td title="Reserved" style="background-color:#CCCCCC;">
+</td>
+<td title="U+FFF9: INTERLINEAR ANNOTATION ANCHOR"><span style="display:inline-block; border:1px dashed black; line-height:1em;"><span style="font-size:75%;">&#160;IA&#160;<br />A</span></span>
+</td>
+<td title="U+FFFA: INTERLINEAR ANNOTATION SEPARATOR"><span style="display:inline-block; border:1px dashed black; line-height:1em;"><span style="font-size:75%;">&#160;IA&#160;<br />S</span></span>
+</td>
+<td title="U+FFFB: INTERLINEAR ANNOTATION TERMINATOR"><span style="display:inline-block; border:1px dashed black; line-height:1em;"><span style="font-size:75%;">&#160;IA&#160;<br />T</span></span>
+</td>
+<td title="U+FFFC: OBJECT REPLACEMENT CHARACTER">￼
+</td>
+<td title="U+FFFD: REPLACEMENT CHARACTER">&#xfffd;
+</td>
+<td title="Not a character" style="background-color:black;">
+</td>
+<td title="Not a character" style="background-color:black;">
+</td></tr>
+<tr>
+<td colspan="17" style="background:#F8F8F8;font-size:small;text-align:left"><b>Notes</b>
+<dl><dd>1.<span class="citation wikicite" id="endnote_UFFF0_as_of_Unicode_version"><b><a href="Specials_(Unicode_block)#ref_UFFF0_as_of_Unicode_version">^</a></b></span> As of Unicode version 13.0</dd>
+<dd>2.<span class="citation wikicite" id="endnote_UFFF0_grey"><b><a href="Specials_(Unicode_block)#ref_UFFF0_grey">^</a></b></span> Grey areas indicate non-assigned code points</dd>
+<dd>3.<span class="citation wikicite" id="endnote_UFFF0_black"><b><a href="Specials_(Unicode_block)#ref_UFFF0_black">^</a></b></span> Black areas indicate noncharacters (code points that are guaranteed never to be assigned as encoded characters in the Unicode Standard)</dd></dl>
+</td></tr></tbody></table>
+<h2><span class="mw-headline" id="History">History</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="https://en.wikipedia.org/w/index.php?title=Specials_(Unicode_block)&amp;action=edit&amp;section=3" title="Edit section: History">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>The following Unicode-related documents record the purpose and process of defining specific characters in the Specials block:
+</p>
+<table class="wikitable collapsible">
+
+<tbody><tr>
+<th><a href="https://en.wikipedia.org/wiki/Unicode#Versions" title="Unicode">Version</a></th>
+<th><span class="nowrap">Final code points<sup id="cite_ref-final_3-0" class="reference"><a href="Specials_(Unicode_block)#cite_note-final-3">&#91;a&#93;</a></sup></span></th>
+<th>Count</th>
+<th><a href="https://en.wikipedia.org/wiki/Unicode_Consortium" title="Unicode Consortium">UTC</a>&#160;ID</th>
+<th><a href="https://en.wikipedia.org/wiki/International_Committee_for_Information_Technology_Standards" title="International Committee for Information Technology Standards">L2</a>&#160;ID</th>
+<th><a href="https://en.wikipedia.org/wiki/ISO/IEC_JTC_1/SC_2" title="ISO/IEC JTC 1/SC 2">WG2</a>&#160;ID</th>
+<th>Document
+</th></tr>
+<tr>
+<td rowspan="5">1.0.0</td>
+<td>U+FFFD</td>
+<td>1</td>
+<td></td>
+<td></td>
+<td></td>
+<td>(to be determined)
+</td></tr>
+<tr>
+<td rowspan="4">U+FFFE..FFFF</td>
+<td rowspan="4">2</td>
+<td></td>
+<td></td>
+<td></td>
+<td>(to be determined)
+</td></tr>
+<tr>
+<td></td>
+<td><span class="nowrap"><a rel="nofollow" class="external text" href="https://www.unicode.org/consortium/utc-minutes/UTC-088-200108.html">L2/01-295R</a></span></td>
+<td></td>
+<td><cite id="CITEREFMoore2001" class="citation">Moore, Lisa (2001-11-06), "Motion 88-M2", <i>Minutes from the UTC/L2 meeting #88</i></cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=bookitem&amp;rft.atitle=Motion+88-M2&amp;rft.btitle=Minutes+from+the+UTC%2FL2+meeting+%2388&amp;rft.date=2001-11-06&amp;rft.aulast=Moore&amp;rft.aufirst=Lisa&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ASpecials+%28Unicode+block%29" class="Z3988"></span><style data-mw-deduplicate="TemplateStyles:r951705291">.mw-parser-output cite.citation{font-style:inherit}.mw-parser-output .citation q{quotes:"\"""\"""'""'"}.mw-parser-output .id-lock-free a,.mw-parser-output .citation .cs1-lock-free a{background-image:url("https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Lock-green.svg/9px-Lock-green.svg.png");background-image:linear-gradient(transparent,transparent),url("https://upload.wikimedia.org/wikipedia/commons/6/65/Lock-green.svg");background-repeat:no-repeat;background-size:9px;background-position:right .1em center}.mw-parser-output .id-lock-limited a,.mw-parser-output .id-lock-registration a,.mw-parser-output .citation .cs1-lock-limited a,.mw-parser-output .citation .cs1-lock-registration a{background-image:url("https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Lock-gray-alt-2.svg/9px-Lock-gray-alt-2.svg.png");background-image:linear-gradient(transparent,transparent),url("https://upload.wikimedia.org/wikipedia/commons/d/d6/Lock-gray-alt-2.svg");background-repeat:no-repeat;background-size:9px;background-position:right .1em center}.mw-parser-output .id-lock-subscription a,.mw-parser-output .citation .cs1-lock-subscription a{background-image:url("https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Lock-red-alt-2.svg/9px-Lock-red-alt-2.svg.png");background-image:linear-gradient(transparent,transparent),url("https://upload.wikimedia.org/wikipedia/commons/a/aa/Lock-red-alt-2.svg");background-repeat:no-repeat;background-size:9px;background-position:right .1em center}.mw-parser-output .cs1-subscription,.mw-parser-output .cs1-registration{color:#555}.mw-parser-output .cs1-subscription span,.mw-parser-output .cs1-registration span{border-bottom:1px dotted;cursor:help}.mw-parser-output .cs1-ws-icon a{background-image:url("https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Wikisource-logo.svg/12px-Wikisource-logo.svg.png");background-image:linear-gradient(transparent,transparent),url("https://upload.wikimedia.org/wikipedia/commons/4/4c/Wikisource-logo.svg");background-repeat:no-repeat;background-size:12px;background-position:right .1em center}.mw-parser-output code.cs1-code{color:inherit;background:inherit;border:inherit;padding:inherit}.mw-parser-output .cs1-hidden-error{display:none;font-size:100%}.mw-parser-output .cs1-visible-error{font-size:100%}.mw-parser-output .cs1-maint{display:none;color:#33aa33;margin-left:0.3em}.mw-parser-output .cs1-subscription,.mw-parser-output .cs1-registration,.mw-parser-output .cs1-format{font-size:95%}.mw-parser-output .cs1-kern-left,.mw-parser-output .cs1-kern-wl-left{padding-left:0.2em}.mw-parser-output .cs1-kern-right,.mw-parser-output .cs1-kern-wl-right{padding-right:0.2em}.mw-parser-output .citation .mw-selflink{font-weight:inherit}</style>
+</td></tr>
+<tr>
+<td></td>
+<td><span class="nowrap"><a rel="nofollow" class="external text" href="https://www.unicode.org/L2/L2001/01355-FFFF_in_UTF-8.htm">L2/01-355</a></span></td>
+<td><span class="nowrap"><a rel="nofollow" class="external text" href="https://www.unicode.org/wg2/docs/n2369.htm">N2369 (html</a>,</span> <a rel="nofollow" class="external text" href="https://www.unicode.org/wg2/docs/n2369.doc">doc</a>)</td>
+<td><cite id="CITEREFDavis2001" class="citation"><a href="https://en.wikipedia.org/wiki/Mark_Davis_(Unicode)" title="Mark Davis (Unicode)">Davis, Mark</a> (2001-09-26), <i>Request to allow FFFF, FFFE in UTF-8 in the text of ISO/IEC 10646</i></cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Request+to+allow+FFFF%2C+FFFE+in+UTF-8+in+the+text+of+ISO%2FIEC+10646&amp;rft.date=2001-09-26&amp;rft.aulast=Davis&amp;rft.aufirst=Mark&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ASpecials+%28Unicode+block%29" class="Z3988"></span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r951705291"/>
+</td></tr>
+<tr>
+<td></td>
+<td><span class="nowrap"><a rel="nofollow" class="external text" href="https://www.unicode.org/L2/L2002/02154-n2403-minutes.pdf">L2/02-154</a></span></td>
+<td><a rel="nofollow" class="external text" href="https://www.unicode.org/wg2/docs/n2403.pdf">N2403</a></td>
+<td><cite id="CITEREFUmamaheswaran2002" class="citation">Umamaheswaran, V. S. (2002-04-22), "9.3 Allowing FFFF and FFFE in UTF-8", <i>Draft minutes of WG 2 meeting 41, Hotel Phoenix, Singapore, 2001-10-15/19</i></cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=bookitem&amp;rft.atitle=9.3+Allowing+FFFF+and+FFFE+in+UTF-8&amp;rft.btitle=Draft+minutes+of+WG+2+meeting+41%2C+Hotel+Phoenix%2C+Singapore%2C+2001-10-15%2F19&amp;rft.date=2002-04-22&amp;rft.aulast=Umamaheswaran&amp;rft.aufirst=V.+S.&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ASpecials+%28Unicode+block%29" class="Z3988"></span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r951705291"/>
+</td></tr>
+<tr>
+<td rowspan="8">2.1</td>
+<td rowspan="8">U+FFFC</td>
+<td rowspan="8">1</td>
+<td><span class="nowrap">UTC/1995-056</span></td>
+<td></td>
+<td></td>
+<td><cite id="CITEREFSargent1995" class="citation">Sargent, Murray (1995-12-06), <i>Recommendation to encode a WCH_EMBEDDING character</i></cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Recommendation+to+encode+a+WCH_EMBEDDING+character&amp;rft.date=1995-12-06&amp;rft.aulast=Sargent&amp;rft.aufirst=Murray&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ASpecials+%28Unicode+block%29" class="Z3988"></span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r951705291"/>
+</td></tr>
+<tr>
+<td><span class="nowrap"><a rel="nofollow" class="external text" href="https://www.unicode.org/L2/L1996-UTC/UTC67-Minutes.TXT">UTC/1996-002</a></span></td>
+<td></td>
+<td></td>
+<td><cite id="CITEREFAliprandHartGreenfield1996" class="citation">Aliprand, Joan; Hart, Edwin; Greenfield, Steve (1996-03-05), "Embedded Objects", <i>UTC #67 Minutes</i></cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=bookitem&amp;rft.atitle=Embedded+Objects&amp;rft.btitle=UTC+%2367+Minutes&amp;rft.date=1996-03-05&amp;rft.aulast=Aliprand&amp;rft.aufirst=Joan&amp;rft.au=Hart%2C+Edwin&amp;rft.au=Greenfield%2C+Steve&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ASpecials+%28Unicode+block%29" class="Z3988"></span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r951705291"/>
+</td></tr>
+<tr>
+<td></td>
+<td></td>
+<td>N1365</td>
+<td><cite id="CITEREFSargent1996" class="citation">Sargent, Murray (1996-03-18), <i>Proposal Summary – Object Replacement Character</i></cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Proposal+Summary+%E2%80%93+Object+Replacement+Character&amp;rft.date=1996-03-18&amp;rft.aulast=Sargent&amp;rft.aufirst=Murray&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ASpecials+%28Unicode+block%29" class="Z3988"></span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r951705291"/>
+</td></tr>
+<tr>
+<td></td>
+<td></td>
+<td><a rel="nofollow" class="external text" href="http://std.dkuug.dk/jtc1/sc2/wg2/docs/n1353.doc">N1353</a></td>
+<td><cite id="CITEREFUmamaheswaranKsar1996" class="citation">Umamaheswaran, V. S.; Ksar, Mike (1996-06-25), "8.14", <i>Draft minutes of WG2 Copenhagen Meeting # 30</i></cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=bookitem&amp;rft.atitle=8.14&amp;rft.btitle=Draft+minutes+of+WG2+Copenhagen+Meeting+%23+30&amp;rft.date=1996-06-25&amp;rft.aulast=Umamaheswaran&amp;rft.aufirst=V.+S.&amp;rft.au=Ksar%2C+Mike&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ASpecials+%28Unicode+block%29" class="Z3988"></span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r951705291"/>
+</td></tr>
+<tr>
+<td></td>
+<td><span class="nowrap">L2/97-288</span></td>
+<td><a rel="nofollow" class="external text" href="http://std.dkuug.dk/jtc1/sc2/wg2/docs/n1603.doc">N1603</a></td>
+<td><cite id="CITEREFUmamaheswaran1997" class="citation">Umamaheswaran, V. S. (1997-10-24), "7.3", <i>Unconfirmed Meeting Minutes, WG 2 Meeting # 33, Heraklion, Crete, Greece, 20 June – 4 July 1997</i></cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=bookitem&amp;rft.atitle=7.3&amp;rft.btitle=Unconfirmed+Meeting+Minutes%2C+WG+2+Meeting+%23+33%2C+Heraklion%2C+Crete%2C+Greece%2C+20+June+%E2%80%93+4+July+1997&amp;rft.date=1997-10-24&amp;rft.aulast=Umamaheswaran&amp;rft.aufirst=V.+S.&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ASpecials+%28Unicode+block%29" class="Z3988"></span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r951705291"/>
+</td></tr>
+<tr>
+<td></td>
+<td><span class="nowrap"><a rel="nofollow" class="external text" href="https://www.unicode.org/L2/L1998/98004R.pdf">L2/98-004R</a></span></td>
+<td>N1681</td>
+<td><cite class="citation"><i>Text of ISO 10646 – AMD 18 for PDAM registration and FPDAM ballot</i>, 1997-12-22</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Text+of+ISO+10646+%E2%80%93+AMD+18+for+PDAM+registration+and+FPDAM+ballot&amp;rft.date=1997-12-22&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ASpecials+%28Unicode+block%29" class="Z3988"></span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r951705291"/>
+</td></tr>
+<tr>
+<td></td>
+<td><span class="nowrap"><a rel="nofollow" class="external text" href="https://www.unicode.org/L2/L1998/98070.pdf">L2/98-070</a></span></td>
+<td></td>
+<td><cite id="CITEREFAliprandWinkler" class="citation">Aliprand, Joan; Winkler, Arnold, "Additional comments regarding 2.1", <i>Minutes of the joint UTC and L2 meeting from the meeting in Cupertino, February 25-27, 1998</i></cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=bookitem&amp;rft.atitle=Additional+comments+regarding+2.1&amp;rft.btitle=Minutes+of+the+joint+UTC+and+L2+meeting+from+the+meeting+in+Cupertino%2C+February+25-27%2C+1998&amp;rft.aulast=Aliprand&amp;rft.aufirst=Joan&amp;rft.au=Winkler%2C+Arnold&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ASpecials+%28Unicode+block%29" class="Z3988"></span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r951705291"/>
+</td></tr>
+<tr>
+<td></td>
+<td><span class="nowrap"><a rel="nofollow" class="external text" href="https://www.unicode.org/L2/L1998/02n3188.pdf">L2/98-318</a></span></td>
+<td><a rel="nofollow" class="external text" href="http://std.dkuug.dk/jtc1/sc2/wg2/docs/n1894_02n3188_fpdam%2018.pdf">N1894</a></td>
+<td><cite class="citation"><i>Revised text of 10646-1/FPDAM 18, AMENDMENT 18: Symbols and Others</i>, 1998-10-22</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Revised+text+of+10646-1%2FFPDAM+18%2C+AMENDMENT+18%3A+Symbols+and+Others&amp;rft.date=1998-10-22&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ASpecials+%28Unicode+block%29" class="Z3988"></span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r951705291"/>
+</td></tr>
+<tr>
+<td rowspan="18">3.0</td>
+<td rowspan="18">U+FFF9..FFFB</td>
+<td rowspan="18">3</td>
+<td></td>
+<td><span class="nowrap"><a rel="nofollow" class="external text" href="https://www.unicode.org/L2/L1997/97255r.pdf">L2/97-255R</a></span></td>
+<td></td>
+<td><cite id="CITEREFAliprand1997" class="citation">Aliprand, Joan (1997-12-03), "3.D Proposal for In-Line Notation (ruby)", <i>Approved Minutes – UTC #73 &amp; L2 #170 joint meeting, Palo Alto, CA – August 4-5, 1997</i></cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=bookitem&amp;rft.atitle=3.D+Proposal+for+In-Line+Notation+%28ruby%29&amp;rft.btitle=Approved+Minutes+%E2%80%93+UTC+%2373+%26+L2+%23170+joint+meeting%2C+Palo+Alto%2C+CA+%E2%80%93+August+4-5%2C+1997&amp;rft.date=1997-12-03&amp;rft.aulast=Aliprand&amp;rft.aufirst=Joan&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ASpecials+%28Unicode+block%29" class="Z3988"></span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r951705291"/>
+</td></tr>
+<tr>
+<td></td>
+<td><span class="nowrap"><a rel="nofollow" class="external text" href="https://www.unicode.org/L2/L1998/98055.pdf">L2/98-055</a></span></td>
+<td></td>
+<td><cite id="CITEREFFreytag1998" class="citation">Freytag, Asmus (1998-02-22), <i>Support for Implementing Inline and Interlinear Annotations</i></cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Support+for+Implementing+Inline+and+Interlinear+Annotations&amp;rft.date=1998-02-22&amp;rft.aulast=Freytag&amp;rft.aufirst=Asmus&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ASpecials+%28Unicode+block%29" class="Z3988"></span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r951705291"/>
+</td></tr>
+<tr>
+<td></td>
+<td><span class="nowrap"><a rel="nofollow" class="external text" href="https://www.unicode.org/L2/L1998/98070.pdf">L2/98-070</a></span></td>
+<td></td>
+<td><cite id="CITEREFAliprandWinkler" class="citation">Aliprand, Joan; Winkler, Arnold, "3.C.5. Support for implementing inline and interlinear annotations", <i>Minutes of the joint UTC and L2 meeting from the meeting in Cupertino, February 25-27, 1998</i></cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=bookitem&amp;rft.atitle=3.C.5.+Support+for+implementing+inline+and+interlinear+annotations&amp;rft.btitle=Minutes+of+the+joint+UTC+and+L2+meeting+from+the+meeting+in+Cupertino%2C+February+25-27%2C+1998&amp;rft.aulast=Aliprand&amp;rft.aufirst=Joan&amp;rft.au=Winkler%2C+Arnold&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ASpecials+%28Unicode+block%29" class="Z3988"></span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r951705291"/>
+</td></tr>
+<tr>
+<td></td>
+<td><span class="nowrap">L2/98-099</span></td>
+<td>N1727</td>
+<td><cite id="CITEREFFreytag1998" class="citation">Freytag, Asmus (1998-03-18), <i>Support for Implementing Interlinear Annotations as used in East Asian Typography</i></cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Support+for+Implementing+Interlinear+Annotations+as+used+in+East+Asian+Typography&amp;rft.date=1998-03-18&amp;rft.aulast=Freytag&amp;rft.aufirst=Asmus&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ASpecials+%28Unicode+block%29" class="Z3988"></span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r951705291"/>
+</td></tr>
+<tr>
+<td></td>
+<td><span class="nowrap"><a rel="nofollow" class="external text" href="https://www.unicode.org/L2/L1998/98158.html">L2/98-158</a></span></td>
+<td></td>
+<td><cite id="CITEREFAliprandWinkler1998" class="citation">Aliprand, Joan; Winkler, Arnold (1998-05-26), "Inline and Interlinear Annotations", <i>Draft Minutes – UTC #76 &amp; NCITS Subgroup L2 #173 joint meeting, Tredyffrin, Pennsylvania, April 20-22, 1998</i></cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=bookitem&amp;rft.atitle=Inline+and+Interlinear+Annotations&amp;rft.btitle=Draft+Minutes+%E2%80%93+UTC+%2376+%26+NCITS+Subgroup+L2+%23173+joint+meeting%2C+Tredyffrin%2C+Pennsylvania%2C+April+20-22%2C+1998&amp;rft.date=1998-05-26&amp;rft.aulast=Aliprand&amp;rft.aufirst=Joan&amp;rft.au=Winkler%2C+Arnold&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ASpecials+%28Unicode+block%29" class="Z3988"></span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r951705291"/>
+</td></tr>
+<tr>
+<td></td>
+<td><span class="nowrap">L2/98-286</span></td>
+<td><a rel="nofollow" class="external text" href="http://std.dkuug.dk/jtc1/sc2/wg2/docs/n1703w97.doc">N1703</a></td>
+<td><cite id="CITEREFUmamaheswaranKsar1998" class="citation">Umamaheswaran, V. S.; Ksar, Mike (1998-07-02), "8.14", <i>Unconfirmed Meeting Minutes, WG 2 Meeting #34, Redmond, WA, USA; 1998-03-16--20</i></cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=bookitem&amp;rft.atitle=8.14&amp;rft.btitle=Unconfirmed+Meeting+Minutes%2C+WG+2+Meeting+%2334%2C+Redmond%2C+WA%2C+USA%3B+1998-03-16--20&amp;rft.date=1998-07-02&amp;rft.aulast=Umamaheswaran&amp;rft.aufirst=V.+S.&amp;rft.au=Ksar%2C+Mike&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ASpecials+%28Unicode+block%29" class="Z3988"></span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r951705291"/>
+</td></tr>
+<tr>
+<td></td>
+<td><span class="nowrap">L2/98-270</span></td>
+<td></td>
+<td><cite id="CITEREFHiuraKobayashi1998" class="citation">Hiura, Hideki; <a href="https://en.wikipedia.org/wiki/Tatsuo_Kobayashi" title="Tatsuo Kobayashi">Kobayashi, Tatsuo</a> (1998-07-29), <i>Suggestion to the inline and interlinear annotation proposal</i></cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Suggestion+to+the+inline+and+interlinear+annotation+proposal&amp;rft.date=1998-07-29&amp;rft.aulast=Hiura&amp;rft.aufirst=Hideki&amp;rft.au=Kobayashi%2C+Tatsuo&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ASpecials+%28Unicode+block%29" class="Z3988"></span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r951705291"/>
+</td></tr>
+<tr>
+<td></td>
+<td><span class="nowrap"><a rel="nofollow" class="external text" href="https://www.unicode.org/L2/L1998/98281r.pdf">L2/98-281R (pdf</a>,</span> <a rel="nofollow" class="external text" href="https://www.unicode.org/L2/L1998/98281R.htm">html</a>)</td>
+<td></td>
+<td><cite id="CITEREFAliprand1998" class="citation">Aliprand, Joan (1998-07-31), "In-Line and Interlinear Annotation (III.C.1.c)", <i>Unconfirmed Minutes – UTC #77 &amp; NCITS Subgroup L2 # 174 JOINT MEETING, Redmond, WA -- July 29-31, 1998</i></cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=bookitem&amp;rft.atitle=In-Line+and+Interlinear+Annotation+%28III.C.1.c%29&amp;rft.btitle=Unconfirmed+Minutes+%E2%80%93+UTC+%2377+%26+NCITS+Subgroup+L2+%23+174+JOINT+MEETING%2C+Redmond%2C+WA+--+July+29-31%2C+1998&amp;rft.date=1998-07-31&amp;rft.aulast=Aliprand&amp;rft.aufirst=Joan&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ASpecials+%28Unicode+block%29" class="Z3988"></span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r951705291"/>
+</td></tr>
+<tr>
+<td></td>
+<td><span class="nowrap">L2/98-363</span></td>
+<td><a rel="nofollow" class="external text" href="https://www.unicode.org/wg2/docs/n1861.pdf">N1861</a></td>
+<td><cite id="CITEREFSato1998" class="citation">Sato, T. K. (1998-09-01), <i>Ruby markers</i></cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Ruby+markers&amp;rft.date=1998-09-01&amp;rft.aulast=Sato&amp;rft.aufirst=T.+K.&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ASpecials+%28Unicode+block%29" class="Z3988"></span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r951705291"/>
+</td></tr>
+<tr>
+<td></td>
+<td><span class="nowrap">L2/98-372</span></td>
+<td><span class="nowrap"><a rel="nofollow" class="external text" href="https://www.unicode.org/wg2/docs/n1884.pdf">N1884R2 (pdf</a>,</span> <a rel="nofollow" class="external text" href="https://www.unicode.org/wg2/docs/n1884.doc">doc</a>)</td>
+<td><cite id="CITEREFWhistler1998" class="citation">Whistler, Ken;  et al. (1998-09-22), <i>Additional Characters for the UCS</i></cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Additional+Characters+for+the+UCS&amp;rft.date=1998-09-22&amp;rft.aulast=Whistler&amp;rft.aufirst=Ken&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ASpecials+%28Unicode+block%29" class="Z3988"></span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r951705291"/>
+</td></tr>
+<tr>
+<td></td>
+<td><span class="nowrap">L2/98-416</span></td>
+<td><span class="nowrap"><a rel="nofollow" class="external text" href="https://www.unicode.org/wg2/docs/n1882.zip">N1882.zip</a></span></td>
+<td><cite class="citation"><i>Support for Implementing Interlinear Annotations</i>, 1998-09-23</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Support+for+Implementing+Interlinear+Annotations&amp;rft.date=1998-09-23&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ASpecials+%28Unicode+block%29" class="Z3988"></span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r951705291"/>
+</td></tr>
+<tr>
+<td></td>
+<td><span class="nowrap"><a rel="nofollow" class="external text" href="https://www.unicode.org/L2/L1998/02n3210.pdf">L2/98-329</a></span></td>
+<td><a rel="nofollow" class="external text" href="http://std.dkuug.dk/jtc1/sc2/wg2/docs/n1920_02n3210_text_pdam_30_addlatin.pdf">N1920</a></td>
+<td><cite class="citation"><i>Combined PDAM registration and consideration ballot on WD for ISO/IEC 10646-1/Amd. 30, AMENDMENT 30: Additional Latin and other characters</i>, 1998-10-28</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Combined+PDAM+registration+and+consideration+ballot+on+WD+for+ISO%2FIEC+10646-1%2FAmd.+30%2C+AMENDMENT+30%3A+Additional+Latin+and+other+characters&amp;rft.date=1998-10-28&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ASpecials+%28Unicode+block%29" class="Z3988"></span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r951705291"/>
+</td></tr>
+<tr>
+<td></td>
+<td><span class="nowrap"><a rel="nofollow" class="external text" href="https://www.unicode.org/L2/L1998/98421.htm">L2/98-421R</a></span></td>
+<td></td>
+<td><cite id="CITEREFSuignardHiura1998" class="citation">Suignard, Michel; Hiura, Hideki (1998-12-04), <i>Notes concerning the PDAM 30 interlinear annotation characters</i></cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Notes+concerning+the+PDAM+30+interlinear+annotation+characters&amp;rft.date=1998-12-04&amp;rft.aulast=Suignard&amp;rft.aufirst=Michel&amp;rft.au=Hiura%2C+Hideki&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ASpecials+%28Unicode+block%29" class="Z3988"></span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r951705291"/>
+</td></tr>
+<tr>
+<td></td>
+<td><span class="nowrap"><a rel="nofollow" class="external text" href="https://www.unicode.org/L2/L1999/n1903.rtf">L2/99-010</a></span></td>
+<td><span class="nowrap"><a rel="nofollow" class="external text" href="https://www.unicode.org/wg2/docs/n1903.pdf">N1903 (pdf</a>,</span> <a rel="nofollow" class="external text" href="https://www.unicode.org/wg2/docs/n1903.htm">html</a>, <a rel="nofollow" class="external text" href="https://www.unicode.org/wg2/docs/n1903w97.doc">doc</a>)</td>
+<td><cite id="CITEREFUmamaheswaran1998" class="citation">Umamaheswaran, V. S. (1998-12-30), "8.2.15", <i>Minutes of WG 2 meeting 35, London, U.K.; 1998-09-21--25</i></cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=bookitem&amp;rft.atitle=8.2.15&amp;rft.btitle=Minutes+of+WG+2+meeting+35%2C+London%2C+U.K.%3B+1998-09-21--25&amp;rft.date=1998-12-30&amp;rft.aulast=Umamaheswaran&amp;rft.aufirst=V.+S.&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ASpecials+%28Unicode+block%29" class="Z3988"></span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r951705291"/>
+</td></tr>
+<tr>
+<td></td>
+<td><span class="nowrap"><a rel="nofollow" class="external text" href="https://www.unicode.org/L2/L1998/98419.pdf">L2/98-419 (pdf</a>,</span> <a rel="nofollow" class="external text" href="https://www.unicode.org/L2/L1998/98419.doc">doc</a>)</td>
+<td></td>
+<td><cite id="CITEREFAliprand1999" class="citation">Aliprand, Joan (1999-02-05), "Interlinear Annotation Characters", <i>Approved Minutes -- UTC #78 &amp; NCITS Subgroup L2 # 175 Joint Meeting, San Jose, CA -- December 1-4, 1998</i></cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=bookitem&amp;rft.atitle=Interlinear+Annotation+Characters&amp;rft.btitle=Approved+Minutes+--+UTC+%2378+%26+NCITS+Subgroup+L2+%23+175+Joint+Meeting%2C+San+Jose%2C+CA+--+December+1-4%2C+1998&amp;rft.date=1999-02-05&amp;rft.aulast=Aliprand&amp;rft.aufirst=Joan&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ASpecials+%28Unicode+block%29" class="Z3988"></span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r951705291"/>
+</td></tr>
+<tr>
+<td><span class="nowrap"><a rel="nofollow" class="external text" href="https://www.unicode.org/L2/L1999-UTC/u1999-021.txt">UTC/1999-021</a></span></td>
+<td></td>
+<td></td>
+<td><cite id="CITEREFDuerstBosak1999" class="citation">Duerst, Martin; <a href="https://en.wikipedia.org/wiki/Jon_Bosak" title="Jon Bosak">Bosak, Jon</a> (1999-06-08), <i>W3C XML CG statement on annotation characters</i></cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=W3C+XML+CG+statement+on+annotation+characters&amp;rft.date=1999-06-08&amp;rft.aulast=Duerst&amp;rft.aufirst=Martin&amp;rft.au=Bosak%2C+Jon&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ASpecials+%28Unicode+block%29" class="Z3988"></span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r951705291"/>
+</td></tr>
+<tr>
+<td></td>
+<td><span class="nowrap"><a rel="nofollow" class="external text" href="https://www.unicode.org/L2/L1999/99176.htm">L2/99-176R</a></span></td>
+<td></td>
+<td><cite id="CITEREFMoore1999" class="citation">Moore, Lisa (1999-11-04), "W3C Liaison Statement on Annotation Characters", <i>Minutes from the joint UTC/L2 meeting in Seattle, June 8-10, 1999</i></cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=bookitem&amp;rft.atitle=W3C+Liaison+Statement+on+Annotation+Characters&amp;rft.btitle=Minutes+from+the+joint+UTC%2FL2+meeting+in+Seattle%2C+June+8-10%2C+1999&amp;rft.date=1999-11-04&amp;rft.aulast=Moore&amp;rft.aufirst=Lisa&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ASpecials+%28Unicode+block%29" class="Z3988"></span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r951705291"/>
+</td></tr>
+<tr>
+<td></td>
+<td><span class="nowrap"><a rel="nofollow" class="external text" href="https://www.unicode.org/L2/L2001/01301-deprecation.txt">L2/01-301</a></span></td>
+<td></td>
+<td><cite id="CITEREFWhistler2001" class="citation">Whistler, Ken (2001-08-01), "E. Indicated as "strongly discouraged" for plain text interchange", <i>Analysis of Character Deprecation in the Unicode Standard</i></cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=bookitem&amp;rft.atitle=E.+Indicated+as+%22strongly+discouraged%22+for+plain+text+interchange&amp;rft.btitle=Analysis+of+Character+Deprecation+in+the+Unicode+Standard&amp;rft.date=2001-08-01&amp;rft.aulast=Whistler&amp;rft.aufirst=Ken&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ASpecials+%28Unicode+block%29" class="Z3988"></span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r951705291"/>
+</td></tr>
+<tr class="sortbottom">
+<td colspan="7"><div class="reflist" style="list-style-type: lower-alpha;">
+<div class="mw-references-wrap"><ol class="references">
+<li id="cite_note-final-3"><span class="mw-cite-backlink"><b><a href="Specials_(Unicode_block)#cite_ref-final_3-0">^</a></b></span> <span class="reference-text">Proposed code points and characters names may differ from final code points and names</span>
+</li>
+</ol></div></div>
+</td></tr></tbody></table>
+<h2><span class="mw-headline" id="See_also">See also</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="https://en.wikipedia.org/w/index.php?title=Specials_(Unicode_block)&amp;action=edit&amp;section=4" title="Edit section: See also">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul><li><a href="https://en.wikipedia.org/wiki/Unicode_control_characters" title="Unicode control characters">Unicode control characters</a></li></ul>
+<h2><span class="mw-headline" id="References">References</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="https://en.wikipedia.org/w/index.php?title=Specials_(Unicode_block)&amp;action=edit&amp;section=5" title="Edit section: References">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="reflist" style="list-style-type: decimal;">
+<div class="mw-references-wrap"><ol class="references">
+<li id="cite_note-1"><span class="mw-cite-backlink"><b><a href="Specials_(Unicode_block)#cite_ref-1">^</a></b></span> <span class="reference-text"><cite class="citation web"><a rel="nofollow" class="external text" href="https://www.unicode.org">"Unicode character database"</a>. <i>The Unicode Standard</i><span class="reference-accessdate">. Retrieved <span class="nowrap">2016-07-09</span></span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=The+Unicode+Standard&amp;rft.atitle=Unicode+character+database&amp;rft_id=https%3A%2F%2Fwww.unicode.org&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ASpecials+%28Unicode+block%29" class="Z3988"></span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r951705291"/></span>
+</li>
+<li id="cite_note-2"><span class="mw-cite-backlink"><b><a href="Specials_(Unicode_block)#cite_ref-2">^</a></b></span> <span class="reference-text"><cite class="citation web"><a rel="nofollow" class="external text" href="https://www.unicode.org/versions/enumeratedversions.html">"Enumerated Versions of The Unicode Standard"</a>. <i>The Unicode Standard</i><span class="reference-accessdate">. Retrieved <span class="nowrap">2016-07-09</span></span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=The+Unicode+Standard&amp;rft.atitle=Enumerated+Versions+of+The+Unicode+Standard&amp;rft_id=https%3A%2F%2Fwww.unicode.org%2Fversions%2Fenumeratedversions.html&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ASpecials+%28Unicode+block%29" class="Z3988"></span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r951705291"/></span>
+</li>
+</ol></div></div>
+<div role="navigation" class="navbox" aria-labelledby="Unicode" style="padding:3px"><table class="nowraplinks hlist mw-collapsible mw-collapsed navbox-inner" style="border-spacing:0;background:transparent;color:inherit"><tbody><tr><th scope="col" class="navbox-title" colspan="2"><div class="plainlinks hlist navbar mini"><ul><li class="nv-view"><a href="https://en.wikipedia.org/wiki/Template:Unicode_navigation" title="Template:Unicode navigation"><abbr title="View this template" style=";;background:none transparent;border:none;-moz-box-shadow:none;-webkit-box-shadow:none;box-shadow:none; padding:0;">v</abbr></a></li><li class="nv-talk"><a href="https://en.wikipedia.org/wiki/Template_talk:Unicode_navigation" title="Template talk:Unicode navigation"><abbr title="Discuss this template" style=";;background:none transparent;border:none;-moz-box-shadow:none;-webkit-box-shadow:none;box-shadow:none; padding:0;">t</abbr></a></li><li class="nv-edit"><a class="external text" href="https://en.wikipedia.org/w/index.php?title=Template:Unicode_navigation&amp;action=edit"><abbr title="Edit this template" style=";;background:none transparent;border:none;-moz-box-shadow:none;-webkit-box-shadow:none;box-shadow:none; padding:0;">e</abbr></a></li></ul></div><div id="Unicode" style="font-size:114%;margin:0 4em"><a href="https://en.wikipedia.org/wiki/Unicode" title="Unicode">Unicode</a></div></th></tr><tr><th scope="row" class="navbox-group" style="width:1%">Unicode</th><td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="https://en.wikipedia.org/wiki/Unicode_Consortium" title="Unicode Consortium">Unicode Consortium</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Universal_Coded_Character_Set" title="Universal Coded Character Set">ISO/IEC 10646 (Universal Character Set)</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Unicode#Versions" title="Unicode">Versions</a></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%"><a href="https://en.wikipedia.org/wiki/Code_point" title="Code point">Code points</a></th><td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="https://en.wikipedia.org/wiki/Unicode_block" title="Unicode block">Blocks</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Universal_Character_Set_characters" title="Universal Character Set characters">Universal Character Set</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Category:Unicode_charts" title="Category:Unicode charts">Character charts</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Unicode_character_property" title="Unicode character property">Character property</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Plane_(Unicode)" title="Plane (Unicode)">Planes</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Private_Use_Areas" title="Private Use Areas">Private Use Areas</a></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">Characters</th><td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em"></div><table class="nowraplinks navbox-subgroup" style="border-spacing:0"><tbody><tr><th scope="row" class="navbox-group" style="width:12em"><a href="https://en.wikipedia.org/wiki/Universal_Character_Set_characters#Special-purpose_characters" title="Universal Character Set characters">Special purpose</a></th><td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="https://en.wikipedia.org/wiki/Byte_order_mark" title="Byte order mark">BOM</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Combining_Grapheme_Joiner" title="Combining Grapheme Joiner">Combining Grapheme Joiner</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Left-to-right_mark" title="Left-to-right mark">Left-to-right mark</a>&#160;/ <a href="https://en.wikipedia.org/wiki/Right-to-left_mark" title="Right-to-left mark">Right-to-left mark</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Soft_hyphen" title="Soft hyphen">Soft hyphen</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Word_joiner" title="Word joiner">Word joiner</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Zero-width_joiner" title="Zero-width joiner">Zero-width joiner</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Zero-width_non-joiner" title="Zero-width non-joiner">Zero-width non-joiner</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Zero-width_space" title="Zero-width space">Zero-width space</a></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:12em">Lists</th><td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="https://en.wikipedia.org/wiki/List_of_Unicode_characters" title="List of Unicode characters">Characters</a></li>
+<li><a href="https://en.wikipedia.org/wiki/CJK_Unified_Ideographs" title="CJK Unified Ideographs">CJK Unified Ideographs</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Combining_character" title="Combining character">Combining character</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Duplicate_characters_in_Unicode" title="Duplicate characters in Unicode">Duplicate characters</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Numerals_in_Unicode" title="Numerals in Unicode">Numerals</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Script_(Unicode)" title="Script (Unicode)">Scripts</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Space_(punctuation)#Spaces_in_Unicode" title="Space (punctuation)">Spaces</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Unicode_symbols" title="Unicode symbols">Symbols</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Halfwidth_and_fullwidth_forms" title="Halfwidth and fullwidth forms">Halfwidth and fullwidth</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Unicode_alias_names_and_abbreviations" title="Unicode alias names and abbreviations">Alias names and abbreviations</a></li></ul>
+</div></td></tr></tbody></table><div></div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">Processing</th><td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em"></div><table class="nowraplinks navbox-subgroup" style="border-spacing:0"><tbody><tr><th scope="row" class="navbox-group" style="width:12em">Algorithms</th><td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="https://en.wikipedia.org/wiki/Bidirectional_text" title="Bidirectional text">Bidirectional text</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Unicode_collation_algorithm" title="Unicode collation algorithm">Collation</a>
+<ul><li><a href="https://en.wikipedia.org/wiki/ISO_14651" title="ISO 14651">ISO 14651</a></li></ul></li>
+<li><a href="https://en.wikipedia.org/wiki/Unicode_equivalence" title="Unicode equivalence">Equivalence</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Variant_form_(Unicode)" title="Variant form (Unicode)">Variation sequences</a></li>
+<li><a href="https://en.wikipedia.org/wiki/International_Ideographs_Core" title="International Ideographs Core">International Ideographs Core</a></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:12em"><a href="https://en.wikipedia.org/wiki/Comparison_of_Unicode_encodings" title="Comparison of Unicode encodings">Comparison</a></th><td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="https://en.wikipedia.org/wiki/Binary_Ordered_Compression_for_Unicode" title="Binary Ordered Compression for Unicode">BOCU-1</a></li>
+<li><a href="https://en.wikipedia.org/wiki/CESU-8" title="CESU-8">CESU-8</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Punycode" title="Punycode">Punycode</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Standard_Compression_Scheme_for_Unicode" title="Standard Compression Scheme for Unicode">SCSU</a></li>
+<li><a href="https://en.wikipedia.org/wiki/UTF-1" title="UTF-1">UTF-1</a></li>
+<li><a href="https://en.wikipedia.org/wiki/UTF-7" title="UTF-7">UTF-7</a></li>
+<li><a href="https://en.wikipedia.org/wiki/UTF-8" title="UTF-8">UTF-8</a></li>
+<li><a href="https://en.wikipedia.org/wiki/UTF-16" title="UTF-16">UTF-16/UCS-2</a></li>
+<li><a href="https://en.wikipedia.org/wiki/UTF-32" title="UTF-32">UTF-32/UCS-4</a></li>
+<li><a href="https://en.wikipedia.org/wiki/UTF-EBCDIC" title="UTF-EBCDIC">UTF-EBCDIC</a></li></ul>
+</div></td></tr></tbody></table><div></div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">On pairs of<br />code points</th><td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="https://en.wikipedia.org/wiki/Combining_character" title="Combining character">Combining character</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Unicode_compatibility_characters" title="Unicode compatibility characters">Compatibility characters</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Duplicate_characters_in_Unicode" title="Duplicate characters in Unicode">Duplicate characters</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Unicode_equivalence" title="Unicode equivalence">Equivalence</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Homoglyph" title="Homoglyph">Homoglyph</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Precomposed_character" title="Precomposed character">Precomposed character</a>
+<ul><li><a href="https://en.wikipedia.org/wiki/List_of_precomposed_Latin_characters_in_Unicode" title="List of precomposed Latin characters in Unicode">list</a></li></ul></li>
+<li><a href="https://en.wikipedia.org/wiki/Z-variant" title="Z-variant">Z-variant</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Variant_form_(Unicode)" title="Variant form (Unicode)">Variation sequences</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Regional_Indicator_Symbol" title="Regional Indicator Symbol">Regional Indicator Symbol</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Emoji#Skin_color" title="Emoji">Emoji skin color</a></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">Usage</th><td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="https://en.wikipedia.org/wiki/Internationalized_domain_name" title="Internationalized domain name">Domain names (IDN)</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Unicode_and_email" title="Unicode and email">Email</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Unicode_font" title="Unicode font">Fonts</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Unicode_and_HTML" title="Unicode and HTML">HTML</a>
+<ul><li><a href="https://en.wikipedia.org/wiki/List_of_XML_and_HTML_character_entity_references" title="List of XML and HTML character entity references">entity references</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Numeric_character_reference" title="Numeric character reference">numeric references</a></li></ul></li>
+<li><a href="https://en.wikipedia.org/wiki/Unicode_input" title="Unicode input">Input</a></li>
+<li><a href="https://en.wikipedia.org/wiki/International_Ideographs_Core" title="International Ideographs Core">International Ideographs Core</a></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">Related standards</th><td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="https://en.wikipedia.org/wiki/Common_Locale_Data_Repository" title="Common Locale Data Repository">Common Locale Data Repository (CLDR)</a></li>
+<li><a href="https://en.wikipedia.org/wiki/GB_18030" title="GB 18030">GB 18030</a></li>
+<li><a href="https://en.wikipedia.org/wiki/ISO/IEC_8859" title="ISO/IEC 8859">ISO/IEC 8859</a></li>
+<li><a href="https://en.wikipedia.org/wiki/ISO_15924" title="ISO 15924">ISO 15924</a></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">Related topics</th><td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="https://en.wikipedia.org/wiki/Unicode_anomaly" class="mw-redirect" title="Unicode anomaly">Anomalies</a></li>
+<li><a href="https://en.wikipedia.org/wiki/ConScript_Unicode_Registry" title="ConScript Unicode Registry">ConScript Unicode Registry</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Ideographic_Research_Group" title="Ideographic Research Group">Ideographic Research Group</a></li>
+<li><a href="https://en.wikipedia.org/wiki/International_Components_for_Unicode" title="International Components for Unicode">International Components for Unicode</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Category:People_involved_with_Unicode" title="Category:People involved with Unicode">People involved with Unicode</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Han_unification" title="Han unification">Han unification</a></li></ul>
+</div></td></tr><tr><td colspan="2" class="navbox-list navbox-odd" style="width:100%;padding:0px"><div style="padding:0em 0.25em"></div><table class="nowraplinks mw-collapsible mw-collapsed navbox-subgroup" style="border-spacing:0"><tbody><tr><th scope="col" class="navbox-title" colspan="2"><div id="Scripts_and_symbols_in_Unicode" style="font-size:114%;margin:0 4em"><a href="https://en.wikipedia.org/wiki/Script_(Unicode)" title="Script (Unicode)">Scripts</a> and symbols in Unicode</div></th></tr><tr><th scope="row" class="navbox-group" style="width:1%"><a href="https://en.wikipedia.org/wiki/Script_(Unicode)#Common_and_inherited_scripts" title="Script (Unicode)">Common and <br />inherited scripts</a></th><td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="https://en.wikipedia.org/wiki/Combining_character" title="Combining character">Combining marks</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Diacritic" title="Diacritic">Diacritics</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Punctuation" title="Punctuation">Punctuation</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Space_(punctuation)#Spaces_in_Unicode" title="Space (punctuation)">Space</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Numerals_in_Unicode" title="Numerals in Unicode">Numbers</a></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">Modern scripts</th><td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="https://en.wikipedia.org/wiki/Adlam_script" title="Adlam script">Adlam</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Arabic_script" title="Arabic script">Arabic</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Armenian_alphabet" title="Armenian alphabet">Armenian</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Balinese_script" title="Balinese script">Balinese</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Bamum_script" title="Bamum script">Bamum</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Batak_script" title="Batak script">Batak</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Bengali%E2%80%93Assamese_script" title="Bengali–Assamese script">Bengali</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Bopomofo" title="Bopomofo">Bopomofo</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Braille" title="Braille">Braille</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Buhid_script" title="Buhid script">Buhid</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Burmese_script" title="Burmese script">Burmese</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Canadian_Aboriginal_syllabics" title="Canadian Aboriginal syllabics">Canadian Aboriginal</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Chakma_script" title="Chakma script">Chakma</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Cham_script" title="Cham script">Cham</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Cherokee_syllabary" title="Cherokee syllabary">Cherokee</a></li>
+<li><a href="https://en.wikipedia.org/wiki/CJK_Unified_Ideographs" title="CJK Unified Ideographs">CJK Unified Ideographs (Han)</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Cyrillic_script" title="Cyrillic script">Cyrillic</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Deseret_alphabet" title="Deseret alphabet">Deseret</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Devanagari" title="Devanagari">Devanagari</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Ge%CA%BDez_script" title="Geʽez script">Geʽez</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Georgian_scripts" title="Georgian scripts">Georgian</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Greek_alphabet" title="Greek alphabet">Greek</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Gujarati_script" title="Gujarati script">Gujarati</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Gunjala_Gondi_Lipi" title="Gunjala Gondi Lipi">Gunjala Gondi</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Gurmukhi" title="Gurmukhi">Gurmukhi</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Hangul" title="Hangul">Hangul</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Hanifi_Rohingya_script" title="Hanifi Rohingya script">Hanifi Rohingya</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Hanja" title="Hanja">Hanja</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Hanunuo_script" title="Hanunuo script">Hanunuo</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Hebrew_alphabet" title="Hebrew alphabet">Hebrew</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Hiragana" title="Hiragana">Hiragana</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Javanese_script" title="Javanese script">Javanese</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Kanji" title="Kanji">Kanji</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Kannada_script" title="Kannada script">Kannada</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Katakana" title="Katakana">Katakana</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Kayah_Li_alphabet" title="Kayah Li alphabet">Kayah Li</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Khmer_script" title="Khmer script">Khmer</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Lao_script" title="Lao script">Lao</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Latin_script_in_Unicode" title="Latin script in Unicode">Latin</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Lepcha_script" title="Lepcha script">Lepcha</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Limbu_script" title="Limbu script">Limbu</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Fraser_script" title="Fraser script">Lisu (Fraser)</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Lontara_script" title="Lontara script">Lontara</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Malayalam_script" title="Malayalam script">Malayalam</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Gondi_writing#Munshi_Mangal_Singh_Masaram_Script" title="Gondi writing">Masaram Gondi</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Mende_Kikakui_script" title="Mende Kikakui script">Mende Kikakui</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Medefaidrin" title="Medefaidrin">Medefaidrin</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Pollard_script" title="Pollard script">Miao (Pollard)</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Mongolian_script" title="Mongolian script">Mongolian</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Mru_language#Alphabet" title="Mru language">Mru</a></li>
+<li><a href="https://en.wikipedia.org/wiki/N%27Ko_script" title="N&#39;Ko script">N'Ko</a></li>
+<li><a href="https://en.wikipedia.org/wiki/New_Tai_Lue_alphabet" title="New Tai Lue alphabet">New Tai Lue</a></li>
+<li><a href="https://en.wikipedia.org/wiki/N%C3%BCshu" title="Nüshu">Nüshu</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Nyiakeng_Puachue_Hmong" title="Nyiakeng Puachue Hmong">Nyiakeng Puachue Hmong</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Odia_script" title="Odia script">Odia</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Ol_Chiki_script" title="Ol Chiki script">Ol Chiki</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Osage_script" title="Osage script">Osage</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Osmanya_script" title="Osmanya script">Osmanya</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Pahawh_Hmong" title="Pahawh Hmong">Pahawh Hmong</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Pau_Cin_Hau_script" title="Pau Cin Hau script">Pau Cin Hau</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Pracalit_script" title="Pracalit script">Pracalit (Newa)</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Ranjana_script" title="Ranjana script">Ranjana</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Rejang_script" title="Rejang script">Rejang</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Samaritan_alphabet" title="Samaritan alphabet">Samaritan</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Saurashtra_script" title="Saurashtra script">Saurashtra</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Shavian_alphabet" title="Shavian alphabet">Shavian</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Sinhala_script" title="Sinhala script">Sinhala</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Sorang_Sompeng_script" title="Sorang Sompeng script">Sorang Sompeng</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Sundanese_script" title="Sundanese script">Sundanese</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Sylheti_Nagri" title="Sylheti Nagri">Sylheti Nagri</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Syriac_alphabet" title="Syriac alphabet">Syriac</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Tagbanwa_script" title="Tagbanwa script">Tagbanwa</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Tai_Le_script" title="Tai Le script">Tai Le</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Tai_Tham_script" title="Tai Tham script">Tai Tham</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Tai_Dam_language#Writing_system" title="Tai Dam language">Tai Viet</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Tamil_script" title="Tamil script">Tamil</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Telugu_script" title="Telugu script">Telugu</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Thaana" title="Thaana">Thaana</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Thai_script" title="Thai script">Thai</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Tibetan_script" title="Tibetan script">Tibetan</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Tifinagh" title="Tifinagh">Tifinagh</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Tirhuta" title="Tirhuta">Tirhuta</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Vai_syllabary" title="Vai syllabary">Vai</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Wancho_script" title="Wancho script">Wancho</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Warang_Citi" title="Warang Citi">Warang Citi</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Yi_script" title="Yi script">Yi</a></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">Ancient and<br />historic scripts</th><td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="https://en.wikipedia.org/wiki/Ahom_script" title="Ahom script">Ahom</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Anatolian_hieroglyphs" title="Anatolian hieroglyphs">Anatolian hieroglyphs</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Ancient_North_Arabian" title="Ancient North Arabian">Ancient North Arabian</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Avestan_alphabet" title="Avestan alphabet">Avestan</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Bassa_script" title="Bassa script">Bassa Vah</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Bhaiksuki_script" title="Bhaiksuki script">Bhaiksuki</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Brahmi_script" title="Brahmi script">Brāhmī</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Carian_alphabets" title="Carian alphabets">Carian</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Caucasian_Albanian_script" title="Caucasian Albanian script">Caucasian Albanian</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Coptic_alphabet" title="Coptic alphabet">Coptic</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Cuneiform" title="Cuneiform">Cuneiform</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Cypriot_syllabary" title="Cypriot syllabary">Cypriot</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Dhives_Akuru" title="Dhives Akuru">Dives Akuru</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Dogri_script" title="Dogri script">Dogra</a></li>
+<li><a href="Egyptian_hieroglyphs" title="Egyptian hieroglyphs">Egyptian hieroglyphs</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Elbasan" title="Elbasan">Elbasan</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Elymaic" title="Elymaic">Elymaic</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Glagolitic_script" title="Glagolitic script">Glagolitic</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Gothic_alphabet" title="Gothic alphabet">Gothic</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Grantha_script" title="Grantha script">Grantha</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Hatran_alphabet" title="Hatran alphabet">Hatran</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Aramaic_alphabet" title="Aramaic alphabet">Imperial Aramaic</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Pahlavi_scripts#Inscriptional_Pahlavi" title="Pahlavi scripts">Inscriptional Pahlavi</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Parthian_language#Written_Parthian" title="Parthian language">Inscriptional Parthian</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Kaithi" title="Kaithi">Kaithi</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Kharosthi" title="Kharosthi">Kharosthi</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Khitan_small_script" title="Khitan small script">Khitan small script</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Khojki_script" title="Khojki script">Khojki</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Khudabadi_script" title="Khudabadi script">Khudawadi</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Khwarezmian_language" title="Khwarezmian language">Khwarezmian</a> (Chorasmian)</li>
+<li><a href="https://en.wikipedia.org/wiki/Linear_A" title="Linear A">Linear A</a></li>
+<li><a href="Linear_B" title="Linear B">Linear B</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Lycian_alphabet" title="Lycian alphabet">Lycian</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Lydian_alphabet" title="Lydian alphabet">Lydian</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Mahajani" title="Mahajani">Mahajani</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Makassarese_language#Writing_systems" title="Makassarese language">Makasar</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Mandaic_script" title="Mandaic script">Mandaic</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Manichaean_alphabet" title="Manichaean alphabet">Manichaean</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Zhang-Zhung_language#Scripts" title="Zhang-Zhung language">Marchen</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Meitei_script" title="Meitei script">Meetei Mayek</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Meroitic_script" title="Meroitic script">Meroitic</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Modi_script" title="Modi script">Modi</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Multani_script" title="Multani script">Multani</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Nabataean_alphabet" title="Nabataean alphabet">Nabataean</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Nandinagari" title="Nandinagari">Nandinagari</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Ogham" title="Ogham">Ogham</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Old_Hungarian_script" title="Old Hungarian script">Old Hungarian</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Old_Italic_scripts" title="Old Italic scripts">Old Italic</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Old_Permic_script" title="Old Permic script">Old Permic</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Old_Persian_cuneiform" title="Old Persian cuneiform">Old Persian cuneiform</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Sogdian_alphabet" title="Sogdian alphabet">Old Sogdian</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Old_Turkic_script" title="Old Turkic script">Old Turkic</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Palmyrene_alphabet" title="Palmyrene alphabet">Palmyrene</a></li>
+<li><a href="https://en.wikipedia.org/wiki/%CA%BCPhags-pa_script" title="ʼPhags-pa script">ʼPhags-pa</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Phoenician_alphabet" title="Phoenician alphabet">Phoenician</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Pahlavi_scripts#Psalter_Pahlavi" title="Pahlavi scripts">Psalter Pahlavi</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Runes" title="Runes">Runic</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Sharada_script" title="Sharada script">Sharada</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Siddha%E1%B9%83_script" title="Siddhaṃ script">Siddham</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Sogdian_alphabet" title="Sogdian alphabet">Sogdian</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Ancient_South_Arabian_script" title="Ancient South Arabian script">South Arabian</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Soyombo_script" title="Soyombo script">Soyombo</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Baybayin" title="Baybayin">Tagalog (Baybayin)</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Takri_script" title="Takri script">Takri</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Tangut_script" title="Tangut script">Tangut</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Ugaritic_alphabet" title="Ugaritic alphabet">Ugaritic</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Yezidi_(script)" class="mw-redirect" title="Yezidi (script)">Yezidi</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Horizontal_square_script" title="Horizontal square script">Zanabazar Square</a></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">Notational scripts</th><td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="https://en.wikipedia.org/wiki/Duployan_shorthand" title="Duployan shorthand">Duployan</a></li>
+<li><a href="https://en.wikipedia.org/wiki/SignWriting" title="SignWriting">SignWriting</a></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">Symbols, emojis</th><td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="https://en.wikipedia.org/wiki/Religious_and_political_symbols_in_Unicode" title="Religious and political symbols in Unicode">Cultural, political, and religious symbols</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Currency_symbol" title="Currency symbol">Currency</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Mathematical_operators_and_symbols_in_Unicode" title="Mathematical operators and symbols in Unicode">Mathematical operators and symbols</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Phonetic_symbols_in_Unicode" title="Phonetic symbols in Unicode">Phonetic symbols (including IPA)</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Emoji" title="Emoji">Emoji</a></li></ul>
+</div></td></tr><tr><td class="navbox-abovebelow" colspan="2"><div>
+<ul><li><img alt="Category" src="https://upload.wikimedia.org/wikipedia/en/thumb/4/48/Folder_Hexagonal_Icon.svg/16px-Folder_Hexagonal_Icon.svg.png" decoding="async" title="Category" width="16" height="14" srcset="https://upload.wikimedia.org/wikipedia/en/thumb/4/48/Folder_Hexagonal_Icon.svg/24px-Folder_Hexagonal_Icon.svg.png 1.5x, https://upload.wikimedia.org/wikipedia/en/thumb/4/48/Folder_Hexagonal_Icon.svg/32px-Folder_Hexagonal_Icon.svg.png 2x" data-file-width="36" data-file-height="31" />&#160;<a href="https://en.wikipedia.org/wiki/Category:Unicode" title="Category:Unicode">Category: Unicode</a></li>
+<li><img alt="Category" src="https://upload.wikimedia.org/wikipedia/en/thumb/4/48/Folder_Hexagonal_Icon.svg/16px-Folder_Hexagonal_Icon.svg.png" decoding="async" title="Category" width="16" height="14" srcset="https://upload.wikimedia.org/wikipedia/en/thumb/4/48/Folder_Hexagonal_Icon.svg/24px-Folder_Hexagonal_Icon.svg.png 1.5x, https://upload.wikimedia.org/wikipedia/en/thumb/4/48/Folder_Hexagonal_Icon.svg/32px-Folder_Hexagonal_Icon.svg.png 2x" data-file-width="36" data-file-height="31" />&#160;<a href="https://en.wikipedia.org/wiki/Category:Unicode_blocks" title="Category:Unicode blocks">Category: Unicode blocks</a></li></ul>
+</div></td></tr></tbody></table><div></div></td></tr></tbody></table></div>
+<!-- 
+NewPP limit report
+Parsed by mw1381
+Cached time: 20200614172645
+Cache expiry: 2592000
+Dynamic content: false
+Complications: [vary‐revision‐sha1]
+CPU time usage: 0.652 seconds
+Real time usage: 1.035 seconds
+Preprocessor visited node count: 5142/1000000
+Post‐expand include size: 135224/2097152 bytes
+Template argument size: 8067/2097152 bytes
+Highest expansion depth: 23/40
+Expensive parser function count: 2/500
+Unstrip recursion depth: 1/20
+Unstrip post‐expand size: 91294/5000000 bytes
+Number of Wikibase entities loaded: 0/400
+Lua time usage: 0.315/10.000 seconds
+Lua memory usage: 7.39 MB/50 MB
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%  924.818      1 -total
+ 34.11%  315.425      8 Template:Unichar
+ 23.02%  212.894     29 Template:Citation
+ 11.71%  108.287      8 Template:Unichar/main
+ 10.14%   93.805      1 Template:Refimprove
+  9.13%   84.476      4 Template:Navbox
+  9.00%   83.203      1 Template:Ambox
+  8.60%   79.497      1 Template:Short_description
+  7.77%   71.879      2 Template:Infobox
+  7.77%   71.872      1 Template:Infobox_Unicode_block
+-->
+
+<!-- Saved in parser cache with key enwiki:pcache:idhash:11664019-0!canonical and timestamp 20200614172644 and revision id 962355260
+ -->
+</div><noscript><img src="https://en.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" alt="" title="" width="1" height="1" style="border: none; position: absolute;" /></noscript></div>
+		<div class="printfooter">Retrieved from "<a dir="ltr" href="https://en.wikipedia.org/w/index.php?title=Specials_(Unicode_block)&amp;oldid=962355260">https://en.wikipedia.org/w/index.php?title=Specials_(Unicode_block)&amp;oldid=962355260</a>"</div>
+		<div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="https://en.wikipedia.org/wiki/Help:Category" title="Help:Category">Categories</a>: <ul><li><a href="https://en.wikipedia.org/wiki/Category:Unicode_blocks" title="Category:Unicode blocks">Unicode blocks</a></li></ul></div><div id="mw-hidden-catlinks" class="mw-hidden-catlinks mw-hidden-cats-hidden">Hidden categories: <ul><li><a href="https://en.wikipedia.org/wiki/Category:Articles_with_short_description" title="Category:Articles with short description">Articles with short description</a></li><li><a href="https://en.wikipedia.org/wiki/Category:Articles_needing_additional_references_from_April_2010" title="Category:Articles needing additional references from April 2010">Articles needing additional references from April 2010</a></li><li><a href="https://en.wikipedia.org/wiki/Category:All_articles_needing_additional_references" title="Category:All articles needing additional references">All articles needing additional references</a></li><li><a href="https://en.wikipedia.org/wiki/Category:All_articles_with_vague_or_ambiguous_time" title="Category:All articles with vague or ambiguous time">All articles with vague or ambiguous time</a></li><li><a href="https://en.wikipedia.org/wiki/Category:Vague_or_ambiguous_time_from_August_2019" title="Category:Vague or ambiguous time from August 2019">Vague or ambiguous time from August 2019</a></li></ul></div></div>
+		<div class="visualClear"></div>
+		
+	</div>
+</div>
+<div id='mw-data-after-content'>
+	<div class="read-more-container"></div>
+</div>
+
+<div id="mw-navigation">
+	<h2>Navigation menu</h2>
+	<div id="mw-head">
+		<div id="p-personal" class="vector-menu" aria-labelledby="p-personal-label" 
+	 >
+	<h3 id="p-personal-label">
+		<span>Personal tools</span>
+	</h3>
+	<!-- Please do not use the .body class, it is deprecated. -->
+	<div class="body vector-menu-content">
+		<!-- Please do not use the .menu class, it is deprecated. -->
+		<ul class="vector-menu-content-list"><li id="pt-anonuserpage">Not logged in</li><li id="pt-anontalk"><a href="https://en.wikipedia.org/wiki/Special:MyTalk" title="Discussion about edits from this IP address [n]" accesskey="n">Talk</a></li><li id="pt-anoncontribs"><a href="https://en.wikipedia.org/wiki/Special:MyContributions" title="A list of edits made from this IP address [y]" accesskey="y">Contributions</a></li><li id="pt-createaccount"><a href="https://en.wikipedia.org/w/index.php?title=Special:CreateAccount&amp;returnto=Specials+%28Unicode+block%29" title="You are encouraged to create an account and log in; however, it is not mandatory">Create account</a></li><li id="pt-login"><a href="https://en.wikipedia.org/w/index.php?title=Special:UserLogin&amp;returnto=Specials+%28Unicode+block%29" title="You&#039;re encouraged to log in; however, it&#039;s not mandatory. [o]" accesskey="o">Log in</a></li></ul>
+		
+	</div>
+</div>
+
+
+		<div id="left-navigation">
+			<div id="p-namespaces" class="vector-menu vector-menu-tabs vectorTabs" aria-labelledby="p-namespaces-label" 
+	 >
+	<h3 id="p-namespaces-label">
+		<span>Namespaces</span>
+	</h3>
+	<!-- Please do not use the .body class, it is deprecated. -->
+	<div class="body vector-menu-content">
+		<!-- Please do not use the .menu class, it is deprecated. -->
+		<ul class="vector-menu-content-list"><li id="ca-nstab-main" class="selected"><a href="Specials_(Unicode_block)" title="View the content page [c]" accesskey="c">Article</a></li><li id="ca-talk"><a href="https://en.wikipedia.org/wiki/Talk:Specials_(Unicode_block)" rel="discussion" title="Discuss improvements to the content page [t]" accesskey="t">Talk</a></li></ul>
+		
+	</div>
+</div>
+
+
+			<div id="p-variants" class="vector-menu-empty emptyPortlet vector-menu vector-menu-dropdown vectorMenu" aria-labelledby="p-variants-label" 
+	 >
+	<input type="checkbox" class="vectorMenuCheckbox vector-menu-checkbox" aria-labelledby="p-variants-label" />
+	<h3 id="p-variants-label">
+		<span>Variants</span>
+	</h3>
+	<!-- Please do not use the .body class, it is deprecated. -->
+	<div class="body vector-menu-content">
+		<!-- Please do not use the .menu class, it is deprecated. -->
+		<ul class="menu vector-menu-content-list"></ul>
+		
+	</div>
+</div>
+
+
+		</div>
+		<div id="right-navigation">
+			<div id="p-views" class="vector-menu vector-menu-tabs vectorTabs" aria-labelledby="p-views-label" 
+	 >
+	<h3 id="p-views-label">
+		<span>Views</span>
+	</h3>
+	<!-- Please do not use the .body class, it is deprecated. -->
+	<div class="body vector-menu-content">
+		<!-- Please do not use the .menu class, it is deprecated. -->
+		<ul class="vector-menu-content-list"><li id="ca-view" class="collapsible selected"><a href="Specials_(Unicode_block)">Read</a></li><li id="ca-edit" class="collapsible"><a href="https://en.wikipedia.org/w/index.php?title=Specials_(Unicode_block)&amp;action=edit" title="Edit this page [e]" accesskey="e">Edit</a></li><li id="ca-history" class="collapsible"><a href="https://en.wikipedia.org/w/index.php?title=Specials_(Unicode_block)&amp;action=history" title="Past revisions of this page [h]" accesskey="h">View history</a></li></ul>
+		
+	</div>
+</div>
+
+
+			<div id="p-cactions" class="vector-menu-empty emptyPortlet vector-menu vector-menu-dropdown vectorMenu" aria-labelledby="p-cactions-label" 
+	 >
+	<input type="checkbox" class="vectorMenuCheckbox vector-menu-checkbox" aria-labelledby="p-cactions-label" />
+	<h3 id="p-cactions-label">
+		<span>More</span>
+	</h3>
+	<!-- Please do not use the .body class, it is deprecated. -->
+	<div class="body vector-menu-content">
+		<!-- Please do not use the .menu class, it is deprecated. -->
+		<ul class="menu vector-menu-content-list"></ul>
+		
+	</div>
+</div>
+
+
+			<div id="p-search" role="search">
+	<h3 >
+		<label for="searchInput">Search</label>
+	</h3>
+	<form action="https://en.wikipedia.org/w/index.php" id="searchform">
+		<div id="simpleSearch">
+			<input type="search" name="search" placeholder="Search Wikipedia" title="Search Wikipedia [f]" accesskey="f" id="searchInput"/>
+			<input type="hidden" name="title" value="Special:Search">
+			<input type="submit" name="fulltext" value="Search" title="Search Wikipedia for this text" id="mw-searchButton" class="searchButton mw-fallbackSearchButton"/>
+			<input type="submit" name="go" value="Go" title="Go to a page with this exact name if it exists" id="searchButton" class="searchButton"/>
+		</div>
+	</form>
+</div>
+
+		</div>
+	</div>
+	
+<div id="mw-panel">
+	<div id="p-logo" role="banner">
+		<a  title="Visit the main page" class="mw-wiki-logo" href="Main_Page"></a>
+	</div>
+	<div id="p-navigation" class="vector-menu vector-menu-portal portal portal-first" aria-labelledby="p-navigation-label" 
+	 >
+	<h3 id="p-navigation-label">
+		<span>Navigation</span>
+	</h3>
+	<!-- Please do not use the .body class, it is deprecated. -->
+	<div class="body vector-menu-content">
+		<!-- Please do not use the .menu class, it is deprecated. -->
+		<ul class="vector-menu-content-list"><li id="n-mainpage-description"><a href="Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li><li id="n-contents"><a href="https://en.wikipedia.org/wiki/Wikipedia:Contents" title="Guides to browsing Wikipedia">Contents</a></li><li id="n-currentevents"><a href="https://en.wikipedia.org/wiki/Portal:Current_events" title="Find background information on current events">Current events</a></li><li id="n-randompage"><a href="https://en.wikipedia.org/wiki/Special:Random" title="Visit a randomly selected article [x]" accesskey="x">Random article</a></li><li id="n-aboutsite"><a href="https://en.wikipedia.org/wiki/Wikipedia:About" title="Learn about Wikipedia and how it works">About Wikipedia</a></li><li id="n-contactpage"><a href="https://en.wikipedia.org/wiki/Wikipedia:Contact_us" title="How to contact Wikipedia">Contact us</a></li><li id="n-sitesupport"><a href="https://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=C13_en.wikipedia.org&amp;uselang=en" title="Support us by donating to the Wikimedia Foundation">Donate</a></li><li id="n-shoplink"><a href="https://shop.wikimedia.org/" title="Visit the Wikipedia store">Wikipedia store</a></li></ul>
+		
+	</div>
+</div>
+
+
+	<div id="p-interaction" class="vector-menu vector-menu-portal portal" aria-labelledby="p-interaction-label" 
+	 >
+	<h3 id="p-interaction-label">
+		<span>Contribute</span>
+	</h3>
+	<!-- Please do not use the .body class, it is deprecated. -->
+	<div class="body vector-menu-content">
+		<!-- Please do not use the .menu class, it is deprecated. -->
+		<ul class="vector-menu-content-list"><li id="n-help"><a href="https://en.wikipedia.org/wiki/Help:Contents" title="Guidance on how to use and edit Wikipedia">Help</a></li><li id="n-portal"><a href="https://en.wikipedia.org/wiki/Wikipedia:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li><li id="n-recentchanges"><a href="https://en.wikipedia.org/wiki/Special:RecentChanges" title="A list of recent changes to Wikipedia [r]" accesskey="r">Recent changes</a></li><li id="n-upload"><a href="https://en.wikipedia.org/wiki/Wikipedia:File_Upload_Wizard" title="Add images or other media for use on Wikipedia">Upload file</a></li></ul>
+		
+	</div>
+</div>
+
+<div id="p-tb" class="vector-menu vector-menu-portal portal" aria-labelledby="p-tb-label" 
+	 >
+	<h3 id="p-tb-label">
+		<span>Tools</span>
+	</h3>
+	<!-- Please do not use the .body class, it is deprecated. -->
+	<div class="body vector-menu-content">
+		<!-- Please do not use the .menu class, it is deprecated. -->
+		<ul class="vector-menu-content-list"><li id="t-whatlinkshere"><a href="https://en.wikipedia.org/wiki/Special:WhatLinksHere/Specials_(Unicode_block)" title="List of all English Wikipedia pages containing links to this page [j]" accesskey="j">What links here</a></li><li id="t-recentchangeslinked"><a href="https://en.wikipedia.org/wiki/Special:RecentChangesLinked/Specials_(Unicode_block)" rel="nofollow" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li><li id="t-upload"><a href="https://en.wikipedia.org/wiki/Wikipedia:File_Upload_Wizard" title="Upload files [u]" accesskey="u">Upload file</a></li><li id="t-specialpages"><a href="https://en.wikipedia.org/wiki/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li><li id="t-permalink"><a href="https://en.wikipedia.org/w/index.php?title=Specials_(Unicode_block)&amp;oldid=962355260" title="Permanent link to this revision of this page">Permanent link</a></li><li id="t-info"><a href="https://en.wikipedia.org/w/index.php?title=Specials_(Unicode_block)&amp;action=info" title="More information about this page">Page information</a></li><li id="t-wikibase"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q2494081" title="Structured data on this page hosted by Wikidata [g]" accesskey="g">Wikidata item</a></li><li id="t-cite"><a href="https://en.wikipedia.org/w/index.php?title=Special:CiteThisPage&amp;page=Specials_%28Unicode_block%29&amp;id=962355260&amp;wpFormIdentifier=titleform" title="Information on how to cite this page">Cite this page</a></li></ul>
+		
+	</div>
+</div>
+
+<div id="p-lang" class="vector-menu vector-menu-portal portal" aria-labelledby="p-lang-label" 
+	 >
+	<h3 id="p-lang-label">
+		<span>Languages</span>
+	</h3>
+	<!-- Please do not use the .body class, it is deprecated. -->
+	<div class="body vector-menu-content">
+		<!-- Please do not use the .menu class, it is deprecated. -->
+		<ul class="vector-menu-content-list"><li class="interlanguage-link interwiki-ar"><a href="https://ar.wikipedia.org/wiki/%D8%AD%D8%B1%D9%88%D9%81_%D8%AE%D8%A7%D8%B5%D8%A9_(%D8%B5%D9%86%D8%A7%D8%AF%D9%8A%D9%82_%D9%8A%D9%88%D9%86%D9%8A%D9%83%D9%88%D8%AF)" title="حروف خاصة (صناديق يونيكود) – Arabic" lang="ar" hreflang="ar" class="interlanguage-link-target">العربية</a></li><li class="interlanguage-link interwiki-de"><a href="https://de.wikipedia.org/wiki/Unicodeblock_Spezielles" title="Unicodeblock Spezielles – German" lang="de" hreflang="de" class="interlanguage-link-target">Deutsch</a></li><li class="interlanguage-link interwiki-fr"><a href="https://fr.wikipedia.org/wiki/Table_des_caract%C3%A8res_Unicode/UFFF0" title="Table des caractères Unicode/UFFF0 – French" lang="fr" hreflang="fr" class="interlanguage-link-target">Français</a></li><li class="interlanguage-link interwiki-it"><a href="https://it.wikipedia.org/wiki/Specials_(Unicode)" title="Specials (Unicode) – Italian" lang="it" hreflang="it" class="interlanguage-link-target">Italiano</a></li><li class="interlanguage-link interwiki-ja"><a href="https://ja.wikipedia.org/wiki/Specials_(Unicode_block)" title="Specials (Unicode block) – Japanese" lang="ja" hreflang="ja" class="interlanguage-link-target">日本語</a></li><li class="interlanguage-link interwiki-ru"><a href="https://ru.wikipedia.org/wiki/%D0%A1%D0%BF%D0%B5%D1%86%D0%B8%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B5_%D1%81%D0%B8%D0%BC%D0%B2%D0%BE%D0%BB%D1%8B" title="Специальные символы – Russian" lang="ru" hreflang="ru" class="interlanguage-link-target">Русский</a></li><li class="interlanguage-link interwiki-ur"><a href="https://ur.wikipedia.org/wiki/%D8%AE%D8%B5%D9%88%D8%B5%DB%8C_(%DB%8C%D9%88%D9%86%DB%8C%DA%A9%D9%88%DA%88_%D8%A8%D9%84%D8%A7%DA%A9)" title="خصوصی (یونیکوڈ بلاک) – Urdu" lang="ur" hreflang="ur" class="interlanguage-link-target">اردو</a></li></ul>
+		<div class="after-portlet after-portlet-lang"><span class="wb-langlinks-edit wb-langlinks-link"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q2494081#sitelinks-wikipedia" title="Edit interlanguage links" class="wbc-editpage">Edit links</a></span></div>
+	</div>
+</div>
+
+<div id="p-wikibase-otherprojects" class="vector-menu vector-menu-portal portal" aria-labelledby="p-wikibase-otherprojects-label" 
+	 >
+	<h3 id="p-wikibase-otherprojects-label">
+		<span>In other projects</span>
+	</h3>
+	<!-- Please do not use the .body class, it is deprecated. -->
+	<div class="body vector-menu-content">
+		<!-- Please do not use the .menu class, it is deprecated. -->
+		<ul class="vector-menu-content-list"><li class="wb-otherproject-link wb-otherproject-wiktionary"><a href="https://en.wiktionary.org/wiki/Appendix:Unicode/Specials" hreflang="en">Wiktionary</a></li></ul>
+		
+	</div>
+</div>
+
+<div id="p-coll-print_export" class="vector-menu vector-menu-portal portal" aria-labelledby="p-coll-print_export-label" 
+	 >
+	<h3 id="p-coll-print_export-label">
+		<span>Print/export</span>
+	</h3>
+	<!-- Please do not use the .body class, it is deprecated. -->
+	<div class="body vector-menu-content">
+		<!-- Please do not use the .menu class, it is deprecated. -->
+		<ul class="vector-menu-content-list"><li id="coll-download-as-rl"><a href="https://en.wikipedia.org/w/index.php?title=Special:ElectronPdf&amp;page=Specials+%28Unicode+block%29&amp;action=show-download-screen" title="Download this page as a PDF file">Download as PDF</a></li><li id="t-print"><a href="https://en.wikipedia.org/w/index.php?title=Specials_(Unicode_block)&amp;printable=yes" title="Printable version of this page [p]" accesskey="p">Printable version</a></li></ul>
+		
+	</div>
+</div>
+
+
+</div>
+
+</div>
+
+<div id="footer" class="mw-footer" role="contentinfo" >
+	<ul id="footer-info" >
+		<li id="footer-info-lastmod"> This page was last edited on 13 June 2020, at 15:23<span class="anonymous-show">&#160;(UTC)</span>.</li>
+		<li id="footer-info-copyright">Text is available under the <a rel="license" href="https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License">Creative Commons Attribution-ShareAlike License</a><a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/" style="display:none;"></a>;
+additional terms may apply.  By using this site, you agree to the <a href="https://foundation.wikimedia.org/wiki/Terms_of_Use">Terms of Use</a> and <a href="https://foundation.wikimedia.org/wiki/Privacy_policy">Privacy Policy</a>. Wikipedia® is a registered trademark of the <a href="https://www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.</li>
+	</ul>
+	<ul id="footer-places" >
+		<li id="footer-places-privacy"><a href="https://foundation.wikimedia.org/wiki/Privacy_policy" class="extiw" title="wmf:Privacy policy">Privacy policy</a></li>
+		<li id="footer-places-about"><a href="https://en.wikipedia.org/wiki/Wikipedia:About" title="Wikipedia:About">About Wikipedia</a></li>
+		<li id="footer-places-disclaimer"><a href="https://en.wikipedia.org/wiki/Wikipedia:General_disclaimer" title="Wikipedia:General disclaimer">Disclaimers</a></li>
+		<li id="footer-places-contact"><a href="https://en.wikipedia.org/wiki/Wikipedia:Contact_us">Contact Wikipedia</a></li>
+		<li id="footer-places-developers"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/How_to_contribute">Developers</a></li>
+		<li id="footer-places-statslink"><a href="https://stats.wikimedia.org/#/en.wikipedia.org">Statistics</a></li>
+		<li id="footer-places-cookiestatement"><a href="https://foundation.wikimedia.org/wiki/Cookie_statement">Cookie statement</a></li>
+		<li id="footer-places-mobileview"><a href="https://en.m.wikipedia.org/w/index.php?title=Specials_(Unicode_block)&amp;mobileaction=toggle_view_mobile" class="noprint stopMobileRedirectToggle">Mobile view</a></li>
+	</ul>
+	<ul id="footer-icons" class="noprint">
+		<li id="footer-copyrightico"><a href="https://wikimediafoundation.org/"><img src="https://en.wikipedia.org/static/images/wikimedia-button.png" srcset="https://en.wikipedia.org/static/images/wikimedia-button-1.5x.png 1.5x, https://en.wikipedia.org/static/images/wikimedia-button-2x.png 2x" width="88" height="31" alt="Wikimedia Foundation" loading="lazy" /></a></li>
+		<li id="footer-poweredbyico"><a href="https://www.mediawiki.org/"><img src="https://en.wikipedia.org/static/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" srcset="https://en.wikipedia.org/static/images/poweredby_mediawiki_132x47.png 1.5x, https://en.wikipedia.org/static/images/poweredby_mediawiki_176x62.png 2x" width="88" height="31"/></a></li>
+	</ul>
+	<div style="clear: both;"></div>
+</div>
+
+
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.652","walltime":"1.035","ppvisitednodes":{"value":5142,"limit":1000000},"postexpandincludesize":{"value":135224,"limit":2097152},"templateargumentsize":{"value":8067,"limit":2097152},"expansiondepth":{"value":23,"limit":40},"expensivefunctioncount":{"value":2,"limit":500},"unstrip-depth":{"value":1,"limit":20},"unstrip-size":{"value":91294,"limit":5000000},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%  924.818      1 -total"," 34.11%  315.425      8 Template:Unichar"," 23.02%  212.894     29 Template:Citation"," 11.71%  108.287      8 Template:Unichar/main"," 10.14%   93.805      1 Template:Refimprove","  9.13%   84.476      4 Template:Navbox","  9.00%   83.203      1 Template:Ambox","  8.60%   79.497      1 Template:Short_description","  7.77%   71.879      2 Template:Infobox","  7.77%   71.872      1 Template:Infobox_Unicode_block"]},"scribunto":{"limitreport-timeusage":{"value":"0.315","limit":"10.000"},"limitreport-memusage":{"value":7751473,"limit":52428800}},"cachereport":{"origin":"mw1381","timestamp":"20200614172645","ttl":2592000,"transientcontent":false}}});});</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"Specials (Unicode block)","url":"https:\/\/en.wikipedia.org\/wiki\/Specials_(Unicode_block)","sameAs":"http:\/\/www.wikidata.org\/entity\/Q2494081","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q2494081","author":{"@type":"Organization","name":"Contributors to Wikimedia projects"},"publisher":{"@type":"Organization","name":"Wikimedia Foundation, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2007-06-08T13:18:33Z","dateModified":"2020-06-13T15:23:26Z","headline":"Unicode block containing some special codepoints and two non-characters"}</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":114,"wgHostname":"mw1411"});});</script></body></html>

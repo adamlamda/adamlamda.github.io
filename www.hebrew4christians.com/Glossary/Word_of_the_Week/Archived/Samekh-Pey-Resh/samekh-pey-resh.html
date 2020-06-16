@@ -1,0 +1,803 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8">
+<META NAME="Generator" CONTENT="info@hebrew4christians.com">
+<TITLE>Hebrew Root - Samekh-Pey-Resh</TITLE>
+<META NAME="keywords" content="Hebrew Word Root of the Day">
+<META NAME="description" content="Hebrew Word Root of the Day. "Shoresh" good for you to stop by!">
+<SCRIPT LANGUAGE="JavaScript"><!-- Code below hidden from older browsers
+
+         // Assign Browser values to variables
+         var strBrowser = navigator.appName;
+         var strVersion = navigator.appVersion.substring(0,4);
+         var strPlatform = navigator.platform.substring(0,3);
+
+      // --><!-- to hide script contents from old browsers
+
+
+        /*
+         *      This script was adapted from C sources written by
+         *      Scott E. Lee, which contain the following copyright notice:
+         *
+         *      Copyright 1993-1995, Scott E. Lee, all rights reserved.
+         *      Permission granted to use, copy, modify, distribute and sell so long as
+         *      the above copyright and this permission statement are retained in all
+         *      copies.  THERE IS NO WARRANTY - USE AT YOUR OWN RISK.
+         *
+         *      Bill Hastings
+         *      RBI Software Systems
+         *      bhastings@rbi.com
+         */
+        var GREG_SDN_OFFSET = 32045,
+                DAYS_PER_5_MONTHS = 153,
+                DAYS_PER_4_YEARS = 1461,
+                DAYS_PER_400_YEARS = 146097;
+        var HALAKIM_PER_HOUR = 1080,
+                HALAKIM_PER_DAY = 25920,
+                HALAKIM_PER_LUNAR_CYCLE = ((29 * HALAKIM_PER_DAY) + 13753),
+                HALAKIM_PER_METONIC_CYCLE = (HALAKIM_PER_LUNAR_CYCLE * (12 * 19 + 7));
+        var HEB_SDN_OFFSET = 347997,
+                NEW_MOON_OF_CREATION = 31524,
+                NOON = (18 * HALAKIM_PER_HOUR),
+                AM3_11_20 = ((9 * HALAKIM_PER_HOUR) + 204),
+                AM9_32_43 = ((15 * HALAKIM_PER_HOUR) + 589);
+        var SUN = 0,
+                MON = 1,
+                TUES = 2,
+                WED = 3,
+                THUR = 4,
+                FRI = 5,
+                SAT = 6;
+        var today = null,
+                hebrewMonth = 0,
+                hebrewDate = 0,
+                hebrewYear = 0,
+                metonicCycle = 0,
+                metonicYear = 0,
+                moladDay = 0,
+                moladHalakim = 0;
+        var gWeekday = new weekdayarr("Sun","Mon","Tues","Wednes","Thurs","Fri","Satur");
+        var gMonth = new gregmontharr("January","February","March","April","May","June","July","August","September","October","November","December");
+        var hMonth = new hebrewmontharr("Tishri","Heshvan","Kislev","Tevet","Shevat","AdarI","AdarII","Nisan","Iyyar","Sivan","Tammuz","Av","Elul");
+        var mpy = new monthsperyeararr(12,12,13,12,12,13,12,13,12,12,13,12,12,13,12,12,13,12,13);
+
+        function weekdayarr(d0,d1,d2,d3,d4,d5,d6)
+        {
+                this[0] = d0; this[1] = d1; this[2] = d2; this[3] = d3;
+                this[4] = d4; this[5] = d5; this[6] = d6;
+        }
+
+        function gregmontharr(m0,m1,m2,m3,m4,m5,m6,m7,m8,m9,m10,m11)
+        {
+                this[0] = m0; this[1] = m1; this[2] = m2; this[3] = m3;
+                this[4] = m4; this[5] = m5; this[6] = m6; this[7] = m7;
+                this[8] = m8; this[9] = m9; this[10] = m10; this[11] = m11;
+        }
+
+        function hebrewmontharr(m0,m1,m2,m3,m4,m5,m6,m7,m8,m9,m10,m11,m12,m13)
+        {
+                this[0] = m0; this[1] = m1; this[2] = m2; this[3] = m3;
+                this[4] = m4; this[5] = m5; this[6] = m6; this[7] = m7;
+                this[8] = m8; this[9] = m9; this[10] = m10; this[11] = m11;
+                this[12] = m12; this[13] = m13;
+        }
+
+        function monthsperyeararr(m0,m1,m2,m3,m4,m5,m6,m7,m8,m9,
+                                                          m10,m11,m12,m13,m14,m15,m16,m17,m18)
+        {
+                this[0] = m0; this[1] = m1; this[2] = m2; this[3] = m3;
+                this[4] = m4; this[5] = m5; this[6] = m6; this[7] = m7;
+                this[8] = m8; this[9] = m9; this[10] = m10; this[11] = m11;
+                this[12] = m8; this[13] = m13; this[14] = m14; this[15] = m15;
+                this[16] = m16; this[17] = m17; this[18] = m18;
+        }
+        function getToday()
+        {
+                if(today == null)
+                        today = new Date();
+        }
+        function displayWeekday()
+        {
+                getToday();
+                document.writeln(gWeekday[today.getDay()] + "day");
+        }
+        function displayGregorianDate()
+        {
+                getToday();
+                if (((strBrowser == 'Netscape') && (strVersion > 4.05)) || (strPlatform == 'Mac'))
+                        document.writeln(gMonth[today.getMonth()] + " " + today.getDate() + ", " + (today.getYear()+1900));
+                else
+                        document.writeln(gMonth[today.getMonth()] + " " + today.getDate() + ", " + (today.getYear()+1900-1900));
+        }
+        function displayHebrewDate()
+        {
+                if(hebrewDate != 0 && hebrewMonth != 0 && hebrewYear != 0)
+                        document.writeln(hebrewDate + " " + hMonth[hebrewMonth-1] + " " + hebrewYear);
+        }
+        function GregorianToSdn(inputYear,inputMonth,inputDay)
+        {
+                var year = 0,
+                        month = 0,
+                        sdn;
+                getToday();
+                // Make year a positive number
+                if (((strBrowser == 'Netscape') && (strVersion > 4.05)) || (strPlatform == 'Mac'))
+                   if (inputYear < 0)
+                      year = inputYear + 4801;
+                   else
+                      year = inputYear + 4800;
+                else
+                   if (inputYear < 0)
+                      year = inputYear + 4801-1900;
+                   else
+                      year = inputYear + 4800-1900;
+
+                // Adjust the start of the year
+                if (inputMonth > 2) {
+                        month = inputMonth - 3;
+                }
+                else {
+                        month = inputMonth + 9;
+                        year--;
+                }
+                sdn      = Math.floor((Math.floor(year / 100) * DAYS_PER_400_YEARS) / 4);
+                sdn += Math.floor(((year % 100) * DAYS_PER_4_YEARS) / 4);
+                sdn += Math.floor((month * DAYS_PER_5_MONTHS + 2) / 5);
+                sdn += inputDay - GREG_SDN_OFFSET;
+                return sdn;
+        }
+        function SdnToHebrew(sdn)
+        {
+                var inputDay,
+                        tishri1 = 0,
+                        tishri1After = 0,
+                        yearLength = 0,
+                inputDay = sdn - HEB_SDN_OFFSET;
+                FindTishriMolad(inputDay);
+                tishri1 = Tishri1(metonicYear,moladDay,moladHalakim);
+                if (inputDay >= tishri1) {
+                        // It found Tishri 1 at the start of the year.
+                        hebrewYear = metonicCycle * 19 + metonicYear + 1;
+                        if (inputDay < tishri1 + 59) {
+                                if (inputDay < tishri1 + 30) {
+                                        hebrewMonth = 1;
+                                        hebrewDate = inputDay - tishri1 + 1;
+                                }
+                                else {
+                                        hebrewMonth = 2;
+                                        hebrewDate = inputDay - tishri1 - 29;
+                                }
+                                return;
+                        }
+                        // We need the length of the year to figure this out,so find Tishri 1 of the next year.
+                        moladHalakim += HALAKIM_PER_LUNAR_CYCLE * mpy[metonicYear];
+                        moladDay += Math.floor(moladHalakim / HALAKIM_PER_DAY);
+                        moladHalakim = moladHalakim % HALAKIM_PER_DAY;
+                        tishri1After = Tishri1((metonicYear + 1) % 19,moladDay,moladHalakim);
+                }
+                else {
+                        // It found Tishri 1 at the end of the year.
+                        hebrewYear = metonicCycle * 19 + metonicYear;
+                        if (inputDay >= tishri1 - 177) {
+                                // It is one of the last 6 months of the year.
+                                if (inputDay > tishri1 - 30) {
+                                        hebrewMonth = 13;
+                                        hebrewDate = inputDay - tishri1 + 30;
+                                }
+                                else if (inputDay > tishri1 - 60) {
+                                        hebrewMonth = 12;
+                                        hebrewDate = inputDay - tishri1 + 60;
+                                }
+                                else if (inputDay > tishri1 - 89) {
+                                        hebrewMonth = 11;
+                                        hebrewDate = inputDay - tishri1 + 89;
+                                }
+                                else if (inputDay > tishri1 - 119) {
+                                        hebrewMonth = 10;
+                                        hebrewDate = inputDay - tishri1 + 119;
+                                }
+                                else if (inputDay > tishri1 - 148) {
+                                        hebrewMonth = 9;
+                                        hebrewDate = inputDay - tishri1 + 148;
+                                }
+                                else {
+                                        hebrewMonth = 8;
+                                        hebrewDate = inputDay - tishri1 + 178;
+                                }
+                                return;
+                        }
+                        else {
+                                if (mpy[(hebrewYear - 1) % 19] == 13) {
+                                        hebrewMonth = 7;
+                                        hebrewDate = inputDay - tishri1 + 207;
+                                        if (hebrewDate > 0)
+                                                return;
+                                        hebrewMonth--;
+                                        hebrewDate += 30;
+                                        if (hebrewDate > 0)
+                                                return;
+                                        hebrewMonth--;
+                                        hebrewDate += 30;
+                                }
+                                else {
+                                        hebrewMonth = 6;
+                                        hebrewDate = inputDay - tishri1 + 207;
+                                        if (hebrewDate > 0)
+                                                return;
+                                        hebrewMonth--;
+                                        hebrewDate += 30;
+                                }
+                                if (hebrewDate > 0)
+                                        return;
+                                hebrewMonth--;
+                                hebrewDate += 29;
+                                if (hebrewDate > 0)
+                                        return;
+                                // We need the length of the year to figure this out,so find Tishri 1 of this year.
+                                tishri1After = tishri1;
+                                FindTishriMolad(moladDay - 365);
+                                tishri1 = Tishri1(metonicYear,moladDay,moladHalakim);
+                        }
+                }
+                yearLength = tishri1After - tishri1;
+                moladDay = inputDay - tishri1 - 29;
+                if (yearLength == 355 || yearLength == 385) {
+                        // Heshvan has 30 days
+                        if (moladDay <= 30) {
+                                hebrewMonth = 2;
+                                hebrewDate = moladDay;
+                                return;
+                        }
+                        moladDay -= 30;
+                }
+                else {
+                        // Heshvan has 29 days
+                        if (moladDay <= 29) {
+                                hebrewMonth = 2;
+                                hebrewDate = moladDay;
+                                return;
+                        }
+                        moladDay -= 29;
+                }
+                // It has to be Kislev.
+                hebrewMonth = 3;
+                hebrewDate = moladDay;
+        }
+        function FindTishriMolad(inputDay)
+        {
+                // Estimate the metonic cycle number.  Note that this may be an under
+                // estimate because there are 6939.6896 days in a metonic cycle not
+                // 6940,but it will never be an over estimate.   The loop below will
+                // correct for any error in this estimate.
+                metonicCycle = Math.floor((inputDay + 310) / 6940);
+                // Calculate the time of the starting molad for this metonic cycle.
+                MoladOfMetonicCycle();
+                // If the above was an under estimate,increment the cycle number until
+                // the correct one is found.  For modern dates this loop is about 98.6%
+                // likely to not execute,even once,because the above estimate is
+                // really quite close.
+                while (moladDay < inputDay - 6940 + 310) {
+                        metonicCycle++;
+                        moladHalakim += HALAKIM_PER_METONIC_CYCLE;
+                        moladDay += Math.floor(moladHalakim / HALAKIM_PER_DAY);
+                        moladHalakim = moladHalakim % HALAKIM_PER_DAY;
+                }
+                // Find the molad of Tishri closest to this date.
+                for (metonicYear = 0; metonicYear < 18; metonicYear++) {
+                        if (moladDay > inputDay - 74)
+                                break;
+                        moladHalakim += HALAKIM_PER_LUNAR_CYCLE * mpy[metonicYear];
+                        moladDay += Math.floor(moladHalakim / HALAKIM_PER_DAY);
+                        moladHalakim = moladHalakim % HALAKIM_PER_DAY;
+                }
+        }
+        function MoladOfMetonicCycle()
+        {
+                var r1,r2,d1,d2;
+                // Start with the time of the first molad after creation.
+                r1 = NEW_MOON_OF_CREATION;
+                // Calculate gMetonicCycle * HALAKIM_PER_METONIC_CYCLE.  The upper 32
+                // bits of the result will be in r2 and the lower 16 bits will be in r1.
+                r1 += metonicCycle * (HALAKIM_PER_METONIC_CYCLE & 0xFFFF);
+                r2 = r1 >> 16;
+                r2 += metonicCycle * ((HALAKIM_PER_METONIC_CYCLE >> 16) & 0xFFFF);
+                // Calculate r2r1 / HALAKIM_PER_DAY.  The remainder will be in r1,the
+                // upper 16 bits of the quotient will be in d2 and the lower 16 bits
+                // will be in d1.
+                d2 = Math.floor(r2 / HALAKIM_PER_DAY);
+                r2 -= d2 * HALAKIM_PER_DAY;
+                r1 = (r2 << 16) | (r1 & 0xFFFF);
+                d1 = Math.floor(r1 / HALAKIM_PER_DAY);
+                r1 -= d1 * HALAKIM_PER_DAY;
+                moladDay = (d2 << 16) | d1;
+                moladHalakim = r1;
+        }
+        function Tishri1(metonicYear,moladDay,moladHalakim)
+        {
+                var tishri1 = moladDay;
+                var dow = tishri1 % 7;
+                var leapYear =  metonicYear == 2 || metonicYear == 5 || metonicYear == 7 || metonicYear == 10 ||
+                                                metonicYear == 13 || metonicYear == 16 || metonicYear == 18;
+                var lastWasLeapYear =   metonicYear == 3 || metonicYear == 6 || metonicYear == 8 || metonicYear == 11 ||
+                                                                metonicYear == 14 || metonicYear == 17 || metonicYear == 0;
+                // Apply rules 2,3 and 4
+                if ((moladHalakim >= NOON) ||
+                        ((!leapYear) && dow == TUES && moladHalakim >= AM3_11_20) ||
+
+                        (lastWasLeapYear && dow == MON && moladHalakim >= AM9_32_43))
+                {
+                        tishri1++;
+                        dow++;
+                        if (dow == 7)
+                                dow = 0;
+                }
+                // Apply rule 1 after the others because it can cause an additional delay of one day.
+                if (dow == WED || dow == FRI || dow == SUN) {
+                        tishri1++;
+                }
+                return tishri1;
+        }
+        //      end hiding contents from old browsers  --></SCRIPT>
+
+<META HTTP-EQUIV="imagetoolbar" CONTENT="no">
+<script language="JavaScript">
+<!--
+function MM_initInteractions(){}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+</script>
+<script language="JavaScript">
+<!-- 
+function open_new_window(url)
+{ 
+new_window = window.open(url,'window_name','Scrollbars=1,menubar=0,resizable=0,dependent=0,status=0,width=690,height=500,left=0,top=0')
+}
+// New window attributes
+// url - the variable for the url of the page in the new window
+//     that is passed by placing it single-quoted in either the link or form
+// window_name - the name of the new window being opened
+// width - width of the new window in pixels
+// height - height of the new window in pixels
+// top - the new widow top will appear xx number of pixels from the top of the screen
+// left - the new widow left margin will appear xx number of pixels from the left of the screen
+
+// The following attributes will suppress the respective window elements
+// when the value is set to zero or if omitted.  When listed or equal to one
+// the window attribute will appear
+// toolbar,menubar,resizable,dependent,status
+// -->
+</script>
+<script><!--
+
+
+if (navigator.userAgent.indexOf("Netscape") != -1) {
+	document.captureEvents(Event.MOUSEDOWN);
+}
+
+document.onmousedown = trapClick
+
+function trapClick(ev) {
+	if (document.all) {
+		if (event.button == 2) {
+			return false;
+		}
+	}
+	if (navigator.userAgent.indexOf("Netscape") != -1) {
+		if (ev.which == 3) {
+			return false;
+		}
+	}
+}
+//-->
+</SCRIPT>
+<SCRIPT>
+<!--
+function F_loadRollover(){} function F_roll(){}
+//-->
+</SCRIPT>
+<SCRIPT LANGUAGE="JavaScript1.2" SRC="https://www.hebrew4christians.com/rollover.js"></SCRIPT>
+<LINK REL=STYLESHEET TYPE="text/css" HREF="https://www.hebrew4christians.com/Glossary/Word_of_the_Week/Archived/Samekh-Pey-Resh/style.css">
+<LINK REL=STYLESHEET TYPE="text/css" HREF="https://www.hebrew4christians.com/Glossary/Word_of_the_Week/Archived/Samekh-Pey-Resh/site.css">
+<STYLE>
+</STYLE><NOLAYER>
+<STYLE ID="NOF_STYLE_SHEET">
+<!--
+DIV#Text542LYR { position:relative; visibility:hidden; top:0; left:0; z-index:1; }
+-->
+</STYLE>
+
+</NOLAYER>
+</HEAD>
+<BODY NOF="(MB=(Borders, 107, 115, 170, 5), L=(SamekhPeyReshLayout, 600, 1515))" onLoad="MM_initInteractions()" ondragstart="return false" onselectstart="return false" TOPMARGIN=0 LEFTMARGIN=0 MARGINWIDTH=0 MARGINHEIGHT=0>
+ <script language=JavaScript>
+<!--
+//Disable right click script III- By Renigade (renigade@mediaone.net)
+//For full source code, visit http://www.dynamicdrive.com
+var message="";
+///////////////////////////////////
+function clickIE() {if (document.all) {(message);return false;}}
+function clickNS(e) {if 
+(document.layers||(document.getElementById&&!document.all)) {
+if (e.which==2||e.which==3) {(message);return false;}}}
+if (document.layers) 
+{document.captureEvents(Event.MOUSEDOWN);document.onmousedown=clickNS;}
+else{document.onmouseup=clickNS;document.oncontextmenu=clickIE;}
+document.oncontextmenu=new Function("return false")
+// --></script>
+ <TABLE CELLPADDING=0 CELLSPACING=0 BORDER=0 WIDTH=769 NOF=LY>
+  <TR VALIGN=TOP ALIGN=LEFT>
+   <TD>
+    <TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0 WIDTH=117 NOF=LY>
+     <TR VALIGN=TOP ALIGN=LEFT>
+      <TD WIDTH=16 HEIGHT=24><IMG SRC="https://www.hebrew4christians.com/clearpixel.gif" WIDTH=16 HEIGHT=1 BORDER=0 ALT=""></TD>
+      <TD WIDTH=1><IMG SRC="https://www.hebrew4christians.com/clearpixel.gif" WIDTH=1 HEIGHT=1 BORDER=0 ALT=""></TD>
+      <TD WIDTH=35><IMG SRC="https://www.hebrew4christians.com/clearpixel.gif" WIDTH=35 HEIGHT=1 BORDER=0 ALT=""></TD>
+      <TD></TD>
+      <TD WIDTH=32><IMG SRC="https://www.hebrew4christians.com/clearpixel.gif" WIDTH=32 HEIGHT=1 BORDER=0 ALT=""></TD>
+      <TD WIDTH=1><IMG SRC="https://www.hebrew4christians.com/clearpixel.gif" WIDTH=1 HEIGHT=1 BORDER=0 ALT=""></TD>
+     </TR>
+     <TR VALIGN=TOP ALIGN=LEFT>
+      <TD COLSPAN=3 HEIGHT=33></TD>
+      <TD ALIGN=CENTER VALIGN=MIDDLE WIDTH=32><A HREF="https://www.hebrew4christians.com/index.html"><IMG ID="Picture74" HEIGHT=33 WIDTH=32 SRC="https://www.hebrew4christians.com/little-shin.gif" BORDER=0 ALT="Shaddai"></A></TD>
+      <TD COLSPAN=2></TD>
+     </TR>
+     <TR VALIGN=TOP ALIGN=LEFT>
+      <TD COLSPAN=6 HEIGHT=7></TD>
+     </TR>
+     <TR VALIGN=TOP ALIGN=LEFT>
+      <TD HEIGHT=304></TD>
+      <TD COLSPAN=4 WIDTH=100>
+       <TABLE ID="NavigationBar1" BORDER=0 CELLSPACING=0 CELLPADDING=0 NOF=NB_FYVPNY020 WIDTH=100>
+        <TR VALIGN=TOP ALIGN=LEFT>
+         <TD WIDTH=100 HEIGHT=19><A HREF="https://www.hebrew4christians.com/index.html" onMouseOver="F_roll('NavigationButton1',1)" onMouseOut="F_roll('NavigationButton1',0)"><IMG ID="NavigationButton1" NAME="NavigationButton1" HEIGHT=19 WIDTH=100 SRC="https://www.hebrew4christians.com/Home_Np1.GIF" onLoad="F_loadRollover(this,'Home_NRp2.GIF',0)" BORDER=0 ALT="Home"></A></TD>
+        </TR>
+        <TR VALIGN=TOP ALIGN=LEFT>
+         <TD WIDTH=100 HEIGHT=19><A HREF="https://www.hebrew4christians.com/Grammar/grammar.html" onMouseOver="F_roll('NavigationButton2',1)" onMouseOut="F_roll('NavigationButton2',0)"><IMG ID="NavigationButton2" NAME="NavigationButton2" HEIGHT=19 WIDTH=100 SRC="https://www.hebrew4christians.com/Grammar_Np1.GIF" onLoad="F_loadRollover(this,'Grammar_NRp2.GIF',0)" BORDER=0 ALT="Grammar"></A></TD>
+        </TR>
+        <TR VALIGN=TOP ALIGN=LEFT>
+         <TD WIDTH=100 HEIGHT=19><A HREF="https://www.hebrew4christians.com/Blessings/blessings.html" onMouseOver="F_roll('NavigationButton3',1)" onMouseOut="F_roll('NavigationButton3',0)"><IMG ID="NavigationButton3" NAME="NavigationButton3" HEIGHT=19 WIDTH=100 SRC="https://www.hebrew4christians.com/Blessings_Np1.GIF" onLoad="F_loadRollover(this,'Blessings_NRp2.GIF',0)" BORDER=0 ALT="Blessings"></A></TD>
+        </TR>
+        <TR VALIGN=TOP ALIGN=LEFT>
+         <TD WIDTH=100 HEIGHT=19><A HREF="https://www.hebrew4christians.com/Prayers/prayers.html" onMouseOver="F_roll('NavigationButton4',1)" onMouseOut="F_roll('NavigationButton4',0)"><IMG ID="NavigationButton4" NAME="NavigationButton4" HEIGHT=19 WIDTH=100 SRC="https://www.hebrew4christians.com/Prayers_Np1.GIF" onLoad="F_loadRollover(this,'Prayers_NRp2.GIF',0)" BORDER=0 ALT="Prayers"></A></TD>
+        </TR>
+        <TR VALIGN=TOP ALIGN=LEFT>
+         <TD WIDTH=100 HEIGHT=19><A HREF="https://www.hebrew4christians.com/Scripture/scripture.html" onMouseOver="F_roll('NavigationButton5',1)" onMouseOut="F_roll('NavigationButton5',0)"><IMG ID="NavigationButton5" NAME="NavigationButton5" HEIGHT=19 WIDTH=100 SRC="https://www.hebrew4christians.com/Scripture_Np1.GIF" onLoad="F_loadRollover(this,'Scripture_NRp2.GIF',0)" BORDER=0 ALT="Scripture"></A></TD>
+        </TR>
+        <TR VALIGN=TOP ALIGN=LEFT>
+         <TD WIDTH=100 HEIGHT=19><A HREF="https://www.hebrew4christians.com/Names_of_G-d/names_of_g-d.html" onMouseOver="F_roll('NavigationButton6',1)" onMouseOut="F_roll('NavigationButton6',0)"><IMG ID="NavigationButton6" NAME="NavigationButton6" HEIGHT=19 WIDTH=100 SRC="https://www.hebrew4christians.com/Names_of_G-d_Np1.GIF" onLoad="F_loadRollover(this,'Names_of_G-d_NRp2.GIF',0)" BORDER=0 ALT="Names of G-d"></A></TD>
+        </TR>
+        <TR VALIGN=TOP ALIGN=LEFT>
+         <TD WIDTH=100 HEIGHT=19><A HREF="https://www.hebrew4christians.com/Life_Cycle/life_cycle.html" onMouseOver="F_roll('NavigationButton7',1)" onMouseOut="F_roll('NavigationButton7',0)"><IMG ID="NavigationButton7" NAME="NavigationButton7" HEIGHT=19 WIDTH=100 SRC="https://www.hebrew4christians.com/Life_Cycle_Np1.GIF" onLoad="F_loadRollover(this,'Life_Cycle_NRp2.GIF',0)" BORDER=0 ALT="Life Cycle"></A></TD>
+        </TR>
+        <TR VALIGN=TOP ALIGN=LEFT>
+         <TD WIDTH=100 HEIGHT=19><A HREF="https://www.hebrew4christians.com/Holidays/holidays.html" onMouseOver="F_roll('NavigationButton8',1)" onMouseOut="F_roll('NavigationButton8',0)"><IMG ID="NavigationButton8" NAME="NavigationButton8" HEIGHT=19 WIDTH=100 SRC="https://www.hebrew4christians.com/Holidays_Np1.GIF" onLoad="F_loadRollover(this,'Holidays_NRp2.GIF',0)" BORDER=0 ALT="Holidays"></A></TD>
+        </TR>
+        <TR VALIGN=TOP ALIGN=LEFT>
+         <TD WIDTH=100 HEIGHT=19><A HREF="https://www.hebrew4christians.com/Meditations/meditations.html" onMouseOver="F_roll('NavigationButton9',1)" onMouseOut="F_roll('NavigationButton9',0)"><IMG ID="NavigationButton9" NAME="NavigationButton9" HEIGHT=19 WIDTH=100 SRC="https://www.hebrew4christians.com/Meditations_Np1.GIF" onLoad="F_loadRollover(this,'Meditations_NRp2.GIF',0)" BORDER=0 ALT="Meditations"></A></TD>
+        </TR>
+        <TR VALIGN=TOP ALIGN=LEFT>
+         <TD WIDTH=100 HEIGHT=19><A HREF="https://www.hebrew4christians.com/Clear_Thinking/clear_thinking.html" onMouseOver="F_roll('NavigationButton10',1)" onMouseOut="F_roll('NavigationButton10',0)"><IMG ID="NavigationButton10" NAME="NavigationButton10" HEIGHT=19 WIDTH=100 SRC="https://www.hebrew4christians.com/Clear_Thinking_Np1.GIF" onLoad="F_loadRollover(this,'Clear_Thinking_NRp2.GIF',0)" BORDER=0 ALT="Clear Thinking"></A></TD>
+        </TR>
+        <TR VALIGN=TOP ALIGN=LEFT>
+         <TD WIDTH=100 HEIGHT=19><A HREF="https://www.hebrew4christians.com/Articles/articles.html" onMouseOver="F_roll('NavigationButton11',1)" onMouseOut="F_roll('NavigationButton11',0)"><IMG ID="NavigationButton11" NAME="NavigationButton11" HEIGHT=19 WIDTH=100 SRC="https://www.hebrew4christians.com/Articles_Np1.GIF" onLoad="F_loadRollover(this,'Articles_NRp2.GIF',0)" BORDER=0 ALT="Articles"></A></TD>
+        </TR>
+        <TR VALIGN=TOP ALIGN=LEFT>
+         <TD WIDTH=100 HEIGHT=19><A HREF="https://www.hebrew4christians.com/Humor/humor.html" onMouseOver="F_roll('NavigationButton12',1)" onMouseOut="F_roll('NavigationButton12',0)"><IMG ID="NavigationButton12" NAME="NavigationButton12" HEIGHT=19 WIDTH=100 SRC="https://www.hebrew4christians.com/Humor_Np1.GIF" onLoad="F_loadRollover(this,'Humor_NRp2.GIF',0)" BORDER=0 ALT="Humor"></A></TD>
+        </TR>
+        <TR VALIGN=TOP ALIGN=LEFT>
+         <TD WIDTH=100 HEIGHT=19><A HREF="https://www.hebrew4christians.com/About_HFC/about_hfc.html" onMouseOver="F_roll('NavigationButton13',1)" onMouseOut="F_roll('NavigationButton13',0)"><IMG ID="NavigationButton13" NAME="NavigationButton13" HEIGHT=19 WIDTH=100 SRC="https://www.hebrew4christians.com/About_HFC_Np1.GIF" onLoad="F_loadRollover(this,'About_HFC_NRp2.GIF',0)" BORDER=0 ALT="About HFC"></A></TD>
+        </TR>
+        <TR VALIGN=TOP ALIGN=LEFT>
+         <TD WIDTH=100 HEIGHT=19><A HREF="https://www.hebrew4christians.com/Glossary/glossary.html" onMouseOver="F_roll('NavigationButton14',1)" onMouseOut="F_roll('NavigationButton14',0)"><IMG ID="NavigationButton14" NAME="NavigationButton14" HEIGHT=19 WIDTH=100 SRC="https://www.hebrew4christians.com/Glossary_Hp3.GIF" onLoad="F_loadRollover(this,'Glossary_HRp3.GIF',0)" BORDER=0 ALT="Glossary"></A></TD>
+        </TR>
+        <TR VALIGN=TOP ALIGN=LEFT>
+         <TD WIDTH=100 HEIGHT=19><A HREF="https://www.hebrew4christians.com/Links/links.html" onMouseOver="F_roll('NavigationButton15',1)" onMouseOut="F_roll('NavigationButton15',0)"><IMG ID="NavigationButton15" NAME="NavigationButton15" HEIGHT=19 WIDTH=100 SRC="https://www.hebrew4christians.com/Links_Np1.GIF" onLoad="F_loadRollover(this,'Links_NRp2.GIF',0)" BORDER=0 ALT="Links"></A></TD>
+        </TR>
+        <TR VALIGN=TOP ALIGN=LEFT>
+         <TD WIDTH=100 HEIGHT=19><A HREF="https://www.hebrew4christians.com/Online_Store/online_store.html" onMouseOver="F_roll('NavigationButton16',1)" onMouseOut="F_roll('NavigationButton16',0)"><IMG ID="NavigationButton16" NAME="NavigationButton16" HEIGHT=19 WIDTH=100 SRC="https://www.hebrew4christians.com/Online_Store_Np1.GIF" onLoad="F_loadRollover(this,'Online_Store_NRp2.GIF',0)" BORDER=0 ALT="Online Store"></A></TD>
+        </TR>
+       </TABLE>
+      </TD>
+      <TD></TD>
+     </TR>
+     <TR VALIGN=TOP ALIGN=LEFT>
+      <TD COLSPAN=6 HEIGHT=25></TD>
+     </TR>
+     <TR VALIGN=TOP ALIGN=LEFT>
+      <TD COLSPAN=2 HEIGHT=98></TD>
+      <TD COLSPAN=4 WIDTH=100>
+<script language="JavaScript"><!--
+function onPictureRollover1A39317Over() {}
+function onPictureRollover1A39317Out() {}
+//--></script>
+<script language="JavaScript"><!--
+graphic1PictureRollover1A39317 = new Image()
+graphic1PictureRollover1A39317.src = '../../../../intro-to-Hebrew.gif';
+graphic2PictureRollover1A39317 = new Image()
+graphic2PictureRollover1A39317.src = '../../../../intro-to-Hebrew2.gif';
+function onPictureRollover1A39317Over() {
+document.PictureRollover1A39317.src=graphic2PictureRollover1A39317.src;
+}
+function onPictureRollover1A39317Out() {
+document.PictureRollover1A39317.src=graphic1PictureRollover1A39317.src;
+}
+//--></script>
+<a href="http://www.hebrew4christians.com/Online_Store/Books/MyBook/mybook.html" onMouseOver="onPictureRollover1A39317Over(this)" onMouseOut="onPictureRollover1A39317Out(this)"><IMG ID="PictureRollover1" HEIGHT=98 WIDTH=100 SRC="https://www.hebrew4christians.com/intro-to-Hebrew.gif" BORDER=0 ALT="" name=PictureRollover1A39317></a></TD>
+     </TR>
+     <TR VALIGN=TOP ALIGN=LEFT>
+      <TD COLSPAN=6 HEIGHT=5></TD>
+     </TR>
+     <TR VALIGN=TOP ALIGN=LEFT>
+      <TD></TD>
+      <TD COLSPAN=4 WIDTH=100 CLASS="TextObject">
+       <P STYLE="text-align: center;"><B><SPAN STYLE="font-size: 9px; color: rgb(255,255,255);">Learn Hebrew</SPAN></B></P>
+      </TD>
+      <TD></TD>
+     </TR>
+    </TABLE>
+   </TD>
+   <TD>
+    <TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0 WIDTH=652 NOF=LY>
+     <TR VALIGN=TOP ALIGN=LEFT>
+      <TD WIDTH=52 HEIGHT=22><IMG SRC="https://www.hebrew4christians.com/clearpixel.gif" WIDTH=52 HEIGHT=1 BORDER=0 ALT=""></TD>
+      <TD WIDTH=4><IMG SRC="https://www.hebrew4christians.com/clearpixel.gif" WIDTH=4 HEIGHT=1 BORDER=0 ALT=""></TD>
+      <TD WIDTH=12><IMG SRC="https://www.hebrew4christians.com/clearpixel.gif" WIDTH=12 HEIGHT=1 BORDER=0 ALT=""></TD>
+      <TD WIDTH=15><IMG SRC="https://www.hebrew4christians.com/clearpixel.gif" WIDTH=15 HEIGHT=1 BORDER=0 ALT=""></TD>
+      <TD WIDTH=96><IMG SRC="https://www.hebrew4christians.com/clearpixel.gif" WIDTH=96 HEIGHT=1 BORDER=0 ALT=""></TD>
+      <TD WIDTH=36><IMG SRC="https://www.hebrew4christians.com/clearpixel.gif" WIDTH=36 HEIGHT=1 BORDER=0 ALT=""></TD>
+      <TD WIDTH=23><IMG SRC="https://www.hebrew4christians.com/clearpixel.gif" WIDTH=23 HEIGHT=1 BORDER=0 ALT=""></TD>
+      <TD WIDTH=7><IMG SRC="https://www.hebrew4christians.com/clearpixel.gif" WIDTH=7 HEIGHT=1 BORDER=0 ALT=""></TD>
+      <TD WIDTH=2><IMG SRC="https://www.hebrew4christians.com/clearpixel.gif" WIDTH=2 HEIGHT=1 BORDER=0 ALT=""></TD>
+      <TD WIDTH=37><IMG SRC="https://www.hebrew4christians.com/clearpixel.gif" WIDTH=37 HEIGHT=1 BORDER=0 ALT=""></TD>
+      <TD WIDTH=83><IMG SRC="https://www.hebrew4christians.com/clearpixel.gif" WIDTH=83 HEIGHT=1 BORDER=0 ALT=""></TD>
+      <TD WIDTH=55><IMG SRC="https://www.hebrew4christians.com/clearpixel.gif" WIDTH=55 HEIGHT=1 BORDER=0 ALT=""></TD>
+      <TD WIDTH=36><IMG SRC="https://www.hebrew4christians.com/clearpixel.gif" WIDTH=36 HEIGHT=1 BORDER=0 ALT=""></TD>
+      <TD WIDTH=31><IMG SRC="https://www.hebrew4christians.com/clearpixel.gif" WIDTH=31 HEIGHT=1 BORDER=0 ALT=""></TD>
+      <TD WIDTH=19><IMG SRC="https://www.hebrew4christians.com/clearpixel.gif" WIDTH=19 HEIGHT=1 BORDER=0 ALT=""></TD>
+      <TD WIDTH=12><IMG SRC="https://www.hebrew4christians.com/clearpixel.gif" WIDTH=12 HEIGHT=1 BORDER=0 ALT=""></TD>
+      <TD WIDTH=58><IMG SRC="https://www.hebrew4christians.com/clearpixel.gif" WIDTH=58 HEIGHT=1 BORDER=0 ALT=""></TD>
+      <TD WIDTH=7><IMG SRC="https://www.hebrew4christians.com/clearpixel.gif" WIDTH=7 HEIGHT=1 BORDER=0 ALT=""></TD>
+      <TD WIDTH=20><IMG SRC="https://www.hebrew4christians.com/clearpixel.gif" WIDTH=20 HEIGHT=1 BORDER=0 ALT=""></TD>
+      <TD WIDTH=2><IMG SRC="https://www.hebrew4christians.com/clearpixel.gif" WIDTH=2 HEIGHT=1 BORDER=0 ALT=""></TD>
+      <TD WIDTH=1><IMG SRC="https://www.hebrew4christians.com/clearpixel.gif" WIDTH=1 HEIGHT=1 BORDER=0 ALT=""></TD>
+      <TD WIDTH=1><IMG SRC="https://www.hebrew4christians.com/clearpixel.gif" WIDTH=1 HEIGHT=1 BORDER=0 ALT=""></TD>
+      <TD WIDTH=12><IMG SRC="https://www.hebrew4christians.com/clearpixel.gif" WIDTH=12 HEIGHT=1 BORDER=0 ALT=""></TD>
+      <TD WIDTH=3><IMG SRC="https://www.hebrew4christians.com/clearpixel.gif" WIDTH=3 HEIGHT=1 BORDER=0 ALT=""></TD>
+      <TD WIDTH=2><IMG SRC="https://www.hebrew4christians.com/clearpixel.gif" WIDTH=2 HEIGHT=1 BORDER=0 ALT=""></TD>
+      <TD WIDTH=23><IMG SRC="https://www.hebrew4christians.com/clearpixel.gif" WIDTH=23 HEIGHT=1 BORDER=0 ALT=""></TD>
+      <TD WIDTH=3><IMG SRC="https://www.hebrew4christians.com/clearpixel.gif" WIDTH=3 HEIGHT=1 BORDER=0 ALT=""></TD>
+     </TR>
+     <TR VALIGN=TOP ALIGN=LEFT>
+      <TD COLSPAN=2 HEIGHT=19></TD>
+      <TD COLSPAN=6 ROWSPAN=3 ALIGN=CENTER VALIGN=MIDDLE WIDTH=189><A NAME="Top"></A><A HREF="https://www.hebrew4christians.com/index.html"><IMG ID="Picture2" HEIGHT=35 WIDTH=189 SRC="https://www.hebrew4christians.com/hfclogo.gif" BORDER=0 ALT="Hebrew for Christians"></A></TD>
+      <TD COLSPAN=19></TD>
+     </TR>
+     <TR VALIGN=TOP ALIGN=LEFT>
+      <TD COLSPAN=2 HEIGHT=14></TD>
+      <TD COLSPAN=12></TD>
+      <TD COLSPAN=6 ALIGN=CENTER VALIGN=MIDDLE WIDTH=42><IMG ID="Picture177" HEIGHT=14 WIDTH=42 SRC="https://www.hebrew4christians.com/BS__D.gif" BORDER=0 ALT="BS''D"></TD>
+      <TD></TD>
+     </TR>
+     <TR VALIGN=TOP ALIGN=LEFT>
+      <TD COLSPAN=2 HEIGHT=2></TD>
+      <TD COLSPAN=19></TD>
+     </TR>
+     <TR VALIGN=TOP ALIGN=LEFT>
+      <TD COLSPAN=27 HEIGHT=3></TD>
+     </TR>
+     <TR VALIGN=TOP ALIGN=LEFT>
+      <TD HEIGHT=25></TD>
+      <TD COLSPAN=26 WIDTH=600><A HREF="https://www.hebrew4christians.com/Glossary/Word_of_the_Week/Archived/archived.html" NOF="LS_U"><IMG ID="Banner1" HEIGHT=25 WIDTH=600 SRC="https://www.hebrew4christians.com/Hebrew_Root___Samekh-Pey-Resh_NBanner.GIF" BORDER=0 ALT="Hebrew Root:  Samekh-Pey-Resh" NOF=B_H></A></TD>
+     </TR>
+     <TR VALIGN=TOP ALIGN=LEFT>
+      <TD COLSPAN=27 HEIGHT=22></TD>
+     </TR>
+     <TR VALIGN=TOP ALIGN=LEFT>
+      <TD COLSPAN=3></TD>
+      <TD COLSPAN=13 WIDTH=452 CLASS="TextObject">
+       <P><B><SPAN STYLE="font-size: 24px;">Hebrew Word of the Week</SPAN></B></P>
+      </TD>
+      <TD COLSPAN=11></TD>
+     </TR>
+     <TR VALIGN=TOP ALIGN=LEFT>
+      <TD COLSPAN=27 HEIGHT=19></TD>
+     </TR>
+     <TR VALIGN=TOP ALIGN=LEFT>
+      <TD COLSPAN=5 HEIGHT=111></TD>
+      <TD COLSPAN=6 ALIGN=CENTER VALIGN=MIDDLE WIDTH=188><IMG ID="Picture102" HEIGHT=111 WIDTH=188 SRC="https://www.hebrew4christians.com/Glossary/Word_of_the_Week/Archived/Samekh-Pey-Resh/samekh-fey-resh.gif" BORDER=0 ALT="Shoresh"></TD>
+      <TD COLSPAN=16></TD>
+     </TR>
+     <TR VALIGN=TOP ALIGN=LEFT>
+      <TD COLSPAN=27 HEIGHT=26></TD>
+     </TR>
+     <TR VALIGN=TOP ALIGN=LEFT>
+      <TD COLSPAN=4></TD>
+      <TD COLSPAN=18 WIDTH=526 CLASS="TextObject">
+       <P STYLE="line-height: 18px;">In the words below, see how the key letters (Samekh</A>, Pey</A>, and Resh</A>) are used to form other Hebrew words:</P>
+      </TD>
+      <TD COLSPAN=5></TD>
+     </TR>
+     <TR VALIGN=TOP ALIGN=LEFT>
+      <TD COLSPAN=27 HEIGHT=22></TD>
+     </TR>
+     <TR VALIGN=TOP ALIGN=LEFT>
+      <TD COLSPAN=4 HEIGHT=320></TD>
+      <TD COLSPAN=11 ALIGN=CENTER VALIGN=MIDDLE WIDTH=425><IMG ID="Picture103" HEIGHT=320 WIDTH=425 SRC="https://www.hebrew4christians.com/Glossary/Word_of_the_Week/Archived/Samekh-Pey-Resh/seferexs.gif" BORDER=0 ALT="Word List"></TD>
+      <TD COLSPAN=12></TD>
+     </TR>
+     <TR VALIGN=TOP ALIGN=LEFT>
+      <TD COLSPAN=27 HEIGHT=29></TD>
+     </TR>
+     <TR VALIGN=TOP ALIGN=LEFT>
+      <TD COLSPAN=4></TD>
+      <TD COLSPAN=15 WIDTH=522 CLASS="TextObject" STYLE="line-height: 18px;">
+       <P>This root basically has the idea of numbering and counting associated with it, which probably lead to the ideas of "recounting," writing, and so on.</P>
+      </TD>
+      <TD COLSPAN=8></TD>
+     </TR>
+     <TR VALIGN=TOP ALIGN=LEFT>
+      <TD COLSPAN=27 HEIGHT=24></TD>
+     </TR>
+     <TR VALIGN=TOP ALIGN=LEFT>
+      <TD COLSPAN=4></TD>
+      <TD COLSPAN=21 WIDTH=543 CLASS="TextObject">
+       <P STYLE="line-height: 18px;"><B>In the Scriptures</B><BR>This root and its derivatives occurs hundreds of places in the<I> Tanakh.</I> The Lord himself is said to keep accounts in his book(s) (Ex. 32:32; Psalm 69:28 [H 29] (<I>Sefer Chaim</I>); Psalm 139:16;&nbsp; Psalm 87:6; Isaiah 4:3; 34:16; Daniel 7:10; 12:1; and Mal 3:16). The idea that the righteous are written in the Book of life <I>(Sefer haChayim)</I> has become a central motif in the Rosh HaShanah / Yom Kippur services. <BR><BR>For example, it is believed that on Rosh Hashanah the destiny of all mankind is recorded by God in the Book of Life. After Rosh Hashanah services, as the congregants leave the synagogue they say to each other:<BR><BR>&quot;May you be inscribed in the Book of Life&quot; <I>(l'shanah tovah tikatevu)</I>:<BR><BR><IMG ID="Picture131" HEIGHT=23 WIDTH=143 SRC="https://www.hebrew4christians.com/Glossary/lshanah_tova_tikkatevu.gif" VSPACE=0 HSPACE=0 ALIGN="TOP" BORDER=0 ALT="May you be inscribed in the Book of Life"></P>
+      </TD>
+      <TD COLSPAN=2></TD>
+     </TR>
+     <TR VALIGN=TOP ALIGN=LEFT>
+      <TD COLSPAN=27 HEIGHT=46></TD>
+     </TR>
+     <TR VALIGN=TOP ALIGN=LEFT>
+      <TD COLSPAN=4></TD>
+      <TD COLSPAN=20 WIDTH=541 CLASS="TextObject">
+       <P STYLE="line-height: 18px;">The Lord Jesus came as it was written in the Volume (scroll) of the Book (<I>bim'gillat sefer</I>) concerning Him: </P>
+      </TD>
+      <TD COLSPAN=3></TD>
+     </TR>
+     <TR VALIGN=TOP ALIGN=LEFT>
+      <TD COLSPAN=27 HEIGHT=14></TD>
+     </TR>
+     <TR VALIGN=TOP ALIGN=LEFT>
+      <TD COLSPAN=4 HEIGHT=34></TD>
+      <TD COLSPAN=13 ALIGN=CENTER VALIGN=MIDDLE WIDTH=495><IMG ID="Picture130" HEIGHT=34 WIDTH=495 SRC="https://www.hebrew4christians.com/Glossary/Word_of_the_Week/Archived/Samekh-Pey-Resh/psalm40-8.gif" BORDER=0 ALT="Psalm 40:8"></TD>
+      <TD COLSPAN=10></TD>
+     </TR>
+     <TR VALIGN=TOP ALIGN=LEFT>
+      <TD COLSPAN=27 HEIGHT=8></TD>
+     </TR>
+     <TR VALIGN=TOP ALIGN=LEFT>
+      <TD COLSPAN=4></TD>
+      <TD COLSPAN=14 WIDTH=502 CLASS="TextObject">
+       <P STYLE="text-align: center;"><I>"Then said I, Lo, I come: in the volume of the book it is written of me "<BR>(Psalm 40:8) - Cp. Hebrews 10:7</I></P>
+      </TD>
+      <TD COLSPAN=9></TD>
+     </TR>
+     <TR VALIGN=TOP ALIGN=LEFT>
+      <TD COLSPAN=27 HEIGHT=26></TD>
+     </TR>
+     <TR VALIGN=TOP ALIGN=LEFT>
+      <TD COLSPAN=4></TD>
+      <TD COLSPAN=19 WIDTH=538 CLASS="TextObject">
+       <P><B>The Lamb's Book of Life</B><BR>The B'rit Chadashah further speaks of the "Book of Life" (Phil. 4:3) and the "Lamb's Book of Life" (Rev. 3:5; 13:8; 17:8; 20:12, 15; 21:27; 22:19). Ultimately, this book seems to refer to the divine counsel and ordination of God's ultimate purposes in redeeming humanity. </P>
+      </TD>
+      <TD COLSPAN=4></TD>
+     </TR>
+     <TR VALIGN=TOP ALIGN=LEFT>
+      <TD COLSPAN=27 HEIGHT=66></TD>
+     </TR>
+     <TR VALIGN=TOP ALIGN=LEFT>
+      <TD COLSPAN=4></TD>
+      <TD COLSPAN=17 WIDTH=525 CLASS="TextObject">
+       <P STYLE="line-height: 18px;"><B>Pictographic Meaning</B><BR>The <A HREF="http://www.hebrew4christians.com/Grammar/Unit_One/Pictograms/pictograms.html">pictogram</A> for the shoresh, or root, looks as follows:</P>
+      </TD>
+      <TD COLSPAN=6></TD>
+     </TR>
+     <TR VALIGN=TOP ALIGN=LEFT>
+      <TD COLSPAN=27 HEIGHT=19></TD>
+     </TR>
+     <TR VALIGN=TOP ALIGN=LEFT>
+      <TD COLSPAN=4 HEIGHT=55></TD>
+      <TD COLSPAN=3 ALIGN=CENTER VALIGN=MIDDLE WIDTH=155><IMG ID="Picture132" HEIGHT=55 WIDTH=155 SRC="https://www.hebrew4christians.com/Glossary/Word_of_the_Week/Archived/Samekh-Pey-Resh/sampehrosh.gif" BORDER=0 ALT="Pictogram"></TD>
+      <TD COLSPAN=20></TD>
+     </TR>
+     <TR VALIGN=TOP ALIGN=LEFT>
+      <TD COLSPAN=27 HEIGHT=22></TD>
+     </TR>
+     <TR VALIGN=TOP ALIGN=LEFT>
+      <TD COLSPAN=4></TD>
+      <TD COLSPAN=17 WIDTH=525 CLASS="TextObject">
+       <P STYLE="line-height: 18px;">Loosely construed, the pictogram suggests a leader who speaks with his hand on a staff.<BR>&nbsp;</P>
+       <P STYLE="line-height: 18px; text-align: center;"><A HREF="https://www.hebrew4christians.com/Glossary/Word_of_the_Week/Archived/archived.html">&lt;&lt; Return</A><BR>&nbsp;</P>
+      </TD>
+      <TD COLSPAN=6></TD>
+     </TR>
+     <TR VALIGN=TOP ALIGN=LEFT>
+      <TD COLSPAN=27 HEIGHT=15></TD>
+     </TR>
+     <TR VALIGN=TOP ALIGN=LEFT>
+      <TD COLSPAN=3></TD>
+      <TD COLSPAN=21 WIDTH=556 CLASS="TextObject" STYLE="font-size: xx-small;"><!-- Begin CounterCentral hit counter code -->
+<script type="text/javascript">
+<!--
+var page_name = 'Word_of_Week_Sofer';
+var invisible = 'Yes';
+var framed = 'no';
+function sE(){return true;}window.onError=sE;var base=document;
+if(framed=='yes'){base=top.document;}var rn=Math.random();
+var ui='parsonsj';var al='CounterCentral hit counters';
+var qry=ui+':1::'+escape(base.referrer)+'::'+screen.width
++'x'+screen.height+'::'+screen.colorDepth+'::'+escape(page_name)
++'::'+invisible+'::'+rn+"::"+escape(base.URL);
+document.write('<a href="http://www.countercentral.com">');
+document.write('<img src="http://www.countercentral.com/count.pl?');
+document.write(qry+'" border="0" width="0" height="0" alt="'+al+'"/><\/a>');
+//-->
+</script><noscript>
+<a href="http://www.countercentral.com">
+<img src="http://www.countercentral.com/count.pl?parsonsj:1::NoJavaScript" alt="CounterCentral hit counter" border="0"/>
+</a></noscript>
+<!-- End CounterCentral hit counter code -->
+
+       <P STYLE="text-align: center;"><SPAN STYLE="font-size: 9px;"></SPAN>&nbsp;</P>
+      </TD>
+      <TD COLSPAN=3></TD>
+     </TR>
+     <TR VALIGN=TOP ALIGN=LEFT>
+      <TD COLSPAN=27 HEIGHT=23></TD>
+     </TR>
+     <TR VALIGN=TOP ALIGN=LEFT>
+      <TD COLSPAN=9></TD>
+      <TD COLSPAN=4 WIDTH=211 CLASS="TextObject">
+       <P STYLE="line-height: 14px; text-align: center;"><A HREF="http://www.hebrew4christians.com"><B><SPAN STYLE="font-size: 10px; color: rgb(0,0,0);">Hebrew for Christians</SPAN></B></A><BR><A HREF="http://www.hebrew4christians.com/About_HFC/Copyright/copyright.html"><SPAN STYLE="font-size: 9px;">Copyright &#169; John J. Parsons</SPAN></A><BR><SPAN STYLE="font-size: 9px;">All rights reserved.</SPAN></P>
+      </TD>
+      <TD COLSPAN=14></TD>
+     </TR>
+     <TR VALIGN=TOP ALIGN=LEFT>
+      <TD COLSPAN=27 HEIGHT=20></TD>
+     </TR>
+     <TR VALIGN=TOP ALIGN=LEFT>
+      <TD COLSPAN=10 HEIGHT=9></TD>
+      <TD COLSPAN=2 ALIGN=CENTER VALIGN=MIDDLE WIDTH=138><A HREF="mailto:info@hebrew4christians.com" TARGET="_blank"><IMG ID="Picture1051" HEIGHT=9 WIDTH=138 SRC="https://www.hebrew4christians.com/email.gif" BORDER=0 ALT="email"></A></TD>
+      <TD COLSPAN=15></TD>
+     </TR>
+     <TR VALIGN=TOP ALIGN=LEFT>
+      <TD COLSPAN=27 HEIGHT=13></TD>
+     </TR>
+     <TR VALIGN=TOP ALIGN=LEFT>
+      <TD COLSPAN=6></TD>
+      <TD COLSPAN=8 WIDTH=274 CLASS="TextObject"><DIV ID="Text542LYR"><ILAYER ID="Text542LYR" VISIBILITY=HIDDEN WIDTH=274 HEIGHT=14 Z-INDEX=1>
+       <P>&nbsp;</P>
+       </ILAYER></DIV></TD>
+      <TD COLSPAN=13></TD>
+     </TR>
+    </TABLE>
+   </TD>
+  </TR>
+ </TABLE>
+</BODY>
+</HTML>
+ 

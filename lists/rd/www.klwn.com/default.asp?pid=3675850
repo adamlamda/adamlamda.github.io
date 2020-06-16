@@ -1,0 +1,1038 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+	<html>
+	<head>
+	<title>Contact Us</title>
+	<META HTTP-EQUIV="Pragma" CONTENT="no-cache">
+	<META HTTP-EQUIV="Expires" CONTENT="-1">
+	<META NAME="TITLE" content="Contact Us">
+	
+	<script id="scrpt41" type="text/javascript" src="https://www.promosuiteinteractive.com/includes/sarissa/gr/abiss/js/sarissa/sarissa.js"></script>
+	<script id="scrpt42" src="https://www.promosuiteinteractive.com/includes/incflash.js" type="text/javascript"></script>
+    <link rel="stylesheet" type="text/css"  href="https://www.promosuiteinteractive.com/includes/abcfeed.css" />
+	<meta name="keywords" content="Country giant,">
+<style type="text/css">
+body
+{
+background-repeat:no-repeat;
+background-position:center top;
+background-attachment:fixed;
+}
+
+
+
+</style>
+
+
+<link rel="stylesheet" href="http://c805990.r90.cf2.rackcdn.com/bedigitalbase.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script src="http://c805990.r90.cf2.rackcdn.com/bedigitalcore.min.js"></script>
+<script src="http://c805990.r90.cf2.rackcdn.com/jquery.bedigital.nowplaying.min.js"></script>
+<!-- 1320 KLWN Container Tag; Do not remove or alter code in any way.  
+
+Placement: Place on all site pages immediately after the opening <body> tag.  
+
+Generated: 7/21/15 -->
+
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-T33TNP"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-T33TNP');</script>
+<!-- End Google Tag Manager -->
+	<script id="scrpt43" type="text/javascript">
+	<!-- Begin
+
+	
+
+	function popUp(URL) {
+
+	day = new Date();
+
+	id = day.getTime();
+
+	eval("page" + id + " = window.open(URL, '" + id + "', 'scrollbars=yes,resizable=yes,status=yes,width=600,height=400');"); }
+
+
+	function popUpSmall(URL) {
+
+	day = new Date();
+
+	id = day.getTime();
+
+	eval("page" + id + " = window.open(URL, '" + id + "', 'scrollbars=yes,resizable=yes,width=300,height=200');"); }
+
+	function popUpMini(URL) {
+
+	day = new Date();
+
+	id = day.getTime();
+
+	eval("page" + id + " = window.open(URL, '" + id + "', 'width=350,height=100,status=yes');"); }
+
+	function openpsa(theval)
+	{
+		if(document.getElementById){
+			if (document.getElementById('lorm'+theval).innerHTML =="MORE"){
+				document.getElementById('lorm'+theval).innerHTML ="LESS";
+				document.getElementById('prow'+theval).style.display ="block";
+			}else{
+				document.getElementById('lorm'+theval).innerHTML ="MORE";
+				document.getElementById('prow'+theval).style.display ="none";
+			}
+		}
+	}
+
+	function dcsMultiTrack(){
+		var winW = 640, winH = 480;
+		if (document.body && document.body.offsetWidth) {
+			winW = document.body.offsetWidth;
+			winH = document.body.offsetHeight;
+		}
+		if (document.compatMode=='CSS1Compat' && document.documentElement && document.documentElement.offsetWidth ) {
+			winW = document.documentElement.offsetWidth;
+			winH = document.documentElement.offsetHeight;
+		}
+		if (window.innerWidth && window.innerHeight) {
+			winW = window.innerWidth;
+			winH = window.innerHeight;
+		}
+
+		var thelink = arguments[7];
+		thelink = thelink.replace('Offsite Link:', '').trim();
+
+        //if(thelink.length > 0){
+           //if(thelink[0] === ' '){ thelink = thelink.substr(1);
+           //thelink = encodeURI(thelink);
+        //}
+
+		var theaction = arguments[1];
+
+		var thetarget = arguments[0];
+
+		var sessionUserID = "";
+		sessionUserID = sessionUserID * 1;
+		if (sessionUserID > 0){
+			var xmlhttp = new XMLHttpRequest();
+			xmlhttp.open('POST', 'trklnk.asp', true);
+
+			xmlhttp.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+			xmlhttp.send('thelink=' + thelink +'&station=klwn-am&id='+ sessionUserID);
+		}
+
+		var pageTracker;
+		
+			try {
+				pageTracker=_gat._getTracker("UA-57792900-1");
+				pageTracker._trackEvent("Outbound Links", theaction);
+			}
+			catch(err){}
+		
+			if (thetarget =="_blank"){
+				window.open(thelink, 'goolink','width='+ winW +',height='+ winH +',status=yes,scrollbars=yes,resizable=yes,toolbar=yes,location=yes');
+			}else{
+				setTimeout('document.location = "' + thelink + '"', 100);
+			}
+			
+	}
+	//-->
+	</script>
+
+	
+
+	<style type="text/css">
+		table{text-align: left;}
+	<!--
+	/* nav fonts */
+
+	A.bottomLnk:visited {
+	font-family : Arial;
+	font-size : 8pt;
+	color : #000000;
+	text-decoration : underline;
+	}
+
+	A.bottomLnk:link {
+	font-family : Arial;
+	font-size : 8pt;
+	color : #000000;
+	text-decoration : underline;
+	}
+
+	.ELIAfont1 {
+	font-family : Arial;
+	font-size : 8pt;
+	color : #000000;
+	}
+
+	A.ELIAfont1:link {
+	font-family : Arial;
+	font-size : 8pt;
+	color : #000000;
+	font-weight : bold;
+	text-decoration : none;
+	}
+
+	A.ELIAfont1:visited {
+	font-family : Arial;
+	font-size : 8pt;
+	color : #000000;
+	font-weight : bold;
+	text-decoration : none;
+	}
+
+	A.ELIAfont1:hover {
+	font-family : Arial;
+	font-size : 8pt;
+	color : #000000;
+	font-weight : bold;
+	text-decoration : none;
+	}
+
+	/* headline fonts */
+
+	.ELIAfont3 {
+	font-family : Arial;
+	font-size : 12pt;
+	color : #000000;
+	}
+
+	A.ELIAfont3:link {
+	font-family : Arial;
+	font-size : 12pt;
+	color : #000000;
+	font-weight : bold;
+	text-decoration : none;
+	}
+
+	A.ELIAfont3:visited {
+	font-family : Arial;
+	font-size : 12pt;
+	color : #000000;
+	font-weight : bold;
+	text-decoration : none;
+	}
+
+	A.ELIAfont3:hover {
+	font-family : Arial;
+	font-size : 12pt;
+	color : #000000;
+	font-weight : bold;
+	text-decoration : none;
+	}
+
+/* border table for feed news */
+.fd_bordertable {
+	
+		background-color: #FFFFFF;
+		
+	padding: 0;
+	
+}
+
+/* maintable table for feed news */
+.fd_maintable {
+	border-width: 0;
+	
+		background: #FFFFFF
+}
+
+/* header cell with header text and xml button */
+.fd_header {
+	padding: 5px;
+	color: #000000;
+	
+		background: #FFFFFF;
+		
+	font-family: Arial;
+	font-size: 12pt;
+	font-weight: bold;
+	text-align: left;
+	vertical-align: top;
+}
+
+/* item description area */
+.fd_itemcell {
+	
+	line-height: 16px;
+	color: #000000;
+	
+		background-color: #FFFFFF;
+		
+	font-family: Arial; font-size: 8pt;
+}
+
+/* item link properties, such as text-decoration and etc */
+.fd_itemlink { color: #000000; text-decoration: none; line-height: 1.5;
+font-weight:bold;
+}
+.fd_itemlink:visited { color: #000000; text-decoration: none; line-height: 1.5; }
+.fd_itemlink:hover { color: #D6191C; text-decoration: none; line-height: 1.5; }
+
+	.rssfeedlist {
+		
+			margin-left:0;
+			padding-left:0;
+			list-style-type:none;
+			
+	}
+
+	/* link fonts */
+
+	.ELIAfont4 {
+	font-family : Arial;
+	font-size : 8pt;
+	color : #000000;
+	}
+
+	A.ELIAfont4:link {
+	font-family : Arial;
+	font-size : 8pt;
+	color : #000000;
+	font-weight : bold;
+	text-decoration : none;
+	}
+
+	A.ELIAfont4:visited {
+	font-family : Arial;
+	font-size : 8pt;
+	color : #000000;
+	font-weight : bold;
+	text-decoration : none;
+	}
+
+	
+		A.ELIAfont4:hover {
+		font-family : Arial;
+		font-size : 8pt;
+		color : #DD1111;
+		
+			background-color : #FFFFFF;
+			
+		font-weight : bold;
+		text-decoration : none;
+		}
+		
+
+	/* border table for station feed */
+	.gd_bordertable {
+		background-color: #FFFFFF;
+		padding: 0;
+		/*width: 360px;*/
+		
+	}
+
+	/* maintable table for feed news */
+	.gd_maintable { border-width: 0; background: #FFFFFF }
+
+	/* header cell with header text and xml button */
+	.gd_header {
+		padding: 5px;
+		background: #FFFFFF; color: FFFFFF;
+		font-family: Arial; font-size: 12pt; font-weight: bold;
+		text-align: left; vertical-align: top
+	}
+
+	/* item description area */
+	.gd_itemcell {
+		padding: 1px;
+		line-height: 20px;
+		color: #000000;
+		background-color: #FFFFFF;
+		font-family: Arial; font-size: 8pt;
+	}
+
+	/* item link properties, such as text-decoration and etc */
+	.gd_itemlink { color: #000000; text-decoration: none; line-height: 1; }
+	.gd_itemlink:visited { color: #000000; text-decoration: none; line-height: 1; }
+	.gd_itemlink:hover { color: #000000; text-decoration: none; line-height: 1; }
+
+	/* bottom footer */
+
+	div#fixme-bottom {
+	position: fixed;
+	bottom: 0;
+	left: 50%;
+	margin-left: -;
+	width: 0;
+	height: 0;
+	z-index: 2;
+	}
+
+	* html div#fixme-bottom {position: absolute;
+	top:expression(eval(document.compatMode &&
+	document.compatMode=='CSS1Compat') ?
+	documentElement.scrollTop
+	+(documentElement.clientHeight-this.clientHeight)
+	: document.body.scrollTop
+	+(document.body.clientHeight-this.clientHeight));
+	left: expression("50%");
+	}
+
+	/* slight adjustment */
+	div#fixme-bottom img {
+	float: left;
+	
+	position: relative;
+	}
+
+	-->
+    </style>
+	
+<script id="scrptBlog" type="text/javascript">
+
+    function isNull(evalItem) {
+        // Note: var undefined may need to go away eventually as 'undefined' is 
+        // a reserved work for the ECMAScript version 5 specification.  As of 26 Oct 2011
+        // ECMAScript version 5 is not currently readily adopted by the most common web browser products.
+        var undefined;
+        if (evalItem === null || typeof (evalItem) === 'undefined' || evalItem === undefined) {
+            return true;
+        }
+        else {
+            return false;
+        }
+    }
+
+    
+    function rollOver(imageElementName, imageRolloverUrl) {
+        var imgs, img, i, evalName, el;
+        try {
+            if (imageElementName.length === 0 || imageRolloverUrl.length === 0) {
+                return;
+            }
+            imageElementName = new String(imageElementName);
+            var imgs = document.getElementsByTagName('img');
+            for (var i = imgs.length - 1; i > -1; i--) {
+                img = imgs[i];
+                evalName = new String(img.getAttribute('name'));
+                if (evalName.length > 0) {
+                    if (evalName.toLowerCase() === imageElementName.toLowerCase()) {
+                        img.src = imageRolloverUrl;
+                        return;
+                    }
+                }
+            }
+
+            // just in case...
+            el = document.getElementById(imageElementName);
+            if (isNull(el) === false && isNull(el.src) === false) {
+                el.src = imageRolloverUrl;
+            }
+        }
+        catch (ex) { }
+    }
+
+    function checkYear(year) {
+        return (((year % 4 == 0) && (year % 100 != 0)) || (year % 400 == 0)) ? 1 : 0;
+    }
+    var today = new Date();
+    var themonthv = today.getMonth();
+    if ((themonthv == 0) || (themonthv == 2) || (themonthv == 4) || (themonthv == 6) || (themonthv == 7) || (themonthv == 9) || (themonthv == 11)) {
+        var maxLength = 31;
+    } else if ((themonthv == 3) || (themonthv == 5) || (themonthv == 8) || (themonthv == 10)) {
+        var maxLength = 30;
+    } else if ((themonthv == 1)) {
+        if (checkYear(today.getYear()) == 0) {
+            var maxLength = 28;
+        } else {
+            var maxLength = 29;
+        }
+    }
+
+
+    function isInternetExplorer() {
+        var agnt = navigator.userAgent.toLowerCase();
+        var ie = !!(agnt.indexOf('msie') != -1);
+        return ie;
+    }
+
+    function openlinks(theval, oorc, thelen) {
+        // the 1 below we can get from the navneed variable
+        var ie = isInternetExplorer();
+        var el;
+        var el2;
+        // the 1 below we can get from the navneed variable
+        for (var zyx = 0; zyx < thelen; zyx++) {
+            el = document.getElementById('prow' + theval + zyx);
+            el2 = document.getElementById('tr' + theval + zyx);
+            if (isNull(el) === false && isNull(el2) === false) {
+                if (oorc == "O") {
+                    el.style.visibility = "visible";
+                    el2.style.visibility = "visible";
+                    if (ie == true) {
+                        el.style.position = "fixed";
+                        el2.style.position = "fixed";
+                    } else {
+                        el.style.height = "100%";
+                    }
+                } else {
+                    el.style.visibility = "hidden";
+                    el2.style.visibility = "hidden";
+                    if (ie == true) {
+                        el.style.position = "absolute";
+                        el2.style.position = "absolute";
+                    } else {
+                        el.style.height = "0px";
+                    }
+                }
+            }
+        }
+    }
+
+    function hideElement(elName) {
+        var el = document.getElementById(elName);
+        if (isNull(el) === false) {
+            el.style.zIndex = '0';
+            el.style.display = 'none';
+        }
+    }
+
+    function showElement(elName) {
+        var el = document.getElementById(elName);
+        if (isNull(el) === false) {
+            el.style.zIndex = 500;
+            el.style.display = 'block';
+        }
+    }
+</script>
+	</head>
+	<body bgcolor='#000000' marginwidth=0 leftmargin=0 marginheight=0 topmargin=0 background='https://www.promosuiteinteractive.com/onlinedb/klwnam/pics/backgroundFlags.jpg'>
+	<div id=div25 align="center"><center>
+	<table id=table180 width="1024" border="0" cellpadding="0" cellspacing="0" background="https://www.promosuiteinteractive.com/onlinedb/klwnam/pics/ContentBack.gif">
+
+	<tr id=tr391><td valign="bottom">
+	<table id=table182 width="1024" border="0" cellspacing="0" cellpadding="0">
+
+	<tr id=tr322><td align=center colspan=2><table id=table153 width=100% cellspacing=0 cellpadding=0><tr id=tr327><td id="td123a"><table id="Table_01" border="0" cellpadding="0" cellspacing="0" height="205" width="1036">
+     <tbody>
+         <tr>
+             <td width="800"> <img src="https://www.promosuiteinteractive.com/onlinedb/klwnam/pics/KLWNLogo1.png" alt="" border="0" width="254" height="190" /></td>
+             <td><a href="http://v6.player.abacast.net/855" target="_blank" onclick="dcsMultiTrack(this.target,'v6.player.abacast.net','DCS.dcsuri','/855','DCS.dcsqry','','WT.ti','Offsite Link: http://v6.player.abacast.net/855');return false;"><img src="http://www.promosuiteinteractive.com/onlinedb/klwnam/pics/header_02.png" alt="" border="0" height="196" width="177" /></a></td>
+         </tr>
+     </tbody>
+</table></td></tr><tr id=tr328></tr></table></td></tr>
+		<tr id=tr395><td colspan="2" align="left">
+		<table id=table183 cellspacing="0" cellpadding="0" border="0"><tr id=tr396>
+		<td valign=top>
+			<nobr>
+			<div><a href='/default.asp' class=ELIAfont4><img id=img84 name="home" src="https://www.promosuiteinteractive.com/onlinedb/klwnam/pics/Nav_01.gif" alt="" border="0" onmouseover="rollOver('home','https://www.promosuiteinteractive.com/onlinedb/klwnam/pics/Nav_01_2.gif')" onmouseout="rollOver('home','https://www.promosuiteinteractive.com/onlinedb/klwnam/pics/Nav_01.gif')"></a></div>
+			</div></nobr></td>
+			<style><!--#cn13494 {position:absolute;top:-8px;left:0px;display:none;z-index:5;}--></style><td valign=top>
+			<nobr>
+			<div id=pn13494 name=pn13494 onmouseover=showElement('cn13494') onmouseout=hideElement('cn13494')><b><font class=ELIAfont4><img id=img84 name="OnAir" src="https://www.promosuiteinteractive.com/onlinedb/klwnam/pics/Nav_02.gif" alt="" border="0" onmouseover="rollOver('OnAir','https://www.promosuiteinteractive.com/onlinedb/klwnam/pics/Nav_02_2.gif')" onmouseout="rollOver('OnAir','https://www.promosuiteinteractive.com/onlinedb/klwnam/pics/Nav_02.gif')"></font></b></div><div style='position:relative;'><div id=cn13494 name=cn13494 onmouseover=showElement('cn13494') onmouseout=hideElement('cn13494')><table id=table184 border=1 bordercolor=#000000 style='border-collapse: collapse' cellpadding=0 cellspacing=0><tr id=tr397><td><table id=table185 cellpadding=0 cellspacing=0 bgcolor=#FFFFFF><tr id=tr398><td height=20 style="padding-left: 4px; padding-right: 4px;"><nobr><div><a href="/default.asp?pid=8631417" class="ELIAfont4">Show Schedule</a></div></nobr></td></tr><tr id=tr398><td height=20 style="padding-left: 4px; padding-right: 4px;"><nobr><div><a href="/default.asp?pid=9120332" class="ELIAfont4">Show Hosts</a></div></nobr></td></tr><tr id=tr398><td height=20 style="padding-left: 4px; padding-right: 4px;"><nobr><div><a href="/default.asp?pid=9204829" class="ELIAfont4">KLWN app</a></div></nobr></td></tr></table></td></tr></table></div>
+			</div></nobr></td>
+			<style><!--#cn13607 {position:absolute;display:none;z-index:5;}--></style><td valign=top>
+			<nobr>
+			<div id=pn13607 name=pn13607 onmouseover=showElement('cn13607') onmouseout=hideElement('cn13607')><b><font class=ELIAfont4><img id=img84 name="win" src="https://www.promosuiteinteractive.com/onlinedb/klwnam/pics/Nav_03.gif" alt="" border="0" onmouseover="rollOver('win','https://www.promosuiteinteractive.com/onlinedb/klwnam/pics/Nav_03_2.gif')" onmouseout="rollOver('win','https://www.promosuiteinteractive.com/onlinedb/klwnam/pics/Nav_03.gif')"></font></b></div><div style='position:relative;'><div id=cn13607 name=cn13607 onmouseover=showElement('cn13607') onmouseout=hideElement('cn13607')><table id=table184 border=1 bordercolor=#000000 style='border-collapse: collapse' cellpadding=0 cellspacing=0><tr id=tr397><td><table id=table185 cellpadding=0 cellspacing=0 bgcolor=#FFFFFF><tr id=tr398><td height=20 style="padding-left: 4px; padding-right: 4px;"><nobr><div><a href="/default.asp?pid=7005101" class="ELIAfont4">KLWN VIP Club</a></div></nobr></td></tr><tr id=tr398><td height=20 style="padding-left: 4px; padding-right: 4px;"><nobr><div><a href="/default.asp?pid=5899556" class="ELIAfont4">Contest Rules</a></div></nobr></td></tr></table></td></tr></table></div>
+			</div></nobr></td>
+			<style><!--#cn13504 {position:absolute;display:none;z-index:5;}--></style><td valign=top>
+			<nobr>
+			<div id=pn13504 name=pn13504 onmouseover=showElement('cn13504') onmouseout=hideElement('cn13504')><b><font class=ELIAfont4><img id=img84 name="Podcast" src="https://www.promosuiteinteractive.com/onlinedb/klwnam/pics/Nav_04.gif" alt="" border="0" onmouseover="rollOver('Podcast','https://www.promosuiteinteractive.com/onlinedb/klwnam/pics/Nav_04_2.gif')" onmouseout="rollOver('Podcast','https://www.promosuiteinteractive.com/onlinedb/klwnam/pics/Nav_04.gif')"></font></b></div><div style='position:relative;'><div id=cn13504 name=cn13504 onmouseover=showElement('cn13504') onmouseout=hideElement('cn13504')><table id=table184 border=1 bordercolor=#000000 style='border-collapse: collapse' cellpadding=0 cellspacing=0><tr id=tr397><td><table id=table185 cellpadding=0 cellspacing=0 bgcolor=#FFFFFF><tr id=tr398><td height=20 style="padding-left: 4px; padding-right: 4px;"><nobr><div><a href="/default.asp?pid=9096170" class="ELIAfont4">According to the Record w/ Hank</a></div></nobr></td></tr><tr id=tr398><td height=20 style="padding-left: 4px; padding-right: 4px;"><nobr><div><a href="/default.asp?pid=9206826" class="ELIAfont4">Radio for Grownups w/ Joel Becker</a></div></nobr></td></tr><tr id=tr398><td height=20 style="padding-left: 4px; padding-right: 4px;"><nobr><div><a href="/default.asp?pid=3659829" class="ELIAfont4">Rock Chalk Sports Talk w/ Nick</a></div></nobr></td></tr><tr id=tr398><td height=20 style="padding-left: 4px; padding-right: 4px;"><nobr><div><a href="/default.asp?pid=3659840" class="ELIAfont4">Timeline Radio w/ Clenece</a></div></nobr></td></tr><tr id=tr398><td height=20 style="padding-left: 4px; padding-right: 4px;"><nobr><div><a href="/default.asp?pid=3780152" class="ELIAfont4">Lawrence Business Magazine w/ Steven</a></div></nobr></td></tr><tr id=tr398><td height=20 style="padding-left: 4px; padding-right: 4px;"><nobr><div><a href="/default.asp?pid=9179067" class="ELIAfont4">High School Sports</a></div></nobr></td></tr><tr id=tr398><td height=20 style="padding-left: 4px; padding-right: 4px;"><nobr><div><a href="/default.asp?pid=9206226" class="ELIAfont4">Thinking Out Loud w/ Tyler</a></div></nobr></td></tr><tr id=tr398><td height=20 style="padding-left: 4px; padding-right: 4px;"><nobr><div><a href="/default.asp?pid=9210886" class="ELIAfont4">The Clinton Pkwy Nursery Garden Show</a></div></nobr></td></tr><tr id=tr398><td height=20 style="padding-left: 4px; padding-right: 4px;"><nobr><div><a href="/default.asp?pid=9211337" class="ELIAfont4">Lewis at Large w/ Warner Lewis</a></div></nobr></td></tr><tr id=tr398><td height=20 style="padding-left: 4px; padding-right: 4px;"><nobr><div><a href="/default.asp?pid=9211338" class="ELIAfont4">The Schmooze with Rabbi Zalman</a></div></nobr></td></tr><tr id=tr398><td height=20 style="padding-left: 4px; padding-right: 4px;"><nobr><div><a href="/default.asp?pid=9212280" class="ELIAfont4">Chamber Chat</a></div></nobr></td></tr></table></td></tr></table></div>
+			</div></nobr></td>
+			<td valign=top>
+			<nobr>
+			<div><a href='/default.asp?pid=3259875' class=ELIAfont4><img id=img84 name="Photos" src="https://www.promosuiteinteractive.com/onlinedb/klwnam/pics/Nav_05.gif" alt="" border="0" onmouseover="rollOver('Photos','https://www.promosuiteinteractive.com/onlinedb/klwnam/pics/Nav_05_2.gif')" onmouseout="rollOver('Photos','https://www.promosuiteinteractive.com/onlinedb/klwnam/pics/Nav_05.gif')"></a></div>
+			</div></nobr></td>
+			<style><!--#cn13495 {position:absolute;top:-8px;left:0px;display:none;z-index:5;}--></style><td valign=top>
+			<nobr>
+			<div id=pn13495 name=pn13495 onmouseover=showElement('cn13495') onmouseout=hideElement('cn13495')><b><font class=ELIAfont4><img id=img84 name="Events" src="https://www.promosuiteinteractive.com/onlinedb/klwnam/pics/Nav_06.gif" alt="" border="0" onmouseover="rollOver('Events','https://www.promosuiteinteractive.com/onlinedb/klwnam/pics/Nav_06_2.gif')" onmouseout="rollOver('Events','https://www.promosuiteinteractive.com/onlinedb/klwnam/pics/Nav_06.gif')"></font></b></div><div style='position:relative;'><div id=cn13495 name=cn13495 onmouseover=showElement('cn13495') onmouseout=hideElement('cn13495')><table id=table184 border=1 bordercolor=#000000 style='border-collapse: collapse' cellpadding=0 cellspacing=0><tr id=tr397><td><table id=table185 cellpadding=0 cellspacing=0 bgcolor=#FFFFFF><tr id=tr398><td height=20 style="padding-left: 4px; padding-right: 4px;"><nobr><div><a href="/default.asp?pid=3409830" class="ELIAfont4">KLWN Events</a></div></nobr></td></tr><tr id=tr398><td height=20 style="padding-left: 4px; padding-right: 4px;"><nobr><div><a href="/default.asp?pid=3675829" class="ELIAfont4">KLWN Cares</a></div></nobr></td></tr><tr id=tr398><td height=20 style="padding-left: 4px; padding-right: 4px;"><nobr><div><a href="/default.asp?pid=4552550" class="ELIAfont4">Community Calendar</a></div></nobr></td></tr><tr id=tr398><td height=20 style="padding-left: 4px; padding-right: 4px;"><nobr><div><a href="/default.asp?pid=4372070" class="ELIAfont4">Weather Closings</a></div></nobr></td></tr></table></td></tr></table></div>
+			</div></nobr></td>
+			<style><!--#cn13496 {position:absolute;top:-8px;left:0px;display:none;z-index:5;}--></style><td valign=top>
+			<nobr>
+			<div id=pn13496 name=pn13496 onmouseover=showElement('cn13496') onmouseout=hideElement('cn13496')><b><font class=ELIAfont4><img id=img84 name="Contact" src="https://www.promosuiteinteractive.com/onlinedb/klwnam/pics/Nav_08.gif" alt="" border="0" onmouseover="rollOver('Contact','https://www.promosuiteinteractive.com/onlinedb/klwnam/pics/Nav_08_2.gif')" onmouseout="rollOver('Contact','https://www.promosuiteinteractive.com/onlinedb/klwnam/pics/Nav_08.gif')"></font></b></div><div style='position:relative;'><div id=cn13496 name=cn13496 onmouseover=showElement('cn13496') onmouseout=hideElement('cn13496')><table id=table184 border=1 bordercolor=#000000 style='border-collapse: collapse' cellpadding=0 cellspacing=0><tr id=tr397><td><table id=table185 cellpadding=0 cellspacing=0 bgcolor=#FFFFFF><tr id=tr398><td height=20 style="padding-left: 4px; padding-right: 4px;"><nobr><div><a href="/default.asp?pid=3675850" class="ELIAfont4">Contact Us</a></div></nobr></td></tr><tr id=tr398><td height=20 style="padding-left: 4px; padding-right: 4px;"><nobr><div><a href="/default.asp?pid=4812740" class="ELIAfont4">Jobs</a></div></nobr></td></tr><tr id=tr398><td height=20 style="padding-left: 4px; padding-right: 4px;"><nobr><div><a href="/default.asp?pid=3656736" class="ELIAfont4">Internships</a></div></nobr></td></tr><tr id=tr398><td height=20 style="padding-left: 4px; padding-right: 4px;"><nobr><div><a href='portal.asp?pid=7005493&sid=3300' target='_blank' class='ELIAfont4'>Advertise</a></div></nobr></td></tr><tr id=tr398><td height=20 style="padding-left: 4px; padding-right: 4px;"><nobr><div><a href="/default.asp?pid=4317961" class="ELIAfont4">EEO Reports</a></div></nobr></td></tr><tr id=tr398><td height=20 style="padding-left: 4px; padding-right: 4px;"><nobr><div><a href="/default.asp?pid=7801570" class="ELIAfont4">Great Plains Media</a></div></nobr></td></tr></table></td></tr></table></div>
+			</div></nobr></td>
+			<td valign=top>
+			<nobr>
+			<div><a href='/default.asp?pid=3790294' class=ELIAfont4><img id=img84 name="Advertise with us" src="https://www.promosuiteinteractive.com/onlinedb/klwnam/pics/Nav_07.gif" alt="" border="0" onmouseover="rollOver('Advertise with us','https://www.promosuiteinteractive.com/onlinedb/klwnam/pics/Nav_07_2.gif')" onmouseout="rollOver('Advertise with us','https://www.promosuiteinteractive.com/onlinedb/klwnam/pics/Nav_07.gif')"></a></div>
+			</div></nobr></td>
+			<td valign=top>
+			<nobr>
+			<div><b><font class=ELIAfont4><img id=img84 name="Spacer" src="https://www.promosuiteinteractive.com/onlinedb/klwnam/pics/spacer.gif" alt="" border="0"></font></b></div>
+			</div></nobr></td>
+			<td valign=top>
+			<nobr>
+			<div><a href='https://www.facebook.com/1017and1320klwn/' target='_blank' class='ELIAfont4' onclick="dcsMultiTrack(this.target,'','DCS.dcsuri','/www.facebook.com/1017and1320klwn/','DCS.dcsqry','','WT.ti','Offsite Link: https://www.facebook.com/1017and1320klwn/');return false;"><img id=img84 name="Facebook" src="https://www.promosuiteinteractive.com/onlinedb/klwnam/pics/Nav_13.png" alt="" border="0" onmouseover="rollOver('Facebook','https://www.promosuiteinteractive.com/onlinedb/klwnam/pics/Nav2_13.png')" onmouseout="rollOver('Facebook','https://www.promosuiteinteractive.com/onlinedb/klwnam/pics/Nav_13.png')"></a></div>
+			</div></nobr></td>
+			<td valign=top>
+			<nobr>
+			<div><a href='https://twitter.com/1320KLWN' target='_blank' class='ELIAfont4' onclick="dcsMultiTrack(this.target,'','DCS.dcsuri','/twitter.com/1320KLWN','DCS.dcsqry','','WT.ti','Offsite Link: https://twitter.com/1320KLWN');return false;"><img id=img84 name="Twitter" src="https://www.promosuiteinteractive.com/onlinedb/klwnam/pics/twitter.jpg" alt="" border="0"></a></div>
+			</div></nobr></td>
+			<td valign=top>
+			<nobr>
+			<div><b><font class=ELIAfont4><img id=img84 name="youtube" src="https://www.promosuiteinteractive.com/onlinedb/klwnam/pics/yt.jpg" alt="" border="0"></font></b></div>
+			</div></nobr></td>
+			<td valign=top>
+			<nobr>
+			<div><a href='https://play.google.com/store/apps/details?id=com.airkast.tunekast1732_153' target='_blank' class='ELIAfont4' onclick="dcsMultiTrack(this.target,'','DCS.dcsuri','/play.google.com/store/apps/details','DCS.dcsqry','?id=com.airkast.tunekast1732_153','WT.ti','Offsite Link: https://play.google.com/store/apps/details?id=com.airkast.tunekast1732_153');return false;"><img id=img84 name="google" src="https://www.promosuiteinteractive.com/onlinedb/klwnam/pics/google.jpg" alt="" border="0"></a></div>
+			</div></nobr></td>
+			<td valign=top>
+			<nobr>
+			<div><a href='https://itunes.apple.com/us/app/klwn/id1333450816?mt=8' target='_blank' class='ELIAfont4' onclick="dcsMultiTrack(this.target,'','DCS.dcsuri','/itunes.apple.com/us/app/klwn/id1333450816','DCS.dcsqry','?mt=8','WT.ti','Offsite Link: https://itunes.apple.com/us/app/klwn/id1333450816?mt=8');return false;"><img id=img84 name="apple" src="https://www.promosuiteinteractive.com/onlinedb/klwnam/pics/apple.jpg" alt="" border="0"></a></div>
+			</div></nobr></td>
+			
+		</tr></table></td></tr><!-- u2112 -->
+		
+	</table>
+	</td></tr>
+	<tr><td><table id=table188 width="1024" border="0" cellspacing="0" cellpadding="0">
+	<tr id=tr409>
+	
+	<td valign="top" align="center" width="720">
+	
+	<table id=table192 border="0" cellpadding="0" cellspacing="0">
+	
+	<table id=table193 border="0" cellpadding="0" cellspacing="0">
+	<tr><td valign="top"><table id=table194 width="720" border="0" cellpadding="0" cellspacing="0">
+	
+		<tr id="tr468"><td colspan="2" align="center" valign="top">
+		<script id=scrpt103 type="text/javascript">function Validate(theForm){
+if (theForm.fname){if (theForm.fname.value == '')
+{alert('Please enter a value for First Name.');
+theForm.fname.focus();
+return (false);
+}}
+if (theForm.lname){if (theForm.lname.value == '')
+{alert('Please enter a value for Last Name.');
+theForm.lname.focus();
+return (false);
+}}
+if (theForm.email){if (theForm.email.value == '')
+{alert('Please enter a value for Email.');
+theForm.email.focus();
+return (false);
+}
+var emailPat=/^(.+)@(.+)$/;
+var specialChars="\\(\\)<>@,;:\\\\\\\"\\.\\[\\]";
+var validChars="\[^\\s" + specialChars + "\]";
+var quotedUser="(\"[^\"]*\")";
+var ipDomainPat=/^\[(\d{1,3})\.(\d{1,3})\.(\d{1,3})\.(\d{1,3})\]$/;
+var atom=validChars + '+';
+var word="(" + atom + "|" + quotedUser + ")";
+var userPat=new RegExp("^" + word + "(\\." + word + ")*$");
+var domainPat=new RegExp("^" + atom + "(\\." + atom +")*$");
+var matchArray=theForm.email.value.match(emailPat);
+if (matchArray==null){alert("Email address seems incorrect (check @ and .'s).");
+return (false);
+}var user=matchArray[1];
+var domain=matchArray[2];
+if (user.match(userPat)==null) {alert("The username doesn't seem to be valid.");
+return (false);
+}var IPArray=domain.match(ipDomainPat);
+if (IPArray!=null) {for (var i=1;
+i<=4;
+i++) {if (IPArray[i]>255) {alert("Destination IP address is invalid!");
+return (false);
+}}return true;
+}var domainArray=domain.match(domainPat);
+if (domainArray==null) {alert("The domain name doesn't seem to be valid.");
+return (false);
+}
+var atomPat=new RegExp(atom,"g");
+var domArr=domain.match(atomPat);
+var len=domArr.length;
+if (domArr[domArr.length-1].length<2 || domArr[domArr.length-1].length>16) {alert("The address must end in a three or four letter domain, or two letter country.");
+return (false);
+}if (len<2) {var errStr="This address is missing a hostname!";
+alert(errStr);
+return (false);
+}}
+if (theForm.bmonth){if (theForm.bmonth.selectedIndex == 0){alert("Please select one of the options for Birth Month.");theForm.bmonth.focus();return (false);}if (theForm.bday){if (theForm.bday.selectedIndex == 0){alert("Please select one of the options for Birth Day.");theForm.bday.focus();return (false);}}if (theForm.byear){if (theForm.byear.selectedIndex == 0){alert("Please select one of the options for Birth Year.");theForm.byear.focus();return (false);}}var datev = new Date();var yearv = datev.getFullYear() - 13;var monthv = datev.getMonth()+1;var dayv = datev.getDate();var monval=theForm.bmonth.value - 0;var dayval=theForm.bday.value - 0;var yearval=theForm.byear.value - 0;if ((monval >= monthv && dayval > dayv && yearval >= yearv) || (monval > monthv && dayval <= dayv  && yearval >= yearv)){alert("You must be at least 13 years of age to join.");theForm.bmonth.focus();return (false);}}if (theForm.tellus12){if (theForm.tellus12.value == '')
+{alert('Please answer:  What can we do for you?.');
+theForm.tellus12.focus();
+return (false);}}
+
+var randomnumber=Math.floor(Math.random()*101);
+if (document.getElementById('bonuscode')){
+var fldvalue = document.getElementById('bonuscode').value;
+var xmlhttp = new XMLHttpRequest();
+xmlhttp.open('GET', 'getpntcode.asp?num='+ randomnumber +'&f=bonuscode&v=' + Sarissa.escape(fldvalue) +'&s=klwn-am&sid=', false);
+xmlhttp.send();
+if (xmlhttp.responseXML.getElementsByTagName('result').length > 0){
+var fldresult = xmlhttp.responseXML.getElementsByTagName('result')[0].firstChild.data;
+if (fldresult=='1'){
+alert('Correct!');
+}else{ if (fldresult=='X'){
+alert('Sorry you have already earned rewards for this answer.');
+return false;
+}else{
+alert('Incorrect, try again.');
+return false;
+}
+}
+}
+}
+if (document.getElementById('oftheday')){
+var fldvalue = document.getElementById('oftheday').value;
+var xmlhttp = new XMLHttpRequest();
+xmlhttp.open('GET', 'getpntcode.asp?num='+ randomnumber +'&f=oftheday&v=' + Sarissa.escape(fldvalue) +'&s=klwn-am&sid=', false);
+xmlhttp.send();
+if (xmlhttp.responseXML.getElementsByTagName('result').length > 0){
+var fldresult = xmlhttp.responseXML.getElementsByTagName('result')[0].firstChild.data;
+if (fldresult=='1'){
+alert('Correct!');
+}else{ if (fldresult=='X'){
+alert('Sorry you have already earned rewards for this answer.');
+return false;
+}else{
+alert('Incorrect, try again.');
+return false;
+}
+}
+}
+}
+return (true);}function doit(thename){function getParameter ( queryString, parameterName ) {var parameterName = parameterName + '=';if ( queryString.length > 0 ) {begin = queryString.indexOf ( parameterName );if ( begin != -1 ) {begin += parameterName.length;end = queryString.indexOf ( '&' , begin );if ( end == -1 ) {end = queryString.length}return unescape ( queryString.substring ( begin, end ) );}return '';}}querystring = window.self.location.search;if (! querystring)querystring = window.top.location.search;var theForm;theForm = eval('document.'+ thename);var fields = new Array();fields[0]='fname';fields[1]='lname';fields[2]='email';fields[3]='username';fields[4]='password';fields[5]='hstreet';fields[6]='apt';fields[7]='hcity';fields[8]='hstate';fields[9]='hzip';fields[10]='hzip4';fields[11]='bname';fields[12]='bstreet';fields[13]='bcity';fields[14]='bstate';fields[15]='bzip';fields[16]='bzip4';fields[17]='bmonth';fields[18]='bday';fields[19]='byear';fields[20]='sex';fields[21]='harea';fields[22]='hexchange';fields[23]='hlastfour';fields[24]='barea';fields[25]='bexchange';fields[26]='blastfour';fields[27]='ext';fields[28]='bfaxarea';fields[29]='bfaxexchange';fields[30]='bfaxlastfour';fields[31]='carea';fields[32]='cexchange';fields[33]='clastfour';fields[34]='numkids';fields[35]='marsing';fields[36]='noemail';fields[37]='age';fields[38]='emailtype';fields[39]='dp1';fields[40]='dp2';fields[41]='dp3';fields[42]='dp4';fields[43]='dp5';fields[44]='where1';fields[45]='where2';fields[46]='where3';fields[47]='where4';fields[48]='highsch';fields[49]='somecoll';fields[50]='collgrad';fields[51]='gradsch';fields[52]='unlisted';fields[53]='ethnic';fields[54]='btitle';fields[55]='homeown';fields[56]='hhinc';fields[57]='hcounty';fields[58]='hcountry';fields[59]='hphone';fields[60]='bphone';fields[61]='bfax';fields[62]='cphone';fields[63]='wireless';var incv=1;for (var questions=64; questions < 505; questions++){if (questions < 74){fields[questions]='field'+incv;if (questions==73){incv=0}}else{fields[questions]='quest'+incv;}incv+=1;}var fieldsval = new Array();for (var fieldnum=0; fieldnum < questions; fieldnum++){fieldsval = getParameter(querystring,fields[fieldnum]);if (fieldsval!=''){var chkForm;chkForm = eval('theForm.'+ fields[fieldnum]);if (chkForm){if (chkForm.type=='select-one' || chkForm.type==undefined){if (fieldsval==undefined){chkForm.selectedIndex=0}else{for (a = 0;  a < chkForm.length;  a++){st = eval("chkForm["+a+"].value");if (st == fieldsval){if (chkForm.type=='select-one'){chkForm.selectedIndex=a}else{if (chkForm[a]){chkForm[a].checked=true}}break;}}}}else{ if (chkForm.type=='checkbox'){if (fieldsval.length > 0)chkForm.checked= true}else{if (fieldsval==undefined){chkForm.value=''}else{chkForm.value=fieldsval}}}}}}chkForm =theForm.VotingList;if (chkForm){fieldsval=getParameter(querystring,'VotingList');if (fieldsval==undefined){chkForm.selectedIndex=0;}else{for (a = 0;  a < chkForm.length;  a++){st = eval("chkForm["+a+"].value");if (st == fieldsval){chkForm.selectedIndex=a;}break;}}}}</script><table id=table243 border="0" bgcolor="" cellspacing="1" width=720>
+<tr id="tr597"><td><form method="POST" action="https://www.promosuiteinteractive.com/onlinedb/entryformsubmit.asp" id="frmContact22222" name="Form1" onsubmit="return Validate(this);">
+<div id="div107" style="font-weight: normal; font-style: normal; font-size: 12px; font-family: Arial;color: #000000;">
+<div><font size="7"><strong>Contact</strong></font></div><div style="font-weight: normal; font-size: 12px;">&nbsp;</div><table id="initformtable" width="400" style="font-weight: normal; font-size: 12px; text-align: left; color: #000000; font-family: Arial; font-style: normal;" align="center" style="font-weight: normal; font-style: normal; font-size: 12px; font-family: Arial;color: #000000;">
+<tbody><tr>
+<td height="28" align="right">
+<font size="5"><font color="red">*</font> First Name:</font></td>
+<td width="250"><font size="5">
+&nbsp;<input type="text" name="fname" size="30" maxlength="20" id="First Name" />
+</font></td>
+</tr>
+<tr>
+<td height="28" align="right">
+<font size="5"><font color="red">*</font> Last Name:</font></td>
+<td><font size="5">
+&nbsp;<input type="text" name="lname" size="30" maxlength="30" id="Last Name" />
+</font></td>
+</tr>
+<tr>
+<td height="28" align="right">
+<font size="5"><font color="red">*</font> Email:</font></td>
+<td><font size="5">
+&nbsp;<input type="text" name="email" size="30" maxlength="50" id="Email" />
+</font></td>
+</tr>
+<tr><td align="right"><font size="5">Phone:</font></td><td><font size="5">&nbsp;<input size="3" id="Home Area Code" maxlength="3" type="text" name="harea" />-<input size="3" id="Home Phone Exchange" maxlength="3" type="text" name="hexchange" />-<input size="4" id="Home Phone Last Four" maxlength="4" type="text" name="hlastfour" /></font></td></tr><tr><td valign="top" align="right"><font size="5"><font color="red">* </font>What can we do for you?:</font></td><td><font size="5">&nbsp;<textarea rows="4" id="What can we do for you?" cols="23" name="tellus12"></textarea></font></td></tr><tr><td height="20"></td>
+<td height="20"></td></tr>
+<tr>
+<td height="28" align="right">
+<font size="5"><font color="red">*</font> Birth Date:</font></td><td><font size="5">&nbsp;
+<select size="1" id="Birth Month" name="bmonth">
+<option></option><option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+<option value="6">6</option>
+<option value="7">7</option>
+<option value="8">8</option>
+<option value="9">9</option>
+<option value="10">10</option>
+<option value="11">11</option>
+<option value="12">12</option>
+</select>&nbsp;
+<select size="1" id="Birth Day" name="bday"><option></option>
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+<option value="6">6</option>
+<option value="7">7</option>
+<option value="8">8</option>
+<option value="9">9</option>
+<option value="10">10</option>
+<option value="11">11</option>
+<option value="12">12</option>
+<option value="13">13</option>
+<option value="14">14</option>
+<option value="15">15</option>
+<option value="16">16</option>
+<option value="17">17</option>
+<option value="18">18</option>
+<option value="19">19</option>
+<option value="20">20</option>
+<option value="21">21</option>
+<option value="22">22</option>
+<option value="23">23</option>
+<option value="24">24</option>
+<option value="25">25</option>
+<option value="26">26</option>
+<option value="27">27</option>
+<option value="28">28</option>
+<option value="29">29</option>
+<option value="30">30</option>
+<option value="31">31</option>
+</select>&nbsp;
+<select size="1" id="Birth Year" name="byear"><option></option>
+<option value="2002">2002</option>
+<option value="2001">2001</option>
+<option value="2000">2000</option>
+<option value="1999">1999</option>
+<option value="1998">1998</option>
+<option value="1997">1997</option>
+<option value="1996">1996</option>
+<option value="1995">1995</option>
+<option value="1994">1994</option>
+<option value="1993">1993</option>
+<option value="1992">1992</option>
+<option value="1991">1991</option>
+<option value="1990">1990</option>
+<option value="1989">1989</option>
+<option value="1988">1988</option>
+<option value="1987">1987</option>
+<option value="1986">1986</option>
+<option value="1985">1985</option>
+<option value="1984">1984</option>
+<option value="1983">1983</option>
+<option value="1982">1982</option>
+<option value="1981">1981</option>
+<option value="1980">1980</option>
+<option value="1979">1979</option>
+<option value="1978">1978</option>
+<option value="1977">1977</option>
+<option value="1976">1976</option>
+<option value="1975">1975</option>
+<option value="1974">1974</option>
+<option value="1973">1973</option>
+<option value="1972">1972</option>
+<option value="1971">1971</option>
+<option value="1970">1970</option>
+<option value="1969">1969</option>
+<option value="1968">1968</option>
+<option value="1967">1967</option>
+<option value="1966">1966</option>
+<option value="1965">1965</option>
+<option value="1964">1964</option>
+<option value="1963">1963</option>
+<option value="1962">1962</option>
+<option value="1961">1961</option>
+<option value="1960">1960</option>
+<option value="1959">1959</option>
+<option value="1958">1958</option>
+<option value="1957">1957</option>
+<option value="1956">1956</option>
+<option value="1955">1955</option>
+<option value="1954">1954</option>
+<option value="1953">1953</option>
+<option value="1952">1952</option>
+<option value="1951">1951</option>
+<option value="1950">1950</option>
+<option value="1949">1949</option>
+<option value="1948">1948</option>
+<option value="1947">1947</option>
+<option value="1946">1946</option>
+<option value="1945">1945</option>
+<option value="1944">1944</option>
+<option value="1943">1943</option>
+<option value="1942">1942</option>
+<option value="1941">1941</option>
+<option value="1940">1940</option>
+<option value="1939">1939</option>
+<option value="1938">1938</option>
+<option value="1937">1937</option>
+<option value="1936">1936</option>
+<option value="1935">1935</option>
+<option value="1934">1934</option>
+<option value="1933">1933</option>
+<option value="1932">1932</option>
+<option value="1931">1931</option>
+<option value="1930">1930</option>
+<option value="1929">1929</option>
+<option value="1928">1928</option>
+<option value="1927">1927</option>
+<option value="1926">1926</option>
+<option value="1925">1925</option>
+<option value="1924">1924</option>
+<option value="1923">1923</option>
+<option value="1922">1922</option>
+<option value="1921">1921</option>
+<option value="1920">1920</option>
+<option value="1919">1919</option>
+<option value="1918">1918</option>
+<option value="1917">1917</option>
+<option value="1916">1916</option>
+<option value="1915">1915</option>
+<option value="1914">1914</option>
+<option value="1913">1913</option>
+<option value="1912">1912</option>
+<option value="1911">1911</option>
+<option value="1910">1910</option>
+<option value="1909">1909</option>
+<option value="1908">1908</option>
+<option value="1907">1907</option>
+<option value="1906">1906</option>
+<option value="1905">1905</option>
+<option value="1904">1904</option>
+<option value="1903">1903</option>
+<option value="1902">1902</option>
+<option value="1901">1901</option>
+</select>
+</font></td>
+</tr>
+<tr><td colspan="2"><font size="5">&nbsp;</font></td></tr><tr id="tr600">
+<td height="20" colspan="2" align="center"><p id="prerdf4"><input type="submit" value="Submit" name="B1">&nbsp;&nbsp;&nbsp;
+<input type="reset" value="Reset" name="B2"></p><p><font face=arial size=1><font color=red>*</font> Denotes Required Field</font></p>
+</td></tr></tbody></table><input type="hidden" name="station" value="klwn-am">
+<input type="hidden" name="contest" value="Contact Us">
+<input type="hidden" name="capid" value="40514">
+<input type="hidden" id="serialid1" name="serialid" value="">
+<input type="hidden" name="emailresponse" value="jflood@gpmnow.com">
+<input type="hidden" name="bounceback" value="http://www.klwn.com/default.asp?pid=3675850&f=thanks">
+<input type="hidden" name="picdenypage" value="http://www.klwn.com/default.asp?pid=3675850&f=enter">
+
+</div></form></td></tr></table><script id=scrpt105 type="text/javascript">doit('Form1')</script><script id=scrpt107 type="text/javascript">var todaydate = new Date();var todayyear = todaydate.getFullYear();var yeartocheck = todayyear -13;var elSel = document.getElementById('Birth Year');if (elSel){if (elSel.options[0].value != yeartocheck && elSel.options[1].value != yeartocheck){var currentFirstYear = elSel.options[1].value;var numOfYearsToFill = yeartocheck - currentFirstYear;for (z = numOfYearsToFill-1; z >= 0; z--){var elOptOld = elSel.options[1];var elOptNew = document.createElement('option');elOptNew.text = yeartocheck - z;elOptNew.value = yeartocheck - z;try {elSel.add(elOptNew, elOptOld);}catch(ex) {elSel.add(elOptNew, 1);}}}}</script><table id="tbl44414"  width=720 cellspacing="0"><tr id=tr807><td><font face='Arial' size=2 color=000000><div></div><div style="text-align: center; "><br /><span style="font-size: 18pt;"><br />Studio Line: 785-843-1321</span></div><div>&nbsp;</div><img id="hzDownscaled" style="position: absolute; top: -10000px;" alt="" /></font></td></tr></table><!-- abc wire ready line # 26855 -->
+	</td></tr>
+	</table></td></tr></table></td>
+
+	
+		<td valign="top" width="300" align="center">
+		
+		<table id="table321" border="0" cellpadding="0" cellspacing="0" style="padding-left:3px; padding-right:3px;">
+		<tr id=tr322><td align=center><table id=table153 width=100% cellspacing=0 cellpadding=0><tr id=tr327><td id="td123a"><a href="?pid=3951217" target="_self" class="exclude" onclick="dcsMultiTrack(this.target,'www.klwn.com?pid=3951217','DCS.dcsuri','','DCS.dcsqry','?pid=3951217','WT.ti','Offsite Link: ?pid=3951217');return false;">
+<table width="300" cellspacing="0" cellpadding="0" align="center">
+     <tbody>
+         <tr>
+             <td valign="top"><br /></td>
+         </tr>
+     </tbody>
+</table>
+</a>
+<table width="300" cellspacing="0" cellpadding="0" align="center">
+     <tbody>
+         <tr>
+             <td valign="top"><br /></td>
+         </tr>
+         <tr>
+             <td valign="top"><img src="http://www.promosuiteinteractive.com/onlinedb/klwnam/pics/HMPG_Twitter.jpg" alt="" height="31" width="300" /><br />
+             </td>
+         </tr>
+         <tr>
+             <td valign="top">
+             <a class="twitter-timeline" href="https://twitter.com/1320KLWN" data-widget-id="531853062126575617" onclick="dcsMultiTrack(this.target,'','DCS.dcsuri','/twitter.com/1320KLWN','DCS.dcsqry','','WT.ti','Offsite Link: https://twitter.com/1320KLWN');return false;">Tweets by @1320KLWN</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></td>
+</tr>
+<tr>
+     <td valign="top"><img src="http://www.promosuiteinteractive.com/onlinedb/klwnam/pics/HMPG_Facebook.jpg" alt="" height="31" width="300" /><br />
+     </td>
+</tr>
+<tr>
+     <td valign="top"><iframe src="http://www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2F1017and1320klwn&amp;width=300&amp;colorscheme=light&amp;show_faces=true&amp;stream=true&amp;header=true&amp;height=450" scrolling="no" style="border: currentColor; width: 300px; height: 450px; overflow: hidden;" allowtransparency=""  false;?="" return="" frameborder="0"></iframe><br />
+     </td>
+</tr>
+<tr>
+     <td valign="top"><br />
+     </td>
+</tr>
+<tr>
+     <td valign="top"><!--
+     Start of Yahoo! Finance code -->
+     
+     <!--
+     End of Yahoo! Finance code --></td>
+</tr>
+</tbody>
+</table></td></tr><tr id=tr328></tr></table></td></tr><input type=hidden name=quick value=33964>
+		</table></td>
+		
+	</tr>
+	<tr id=tr829><td valign="top" colspan="3">
+	
+	</td></tr>
+
+	<tr id=tr830><td colspan="3" height="30" valign="bottom"><br>
+	<div id=div136 align="center"><font size="1" face="arial" color="#000000">
+	<style type="text/css">
+body,td,th {
+	font-size: 11px;	 
+	font-family: Arial, Helvetica, sans-serif;
+}
+a.footer:link {
+	color: #FFF;
+	text-decoration: none;
+}
+a.footer:visited {
+	text-decoration: none;
+	color: #FFF;
+}
+a.footer:hover {
+	text-decoration: none;
+	color: #FFF;
+}
+a.footer:active {
+	text-decoration: none;
+	color: #FFF;
+}
+</style>
+<table width="100%" border="0" align="center" cellpadding="0" cellspacing="5">
+  <tr>
+    <td height="113"  bgcolor="#000000"><table border="0" align="center" cellpadding="0" cellspacing="5">
+      <tr>
+         
+        <td width="100%">
+          <p align="center"><font color="#ffffff"><strong>Copyright Great Plains Media 2015<br />3125 West 6th Street<br />Lawrence, KS 66049<br />785-843-1320</strong></font><br />
+          </p></td>
+        <td width="113" valign="top"><center>
+        </center></td>
+      </tr>
+    </table></td>
+  </tr>
+</table>
+<br>
+				<a href="/default.asp?pid=5899556" class="bottomLnk">Contest Rules</a>&nbsp;&nbsp;&nbsp;
+				
+				<a href="/default.asp?pid=4317961" class="bottomLnk">EEO Reports</a>&nbsp;&nbsp;&nbsp;
+				
+				<a href="/default.asp?pid=9204980" class="bottomLnk">FCC Public File</a>&nbsp;&nbsp;&nbsp;
+				
+				<a href="/default.asp?pid=9103973" class="bottomLnk">Privacy Policy</a>&nbsp;&nbsp;&nbsp;
+				
+	<br><a href="http://www.promosuite.com" target="_blank" class="bottomLnk">This site powered by PromoSuite Interactive</a>
+	
+	</font></div><br></td>
+	</tr></table></td></tr>
+	
+	<tr id="tr831">
+	
+	</tr>
+	</table></center></div>
+	<script id="scrpt150" type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script id=scrpt151 type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-57792900-1");
+pageTracker._trackPageview("Contact Us - www.klwn.com/default.asp?pid=3675850");
+} catch(err) {}</script>
+
+
+	<script id="scrpt154" type="text/javascript" src="/../../../../assets.pinterest.com/js/pinit.js"></script>
+    <script type="text/javascript">
+        function clearDeadRSSlinks() {
+            try {
+                var links = document.body.getElementsByTagName('a');
+                var urlHere = new String(document.location.href);
+                var i, link, evalStr, parentNode, childNode;
+
+                for (i = links.length - 1; i >= 0; i--) {
+                    link = links[i];
+                    evalStr = new String(link.href);
+
+                    if (evalStr.length === 0 || urlHere.indexOf(evalStr.toString()) !== -1) {
+                        evalStr = new String(link.className);
+
+                        if (evalStr.toString() === 'fd_itemlink') {
+                            evalStr = link.text;
+                            childNode = document.createElement('span');
+                            childNode.innerHTML = evalStr;
+                            childNode.style.fontWeight = 'bold';
+                            parentNode = link.parentNode;
+                            parentNode.replaceChild(childNode, link);
+                        }
+                    }
+                }
+            }
+            catch (ex) { }
+        }
+        clearDeadRSSlinks();
+    </script>
+</body>
+<script src="../../3592/www/includes/prefillform.js" type="text/javascript" defer="defer"></script>
+</html>
