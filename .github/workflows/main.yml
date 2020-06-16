@@ -25,9 +25,10 @@ jobs:
               bucket: 'bafzbeiezu7zcqvxe53ouisscrkykfwlbyvxb7khnduwipmlgehxsvrgnxi'
               thread: 'bafk7lg73o3ltzjdudn6puklqriho4ezluyrmbuhxryeb6rhv5ncaqxq'
               path: '*'
-              #pattern: '*'
-              #remove: 'no'
-          # Use the output from the `hello` step
+              pattern: '*'
+              remove: 'no'
+              org: 'XCALIVER'
+              # Use the output from the `hello` step
           - run: echo "bucket - ${{ steps.bucket.outputs.bucket }}"
           - run: echo "ipfs - ${{ steps.bucket.outputs.ipfs }}"
           - run: echo "ipfs link - ${{ steps.bucket.outputs.ipfsUrl }}"
