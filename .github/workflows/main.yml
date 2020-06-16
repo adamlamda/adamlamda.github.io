@@ -20,10 +20,10 @@ jobs:
             uses: textileio/github-action-buckets@v14
 
             with:
-              key: 'bcnmj25vk2ewnd6cnhptgdwpms4'
-              secret: 'biovjalwgfgex5eydcweiec2pyzmowbkbl2w7a5a'
+              key: 'bcfi5uc2f4ug5op5ajgduoyampq'
+              secret: 'baryurnrxgcbpvups7r7eny6t2vt7vexf2tj3pzi'
               bucket: 'bafzbeiezu7zcqvxe53ouisscrkykfwlbyvxb7khnduwipmlgehxsvrgnxi'
-       #       thread: 'bafk44kh5ixbkqaq6lue5tr3sgyfyt7v6jtmbguzvliqgrwmo6czcm2i'
+              thread: 'bafk7lg73o3ltzjdudn6puklqriho4ezluyrmbuhxryeb6rhv5ncaqxq'
               path: '*'
               #pattern: '*'
               #remove: 'no'
@@ -38,3 +38,10 @@ jobs:
             
             
               
+ # KEY                          SECRET                                    TYPE        
+ # bcfi5uc2f4ug5op5ajgduoyampq  baryurnrxgcbpvups7r7eny6t2vt7vexf2tj3pzi  user group  
+#
+#> Success! Created new API key and secret
+#root@ATLAS:/var/www/html/.textile# hub key create --org XCALIVER#
+# account
+#
