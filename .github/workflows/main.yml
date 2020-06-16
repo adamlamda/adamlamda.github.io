@@ -16,9 +16,9 @@ jobs:
           runs-on: ubuntu-latest
           name: push textile bucket
           steps:
-          - name: push action
-            id: push
-            uses: textileio/github-action-buckets@latest
+          - name: Textile Buckets
+            uses: textileio/github-action-buckets@v14
+
             with:
               key: 'bcnmj25vk2ewnd6cnhptgdwpms4'
               secret: 'biovjalwgfgex5eydcweiec2pyzmowbkbl2w7a5a'
