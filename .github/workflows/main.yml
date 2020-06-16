@@ -23,7 +23,7 @@ jobs:
               key: 'bcnmj25vk2ewnd6cnhptgdwpms4'
               secret: 'biovjalwgfgex5eydcweiec2pyzmowbkbl2w7a5a'
               bucket: 'bafzbeiezu7zcqvxe53ouisscrkykfwlbyvxb7khnduwipmlgehxsvrgnxi'
-              thread: 'bafk44kh5ixbkqaq6lue5tr3sgyfyt7v6jtmbguzvliqgrwmo6czcm2i'
+       #       thread: 'bafk44kh5ixbkqaq6lue5tr3sgyfyt7v6jtmbguzvliqgrwmo6czcm2i'
               path: '*'
               #pattern: '*'
               #remove: 'no'
